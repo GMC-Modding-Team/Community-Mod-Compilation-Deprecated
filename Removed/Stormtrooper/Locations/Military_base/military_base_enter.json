@@ -1,0 +1,61 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "military_base_enter" ],
+    "weight": 1000,
+    "object": {
+	  "fill_ter": "t_concrete_floor",
+      "rows": [
+        "||||||||||C==|||||||||||",
+        "|.........s..s.........|",
+        "|.........s..s.........|",
+        "|||||d|||||..|||||d|||||",
+        "|b*.....*b|..|b*.....*b|",
+        "|b.......b|..|b.......b|",
+        "|.........|..|.........|",
+        "|.........|..|.........|",
+        "|b.......b|..|b.......b|",
+        "|b*.....*b|..|b*.....&b|",
+        "|||||d|||||..|||||d|||||",
+        "........................",
+        "........................",
+        "|||||||||||dd|||||||||||",
+        "|T....................T|",
+        "|.....############.....|",
+        "|....#tttttttttttt#....|",
+        "|....#tttttttttttt#....|",
+        "|....#tttttttttttt#....|",
+        "|....#tttttttttttt#....|",
+        "|....#tttttttttttt#....|",
+        "|.....############.....|",
+        "|......................|",
+        "|||||||||||..|||||||||||"
+      ],
+      "terrain": {
+        ".": "t_thconc_floor",
+        "C": "t_card_military",
+        "d": "t_door_metal_c",
+        "|": "t_strconc_wall",
+		"=": "t_door_metal_locked"
+      },
+      "furniture": {
+        "#": "f_chair",
+        "T": "f_trashcan",
+        "t": "f_table",
+		"s": "f_sandbag_half",
+		"b": "f_bed",
+		"*": "f_dresser"
+      },
+	  "place_monsters": [
+        { "monster": "inv", "x": [ 0, 23 ], "y": [ 0, 23 ], "density": 0.1 }
+	  ],
+	  "items": {
+			"b": { "item": "army_bed", "chance": 50, "repeat": 2 },
+            "*": { "item": "clothing_soldier_set", "chance": 40 },
+			"t": [ { "item": "dining", "chance": 50 }, { "item": "mil_food", "chance": 30} ],
+			".": [ { "item": "soldier_dead", "chance": 1 }, { "item": "casings2", "chance": 1 } ]
+		}
+    }
+  }
+]

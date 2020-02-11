@@ -1,0 +1,49 @@
+[
+	{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mags_m4",
+    "entries": [ { "item": "stanag30", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30 } ]
+	},
+	{
+		"type": "profession",
+		"ident": "assault_soldier",
+		"name": "Stormtrooper",
+		"description": "You are the member of a special assault unit, the 'Stormtroopers'. During the initial chaos you were among the ones responsible for purging the monsters taking over the Earth. You fought well, taking careful shots with your trusty M4A1 and blasting off foes that got too close with your sawed-off shotgun. But the war was lost and you're the last man standing from your team... Wait, what?! No! You'll never accept this! The war is not over, as long as you're alive. Zombies, Mycus, triffids, mutaded animals, bandits... You'll shoot, burn or slash them all! You must fight, as every Stormtrooper does! Aim carefully, slash mercilessly and restore the order!",
+		"points": 6,
+		"traits": [
+		  "STORMTROOPER",
+		  "TRUTHTELLER"
+		],
+		"skills": [ { "level": 2, "name": "gun" }, { "level": 3, "name": "rifle" }, { "level": 2, "name": "melee" }, { "level": 1, "name": "firstaid" }, { "level": 1, "name": "pistol" }, { "level": 1, "name": "shotgun" } ],
+		"items": {
+		  "both": {
+			"items": [
+			  "pants_army",
+			  "undershirt",
+			  "jacket_army",
+			  "tac_fullhelmet",
+			  "mask_ski",
+			  "gloves_liner",
+			  "gloves_tactical",
+			  "socks",
+			  "boots_combat",
+			  "rucksack",
+			  "badge_storm"
+			],
+			"entries": [
+			  { "item": "modularvest", "contents-group": "mags_m4" },
+			  { "item": "knife_combat", "container-item": "sheath" },
+			  { "item": "machete", "container-item": "scabbard" },
+			  { "item": "sw629", "ammo-item": "44magnum", "charges": 6, "container-item": "holster" },
+			  { "item": "44magnum", "container-item": "bandolier_pistol", "charges": 10 },
+			  { "item": "shotgun_sawed", "charges": 0, "container-item": "holster" },
+			  { "item": "two_way_radio", "charges": 100},
+			  { "item": "m4a1", "ammo-item": "556", "charges": 30, "contents-item": [ "shoulder_strap", "holo_sight" ] }
+			]
+		  },
+		  "male": [ "boxer_shorts" ],
+		  "female": [ "sports_bra", "boxer_shorts" ]
+		}
+	}
+]

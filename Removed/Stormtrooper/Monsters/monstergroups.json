@@ -1,0 +1,90 @@
+[
+  {
+    "name": "inv",
+    "type": "monstergroup",
+    "default": "inv_std",
+    "monsters": [
+      { "monster": "inv_std", "freq": 50, "cost_multiplier": 1 },
+      { "monster": "inv_sup", "freq": 20, "cost_multiplier": 1 },
+      { "monster": "inv_snp", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "inv_cqb", "freq": 20, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "psii",
+    "type": "monstergroup",
+    "default": "psi_mad",
+    "monsters": [
+      { "monster": "psi_mad", "freq": 100, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type":"monstergroup",
+    "name" : "labb",
+    "default" : "mon_zombie_brute_shocker",
+    "monsters" : [
+      { "monster" : "mon_zombie_brute_shocker", "freq" : 80, "cost_multiplier" : 1},
+      { "monster" : "mon_chickenbot", "freq" : 10, "cost_multiplier" : 30 }
+    ]
+  },
+  {
+    "type":"monstergroup",
+	"edit-mode": "modify",
+    "name" : "GROUP_FOREST",
+    "default" : "mon_null",
+    "monsters" : [
+	  { "monster": "inv_std", "freq": 50, "cost_multiplier": 1, "pack_size" : [1,3] },
+      { "monster": "inv_sup", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] },
+      { "monster": "inv_snp", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "inv_cqb", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] }
+    ]
+  },
+  {
+    "type":"monstergroup",
+	"edit-mode": "modify",
+    "name" : "GROUP_MAYBE_MIL",
+    "default" : "mon_null",
+    "monsters" : [
+      { "monster": "inv_std", "freq": 50, "cost_multiplier": 1, "pack_size" : [1,3] },
+      { "monster": "inv_sup", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] },
+      { "monster": "inv_snp", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "inv_cqb", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] }
+    ]
+  },
+  {
+    "type":"monstergroup",
+	"edit-mode": "modify",
+    "name" : "GROUP_PREPPER_HOUSE",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster": "inv_std", "freq": 50, "cost_multiplier": 1, "pack_size" : [1,3] },
+      { "monster": "inv_sup", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] },
+      { "monster": "inv_snp", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "inv_cqb", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] }
+    ]
+  },
+  {
+    "type":"monstergroup",
+	"edit-mode": "modify",
+    "name" : "GROUP_TURRET",
+    "default" : "mon_turret",
+    "monsters" : [
+      { "monster": "inv_std", "freq": 50, "cost_multiplier": 1, "pack_size" : [1,3] },
+      { "monster": "inv_sup", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] },
+      { "monster": "inv_snp", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "inv_cqb", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] }
+    ]
+  },
+  {
+    "type":"monstergroup",
+	"edit-mode": "modify",
+    "name" : "GROUP_ROBOT",
+    "default" : "mon_manhack",
+    "monsters" : [
+      { "monster": "inv_std", "freq": 50, "cost_multiplier": 1, "pack_size" : [1,3] },
+      { "monster": "inv_sup", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] },
+      { "monster": "inv_snp", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "inv_cqb", "freq": 20, "cost_multiplier": 1, "pack_size" : [0,2] }
+    ]
+  }
+]

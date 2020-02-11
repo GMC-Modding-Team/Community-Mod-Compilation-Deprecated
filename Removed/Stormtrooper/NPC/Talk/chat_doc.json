@@ -1,0 +1,29 @@
+[
+  {
+    "id": "chat_doc",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_any_trait": [
+            "STORMTROOPER"
+        ],
+      "yes": "Hello there, Stormtrooper. If you need medical aid, feel free to use what supplies I have or spend a few days in bed.",
+      "no": "You aren't authorized to stay there. Leave immediately or I'll have to call the guards. I think I might share some mecial supplies if you're ill or injured, but you should leave immediately. This is a restriected area, sorry."
+    },
+    "responses": [
+	  {
+			"text": "Thanks, I'll help myself.",
+			"topic": "TALK_DONE",
+			"condition": {
+			  "u_has_any_trait": [
+					"STORMTROOPER"
+				]
+			}
+	  },
+	  {
+        "text": "Okay, okay, I'm leaving...",
+        "topic": "TALK_DONE",
+        "condition": { "not": { "u_has_trait": "STORMTROOPER" } }
+      }
+    ]
+  }
+]

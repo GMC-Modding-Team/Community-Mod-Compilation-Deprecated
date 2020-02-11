@@ -1,0 +1,73 @@
+[
+  {
+    "id": "SB_paper",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "吉利纸箱",
+    "name_plural": "吉利纸箱",
+    "description": "  <color_yellow>▋</color>吉利纸箱 ???(<color_yellow>奇特</color>)\r\n<color_dark_gray>    「你还需要一罐除臭剂」</color>\r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n  防御          □□□□□□□□□□□□□□□□□□□□   0  \r\n  覆盖率        <good>■■■■■■■■■■■■■■■■■■■■</good>   10  \r\n  机动性        <good>■■■</good>□□□□□□□□□□□□□□□□□   2  \r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n<color_dark_gray>   在你偷窥会乳摇的泳装丧尸,或者朝市中心枪店潜行的过程中,这个画着性感丧尸的大纸箱可以保证没'人'发现你..</color>\r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n<color_dark_gray>* 这玩意使你觉得自己是个智障 智力-3\r\n* 这两个小洞看不清楚啊 感知-3\r\n* 这玩意碍手矮脚的 敏捷-3 速度-20</color>",
+    "weight": 360,
+    "volume": 10,
+    "price": 230,
+    "to_hit": 1,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "color": "blue",
+    "covers": [ "LEGS", "TORSO", "ARMS", "HANDS", "HEAD", "FEET", "MOUTH" ],
+    "coverage": 98,
+    "encumbrance": 50,
+    "warmth": 5,
+    "material_thickness": 1,
+    "flags": [ "BELTED" ],
+	"artifact_data": { 
+		"effects_worn": [ "AEP_INVISIBLE","AEP_INT_DOWN","AEP_PER_DOWN","AEP_DEX_DOWN", "AEP_SPEED_DOWN" ] 
+		}
+  },
+  {
+    "result": "SB_paper",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "survival",
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+	"tools": [[ [ "permanent_marker", 5 ],[ "survival_marker", 5 ] ]],
+    "components": [ [ [ "box_large", 2 ] ], [ [ "duct_tape", 10 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "id": "SB_L_paper",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "乐观纸箱",
+    "name_plural": "乐观纸箱",
+    "description": "终焉未至,痛苦犹存,保持乐观,强颜欢笑.",
+    "weight": 150,
+    "volume": 4,
+    "price": 100,
+    "to_hit": 1,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "color": "blue",
+    "covers": [ "HEAD", "MOUTH" ],
+    "coverage": 98,
+    "encumbrance": 7,
+    "warmth": 5,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE","HELMET_COMPAT" ]
+  },
+  {
+    "result": "SB_L_paper",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "survival",
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+	"tools": [[ [ "permanent_marker", 1 ],[ "survival_marker", 1 ] ]],
+    "components": [ [ [ "box_small", 1 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "NC_STORM_DOC_worn",
+    "type": "item_group",
+    "subtype": "collection",
+     "entries": [
+		{ "item": "boxer_shorts" },
+        { "item": "pants" },
+        { "item": "dress_shirt" },
+        { "item": "gloves_medical" },
+        { "item": "socks" },
+        { "item": "dress_shoes" },
+        { "item": "coat_lab" },
+        { "item": "stethoscope" }
+      ]
+  },
+  {
+    "id": "NC_STORM_DOC_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+		{ "group": "hospital_medical_items" }
+    ]
+  },
+  {
+    "id": "NC_STORM_DOC_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      {
+        "distribution": [
+          { "item": "flamethrower", "prob": 0 }
+        ]
+      }
+    ]
+  }
+]
