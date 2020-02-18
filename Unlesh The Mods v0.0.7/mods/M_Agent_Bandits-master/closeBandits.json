@@ -1,4 +1,4 @@
-[ 
+[
   {
     "type" : "MONSTER",
     "id" : "mon_bandit_looter",
@@ -6,7 +6,7 @@
     "default_faction": "bandit_loot",
     "symbol":"@",
     "color":"pink",
-    "volume": "62500 ml", 
+    "volume": "62500 ml",
     "weight": "81500 g",
     "material":"flesh",
     "diff":10,
@@ -23,10 +23,10 @@
     "armor_stab":2,
     "vision_day":40,
     "vision_night":8,
-    "death_drops": { 
+    "death_drops": {
       "subtype": "collection",
-      "groups": [ 
-        [ "bandit_looter", 100 ] 
+      "groups": [
+        [ "bandit_looter", 100 ]
       ]
     },
     "upgrades": {
@@ -36,16 +36,16 @@
     "hp":75,
     "death_function":["NORMAL"],
     "description":"Covered in ragtag armor, the look in this one's eyes denotes desperation, a common but dangerous feeling in this time.",
-    
+
     "flags":["HUMAN", "GOODHEARING", "GROUP_MORALE", "GROUP_BASH", "SEES", "HEARS", "SMELLS", "FILTHY", "WARM", "BASHES", "HUMAN", "FAT", "BONES", "GUILT", "PUSH_MON","HIT_AND_RUN", "SWARMS"],
-    
+
     "anger_triggers":["HURT", "FRIEND_ATTACKED", "FRIEND_DIED"],
-    
+
     "fear_triggers":["PLAYER_CLOSE"],
 
     "placate_triggers":[ "MEAT" ],
     "categories":["CLASSIC"]
-    
+
 },{
 
     "type" : "MONSTER",
@@ -54,7 +54,7 @@
     "default_faction": "bandit_loot",
     "symbol":"@",
     "color":"brown",
-    "volume": "62500 ml", 
+    "volume": "62500 ml",
     "weight": "81500 g",
     "material":"flesh",
     "diff":12,
@@ -71,10 +71,10 @@
     "armor_stab":4,
     "vision_day":50,
     "vision_night":6,
-    "death_drops": { 
+    "death_drops": {
       "subtype": "collection",
       "groups": [
-        [ "bandit_scrapper", 100 ] 
+        [ "bandit_scrapper", 100 ]
       ]
     },
     "upgrades": {
@@ -86,23 +86,23 @@
     "special_attacks":[["GRAB", 6]],
     "description":"You can tell simply by the number of scars this survivor has that they have seen many battles. Best keep your distance, because he seems all too eager to get personal.",
     "flags":["HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "HUMAN", "FAT", "BONES", "PUSH_MON", "SWARMS"],
-    
+
     "anger_triggers":["HURT", "PLAYER_CLOSE", "PLAYER_WEAK"],
-    
+
     "fear_triggers":["FRIEND_DIED"],
-    
+
     "placate_triggers":[ "MEAT" ],
     "categories":["CLASSIC"]
-    
+
 },{
-  
+
     "type" : "MONSTER",
     "id" : "mon_bandit_melee",
     "name": "Psycho",
     "default_faction": "bandit_loot",
     "symbol":"@",
     "color":"white_red",
-    "volume": "62500 ml", 
+    "volume": "62500 ml",
     "weight": "81500 g",
     "material":"flesh",
     "diff":20,
@@ -122,7 +122,7 @@
     "death_drops": {
       "subtype": "collection",
       "groups": [
-        [ "bandit_psycho", 100 ] 
+        [ "bandit_psycho", 100 ]
       ]
     },
     "upgrades": {
@@ -138,19 +138,19 @@
     ],
     "description":"Brought to insanity through years of drug use, this crazed individual brandishes a large and nasty blade and twitches anticipation for the upcoming battle.",
     "flags":["HUMAN", "POISON", "BLEED", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "FILTHY", "BASHES", "HUMAN", "FAT", "BONES", "PUSH_MON", "SWARMS"],
-    
+
     "anger_triggers":["HURT", "PLAYER_CLOSE", "PLAYER_WEAK"],
-    
+
     "placate_triggers":[ "MEAT" ]
-    
+
 },{
-  
+
     "type" : "MONSTER",
     "id" : "mon_bandit_super_psycho",
     "name": "Bad Doctor",
     "default_faction": "bandit_loot",
     "symbol":"@",
-    "color":"ltgreen_red",
+    "color":"light_green_red",
     "size":"MEDIUM",
     "material":"flesh",
     "diff":30,
@@ -170,7 +170,7 @@
     "death_drops": {
       "subtype": "collection",
       "groups": [
-        [ "bandit_super_psycho", 100 ] 
+        [ "bandit_super_psycho", 100 ]
       ]
     },
     "hp":200,
@@ -181,18 +181,18 @@
     ],
     "description":"This guy's way to big to be just another bandit, and his revving chainsaw only cements that fact. The one hole in his burlap-sack mask reveals a bloodshot orb darting around, surveying for blood.",
     "flags":["HUMAN", "GOODHEARING", "GROUP_MORALE", "ATTACKMON", "SEES", "HEARS", "SMELLS", "WARM", "BLEED", "BASHES", "DESTROYS", "HUMAN", "LEATHER", "FAT","BONES", "PUSH_MON", "SWARMS"],
-    
+
     "anger_triggers":["HURT", "FRIEND_DIED", "PLAYER_CLOSE", "PLAYER_WEAK"]
-    
+
 },{
-  
+
     "type" : "MONSTER",
     "id" : "mon_bandit_shotgun",
     "name": "Armored Bandit",
     "default_faction": "bandit_raid",
     "symbol":"@",
     "color":"ltred",
-    "volume": "62500 ml", 
+    "volume": "62500 ml",
     "weight": "81500 g",
     "material":"flesh",
     "diff":20,
@@ -213,7 +213,7 @@
     "death_drops": {
       "subtype": "collection",
       "groups": [
-        [ "bandit_shotgun", 100 ] 
+        [ "bandit_shotgun", 100 ]
       ]
     },
     "upgrades":{
@@ -244,11 +244,11 @@
     "starting_ammo" : {"shot_scrap": 10},
     "description":"Slightly more armored than the average bandit, this survivor stands out with their break-action shotgun and satchel of shells.",
     "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
-    
+
     "anger_triggers":["HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE"],
-    
-    "fear_triggers":["FRIEND_DIED", "SOUND", "FIRE"],	
-    
+
+    "fear_triggers":["FRIEND_DIED", "SOUND", "FIRE"],
+
     "placate_triggers":["PLAYER_WEAK", "SOUND", "MEAT"],
     "categories":["CLASSIC"]
   },{
@@ -258,7 +258,7 @@
     "default_faction": "bandit_raid",
     "symbol":"@",
     "color":"dkgray_green",
-    "volume": "62500 ml", 
+    "volume": "62500 ml",
     "weight": "81500 g",
     "material":"flesh",
     "diff":20,
@@ -310,11 +310,11 @@
     "starting_ammo" : {"shot_00": 15},
     "description":"Large chuncks of scrap metal drape off this bandit's duster with odd symbols painted across each. They grip their shotgun sternly, almost daring some one to test their mettle.",
     "flags":[ "ATTACKMON", "HUMAN", "GOODHEARING", "GROUP_MORALE", "SEES", "HEARS", "SMELLS", "WARM", "SWARMS", "BASHES", "HUMAN",    "FAT", "BONES", "PUSH_MON"],
-    
+
     "anger_triggers":["HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE"],
-    
-    "fear_triggers":["FRIEND_DIED", "SOUND", "FIRE"],	
-    
+
+    "fear_triggers":["FRIEND_DIED", "SOUND", "FIRE"],
+
     "placate_triggers":["PLAYER_WEAK", "SOUND", "MEAT"],
     "categories":["CLASSIC"]
   }
