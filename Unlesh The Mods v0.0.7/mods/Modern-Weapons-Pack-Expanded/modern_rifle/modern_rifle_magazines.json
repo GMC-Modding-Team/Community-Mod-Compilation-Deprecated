@@ -9,7 +9,7 @@
     "price": 2000,
     "material": [ "steel", "plastic" ],
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "ammo_type": "223",
     "capacity": 10,
     "reliability": 7,
@@ -38,7 +38,7 @@
     "price": 3000,
     "capacity": 30,
     "flags": [ "MAG_COMPACT" ]
-  },  
+  },
   {
     "id": "300r4mag",
     "type": "MAGAZINE",
@@ -49,7 +49,7 @@
     "price": 24000,
     "material": "plastic",
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "ammo_type": "300",
     "//": "Capacity should be 4 but I added one to represent one in the chamber.",
     "capacity": 5,
@@ -76,7 +76,7 @@
     "price": 6000,
     "material": [ "plastic" ],
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "ammo_type": "308",
     "//": "Capacity should be 5 but I added one to represent one in the chamber.",
     "capacity": 6,
@@ -93,13 +93,13 @@
     "price": 22000,
     "material": [ "plastic" ],
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "ammo_type": "308",
     "//": "Capacity should be 10 but I added one to represent one in the chamber.",
     "capacity": 11,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
-  },  
+  },
   {
     "id": "transmag",
     "copy-from": "stanag30",
@@ -120,7 +120,7 @@
     "price": 8000,
     "material": "steel",
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "ammo_type": "223",
     "capacity": 100,
     "reliability": 7,
@@ -137,10 +137,10 @@
     "price": 30000,
     "material": [ "steel" ],
     "symbol": "#",
-    "color": "ltgray",
+    "color": "light_gray",
     "ammo_type": "308",
     "capacity": 50,
     "reliability": 7,
     "flags": [ "MAG_BULKY" ]
-  }  
+  }
 ]
