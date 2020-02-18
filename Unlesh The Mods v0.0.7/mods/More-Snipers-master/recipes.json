@@ -1,0 +1,65 @@
+[
+  {
+    "type": "recipe",
+    "result": "reloaded_939",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 3,
+    "time": "2 m",
+    "book_learn": [ [ "recipe_bullets", 3 ], [ "mag_rifle", 4 ] ],
+    "charges": 1,
+    "reversible": true,
+    "tools": [ [ [ "press", -1 ] ], [ [ "fire", -1 ], [ "toolset", 2 ], [ "hotplate", 2 ] ] ],
+    "components": [
+      [ [ "939_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder", 15 ], [ "gunpowder_rifle", 12 ], [ "gunpowder_magnum_pistol", 12 ] ],
+      [ [ "lead", 5 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+   },
+   {
+    "type": "recipe",
+    "result": "reloaded_9396",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "skills_required": [ "gun", 4 ],
+    "difficulty": 4,
+    "time": "3 m",
+    "book_learn": [ [ "recipe_bullets", 3 ], [ "mag_rifle", 4 ] ],
+    "charges": 1,
+    "reversible": true,
+    "tools": [ [ [ "press", -1 ] ], [ [ "fire", -1 ], [ "toolset", 2 ], [ "hotplate", 2 ] ] ],
+    "components": [
+      [ [ "939_casing", 1 ] ],
+      [ [ "smrifle_primer", 1 ] ],
+      [ [ "gunpowder", 15 ], [ "gunpowder_rifle", 12 ], [ "gunpowder_magnum_pistol", 12 ] ],
+      [ [ "lead", 8 ] ],
+      [ [ "copper", 2 ] ]
+    ]
+   },
+  {
+     "result": "reloaded_408",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "gun", 7 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 6 ] ],
+    "charges": 1,
+    "reversible": true,
+    "using": [ [ "bullet_forming", 18 ], [ "ammo_bullet", 12 ] ],
+    "components": [
+      [ [ "408_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder", 25 ], [ "gunpowder_large_rifle", 30 ] ],
+      [ [ "copper", 5 ] ]
+  ]
+  }
+  ]
