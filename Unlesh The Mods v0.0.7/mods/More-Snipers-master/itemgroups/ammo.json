@@ -9,7 +9,8 @@
     "id" : "ammo_rifle_rare",
     "items": [ 
 	    ["939", 20], 
-	    ["9396", 20] 
+	    ["9396", 20],
+	    [ "338", 40 ]
 ]
 }, 
 {
@@ -17,14 +18,19 @@
     "id": "ammo_casings",
     "items": [ 
 	    ["939_casing", 70 ], 
-           [ "408_casing", 30] ]  
+           [ "408_casing", 30],
+	    [ "338_casing", 40 ]
+	    
+]  
 },
 {
 	 "type": "item_group",
     "id": "ammo_rifle_reloaded",
     "items": [ 
 	    [ "reloaded_939", 10 ], 
-	    [ "reloaded_9396", 10 ] 
+	    [ "reloaded_9396", 10 ],
+	    [ "reloaded_408", 8 ],
+	    [ "reloaded_338", 20]
     ] 
     },
     {
