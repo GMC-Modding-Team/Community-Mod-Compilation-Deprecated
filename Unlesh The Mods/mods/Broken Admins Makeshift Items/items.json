@@ -1,20 +1,20 @@
 [
  {
-  "id": "makeshift_umbrella", 
-  "type": "GENERIC", 
-  "category": "tools", 
-  "name": "makeshift umbrella", 
-  "description": "A crudely made umbrella, used to keep dry when weilded.", 
+  "id": "makeshift_umbrella",
+  "type": "GENERIC",
+  "category": "tools",
+  "name": "makeshift umbrella",
+  "description": "A crudely made umbrella, used to keep dry when weilded.",
   "weight": 118,
-  "volume": 2, 
-  "price": 12000, 
-  "to_hit": 1, 
+  "volume": 2,
+  "price": 12000,
+  "to_hit": 1,
   "bashing": 1,
-  "material": [ "plastic", "aluminum" ], 
+  "material": [ "plastic", "aluminum" ],
   "symbol": ",",
   "color": "dark_gray",
   "techniques": [ "WBLOCK_1" ],
-  "flags": [ "RAIN_PROTECT" ] 
+  "flags": [ "RAIN_PROTECT" ]
  },
  {
     "id": "make_pla_flask",
@@ -51,51 +51,5 @@
     "contains": 2,
     "seals": true,
     "watertight": true
- },
- {
-    "id": "make_grenade_frag",
-    "type": "TOOL",
-    "name": "makeshift fragmentation grenade",
-    "description": "A crude fragmentation grenade.",
-    "category": "weapons",
-    "weight": 470,
-    "volume": 2,
-    "bashing": 4,
-    "to_hit": 1,
-    "price": 900,
-    "material": ["iron"],
-    "symbol": "*",
-    "color": "green",
-    "explode_in_fire" : true,
-    "explosion" : {
-        "power": 7,
-        "shrapnel": {
-            "count": 10,
-            "mass": 4,
-            "recovery": 5,
-            "drop": "scrap"
-        }
-    },
-    "use_action": {
-        "type": "countdown",
-        "name": "Arm grenade",
-        "message": "You light the fuse on the %s."
-    },
-    "countdown_interval": 3,
-    "countdown_destroy": true,
-    "countdown_action": {
-        "type": "explosion",
-        "explosion_power": 4,
-		"explosion" : {
-			"power": 11,
-			"shrapnel": {
-				"count": 7,
-				"mass": 4,
-				"recovery": 5,
-				"drop": "scrap"
-			}
-		},
-    "flags": [ "BOMB", "NONCONDUCTIVE" ]
-    }
   }
 ]
