@@ -13,7 +13,8 @@
         ],
         "pre_terrain" : "t_pit_shallow",
         "post_terrain" : "t_water_sh"
-    },{
+    },
+    {
         "id": "Fill_the_moat",
         "type" : "construction",
         "description" : "Fill the moat",
@@ -23,7 +24,8 @@
         "qualities": [ [ { "id": "DIG", "level": 3 } ] ],
         "pre_terrain" : "t_water_dp",
         "post_terrain" : "t_water_sh"
-    },{
+    },
+    {
         "id": "Fill_the_moat1",
         "type" : "construction",
         "description" : "Fill the moat",
@@ -33,7 +35,8 @@
         "qualities": [ [ { "id": "DIG", "level": 3 } ] ],
         "pre_terrain" : "t_water_sh",
         "post_terrain" : "t_dirt"
-    },{
+    },
+    {
         "id": "Peel_off_the_floor",
         "type" : "construction",
         "description" : "Peel off the floor",
@@ -48,7 +51,8 @@
                        ],
         "pre_terrain" : "t_floor",
         "post_terrain" : "t_dirtfloor"
-    },{
+    },
+    {
         "id": "Drill_holes_in_the_ceiling",
         "type" : "construction",
         "description" : "Drill holes in the ceiling",
@@ -71,22 +75,5 @@
         ],
         "pre_terrain" : "t_dirtfloor",
         "post_terrain" : "t_dirt"
-    },{
-        "id": "Breaking_the_ground",
-        "type" : "construction",
-        "description" : "Breaking the ground",
-        "category" : "DIG",
-        "difficulty" : 3,
-        "time" : 240,
-        "qualities": [
-                       [ { "id": "HAMMER", "level": 2 } ],
-                       [ { "id": "DIG", "level": 3 } ]
-                       ],
-        "tools" : [
-            [ [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ],
-            [[ "hoe",-1 ]]
-        ],
-        "pre_terrain" : "t_rock_floor",
-        "post_terrain" : "t_dirtfloor"
     }
 ]
