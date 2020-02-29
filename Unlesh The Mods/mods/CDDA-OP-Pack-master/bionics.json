@@ -1,0 +1,54 @@
+[
+{
+  "id": "OP_Bionic_Power",
+  "type": "bionic",
+  "name": "Omni Corp. Bionic Power Package",
+  "active": true,
+  "act_cost": 0,
+  "description": "The Omni Corp. Bionic Power Package is standard issue for Omni Corp. Personel. It contains a proprietary Reactor and Battery Pack.",
+  "occupied_bodyparts": [ [ "TORSO", 1 ], [ "ARM_L", 1], [ "ARM_R", 1 ], ["LEG_L", 1 ], ["LEG_R", 1 ] ],
+  "capacity": 9999999,
+  "fuel_options": [ [ "plut_cell" ], [ "battery" ] ],
+  "is_remote_fueled": true,
+  "fuel_capacity": 999999,
+  "fuel_efficiency": 999999,
+  "passive_fuel_efficiency": 999999,
+  "included_bionics": [ [ "OP_Bionic_Lift" ], [ "OP_Bionic_Enhance" ] ],
+  "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_SHOCKPROOF" ]
+},
+{
+  "id": "OP_Bionic_Lift",
+  "type": "bionic",
+  "name": "Omni Corp. Bionic Lift Package",
+  "active": false,
+  "act_cost": 0,
+  "description": "The Omni Corp. Bionic Lift Package is standard issue for Omni Corp. Personel. It contains heavy duty hydraulics for the arms and legs.",
+  "weight_capacity_bonus": "999999 kg",
+  "weight_capacity_modifier": 999999,
+  "stat_bonus": [ [ "STR", 5 ], [ "DEX", 5 ] ],
+  "flags": [ "BIONIC_SHOCKPROOF" ]
+},
+{
+  "id": "OP_Bionic_Enhance",
+  "type": "bionic",
+  "name": "Omni Corp. Bionic Enhancement Package",
+  "active": false,
+  "act_cost": 0,
+  "description": "The Omni Corp. Bionic Enhancement Package is standard issue for Omni Corp. Personel. It contains Enhancements for every aspect of your life!",
+  "stat_bonus": [ [ "STR", 5 ], [ "DEX", 5 ], [ "INT", 5 ], [ "PER", 5 ] ],
+  "flags": [ "BIONIC_SHOCKPROOF" ]
+},
+{
+  "id": "OP_bio",
+  "type": "BIONIC_ITEM",
+  "name": "Omni Corp. Bionic Package CBM",
+  "looks_like": "bio_int_enhancer",
+  "description": "The Omni Corp. Bionic Package in a handy CBM.",
+  "price": 0,
+  "weight": "0.1g",
+  "difficulty": 0,
+  "symbol": ":",
+  "bionic_id": "OP_Bionic_Power",
+  "is_upgrade": false
+}
+]
