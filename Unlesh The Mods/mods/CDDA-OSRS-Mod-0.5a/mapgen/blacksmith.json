@@ -1,0 +1,179 @@
+[
+  {
+    "method": "json",
+    "om_terrain": "osrs_forge_lum",
+    "//": "lumbridge variant",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "        xxx  xxx        ",
+        "        xt....tx        ",
+        "        xt....tx        ",
+        "        xc.....x        ",
+        "         ......x        ",
+        "         ......x        ",
+        "        x.....bx        ",
+        "        x...a.fx        ",
+        "        xrr.xxxx        ",
+        "        xxxxx           ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+		"                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+	    " ": "t_grass",
+		"x": "t_rock_wall",
+		".": "t_metal_floor"
+	  },
+	  "furniture": {
+		"f": "f_forge_rock",
+		"a": "f_anvil",
+		"b": "f_bellows",
+		"t": "f_workbench",
+		"c": "f_crate_o",
+		"r": "f_counter"
+      }
+    }
+  },
+  {
+    "method": "json",
+    "om_terrain": "osrs_forge_lum_roof",
+    "//": "lumbridge variant",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxx           ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+		"                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+	    " ": "t_open_air",
+		"x": "t_tile_flat_roof"
+      }
+    }
+  },
+  {
+    "method": "json",
+    "om_terrain": "osrs_forge_varrock",
+    "//": "varrock variant",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "        xxxdxxxx        ",
+        "        x.....cx        ",
+        "        x...a..x        ",
+        "        x......x        ",
+        "        d...a.cx        ",
+        "        x.....cx        ",
+        "        x.t....x        ",
+        "        x.t.a..x        ",
+        "        x.....hx        ",
+        "        xxxxxxxx        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+		"                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+	    " ": "t_grass",
+		"x": "t_rock_wall",
+		".": "t_metal_floor",
+		"d": "t_door_c"
+	  },
+	  "furniture": {
+		"a": "f_anvil",
+		"t": "f_workbench",
+		"c": "f_crate_o",
+		"h": "f_chair"
+      }
+    }
+  },
+  {
+    "method": "json",
+    "om_terrain": "osrs_forge_varrock_roof",
+    "//": "varrock variant",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "        xxxxxxxx        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+		"                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+	    " ": "t_open_air",
+		"x": "t_tile_flat_roof"
+	  }
+	}
+  }
+]
