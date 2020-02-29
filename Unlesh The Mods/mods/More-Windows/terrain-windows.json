@@ -8,7 +8,7 @@
     "category": "CONSTRUCT",
     "symbol": "#",
     "color": "light_gray",
-    "move_cost": 1,
+    "move_cost": 0,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
@@ -26,8 +26,8 @@
       ]
      },
   "bash": {
-    "str_min": 65,
-    "str_max": 250,
+    "str_min": 50,
+    "str_max": 75,
     "sound": "metal screeching!",
     "sound_fail": "clang!",
     "ter_set": "t_window_empty",
@@ -48,10 +48,9 @@
    "category": "CONSTRUCT",
    "symbol": "#",
    "color": "light_gray",
-   "move_cost": 1,
+   "move_cost": 0,
    "roof": "t_flat_roof",
    "flags": [
-     "TRANSPARENT",
      "NOITEM",
      "CONNECT_TO_WALL",
      "THIN_OBSTACLE",
@@ -63,8 +62,8 @@
      "items": [ { "item": "pipe", "count": 12 }, { "item": "sheet_metal_small", "count": 40 } ]
     },
    "bash": {
-     "str_min": 65,
-     "str_max": 250,
+     "str_min":50,
+     "str_max": 75,
      "sound": "metal screeching!",
      "sound_fail": "clang!",
      "ter_set": "t_window_empty",
@@ -76,6 +75,438 @@
      ]
    }
    },
+   {
+   "type": "terrain",
+   "id": "t_single_pane_glass",
+   "name": "single-pane glass",
+   "description": "1 giant sheet of glass inserted into a window.",
+   "looks_like": "t_window_no_curtains",
+   "symbol": "\"",
+   "color": "light_cyan",
+   "move_cost": 0,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+     "TRANSPARENT",
+     "FLAMMABLE",
+     "NOITEM",
+     "OPENCLOSE_INSIDE",
+     "BARRICADABLE_WINDOW",
+     "REDUCE_SCENT",
+     "CONNECT_TO_WALL",
+     "BLOCK_WIND"
+     ],
+   "examine_action": "locked_object",
+   "open": "t_single_pane_glass_open",
+   "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
+   "bash": {
+     "str_min": 8,
+     "str_max": 13,
+     "sound": "glass breaking!",
+     "sound_fail": "whack!",
+     "sound_vol": 16,
+     "sound_fail_vol": 10,
+     "ter_set": "t_window_empty",
+     "items": [
+       { "item": "stick", "count": 1 },
+       { "item": "nail", "charges": [ 3, 4 ] },
+       { "item": "glass_shard", "count": [ 68, 100 ] }
+       ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_single_pane_glass_open",
+   "name": "single-pane glass open",
+   "description": "1 giant sheet of glass inserted into a window.",
+   "looks_like": "t_window_no_curtains_open",
+   "symbol": "\"",
+   "color": "light_cyan",
+   "move_cost": 4,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+     "TRANSPARENT",
+     "FLAMMABLE",
+     "NOITEM",
+     "OPENCLOSE_INSIDE",
+     "MOUNTABLE",
+     "CONNECT_TO_WALL",
+     "THIN_OBSTACLE",
+     "SMALL_PASSAGE"
+     ],
+   "close": "t_single_pane_glass",
+   "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
+   "bash": {
+     "str_min": 8,
+     "str_max": 13,
+     "sound": "glass breaking!",
+     "sound_fail": "whack!",
+     "sound_vol": 16,
+     "sound_fail_vol": 10,
+     "ter_set": "t_window_empty",
+     "items": [
+       { "item": "stick", "count": 1 },
+       { "item": "nail", "charges": [ 3, 4 ] },
+       { "item": "glass_shard", "count": [ 68, 100 ] }
+       ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_single_pane_glass_with_curtain",
+   "name": "single-pane glass with a curtain",
+   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+   "looks_like": "t_curtains",
+   "symbol": "|",
+   "color": "light_cyan",
+   "move_cost": 0,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+     "TRANSPARENT",
+     "FLAMMABLE",
+     "NOITEM",
+     "OPENCLOSE_INSIDE",
+     "BARRICADABLE_WINDOW",
+     "REDUCE_SCENT",
+     "CONNECT_TO_WALL",
+     "BLOCK_WIND"
+     ],
+   "examine_action": "curtains",
+   "open": "t_single_pane_glass_with_curtain_open_window_closed",
+   "deconstruct": {
+     "ter_set": "t_window_empty",
+     "items": [
+       { "item": "stick", "count": 1 },
+       { "item": "sheet", "count": 2 },
+       { "item": "glass_sheet", "count": 3 },
+       { "item": "nail", "charges": [ 3, 4 ] },
+       { "item": "string_36", "count": 1 }
+     ]
+   },
+   "bash": {
+     "str_min": 8,
+     "str_max": 13,
+     "sound": "glass breaking!",
+     "sound_fail": "whack!",
+     "sound_vol": 16,
+     "sound_fail_vol": 10,
+     "ter_set": "t_window_frame",
+     "items": [
+       { "item": "glass_shard", "count": [ 68, 100 ] }
+       ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_single_pane_glass_with_curtain_open_window_closed",
+   "name": "single-pane glass with a curtain",
+   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+   "looks_like": "t_window_domestic",
+   "symbol": "|",
+   "color": "light_cyan",
+   "move_cost": 0,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+     "TRANSPARENT",
+     "FLAMMABLE",
+     "NOITEM",
+     "OPENCLOSE_INSIDE",
+     "BARRICADABLE_WINDOW",
+     "REDUCE_SCENT",
+     "CONNECT_TO_WALL",
+     "BLOCK_WIND"
+     ],
+   "examine_action": "curtains",
+   "close": "t_single_pane_glass_with_curtain",
+   "open": "t_single_pane_glass_with_curtain_open",
+   "deconstruct": {
+     "ter_set": "t_window_empty",
+     "items": [
+       { "item": "stick", "count": 1 },
+       { "item": "sheet", "count": 2 },
+       { "item": "reinforced_glass_sheet", "count": 1 },
+       { "item": "nail", "charges": [ 3, 4 ] },
+       { "item": "string_36", "count": 1 }
+     ]
+   },
+   "bash": {
+     "str_min": 8,
+     "str_max": 13,
+     "sound": "glass breaking!",
+     "sound_fail": "whack!",
+     "sound_vol": 16,
+     "sound_fail_vol": 10,
+     "ter_set": "t_window_frame",
+     "items": [
+       { "item": "glass_shard", "count": [ 68, 100 ] }
+       ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_single_pane_glass_with_curtain_open",
+   "name": "single-pane glass with a curtain",
+   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+   "looks_like": "t_window_open",
+   "symbol": "|",
+   "color": "light_cyan",
+   "move_cost": 4,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+     "TRANSPARENT",
+     "FLAMMABLE",
+     "NOITEM",
+     "OPENCLOSE_INSIDE",
+     "MOUNTABLE",
+     "CONNECT_TO_WALL",
+     "THIN_OBSTACLE",
+     "SMALL_PASSAGE"
+     ],
+   "examine_action": "curtains",
+   "close": "t_single_pane_glass_with_curtain_open_window_closed",
+   "deconstruct": {
+     "ter_set": "t_window_empty",
+     "items": [
+       { "item": "stick", "count": 1 },
+       { "item": "sheet", "count": 2 },
+       { "item": "glass_sheet", "count": 3 },
+       { "item": "nail", "charges": [ 3, 4 ] },
+       { "item": "string_36", "count": 1 }
+     ]
+   },
+   "bash": {
+     "str_min": 8,
+     "str_max": 13,
+     "sound": "glass breaking!",
+     "sound_fail": "whack!",
+     "sound_vol": 16,
+     "sound_fail_vol": 10,
+     "ter_set": "t_window_frame",
+     "items": [
+       { "item": "glass_shard", "count": [ 68, 100 ] }
+       ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_reinforced_single_pane_glass",
+   "name": "Reinforced single-pane glass",
+   "description": "1 giant sheet of reinforced glass inserted into a window.",
+   "looks_like": "t_window_no_curtains",
+   "symbol": "\"",
+   "color": "light_cyan",
+   "move_cost": 0,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+   "TRANSPARENT",
+   "FLAMMABLE",
+   "NOITEM",
+   "OPENCLOSE_INSIDE",
+   "BARRICADABLE_WINDOW",
+   "REDUCE_SCENT",
+   "CONNECT_TO_WALL",
+   "BLOCK_WIND"
+   ],
+   "examine_action": "locked_object",
+   "open": "t_reinforced_single_pane_glass_open",
+   "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
+   "bash": {
+   "str_min": 13,
+   "str_max": 17,
+   "sound": "glass breaking!",
+   "sound_fail": "whack!",
+   "sound_vol": 16,
+   "sound_fail_vol": 10,
+   "ter_set": "t_window_empty",
+   "items": [
+     { "item": "stick", "count": 1 },
+     { "item": "nail", "charges": [ 3, 4 ] },
+     { "item": "glass_shard", "count": [ 68, 100 ] }
+     ]
+   }
+   },
+  {
+   "type": "terrain",
+   "id": "t_reinforced_single_pane_glass_open",
+   "name": "Reinforced single-pane glass open",
+   "description": "1 giant sheet of glass inserted into a window.",
+   "looks_like": "t_window_no_curtains_open",
+   "symbol": "\"",
+   "color": "light_cyan",
+   "move_cost": 4,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+   "TRANSPARENT",
+   "FLAMMABLE",
+   "NOITEM",
+   "OPENCLOSE_INSIDE",
+   "MOUNTABLE",
+   "CONNECT_TO_WALL",
+   "THIN_OBSTACLE",
+   "SMALL_PASSAGE"
+   ],
+   "close": "t_reinforced_single_pane_glass",
+   "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
+   "bash": {
+   "str_min": 13,
+   "str_max": 17,
+   "sound": "glass breaking!",
+   "sound_fail": "whack!",
+   "sound_vol": 16,
+   "sound_fail_vol": 10,
+   "ter_set": "t_window_empty",
+   "items": [
+     { "item": "stick", "count": 1 },
+     { "item": "nail", "charges": [ 3, 4 ] },
+     { "item": "glass_shard", "count": [ 68, 100 ] }
+     ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_reinforced_single_pane_glass_with_curtain",
+   "name": "Reinforced single-pane glass with a curtain",
+   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+   "looks_like": "t_curtains",
+   "symbol": "|",
+   "color": "light_cyan",
+   "move_cost": 0,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+   "TRANSPARENT",
+   "FLAMMABLE",
+   "NOITEM",
+   "OPENCLOSE_INSIDE",
+   "BARRICADABLE_WINDOW",
+   "REDUCE_SCENT",
+   "CONNECT_TO_WALL",
+   "BLOCK_WIND"
+   ],
+   "examine_action": "curtains",
+   "open": "t_reinforced_single_pane_glass_with_curtain_open_window_closed",
+   "deconstruct": {
+   "ter_set": "t_window_empty",
+   "items": [
+     { "item": "stick", "count": 1 },
+     { "item": "sheet", "count": 2 },
+     { "item": "reinforced_glass_sheet", "count": 3 },
+     { "item": "nail", "charges": [ 3, 4 ] },
+     { "item": "string_36", "count": 1 }
+   ]
+   },
+   "bash": {
+   "str_min": 13,
+   "str_max": 17,
+   "sound": "glass breaking!",
+   "sound_fail": "whack!",
+   "sound_vol": 16,
+   "sound_fail_vol": 10,
+   "ter_set": "t_window_frame",
+   "items": [
+     { "item": "glass_shard", "count": [ 68, 100 ] }
+     ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_reinforced_single_pane_glass_with_curtain_open_window_closed",
+   "name": "reinforced single-pane glass with a curtain",
+   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+   "looks_like": "t_window_domestic",
+   "symbol": "|",
+   "color": "light_cyan",
+   "move_cost": 0,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+     "TRANSPARENT",
+     "FLAMMABLE",
+     "NOITEM",
+     "OPENCLOSE_INSIDE",
+     "BARRICADABLE_WINDOW",
+     "REDUCE_SCENT",
+     "CONNECT_TO_WALL",
+     "BLOCK_WIND"
+     ],
+   "examine_action": "curtains",
+   "close": "t_reinforced_single_pane_glass_with_curtain",
+   "open": "t_reinforced_single_pane_glass_with_curtain_open",
+   "deconstruct": {
+     "ter_set": "t_window_empty",
+     "items": [
+       { "item": "stick", "count": 1 },
+       { "item": "sheet", "count": 2 },
+       { "item": "reinforced_glass_sheet", "count": 1 },
+       { "item": "nail", "charges": [ 3, 4 ] },
+       { "item": "string_36", "count": 1 }
+     ]
+   },
+   "bash": {
+     "str_min": 8,
+     "str_max": 13,
+     "sound": "glass breaking!",
+     "sound_fail": "whack!",
+     "sound_vol": 16,
+     "sound_fail_vol": 10,
+     "ter_set": "t_window_frame",
+     "items": [
+       { "item": "glass_shard", "count": [ 68, 100 ] }
+       ]
+   }
+   },
+   {
+   "type": "terrain",
+   "id": "t_reinforced_single_pane_glass_with_curtain_open",
+   "name": "Reinforced single-pane glass with a curtain",
+   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+   "looks_like": "t_window_open",
+   "symbol": "|",
+   "color": "light_cyan",
+   "move_cost": 4,
+   "coverage": 60,
+   "roof": "t_flat_roof",
+   "flags": [
+   "TRANSPARENT",
+   "FLAMMABLE",
+   "NOITEM",
+   "OPENCLOSE_INSIDE",
+   "MOUNTABLE",
+   "CONNECT_TO_WALL",
+   "THIN_OBSTACLE",
+   "small_passage"
+   ],
+   "examine_action": "curtains",
+   "close": "t_reinforced_single_pane_glass_with_curtain_open_window_closed",
+   "deconstruct": {
+   "ter_set": "t_window_empty",
+   "items": [
+     { "item": "stick", "count": 1 },
+     { "item": "sheet", "count": 2 },
+     { "item": "reinforced_glass_sheet", "count": 1 },
+     { "item": "nail", "charges": [ 3, 4 ] },
+     { "item": "string_36", "count": 1 }
+   ]
+   },
+   "bash": {
+   "str_min": 13,
+   "str_max": 17,
+   "sound": "glass breaking!",
+   "sound_fail": "whack!",
+   "sound_vol": 16,
+   "sound_fail_vol": 10,
+   "ter_set": "t_window_frame",
+   "items": [
+     { "item": "glass_shard", "count": [ 68, 100 ] }
+     ]
+   }
+   },
     {
     "type": "terrain",
     "id": "t_double_pane_glass",
@@ -84,7 +515,7 @@
     "looks_like": "t_window_no_curtains",
     "symbol": "\"",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
@@ -95,11 +526,11 @@
       "BARRICADABLE_WINDOW",
       "REDUCE_SCENT",
       "CONNECT_TO_WALL",
-      "BLOCK_WIND",
-      "SMALL_PASSAGE"
+      "BLOCK_WIND"
       ],
     "examine_action": "locked_object",
     "open": "t_double_pane_glass_open",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
     "bash": {
       "str_min": 8,
       "str_max": 13,
@@ -123,21 +554,21 @@
     "looks_like": "t_window_no_curtains_open",
     "symbol": "\"",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 4,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
       "SMALL_PASSAGE"
       ],
     "close": "t_double_pane_glass",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
     "bash": {
       "str_min": 8,
       "str_max": 13,
@@ -161,21 +592,31 @@
     "looks_like": "t_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
+      "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
       "OPENCLOSE_INSIDE",
+      "BARRICADABLE_WINDOW",
       "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW_CURTAINS",
       "CONNECT_TO_WALL",
-      "BLOCK_WIND",
-      "SMALL_PASSAGE"
+      "BLOCK_WIND"
       ],
     "examine_action": "curtains",
-    "open": "t_double_pane_glass",
+    "open": "t_double_pane_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
     "bash": {
       "str_min": 8,
       "str_max": 13,
@@ -190,6 +631,54 @@
     }
   },
   {
+  "type": "terrain",
+  "id": "t_double_pane_glass_with_curtain_open_window_closed",
+  "name": "Double-pane glass with a curtain",
+  "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+  "looks_like": "t_window_domestic",
+  "symbol": "|",
+  "color": "light_cyan",
+  "move_cost": 0,
+  "coverage": 60,
+  "roof": "t_flat_roof",
+  "flags": [
+    "TRANSPARENT",
+    "FLAMMABLE",
+    "NOITEM",
+    "OPENCLOSE_INSIDE",
+    "BARRICADABLE_WINDOW",
+    "REDUCE_SCENT",
+    "CONNECT_TO_WALL",
+    "BLOCK_WIND"
+    ],
+  "examine_action": "curtains",
+  "close": "t_double_pane_glass_with_curtain",
+  "open": "t_double_pane_glass_with_curtain_open",
+
+  "deconstruct": {
+    "ter_set": "t_window_empty",
+    "items": [
+      { "item": "stick", "count": 1 },
+      { "item": "sheet", "count": 2 },
+      { "item": "reinforced_glass_sheet", "count": 1 },
+      { "item": "nail", "charges": [ 3, 4 ] },
+      { "item": "string_36", "count": 1 }
+    ]
+  },
+  "bash": {
+    "str_min": 8,
+    "str_max": 13,
+    "sound": "glass breaking!",
+    "sound_fail": "whack!",
+    "sound_vol": 16,
+    "sound_fail_vol": 10,
+    "ter_set": "t_window_frame",
+    "items": [
+      { "item": "glass_shard", "count": [ 68, 100 ] }
+      ]
+  }
+  },
+  {
     "type": "terrain",
     "id": "t_double_pane_glass_with_curtain_open",
     "name": "Double-pane glass with a curtain",
@@ -197,22 +686,31 @@
     "looks_like": "t_window_open",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 4,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
       "SMALL_PASSAGE"
       ],
     "examine_action": "curtains",
-    "close": "t_double_pane_glass_with_curtain",
+    "close": "t_double_pane_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
     "bash": {
       "str_min": 8,
       "str_max": 13,
@@ -234,7 +732,7 @@
   "looks_like": "t_window_no_curtains",
   "symbol": "\"",
   "color": "light_cyan",
-  "move_cost": 1,
+  "move_cost": 0,
   "coverage": 60,
   "roof": "t_flat_roof",
   "flags": [
@@ -245,11 +743,11 @@
     "BARRICADABLE_WINDOW",
     "REDUCE_SCENT",
     "CONNECT_TO_WALL",
-    "BLOCK_WIND",
-    "SMALL_PASSAGE"
+    "BLOCK_WIND"
     ],
   "examine_action": "locked_object",
   "open": "t_reinforced_double_pane_glass_open",
+  "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
   "bash": {
     "str_min": 13,
     "str_max": 17,
@@ -273,21 +771,21 @@
   "looks_like": "t_window_no_curtains_open",
   "symbol": "\"",
   "color": "light_cyan",
-  "move_cost": 1,
+  "move_cost": 4,
   "coverage": 60,
   "roof": "t_flat_roof",
   "flags": [
     "TRANSPARENT",
     "FLAMMABLE",
     "NOITEM",
-    "REDUCE_SCENT",
-    "BARRICADABLE_WINDOW",
-    "CONNECT_TO_WALL",
-    "BLOCK_WIND",
     "OPENCLOSE_INSIDE",
+    "MOUNTABLE",
+    "CONNECT_TO_WALL",
+    "THIN_OBSTACLE",
     "SMALL_PASSAGE"
     ],
   "close": "t_reinforced_double_pane_glass",
+  "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
   "bash": {
     "str_min": 13,
     "str_max": 17,
@@ -311,21 +809,31 @@
   "looks_like": "t_curtains",
   "symbol": "|",
   "color": "light_cyan",
-  "move_cost": 1,
+  "move_cost": 0,
   "coverage": 60,
   "roof": "t_flat_roof",
   "flags": [
+    "TRANSPARENT",
     "FLAMMABLE",
     "NOITEM",
     "OPENCLOSE_INSIDE",
+    "BARRICADABLE_WINDOW",
     "REDUCE_SCENT",
-    "BARRICADABLE_WINDOW_CURTAINS",
     "CONNECT_TO_WALL",
-    "BLOCK_WIND",
-    "SMALL_PASSAGE"
+    "BLOCK_WIND"
     ],
   "examine_action": "curtains",
-  "open": "t_reinforced_double_pane_glass",
+  "open": "t_reinforced_double_pane_glass_with_curtain_open_window_closed",
+  "deconstruct": {
+    "ter_set": "t_window_empty",
+    "items": [
+      { "item": "stick", "count": 1 },
+      { "item": "sheet", "count": 2 },
+      { "item": "reinforced_glass_sheet", "count": 3 },
+      { "item": "nail", "charges": [ 3, 4 ] },
+      { "item": "string_36", "count": 1 }
+    ]
+  },
   "bash": {
     "str_min": 13,
     "str_max": 17,
@@ -341,28 +849,84 @@
 },
 {
   "type": "terrain",
-  "id": "t_double_pane_glass_with_curtain_open",
+  "id": "t_reinforced_double_pane_glass_with_curtain_open_window_closed",
   "name": "Reinforced double-pane glass with a curtain",
   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-  "looks_like": "t_window_open",
+  "looks_like": "t_window_domestic",
   "symbol": "|",
   "color": "light_cyan",
-  "move_cost": 1,
+  "move_cost": 4,
   "coverage": 60,
   "roof": "t_flat_roof",
   "flags": [
     "TRANSPARENT",
     "FLAMMABLE",
     "NOITEM",
-    "REDUCE_SCENT",
-    "BARRICADABLE_WINDOW",
-    "CONNECT_TO_WALL",
-    "BLOCK_WIND",
     "OPENCLOSE_INSIDE",
-    "SMALL_PASSAGE"
+    "MOUNTABLE",
+    "CONNECT_TO_WALL",
+    "THIN_OBSTACLE",
+    "small_passage"
     ],
   "examine_action": "curtains",
   "close": "t_reinforced_double_pane_glass_with_curtain",
+  "open": "t_reinforced_double_pane_glass_with_curtain_open",
+  "deconstruct": {
+    "ter_set": "t_window_empty",
+    "items": [
+      { "item": "stick", "count": 1 },
+      { "item": "sheet", "count": 2 },
+      { "item": "glass_sheet", "count": 2 },
+      { "item": "nail", "charges": [ 3, 4 ] },
+      { "item": "string_36", "count": 1 }
+    ]
+  },
+  "bash": {
+    "str_min": 13,
+    "str_max": 17,
+    "sound": "glass breaking!",
+    "sound_fail": "whack!",
+    "sound_vol": 16,
+    "sound_fail_vol": 10,
+    "ter_set": "t_window_frame",
+    "items": [
+      { "item": "glass_shard", "count": [ 68, 100 ] }
+      ]
+    }
+  },
+{
+  "type": "terrain",
+  "id": "t_reinforced_double_pane_glass_with_curtain_open",
+  "name": "Reinforced double-pane glass with a curtain",
+  "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+  "looks_like": "t_window_open",
+  "symbol": "|",
+  "color": "light_cyan",
+  "move_cost": 4,
+  "coverage": 60,
+  "roof": "t_flat_roof",
+  "flags": [
+    "TRANSPARENT",
+    "FLAMMABLE",
+    "NOITEM",
+    "OPENCLOSE_INSIDE",
+    "MOUNTABLE",
+    "CONNECT_TO_WALL",
+    "THIN_OBSTACLE",
+    "small_passage"
+    ],
+  "examine_action": "curtains",
+  "close": "t_reinforced_double_pane_glass_with_curtain_open_window_closed",
+  "deconstruct": {
+    "ter_set": "t_window_empty",
+    "items": [
+      { "item": "stick", "count": 1 },
+      { "item": "sheet", "count": 2 },
+      { "item": "reinforced_glass_sheet", "count": 2 },
+      { "item": "nail", "charges": [ 3, 4 ] },
+      { "item": "string_36", "count": 1 }
+    ]
+  },
   "bash": {
     "str_min": 13,
     "str_max": 17,
@@ -384,21 +948,22 @@
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
       ],
+    "examine_action": "locked_object",
     "open": "t_triple_pane_glass_open",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 3 } ] },
     "bash": {
       "str_min": 10,
       "str_max": 15,
@@ -422,21 +987,21 @@
     "looks_like": "t_window_no_curtains_open",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 4,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
       "SMALL_PASSAGE"
       ],
     "close": "t_triple_pane_glass",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 3 } ] },
     "bash": {
       "str_min": 10,
       "str_max": 15,
@@ -460,22 +1025,31 @@
     "looks_like": "t_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
       ],
     "examine_action": "curtains",
-    "open": "t_triple_pane_glass_with_curtain_open",
+    "open": "t_triple_pane_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
     "bash": {
       "str_min": 10,
       "str_max": 15,
@@ -490,29 +1064,86 @@
     }
   },
   {
+  "type": "terrain",
+  "id": "t_triple_pane_glass_with_curtain_open_window_closed",
+  "name": "Triple-pane glass with a curtain",
+  "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+  "looks_like": "t_window_domestic",
+  "symbol": "|",
+  "color": "light_cyan",
+  "move_cost": 0,
+  "coverage": 60,
+  "roof": "t_flat_roof",
+  "flags": [
+    "TRANSPARENT",
+    "FLAMMABLE",
+    "NOITEM",
+    "OPENCLOSE_INSIDE",
+    "BARRICADABLE_WINDOW",
+    "REDUCE_SCENT",
+    "CONNECT_TO_WALL",
+    "BLOCK_WIND"
+    ],
+  "examine_action": "curtains",
+  "close": "t_triple_pane_glass_with_curtain",
+  "open": "t_triple_pane_glass_with_curtain_open",
+
+  "deconstruct": {
+    "ter_set": "t_window_empty",
+    "items": [
+      { "item": "stick", "count": 1 },
+      { "item": "sheet", "count": 2 },
+      { "item": "reinforced_glass_sheet", "count": 1 },
+      { "item": "nail", "charges": [ 3, 4 ] },
+      { "item": "string_36", "count": 1 }
+    ]
+  },
+  "bash": {
+    "str_min": 8,
+    "str_max": 13,
+    "sound": "glass breaking!",
+    "sound_fail": "whack!",
+    "sound_vol": 16,
+    "sound_fail_vol": 10,
+    "ter_set": "t_window_frame",
+    "items": [
+      { "item": "glass_shard", "count": [ 68, 100 ] }
+      ]
+  }
+  },
+  {
     "type": "terrain",
     "id": "t_triple_pane_glass_with_curtain_open",
     "name": "Triple-pane glass With a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-    "looks_like": "t_curtains",
+    "looks_like": "t_window_open",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 4,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
       "SMALL_PASSAGE"
       ],
     "examine_action": "curtains",
-    "close": "t_triple_pane_glass_with_curtain",
+    "close": "t_triple_pane_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
     "bash": {
       "str_min": 15,
       "str_max": 20,
@@ -534,21 +1165,22 @@
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
       ],
+    "examine_action": "locked_object",
     "open": "t_reinforced_triple_pane_glass_open",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 3 } ] },
     "bash": {
       "str_min": 20,
       "str_max": 25,
@@ -572,21 +1204,21 @@
     "looks_like": "t_window_no_curtains_open",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 4,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
       "SMALL_PASSAGE"
       ],
     "close": "t_reinforced_triple_pane_glass",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 3 } ] },
     "bash": {
       "str_min": 20,
       "str_max": 25,
@@ -610,22 +1242,31 @@
     "looks_like": "t_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
       ],
     "examine_action": "curtains",
-    "open": "t_reinforced_triple_pane_glass_with_curtain_open",
+    "open": "t_reinforced_triple_pane_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "reinforced_glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
     "bash": {
       "str_min": 20,
       "str_max": 25,
@@ -641,28 +1282,84 @@
   },
   {
     "type": "terrain",
-    "id": "t_reinforced_triple_pane_glass_with_curtain_open",
-    "name": "Reinforced triple-pane glass With a curtain",
+    "id": "t_reinforced_triple_pane_glass_with_curtain_open_window_closed",
+    "name": "Reinforced triple-pane glass with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-    "looks_like": "t_curtains",
+    "looks_like": "t_window_domestic",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 4,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
+      "small_passage"
       ],
     "examine_action": "curtains",
     "close": "t_reinforced_triple_pane_glass_with_curtain",
+    "open": "t_reinforced_triple_pane_glass_with_curtain_open",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "reinforced_glass_sheet", "count": 2 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 13,
+      "str_max": 17,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+      }
+    },
+  {
+    "type": "terrain",
+    "id": "t_reinforced_triple_pane_glass_with_curtain_open",
+    "name": "Reinforced triple-pane glass With a curtain",
+    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+    "looks_like": "t_window_open",
+    "symbol": "|",
+    "color": "light_cyan",
+    "move_cost": 4,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
+      "SMALL_PASSAGE"
+      ],
+    "examine_action": "curtains",
+    "close": "t_reinforced_triple_pane_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "reinforced_glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
     "bash": {
       "str_min": 20,
       "str_max": 25,
@@ -684,21 +1381,22 @@
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
       ],
+    "examine_action": "locked_object",
     "open": "t_quadruple_pane_glass_open",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 4 } ] },
     "bash": {
       "str_min": 15,
       "str_max": 20,
@@ -722,21 +1420,21 @@
       "looks_like": "t_window_no_curtains_open",
       "symbol": "|",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
       "close": "t_quadruple_pane_glass",
+      "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 4 } ] },
       "bash": {
         "str_min": 15,
         "str_max": 20,
@@ -760,22 +1458,31 @@
       "looks_like": "t_curtains",
       "symbol": "|",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 0,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
       "examine_action": "curtains",
-      "open": "t_quadruple_pane_glass_with_curtain_open",
+      "open": "t_quadruple_pane_glass_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "glass_sheet", "count": 4 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 15,
         "str_max": 20,
@@ -789,29 +1496,86 @@
       }
     },
     {
+    "type": "terrain",
+    "id": "t_quadruple_pane_glass_with_curtain_open_window_closed",
+    "name": "Quadruple-pane glass with a curtain",
+    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+    "looks_like": "t_window_domestic",
+    "symbol": "|",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
+      ],
+    "examine_action": "curtains",
+    "close": "t_quadruple_pane_glass_with_curtain",
+    "open": "t_quadruple_pane_glass_with_curtain_open",
+
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "reinforced_glass_sheet", "count": 1 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 13,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+    }
+    },
+    {
       "type": "terrain",
       "id": "t_quadruple_pane_glass_with_curtain_open",
       "name": "Quadruple-pane glass With a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-      "looks_like": "t_curtains",
+      "looks_like": "t_window_open",
       "symbol": "|",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
         "SMALL_PASSAGE"
         ],
       "examine_action": "curtains",
-      "close": "t_quadruple_pane_glass_with_curtain",
+      "close": "t_quadruple_pane_glass_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "reinforced_glass_sheet", "count": 4 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 15,
         "str_max": 20,
@@ -832,21 +1596,22 @@
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
     "color": "light_cyan",
-    "move_cost": 1,
+    "move_cost": 0,
     "coverage": 60,
     "roof": "t_flat_roof",
     "flags": [
       "TRANSPARENT",
       "FLAMMABLE",
       "NOITEM",
-      "REDUCE_SCENT",
-      "BARRICADABLE_WINDOW",
-      "CONNECT_TO_WALL",
-      "BLOCK_WIND",
       "OPENCLOSE_INSIDE",
-      "SMALL_PASSAGE"
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
       ],
+    "examine_action": "locked_object",
     "open": "t_reinforced_quadruple_pane_glass_open",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 4 } ] },
     "bash": {
       "str_min": 25,
       "str_max": 40,
@@ -870,21 +1635,21 @@
       "looks_like": "t_window_no_curtains_open",
       "symbol": "|",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
         "SMALL_PASSAGE"
         ],
       "close": "t_reinforced_quadruple_pane_glass",
+      "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 4 } ] },
       "bash": {
         "str_min": 25,
         "str_max": 40,
@@ -908,22 +1673,31 @@
       "looks_like": "t_curtains",
       "symbol": "|",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 0,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
       "examine_action": "curtains",
-      "open": "t_reinforced_quadruple_pane_glass_with_curtain_open",
+      "open": "t_reinforced_quadruple_double_pane_glass_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "reinforced_glass_sheet", "count": 4 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 25,
         "str_max": 40,
@@ -938,28 +1712,84 @@
     },
     {
       "type": "terrain",
-      "id": "t_reinforced_quadruple_pane_glass_with_curtain_open",
-      "name": "Reinforced quadruple-pane glass With a curtain",
+      "id": "t_reinforced_quadruple_double_pane_glass_with_curtain_open_window_closed",
+      "name": "Reinforced quadruple-pane glass with a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-      "looks_like": "t_curtains",
+      "looks_like": "t_window_domestic",
       "symbol": "|",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
+        "small_passage"
         ],
       "examine_action": "curtains",
       "close": "t_reinforced_quadruple_pane_glass_with_curtain",
+      "open": "t_reinforced_quadruple_pane_glass_with_curtain_open",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "glass_sheet", "count": 2 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
+      "bash": {
+        "str_min": 13,
+        "str_max": 17,
+        "sound": "glass breaking!",
+        "sound_fail": "whack!",
+        "sound_vol": 16,
+        "sound_fail_vol": 10,
+        "ter_set": "t_window_frame",
+        "items": [
+          { "item": "glass_shard", "count": [ 68, 100 ] }
+          ]
+        }
+      },
+    {
+      "type": "terrain",
+      "id": "t_reinforced_quadruple_pane_glass_with_curtain_open",
+      "name": "Reinforced quadruple-pane glass With a curtain",
+      "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+      "looks_like": "t_window_open",
+      "symbol": "|",
+      "color": "light_cyan",
+      "move_cost": 4,
+      "coverage": 60,
+      "roof": "t_flat_roof",
+      "flags": [
+        "TRANSPARENT",
+        "FLAMMABLE",
+        "NOITEM",
+        "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
+        "SMALL_PASSAGE"
+        ],
+      "examine_action": "curtains",
+      "close": "t_reinforced_quadruple_double_pane_glass_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "glass_sheet", "count": 4 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 25,
         "str_max": 40,
@@ -980,21 +1810,22 @@
       "looks_like": "t_window_no_curtains",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 0,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
+      "examine_action": "locked_object",
       "open": "t_plastic_window_open",
+      "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "plastic_sheet", "count": 1 } ] },
       "bash": {
         "str_min": 3,
         "str_max": 5,
@@ -1018,21 +1849,21 @@
       "looks_like": "t_window_no_curtains_open",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
         "SMALL_PASSAGE"
         ],
       "close": "t_plastic_window",
+      "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "plastic_sheet", "count": 1 } ] },
       "bash": {
         "str_min": 3,
         "str_max": 5,
@@ -1056,22 +1887,80 @@
       "looks_like": "t_curtains",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 0,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
       "examine_action": "curtains",
+      "open": "t_plastic_window_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "plastic_sheet", "count": 1 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
+      "bash": {
+        "str_min": 3,
+        "str_max": 5,
+        "sound": "glass breaking!",
+        "sound_fail": "whack!",
+        "sound_vol": 16,
+        "sound_fail_vol": 10,
+        "ter_set": "t_window_frame",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "plastic_sheet", "count": 1 }
+        ]
+      }
+    },
+    {
+      "type": "terrain",
+      "id": "t_plastic_window_with_curtain_open_window_closed",
+      "name": "Plastic window with a curtain",
+      "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+      "looks_like": "t_window_domestic",
+      "symbol": "|",
+      "color": "light_blue",
+      "move_cost": 0,
+      "coverage": 60,
+      "roof": "t_flat_roof",
+      "flags": [
+        "TRANSPARENT",
+        "FLAMMABLE",
+        "NOITEM",
+        "OPENCLOSE_INSIDE",
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
+        ],
+      "examine_action": "curtains",
+      "close": "t_plastic_window_with_curtain",
       "open": "t_plastic_window_with_curtain_open",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "plastic_sheet", "count": 1 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 3,
         "str_max": 5,
@@ -1092,25 +1981,34 @@
       "id": "t_plastic_window_with_curtain_open",
       "name": "Plastic window With a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-      "looks_like": "t_curtains",
+      "looks_like": "t_window_open",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
         "SMALL_PASSAGE"
         ],
       "examine_action": "curtains",
-      "close": "t_plastic_window_with_curtain",
+      "close": "t_plastic_window_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "plastic_sheet", "count": 1 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 3,
         "str_max": 5,
@@ -1134,21 +2032,22 @@
       "looks_like": "t_window_no_curtains",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 0,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
+      "examine_action": "locked_object",
       "open": "t_reinforced_plastic_window_open",
+      "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "plastic_sheet", "count": 2 } ] },
       "bash": {
         "str_min": 10,
         "str_max": 15,
@@ -1172,21 +2071,21 @@
       "looks_like": "t_window_no_curtains_open",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
         "SMALL_PASSAGE"
         ],
       "close": "t_reinforced_plastic_window",
+      "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "plastic_sheet", "count": 2 } ] },
       "bash": {
         "str_min": 10,
         "str_max": 15,
@@ -1210,22 +2109,80 @@
       "looks_like": "t_curtains",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 0,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
-        "SMALL_PASSAGE"
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
+        ],
+      "examine_action": "curtains",
+      "open": "t_reinforced_plastic_window_with_curtain_open_window_closed",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "plastic_sheet", "count": 3 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
+      "bash": {
+        "str_min": 10,
+        "str_max": 15,
+        "sound": "glass breaking!",
+        "sound_fail": "whack!",
+        "sound_vol": 16,
+        "sound_fail_vol": 10,
+        "ter_set": "t_window_frame",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "plastic_sheet", "count": [ 1, 2 ] }
+        ]
+      }
+    },
+    {
+      "type": "terrain",
+      "id": "t_reinforced_plastic_window_with_curtain_open_window_closed",
+      "name": "Reinforced plastic window with a curtain",
+      "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+      "looks_like": "t_window_domestic",
+      "symbol": "|",
+      "color": "light_blue",
+      "move_cost": 0,
+      "coverage": 60,
+      "roof": "t_flat_roof",
+      "flags": [
+        "TRANSPARENT",
+        "FLAMMABLE",
+        "NOITEM",
+        "OPENCLOSE_INSIDE",
+        "BARRICADABLE_WINDOW",
+        "REDUCE_SCENT",
+        "CONNECT_TO_WALL",
+        "BLOCK_WIND"
         ],
       "examine_action": "curtains",
       "open": "t_reinforced_plastic_window_with_curtain_open",
+      "close": "t_reinforced_plastic_window_with_curtain",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "plastic_sheet", "count": 3 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 10,
         "str_max": 15,
@@ -1246,25 +2203,34 @@
       "id": "t_reinforced_plastic_window_with_curtain_open",
       "name": "Reinforced plastic window With a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
-      "looks_like": "t_curtains",
+      "looks_like": "t_window_open",
       "symbol": "|",
       "color": "light_blue",
-      "move_cost": 1,
+      "move_cost": 4,
       "coverage": 60,
       "roof": "t_flat_roof",
       "flags": [
         "TRANSPARENT",
         "FLAMMABLE",
         "NOITEM",
-        "REDUCE_SCENT",
-        "BARRICADABLE_WINDOW",
-        "CONNECT_TO_WALL",
-        "BLOCK_WIND",
         "OPENCLOSE_INSIDE",
+        "MOUNTABLE",
+        "CONNECT_TO_WALL",
+        "THIN_OBSTACLE",
         "SMALL_PASSAGE"
         ],
       "examine_action": "curtains",
       "close": "t_reinforced_plastic_window_with_curtain",
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "sheet", "count": 2 },
+          { "item": "plastic_sheet", "count": 2 },
+          { "item": "nail", "charges": [ 3, 4 ] },
+          { "item": "string_36", "count": 1 }
+        ]
+      },
       "bash": {
         "str_min": 10,
         "str_max": 15,
@@ -1276,7 +2242,7 @@
         "items": [
           { "item": "stick", "count": 1 },
           { "item": "nail", "charges": [ 3, 4 ] },
-          { "item": "plastic_sheet", "count": [ 1, 2 ] }
+          { "item": "plastic_sheet", "count": 1 }
         ]
       }
     },
@@ -1288,9 +2254,16 @@
       "looks_like": "t_window_empty",
       "symbol": "0",
       "color": "light_cyan",
-      "move_cost": 1,
+      "move_cost": 0,
       "trap": "tr_ledge",
       "coverage": 60,
+      "deconstruct": {
+        "ter_set": "t_window_empty",
+        "items": [
+          { "item": "stick", "count": 1 },
+          { "item": "nail", "charges": [ 3, 4 ] }
+        ]
+      },
       "bash": {
         "str_min": 1,
         "str_max": 1,
