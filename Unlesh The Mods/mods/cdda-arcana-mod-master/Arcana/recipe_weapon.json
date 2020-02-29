@@ -1,5 +1,80 @@
 [
   {
+    "type": "recipe",
+    "result": "arming_sword",
+    "id_suffix": "arcana",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "magic", 7 ],
+    "time": "6 h",
+    "book_learn": [ [ "book_hexenhammer", 7 ] ],
+    "using": [ [ "forging_standard", 6 ], [ "steel_standard", 3 ], [ "arcana_forging_tools_standard", 1 ] ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "fur", 1 ], [ "leather", 1 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "type": "recipe",
+    "result": "broadsword",
+    "id_suffix": "arcana",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "magic", 7 ],
+    "time": "5 h 15 m",
+    "book_learn": [ [ "book_hexenhammer", 7 ] ],
+    "using": [ [ "forging_standard", 6 ], [ "steel_standard", 3 ], [ "arcana_forging_tools_standard", 1 ] ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "fur", 1 ], [ "leather", 1 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "type": "recipe",
+    "result": "jian",
+    "id_suffix": "arcana",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "magic", 7 ],
+    "time": "6 h",
+    "book_learn": [ [ "book_hexenhammer", 7 ] ],
+    "using": [ [ "forging_standard", 6 ], [ "steel_standard", 3 ], [ "arcana_forging_tools_standard", 1 ] ],
+    "components": [ [ [ "filament", 100, "LIST" ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "fur", 1 ], [ "leather", 1 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "type": "recipe",
+    "result": "warhammer",
+    "id_suffix": "arcana",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ "magic", 6 ],
+    "time": "6 h",
+    "book_learn": [ [ "book_hexenhammer", 6 ] ],
+    "using": [ [ "forging_standard", 4 ], [ "steel_standard", 2 ], [ "arcana_forging_tools_standard", 1 ] ],
+    "components": [ [ [ "scrap", 24 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "type": "recipe",
+    "result": "qiang",
+    "id_suffix": "arcana",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ "magic", 6 ],
+    "time": "5 h 45 m",
+    "book_learn": [ [ "book_sacrifice", 6 ] ],
+    "using": [ [ "forging_standard", 2 ], [ "steel_standard", 1 ], [ "arcana_forging_tools_standard", 1 ] ],
+    "components": [ [ [ "filament", 100, "LIST" ] ], [ [ "stick_long", 1 ] ], [ [ "fur", 2 ], [ "leather", 2 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
     "result": "thunder_sigil",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -28,13 +103,14 @@
     "skills_required": [ "fabrication", 5 ],
     "time": "180 m",
     "book_learn": [ [ "book_bloodmagic", 3 ], [ "book_syncretism", 4 ] ],
-    "using": [ [ "forging_standard", 2 ], [ "bronzesmithing_tools", 1 ], [ "arcana_essence_any", 1 ] ],
+    "using": [ [ "forging_standard", 2 ], [ "bronzesmithing_tools", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "book_bloodmagic", -1 ], [ "book_syncretism", -1 ] ] ],
     "components": [
       [ [ "silver_small", 400 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
-      [ [ "fur", 2 ], [ "leather", 2 ] ],
-      [ [ "blood", 1 ], [ "rag_bloody", 3 ] ]
+      [ [ "fur", 1 ], [ "leather", 1 ], [ "rag_bloody", 1 ] ],
+      [ [ "essence_blood", 1 ], [ "flame_talisman", 1 ] ]
     ]
   },
   {
@@ -66,13 +142,13 @@
     "skills_required": [ "fabrication", 4 ],
     "time": "70 m",
     "book_learn": [ [ "book_hexenhammer", 4 ], [ "book_syncretism", 5 ] ],
-    "using": [ [ "arcana_essence_any", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "book_hexenhammer", -1 ], [ "book_syncretism", -1 ] ], [ [ "surface_heat", 4, "LIST" ] ] ],
     "components": [
       [ [ "warhammer", 1 ] ],
       [ [ "arcana_holy_symbol_any", 1, "LIST" ], [ "arcana_holy_relic_any", 1, "LIST" ] ],
-      [ [ "silver_small", 120 ] ]
+      [ [ "silver_small", 120 ] ],
+      [ [ "essence_dull", 10 ], [ "water_talisman", 1 ] ]
     ]
   },
   {
@@ -106,7 +182,7 @@
     "book_learn": [ [ "book_bloodmagic", 5 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
     "tools": [ [ [ "book_bloodmagic", -1 ] ] ],
-    "components": [ [ [ "hatchet", 1 ] ], [ [ "rag_bloody", 2 ] ], [ [ "essence_blood", 5 ] ] ]
+    "components": [ [ [ "hatchet", 1 ] ], [ [ "fur", 2 ], [ "leather", 2 ], [ "rag_bloody", 2 ] ], [ [ "essence_blood", 5 ] ] ]
   },
   {
     "result": "ethereal_crossbow",
