@@ -78,7 +78,7 @@
    {
    "type": "terrain",
    "id": "t_single_pane_glass",
-   "name": "single-pane glass",
+   "name": "single-pane glass window",
    "description": "1 giant sheet of glass inserted into a window.",
    "looks_like": "t_window_no_curtains",
    "symbol": "\"",
@@ -100,8 +100,8 @@
    "open": "t_single_pane_glass_open",
    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
    "bash": {
-     "str_min": 8,
-     "str_max": 13,
+     "str_min": 2,
+     "str_max": 4,
      "sound": "glass breaking!",
      "sound_fail": "whack!",
      "sound_vol": 16,
@@ -117,7 +117,7 @@
    {
    "type": "terrain",
    "id": "t_single_pane_glass_open",
-   "name": "single-pane glass open",
+   "name": "single-pane glass window open",
    "description": "1 giant sheet of glass inserted into a window.",
    "looks_like": "t_window_no_curtains_open",
    "symbol": "\"",
@@ -138,8 +138,8 @@
    "close": "t_single_pane_glass",
    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
    "bash": {
-     "str_min": 8,
-     "str_max": 13,
+     "str_min": 2,
+     "str_max": 4,
      "sound": "glass breaking!",
      "sound_fail": "whack!",
      "sound_vol": 16,
@@ -155,7 +155,7 @@
    {
    "type": "terrain",
    "id": "t_single_pane_glass_with_curtain",
-   "name": "single-pane glass with a curtain",
+   "name": "single-pane glass window with a curtain",
    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
    "looks_like": "t_curtains",
    "symbol": "|",
@@ -186,8 +186,8 @@
      ]
    },
    "bash": {
-     "str_min": 8,
-     "str_max": 13,
+     "str_min": 2,
+     "str_max": 4,
      "sound": "glass breaking!",
      "sound_fail": "whack!",
      "sound_vol": 16,
@@ -201,7 +201,7 @@
    {
    "type": "terrain",
    "id": "t_single_pane_glass_with_curtain_open_window_closed",
-   "name": "single-pane glass with a curtain",
+   "name": "single-pane glass window with a curtain",
    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
    "looks_like": "t_window_domestic",
    "symbol": "|",
@@ -233,8 +233,8 @@
      ]
    },
    "bash": {
-     "str_min": 8,
-     "str_max": 13,
+     "str_min": 2,
+     "str_max": 4,
      "sound": "glass breaking!",
      "sound_fail": "whack!",
      "sound_vol": 16,
@@ -248,7 +248,7 @@
    {
    "type": "terrain",
    "id": "t_single_pane_glass_with_curtain_open",
-   "name": "single-pane glass with a curtain",
+   "name": "single-pane glass window with a curtain",
    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
    "looks_like": "t_window_open",
    "symbol": "|",
@@ -279,8 +279,8 @@
      ]
    },
    "bash": {
-     "str_min": 8,
-     "str_max": 13,
+     "str_min": 2,
+     "str_max": 4,
      "sound": "glass breaking!",
      "sound_fail": "whack!",
      "sound_vol": 16,
@@ -294,7 +294,7 @@
    {
    "type": "terrain",
    "id": "t_reinforced_single_pane_glass",
-   "name": "Reinforced single-pane glass",
+   "name": "Reinforced single-pane glass window",
    "description": "1 giant sheet of reinforced glass inserted into a window.",
    "looks_like": "t_window_no_curtains",
    "symbol": "\"",
@@ -316,8 +316,8 @@
    "open": "t_reinforced_single_pane_glass_open",
    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
    "bash": {
-   "str_min": 13,
-   "str_max": 17,
+   "str_min": 12,
+   "str_max": 30,
    "sound": "glass breaking!",
    "sound_fail": "whack!",
    "sound_vol": 16,
@@ -333,7 +333,7 @@
   {
    "type": "terrain",
    "id": "t_reinforced_single_pane_glass_open",
-   "name": "Reinforced single-pane glass open",
+   "name": "Reinforced single-pane glass window open",
    "description": "1 giant sheet of glass inserted into a window.",
    "looks_like": "t_window_no_curtains_open",
    "symbol": "\"",
@@ -354,8 +354,8 @@
    "close": "t_reinforced_single_pane_glass",
    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
    "bash": {
-   "str_min": 13,
-   "str_max": 17,
+   "str_min": 12,
+   "str_max": 30,
    "sound": "glass breaking!",
    "sound_fail": "whack!",
    "sound_vol": 16,
@@ -371,7 +371,7 @@
    {
    "type": "terrain",
    "id": "t_reinforced_single_pane_glass_with_curtain",
-   "name": "Reinforced single-pane glass with a curtain",
+   "name": "Reinforced single-pane glass window with a curtain",
    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
    "looks_like": "t_curtains",
    "symbol": "|",
@@ -402,8 +402,8 @@
    ]
    },
    "bash": {
-   "str_min": 13,
-   "str_max": 17,
+   "str_min": 12,
+   "str_max": 30,
    "sound": "glass breaking!",
    "sound_fail": "whack!",
    "sound_vol": 16,
@@ -417,7 +417,7 @@
    {
    "type": "terrain",
    "id": "t_reinforced_single_pane_glass_with_curtain_open_window_closed",
-   "name": "reinforced single-pane glass with a curtain",
+   "name": "reinforced single-pane glass window with a curtain",
    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
    "looks_like": "t_window_domestic",
    "symbol": "|",
@@ -449,8 +449,8 @@
      ]
    },
    "bash": {
-     "str_min": 8,
-     "str_max": 13,
+     "str_min": 12,
+     "str_max": 30,
      "sound": "glass breaking!",
      "sound_fail": "whack!",
      "sound_vol": 16,
@@ -464,7 +464,7 @@
    {
    "type": "terrain",
    "id": "t_reinforced_single_pane_glass_with_curtain_open",
-   "name": "Reinforced single-pane glass with a curtain",
+   "name": "Reinforced single-pane glass window with a curtain",
    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
    "looks_like": "t_window_open",
    "symbol": "|",
@@ -495,8 +495,8 @@
    ]
    },
    "bash": {
-   "str_min": 13,
-   "str_max": 17,
+   "str_min": 12,
+   "str_max": 30,
    "sound": "glass breaking!",
    "sound_fail": "whack!",
    "sound_vol": 16,
@@ -510,7 +510,7 @@
     {
     "type": "terrain",
     "id": "t_double_pane_glass",
-    "name": "Double-pane glass",
+    "name": "Double-pane glass window",
     "description": "2 giant sheet of glass inserted into a window.",
     "looks_like": "t_window_no_curtains",
     "symbol": "\"",
@@ -532,8 +532,8 @@
     "open": "t_double_pane_glass_open",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
     "bash": {
-      "str_min": 8,
-      "str_max": 13,
+      "str_min": 3,
+      "str_max": 6,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -549,7 +549,7 @@
   {
     "type": "terrain",
     "id": "t_double_pane_glass_open",
-    "name": "Double-pane glass open",
+    "name": "Double-pane glass window open",
     "description": "2 giant sheet of glass inserted into a window.",
     "looks_like": "t_window_no_curtains_open",
     "symbol": "\"",
@@ -570,8 +570,8 @@
     "close": "t_double_pane_glass",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
     "bash": {
-      "str_min": 8,
-      "str_max": 13,
+      "str_min": 3,
+      "str_max": 6,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -587,7 +587,7 @@
   {
     "type": "terrain",
     "id": "t_double_pane_glass_with_curtain",
-    "name": "Double-pane glass with a curtain",
+    "name": "Double-pane glass window with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_curtains",
     "symbol": "|",
@@ -618,8 +618,8 @@
       ]
     },
     "bash": {
-      "str_min": 8,
-      "str_max": 13,
+      "str_min": 3,
+      "str_max": 6,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -633,7 +633,7 @@
   {
   "type": "terrain",
   "id": "t_double_pane_glass_with_curtain_open_window_closed",
-  "name": "Double-pane glass with a curtain",
+  "name": "Double-pane glass window with a curtain",
   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
   "looks_like": "t_window_domestic",
   "symbol": "|",
@@ -660,14 +660,14 @@
     "items": [
       { "item": "stick", "count": 1 },
       { "item": "sheet", "count": 2 },
-      { "item": "reinforced_glass_sheet", "count": 1 },
+      { "item": "glass_sheet", "count": 1 },
       { "item": "nail", "charges": [ 3, 4 ] },
       { "item": "string_36", "count": 1 }
     ]
   },
   "bash": {
-    "str_min": 8,
-    "str_max": 13,
+    "str_min": 3,
+    "str_max": 6,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -681,7 +681,7 @@
   {
     "type": "terrain",
     "id": "t_double_pane_glass_with_curtain_open",
-    "name": "Double-pane glass with a curtain",
+    "name": "Double-pane glass window with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_window_open",
     "symbol": "|",
@@ -712,8 +712,8 @@
       ]
     },
     "bash": {
-      "str_min": 8,
-      "str_max": 13,
+      "str_min": 3,
+      "str_max": 6,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -727,7 +727,7 @@
   {
   "type": "terrain",
   "id": "t_reinforced_double_pane_glass",
-  "name": "Reinforced double-pane glass",
+  "name": "Reinforced double-pane glass window",
   "description": "2 giant sheet of reinforced glass inserted into a window.",
   "looks_like": "t_window_no_curtains",
   "symbol": "\"",
@@ -749,8 +749,8 @@
   "open": "t_reinforced_double_pane_glass_open",
   "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
   "bash": {
-    "str_min": 13,
-    "str_max": 17,
+    "str_min": 12,
+    "str_max": 30,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -766,7 +766,7 @@
 {
   "type": "terrain",
   "id": "t_reinforced_double_pane_glass_open",
-  "name": "Reinforced double-pane glass open",
+  "name": "Reinforced double-pane glass window open",
   "description": "2 giant sheet of glass inserted into a window.",
   "looks_like": "t_window_no_curtains_open",
   "symbol": "\"",
@@ -787,8 +787,8 @@
   "close": "t_reinforced_double_pane_glass",
   "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 2 } ] },
   "bash": {
-    "str_min": 13,
-    "str_max": 17,
+    "str_min": 12,
+    "str_max": 30,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -804,7 +804,7 @@
 {
   "type": "terrain",
   "id": "t_reinforced_double_pane_glass_with_curtain",
-  "name": "Reinforced double-pane glass with a curtain",
+  "name": "Reinforced double-pane glass window with a curtain",
   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
   "looks_like": "t_curtains",
   "symbol": "|",
@@ -835,8 +835,8 @@
     ]
   },
   "bash": {
-    "str_min": 13,
-    "str_max": 17,
+    "str_min": 12,
+    "str_max": 30,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -850,7 +850,7 @@
 {
   "type": "terrain",
   "id": "t_reinforced_double_pane_glass_with_curtain_open_window_closed",
-  "name": "Reinforced double-pane glass with a curtain",
+  "name": "Reinforced double-pane glass window with a curtain",
   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
   "looks_like": "t_window_domestic",
   "symbol": "|",
@@ -882,8 +882,8 @@
     ]
   },
   "bash": {
-    "str_min": 13,
-    "str_max": 17,
+    "str_min": 12,
+    "str_max": 30,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -897,7 +897,7 @@
 {
   "type": "terrain",
   "id": "t_reinforced_double_pane_glass_with_curtain_open",
-  "name": "Reinforced double-pane glass with a curtain",
+  "name": "Reinforced double-pane glass window with a curtain",
   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
   "looks_like": "t_window_open",
   "symbol": "|",
@@ -928,8 +928,8 @@
     ]
   },
   "bash": {
-    "str_min": 13,
-    "str_max": 17,
+    "str_min": 12,
+    "str_max": 30,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -943,7 +943,7 @@
   {
     "type": "terrain",
     "id": "t_triple_pane_glass",
-    "name": "Triple-pane glass",
+    "name": "Triple-pane glass window",
     "description": "3 giant sheet of glass inserted into a window.",
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
@@ -965,8 +965,8 @@
     "open": "t_triple_pane_glass_open",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 3 } ] },
     "bash": {
-      "str_min": 10,
-      "str_max": 15,
+      "str_min": 4,
+      "str_max": 8,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -982,7 +982,7 @@
   {
     "type": "terrain",
     "id": "t_triple_pane_glass_open",
-    "name": "Triple-pane glass",
+    "name": "Triple-pane glass window",
     "description": "3 giant sheet of glass inserted into a window.",
     "looks_like": "t_window_no_curtains_open",
     "symbol": "|",
@@ -1003,8 +1003,8 @@
     "close": "t_triple_pane_glass",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 3 } ] },
     "bash": {
-      "str_min": 10,
-      "str_max": 15,
+      "str_min": 4,
+      "str_max": 8,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1020,7 +1020,7 @@
   {
     "type": "terrain",
     "id": "t_triple_pane_glass_with_curtain",
-    "name": "Triple-pane glass with a curtain",
+    "name": "Triple-pane glass window with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_curtains",
     "symbol": "|",
@@ -1051,8 +1051,8 @@
       ]
     },
     "bash": {
-      "str_min": 10,
-      "str_max": 15,
+      "str_min": 4,
+      "str_max": 8,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1066,7 +1066,7 @@
   {
   "type": "terrain",
   "id": "t_triple_pane_glass_with_curtain_open_window_closed",
-  "name": "Triple-pane glass with a curtain",
+  "name": "Triple-pane glass window with a curtain",
   "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
   "looks_like": "t_window_domestic",
   "symbol": "|",
@@ -1099,8 +1099,8 @@
     ]
   },
   "bash": {
-    "str_min": 8,
-    "str_max": 13,
+    "str_min": 4,
+    "str_max": 8,
     "sound": "glass breaking!",
     "sound_fail": "whack!",
     "sound_vol": 16,
@@ -1114,7 +1114,7 @@
   {
     "type": "terrain",
     "id": "t_triple_pane_glass_with_curtain_open",
-    "name": "Triple-pane glass With a curtain",
+    "name": "Triple-pane glass window With a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_window_open",
     "symbol": "|",
@@ -1145,8 +1145,8 @@
       ]
     },
     "bash": {
-      "str_min": 15,
-      "str_max": 20,
+      "str_min": 4,
+      "str_max": 8,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1160,7 +1160,7 @@
   {
     "type": "terrain",
     "id": "t_reinforced_triple_pane_glass",
-    "name": "Reinforced-triple pane glass",
+    "name": "Reinforced-triple pane glass window",
     "description": "3 giant sheet of reinforced glass inserted into a window.",
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
@@ -1182,8 +1182,8 @@
     "open": "t_reinforced_triple_pane_glass_open",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 3 } ] },
     "bash": {
-      "str_min": 20,
-      "str_max": 25,
+      "str_min": 12,
+      "str_max": 30,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1199,7 +1199,7 @@
   {
     "type": "terrain",
     "id": "t_reinforced_triple_pane_glass_open",
-    "name": "Reinforced-triple pane glass",
+    "name": "Reinforced-triple pane glass window",
     "description": "3 giant sheet of reinforced glass inserted into a window.",
     "looks_like": "t_window_no_curtains_open",
     "symbol": "|",
@@ -1220,8 +1220,8 @@
     "close": "t_reinforced_triple_pane_glass",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 3 } ] },
     "bash": {
-      "str_min": 20,
-      "str_max": 25,
+      "str_min": 12,
+      "str_max": 30,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1237,7 +1237,7 @@
   {
     "type": "terrain",
     "id": "t_reinforced_triple_pane_glass_with_curtain",
-    "name": "Reinforced triple-pane glass with a curtain",
+    "name": "Reinforced triple-pane glass window with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_curtains",
     "symbol": "|",
@@ -1268,8 +1268,8 @@
       ]
     },
     "bash": {
-      "str_min": 20,
-      "str_max": 25,
+      "str_min": 12,
+      "str_max": 30,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1283,7 +1283,7 @@
   {
     "type": "terrain",
     "id": "t_reinforced_triple_pane_glass_with_curtain_open_window_closed",
-    "name": "Reinforced triple-pane glass with a curtain",
+    "name": "Reinforced triple-pane glass window with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_window_domestic",
     "symbol": "|",
@@ -1315,8 +1315,8 @@
       ]
     },
     "bash": {
-      "str_min": 13,
-      "str_max": 17,
+      "str_min": 12,
+      "str_max": 30,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1330,7 +1330,7 @@
   {
     "type": "terrain",
     "id": "t_reinforced_triple_pane_glass_with_curtain_open",
-    "name": "Reinforced triple-pane glass With a curtain",
+    "name": "Reinforced triple-pane glass window With a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_window_open",
     "symbol": "|",
@@ -1361,8 +1361,8 @@
       ]
     },
     "bash": {
-      "str_min": 20,
-      "str_max": 25,
+      "str_min": 12,
+      "str_max": 30,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1376,7 +1376,7 @@
   {
     "type": "terrain",
     "id": "t_quadruple_pane_glass",
-    "name": "Quadruple-pane glass",
+    "name": "Quadruple-pane glass window",
     "description": "4 giant sheet of glass inserted into a window.",
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
@@ -1398,8 +1398,8 @@
     "open": "t_quadruple_pane_glass_open",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 4 } ] },
     "bash": {
-      "str_min": 15,
-      "str_max": 20,
+      "str_min": 5,
+      "str_max": 10,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1415,7 +1415,7 @@
     {
       "type": "terrain",
       "id": "t_quadruple_pane_glass_open",
-      "name": "Quadruple-pane glass",
+      "name": "Quadruple-pane glass window",
       "description": "4 giant sheet of glass inserted into a window.",
       "looks_like": "t_window_no_curtains_open",
       "symbol": "|",
@@ -1436,8 +1436,8 @@
       "close": "t_quadruple_pane_glass",
       "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 4 } ] },
       "bash": {
-        "str_min": 15,
-        "str_max": 20,
+        "str_min": 5,
+        "str_max": 10,
         "sound": "glass breaking!",
         "sound_fail": "whack!",
         "sound_vol": 16,
@@ -1453,7 +1453,7 @@
     {
       "type": "terrain",
       "id": "t_quadruple_pane_glass_with_curtain",
-      "name": "Quadruple-pane glass with a curtain",
+      "name": "Quadruple-pane glass window with a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
       "looks_like": "t_curtains",
       "symbol": "|",
@@ -1484,8 +1484,8 @@
         ]
       },
       "bash": {
-        "str_min": 15,
-        "str_max": 20,
+        "str_min": 5,
+        "str_max": 10,
         "sound": "glass breaking!",
         "sound_fail": "whack!",
         "sound_vol": 16,
@@ -1498,7 +1498,7 @@
     {
     "type": "terrain",
     "id": "t_quadruple_pane_glass_with_curtain_open_window_closed",
-    "name": "Quadruple-pane glass with a curtain",
+    "name": "Quadruple-pane glass window with a curtain",
     "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
     "looks_like": "t_window_domestic",
     "symbol": "|",
@@ -1525,14 +1525,14 @@
       "items": [
         { "item": "stick", "count": 1 },
         { "item": "sheet", "count": 2 },
-        { "item": "reinforced_glass_sheet", "count": 1 },
+        { "item": "glass_sheet", "count": 1 },
         { "item": "nail", "charges": [ 3, 4 ] },
         { "item": "string_36", "count": 1 }
       ]
     },
     "bash": {
-      "str_min": 8,
-      "str_max": 13,
+      "str_min": 5,
+      "str_max": 10,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1546,7 +1546,7 @@
     {
       "type": "terrain",
       "id": "t_quadruple_pane_glass_with_curtain_open",
-      "name": "Quadruple-pane glass With a curtain",
+      "name": "Quadruple-pane glass window With a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
       "looks_like": "t_window_open",
       "symbol": "|",
@@ -1571,14 +1571,14 @@
         "items": [
           { "item": "stick", "count": 1 },
           { "item": "sheet", "count": 2 },
-          { "item": "reinforced_glass_sheet", "count": 4 },
+          { "item": "glass_sheet", "count": 4 },
           { "item": "nail", "charges": [ 3, 4 ] },
           { "item": "string_36", "count": 1 }
         ]
       },
       "bash": {
-        "str_min": 15,
-        "str_max": 20,
+        "str_min": 5,
+        "str_max": 10,
         "sound": "glass breaking!",
         "sound_fail": "whack!",
         "sound_vol": 16,
@@ -1591,7 +1591,7 @@
   {
     "type": "terrain",
     "id": "t_reinforced_quadruple_pane_glass",
-    "name": "Reinforced quadruple-pane glass",
+    "name": "Reinforced quadruple-pane glass window",
     "description": "4 giant sheet of glass inserted into a window.",
     "looks_like": "t_window_no_curtains",
     "symbol": "|",
@@ -1613,8 +1613,8 @@
     "open": "t_reinforced_quadruple_pane_glass_open",
     "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 4 } ] },
     "bash": {
-      "str_min": 25,
-      "str_max": 40,
+      "str_min": 12,
+      "str_max": 30,
       "sound": "glass breaking!",
       "sound_fail": "whack!",
       "sound_vol": 16,
@@ -1630,7 +1630,7 @@
     {
       "type": "terrain",
       "id": "t_reinforced_quadruple_pane_glass_open",
-      "name": "Reinforced quadruple-pane glass",
+      "name": "Reinforced quadruple-pane glass window",
       "description": "4 giant sheet of glass inserted into a window.",
       "looks_like": "t_window_no_curtains_open",
       "symbol": "|",
@@ -1651,8 +1651,8 @@
       "close": "t_reinforced_quadruple_pane_glass",
       "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "reinforced_glass_sheet", "count": 4 } ] },
       "bash": {
-        "str_min": 25,
-        "str_max": 40,
+        "str_min": 12,
+        "str_max": 30,
         "sound": "glass breaking!",
         "sound_fail": "whack!",
         "sound_vol": 16,
@@ -1668,7 +1668,7 @@
     {
       "type": "terrain",
       "id": "t_reinforced_quadruple_pane_glass_with_curtain",
-      "name": "reinforced quadruple-pane glass with a curtain",
+      "name": "reinforced quadruple-pane glass window with a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
       "looks_like": "t_curtains",
       "symbol": "|",
@@ -1699,8 +1699,8 @@
         ]
       },
       "bash": {
-        "str_min": 25,
-        "str_max": 40,
+        "str_min": 12,
+        "str_max": 30,
         "sound": "glass breaking!",
         "sound_fail": "whack!",
         "sound_vol": 16,
@@ -1713,7 +1713,7 @@
     {
       "type": "terrain",
       "id": "t_reinforced_quadruple_double_pane_glass_with_curtain_open_window_closed",
-      "name": "Reinforced quadruple-pane glass with a curtain",
+      "name": "Reinforced quadruple-pane glass window with a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
       "looks_like": "t_window_domestic",
       "symbol": "|",
@@ -1745,8 +1745,8 @@
         ]
       },
       "bash": {
-        "str_min": 13,
-        "str_max": 17,
+        "str_min": 12,
+        "str_max": 30,
         "sound": "glass breaking!",
         "sound_fail": "whack!",
         "sound_vol": 16,
@@ -1760,7 +1760,7 @@
     {
       "type": "terrain",
       "id": "t_reinforced_quadruple_pane_glass_with_curtain_open",
-      "name": "Reinforced quadruple-pane glass With a curtain",
+      "name": "Reinforced quadruple-pane glass window With a curtain",
       "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
       "looks_like": "t_window_open",
       "symbol": "|",
@@ -2249,7 +2249,7 @@
     {
       "type": "terrain",
       "id": "t_skylight_frame",
-      "name": "skylight frame",
+      "name": "Skylight frame",
       "description": "A wooden skylight frame.",
       "looks_like": "t_window_empty",
       "symbol": "0",
@@ -2275,5 +2275,221 @@
         "items": [ { "item": "2x4", "count": [ 2, 4 ] } ]
       },
       "flags": [ "TRANSPARENT", "FLAMMABLE", "NOITEM" ]
+    },
+    {
+    "type": "terrain",
+    "id": "t_tempered_glass_window",
+    "name": "Tempered glass window",
+    "description": "1 giant sheet of glass inserted into a window.",
+    "looks_like": "t_window_no_curtains",
+    "symbol": "\"",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
+      ],
+    "examine_action": "locked_object",
+    "open": "t_tempered_glass_open",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
+    "bash": {
+      "str_min": 15,
+      "str_max": 30,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+    }
+  },
+    {
+    "type": "terrain",
+    "id": "t_tempered_glass_open",
+    "name": "Tempered glass window open",
+    "description": "1 giant sheet of glass inserted into a window.",
+    "looks_like": "t_window_no_curtains_open",
+    "symbol": "\"",
+    "color": "light_cyan",
+    "move_cost": 4,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
+      "SMALL_PASSAGE"
+      ],
+    "close": "t_tempered_glass_window",
+    "deconstruct": { "ter_set": "t_window_empty", "items": [ { "item": "glass_sheet", "count": 1 } ] },
+    "bash": {
+      "str_min": 15,
+      "str_max": 30,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+    }
+  },
+    {
+    "type": "terrain",
+    "id": "t_tempered_glass_with_curtain",
+    "name": "tempered glass window with a curtain",
+    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+    "looks_like": "t_curtains",
+    "symbol": "|",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
+      ],
+    "examine_action": "curtains",
+    "open": "t_tempered_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 15,
+      "str_max": 30,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+    }
+  },
+    {
+    "type": "terrain",
+    "id": "t_tempered_glass_with_curtain_open_window_closed",
+    "name": "Tempered glass window with a curtain",
+    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+    "looks_like": "t_window_domestic",
+    "symbol": "|",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "BARRICADABLE_WINDOW",
+      "REDUCE_SCENT",
+      "CONNECT_TO_WALL",
+      "BLOCK_WIND"
+      ],
+    "examine_action": "curtains",
+    "close": "t_tempered_glass_with_curtain",
+    "open": "t_tempered_glass_with_curtain_open",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "reinforced_glass_sheet", "count": 1 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 15,
+      "str_max": 30,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+    }
+  },
+    {
+    "type": "terrain",
+    "id": "t_tempered_glass_with_curtain_open",
+    "name": "Tempered glass window with a curtain",
+    "description": "A window with fancy curtains on the inside that can be drawn closed to block visibility and shut out any light.",
+    "looks_like": "t_window_open",
+    "symbol": "|",
+    "color": "light_cyan",
+    "move_cost": 4,
+    "coverage": 60,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "NOITEM",
+      "OPENCLOSE_INSIDE",
+      "MOUNTABLE",
+      "CONNECT_TO_WALL",
+      "THIN_OBSTACLE",
+      "SMALL_PASSAGE"
+      ],
+    "examine_action": "curtains",
+    "close": "t_tempered_glass_with_curtain_open_window_closed",
+    "deconstruct": {
+      "ter_set": "t_window_empty",
+      "items": [
+        { "item": "stick", "count": 1 },
+        { "item": "sheet", "count": 2 },
+        { "item": "glass_sheet", "count": 3 },
+        { "item": "nail", "charges": [ 3, 4 ] },
+        { "item": "string_36", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 15,
+      "str_max": 30,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_window_frame",
+      "items": [
+        { "item": "glass_shard", "count": [ 68, 100 ] }
+        ]
+    }
     }
 ]

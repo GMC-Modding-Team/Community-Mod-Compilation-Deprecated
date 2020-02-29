@@ -286,5 +286,31 @@
     "components": [ [ [ "nail", 4 ] ], [ [ "sheet", 1 ] ], [ [ "stick", 1 ] ], [ [ "string_36", 1 ] ] ],
     "pre_terrain": "t_reinforced_plastic_window",
     "post_terrain": "t_reinforced_plastic_window_with_curtain"
+  },
+  {
+    "type": "construction",
+    "id": "constr_tempered_window",
+    "description": "Build Tempered Window",
+    "//": "Step 1: Build tempered window",
+    "category": "REINFORCE",
+    "required_skills": [ [ "fabrication", 9 ] ],
+    "time": "40 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_M", "level": 1 } ] ],
+    "components": [ [ [ "tempered_glass_sheet", 1 ] ], [ [ "nail", 16 ] ], [ [ "2x4", 4 ] ] ],
+    "pre_terrain": "t_window_empty",
+    "post_terrain": "t_tempered_glass_window"
+  },
+  {
+    "type": "construction",
+    "id": "constr_tempered_window_curtain",
+    "description": "Build Tempered Window",
+    "//": "Step 2: Build curtain for tempered window",
+    "category": "REINFORCE",
+    "required_skills": [ [ "fabrication", 9 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_M", "level": 1 } ] ],
+    "components": [ [ [ "nail", 4 ] ], [ [ "sheet", 1 ] ], [ [ "stick", 1 ] ], [ [ "string_36", 1 ] ] ],
+    "pre_terrain": "t_tempered_glass_window",
+    "post_terrain": "t_tempered_glass_with_curtain"
   }
 ]
