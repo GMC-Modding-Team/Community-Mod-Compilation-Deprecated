@@ -1,0 +1,24 @@
+[
+  {
+    "type": "profession",
+	"ident": "Omni_Corp",
+	"name": "Omni Corp. Operator",
+	"description": "You're an Operator for the Omni Corporation. Your job is to clean up the Wasteland, but the public doesn't need to know that.",
+	"points": 0,
+	"items": {
+	  "both": {
+	    "ammo": 100,
+		"items": [ "jeans", "socks", "tshirt", "OP_Armor", "OP_Armor_Helm", "OP_Bag", "OP_Pack", "OmniPistol", "OmniKnife", "OP_Tool", "OP_Tool_2" ],
+		"entries": [ { "item": "OmniMag", "ammo-item": "OmniAmmo", "charges": 10 }, { "item": "OmniMag", "ammo-item": "OmniAmmo", "charges": 10 }, { "item": "OmniMag", "ammo-item": "OmniAmmo", "charges": 10 } ] },
+		"male": [ "boxer_shorts" ],
+		"female": [ "bra", "panties" ] },
+	"CBMs": [ "OP_Bionic_Power", "OP_Bionic_Lift", "OP_Bionic_Enhance" ],
+	"skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 5, "name": "rifle" },
+      { "level": 5, "name": "pistol" },
+      { "level": 5, "name": "survival" },
+      { "level": 5, "name": "fabrication" },
+	  { "level": 5, "name": "dodge" } ]
+  }
+]

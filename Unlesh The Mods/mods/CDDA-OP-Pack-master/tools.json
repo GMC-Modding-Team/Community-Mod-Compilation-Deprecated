@@ -1,0 +1,142 @@
+[
+  { 
+    "id": "OP_Tool", 
+	"type": "TOOL", 
+	"name": "Omni Tool MK1", 
+	"description": "The Omni Tool is an automatic morphing tool that serves an infinite number of uses.", 
+	"weight": 0.01, 
+	"volume": 0.01, 
+	"price": 0, 
+	"to_hit": 2, 
+	"bashing": 25, 
+	"material": "superalloy", 
+	"symbol": ";", 
+	"color": "white",
+	"qualities": [ [ "ANVIL", 10 ], [ "CUT", 10 ], [ "CUT_FINE", 10 ], [ "SMOOTH", 10 ], [ "WELD", 10 ], [ "HAMMER", 10 ], [ "HAMMER_FINE", 10 ], [ "SAW_W", 10 ], [ "SAW_M", 10 ], [ "SAW_M_FINE", 10 ], [ "COOK", 10 ], [ "BOIL", 10 ], [ "CHEM", 10 ], [ "DISTILL", 10 ], [ "AXE", 10 ], [ "DIG", 10 ], [ "WRENCH", 10 ], [ "WRENCH_FINE", 10 ], [ "SCREW", 10 ], [ "SCREW_FINE", 10 ], [ "BUTCHER", 10 ], [ "DRILL", 10 ], [ "PRY", 10 ], [ "LIFT", 10 ], [ "JACK", 10 ], [ "SELF_JACK", 10 ], [ "CHISEL", 10 ], [ "SEW", 10 ], [ "KNIT", 10 ], [ "PULL", 10 ], [ "ANALYSIS", 10 ], [ "CONCENTRATE", 10 ], [ "SEPARATE", 10 ], [ "FINE_DISTILL", 10 ], [ "CHROMATOGRAPHY", 10 ], [ "CONTAIN", 10 ] ], 
+	"flags": [ "UNBREAKABLE_MELEE", "BELT_CLIP", "DIG_TOOL", "SAFECRACK", "TRADER_AVOID" ] 
+  },
+    { 
+    "id": "OP_Tool_2", 
+	"type": "TOOL", 
+	"name": "Omni Tool MK2", 
+	"description": "The Omni Hand Tool is an automatic morphing tool that does everything else the MK1 doesn't.", 
+	"weight": 0.01, 
+	"volume": 0.01, 
+	"price": 0, 
+	"to_hit": 2, 
+	"bashing": 25, 
+	"material": "superalloy", 
+	"symbol": ";", 
+	"color": "white", 
+	"use_action": [
+	  {
+	    "menu_text": "Pick a lock",
+	    "type": "picklock", 
+		"pick_quality": 999
+	  },
+	  {
+	    "menu_text": "Repair Fabric",
+		"type": "repair_item",
+		"skill": "tailor",
+		"item_action_type": "repair_fabric",
+		"materials": [ "cotton", "leather", "wool", "fur", "nomex", "neoprene", "kevlar", "faux_fur" ],
+		"tool_quality": 999,
+		"cost_scaling": 999
+	  },
+	  {
+	    "menu_text": "Repair Metal",
+		"type": "repair_item",
+		"skill": "mechanics",
+		"item_action_type": "repair_metal",
+		"materials": [ "iron", "steel", "hardsteel", "aluminum", "copper", "silver", "gold", "superalloy", "brass", "budget_steel", "lead", "platinum" ],
+		"tool_quality": 999,
+		"cost_scaling": 999
+	  },
+	  {
+	    "menu_text": "Repair Misc.",
+		"skill": "fabrication",
+		"type": "MISC_REPAIR",
+		"materials": [ "wood", "bone", "plastic", "ceramic", "clay", "diamond", "glass", "paper", "stone" ],
+		"tool_quality": 999,
+		"cost_scaling": 999
+	  },
+	  {
+	    "menu_text": "Repair Guns",
+		"type": "GUN_REPAIR",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Activate the Hotplate",
+		"type": "HOTPLATE",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Purify Water",
+		"type": "WATER_PURIFIER",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Draw Blood",
+		"type": "BLOOD_DRAW",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Check the Geiger Counter",
+		"type": "GEIGER",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Mop up",
+		"type": "MOP",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Siphon",
+		"type": "SIPHON",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Wash Clothes",
+		"type": "WASHCLOTHES",
+		"tool_quality": 999,
+		"cost_scaling": 0
+	  },
+	  {
+	    "menu_text": "Make some noise!",
+		"type": "manualnoise",
+		"noise": 100,
+		"noise_message": "BEEEEEEEEEEEEP!",
+		"use_message": "Your tool makes a really loud beep!",
+		"no_charges_message": "That shouldn't happen..."
+	  },
+	  {
+	    "menu_text": "Take a picture",
+		"type": "CAMERA"
+	  },
+	  {
+	    "menu_text": "Robot Control",
+		"type": "ROBOTCONTROL",
+		"tool_quality": 999
+	  },
+	  {
+	    "menu_text": "Find Signals",
+		"type": "DIRECTIONAL_ANTENNA",
+		"tool_quality": 999
+	  },
+	  {
+	   "menu_text": "Go fishing",
+	   "type": "FISH_ROD"
+	  },
+	  {
+	   "menu_text": "Check the Weather",
+	   "type": "WEATHER_TOOL"
+	  },
+	  {
+	    "menu_text": "Teleporter (BETA!)",
+		"type": "TELEPORT",
+		"tool_quality": 999
+	  }
+	], 
+	"flags": [ "UNBREAKABLE_MELEE", "BELT_CLIP", "FIRE", "FISH_GOOD", "WRITE_MESSAGE", "TRADER_AVOID", "FISH_GOOD" ] 
+  }
+]
