@@ -1,0 +1,26 @@
+[
+  {
+    "type": "tool_quality",
+    "id": "COMPUTATION",
+    "name": "computation"
+  },
+  {
+    "type": "tool_quality",
+    "id": "NETWORKING",
+    "name": "networking"
+  },
+  {
+    "type": "tool_quality",
+    "id": "MOLECULAR_ASSEMBLY",
+    "name": "molecular assembly"
+  },
+  {
+    "type": "tool_quality",
+    "id": "3D_PRINTING",
+    "name": "3D printing",
+    "//": "level 1: basic polymer printing, may be rather rough or imprecise",
+    "//": "level 2: good polymer printing; may also include rough printing of other malleable materials",
+    "//": "level 3: high-quality polymer printing; decent printing quality of other materials; could be used for medical printing",
+    "//": "level 4: all of the above, plus being able to print metal constructions of decent strength; a molecular forge is on the horizon"
+  }
+]
