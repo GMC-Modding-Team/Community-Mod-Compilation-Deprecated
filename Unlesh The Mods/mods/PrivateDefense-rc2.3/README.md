@@ -29,10 +29,6 @@ Also, I was dared to play without using anything made of iron or iron alloys (th
 - [x] Private 223: 5.56mm (.223) carbine derived from AR15-related models. Designed for close-quarters shootouts, such as home defense scenario. Accepts STANAG magazines.
 - [x] Private 3006: .30-06 single-round sniper rifle derived from Remington 700. More reliable than semi-auto weapons of the Private series.
 
-## Shotguns
-
-- [x] Private 12: 12-gauge single-shot pistol designed for concealed carry.
-
 ## Magazines
 
 ### Rifles
