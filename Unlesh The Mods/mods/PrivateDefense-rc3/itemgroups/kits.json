@@ -1,0 +1,24 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "pd_kits",
+    "items": [
+      [ "pd_9mm_kit",   25 ],
+      [ "pd_mp5_kit",   15 ],
+      [ "pd_45_kit",    15 ],
+      [ "pd_357_kit",   10 ],
+      [ "pd_223_kit",   10 ],
+      [ "pd_mac10_kit", 10 ],
+      [ "pd_uzi_kit",   10 ],
+      [ "pd_3006_kit",   5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bedroom",
+    "items": [
+      { "group": "pd_kits", "prob": 1 }
+    ]
+  }
+]
