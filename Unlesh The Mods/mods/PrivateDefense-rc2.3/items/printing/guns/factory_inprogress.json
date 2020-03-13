@@ -110,19 +110,5 @@
       "not_ready_msg": "The factory is working slowly to bring you the gun.",
       "msg": "You turn off the factory."
     }
-  },
-  {
-    "type": "TOOL",
-    "id": "pd_printing_pd12_factory",
-    "copy-from": "3d_factory",
-    "name": "3D factory producing Private 12",
-    "description": "3D factory, currently busy printing the Private 12 subcompact plastic shotgun additively. Once it finishes, activate it and deconstruct the resulting factory to get the gun.",
-    "use_action": {
-      "type": "delayed_transform",
-      "transform_age": 3900, 
-      "target": "pd_finished_pd12_factory",
-      "not_ready_msg": "The factory is working slowly to bring you the gun.",
-      "msg": "You turn off the factory."
-    }
   }
 ]
