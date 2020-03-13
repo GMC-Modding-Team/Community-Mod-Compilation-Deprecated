@@ -9,7 +9,7 @@
     "looks_like": "f_robotic_arm",
     "move_cost_mod": -1,
     "required_str": -1,
-    "flags": [ "TRANSPARENT" ],
+    "flags": [ "TRANSPARENT", "AUTODOC" ],
     "examine_action": "autodoc",
     "deconstruct": {
       "items": [
@@ -26,7 +26,7 @@
         { "item": "BioCo_AutoDoc_Core", "prob": 80 },
         { "item": "scrap", "count": [ 6, 8 ] }
       ]
-    }, 
+    },
 	"bash": {
       "str_min": 8,
       "str_max": 150,
