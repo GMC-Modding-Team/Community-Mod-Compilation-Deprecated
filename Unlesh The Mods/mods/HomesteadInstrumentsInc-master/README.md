@@ -5,6 +5,7 @@ Homestead Instruments Inc. (`homestead`) is a [*Cataclysm: Dark Days Ahead*](htt
 Homestead Instruments Inc. is used by the following mods:
 
 - [Project APEX](https://github.com/FirebrandCoding/ProjectAPEX)
+- [Private Defense](https://github.com/FirebrandCoding/PrivateDefense)
 
 # Why
 
@@ -18,11 +19,12 @@ Homestead seeks to provide support for the former and ameliorate the latter.
 
 # Tools
 
-## Production
+## Production & Manufacture
 
 - [x] **3D printer**: basic 3D-printing device
 - [x] **3D factory**: a sophisticated, advanced 3D printer for use in polymer and medical printing
 - [ ] **molecular forge**: highly-advanced station capable of manipulating any sort of raw material to create the desired item
+- [x] **CNC firearm workstation**: a compact, portable station allowing for manufacture of firearm parts
 
 ## Medical
 
@@ -31,7 +33,7 @@ Homestead seeks to provide support for the former and ameliorate the latter.
 ## Computers & Network
 
 - [ ] **usable computers**: stationary and portable devices providing computational power for various projects
-  - [ ] laptops
+  - [x] laptops
   - [ ] desktops
 - [x] **servers**: stations usable as additional computational units or members of a network
 
@@ -64,6 +66,13 @@ As such, the following types of tools require research in order to be properly i
 - electronics mentioned above
 
 Feel free to suggest tools that you think would fit within Homestead by opening an issue.
+
+# Issues
+
+- Homestead recipes – 3D printing, software installation etc. – currently have to exist within predefined crafting subcategories.
+  - Adding your own subcategories to the existing categories is currently buggy.
+  - Creating a unique Homestead category of recipes, while convenient, goes against the goal of meaningfully integrating the mod into the base game.
+  - Ideally, software installation would exist within `ELECTRONIC` → `INSTALL` category, 3D printing — within the `PRINTING` subcategory of the respective category: `WEAPON` for firearms, `AMMO` for ammunition, `CHEM` for pharmaceutical applications etc.
 
 # Lore
 

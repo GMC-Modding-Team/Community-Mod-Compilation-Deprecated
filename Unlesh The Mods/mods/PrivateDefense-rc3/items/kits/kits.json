@@ -1,0 +1,135 @@
+[
+  {
+    "type": "GENERIC",
+    "abstract": "pd_kit",
+    "name": "Private Defense kit",
+    "description": "Disassembled plastic firearm. Activate to assemble.",
+    "symbol": "o",
+    "color": "dark_gray",
+    "bashing": 4,
+    "to-hit": -2,
+    "material": [ "plastic" ],
+    "weight": "1 kg",
+    "volume": "1 L"
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_9mm_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 9 kit",
+    "description": "Disassembled Private 9. Activate to assemble.",
+    "weight": "350 g",
+    "volume": "500 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_9mm",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_357_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 357 kit",
+    "description": "Disassembled Private 357. Activate to assemble.",
+    "weight": "540 g",
+    "volume": "549 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_357",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_45_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 45 kit",
+    "description": "Disassembled Private 45. Activate to assemble.",
+    "weight": "650 g",
+    "volume": "500 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_45",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_223_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 223 kit",
+    "description": "Disassembled Private 223. Activate to assemble.",
+    "weight": "1890 g",
+    "volume": "1750 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_223",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_3006_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 3006 kit",
+    "description": "Disassembled Private 3006. Activate to assemble.",
+    "weight": "1940 g",
+    "volume": "3 L",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_3006",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_mp5_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 5 kit",
+    "description": "Disassembled Private 5. Activate to assemble.",
+    "weight": "1650 g",
+    "volume": "2894 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_mp5",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_mac10_kit",
+    "copy-from": "pd_kit",
+    "name": "Private 10 kit",
+    "description": "Disassembled Private 10. Activate to assemble.",
+    "weight": "1940 g",
+    "volume": "750 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_mac10",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "pd_uzi_kit",
+    "copy-from": "pd_kit",
+    "name": "Private U kit",
+    "description": "Disassembled Private U. Activate to assemble.",
+    "weight": "1950 g",
+    "volume": "1250 ml",
+    "use_action": {
+      "type": "transform",
+      "target": "pd_uzi",
+      "menu_text": "Assemble",
+      "msg": "You assemble the firearm."
+    }
+  }
+]

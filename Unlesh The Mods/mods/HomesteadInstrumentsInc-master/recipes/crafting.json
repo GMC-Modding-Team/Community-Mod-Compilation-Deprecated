@@ -2,6 +2,8 @@
   {
     "type": "recipe",
     "result": "laptop_working",
+    "id_suffix": "from_dead",
+    "//": "working laptop from an existing broken one",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_TOOLS",
     "skill_used": "fabrication",
@@ -20,6 +22,7 @@
   {
     "type": "recipe",
     "result": "laptop_working",
+    "//": "working laptop from scratch",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_TOOLS",
     "skill_used": "fabrication",
@@ -28,7 +31,7 @@
     "time": "60 m",
     "reversible": true,
     "book_learn": [ [ "textbook_electronics", 3 ] ],
-    "using": [ [ "soldering_standard", 10 ] ],
+    "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "processor", 1 ] ],
