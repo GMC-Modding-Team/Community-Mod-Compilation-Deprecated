@@ -1,7 +1,7 @@
 [
   {
     "type": "GENERIC",
-    "id": "pd_sd_card",
+    "id": "sd_card",
     "copy-from": "mobile_memory_card",
     "//": "local copy of the native SD card sans all the random data flags",
     "name": { "str": "SD-Memory card" },
@@ -25,7 +25,18 @@
     "type": "GENERIC",
     "abstract": "cad",
     "name": "CAD file",
-    "container": "pd_sd_card",
+    "//": "to be used for 3D printing recipes",
+    "container": "sd_card",
+    "description": "it's a bug if you see this",
+    "symbol": "#",
+    "flags": [ "IRREMOVABLE", "NO_DROP" ]
+  },
+  {
+    "type": "GENERIC",
+    "abstract": "gcode",
+    "name": ".GCODE file",
+    "//": "to be used for CNC machining recipes",
+    "container": "sd_card",
     "description": "it's a bug if you see this",
     "symbol": "#",
     "flags": [ "IRREMOVABLE", "NO_DROP" ]
