@@ -80,5 +80,31 @@
       ]
     ],
     "magazine_well": 1
+  },
+  {
+    "type": "TOOL",
+    "id": "molecular_forge",
+    "name": "molecular forge",
+    "description": "The pinnacle of industrial-grade production tools at the time of Cataclysm, this machine is capable of manufacturing any type of item from raw materials without human supervision. The use of specialized nanomachinery makes the process a matter of minutes, rather than hours or days, even for intricate and molecularly-complex structures. Due to government regulations and some level of public fear, the potential of such systems has been limited for consumer appliances, so while the range of potential products is immense, it is not infinite.",
+    "//": "potential todo: supply forge with raw materials periodically to help it maintain its nanite population",
+    "symbol": ",",
+    "color": "light_gray",
+    "volume": "163 L",
+    "weight": "38 kg",
+    "qualities": [ [ "MOLECULAR_ASSEMBLY", 1 ] ],
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "magazines": [
+      [
+        "battery",
+        [
+          "heavy_battery_cell",
+          "heavy_plus_battery_cell",
+          "heavy_atomic_battery_cell",
+          "heavy_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1
   }
 ]

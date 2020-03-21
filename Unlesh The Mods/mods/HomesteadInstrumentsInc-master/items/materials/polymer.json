@@ -6,13 +6,16 @@
     "name": { "str": "polymer chunk" },
     "description": "This is a piece of high-quality polymer.  It could be used to fabricate, repair, or reinforce polymer items.",
     "symbol": ",",
-    "color": "light_blue"
+    "color": "light_blue",
+    "material": "polymer"
   },
   {
     "type": "GENERIC",
     "id": "polymer_lens",
-    "name": "polymer lens",
-    "name_plural": "polymer lenses",
+    "name": {
+      "str": "polymer lens",
+      "str_pl": "polymer lenses"
+    },
     "description": "Transparent polymer lens, with the focal point adjustable via low-power electrical current. Lighter and more durable than its glass counterpart.",
     "symbol": ".",
     "color": "light_blue",
