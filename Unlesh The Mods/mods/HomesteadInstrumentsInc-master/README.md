@@ -21,20 +21,30 @@ Homestead seeks to provide support for the former and ameliorate the latter.
 
 ## Production & Manufacture
 
+### 3D Printing
+
 - [x] **3D printer**: basic 3D-printing device
 - [x] **3D factory**: a sophisticated, advanced 3D printer for use in polymer and medical printing
-- [ ] **molecular forge**: highly-advanced station capable of manipulating any sort of raw material to create the desired item
-- [x] **CNC firearm workstation**: a compact, portable station allowing for manufacture of firearm parts
 
-## Medical
+### Advanced Production
 
-- [ ] **surgical suite**: sophisticated set of surgical instruments guided by an advanced AI to accomplish even the most advanced of operations
+- [x] **molecular forge**: highly-advanced station capable of manipulating any sort of raw material to create the desired item
+
+### Automated Workstations
+
+- [x] **CNC workstation**: a compact, portable station allowing for manufacture of firearm parts
+- [ ] **laser cutter**: high-power laser for cutting and engraving metal and sparser materials
+
+## Chemical
+
+- [x] **ultrasonication station**: material-breakdown portable station that allows turning basic materials into powder or nanopowder form for use in other projects
+- [ ] **dyeing pool**
 
 ## Computers & Network
 
 - [ ] **usable computers**: stationary and portable devices providing computational power for various projects
   - [x] laptops
-  - [ ] desktops
+  - [ ] desktops (all-in-one)
 - [x] **servers**: stations usable as additional computational units or members of a network
 
 ## Tools Requiring Research
@@ -48,12 +58,9 @@ As such, the following types of tools require research in order to be properly i
     - crafting firearms, custom magazines, blades, and other such combat equipment
     - creating items of beauty: sculptures, jewelry, and internal decorations
 - chemical tools
-  - dyeing suite
-    - applying color to items
-    - bleaching items
   - medium- and large-scale, laboratory-quality, chemical-production stations
     - synthetic food production
-    - drugs production, including narcotics
+    - drugs production
 - business-scale painting tools
   - usable for decoration at a speed higher than manual labor with a can of paint
   - may also be used to designate one's territory to NPCs and (in multiplayer iterations) other players
