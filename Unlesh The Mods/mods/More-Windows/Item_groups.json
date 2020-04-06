@@ -4,54 +4,16 @@
   "id": "hardware_bulk",
   "//": "large quantities of common building supplies.",
   "items": [
-    { "item": "2x4", "prob": 100, "count": [ 5, 20 ] },
-    { "item": "wood_beam", "prob": 50, "count": [ 1, 5 ] },
-    { "item": "wood_sheet", "prob": 50, "count": [ 1, 4 ] },
-    { "item": "wood_panel", "prob": 60, "count": [ 1, 8 ] },
-    { "item": "rock", "prob": 70, "count": [ 10, 20 ] },
-    { "item": "coal_lump", "prob": 20, "count": [ 1, 10 ] },
-    { "item": "material_cement", "prob": 100, "charges": 500, "container-item": "bag_canvas" },
-    { "item": "material_sand", "prob": 100, "charges": 500, "container-item": "bag_canvas" },
-    [ "material_shrd_limestone", 70 ],
-    [ "fertilizer_commercial", 100 ],
-    [ "material_quicklime", 70 ],
-    [ "concrete", 70 ],
-    { "item": "rope_6", "prob": 10 },
-    { "item": "sheet_metal", "prob": 10 },
-    { "item": "sheet_metal_small", "prob": 10 },
-    { "item": "plastic_sheet", "prob": 30, "count": [ 5, 15 ] },
-    { "item": "rigid_plastic_sheet", "prob": 30, "count": [ 5, 15 ] },
-    { "item": "rebar", "prob": 40, "count": [ 5, 10 ] },
-    { "item": "brick", "prob": 40, "count": [ 5, 10 ] },
-    { "item": "pipe", "prob": 40, "count": [ 5, 10 ] },
-    { "item": "wire", "prob": 40, "count": [ 5, 10 ] },
-    { "item": "screen_mesh", "prob": 40, "count": [ 5, 10 ] },
-    { "item": "spike", "prob": 40, "count": [ 5, 10 ] },
-    { "item": "nail", "prob": 60, "count": [ 5, 20 ] },
-    { "item": "hinge", "prob": 60, "count": [ 5, 10 ] }
-  ]
+    { "item": "tempered_glass_sheet", "prob": 30, "count": [ 5, 25] },
+    { "item": "rigid_plastic_sheet", "prob": 30, "count": [ 5, 25 ] }
+    ]
 },
 {
   "type": "item_group",
   "id": "lumberyard",
   "subtype": "collection",
   "items": [
-    {
-      "distribution": [
-        { "item": "2x4", "prob": 500, "count": [ 20, 50 ] },
-        { "item": "wood_beam", "prob": 50, "count": [ 5, 20 ] },
-        { "item": "wood_sheet", "prob": 400, "count": [ 10, 30 ] },
-        { "item": "wood_panel", "prob": 300, "count": [ 15, 40 ] },
-        { "item": "log", "prob": 200, "count": [ 5, 10 ] },
-        { "item": "stick_long", "prob": 100, "count": [ 10, 20 ] },
-        { "item": "stick", "prob": 50, "count": [ 5, 10 ] },
-        { "item": "nail", "prob": 100, "count": [ 5, 20 ] }
-      ],
-      "prob": 100
-    },
-    [ "plastic_sheet", 50 ],
-    [ "rigid_plastic_sheet", 50 ],
-    [ "pine_bough", 10 ]
+    [ "rigid_plastic_sheet", 50 ]
   ]
 },
 {
@@ -60,55 +22,8 @@
   "//": "General purpose supplies for building / blue collar work.",
   "//2": "Stuff you might find in a jobsite, a hardware store, or a home workshop.",
   "items": [
-    [ "concrete", 20 ],
-    { "item": "rebar", "prob": 20, "count": [ 5, 10 ] },
-    { "item": "brick", "prob": 20, "count": [ 5, 10 ] },
-    [ "solder_wire", 20 ],
-    [ "superglue", 30 ],
-    [ "chain", 20 ],
-    [ "rope_6", 4 ],
-    [ "rope_30", 35 ],
-    [ "circsaw_blade", 8 ],
-    [ "glass_sheet", 5 ],
-    [ "tempered_glass_sheet", 5],
-    [ "box_small", 10 ],
-    [ "box_medium", 10 ],
-    [ "box_large", 10 ],
-    [ "plastic_sheet", 30 ],
-    [ "rigid_plastic_sheet", 30 ],
-    { "item": "pipe", "prob": 20, "count": [ 5, 10 ] },
-    { "item": "nail", "prob": 60, "count": [ 2, 4 ] },
-    [ "hose", 15 ],
-    [ "string_36", 40 ],
-    [ "frame", 20 ],
-    [ "hdframe", 10 ],
-    [ "metal_tank", 10 ],
-    [ "screen_mesh", 10 ],
-    [ "metal_tank_little", 10 ],
-    [ "water_faucet", 10 ],
-    [ "wood_panel", 10 ],
-    { "item": "wire", "prob": 50, "count": [ 1, 10 ] },
-    { "item": "wire_barbed", "prob": 20, "count": [ 1, 10 ] },
-    [ "duct_tape", 60 ],
-    [ "foot_crank", 10 ],
-    [ "spray_can", 50 ],
-    [ "bearing", 1 ],
-    [ "permanent_marker", 20 ],
-    [ "cu_pipe", 50 ],
-    [ "fungicide", 5 ],
-    [ "insecticide", 5 ],
-    [ "charcoal", 5 ],
-    { "group": "ammo_pocket_batteries_full", "prob": 50 },
-    [ "solar_cell", 5 ],
-    [ "fertilizer_commercial", 30 ],
-    [ "chem_sulphuric_acid", 30 ],
-    [ "chem_muriatic_acid", 35 ],
-    [ "peephole", 25 ],
-    { "item": "chem_chromium_oxide", "prob": 5, "charges-min": 100 },
-    { "item": "chem_zinc_powder", "prob": 5, "charges-min": 100 },
-    [ "denat_alcohol", 5 ],
-    [ "recharge_station", 10 ],
-    [ "tarp", 15 ]
+    [ "tempered_glass_sheet", 25],
+    [ "rigid_plastic_sheet", 30 ]
   ]
 },
 {
@@ -116,22 +31,7 @@
   "id": "lumberyard",
   "subtype": "collection",
   "items": [
-    {
-      "distribution": [
-        { "item": "2x4", "prob": 500, "count": [ 20, 50 ] },
-        { "item": "wood_beam", "prob": 50, "count": [ 5, 20 ] },
-        { "item": "wood_sheet", "prob": 400, "count": [ 10, 30 ] },
-        { "item": "wood_panel", "prob": 300, "count": [ 15, 40 ] },
-        { "item": "log", "prob": 200, "count": [ 5, 10 ] },
-        { "item": "stick_long", "prob": 100, "count": [ 10, 20 ] },
-        { "item": "stick", "prob": 50, "count": [ 5, 10 ] },
-        { "item": "nail", "prob": 100, "count": [ 5, 20 ] }
-      ],
-      "prob": 100
-    },
-    [ "plastic_sheet", 50 ],
-    [ "rigid_plastic_sheet", 50 ],
-    [ "pine_bough", 10 ]
+    [ "rigid_plastic_sheet", 50 ]
   ]
 },
 {
@@ -140,65 +40,21 @@
   "//": "for domestic or small trade wood working shops",
   "subtype": "collection",
   "items": [
-    {
-      "distribution": [
-        { "item": "2x4", "prob": 100, "count": [ 4, 6 ] },
-        { "item": "wood_beam", "prob": 10, "count": [ 1, 2 ] },
-        { "item": "wood_sheet", "prob": 50, "count": [ 2, 3 ] },
-        { "item": "wood_panel", "prob": 30, "count": [ 2, 3 ] },
-        { "item": "stick_long", "prob": 30, "count": [ 5, 10 ] },
-        { "item": "stick", "prob": 50, "count": [ 1, 7 ] },
-        { "item": "nail", "prob": 100, "count": [ 5, 20 ] }
-      ],
-      "prob": 100
-    },
-    [ "plastic_sheet", 5 ],
-    [ "rigid_plastic_sheet", 5 ],
-    [ "pine_bough", 3 ]
+    [ "rigid_plastic_sheet", 5 ]
   ]
 },
 {
   "id": "recycle_glass",
   "type": "item_group",
   "items": [
-    [ "glass_sheet", 10 ],
-    [ "tempered_glass_sheet", 10],
-    [ "glasses_reading", 20 ],
-    [ "glasses_bifocal", 20 ],
-    [ "glasses_eye", 20 ],
-    { "item": "marble", "prob": 20, "charges-min": 1, "charges-max": 3 },
-    [ "fish_bowl", 15 ],
-    [ "jar_3l_glass", 120 ],
-    [ "magnifying_glass", 20 ],
-    [ "mirror", 30 ],
-    { "item": "glass_shard", "prob": 650, "count": [ 1, 8 ] },
-    [ "crackpipe", 5 ],
-    [ "glass", 80 ],
-    [ "glass_bowl", 80 ],
-    [ "glass_plate", 80 ],
-    [ "bottle_glass", 150 ],
-    [ "pipe_glass", 10 ],
-    [ "jar_glass", 120 ],
-    [ "flask_glass", 60 ]
+    [ "tempered_glass_sheet", 25]
   ]
 },
 {
   "id": "glass_shop",
   "type": "item_group",
   "items": [
-    [ "glass", 15 ],
-    [ "jar_glass", 10 ],
-    [ "glass_bowl", 10 ],
-    [ "test_tube", 10 ],
-    [ "bottle_glass", 10 ],
-    [ "flask_glass", 10 ],
-    [ "pipe_glass", 10 ],
-    [ "fish_bowl", 1 ],
-    [ "glass_plate", 20 ],
-    [ "glass_sheet", 5 ],
-    [ "tempered_glass_sheet", 5],
-    [ "jar_3l_glass", 15 ],
-    [ "magnifying_glass", 5 ]
+    [ "tempered_glass_sheet", 25]
   ]
 }
 ]
