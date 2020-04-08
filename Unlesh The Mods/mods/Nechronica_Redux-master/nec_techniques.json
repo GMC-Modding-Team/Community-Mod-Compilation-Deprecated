@@ -19,7 +19,7 @@
     "crit_tec": true,
     "knockback_dist": 2,
     "messages": [ "You attack %s powerfully.", "<npcname> attacks %s powerfully" ],
-    "mult_bonuses": [ [ "damage", "bash", 1.2 ] ]
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ]
   },
   {
     "type": "technique",
@@ -32,7 +32,7 @@
     "knockback_dist": 2,
     "messages": [ "You whirlwind kick %s.", "<npcname> whirlwind kicks %s." ],
     "aoe": "spin",
-    "mult_bonuses": [ [ "damage", "bash", 1.5 ] ]
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.5 } ]
   },
   {
     "type": "technique",
@@ -45,6 +45,6 @@
     "down_dur": 2,
     "knockback_dist": 3,
     "messages": [ "You blow away %s with Iron Mine.", "<npcname> blows away %s with Iron Mine." ],
-    "mult_bonuses": [ [ "damage", "bash", 2.0 ] ]
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.0 } ]
   }
 ]
