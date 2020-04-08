@@ -31,7 +31,7 @@
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "canister_empty", 1 ] ],
-      [ [ "grenade", 1 ], [ "40mm_frag", 2 ], [ "40mm_concussive", 2 ] ],
+      [ [ "grenade", 1 ], [ "40x46mm_m433", 2 ], [ "40x46mm_m433", 2 ] ],
       [ [ "plut_cell", 6 ] ],
       [ [ "amplifier", 3 ] ],
       [ [ "power_supply", 1 ] ],
@@ -84,7 +84,7 @@
     "byproducts": [ [ "plastic_chunk" ], [ "plastic_chunk" ] ]
   },
   {
-    "result": "afs_rolling_pin",
+    "result": "rolling_pin",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
@@ -106,7 +106,7 @@
     "difficulty": 1,
     "time": 10000,
     "autolearn": true,
-    "components": [ [ [ "afs_rolling_pin", 1 ] ], [ [ "wire_barbed", 1 ] ], [ [ "adhesive", 1, "LIST" ] ] ]
+    "components": [ [ [ "rolling_pin", 1 ] ], [ [ "wire_barbed", 1 ] ], [ [ "adhesive", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
