@@ -6,6 +6,7 @@
     "weight": 260,
     "color": "brown",
     "addiction_type": "caffeine",
+	"fatigue_mod": 32,
     "stim": 12,
     "container": "bottle_glass_nuka",
     "comestible_type": "DRINK",
@@ -27,7 +28,7 @@
 	  "explosion_data": { "chance_hot": 20, "chance_cold": 1000, "factor": 0.2, "fiery": false, "size_factor": 0.1 }
     }
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "cola_newka",
@@ -35,6 +36,7 @@
     "weight": 260,
     "color": "brown",
     "addiction_type": "caffeine",
+	"fatigue_mod": 7,
     "stim": 3,
     "container": "bottle_glass_nuka",
     "comestible_type": "DRINK",
@@ -56,7 +58,7 @@
 	  "explosion_data": { "chance_hot": 20, "chance_cold": 1000, "factor": 0.2, "fiery": false, "size_factor": 0.1 }
     }
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "cola_nuka_quantum",
@@ -64,6 +66,7 @@
     "weight": 260,
     "color": "blue",
     "addiction_type": "caffeine",
+	"fatigue_mod": 142,
     "stim": 54,
     "container": "bottle_glass_nuka",
     "comestible_type": "DRINK",
@@ -85,7 +88,7 @@
 	  "explosion_data": { "chance_hot": 20, "chance_cold": 1000, "factor": 0.2, "fiery": false, "size_factor": 0.1 }
     }
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "stick_iguana",
@@ -105,7 +108,7 @@
     "charges": 2,
 	"fun": 10
   },
-
+  
    {
     "type": "COMESTIBLE",
     "id": "stick_iguana_premiumh",
@@ -126,7 +129,7 @@
     "charges": 2,
 	"fun": 40
   },
-
+  
      {
     "type": "COMESTIBLE",
     "id": "stick_iguana_premium",
@@ -147,7 +150,7 @@
     "charges": 2,
 	"fun": 40
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "omelette_survival",
@@ -169,7 +172,7 @@
     "fun": 40,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
       {
     "type": "COMESTIBLE",
     "id": "omelette_survival_cheese",
@@ -191,7 +194,7 @@
     "fun": 50,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
         {
     "type": "COMESTIBLE",
     "id": "omelette_survival_spicy",
@@ -213,7 +216,7 @@
     "fun": 50,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
           {
     "type": "COMESTIBLE",
     "id": "omelette_survival_deluxe",
@@ -235,7 +238,7 @@
     "fun": 80,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
       {
     "type": "COMESTIBLE",
     "id": "omelette_survival_milkless",
@@ -257,7 +260,7 @@
     "fun": 35,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
         {
     "type": "COMESTIBLE",
     "id": "omelette_survival_meatless",
@@ -279,7 +282,7 @@
     "fun": 35,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
           {
     "type": "COMESTIBLE",
     "id": "omelette_survival_fruitless",
@@ -301,7 +304,7 @@
     "fun": 35,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
             {
     "type": "COMESTIBLE",
     "id": "omelette_survival_vegan",
@@ -323,7 +326,7 @@
     "fun": 25,
     "rot_spawn": "GROUP_CARRION"
   },
-
+  
               {
     "type": "COMESTIBLE",
     "id": "omelette_survival_vegan_nofruit",

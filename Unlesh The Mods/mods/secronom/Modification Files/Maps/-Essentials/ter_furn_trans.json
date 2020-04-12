@@ -1,0 +1,209 @@
+[{
+        "type": "ter_furn_transform",
+        "id": "vectorize",
+        "fail_message": "There's no organic terrain here to vectorize.",
+        "terrain": [{
+                "result": "t_vector",
+                "valid_flags": ["DIGGABLE"],
+                "message": "The ground here has been vectorized."
+            }, {
+                "result": "t_shrub_vector",
+                "valid_flags": ["SHRUB"],
+                "message": "The shrubs here has been vectorized."
+            }, {
+                "result": "t_tree_vector_young",
+                "valid_flags": ["YOUNG"],
+                "message": "The young trees here has been vectorized."
+            }, {
+                "result": "t_tree_vector",
+                "valid_flags": ["TREE"],
+                "message": "The trees here has been vectorized."
+            }
+        ],
+
+        "furniture": [{
+                "result": "f_floral_vector",
+                "valid_flags": ["FLOWER"],
+                "message": "The flowers here has been vectorized."
+            }
+        ]
+    }, {
+        "type": "ter_furn_transform",
+        "id": "vectocide",
+        "fail_message": "There's no vectorized terrain here to kill.",
+        "terrain": [{
+                "result": [["t_dirt", 5], "t_grass"],
+                "valid_flags": ["VECTOR"],
+                "message": "The vector here dies."
+            }
+        ],
+
+        "furniture": [{
+                "result": "f_null",
+                "valid_flags": ["VECTOR"],
+                "message": "The vector here dies."
+            }
+        ]
+    },
+    
+    {
+        "type": "ter_furn_transform",
+        "id": "gorepit_pit",
+        "fail_message": "There's no organic terrain here to vectorize.",
+        "terrain": [{
+        		"//": "Make every adjacent opaque terrains into dirt, so that we don't encounter bugs with gorepit's essential fields.",
+                "result": "t_dirt",
+                "valid_flags": ["WALL","CONNECT_TO_WALL","MOUNTABLE","THIN_OBSTACLE","BURROWABLE"],
+                "message": "The walls here has collapsed."
+            },{
+            	"//": "Flat, adjacent terrains become pits.",
+                "result": "t_pit",
+                "valid_flags": ["ROAD","DIGGABLE"],
+                "message": "The ground here has collapsed."
+            }
+        ],
+        "furniture": [{
+        		"//": "Similar thing to prevent bugs.",
+                "result": "f_null",
+                "valid_flags": ["MINEABLE","MOUNTABLE","BLOCKSDOOR","TRANSPARENT","FLAT_SURF"],
+                "message": "The furnitures here has collapsed."
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "veinhole_open",
+        "fail_message": "You were too far from the entrance...",
+        "terrain": [{
+        		"//": "We use a spell to open the closed entrance once the veinhole dies.",
+                "result": "t_secro_flesh_entrance_open",
+                "valid_flags": ["FF_ENTRANCE"],
+                "message": "The veinhole leaves a vile gap upon its death."
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "sflesh_sack",
+        "fail_message": "Can't place the egg.",
+        "furniture": [{
+                "result": "f_secro_sack_hatch",
+                "valid_flags": ["TRANSPARENT","S_FLESH"],
+                "valid_furniture": [ "f_null" ],
+                "message": "The flesh sack hatches."
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_trap",
+        "fail_message": "Can't place traps.",
+        "furniture": [{
+                "result": "f_secro_flesh",
+                "valid_furniture": ["f_null"],
+                "message": "The flesh here became a biohazard!"
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_biohazard_accurate",
+        "fail_message": "Can't place traps.",
+        "furniture": [{
+                "result": [["f_secro_flesh", 20], "f_secro_flesh_bones", "f_secro_flesh_tent"],
+                "valid_furniture": [ "f_secro_flesh" ],
+                "message": "The flesh here became a biohazard!"
+            },
+            {
+                "result": [["f_secro_flesh_wall_spawning", 40], "f_secro_flesh_wall"],
+                "valid_furniture": [ "f_secro_flesh_wall" ],
+                "message": "The flesh here became a biohazard!"
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_biohazard",
+        "fail_message": "Can't place traps.",
+        "furniture": [{
+                "result": [["f_secro_flesh", 200], "f_secro_flesh_bones", "f_secro_flesh_tent"],
+                "valid_furniture": [ "f_secro_flesh" ],
+                "message": "The flesh here became a biohazard!"
+            },
+            {
+                "result": [["f_secro_flesh_wall_spawning", 400], "f_secro_flesh_wall"],
+                "valid_furniture": [ "f_secro_flesh_wall" ],
+                "message": "The flesh here became a biohazard!"
+            }
+        ]
+    },
+    {
+    	"//": "To prevent the abuse of traps and/or to keep some safe area.",
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_biohazard_remove_bone",
+        "fail_message": "Can't remove traps.",
+        "furniture": [{
+                "result": [["f_secro_flesh_bones", 10], "f_secro_flesh"],
+                "valid_furniture": [ "f_secro_flesh_bones" ],
+                "message": "The biohazard here has withdraw!"
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_biohazard_remove_tent",
+        "fail_message": "Can't remove traps.",
+        "furniture": [{
+                "result": [["f_secro_flesh_tent", 10], "f_secro_flesh"],
+                "valid_furniture": [ "f_secro_flesh_tent" ],
+                "message": "The biohazard here has withdraw!"
+            }
+        ]
+    },
+    {
+    	"//": "The lair will become safe after the flesh's death.",
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_biohazard_dead",
+        "fail_message": "Can't remove all traps.",
+        "terrain": [{
+        		"//": "The exit opens once you beat the flesh.",
+                "result": "t_secro_flesh_inside_up",
+                "valid_flags": ["FF_EXIT"],
+                "message": "An orifice opens after the flesh's death."
+            },
+            {
+                "result": "t_secro_flesh_inside_down",
+                "valid_flags": ["FC_EXIT"],
+                "message": "An orifice opens after the flesh's death."
+            },
+            {
+                "result": "t_secro_flesh",
+                "valid_flags": ["FF_BIOHAZARD"],
+                "message": "The walls has melted away."
+            }
+        ],
+        "furniture": [{
+                "result": "f_null",
+                "valid_flags": ["FF_BIOHAZARD"],
+                "message": "The biohazards has been neutralized!"
+            }
+        ]
+    },
+    {
+        "type": "ter_furn_transform",
+        "id": "sflesh_flesh_wall",
+        "fail_message": "Can't make walls.",
+        "terrain": [{
+                "result": "t_secro_flesh_wall_weak",
+                "valid_flags": ["S_FLESH"],
+                "message": "A wall has been created!"
+            }
+        ],
+        "furniture": [{
+                "result": "f_secro_flesh_wall",
+                "valid_flags": ["S_FLESH"],
+                "message": "The biohazards has been neutralized!"
+            }
+        ]
+    }
+]

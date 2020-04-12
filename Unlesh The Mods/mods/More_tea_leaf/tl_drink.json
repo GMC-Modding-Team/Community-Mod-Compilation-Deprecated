@@ -1,32 +1,31 @@
 [
   {
+    "abstract": "tl_tea_temple",
     "type": "COMESTIBLE",
-	"id": "tl_tea_temple",
-    "name": "sugarless tea",
-	"weight": 250,
-	"color": "light_green",
     "comestible_type": "DRINK",
-	"symbol": "~",
-	"quench": 40,
-	"healthy": 1,
-	"calories": 2,
-	"description": "Healthy sugarless tea",
-	"price": 90,
+    "name": "sugarless tea",
     "name_plural": "sugarless tea",
     "looks_like": "pine_wine",
     "material": "water",
     "primary_material": "veggy",
+    "symbol": "~",
+    "color": "light_green",
     "phase": "liquid",
+    "price": 90,
+    "weight": 250,
     "volume": 1,
     "charges": 1,
+    "calories": 2,
+    "quench": 40,
+    "healthy": 1,
     "fun": 6,
     "vitamins": [ [ "vitC", 25 ] ]
   },
   {
+    "abstract": "tl_tea_fruit_temple",
     "type": "COMESTIBLE",
-	"id": "tl_tea_fruit_temple",
-	"name": "fruit tea",
     "comestible_type": "DRINK",
+    "name": "fruit tea",
     "name_plural": "fruit tea",
     "looks_like": "tea",
     "material": "water",
@@ -37,6 +36,7 @@
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "spoils_in": "7 days 12 hours",
     "price": 110,
+    "weight": 250,
     "volume": 1,
     "charges": 1,
     "calories": 15,
@@ -66,7 +66,6 @@
     "copy-from": "tl_tea_temple",
     "name": "green tea",
     "description": "Green tea is a tea made from tea leaves, which is processed by heating the picked tea leaves to prevent fermentation. Vivid fresh green is beautiful.",
-	"fatigue_mod": 14,
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "container": "bottle_plastic"
   },
@@ -76,7 +75,7 @@
     "id": "tl_green_tea_nocaff",
     "copy-from": "tl_tea_temple",
     "name": "decaffeinated green tea",
-    "description": "A green tea that does not contain any caffeine",
+    "description": "水で抽出した緑茶です。カフェインが大幅に少なくなっているので就寝前に飲用しても安心ですが、お湯で作ったものよりも味が変化しているので物足りないかもしれません。",
     "looks_like": "pine_wine",
     "phase": "liquid",
     "fun": 3,
@@ -93,7 +92,6 @@
     "looks_like": "whiskey",
     "color": "brown",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "container": "bottle_plastic"
   },
@@ -118,13 +116,12 @@
     "description": "Sumomo simmered with black tea and sugar. The sweetness of the tea is good and the flavor of the tea is good.",
     "comestible_type": "DRINK",
     "symbol": "~",
-    "color": "purple",
+    "color": "magenta",
     "material": "fruit",
     "primary_material": "water",
     "phase": "liquid",
     "flags": [ "EATEN_COLD", "USE_EAT_VERB" ],
     "vitamins": [ [ "vitC", 25 ] ],
-	"fatigue_mod": 14,
     "spoils_in": "7 days 12 hours",
     "container": "jar_3l_glass",
     "price": 100,
@@ -149,7 +146,6 @@
     "primary_material": "water",
     "phase": "liquid",
     "flags": [ "EATEN_COLD" ],
-	"fatigue_mod": 14,
     "spoils_in": "2 days",
     "container": "bottle_plastic",
     "price": 350,
@@ -168,7 +164,6 @@
     "copy-from": "tl_tea_fruit_temple",
     "name": "fruit tea",
     "description": "It is black tea with added fruit juice. Fruity and delicious.",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -178,7 +173,6 @@
     "copy-from": "tl_tea_fruit_temple",
     "name": "berry tea",
     "description": "It is black tea with berry juice. Fruity and delicious.",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -188,7 +182,6 @@
     "copy-from": "tl_tea_fruit_temple",
     "name": "apple tea",
     "description": "It is a black tea with apple juice added. Fruity and delicious.",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -199,7 +192,6 @@
     "name": "pear tea",
     "description": "It is a black tea with pear juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -210,7 +202,6 @@
     "name": "cherry tea",
     "description": "It is a black tea with cherry juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -221,7 +212,6 @@
     "name": "peach tea",
     "description": "It is a black tea with peach juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -233,7 +223,6 @@
     "description": "It is black tea with apricot juice. Fruity and delicious.",
     "material": "fruit",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -244,7 +233,6 @@
     "description": "It is a black tea with lemon juice added. Fruity and delicious.",
     "comestible_type": "DRINK",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -255,7 +243,6 @@
     "name": "mango tea",
     "description": "It is black tea with mango juice. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -266,7 +253,6 @@
     "name": "grape tea",
     "description": "It is a black tea with grape juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -277,7 +263,6 @@
     "name": "grapefruit tea",
     "description": "It is a black tea with grapefruit juice. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -288,29 +273,26 @@
     "name": "papaya tea",
     "description": "It is a tea with papaya juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
     "type": "COMESTIBLE",
-	"id": "tl_orange_tea",
-	"name": "orange tea",
-	"copy-from": "tl_tea_fruit_temple",
     "comestible_type": "DRINK",
+    "id": "tl_orange_tea",
+    "copy-from": "tl_tea_fruit_temple",
+    "name": "orange tea",
     "description": "It is black tea with orange juice. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
     "type": "COMESTIBLE",
-	"id": "tl_pomegranate_tea",
-	"name": "pomegranate tea",
-	"copy-from": "tl_tea_fruit_temple",
     "comestible_type": "DRINK",
+    "id": "tl_pomegranate_tea",
+    "copy-from": "tl_tea_fruit_temple",
+    "name": "pomegranate tea",
     "description": "It is a tea with pomegranate juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
     "container": "bottle_plastic"
   }
 ]

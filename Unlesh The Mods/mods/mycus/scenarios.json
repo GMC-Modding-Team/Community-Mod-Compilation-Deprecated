@@ -1,5 +1,11 @@
 [
   {
+    "type": "start_location",
+    "id": "mycus_start01",
+    "name": "Fungus Institute",
+    "target": "mycus01"
+  },
+  {
     "type": "scenario",
     "ident": "mycus_lab",
     "name": "Mycus",
@@ -8,11 +14,5 @@
     "start_name": "Fungus Institute",
     "professions": [ "mycus_tech" ],
     "allowed_locs": [ "mycus_start01" ]
-  },
-  {
-    "type": "start_location",
-    "ident": "mycus_start01",
-    "name": "Fungus Institute",
-    "target": "mycus01"
   }
 ]

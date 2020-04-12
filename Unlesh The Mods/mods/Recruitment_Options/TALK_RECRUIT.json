@@ -68,7 +68,7 @@
         "condition": {
           "and": [
             { "npc_has_class": "NC_DOCTOR" },
-            { "or":
+            { "or": 
               [
                 { "u_has_effect": "onfire" },
                 { "u_has_effect": "infected" },
@@ -113,7 +113,7 @@
           ]
         },
         "topic": "TALK_DONE",
-        "effect": "insult_combat",
+        "effect": "insult_combat", 
         "opinion": { "value": 2, "trust": 1, "anger": 1 }
       },
       {
@@ -144,7 +144,7 @@
               ]
             },
             { "or":[
-              { "u_is_wearing": "jade_brooch" },
+              { "u_is_wearing": "brooch" },
               { "u_is_wearing": "collarpin" },
               { "u_is_wearing": "crown_golden_survivor" },
               { "u_is_wearing": "diamond_dental_grill" },
@@ -163,7 +163,7 @@
               { "u_is_wearing": "holy_symbol" },
               { "u_is_wearing": "leather_cat_tail" },
               { "u_is_wearing": "leather_collar" },
-              { "u_is_wearing": "silver_necklace" },
+              { "u_is_wearing": "necklace" },
               { "u_is_wearing": "pearl_collar" },
               { "u_is_wearing": "purse" },
               { "u_is_wearing": "gold_ring" },
