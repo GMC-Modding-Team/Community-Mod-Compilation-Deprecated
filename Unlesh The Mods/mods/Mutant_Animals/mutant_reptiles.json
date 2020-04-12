@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "mon_snake_mutant",
+    "id": "mon_snake_mutant",
     "type": "MONSTER",
     "name": "mutant snake",
     "description": "A mutating snake.",
@@ -68,7 +68,7 @@
         "type": "leap",
         "cooldown": 20,
         "accuracy": 10,
-        "max_range": 15, 
+        "max_range": 15,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 20 }
@@ -144,7 +144,7 @@
     "vision_day": 50,
     "vision_night": 10,
     "upgrades": { "half_life": 364, "into": "mon_gamma_toad" },
-    "special_attacks": [  
+    "special_attacks": [
       [ "SMASH", 100 ],
       [ "RANGED_PULL", 10 ],
       [ "GRAB_DRAG", 10 ],
@@ -182,7 +182,7 @@
 	"regenerates": 10,
     "regen_morale": true,
     "emit_fields": [ "emit_nuclear_trail" ],
-    "special_attacks": [  
+    "special_attacks": [
       [ "SHOCKSTORM", 300 ],
       [ "SMASH", 30 ],
       [ "RANGED_PULL", 10 ],

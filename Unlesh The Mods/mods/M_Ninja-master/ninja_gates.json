@@ -1,7 +1,7 @@
 [
   {
     "type"     : "gate",
-    "handle"   : "t_ninja_secret_gate_control",
+    "id"   : "t_ninja_secret_gate_control",
     "door"     : "t_ninja_secret_wall",
     "floor"    : "t_ninja_secret_rock_floor",
     "walls"    : ["t_ninja_secret_wall"],
@@ -15,7 +15,7 @@
     "bashing_damage" : 40
   },{
     "type"     : "gate",
-    "handle"   : "t_ninja_secret_gate_control_metal",
+    "id"   : "t_ninja_secret_gate_control_metal",
     "door"     : "t_ninja_secret_wall_metal",
     "floor"    : "t_ninja_secret_floor",
     "walls"    : ["t_ninja_secret_wall_metal"],
@@ -29,7 +29,7 @@
     "bashing_damage" : 40
   },{
     "type"     : "gate",
-    "handle"   : "t_ninja_secret_gate_control_air",
+    "id"   : "t_ninja_secret_gate_control_air",
     "door"     : "t_open_air",
     "floor"    : "t_ninja_secret_floor",
     "walls"    : ["t_ninja_secret_floor"],
@@ -43,7 +43,7 @@
     "bashing_damage" : 40
   },{
     "type"     : "gate",
-    "handle"   : "t_ninja_secret_gate_control_water",
+    "id"   : "t_ninja_secret_gate_control_water",
     "door"     : "t_water_dp",
     "floor"    : "t_ninja_secret_floor",
     "walls"    : ["t_ninja_secret_floor"],

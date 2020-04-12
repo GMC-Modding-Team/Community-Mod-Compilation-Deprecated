@@ -36,7 +36,7 @@
 	      "flags": [ "NO_REPAIR" ],
     "use_action": "PLAY_GAME"
   },
-
+  
   {
     "id": "painting_fuzzy",
     "type": "GENERIC",
@@ -51,8 +51,8 @@
     "symbol": "*",
     "color": "light_gray"
   },
-
-
+  
+  
   {
     "id": "coin_NCR",
     "type": "GENERIC",
@@ -63,13 +63,13 @@
     "weight": "6 g",
     "volume": 0,
     "price": 100,
-    "material": [ "gold_small" ],
+    "material": [ "gold" ],
     "symbol": "o",
     "color": "yellow",
     "use_action": "COIN_FLIP"
   },
-
-
+  
+  
   {
     "id": "coin_legion_small",
     "type": "GENERIC",
@@ -80,12 +80,12 @@
     "weight": "6 g",
     "volume": 0,
     "price": 400,
-    "material": [ "silver_small" ],
+    "material": [ "silver" ],
     "symbol": "o",
     "color": "light_gray",
     "use_action": "COIN_FLIP"
   },
-
+  
   {
     "id": "coin_legion_large",
     "type": "GENERIC",
@@ -96,12 +96,12 @@
     "weight": "6 g",
     "volume": 0,
     "price": 4000,
-    "material": [ "gold_small" ],
+    "material": [ "gold" ],
     "symbol": "o",
     "color": "yellow",
     "use_action": "COIN_FLIP"
   },
-
+  
  {
     "id": "cap_bottle",
     "type": "GENERIC",
@@ -116,7 +116,7 @@
     "symbol": "o",
     "color": "red"
   },
-
+  
   {
     "id": "pipboy_2000",
     "type": "TOOL",
@@ -146,7 +146,7 @@
     "color": "light_gray",
     "use_action": "PORTABLE_GAME"
   },
-
+  
   {
     "type": "TOOL_ARMOR",
 	    "//": "Todo; add other purposes than just gaming and watching!",
@@ -182,8 +182,8 @@
     "magazine_well": 1,
     "use_action": "PORTABLE_GAME"
   },
-
-
+  
+  
   {
     "id": "doll_nixon",
     "type": "TOOL",
@@ -197,7 +197,7 @@
     "symbol": "n",
     "color": "blue"
   },
-
+  
   {
     "id": "condom_jimmy_blue",
     "type": "CONTAINER",
@@ -237,7 +237,7 @@
     "seals": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
-
+  
   {
     "id": "condom_jimmy_red",
     "type": "CONTAINER",
@@ -257,7 +257,7 @@
     "seals": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
-
+  
   {
     "id": "flask_vault",
     "type": "CONTAINER",
@@ -279,8 +279,8 @@
     "qualities": [ [ "BOIL", 1 ] ],
     "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
   },
-
-
+  
+  
   {
     "id": "doll_action_abe",
     "type": "TOOL",
@@ -294,7 +294,7 @@
     "symbol": "a",
     "color": "black"
   },
-
+  
   {
     "id": "doll_dinky",
     "type": "TOOL",
@@ -308,8 +308,8 @@
     "symbol": "d",
     "color": "green"
   },
-
-
+  
+  
   {
     "id": "doll_buttercup",
     "type": "TOOL",
@@ -323,7 +323,7 @@
     "symbol": "b",
     "color": "yellow"
   },
-
+  
   {
     "id": "toy_nuka_truck",
     "type": "TOOL",
@@ -337,7 +337,7 @@
     "symbol": "t",
     "color": "red"
   },
-
+  
   {
     "id": "souveneir_rocket",
     "type": "TOOL",
@@ -351,7 +351,7 @@
     "symbol": "r",
     "color": "red"
   },
-
+  
   {
     "id": "deck_caravan",
     "type": "GENERIC",
@@ -367,7 +367,7 @@
     "flags": [ "NO_REPAIR" ],
     "use_action": "PLAY_GAME"
   }
-
-
-
+  
+  
+  
 ]

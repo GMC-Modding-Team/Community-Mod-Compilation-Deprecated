@@ -26,7 +26,7 @@
     "flags": [ "EATEN_COLD" ],
     "freezing_point": -22
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "rum_roentgen",
@@ -54,7 +54,7 @@
     "flags": [ "EATEN_COLD" ],
     "freezing_point": -44
   },
-
+  
       {
     "type": "COMESTIBLE",
     "id": "beer_gamma",
@@ -82,7 +82,7 @@
     "flags": [ "EATEN_COLD" ],
     "freezing_point": -44
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "healing_powder",
@@ -105,7 +105,7 @@
     "charges": 15,
     "fun": -3
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "healing_powder_drink",
@@ -129,7 +129,7 @@
 	    "charges": 7,
     "fun": 3
   },
-
+  
       {
     "type": "COMESTIBLE",
     "id": "jerky_gecko",
@@ -149,7 +149,7 @@
     "charges": 2,
 	"fun": 10
   },
-
+  
       {
     "type": "COMESTIBLE",
     "id": "kebab_gecko",
@@ -169,7 +169,7 @@
     "charges": 4,
 	"fun": 10
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "xander_root",
@@ -191,7 +191,7 @@
     "rot_spawn_chance": 5
   },
 
-
+  
     {
     "type": "COMESTIBLE",
     "id": "broc_flower",
@@ -213,7 +213,7 @@
     "rot_spawn": "GROUP_ROTTING_PLANT",
     "rot_spawn_chance": 2
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "cola_nuka_piss",
@@ -221,6 +221,7 @@
     "weight": 260,
     "color": "yellow",
     "addiction_type": "caffeine",
+	"fatigue_mod": 32,
     "stim": 12,
     "container": "bottle_glass",
     "comestible_type": "DRINK",
@@ -237,7 +238,7 @@
     "phase": "liquid",
     "fun": -100
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "beer_5x",
@@ -263,7 +264,7 @@
     "freezing_point": -23,
     "fun": 100
   },
-
+  
     {
     "type": "COMESTIBLE",
     "id": "pie_happy",
