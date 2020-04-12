@@ -10,7 +10,7 @@
 	"autolearn": true,
         "tools": [ [ [ "mortar_pestle", -1 ] ] ],
 	 "components": [
-       [ [ "crystallized_mana", 10 ] ] ]
+       [ [ "crystallized_mana", 10 ] ] ]   
   },
   {"result": "mana_potion_lesser",
     "type": "recipe",
@@ -36,7 +36,7 @@
 	"autolearn": true,
 	"qualities": [ { "id": "CHISEL", "level": 1 } ],
 	 "components": [
-       [ [ "demon_chitin_piece", 5 ] ], [ [ "demon_spider_fang", 2 ] ] ]
+       [ [ "demon_chitin_piece", 5 ] ], [ [ "demon_spider_fang", 2 ] ] ]                 
   },
   {"result": "mana_engine",
     "type": "recipe",
@@ -50,7 +50,7 @@
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 }, { "id": "MANA_INFUSE", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 400 ] ] ],
     "components": [
-       [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 8 ] ], [ [ "small_mana_crystal", 10 ] ], [ [ "rune_technomancer", 1 ] ] ]
+       [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 8 ] ], [ [ "small_mana_crystal", 10 ] ], [ [ "rune_technomancer", 1 ] ] ]   
   },
   {"result": "crystallized_mana",
     "type": "recipe",
@@ -77,7 +77,7 @@
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 400 ] ] ],
     "components": [
-       [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 4 ] ], [ [ "rune_technomancer", 1 ] ] ]
+       [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 4 ] ], [ [ "rune_technomancer", 1 ] ] ]   
   },
   {"result": "seed_mushroom_magic",
     "type": "recipe",
@@ -89,8 +89,8 @@
     "time": "15 m",
 	"autolearn": true,
         "qualities": [ { "id": "MANA_INFUSE", "level": 1 } ],
-	 "components": [
-       [ [ "seed_mushroom", 1 ], [ "seed_mushroom_morel", 1 ] ] ]
+	 "components": [ 
+       [ [ "seed_mushroom", 1 ], [ "seed_mushroom_morel", 1 ] ] ]                                          
   },
   {"result": "demon_chitin_armor",
     "type": "recipe",
@@ -105,4 +105,5 @@
 	"tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 400 ] ] ],
 	 "components": [
       [ [ "demon_chitin_piece", 20 ], [ "demon_chitin_plate", 10 ] ],
-      [ [ "fur", 20 ], [ "tanned_pelt", 3 ], [ "leather", 20 ], [ "tanned_hide", 3 ] ] ] } ]
+      [ [ "fur", 20 ], [ "tanned_pelt", 3 ], [ "leather", 20 ], [ "tanned_hide", 3 ] ] ] } ] 
+   

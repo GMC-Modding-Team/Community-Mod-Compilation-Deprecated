@@ -1,6 +1,6 @@
 [
  {
-    "abstract": "mon_cat_mutant",
+    "id": "mon_cat_mutant",
     "type": "MONSTER",
     "name": "cat",
     "description": "A deformed and mutating cat.",
@@ -27,6 +27,7 @@
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_tiny",
+    "upgrades": { "half_life": 50, "into_group": "GROUP_FELINE_MUTANT" },
     "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "HIT_AND_RUN" ]
   },
   {

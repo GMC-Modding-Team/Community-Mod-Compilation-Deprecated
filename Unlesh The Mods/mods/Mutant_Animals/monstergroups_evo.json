@@ -69,8 +69,11 @@
   {
     "name": "GROUP_FELINE_MUTANT",
     "type": "monstergroup",
-    "default": "mon_cat_mutant_venom",
+    "default": "mon_cat_mutant",
     "monsters": [
+      { "monster": "mon_cat_sick_hairless", "freq": 500, "cost_multiplier": 1 },
+      { "monster": "mon_cat_sick_multilimbed", "freq": 100, "cost_multiplier": 1 },
+      { "monster": "mon_cat_mutant", "freq": 250, "cost_multiplier": 1 },
       { "monster": "mon_cat_mutant_venom", "freq": 250, "cost_multiplier": 1 },
       { "monster": "mon_cat_mutant_vampire", "freq": 250, "cost_multiplier": 1 },
       { "monster": "mon_cat_mutant_ink", "freq": 250, "cost_multiplier": 1 },
