@@ -19,8 +19,7 @@
     "aim_speed": 3,
     "recoil": 30,
     "range": 30,
-    "ranged_damage": 30,
-    "pierce": 4,
+    "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 4 },
     "reload": 100,
     "reload_noise_volume": 7,
     "ammo": "battery",
@@ -104,7 +103,7 @@
     "description": "Service Weapon, looking heavy yet feeling light in the hand. Currently set to its spin form: high-rate-of-fire automatic handgun.",
     "symbol": "(",
     "relative": {
-      "damage": -10,
+      "damage": { "damage_type": "stab", "amount": -10 },
       "dispersion": 25,
       "recoil": 14
     },

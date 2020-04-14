@@ -31,7 +31,8 @@
     "special_attacks": [{
             "type": "spell",
             "spell_data": { "id":"mon_shifter_target"},
-            "cooldown": 6
+            "cooldown": 6,
+            "monster_message": "<color_red>The air surrounding %1$s intensifies!</color>"
         }
     ],
     "death_function": ["NORMAL"],

@@ -4573,5 +4573,49 @@
         "effect": "target_attack",
         "min_range": 6,
         "max_range": 6
+    }, {
+        "id": "mon_sflesh_veinstalk_spread_near",
+        "type": "SPELL",
+        "name": "Devour",
+        "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster guides the flesh to spread to nearby tiles.'",
+        "flags": ["SILENT"],
+        "valid_targets": ["ground", "self"],
+        "effect": "ter_transform",
+        "effect_str": "flesh_spread",
+        "min_aoe": 3,
+        "max_aoe": 3
+    }, {
+        "id": "mon_sflesh_veinstalk_spread_far",
+        "type": "SPELL",
+        "name": "Devour",
+        "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster guides the flesh to spread to nearby tiles. This spreading reaches further.'",
+        "flags": ["SILENT"],
+        "valid_targets": ["ground", "self"],
+        "effect": "ter_transform",
+        "effect_str": "flesh_spread",
+        "min_aoe": 7,
+        "max_aoe": 7
+    }, {
+        "type": "SPELL",
+        "id": "mon_sflesh_veinstalk_spread_target",
+        "name": "a spell",
+        "description": "Target spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then casts the Spell(s).'",
+        "message": "The sight of <npcname> locks onto its target...",
+        "extra_effects": [{
+                "id": "mon_sflesh_veinstalk_spread_near",
+                "hit_self": true
+            }, {
+                "id": "mon_sflesh_veinstalk_spread_far",
+                "hit_self": true
+            }
+        ],
+        "flags": ["SILENT"],
+        "valid_targets": ["ally", "hostile"],
+        "effect": "target_attack",
+        "effect_str": "secro_magic_target",
+        "min_range": 70,
+        "max_range": 70,
+        "min_duration": 1,
+        "max_duration": 1
     }
 ]

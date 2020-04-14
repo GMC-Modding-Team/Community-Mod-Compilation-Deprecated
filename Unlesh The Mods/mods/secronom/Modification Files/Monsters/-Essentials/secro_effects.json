@@ -912,7 +912,7 @@
         "type": "effect_type",
         "id": "secro_flesh_tendrils",
         "name": ["unstable footing"],
-        "desc": ["The tendril outgrowths has contricted your feet!\nYou are being held in place, and dodging and blocking are extremely difficult!"],
+        "desc": ["The tendril outgrowths has constricted your feet!\nYou are being held in place, and dodging and blocking are extremely difficult!"],
         "show_in_info": true,
         "rating": "bad",
         "max_duration": 1,
@@ -1022,7 +1022,15 @@
             "hurt_tick": [3],
             "speed_mod": [-3]
         }
-    }, 
+    },
+    {
+        "type": "effect_type",
+        "id": "secro_veinstalk_limit",
+		"base_mods": {
+            "hurt_min": [4],
+			"hurt_max": [5]
+        }
+    },
     
     {
         "//": "Effects for notifying the player. This method is a bit unstable...",

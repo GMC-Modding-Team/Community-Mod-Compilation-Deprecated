@@ -1,6 +1,6 @@
 [
   {
-    "id": "mon_cow_mutant",
+    "abstract": "mon_cow_mutant",
     "type": "MONSTER",
     "copy-from": "mon_cow",
     "name": "mutant cow",
@@ -10,7 +10,7 @@
     "remove:flags": [ "CATTLEFODDER", "PET_WONT_FOLLOW", "MILKABLE" ]
   },
   {
-    "id": "mon_cow_calf_mutant",
+    "abstract": "mon_cow_calf_mutant",
     "type": "MONSTER",
     "copy-from": "mon_cow_calf",
     "name": "mutant cow calf",
@@ -123,7 +123,7 @@
     "color": "light_gray"
   },
   {
-    "id": "mon_deer_mutant",
+    "abstract": "mon_deer_mutant",
     "type": "MONSTER",
     "copy-from": "mon_deer",
     "name": "mutant deer",
@@ -154,7 +154,7 @@
     "extend": { "flags": [ "NO_BREED" ] }
   },
   {
-    "id": "mon_horse_mutant",
+    "abstract": "mon_horse_mutant",
     "type": "MONSTER",
     "copy-from": "mon_horse",
     "name": "mutant horse",
@@ -186,7 +186,7 @@
     "color": "white"
   },
   {
-    "id": "mon_sheep_mutant",
+    "abstract": "mon_sheep_mutant",
     "type": "MONSTER",
     "copy-from": "mon_sheep",
     "name": "mutant sheep",
@@ -324,7 +324,7 @@
     "color": "light_gray"
   },
   {
-    "id": "mon_pig_mutant",
+    "abstract": "mon_pig_mutant",
     "type": "MONSTER",
     "copy-from": "mon_pig",
     "name": "mutant pig",
@@ -332,7 +332,7 @@
     "species": [ "MUTANT" ]
   },
   {
-    "id": "mon_pig_piglet_mutant",
+    "abstract": "mon_pig_piglet_mutant",
     "type": "MONSTER",
     "copy-from": "mon_pig_piglet",
     "name": "mutant piglet",
