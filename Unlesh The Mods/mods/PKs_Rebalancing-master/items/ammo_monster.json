@@ -15,7 +15,7 @@
     "stack_size": 1,
     "ammo_type": "shot",
     "range": 0,
-    "damage": 8,
+    "damage": { "damage_type": "stab", "amount": 8 },
     "recoil": 200,
     "effects": [ "INCENDIARY" ],
     "flags": [ "NOGIB", "NO_BOOM" ]
@@ -36,7 +36,7 @@
     "stack_size": 1,
     "ammo_type": "shot",
     "range": 20,
-    "damage": 5,
+    "damage": { "damage_type": "stab", "amount": 5 },
     "recoil": 200,
     "effects": [ "FLARE", "TRAIL" ],
     "flags": [ "NOGIB" ]
@@ -57,7 +57,7 @@
     "stack_size": 1,
     "ammo_type": "plutonium",
     "range": 13,
-    "damage": 17,
+    "damage": { "damage_type": "stab", "amount": 17 },
     "recoil": 200,
     "effects": [ "SHOT" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
@@ -78,7 +78,7 @@
     "stack_size": 1,
     "ammo_type": "plutonium",
     "range": 21,
-    "damage": 23,
+    "damage": { "damage_type": "stab", "amount": 23 },
     "recoil": 200,
     "effects": [ "SHOT", "FLARE" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
@@ -99,7 +99,7 @@
     "stack_size": 1,
     "ammo_type": "plutonium",
     "range": 30,
-    "damage": 17,
+    "damage": { "damage_type": "stab", "amount": 17 },
     "recoil": 200,
     "effects": [ "LIGHTNING" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
@@ -119,8 +119,7 @@
     "stack_size": 1,
     "ammo_type": "fusion",
     "range": 55,
-    "damage": 13,
-    "pierce": 9,
+    "damage": { "damage_type": "stab", "amount": 13, "armor_penetration": 9 },
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
@@ -138,8 +137,7 @@
     "stack_size": 1,
     "ammo_type": "fusion",
     "range": 55,
-    "damage": 9,
-    "pierce": 15,
+    "damage": { "damage_type": "stab", "amount": 9, "armor_penetration": 15 },
     "effects": [ "NEVER_MISFIRES", "RECYCLED", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION", "BEANBAG" ],
     "explosion": { "power": 2, "distance_factor": 0.3, "shrapnel": 1 }
   },
@@ -157,8 +155,7 @@
     "count": 1,
     "ammo_type": "66mm",
     "range": 60,
-    "damage": 222,
-    "pierce": 30,
+    "damage": { "damage_type": "stab", "amount": 222, "armor_penetration": 30 },
     "dispersion": 800,
     "sight_dispersion": 400,
     "recoil": 500,
@@ -183,8 +180,7 @@
     "sight_dispersion": 400,
     "recoil": 400,
     "range": 25,
-    "damage": 13,
-    "pierce": 25,
+    "damage": { "damage_type": "stab", "amount": 13, "armor_penetration": 25 },
     "effects": [ "NAPALM", "PLASMA", "WIDE", "TRAIL", "SMOKE", "NEVER_MISFIRES" ]
   },
   {
@@ -200,8 +196,7 @@
     "color": "yellow_red",
     "ammo_type": "bomblet",
     "range": 25,
-    "damage": 2,
-    "pierce": 200,
+    "damage": { "damage_type": "stab", "amount": 2, "armor_penetration": 200 },
     "effects": [ "ACT_ON_RANGED_HIT", "RECOVER_5" ],
     "use_action": { "target": "bomblet_vile_act", "target_charges": 5, "active": true, "type": "transform" }
   },
@@ -240,8 +235,7 @@
     "color": "yellow_red",
     "ammo_type": "bomblet",
     "range": 25,
-    "damage": 4,
-    "pierce": 200,
+    "damage": { "damage_type": "stab", "amount": 4, "armor_penetration": 200 },
     "effects": [ "ACT_ON_RANGED_HIT", "RECOVER_5" ],
     "use_action": { "target": "bomblet_archvile_act", "target_charges": 5, "active": true, "type": "transform" }
   },
@@ -280,8 +274,7 @@
     "color": "brown",
     "ammo_type": "bomblet",
     "range": 25,
-    "damage": 5,
-    "pierce": 200,
+    "damage": { "damage_type": "stab", "amount": 5, "armor_penetration": 200 },
     "effects": [ "ACT_ON_RANGED_HIT", "RECOVER_5" ],
     "use_action": {
       "type": "place_monster",
@@ -306,8 +299,7 @@
     "dispersion": 350,
     "sight_dispersion": 350,
     "recoil": 100,
-    "damage": 20,
-    "pierce": 10,
+    "damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 10 },
     "effects": [ "NEVER_MISFIRES", "NO_EMBED", "RECOVER_9", "ACT_ON_RANGED_HIT" ],
     "initial_charges": 2,
     "turns_per_charge": 1,

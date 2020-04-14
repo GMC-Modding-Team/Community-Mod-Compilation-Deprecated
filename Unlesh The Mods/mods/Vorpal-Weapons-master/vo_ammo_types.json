@@ -19,7 +19,7 @@
         "category" : "spare_parts",
         "ammo_type" : "blood_clearn_vo",
 	    "phase" : "liquid",
-        "damage" : 0,
+        "damage" : { "damage_type": "stab", "amount": 0 },
         "range" : 0,
         "dispersion" : 0,
         "recoil" : 0,
