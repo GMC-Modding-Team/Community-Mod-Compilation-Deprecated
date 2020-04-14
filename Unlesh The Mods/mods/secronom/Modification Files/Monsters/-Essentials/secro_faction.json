@@ -40,7 +40,13 @@
         "name": "vector"
     }, {
         "type": "MONSTER_FACTION",
-        "name": "secro_flesh"
+        "name": "secro_flesh",
+        "friendly": ["secro_flesh2"]
+    }, {
+    	"//": "For veinstalks only.",
+        "type": "MONSTER_FACTION",
+        "name": "secro_flesh2",
+        "by_mood": "secro_flesh"
     }, {
         "type": "MONSTER_FACTION",
         "name": "shifter"

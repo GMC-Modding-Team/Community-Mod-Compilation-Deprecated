@@ -16,7 +16,7 @@
     "ammo": "fusion",
     "skill": "smg",
     "range": 5,
-    "ranged_damage": 30,
+    "ranged_damage": { "damage_type": "stab", "amount": 30 },
     "dispersion": 200,
     "sight_dispersion": 100,
     "recoil": 115,
