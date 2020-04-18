@@ -6,6 +6,7 @@ Homestead Instruments Inc. is used by the following mods:
 
 - [Project APEX](https://github.com/FirebrandCoding/ProjectAPEX)
 - [Private Defense](https://github.com/FirebrandCoding/PrivateDefense)
+- [Ares MGS](https://github.com/FirebrandCoding/AresMGS)
 
 # Why
 

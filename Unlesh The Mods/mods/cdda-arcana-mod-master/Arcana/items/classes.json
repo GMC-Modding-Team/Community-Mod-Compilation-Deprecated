@@ -1,6 +1,6 @@
 [
   {
-    "id": "arcana_note_base",
+    "abstract": "arcana_note_base",
     "type": "GENERIC",
     "category": "books",
     "name": { "str": "arcana note base" },
@@ -12,7 +12,7 @@
     "flags": [ "NO_SALVAGE" ]
   },
   {
-    "id": "spell_base",
+    "abstract": "spell_base",
     "type": "TOOL",
     "name": { "str": "magic sign base" },
     "material": [ "essencemat" ],
@@ -21,7 +21,7 @@
     "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE" ]
   },
   {
-    "id": "scroll_magic_base",
+    "abstract": "scroll_magic_base",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "tools",
@@ -36,7 +36,7 @@
     "flags": [ "NO_SALVAGE", "NO_INGEST", "NUTRIENT_OVERRIDE" ]
   },
   {
-    "id": "totem_base",
+    "abstract": "totem_base",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "name": { "str": "magic seal base" },
