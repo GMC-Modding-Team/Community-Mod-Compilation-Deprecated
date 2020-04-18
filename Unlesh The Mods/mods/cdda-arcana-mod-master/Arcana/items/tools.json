@@ -184,6 +184,9 @@
         "type": "transform"
       }
     ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_hammer_wonder" } ] } ]
+    },
     "relative": { "weight": "360 g", "bashing": 2, "price": 12000 },
     "extend": { "flags": [ "NO_SALVAGE" ] }
   },
@@ -212,6 +215,9 @@
     "revert_to": "hexenhammer",
     "techniques": [ "BRUTAL" ],
     "use_action": { "type": "explosion", "do_flashbang": true, "no_deactivate_msg": "\"Du nicht kÃ¶nnen halt Hammerzeit.\"" },
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_hammer_wonder" } ] } ]
+    },
     "flags": [ "DURABLE_MELEE", "SPEAR", "NONCONDUCTIVE", "LIGHT_15", "NO_SALVAGE" ]
   },
   {
@@ -633,11 +639,14 @@
         "type": "transform"
       }
     ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_blood_axe_wonder" } ] } ]
+    },
     "extend": { "flags": [ "NO_SALVAGE" ] }
   },
   {
     "id": "bloodaxe_act",
-    "//": "Can't use copy-from because qualities refuse to be deleted, causing it to try and choop wood instead of exploding.",
+    "//": "Can't use copy-from because qualities refuse to be deleted, causing it to try and chop wood instead of exploding.",
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "glowing veinreaver" },
@@ -1062,7 +1071,7 @@
     "relative": { "cutting": -5, "weight": -318, "price": 50000 },
     "extend": { "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "NO_UNLOAD", "MAGIC_FOCUS", "NONCONDUCTIVE" ] },
     "delete": { "flags": [ "DURABLE_MELEE" ] },
-    "artifact_data": { "charge_type": "ARTC_PORTAL" }
+    "artifact_data": { "charge_type": "ARTC_PORTAL", "effects_wielded": [ "AEP_INT_UP" ] }
   },
   {
     "id": "veilblade_on",
@@ -1089,7 +1098,8 @@
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "REGEN_MANA", "multiply": 0.5 } ] } ]
     },
     "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-    "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "MAGIC_FOCUS", "NONCONDUCTIVE" ]
+    "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "MAGIC_FOCUS", "NONCONDUCTIVE" ],
+    "artifact_data": { "effects_wielded": [ "AEP_INT_UP" ] }
   },
   {
     "id": "draconic_heart_mutator",
@@ -1133,6 +1143,9 @@
         "type": "transform"
       }
     ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_cursed_sword_shell" } ] } ]
+    },
     "relative": { "to_hit": -1, "cutting": -5 },
     "extend": { "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE" ] },
     "delete": { "flags": [ "DURABLE_MELEE" ] }
