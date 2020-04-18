@@ -3,7 +3,7 @@
     "id": "backpack_fur",
     "type": "ARMOR",
     "name": "fur backpack",
-    "description": "A medium sized fur backpack, with a loop for attaching gear.",
+    "description": "A medium sized fur backpack, with a few loops for attaching gear.",
     "weight": 818,
     "volume": 10,
     "price": 11900,
@@ -13,16 +13,16 @@
     "covers": [ "TORSO" ],
     "coverage": 30,
     "encumbrance": 18,
-    "storage": 80,
+    "storage": "25L",
     "warmth": 30,
     "material_thickness": 3,
     "use_action": {
       "type": "holster",
       "holster_prompt": "Attach what to backpack loop?",
       "holster_msg": "You attach your %s to your %s",
-      "max_volume": 14,
-      "max_weight": 3600,
-      "draw_cost": 50,
+      "multi": 4,
+      "max_volume": "5L",
+      "draw_cost": 40,
       "flags": [ "BELT_CLIP" ]
     },
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
@@ -37,6 +37,10 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "sewing_standard", 20 ] ],
-    "components": [ [ [ "fur", 6 ], [ "tanned_pelt", 3 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ], [ [ "scrap", 6 ] ] ]
+    "components": [
+      [ [ "fur", 6 ], [ "tanned_pelt", 3 ] ],
+      [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ],
+      [ [ "scrap", 6 ] ]
+    ]
   }
 ]
