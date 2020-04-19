@@ -101,9 +101,27 @@
   },
   {
     "type": "terrain",
-    "id": "t_torii",
-    "aliases": [ "t_torii_h", "t_torii_v" ],
-    "name": "torii",
+    "id": "t_torii_h",
+    "name": "torii_h",
+    "description": "A kind of sacred gate found in Japan, built at the boundary of the place where God lives and the place where humans live, it has a role to connect the two.",
+    "symbol": "LINE_OXOX",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "NOITEM", "THIN_OBSTACLE", "MOUNTABLE", "SHORT", "AUTO_WALL_SYMBOL" ],
+    "connects_to": "WOODFENCE",
+    "bash": {
+      "str_min": 40,
+      "str_max": 80,
+      "sound": "crack.",
+      "sound_fail": "wham.",
+      "ter_set": "t_null",
+      "items": [ { "item": "log", "count": [ 8, 14 ] }, { "item": "splinter", "count": [ 10, 24 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_torii_v",
+    "name": "torii_v",
     "description": "A kind of sacred gate found in Japan, built at the boundary of the place where God lives and the place where humans live, it has a role to connect the two.",
     "symbol": "LINE_OXOX",
     "color": "brown",
