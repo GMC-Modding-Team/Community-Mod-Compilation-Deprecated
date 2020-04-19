@@ -2,7 +2,7 @@ Experimental 0.03
 
 update 0.03
 
-(duplicate mod removal)
+duplicate mod removal
 
 updated arcana mod from github
 
