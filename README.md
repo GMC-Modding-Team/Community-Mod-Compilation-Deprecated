@@ -8,6 +8,6 @@ All the no mods I can find
 
 Undead peoples Tileset
 
-More Fonts! (with pictures and expect a big font update after E) (5-10 more fonts) (easy to install
+More Fonts! (with some pictures and expect a big font update) (2 easy to install fonts with Stable E)
 
 Tools for the cataclysm ( they do various different things don't affect gameplay)
