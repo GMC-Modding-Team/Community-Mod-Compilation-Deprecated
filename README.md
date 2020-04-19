@@ -1,4 +1,12 @@
-0.9
+Experimental 0.3
+update 0.3
+(duplicate mod removal)
+updated arcana mod from github
+updated blazemod to keep the original alive
+new more locations without military buildings (it was in there i just had to fix modinfo)
+
+update 0.2
+Major font update
 
 Contains over 190 mods
 
@@ -7,7 +15,5 @@ All the Obsolete mods
 All the no mods I can find
 
 Undead peoples Tileset
-
-More Fonts! (with pictures and expect a big font update after E) (5-10 more fonts) (easy to install
 
 Tools for the cataclysm ( they do various different things don't affect gameplay)
