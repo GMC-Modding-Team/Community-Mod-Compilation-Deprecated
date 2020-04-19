@@ -1,6 +1,6 @@
 Experimental 0.3
 
-update 0.3
+update 0.03
 
 (duplicate mod removal)
 
@@ -10,7 +10,7 @@ updated blazemod to keep the original alive
 
 new more locations without military buildings (it was in there i just had to fix modinfo)
 
-update 0.2
+update 0.02
 
 Major font update
 
