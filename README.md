@@ -1,4 +1,4 @@
-0.9
+1.0 Stable E
 
 Contains over 190 mods
 
