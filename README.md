@@ -1,3 +1,11 @@
+Experimental 0.06
+
+Fixed up vihicle json for a mod
+
+added a pk fix thanks to Kenan
+
+bunch of fixes from 0.04 and 0.05
+
 Experimental 0.03
 
 update 0.03
