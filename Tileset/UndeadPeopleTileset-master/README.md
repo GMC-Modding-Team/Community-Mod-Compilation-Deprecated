@@ -38,4 +38,6 @@ https://drive.google.com/open?id=1uGD3cqwKZpGoCQ8QUOkhvlvZs__4c2d0
 https://github.com/YukariMindGap/Nechronica_Redux
 
 #### *Zets-Hair-Extensions*:
-https://github.com/Zetsukaze/Zets-Hair-Extensions
+https://github.com/Zetsukaze/Zets-Hair-Extensions (old version, do not use with Undead People)
+
+Use updated version in tileset mods/Zets-Hair-Extensions_Undead folder.
