@@ -15,10 +15,7 @@
         "melee_allowed": true,
         "min_melee": 0,
         "bonus_blocks": 2,
-        "flat_bonuses": [
-              {"stat": "block", "scaling-stat": "str", "scale": 0.7},
-              {"stat": "dodge", "scale": -3.0}
-        ]
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.7 }, { "stat": "dodge", "scale": -3.0 } ]
       }
     ],
     "onmove_buffs": [
@@ -30,12 +27,8 @@
         "min_melee": 0,
         "buff_duration": 1,
         "bonus_blocks": -2,
-        "flat_bonuses": [
-          {"stat": "block", "scaling-stat": "str", "scale": -0.4}
-        ],
-        "mult_bonuses": [
-          { "stat": "damage", "type": "bash", "scale": 1.1 }
-        ]
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": -0.7 } ],
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.1 } ]
       }
     ],
     "onmiss_buffs": [
@@ -47,9 +40,7 @@
         "min_melee": 4,
         "buff_duration": 2,
         "max_stacks": 2,
-        "mult_bonuses": [ 
-          { "stat": "damage", "type": "bash", "scale": 1.20 }
-        ]
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ]
       }
     ],
     "onattack_buffs": [
@@ -62,9 +53,7 @@
         "buff_duration": 2,
         "max_stacks": 3,
         "bonus_blocks": 1,
-		    "mult_bonuses": [
-          {"stat": "movecost", "scale": 1.15}
-        ]
+		"mult_bonuses": [ { "stat": "movecost", "scale": 1.15 } ]
       }
     ],
     "onblock_buffs": [
@@ -76,10 +65,7 @@
         "min_melee": 1,
         "buff_duration": 1,
         "max_stacks": 3,
-        "mult_bonuses": [          
-          { "stat": "damage", "type": "bash", "scale": 1.10 },
-          {"stat": "movecost", "scale": 1.09}
-        ]
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.1 }, { "stat": "movecost", "scale": 0.9 } ]
       }
     ],
     "ondodge_buffs": [
@@ -91,9 +77,7 @@
         "min_melee": 0,
         "buff_duration": 3,
         "max_stacks": 3,
-        "flat_bonuses": [
-          {"stat": "dodge", "scale": -0.3}
-        ]
+        "flat_bonuses": [ { "stat": "dodge", "scale": -3.0 } ]
       }
     ],
     "techniques": [ "mss_tec_sledge_counter",
@@ -117,6 +101,9 @@
       "halberd",
       "halberd_fake",
       "hammer_sledge",
+	  "hammer_sledge_short",
+	  "hammer_sledge_engineer",
+	  "hammer_sledge_heavy",
       "lobotomizer",
       "lucern_hammer",
       "lucern_hammerfake",
