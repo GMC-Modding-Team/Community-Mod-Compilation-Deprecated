@@ -311,7 +311,7 @@
         "color": ["red", "light_red", "red", "red"],
         "move_cost": 0,
         "coverage": 80,
-        "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT", "S_FLESH"],
+        "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "S_FLESH"],
         "bash": {
             "str_min": 85,
             "str_max": 185,
@@ -423,7 +423,7 @@
 		"required_str": -1,
         "coverage": 95,
         "emissions": ["emit_flesh_tree_grab"],
-        "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT", "S_FLESH", "EMITTER"],
+        "flags": ["FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "S_FLESH", "EMITTER"],
         "bash": {
             "str_min": 85,
             "str_max": 185,
@@ -642,27 +642,6 @@
         "move_cost": 5,
         "flags": ["FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "FC_EXIT"]
     },
-    {
-    	"//": "Destroy these to prevent them from spawning veinstalks.",
-        "type": "furniture",
-        "id": "f_secro_veinstalk",
-        "name": "veinbush",
-        "description": "A short, compact bush of living eyed tentacles bursting out of the ground. It stares ominously at the surroundings...",
-        "symbol": "s",
-        "color": "red",
-        "move_cost_mod": 1,
-		"required_str": -1,
-        "coverage": 10,
-        "emissions": ["emit_veinstalk_spawn"],
-        "flags": ["FLAMMABLE", "S_FLESH", "EMITTER"],
-        "bash": {
-            "str_min": 12,
-            "str_max": 22,
-            "sound": "splook!",
-            "sound_fail": "splat!",
-            "ter_set": "f_null"
-        }
-    },
     
     {
     "type": "terrain",
@@ -783,7 +762,7 @@
   {
     "type": "terrain",
     "id": "t_secro_bars_flesh",
-    "name": "fleshed metal bars",
+    "name": "metal bars",
     "description": "Heavy bars overrun by the flesh. Nearly impenetrable due to the thick veins covering it.",
     "symbol": "\"",
     "color": "red",
@@ -919,7 +898,6 @@
     }
   },
   {
-  	"//": "These are used in flesh cities to keep players from climbing a building (rooftops are complicated)",
     "type": "terrain",
     "id": "t_secro_ladder_broken_flesh",
     "name": "fleshed ladder",
@@ -933,7 +911,7 @@
         "type": "terrain",
         "id": "t_secro_stairs_broken_flesh",
         "name": "fleshed stairs",
-        "description": "A flight of stairs heavily infested by the flesh. The path is blocked, and is impossible to go through.",
+        "description": "A flight of stairs heavily infested by the flesh. The path is block, and is impossible to go through it.",
         "symbol": "<",
         "color": "red",
         "move_cost": 5,

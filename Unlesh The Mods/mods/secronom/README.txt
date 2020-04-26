@@ -2,32 +2,25 @@ Secronom V1.8 - Axema Vales (author)
 
 https://discourse.cataclysmdda.org - CDDA official forums
 
-  *This README.txt is my changelog, so what is done will be recorded and released depending on accumulated progress.  
+  *This README.txt is my changelog, so what is done will be recorded and released depending on accumulated progress.
 
 
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes)
 	
---> V1.8 - Aiming to make the mod a core content by adding SS-based mutagens and other sci-fi stuff belonging to the lab. Also focuses on finding ways to improve the flesh's features. <--
+--> V1.8 - Aiming to make the mod a core content by adding SS-based mutagens and other sci-fi stuff belonging to the lab. <--
 
 #  TILESET REWORKS (if possible)
 
-+  WANDERING ABERRATION (shapeshifter)
-+  CRIMSON HORROR (veinstalk)
-+  EXPERIMENTAL MUTATIONS (a new mutation branch)
-+  FLESH ZOMBIES (complete expansion of flesh zombie variants for the flesh city. Land wildlife included)
-
-~  SECRONOM LAB (now has a very rare, exclusive mutagen)
++  FLESH ZOMBIES (expansion of flesh zombie variants for the flesh city)
 
 -  FLESH CITY POPULATION (now densely crowded)
--  FLESH BIOME (can now spread across the lands. A temporary, alternative solution)
--  CRIMSON HORRORS (can now infest other creatures)
 
 
 
 	=>PAST UPDATES<=
 
---> V1.7 - Focused on creating various structures, being the flesh forest/city the biggest project. Saddlers were also reworked for their appearance to the mod. <--
+--> V1.7 - Focused on creating various structures, being the flesh forest/city the biggest project. Saddlers were also reworked for its appearance to the mod. <--
 
 +  FLESHED STRUCTURES (basic city buildings)
 +  ZED MUTANT (fleshknot)

@@ -568,30 +568,5 @@
             "fields_min_intensity": 1,
             "fields_max_intensity": 1
         }
-    },
-    {
-        "id": "shifter_shift",
-        "type": "TOOL",
-        "name": "shadow",
-        "description": "A shadow forming into something... otherworldly.",
-        "volume": "4000 ml",
-        "weight": 4000,
-        "price": 0,
-        "to_hit": -2,
-        "bashing": 1,
-        "material": ["secro_null"],
-        "symbol": "@",
-        "color": "gray",
-        "drop_action": {
-            "type": "explosion",
-            "sound_volume": 0,
-            "sound_msg": "*splat*",
-            "no_deactivate_msg": "*splat* *splat*",
-            "draw_explosion_color": "green",
-            "fields_type": "fd_shifter_shift",
-            "fields_radius": 0,
-            "fields_min_intensity": 1,
-            "fields_max_intensity": 1
-        }
     }
 ]

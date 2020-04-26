@@ -417,14 +417,6 @@
                 "monster": "mon_unknown_unknown_vector",
                 "freq": 1,
                 "cost_multiplier": 75
-            }, {
-                "monster": "mon_shifter_zombie",
-                "freq": 1,
-                "cost_multiplier": 90
-            }, {
-                "monster": "mon_shifter_zombie_rot",
-                "freq": 1,
-                "cost_multiplier": 90
             }
         ]
     }, {
@@ -450,14 +442,6 @@
                 "monster": "mon_unknown_unknown_vector",
                 "freq": 1,
                 "cost_multiplier": 75
-            }, {
-                "monster": "mon_shifter_zombie",
-                "freq": 1,
-                "cost_multiplier": 90
-            }, {
-                "monster": "mon_shifter_zombie_rot",
-                "freq": 1,
-                "cost_multiplier": 90
             }
         ]
     }, {
@@ -685,20 +669,5 @@
         "type": "monstergroup",
         "name": "GROUP_FLESH_HEAP",
         "default": "mon_sflesh_taken_zombie"
-    },
-    {
-        "type": "monstergroup",
-        "name": "GROUP_SHIFTER",
-        "default": "mon_shifter"
-    },
-    {
-        "type": "monstergroup",
-        "name": "GROUP_VEINSTALK",
-        "default": "mon_sflesh_veinstalk"
-    },
-    {
-        "type": "monstergroup",
-        "name": "GROUP_VEINSTALK_CRAWLER",
-        "default": "mon_sflesh_veinstalk_crawly"
     }
 ]
