@@ -96,7 +96,7 @@ Zombie type with very high health and the ability to charge.
 * _**Vanguard**_
 
 ##### Revenant **+**
-Zombie type that manipulates the combat abilities of nearby creatures.
+Zombie type that manipulates the combat abilities of all creatures.
 * **Forsaken Revenant**
 * **Alluring Revenant**
 
@@ -170,8 +170,6 @@ Vile creatures that are rarely sighted in the wilderness.
 
 * _**Flesh Weaver**_ **+** - A sentient, beetle-like creature. Sets of claws and appendages lies beneath its tough carapace.
 
-* _**Shapeshifter**_ **!** - An overwhelming apparition, specialized in deception. It takes form of any humanoid creature, mostly those who are weak.
-
 ## Unknown
 Extraterrestrial creatures from uncharted worlds.
 
@@ -197,7 +195,7 @@ All monsters aren't designed to kill the target, and thus providing roles to the
 
 * (**=**) *Boss* - monsters that are versatile in every situation. Unique and those who opposes extreme danger are considered with this type. They also reside in their lair, concealing them to prevent genocidal annihilation.
 
-Few are hybrids, yet still categorized into a type.
+Few are hybrids, but are still categorized into a type.
 
 # Structures
 These are the locations exclusive to the mod. Currently, there are few that can be seen in-game:
@@ -240,7 +238,7 @@ Forests that has been infested by the crimson horrors. Unlike the infected build
 * Basically, this location (and pretty much everything about it) was adopted from a thread. It was an old thread, and json stuff wasn't good by that time... But now, things are possible to do without fumbling with C++!
 
 ##### Exclusive Monsters:
-* _**Crimson Horrors**_ - Monsters that resides in, out or nearby the flesh. The surface monsters usually act as guards, having **flesh sacks** giving birth to **parasytes** and **eye sprouts** alerting the flesh of unwanted visitors. **Veinstalks** rarely appears in the area, which has the ability to expand the flesh beyond its boundary. The inner monsters are much more aggressive: **vein beasts** and **rumblers** are made internally to fend off intruders while the **takens** are creatures consumed by the flesh, manipulated into minions. The **flesh** is the hivemind - hidden in its inescapable lair - and a combat with it is a challenge.
+* _**Crimson Horrors**_ - Monsters that resides in, out or nearby the flesh. The surface monsters usually act as guards, having **flesh sacks** giving birth to **parasytes** and **eye sprouts** alerting the flesh of unwanted visitors. The inner monsters are much more aggressive: **vein beasts** and **rumblers** are made internally to fend off intruders while the **takens** are creatures consumed by the flesh, manipulated into minions. The **flesh** is the hivemind - hidden in its inescapable lair - and a combat with it is a challenge.
 
 ##### Loots:
 * **Flesh Chunk** - Chunk of vile, edible meat from the melting flesh. This flesh is known to possess regenerative properties that can mend all your injuries, even the broken ones.
@@ -262,42 +260,3 @@ A city full of zeds, now overrun by the flesh. The flesh is similar to the fores
 
 ###### Hazards:
 * **Compact Environment** - Lingers inside the flesh tower.
-
-# Mutations
-Secronom's mutation branch (the experimental) are based mostly on a secronom creature's unique appearance/abilities such as titan's bone plates. Once you reach the threshold, you'll be able to acquire a core mutation that serves as an upgrade to your existing mutation. They might also have an ability available for activation under the **spellcasting** tab.
-
-Currently, we have 4 distinct mutations, along with their evolution:
-
-#### Tendrils
-Based from the tendril zombie. Replaces the player's hands into a pair of tendrils.
-
-###### Tier 2
-* **Thick Tendrils**
-* **Tendricles**
-
-#### Bone Blade
-Based from the blade zombie. Replaces the player's left hand into a blunt and bulky bone blade.
-
-###### Tier 2
-* **Sharpened Bone Blade**
-* **Serrated Bone Blade**
-
-#### Irregular Bone Outgrowths
-Based from the titan. The bone outgrowths act as a defensive armor that can harm attacking foes.
-
-###### Tier 2
-* **Plated Bone Outgrowths**
-
-###### Tier 3
-* **Bone Cuirass**
-* **Massive Bone Outgrowths**
-
-#### Arachnid Limbs
-Based from the spider zombie. Grows 2 additional pairs of arms that act as duplicates.
-
-###### Tier 2
-* **Augmented Arachnid Limbs**
-* **Deformed Arachnid Limbs**
-
-###### Tier 3
-* **Superior Arachnid Limbs**
