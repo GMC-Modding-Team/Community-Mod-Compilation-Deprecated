@@ -19,7 +19,7 @@
   "range": 50,
   "dispersion": 30,
   "durability": 8,
-  "barrel_length": "200 ml",
+  "barrel_length": "33 ml",
   "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
   "built_in_mods": [ "suppressor", "cheek_pad" ],
   "valid_mod_locations": [
@@ -34,6 +34,7 @@
       [ "sling", 1 ],
       [ "underbarrel", 1 ]
     ],
-   "magazines": [["939", ["VSS_mag"]]]
-     }
- ]
+   "magazines":[ 
+    ["939", ["VSS_mag", "bigVSS_mag" ] ] ]
+    }
+    ]

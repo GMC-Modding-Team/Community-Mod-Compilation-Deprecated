@@ -8,7 +8,8 @@
   { "item": "CTI", "prop": 10, "charges-min": 0, "charges-max": 7 },
   { "item": "M82", "prop": 8, "charges-min": 0, "charges-max": 10 },
   { "item": "AW50", "prob": 6, "charges-min": 0, "charges-max": 5 },
-  { "item": "VSSM", "prob": 30, "charges-min": 0, "charges-max": 10 }
+  { "item": "VSSM", "prob": 30, "charges-min": 0, "charges-max": 10 },
+  { "item": "xm8", "prob": 40, "charges-min": 0, "charges-max": 24 } 
    ]
   },
     {"type": "item_group",
@@ -39,7 +40,8 @@
       { "item": "lobaev408", "prob": 50, "charges-min": 0, "charges-max": 5 },
       { "item": "lobaev338", "porb": 50, "charges-min": 0, "charges-max ": 5},
       { "item": "950rifle", "prob": 5, "charges-min": 0, "charges-max": 1 },
-      { "item": "win1866", "prob": 30, "charges-min": 0, "charges-max": 7 }
+      { "item": "win1866", "prob": 30, "charges-min": 0, "charges-max": 7 },
+      { "item": "qbu", "prob": 40, "charges-min": 0, "charges-mac": 10 }
       ]
   },
   {
@@ -59,5 +61,18 @@
   { "item": "vaquero44", "prob": 30, "charges-min": 0, "charges-max": 6 },
   { "item": "vaquero45", "prob": 35, "charges-min": 0, "charges-max": 6 } 
   ]
+},
+  { "type": "item_group",
+    "id": "guns_shotgun_common",
+  "items": [
+  { "item": "887nitro", "prob": 25, "charges-min": 0, "charges-max":5}
+  ]
+},
+  {
+     "type": "item_group",
+    "id": "guns_shotgun_rare",
+    "items": [
+      {"item": "887tac", "prob": 20, "charges-min": 0, "charges-max": 7}
+      ]
 }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "950rifle",
-    "name": ".950 JDJ Rifle",
+    "name": "SSK .950  Rifle",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
     "type": "GUN",
@@ -17,7 +17,8 @@
     "ranged_damage": -5,
     "dispersion": 300,
     "durability": 9,
-    "barrel_length": "1500 ml",
+    "//": "barrle volume is estimated as I can't find the actual barrel length.", 
+    "barrel_length": "540 ml",
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
     "clip_size": 1,
     "flags": [ "NEVER_JAMS" ]
