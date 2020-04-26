@@ -20,7 +20,8 @@
   "range": 50,
   "dispersion": 30,
   "durability": 7,
-  "barrel_length": "200 ml",
+"//": "The VSS' barrel is extremly short...",
+  "barrel_length": "32 ml",
   "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
   "built_in_mods": [ "suppressor" ],
   "valid_mod_locations": [
@@ -33,9 +34,7 @@
       [ "sights", 1 ],
       [ "sling", 1 ]
     ],
-   "magazines":[
-    ["939", ["VSS_mag"]],
-    ["939", ["bigVSS_mag"]]
+   "magazines":[ 
+    ["939", ["VSS_mag", "bigVSS_mag" ] ] ]
+    }
     ]
- }
- ]
