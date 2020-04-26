@@ -1,8 +1,8 @@
 [
   {
     "type": "material",
-    "ident": "polymer",
     "copy-from": "plastic",
+    "id": "polymer",
     "name": "Polymer",
     "//": "high-quality plastic compound",
     "density": 16,
@@ -12,8 +12,8 @@
     "fire_resist": 3,
     "elec_resist": 5,
     "chip_resist": 11,
-    "repaired_with": "polymer_chunk",
-    "salvaged_into": "polymer_chunk"
+    "repaired_with": "chunk_polymer",
+    "salvaged_into": "chunk_polymer"
   },
   {
     "type": "material",
