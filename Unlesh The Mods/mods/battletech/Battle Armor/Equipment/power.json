@@ -50,12 +50,7 @@
     "count": 1,
     "encumbrance": 5,
     "flags": [ "NO_UNLOAD", "RECHARGE", "UPS" ],
-    "use_action": {
-      "type": "transform",
-      "target": "h_satchel_on",
-      "active": true,
-      "msg": "You activate the satchel."
-    },
+    "use_action": { "type": "transform", "target": "h_satchel_on", "active": true, "msg": "You activate the satchel." },
     "ammo": "battery",
     "max_charges": 30000
   },
@@ -76,12 +71,7 @@
     "count": 1,
     "encumbrance": 5,
     "flags": [ "NO_UNLOAD", "RECHARGE", "UPS" ],
-    "use_action": {
-      "type": "transform",
-      "target": "h_satchel",
-      "active": false,
-      "msg": "You deactivate the satchel."
-    },
+    "use_action": { "type": "transform", "target": "h_satchel", "active": false, "msg": "You deactivate the satchel." },
     "ammo": "battery",
     "max_charges": 30000
   },
@@ -103,12 +93,7 @@
     "power_armor": true,
     "encumbrance": 5,
     "flags": [ "NO_UNLOAD", "RECHARGE", "UPS" ],
-    "use_action": {
-      "type": "transform",
-      "target": "satchel_ba_on",
-      "active": true,
-      "msg": "You adjust the satchel.."
-    },
+    "use_action": { "type": "transform", "target": "satchel_ba_on", "active": true, "msg": "You adjust the satchel.." },
     "ammo": "battery",
     "max_charges": 30000
   },
@@ -130,12 +115,7 @@
     "power_armor": true,
     "encumbrance": 5,
     "flags": [ "NO_UNLOAD", "RECHARGE", "UPS" ],
-    "use_action": {
-      "type": "transform",
-      "target": "satchel_ba",
-      "active": false,
-      "msg": "You adjust the satchel."
-    },
+    "use_action": { "type": "transform", "target": "satchel_ba", "active": false, "msg": "You adjust the satchel." },
     "ammo": "battery",
     "max_charges": 30000
   }
