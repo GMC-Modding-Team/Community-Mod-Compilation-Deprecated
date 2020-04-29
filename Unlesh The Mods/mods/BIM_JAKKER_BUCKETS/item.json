@@ -5,7 +5,7 @@
     "category": "other",
     "name": "jakker bucket",
     "name_plural": "jakker buckets",
-	"looks_like": "bucket",
+    "looks_like": "bucket",
     "description": "A plastic bucket for whatever you want. Its your bucket.",
     "weight": 725,
     "volume": 20,
@@ -21,7 +21,7 @@
     "id": "jakker_fiesta_bucket",
     "type": "GENERIC",
     "category": "other",
-	"looks_like": "y_paint",
+    "looks_like": "y_paint",
     "name": "bim jakker fiesta bucket",
     "description": "A large vaccum sealed white bucket filled with freeze dried 'food' and religious literature.",
     "weight": 1360,
@@ -52,7 +52,7 @@
     "id": "jakker_cake_bucket",
     "type": "GENERIC",
     "category": "other",
-	"looks_like": "b_paint",
+    "looks_like": "b_paint",
     "name": "bim jakker cake bucket",
     "description": "A large vaccum sealed white bucket filled with freeze dried 'food' and religious literature.",
     "weight": 1360,
@@ -81,7 +81,7 @@
     "id": "fd_corn",
     "name": "freeze dried corn",
     "name_plural": "freeze dried corn",
-	"looks_like": "corn",
+    "looks_like": "corn",
     "weight": 153,
     "color": "yellow",
     "spoils_in": "0 days",
@@ -103,7 +103,7 @@
     "id": "instant_pancakes",
     "name": "instant pancake powder",
     "name_plural": "instant pancake powders",
-	"looks_like": "flour",
+    "looks_like": "flour",
     "weight": 40,
     "color": "brown",
     "spoils_in": "0 days",
@@ -126,7 +126,7 @@
     "id": "dehydrated_syrup",
     "name": "dehydrated maple syrup",
     "name_plural": "dehydrated maple syrup",
-	"looks_like": "flour",
+    "looks_like": "flour",
     "weight": 10,
     "color": "brown",
     "comestible_type": "FOOD",
@@ -147,7 +147,7 @@
     "id": "dehydrated_chicken",
     "name": "dehydrated chicken",
     "name_plural": "dehydrated chicken",
-	"looks_like": "can_chicken",
+    "looks_like": "can_chicken",
     "weight": 153,
     "color": "pink",
     "spoils_in": "0 days",
@@ -170,7 +170,7 @@
     "name": "rehydrated chicken",
     "name_plural": "rehydrated chicken",
     "copy-from": "dehydrated_chicken",
-	"looks_like": "can_chicken",
+    "looks_like": "can_chicken",
     "color": "white",
     "description": "Reconstituted chicken slices, which are much more enjoyable to eat now that they have been rehydrated.",
     "price": 500,
@@ -181,7 +181,7 @@
     "id": "jakkers_fiesta",
     "name": "jakkers fiesta",
     "name_plural": "jakkers fiestas",
-	"looks_like": "nachosm",
+    "looks_like": "nachosm",
     "weight": 153,
     "color": "yellow",
     "spoils_in": "3 days",
@@ -202,7 +202,7 @@
     "id": "jakker_cakes",
     "name": "jakker cakes",
     "name_plural": "jakker cakes",
-	"looks_like": "pancakes",
+    "looks_like": "pancakes",
     "weight": 40,
     "color": "brown",
     "spoils_in": "3 days",
@@ -225,7 +225,7 @@
     "id": "rehydrated_syrup",
     "name": "rehydrated syrup",
     "name_plural": "rehydrated syrup",
-	"looks_like": "syrup",
+    "looks_like": "syrup",
     "weight": 21,
     "color": "brown",
     "comestible_type": "FOOD",
@@ -247,43 +247,27 @@
     "id": "home_hw",
     "ammo": 50,
     "magazine": 100,
-    "items": [
-      [ "jakker_cake_bucket", 10 ],
-      [ "jakker_fiesta_bucket", 10 ]
-
-    ]
+    "items": [ [ "jakker_cake_bucket", 10 ], [ "jakker_fiesta_bucket", 10 ] ]
   },
   {
     "type": "item_group",
     "id": "livingroom",
     "ammo": 50,
     "magazine": 100,
-    "items": [
-      [ "jakker_cake_bucket", 10 ],
-      [ "jakker_fiesta_bucket", 10 ]
-
-    ]
+    "items": [ [ "jakker_cake_bucket", 10 ], [ "jakker_fiesta_bucket", 10 ] ]
   },
   {
     "type": "item_group",
     "id": "kitchen",
     "ammo": 50,
     "magazine": 100,
-    "items": [
-      [ "jakker_cake_bucket", 15 ],
-      [ "jakker_fiesta_bucket", 15 ]
-
-    ]
+    "items": [ [ "jakker_cake_bucket", 15 ], [ "jakker_fiesta_bucket", 15 ] ]
   },
   {
     "type": "item_group",
     "id": "bedroom",
     "ammo": 50,
     "magazine": 100,
-    "items": [
-      [ "jakker_cake_bucket", 10 ],
-      [ "jakker_fiesta_bucket", 10 ]
-
-    ]
+    "items": [ [ "jakker_cake_bucket", 10 ], [ "jakker_fiesta_bucket", 10 ] ]
   }
 ]
