@@ -50,10 +50,7 @@
     "description": "A hand grenade filled with fungicidal gas. Use to pull the pin and ignite. It takes 5 turns to gas spout.",
     "price": 1800,
     "looks_like": "gasbomb",
-    "countdown_action": {
-        "type": "transform",
-        "target": "fungicidal_bomb_act"
-    }
+    "countdown_action": { "type": "transform", "target": "fungicidal_bomb_act" }
   },
   {
     "id": "fungicidal_bomb_act",
@@ -65,10 +62,7 @@
     "looks_like": "gasbomb_act",
     "emits": [ "emit_fungicidal_stream" ],
     "countdown_interval": 50,
-    "countdown_action": {
-        "type": "transform",
-        "target": "canister_empty"
-    },
+    "countdown_action": { "type": "transform", "target": "canister_empty" },
     "flags": [ "TRADER_AVOID" ]
   },
   {
