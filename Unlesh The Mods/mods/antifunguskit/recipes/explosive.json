@@ -7,7 +7,7 @@
     "skill_used": "cooking",
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
-	"time": "8 m",
+    "time": "8 m",
     "autolearn": true,
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
@@ -25,16 +25,28 @@
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ "gun", 2 ],
-	"time": "3 m 45 s",
+    "time": "3 m 45 s",
     "batch_time_factors": [ 50, 10 ],
     "reversible": true,
     "charges": 1,
     "tools": [ [ [ "press", -1 ] ] ],
-    "components": [ 
-	[ [ "40x46mm_m1006", 1 ], [ "40x46mm_m433", 1 ], [ "40x46mm_m576", 1 ], [ "40x46mm_m651", 1 ], [ "40x46mm_buckshot_m118", 1 ], [ "40x46mm_buckshot_m199", 1 ], [ "40x46mm_slug_m118", 1 ], [ "40x46mm_slug_m199", 1 ], [ "40x46mm_flechette_m118", 1 ], [ "40x46mm_flechette_m199", 1 ]  ],
-	[ [ "gunpowder", 40 ] ],
-	[ [ "fungicide", 200 ] ],
-	[ [ "chem_sulphur", 200 ] ] ]
+    "components": [
+      [
+        [ "40x46mm_m1006", 1 ],
+        [ "40x46mm_m433", 1 ],
+        [ "40x46mm_m576", 1 ],
+        [ "40x46mm_m651", 1 ],
+        [ "40x46mm_buckshot_m118", 1 ],
+        [ "40x46mm_buckshot_m199", 1 ],
+        [ "40x46mm_slug_m118", 1 ],
+        [ "40x46mm_slug_m199", 1 ],
+        [ "40x46mm_flechette_m118", 1 ],
+        [ "40x46mm_flechette_m199", 1 ]
+      ],
+      [ [ "gunpowder", 40 ] ],
+      [ [ "fungicide", 200 ] ],
+      [ [ "chem_sulphur", 200 ] ]
+    ]
   },
   {
     "result": "fungus_nuke",
@@ -43,7 +55,7 @@
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
     "skill_used": "cooking",
     "difficulty": 7,
-	"time": "2 h",
+    "time": "2 h",
     "reversible": true,
     "tools": [ [ [ "welder", 20 ], [ "welder_crude", 30 ], [ "toolset", 30 ], [ "soldering_iron", 30 ] ] ],
     "components": [ [ [ "keg", 1 ], [ "keg_steel", 1 ] ], [ [ "fungicide", 700 ] ], [ [ "dynamite", 2 ] ] ]
@@ -56,7 +68,7 @@
     "skill_used": "electronics",
     "skills_required": [ [ "mechanics", 4 ], [ "computer", 5 ] ],
     "difficulty": 6,
-	"time": "25 m",
+    "time": "25 m",
     "reversible": false,
     "autolearn": true,
     "components": [
