@@ -1,7 +1,19 @@
 [
-  { "id": "placeholder", "type": "item_group", "items": [  ] },
-  { "id": "placeholder_2", "type": "item_group", "items": [  ] },
-  { "id": "placeholer_extreme", "type": "item_group", "items": [  ] },
+  {
+    "id": "placeholder",
+    "type": "item_group",
+    "items": [  ]
+  },
+  {
+    "id": "placeholder_2",
+    "type": "item_group",
+    "items": [  ]
+  },
+  {
+    "id": "placeholer_extreme",
+    "type": "item_group",
+    "items": [  ]
+  },
   {
     "type": "mapgen",
     "method": "json",
@@ -153,16 +165,14 @@
       },
       "furniture": { "#": "f_counter" },
       "computers": {
-          "]": {
-           "name": "Gate Control",
-           "security": 1,
-           "options": [ { "name": "Open Vault", "action": "unlock" } ],
-           "failures": [
-             { "action": "alarm" }
-          ]
-       }
-     }
-   }
+        "]": {
+          "name": "Gate Control",
+          "security": 1,
+          "options": [ { "name": "Open Vault", "action": "unlock" } ],
+          "failures": [ { "action": "alarm" } ]
+        }
+      }
+    }
   },
   {
     "type": "mapgen",
