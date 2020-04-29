@@ -18,9 +18,9 @@
     "dispersion": 200,
     "durability": 2,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ], [ "stock", 1] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5] ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5 ] ],
+    "magazines": [ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ] ]
   },
   {
     "id": "HMG44",
@@ -41,9 +41,14 @@
     "dispersion": 200,
     "durability": 6,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ], [ "stock", 1] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ], [ "300blk", ["stgmag300blk" ] ], [ "223", [ "stgmag223" ] ], [ "762", [ "stgmag762" ] ] ]
+    "magazines": [
+      [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ],
+      [ "300blk", [ "stgmag300blk" ] ],
+      [ "223", [ "stgmag223" ] ],
+      [ "762", [ "stgmag762" ] ]
+    ]
   },
   {
     "id": "HMG44_sbr",
@@ -63,9 +68,14 @@
     "dispersion": 150,
     "durability": 6,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ], [ "stock", 1] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ],
     "built_in_mods": [ "barrel_small" ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ], [ "762", [ "stgmag762" ] ], [ "223", [ "stgmag223" ] ], [ "300blk", ["stgmag300blk" ] ] ]
+    "magazines": [
+      [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ],
+      [ "762", [ "stgmag762" ] ],
+      [ "223", [ "stgmag223" ] ],
+      [ "300blk", [ "stgmag300blk" ] ]
+    ]
   },
   {
     "id": "HMG44_smol",
@@ -86,9 +96,14 @@
     "dispersion": 300,
     "durability": 6,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ] ],
     "built_in_mods": [ "barrel_small" ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ], [ "762", [ "stgmag762" ] ], [ "223", [ "stgmag223" ] ], [ "300blk", ["stgmag300blk" ] ] ]
+    "magazines": [
+      [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ],
+      [ "762", [ "stgmag762" ] ],
+      [ "223", [ "stgmag223" ] ],
+      [ "300blk", [ "stgmag300blk" ] ]
+    ]
   },
   {
     "id": "HMG44_auto",
@@ -109,9 +124,14 @@
     "dispersion": 200,
     "durability": 6,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ], [ "stock", 1] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5] ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ], [ "300blk", ["stgmag300blk" ] ], [ "223", [ "stgmag223" ] ], [ "762", [ "stgmag762" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5 ] ],
+    "magazines": [
+      [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ],
+      [ "300blk", [ "stgmag300blk" ] ],
+      [ "223", [ "stgmag223" ] ],
+      [ "762", [ "stgmag762" ] ]
+    ]
   },
   {
     "id": "HMG44_sbr_auto",
@@ -131,9 +151,14 @@
     "dispersion": 150,
     "durability": 6,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ], [ "stock", 1] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5] ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ], [ "762", [ "stgmag762" ] ], [ "223", [ "stgmag223" ] ], [ "300blk", ["stgmag300blk" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5 ] ],
+    "magazines": [
+      [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ],
+      [ "762", [ "stgmag762" ] ],
+      [ "223", [ "stgmag223" ] ],
+      [ "300blk", [ "stgmag300blk" ] ]
+    ]
   },
   {
     "id": "HMG44_smol_auto",
@@ -154,8 +179,13 @@
     "dispersion": 300,
     "durability": 6,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1], [ "mechanism", 2 ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5] ],
-    "magazines":[ [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ], [ "762", [ "stgmag762" ] ], [ "223", [ "stgmag223" ] ], [ "300blk", ["stgmag300blk" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "muzzle", 1 ], [ "mechanism", 2 ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 5 ] ],
+    "magazines": [
+      [ "7.92x33k", [ "stg44magold", "stg44magnew" ] ],
+      [ "762", [ "stgmag762" ] ],
+      [ "223", [ "stgmag223" ] ],
+      [ "300blk", [ "stgmag300blk" ] ]
+    ]
   }
 ]

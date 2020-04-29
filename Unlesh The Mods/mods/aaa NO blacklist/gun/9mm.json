@@ -1,40 +1,22 @@
 [
   {
-
     "id": "hipoint9mm",
- 
-   "type": "GUN",
-
+    "type": "GUN",
     "name": "Hi-Point 9mm",
- 
-   "description": "For a handgun that's under $200 it's exactly what you would expect. It's heavy and awkward to handle, but it works.",
- 
-   "weight": 822,
- 
-   "volume": 2,
-
+    "description": "For a handgun that's under $200 it's exactly what you would expect. It's heavy and awkward to handle, but it works.",
+    "weight": 822,
+    "volume": 2,
     "price": 300,
- 
-   "to_hit": -1,
-
+    "to_hit": -1,
     "bashing": 5,
- 
-   "material": [ "budget_steel", "plastic" ],
-
+    "material": [ "budget_steel", "plastic" ],
     "symbol": "(",
-
     "color": "grey",
-
     "ammo": "9mm",
-
     "skill": "pistol",
- 
-   "dispersion": 800,
- 
-   "durability": 4,
-
-    "magazines": [    [ "9mm", [ "hipoint9mag", "hipoint9carmag", "hipoint9extmag" ] ]    ]
-
+    "dispersion": 800,
+    "durability": 4,
+    "magazines": [ [ "9mm", [ "hipoint9mag", "hipoint9carmag", "hipoint9extmag" ] ] ]
   },
   {
     "id": "hipoint9car",
@@ -50,14 +32,12 @@
     "symbol": "(",
     "color": "grey",
     "ammo": "9mm",
-
     "skill": "smg",
     "dispersion": 380,
     "durability": 4,
-    "barrel_length":1,
-    "Valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "Mechanism", 2 ], [ "rail", 1], [ "underbarrel", 1] ],
-    "magazines": [    [ "9mm", [ "hipoint9mag", "hipoint9carmag", "hipoint9extmag" ] ]  
-  ]
+    "barrel_length": 1,
+    "Valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "Mechanism", 2 ], [ "rail", 1 ], [ "underbarrel", 1 ] ],
+    "magazines": [ [ "9mm", [ "hipoint9mag", "hipoint9carmag", "hipoint9extmag" ] ] ]
   },
   {
     "id": "pm-83p",
@@ -79,6 +59,6 @@
     "modes": [ [ "DEFAULT", "full-auto", 3 ] ],
     "barrel_length": 1,
     "built_in_mods": [ "folding_stock" ],
-    "magazines": [  ["9mm", [ "rak_9mm_15", "rak_9mm_15" ] ] ]
+    "magazines": [ [ "9mm", [ "rak_9mm_15", "rak_9mm_15" ] ] ]
   }
 ]

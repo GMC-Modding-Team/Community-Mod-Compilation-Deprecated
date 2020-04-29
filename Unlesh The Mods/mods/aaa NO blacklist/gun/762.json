@@ -16,10 +16,18 @@
     "skill": "rifle",
     "dispersion": 180,
     "durability": 8,
-    "modes": [  [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], ["grip", 1], ["mechanism", 4], [ "muzzle", 1], ["sights", 1], ["stock", 1] ],
-    "magazines": [ ["762", [ "vz58mag", "vz58magplas" ] ] ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "762", [ "vz58mag", "vz58magplas" ] ] ]
   },
   {
     "id": "vz58v",
@@ -38,11 +46,11 @@
     "skill": "rifle",
     "dispersion": 180,
     "durability": 8,
-    "modes": [  [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": 1,
     "built_in_mods": [ "folding_stock" ],
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], ["grip", 1], ["mechanism", 4], [ "muzzle", 1], ["sights", 1] ],
-    "magazines": [ ["762", [ "vz58mag", "vz58magplas" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "magazines": [ [ "762", [ "vz58mag", "vz58magplas" ] ] ]
   },
   {
     "id": "vz2008p",
@@ -63,8 +71,8 @@
     "durability": 8,
     "barrel_length": 1,
     "built_in_mods": [ "pistol_grip" ],
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], ["mechanism", 4], [ "muzzle", 1], ["sights", 1], ["stock", 1] ],
-    "magazines": [ ["762", [ "vz58mag", "vz58magplas" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
+    "magazines": [ [ "762", [ "vz58mag", "vz58magplas" ] ] ]
   },
   {
     "id": "vz2008v",
@@ -85,49 +93,29 @@
     "durability": 8,
     "barrel_length": 1,
     "built_in_mods": [ "folding_stock", "pistol_grip" ],
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], ["mechanism", 4], [ "muzzle", 1], ["sights", 1] ],
-    "magazines": [ ["762", [ "vz58mag", "vz58magplas" ] ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "magazines": [ [ "762", [ "vz58mag", "vz58magplas" ] ] ]
   },
   {
-
     "id": "M10X",
-
     "type": "GUN",
-
     "name": "M10X",
-
     "description": "The M10X combines both the reliability of the AK and the customisability of the AR.",
-
     "weight": 3181,
-
     "volume": 10,
-
     "Price": 450000,
-
     "to_hit": -1,
-
     "bashing": 12,
-
     "material": [ "steel", "plastic" ],
-
     "symbol": "(",
-
     "color": "grey",
-
     "ammo": "762",
-
     "skill": "rifle",
-
     "dispersion": 160,
-
     "durability": 8,
-
     "barrel_length": 1,
-
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-
-    "magazines": [    [ "762", [ "akmmag", "akmbigmag" ] ]    ]
-
+    "magazines": [ [ "762", [ "akmmag", "akmbigmag" ] ] ]
   },
   {
     "id": "HMG44_762",
