@@ -10,7 +10,7 @@
     "symbol": "=",
     "color": "green",
     "count": 15,
-    "stack_size": 15, 
+    "stack_size": 15,
     "ammo_type": "20x28mm",
     "casing": "20x28mm_casing",
     "range": 80,
@@ -30,7 +30,7 @@
   {
     "id": "20x28mm_frag",
     "copy-from": "20x28mm_grenade",
-    "type": "AMMO", 
+    "type": "AMMO",
     "name": "20x28mm frag",
     "description": "20x28mm high explosive fragmentation rounds",
     "extend": { "effects": [ "FRAG" ] }
@@ -44,4 +44,3 @@
     "extend": { "effects": [ "FRAG", "EXPLOSIVE_SMALL" ] }
   }
 ]
-    
