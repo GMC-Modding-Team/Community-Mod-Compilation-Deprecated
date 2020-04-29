@@ -6,11 +6,9 @@
     "category": "OTHER",
     "difficulty": 3,
     "time": 30,
-    "components": [
-      [ [ "plactic_bomb_alc" , 1 ], ["c4", 1 ] ]
-    ],
-    "pre_flags" : "WALL",
-    "post_terrain" : "t_dirt"
+    "components": [ [ [ "plactic_bomb_alc", 1 ], [ "c4", 1 ] ] ],
+    "pre_flags": "WALL",
+    "post_terrain": "t_dirt"
   },
   {
     "id": "plactic_bomb_alc1",
@@ -19,11 +17,9 @@
     "category": "OTHER",
     "difficulty": 3,
     "time": 15,
-    "components": [
-      [ [ "plactic_bomb_alc" , 1 ], ["c4", 1 ] ]
-    ],
-    "pre_flags" : "DOOR",
-    "post_terrain" : "t_dirt"
+    "components": [ [ [ "plactic_bomb_alc", 1 ], [ "c4", 1 ] ] ],
+    "pre_flags": "DOOR",
+    "post_terrain": "t_dirt"
   },
   {
     "id": "plactic_bomb_alc2",
@@ -32,11 +28,9 @@
     "category": "OTHER",
     "difficulty": 4,
     "time": 15,
-    "components": [
-      [ [ "plactic_bomb_alc" , 1 ], ["c4", 1 ] ]
-    ],
-    "pre_flags" : "LOCKED",
-    "post_terrain" : "t_dirt"
+    "components": [ [ [ "plactic_bomb_alc", 1 ], [ "c4", 1 ] ] ],
+    "pre_flags": "LOCKED",
+    "post_terrain": "t_dirt"
   },
   {
     "id": "plactic_bomb_alc3",
@@ -45,12 +39,9 @@
     "category": "OTHER",
     "difficulty": 3,
     "time": 15,
-    "components": [
-      [ [ "plactic_bomb_alc" , 1 ], ["c4", 1 ] ]
-    ],
-    "pre_note" : "Blast the flat ground and make a hole. Be careful as it will break most of the terrain.",
-    "pre_flags" : "FLAT",
-    "post_terrain" : "t_pit"
+    "components": [ [ [ "plactic_bomb_alc", 1 ], [ "c4", 1 ] ] ],
+    "pre_note": "Blast the flat ground and make a hole. Be careful as it will break most of the terrain.",
+    "pre_flags": "FLAT",
+    "post_terrain": "t_pit"
   }
-
 ]
