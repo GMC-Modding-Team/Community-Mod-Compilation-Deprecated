@@ -3,19 +3,13 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "fl_block",
-    "entries": [
-      { "item": "fl_block", "charges": 10 },
-      { "item": "fl_block", "charges": 10 }
-    ]
+    "entries": [ { "item": "fl_block", "charges": 10 }, { "item": "fl_block", "charges": 10 } ]
   },
   {
     "type": "item_group",
     "subtype": "collection",
     "id": "srm",
-    "entries": [
-      { "item": "srm_missile", "charges": 10 },
-      { "item": "srm_missile", "charges": 10 }
-    ]
+    "entries": [ { "item": "srm_missile", "charges": 10 }, { "item": "srm_missile", "charges": 10 } ]
   },
   {
     "type": "profession",
@@ -125,11 +119,7 @@
     "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" }, { "level": 2, "name": "stabbing" } ],
     "items": {
       "both": {
-        "items": [
-          "helmet_army",
-          "mask_ski",
-          "tornado"
-        ],
+        "items": [ "helmet_army", "mask_ski", "tornado" ],
         "entries": [
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "fl_block", "charges": 120 },

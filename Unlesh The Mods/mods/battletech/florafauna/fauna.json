@@ -53,7 +53,8 @@
     "harvest": "bird_tiny",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "BONES", "FAT", "BIRDFOOD" ]
-  },{
+  },
+  {
     "id": "mon_aerial_beast_infantry",
     "type": "MONSTER",
     "name": "branth rider",
@@ -84,19 +85,9 @@
     "death_drops": "aerial_branth_infantry_drop",
     "death_function": [ "NORMAL" ],
     "burn_into": "burning_branth",
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "BLEED",
-      "ATTACKMON",
-      "BONES"
-    ]
-  },{
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "ATTACKMON", "BONES" ]
+  },
+  {
     "id": "mon_aerial_beast_infantry_squad",
     "type": "MONSTER",
     "name": "branth rider squad",
@@ -127,19 +118,9 @@
     "death_drops": "aerial_branth_infantry_drop",
     "death_function": [ "NORMAL" ],
     "burn_into": "burning_branth",
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "BLEED",
-      "ATTACKMON",
-      "BONES"
-    ]
-  },{
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "ATTACKMON", "BONES" ]
+  },
+  {
     "id": "mon_branth_irregular",
     "type": "MONSTER",
     "name": "Branth Irregulars, Beta Regiment, Fifth Legionaire",
@@ -148,7 +129,7 @@
     "species": [ "HUMAN" ],
     "diff": 265,
     "volume": "2000000 ml",
-    "weight":  720000,
+    "weight": 720000,
     "hp": 2040,
     "speed": 45,
     "material": [ "flesh" ],
@@ -170,19 +151,9 @@
     "death_drops": "aerial_branth_infantry_drop",
     "death_function": [ "NORMAL" ],
     "burn_into": "insane_burning_branth",
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "BLEED",
-      "ATTACKMON",
-      "BONES"
-    ]
-  },{
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "ATTACKMON", "BONES" ]
+  },
+  {
     "id": "burning_branth",
     "type": "MONSTER",
     "name": "branth rider",
@@ -211,18 +182,9 @@
     "vision_night": 6,
     "death_drops": "burning_branth_boss_drop",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "WARM",
-      "BASHES",
-      "PUSH_MON",
-      "POISON",
-      "BLEED",
-      "ATTACKMON",
-      "BONES"
-    ]
-  },{
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PUSH_MON", "POISON", "BLEED", "ATTACKMON", "BONES" ]
+  },
+  {
     "id": "insane_burning_branth",
     "type": "MONSTER",
     "name": "burning branth",
@@ -251,16 +213,6 @@
     "vision_night": 6,
     "death_drops": "burning_branth_boss_drop",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "WARM",
-      "BASHES",
-      "PUSH_MON",
-      "POISON",
-      "BLEED",
-      "ATTACKMON",
-      "BONES"
-    ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PUSH_MON", "POISON", "BLEED", "ATTACKMON", "BONES" ]
   }
 ]
