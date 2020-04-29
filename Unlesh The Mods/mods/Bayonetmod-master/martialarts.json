@@ -14,7 +14,11 @@
         "melee_allowed": true,
         "unarmed_allowed": false,
         "min_melee": 0,
-        "mult_bonuses": [ { "stat": "damage", "type": "cut", "scale": 1.2 }, { "stat": "damage", "type": "stab", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.2 } ],
+        "mult_bonuses": [
+          { "stat": "damage", "type": "cut", "scale": 1.2 },
+          { "stat": "damage", "type": "stab", "scale": 1.2 },
+          { "stat": "damage", "type": "bash", "scale": 1.2 }
+        ],
         "description": "Increased damage."
       },
       {
@@ -25,7 +29,11 @@
         "//": "FWIW, this is twice the amount of armor provided by bionic plating.",
         "melee_allowed": true,
         "unarmed_allowed": false,
-        "flat_bonuses": [ { "stat": "armor", "type": "bash", "scale": 6.0 }, { "stat": "armor", "type": "cut", "scale": 6.0 }, { "stat": "armor", "type": "stab", "scale": 6.0 } ]
+        "flat_bonuses": [
+          { "stat": "armor", "type": "bash", "scale": 6.0 },
+          { "stat": "armor", "type": "cut", "scale": 6.0 },
+          { "stat": "armor", "type": "stab", "scale": 6.0 }
+        ]
       }
     ],
     "onhit_buffs": [
@@ -38,7 +46,11 @@
         "min_melee": 1,
         "buff_duration": 2,
         "max_stacks": 1,
-        "mult_bonuses": [ { "stat": "damage", "type": "cut", "scale": 2 }, { "stat": "damage", "type": "stab", "scale": 3 }, { "stat": "damage", "type": "bash", "scale": 1.2 } ]
+        "mult_bonuses": [
+          { "stat": "damage", "type": "cut", "scale": 2 },
+          { "stat": "damage", "type": "stab", "scale": 3 },
+          { "stat": "damage", "type": "bash", "scale": 1.2 }
+        ]
       }
     ],
     "onmove_buffs": [
