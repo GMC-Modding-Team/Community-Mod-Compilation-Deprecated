@@ -1,6 +1,6 @@
 [
   {
-    "id" : "blobgrow",
+    "abstract" : "blobgrow",
     "type" : "TOOL",
     "category" : "tools",
     "name" : "blob_grow_base",
@@ -32,7 +32,7 @@
     "sight_dispersion" : 150,
     "ammo_effects" : ["WIDE"],
     "flags" : ["NEVER_JAMS", "MOUNTED_GUN", "NO_BOOM"]
-  },
+  }, 
   {
     "id" : "edgegrow",
     "type" : "TOOL",
