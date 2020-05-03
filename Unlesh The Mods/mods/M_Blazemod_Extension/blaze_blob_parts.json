@@ -1,5 +1,5 @@
 [{
-    "id" : "blob_tool",
+    "abstract" : "blob_tool",
     "type" : "vehicle_part",
     "override": true,
     "name" : "blob part",
@@ -7,7 +7,7 @@
     "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } }
   },
   {
-    "id" : "gray_part",
+    "abstract" : "gray_part",
     "type" : "vehicle_part",
     "override": true,
     "copy-from" : "blob_tool",
@@ -27,7 +27,7 @@
       "all" : 10
     }
   }, {
-    "id" : "gray_frame",
+    "abstract" : "gray_frame",
     "type" : "vehicle_part",
     "copy-from" : "gray_part",
     "location" : "structure",
@@ -80,7 +80,7 @@
     "copy-from" : "gray_frame",
     "symbol" : "H"
   }, {
-    "id" : "gray_board",
+    "abstract" : "gray_board",
     "type" : "vehicle_part",
     "copy-from" : "gray_part",
     "location" : "center",
@@ -137,7 +137,7 @@
     "broken_symbol" : "&",
     "flags" : ["OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE", "TOOL_NONE"]
   }, {
-    "id" : "gray_halfboard",
+    "abstract" : "gray_halfboard",
     "type" : "vehicle_part",
     "copy-from" : "gray_part",
     "location" : "center",
