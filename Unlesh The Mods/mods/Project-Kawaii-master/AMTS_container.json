@@ -1,8 +1,8 @@
 [
   {
     "id": "kawaii_bottle_2l",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "A&M 2L Bottle",
     "description": "This folding 2L bottle is made out of a proprietary A&M plastic of reduced weight. It did not sell well initially, but became a valuable collectors item once produciton ended.",
     "weight": 300,
@@ -13,14 +13,22 @@
     "material": "kawaii_amplastic",
     "symbol": "}",
     "color": "light_cyan",
-    "contains": "2L",
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "4 kg"
+      }
+    ],
     "seals": true,
     "watertight": true
   },
   {
     "id": "kawaii_jerrycan_10l",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "A&M 10L Jerrycan",
     "description": "This 10L jerrycan is made out of a proprietary A&M plastic of reduced weight. It did not sell well initially, but became a valuable collectors item once produciton ended.",
     "weight": 750,
@@ -30,14 +38,22 @@
     "material": "kawaii_amplastic",
     "symbol": ")",
     "color": "green",
-    "contains": "10L",
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "10 L",
+        "max_contains_weight": "20 kg"
+      }
+    ],
     "seals": true,
     "watertight": true
   },
   {
     "id": "kawaii_jerrycan_20l",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "A&M 20L Jerrycan",
     "description": "This 20L jerrycan is made out of a proprietary A&M plastic of reduced weight. It did not sell well initially, but became a valuable collectors item once produciton ended.",
     "weight": 1500,
@@ -48,7 +64,15 @@
     "material": "kawaii_amplastic",
     "symbol": ")",
     "color": "green",
-    "contains": "20L",
+	"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "40 kg"
+      }
+    ],
     "seals": true,
     "watertight": true
   }
