@@ -71,8 +71,8 @@
     "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
     "reload_noise_volume": 0,
     "loudness": 0,
-    "ranged_damage": 30,
-    "range": 30,
+    "ranged_damage": { "damage_type": "stab", "amount": 8 },
+    "range": 25,
     "dispersion": 80,
     "durability": 6,
     "reload": 50,
@@ -116,7 +116,7 @@
   },
   {
     "type": "GENERIC",
-    "id": "golf_club",
+    "id": "afs_golf_club",
     "name": "golf club",
     "copy-from": "golf_club",
     "material": [ "aluminum", "titanium" ]
