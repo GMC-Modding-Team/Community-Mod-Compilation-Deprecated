@@ -7,19 +7,13 @@
     "name": { "str": "gilded aegis", "str_pl": "gilded aegises" },
     "description": "A simple leather cloak, richly decorated with scales of gilded iron and several feathers.  It resembles the hide of a golden dragon or serpent.  Using it will heal minor injuries, in exchange for inflicting pain.",
     "material": [ "leather", "iron", "gold" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
     "//": "A reusable healing item that's also armored?  Yeah, that's staying valuable for a while.",
     "price": 70000,
     "price_postapoc": 8000,
-=======
->>>>>>> parent of 9def5a0... gold update
-=======
->>>>>>> parent of 9def5a0... gold update
     "color": "yellow",
     "ammo": "essence_dull_type",
-    "max_charges": 30,
-    "charges_per_use": 15,
+    "max_charges": 60,
+    "charges_per_use": 20,
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_gilded_aegis_healing", "no_fail": true, "level": 0, "need_worn": true },
     "relative": { "weight": 3020, "price": 7200, "material_thickness": 3, "encumbrance": 9 },
     "extend": { "flags": [ "NO_SALVAGE", "HELMET_COMPAT", "FANCY" ] }
@@ -39,7 +33,7 @@
     "looks_like": "mask_bal",
     "color": "light_red",
     "ammo": "essence_dull_type",
-    "max_charges": 12,
+    "max_charges": 24,
     "covers": [ "EYES", "MOUTH" ],
     "coverage": 100,
     "encumbrance": 10,
@@ -64,7 +58,7 @@
     "repairs_like": "somen_clairvoyance",
     "name": { "str": "mask of insight (on)", "str_pl": "masks of insight (on)" },
     "description": "A mask faced with iron and decorated with other metal, depicting the face of some unknown divine figure.  The face depicted on the mask seems more menacing than it did previously.",
-    "turns_per_charge": 300,
+    "turns_per_charge": 100,
     "revert_to": "somen_clairvoyance",
     "material_thickness": 3,
     "environmental_protection": 6,
@@ -82,7 +76,7 @@
     "type": "TOOL_ARMOR",
     "copy-from": "armor_blarmor",
     "name": { "str": "wyrmskin armor", "str_pl": "sets of wyrmskin armor" },
-    "description": "A set of well-decorated leather armor, with serpentine patterns sewn into it and various straps added.  Using it will conjure a long-lasting spray of acid.",
+    "description": "A set of well-decorated leather armor, with serpentine patterns sewn into it, various adjustable straps added.  Using it will conjure a long-lasting spray of acid.",
     "material": [ "wyrmskin", "leather" ],
     "covers": [ "LEGS", "TORSO", "ARMS", "FEET" ],
     "price": 45000,
@@ -93,7 +87,13 @@
     "charges_per_use": 4,
     "encumbrance": 10,
     "environmental_protection": 10,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_wyrmskin_acid", "no_fail": true, "level": 0, "need_worn": true },
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 80 }
+    ],
+    "use_action": [
+      { "type": "cast_spell", "spell_id": "arcana_item_wyrmskin_acid", "no_fail": true, "level": 0, "need_worn": true }
+    ],
     "relative": { "weight": "722 g", "volume": "1500 ml", "price": 80000 },
     "extend": { "flags": [ "OVERSIZE", "NO_SALVAGE", "ALLOWS_NATURAL_ATTACKS", "FANCY" ] },
     "delete": { "flags": [ "VARSIZE" ] }
@@ -139,16 +139,24 @@
     "color": "dark_gray",
     "ammo": "essence_type",
     "max_charges": 20,
-    "use_action": {
-      "target": "robe_shadow_on",
-      "msg": "The robe's fabric darkens to a rich shade of black, cloaking your surroundings in a flickering illusion.",
-      "active": true,
-      "need_worn": true,
-      "need_charges": 1,
-      "need_charges_msg": "The mantle requires essence to bring forth the night.",
-      "type": "transform"
-    },
-    "relative": { "weight": 616, "volume": -1, "price": 16000, "coverage": 5, "encumbrance": -5, "storage": -6, "material_thickness": 1 },
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "5 kg", "moves": 180 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "5 kg", "moves": 180 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 120 }
+    ],
+    "use_action": [
+      {
+        "target": "robe_shadow_on",
+        "msg": "The robe's fabric darkens to a rich shade of black, cloaking your surroundings in a flickering illusion.",
+        "active": true,
+        "need_worn": true,
+        "need_charges": 1,
+        "need_charges_msg": "The mantle requires essence to bring forth the night.",
+        "menu_text": "Activate illusory shroud",
+        "type": "transform"
+      }
+    ],
+    "relative": { "weight": 616, "volume": -1, "price": 16000, "coverage": 5, "encumbrance": -5, "material_thickness": 1 },
     "extend": { "flags": [ "NO_SALVAGE" ] }
   },
   {
@@ -165,11 +173,14 @@
     },
     "artifact_data": { "effects_worn": [ "AEP_INVISIBLE", "AEP_STEALTH" ] },
     "revert_to": "robe_shadow",
-    "use_action": {
-      "target": "robe_shadow",
-      "msg": "The robe's fabric returns to its normal gray color, dispelling the illusion.",
-      "type": "transform"
-    }
+    "revert_msg": "The robe's fabric returns to its normal gray color, dispelling the illusion.",
+    "use_action": [
+      {
+        "target": "robe_shadow",
+        "msg": "The robe's fabric returns to its normal gray color, dispelling the illusion.",
+        "type": "transform"
+      }
+    ]
   },
   {
     "id": "gauntlets_necro",
@@ -177,14 +188,8 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "pair of thunder gauntlets", "str_pl": "pairs of thunder gauntlets" },
     "description": "A heavy set of plate gauntlets, decorated with silver around the edges of each individual plate.  Touching the bare metal sends a faint electric tingle through you.  Use them to give a nearby enemy a powerful stunning jolt.",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "price": 60000,
     "price_postapoc": 5000,
-=======
->>>>>>> parent of 9e98ddb... silver update
-=======
->>>>>>> parent of 9e98ddb... silver update
     "material": [ "iron", "leather", "silver" ],
     "ammo": "essence_type",
     "max_charges": 4,
@@ -204,7 +209,6 @@
     "type": "TOOL_ARMOR",
     "copy-from": "chainmail_hauberk",
     "name": { "str": "jade hauberk" },
-    "description": "A set of mail armor with a mantle made from a gilded aegis draped over it, splints of copper worked into the arms and sides.  Underneath the mantle is a gorget of copper, with otherworldly green stones set into it.  It can be used to project a powerful protective barrier, or to channel a weaker version of the aegis' healing magic.  The latter ability drains fatigue rather than consuming essence.",
     "//": "Requires an item that did not exist pre-cataclysm to make.",
     "price_postapoc": 15000,
     "material": [ "iron", "copper", "leather", "cotton" ],
@@ -212,7 +216,7 @@
     "coverage": 100,
     "environmental_protection": 1,
     "ammo": "essence_dull_type",
-    "max_charges": 90,
+    "max_charges": 120,
     "use_action": [
       {
         "target": "hauberk_jade_on",
@@ -235,9 +239,9 @@
     "copy-from": "hauberk_jade",
     "repairs_like": "hauberk_jade",
     "name": { "str": "jade hauberk (on)", "str_pl": "jade hauberks (on)" },
-    "description": "A set of mail armor with a mantle made from a gilded aegis draped over it, splints of copper worked into the arms and sides.  Underneath the mantle is a gorget of copper, with otherworldly green stones set into it.  An aura of protective magic is radiating from it, granting immunity to fire and blade, along with resistance to other environmental hazards.",
+    "description": "A set of mail armor with a mantle made from a gilded aegis draped over it, splints of copper worked into the arms and sides.  Underneath the mantle is a gorget of copper, with otherworldly green stones set into it.  An aura of protective magic is radiating from it, granting immunity to fire, blade, and bullet, along with resistance to other environmental hazards.",
     "environmental_protection": 10,
-    "turns_per_charge": 20,
+    "turns_per_charge": 10,
     "revert_to": "hauberk_jade",
     "use_action": {
       "target": "hauberk_jade",
@@ -245,7 +249,7 @@
       "type": "transform"
     },
     "qualities": [ [ "GLARE", 1 ] ],
-    "extend": { "flags": [ "GAS_PROOF", "RAD_PROOF", "SUN_GLASSES", "CUT_IMMUNE", "STAB_IMMUNE", "HEAT_IMMUNE", "CLIMATE_CONTROL" ] }
+    "extend": { "flags": [ "GAS_PROOF", "RAD_PROOF", "SUN_GLASSES", "BULLET_IMMUNE", "STAB_IMMUNE", "HEAT_IMMUNE", "CLIMATE_CONTROL" ] }
   },
   {
     "id": "jade_wreath",
@@ -296,7 +300,7 @@
     "color": "light_gray",
     "ammo": "essence_dull_type",
     "initial_charges": 0,
-    "max_charges": 20,
+    "max_charges": 50,
     "use_action": {
       "target": "meteoric_talisman_on",
       "msg": "As you activate the talisman, you feel insulated in a strange manner.",
@@ -313,8 +317,8 @@
     "copy-from": "meteoric_talisman",
     "type": "TOOL_ARMOR",
     "name": { "str": "meteoric talisman (active)", "str_pl": "meteoric talismans (active)" },
-    "description": "An ornate necklace with a small charm resembling a round shield, made from a hard iridescent metal.  A strange electric tingle permeates the air around it, hinting at its protective magic.  It will resist most contact with electricity, though powerful jolts may still harm you.",
-    "turns_per_charge": 150,
+    "description": "An ornate necklace with a small charm resembling a round shield, made from a hard iridescent metal.  A strange electric tingle permeates the air around it, hinting at its protective magic.  It grants immunity to lightning.",
+    "turns_per_charge": 50,
     "revert_to": "meteoric_talisman",
     "use_action": {
       "target": "meteoric_talisman",
@@ -330,15 +334,9 @@
     "repairs_like": "orb_veil",
     "name": { "str": "ring of the fallen angel", "str_pl": "rings of the fallen angel" },
     "description": "A simple silver ring, adorned with a small red gem and a wing motif.  Using it cures several anomalous ailments, and provides protection from such effects for a while.",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "//": "While unassuming, those who knew what rituals it was useful for would value it highly.  Those people are probably now dead.",
     "price": 360000,
     "price_postapoc": 15000,
-=======
->>>>>>> parent of 9e98ddb... silver update
-=======
->>>>>>> parent of 9e98ddb... silver update
     "material": [ "silver", "essencemat" ],
     "color": "white",
     "ammo": "essence_type",
