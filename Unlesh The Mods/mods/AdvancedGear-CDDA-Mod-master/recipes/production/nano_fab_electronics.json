@@ -1,6 +1,6 @@
 [
   {
-    "type": "recipe",
+    "type" : "recipe",
     "result": "cable",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -11,11 +11,16 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 40 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 40]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "copper",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -26,11 +31,16 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 40 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 40]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "scrap_copper",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -41,11 +51,16 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 20 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 20]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "e_scrap",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -56,11 +71,17 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 1]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "antenna",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -71,11 +92,17 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_metal", 70 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_metal", 70]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "circuit",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -86,11 +113,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 1 ] ], [ [ "3d_resin", 2 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 1]
+      ],
+      [
+        [ "3d_resin", 2]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "element",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -101,11 +137,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 8 ] ], [ [ "3d_resin_metal", 15 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 8]
+      ],
+      [
+        [ "3d_resin_metal", 15]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "power_supply",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -116,11 +161,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 4 ] ], [ [ "3d_resin_metal", 7 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 4]
+      ],
+      [
+        [ "3d_resin_metal", 7]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "amplifier",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -131,11 +185,23 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 3 ] ], [ [ "3d_resin_metal", 2 ] ], [ [ "3d_resin", 6 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 3]
+      ],
+      [
+        [ "3d_resin_metal", 2]
+      ],
+      [
+        [ "3d_resin", 6]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "receiver",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -146,11 +212,23 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 2 ] ], [ [ "3d_resin_metal", 6 ] ], [ [ "3d_resin", 3 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 2]
+      ],
+      [
+        [ "3d_resin_metal", 6]
+      ],
+      [
+        [ "3d_resin", 3]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "motor_micro",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -161,11 +239,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 4 ] ], [ [ "3d_resin", 3 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 4]
+      ],
+      [
+        [ "3d_resin", 3]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "transponder",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -176,11 +263,23 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 16 ] ], [ [ "3d_resin_metal", 8 ] ], [ [ "3d_resin", 24 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 16]
+      ],
+      [
+        [ "3d_resin_metal", 8]
+      ],
+      [
+        [ "3d_resin", 24]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "directional_antenna",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -191,11 +290,23 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 7 ] ], [ [ "3d_resin_metal", 32 ] ], [ [ "3d_resin", 6 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 7]
+      ],
+      [
+        [ "3d_resin_metal", 32]
+      ],
+      [
+        [ "3d_resin", 6]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "sheet_metal_lit",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -206,11 +317,23 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 25 ] ], [ [ "3d_resin_metal", 525 ] ], [ [ "3d_resin", 70 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 25]
+      ],
+      [
+        [ "3d_resin_metal", 525]
+      ],
+      [
+        [ "3d_resin", 70]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "motor_tiny",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -221,11 +344,23 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 40 ] ], [ [ "3d_resin_metal", 30 ] ], [ [ "3d_resin", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 40]
+      ],
+      [
+        [ "3d_resin_metal", 30]
+      ],
+      [
+        [ "3d_resin", 10]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "motor_small",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -236,11 +371,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 60 ] ], [ [ "3d_resin_metal", 90 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 60]
+      ],
+      [
+        [ "3d_resin_metal", 90]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "solder_wire",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -251,11 +395,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 10 ] ], [ [ "3d_resin_metal", 50 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 10]
+      ],
+      [
+        [ "3d_resin_metal", 50]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "small_lcd_screen",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -266,11 +419,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 20 ] ], [ [ "3d_resin", 30 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 20]
+      ],
+      [
+        [ "3d_resin", 30]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "processor",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -281,11 +443,20 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 3 ] ], [ [ "3d_resin", 3 ] ] ]
-  },
-  {
-    "type": "recipe",
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 3]
+      ],
+      [
+        [ "3d_resin", 3]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "RAM",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -296,7 +467,17 @@
     "reversible": false,
     "book_learn": [ [ "nanite_guide", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [ { "id": "NANO_FAB", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
-    "components": [ [ [ "3d_resin_electronic", 2 ] ], [ [ "3d_resin", 1 ] ] ]
+    "qualities": [
+      {"id":"NANO_FAB","level":2,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "3d_resin_electronic", 2]
+      ],
+      [
+        [ "3d_resin", 1]
+      ]
+    ]
   }
 ]
