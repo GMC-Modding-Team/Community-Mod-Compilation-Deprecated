@@ -2,56 +2,31 @@
   {
     "id": "bandolier_rifle",
     "type": "ARMOR",
-    "name": "rifle bandolier",
+    "name": { "str": "rifle bandolier", "str_pl": "rifle bandoliers" },
     "copy-from": "bandolier_rifle",
-	"pocket_data": [
-      {
-        "ammo_restriction": {
-          "22": 16,
-          "223": 16,
-          "5x50": 16,
-          "545x39": 16,
-          "3006": 16,
-          "308": 16,
-          "300": 16,
-          "762": 16,
-          "762R": 16,
-          "8x40mm": 16,
-          "metal_rail": 16
-        },
-        "moves": 20
-      }
-    ]
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 16,
+      "ammo": [ "22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm", "metal_rail" ],
+      "draw_cost": 20
+    }
   },
   {
     "id": "bandolier_wrist",
     "type": "ARMOR",
-    "name": "wrist bandolier",
+    "name": { "str": "wrist bandolier", "str_pl": "wrist bandoliers" },
     "copy-from": "bandolier_wrist",
-	"pocket_data": [
-      {
-        "ammo_restriction": {
-          "22": 4,
-          "223": 4,
-          "5x50": 4,
-          "545x39": 4,
-          "3006": 4,
-          "308": 4,
-          "300": 4,
-          "762": 4,
-          "762R": 4,
-          "8x40mm": 4,
-          "metal_rail": 4
-        },
-        "moves": 20
-      }
-    ]
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 4,
+      "ammo": [ "22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm", "metal_rail" ],
+      "draw_cost": 20
+    }
   },
   {
     "id": "goggles_welding",
     "type": "ARMOR",
-    "name": "pair of welding goggles",
-    "name_plural": "pairs of welding goggles",
+    "name": { "str": "pair of welding goggles", "str_pl": "pairs of welding goggles" },
     "copy-from": "goggles_welding",
     "description": "A dark pair of goggles.  They make seeing very difficult, but protect you from bright flashes. Use them to move to your forehead.",
     "use_action": {
@@ -64,11 +39,10 @@
   {
     "id": "goggles_welding_forehead",
     "type": "ARMOR",
-    "name": "pair of welding goggles (forehead)",
-    "name_plural": "pairs of welding goggles (forehead)",
+    "name": { "str": "pair of welding goggles (forehead)", "str_pl": "pairs of welding goggles (forehead)" },
     "description": "A dark pair of goggles, weared on the forehead. Can't protect from bright flashes in this state. Use them to cover your eyes.",
-    "weight": 153,
-    "volume": 1,
+    "weight": "153 g",
+    "volume": "250 ml",
     "price": 1400,
     "to_hit": -3,
     "material": [ "plastic" ],
