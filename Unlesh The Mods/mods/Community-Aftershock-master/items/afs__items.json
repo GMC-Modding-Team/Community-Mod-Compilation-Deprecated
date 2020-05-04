@@ -9,7 +9,7 @@
   },
   {
     "id": "afs_basin",
-    "type": "CONTAINER",
+    "type": "GENERIC",
     "name": "basin",
     "description": "A wide, shallow basin used to hold liquid, hammered from a piece of sheet metal.  Ideal for collecting water.",
     "weight": 5000,
@@ -20,9 +20,16 @@
     "material": "plastic",
     "symbol": ")",
     "color": "dark_gray",
-    "contains": 10,
-    "watertight": true,
-    "qualities": [ [ "COOK", 1 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ] ]
+    "qualities": [ [ "COOK", 1 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "10 L",
+        "max_contains_weight": "15 kg"
+      }
+    ]
   },
   {
     "id": "afs_fridge",
