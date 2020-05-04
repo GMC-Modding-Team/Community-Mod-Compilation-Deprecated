@@ -1,6 +1,6 @@
 [
- {
-	"//": "The taken (or flesh variants) - flesh version of vanilla creatures. This file contains wildlife variants. Secronom creatures or anything related are immune to flesh infection.",
+  {
+    "//": "The taken (or flesh variants) - flesh version of vanilla creatures. This file contains wildlife variants. Secronom creatures or anything related are immune to flesh infection.",
     "id": "mon_sflesh_bear_cub",
     "type": "MONSTER",
     "copy-from": "mon_sflesh_taken_bear",
@@ -12,199 +12,157 @@
     "speed": 90,
     "symbol": "b",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 2,
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 2,
     "harvest": "mammal_fur",
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ]
   },
   {
-        "id": "mon_sflesh_taken_bear",
-        "type": "MONSTER",
-        "name": "flesh bear",
-        "description": "The American black bear.  A large omnivorous scavenger, it has powerful claws and jaws, and is an effective ambush hunter.  Most individuals are shy around humans, but they're fiercely protective of their cubs.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
-        "default_faction": "secro_flesh",
-        "bodytype": "bear",
-        "species": ["ABERRATION", "MAMMAL"],
-        "volume": "154250 ml",
-        "weight": 154250,
-        "hp": 125,
-        "emit_fields": ["emit_flesh_biome_immunity"],
-        "speed": 140,
-        "material": ["flesh"],
-        "symbol": "B",
-        "color": "light_red",
-        "aggression": 100,
-        "morale": 100,
-        "melee_skill": 6,
-        "melee_dice": 4,
-        "melee_dice_sides": 6,
-        "melee_cut": 4,
-        "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-        "dodge": 3,
-        "armor_bash": 5,
-        "vision_day": 30,
-        "vision_night": 10,
-        "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-        "death_function": ["NORMAL"],
-        "//": "Its not actually THAT fleshy in all, just infected, so harvest is the same.",
-        "harvest": "mammal_large_fur",
-        "flags": ["SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "BLEED",
-            "POISON",
-            "NO_BREATHE", "BASHES"]
-    },
-    {
-        "id": "mon_sflesh_taken_rat",
-        "type": "MONSTER",
-        "name": "flesh rat",
-        "description": "A rodent with sharp, pointy teeth and briskly membranous fur.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
-        "default_faction": "secro_flesh",
-        "bodytype": "pig",
-        "species": ["ABERRATION", "MAMMAL"],
-        "volume": "200 ml",
-        "weight": 200,
-        "hp": 8,
-        "emit_fields": ["emit_flesh_biome_immunity"],
-        "speed": 100,
-        "material": ["flesh"],
-        "symbol": "r",
-        "color": "light_red",
-        "aggression": 100,
-        "morale": 100,
-        "melee_skill": 5,
-        "melee_dice": 1,
-        "melee_dice_sides": 1,
-        "melee_cut": 1,
-        "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
-        "dodge": 2,
-        "vision_day": 30,
-        "vision_night": 10,
-        "harvest": "mammal_tiny",
-        "death_function": ["NORMAL"],
-        "flags": ["SEES", "SMELLS", "HEARS", "ABSORBS", "WARM",
-            "POISON",
-            "NO_BREATHE", "SWIMS"]
-    }, {
-        "id": "mon_sflesh_taken_cougar",
-        "type": "MONSTER",
-        "name": "flesh cougar",
-        "description": "The Eastern cougar, a large feline predator.  Once thought extinct in this region, conservation efforts were successful in restoring a thriving population.  Fast and silent, this predator can cover long distances with powerful leaps and pounces, catching its prey with its deadly claws before delivering the finishing blow with its enormous fangs.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
-        "default_faction": "secro_flesh",
-        "bodytype": "dog",
-        "species": ["ABERRATION", "MAMMAL"],
-        "volume": "63000 ml",
-        "weight": 63000,
-        "hp": 75,
-        "emit_fields": ["emit_flesh_biome_immunity"],
-        "speed": 180,
-        "material": ["flesh"],
-        "symbol": "C",
-        "color": "light_red",
-        "aggression": 100,
-        "morale": 100,
-        "melee_skill": 6,
-        "melee_dice": 2,
-        "melee_dice_sides": 4,
-        "melee_cut": 6,
-        "dodge": 5,
-        "armor_bash": 4,
-        "vision_night": 10,
-        "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-        "special_attacks": [["scratch", 10], {
-                "type": "leap",
-                "cooldown": 5,
-                "max_range": 5
-            }
-        ],
-        "death_function": ["NORMAL"],
-        "harvest": "mammal_fur",
-        "flags": [
-            "SEES",
-            "HEARS",
-            "GOODHEARING",
-            "SMELLS", "ABSORBS",
-            "WARM",
-            "KEENNOSE",
-            "POISON",
-            "NO_BREATHE",
-            "BLEED"
-        ]
-    }, {
-        "id": "mon_sflesh_taken_moose",
-        "type": "MONSTER",
-        "name": "flesh moose",
-        "description": "The Eastern moose, the largest living species of deer.  While they aren't aggressive unless angered, the mating season can make the bulls quite ill-tempered.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
-        "default_faction": "secro_flesh",
-        "bodytype": "horse",
-        "species": ["ABERRATION", "MAMMAL"],
-        "volume": "386000 ml",
-        "weight": 386000,
-        "hp": 150,
-        "speed": 200,
-        "material": ["flesh"],
-        "symbol": "M",
-        "emit_fields": ["emit_flesh_biome_immunity"],
-        "color": "light_red",
-        "aggression": 100,
-        "morale": 100,
-        "melee_skill": 6,
-        "melee_dice": 3,
-        "melee_dice_sides": 4,
-        "melee_cut": 0,
-        "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "dodge": 1,
-        "armor_bash": 7,
-        "armor_cut": 1,
-        "vision_night": 7,
-        "death_function": ["NORMAL"],
-        "harvest": "mammal_large_leather",
-        "flags": ["SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "POISON", "NO_BREATHE", "BLEED"]
-    },
+    "id": "mon_sflesh_taken_bear",
+    "type": "MONSTER",
+    "name": "flesh bear",
+    "description": "The American black bear.  A large omnivorous scavenger, it has powerful claws and jaws, and is an effective ambush hunter.  Most individuals are shy around humans, but they're fiercely protective of their cubs.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
+    "default_faction": "secro_flesh",
+    "bodytype": "bear",
+    "species": [ "SFLESH", "ABERRATION", "MAMMAL" ],
+    "volume": "154250 ml",
+    "weight": 154250,
+    "hp": 125,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "speed": 140,
+    "material": [ "flesh" ],
+    "symbol": "B",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 4,
+    "melee_dice_sides": 6,
+    "melee_cut": 4,
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "dodge": 3,
+    "armor_bash": 5,
+    "vision_day": 30,
+    "vision_night": 10,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "death_function": [ "NORMAL" ],
+    "//": "Its not actually THAT fleshy in all, just infected, so harvest is the same.",
+    "harvest": "mammal_large_fur",
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "BLEED", "POISON", "NO_BREATHE", "BASHES" ]
+  },
+  {
+    "id": "mon_sflesh_taken_rat",
+    "type": "MONSTER",
+    "name": "flesh rat",
+    "description": "A rodent with sharp, pointy teeth and briskly membranous fur.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
+    "default_faction": "secro_flesh",
+    "bodytype": "pig",
+    "species": [ "SFLESH", "ABERRATION", "MAMMAL" ],
+    "volume": "200 ml",
+    "weight": 200,
+    "hp": 8,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "speed": 100,
+    "material": [ "flesh" ],
+    "symbol": "r",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "melee_cut": 1,
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "armor_bash": 3,
+    "dodge": 2,
+    "vision_day": 30,
+    "vision_night": 10,
+    "harvest": "mammal_tiny",
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "ABSORBS", "WARM", "POISON", "NO_BREATHE", "SWIMS" ]
+  },
+  {
+    "id": "mon_sflesh_taken_cougar",
+    "type": "MONSTER",
+    "name": "flesh cougar",
+    "description": "The Eastern cougar, a large feline predator.  Once thought extinct in this region, conservation efforts were successful in restoring a thriving population.  Fast and silent, this predator can cover long distances with powerful leaps and pounces, catching its prey with its deadly claws before delivering the finishing blow with its enormous fangs.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
+    "default_faction": "secro_flesh",
+    "bodytype": "dog",
+    "species": [ "SFLESH", "ABERRATION", "MAMMAL" ],
+    "volume": "63000 ml",
+    "weight": 63000,
+    "hp": 75,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "speed": 180,
+    "material": [ "flesh" ],
+    "symbol": "C",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 6,
+    "dodge": 5,
+    "armor_bash": 4,
+    "vision_night": 10,
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "special_attacks": [ [ "scratch", 10 ], { "type": "leap", "cooldown": 5, "max_range": 5 } ],
+    "death_function": [ "NORMAL" ],
+    "harvest": "mammal_fur",
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "POISON", "NO_BREATHE", "BLEED" ]
+  },
+  {
+    "id": "mon_sflesh_taken_moose",
+    "type": "MONSTER",
+    "name": "flesh moose",
+    "description": "The Eastern moose, the largest living species of deer.  While they aren't aggressive unless angered, the mating season can make the bulls quite ill-tempered.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
+    "default_faction": "secro_flesh",
+    "bodytype": "horse",
+    "species": [ "SFLESH", "ABERRATION", "MAMMAL" ],
+    "volume": "386000 ml",
+    "weight": 386000,
+    "hp": 150,
+    "speed": 200,
+    "material": [ "flesh" ],
+    "symbol": "M",
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 0,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "dodge": 1,
+    "armor_bash": 7,
+    "armor_cut": 1,
+    "vision_night": 7,
+    "death_function": [ "NORMAL" ],
+    "harvest": "mammal_large_leather",
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "POISON", "NO_BREATHE", "BLEED" ]
+  },
   {
     "id": "mon_sflesh_beaver",
     "type": "MONSTER",
@@ -212,8 +170,7 @@
     "description": "The North American beaver, the continent's largest rodent.  Its paddle-shaped tail helps ferry it through the water, and its prominent teeth can chew through wood, which it uses to build dam-like nests in lakes and streams.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "bear",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "20250 ml",
     "weight": "20250 g",
     "hp": 20,
@@ -222,26 +179,24 @@
     "symbol": "r",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 6,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 2,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "mammal_small_fur",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "SWIMS", "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "SWIMS", "WARM" ]
   },
   {
     "id": "mon_sflesh_boar_wild_piglet",
@@ -250,8 +205,7 @@
     "description": "Originally not native in the US, this wild omnivore is a crossbreed between the Eurasian wild boar escaped from hunting reserves and the domesticated pig went feral in the wilderness.  Its population has skyrocketed in the US during the last few decades.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "10 L",
     "weight": "10 kg",
     "hp": 6,
@@ -261,31 +215,26 @@
     "color": "brown",
     "looks_like": "mon_pig_piglet",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 4,
     "harvest": "mammal_small_fur",
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM", "KEENNOSE", "BLEED" ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_boar_wild",
@@ -295,8 +244,7 @@
     "looks_like": "mon_pig",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "100 L",
     "weight": "100 kg",
     "hp": 75,
@@ -305,29 +253,27 @@
     "symbol": "b",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 8,
     "melee_cut": 5,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 1,
     "harvest": "mammal_fur",
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }],
-    "flags": [ "SEES", "HEARS", "SMELLS",  "ABSORBS",  "WARM", "KEENNOSE", "BLEED" ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_cat_kitten",
@@ -337,7 +283,7 @@
     "description": "A cuddly kitten of unknown breed, meowing and scampering amidst the death.  Currently feral.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend..",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "1000 ml",
     "weight": "1 kg",
     "hp": 8,
@@ -346,12 +292,15 @@
     "color": "light_gray",
     "melee_cut": 2,
     "dodge": 14,
-    "special_attacks": [ [ "scratch", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "scratch", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_tiny",
     "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS", "WARM" ]
@@ -363,8 +312,7 @@
     "description": "A feline predator of unknown lineage.  Harried by the elements and the rigors of survival, it is scruffy and skittish.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "8600 ml",
     "weight": "8600 g",
     "hp": 20,
@@ -373,28 +321,26 @@
     "symbol": "c",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 8,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "vision_night": 20,
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_small_fur",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS",  "WARM" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_chipmunk",
@@ -403,8 +349,7 @@
     "description": "The eastern chipmunk, a tiny omnivorous rodent with a characteristic striped coat.  It spends much of the day patrolling its elaborate burrow and the precious stores of foraged food within.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "96 ml",
     "weight": "96 g",
     "hp": 5,
@@ -413,25 +358,20 @@
     "symbol": ".",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 1,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 3,
     "dodge": 4,
     "harvest": "mammal_tiny",
@@ -445,8 +385,7 @@
     "description": "The domestic cow, a baleful, ruminating farm animal.  It is quite muscular, and the males can have a violent streak to accompany their nasty-looking horns.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 50,
@@ -456,32 +395,27 @@
     "color": "light_gray",
     "looks_like": "mon_cow",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 3,
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 5,
     "dodge": 2,
     "path_settings": { "max_dist": 10 },
-    "death_drops": { "subtype": "collection", "groups": [ [ "cow", 25 ] ]},
+    "death_drops": { "subtype": "collection", "groups": [ [ "cow", 25 ] ] },
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_large_leather",
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM" ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_cow",
@@ -490,8 +424,7 @@
     "description": "The domestic cow, a baleful, ruminating farm animal.  It is quite muscular, and the males can have a violent streak to accompany their nasty-looking horns.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "680388 ml",
     "weight": "680388 g",
     "hp": 125,
@@ -500,38 +433,27 @@
     "symbol": "C",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
     "melee_dice_sides": 10,
     "melee_cut": 6,
     "dodge": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 5,
     "path_settings": { "max_dist": 10 },
-    "death_drops": { "subtype": "collection", "groups": [ [ "cow", 25 ] ]},
+    "death_drops": { "subtype": "collection", "groups": [ [ "cow", 25 ] ] },
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_large_leather",
-    "special_attacks": [{
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ABSORBS",
-      "WARM"
-    ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_coyote",
@@ -540,8 +462,7 @@
     "description": "The Eastern coyote, also called the tweed wolf, is a territorial canine descended from the offspring of gray wolves and true coyotes.  It is intimidated by humans and other predators, but it will still fight if threatened, and the Cataclysm has made it more fearless than usual.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "13250 ml",
     "weight": "13250 g",
     "hp": 28,
@@ -550,32 +471,27 @@
     "symbol": "d",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 2,
     "dodge": 3,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 4,
     "vision_night": 5,
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_fur",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM",  "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_deer_fawn",
@@ -584,8 +500,7 @@
     "description": "A juvenile northern woodland white-tailed deer, a quick and strong grazing animal.  Favored prey of coyotes, wolves, and giant spider mutants.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "horse",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "40750 ml",
     "weight": "40750 g",
     "hp": 25,
@@ -595,28 +510,26 @@
     "color": "brown",
     "looks_like": "mon_deer",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 3,
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "dodge": 3,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "vision_night": 12,
     "harvest": "mammal_small_leather",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_deer",
@@ -625,8 +538,7 @@
     "description": "The northern woodland white-tailed deer, a quick and strong grazing animal.  Favored prey of coyotes, wolves, and giant spider mutants.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "horse",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "87000 ml",
     "weight": "87 kg",
     "hp": 75,
@@ -635,29 +547,27 @@
     "symbol": "D",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 3,
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "dodge": 3,
     "vision_night": 12,
     "harvest": "mammal_large_leather",
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [{
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM" ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_dog",
@@ -666,8 +576,7 @@
     "description": "A stray dog, unknown to its breed as it is covered in thick, membranous veins.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "30000 ml",
     "weight": "30 kg",
     "harvest": "mammal_small_fur",
@@ -677,36 +586,26 @@
     "symbol": "d",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 3,
-    "melee_damage": [ {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 3,
     "vision_night": 5,
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }],
-    "flags": [
-      "ABSORBS",
-      "HEARS",
-      "KEENNOSE",
-      "SEES",
-      "SMELLS",
-      "SWARMS",
-      "WARM"
-    ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "ABSORBS", "HEARS", "KEENNOSE", "SEES", "SMELLS", "SWARMS", "WARM" ]
   },
   {
     "id": "mon_sflesh_dog_pup",
@@ -719,25 +618,20 @@
     "hp": 10,
     "speed": 98,
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 2,
     "melee_dice": 1,
     "melee_dice_sides": 1,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 3,
     "dodge": 1,
     "vision_night": 4,
@@ -750,8 +644,7 @@
     "description": "A fox with a bloodshot fur... literally.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "4132 ml",
     "weight": "4132 g",
     "hp": 38,
@@ -760,28 +653,26 @@
     "symbol": "d",
     "color": "red",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [ {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 6,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "vision_night": 5,
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM",  "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_groundhog",
@@ -790,8 +681,7 @@
     "description": "Also known as the woodchuck, this ground squirrel has no actual talent for chucking wood.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "3628 ml",
     "weight": "3628 g",
     "hp": 15,
@@ -800,26 +690,24 @@
     "symbol": "r",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [ {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 3,
     "dodge": 4,
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS",  "WARM" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_horse",
@@ -828,13 +716,12 @@
     "description": "A hooved grazing mammal with a mane of hair, a sweeping tail, and powerful-looking muscles.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "horse",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "550000 ml",
     "weight": "550 kg",
     "hp": 113,
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "speed": 300,
     "material": [ "flesh" ],
     "symbol": "H",
@@ -843,28 +730,20 @@
     "melee_dice": 2,
     "melee_dice_sides": 12,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 5,
     "dodge": 2,
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_large_leather",
-    "special_attacks": [{
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ABSORBS",
-      "WARM"
-    ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_lemming",
@@ -873,8 +752,7 @@
     "description": "The Northern bog lemming, a small, predominantly vegetarian rodent that spends its life in the murk of swamps and other wetlands.  Contrary to popular belief, these creatures are not particularly hapless or suicidal, but they can eat themselves into scarcity within a few generations.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "30 ml",
     "weight": "30 g",
     "hp": 5,
@@ -883,25 +761,20 @@
     "symbol": ".",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 2,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "ABSORBS" ]
@@ -913,8 +786,7 @@
     "description": "The American mink, a partially aquatic weasel, once factory-farmed for its fur.  It is a capable fisher, but the presence of otters in these parts makes it rely more on food from the land.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "800 ml",
     "weight": "800 g",
     "hp": 38,
@@ -923,27 +795,25 @@
     "symbol": "m",
     "color": "dark_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 6,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM",  "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_muskrat",
@@ -952,8 +822,7 @@
     "description": "A large omnivorous rodent with a thick furry pelt, found in wetlands across the northern hemisphere.  It marks its territory with a musky odor for which it is named.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "1362 ml",
     "weight": "1362 g",
     "hp": 13,
@@ -962,22 +831,20 @@
     "symbol": "r",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 3,
     "dodge": 2,
     "harvest": "mammal_tiny",
@@ -991,8 +858,7 @@
     "description": "A huge, rumbling mutated mass of wrinkly, nearly translucent skin that has been toughened by constant tunneling.  Its hide is riddled with giant scabs, as a pair of incisors the size of an industrial excavator's buckets gnash constantly and several car-length whiskers twitch in the air.  It regularly makes high-pitched chirps as it roams around.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "diff": 2,
     "volume": "200000 ml",
     "weight": "200 kg",
@@ -1002,32 +868,34 @@
     "symbol": "M",
     "color": "pink",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 8,
     "melee_dice": 4,
     "melee_dice_sides": 6,
     "melee_cut": 10,
     "dodge": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 8,
     "armor_cut": 2,
     "vision_day": 0,
     "vision_night": 0,
     "harvest": "mutant_mammal_large_leather",
-    "special_attacks": [ [ "SHRIEK_ALERT", 10 ], [ "SHRIEK_STUN", 1 ], { "type": "bite", "cooldown": 6 }, [ "impale", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHRIEK_ALERT", 10 ],
+      [ "SHRIEK_STUN", 1 ],
+      { "type": "bite", "cooldown": 6 },
+      [ "impale", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "regenerates": 10,
     "regen_morale": true,
-    "flags": [ "ATTACKMON", "BLEED", "BORES", "CAN_DIG", "HEARS", "KEENNOSE",  "SMELLS", "WARM" ]
+    "flags": [ "ATTACKMON", "BLEED", "BORES", "CAN_DIG", "HEARS", "KEENNOSE", "SMELLS", "WARM" ]
   },
   {
     "id": "mon_sflesh_opossum",
@@ -1036,8 +904,7 @@
     "description": "The Virginia opossum, a small omnivorous marsupial native to North America.  About the size of a cat, it is hardy and adaptive, and a fairly common sight in urban areas.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "3000 ml",
     "weight": "3 kg",
     "hp": 15,
@@ -1046,30 +913,25 @@
     "symbol": "p",
     "color": "white",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 3,
     "dodge": 2,
     "vision_night": 5,
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_otter",
@@ -1078,8 +940,7 @@
     "description": "The North American river otter is a shy water dwelling relative of the weasel, living in large families along the banks of streams.  It is an excellent fisher and a resourceful survivor, using the abandoned dens of beavers and other animals to raise its own young.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "9000 ml",
     "weight": "9 kg",
     "hp": 15,
@@ -1088,26 +949,24 @@
     "symbol": "m",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [ {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "armor_bash": 3,
     "dodge": 4,
     "harvest": "mammal_small_fur",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "SWIMS", "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "SWIMS", "WARM" ]
   },
   {
     "id": "mon_sflesh_pig_piglet",
@@ -1116,8 +975,7 @@
     "description": "A domesticated omnivore descended from the wild boar, intelligent and inquisitive.  Left to its own devices, it has gone feral.  Unlike the fully grown version it can be tamed.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "10000 ml",
     "weight": "10 kg",
     "hp": 6,
@@ -1127,39 +985,26 @@
     "color": "pink",
     "looks_like": "mon_pig",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 4,
     "harvest": "mammal_small_leather",
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ABSORBS",
-      "WARM",
-      "KEENNOSE",
-      "BLEED"
-    ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_pig",
@@ -1168,8 +1013,7 @@
     "description": "A domesticated omnivore descended from the wild boar, intelligent and inquisitive.  Left to its own devices, it has gone feral.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "200000 ml",
     "weight": "200 kg",
     "hp": 63,
@@ -1178,28 +1022,26 @@
     "symbol": "p",
     "color": "pink",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 8,
     "melee_cut": 4,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 2,
     "harvest": "mammal_large_leather",
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [{
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [ "SEES", "HEARS", "SMELLS",  "ABSORBS",  "WARM", "KEENNOSE", "BLEED" ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_rabbit",
@@ -1208,8 +1050,7 @@
     "description": "A small mammal with a cute wiggling nose, cotton tail, and made of delicious flesh.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "1600 ml",
     "weight": "1600 g",
     "hp": 10,
@@ -1218,27 +1059,22 @@
     "symbol": "r",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 6,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "mammal_small_fur",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",    "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_raccoon",
@@ -1247,8 +1083,7 @@
     "description": "A small mammal native to North America, distinctive for its dexterous paws and facial markings.  It is resourceful and agile enough to open sealed containers with its paws.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "6000 ml",
     "weight": "6 kg",
     "hp": 18,
@@ -1257,31 +1092,26 @@
     "symbol": "r",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 3,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "mammal_tiny",
     "vision_night": 5,
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   },
   {
     "id": "mon_sflesh_sheep_lamb",
@@ -1290,13 +1120,12 @@
     "description": "A timid, hooved grazing mammal, and one of the first animals ever domesticated.  Its body is covered in a thick layer of wool, and the males have long, spiraling horns.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "40750 ml",
     "weight": "40750 g",
     "hp": 25,
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "speed": 90,
     "material": [ "flesh" ],
     "symbol": "s",
@@ -1306,25 +1135,20 @@
     "melee_dice": 1,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            }, {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "dodge": 2,
     "harvest": "mammal_small_wool",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_sheep",
@@ -1333,12 +1157,11 @@
     "description": "A timid, hooved grazing mammal, and one of the first animals ever domesticated.  Its body is covered in a thick layer of wool, and the males have long, spiralling horns.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "81500 ml",
     "weight": "81500 g",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "hp": 113,
     "speed": 90,
     "material": [ "flesh" ],
@@ -1348,28 +1171,20 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 2,
-    "melee_damage": [ {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 2,
     "harvest": "mammal_large_wool",
     "death_function": [ "NORMAL" ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ABSORBS",
-      "WARM"
-    ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_squirrel",
@@ -1378,8 +1193,7 @@
     "description": "A small granivorous rodent with a long bushy tail, often seen darting amid the branches of trees.  A skittish varmint with an expression of unwavering austerity, it is the mortal enemy of cat and dog alike.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "pig",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "624 ml",
     "weight": "624 g",
     "hp": 8,
@@ -1388,26 +1202,24 @@
     "symbol": "r",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_dice": 1,
     "melee_dice_sides": 1,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "dodge": 4,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM" ]
   },
   {
     "id": "mon_sflesh_weasel",
@@ -1416,8 +1228,7 @@
     "description": "The long-tailed weasel, a small but ubiquitous predator whose range extends across the continent.  It forms its den in small burrows, preferring to occupy the nesting holes of its prey.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "bodytype": "pig",
     "default_faction": "secro_flesh",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "150 ml",
     "weight": "151 g",
     "hp": 25,
@@ -1426,27 +1237,25 @@
     "symbol": "m",
     "color": "brown",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 4,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "vision_night": 5,
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "SWIMS", "WARM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "SWIMS", "WARM" ]
   },
   {
     "id": "mon_sflesh_wolf",
@@ -1455,8 +1264,7 @@
     "description": "A cunning pack predator, once extinct in the New England area, the wolf was successfully reintroduced and their numbers reached record highs in the decade before the Cataclysm.  Lucky you.\nInfested by flesh, this once living creature no longer act as an animal, but a bloodthirsty fiend.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    
-    "species": [ "MAMMAL", "ABERRATION" ],
+    "species": [ "SFLESH", "MAMMAL", "ABERRATION" ],
     "volume": "26625 ml",
     "weight": "26625 g",
     "hp": 50,
@@ -1465,28 +1273,26 @@
     "symbol": "w",
     "color": "light_gray",
     "aggression": 100,
-        "morale": 100,
+    "morale": 100,
     "melee_skill": 7,
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 4,
-    "melee_damage": [ {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 4,
     "dodge": 4,
     "vision_night": 5,
     "harvest": "mammal_fur",
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 22,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS",  "WARM", "KEENNOSE", "BLEED" ]
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 22,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
   }
 ]
