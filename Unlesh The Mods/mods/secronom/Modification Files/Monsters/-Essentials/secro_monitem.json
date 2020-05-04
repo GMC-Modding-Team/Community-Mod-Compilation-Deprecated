@@ -1,5 +1,6 @@
-[{
-	"//": "Maximum of 2 clingers clinging on player's feet.",
+[
+  {
+    "//": "Maximum of 2 clingers clinging on player's feet.",
     "id": "clinger_clinging",
     "type": "ARMOR",
     "name": "<color_magenta>clinger</color>",
@@ -7,7 +8,7 @@
     "weight": 1300,
     "volume": 2,
     "price": 0,
-    "to_hit": -1 ,
+    "to_hit": -1,
     "bashing": 1,
     "material": [ "flesh" ],
     "symbol": "⨨",
@@ -22,17 +23,25 @@
     "countdown_interval": 6,
     "countdown_destroy": true,
     "countdown_action": {
-	    "type": "place_monster",
-	    "monster_id": "mon_zombie_cling",
-	    "difficulty": 999,
-	    "hostile_msg": "The clinger detaches!",
-	    "friendly_msg": "How the turntables...",
-	    "place_randomly": true,
-	    "skill1": "dodge",
- 	   "skill2": "unarmed",
-	    "moves": 125
-			},
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": 25 }, { "value": "DEXTERITY", "add": -2 } ] } ] },
+      "type": "place_monster",
+      "monster_id": "mon_zombie_cling",
+      "difficulty": 999,
+      "hostile_msg": "The clinger detaches!",
+      "friendly_msg": "How the turntables...",
+      "place_randomly": true,
+      "skill1": "dodge",
+      "skill2": "unarmed",
+      "moves": 125
+    },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "MOVE_COST", "add": 25 }, { "value": "DEXTERITY", "add": -2 } ]
+        }
+      ]
+    },
     "flags": [ "PERSONAL", "FRAGILE", "BELTED", "NO_DROP", "NO_TAKEOFF" ]
   },
   {
@@ -58,7 +67,21 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "<color_light_green>As you chomp down the flesh, your body feels refreshed.</color>",
-      "effects": [  { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "TORSO" }, { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "HEAD" },{ "id": "secro_flesh_bio_heal", "duration": 120, "bp": "ARM_L" }, { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "ARM_R" }, { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "LEG_L" }, { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "LEG_R" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "HEAD" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "TORSO" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_L" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_R" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_L" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_R" }, { "id": "cureall", "duration": 1 } ]
+      "effects": [
+        { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "TORSO" },
+        { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "HEAD" },
+        { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "ARM_L" },
+        { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "ARM_R" },
+        { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "LEG_L" },
+        { "id": "secro_flesh_bio_heal", "duration": 120, "bp": "LEG_R" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "HEAD" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "TORSO" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_L" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_R" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_L" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_R" },
+        { "id": "cureall", "duration": 1 }
+      ]
     },
     "smoking_result": "sflesh_bio_smoked"
   },
@@ -81,7 +104,21 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "<color_light_green>As you chomp down the flesh, your body feels refreshed.</color>",
-      "effects": [ { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "HEAD" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "TORSO" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_L" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_R" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_L" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_R" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "HEAD" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "TORSO" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_L" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_R" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_L" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_R" }, { "id": "cureall", "duration": 1 } ]
+      "effects": [
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "HEAD" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "TORSO" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_L" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_R" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_L" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_R" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "HEAD" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "TORSO" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_L" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_R" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_L" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_R" },
+        { "id": "cureall", "duration": 1 }
+      ]
     },
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ]
   },
@@ -99,7 +136,21 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "<color_light_green>As you chomp down the flesh, your body feels refreshed.</color>",
-      "effects": [ { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "HEAD" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "TORSO" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_L" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_R" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_L" }, { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_R" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "HEAD" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "TORSO" },{ "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_L" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_R" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_L" }, { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_R" }, { "id": "cureall", "duration": 1 } ]
+      "effects": [
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "HEAD" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "TORSO" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_L" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "ARM_R" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_L" },
+        { "id": "secro_flesh_bio_heal", "duration": 45, "bp": "LEG_R" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "HEAD" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "TORSO" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_L" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "ARM_R" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_L" },
+        { "id": "secro_flesh_bio_limb", "duration": 10, "bp": "LEG_R" },
+        { "id": "cureall", "duration": 1 }
+      ]
     },
     "flags": [ "EATEN_HOT", "SMOKED" ]
   }
