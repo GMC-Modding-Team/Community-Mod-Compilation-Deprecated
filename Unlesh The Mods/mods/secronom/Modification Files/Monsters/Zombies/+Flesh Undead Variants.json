@@ -1,69 +1,69 @@
-[ {
-        "//": "The taken (or flesh variants) - flesh version of vanilla creatures. This file contains undead variants. Secronom creatures or anything related are immune to flesh infection.",
-        "//": "The takens has +25% health, +3 bash resistance and +2 adaptive damage (higher melee dice provides 2 bashing damage to its melee attack. If equal, then half for both). Everything else are the same, except the living's conversion into undead. Also, stunts the flesh variant's evolution and can be rid of manipulation if burnt down (but not for living creatures).",
-        "id": "mon_sflesh_taken_zombie",
-        "type": "MONSTER",
-        "name": "flesh zombie",
-        "description": "A corpse devoured by the flesh, with complete manipulation over its mindless thoughts.",
-        "default_faction": "secro_flesh",
-        "bodytype": "human",
-        "species": ["ABERRATION", "ZOMBIE", "HUMAN"],
-        "volume": "62500 ml",
-        "weight": 81500,
-        "hp": 100,
-        "emit_fields": ["emit_flesh_biome_immunity"],
-        "speed": 70,
-        "material": ["flesh"],
-        "symbol": "Z",
-        "color": "red",
-        "aggression": 100,
-        "morale": 100,
-        "melee_skill": 4,
-        "melee_dice": 2,
-        "melee_dice_sides": 3,
-        "melee_cut": 0,
-        "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "vision_night": 3,
-        "armor_bash": 3,
-        "harvest": "zombie",
-        "special_attacks": [{
-                "type": "bite",
-                "cooldown": 5
-            }, ["GRAB", 7], ["scratch", 20], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-        "death_drops": "default_zombie_death_drops",
-        "death_function": ["NORMAL"],
-        "flags": [
-            "SEES",
-            "HEARS",
-            "SMELLS",
-            "ABSORBS",
-            "STUMBLES",
-            "WARM",
-            "BASHES",
-            "GROUP_BASH",
-            "POISON",
-            "BLEED",
-            "NO_BREATHE",
-            "PUSH_MON",
-            "FILTHY"
-        ]
-    }, {
+[
+  {
+    "//": "The taken (or flesh variants) - flesh version of vanilla creatures. This file contains undead variants. Secronom creatures or anything related are immune to flesh infection.",
+    "//": "The takens has +25% health, +3 bash resistance and +2 adaptive damage (higher melee dice provides 2 bashing damage to its melee attack. If equal, then half for both). Everything else are the same, except the living's conversion into undead. Also, stunts the flesh variant's evolution and can be rid of manipulation if burnt down (but not for living creatures).",
+    "id": "mon_sflesh_taken_zombie",
+    "type": "MONSTER",
+    "name": "flesh zombie",
+    "description": "A corpse devoured by the flesh, with complete manipulation over its mindless thoughts.",
+    "default_faction": "secro_flesh",
+    "bodytype": "human",
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 100,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "speed": 70,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 3,
+    "melee_cut": 0,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "vision_night": 3,
+    "armor_bash": 3,
+    "harvest": "zombie",
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      [ "GRAB", 7 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "BLEED",
+      "NO_BREATHE",
+      "PUSH_MON",
+      "FILTHY"
+    ]
+  },
+  {
     "id": "mon_sflesh_zombie_tough",
     "type": "MONSTER",
     "name": "tough zombie",
     "description": "Once an athletic human, now a brutal monster. Its facial features are twisted into an expression of pure rage.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": ["ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": 81500,
     "hp": 125,
@@ -78,21 +78,22 @@
     "melee_dice_sides": 3,
     "melee_cut": 1,
     "dodge": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 2,
     "armor_cut": 1,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.7 }, [ "GRAB", 7 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5, "min_mul": 0.7 },
+      [ "GRAB", 7 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_tough",
@@ -113,14 +114,14 @@
       "FILTHY"
     ]
   },
-    {
+  {
     "id": "mon_sflesh_zombie_fat",
     "type": "MONSTER",
     "name": "fat zombie",
     "description": "Stumbling as it moves, this corpse of an overweight human regards its surroundings with an empty black gaze.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION","ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": 81500,
     "hp": 119,
@@ -134,21 +135,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 8,
     "armor_cut": 3,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.75 }, [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5, "min_mul": 0.75 },
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fat",
@@ -169,14 +170,14 @@
       "FILTHY"
     ]
   },
-    {
+  {
     "id": "mon_sflesh_skeleton",
     "type": "MONSTER",
     "name": "skeleton",
     "description": "A monstrous overgrowth of ossified tissue has replaced this zombie's rotting skin with an organic armor of dense bone.  Large clumps of black goo seep from its joints as it shambles aimlessly, with sickening crackling sounds filling the air around it.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": 81500,
     "hp": 38,
@@ -190,11 +191,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 6,
     "melee_cut": 4,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 2,
     "armor_bash": 3,
     "armor_cut": 15,
@@ -203,12 +200,16 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "mr_bones",
-    "special_attacks": [ [ "scratch", 10 ], { "type": "bite", "cooldown": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "scratch", 10 ],
+      { "type": "bite", "cooldown": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_skeleton",
@@ -221,7 +222,7 @@
     "description": "A hunched human body with its eyes pushed up into its forehead and drooping cheeks, most of its face is occupied by a puckered mouth. Its stomach is swollen and nearly translucent, with a sickly velvet tint.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "diff": 10,
     "volume": "62500 ml",
     "weight": 81500,
@@ -236,21 +237,19 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 1,
     "armor_bash": 3,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_sflesh_zombie_spitter_cspit"},
-                "cooldown": 12,
-                "monster_message": "<color_light_red>%1$s spews out concentrated glob of blood acid!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_sflesh_zombie_spitter_cspit" },
+        "cooldown": 12,
+        "monster_message": "<color_light_red>%1$s spews out concentrated glob of blood acid!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_spitter",
@@ -278,7 +277,7 @@
     "description": "This human corpse drags itself along slowly with its arms.  Its legs are damaged beyond repair.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 75,
@@ -292,20 +291,20 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-	"melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "vision_day": 10,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler",
@@ -332,7 +331,7 @@
     "description": "Distorted outgrowths of calcified bone plates cover this zombie's rotten skin.  Joints and cracks around its body ooze with black goo.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "92500 ml",
     "weight": "120 kg",
     "hp": 219,
@@ -346,11 +345,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 8,
     "melee_cut": 10,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 1,
     "armor_cut": 30,
     "armor_bash": 15,
@@ -360,12 +355,13 @@
     "harvest": "mr_bones",
     "special_attacks": [
       [ "SMASH", 45 ],
-      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.6 } ] }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.6 } ] },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
@@ -379,7 +375,7 @@
     "description": "This hideous golem of plated bones and misshapen flesh drags its heavy, pointed limbs behind it like an unwanted burden.  Formerly soft and vulnerable, bones grew around its form to protect it - only, they kept growing.  And growing.  And growing.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "diff": 5,
     "volume": "875000 ml",
     "weight": "200 kg",
@@ -394,11 +390,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 6,
     "melee_cut": 15,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 23,
     "armor_cut": 45,
     "vision_day": 50,
@@ -408,12 +400,13 @@
       [ "SMASH", 20 ],
       [ "STRETCH_ATTACK", 20 ],
       [ "LONGSWIPE", 20 ],
-      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "NORMAL" ],
@@ -444,7 +437,7 @@
     "description": "Still wearing the tattered remnants of improvised armor and weaponry, it is plain to see that this zombie was once a survivor like you.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 150,
@@ -458,11 +451,7 @@
     "melee_dice": 4,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 3,
     "armor_bash": 10,
     "armor_cut": 7,
@@ -475,17 +464,31 @@
       [ "SHRIEK", 20 ],
       { "type": "bite", "cooldown": 5, "min_mul": 1 },
       [ "GRAB", 7 ],
-      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 16 } ] }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 16 } ] },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "mon_zombie_survivor_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_survivor",
-    "flags": [ "SEES", "HEARS", "ABSORBS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ABSORBS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zombie_biter",
@@ -494,7 +497,7 @@
     "description": "A distorted and swollen human body.  Its jaws have elongated into a crocodile like snout, dripping with foul smelling saliva.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 125,
@@ -508,15 +511,7 @@
     "melee_dice": 4,
     "melee_dice_sides": 6,
     "melee_cut": 4,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "dodge": 3,
     "armor_bash": 8,
     "armor_cut": 2,
@@ -533,12 +528,13 @@
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.3 }
         ]
       },
-      [ "GRAB", 4 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      [ "GRAB", 4 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -569,7 +565,7 @@
     "description": "A zombie like any other, except that its features and skull have been devastated.  It's unclear what caused the damage, but between the scraps of flesh you can see that its face and brain are gone, though its ears are intact.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "61875 ml",
     "weight": "78200 g",
     "hp": 75,
@@ -583,21 +579,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "vision_day": 2,
     "vision_night": 0,
     "harvest": "zombie",
-    "special_attacks": [ [ "GRAB", 7 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "GRAB", 7 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_brainless",
@@ -624,7 +620,7 @@
     "description": "The head of this zombie was once obviously destroyed, the gaps in its scraps of face now filling with a peculiar gray goo.  Human ears hang from the sides, enormous and unsettling.  Thin slits at the front suggest it may be able to see.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62275 ml",
     "weight": "79800 g",
     "hp": 113,
@@ -638,21 +634,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "vision_day": 7,
     "vision_night": 4,
     "harvest": "zombie",
-    "special_attacks": [ [ "GRAB", 6 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "GRAB", 6 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_ears",
@@ -681,7 +677,7 @@
     "description": "This creature's head is a hideous gray skull, formed of human bone fragments and some sort of goo.  Jagged teeth are visible as the thing works its jaw and disturbingly human, lidless eyes stare at you from their sockets.  The thing's fleshy ears are four sizes too large and droop under their own weight.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 169,
@@ -695,23 +691,24 @@
     "melee_dice": 4,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 1,
     "armor_bash": 8,
     "armor_cut": 3,
     "vision_day": 25,
     "vision_night": 5,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.7 }, [ "GRAB", 6 ], [ "scratch", 15 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5, "min_mul": 0.7 },
+      [ "GRAB", 6 ],
+      [ "scratch", 15 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_skull",
@@ -740,7 +737,7 @@
     "description": "Its entire body bulges with distended muscles and swollen, festering wounds.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "diff": 2,
     "volume": "62500 ml",
     "weight": 81500,
@@ -755,21 +752,21 @@
     "melee_dice": 3,
     "melee_dice_sides": 8,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 7,
     "armor_cut": 6,
     "vision_night": 4,
     "harvest": "zombie",
-    "special_attacks": [ [ "SMASH", 30 ], [ "GRAB", 7 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SMASH", 30 ],
+      [ "GRAB", 7 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_brute",
@@ -796,7 +793,7 @@
     "description": "A slab of festering muscle the size of a well-toned bodybuilder.  Seems eager to strangle the life from you.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 2,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -811,23 +808,25 @@
     "melee_dice": 3,
     "melee_dice_sides": 8,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 3,
     "armor_bash": 13,
     "armor_cut": 14,
     "armor_stab": 8,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ [ "SMASH", 30 ], [ "BIO_OP_TAKEDOWN", 20 ], [ "RANGED_PULL", 20 ], [ "GRAB_DRAG", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SMASH", 30 ],
+      [ "BIO_OP_TAKEDOWN", 20 ],
+      [ "RANGED_PULL", 20 ],
+      [ "GRAB_DRAG", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_brute_grappler",
@@ -855,7 +854,7 @@
     "description": "Somehow this brute hides in the dark like some kind of boogeyman.  Very agile for such a large zombie.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 2,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -870,27 +869,24 @@
     "melee_dice": 4,
     "melee_dice_sides": 4,
     "melee_cut": 4,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "dodge": 4,
     "armor_bash": 11,
     "armor_cut": 5,
     "vision_day": 5,
     "vision_night": 40,
     "harvest": "zombie",
-    "special_attacks": [ [ "SMASH", 40 ], [ "STRETCH_ATTACK", 20 ], [ "LONGSWIPE", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SMASH", 40 ],
+      [ "STRETCH_ATTACK", 20 ],
+      [ "LONGSWIPE", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_brute_ninja",
@@ -919,7 +915,7 @@
     "description": "An undead humanoid, its elongated arms drag along the ground as it moves.  It looks to almost have a hunch from the swollen back and shoulder muscles tearing though its skin.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 138,
@@ -933,22 +929,23 @@
     "melee_dice": 4,
     "melee_dice_sides": 5,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "dodge": 2,
     "vision_day": 30,
     "vision_night": 5,
     "harvest": "zombie",
-    "special_attacks": [ [ "RANGED_PULL", 20 ], [ "GRAB_DRAG", 3 ], { "type": "bite", "cooldown": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "RANGED_PULL", 20 ],
+      [ "GRAB_DRAG", 3 ],
+      { "type": "bite", "cooldown": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_grappler",
@@ -976,7 +973,7 @@
     "description": "Black hollow eyes survey the surroundings as the zombie stretches and bends in ways that whoever the original body belonged to never could.  The only thing that seems solid, on this flexible black-veined body, is the rows of sharp black teeth.  You get the feeling that the only human thing remaining is the skin, worn as one would wear clothes.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 125,
@@ -990,11 +987,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_cut": 4,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 4,
     "armor_bash": 11,
     "armor_cut": 4,
@@ -1002,12 +995,16 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ [ "STRETCH_BITE", 10 ], [ "STRETCH_ATTACK", 5 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "STRETCH_BITE", 10 ],
+      [ "STRETCH_ATTACK", 5 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_hollow",
     "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "FILTHY" ]
@@ -1019,7 +1016,7 @@
     "description": "A human body now swollen to the size of six men, with arms as wide as a trash can.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 5,
     "volume": "875000 ml",
     "weight": "200 kg",
@@ -1034,22 +1031,21 @@
     "melee_dice": 4,
     "melee_dice_sides": 8,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 11,
     "armor_cut": 12,
     "vision_day": 50,
     "vision_night": 4,
     "harvest": "zombie",
-    "special_attacks": [ [ "SMASH", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SMASH", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_hulk",
@@ -1078,7 +1074,7 @@
     "description": "This once-human body is barely recognizable, scrambling about on all fours, its nails and teeth both sharpened into dangerous looking spikes.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 113,
@@ -1092,15 +1088,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "dodge": 3,
     "armor_bash": 3,
     "vision_night": 5,
@@ -1112,17 +1100,31 @@
         "type": "bite",
         "cooldown": 10,
         "damage_max_instance": [ { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.7 } ]
-      }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_hunter",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "CLIMBS", "PUSH_MON", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "CLIMBS",
+      "PUSH_MON",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zombie_mancroc",
@@ -1131,7 +1133,7 @@
     "description": "With a crocodile-like snout and rows of protruding teeth, this swimwear-clad zombie lurks in the water.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 150,
@@ -1145,11 +1147,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 5,
     "melee_cut": 6,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 2,
     "armor_bash": 11,
     "armor_cut": 10,
@@ -1167,12 +1165,13 @@
         ]
       },
       [ "GRAB", 20 ],
-      [ "GRAB_DRAG", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      [ "GRAB_DRAG", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "mon_zombie_swimmer_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1203,7 +1202,7 @@
     "description": "Once human, its features have tightened, its lips pulled back into an unnatural grin, revealing rows of blackened teeth beneath its large, piercing eyes.  It stands tall and its movements are fluid and tightly controlled.  A feeling of danger permeates the air around it, and the light that falls on it seems somehow harsher and more glaring.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 20,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -1218,11 +1217,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 4,
     "armor_bash": 5,
     "armor_cut": 2,
@@ -1230,12 +1225,15 @@
     "vision_night": 5,
     "harvest": "zombie",
     "path_settings": { "max_dist": 10 },
-    "special_attacks": [ [ "UPGRADE", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "UPGRADE", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1262,7 +1260,7 @@
     "description": "A twisted mockery of the human form, emaciated, with jet black skin and glowing red eyes.  It is somehow painful to look at, awakening fears deep within your psyche, and even the air around it seems more sinister, somehow darker and more dangerous\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 20,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -1277,23 +1275,22 @@
     "melee_dice": 3,
     "melee_dice_sides": 6,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 2,
     "armor_bash": 3,
     "vision_day": 50,
     "vision_night": 5,
     "harvest": "zombie",
     "path_settings": { "max_dist": 10 },
-    "special_attacks": [ [ "RESURRECT", 0 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "RESURRECT", 0 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1321,7 +1318,7 @@
     "description": "With its joints in odd places and angles, this humanoid creature prowls across the landscape with surprising speed.  Its teeth and arms are sharpened into fine points, and black ooze seeps out from cuts between its muscles\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 113,
@@ -1335,11 +1332,7 @@
     "melee_dice": 4,
     "melee_dice_sides": 4,
     "melee_cut": 5,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 5,
     "armor_bash": 8,
     "armor_cut": 5,
@@ -1354,12 +1347,13 @@
         "cooldown": 10,
         "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.2 } ]
       },
-      { "id": "impale" }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      { "id": "impale" },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1373,7 +1367,7 @@
     "description": "A thin corpse, its chest is swollen in what appears to be preparation.  A thick black ooze drips from its open mouth.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 2,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -1388,26 +1382,39 @@
     "melee_dice": 3,
     "melee_dice_sides": 4,
     "melee_cut": 5,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 2,
     "armor_bash": 3,
     "vision_day": 50,
     "vision_night": 8,
     "harvest": "zombie",
-    "special_attacks": [ [ "SHRIEK_ALERT", 20 ], [ "SHRIEK_STUN", 1 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHRIEK_ALERT", 20 ],
+      [ "SHRIEK_STUN", 1 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_screecher",
-    "flags": [ "SEES", "KEENNOSE", "ABSORBS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "KEENNOSE",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zombie_thorny",
@@ -1416,7 +1423,7 @@
     "description": "A shambling undead humanoid, body overgrown with a tangled mass of otherworldly vegetation.  Hunched over and dragging its feet as it moves, the bramble utterly enveloping its upper half twitches and moves with a life of its own, tendrils tipped with a paralytic sting.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "PLANT", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "PLANT", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 100,
@@ -1430,22 +1437,23 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 4,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "armor_bash": 5,
     "armor_cut": 4,
     "vision_night": 5,
     "harvest": "zombie_thorny",
     "attack_effs": [ { "id": "paralyzepoison", "duration": 33 } ],
-    "special_attacks": [ [ "GRAB", 7 ], [ "scratch", 20 ], [ "PARA_STING", 30 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "GRAB", 7 ],
+      [ "scratch", 20 ],
+      [ "PARA_STING", 30 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "mon_zombie_thorny_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_thorny",
@@ -1465,15 +1473,15 @@
       "FILTHY",
       "PARALYZEVENOM"
     ]
- },
-    {
+  },
+  {
     "id": "mon_sflesh_zombie_smoker",
     "type": "MONSTER",
     "name": { "str": "smoker zombie" },
     "description": "A blackened and twisted naked human body, strips of flesh hang from its body, and it emits a constant haze of thick, velvety smoke.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 94,
@@ -1487,11 +1495,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 4,
     "armor_bash": 3,
     "armor_fire": 5,
@@ -1499,12 +1503,16 @@
     "vision_night": 3,
     "harvest": "exempt",
     "emit_fields": [ { "emit_id": "emit_smoke_stream", "delay": "1 s" } ],
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 15 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      [ "scratch", 15 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "DISINTEGRATE" ],
     "burn_into": "mon_zombie_smoker",
     "flags": [
@@ -1530,7 +1538,7 @@
     "description": "This horrifying little mutated wretch looks to have once been a child, but its massive gaping jaws are now far more suggestive of a predatory beast.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 44,
@@ -1544,30 +1552,38 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "armor_bash": 3,
     "dodge": 3,
     "harvest": "zombie",
     "vision_day": 30,
     "vision_night": 3,
-    "special_attacks": [ { "type": "bite", "cooldown": 2 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 2 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_anklebiter",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "BLEED",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zombie_child",
@@ -1576,7 +1592,7 @@
     "description": "It was only a child, and little is different about it now aside from the hungry look in its eyes.  You'd be hard pressed to not feel like you were killing an actual child by putting it down.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION","ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 50,
@@ -1590,37 +1606,29 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 2,
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ [ "scratch", 15 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ]
-    },
+    "special_attacks": [
+      [ "scratch", 15 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_children_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child",
     "flags": [
       "SEES",
       "HEARS",
       "SMELLS",
-	  "ABSORBS", 
+      "ABSORBS",
       "STUMBLES",
       "WARM",
       "BASHES",
@@ -1639,7 +1647,7 @@
     "description": "What was once a child is now a mutant beast with blackened skin and massive eyes.  This abomination's vile form makes mockery of its human origin.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 31,
@@ -1653,22 +1661,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "armor_bash": 3,
     "dodge": 1,
     "vision_day": 10,
     "vision_night": 10,
     "harvest": "zombie",
-    "special_attacks": [ [ "SHRIEK", 5 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHRIEK", 5 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_creepy",
@@ -1676,7 +1683,7 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "ABSORBS", 
+      "ABSORBS",
       "STUMBLES",
       "WARM",
       "BLEED",
@@ -1695,7 +1702,7 @@
     "description": "This heavily mutated child zombie twitches and flails its limbs in painful looking spasms as it runs about.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION",  "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "diff": 2,
     "volume": "30000 ml",
     "weight": "40750 g",
@@ -1710,22 +1717,22 @@
     "melee_dice": 2,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "armor_bash": 3,
     "dodge": 1,
     "vision_day": 30,
     "vision_night": 5,
     "harvest": "zombie",
-    "special_attacks": [ [ "SHRIEK", 5 ], [ "scratch", 15 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHRIEK", 5 ],
+      [ "scratch", 15 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_shriekling",
@@ -1752,7 +1759,7 @@
     "description": "This swollen, gooey looking mutant child looks bad, even for a zombie.  Maybe that's why it seems to want a hug so badly.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 31,
@@ -1766,26 +1773,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 4,
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "armor_bash": 4,
     "dodge": 1,
     "vision_day": 30,
     "vision_night": 5,
     "harvest": "zombie",
-    "special_attacks": [ [ "GRAB", 5 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "GRAB", 5 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "BOOMER" ],
     "burn_into": "mon_zombie_snotgobbler",
@@ -1798,7 +1800,7 @@
     "description": "This crouching child-mutant's face is dominated by a pair of huge black eyes and its fingertips end in sharp claws.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 38,
@@ -1812,23 +1814,22 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 3,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 2,
     "vision_day": 10,
     "vision_night": 10,
     "harvest": "zombie",
-    "special_attacks": [ [ "scratch", 10 ], { "type": "leap", "cooldown": 10, "max_range": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "scratch", 10 ],
+      { "type": "leap", "cooldown": 10, "max_range": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_sproglodyte",
@@ -1855,7 +1856,7 @@
     "description": "Undeath has not been kind to the children of the apocalypse.  This one is little more than a reanimated membrane of skin stretched across tiny brittle bones.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "diff": 2,
     "volume": "30000 ml",
     "weight": "40750 g",
@@ -1870,23 +1871,23 @@
     "melee_dice": 2,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 2,
     "armor_cut": 5,
     "armor_bash": 3,
     "vision_day": 30,
     "vision_night": 5,
     "harvest": "zombie",
-    "special_attacks": [ [ "SHRIEK", 15 ], [ "scratch", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHRIEK", 15 ],
+      [ "scratch", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_waif",
@@ -1913,7 +1914,7 @@
     "description": "A huge beast covered in visible scarring from what you can only guess was 'research'.  Being near it, you can hear a slight humming, like that of an electrical transformer.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 10,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -1934,12 +1935,16 @@
     "vision_night": 3,
     "luminance": 16,
     "harvest": "CBM_SUBS",
-    "special_attacks": [ [ "SHOCKSTORM", 15 ], [ "SMASH", 30 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHOCKSTORM", 15 ],
+      [ "SMASH", 30 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1967,7 +1972,7 @@
     "description": "A human body with pale blue flesh, crackling with electrical energy.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 10,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -1987,12 +1992,15 @@
     "dodge": 2,
     "luminance": 8,
     "harvest": "CBM_CIV",
-    "special_attacks": [ [ "SHOCKSTORM", 25 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SHOCKSTORM", 25 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "special_when_hit": [ "ZAPBACK", 100 ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -2021,7 +2029,7 @@
     "description": "This once-human is visible only as a glowing white silhouette that you have to squint to see, cloaked in a crackling field of lightning that pulses like a beating heart.  It walks slowly and deliberately, the thunderstorm surrounding it eagerly jumping to anything conductive within its grasp.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 2,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -2041,12 +2049,14 @@
     "luminance": 16,
     "harvest": "CBM_SUBS",
     "emit_fields": [ { "emit_id": "emit_shock_cloud", "delay": "1 s" } ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -2060,7 +2070,7 @@
     "description": "A very pale dead body with the worst case of static hair you have ever seen.  Sometimes, you can see sparks of electricity around it.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 75,
@@ -2080,12 +2090,14 @@
     "luminance": 4,
     "harvest": "zombie",
     "special_when_hit": [ "ZAPBACK", 100 ],
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_static",
@@ -2113,7 +2125,7 @@
     "description": "Apart from the jet-black eyes, this zombie looks less decomposed and inhuman than most.  Clad in a tattered lab coat, it seems to have a glimmer of awareness - not a human awareness, but something more sinister.  As you watch it, its movements look almost marionette-like.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 100,
@@ -2127,27 +2139,22 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 1,
     "vision_day": 50,
     "vision_night": 3,
     "harvest": "CBM_SCI",
     "path_settings": { "max_dist": 5 },
-    "special_attacks": [ [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "mon_zombie_scientist_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scientist",
@@ -2178,7 +2185,7 @@
     "description": "A rotund human body, bloated beyond belief and layered in rolls of fat.  It emits a horrible odor, and a putrid pink sludge dribbles from its mouth.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 5,
     "volume": "92500 ml",
     "weight": "120 kg",
@@ -2193,20 +2200,20 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "armor_bash": 3,
     "vision_night": 3,
     "harvest": "exempt",
-    "special_attacks": [ [ "BOOMER", 20 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "BOOMER", 20 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_items",
     "death_function": [ "BOOMER" ],
     "burn_into": "mon_boomer",
@@ -2235,7 +2242,7 @@
     "description": "This boomer, normally swollen and ready to burst, has strengthened and solidified.  The bile dribbling from its mouth also appears to have changed.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 5,
     "volume": "92500 ml",
     "weight": "120 kg",
@@ -2250,21 +2257,21 @@
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 8,
     "armor_cut": 5,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ [ "BOOMER_GLOW", 20 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "BOOMER_GLOW", 20 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_items",
     "death_function": [ "BOOMER_GLOW" ],
     "burn_into": "mon_boomer_huge",
@@ -2293,7 +2300,7 @@
     "description": "A huge bloated zombie that appears to have fed upon gasoline; fumes and flames escape from its mouth and fuel leaks from its waddling form.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 5,
     "volume": "102500 ml",
     "weight": "160 kg",
@@ -2308,21 +2315,20 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "armor_bash": 3,
     "vision_night": 3,
     "luminance": 8,
     "harvest": "exempt",
-    "special_attacks": [ [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_items",
     "death_function": [ "CONFLAGRATION" ],
     "burn_into": "mon_gas_zombie",
@@ -2349,7 +2355,7 @@
     "description": "With its gray skin swollen to near rupture with putrid gas, this cyst covered zombie looks like it could violently burst under the slightest of disturbances.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "HUMAN", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "HUMAN", "ZOMBIE" ],
     "diff": 5,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -2364,33 +2370,34 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
+    "armor_bash": 3,
     "vision_night": 3,
     "harvest": "exempt",
     "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "1 s" } ],
-    "special_attacks": [ [ "SUICIDE", 20 ], [ "scratch", 15 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "SUICIDE", 20 ],
+      [ "scratch", 15 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_items",
     "death_function": [ "GAS" ],
     "burn_into": "mon_zombie_gasbag",
     "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
-  },{
+  },
+  {
     "id": "mon_sflesh_zombie_soldier",
     "type": "MONSTER",
     "name": { "str": "zombie soldier" },
     "description": "Once a soldier, it is dressed head to toe in combat gear and carries itself rather steadily for a zombie.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 125,
@@ -2404,23 +2411,22 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 1,
     "armor_bash": 15,
     "armor_cut": 25,
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5, "min_mul": 0.8 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "mon_zombie_soldier_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_soldier",
@@ -2428,7 +2434,8 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2446,7 +2453,7 @@
     "description": "This soldier zombie's skin radiates a sort of shadowy smoke that obscures its outline, making its camouflage even harder to see against the background.  In the darkness it would be nigh invisible.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 150,
@@ -2460,11 +2467,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 3,
     "armor_bash": 15,
     "armor_cut": 25,
@@ -2476,12 +2479,13 @@
         "type": "bite",
         "cooldown": 8,
         "damage_max_instance": [ { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 } ]
-      }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "mon_zombie_soldier_death_drops",
     "death_function": [ "NORMAL" ],
@@ -2490,7 +2494,8 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2586,7 +2591,7 @@
     "description": "This zombie was once wearing some kind of uniform with heavy, bulletproof materials sewn in.  At this point it's impossible to tell what kind of uniform it was: the monster's skin has grown over the fabric, splitting and tearing it to shreds, turning the remaining Kevlar and other bits of armor material into part of its hide.  Its hands, similarly, have fused into large leathery cudgels.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "72500 ml",
     "weight": "85500 g",
     "hp": 188,
@@ -2600,11 +2605,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 1,
     "armor_bash": 23,
     "armor_cut": 30,
@@ -2613,12 +2614,13 @@
     "harvest": "zombie_kevlar",
     "special_attacks": [
       { "id": "slam", "cooldown": 10, "damage_max_instance": [ { "damage_type": "bash", "amount": 12 } ] },
-      [ "SMASH", 30 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      [ "SMASH", 30 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "mon_zombie_kevlar_death_drops",
     "death_function": [ "NORMAL" ],
@@ -2627,7 +2629,8 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2645,7 +2648,7 @@
     "description": "This zombie was once wearing some kind of now long-shredded uniform with heavy, bulletproof materials sewn in.  It has grown into a hulking, leatherbacked beast, its mutated skin taking on a strange texture similar to the Kevlar bits embedded in it.  Its arms have twisted into enormous clubs of misshapen bone that it drags on the ground behind it.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "625000 ml",
     "weight": "200 kg",
     "hp": 375,
@@ -2659,11 +2662,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 8,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 1,
     "armor_bash": 33,
     "armor_cut": 50,
@@ -2673,12 +2672,13 @@
     "special_attacks": [
       { "id": "slam", "cooldown": 12, "damage_max_instance": [ { "damage_type": "bash", "amount": 35 } ] },
       [ "LONGSWIPE", 20 ],
-      [ "SMASH", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      [ "SMASH", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "death_drops": "mon_zombie_kevlar_death_drops",
     "death_function": [ "NORMAL" ],
@@ -2687,7 +2687,8 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2705,8 +2706,7 @@
     "description": "Once a pilot, it is dressed in basic military fatigues, aviator sunglasses, and a sturdy looking helmet.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 113,
@@ -2720,23 +2720,24 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "dodge": 1,
     "armor_bash": 8,
     "armor_cut": 5,
     "vision_day": 35,
     "vision_night": 5,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      [ "GRAB", 7 ],
+      [ "scratch", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "mon_zombie_military_pilot_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_military_pilot",
@@ -2744,7 +2745,8 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2763,7 +2765,7 @@
     "description": "This armored and augmented soldier's bionics crackle with energy.  Worse, it appears to remember its training.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "diff": 5,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -2777,10 +2779,7 @@
     "melee_skill": 7,
     "melee_dice": 3,
     "melee_dice_sides": 6,
-    "melee_damage": [ { "damage_type": "electric", "amount": 4 }, {
-                "amount": 2,
-                "damage_type": "bash"
-            } ],
+    "melee_damage": [ { "damage_type": "electric", "amount": 4 }, { "amount": 2, "damage_type": "bash" } ],
     "melee_cut": 0,
     "dodge": 3,
     "armor_bash": 13,
@@ -2789,12 +2788,15 @@
     "vision_night": 3,
     "luminance": 4,
     "harvest": "CBM_OP",
-    "special_attacks": [ [ "BIO_OP_TAKEDOWN", 20 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "BIO_OP_TAKEDOWN", 20 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "mon_zombie_bio_op_death_drops",
     "burn_into": "mon_zombie_bio_op",
@@ -2803,7 +2805,8 @@
       "SEES",
       "HEARS",
       "SMELLS",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2833,7 +2836,7 @@
     "description": "A sickly-looking dead one.  Its skin looks especially thin, with a sticky, yellow fluid flowing through the clearly visible veins.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "diff": 5,
     "volume": "62500 ml",
     "weight": "81500 g",
@@ -2848,21 +2851,20 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "dodge": 1,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ [ "ACID_BARF", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "ACID_BARF", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "ACID", "NORMAL" ],
     "burn_into": "mon_zombie_acidic",
@@ -2871,7 +2873,8 @@
       "HEARS",
       "SMELLS",
       "STUMBLES",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2890,7 +2893,7 @@
     "description": "This body has swollen to immense proportions, but still manages to hold itself together with semi-congealed acid all over its bloated body.  It clumsily moves around, but attacks with a large reserve of acid.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "diff": 15,
     "volume": "92500 ml",
     "weight": "120 kg",
@@ -2905,11 +2908,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 13,
     "armor_cut": 2,
     "armor_stab": 12,
@@ -2929,12 +2928,13 @@
         "description": "The corrosive zombie spits a glob of blood acid!",
         "ranges": [ [ 2, 10, "DEFAULT" ] ]
       },
-      [ "ACID_BARF", 5 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            }
+      [ "ACID_BARF", 5 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
     ],
     "special_when_hit": [ "ACIDSPLASH", 100 ],
     "death_drops": "default_zombie_death_drops",
@@ -2945,7 +2945,8 @@
       "HEARS",
       "SMELLS",
       "STUMBLES",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -2964,7 +2965,7 @@
     "description": "A degenerate corpse, shambling as it walks.  Several junks and waste materials have unified into its skin and wounds around it reeks in black goo.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
-    "species": [ "ABERRATION", "ZOMBIE", "HUMAN" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE", "HUMAN" ],
     "diff": 2,
     "volume": "62500 ml",
     "weight": "84500 g",
@@ -2980,20 +2981,19 @@
     "melee_dice": 2,
     "melee_dice_sides": 2,
     "melee_cut": 1,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 3,
     "vision_day": 14,
     "harvest": "zombie",
-    "special_attacks": [ [ "ACID_BARF", 22 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "ACID_BARF", 22 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "ACID", "NORMAL" ],
     "burn_into": "mon_zombie_wretched",
@@ -3002,7 +3002,8 @@
       "HEARS",
       "SMELLS",
       "STUMBLES",
-      "WARM", "ABSORBS",
+      "WARM",
+      "ABSORBS",
       "BASHES",
       "GROUP_BASH",
       "POISON",
@@ -3015,13 +3016,13 @@
     ]
   },
   {
-    "id": "mon_sflesh_sflesh_zombie_dog",
+    "id": "mon_sflesh_zombie_dog",
     "type": "MONSTER",
     "name": "zombie dog",
     "description": "The deformed, animated corpse of a canine, a sinewy beast which can easily outpace its two-legged friends.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": 40750,
     "hp": 56,
@@ -3035,21 +3036,20 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 1,
     "vision_night": 4,
     "armor_bash": 6,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_dog",
     "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "FILTHY" ]
@@ -3061,7 +3061,7 @@
     "description": "This once-canine has shed all of its skin, revealing a carapace of fused bones and ribs.  Devoid entirely of flesh, this walking suit of bone seems to be controlled by a net of veins and sinews which pulse with glistening black goo.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 15,
@@ -3075,12 +3075,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 9,
     "melee_cut": 6,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 3,
     "armor_bash": 3,
     "armor_cut": 15,
@@ -3088,12 +3083,15 @@
     "armor_acid": 3,
     "vision_night": 3,
     "harvest": "mr_bones",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_dog_skeleton",
     "flags": [ "SEES", "HEARS", "ABSORBS", "NO_BREATHE", "HARDTOSHOOT", "REVIVES", "POISON", "FILTHY" ]
@@ -3105,7 +3103,7 @@
     "description": "A zombified version of one of the German shepherd dogs used in law enforcement.  Its deformed body is encased in a protective Kevlar harness.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 53,
@@ -3119,31 +3117,39 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_cut": 2,
-    "melee_damage": [{
-                "amount": 1,
-                "damage_type": "bash"
-            },
-            {
-                "amount": 1,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 1, "damage_type": "bash" }, { "amount": 1, "damage_type": "cut" } ],
     "dodge": 1,
     "armor_bash": 9,
     "armor_cut": 6,
     "vision_day": 50,
     "vision_night": 4,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_drops": { "subtype": "collection", "groups": [ [ "dog_cop", 40 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_dog_zombie_cop",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_dog_zombie_rot",
@@ -3152,7 +3158,7 @@
     "description": "Acrid smell accompanies this corpse of canine.  Its whole body is covered in chains of pulsing cysts and slime-dribbling ulcers.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 30,
@@ -3166,26 +3172,37 @@
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_cut": 2,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 1,
     "vision_day": 30,
     "vision_night": 4,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "bite", "cooldown": 2, "accuracy": 4, "no_infection_chance": 12 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 2, "accuracy": 4, "no_infection_chance": 12 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_dog_zombie_rot",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS","STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zolf",
@@ -3194,7 +3211,7 @@
     "description": "A zombified wolf.  Its mouth oozes with a black substance, coating the vicious-looking white fangs.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "30000 ml",
     "weight": "40750 g",
     "hp": 60,
@@ -3208,27 +3225,38 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 4,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 2,
     "vision_night": 5,
     "harvest": "zombie_fur",
-    "special_attacks": [ [ "HOWL", 10 ], {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      [ "HOWL", 10 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zolf",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "KEENNOSE", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "KEENNOSE",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zombear",
@@ -3237,7 +3265,7 @@
     "description": "This black bear's eyes ooze with dark, oily fluid, and its flesh is torn and scarred.  It shuffles as it walks.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "92500 ml",
     "weight": "120 kg",
     "hp": 225,
@@ -3251,29 +3279,39 @@
     "melee_dice": 4,
     "melee_dice_sides": 6,
     "melee_cut": 6,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 2,
     "vision_day": 30,
     "vision_night": 5,
     "harvest": "zombie_fur",
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombear",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON", "FILTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_sflesh_zombie_pig",
@@ -3282,7 +3320,7 @@
     "description": "A zombified omnivore descended from the wild boar.  Now it's got black goo all over it, instead of mud.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 69,
@@ -3296,23 +3334,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_cut": 4,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 1,
     "vision_day": 50,
     "harvest": "zombie_leather",
     "path_settings": { "max_dist": 10 },
-    "special_attacks": [ { "type": "bite", "cooldown": 2 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "bite", "cooldown": 2 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
@@ -3340,7 +3376,7 @@
     "description": "This wall-eyed beast has a large wound on its side, and ribs with some flesh on them are seen through it.  The most prominent feature of this abomination is large incisors in its ominously open mouth, strange black goo is oozing out of it.  Seems like it isn't interested in trees anymore and is looking for some warm flesh to feed.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "20250 ml",
     "weight": "20 kg",
     "hp": 38,
@@ -3354,28 +3390,38 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 6,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
-        "armor_bash": 3,
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
+    "armor_bash": 3,
     "dodge": 2,
     "vision_day": 30,
     "vision_night": 5,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "zombie_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombeaver",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "SWIMS" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "SWIMS"
+    ]
   },
   {
     "id": "mon_sflesh_zoose",
@@ -3384,7 +3430,7 @@
     "description": "This formerly-majestic moose has succumbed to the infection which is killing the world.  Shiny green blowflies swarm the vast suppurated patches of purulent flesh where its skin has sloughed away, and its remaining fur is black and matted with necrotic discharge.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "horse",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "92500 ml",
     "weight": "120 kg",
     "hp": 263,
@@ -3398,21 +3444,19 @@
     "melee_dice": 3,
     "melee_dice_sides": 4,
     "melee_cut": 0,
-    "melee_damage": [{
-                "amount": 2,
-                "damage_type": "bash"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "bash" } ],
     "armor_bash": 9,
     "armor_cut": 4,
     "vision_day": 30,
     "vision_night": 5,
-    "special_attacks": [ {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "harvest": "zombie_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "fear_triggers": [ "FIRE" ],
@@ -3427,7 +3471,7 @@
     "description": "An otherwise normal-looking cougar, except that its hind legs are swollen, and its eyes bulge with black goo.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",
-    "species": [ "ABERRATION", "ZOMBIE" ],
+    "species": [ "SFLESH", "ABERRATION", "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
     "hp": 81,
@@ -3441,23 +3485,21 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_cut": 6,
-    "melee_damage": [
-            {
-                "amount": 2,
-                "damage_type": "cut"
-            }
-        ],
+    "melee_damage": [ { "amount": 2, "damage_type": "cut" } ],
     "dodge": 2,
     "armor_bash": 4,
     "vision_day": 30,
     "vision_night": 10,
     "harvest": "zombie_fur",
-    "special_attacks": [ { "type": "leap", "cooldown": 10, "max_range": 5 }, {
-                "type": "spell",
-                "spell_data": { "id":"mon_flesh_infect_target"},
-                "cooldown": 11,
-                "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
-            } ],
+    "special_attacks": [
+      { "type": "leap", "cooldown": 10, "max_range": 5 },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_flesh_infect_target" },
+        "cooldown": 11,
+        "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
+      }
+    ],
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
