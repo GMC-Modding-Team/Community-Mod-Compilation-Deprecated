@@ -12,26 +12,14 @@
     "to_hit": -2,
     "bashing": 12,
     "cutting": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "material": [ "gold", "silver" ],
-=======
-    "material": [ "gold_small", "silver" ],
->>>>>>> parent of 9e98ddb... silver update
-=======
-    "material": [ "gold_small", "silver" ],
->>>>>>> parent of 9e98ddb... silver update
-=======
-    "material": [ "gold", "silver" ],
->>>>>>> parent of 9def5a0... gold update
     "symbol": ",",
     "looks_like": "gold_bracelet",
     "color": "yellow",
     "ammo": "essence_type",
     "skill": "magic",
     "range": 50,
-    "ranged_damage": { "damage_type": "electric", "amount": 50, "armor_penetration": 15 },
+    "ranged_damage": { "damage_type": "electric", "amount": 60, "armor_penetration": 15 },
     "dispersion": 200,
     "durability": 10,
     "loudness": 150,
@@ -63,7 +51,7 @@
     "ammo": "essence_blood_type",
     "skill": "magic",
     "range": 20,
-    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 3 },
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 3 },
     "dispersion": 250,
     "durability": 10,
     "loudness": 100,
@@ -106,13 +94,13 @@
     "ammo": "essence_dull_type",
     "skill": "magic",
     "range": 15,
-    "ranged_damage": { "damage_type": "true", "amount": 25, "armor_penetration": 50 },
+    "ranged_damage": { "damage_type": "true", "amount": 40, "armor_penetration": 50 },
     "dispersion": 150,
     "durability": 6,
-    "clip_size": 1,
+    "clip_size": 20,
     "reload": 75,
     "ammo_effects": [ "WIDE", "LASER", "BEANBAG", "BLINDS_EYES" ],
-    "flags": [ "NEVER_JAMS", "PRIMITIVE_RANGED_WEAPON", "NO_SALVAGE", "BELTED" ],
+    "flags": [ "FIRE_20", "NEVER_JAMS", "PRIMITIVE_RANGED_WEAPON", "NO_SALVAGE", "BELTED" ],
     "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "material_thickness": 1, "encumbrance": 15 }
   },
   {
@@ -136,7 +124,7 @@
     "ammo": "essence_pure_type",
     "skill": "magic",
     "range": 40,
-    "//": "High as that amount is, remember this is the equivalent to 10 essence a shot.",
+    "//": "High as that amount is, remember this is the equivalent to 10 essence a shot, and is half as efficient compared to the other items.",
     "ranged_damage": { "damage_type": "heat", "amount": 300, "armor_penetration": 25 },
     "dispersion": 200,
     "durability": 10,
@@ -178,7 +166,7 @@
     "ammo": "essence_blood_type",
     "skill": "magic",
     "range": 20,
-    "ranged_damage": { "damage_type": "acid", "amount": 40, "armor_penetration": 10 },
+    "ranged_damage": { "damage_type": "acid", "amount": 30, "armor_penetration": 10 },
     "dispersion": 250,
     "durability": 10,
     "loudness": 75,
@@ -216,7 +204,20 @@
     "pierce": 10,
     "range": 12,
     "loudness": 50,
-    "ammo_effects": [ "LIGHTNING", "EMP", "PARALYZEPOISON" ]
+    "ammo_effects": [ "LIGHTNING_JUDGMENT" ]
+  },
+  {
+    "id": "monster_laser_fake",
+    "copy-from": "v29",
+    "type": "GUN",
+    "name": { "str": "monster laser weapon" },
+    "description": "Used to give the Seraphic Shade a specific degree of inaccuracy.  If you encounter one of these in the wild, it's a bug.",
+    "dispersion": 5000,
+    "sight_dispersion": 1000,
+    "ranged_damage": { "damage_type": "cold", "amount": 12 },
+    "range": 15,
+    "loudness": 0,
+    "ammo_effects": [ "LASER", "BLINDS_EYES" ]
   },
   {
     "id": "mut_dragonfire",
