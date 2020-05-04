@@ -1,26 +1,45 @@
-Secronom V1.8 - Axema Vales (author)
+Secronom V1.9 - Axema Vales (author)
 
 https://discourse.cataclysmdda.org - CDDA official forums
 
-  *This README.txt is my changelog, so what is done will be recorded and released depending on accumulated progress.
+  *This README.txt is my changelog, so what is done will be recorded and released depending on accumulated progress.  
 
 
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes)
 	
---> V1.8 - Aiming to make the mod a core content by adding SS-based mutagens and other sci-fi stuff belonging to the lab. <--
+--> V1.9 - Focuses on improving the secronom lab by adding NPCs and expanding the facility. Also some reworks to experimental mutation branch. <--
 
 #  TILESET REWORKS (if possible)
 
-+  FLESH ZOMBIES (expansion of flesh zombie variants for the flesh city)
++  SECRONOM BUNKER (a small underground fortress that's connected to the lab)
++  NPCS (they provide a subtle lore and few other features)
 
--  FLESH CITY POPULATION (now densely crowded)
 
 
 
 	=>PAST UPDATES<=
+	
+--> V1.8 - Focused mostly on improving the flesh forest/city features. Few mutations were created for later expansion. <--
 
---> V1.7 - Focused on creating various structures, being the flesh forest/city the biggest project. Saddlers were also reworked for its appearance to the mod. <--
+#  MINOR UI CHANGES (mod is now highlighted in red when viewed in world generation (and in loading screen), to notify players of its extreme difficulty)
+#  ACHIEVEMENTS (long- and short-term goals for your adventures)
+
++  WANDERING ABERRATION (shapeshifter)
++  CRIMSON HORROR (veinstalk)
++  EXPERIMENTAL MUTATIONS (a new mutation branch)
++  FLESH ZOMBIES (complete expansion of flesh zombie variants for the flesh city. Land wildlife included)
+
+~  SECRONOM LAB (now has a very rare, exclusive mutagen)
+
+-  FLESH CITY POPULATION (now densely crowded)
+-  FLESH BIOME (can now spread across the lands. A temporary, alternative solution)
+-  CRIMSON HORRORS (can now infest other creatures)
+
+
+
+
+--> V1.7 - Focused on creating various structures, being the flesh forest/city the biggest project. Saddlers were also reworked for their appearance to the mod. <--
 
 +  FLESHED STRUCTURES (basic city buildings)
 +  ZED MUTANT (fleshknot)
@@ -28,7 +47,7 @@ https://discourse.cataclysmdda.org - CDDA official forums
 +  SADDLER (brute, scout)
 +  INFECTED SADDLERS (normal, brute and scout)
 +  ZED MUTANT (relinquished zombie)
-+  FLESH FOREST (a forest infested by the flesh, home for the crimson horrors)
++  FLESH FOREST (home for the crimson horrors)
 +  CRIMSON HORRORS (creatures unique to the fleshed environment)
 +  FLESH CHUNKS (a consumable food with superior regenerative prowess)
 +  FLESH CITY (cities overwhelmed by the flesh)
@@ -88,6 +107,7 @@ https://discourse.cataclysmdda.org - CDDA official forums
 
 
 
+
 --> v1.4 - Focused on recreating the main location of the mod, making it bigger, loot-worthy and more alive with unique dwellers inside. Also introduced the flesh cavern - a hive for crimson horrors. <--
 
 +  FAILED SPECIMEN (squirtler)
@@ -101,6 +121,7 @@ https://discourse.cataclysmdda.org - CDDA official forums
 
 
 
+
 --> v1.3 - Focused on expanding the city zed bestiary by adding the final upgrade counterparts and the last 3 LUA-based monsters. <--
 
 +  CHAOS ZEDS (fleshmonger, faux, uruxis)
@@ -111,6 +132,7 @@ https://discourse.cataclysmdda.org - CDDA official forums
 +~ TENDRILS (new and final upgrade path, stats tweaked, abilities reworked)
 
 -  CHAOS SPAWNRATE (lowered spawn chance)
+
 
 
 
@@ -130,8 +152,10 @@ https://discourse.cataclysmdda.org - CDDA official forums
 
 
 
+
 --> v1.1 and below - Main idea posted on the forums. <--
 
 + INTRODUCED SECRONOM CREATURES (earlier versions of city zeds, lab mutants used to spawn in science labs)
+
 
 
