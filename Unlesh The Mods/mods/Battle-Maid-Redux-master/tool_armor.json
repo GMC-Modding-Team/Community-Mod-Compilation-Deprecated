@@ -140,7 +140,6 @@
       "target": "maid_cloak_off",
       "need_charges": 0
     },
-<<<<<<< HEAD
     "artifact_data": { "effects_worn": [ "AEP_INVISIBLE", "AEP_STEALTH" ] }
   },
   {
@@ -210,78 +209,3 @@
     "artifact_data": { "effects_worn": [ "AEP_SUPER_CLAIRVOYANCE" ] }
   }
 ]
-=======
-    {
-        "type" : "TOOL_ARMOR",
-        "category" : "clothing",
-        "id" : "maidguy_mask_off",
-        "name" : "white brim with veil",
-        "name_plural" : "white brims with veils",
-        "weight" : 150,
-        "color" : "white",
-        "covers" : ["EYES"],
-        "symbol" : "[",
-        "description" : "A regular maid's white brim with an elegant veil sewn into it, decorated with silver frills. Although it covers your eyes and blocks your vision quite harshly, you can use maid points to turn it on and gain otherwordly sight.",
-        "price" : 8000,
-        "material" : ["silver", "cotton"],
-        "volume" : 1,
-        "warmth" : 10,
-        "environmental_protection" : 6,
-        "coverage" : 100,
-        "flags" : ["SUN_GLASSES", "FANCY"],
-        "qualities" : [["GLARE", 1]],
-        "material_thickness" : 4,
-        "max_charges": 100,
-        "initial_charges": 50,
-        "charges_per_use": 50,
-        "ammo": "maid_point",
-        "use_action": {
-            "type": "transform",
-            "msg": "You use the maid points and your vision expands.",
-            "target": "maidguy_mask_on",
-            "active": true,
-            "need_charges": 100,
-            "need_charges_msg": "Not enough maid points!"
-        }
-    },
-        {
-        "type" : "TOOL_ARMOR",
-        "category" : "clothing",
-        "id" : "maidguy_mask_on",
-        "name" : "white brim with veil (clairvoyant)",
-        "name_plural" : "white brims with veils (clairvoyant)",
-        "weight" : 150,
-        "color" : "white",
-        "covers" : ["EYES"],
-        "symbol" : "[",
-        "description" : "A regular maid's white brim with an elegant veil sewn into it, decorated with silver frills. It is currently see-through.",
-        "price" : 8000,
-        "material" : ["silver", "cotton"],
-        "volume" : 1,
-        "warmth" : 10,
-        "environmental_protection" : 6,
-        "coverage" : 100,
-        "flags" : ["SUN_GLASSES", "FANCY", "NO_RELOAD"],
-        "qualities" : [["GLARE", 1]],
-        "material_thickness" : 4,
-        "max_charges": 100,
-        "initial_charges": 50,
-        "turns_per_charge": 1,
-        "ammo": "maid_point",
-        "revert_to": "maidguy_mask_off",
-                "use_action": {
-            "type": "transform",
-            "msg": "The last bits of the maid points fizzle away and the veil turns back to normal.",
-            "target": "maidguy_mask_off",
-            "need_charges": 0
-        },
-    "artifact_data" : {
-    "effects_worn": ["AEP_SUPER_CLAIRVOYANCE"]
-    }
-    }
-<<<<<<< HEAD
-]
->>>>>>> parent of 9e98ddb... silver update
-=======
-]
->>>>>>> parent of 9e98ddb... silver update
