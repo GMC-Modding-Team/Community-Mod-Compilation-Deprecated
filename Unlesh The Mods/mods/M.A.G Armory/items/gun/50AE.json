@@ -5,7 +5,7 @@
     "reload_noise_volume": 10,
     "name": "Desert Eagle .50AE",
     "name_plural": "Desert Eagle .50AE",
-    "looks_like": "deagle_44", 
+    "looks_like": "deagle_44",
     "description": "One of the most recognizable handguns due to its popularity in movies and video games, the Desert Eagle is better known for its menacing appearance than its performance.  It's a large pistol, but its heavy weight reduces recoil.",
     "weight": 2100,
     "volume": 3,
@@ -17,7 +17,7 @@
     "color": "dark_gray",
     "ammo": "50AE",
     "skill": "pistol",
-    "ranged_damage": 5,
+    "ranged_damage": { "damage_type": "bullet", "amount": 5 },
     "dispersion": 500,
     "durability": 7,
     "valid_mod_locations": [
