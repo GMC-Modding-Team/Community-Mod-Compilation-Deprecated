@@ -16,25 +16,10 @@
             "<npcname> striked %s upwards, and fell down"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                1.33
-            ],
-            [
-                "damage",
-                "bash",
-                1.33
-            ],
-            [
-                "damage",
-                "cut",
-                1.66
-            ],
-            [
-                "damage",
-                "stab",
-                0.66
-            ]
+            { "stat": "movecost", "scale": 1.33 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1.33 },
+            { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 1.66 },
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 0.66 }
         ]
     }, {
         "type": "technique",
@@ -53,25 +38,10 @@
             "<npcname> slammed %s beneath the floor."
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                1.33
-            ],
-            [
-                "damage",
-                "bash",
-                1.66
-            ],
-            [
-                "damage",
-                "cut",
-                1.33
-            ],
-            [
-                "damage",
-                "stab",
-                0.66
-            ]
+            { "stat": "movecost", "scale": 1.33 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1.66 },
+            { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 1.33 },
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 0.66 }
         ]
     }, {
         "type": "technique",
@@ -88,25 +58,10 @@
             "<npcname> attacked %s quickly"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                0.33
-            ],
-            [
-                "damage",
-                "bash",
-                0.66
-            ],
-            [
-                "damage",
-                "cut",
-                0.66
-            ],
-            [
-                "damage",
-                "stab",
-                0.66
-            ]
+            { "stat": "movecost", "scale": 0.33 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 0.66 },
+            { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 0.66 },
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 0.66 }
         ]
     }, {
         "type": "technique",
@@ -139,11 +94,7 @@
             "<npcname> located %s's weak point and stab it"
         ],
         "mult_bonuses": [
-            [
-                "damage",
-                "stab",
-                2.0
-            ]
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 2.00 }
         ]
     }, {
         "type": "technique",
@@ -160,11 +111,7 @@
             "<npcname>'s deadly hit struck to %s."
         ],
         "mult_bonuses": [
-            [
-                "damage",
-                "stab",
-                4.0
-            ]
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 4.00 }
         ]
     }, {
         "type": "technique",
@@ -181,25 +128,8 @@
             "<npcname> tripped %s"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                0.75
-            ],
-            [
-                "damage",
-                "bash",
-                1.0
-            ],
-            [
-                "damage",
-                "stab",
-                0.0
-            ],
-            [
-                "damage",
-                "cut",
-                0.0
-            ]
+            { "stat": "movecost", "scale": 0.75 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1.00 }
         ]
     }, {
         "type": "technique",
@@ -230,25 +160,8 @@
             "%s's head fell into the floor after strucked by <npcname>"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                2.0
-            ],
-            [
-                "damage",
-                "bash",
-                0.0
-            ],
-            [
-                "damage",
-                "cut",
-                99.99
-            ],
-            [
-                "damage",
-                "stab",
-                0.0
-            ]
+            { "stat": "movecost", "scale": 2.00 },
+            { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 99.99 }
         ]
     }, {
         "type": "technique",
@@ -268,25 +181,10 @@
             "You bash %s upwards, and fell down"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                1.33
-            ],
-            [
-                "damage",
-                "bash",
-                1.66
-            ],
-            [
-                "damage",
-                "cut",
-                0.66
-            ],
-            [
-                "damage",
-                "stab",
-                1.33
-            ]
+            { "stat": "movecost", "scale": 1.33 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1.66 },
+            { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 0.66 },
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 1.33 }
         ]
     }, {
         "type": "technique",
@@ -304,25 +202,10 @@
             "<npcname>'s bash sent %s downwards, and kissed the floor"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                1.33
-            ],
-            [
-                "damage",
-                "bash",
-                1.66
-            ],
-            [
-                "damage",
-                "cut",
-                0.66
-            ],
-            [
-                "damage",
-                "stab",
-                1.66
-            ]
+            { "stat": "movecost", "scale": 1.33 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1.66 },
+            { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 0.66 },
+            { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 1.66 }
         ]
     }, {
         "type": "technique",
@@ -338,25 +221,8 @@
             "<npcname> smashed %s"
         ],
         "mult_bonuses": [
-            [
-                "movecost",
-                2.0
-            ],
-            [
-                "damage",
-                "bash",
-                99.99
-            ],
-            [
-                "damage",
-                "cut",
-                0.0
-            ],
-            [
-                "damage",
-                "stab",
-                0.0
-            ]
+            { "stat": "movecost", "scale": 2.00 },
+            { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 99.99 }
         ]
     }
 ]

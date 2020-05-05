@@ -13,7 +13,7 @@
         "stack_size": 1,
         "ammo_type": "shot",
         "range": 15,
-        "damage": 2,
+        "damage": { "damage_type": "stab", "amount": 2 },
         "recoil": 20,
         "flags": ["NOGIB"]
     }, {
@@ -31,7 +31,7 @@
         "stack_size": 1,
         "ammo_type": "shot",
         "range": 5,
-        "damage": 1,
+        "damage": { "damage_type": "stab", "amount": 1 },
         "recoil": 40,
         "flags": ["NOGIB"]
     }, {
@@ -49,7 +49,7 @@
         "stack_size": 1,
         "ammo_type": "shot",
         "range": 11,
-        "damage": 5,
+        "damage": { "damage_type": "stab", "amount": 5 },
         "recoil": 200,
         "flags": ["NOGIB"]
     }

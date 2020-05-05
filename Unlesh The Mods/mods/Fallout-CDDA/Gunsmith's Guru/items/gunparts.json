@@ -197,6 +197,35 @@
     "type": "GENERIC",
     "category": "spare_parts",
     "name": "metal box",
+	"pocket_data": [
+      {
+        "ammo_restriction": {
+          "32": 500,
+          "762x25": 500,
+          "38": 500,
+          "40": 500,
+          "44": 500,
+          "45": 500,
+          "9x18": 500,
+          "9mm": 500,
+          "454": 500,
+          "500": 500,
+          "22": 500,
+          "223": 500,
+          "5x50": 500,
+		  "545x39": 500,
+		  "3006": 500,
+		  "308": 500,
+		  "300": 500,
+		  "762": 500,
+		  "762R": 500,
+		  "8x40mm": 500,
+		  "shot": 500,
+		  "20x66mm": 500
+        },
+        "moves": 20
+      }
+    ],
     "name_plural": "metal box",
     "description": "The metal box your 80% gun came in! You could make a decently sized box mag for one of your big guns.",
     "weight": 800,
@@ -204,23 +233,44 @@
     "price": 8000,
     "to_hit": -4,
     "bashing": 5,
-	"use_action": {
-      "type": "bandolier",
-      "capacity": 500,
-      "ammo": [ "32", "762x25", "38", "40", "44", "45", "9x18", "9mm", "454", "500", "22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm", "shot", "20x66mm" ],
-      "draw_cost": 20
-    },
     "material": "steel",
     "symbol": "}",
     "color": "green"
   },
- 
- 
- {
+  {
     "id": "metal_box_small",
     "type": "GENERIC",
     "category": "spare_parts",
     "name": "small metal box",
+	"pocket_data": [
+      {
+        "ammo_restriction": {
+          "32": 50,
+          "762x25": 50,
+          "38": 50,
+          "40": 50,
+          "44": 50,
+          "45": 50,
+          "9x18": 50,
+          "9mm": 50,
+          "454": 50,
+          "500": 50,
+          "22": 50,
+          "223": 50,
+          "5x50": 50,
+		  "545x39": 50,
+		  "3006": 50,
+		  "308": 50,
+		  "300": 50,
+		  "762": 50,
+		  "762R": 50,
+		  "8x40mm": 50,
+		  "shot": 50,
+		  "20x66mm": 50
+        },
+        "moves": 20
+      }
+    ],
     "name_plural": "small box",
     "description": "A small metal box. You can think of several uses for it, including containing ammo, and small box magazines!",
     "weight": 800,
@@ -228,17 +278,10 @@
     "price": 1000,
     "to_hit": -4,
     "bashing": 5,
-	"use_action": {
-      "type": "bandolier",
-      "capacity": 50,
-      "ammo": [ "32", "762x25", "38", "40", "44", "45", "9x18", "9mm", "454", "500", "22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm", "shot", "20x66mm" ],
-      "draw_cost": 20
-    },
     "material": "steel",
     "symbol": "}",
     "color": "green"
   },
-  
   {
     "id": "22boxmag",
     "type": "MAGAZINE",
@@ -255,7 +298,6 @@
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
   },
-  
   {
     "id": "45boxmag",
     "type": "MAGAZINE",

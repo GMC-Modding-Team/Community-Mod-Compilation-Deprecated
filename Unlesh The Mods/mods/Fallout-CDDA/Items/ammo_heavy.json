@@ -168,7 +168,7 @@
     "type": "AMMO",
     "name": "25mm flechette",
     "description": "A 25mm grenade with an armor-piercing flechette load.",
-    "relative": { "damage": -10, "pierce": 30 }
+    "relative": { "damage": { "damage_type": "stab", "amount": -10, "armor_penetration": 30 } }
   },
   {
     "id": "25mm_frag",

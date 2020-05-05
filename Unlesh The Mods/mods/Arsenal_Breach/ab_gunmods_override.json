@@ -6,7 +6,7 @@
     "name": "beam scatterer",
     "description": "A set of optics made to fit on laser weapons, which will diffract the laser beam into several lower powered beams.  This increases point-blank damage, but reduces range.",
     "range_modifier": -12,
-    "damage_modifier": 5,
+    "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "mod_targets": [ "rifle", "pistol", "smg", "shotgun" ]
   },
   {
@@ -23,7 +23,7 @@
     "location": "lens",
     "mod_targets": [ "rifle", "pistol", "smg", "shotgun" ],
     "range_modifier": -25,
-    "damage_modifier": -8,
+    "ranged_damage": { "damage_type": "stab", "amount": -8 },
     "ups_charges": 50,
     "ammo_effects": [ "FLAME", "STREAM" ],
     "min_skills": [ [ "weapon", 4 ], [ "electronics", 5 ] ]
@@ -48,10 +48,9 @@
       "range": 28,
       "loudness": 12,
       "ups_charges": 22,
-      "ranged_damage": 12,
+	  "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 15 },
       "reload": 300,
-      "pierce": 15,
-      "ammo_effects": [ "LASER", "INCENDIARY" ]
+	  "ammo_effects": [ "LASER", "INCENDIARY" ]
     },
     "dispersion_modifier": 15,
     "min_skills": [ [ "rifle", 2 ], [ "electronics", 4 ] ],
@@ -71,7 +70,7 @@
     "location": "lens",
     "mod_targets": [ "rifle", "pistol", "smg", "shotgun" ],
     "range_modifier": 12,
-    "damage_modifier": -5,
+    "ranged_damage": { "damage_type": "stab", "amount": -5 },
     "ammo_effects": [ "SHOT" ],
     "min_skills": [ [ "weapon", 4 ] ]
   },
@@ -89,7 +88,7 @@
     "color": "light_gray",
     "location": "emitter",
     "mod_targets": [ "rifle", "pistol", "smg", "shotgun" ],
-    "damage_modifier": -5,
+    "ranged_damage": { "damage_type": "stab", "amount": -5 },
     "ups_charges": -10,
     "min_skills": [ [ "weapon", 4 ], [ "electronics", 5 ] ]
   },
@@ -98,9 +97,9 @@
     "copy-from": "high_density_capacitor",
     "description": "A capacitor with a higher energy density increases range and damage; at the cost of a increased power consumption.",
     "type": "GUNMOD",
-    "name": "high density capacitor",
+	"name": "high density capacitor",
     "range_modifier": 5,
-    "damage_modifier": 5,
+    "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "ups_charges": 10,
     "mod_targets": [ "rifle", "pistol", "smg", "shotgun" ]
   }
