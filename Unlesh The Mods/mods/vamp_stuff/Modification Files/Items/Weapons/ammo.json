@@ -15,8 +15,7 @@
         "stack_size": 40,
         "ammo_type": "ammoblood",
         "range": 15,
-        "damage": 1,
-        "pierce": 5,
+        "damage": { "damage_type": "stab", "amount": 1, "armor_penetration": 5 },
         "recoil": 100,
         "loudness": 5,
         "effects": ["NO_DROP"]
@@ -37,8 +36,7 @@
         "stack_size": 20,
         "ammo_type": "ammoblood",
         "range": 8,
-        "damage": 5,
-        "pierce": 25,
+        "damage": { "damage_type": "stab", "amount": 5, "armor_penetration": 25 },
         "recoil": 450,
         "loudness": 10,
         "effects": ["NO_DROP"]
@@ -59,8 +57,7 @@
         "stack_size": 20,
         "ammo_type": "ammoblood",
         "range": 5,
-        "damage": 10,
-        "pierce": 10,
+        "damage": { "damage_type": "stab", "amount": 10, "armor_penetration": 10 },
         "recoil": 625,
         "loudness": 30,
         "effects": ["NO_DROP"]
@@ -80,7 +77,7 @@
         "ammo_type": "bloodshot",
         "casing": "shot_hull",
         "range": 4,
-        "damage": 65,
+        "damage": { "damage_type": "stab", "amount": 65 },
         "recoil": 2750,
         "loudness": 180,
         "effects": ["COOKOFF", "SHOT"]
@@ -100,7 +97,7 @@
         "ammo_type": "bloodshot",
         "casing": "shot_hull",
         "range": 4,
-        "damage": 57,
+        "damage": { "damage_type": "stab", "amount": 57 },
         "recoil": 2650,
         "loudness": 180,
         "effects": ["COOKOFF", "SHOT", "RECYCLED"]

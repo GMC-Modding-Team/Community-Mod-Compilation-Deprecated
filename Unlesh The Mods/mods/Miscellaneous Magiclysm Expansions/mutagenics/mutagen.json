@@ -6,8 +6,18 @@
     "name": "orc slurry",
     "description": "A dark green, mutagenic substance, seemingly magical in nature. One may aqquire *unique* mutations from its ingestion.",
     "price": 10000,
-    "color": "light_gray",
     "healthy": 0,
-    "use_action": { "type": "mutagen_iv", "mutation_category": "ORC" }
+    "use_action": { "type": "mutagen_iv", "mutation_category": "THRESH_ORC" }
+  },
+  {
+    "id": "magicmutagen",
+    "copy-from": "mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": "magical serum",
+    "description": "A light blue slurry, seemingly magical in nature. It appears to glow.",
+    "price": 10000,
+    "color": "blue",
+    "healthy": 0,
+    "use_action": { "type": "mutagen_iv", "mutation_category": "MAGIC" }
   }
 ]

@@ -15,8 +15,7 @@
     "ammo": "ammo_type_ninja_shuriken",
     "skill": "smg",
     "range": 12,
-    "ranged_damage": 10,
-    "pierce": 20,
+    "ranged_damage": { "damage_type": "stab", "amount": 10, "armor_penetration": 20 },
     "dispersion": 0,
     "sight_dispersion": 150,
     "recoil": 0,
@@ -42,7 +41,7 @@
     "durability": 200,
     "size": 20,
     "range": 12,
-    "damage_modifier": 80,
+    "ranged_damage": { "damage_type": "stab", "amount": 80 },
     "folded_volume": 19,
     "breaks_into": [
       { "item": "scrap", "count": [ 8, 12 ] },

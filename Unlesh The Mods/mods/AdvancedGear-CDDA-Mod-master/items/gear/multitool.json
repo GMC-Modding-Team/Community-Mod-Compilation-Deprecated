@@ -149,7 +149,7 @@
     "gun_data" : {
       "ammo_effects": ["LASER"],
       "skill": "pistol",
-      "ranged_damage": 10,
+      "ranged_damage": { "damage_type": "stab", "amount": 10 },
       "range": 5,
       "dispersion": 1,
       "sight_dispersion": 4,
