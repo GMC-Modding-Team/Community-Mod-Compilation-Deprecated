@@ -20,7 +20,7 @@
     "color": "brown",
     "location": "limbs",
     "mod_targets": [ "bow", "crossbow", "rifle" ],
-    "damage_modifier": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "range_modifier": 1,
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 2 ] ],
     "flags": [ "IRREMOVABLE" ]
@@ -38,7 +38,7 @@
     "color": "brown",
     "location": "string",
     "mod_targets": [ "bow", "crossbow", "rifle" ],
-    "damage_modifier": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion_modifier": -5,
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 1 ] ],
     "flags": [ "IRREMOVABLE" ]

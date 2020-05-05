@@ -6,8 +6,7 @@ This is the mod I've made a long time ago when I was a mobile CDDA player. It pr
 
 - This mod will only work with the latest experimental of CDDA. Update your client before using this.
 - This mod is WIP and fatal crashes may occur... In very rare occasions.
-- For balancing purposes, do not activate *Stats Through Kills* mod. (if you did, have !!FUN!! getting OP)
-- Turning *Static NPC* on before world creation is recommended.
+- Turning *Static NPC* on before world creation is **required**.
 
 ## Items
 Certain items are obtainable by exploring the world, while some are crafted only. Listed below are the items that *could* be obtained in many areas.
@@ -43,7 +42,7 @@ _Other items remain a secret, giving you the chance to look for them by yourself
 When wandering around, you'll always encounter various monsters that are often deadly and lethal. They sometimes drop quest related items or could also be collected for something else.
 
 ##### Leeches
-* *Leeches* are monsters seen mostly in moist areas like the swamps. They gradually mutate to gain more ability.
+* *Leeches* are monsters seen mostly in moist areas like the swamps. They gradually mutate and gains new abilities.
 * It is the largest faction of the mod.
 
 ##### Elder Zombies
@@ -86,7 +85,7 @@ These are the friendly NPCs that interacts with you.
 Vampire NPCs are beneficial for their eternal experience in combat, survival and communication skills. With wrong doings, these "skills" may test out onto you.
 
 ### Missions
-Every mission is simple and self-explanatory, intended to provide players with RPG-ish feeling. Completing missions will provide features furthermore, such as unlocking new areas and obtaining useful items.
+Every mission is simple and self-explanatory, intended to provide players with RPG-ish feeling. Completing missions will provide features furthermore, such as *unlocking*(revealing) new areas and obtaining useful items.
 
 ## Scenarios
 Scenarios that spices up your taste in starting to venture the world. Currently a stub.
@@ -94,7 +93,7 @@ Scenarios that spices up your taste in starting to venture the world. Currently 
 ##### Vampire Wannabe
 This scenario will put yourself on a test as you start being surrounded by a mob of ravenous zeds outside your LMOE shelter. Below are the listed professions for this.
 * costs: 1 point - *Vampire Freak* starts with low level communication and survival skills, while the rest is similar to the evacuee profession.
-* costs: 12 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and light survivor armor.
+* costs: 12 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and a set of light survivor armor.
 
 Starting your journey with this scenario gives you a point of direction...
 
@@ -142,7 +141,7 @@ Once an item is validated, you can now exchange that item for the said price.
 
 ##### Tokens
 Arcane tokens are exchanged with new items, but these items depend on your days you've survived.
-As of now, tokens are traded only for this mod's few selected items.
+As of now, tokens are traded only for *Vampiric Stuff* mod's few selected items.
 
 *Guys in this mod:*
 
