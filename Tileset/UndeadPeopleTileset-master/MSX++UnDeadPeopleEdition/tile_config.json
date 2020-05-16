@@ -16550,7 +16550,7 @@
           ]
         },
         {
-          "id": "overlay_wielded_explosion",
+          "id": "!explosion",
           "bg": 972,
           "rotates": false,
           "multitile": true,
@@ -16588,7 +16588,7 @@
           ]
         },
         {
-          "id": "overlay_wielded_explosion_medium",
+          "id": "!explosion_medium",
           "bg": 972,
           "rotates": false,
           "multitile": true,
@@ -16626,7 +16626,7 @@
           ]
         },
         {
-          "id": "overlay_wielded_explosion_weak",
+          "id": "!explosion_weak",
           "bg": 23157,
           "rotates": true,
           "multitile": true,
@@ -24848,7 +24848,7 @@
           "fg": 1439
         },		
 		{
-          "id": ["vp_diesel_engine_i6", "vp_diesel_engine_v6", "vp_engine_v6"],
+          "id": ["vp_diesel_engine_i6", "vp_diesel_engine_v6", "vp_engine_v6", "aero_engine_light"],
           "fg": 1439,
           "rotates": true
         },
@@ -51215,11 +51215,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_mittens",
-          "fg": 611,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_gloves_fur",
           "fg": 612,
           "rotates": false
@@ -55745,13 +55740,13 @@
           "rotates": false
         },
         {
-          "id": "pipebomb",
+          "id": ["pipebomb", "bootleg_pipebomb"],
           "fg": 3704,
           "bg": 957,
           "rotates": false
         },
         {
-          "id": "pipebomb_act",
+          "id": ["pipebomb_act", "bootleg_pipebomb_act"],
           "fg": 3705,
           "bg": 957,
           "rotates": false
@@ -59545,12 +59540,6 @@
           "rotates": false
         },
         {
-          "id": "bottle_metal",
-          "fg": 1391,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "canteen_wood",
           "fg": 1400,
           "bg": 957,
@@ -63127,7 +63116,7 @@
           ]
         },
         {
-          "id": "explosion",
+          "id": "!explosion",
           "bg": 972,
           "rotates": false,
           "multitile": true,
@@ -63165,7 +63154,7 @@
           ]
         },
         {
-          "id": "explosion_medium",
+          "id": "!explosion_medium",
           "bg": 972,
           "rotates": false,
           "multitile": true,
@@ -63203,7 +63192,7 @@
           ]
         },
         {
-          "id": "explosion_weak",
+          "id": "!explosion_weak",
           "bg": 23157,
           "rotates": true,
           "multitile": true,
@@ -64129,7 +64118,15 @@
         },
         {
           "id": "weather_rain_drop",
-          "bg": 983,
+		  "fg":[
+            { "weight":11, "sprite":983},
+            { "weight":11, "sprite":36165},
+            { "weight":11, "sprite":36166},
+            { "weight":11, "sprite":36167},
+            { "weight":11, "sprite":36168},
+            { "weight":11, "sprite":36169}
+            ],
+          "bg": 0,
           "rotates": false
         },
         {
@@ -108216,6 +108213,45 @@
             }
 			],
 			"rotates": true
+            },
+			        {
+          "id": ["t_pit_corpsed"],
+          "fg": 20836,
+		  "bg": 1012,
+		  "multitile": true,
+          "additional_tiles": [ 
+            {
+              "id": "center",
+              "fg": 20836,
+			  "bg": 1012
+            },		  
+           {
+              "id": "corner",
+              "fg": [20837, 20838, 20839, 20840],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [20841, 20842, 20843, 20844],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [20845, 20846],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [20847, 20848, 20849, 20850],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 20851,
+			  "bg": 1012
+            }
+			],
+			"rotates": true
             }
 			
   ]
@@ -117789,7 +117825,7 @@
           "rotates": false
         },
 		{
-          "id": "spurge_flower",
+          "id": ["spurge_flower", "spurge"],
           "fg": 22423,
           "bg": 0,
           "rotates": false
@@ -119213,7 +119249,7 @@
           "fg": 22734
         },			
 		{
-          "id": "lotus_flower",
+          "id": ["lotus_flower", "lotus"],
           "fg": 22735
         },		
         {
@@ -126534,19 +126570,19 @@
           "fg": 24054
         },	
 		{
-          "id": "makeshift_grenade",
+          "id": ["makeshift_grenade", "bootleg_grenade"],
           "fg": 24055
         },	
 		{
-          "id": "overlay_wielded_makeshift_grenade",
+          "id": ["overlay_wielded_makeshift_grenade", "overlay_wielded_bootleg_grenade"],
           "fg": 24055
         },	
 		{
-          "id": "makeshift_grenade_act",
+          "id": ["makeshift_grenade_act", "bootleg_grenade_act"],
           "fg": 24056
         },	
 		{
-          "id": "overlay_wielded_makeshift_grenade_act",
+          "id": ["overlay_wielded_makeshift_grenade_act", "overlay_wielded_bootleg_grenade_act"],
           "fg": 24056
         },	
 		{
@@ -128768,7 +128804,7 @@
 		{
           "id": "mon_mutant_experimental",
           "fg": 24355,
-		  "bg": 957,
+		  "bg": 967,
           "rotates": false
         },	
 		{
@@ -145079,7 +145115,7 @@
 		  "bg": 0,
           "rotates": false
         },{
-          "id": ["t_reinforced_quadruple_pane_glass_open"],
+          "id": ["t_reinforced_quadruple_pane_glass_open", "t_reinforced_quadruple_double_pane_glass_with_curtain_open_window_closed"],
           "fg": 27519,
 		  "bg": 0,
           "rotates": false
@@ -148063,11 +148099,22 @@
           "fg": 35917,
           "bg": 0,
           "rotates": false
+        },{
+          "id": "bottle_glass",
+          "fg": 35918,
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": "bottle_plastic",
+          "fg": 35925,
+          "bg": 0,
+          "rotates": false
         },
 		{
-          "id": ["fd_fire"],
+          "id": ["!fd_fire"],
           "fg": 35834,
 		  "bg": 0,
+		  "animated": true,
 		  "multitile": true,
           "additional_tiles": [ 
 			{
@@ -148097,7 +148144,11 @@
             },
             {
               "id": "unconnected",
-              "fg": 35834,
+			  
+          "fg": [
+            { "weight":100, "sprite":35834},
+            { "weight":100, "sprite":36027}
+            ],
 			  "bg": 0
             }
 			],
@@ -148637,13 +148688,81 @@
         },
 		{
           "id": ["mon_turret_rifle"],
-          "fg": 36022,
+		  "animated": true,
+          "fg": [
+            { "weight":100, "sprite":36022},
+            { "weight":100, "sprite":36027}
+            ],
           "bg": 0,
           "rotates": false
-        }
+        },
+		{
+          "id": ["mon_turret_bmg"],
+		  "animated": true,
+          "fg": [
+            { "weight":100, "sprite":36023},
+            { "weight":100, "sprite":36028}
+            ],
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["mon_crows_m240"],
+		  "animated": true,
+          "fg": [
+            { "weight":100, "sprite":36024},
+            { "weight":100, "sprite":36029}
+            ],
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["t_backboard_in"],
+          "fg": 36025,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["t_backboard"],
+          "fg": 36026,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["fd_fire"],
+		  "animated": true,
+          "fg": [
+            { "weight":11, "sprite":35834},
+            { "weight":11, "sprite":35919},
+            { "weight":11, "sprite":35920},
+            { "weight":11, "sprite":35921},
+            { "weight":11, "sprite":35922},
+            { "weight":11, "sprite":35923},
+            { "weight":11, "sprite":35924}
+            ],
+		  "bg": 0,
+
+		  "rotates": false
+			},
+		{
+          "id": ["fd_fire_vent"],
+		  "animated": true,
+          "fg": [
+            { "weight":11, "sprite":36030},
+            { "weight":11, "sprite":36031},
+            { "weight":11, "sprite":36032},
+            { "weight":11, "sprite":36033},
+            { "weight":11, "sprite":36034},
+            { "weight":11, "sprite":36035},
+            { "weight":11, "sprite":36036}
+            ],
+		  "bg": 0,
+
+		  "rotates": false
+			}
    
    ] 
-    },
+    }, 
 	{
 		"file": "19_tiles3_32x32_36077-41276.png", 
 		"tiles":
@@ -148739,6 +148858,349 @@
               "fg": 36096
             }
           ]
+        },{
+          "id": "bat_nerf",  
+          "fg": 36097,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "overlay_wielded_bat_nerf",  
+          "fg": 36098,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "makeshift_hose",  
+          "fg": 36099,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "shuttlecock",  
+          "fg": 36100,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "survivalflavor_book",  
+          "fg": 36101,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "sweets_book",  
+          "fg": 36102,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "vinegar_maker",  
+          "fg": 36103,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "winemaking_beginner",  
+          "fg": 36104,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "t_metal_grate_window_with_curtain_noglass",  
+          "fg": 36105,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": "t_metal_grate_window_with_curtain_open_noglass",  
+          "fg": 36106,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["90two", "90two40"],
+          "fg": 36107,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_90two", "overlay_wielded_90two40"],  
+          "fg": 36108,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["90two40mag"],  
+          "fg": 36109,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["aksemi"],  
+          "fg": 36110,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_aksemi"],  
+          "fg": 36111,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["akdrum75"],  
+          "fg": 36112,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["akmag40"],  
+          "fg": 36113,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["akmag30"],  
+          "fg": 36114,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["akmag20"],  
+          "fg": 36115,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["akmag10"],  
+          "fg": 36116,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["augmag_10rd"],  
+          "fg": 36117,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["augmag_30rd", "augmag_42rd"],  
+          "fg": 36118,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["augmag_100rd"],  
+          "fg": 36119,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_grenade"],  
+          "fg": 36120,
+		  "bg": 0,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_grenade_act"],  
+          "fg": 36121,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_pipebomb", "overlay_wielded_bootleg_pipebomb"],
+          "fg": 36122,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_wielded_pipebomb_act", "overlay_wielded_bootleg_pipebomb_act"],
+          "fg": 36123,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["explosion"],
+          "bg": 972,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "corner",
+              "fg": [36125, 36126, 36127, 36128],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [36129, 36130],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": [36143],
+              "bg": 0
+            }
+          ]
+        },
+        {
+          "id": ["explosion_medium"],
+          "bg": 972,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "corner",
+              "fg": [36131, 36132, 36133, 36134],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [36135, 36136],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": [36143],
+              "bg": 0
+            }
+          ]
+        },
+        {
+          "id": ["explosion_weak"],
+          "bg": 972,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "corner",
+              "fg": [36137, 36138, 36139, 36140],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [36141, 36142],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": [36143],
+              "bg": 0
+            }
+          ]
+        },
+		{
+          "id": ["bone_knife"],
+          "fg": 36143,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_wielded_bone_knife"],
+          "fg": 36144,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["bullwhip_razor"],
+          "fg": 36145,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_wielded_bullwhip_razor"],
+          "fg": 36146,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["knife_baselard"],
+          "fg": 36147,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_wielded_knife_baselard"],
+          "fg": 36148,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["machete_gimmick"],
+          "fg": 36149,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_wielded_machete_gimmick"],
+          "fg": 36150,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["box_tea"],
+          "fg": 36151,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["tea_bag"],
+          "fg": 36152,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["herbal_tea_bag"],
+          "fg": 36153,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["factory_handguard"],
+          "fg": 36154,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["mon_zombie_necro_boomer"],
+          "fg": 36155,
+          "bg": 967,
+          "rotates": false
+        },
+        {
+          "id": ["boots_chitin"],
+          "fg": 36156,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["bell_pepper"],
+          "fg": 36157,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["book_nonf_soft_mechnic_hotrod"],
+          "fg": 36158,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["book_nonf_soft_speech_naillaw"],
+          "fg": 36159,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["book_nonf_zine_news_anlyst"],
+          "fg": 36159,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["cooked_bell_pepper"],
+          "fg": 36160,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["cooked_bell_pepper"],
+          "fg": 36161,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["seed_bell_pepper"],
+          "fg": 36162,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "bottle_metal",
+          "fg": 36163,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_mittens",
+          "fg": 36164,
+          "rotates": false
         }
 	]
 	}  
