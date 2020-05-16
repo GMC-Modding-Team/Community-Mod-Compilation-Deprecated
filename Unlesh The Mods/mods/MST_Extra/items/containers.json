@@ -23,8 +23,6 @@
         "max_contains_weight": "3 kg"
       }
     ],
-    "seals": true,
-    "watertight": true,
     "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
     "flags": [ "WAIST" ]
   },
@@ -49,8 +47,6 @@
         "max_contains_weight": "1 kg"
       }
     ],
-    "seals": true,
-    "watertight": true,
     "unseals_into": "null",
     "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ]
   },
@@ -63,8 +59,16 @@
     "description": "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly with wax, to preserve contents from rot.",
     "symbol": ")",
     "color": "brown",
-    "seals": false,
-    "preserves": true,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "1 kg",
+        "sealed_data": { "spoil_multiplier": 0.0 }
+      }
+    ],
     "unseals_into": "jar_clay"
   },
   {
@@ -88,7 +92,6 @@
         "max_contains_weight": "14 kg"
       }
     ],
-    "watertight": true,
     "qualities": [ [ "CONTAIN", 1 ] ]
   }
 ]
