@@ -6,16 +6,15 @@
     "description": "A flat, rooftop, covered in gorey flesh.",
     "symbol": ".",
     "color": "red",
-    "//": "Flesh version of terrains has +3 move cost.",
+    "note": "Flesh version of terrains has +3 move cost.",
     "move_cost": 5,
     "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": {
-      "//": "Flesh terrains' str_min and _max has +5 bash resistance.",
+      "note": "Flesh terrains' str_min and _max has +5 bash resistance.",
       "str_min": 35,
       "str_max": 215,
       "sound": "crash!",
       "sound_fail": "splats!",
-      "//": "Flesh terrains goes back to normal upon destruction.",
       "ter_set": "t_flat_roof"
     }
   },
@@ -179,7 +178,7 @@
     "flags": [ "TRANSPARENT", "GOES_UP", "INDOORS", "PLACE_ITEM", "S_FLESH" ]
   },
   {
-    "//": "Since terrains are not capable to act as emitters, we use an invincible, but flammable furniture for the solution.",
+    "note": "Since terrains are not capable to act as emitters, we use an invincible, but flammable furniture for the solution.",
     "type": "furniture",
     "id": "f_secro_fleshknot_emitter",
     "name": "flesh wart",
@@ -192,7 +191,7 @@
     "flags": [ "TRANSPARENT", "FLAMMABLE", "NOCOLLIDE", "S_FLESH", "EMITTER" ]
   },
   {
-    "//": "Starting here are the furnitures and terrains seen in flesh forest.",
+    "note": "Starting here are the furnitures and terrains seen in flesh forest.",
     "type": "terrain",
     "id": "t_secro_dirt_flesh",
     "name": "fleshed dirt",
@@ -340,7 +339,7 @@
     "bash": { "str_min": 69, "str_max": 165, "sound": "smash!", "sound_fail": "splat.", "ter_set": "f_boulder_large" }
   },
   {
-    "//": "Flesh forest's terrestrial body parts. Here we encounter LOTS of FF's abominations.",
+    "note": "Flesh forest's terrestrial body parts. Here we encounter LOTS of FF's abominations.",
     "type": "terrain",
     "id": "t_secro_flesh",
     "name": "flesh",
@@ -480,7 +479,7 @@
     "bash": { "str_min": 7, "str_max": 14, "sound": "splook!", "sound_fail": "splat!", "ter_set": "t_secro_flesh" }
   },
   {
-    "//": "Another type of floor augmented with traps by the flesh.",
+    "note": "Another type of floor augmented with traps by the flesh.",
     "looks_like": "t_secro_flesh",
     "type": "furniture",
     "id": "f_secro_flesh",
@@ -577,7 +576,7 @@
     "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "FC_EXIT" ]
   },
   {
-    "//": "Destroy these to prevent them from spawning veinstalks.",
+    "note": "Destroy these to prevent them from spawning veinstalks.",
     "type": "furniture",
     "id": "f_secro_veinstalk",
     "name": "veinbush",
@@ -766,7 +765,7 @@
     "bash": { "sound": "crash!", "ter_set": "t_thconc_floor", "str_min": 105, "str_max": 405, "str_min_supported": 110 }
   },
   {
-    "//": "These are used in flesh cities to keep players from climbing a building (rooftops are complicated)",
+    "note": "These are used in flesh cities to keep players from climbing a building (rooftops are complicated)",
     "type": "terrain",
     "id": "t_secro_ladder_broken_flesh",
     "name": "fleshed ladder",

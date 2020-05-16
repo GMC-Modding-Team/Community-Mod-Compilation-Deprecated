@@ -1,6 +1,6 @@
 [
   {
-    "//": "Aggro-type zed. Shares similarities to the titan, but this type can go charging into its target in one turn and gain combat bonuses for doing so.",
+    "note": "Aggro-type zed. Shares similarities to the titan, but this type can go charging into its target in one turn and gain combat bonuses for doing so.",
     "id": "mon_zombie_charger",
     "type": "MONSTER",
     "name": "charger zombie",
@@ -25,7 +25,6 @@
     "melee_cut": 0,
     "armor_bash": 16,
     "armor_cut": 2,
-    "//": "Charger deals bashing damage to itself and the creature who block its path. And yes, it is susceptible to bugs.",
     "special_attacks": [
       {
         "type": "spell",

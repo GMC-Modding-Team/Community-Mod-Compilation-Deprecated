@@ -1,0 +1,95 @@
+[
+  {
+    "id": "secro_power_armor_atk",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "Secronom exoskeleton \"O\"" },
+    "description": "A fully modified military power armor suitable for human... and the likes. Made specially for Secronom project's BOW specimens, but later on redesigned to fit the wearer's anatomy. Augmented by internal nerve stimulators, the Secronom exoskeleton type \"O\" is a lightweight and highly resistant suit that can deflects most projectile and impacts.\n\nSecronom exoskeleton type \"O\" provides:\n<color_white>Dexterity: <color_light_green>+2</color>\nDodge: <color_light_green>+2</color>\nAttack speed: <color_light_green>+5%</color></color>",
+    "weight": "12670 g",
+    "volume": "15 L",
+    "price": 11500000,
+    "price_postapoc": 40000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "power_armor_light",
+    "color": "light_red",
+    "covers": [ "TORSO", "ARMS", "HANDS", "LEGS", "FEET", "HEAD", "EYES", "MOUTH" ],
+    "coverage": 100,
+    "encumbrance": 40,
+    "storage": "4 L",
+    "warmth": 60,
+    "material_thickness": 10,
+    "environmental_protection": 16,
+    "power_armor": true,
+    "qualities": [ [ "GLARE", 1 ] ],
+    "use_action": { "type": "ups_based_armor", "activate_msg": "Your power armor engages." },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "DEXTERITY", "add": 1 },
+            { "value": "BONUS_DODGE", "add": 1 },
+            { "value": "ATTACK_SPEED", "multiply": 0.025 }
+          ]
+        }
+      ]
+    },
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "WATCH", "THERMOMETER", "SUN_GLASSES" ]
+  },
+  {
+    "id": "secro_power_armor_flesh",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "flesh vessel" },
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel\" takes advantage of the flesh's adaptive cell structure and its capability to respond from one's mind, but due to its extreme instability, the suit requires an additional module that prevents the flesh from slowly devouring its user. Limited in interface features, it excels on dealing any situation thanks to its morphing capability.\n\nSecronom exoskeleton type \"Vessel\" provides:\n<color_white>Strength: <color_light_green>+4</color>\nStamina regeneration: <color_light_green>+3%</color>\nMaximum health: <color_light_green>+5%</color>\nMetabolism: <color_red>+10%</color></color>",
+    "weight": "18400 g",
+    "volume": "21 L",
+    "price": 32300000,
+    "price_postapoc": 300000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "flesh" ],
+    "symbol": "[",
+    "looks_like": "power_armor_light",
+    "color": "light_red",
+    "covers": [ "TORSO", "ARMS", "HANDS", "LEGS", "FEET", "HEAD", "EYES", "MOUTH" ],
+    "coverage": 100,
+    "encumbrance": 50,
+    "storage": "10 L",
+    "warmth": 30,
+    "material_thickness": 32,
+    "environmental_protection": 8,
+    "power_armor": true,
+    "charges_per_use": 10,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "secro_power_armor_flesh_morph_fite_blades_give",
+      "no_fail": true,
+      "need_worn": true,
+      "level": 0
+    },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": 2 },
+            { "value": "REGEN_STAMINA", "multiply": 0.015 },
+            { "value": "MAX_HP", "multiply": 0.025 },
+            { "value": "METABOLISM", "multiply": 0.05 }
+          ],
+          "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] } ] }
+        }
+      ]
+    },
+    "ammo": "secro_flesh",
+    "magazines": [ [ "secro_flesh", [ "secro_flesh_container" ] ] ],
+    "magazine_well": 1,
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD" ]
+  }
+]
