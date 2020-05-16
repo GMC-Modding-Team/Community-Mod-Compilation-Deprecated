@@ -5,7 +5,7 @@ Its mod thread is at the [official forums](https://discourse.cataclysmdda.org/t/
 Mod made from various references, mixed up with random spices! A mod I've created with its original goal set to imitate the *Dead Frontier*'s zombies... Right now, **Secronom** (name referenced from the game) is a creature mod, with vast assortments of monsters in its arsenal. If you're up for an action-packed playthrough or just loves beating weird craps, activate this mod and see how your dark days get even darker!
 
 - This mod will only work with the latest experimental of CDDA. Update your client before using this.
-- This mod is stable. Submit an issue if you encounter a bug.
+- This mod is stable. There are no known bugs that can cause fatal error, unless a recent update on CDDA broke something. Please notify me of that.
 
 ## Zombies
 The secronom's main feature - the zeds. They range from weak up to strong variety of them.
@@ -155,8 +155,8 @@ Bio-Organic-Weapons. These are the zombies set for warring purposes, contained w
 * **Drexx**
 * **Epixo**
 
-## Abberations
-Vile creatures that are rarely sighted in the wilderness.
+## Abberations/Enigmas
+Vile creatures that are rarely sighted in the wilderness and/or certain locations.
 
 * _**Ayenel**_ **!** - A towering abomination, with maximized range of vision. It excels in combat abilities and a baneful eye capable of disrupting its target.
 
@@ -167,13 +167,11 @@ Vile creatures that are rarely sighted in the wilderness.
 * _**Shapeshifter**_ **!** - An overwhelming apparition, specialized in deception. It takes form of any humanoid creature, mostly those who are weak.
 
 ## Unknown
-Extraterrestrial creatures from uncharted worlds.
+Creatures of unknown races roaming the world.
 
-* _**???**_ **~** - A ripple of space and time. If disturbed, it explodes like a MININUKE in its collapse, which creates a portal that leads the extraterrestrials into the world. (Alien invasion, in other words)
+* _**Carrion**_ **!** - Odd undead creatures with adaptive, necrotic body. Travels by group, and swarm on feasts.
 
-* _**Carrion**_ **!** - Carrions are undeads that lived from their own ruined world. With no sustenance, they travel between dimensions to sate their hunger.
-
-* _**Vector**_ **~** - Vectors are beautiful plant creatures that tends to spread and dominate the living by infecting them with their parasitic dusts.
+* _**Vector**_ **~** - Beautiful plant-like organisms that tends to spread and dominate the living by infecting them with their parasitic dusts.
 
 ## Robots
 Corrupted pieces of machinery on their goal for eradication.
@@ -202,6 +200,7 @@ The lab that's been the cause of spreading the newfound mutations throughout the
 ##### Exclusive Monsters:
 * _**Failed Mutants**_ - Humanoid test subjects that suffered from intense mutation. Their body alteration serves no purpose, and are considered as trash.
 * _**Bio-Organic-Weapons**_ - Test subjects, with successful mutations that are built for combats. These zombies are rare, and few wears power armors as their battle suit.
+* _**Enigmas**_ - Extemely rare mutants with disastrous abilities.
 * _**Secronom Dragon**_ - A massive reptilian creature made by the SS lab, whose purpose is to perform widespread eradication of undead... and living. It is locked beneath the facility.
 
 ##### Loots:
@@ -258,23 +257,23 @@ A city full of zeds, now overrun by the flesh. The flesh is similar to the fores
 * **Compact Environment** - Lingers inside the flesh tower.
 
 # Mutations
-Secronom's mutation branch (the experimental) are based mostly on a secronom creature's unique appearance/abilities such as titan's bone plates. Once you reach the threshold, you'll be able to acquire a core mutation that serves as an upgrade to your existing mutation. They might also have an ability available for activation under the **spellcasting** tab.
+Secronom's mutation branch (the experimental) are based mostly on a secronom creature's unique appearance/abilities. Once you reach the threshold, you'll be able to acquire a _**core mutation**_ that serves as an upgrade to your existing mutation, only if the mutation is available to do so. They might also have an ability available for activation under the **spellcasting** tab.
 
-Currently, we have 4 distinct mutations, along with their evolution:
+Currently, we have a few distinct mutations, along with their evolution:
 
 #### Tendrils
 Based from the tendril zombie. Replaces the player's hands into a pair of tendrils.
 
 ###### Tier 2
-* **Thick Tendrils**
-* **Tendricles**
+* **Thick Tendrils**!
+* **Tendricles**!
 
 #### Bone Blade
 Based from the blade zombie. Replaces the player's left hand into a blunt and bulky bone blade.
 
 ###### Tier 2
-* **Sharpened Bone Blade**
-* **Serrated Bone Blade**
+* **Sharpened Bone Blade**!
+* **Serrated Bone Blade**!
 
 #### Irregular Bone Outgrowths
 Based from the titan. The bone outgrowths act as a defensive armor that can harm attacking foes.
@@ -296,6 +295,31 @@ Based from the spider zombie. Grows 2 additional pairs of arms that act as dupli
 ###### Tier 3
 * **Superior Arachnid Limbs**
 
+#### Lushen Tongue
+Based from the licker zombie. Causes your tongue to mutate into a whip-like weapon.
+
+###### Tier 2
+* **Callous Tongue**
+* **Succulent Tongue**
+* **Malformed Tongue**
+
+###### Tier 3
+* **Tongue Hypertrophy**!
+* **Tongue Lasher**!
+
+#### Shoulder Bumps
+
+###### Tier 2
+* **Membranous Wings**
+* **Skeletal Wings**
+* **Fleshed Mantle**
+
+#### Tumors
+
+###### Tier 2
+* **Eyegrowths**
+* **Writhing Proboscides**
+
 # NPCs
 These NPCs are the remnants of the facility. They take refuge in the underground bunker - a small, yet highly defended area. Interactions with them can provide you with great advantage in survival using their advanced utilities.
 
@@ -306,7 +330,8 @@ Listed below are few unique features available only when you tend on their needs
 # Credits
 Great people who contributed to this ever-expanding mod :>
 
-* **SomeDeadGuy** - He drew everything in this mod and made it compatible for the UndeadPeople tileset!
+* **SomeDeadGuy** - He drew everything in this mod and made it compatible for the UndeadPeople tileset.
 * **RickyVanz** - His 2 new sci-fi guns eased the game a bit.
 * **ephemeralstoryteller** - She fixed the color bug when I'm not around.
 * **Kenan2000** - He helped with some bugfixes.
+* **The Go-Goat** - She shared some ideas with mutations.

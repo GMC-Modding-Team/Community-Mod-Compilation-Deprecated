@@ -2,18 +2,29 @@ Secronom V1.9 - Axema Vales (author)
 
 https://discourse.cataclysmdda.org - CDDA official forums
 
-  *This README.txt is my changelog, so what is done will be recorded and released depending on accumulated progress.  
+  *This README.txt act as my changelog.
 
 
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes)
 	
---> V1.9 - Focuses on improving the secronom lab by adding NPCs and expanding the facility. Also some reworks to experimental mutation branch. <--
+--> V1.9 - Focuses on improving the secronom lab by adding NPCs and expanding the facility. Also focuses on creating power armors, with different functions. <--
 
 #  TILESET REWORKS (if possible)
 
 +  SECRONOM BUNKER (a small underground fortress that's connected to the lab)
 +  NPCS (they provide a subtle lore and few other features)
++  EXPERIMENTAL MUTATIONS (3 new mutation paths)
++  SECRONOM LAB (more rooms)
++  SECRONOM EXOSKELETONS (2 new power armors)
++  POWER ARMOR MODULES (module implants for power armor augmentations)
++  CRIMSON HORROR (fleshlings)
++  VESSEL MORPH/FORM (flesh vessel abilities)
+
+~  CITY ZED REBALANCES (tweaked the stats of tendril, blade and spider zombies, for early game balance)
+~  SHAPESHIFTER REWORKS (now much more deadly with improved abilities)
+
+-  UNKNOWN RACES REWORK (removed the wandering portal "???". Unknown creatures now spawn in the wild)
 
 
 
@@ -27,7 +38,7 @@ https://discourse.cataclysmdda.org - CDDA official forums
 
 +  WANDERING ABERRATION (shapeshifter)
 +  CRIMSON HORROR (veinstalk)
-+  EXPERIMENTAL MUTATIONS (a new mutation branch)
++  EXPERIMENTAL MUTATIONS (new, early mutation paths)
 +  FLESH ZOMBIES (complete expansion of flesh zombie variants for the flesh city. Land wildlife included)
 
 ~  SECRONOM LAB (now has a very rare, exclusive mutagen)

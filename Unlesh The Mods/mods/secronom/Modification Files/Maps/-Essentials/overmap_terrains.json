@@ -21,6 +21,7 @@
     "name": "underground secronom lab",
     "sym": "L",
     "color": "light_gray",
+    "flags": ["NO_ROTATE"],
     "see_cost": 5
   },
   {
@@ -723,7 +724,7 @@
     "see_cost": 10
   },
   {
-    "//": "The buildings in Flesh City does not show their original symbols, rendering them unknown from the overmap (but at the center of the city is sure to be the commercial structures)",
+    "note": "The buildings in Flesh City does not show their original symbols, rendering them unknown from the overmap (but at the center of the city is sure to be the commercial structures)",
     "type": "overmap_terrain",
     "id": "s_house_flesh",
     "name": "fleshed structure",
@@ -977,5 +978,49 @@
     "sym": ".",
     "color": "brown",
     "see_cost": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "SecronomSSLab_enigmaspecs",
+    "name": "underground secronom lab",
+    "sym": "L",
+    "color": "light_gray",
+    "flags": ["NO_ROTATE"],
+    "see_cost": 5
+  },
+  {
+    "id": "vector_forest_curve",
+    "type": "overmap_terrain",
+    "name": "forest",
+    "sym": "F",
+    "color": "green",
+    "spawns": { "group": "GROUP_VECTOR_BIOME", "population": [ 1, 2 ] },
+    "see_cost": 10
+  },
+  {
+    "id": "vector_forest_edge",
+    "type": "overmap_terrain",
+    "name": "forest",
+    "sym": "F",
+    "color": "green",
+    "spawns": { "group": "GROUP_VECTOR_BIOME", "population": [ 1, 2 ] },
+    "see_cost": 10
+  },
+  {
+    "id": "vector_forest_center",
+    "type": "overmap_terrain",
+    "name": "forest",
+    "sym": "F",
+    "color": "green",
+    "spawns": { "group": "GROUP_VECTOR_BIOME", "population": [ 1, 2 ] },
+    "see_cost": 10
+  },
+  {
+    "id": "carrion_forest",
+    "type": "overmap_terrain",
+    "name": "forest",
+    "sym": "F",
+    "color": "green",
+    "see_cost": 10
   }
 ]

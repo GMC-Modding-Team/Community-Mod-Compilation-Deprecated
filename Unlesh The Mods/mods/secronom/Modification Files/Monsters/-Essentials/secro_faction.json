@@ -15,7 +15,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "fleshweaver",
-    "//": "Only befriends natural (those who are composed of pure flesh) lifeforms like you and wild animals.",
+    "note": "Only befriends natural (those who are composed of pure flesh) lifeforms like you and wild animals.",
     "friendly": [ "human", "animal", "insect" ],
     "neutral": [ "zombie", "zombie_aquatic", "blob", "nether", "bot", "plant" ]
   },
@@ -55,7 +55,7 @@
     "friendly": [ "secro_flesh2" ]
   },
   {
-    "//": "For veinstalks only.",
+    "note": "For veinstalks only.",
     "type": "MONSTER_FACTION",
     "name": "secro_flesh2",
     "by_mood": "secro_flesh"

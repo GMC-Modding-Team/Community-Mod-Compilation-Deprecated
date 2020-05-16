@@ -1,6 +1,6 @@
 [
   {
-    "//": "All crimson horrors are immune to stun and are resistant to impact damage, so beating them with blunt weapons aren't effective.",
+    "note": "All crimson horrors are immune to stun and are resistant to impact damage, so beating them with blunt weapons aren't effective.",
     "id": "mon_sflesh_surface_spawner",
     "type": "MONSTER",
     "name": "eye sprout",
@@ -26,7 +26,7 @@
       {
         "type": "spell",
         "spell_data": { "id": "mon_sflesh_surface_spawner_target" },
-        "//": "Since the player is walking on the flesh, this spell's cooldown should be VERY high.",
+        "note": "Since the player is walking on the flesh, this spell's cooldown should be VERY high.",
         "cooldown": 225,
         "monster_message": "<color_light_red>%1$s writhes, sending crimson horrors to confront %3$s!</color>"
       }
@@ -152,8 +152,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "NOHEAD", "STUN_IMMUNE", "IMMOBILE" ]
   },
   {
-    "//": "Destroying the sack is better than letting it hatch (killing itself).",
-    "//": "Destroying makes it spawn 2 parasytes, but if it hatches, it can spawn up to 5 parasytes and will spawn more if you don't bash the hatched flesh sack.",
+    "note": "Destroying the sack is better than letting it hatch (killing itself). Destroying makes it spawn 2 parasytes, but if it hatches, it can spawn up to 5 parasytes and will spawn more if you don't bash the hatched flesh sack.",
     "id": "mon_sflesh_sack",
     "type": "MONSTER",
     "name": "flesh sack",
@@ -193,7 +192,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "NOHEAD", "IMMOBILE", "PACIFIST" ]
   },
   {
-    "//": "Face hugger from the alien movie!",
+    "note": "Face hugger from the alien movie!",
     "id": "mon_sflesh_parasyte",
     "type": "MONSTER",
     "name": "parasyte",
@@ -221,8 +220,7 @@
     "flags": [ "SEES", "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "CLIMBS", "PATH_AVOID_DANGER_2" ]
   },
   {
-    "//": "Here are the crimson horrors that are encountered inside the flesh.",
-    "//": "Vein that deals cutting damage.",
+    "note": "Vein that deals cutting damage.",
     "id": "mon_sflesh_vbeast",
     "type": "MONSTER",
     "name": "vein beast",
@@ -260,7 +258,7 @@
     "flags": [ "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "CLIMBS" ]
   },
   {
-    "//": "Vein that deals bashing damage.",
+    "note": "Vein that deals bashing damage.",
     "id": "mon_sflesh_vrumbler",
     "type": "MONSTER",
     "name": "rumbler",
@@ -291,7 +289,7 @@
     "flags": [ "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "CLIMBS" ]
   },
   {
-    "//": "Like flesh sacks, but destroying or letting it hatch results the same.",
+    "note": "Like flesh sacks, but destroying or letting it hatch results the same.",
     "id": "mon_sflesh_taken",
     "type": "MONSTER",
     "name": " taken",
@@ -332,8 +330,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "IMMOBILE", "NOHEAD", "PACIFIST" ]
   },
   {
-    "//": "This is the boss. It regenerates super fast, converts nearby terrains into biohazards, calls out new takens and will try to devour the target by suppressing them with the walls!",
-    "//": "Killing it won't bring the flesh terrains back to normal, but it is the queen, so crimson horrors will cease to exist... hopefully.",
+    "note": "This is the boss. It regenerates super fast, converts nearby terrains into biohazards, calls out new takens and will try to devour the target by suppressing them with the walls! Killing it won't bring the flesh terrains back to normal, but it is the queen, so crimson horrors will cease to exist... hopefully.",
     "id": "mon_sflesh_flesh",
     "type": "MONSTER",
     "name": "flesh",
@@ -416,7 +413,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "NOHEAD", "IMMOBILE", "PACIFIST" ]
   },
   {
-    "//": "These walls will make obstacles as long as they live. They remain for 10-20 turns!",
+    "note": "These walls will make obstacles as long as they live. They remain for 10-20 turns!",
     "id": "mon_sflesh_flesh_wall",
     "type": "MONSTER",
     "name": "wall of flesh",
@@ -457,7 +454,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "NOHEAD", "STUN_IMMUNE", "PACIFIST" ]
   },
   {
-    "//": "A boss that resides in cities. It has weaker health and regenerates lesser, but it can attack directly with tentacles, which deals moderate to massive damage.",
+    "note": "A boss that resides in cities. It has weaker health and regenerates lesser, but it can attack directly with tentacles, which deals moderate to massive damage.",
     "id": "mon_sflesh_flesh_city",
     "looks_like": "mon_sflesh_flesh",
     "type": "MONSTER",
@@ -500,7 +497,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "NOHEAD", "IMMOBILE", "PACIFIST", "QUEEN" ]
   },
   {
-    "//": "This one creates a wall once then dies!",
+    "note": "This one creates a wall once then dies!",
     "id": "mon_sflesh_flesh_wall_city",
     "type": "MONSTER",
     "name": "wall of flesh",
@@ -541,7 +538,7 @@
     "flags": [ "SEES", "WARM", "POISON", "NO_BREATHE", "NOHEAD", "STUN_IMMUNE", "PACIFIST" ]
   },
   {
-    "//": "Killing this monster will split flesh zombie(s), up to 9 of them! (3x3 tile from the location)",
+    "note": "Killing this monster will split flesh zombie(s), up to 9 of them! (3x3 tile from the location)",
     "id": "mon_sflesh_zombie_turret",
     "type": "MONSTER",
     "name": "flesh heap",
@@ -579,7 +576,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "FILTHY" ]
   },
   {
-    "//": "Veinstalks pop up randomly in fleshed locations, and if possible, converts nearby tiles into flesh. They sprout back (dies after a minute) so don't worry about them devouring your world.",
+    "note": "Veinstalks pop up randomly in fleshed locations, and if possible, converts nearby tiles into flesh. They sprout back (dies after a minute) so don't worry about them devouring your world.",
     "id": "mon_sflesh_veinstalk",
     "type": "MONSTER",
     "name": "veinstalk",
@@ -617,7 +614,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "FILTHY" ]
   },
   {
-    "//": "Short-lived, harmless monster passively spawned by veinstalks, which then gets targeted for activation of its spell (incase nothing else is seen).",
+    "note": "Short-lived, harmless monster passively spawned by veinstalks, which then gets targeted for activation of its spell (incase nothing else is seen).",
     "id": "mon_sflesh_veinstalk_crawly",
     "type": "MONSTER",
     "name": "creeping tendrils",
@@ -642,5 +639,181 @@
     "harvest": "zombie",
     "death_function": [ "MELT" ],
     "flags": [ "WARM", "POISON", "NO_BREATHE", "IMMOBILE", "PACIFIST", "FILTHY" ]
+  },
+  {
+    "note": "Small, random pieces of crap from infected creatures!",
+    "id": "mon_sflesh_fleshling_tiny",
+    "type": "MONSTER",
+    "name": "fleshling",
+    "description": "A tiny slab of meat that moves by either hopping or slithering through the ground. Attracted to flesh.",
+    "default_faction": "secro_flesh2",
+    "bodytype": "blob",
+    "species": [ "SFLESH", "ABERRATION" ],
+    "volume": "200 ml",
+    "weight": 30,
+    "hp": 10,
+    "speed": 75,
+    "material": [ "flesh" ],
+    "symbol": "◇",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_sflesh_fleshling_tiny_devour" },
+        "cooldown": 50,
+        "monster_message": "<color_magenta>%1$s devours %3$s...</color>",
+        "self": true
+      }
+    ],
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "ABSORBS", "PACIFIST" ]
+  },
+  {
+    "id": "mon_sflesh_fleshling_smol",
+    "type": "MONSTER",
+    "name": "small flesh blob",
+    "description": "A small slab of meat that's larger than a basketball. Will try to devour anything nearby.",
+    "default_faction": "secro_flesh2",
+    "bodytype": "blob",
+    "species": [ "SFLESH", "ABERRATION" ],
+    "volume": "1250 ml",
+    "weight": 170,
+    "hp": 20,
+    "speed": 65,
+    "material": [ "flesh" ],
+    "symbol": "◈",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 3,
+    "melee_cut": 3,
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_sflesh_fleshling_smol_devour" },
+        "cooldown": 25,
+        "monster_message": "<color_magenta>%1$s devours %3$s...</color>",
+        "self": true
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "ABSORBS", "PACIFIST" ]
+  },
+  {
+    "id": "mon_sflesh_fleshling_med",
+    "type": "MONSTER",
+    "name": "flesh blob",
+    "description": "A slab of meat that's larger than a dog. Will try to devour anything nearby.",
+    "default_faction": "secro_flesh2",
+    "bodytype": "blob",
+    "species": [ "SFLESH", "ABERRATION" ],
+    "volume": "17000 ml",
+    "weight": 12050,
+    "hp": 40,
+    "speed": 55,
+    "material": [ "flesh" ],
+    "symbol": "◆",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 4,
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_sflesh_fleshling_med_devour" },
+        "cooldown": 75,
+        "monster_message": "<color_magenta>%1$s devours %3$s...</color>",
+        "self": true
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "ABSORBS", "PACIFIST" ]
+  },
+  {
+    "id": "mon_sflesh_fleshling_big",
+    "type": "MONSTER",
+    "name": "big flesh blob",
+    "description": "A big slab of meat that's larger than a human. Will try to devour anything nearby.",
+    "default_faction": "secro_flesh2",
+    "bodytype": "blob",
+    "species": [ "SFLESH", "ABERRATION" ],
+    "volume": "99500 ml",
+    "weight": 640000,
+    "hp": 80,
+    "speed": 45,
+    "material": [ "flesh" ],
+    "symbol": "●",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "melee_skill": 5,
+    "melee_dice": 4,
+    "melee_dice_sides": 5,
+    "melee_cut": 5,
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_sflesh_fleshling_big_devour" },
+        "cooldown": 100,
+        "monster_message": "<color_magenta>%1$s devours %3$s...</color>",
+        "self": true
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "ABSORBS", "PACIFIST" ]
+  },
+  {
+    "id": "mon_sflesh_fleshling_huge",
+    "type": "MONSTER",
+    "name": "flesh mound",
+    "description": "A humongous conglomeration of rotten flesh, as large as a tank. Can devour anything.",
+    "default_faction": "secro_flesh2",
+    "bodytype": "blob",
+    "species": [ "SFLESH", "ABERRATION" ],
+    "volume": "893000 ml",
+    "weight": 399000,
+    "hp": 360,
+    "speed": 30,
+    "material": [ "flesh" ],
+    "symbol": "⬤",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "emit_fields": [ "emit_flesh_biome_immunity" ],
+    "melee_skill": 8,
+    "melee_dice": 7,
+    "melee_dice_sides": 8,
+    "melee_cut": 8,
+    "harvest": "exempt",
+    "death_function": [ "MELT" ],
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_sflesh_fleshling_huge_devour" },
+        "cooldown": 150,
+        "monster_message": "<color_light_red>%1$s devours %3$s...</color>",
+        "self": true
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "WARM", "POISON", "NO_BREATHE", "STUN_IMMUNE", "ABSORBS", "PACIFIST" ]
   }
 ]

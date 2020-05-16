@@ -1,6 +1,6 @@
 [
   {
-    "//": "Spell combo imitating how a fungus infect others in-action, but slowly damages instead of an instant convertion. This process takes too much space to combine with secro_magic.json file.",
+    "note": "Spell combo imitating how a fungus infect others in-action, but slowly damages instead of an instant convertion. This process takes too much space to combine with secro_magic.json file.",
     "type": "SPELL",
     "id": "mon_flesh_infect_target",
     "name": "a spell",
@@ -110,8 +110,7 @@
     "max_duration": 1
   },
   {
-    "//": "Note that we are replacing the target, and in this process, we'll need to kill them... then they'll drop their loots (corpse included). There's no spell to prevent that, so flesh variants have special flag that absorbs items (which then clears dropped items immediately after the infection).",
-    "//": "This will convert normal (or has a minor ability/characteristics such as swimmer) zombies into a regular flesh zombie.",
+    "note": "Note that we are replacing the target, and in this process, we'll need to kill them... then they'll drop their loots (corpse included). There's no spell to prevent that, so flesh variants have special flag that absorbs items (which then clears dropped items immediately after the infection).",
     "id": "mon_flesh_infect_zombie",
     "type": "SPELL",
     "name": "Infect",
@@ -145,7 +144,7 @@
     "damage_type": "bio"
   },
   {
-    "//": "Spams 'failed to place monster' message until it succeeds. Becomes very annoying when tons of monster uses the spell at a single target.",
+    "note": "Spams 'failed to place monster' message until it succeeds. Becomes very annoying when tons of monster uses the spell at a single target.",
     "type": "SPELL",
     "id": "mon_flesh_infect_zombie_yes",
     "name": "Infect",

@@ -35,7 +35,7 @@
         "ammo_effects": ["LASER", "INCENDIARY"],
         "flags": ["NEVER_JAMS", "NO_UNLOAD"]
     }, {
-        "//": "VERY WIP, CURRENTLY UNOBTAINABLE. NEEDS MORE IDEAL FIXING BEFORE USE, ESP. ITS AMMO.",
+        "note": "VERY WIP, CURRENTLY UNOBTAINABLE. NEEDS MORE IDEAL FIXING BEFORE USE, ESP. ITS AMMO.",
         "id": "SS_grenade_launcher",
         "type": "GUN",
         "name": "SS grenade launcher",
@@ -77,7 +77,7 @@
         "ammo": "50",
         "range": 50,
         "ranged_damage": { "damage_type": "stab", "amount": -15 },
-        "//": "A weaker version of Barrett.",
+        "note": "A weaker version of Barrett.",
         "dispersion": 92,
         "durability": 8,
         "barrel_length": 5,
@@ -112,7 +112,7 @@
         "weight": 13807,
         "volume": 16,
         "price": 790900,
-        "//": "IDK how this gun became cheap on the market. Its effing powerful, so WTF PPL!",
+        "note": "IDK how this gun became cheap on the market. Its effing powerful, so WTF PPL!",
         "to_hit": -1,
         "bashing": 12,
         "material": "steel",
@@ -167,7 +167,7 @@
         "name": "KAC ChainSAW",
         "description": "The KAC ChainSAW is a light weight machine gun designed to be fired from the hip. It is named before the chainsaw, as if the user is actually wielding an actual chainsaw.",
         "weight": 4586,
-        "//": "IDK if they're joking with this -_-.",
+        "note": "IDK if they're joking with this -_-.",
         "volume": 10,
         "price": 1467520,
         "to_hit": -1,
@@ -211,7 +211,7 @@
         "magazines": [
             ["223", ["stanag30", "stanag10", "stanag50", "survivor223mag"]]
         ],
-        "//": "Since its magazine is similar to stanags, we'd use them too. As a sniper rifle, it can also use drum magazines!"
+        "note": "Since its magazine is similar to stanags, we'd use them too. As a sniper rifle, it can also use drum magazines!"
     }, {
         "id": "walther2000",
         "copy-from": "rifle_base",
@@ -222,7 +222,7 @@
         "weight": 6962,
         "volume": 10,
         "price": 1829000,
-        "//": "The price was actually a wooping 75,000$. IDK if that's true, but lets bend the rules of money here -_-.",
+        "note": "The price was actually a wooping 75,000$. IDK if that's true, but lets bend the rules of money here -_-.",
         "to_hit": -1,
         "bashing": 12,
         "material": "steel",
@@ -254,7 +254,7 @@
         "reload_time": 130,
         "flags": ["MAG_BULKY"]
     }, {
-        "//": "Also a hip-fired weapon, but with barrel-rotation.",
+        "note": "Also a hip-fired weapon, but with barrel-rotation.",
         "id": "xm556",
         "copy-from": "rifle_auto",
         "type": "GUN",
@@ -263,7 +263,6 @@
         "weight": 6240,
         "volume": 10,
         "price": 2144000,
-        "//": "Didn't see a price for this.",
         "to_hit": -1,
         "bashing": 12,
         "ups_charges": 120,
@@ -275,7 +274,6 @@
         "durability": 8,
         "reload": 400,
         "modes": [["DEFAULT", "auto", 80]],
-        "//": "4000 to 8000 RPM",
         "built_in_mods": ["bipod"],
         "valid_mod_locations": [["accessories", 4]],
         "magazines": [
