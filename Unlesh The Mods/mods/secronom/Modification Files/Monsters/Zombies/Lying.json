@@ -1,6 +1,6 @@
 [
   {
-    "//": "Lying body is a reference from the Silent Hill. It looks like a zombie, so I included it.",
+    "note": "Lying body is a reference from the Silent Hill. It looks like a zombie, so I included it.",
     "id": "mon_zombie_WALKINGPOTATO",
     "type": "MONSTER",
     "name": "lying body",
@@ -33,7 +33,7 @@
     "flags": [ "STUMBLES", "WARM", "POISON", "NO_BREATHE", "FILTHY", "REVIVES" ]
   },
   {
-    "//": "Flying zombies.",
+    "note": "Flying zombies.",
     "id": "mon_zombie_zawk",
     "type": "MONSTER",
     "name": "zawk",
@@ -79,7 +79,7 @@
     ]
   },
   {
-    "//": "much like a gasbag.",
+    "note": "much like a gasbag.",
     "id": "mon_zombie_zoth",
     "type": "MONSTER",
     "name": "zoth",
@@ -133,12 +133,9 @@
     "description": "Gigantic, flying shadow, reeks in despair and hatred. A creature filled with mystery, unknown to what it does.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE", "SECROZED_3", "HUMAN" ],
-    "//": "OMFG it's a flying fortress!",
     "volume": "1452000 ml",
-    "//": "Oh no, its just a normal zed covered in shadow!",
     "weight": 81500,
     "hp": 440,
-    "//": "SUPER SLOW!!!",
     "speed": 30,
     "diff": 15,
     "material": [ "flesh" ],
@@ -186,7 +183,7 @@
       "ELECTRIC",
       "ACIDPROOF"
     ],
-    "//": "Imitates the jinx zombie for using shadows as weaponry."
+    "note": "Imitates the jinx zombie for using shadows as weaponry."
   },
   {
     "id": "mon_zombie_nightwail_shadow",

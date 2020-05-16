@@ -1,7 +1,6 @@
 [
   {
-    "//": "Alien plant creatures with similarities and resemblance to the CDDA's fungal critters.",
-    "//": "For now, their sprites will look like the fungus.",
+    "note": "Alien plant creatures with similarities and resemblance to the CDDA's fungal critters.",
     "id": "mon_vector",
     "looks_like": "mon_fungaloid",
     "type": "MONSTER",
@@ -243,7 +242,7 @@
     "flags": [ "SEES", "SMELLS", "BASHES", "GROUP_BASH", "NOHEAD", "BLEED", "NO_BREATHE" ]
   },
   {
-    "//": "A fungal tower, but moves. Only seen in vector portals.",
+    "note": "A fungal tower, but moves. Only seen in vector portals.",
     "id": "mon_vector_tree",
     "type": "MONSTER",
     "looks_like": "mon_fungaloid_seeder",
@@ -254,7 +253,6 @@
     "volume": "875000 ml",
     "weight": 200000,
     "hp": 690,
-    "//": "Nice.",
     "speed": 2,
     "material": [ "veggy" ],
     "emit_fields": [ "secro_vector_tree_seeding", "secro_vector_tree_spread" ],

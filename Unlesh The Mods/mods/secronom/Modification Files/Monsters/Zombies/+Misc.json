@@ -1,8 +1,6 @@
 [
   {
-    "//": "Monsters that doesn't spawn directly in cities and has no upgrade paths (except the stray zombie). Rarely spawns in the wilds, in some parts of cities and/or other special conditions.",
-    "//": "Summoner-type zed that afflicts the target with movement debuff.",
-    "//": "Spawns in underground sewers.",
+    "note": "Monsters that doesn't spawn directly in cities and has no upgrade paths (except the stray zombie). Rarely spawns in the wilds, in some parts of cities and/or other special conditions.",
     "id": "mon_zombie_nautilus",
     "looks_like": "mon_zombie_mancroc",
     "type": "MONSTER",
@@ -104,8 +102,7 @@
     ]
   },
   {
-    "//": "Support-type zed that uses an aura to inflict debuffs.",
-    "//": "Spawns in malls.",
+    "note": "Support-type zed that uses an aura to inflict debuffs.",
     "id": "mon_zombie_disser",
     "type": "MONSTER",
     "looks_like": "mon_zombie_shrieker",
@@ -119,7 +116,6 @@
     "hp": 70,
     "speed": 60,
     "material": [ "flesh" ],
-    "//": "Uses fields to apply debuffs and THIS WILL AFFECT NEARBY ZOMBIES AS WELL in a very wide range.",
     "emit_fields": [ "secro_shout", "secro_scream" ],
     "symbol": "♭",
     "color": "magenta_red",
@@ -148,8 +144,7 @@
     ]
   },
   {
-    "//": "Summoner-type electric zed. Uses an aura to spawn minions.",
-    "//": "Spawns in power stations and electronic stores.",
+    "note": "Summoner-type electric zed. Uses an aura to spawn minions.",
     "id": "mon_zombie_jolt",
     "type": "MONSTER",
     "name": "jolt",
@@ -243,8 +238,7 @@
     "flags": [ "SEES", "PACIFIST", "ACIDPROOF", "ELECTRIC", "NO_BREATHE", "FLIES" ]
   },
   {
-    "//": "Aggro-type zed that morphs into a lethal counterpart. It uses a spell for this so it might not work, especially when in crowded surroundings.",
-    "//": "Spawns inside buildings, rarely in houses.",
+    "note": "Aggro-type zed that morphs into a lethal counterpart. It uses a spell for this so it might not work, especially when in crowded surroundings.",
     "id": "mon_zombie_fake_ichorus",
     "type": "MONSTER",
     "name": "zombie",
@@ -444,8 +438,7 @@
     ]
   },
   {
-    "//": "Specialized summoner. Slim chance to call a zed of random type using its aura, but becomes frequent when a target is in sight.",
-    "//": "Spawns in churches.",
+    "note": "Specialized summoner. Slim chance to call a zed of random type using its aura, but becomes frequent when a target is in sight.",
     "id": "mon_zombie_uruxis",
     "type": "MONSTER",
     "name": "uruxis",
@@ -501,9 +494,7 @@
     ]
   },
   {
-    "//": "Support-type zed. Becomes a worn item, bringing movement debuffs that lasts until it is removed. Its ability only affects the player, and nothing else. If it does the ability on something, the item is transferred onto you, no matter how far you are.",
-    "//": "To make it 'realistic', it'll remain docile until a player is nearby.",
-    "//": "Spawns in vets.",
+    "note": "Support-type zed. Becomes a worn item, bringing movement debuffs that lasts until it is removed. Its ability only affects the player, and nothing else. If it does the ability on something, the item is transferred onto you, no matter how far you are.",
     "id": "mon_zombie_cling",
     "type": "MONSTER",
     "name": "clinger",
@@ -541,8 +532,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "REVIVES", "HARDTOSHOOT" ]
   },
   {
-    "//": "Aggro-type zed. Like a shady zombie, but much stronger and tougher with chained abilities.",
-    "//": "Spawns in cities at night approximately after 3 months.",
+    "note": "Aggro-type zed. Like a shady zombie, but much stronger and tougher with chained abilities.",
     "id": "mon_zombie_nocturne",
     "type": "MONSTER",
     "name": "nocturne",
@@ -601,8 +591,7 @@
     ]
   },
   {
-    "//": "Support-type zed that uses an aura to cause fear to the targets.",
-    "//": "Spawns in cities approximately after 3 months.",
+    "note": "Support-type zed that uses an aura to cause fear to the targets.",
     "id": "mon_zombie_nix",
     "type": "MONSTER",
     "name": "nix",
@@ -630,7 +619,6 @@
     "vision_day": 20,
     "vision_night": 3,
     "harvest": "mr_bones",
-    "//": "Similar to the screamer, its field will affect allies.",
     "emit_fields": [ "emit_nix_pressence" ],
     "special_attacks": [ [ "FEAR_PARALYZE", 12 ] ],
     "death_drops": "default_zombie_death_drops",
@@ -638,8 +626,7 @@
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "HARDTOSHOOT", "FILTHY" ]
   },
   {
-    "//": "Support-type zed aberration that heals nearby allies. It uses its own health to perform healing spells.",
-    "//": "Spawns in cities and in dumpsites approximately after 3 months.",
+    "note": "Support-type zed aberration that heals nearby allies. It uses its own health to perform healing spells.",
     "id": "mon_zombie_fleshmonger",
     "type": "MONSTER",
     "name": "fleshmonger",
@@ -696,8 +683,7 @@
     ]
   },
   {
-    "//": "Summoner-type monster whose purpose is to send out minions using field emissions. Its basically a 3-tile wide monster: the center is its hitbox and the adjacent `mouth` causes damage when a creature steps on it.",
-    "//": "Spawns in cities approximately after a year.",
+    "note": "Summoner-type monster whose purpose is to send out minions using field emissions. Its basically a 3-tile wide monster: the center is its hitbox and the adjacent `mouth` causes damage when a creature steps on it.",
     "id": "mon_zombie_gorepit",
     "type": "MONSTER",
     "name": "gorepit",
@@ -705,7 +691,6 @@
     "default_faction": "zombie",
     "species": [ "ZOMBIE", "SECROZED_ULTIMATE" ],
     "diff": 50,
-    "//": "Immensive!",
     "volume": "69420 L",
     "weight": 6669420,
     "hp": 2620,
@@ -735,11 +720,10 @@
       }
     ],
     "death_function": [ "DISINTEGRATE" ],
-    "//": "The orb acts as its head, so headshot is allowed.",
     "flags": [ "SEES", "WARM", "IMMOBILE", "POISON", "NO_BREATHE", "PRIORITIZE_TARGETS", "STUN_IMMUNE", "FLIES" ]
   },
   {
-    "//": "Gorepit's main damage dealer.",
+    "note": "Gorepit's main damage dealer.",
     "id": "mon_zombie_gorepit_tent",
     "type": "MONSTER",
     "name": "giant tendril",
@@ -781,8 +765,7 @@
     "flags": [ "SEES", "WARM", "IMMOBILE", "POISON", "NO_BREATHE", "NOHEAD", "STUN_IMMUNE", "PRIORITIZE_TARGETS" ]
   },
   {
-    "//": "Aggro-type zed, both durable and lethal. Unlike other zed mutants, this one's very dependant on healing for itself whilst dealing damage, in addition to its unique debuff-inflicting acid.",
-    "//": "Spawns in cities approximately after a year.",
+    "note": "Aggro-type zed, both durable and lethal. Unlike other zed mutants, this one's very dependant on healing for itself whilst dealing damage, in addition to its unique debuff-inflicting acid.",
     "id": "mon_zombie_cordev",
     "type": "MONSTER",
     "name": "corrupted devourer",
@@ -846,8 +829,7 @@
     ]
   },
   {
-    "//": "Aggro-type zed aberration, extremely tough, durable and full of deadly ranged capabilities, unique to its drastic movement speed gain as long as it sees a target. One of the true end-game monsters.",
-    "//": "Spawns in cities approximately after 2 years.",
+    "note": "Aggro-type zed aberration, extremely tough, durable and full of deadly ranged capabilities, unique to its drastic movement speed gain as long as it sees a target. One of the true end-game monsters.",
     "id": "mon_zombie_fleshysnaky",
     "type": "MONSTER",
     "name": "flesilisk",
@@ -912,8 +894,7 @@
     ]
   },
   {
-    "//": "Support-type zed who weakens the target by applying debuffs that intensifies for as long as it acquire LOS, while randomly strengthens nearby allies. Feeble, yet a great nuisance behind its meat wall. One of the true end-game monsters.",
-    "//": "Spawns in cities approximately after 2 years.",
+    "note": "Support-type zed who weakens the target by applying debuffs that intensifies for as long as it acquire LOS, while randomly strengthens nearby allies. Feeble, yet a great nuisance behind its meat wall. One of the true end-game monsters.",
     "id": "mon_zombie_akin",
     "type": "MONSTER",
     "name": "akin",
@@ -953,8 +934,7 @@
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
   },
   {
-    "//": "Summoner-type monster that excels at quickly sending out agile minions. One of the true end-game monsters.",
-    "//": "Spawns in cities approximately after 2 years.",
+    "note": "Summoner-type monster that excels at quickly sending out agile minions. One of the true end-game monsters.",
     "id": "mon_zombie_equinox",
     "type": "MONSTER",
     "name": "equinox",
@@ -998,11 +978,10 @@
     ],
     "harvest": "zombie",
     "death_function": [ "SPLATTER" ],
-    "//": "It's a huge brain, but doesn't mean there's weakness in any of that part.",
     "flags": [ "SEES", "WARM", "IMMOBILE", "NOHEAD", "POISON", "STUN_IMMUNE", "NO_BREATHE" ]
   },
   {
-    "//": "Four types of crawlies the equinox will actively spawns. These crawlies are vulnerable, yet a great threat to their paralizing debuffs",
+    "note": "Four types of crawlies the equinox will actively spawns. These crawlies are vulnerable, yet a great threat to their paralizing debuffs",
     "id": "mon_zombie_equinox_necros",
     "type": "MONSTER",
     "name": "necros",
@@ -1141,8 +1120,7 @@
     "flags": [ "SEES", "CLIMBS", "WARM", "STUMBLES", "NOHEAD", "POISON", "NO_BREATHE" ]
   },
   {
-    "//": "Aggro-type zed who's revival can be a great nuisance to the target. An end-game prize.",
-    "//": "Spawns in cities approximately after 2 years.",
+    "note": "Aggro-type zed who's revival can be a great nuisance to the target. An end-game prize.",
     "id": "mon_zombie_relinquish",
     "type": "MONSTER",
     "name": "relinquished zombie",
@@ -1174,7 +1152,7 @@
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE" ]
   },
   {
-    "//": "An OP version rises from killing the weakling! This zombie constantly becomes stronger after its revival, and if it gathers too much, one should stay away from getting a direct hit.",
+    "note": "An OP version rises from killing the weakling! This zombie constantly becomes stronger after its revival, and if it gathers too much, one should stay away from getting a direct hit.",
     "id": "mon_zombie_relinquish_revived",
     "type": "MONSTER",
     "name": "resolute zombie",
@@ -1216,8 +1194,7 @@
     ]
   },
   {
-    "//": "Aggro-type zed. This zombie obtains various abilities and spells (from nature, etc.).",
-    "//": "Spawns in forests.",
+    "note": "Aggro-type zed. This zombie obtains various abilities and spells (from nature, etc.).",
     "id": "mon_zombie_stray",
     "type": "MONSTER",
     "looks_like": "mon_zombie",
@@ -1261,7 +1238,7 @@
     ]
   },
   {
-    "//": "Stray with nature element. Tier 1 provides a subtle hint, to tell what element they are heading to.",
+    "note": "Stray with nature element. Tier 1 provides a subtle hint, to tell what element they are heading to.",
     "id": "mon_zombie_stray_w_leaf_weak",
     "type": "MONSTER",
     "looks_like": "mon_zombie",
@@ -1539,11 +1516,11 @@
     "armor_cut": 4,
     "harvest": "exempt",
     "death_function": [ "MELT" ],
-    "//": "It must MELT, to prevent ppl farming for the precious vegan food.",
+    "note": "It must MELT, to prevent ppl farming for the precious vegan food.",
     "flags": [ "SEES", "SMELLS", "BASHES", "GROUP_BASH", "NOHEAD", "PARALYZEVENOM" ]
   },
   {
-    "//": "Stray with acid element.",
+    "note": "Stray with acid element.",
     "id": "mon_zombie_stray_w_acid_weak",
     "type": "MONSTER",
     "looks_like": "mon_zombie",
@@ -1796,8 +1773,7 @@
     ]
   },
   {
-    "//": "This is the main source of invisible toxic gas inside an infected building. Killing it lowers the structure's lethality of gas to minimal.",
-    "//": "Structure's lethality of gas increases along with fleshknot's growth.",
+    "note": "This is the main source of invisible toxic gas inside an infected building. Killing it lowers the structure's lethality of gas to minimal. Structure's lethality of gas increases along with fleshknot's growth.",
     "id": "mon_zombie_fleshknot_weak",
     "type": "MONSTER",
     "name": "fleshknot",
@@ -1914,7 +1890,7 @@
     "harvest": "zombie",
     "special_attacks": [ [ "FLESH_TENDRIL", 1 ] ],
     "death_function": [ "SPLATTER" ],
-    "//": "The core is exposed, so critical hits are available.",
+    "note": "The core is exposed, so critical hits are available.",
     "flags": [ "SEES", "HEARS", "SMELLS", "IMMOBILE", "WARM", "POISON", "IMMOBILE", "NO_BREATHE" ]
   }
 ]
