@@ -17,7 +17,7 @@
     "stack_size": 1,
     "ammo_type": "ggp",
     "range": 30,
-    "damage": 50,
+    "damage": { "damage_type": "bullet", "amount": 50 },
     "dispersion": 30,
     "recoil": 250,
     "effects": [ "EXPLOSIVE"]
@@ -41,7 +41,7 @@
     "ammo_type": "ggp",
     "pierce": 5,
     "range": 50,
-    "damage": 30,
+    "damage": { "damage_type": "bullet", "amount": 30 },
     "dispersion": 30,
     "recoil": 250,
     "effects": [ "EXPLOSIVE"]
