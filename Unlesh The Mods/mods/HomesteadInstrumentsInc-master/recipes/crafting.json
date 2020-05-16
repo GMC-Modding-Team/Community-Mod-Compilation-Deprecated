@@ -10,16 +10,13 @@
     "difficulty": 3,
     "skills_required": [ "electronics", 2 ],
     "time": "20 m",
-    "reversible": false,
+    "reversible": true,
     "book_learn": [ [ "textbook_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
-      [ [ "laptop",        1 ] ],
-      [
-        [ "plastic_chunk", 1 ],
-        [ "scrap",         2 ]
-      ]
+      [ [ "laptop", 1 ] ],
+      [ [ "plastic_chunk", 1 ], [ "scrap", 2 ] ]
     ]
   },
   {
@@ -37,37 +34,16 @@
     "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
-      [ [ "processor",        1 ] ],
-      [ [ "RAM",              1 ] ],
-      [ [ "cable",            6 ] ],
-      [ [ "amplifier",        1 ] ],
-      [ [ "plastic_chunk",    6 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 4 ] ],
+      [ [ "cable", 6 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "plastic_chunk", 6 ] ],
       [
-        [ "plastic_chunk",    1 ],
-        [ "scrap",            2 ]
+        [ "plastic_chunk", 1 ],
+        [ "scrap", 2 ]
       ],
       [ [ "small_lcd_screen", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "polymer_chunk",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 5,
-    "time": "10 m",
-    "reversible": false,
-    "autolearn": true,
-    "qualities": [
-      { "id": "COOK", "level":  3 }
-    ],
-    "tools": [
-      [ [ "surface_heat",       7, "LIST" ] ]
-    ],
-    "components": [
-      [ [ "plastic_chunk",      1 ] ],
-      [ [ "nanopowder_rubber", 20 ] ]
     ]
   }
 ]
