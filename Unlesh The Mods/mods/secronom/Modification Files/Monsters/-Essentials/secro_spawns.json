@@ -6,7 +6,13 @@
       { "monster": "mon_zombie_swarmer_weak", "freq": 1, "cost_multiplier": 8, "pack_size": [ 11, 22 ] },
       { "monster": "mon_zombie_swarmer_segway", "freq": 1, "cost_multiplier": 10, "pack_size": [ 4, 12 ] },
       { "monster": "mon_zombie_swarmer_weak", "freq": 1, "cost_multiplier": 15, "pack_size": [ 22, 44 ] },
-      { "monster": "mon_zombie_swarmer_weak", "freq": 1, "cost_multiplier": 23, "pack_size": [ 44, 88 ], "starts": 4380 },
+      {
+        "monster": "mon_zombie_swarmer_weak",
+        "freq": 1,
+        "cost_multiplier": 23,
+        "pack_size": [ 44, 88 ],
+        "starts": 4380
+      },
       {
         "note": "Lets fill the streets with these!",
         "monster": "mon_zombie_swarmer_weak",
@@ -419,5 +425,23 @@
     "type": "monstergroup",
     "name": "GROUP_FLESHLING",
     "default": "mon_sflesh_fleshling_tiny"
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_FLESHLING_CHILDREN",
+    "default": "mon_sflesh_fleshling_stingy",
+    "monsters": [
+      { "monster": "mon_sflesh_fleshling_ravagy", "freq": 90, "cost_multiplier": 0 },
+      { "monster": "mon_sflesh_fleshling_scavengy", "freq": 120, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_FLESHLING_SCAVENGY_FORMS",
+    "default": "mon_sflesh_fleshling_scavengy_sticky",
+    "monsters": [
+      { "monster": "mon_sflesh_fleshling_scavengy_explosive", "freq": 85, "cost_multiplier": 0 },
+      { "monster": "mon_sflesh_fleshling_scavengy_tent", "freq": 100, "cost_multiplier": 0 }
+    ]
   }
 ]

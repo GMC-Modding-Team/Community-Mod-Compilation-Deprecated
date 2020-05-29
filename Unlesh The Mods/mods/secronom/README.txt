@@ -8,7 +8,7 @@ https://discourse.cataclysmdda.org - CDDA official forums
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes)
 	
---> V1.9 - Focuses on improving the secronom lab by adding NPCs and expanding the facility. Also focuses on creating power armors, with different functions. <--
+--> V1.9 - Currently working on the hivemind and the flesh base. <--
 
 #  TILESET REWORKS (if possible)
 
@@ -17,14 +17,24 @@ https://discourse.cataclysmdda.org - CDDA official forums
 +  EXPERIMENTAL MUTATIONS (3 new mutation paths)
 +  SECRONOM LAB (more rooms)
 +  SECRONOM EXOSKELETONS (2 new power armors)
-+  POWER ARMOR MODULES (module implants for power armor augmentations)
++  POWER ARMOR MODULES (module implants for power armors)
++  FLESH VESSEL EXPANSION (5 types of flesh vessels)
++  FLESH VESSEL MORPH/FORM (flesh vessel abilities)
++  FLESHED MILITARY BUNKERS (same old bunker, but it's infested by the flesh)
++  PATHOGEN FLESH VESSEL (can now form a new hivemind, AKA flesh camp)
++  HIVEMIND NPC (a mini version of the flesh boss that can be augmented. Interactable for developing a flesh base)
++  HIVEMIND SPAWN (NPCs spawned by the flesh hivemind. Has its own characteristics)
++  BIO-ORGANIC VEHICLE PARTS (a new set of flesh vehicle parts)
 +  CRIMSON HORROR (fleshlings)
-+  VESSEL MORPH/FORM (flesh vessel abilities)
++  AMALGAMS (fleshmound offsprings)
 
 ~  CITY ZED REBALANCES (tweaked the stats of tendril, blade and spider zombies, for early game balance)
 ~  SHAPESHIFTER REWORKS (now much more deadly with improved abilities)
+~  FLESHED TER/FURN (almost all fleshed ter/furn counterparts now has fixed bash resistance)
 
 -  UNKNOWN RACES REWORK (removed the wandering portal "???". Unknown creatures now spawn in the wild)
+-  SADDLERS (now are butchered for tainted meat)
+-  CRIMSON HORRORS (now are immune to blood acid)
 
 
 
