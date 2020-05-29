@@ -1022,5 +1022,32 @@
     "sym": "F",
     "color": "green",
     "see_cost": 10
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "secro_bunker_flesh",
+    "name": "military bunker",
+    "sym": "B",
+    "color": "red",
+    "see_cost": 2,
+    "flags": [ "KNOWN_DOWN", "RISK_HIGH", "SOURCE_WEAPON", "SOURCE_AMMO" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "secro_bunker_basement_flesh",
+    "name": "military bunker",
+    "sym": "B",
+    "color": "red",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "NO_ROTATE", "RISK_HIGH", "SOURCE_WEAPON", "SOURCE_AMMO" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "secro_bunker_basement_fvvault_flesh",
+    "name": "military bunker",
+    "sym": "B",
+    "color": "red",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "NO_ROTATE", "RISK_HIGH", "SOURCE_WEAPON", "SOURCE_AMMO" ]
   }
 ]

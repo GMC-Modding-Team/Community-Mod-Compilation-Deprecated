@@ -175,7 +175,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "<color_light_red>fighter armament</color> - fleshpound" },
-    "description": "Flesh vessel's arms became a compact mass of throbbing meat, and you feel its power surging through you. Its makes handling difficult, but they pack a wallop!\n\n<color_light_red>Fighter armament</color> - fleshpound provides:\n<color_white>Strength: <color_light_green>+2</color>\nDamage: <color_light_green>+5%</color>\nAttack cost: <color_red>+15%</color></color>",
+    "description": "Flesh vessel's arms became a compact mass of throbbing meat, and you feel its power surging through you. Its makes handling difficult, but they pack a wallop!\n\n<color_light_red>Fighter armament</color> - fleshpound provides:\n<color_white>Strength: <color_light_green>+2</color>\nDamage: <color_light_green>+5%</color>\nAttack cost: <color_red>+7.5%</color></color>",
     "weight": "2900 g",
     "volume": "1780 ml",
     "price": 0,
@@ -195,7 +195,7 @@
           "values": [
             { "value": "STRENGTH", "add": 1 },
             { "value": "BONUS_DAMAGE", "multiply": 0.025 },
-            { "value": "ATTACK_COST", "multiply": 0.075 }
+            { "value": "ATTACK_COST", "multiply": 0.0375 }
           ],
           "hit_you_effect": [
             {
@@ -468,6 +468,72 @@
               "once_in": 50,
               "message": "Your bone spike retaliates at %2$s!",
               "npc_message": "%1$s's bone spike retaliates at %2$s!"
+            }
+          ]
+        }
+      ]
+    },
+    "flags": [ "NO_TAKEOFF", "ONLY_ONE", "POWERARMOR_COMPATIBLE" ]
+  },
+  {
+    "id": "secro_power_armor_flesh_morph_coward_powerlegs",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "<color_light_green>[MORPH]</color> <color_light_green>agility armament</color> - powerlegs" },
+    "description": "Activate this to command the flesh vessel to morph towards the selected armament. Failing to do so won't revoke flesh consumption. Similar morphs does not stack.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "flesh" ],
+    "symbol": "%",
+    "color": "light_green",
+    "coverage": 0,
+    "encumbrance": 0,
+    "power_armor": true,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "secro_power_armor_flesh_morphed_coward_powerlegs_give",
+      "no_fail": true,
+      "need_worn": true,
+      "level": 0
+    },
+    "flags": [ "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
+  },
+  {
+    "id": "secro_power_armor_flesh_morphed_coward_powerlegs",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "<color_light_green>agility armament</color> - powerlegs" },
+    "description": "Formed on the vessel's knee joints that stretches down to the soles of its feet are elastic muscle fibers. These allows greater exertion of strength to the wearer's legs.\n\n<color_light_green>agility armament</color> - powerlegs provides:\n<color_white>Speed: <color_red>+10</color>\nMovecost: <color_red>-5%</color></color>",
+    "weight": "1335 g",
+    "volume": "430 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "flesh" ],
+    "symbol": "%",
+    "color": "light_green_white",
+    "coverage": 0,
+    "encumbrance": 0,
+    "power_armor": true,
+    "material_thickness": 1,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "SPEED", "add": 5 },
+            { "value": "MOVE_COST", "multiply": -0.025 }
+          ],
+          "hit_you_effect": [
+            {
+              "id": "secro_power_armor_flesh_morphed_coward_powerlegs_powkick",
+              "hit_self": false,
+              "once_in": 150,
+              "message": "You powerkicked %2$s!",
+              "npc_message": "%1$s powerkicks %2$s!"
             }
           ]
         }
