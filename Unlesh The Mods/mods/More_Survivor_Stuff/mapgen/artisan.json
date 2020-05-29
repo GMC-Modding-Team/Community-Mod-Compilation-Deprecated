@@ -13,20 +13,20 @@
         "|ppp/............../ppp|",
         "|ppp/............../ppp|",
         "|ppp/............../ppp|",
-        "|ppp/MC..m........x/ppp|",
-        "|ppp/(...c........x/ppp|",
-        "|ppp/(...c........x/ppp|",
-        "|ppp/MC..m........./ppp|",
-        "|ppp/(...c........./ppp|",
-        "|ppp/(...c........L/ppp|",
-        "|ppp/MC..m........L/ppp|",
-        "|ppp/(...c........L/ppp|",
-        "|ppp/(...c........L/ppp|",
-        "|ppp/MC..m........L/ppp|",
-        "|ppp/.............L/ppp|",
-        "|pp4/ddf......./*///ppp|",
+        "|ppp/MC.m.......xxx/ppp|",
+        "|ppp/(..c........../ppp|",
+        "|ppp/(..c......LLLL/ppp|",
+        "|ppp/MC.m....../////ppp|",
+        "|ppp/(..c....../.df/ppp|",
+        "|ppp/(..c....../.d#/ppp|",
+        "|ppp/MC.m....T./.../ppp|",
+        "|ppp/(..c......*.../ppp|",
+        "|ppp/(..c....../////ppp|",
+        "|ppp/MC.m........../ppp|",
+        "|ppp/......##....../ppp|",
+        "|pp4/......tt../*///ppp|",
         "|ppp/........../.../ppp|",
-        "|ppp/...lhbbbww/t.s/ppp|",
+        "|ppp/...lhbbbww/&.s/ppp|",
         "|ppp//*///:::///////ppp|",
         "|pppppppUUUpppppp<ppppp|",
         "|pppppppppppppppppppppp|",
@@ -51,11 +51,13 @@
 		"<": "t_ladder_up"
       },
       "furniture": {
+		"#": "f_chair",
         "c": "f_counter",
 		"b": "f_counter",
+		"t": "f_table",
 		"f": "f_filing_cabinet",
 		"d": "f_desk",
-        "t": "f_toilet",
+        "&": "f_toilet",
         "L": "f_locker",
 		"w": "f_locker",
 		"x": "f_crate_c",
@@ -76,6 +78,9 @@
       "monster": {
         ".": [
           { "monster": "mon_zombie_technician", "chance": 1 }
+        ],
+        "T": [
+          { "monster": "mss_mon_zombie_monstroustechnician", "chance": 100 }
         ]
       }
     }
