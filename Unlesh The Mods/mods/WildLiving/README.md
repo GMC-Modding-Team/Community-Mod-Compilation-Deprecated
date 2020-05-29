@@ -28,9 +28,6 @@ Got yourself a pack of labradors to do your bidding but can't control the wilful
 ### Natural cordage screwdriver
 Add a simple recipe for a screwdriver using a chunk of steel, hammering and natural cordage for a handle grip.
 
-### Oilcloth Tent
-Can't find tent kits and want an upgrade from the fur shelter kit? Try making Oilcloth!
-
 ## Materials
 
 ### Oilcloth
