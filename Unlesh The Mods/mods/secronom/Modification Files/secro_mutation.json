@@ -800,5 +800,50 @@
     "encumbrance_always": [ [ "HEAD", 25 ] ],
     "enchantments": [ "SECRO_UNKNOWN_HAIR_SUCK_ench" ],
     "category": [ "SECRONOM_EX" ]
+  },
+  {
+    "type": "mutation",
+    "id": "THRESH_SECRONOM_FLESH",
+    "name": { "str": "Flesh" },
+    "points": 10,
+    "description": "Who needs veggy?",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true,
+    "ignored_by": [ "SFLESH" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SECRONOM_FLESH_BIO",
+    "name": { "str": "Flesh Hivemind" },
+    "points": 10,
+    "description": "You might be immobile, but you have the power to dominate the world!",
+    "valid": false,
+    "purifiable": false,
+    "speed_modifier": -100,
+    "movecost_modifier": 100,
+    "movecost_flatground_modifier": 100,
+    "movecost_obstacle_modifier": 100,
+    "attackcost_modifier": 100,
+    "hearing_modifier": -100,
+    "enchantments": [ "SECRONOM_FLESH_BIO_ench" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SECRONOM_FLESH_BIO_construction",
+    "name": { "str": "Bio-organic Construction" },
+    "points": 10,
+    "description": "You can build a variety of structures using flesh.",
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "SECRONOM_FLESH_BIO_construction_advance",
+    "name": { "str": "Advanced Bio-organic Construction" },
+    "points": 10,
+    "description": "You can build a variety of advanced structures using flesh.",
+    "valid": false,
+    "purifiable": false
   }
 ]

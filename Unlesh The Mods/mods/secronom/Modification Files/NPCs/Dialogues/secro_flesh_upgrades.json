@@ -1,0 +1,57 @@
+{
+    "id": "SECRO_FLESH_HIVEMIND_upgrades",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "and": [
+        "*is eager to acquire augmentations, opening its elongated mouth as it waits your decision.",
+        {
+          "npc_has_effect": "secro_flesh_upgrade_construction_max",
+          "no": {
+            "npc_has_trait": "SECRONOM_FLESH_BIO_construction",
+            "no": "\n\n[200 flesh] Bio-organic Construction\nAllows the hivemind to perform widespread construction using flesh.",
+            "yes": {
+              "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance",
+              "no": "\n\n[500 flesh] Advanced Bio-organic Construction\nAllows the hivemind to perform a vast selection of intricate structures using flesh."
+            }
+          }
+        }
+      ]
+    },
+    "responses": [
+      {
+        "text": "[UPGRADE] Bio-organic Construction\n*Feed the hivemind with flesh*",
+        "topic": "SECRO_FLESH_HIVEMIND_main",
+        "condition": {
+          "and": [
+            { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" } },
+            { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } },
+            { "u_has_items": { "item": "secro_flesh", "count": 200 } }
+          ]
+        },
+        "effect": [
+          { "u_sell_item": "secro_flesh", "count": 200 },
+          { "npc_consume_item": "secro_flesh", "count": 200 },
+          { "npc_add_trait": "SECRONOM_FLESH_BIO_construction" }
+        ]
+      },
+      {
+        "text": "[UPGRADE] Advanced Bio-organic Construction\n*Feed the hivemind with flesh*",
+        "topic": "SECRO_FLESH_HIVEMIND_main",
+        "condition": {
+          "and": [
+            { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" },
+            { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } },
+            { "u_has_items": { "item": "secro_flesh", "count": 500 } }
+          ]
+        },
+        "effect": [
+          { "u_sell_item": "secro_flesh", "count": 500 },
+          { "npc_consume_item": "secro_flesh", "count": 500 },
+          { "npc_add_trait": "SECRONOM_FLESH_BIO_construction_advance" },
+          { "npc_lose_trait": "SECRONOM_FLESH_BIO_construction" },
+          { "npc_add_effect": "secro_flesh_upgrade_construction_max", "duration": "PERMANENT" }
+        ]
+      },
+      { "text": "Later.", "topic": "SECRO_FLESH_HIVEMIND_main" }
+    ]
+  }

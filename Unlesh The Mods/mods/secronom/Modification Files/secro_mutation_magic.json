@@ -154,5 +154,83 @@
     "min_range": 2,
     "max_range": 2,
     "damage_type": "none"
+  },
+  {
+    "id": "SECRONOM_FLESH_BIO_spread_near",
+    "type": "SPELL",
+    "name": "Devour",
+    "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster guides the flesh to spread to nearby tiles.'",
+    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "valid_targets": [ "ground", "self" ],
+    "effect": "ter_transform",
+    "effect_str": "fv_flesh_spread",
+    "min_aoe": 4,
+    "max_aoe": 4
+  },
+  {
+    "id": "SECRONOM_FLESH_BIO_spread_far",
+    "type": "SPELL",
+    "name": "Devour",
+    "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster guides the flesh to spread to nearby tiles. This spreading reaches further.'",
+    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "valid_targets": [ "ground", "self" ],
+    "effect": "ter_transform",
+    "effect_str": "fv_flesh_spread",
+    "min_aoe": 12,
+    "max_aoe": 12
+  },
+  {
+    "id": "SECRONOM_FLESH_BIO_spread_veryveryfar",
+    "type": "SPELL",
+    "name": "Devour",
+    "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster guides the flesh to spread to nearby tiles. This spreading reaches further.'",
+    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "valid_targets": [ "ground", "self" ],
+    "effect": "ter_transform",
+    "effect_str": "fv_flesh_spread",
+    "min_aoe": 36,
+    "max_aoe": 36
+  },
+  {
+    "id": "SECRONOM_FLESH_BIO_disable",
+    "type": "SPELL",
+    "name": "Disable",
+    "description": "Spell casted by a mutation or trait, either passive or active. If you're seeing this, then read this one instead:\n'You are nothing, but a mere builder...'",
+    "flags": [ "SILENT", "PERMANENT" ],
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "effect_str": "blind"
+  },
+  {
+    "id": "SECRONOM_FLESH_BIO_check",
+    "type": "SPELL",
+    "name": "Check Player",
+    "description": "Spell casted by a mutation or trait, either passive or active. If you're seeing this, then read this one instead:\n'You check the player is they're adjacent to you.'",
+    "flags": [ "SILENT", "RANDOM_TARGET" ],
+    "valid_targets": [ "hostile", "ally", "self" ],
+    "effect": "projectile_attack",
+    "effect_str": "secro_flesh_isadjacent",
+    "min_duration": 100,
+    "max_duration": 100,
+    "min_range": 1,
+    "max_range": 1
+  },
+  {
+    "type": "SPELL",
+    "id": "SECRONOM_FLESH_BIO_check_random",
+    "name": "a spell",
+    "description": "Target spell casted by an item. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then randomly casts one of the Spell(s).'",
+    "message": "",
+    "extra_effects": [ { "id": "SECRONOM_FLESH_BIO_check" } ],
+    "flags": [ "SILENT", "WONDER", "RANDOM_TARGET" ],
+    "valid_targets": [ "hostile", "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "secro_magic_target",
+    "min_damage": 10,
+    "max_damage": 10,
+    "min_range": 1,
+    "max_range": 1,
+    "min_duration": 1,
+    "max_duration": 1
   }
 ]
