@@ -20,24 +20,24 @@
     {
       "id": "Memorial Crypt",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [ { "overmap": "crypt1_north", "point": [ 0, 0, 0 ] }, { "overmap": "crypt1_b1_north", "point": [ 0, 0, -1 ] } ],
       "type": "overmap_special"
     },
     {
       "id": "Eye Crypt",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [ { "overmap": "crypt2_north", "point": [ 0, 0, 0 ] }, { "overmap": "crypt2_b1_north", "point": [ 0, 0, -1 ] } ],
       "type": "overmap_special"
     },
     {
       "id": "Vampire Cove",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "vampcave_entrance_north", "point": [ 0, 0, 0 ] },
         { "overmap": "vampcave_corridor1_north", "point": [ 0, 0, -1 ] },
@@ -49,21 +49,22 @@
     {
       "id": "Pedestal - Bloodrune",
       "locations": [ "forest", "field" ],
-      "flags": [ "CLASSIC" ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
       "occurrences": [ 0, 15 ],
       "overmaps": [ { "overmap": "bloodrune_pedestal_north", "point": [ 0, 0, 0 ] } ],
       "type": "overmap_special"
     },
     {
       "id": "Gravesite - Wild",
+      "flags": [ "CLASSIC", "UNIQUE" ],
       "locations": [ "forest", "field" ],
-      "flags": [ "CLASSIC" ],
       "occurrences": [ 0, 10 ],
       "overmaps": [ { "overmap": "gravesite1_north", "point": [ 0, 0, 0 ] } ],
       "type": "overmap_special"
     },
     {
       "id": "bhole",
+      "flags": [ "CLASSIC", "UNIQUE" ],
       "locations": [ "field" ],
       "occurrences": [ 0, 15 ],
       "overmaps": [
@@ -75,6 +76,7 @@
     },
     {
       "id": "Vampirus",
+      "flags": [ "CLASSIC", "UNIQUE" ],
       "locations": [ "forest" ],
       "occurrences": [ 0, 15 ],
       "overmaps": [ { "overmap": "vampirus", "point": [ 0, 0, 0 ] }, { "overmap": "vampirus_prison_up", "point": [ 0, 0, -1 ] } ],
@@ -84,8 +86,8 @@
       "//": "Hamlets consist of 0-6 houses. No other structures.",
       "id": "Ghost Hamlet 1",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "ghost_townhouseeast_north", "point": [ 0, 0, 0 ] },
         { "overmap": "ghost_townhousesouth_north", "point": [ 1, 0, 0 ] },
@@ -100,8 +102,8 @@
       "//": "Hamlets consist of 0-6 houses. No other structures.",
       "id": "Ghost Hamlet 2",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "ghost_townhouseeast_north", "point": [ 0, 0, 0 ] },
         { "overmap": "ghost_townhousewest_north", "point": [ 1, 0, 0 ] },
@@ -116,8 +118,8 @@
       "//": "Hamlets consist of 0-6 houses. No other structures.",
       "id": "Ghost Hamlet 3",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "ghost_townhousesouth_north", "point": [ 0, 0, 0 ] },
         { "overmap": "ghost_townhousesouth_north", "point": [ 1, 0, 0 ] },
@@ -132,8 +134,8 @@
       "//": "Village consists of 0-16 abandoned houses and a church.",
       "id": "Ghost Village 1",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "ghost_townchurch_north", "point": [ 0, 0, 0 ] },
         { "overmap": "ghost_towngardenroad_north", "point": [ 0, 1, 0 ] },
@@ -160,8 +162,8 @@
       "//": "Village consists of 0-16 abandoned houses and a church.",
       "id": "Ghost VIllage 2",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "ghost_townchurch_north", "point": [ 0, 0, 0 ] },
         { "overmap": "ghost_towngardenroad_north", "point": [ 0, 1, 0 ] },
@@ -188,8 +190,8 @@
       "//": "Town consists of 0-40 abandoned houses, a church and some manorial buildings. The largest pseudo-generated structure you'll ever met in this mod.",
       "id": "Ghost Town",
       "locations": [ "forest" ],
-      "flags": [ "CLASSIC" ],
-      "occurrences": [ 0, 1 ],
+      "flags": [ "CLASSIC", "UNIQUE" ],
+      "occurrences": [ 0, 100 ],
       "overmaps": [
         { "overmap": "ghost_townchurch_north", "point": [ 0, 0, 0 ] },
         { "overmap": "ghost_towngardenroad_north", "point": [ 0, 1, 0 ] },
