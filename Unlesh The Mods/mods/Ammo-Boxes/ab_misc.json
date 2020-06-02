@@ -2,12 +2,12 @@
   {
     "id": "ab_sack_nail",
     "copy-from": "bag_canvas",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "nail sack",
     "description": "A large and sturdy canvas sack to be filled with nails for storage.",
     "rigid": false,
     "contains": 60,
-    "use_action": { "type": "bandolier", "capacity": 7500, "ammo": [ "nail" ] }
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "15 L", "max_contains_weight": "15 kg", "moves": 400 } ]
   }
 ]
