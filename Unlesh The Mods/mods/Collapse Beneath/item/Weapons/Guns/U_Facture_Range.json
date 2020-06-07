@@ -12,15 +12,20 @@
     "ranged_damage": 1,
     "dispersion": 90,
     "durability": 10,
-	"modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "BURST", "2 rd.", 2 ]
-    ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2 ] ],
     "barrel_length": 2,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [
-      [ "308", [ "m14mag", "m14smallmag" ] ],
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ "m14mag", "m14smallmag" ] ], [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   }
 ]
