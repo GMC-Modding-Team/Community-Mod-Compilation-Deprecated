@@ -1,7 +1,7 @@
 [
 	{
     "id": "clay_watercont",
-    "type": "CONTAINER",
+    "type": "GENERIC",
     "category": "container",
     "name": { "str": "large clay pot" },
     "description": "A bulky and heavy clay pot with a waterproofed lid, meant to store water, but can carry other liquids in a pinch.",
@@ -12,9 +12,15 @@
     "material": "clay",
     "symbol": ")",
     "color": "brown",
-    "contains": "37500 ml",
-    "seals": true,
-    "watertight": true,
+		"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "37 L",
+        "max_contains_weight": "40 kg"
+      }
+    ],
     "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ]
   },
   {
@@ -29,9 +35,9 @@
     "time": "20 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 1 ], [ "glazing", 1 ], [ "earthenware_firing", 40 ] ],
-    "components": [ 
+    "components": [
     	[ [ "water", 1 ], [ "water_clean", 1 ] ],
-    	[ [ "clay_lump", 4 ] ], 
+    	[ [ "clay_lump", 4 ] ],
     	[ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
@@ -47,9 +53,9 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 1 ], [ "glazing", 1 ], [ "earthenware_firing", 60 ] ],
-    "components": [ 
-    	[ [ "water", 1 ], [ "water_clean", 1 ] ], 
-    	[ [ "clay_lump", 2 ] ], 
+    "components": [
+    	[ [ "water", 1 ], [ "water_clean", 1 ] ],
+    	[ [ "clay_lump", 2 ] ],
     	[ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
@@ -65,9 +71,9 @@
     "time": "45 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 5 ], [ "earthenware_firing", 120 ] ],
-    "components": [ 
-    	[ [ "water", 2 ], [ "water_clean", 2 ] ], 
-    	[ [ "clay_lump", 10 ] ], 
+    "components": [
+    	[ [ "water", 2 ], [ "water_clean", 2 ] ],
+    	[ [ "clay_lump", 10 ] ],
     	[ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
@@ -83,9 +89,9 @@
     "time": "80 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 5 ], [ "earthenware_firing", 160 ] ],
-    "components": [ 
-    	[ [ "water", 3 ], [ "water_clean", 3 ] ], 
-    	[ [ "clay_lump", 20 ] ], 
+    "components": [
+    	[ [ "water", 3 ], [ "water_clean", 3 ] ],
+    	[ [ "clay_lump", 20 ] ],
     	[ [ "cordage_short", 2, "LIST" ] ],
         [ [ "leather", 3 ], [ "fur", 3 ], [ "birchbark", 3 ] ],
         [ [ "adhesive", 2, "LIST" ] ]
@@ -103,8 +109,8 @@
     "time": "25 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 3 ], [ "earthenware_firing", 50 ] ],
-    "components": [ 
-    	[ [ "water", 1 ], [ "water_clean", 1 ] ], 
+    "components": [
+    	[ [ "water", 1 ], [ "water_clean", 1 ] ],
     	[ [ "clay_lump", 6 ] ],
     	[ [ "cordage_short", 2, "LIST" ] ]
     ]
