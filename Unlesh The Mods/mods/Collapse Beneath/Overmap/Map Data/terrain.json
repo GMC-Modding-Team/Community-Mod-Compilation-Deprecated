@@ -1,5 +1,5 @@
 [
- {
+  {
     "type": "terrain",
     "id": "t_rock_i",
     "name": "Iron vein",
@@ -41,10 +41,7 @@
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
       "ter_set_bashed_from_above": "t_rock_floor_no_roof",
-      "items": [
-        { "item": "rock", "count": [ 6, 9 ] },
-		{ "item": "coal_lump", "charges": [ 300, 400 ] }
-      ]
+      "items": [ { "item": "rock", "count": [ 6, 9 ] }, { "item": "coal_lump", "charges": [ 300, 400 ] } ]
     }
   },
   {
@@ -72,7 +69,7 @@
       ]
     }
   },
- {
+  {
     "type": "terrain",
     "id": "t_minecart",
     "name": "minecart",
@@ -89,8 +86,8 @@
       "ter_set": "t_railroad_track",
       "items": [ { "item": "scrap", "count": [ 1, 40 ] } ]
     }
-   },
- {
+  },
+  {
     "type": "terrain",
     "id": "t_quartz",
     "name": "Quartz grafted stone",
@@ -113,8 +110,8 @@
         { "item": "material_rocksalt", "count": [ 0, 1 ], "prob": 10 }
       ]
     }
-	},
-{
+  },
+  {
     "type": "terrain",
     "id": "t_obsidian",
     "name": "Obsidian formantion",
@@ -122,7 +119,7 @@
     "symbol": "^",
     "color": "light_blue",
     "move_cost": 2,
-	"coverage": 30,
+    "coverage": 30,
     "flags": [ "MINEABLE", "NOITEM", "TRANSPARENT", "MOUNTABLE", "PLACE_ITEM" ],
     "bash": {
       "str_min": 60,
@@ -130,9 +127,7 @@
       "sound": "crash!",
       "sound_fail": "whump!",
       "ter_set": "t_rock_floor",
-      "items": [
-        { "item": "obsidian", "count": [ 3, 7 ], "prob": 100 }
-      ]
+      "items": [ { "item": "obsidian", "count": [ 3, 7 ], "prob": 100 } ]
     }
   }
 ]

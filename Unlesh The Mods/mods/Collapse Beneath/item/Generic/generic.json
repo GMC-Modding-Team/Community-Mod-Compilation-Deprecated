@@ -1,5 +1,5 @@
 [
- {
+  {
     "type": "GENERIC",
     "id": "cavern_chitin",
     "category": "spare_parts",
@@ -78,18 +78,10 @@
     "volume": 1,
     "bashing": 1,
     "to_hit": -2,
-	"explode_in_fire" : true,          
-    "explosion": {                    
-    "power" : 1,                 
-    "distance_factor" : 0.3,      
-    "fire" : true,                              
-    "shrapnel" : {
-        "casing_mass" : 15,      
-        "fragment_mass" : 0.01  
-    }
-  }
- },
-  { 
+    "explode_in_fire": true,
+    "explosion": { "power": 1, "distance_factor": 0.3, "fire": true, "shrapnel": { "casing_mass": 15, "fragment_mass": 0.01 } }
+  },
+  {
     "type": "GENERIC",
     "id": "chunk_quartz",
     "category": "spare_parts",
@@ -105,4 +97,4 @@
     "bashing": 2,
     "to_hit": -2
   }
- ]
+]
