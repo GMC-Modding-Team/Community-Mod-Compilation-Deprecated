@@ -19,7 +19,7 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "use_action": "REMOVE_ALL_MODS",
-    "qualities": [["SCREW", 1]] 
+    "qualities": [["SCREW", 1]]
   },{
     "id": "nanites_wrench",
     "type": "TOOL",
@@ -39,7 +39,7 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "qualities": [["WRENCH", 1], ["WRENCH_FINE", 1]] 
+    "qualities": [["WRENCH", 1], ["WRENCH_FINE", 1]]
   },{
     "id": "nanites_shovel",
     "type": "TOOL",
@@ -59,7 +59,7 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "qualities": [["DIG", 3]],
-    "use_action": "DIG" 
+    "use_action": "DIG"
   },{
     "id": "nanites_crowbar",
     "type": "TOOL",
@@ -78,7 +78,7 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "use_action": "CROWBAR" 
+    "use_action": "CROWBAR"
   },{
     "id": "nanites_knife_combat",
     "type": "TOOL",
@@ -101,7 +101,7 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "category": "weapons",
-    "qualities": [["CUT", 1], ["BUTCHER", 19]] 
+    "qualities": [["CUT", 1], ["BUTCHER", 19]]
   },{
     "id": "nanites_hacksaw",
     "type": "TOOL",
@@ -144,22 +144,27 @@
     "use_action": "SIPHON"
   },{
     "id": "nanites_jerrycan",
-    "type": "CONTAINER",
+    "type": "GENERIC",
+    "category": "CONTAINER",
     "symbol": ")",
     "color": "light_gray",
-    "name": "nanites jerrycan",
-    "category": "other",
+    "name":  { "str": "nanites jerrycan" },
     "description": "A bulky nanites jerrycan, meant to carry fuel, but can carry other liquids in a pinch.  It has a capacity of 10 liters.",
     "price": 1250,
-    "weight": 1587,
-    "volume": 40,
+    "weight": "1087 g",
+    "volume": "10003 ml",
     "bashing": 0,
     "cutting": 0,
     "to_hit": -2,
     "material": "nanites",
-    "contains": 40,
-    "rigid": true,
-    "watertight": true,
-    "seals": true 
-  }
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "10 L",
+        "max_contains_weight": "25 kg"
+      }
+    ]
+  },
 ]
