@@ -1,12 +1,14 @@
 - Experimental 0.07
 
-* Updated mods various diffrent code
+Updated mods various diffrent code
     pocket data updates
     bullet resist
     ect
 
 Moved tools and varius diffrent things to seperate download for a smaller download size although 1gb for all the sound
+
 updated 2ch and @s sound packs with another sound pack for more sound 
+
 @s sound pack plays the sound track that is there as well
 
 and more check out the commits im not looking over them again unless i have to
