@@ -1,6 +1,6 @@
 [
-      {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "apple_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
@@ -8,12 +8,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-     "components": [ [ [ "apple", 2 ], [ "irradiated_apple", 2 ] ] ] 
+    "components": [ [ [ "apple", 2 ], [ "irradiated_apple", 2 ] ] ]
   },
-     {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "apricot_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -21,12 +21,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ [ [ "apricot", 2 ]  ] ]
+    "components": [ [ [ "apricot", 2 ] ] ]
   },
-     {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "plum_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -34,12 +34,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ [ [ "plums", 2 ] ] ] 
+    "components": [ [ [ "plums", 2 ] ] ]
   },
-      {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "banana_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -47,17 +47,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ 
-	  [ [ "banana", 2 ], [ "irradiated_banana", 2 ] ],
-	  [
-	    ["lemon", 1 ], ["irradiated_lemon", 1 ]
-	  ]
-]
-},
+    "components": [ [ [ "banana", 2 ], [ "irradiated_banana", 2 ] ], [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ] ] ]
+  },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "peach_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -65,12 +60,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ [ [ "peach", 2 ] ] ] 
-},
+    "components": [ [ [ "peach", 2 ] ] ]
+  },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "pineapple_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -78,16 +73,12 @@
     "difficulty": 2,
     "time": 2000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ 
-	  [ 
-	  ["pineapple", 1 ], [ "irradiated_pineapple", 1 ], ["can_pineapple", 2 ]
-	  ]
-	]
+    "components": [ [ [ "pineapple", 1 ], [ "irradiated_pineapple", 1 ], [ "can_pineapple", 2 ] ] ]
   },
-    {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "mango_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -95,16 +86,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ 
-	  [ 
-	  ["mango", 1 ], [ "irradiated_mango", 1 ] 
-	  ]
-	  ]
+    "components": [ [ [ "mango", 1 ], [ "irradiated_mango", 1 ] ] ]
   },
- {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "kiwi_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -112,16 +99,12 @@
     "difficulty": 2,
     "time": 1000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ 
-	  [ 
-	  ["kiwi", 2 ], [ "irradiated_kiwi", 2 ] 
-	  ]
-	]
+    "components": [ [ [ "kiwi", 2 ], [ "irradiated_kiwi", 2 ] ] ]
   },
- {
-    "type" : "recipe",
+  {
+    "type": "recipe",
     "result": "papaya_slices",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -129,12 +112,8 @@
     "difficulty": 2,
     "time": 2000,
     "autolearn": true,
-	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ 
-	  [ 
-	  ["papaya", 1 ], [ "irradiated_papaya", 1 ] 
-	  ]
-	]
+    "components": [ [ [ "papaya", 1 ], [ "irradiated_papaya", 1 ] ] ]
   }
 ]
