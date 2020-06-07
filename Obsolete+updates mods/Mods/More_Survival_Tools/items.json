@@ -179,8 +179,8 @@
   },
   {
     "id": "foil_alum",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "CONTAINER",
     "name": "aluminum foil wrap",
     "//": "Dummied out way back when.",
     "description": "A half crumpled sheet of aluminum foil, used for cooking and baking.",
@@ -188,11 +188,18 @@
     "volume": 0,
     "price": 0,
     "to_hit": -2,
-    "rigid": false,
     "material": "aluminum",
     "symbol": ",",
     "color": "light_gray",
-    "contains": "2500 ml",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": false,
+        "max_contains_volume": "2500 ml",
+        "max_contains_weight": "5 kg"
+      }
+    ],
     "qualities": [ [ "COOK", 1 ] ]
   },
   {
