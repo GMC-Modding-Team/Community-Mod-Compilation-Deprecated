@@ -46,7 +46,7 @@
     "durability": 9999999,
     "power": 9999999,
     "energy_consumption": 1,
-	"folded_volume": "1 ml",
+    "folded_volume": "1 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -124,14 +124,14 @@
     "description": "A massive storage space for holding fuel, made by Omni Corp.",
     "size": 999999,
     "damage_modifier": 80,
-	"folded_volume": "1 ml",
+    "folded_volume": "1 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] }
     },
     "damage_reduction": { "all": 9999999, "stab": 9999999 },
-	"flags": [ "FOLDABLE" ]
+    "flags": [ "FOLDABLE" ]
   },
   {
     "id": "omni_drum",
@@ -157,7 +157,7 @@
     "type": "vehicle_part",
     "name": "Omni Corp. alternator",
     "item": "omni_generator",
-	"symbol": "*",
+    "symbol": "*",
     "color": "yellow",
     "broken_color": "red",
     "difficulty": 0,
@@ -165,7 +165,7 @@
     "power": 1,
     "epower": 9999999,
     "damage_modifier": 80,
-	"folded_volume": "1 ml",
+    "folded_volume": "1 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -189,7 +189,7 @@
     "id": "omni_frame",
     "type": "vehicle_part",
     "name": "Omni Corp. vehicle frame",
-	"looks_like": "folding_frame",
+    "looks_like": "folding_frame",
     "item": "omni_foldframe",
     "location": "structure",
     "symbol": "h",
@@ -297,7 +297,7 @@
     "type": "GENERIC",
     "id": "omni_recharge_station",
     "name": "Omni Corp. recharging station",
-	"looks_like": "recharge_station",
+    "looks_like": "recharge_station",
     "description": "A universal recharging station made by Omni Corp.",
     "weight": "0 g",
     "to_hit": 1,
@@ -313,7 +313,7 @@
     "type": "vehicle_part",
     "id": "omni_recharge_station",
     "name": "Omni Cop. recharging station",
-	"looks_like": "recharge_station",
+    "looks_like": "recharge_station",
     "symbol": "o",
     "color": "light_green",
     "broken_symbol": "#",
