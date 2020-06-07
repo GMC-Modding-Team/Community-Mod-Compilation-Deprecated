@@ -1,6 +1,6 @@
 - Experimental 0.07
 
-Updated mods various diffrent code
+* Updated mods various diffrent code
     pocket data updates
     bullet resist
     ect
