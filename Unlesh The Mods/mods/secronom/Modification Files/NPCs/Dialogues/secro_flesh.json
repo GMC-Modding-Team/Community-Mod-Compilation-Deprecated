@@ -9,7 +9,7 @@
         "*writhes erractically.",
         "*writhes.",
         "*emits a low, harsh shriek.",
-        "*sways a tendril towards you.",
+        "*sways a tendril.",
         "*trembles.",
         "glob glob",
         "glob glob"
@@ -48,22 +48,35 @@
       {
         "text": "I'd like you to build something.",
         "topic": "SECRO_FLESH_HIVEMIND_build",
-        "condition": { "and": [ { "u_has_effect": "secro_flesh_isadjacent" }, { "npc_at_om_location": "FACTION_CAMP_ANY" }, { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" } ] }
+        "condition": {
+          "and": [
+            { "u_has_effect": "secro_flesh_isadjacent" },
+            { "npc_at_om_location": "FACTION_CAMP_ANY" },
+            { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" }
+          ]
+        }
       },
       {
         "text": "I'd like you to build something.",
         "topic": "SECRO_FLESH_HIVEMIND_build",
-        "condition": { "and": [ { "u_has_effect": "secro_flesh_isadjacent" }, { "npc_at_om_location": "FACTION_CAMP_ANY" }, { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } ] }
+        "condition": {
+          "and": [
+            { "u_has_effect": "secro_flesh_isadjacent" },
+            { "npc_at_om_location": "FACTION_CAMP_ANY" },
+            { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" }
+          ]
+        }
       },
       {
         "text": "About your services...",
         "topic": "SECRO_FLESH_HIVEMIND_service",
-        "condition": { "and": [ { "u_has_effect": "secro_flesh_isadjacent" }, { "npc_at_om_location": "FACTION_CAMP_ANY" }, { "npc_has_effect": "secro_flesh_built_room_meatfarm" } ] }
-      },
-      {
-        "text": "I request mending.",
-        "topic": "SECRO_FLESH_HIVEMIND_healme",
-        "condition": { "and": [ { "u_has_effect": "secro_flesh_isadjacent" }, { "npc_at_om_location": "FACTION_CAMP_ANY" } ] }
+        "condition": {
+          "and": [
+            { "u_has_effect": "secro_flesh_isadjacent" },
+            { "npc_at_om_location": "FACTION_CAMP_ANY" },
+            { "npc_has_effect": "secro_flesh_built_room_meatfarm" }
+          ]
+        }
       },
       { "text": "Leave it.", "topic": "TALK_DONE" }
     ]
@@ -79,7 +92,7 @@
     "type": "talk_topic",
     "dynamic_line": {
       "npc_at_om_location": "FACTION_CAMP_ANY",
-      "yes": "*stretches its tendrils into the ground, then starts to move to an ideal location. It reformed the surrounding tendrils into compact vein walls, concealing itself from outside view.",
+      "yes": "*stretches its tendrils into the ground, then starts to move to an ideal location. It reformed the surrounding tendrils into a circular outline of self-regenerating compact vein walls.",
       "no": "*withdraw its surrounding tendrils as soon as you revoke the establishment of the camp."
     },
     "responses": [
@@ -96,40 +109,5 @@
       },
       { "text": "…", "topic": "TALK_DONE", "condition": { "not": { "npc_at_om_location": "FACTION_CAMP_ANY" } } }
     ]
-  },
-  {
-    "id": "SECRO_FLESH_HIVEMIND_healme",
-    "type": "talk_topic",
-    "dynamic_line": {
-      "npc_has_effect": "currently_busy",
-      "yes": "*reveals a revolting response, showing its tendrils that are currently in service.",
-      "no": "*responds with a subtle shake, as it reveals a gaping orifice."
-    },
-    "responses": [
-      {
-        "text": "[35 flesh, 30m] *feed the orifice with the flesh*",
-        "topic": "SECRO_FLESH_HIVEMIND_healing",
-        "condition": { "and": [ { "npc_service": true }, { "u_has_items": { "item": "secro_flesh", "count": 35 } } ] },
-        "effect": [ { "u_sell_item": "secro_flesh", "count": 35 }, { "npc_consume_item": "secro_flesh", "count": 35 } ]
-      },
-      {
-        "text": "[35 flesh, 30m] *feed the orifice with the flesh*",
-        "topic": "SECRO_FLESH_HIVEMIND_healing_no",
-        "condition": { "and": [ { "npc_service": true }, { "not": { "u_has_items": { "item": "secro_flesh", "count": 35 } } } ] }
-      },
-      { "text": "Nevermind...", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "id": "SECRO_FLESH_HIVEMIND_healing_no",
-    "type": "talk_topic",
-    "dynamic_line": "*refuses to ingest your flesh as it is not enough to perform the mending.",
-    "responses": [ { "text": "Okay…", "topic": "SECRO_FLESH_HIVEMIND_main" } ]
-  },
-  {
-    "id": "SECRO_FLESH_HIVEMIND_healing",
-    "type": "talk_topic",
-    "dynamic_line": "*forms a heap of flesh, which encapsulated you. It felt gross, but you know it'll fix you up.",
-    "responses": [ { "text": "…", "topic": "TALK_DONE", "effect": "give_aid" } ]
   }
 ]

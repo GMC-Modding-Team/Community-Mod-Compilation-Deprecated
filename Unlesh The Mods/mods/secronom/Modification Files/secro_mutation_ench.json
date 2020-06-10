@@ -93,18 +93,44 @@
   {
     "type": "enchantment",
     "id": "SECRONOM_FLESH_BIO_ench",
-    "values": [
-      { "value": "ARMOR_BIO", "add": 10 },
-      { "value": "MAX_HP", "multiply": 5 },
-      { "value": "SPEED", "add": -200 }
-    ],
+    "values": [ { "value": "ARMOR_BIO", "add": 10 }, { "value": "MAX_HP", "multiply": 5 }, { "value": "SPEED", "add": -200 } ],
+    "intermittent_activation": {
+      "effects": [
+        { "frequency": "1 minutes", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_disable" } ] },
+        { "frequency": "1 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_check_random" } ] }
+      ]
+    }
+  },
+  {
+    "type": "enchantment",
+    "id": "SECRONOM_FLESH_BIO_spread1_ench",
     "intermittent_activation": {
       "effects": [
         { "frequency": "30 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spread_near" } ] },
         { "frequency": "200 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spread_far" } ] },
-        { "frequency": "1000 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spread_veryveryfar" } ] },
-        { "frequency": "1 minutes", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_disable" } ] },
-        { "frequency": "1 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_check_random" } ] }
+        { "frequency": "1000 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spread_veryveryfar" } ] }
+      ]
+    }
+  },
+  {
+    "type": "enchantment",
+    "id": "SECRONOM_FLESH_BIO_spread2_ench",
+    "intermittent_activation": {
+      "effects": [
+        { "frequency": "30 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spreadier_near" } ] },
+        { "frequency": "200 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spreadier_far" } ] },
+        { "frequency": "1000 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spreadier_veryveryfar" } ] }
+      ]
+    }
+  },
+  {
+    "type": "enchantment",
+    "id": "SECRONOM_FLESH_BIO_spread3_ench",
+    "intermittent_activation": {
+      "effects": [
+        { "frequency": "15 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spreadiest_near" } ] },
+        { "frequency": "100 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spreadiest_far" } ] },
+        { "frequency": "500 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_spreadiest_veryveryfar" } ] }
       ]
     }
   }

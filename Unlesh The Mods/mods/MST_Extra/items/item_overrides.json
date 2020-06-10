@@ -40,14 +40,15 @@
     "type": "ARMOR",
     "copy-from": "javelin_bag",
     "name": "javelin bag",
-    "pocket_data": [
-      {
-        "ammo_restriction": {
-          "javelin": 4
-        },
-        "moves": 25
-      }
-    ]
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash javelins",
+      "holster_msg": "You stash your %s.",
+      "multi": 10,
+      "max_volume": "500 ml",
+      "draw_cost": 30,
+      "flags": [ "JAVELIN" ]
+    }
   },
   {
     "id": "char_purifier",

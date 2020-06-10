@@ -510,7 +510,7 @@
         }
       },
       "fill_ter": "t_strconc_wall",
-      "furniture": { "h": "f_desk", "j": "f_chair" },
+      "furniture": { "h": "f_desk", "j": "f_chair", "z": "f_desk" },
       "place_loot": [ { "chance": 100, "group": "tools_medical", "repeat": [ 3 ], "x": [ 12, 12 ], "y": [ 10, 10 ] } ],
       "rows": [
         "           aa           ",
@@ -533,7 +533,7 @@
         "  aaaa  aaaafaaaadaaaa  ",
         "  aaaaa       cc        ",
         "  aaabaaaaaaaaaajh      ",
-        "  aabaabaaabaaabah      ",
+        "  aabaabaaabaaabaz      ",
         "  aaaaabaaabaaabjh      ",
         "   aaaaaaaaaaaaaig      ",
         "                        "
@@ -551,6 +551,7 @@
         "j": "t_strconc_floor",
         "k": "t_console"
       },
+      "item": { "z": { "item": "secro_recipe_flesh", "chance": 100 } },
       "nested": {
         "a": {
           "chunks": [ [ "null", 200 ], [ "SecronomSSBunker_nest_bloodmess", 4 ], [ "SecronomSSBunker_nest_deadscientist", 2 ] ]

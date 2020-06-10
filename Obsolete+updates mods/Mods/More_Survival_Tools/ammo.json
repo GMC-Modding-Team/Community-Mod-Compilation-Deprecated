@@ -14,8 +14,7 @@
     "count": 30,
     "ammo_type": "pebble",
     "range": 13,
-    "damage": 7,
-    "pierce": 1,
+    "damage": { "damage_type": "bullet", "amount": 7, "armor_penetration": 1 },
     "dispersion": 240,
     "loudness": 0,
     "effects": [ "NEVER_MISFIRES" ]

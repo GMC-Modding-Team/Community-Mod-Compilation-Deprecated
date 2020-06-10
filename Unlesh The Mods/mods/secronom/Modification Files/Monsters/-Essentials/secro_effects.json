@@ -862,11 +862,10 @@
   {
     "type": "effect_type",
     "id": "secro_power_armor_flesh_linked",
-    "name": [ "Linked" ],
-    "desc": [ "Your mind were linked to your power armor!\nThis effect applies only when you wear the flesh vessel" ],
-    "max_duration": 6,
+    "max_duration": "2 days",
     "main_parts_only": true,
     "rating": "good",
+    "remove_message": "You felt a sudden tremble.",
     "removes_effects": [ "secro_power_armor_flesh_devouring_note", "secro_power_armor_flesh_devouring" ],
     "blocks_effects": [ "secro_power_armor_flesh_devouring_note", "secro_power_armor_flesh_devouring" ]
   },
@@ -971,6 +970,12 @@
     "id": "mon_zombie_swarmer_evo_savage_tension_target_random_YES",
     "apply_message": "Then its muscles suddenly mutates!",
     "rating": "bad"
+  },
+  {
+    "type": "effect_type",
+    "id": "secro_flesh_transmit_attack",
+    "removes_effects": [ "docile" ],
+    "blocks_effects": [ "docile" ]
   },
   {
     "type": "effect_type",
