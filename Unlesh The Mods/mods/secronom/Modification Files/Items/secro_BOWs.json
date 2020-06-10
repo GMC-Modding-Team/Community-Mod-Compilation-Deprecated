@@ -1,0 +1,50 @@
+[{
+    "id": "secro_flesh_bow_sword",
+    "type": "GENERIC",
+    "symbol": "/",
+    "color": "red",
+    "name": { "str": "bio-organic sword" },
+    "description": "A large bio-organic weapon with a sharp, calcified edge and hilt consisting of membranous vein webbings.",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": 3,
+    "material": [ "flesh", "bone" ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL" ],
+    "weight": "2230 g",
+    "volume": "2965 ml",
+    "bashing": 6,
+    "cutting": 28,
+    "qualities": [ [ "COOK", 1 ], [ "BUTCHER", 10 ] ]
+  },
+  {
+    "id": "secro_flesh_bow_sword_mod_blade",
+    "type": "GENERIC",
+    "symbol": "/",
+    "color": "red",
+    "name": { "str": "bio-organic sword<color_light_green>+</color>", "str_pl": "bio-organic swords<color_light_green>+</color>" },
+    "description": "A large bio-organic weapon with a sharp, calcified edge and hilt consisting of membranous vein webbings.\n\nIt has <color_light_green>core</color> (blade zombie) in its mod slot, providing:\n<color_white>Cutting damage: <color_light_green>+30%</color></color>",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": 3,
+    "material": [ "flesh", "bone" ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
+    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL" ],
+    "weight": "2230 g",
+    "volume": "2965 ml",
+    "bashing": 6,
+    "cutting": 28,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ITEM_DAMAGE_CUT", "multiply": 0.15 }
+          ]
+        }
+      ]
+    },
+    "qualities": [ [ "COOK", 1 ], [ "BUTCHER", 10 ] ]
+  }
+]

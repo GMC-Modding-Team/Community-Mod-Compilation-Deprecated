@@ -10,30 +10,35 @@
     "book_learn": [ [ "recipe_mil_augs", 6 ] ],
     "time": 30000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ] ],
-    "tools": [ [ [ "welder", 10 ], [ "welder_crude", 15 ], [ "soldering_iron", 30 ] ], [ [ "mold_plastic", -1 ] ] ],
-    "components": [ [ [ "cbma_monoblade_part", 1 ] ], [ [ "plastic_chunk", 8 ] ], [ [ "duct_tape", 10 ] ] ]
-  },
-  {
+    "using": [ [ "cbma_req_qualities", 1] ],
+    "tools": [ 
+      [ [ "welder", 10 ], [ "welder_crude", 15 ], [ "soldering_iron", 30 ] ],
+      [ [ "mold_plastic", -1 ] ]
+    ],
+    "components": [
+      [ [ "cbma_monoblade_part", 1 ] ],
+      [ [ "plastic_chunk", 8 ] ],
+      [ [ "duct_tape", 10 ] ]
+    ]
+  },{
     "result": "cbma_mono_knife",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "melee", 3 ] ],
+    "skills_required": [ [ "melee", 3] ],
     "book_learn": [ [ "recipe_mil_augs", 6 ] ],
     "time": 480000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_melee", 1 ] ],
     "components": [
       [ [ "cbma_monoblade_part", 1 ] ],
       [ [ "leather", 4 ] ],
       [ [ "duct_tape", 200 ] ],
       [ [ "scrap", 9 ], [ "steel_chunk", 3 ], [ "steel_lump", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_mono_sword",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -44,10 +49,12 @@
     "book_learn": [ [ "recipe_mil_augs", 7 ] ],
     "time": 720000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
-    "components": [ [ [ "cbma_monoblade_part", 1 ], [ "cbma_mono_knife", 1 ] ], [ [ "alloy_sheet", 8 ], [ "alloy_plate", 2 ] ] ]
-  },
-  {
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_melee", 1 ] ],
+    "components": [
+      [ [ "cbma_monoblade_part", 1 ], [ "cbma_mono_knife", 1 ] ],
+      [ [ "alloy_sheet", 8 ], [ "alloy_plate", 2 ] ]
+    ]
+  },{
     "result": "cbma_mono_spear",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -58,15 +65,14 @@
     "book_learn": [ [ "recipe_mil_augs", 7 ] ],
     "time": 720000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_melee", 1 ] ],
     "components": [
       [ [ "cbma_monoblade_part", 1 ], [ "cbma_mono_knife", 1 ] ],
       [ [ "leather", 8 ] ],
       [ [ "duct_tape", 200 ] ],
       [ [ "scrap", 27 ], [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_alloy_pile",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -76,10 +82,11 @@
     "book_learn": [ [ "recipe_mil_augs", 6 ] ],
     "time": 720000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
-    "components": [ [ [ "alloy_plate", 8 ], [ "alloy_sheet", 32 ] ] ]
-  },
-  {
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_melee", 1 ] ],
+    "components": [
+      [ [ "alloy_plate", 8 ], [ "alloy_sheet", 32 ] ]
+    ]
+  },{
     "result": "cbma_em_railrifle",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -90,7 +97,7 @@
     "book_learn": [ [ "recipe_mil_augs", 7 ] ],
     "time": 480000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_ranged", 1 ] ],
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_ranged", 1 ] ],
     "components": [
       [ [ "bio_railgun", 2 ] ],
       [ [ "bio_chain_lightning", 2 ] ],
@@ -102,8 +109,7 @@
       [ [ "cable", 200 ] ],
       [ [ "alloy_sheet", 16 ], [ "alloy_plate", 4 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_em_railrifle_as",
     "id_suffix": "from_components",
     "type": "recipe",
@@ -115,7 +121,7 @@
     "book_learn": [ [ "recipe_mil_augs", 7 ] ],
     "time": 600000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_ranged", 1 ] ],
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_ranged", 1 ] ],
     "components": [
       [ [ "bio_railgun", 8 ] ],
       [ [ "bio_chain_lightning", 8 ] ],
@@ -127,8 +133,7 @@
       [ [ "cable", 600 ] ],
       [ [ "alloy_sheet", 40 ], [ "alloy_plate", 10 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_em_railrifle_as",
     "id_suffix": "from_guns",
     "type": "recipe",
@@ -140,15 +145,14 @@
     "book_learn": [ [ "recipe_mil_augs", 7 ] ],
     "time": 240000,
     "autolearn": true,
-    "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_ranged", 1 ] ],
+    "using": [ [ "cbma_req_qualities", 1], [ "cbma_req_tool_weapon_ranged", 1 ] ],
     "components": [
       [ [ "cbma_em_railrifle", 4 ] ],
       [ [ "solder_wire", 250 ] ],
       [ [ "cable", 400 ] ],
       [ [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_em_rail_iron",
     "type": "recipe",
     "category": "CC_AMMO",
@@ -160,9 +164,10 @@
     "time": 10000,
     "autolearn": true,
     "using": [ [ "cbma_req_tool_ammo", 4 ] ],
-    "components": [ [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ]
+    ]
+  },{
     "result": "cbma_em_rail_steel",
     "type": "recipe",
     "category": "CC_AMMO",
@@ -174,9 +179,10 @@
     "time": 20000,
     "autolearn": true,
     "using": [ [ "cbma_req_tool_ammo", 5 ] ],
-    "components": [ [ [ "steel_chunk", 6 ], [ "steel_lump", 2 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "steel_chunk", 6 ], [ "steel_lump", 2 ] ]
+    ]
+  },{
     "result": "cbma_em_rail_alloy",
     "type": "recipe",
     "category": "CC_AMMO",
@@ -188,9 +194,11 @@
     "time": 30000,
     "autolearn": true,
     "using": [ [ "cbma_req_tool_ammo", 10 ] ],
-    "components": [ [ [ "alloy_sheet", 1 ] ], [ [ "steel_chunk", 3 ], [ "steel_lump", 1 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "alloy_sheet", 1 ] ],
+      [ [ "steel_chunk", 3 ], [ "steel_lump", 1 ] ]
+    ]
+  },{
     "result": "cbma_em_railmag",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -203,20 +211,23 @@
     "autolearn": true,
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "GLARE", "level": 2 },
+      { "id": "SAW_M_FINE", "level":1 },
+      { "id": "GLARE", "level" : 2 },
       { "id": "CHISEL", "level": 3 }
     ],
     "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
+      [ ["tongs", -1] ],
+      [ ["anvil", -1] ],
+      [ ["swage", -1] ],
       [ [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
-      [ [ "forge", 25 ], [ "toolset", 25 ], [ "oxy_torch", 5 ] ]
+      [ ["forge", 25], [ "toolset", 25 ], ["oxy_torch", 5 ] ]
     ],
-    "components": [ [ [ "motor_tiny", 1 ], [ "motor_micro", 1 ] ], [ [ "chain", 1 ] ], [ [ "sheet_metal", 4 ], [ "steel_plate", 1 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "motor_tiny", 1 ], [ "motor_micro", 1 ] ],
+      [ [ "chain", 1 ] ],
+      [ [ "sheet_metal", 4 ], [ "steel_plate", 1 ] ]
+    ]
+  },{
     "result": "cbma_pilehammer_exp",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -228,7 +239,9 @@
     "time": 720000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
-    "tools": [ [ [ "cbma_mono_cutter", -1 ] ] ],
+    "tools": [ 
+      [ [ "cbma_mono_cutter", -1 ] ]
+    ],
     "components": [
       [ [ "cbma_alloy_pile", 1 ] ],
       [ [ "m2browning", 1 ] ],
@@ -237,8 +250,7 @@
       [ [ "cable", 200 ] ],
       [ [ "alloy_sheet", 40 ], [ "alloy_plate", 10 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_pilehammer_emp",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -250,7 +262,9 @@
     "time": 720000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
-    "tools": [ [ [ "cbma_mono_cutter", -1 ] ] ],
+    "tools": [ 
+      [ [ "cbma_mono_cutter", -1 ] ]
+    ],
     "components": [
       [ [ "cbma_alloy_pile", 1 ] ],
       [ [ "m2browning", 1 ] ],
@@ -262,8 +276,7 @@
       [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
       [ [ "alloy_sheet", 28 ], [ "alloy_plate", 7 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_pile_ammo",
     "type": "recipe",
     "category": "CC_AMMO",
@@ -275,20 +288,26 @@
     "time": 30000,
     "autolearn": true,
     "using": [ [ "cbma_req_tool_ammo", 10 ] ],
-    "components": [ [ [ "chem_rdx", 1 ], [ "gunpowder", 800 ] ], [ [ "chem_hmtd", 1 ] ], [ [ "steel_chunk", 1 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "chem_rdx", 1 ], [ "gunpowder", 800 ] ],
+      [ [ "chem_hmtd", 1 ] ],
+      [ [ "steel_chunk", 1 ] ]
+    ]
+  },{
     "result": "cbma_mono_throw_dagger",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ [ "throw", 3 ] ],
+    "skills_required": [ [ "throw", 3] ],
     "book_learn": [ [ "recipe_mil_augs", 6 ] ],
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "cbma_req_tool_weapon_melee", 1 ] ],
-    "components": [ [ [ "cbma_monoblade_part", 1 ] ], [ [ "steel_chunk", 1 ] ] ]
+    "components": [
+      [ [ "cbma_monoblade_part", 1 ] ],
+      [ [ "steel_chunk", 1 ] ]
+    ]
   }
 ]

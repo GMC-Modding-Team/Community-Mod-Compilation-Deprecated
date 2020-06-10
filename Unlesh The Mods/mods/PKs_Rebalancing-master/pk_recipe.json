@@ -1,6 +1,6 @@
 [
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "ref_lighter_string",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -12,7 +12,7 @@
     "components": [ [ [ "ref_lighter", 1 ] ], [ [ "duct_tape", 10 ] ], [ [ "scrap", 1 ] ], [ [ "string_36", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "water_smoke",
     "category": "CC_AMMO",
     "subcategory": "CSC_OTHER",
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "smoke_machine_unpreped",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "smoke_machine_unpreped",
     "id_suffix": "decon",
     "category": "CC_NONCRAFT",
@@ -61,7 +61,7 @@
     "components": [ [ [ "nail", 3 ] ], [ [ "tin_plate", 1 ] ], [ [ "scrap", 1 ] ], [ [ "jug_plastic", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "homebrew_antiseptic",
     "id_suffix": "from_plant",
     "category": "CC_OTHER",
@@ -82,7 +82,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "homebrew_antiseptic",
     "id_suffix": "from_wasp",
     "category": "CC_OTHER",
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "water_clean",
     "id_suffix": "from_plant",
     "byproducts": [ [ "sac_empty", 3 ] ],
@@ -122,7 +122,7 @@
     "components": [ [ [ "plant_sac", 3 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "water",
     "id_suffix": "from_plant",
     "byproducts": [ [ "sac_empty", 3 ] ],
@@ -138,7 +138,7 @@
     "components": [ [ [ "plant_sac", 3 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "sac_treated",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
@@ -153,7 +153,7 @@
     "components": [ [ [ "sac_empty", 1 ] ], [ [ "salt", 10 ], [ "salt_water", 1 ], [ "saline", 3 ], [ "seasoning_salt", 25 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "sac_purse",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
@@ -172,8 +172,8 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "broken_mechaspider",
-    "type": "recipe",
     "category": "CC_NONCRAFT",
     "subcategory": "CSC_NONCRAFT",
     "skill_used": "survival",
@@ -184,8 +184,8 @@
     "components": [ [ [ "spider_brain", 1 ] ], [ [ "arachnotron_guts", 1 ] ] ]
   },
   {
+	"type": "recipe",
     "result": "spider_steak",
-    "type": "recipe",
     "result_mult": 6,
     "category": "CC_FOOD",
     "subcategory": "CSC_MEAT",
@@ -199,8 +199,8 @@
     "components": [ [ [ "spider_brain", 1 ] ] ]
   },
   {
+	"type": "recipe",
     "result": "arachnotron_guts",
-    "type": "recipe",
     "category": "CC_NONCRAFT",
     "subcategory": "CSC_NONCRAFT",
     "skill_used": "electronics",
@@ -229,7 +229,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "spider_steak_cooked",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -244,7 +244,7 @@
     "components": [ [ [ "spider_steak", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "spider_steak_fried",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "spider_steak_soup",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -347,7 +347,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "spider_steak_sandwich",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -381,7 +381,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "jar_spider_steak_pickled",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -401,7 +401,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bot_manhack_fire",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
@@ -425,7 +425,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_launcher_single",
     "note": "standalone_weapon",
     "category": "CC_WEAPON",
@@ -440,7 +440,7 @@
     "components": [ [ [ "pipe", 1 ] ], [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "nail", 3 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_launcher_double",
     "note": "standalone_weapon",
     "category": "CC_WEAPON",
@@ -470,7 +470,7 @@
     "components": [ [ [ "pipe", 2 ] ], [ [ "nail", 4 ] ], [ [ "scrap", 3 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_undermod",
     "note": "underbarrel_mount",
     "category": "CC_WEAPON",
@@ -496,7 +496,7 @@
     "components": [ [ [ "pipe", 1 ] ], [ [ "duct_tape", 50 ] ], [ [ "nail", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_explosive",
     "note": "crafted explosive bomblets",
     "category": "CC_AMMO",
@@ -534,7 +534,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_frag",
     "note": "crafted frag bomblets",
     "category": "CC_AMMO",
@@ -572,7 +572,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_fire",
     "note": "crafted fire bomblets",
     "category": "CC_AMMO",
@@ -611,7 +611,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_acid",
     "note": "crafted acid bomblets",
     "category": "CC_AMMO",
@@ -642,7 +642,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_stun",
     "note": "crafted stun bomblets",
     "category": "CC_AMMO",
@@ -674,7 +674,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bomblet_casing",
     "note": "crafted bomblet cases",
     "category": "CC_AMMO",
@@ -691,7 +691,7 @@
     "components": [ [ [ "plastic_chunk", 10 ] ], [ [ "scrap", 10 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_torso_1",
     "id_suffix": "uncraft",
     "category": "CC_NONCRAFT",
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_torso_1",
     "id_suffix": "repair",
     "category": "CC_ARMOR",
@@ -736,7 +736,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_torso_2",
     "id_suffix": "recraft",
     "category": "CC_ARMOR",
@@ -757,7 +757,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_leggings_1",
     "id_suffix": "uncraft",
     "category": "CC_NONCRAFT",
@@ -772,7 +772,7 @@
     "components": [ [ [ "spess_chunk", 10 ] ], [ [ "neoprene", 8 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_boots_1",
     "id_suffix": "uncraft",
     "category": "CC_NONCRAFT",
@@ -787,7 +787,7 @@
     "components": [ [ [ "spess_chunk", 12 ] ], [ [ "steel_chunk", 2 ] ], [ [ "scrap", 4 ] ], [ [ "rag", 2 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_gloves_1",
     "id_suffix": "uncraft",
     "category": "CC_NONCRAFT",
@@ -802,7 +802,7 @@
     "components": [ [ [ "spess_chunk", 2 ] ], [ [ "leather", 2 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megaarmor_armguards_1",
     "id_suffix": "uncraft",
     "category": "CC_NONCRAFT",
@@ -817,7 +817,7 @@
     "components": [ [ [ "spess_chunk", 4 ] ], [ [ "neoprene", 6 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "molotov_micro",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
@@ -829,7 +829,7 @@
     "components": [ [ [ "clay_canister", 1 ], [ "flask_glass", 1 ] ], [ [ "gasoline", 250 ] ], [ [ "string_6", 1 ] ], [ [ "rag", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "acidbomb_small",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
@@ -846,7 +846,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "acidbomb_large",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
@@ -863,7 +863,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bot_fungal_boil_egg",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
@@ -883,7 +883,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megabear_skull_clean",
     "byproducts": [ [ "fat", 2 ] ],
     "category": "CC_OTHER",
@@ -907,7 +907,7 @@
     "components": [ [ [ "megabear_skull_unclean", 1 ] ], [ [ "soap", 2 ] ], [ [ "water", 4 ], [ "water_clean", 4 ] ], [ [ "rag", 2 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "megabear_skull_clean",
     "id_suffix": "picked",
     "category": "CC_OTHER",
@@ -930,7 +930,7 @@
     "components": [ [ [ "megabear_skull_picked", 1 ] ], [ [ "soap", 2 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "rag", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "helmet_bone_megabear",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -963,9 +963,9 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "triffid_sap",
     "result_mult": 3,
-    "type": "recipe",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
     "skill_used": "cooking",
@@ -989,8 +989,8 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "triffid_sap_grenade",
-    "type": "recipe",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
     "skill_used": "cooking",
@@ -1010,8 +1010,8 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "royal_jelly_sap",
-    "type": "recipe",
     "result_mult": 2,
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
@@ -1037,8 +1037,8 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "fighter_sting_juice",
-    "type": "recipe",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_OTHER",
     "skill_used": "cooking",
@@ -1059,9 +1059,9 @@
     "components": [ [ [ "fighter_sting", 4 ] ], [ [ "water_clean", 1 ], [ "water", 1 ] ], [ [ "salt_water", 1 ] ] ]
   },
   {
+	"type": "recipe",
     "result": "antidote_posion",
     "result_mult": 2,
-    "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
     "skill_used": "cooking",
@@ -1080,8 +1080,8 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "antidote_badpoison",
-    "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
     "skill_used": "cooking",
@@ -1101,7 +1101,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "pipe_solid_spear",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_PIERCING",
@@ -1114,7 +1114,7 @@
     "components": [ [ [ "pipe_solid", 1 ] ], [ [ "leather", 1 ] ], [ [ "string_36", 1 ], [ "string_6", 6 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bot_turret_shockcannon",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
@@ -1137,7 +1137,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "shockcannon_ups",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
@@ -1154,7 +1154,7 @@
     "components": [ [ [ "shockcannon", 1 ] ], [ [ "battery_ups", 1 ] ], [ [ "scrap", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "shockcannon_plut",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
@@ -1171,7 +1171,7 @@
     "components": [ [ [ "shockcannon", 1 ] ], [ [ "light_atomic_battery_cell", 1 ] ], [ [ "scrap", 1 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "chime_scrap",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER",
@@ -1185,8 +1185,8 @@
     "components": [ [ [ "scrap", 6 ], [ "steel_chunk", 2 ] ], [ [ "scrap", 6 ] ], [ [ "string_36", 1 ], [ "string_6", 6 ] ] ]
   },
   {
+	"type": "recipe",
     "result": "wasp_glue_super",
-    "type": "recipe",
     "result_mult": 2,
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
@@ -1214,7 +1214,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "bfg_shell",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -1246,8 +1246,8 @@
     ]
   },
   {
+	"type": "recipe",
     "result": "armguard_larmor_mod",
-    "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_ARMS",
     "skill_used": "tailor",
@@ -1260,8 +1260,8 @@
     "components": [ [ [ "armguard_larmor", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
+	"type": "recipe",
     "result": "bandolier_bomblet",
-    "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "tailor",
@@ -1274,7 +1274,7 @@
     "components": [ [ [ "leather", 8 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "brute_shot_mag",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
@@ -1286,8 +1286,8 @@
     "components": [ [ [ "scrap", 3 ] ] ]
   },
   {
+	"type": "recipe",
     "result": "fridge_cargo",
-    "type": "recipe",
     "skill_used": "fabrication",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",

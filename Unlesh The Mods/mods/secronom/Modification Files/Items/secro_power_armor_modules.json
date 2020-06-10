@@ -4,7 +4,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "Secronom module implant \"Core\"" },
-    "description": "A set of power armor modules that installs a power core on the chest that unifies the wearer's bionic power to the suit for energy distribution. Module implant type \"Core\" enables the user to activate/deactivate the power armor and take full control of it, only if the suit has no feature, otherwise it is useless.",
+    "description": "A set of power armor modules that installs a power core on the chest that unifies the wearer's bionic power to the suit for energy distribution. Module implant type \"Core\" enables the user to activate/deactivate the power armor and take full control of it, only if the suit has no feature otherwise it is useless.",
     "weight": "500 g",
     "volume": "125 ml",
     "price": 620000,
@@ -21,9 +21,9 @@
     "material_thickness": 1,
     "use_action": {
       "type": "ups_based_armor",
-      "activate_msg": "Your flesh vessel engages.",
-      "deactive_msg": "Your flesh vessel disengages",
-      "out_of_power_msg": "Your flesh vessel disengages"
+      "activate_msg": "Your power armor engages.",
+      "deactive_msg": "Your power armor disengages",
+      "out_of_power_msg": "Your power disengages disengages"
     },
     "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
   },
@@ -56,8 +56,7 @@
       "menu_text": "Activate \"Vessel\" module"
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
+    "max_charges": 500,
     "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
   },
   {
@@ -101,9 +100,8 @@
       ]
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
-    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
+    "max_charges": 500,
+    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "RECHARGE", "POWERARMOR_COMPATIBLE" ]
   },
   {
     "id": "secro_power_armor_module_electric",
@@ -134,8 +132,7 @@
       "menu_text": "Activate \"Shock\" module"
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
+    "max_charges": 500,
     "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
   },
   {
@@ -192,9 +189,8 @@
       ]
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
-    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
+    "max_charges": 500,
+    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "RECHARGE", "POWERARMOR_COMPATIBLE" ]
   },
   {
     "id": "secro_power_armor_module_pulsar",
@@ -225,8 +221,7 @@
       "menu_text": "Activate \"Pulsar\" module"
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
+    "max_charges": 500,
     "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
   },
   {
@@ -276,9 +271,8 @@
       ]
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
-    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
+    "max_charges": 500,
+    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "RECHARGE", "POWERARMOR_COMPATIBLE" ]
   },
   {
     "id": "secro_power_armor_module_optics",
@@ -309,8 +303,7 @@
       "menu_text": "Activate \"Optics\" module"
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
+    "max_charges": 500,
     "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
   },
   {
@@ -352,8 +345,7 @@
       ]
     },
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "secro_power_armor_battery" ] ] ],
-    "magazine_well": 1,
-    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
+    "max_charges": 500,
+    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "NO_TAKEOFF", "RECHARGE", "POWERARMOR_COMPATIBLE" ]
   }
 ]

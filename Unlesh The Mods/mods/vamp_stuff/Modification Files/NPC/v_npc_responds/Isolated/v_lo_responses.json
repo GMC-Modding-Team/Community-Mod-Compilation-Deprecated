@@ -70,6 +70,7 @@
             }, {
                 "text": "Greetings, my brethren.",
                 "topic": "TALK_VAMP_LONELY_fakevamp",
+                "//": "A hidden joke response.",
                 "effect": {
                     "u_add_trait": "isolatedurfake"
                 },
@@ -237,6 +238,7 @@
         "dynamic_line": "I already said I refuse... NOW, I have to kill you for your ignorance!",
         "responses": [{
                 "text": "KILL ME IF YOU CAN!!!",
+                "//": "Oof! don't be greedy persuading a vampire to join you so early.",
                 "effect": "insult_combat",
                 "topic": "TALK_DONE"
             }
@@ -257,6 +259,7 @@
     }, {
         "id": "TALK_VAMP_LONELY_joinparty",
         "type": "talk_topic",
+        "//": "You can immediately put any isolated vampires you meet into your roster if you've done all the quest by one of them.",
         "dynamic_line": "You sure about that?",
         "responses": [{
                 "text": "Yes, I do.",
@@ -288,6 +291,7 @@
             }
         ]
     }, {
+        "//": "Vampire rants about your non-traditional way of transformation.Yes, they're talking about C.R.I.T mod's vampire mutation branch.",
         "id": "TALK_VAMP_LONELY_fakevamp",
         "type": "talk_topic",
         "dynamic_line": "You think I'm foolish to believe you as my kind? Trust me, mortal, us vampires are not born by drinking artificial drugs.",

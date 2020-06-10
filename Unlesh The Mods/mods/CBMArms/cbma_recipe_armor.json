@@ -15,17 +15,7 @@
       [ [ "rag", 30 ] ],
       [ [ "leather", 30 ], [ "tanned_hide", 6 ] ],
       [ [ "coat_rain", 1 ] ],
-      [
-        [ "chestrig", 1 ],
-        [ "legrig", 1 ],
-        [ "vest", 1 ],
-        [ "tool_belt", 1 ],
-        [ "ragpouch", 6 ],
-        [ "leather_pouch", 4 ],
-        [ "dump_pouch", 1 ],
-        [ "purse", 2 ],
-        [ "fanny", 2 ]
-      ],
+      [ [ "chestrig", 1 ], [ "legrig", 1 ], [ "vest", 1 ], [ "tool_belt", 1 ], [ "ragpouch", 6 ], [ "leather_pouch", 4 ], [ "dump_pouch", 1 ], [ "purse", 2 ], [ "fanny", 2 ] ],
       [ [ "duct_tape", 500 ] ],
       [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ],
       [ [ "bio_armor_torso", 2 ], [ "alloy_sheet", 8 ], [ "alloy_plate", 2 ] ],
@@ -33,8 +23,7 @@
       [ [ "bio_armor_legs", 1 ], [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ],
       [ [ "bio_carbon", 1 ], [ "cbma_myomer_fiber", 8 ], [ "bio_str_enhancer", 4 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_armor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -57,11 +46,10 @@
       [ [ "bio_teleport", 1 ] ],
       [ [ "minireactor", 1 ] ],
       [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
-      [ [ "solder_wire", 200 ] ],
+      [ [ "solder_wire" , 200 ] ],
       [ [ "alloy_sheet", 8 ], [ "alloy_plate", 2 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_armor_ups",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -73,9 +61,12 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
-    "components": [ [ [ "cbma_enhanced_armor", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 200 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "cbma_enhanced_armor", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire" , 200 ] ]
+    ]
+  },{
     "result": "cbma_bionic_helmet",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -93,22 +84,10 @@
       [ [ "hood_rain", 1 ], [ "bag_plastic", 2 ] ],
       [ [ "steel_chunk", 2 ], [ "scrap", 6 ] ],
       [ [ "duct_tape", 150 ] ],
-      [
-        [ "helmet_riot", 1 ],
-        [ "helmet_motor", 1 ],
-        [ "helmet_football", 1 ],
-        [ "helmet_ball", 1 ],
-        [ "helmet_skid", 1 ],
-        [ "helmet_bike", 1 ],
-        [ "hat_hard", 1 ],
-        [ "firehelmet", 1 ],
-        [ "pickelhaube", 1 ],
-        [ "plastic_chunk", 8 ]
-      ],
+      [ [ "helmet_riot", 1 ], [ "helmet_motor", 1 ], [ "helmet_football", 1 ], [ "helmet_ball", 1 ], [ "helmet_skid", 1 ], [ "helmet_bike", 1 ], [ "hat_hard", 1 ], [ "firehelmet", 1 ], [ "pickelhaube", 1 ], [ "plastic_chunk", 8 ] ],
       [ [ "bio_armor_head", 1 ], [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_bionic_mask",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -126,8 +105,7 @@
       [ [ "duct_tape", 150 ] ],
       [ [ "bio_armor_head", 1 ], [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_helmet",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -145,17 +123,16 @@
       [ [ "bio_armor_eyes", 1 ] ],
       [ [ "bio_eye_enhancer", 1 ] ],
       [ [ "bio_membrane", 1 ] ],
-      [ [ "bio_purifier", 1 ] ],
+      [ [ "bio_purifier" , 1 ] ],
       [ [ "bio_sunglasses", 1 ] ],
       [ [ "bio_eye_optic", 1 ] ],
       [ [ "bio_gills", 1 ] ],
       [ [ "minireactor", 1 ] ],
       [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
-      [ [ "solder_wire", 100 ] ],
+      [ [ "solder_wire" , 100 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_helmet_ups",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -167,9 +144,12 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
-    "components": [ [ [ "cbma_enhanced_helmet", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 200 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "cbma_enhanced_helmet", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire" , 200 ] ]
+    ]
+  },{
     "result": "cbma_bionic_gloves",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -187,17 +167,10 @@
       [ [ "scrap", 12 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "gloves_tactical", 1 ], [ "kevlar_plate", 4 ] ],
-      [
-        [ "gloves_leather", 1 ],
-        [ "gloves_light", 1 ],
-        [ "gloves_liner", 1 ],
-        [ "wetsuit_gloves", 1 ],
-        [ "fire_gauntlets", 1 ]
-      ],
+      [ [ "gloves_leather", 1 ], [ "gloves_light", 1 ], [ "gloves_liner", 1 ], [ "wetsuit_gloves", 1 ], [ "fire_gauntlets", 1 ] ],
       [ [ "bio_armor_arms", 1 ], [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_gloves",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -219,8 +192,7 @@
       [ [ "solder_wire", 200 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_gloves_ups",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -232,9 +204,12 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
-    "components": [ [ [ "cbma_enhanced_gloves", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 200 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "cbma_enhanced_gloves", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire" , 200 ] ]
+    ]
+  },{
     "result": "cbma_bionic_boots",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -255,8 +230,7 @@
       [ [ "boots_combat", 1 ], [ "boots_steel", 1 ], [ "boots_hiking", 1 ], [ "boots_bunker", 1 ], [ "boots", 1 ] ],
       [ [ "bio_armor_legs", 1 ], [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_boots",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -278,8 +252,7 @@
       [ [ "solder_wire", 200 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_boots_ups",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -291,9 +264,12 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
-    "components": [ [ [ "cbma_enhanced_boots", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 200 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "cbma_enhanced_boots", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire" , 200 ] ]
+    ]
+  },{
     "result": "cbma_bionic_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -311,8 +287,7 @@
       [ [ "bio_carbon", 1 ] ],
       [ [ "duct_tape", 100 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -336,8 +311,7 @@
       [ [ "cable", 200 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_enhanced_duster_ups",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -349,9 +323,12 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
-    "components": [ [ [ "cbma_enhanced_duster", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 200 ] ] ]
-  },
-  {
+    "components": [
+      [ [ "cbma_enhanced_duster", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire" , 200 ] ]
+    ]
+  },{
     "result": "cbma_carry_frame",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -372,8 +349,7 @@
       [ [ "cable", 200 ] ],
       [ [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_inner_suite",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -397,8 +373,7 @@
       [ [ "solder_wire", 200 ] ],
       [ [ "cable", 200 ] ]
     ]
-  },
-  {
+  },{
     "result": "cbma_inner_suite_ups",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -410,6 +385,10 @@
     "time": 60000,
     "autolearn": true,
     "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
-    "components": [ [ [ "cbma_inner_suite", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 200 ] ] ]
+    "components": [
+      [ [ "cbma_inner_suite", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire" , 200 ] ]
+    ]
   }
 ]
