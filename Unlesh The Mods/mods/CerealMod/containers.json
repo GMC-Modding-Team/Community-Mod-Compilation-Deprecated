@@ -1,8 +1,7 @@
-[
-  {
+[ {
     "id": "lid_ceramicbowl",
     "type": "GENERIC",
-    "category": "container",
+	"category": "container",
     "name": "ceramic bowl with lid",
     "description": "A shallow dessert bowl with an improvised plastic lid. Can be used as a container or as a tool. Holds 250 ml of liquid.",
     "weight": 400,
@@ -13,7 +12,7 @@
     "material": "ceramic",
     "symbol": ",",
     "color": "yellow",
-    "pocket_data": [
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -22,14 +21,14 @@
         "max_contains_weight": "2 g"
       }
     ],
-    "seals": true,
+	"seals": true,
     "watertight": true,
     "qualities": [ [ "CONTAIN", 1 ] ]
   },
   {
     "id": "lid_glassbowl",
     "type": "GENERIC",
-    "category": "container",
+	"category": "container",
     "name": "glass bowl with lid",
     "description": "A glass dessert bowl with an improvised plastic lid. Can be used as a container or as a tool. Holds 250 ml of liquid.",
     "weight": 500,
@@ -40,7 +39,7 @@
     "material": "glass",
     "symbol": ",",
     "color": "cyan",
-    "pocket_data": [
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -49,7 +48,7 @@
         "max_contains_weight": "2 g"
       }
     ],
-    "seals": true,
+	"seals": true,
     "watertight": true,
     "qualities": [ [ "CONTAIN", 1 ] ]
   },
@@ -66,7 +65,7 @@
     "material": "plastic",
     "symbol": ")",
     "color": "light_cyan",
-    "pocket_data": [
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -77,7 +76,7 @@
     ],
     "seals": true,
     "watertight": true,
-    "qualities": [ [ "CONTAIN", 1 ] ]
+	"qualities": [ [ "CONTAIN", 1 ] ]
   },
   {
     "id": "lid_pewterbowl",
@@ -92,7 +91,7 @@
     "material": "steel",
     "symbol": ")",
     "color": "light_cyan",
-    "pocket_data": [
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -101,7 +100,7 @@
         "max_contains_weight": "2 g"
       }
     ],
-    "seals": true,
+	"seals":true,
     "watertight": true,
     "qualities": [ [ "CONTAIN", 1 ] ]
   }

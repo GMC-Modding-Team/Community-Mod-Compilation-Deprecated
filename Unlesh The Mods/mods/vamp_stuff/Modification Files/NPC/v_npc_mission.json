@@ -1,4 +1,5 @@
 [{
+        "//": "Subgoals that you may want to complete or to keep you in the bay for moments.",
         "id": "VAMP_UNDERCOMMANDO_quest1",
         "type": "mission_definition",
         "name": "Collect 30 blood",
@@ -219,6 +220,7 @@
         ],
         "has_generic_rewards": false,
         "followup": "VAMP_LONELY_quest5",
+        "//": "Locating a blended overmap in a world would take forever, so we WILL set a pedestal in random distances. RNG is your enemy here.",
         "start": {
             "assign_mission_target": {
                 "om_terrain": "bloodrune_pedestal",
@@ -783,6 +785,7 @@
             "failure_lie_": "Do not lie!"
         }
     }, {
+        "//": "Missions obtained from starting with the 'Vampire Wannabe' scenario.",
         "id": "SCEN_FIND_CRYPT",
         "type": "mission_definition",
         "name": "Reach a memorial crypt",
@@ -802,6 +805,7 @@
             }
         }
     }, {
+        "//": "From this mission, players will start to progress little by little, by showing quest related structures.",
         "id": "SCEN_RECRUIT_VAMP",
         "type": "mission_definition",
         "name": "Dark Descendant",

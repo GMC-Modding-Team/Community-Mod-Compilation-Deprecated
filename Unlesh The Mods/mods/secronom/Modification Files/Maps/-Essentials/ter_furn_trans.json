@@ -912,5 +912,17 @@
         "message": "The biohazard here has withdraw!"
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "secro_furn_removal",
+    "fail_message": "There's nothing to remove here.",
+    "furniture": [
+      {
+        "result": "f_null",
+        "valid_flags": [ "FLOWER", "RUBBLE" ],
+        "message": "The furnitures here has collapsed."
+      }
+    ]
   }
 ]

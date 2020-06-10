@@ -1,5 +1,6 @@
 [
   {
+    "note": "I use full-sized nested mapgens, just to be sure...",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "secro_guard_mission1_opendadoor",
@@ -201,6 +202,30 @@
     "method": "json",
     "update_mapgen_id": "secro_fleshcamp_room_hatchery_west",
     "object": { "place_nested": [ { "chunks": [ "secro_fleshcamp_base_room_hatchery_south" ], "x": 0, "y": 0 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "secro_fleshcamp_room_artifice_north",
+    "object": { "place_nested": [ { "chunks": [ "secro_fleshcamp_base_room_artifice_north" ], "x": 0, "y": 0 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "secro_fleshcamp_room_artifice_east",
+    "object": { "place_nested": [ { "chunks": [ "secro_fleshcamp_base_room_artifice_east" ], "x": 0, "y": 0 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "secro_fleshcamp_room_artifice_south",
+    "object": { "place_nested": [ { "chunks": [ "secro_fleshcamp_base_room_artifice_south" ], "x": 0, "y": 0 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "secro_fleshcamp_room_artifice_west",
+    "object": { "place_nested": [ { "chunks": [ "secro_fleshcamp_base_room_artifice_west" ], "x": 0, "y": 0 } ] }
   },
   {
     "type": "mapgen",
@@ -589,6 +614,44 @@
   },
   {
     "type": "mapgen",
+    "nested_mapgen_id": "secro_fleshcamp_base_room_artifice_north",
+    "method": "json",
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rows": [
+        "            ,,,,,,,,    ",
+        "    ,,,,,,,,,....++,    ",
+        "   ,,+...........+,,    ",
+        "  ,,++...........+,     ",
+        "  ,++............+,,    ",
+        " ,,+.............++,    ",
+        " ,++..............+,,   ",
+        " ,+...............++,   ",
+        " ,+................+,   ",
+        " ,+................+,   ",
+        " ,+................+,   ",
+        ",,++...............+,   ",
+        ",++...............++,   ",
+        ",+..@............++,,   ",
+        ",+.....+......++++,,    ",
+        ",++...++.....++,,,,     ",
+        ",,+++++++....+,,        ",
+        " ,,,++,,+...++,,        ",
+        "   ,,,,,+...+,,         ",
+        "     ,,++...+,,         ",
+        "     ,,+...++,,         ",
+        "    ,,++...+,,          ",
+        "    ,,+....+,,          ",
+        "    ,,+...++,,          "
+      ],
+      "faction_owner": [ { "id": "your_followers", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "terrain": { "@": "t_secro_flesh_camp" },
+      "npcs": { "@": { "class": "secronom_flesh_spawn_artifice" } },
+      "palettes": [ "secro_fleshcamp_maxcore_pal" ]
+    }
+  },
+  {
+    "type": "mapgen",
     "nested_mapgen_id": "secro_fleshcamp_base_expand_right",
     "method": "json",
     "object": {
@@ -849,6 +912,44 @@
   },
   {
     "type": "mapgen",
+    "nested_mapgen_id": "secro_fleshcamp_base_room_artifice_east",
+    "method": "json",
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "               ,,,,,,,, ",
+        "          ,,,,,,++++++, ",
+        "         ,+++++++....,, ",
+        "       ,+++..........,  ",
+        ",,,, ,,++............,  ",
+        "+++,,,++,............,  ",
+        "..+++++..............,  ",
+        ".....................,  ",
+        ".....................,, ",
+        "+....................., ",
+        "+++++................., ",
+        ",,,,+++..............., ",
+        "   ,,,++............++, ",
+        "     ,,++.......+++++,, ",
+        "      ,,++.@...++,,,,,  ",
+        "       ,,+...+++,,      ",
+        "        ,+++++,,,       ",
+        "        ,,,,,,,         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "faction_owner": [ { "id": "your_followers", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "terrain": { "@": "t_secro_flesh_camp" },
+      "npcs": { "@": { "class": "secronom_flesh_spawn_artifice" } },
+      "palettes": [ "secro_fleshcamp_maxcore_pal" ]
+    }
+  },
+  {
+    "type": "mapgen",
     "nested_mapgen_id": "secro_fleshcamp_base_expand_down",
     "method": "json",
     "object": {
@@ -1066,6 +1167,44 @@
       "faction_owner": [ { "id": "your_followers", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "terrain": { "@": "t_secro_flesh_camp" },
       "npcs": { "@": { "class": "secronom_flesh_spawn_hatchery" } },
+      "palettes": [ "secro_fleshcamp_maxcore_pal" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "nested_mapgen_id": "secro_fleshcamp_base_room_artifice_south",
+    "method": "json",
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rows": [
+        "          ,,+...++,     ",
+        "          ,++...+,,     ",
+        "          ,+....+,      ",
+        "         ,,+...++,      ",
+        "        ,,++...+,,      ",
+        "        ,++...++,       ",
+        "      ,,,+....+,,       ",
+        "     ,,+++....++,,,     ",
+        "   ,,,++.......+++,,    ",
+        "  ,,+++..........++,,   ",
+        "  ,++.............++,   ",
+        "  ,+...............+,,  ",
+        "  ,+.@.............++,  ",
+        "  ,+................+,  ",
+        "  ,++...............+,  ",
+        "  ,,++..............+,  ",
+        "   ,,++.............+,  ",
+        "    ,,+.............+,  ",
+        "     ,+............++,  ",
+        "     ,+............+,,  ",
+        "    ,,+...........++,   ",
+        "    ,++...........+,,   ",
+        "    ,,,,,,,,......+,    ",
+        "           ,,,,,,,,     "
+      ],
+      "faction_owner": [ { "id": "your_followers", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "terrain": { "@": "t_secro_flesh_camp" },
+      "npcs": { "@": { "class": "secronom_flesh_spawn_artifice" } },
       "palettes": [ "secro_fleshcamp_maxcore_pal" ]
     }
   },
@@ -1293,6 +1432,45 @@
   },
   {
     "type": "mapgen",
+    "nested_mapgen_id": "secro_fleshcamp_base_room_artifice_west",
+    "method": "json",
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rotation": 3,
+      "rows": [
+        "  ,,,,,,,,              ",
+        ",,,++++++,,             ",
+        ",+++....++,,,,          ",
+        ",........++++,,,        ",
+        ",...........+++,,       ",
+        ",.............++,,      ",
+        ",..............++,      ",
+        ",,..............++,     ",
+        " ,...............+,,    ",
+        " ,...............++,,,  ",
+        " ,................+++,,,",
+        " ,..................+++,",
+        " ,....................++",
+        " ,.............++......+",
+        " ,+++.........+++++.....",
+        " ,,,+++.......+,,,+++...",
+        "   ,,,++..@..++, ,,,++..",
+        "     ,,++...++,,   ,,+++",
+        "      ,,+++++,,     ,,,,",
+        "       ,,,,,,,          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "faction_owner": [ { "id": "your_followers", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "terrain": { "@": "t_secro_flesh_camp" },
+      "npcs": { "@": { "class": "secronom_flesh_spawn_artifice" } },
+      "palettes": [ "secro_fleshcamp_maxcore_pal" ]
+    }
+  },
+  {
+    "type": "mapgen",
     "nested_mapgen_id": "secro_fleshcamp_base_top_meatfarm_low",
     "method": "json",
     "object": {
@@ -1405,11 +1583,13 @@
   {
     "type": "palette",
     "id": "secro_fleshcamp_pal",
-    "terrain": { ".": "t_secro_flesh_camp", "+": "t_secro_flesh_camp_wall_veins", ",": [ "t_secro_flesh_camp", "t_dirt" ] }
+    "ter_furn_transforms": { " ": { "transform": "fv_flesh_spread" }, ".": { "transform": "secro_furn_removal" }, "+": { "transform": "secro_furn_removal" }, ",": { "transform": "secro_furn_removal" } },
+    "terrain": { ".": "t_secro_flesh_camp", "+": "t_secro_flesh_camp_wall_veins_smoot", ",": [ "t_secro_flesh_camp", "t_dirt" ] }
   },
   {
     "type": "palette",
     "id": "secro_fleshcamp_maxcore_pal",
+    "ter_furn_transforms": { " ": { "transform": "fv_flesh_spread" }, ".": { "transform": "secro_furn_removal" }, "-": { "transform": "secro_furn_removal" }, "+": { "transform": "secro_furn_removal" }, ",": { "transform": "secro_furn_removal" } },
     "terrain": {
       ".": "t_secro_flesh_camp",
       "-": "t_secro_flesh_camp_wall_veins",

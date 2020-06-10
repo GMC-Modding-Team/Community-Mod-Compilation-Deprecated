@@ -87,8 +87,8 @@
       ]
     },
     "ammo": "secro_flesh",
-    "magazines": [ [ "secro_flesh", [ "secro_flesh_container" ] ] ],
-    "magazine_well": 1,
+"max_charges": 100,
+    "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
   {
@@ -139,8 +139,8 @@
       ]
     },
     "ammo": "secro_flesh",
-    "magazines": [ [ "secro_flesh", [ "secro_flesh_container" ] ] ],
-    "magazine_well": 1,
+"max_charges": 100,
+    "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
   {
@@ -192,8 +192,8 @@
       ]
     },
     "ammo": "secro_flesh",
-    "magazines": [ [ "secro_flesh", [ "secro_flesh_container" ] ] ],
-    "magazine_well": 1,
+"max_charges": 100,
+    "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
   {
@@ -245,8 +245,8 @@
       ]
     },
     "ammo": "secro_flesh",
-    "magazines": [ [ "secro_flesh", [ "secro_flesh_container" ] ] ],
-    "magazine_well": 1,
+"max_charges": 100,
+    "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
   {
@@ -296,8 +296,8 @@
       ]
     },
     "ammo": "secro_flesh",
-    "magazines": [ [ "secro_flesh", [ "secro_flesh_container" ] ] ],
-    "magazine_well": 1,
+"max_charges": 100,
+    "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
   {
@@ -324,14 +324,20 @@
     "material_thickness": 24,
     "environmental_protection": 12,
     "power_armor": true,
-    "charges_per_use": 750,
-    "use_action": {
+    "charges_per_use": 50,
+    "use_action": [ {
+      "type": "cast_spell",
+      "spell_id": "secro_power_armor_flesh_infect_morphform_list",
+      "no_fail": true,
+      "need_worn": true,
+      "level": 0
+    },{
       "type": "place_npc",
       "npc_class_id": "secronom_flesh",
       "summon_msg": "You sacrificed a huge amount of flesh to make an artificial flesh hivemind...",
       "place_randomly": false,
-      "moves": 60000
-    },
+      "moves": 10
+    } ],
     "relic_data": {
       "passive_effects": [
         {
@@ -362,8 +368,34 @@
       ]
     },
     "ammo": "secro_flesh",
-    "magazines": [ [ "secro_flesh", [ "secro_flesh_container_pathogen" ] ] ],
-    "magazine_well": 1,
+"max_charges": 200,
+    "qualities": [ [ "SECRO_FLESH_MORPHING", 2 ], [ "SECRO_FLESH_REFORMING", 2 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+  },
+  {
+    "id": "secro_power_armor_feed_item",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "<color_red>[FEED]</color> consume flesh" },
+    "description": "Activate this to command the flesh vessel to consume your flesh. Failing to do so won't revoke flesh consumption.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "flesh" ],
+    "symbol": "%",
+    "color": "red",
+    "coverage": 0,
+    "encumbrance": 0,
+    "power_armor": true,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "secro_power_armor_feed",
+      "no_fail": true,
+      "need_worn": true,
+      "level": 0
+    },
+    "flags": [ "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
   }
 ]

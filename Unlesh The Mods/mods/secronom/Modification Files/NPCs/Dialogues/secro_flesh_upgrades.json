@@ -1,57 +1,176 @@
 {
-    "id": "SECRO_FLESH_HIVEMIND_upgrades",
-    "type": "talk_topic",
-    "dynamic_line": {
-      "and": [
-        "*is eager to acquire augmentations, opening its elongated mouth as it waits your decision.",
-        {
-          "npc_has_effect": "secro_flesh_upgrade_construction_max",
-          "no": {
-            "npc_has_trait": "SECRONOM_FLESH_BIO_construction",
-            "no": "\n\n[200 flesh] Bio-organic Construction\nAllows the hivemind to perform widespread construction using flesh.",
-            "yes": {
-              "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance",
-              "no": "\n\n[500 flesh] Advanced Bio-organic Construction\nAllows the hivemind to perform a vast selection of intricate structures using flesh."
-            }
+  "id": "SECRO_FLESH_HIVEMIND_upgrades",
+  "type": "talk_topic",
+  "dynamic_line": {
+    "and": [
+      {
+        "npc_has_effect": "secro_flesh_upgrade_processed",
+        "yes": "*consumes the flesh you have provided. The core pulsates in velvety streaks, hinting its recent growth.",
+        "no": "*is eager to acquire augmentations, opening its elongated mouth as it waits your decision.\n"
+      },
+      {
+        "npc_has_effect": "secro_flesh_upgrade_construction_max",
+        "no": {
+          "npc_has_trait": "SECRONOM_FLESH_BIO_construction",
+          "no": "\n\n[125 flesh] Bio-organic Construction\nAllows the hivemind to perform constructions using flesh.",
+          "yes": {
+            "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance",
+            "no": "\n\n[500 flesh] Advanced Bio-organic Construction\nAllows the hivemind to perform a vast selection of intricate structures using flesh."
           }
         }
+      },
+      {
+        "npc_has_trait": "SECRONOM_FLESH_BIO_construction_wide",
+        "no": {
+          "and": [
+            {
+              "npc_has_trait": "SECRONOM_FLESH_BIO_construction",
+              "yes": "\n\n[275 flesh] Widespread Bio-organic Construction\nIncreases the range in which the hivemind constructs, allowing defenses to be built."
+            },
+            {
+              "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance",
+              "yes": "\n\n[275 flesh] Widespread Bio-organic Construction\nIncreases the range in which the hivemind constructs, allowing defenses to be built."
+            }
+          ]
+        }
+      },
+      {
+        "npc_has_trait": "SECRONOM_FLESH_BIO_construction_fuse",
+        "no": {
+              "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance",
+              "yes": "\n\n[300 flesh] Bio-organic Fusion\nAllows the hivemind to process creature cores, making it capable to construct hybrid structures."
+            }
+      },
+      {
+        "npc_has_effect": "secro_flesh_upgrade_spread_max",
+        "no": {
+          "npc_has_trait": "SECRONOM_FLESH_BIO_spread2",
+          "no": "\n\n[100 flesh] Potent Tendrils\nIncreases the effective range of terrestrial infection.",
+          "yes": {
+            "npc_has_trait": "SECRONOM_FLESH_BIO_spread3",
+            "no": "\n\n[300 flesh] Bio-organic Domination\nGreatly increases the range and rate of terresstrial infection."
+          }
+        }
+      }
+    ]
+  },
+  "responses": [
+    {
+      "text": "[UPGRADE] Bio-organic Construction\n*Feed the hivemind with flesh*",
+      "topic": "SECRO_FLESH_HIVEMIND_upgrades",
+      "condition": {
+        "and": [
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" } },
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } },
+          { "u_has_items": { "item": "secro_flesh", "count": 125 } }
+        ]
+      },
+      "effect": [
+        { "u_sell_item": "secro_flesh", "count": 125 },
+        { "npc_consume_item": "secro_flesh", "count": 125 },
+        { "npc_add_trait": "SECRONOM_FLESH_BIO_construction" },
+        { "npc_add_effect": "secro_flesh_upgrade_processed", "duration": "PERMANENT" }
       ]
     },
-    "responses": [
-      {
-        "text": "[UPGRADE] Bio-organic Construction\n*Feed the hivemind with flesh*",
-        "topic": "SECRO_FLESH_HIVEMIND_main",
-        "condition": {
-          "and": [
-            { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" } },
-            { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } },
-            { "u_has_items": { "item": "secro_flesh", "count": 200 } }
-          ]
-        },
-        "effect": [
-          { "u_sell_item": "secro_flesh", "count": 200 },
-          { "npc_consume_item": "secro_flesh", "count": 200 },
-          { "npc_add_trait": "SECRONOM_FLESH_BIO_construction" }
+    {
+      "text": "[UPGRADE] Widespread Bio-organic Construction\n*Feed the hivemind with flesh*",
+      "topic": "SECRO_FLESH_HIVEMIND_upgrades",
+      "condition": {
+        "and": [
+          {
+            "or": [
+              { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" },
+              { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" }
+            ]
+          },
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_wide" } },
+          { "u_has_items": { "item": "secro_flesh", "count": 275 } }
         ]
       },
-      {
-        "text": "[UPGRADE] Advanced Bio-organic Construction\n*Feed the hivemind with flesh*",
-        "topic": "SECRO_FLESH_HIVEMIND_main",
-        "condition": {
-          "and": [
-            { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" },
-            { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } },
-            { "u_has_items": { "item": "secro_flesh", "count": 500 } }
-          ]
-        },
-        "effect": [
-          { "u_sell_item": "secro_flesh", "count": 500 },
-          { "npc_consume_item": "secro_flesh", "count": 500 },
-          { "npc_add_trait": "SECRONOM_FLESH_BIO_construction_advance" },
-          { "npc_lose_trait": "SECRONOM_FLESH_BIO_construction" },
-          { "npc_add_effect": "secro_flesh_upgrade_construction_max", "duration": "PERMANENT" }
+      "effect": [
+        { "u_sell_item": "secro_flesh", "count": 275 },
+        { "npc_consume_item": "secro_flesh", "count": 275 },
+        { "npc_add_trait": "SECRONOM_FLESH_BIO_construction_wide" },
+        { "npc_add_effect": "secro_flesh_upgrade_processed", "duration": "PERMANENT" }
+      ]
+    },
+    {
+      "text": "[UPGRADE] Advanced Bio-organic Construction\n*Feed the hivemind with flesh*",
+      "topic": "SECRO_FLESH_HIVEMIND_upgrades",
+      "condition": {
+        "and": [
+          { "npc_has_trait": "SECRONOM_FLESH_BIO_construction" },
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" } },
+          { "u_has_items": { "item": "secro_flesh", "count": 500 } }
         ]
       },
-      { "text": "Later.", "topic": "SECRO_FLESH_HIVEMIND_main" }
-    ]
-  }
+      "effect": [
+        { "u_sell_item": "secro_flesh", "count": 500 },
+        { "npc_consume_item": "secro_flesh", "count": 500 },
+        { "npc_add_trait": "SECRONOM_FLESH_BIO_construction_advance" },
+        { "npc_lose_trait": "SECRONOM_FLESH_BIO_construction" },
+        { "npc_add_effect": "secro_flesh_upgrade_construction_max", "duration": "PERMANENT" },
+        { "npc_add_effect": "secro_flesh_upgrade_processed", "duration": "PERMANENT" }
+      ]
+    },
+    {
+      "text": "[UPGRADE] Bio-organic Fusion\n*Feed the hivemind with flesh*",
+      "topic": "SECRO_FLESH_HIVEMIND_upgrades",
+      "condition": {
+        "and": [
+          { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_advance" },
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_construction_fuse" } },
+          { "u_has_items": { "item": "secro_flesh", "count": 300 } }
+        ]
+      },
+      "effect": [
+        { "u_sell_item": "secro_flesh", "count": 300 },
+        { "npc_consume_item": "secro_flesh", "count": 300 },
+        { "npc_add_trait": "SECRONOM_FLESH_BIO_construction_fuse" },
+        { "npc_add_effect": "secro_flesh_upgrade_processed", "duration": "PERMANENT" }
+      ]
+    },
+    {
+      "text": "[UPGRADE] Potent Tendrils\n*Feed the hivemind with flesh*",
+      "topic": "SECRO_FLESH_HIVEMIND_upgrades",
+      "condition": {
+        "and": [
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_spread2" } },
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_spread3" } },
+          { "u_has_items": { "item": "secro_flesh", "count": 100 } }
+        ]
+      },
+      "effect": [
+        { "u_sell_item": "secro_flesh", "count": 100 },
+        { "npc_consume_item": "secro_flesh", "count": 100 },
+        { "npc_add_trait": "SECRONOM_FLESH_BIO_spread2" },
+        { "npc_lose_trait": "SECRONOM_FLESH_BIO_spread1" },
+        { "npc_add_effect": "secro_flesh_upgrade_processed", "duration": "PERMANENT" }
+      ]
+    },
+    {
+      "text": "[UPGRADE] Bio-organic Domination\n*Feed the hivemind with flesh*",
+      "topic": "SECRO_FLESH_HIVEMIND_upgrades",
+      "condition": {
+        "and": [
+          { "npc_has_trait": "SECRONOM_FLESH_BIO_spread2" },
+          { "not": { "npc_has_trait": "SECRONOM_FLESH_BIO_spread3" } },
+          { "u_has_items": { "item": "secro_flesh", "count": 300 } }
+        ]
+      },
+      "effect": [
+        { "u_sell_item": "secro_flesh", "count": 300 },
+        { "npc_consume_item": "secro_flesh", "count": 300 },
+        { "npc_add_trait": "SECRONOM_FLESH_BIO_spread3" },
+        { "npc_lose_trait": "SECRONOM_FLESH_BIO_spread2" },
+        { "npc_add_effect": "secro_flesh_upgrade_spread_max", "duration": "PERMANENT" },
+        { "npc_add_effect": "secro_flesh_upgrade_processed", "duration": "PERMANENT" }
+      ]
+    },
+    {
+      "text": "Later.",
+      "topic": "SECRO_FLESH_HIVEMIND_main",
+      "effect": { "npc_lose_effect": "secro_flesh_upgrade_processed" }
+    }
+  ]
+}

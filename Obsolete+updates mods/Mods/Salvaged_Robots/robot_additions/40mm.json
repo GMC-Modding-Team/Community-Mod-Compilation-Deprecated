@@ -2,8 +2,7 @@
   {
     "id": "40mm_emp",
     "type": "AMMO",
-    "name": "40mm EMP grenade",
-    "name_plural": "40mm EMP grenades",
+    "name": { "str": "40mm EMP grenade" },
     "description": "A 40mm grenade with an EMP charge.  It will release an electromagnetic pulse capable of damaging robots and some equipment.",
     "weight": "230 g",
     "volume": "250 ml",
@@ -16,7 +15,7 @@
     "ammo_type": "40x46mm",
     "casing": "40x46mm_m118_casing",
     "range": 40,
-    "damage": 5,
+    "damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": 30,
     "recoil": 225,
     "drop": "40mmEMP_act",
