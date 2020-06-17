@@ -1,44 +1,8 @@
-[{
+[
+  {
         "type": "effect_type",
-        "id": "poison",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }, {
-        "type": "effect_type",
-        "id": "badpoison",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }, {
-        "type": "effect_type",
-        "id": "paralyzepoison",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }, {
-        "type": "effect_type",
-        "id": "smoke",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }, {
-        "type": "effect_type",
-        "id": "teargas",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }, {
-        "type": "effect_type",
-        "id": "relax_gas",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }, {
-        "type": "effect_type",
-        "id": "fearparalyze",
-        "resist_traits": [
-            "VAMP"
-        ]
-    }
+        "id": "vamp_immunity",
+        "removes_effects": [ "poison", "badpoison", "paralyzepoison", "smoke", "teargas", "relax_gas", "fearparalyze" ],
+        "blocks_effects": [ "poison", "badpoison", "paralyzepoison", "smoke", "teargas", "relax_gas", "fearparalyze" ]
+  }
 ]
