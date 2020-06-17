@@ -86,7 +86,7 @@
         "id": "TALK_VAMP_GUNSHOP_givesupplies",
         "type": "talk_topic",
         "dynamic_line": "The supplies that were stocked in here are some spare draw kits, a bag and blood powders. Will you take them?",
-        "//": "One time free supplies which are not that valuable, but atleast you've been given with something as rewards...",
+        "note": "One time free supplies which are not that valuable, but atleast you've been given with something as rewards...",
         "responses": [{
                 "text": "But he told me to get some guns from you?",
                 "topic": "TALK_VAMP_GUNSHOP_gun",
@@ -135,7 +135,7 @@
     }, {
         "id": "TALK_VAMP_GUNSHOP_gun",
         "type": "talk_topic",
-        "//": "Totally a trashy handgun with very low damage output.",
+        "note": "Totally a trashy handgun with very low damage output.",
         "dynamic_line": "Umm... I could give you the oldest prototype of vampiric guns I got here:\nThe blood slinger.",
         "responses": [{
                 "text": "Seems legit. I'll take it!",
