@@ -87,8 +87,7 @@
     "count": 6,
     "ammo_type": "bomblet",
     "range": 25,
-    "damage": 1,
-    "pierce": 10,
+    "damage": { "damage_type": "stab", "amount": 1, "armor_penetration": 10 },
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "explosion": { "power": 12, "distance_factor": 0.1, "shrapnel": 2 }
@@ -107,8 +106,7 @@
     "count": 6,
     "ammo_type": "bomblet",
     "range": 20,
-    "damage": 3,
-    "pierce": 10,
+    "damage": { "damage_type": "stab", "amount": 3, "armor_penetration": 10 },
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "explosion": { "power": 4, "distance_factor": 0.1, "shrapnel": 12 }
@@ -127,8 +125,7 @@
     "count": 6,
     "ammo_type": "bomblet",
     "range": 20,
-    "damage": 3,
-    "pierce": 10,
+    "damage": { "damage_type": "stab", "amount": 3, "armor_penetration": 10 },
     "effects": [ "INCENDIARY", "NEVER_MISFIRES", "COOKOFF", "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "emits": [ "emit_smoke_bomblet", "emit_fire_bomblet", "emit_fire_bomblet_small" ],
@@ -150,8 +147,7 @@
     "count": 6,
     "ammo_type": "bomblet",
     "range": 20,
-    "damage": 3,
-    "pierce": 10,
+    "damage": { "damage_type": "stab", "amount": 3, "armor_penetration": 10 },
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "emits": [ "emit_tgas_bomblet", "emit_acid_bomblet" ],
@@ -173,8 +169,7 @@
     "count": 6,
     "ammo_type": "bomblet",
     "range": 25,
-    "damage": 3,
-    "pierce": 10,
+    "damage": { "damage_type": "stab", "amount": 3, "armor_penetration": 10 },
     "effects": [ "LARGE_BEANBAG", "RECOVER_9", "NEVER_MISFIRES", "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "emits": [ "emit_dazzle_bomblet", "emit_teargas_bomblet" ],
@@ -321,7 +316,7 @@
     "ammo_type": "45",
     "casing": "shot_410_hull",
     "range": 8,
-    "damage": 32,
+    "damage": { "damage_type": "stab", "amount": 32 },
     "dispersion": 25,
     "recoil": 250,
     "effects": [ "COOKOFF", "SHOT", "BEANBAG" ]
@@ -342,8 +337,7 @@
     "ammo_type": "45",
     "casing": "shot_410_hull",
     "range": 16,
-    "damage": 34,
-    "pierce": 8,
+    "damage": { "damage_type": "stab", "amount": 34, "armor_penetration": 8 },
     "dispersion": 40,
     "recoil": 550,
     "loudness": 140,
@@ -366,8 +360,7 @@
     "ammo_type": "45",
     "casing": "shot_410_hull",
     "range": 12,
-    "damage": 26,
-    "pierce": 12,
+    "damage": { "damage_type": "stab", "amount": 26, "armor_penetration": 12 },
     "dispersion": 10,
     "recoil": 350,
     "effects": [ "COOKOFF", "SHOT" ]
@@ -389,7 +382,7 @@
     "ammo_type": "45",
     "casing": "shot_410_hull",
     "range": 8,
-    "damage": 8,
+    "damage": { "damage_type": "stab", "amount": 8 },
     "dispersion": 40,
     "recoil": 300,
     "loudness": 180,
@@ -402,7 +395,7 @@
     "name": "reloaded 410 shot",
     "name_plural": "reloaded 410 shot",
     "description": "A hand-reloaded small caliber shotgun shell full of damaging iron pellets.  The dimensions of the shell match .45 rounds closely enough to be interchangable, although it is both less accurate and less damaging than its larger cousins.",
-    "proportional": { "price": 0.7, "damage": 0.8, "dispersion": 1.2 },
+    "proportional": { "price": 0.7, "damage": { "damage_type": "stab", "amount": 0.8 }, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
   {
@@ -412,7 +405,7 @@
     "name": "reloaded 410 slug",
     "name_plural": "reloaded 410 slug",
     "description": "A hand-reloaded solid-shot small-bore shotgun shell designed to punch through armor.  The dimensions of the shell match .45 rounds closely enough to be interchangable, although it is both less accurate and less damaging than its larger cousins.",
-    "proportional": { "price": 0.7, "damage": 0.8, "dispersion": 1.2 },
+    "proportional": { "price": 0.7, "damage": { "damage_type": "stab", "amount": 0.8 }, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
   {
@@ -422,7 +415,7 @@
     "name": "reloaded 410 flechette",
     "name_plural": "reloaded 410 flechette",
     "description": "A hand-reloaded small-bore shotgun shell with exactly 4 pointed slugs and copious amounts of explosive powder.  The dimensions of the shell match .45 rounds closely enough to be interchangable, although it is both less accurate and less damaging than its larger cousins.",
-    "proportional": { "price": 0.7, "damage": 0.8, "dispersion": 1.2 },
+    "proportional": { "price": 0.7, "damage": { "damage_type": "stab", "amount": 0.8 }, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
   {
@@ -432,7 +425,7 @@
     "name": "reloaded 410 incendiary",
     "name_plural": "reloaded 410 incendiary",
     "description": "A hand-reloaded small-bore shotgun shell with a reserve of explosive incendiary that violently ingnites upon impact.  The dimensions of the shell match .45 rounds closely enough to be interchangable, although it is both less accurate and less damaging than its larger cousins.",
-    "proportional": { "price": 0.7, "damage": 0.8, "dispersion": 1.2 },
+    "proportional": { "price": 0.7, "damage": { "damage_type": "stab", "amount": 0.8 }, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
   {
@@ -450,8 +443,7 @@
     "count": 4,
     "ammo_type": "bfg_plutonium",
     "range": 40,
-    "damage": 35,
-    "pierce": 20,
+    "damage": { "damage_type": "stab", "amount": 35, "armor_penetration": 20 },
     "effects": [
       "RECOVER_9",
       "NO_EMBED",

@@ -13,7 +13,7 @@
     "color": "red",
     "location": "barrel",
     "mod_targets": ["rifle"],
-    "damage_modifier": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion_modifier": -70,
     "flags": ["IRREMOVABLE"],
     "min_skills": [["weapon", 6]]

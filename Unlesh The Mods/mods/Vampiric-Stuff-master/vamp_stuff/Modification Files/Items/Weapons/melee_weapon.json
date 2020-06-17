@@ -1,6 +1,5 @@
 [{
-        "//": "Bloodrune upgrade add 2 cutting and 1 bashing damage, and its ultimate techniques are learned for that weapon (if available)",
-        "//": "A weapon based to the ravager blade from MH.",
+        "note": "Bloodrune upgrade add 2 cutting and 1 bashing damage, and its ultimate techniques are learned for that weapon (if available)",
         "id": "sword_sip",
         "type": "GENERIC",
         "name": "blood sipper",
@@ -14,7 +13,7 @@
         "to_hit": 1,
         "bashing": 11,
         "cutting": 33,
-        "material": "steel",
+        "material": ["steel"],
         "color": "red",
         "techniques": [
             "WBLOCK_2",
@@ -88,7 +87,7 @@
         "to_hit": 2,
         "cutting": 14,
         "bashing": 2,
-        "material": "steel",
+        "material": ["steel"],
         "color": "red",
         "techniques": [
             "VAMP_WRATH",
@@ -172,7 +171,7 @@
         "to_hit": 2,
         "cutting": 8,
         "bashing": 4,
-        "material": "steel",
+        "material": ["steel"],
         "color": "red",
         "techniques": [
             "VAMP_WRATH"
@@ -221,7 +220,7 @@
         "to_hit": 1,
         "bashing": 30,
         "cutting": 12,
-        "material": "steel",
+        "material": ["steel"],
         "color": "red",
         "techniques": [
             "WBLOCK_1",
@@ -274,7 +273,7 @@
         "to_hit": 2,
         "bashing": 4,
         "cutting": 24,
-        "material": "steel",
+        "material": ["steel"],
         "color": "red",
         "techniques": [
             "WBLOCK_2",
@@ -309,7 +308,7 @@
         "to_hit": 2,
         "bashing": 5,
         "cutting": 26,
-        "material": "steel",
+        "material": ["steel"],
         "color": "red",
         "techniques": [
             "WBLOCK_2",
