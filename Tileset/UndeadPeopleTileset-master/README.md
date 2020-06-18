@@ -4,6 +4,7 @@
 
 Tileset for Cataclysm Dark Days Ahead based on the works by Xotto, Waldo and others. My goal is to make most complete tileset for the game, with support for all mods what are out there.
 
+
 ## Prerequisites
 
 This tileset always updating to content from latest experimental version of the game.
@@ -38,4 +39,24 @@ https://drive.google.com/open?id=1uGD3cqwKZpGoCQ8QUOkhvlvZs__4c2d0
 https://github.com/YukariMindGap/Nechronica_Redux
 
 #### *Zets-Hair-Extensions*:
-https://github.com/Zetsukaze/Zets-Hair-Extensions
+https://github.com/Zetsukaze/Zets-Hair-Extensions (old version, do not use with Undead People)
+
+Use updated version in tileset mods/Zets-Hair-Extensions_Undead folder.
+
+# Nearly Dead
+
+![alt text](https://steamcdn-a.akamaihd.net/steam/apps/1268900/header.jpg)
+
+This tileset was provided with generous resourses from upcoming game Nearly Dead made by Xotto and Toro. In the future it will use many item graphics from this game in this tileset which was provided to me by Xotto with no gain to him or his game except for the mention of artists. Despite that i am gonna support and promote this game on this github for everybody to see. Please consider supporting it in the future, it looks like awesome Cataclysm inspired real time survival game and it is made by Cataclysm modders.
+
+https://store.steampowered.com/app/1268900/Nearly_Dead
+
+Check their successful Kickstarter page:
+
+https://www.kickstarter.com/projects/monosw2000/nearly-dead
+
+
+
+
+
+Thank you, Xotto and Toro. Very Cool.
