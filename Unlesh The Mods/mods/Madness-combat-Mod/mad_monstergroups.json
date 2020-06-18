@@ -1,0 +1,41 @@
+[
+ {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE",
+	"//": "zombies highest freq : 75",
+    "default": "mon_null",
+    "monsters": [
+      { "monster" : "mon_mad_grunt", "freq" : 40, "cost_multiplier" : 0, "pack_size": [1,2] },
+	  { "monster" : "mon_mad_grunt_thug", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,4] },
+	  { "monster" : "mon_mad_L33T", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,2] },
+	  { "monster" : "mon_mad_engineer", "freq" : 20, "cost_multiplier" : 0, "pack_size": [1,2] },
+	  { "monster" : "mon_mad_soldat", "freq" : 10, "cost_multiplier" : 0, "pack_size": [1,1] }
+    ]
+  }
+   ,{
+    "type":"monstergroup",
+    "name" : "GROUP_VANILLA",
+	"//": "zombies highest freq : 266",
+    "default" : "mon_null",
+    "monsters" : [
+            { "monster" : "mon_mad_grunt", "freq" : 40, "cost_multiplier" : 0, "pack_size": [1,2] },
+			{ "monster" : "mon_mad_grunt_thug", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,4] },
+			{ "monster" : "mon_mad_L33T", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,2] },
+			{ "monster" : "mon_mad_engineer", "freq" : 20, "cost_multiplier" : 0, "pack_size": [1,2] },
+	  { "monster" : "mon_mad_soldat", "freq" : 10, "cost_multiplier" : 0, "pack_size": [1,1] }
+    ]
+  }
+  ,{
+    "type":"monstergroup",
+    "name" : "GROUP_ZOMBIE_MID",
+	"//": "zombies highest freq : 75",
+    "default" : "mon_null",
+    "monsters" : [
+      { "monster" : "mon_mad_grunt", "freq" : 40, "cost_multiplier" : 0, "pack_size": [1,2] },
+	  { "monster" : "mon_mad_grunt_thug", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,4] },
+	  { "monster" : "mon_mad_L33T", "freq" : 40, "cost_multiplier" : 0, "pack_size": [2,2] },
+	  { "monster" : "mon_mad_engineer", "freq" : 20, "cost_multiplier" : 0, "pack_size": [1,2] },
+	  { "monster" : "mon_mad_soldat", "freq" : 10, "cost_multiplier" : 0, "pack_size": [1,1] }
+    ]
+  }
+]
