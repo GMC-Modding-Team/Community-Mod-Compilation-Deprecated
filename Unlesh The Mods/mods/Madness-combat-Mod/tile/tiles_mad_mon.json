@@ -1,0 +1,48 @@
+{
+  "type": "mod_tileset",
+  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "MX+(Overhaul)", "MshockXottoplus12" ],
+  "tile_info": [
+    {
+      "height": 32,
+      "width": 32
+    }
+  ],
+  "tiles-new": [
+    {
+      "file": "tile/Madness-combat.png",
+      "tiles": 
+      [
+        { "id": "mon_mad_grunt",   "fg": 0},
+		{
+          "id": "corpse_mon_mad_grunt",
+          "fg": 1,
+          "rotates": false
+        },
+		{ "id": "mon_mad_grunt_thug",   "fg": 0},
+		{
+          "id": "corpse_mon_mad_grunt_thug",
+          "fg": 1,
+          "rotates": false
+        },
+		{ "id": "mon_mad_L33T",   "fg": 2},
+		{
+          "id": "corpse_mon_mad_L33T",
+          "fg": 3,
+          "rotates": false
+        },
+		{ "id": "mon_mad_engineer",   "fg": 4},
+		{
+          "id": "corpse_mon_mad_engineer",
+          "fg": 5,
+          "rotates": false
+        },
+		{ "id": "mon_mad_soldat",   "fg": 6},
+		{
+          "id": "corpse_mon_mad_soldat",
+          "fg": 7,
+          "rotates": false
+        }		
+      ]
+    }
+  ]
+}

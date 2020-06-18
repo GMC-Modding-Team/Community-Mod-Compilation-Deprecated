@@ -1,0 +1,68 @@
+[
+  {
+    "type" : "item_group",
+    "subtype": "collection",
+    "comment": "L33T agent drops",
+    "id": "L33T_pistol",
+    "entries":[
+      { "group": "mad_ninemm", "damage": [0, 3], "prob": 75},
+      { "group": "ammo_pistol_reloaded", "prob": 40 }
+    ]    
+  },
+  {
+
+    "type" : "item_group",
+    "subtype": "distribution",
+    "id" : "mad_ninemm",
+    "ammo": 60,
+    "magazine": 60,
+    "items":[
+      ["glock_19", 30],
+      ["ksub2000", 5],
+      ["l_lookout_9mm", 30],
+      ["l_sp_9mm", 30]
+    ] 
+  },
+  {
+  
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "engineer_shotgun",
+    "entries":[
+      { "group": "engineer_shot_gun", "damage": [0, 3], "prob": 80},
+      { "group": "ammo_shotgun_reloaded", "prob": 30 }
+    ]
+  },
+  {
+  
+    "type" : "item_group",
+    "id" : "engineer_shot_gun",
+    "ammo": 60,
+    "magazine": 60,
+    "items":[
+      ["pipe_shotgun", 15],
+      ["shotgun_s", 10],
+      ["shotgun_d", 5],
+      ["mossberg_500", 1]
+    ] 
+  },
+  {
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "soldat_smg",
+    "entries":[
+      { "group": "soldat_uzi", "damage": [0, 3], "prob": 75},
+      { "group": "ammo_smg_reloaded", "prob": 40 }
+    ]
+    
+  },
+  {
+    "type" : "item_group",
+    "id" : "soldat_uzi",
+    "ammo": 60,
+    "magazine": 60,
+    "items":[
+      ["uzi", 50]
+    ] 
+  }
+]
