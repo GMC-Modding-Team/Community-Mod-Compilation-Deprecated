@@ -18,18 +18,18 @@
     "damage": { "damage_type": "bullet", "amount": 28, "armor_penetration": 2 },
     "dispersion": 120,
     "recoil": 150
-    },
-    {
-       "id": "bp_3840",
+  },
+  {
+    "id": "bp_3840",
     "copy-from": "3840",
     "type": "AMMO",
     "name": ".38-40 black powder",
-    "proportional": { 
-      "price": 0.3, 
+    "proportional": {
+      "price": 0.3,
       "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
-      "recoil": 0.76, 
-      "dispersion": 1.2 
+      "recoil": 0.76,
+      "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-}
-  ]
+  }
+]

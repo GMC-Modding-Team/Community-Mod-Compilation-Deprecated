@@ -18,8 +18,8 @@
     "damage": { "damage_type": "bullet", "amount": 28, "armor_penetration": 5 },
     "dispersion": 50,
     "recoil": 750
-    },
-    {
+  },
+  {
     "id": "bp_939",
     "copy-from": "939",
     "type": "AMMO",
@@ -31,8 +31,8 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
+  },
+  {
     "id": "9396",
     "copy-from": "939",
     "type": "AMMO",
@@ -52,8 +52,8 @@
     "damage": { "damage_type": "bullet", "amount": 26, "armor_penetration": 10 },
     "dispersion": 50,
     "recoil": 750
-    },
-    {
+  },
+  {
     "id": "bp_9396",
     "copy-from": "9396",
     "type": "AMMO",
@@ -62,12 +62,12 @@
       "price": 0.3,
       "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
-      "dispersion": 1.2 
+      "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
-       "type": "GENERIC",
+  },
+  {
+    "type": "GENERIC",
     "id": "939_casing",
     "copy-from": "casing",
     "name": "9x39mm casing",
@@ -75,5 +75,5 @@
     "material": "brass",
     "volume": "10ml",
     "weight": 5
-    }
-   ]
+  }
+]
