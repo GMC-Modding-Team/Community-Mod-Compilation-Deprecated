@@ -5,23 +5,16 @@
     "id": "sd_card",
     "//": "local copy of the native SD card sans all the random data flags",
     "name": { "str": "SD-Memory card" },
-    "flags": []
+    "flags": [  ]
   },
   {
     "type": "GENERIC",
     "copy-from": "software",
     "abstract": "file",
-    "name": {
-      "str": "a file",
-      "str_pl": "files",
-      "ctxt": "computer, not folder"
-    },
+    "name": { "str": "a file", "str_pl": "files", "ctxt": "computer, not folder" },
     "symbol": "#",
     "container": "sd_card",
-    "flags": [
-      "IRREMOVABLE",
-      "NO_DROP"
-    ]
+    "flags": [ "IRREMOVABLE", "NO_DROP" ]
   },
   {
     "type": "GENERIC",
