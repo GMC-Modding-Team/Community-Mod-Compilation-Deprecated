@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "wattz_1000",
     "type": "GUN",
     "color": "light_gray",
@@ -15,7 +15,7 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -43,8 +43,7 @@
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-   {
+  {
     "id": "wattz_1000_magneto",
     "type": "GUN",
     "color": "white",
@@ -60,7 +59,7 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -88,8 +87,7 @@
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-   {
+  {
     "id": "laser_pistol_aep",
     "type": "GUN",
     "color": "light_gray",
@@ -105,7 +103,7 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -133,8 +131,7 @@
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-     {
+  {
     "id": "laser_pistol_aep_pewpew",
     "type": "GUN",
     "color": "light_gray",
@@ -150,7 +147,7 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -174,15 +171,12 @@
     "recoil": 0,
     "durability": 8,
     "clip_size": 10,
-	    "modes": [
-      [ "DEFAULT", "Single Fire", 5 ]
-    ],
+    "modes": [ [ "DEFAULT", "Single Fire", 5 ] ],
     "reload": 300,
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-    {
+  {
     "id": "wattz_2000",
     "type": "GUN",
     "symbol": "(",
@@ -207,7 +201,7 @@
     "recoil": 0,
     "durability": 8,
     "reload": 100,
-    "built_in_mods": [ "rifle_scope"],
+    "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
@@ -218,8 +212,7 @@
       [ "mechanism", 1 ]
     ]
   },
-  
-      {
+  {
     "id": "aer9",
     "type": "GUN",
     "symbol": "(",
@@ -229,9 +222,9 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "NEVER_JAMS"],
-	"ammo": "battery",
-	"magazines": [
+    "flags": [ "NEVER_JAMS" ],
+    "ammo": "battery",
+    "magazines": [
       [
         "battery",
         [
@@ -269,7 +262,6 @@
       [ "mechanism", 1 ]
     ]
   },
-  
   {
     "id": "aer9_tribeam",
     "type": "GUN",
@@ -280,9 +272,9 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "NEVER_JAMS", "SHOT"],
-	"ammo": "battery",
-	"magazines": [
+    "flags": [ "NEVER_JAMS", "SHOT" ],
+    "ammo": "battery",
+    "magazines": [
       [
         "battery",
         [
@@ -320,7 +312,6 @@
       [ "mechanism", 1 ]
     ]
   },
-  
   {
     "id": "aer14_prototype",
     "type": "GUN",
@@ -331,9 +322,9 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "NEVER_JAMS"],
-	"ammo": "battery",
-	"magazines": [
+    "flags": [ "NEVER_JAMS" ],
+    "ammo": "battery",
+    "magazines": [
       [
         "battery",
         [
@@ -347,7 +338,7 @@
         ]
       ]
     ],
-    "magazine_well":2,
+    "magazine_well": 2,
     "skill": "rifle",
     "weight": 2950,
     "volume": 12,
@@ -371,7 +362,6 @@
       [ "mechanism", 1 ]
     ]
   },
-  
   {
     "id": "laser_rcw",
     "type": "GUN",
@@ -380,7 +370,7 @@
     "name": "Laser Rcw",
     "description": "The unique feature of this 'laser assault rifle' is the addition of a 'drum,' which gives this weapon its unique look, high rate of fire, and unusual name.",
     "price": 1600000,
-	"looks_like": "tommygun",
+    "looks_like": "tommygun",
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
@@ -408,9 +398,7 @@
       [ "mechanism", 1 ]
     ]
   },
-  
-  
-    {
+  {
     "id": "p94_caster",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -445,8 +433,7 @@
       [ "underbarrel", 1 ]
     ]
   },
-
-    {
+  {
     "id": "p94_rifle",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -481,8 +468,6 @@
       [ "underbarrel", 1 ]
     ]
   },
-  
-  
   {
     "id": "lasermusket_battery_cell",
     "type": "MAGAZINE",
@@ -501,8 +486,7 @@
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
   },
-  
-    {
+  {
     "id": "musket_laser",
     "type": "GUN",
     "color": "green",
@@ -529,14 +513,7 @@
     "reload": 0,
     "loudness": 20,
     "use_action": "HAND_CRANK",
-    "magazines": [
-      [
-        "battery",
-        [
-          "lasermusket_battery_cell"
-        ]
-      ]
-    ],
+    "magazines": [ [ "battery", [ "lasermusket_battery_cell" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
