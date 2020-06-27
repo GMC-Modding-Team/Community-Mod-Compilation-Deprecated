@@ -35,7 +35,10 @@
     "message": "\"Dōnēs nobis virtus...\"  You cast %s!",
     "valid_targets": [ "self" ],
     "flags": [ "NO_HANDS", "NO_LEGS", "VERBAL" ],
-    "extra_effects": [ { "id": "arcana_aftermath_capacitance_zap", "hit_self": true, "max_level": 10 }, { "id": "arcana_aftermath_capacitance_stun", "hit_self": true, "max_level": 10 } ],
+    "extra_effects": [
+      { "id": "arcana_aftermath_capacitance_zap", "hit_self": true, "max_level": 10 },
+      { "id": "arcana_aftermath_capacitance_stun", "hit_self": true, "max_level": 10 }
+    ],
     "min_damage": 150,
     "max_damage": 240,
     "damage_increment": 9,

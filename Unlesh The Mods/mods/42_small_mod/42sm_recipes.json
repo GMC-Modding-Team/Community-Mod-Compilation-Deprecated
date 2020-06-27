@@ -166,7 +166,7 @@
     "components": [
       [ [ "rag", 6 ] ],
       [ [ "leather", 2 ] ],
-	  [ [ "scrap", 1 ] ],
+      [ [ "scrap", 1 ] ],
       [ [ "duct_tape", 80 ] ],
       [ [ "gloves_tactical", 1 ], [ "kevlar_plate", 4 ] ],
       [
@@ -181,7 +181,7 @@
   {
     "result": "gloves_csurvivor",
     "type": "recipe",
-	"id_suffix": "from_gloves",
+    "id_suffix": "from_gloves",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
@@ -191,13 +191,10 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 15 ] ],
     "tools": [ [ [ "welder", 7 ], [ "welder_crude", 14 ], [ "soldering_iron", 14 ], [ "toolset", 14 ] ] ],
-    "components": [
-      [ [ "scrap", 1 ] ],
-	  [ [ "gloves_lsurvivor", 1 ] ]
-	  ]
+    "components": [ [ [ "scrap", 1 ] ], [ [ "gloves_lsurvivor", 1 ] ] ]
   },
   {
-	"type": "recipe",
+    "type": "recipe",
     "result": "headlight_atomic",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_LIGHTING",
@@ -205,14 +202,14 @@
     "skills_required": [ "electronics", 3 ],
     "difficulty": 4,
     "time": "12 m",
-	"autolearn": true,
+    "autolearn": true,
     "components": [
       [ [ "plastic_chunk", 3 ], [ "scrap", 4 ] ],
-      [ [ "cable", 10 ] ], 
+      [ [ "cable", 10 ] ],
       [ [ "betavoltaic", 6 ] ],
-	  [ [ "power_supply", 2 ] ],
-	  [ [ "lens", 2 ] ],
-	  [ [ "motor_tiny", 1 ] ]
+      [ [ "power_supply", 2 ] ],
+      [ [ "lens", 2 ] ],
+      [ [ "motor_tiny", 1 ] ]
     ]
   },
   {
@@ -229,11 +226,11 @@
     "time": "14 m",
     "components": [
       [ [ "plastic_chunk", 4 ], [ "scrap", 5 ] ],
-      [ [ "cable", 12 ] ], 
+      [ [ "cable", 12 ] ],
       [ [ "betavoltaic", 8 ] ],
-	  [ [ "power_supply", 3 ] ],
-	  [ [ "lens", 3 ] ],
-	  [ [ "motor_tiny", 1 ] ]
+      [ [ "power_supply", 3 ] ],
+      [ [ "lens", 3 ] ],
+      [ [ "motor_tiny", 1 ] ]
     ]
   },
   {
@@ -295,7 +292,7 @@
   {
     "result": "megafreezer",
     "type": "recipe",
-	"id_suffix": "from_minifreezer",
+    "id_suffix": "from_minifreezer",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
@@ -304,13 +301,13 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "welding_standard", 50 ] ],
-	"byproducts": [
-	  [ "condensor_coil", 1 ],
+    "byproducts": [
+      [ "condensor_coil", 1 ],
       [ "evaporator_coil", 1 ],
       [ "thermostat", 1 ],
       [ "motor_tiny", 1 ],
       [ "refrigerant_tank", 1 ]
-	],
+    ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -318,10 +315,7 @@
       { "id": "SCREW", "level": 1 },
       { "id": "WRENCH", "level": 1 }
     ],
-    "components": [
-      [ [ "minifreezer", 1 ] ],
-      [ [ "minifreezer", 1 ], [ "minifridge", 1 ] ]
-    ]
+    "components": [ [ [ "minifreezer", 1 ] ], [ [ "minifreezer", 1 ], [ "minifridge", 1 ] ] ]
   },
   {
     "result": "megafridge",
@@ -333,7 +327,7 @@
     "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 6 ], [ "manual_mechanics", 6 ], [ "textbook_fabrication", 6 ] ],
-	"using": [ [ "welding_standard", 75 ] ],
+    "using": [ [ "welding_standard", 75 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -354,7 +348,7 @@
   {
     "result": "megafridge",
     "type": "recipe",
-	"id_suffix": "from_minifridge",
+    "id_suffix": "from_minifridge",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
@@ -363,13 +357,13 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "welding_standard", 50 ] ],
-	"byproducts": [
-	  [ "condensor_coil", 1 ],
+    "byproducts": [
+      [ "condensor_coil", 1 ],
       [ "evaporator_coil", 1 ],
       [ "thermostat", 1 ],
       [ "motor_tiny", 1 ],
       [ "refrigerant_tank", 1 ]
-	],
+    ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
@@ -377,9 +371,6 @@
       { "id": "SCREW", "level": 1 },
       { "id": "WRENCH", "level": 1 }
     ],
-    "components": [
-      [ [ "minifridge", 1 ] ],
-      [ [ "minifridge", 1 ], [ "minifreezer", 1 ] ]
-    ]
+    "components": [ [ [ "minifridge", 1 ] ], [ [ "minifridge", 1 ], [ "minifreezer", 1 ] ] ]
   }
 ]
