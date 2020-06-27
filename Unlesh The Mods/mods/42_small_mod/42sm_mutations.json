@@ -2,18 +2,15 @@
   {
     "type": "mutation",
     "id": "EAGLEEYED",
-	"copy-from": "EAGLEEYED",
-	"extend": {
-		"category": [ "ELFA" ],
-		"changes_to": [ "FEYEYES" ]
-	}
+    "copy-from": "EAGLEEYED",
+    "extend": { "category": [ "ELFA" ], "changes_to": [ "FEYEYES" ] }
   },
   {
     "type": "mutation",
     "id": "ROSEBUDS",
-	"name": { "str": "Rosebuds" },
-	"copy-from": "ROSEBUDS",
-	"scent_mask": -300,
+    "name": { "str": "Rosebuds" },
+    "copy-from": "ROSEBUDS",
+    "scent_mask": -300,
     "social_modifiers": { "lie": 15, "persuade": 10 }
   },
   {
