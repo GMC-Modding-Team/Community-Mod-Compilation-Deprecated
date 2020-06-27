@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "55645",
     "type": "AMMO",
     "name": "5.56x45mm",
@@ -18,21 +18,22 @@
     "damage": { "damage_type": "bullet", "amount": 40, "armor_penetration": 10 },
     "dispersion": 50,
     "recoil": 300,
-    "effects": ["FRAG"]
-    },
-    {
+    "effects": [ "FRAG" ]
+  },
+  {
     "id": "bp_55645",
     "copy-from": "55645",
     "type": "AMMO",
     "name": "5.56x45mm black powder",
-    "proportional": { 
-        "price": 0.3,
-        "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
-        "recoil": 0.76,
-        "dispersion": 1.2 },
-    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
+    "proportional": {
+      "price": 0.3,
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "recoil": 0.76,
+      "dispersion": 1.2
     },
-    {
+    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
+  },
+  {
     "type": "GENERIC",
     "id": "55645_casing",
     "copy-from": "casing",
@@ -41,5 +42,5 @@
     "material": "brass",
     "volume": "100ml",
     "weight": "1 g"
-    }
-    ]
+  }
+]
