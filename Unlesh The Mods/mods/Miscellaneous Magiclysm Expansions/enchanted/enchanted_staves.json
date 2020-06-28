@@ -20,7 +20,7 @@
     "magazines": [ [ "crystallized_mana", [ "small_mana_crystal" ] ] ],
     "magazine_well": 1
   },
- {
+  {
     "type": "TOOL",
     "charges_per_use": 1,
     "ammo": "crystallized_mana",
@@ -126,4 +126,5 @@
     "price": 20000,
     "description": "A wooden stave with a mana crystal socket at the head that casts a spell when activated.  This stave casts zombie pack.",
     "use_action": { "type": "cast_spell", "spell_id": "mass_summon_zombie", "no_fail": true, "level": 25, "need_wielding": true }
-  }] 
+  }
+]

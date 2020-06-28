@@ -1,17 +1,17 @@
 [
   {
     "type": "COMESTIBLE",
-	"id": "tl_tea_temple",
+    "id": "tl_tea_temple",
     "name": { "str_sp": "sugarless tea" },
-	"weight": 250,
-	"color": "light_green",
+    "weight": 250,
+    "color": "light_green",
     "comestible_type": "DRINK",
-	"symbol": "~",
-	"quench": 40,
-	"healthy": 1,
-	"calories": 2,
-	"description": "Healthy sugarless tea",
-	"price": 90,
+    "symbol": "~",
+    "quench": 40,
+    "healthy": 1,
+    "calories": 2,
+    "description": "Healthy sugarless tea",
+    "price": 90,
     "name_plural": "sugarless tea",
     "looks_like": "pine_wine",
     "material": "water",
@@ -24,8 +24,8 @@
   },
   {
     "type": "COMESTIBLE",
-	"id": "tl_tea_fruit_temple",
-	"name": { "str_sp": "fruit tea" },
+    "id": "tl_tea_fruit_temple",
+    "name": { "str_sp": "fruit tea" },
     "comestible_type": "DRINK",
     "name_plural": "fruit tea",
     "looks_like": "tea",
@@ -66,7 +66,7 @@
     "copy-from": "tl_tea_temple",
     "name": { "str_sp": "green tea" },
     "description": "Green tea is a tea made from tea leaves, which is processed by heating the picked tea leaves to prevent fermentation. Vivid fresh green is beautiful.",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "container": "bottle_plastic"
   },
@@ -93,7 +93,7 @@
     "looks_like": "whiskey",
     "color": "brown",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "container": "bottle_plastic"
   },
@@ -124,7 +124,7 @@
     "phase": "liquid",
     "flags": [ "EATEN_COLD", "USE_EAT_VERB" ],
     "vitamins": [ [ "vitC", 25 ] ],
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "spoils_in": "7 days 12 hours",
     "container": "jar_3l_glass",
     "price": 100,
@@ -149,7 +149,7 @@
     "primary_material": "water",
     "phase": "liquid",
     "flags": [ "EATEN_COLD" ],
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "spoils_in": "2 days",
     "container": "bottle_plastic",
     "price": 350,
@@ -168,7 +168,7 @@
     "copy-from": "tl_tea_fruit_temple",
     "name": { "str_sp": "fruit tea" },
     "description": "It is black tea with added fruit juice. Fruity and delicious.",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -178,7 +178,7 @@
     "copy-from": "tl_tea_fruit_temple",
     "name": { "str_sp": "berry tea" },
     "description": "It is black tea with berry juice. Fruity and delicious.",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -188,7 +188,7 @@
     "copy-from": "tl_tea_fruit_temple",
     "name": { "str_sp": "apple tea" },
     "description": "It is a black tea with apple juice added. Fruity and delicious.",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -199,7 +199,7 @@
     "name": { "str_sp": "pear tea" },
     "description": "It is a black tea with pear juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -210,7 +210,7 @@
     "name": { "str_sp": "cherry tea" },
     "description": "It is a black tea with cherry juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -221,7 +221,7 @@
     "name": { "str_sp": "peach tea" },
     "description": "It is a black tea with peach juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -233,7 +233,7 @@
     "description": "It is black tea with apricot juice. Fruity and delicious.",
     "material": "fruit",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -244,7 +244,7 @@
     "description": "It is a black tea with lemon juice added. Fruity and delicious.",
     "comestible_type": "DRINK",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -255,7 +255,7 @@
     "name": { "str_sp": "mango tea" },
     "description": "It is black tea with mango juice. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -266,7 +266,7 @@
     "name": { "str_sp": "grape tea" },
     "description": "It is a black tea with grape juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -277,7 +277,7 @@
     "name": { "str_sp": "grapefruit tea" },
     "description": "It is a black tea with grapefruit juice. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
@@ -288,29 +288,29 @@
     "name": { "str_sp": "papaya tea" },
     "description": "It is a tea with papaya juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
     "type": "COMESTIBLE",
-	"id": "tl_orange_tea",
-	"name": { "str_sp": "orange tea" },
-	"copy-from": "tl_tea_fruit_temple",
+    "id": "tl_orange_tea",
+    "name": { "str_sp": "orange tea" },
+    "copy-from": "tl_tea_fruit_temple",
     "comestible_type": "DRINK",
     "description": "It is black tea with orange juice. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   },
   {
     "type": "COMESTIBLE",
-	"id": "tl_pomegranate_tea",
-	"name": { "str_sp": "pomegranate tea" },
-	"copy-from": "tl_tea_fruit_temple",
+    "id": "tl_pomegranate_tea",
+    "name": { "str_sp": "pomegranate tea" },
+    "copy-from": "tl_tea_fruit_temple",
     "comestible_type": "DRINK",
     "description": "It is a tea with pomegranate juice added. Fruity and delicious.",
     "phase": "liquid",
-	"fatigue_mod": 14,
+    "fatigue_mod": 14,
     "container": "bottle_plastic"
   }
 ]
