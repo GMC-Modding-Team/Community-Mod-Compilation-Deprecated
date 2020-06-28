@@ -21,10 +21,7 @@
     "power_armor": true,
     "material_thickness": 12,
     "environmental_protection": 16,
-    "use_action": {
-      "type": "ups_based_armor",
-      "activate_msg": "Your power armor engages."
-    },
+    "use_action": { "type": "ups_based_armor", "activate_msg": "Your power armor engages." },
     "flags": [ "OVERSIZE", "VARSIZE", "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "ALLOWS_NATURAL_ATTACKS" ]
   },
   {
@@ -51,4 +48,4 @@
     "qualities": [ [ "GLARE", 2 ] ],
     "flags": [ "OVERSIZE", "VARSIZE", "WATCH", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "THERMOMETER", "ALLOWS_NATURAL_ATTACKS" ]
   }
- ] 
+]

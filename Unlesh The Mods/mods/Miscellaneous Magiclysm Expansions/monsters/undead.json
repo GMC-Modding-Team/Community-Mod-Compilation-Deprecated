@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "mon_zombie_magic",
     "type": "MONSTER",
     "name": "zombified magician",
@@ -25,13 +26,15 @@
     "armor_cut": 1,
     "vision_night": 3,
     "harvest": "zombie",
-    "special_attacks": [ { "type": "spell", "spell_data": { "id": "burning_hands", "min_level": 4 }, "cooldown": 10 }, 
-	                     { "type": "spell", "spell_data": { "id": "magus_escape", "min_level": 10 }, "cooldown": 20 },
-						 { "type": "spell", "spell_data": { "id": "gravity_well", "min_level": 20 }, "cooldown": 30 },
-						 { "type": "spell", "spell_data": { "id": "ice_spike", "min_level": 15 }, "cooldown": 20 },
-						 { "type": "spell", "spell_data": { "id": "chilling_touch", "min_level": 10 }, "cooldown": 20 },
-						 { "type": "spell", "spell_data": { "id": "lightning_storm", "min_level": 6 }, "cooldown": 20 },
-						 { "type": "spell", "spell_data": { "id": "seismic_stomp", "min_level": 10 }, "cooldown": 15 } ],
+    "special_attacks": [
+      { "type": "spell", "spell_data": { "id": "burning_hands", "min_level": 4 }, "cooldown": 10 },
+      { "type": "spell", "spell_data": { "id": "magus_escape", "min_level": 10 }, "cooldown": 20 },
+      { "type": "spell", "spell_data": { "id": "gravity_well", "min_level": 20 }, "cooldown": 30 },
+      { "type": "spell", "spell_data": { "id": "ice_spike", "min_level": 15 }, "cooldown": 20 },
+      { "type": "spell", "spell_data": { "id": "chilling_touch", "min_level": 10 }, "cooldown": 20 },
+      { "type": "spell", "spell_data": { "id": "lightning_storm", "min_level": 6 }, "cooldown": 20 },
+      { "type": "spell", "spell_data": { "id": "seismic_stomp", "min_level": 10 }, "cooldown": 15 }
+    ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "flags": [
@@ -77,16 +80,6 @@
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
     "harvest": "zombie_leather",
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "PET_MOUNTABLE",
-      "WARM",
-      "BASHES", 
-      "POISON", 
-      "NO_BREATHE", 
-      "REVIVES", 
-      "FILTHY"
-    ]
-  }]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PET_MOUNTABLE", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ]
+  }
+]
