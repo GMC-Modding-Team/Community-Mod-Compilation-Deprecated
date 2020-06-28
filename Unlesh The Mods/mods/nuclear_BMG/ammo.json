@@ -15,15 +15,10 @@
     "damage": 20,
     "recoil": 20,
     "explosion": {
-        "power" : 10000,
-        "distance_factor" : 0.3,
-        "fire" : true,
-        "shrapnel" : {
-            "casing_mass" : 50,
-            "fragment_mass" : 0.5,
-            "recovery" : 10,
-            "drop" : "scrap"
-        }
+      "power": 10000,
+      "distance_factor": 0.3,
+      "fire": true,
+      "shrapnel": { "casing_mass": 50, "fragment_mass": 0.5, "recovery": 10, "drop": "scrap" }
     },
     "effects": [ "CUSTOM_EXPLOSION", "COOKOFF", "FLASHBANG", "NAPALM" ]
   }
