@@ -1,4 +1,5 @@
-[{
+[
+  {
     "type": "mutation_category",
     "id": "SECRONOM_EX",
     "name": "Experimental",
@@ -60,7 +61,16 @@
     "types": [ "HANDS" ],
     "restricts_gear": [ "HAND_L", "HAND_R" ],
     "changes_to": [ "SECRO_TENDRIL_TENT", "SECRO_TENDRIL_THICK" ],
-    "cancels": [ "NAILS", "CLAWS", "TALONS", "WEBBED", "ARM_TENTACLES", "SECRO_BLADE_L", "SECRO_TENDRIL_THICK_THRESHOLD", "SECRO_TENDRIL_TENT_THRESHOLD" ],
+    "cancels": [
+      "NAILS",
+      "CLAWS",
+      "TALONS",
+      "WEBBED",
+      "ARM_TENTACLES",
+      "SECRO_BLADE_L",
+      "SECRO_TENDRIL_THICK_THRESHOLD",
+      "SECRO_TENDRIL_TENT_THRESHOLD"
+    ],
     "encumbrance_always": [ [ "HAND_L", 20 ], [ "HAND_R", 20 ] ],
     "encumbrance_covered": [ [ "HAND_L", 30 ], [ "HAND_R", 30 ] ],
     "rand_bash_bonus": { "min": 1, "max": 3 },
@@ -68,12 +78,12 @@
       {
         "attack_text_u": "You slap %s with your tendrils",
         "attack_text_npc": "%1$s strikes %2$s with their tendrils",
-        "body_part": ["HAND_L", "HAND_R"],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 10,
         "strength_damage": { "damage_type": "bash", "amount": 0.5 }
       }
     ],
-	"armor": [ { "parts": ["ARM_L", "ARM_R"], "bash": 2 } ],
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 2 } ],
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -97,13 +107,13 @@
       {
         "attack_text_u": "You slap %s with your thick tendrils",
         "attack_text_npc": "%1$s strikes %2$s with their thick tendrils",
-        "body_part": ["HAND_L", "HAND_R"],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 10,
         "strength_damage": { "damage_type": "bash", "amount": 0.7 }
       }
     ],
-    "armor": [ { "parts": ["ARM_L", "ARM_R"], "bash": 6 } ],
-	"passive_mods": { "dex_mod": -2 },
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 6 } ],
+    "passive_mods": { "dex_mod": -2 },
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -120,28 +130,50 @@
     "restricts_gear": [ "HAND_L", "HAND_R" ],
     "prereqs": [ "SECRO_TENDRIL" ],
     "additions": [ "SECRO_TENDRIL_TENT_THRESHOLD" ],
-    "encumbrance_always": [ [ "HAND_L", 15 ], [ "HAND_R", 15 ], [ "FOOT_R", 5 ], [ "FOOT_L", 5 ], [ "LEG_R", 5 ], [ "LEG_L", 5 ], [ "TORSO", 5 ], [ "HEAD", 5 ], [ "ARM_L", 5 ], [ "ARM_R", 5 ] ],
-    "encumbrance_covered": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ], [ "FOOT_R", 25 ], [ "FOOT_L", 25 ], [ "LEG_R", 25 ], [ "LEG_L", 25 ], [ "TORSO", 25 ], [ "HEAD", 25 ], [ "ARM_L", 25 ], [ "ARM_R", 25 ] ],
+    "encumbrance_always": [
+      [ "HAND_L", 15 ],
+      [ "HAND_R", 15 ],
+      [ "FOOT_R", 5 ],
+      [ "FOOT_L", 5 ],
+      [ "LEG_R", 5 ],
+      [ "LEG_L", 5 ],
+      [ "TORSO", 5 ],
+      [ "HEAD", 5 ],
+      [ "ARM_L", 5 ],
+      [ "ARM_R", 5 ]
+    ],
+    "encumbrance_covered": [
+      [ "HAND_L", 25 ],
+      [ "HAND_R", 25 ],
+      [ "FOOT_R", 25 ],
+      [ "FOOT_L", 25 ],
+      [ "LEG_R", 25 ],
+      [ "LEG_L", 25 ],
+      [ "TORSO", 25 ],
+      [ "HEAD", 25 ],
+      [ "ARM_L", 25 ],
+      [ "ARM_R", 25 ]
+    ],
     "rand_bash_bonus": { "min": 1, "max": 2 },
     "attacks": [
       {
         "attack_text_u": "You slap %s with your tendrils",
         "attack_text_npc": "%1$s strikes %2$s with their tendrils",
-        "body_part": ["HAND_L", "HAND_R"],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 10,
         "strength_damage": { "damage_type": "bash", "amount": 0.375 }
       },
       {
         "attack_text_u": "You pierced %s with your tendrils",
         "attack_text_npc": "%1$s pierces %2$s with their tendrils",
-        "body_part": ["HAND_L", "HAND_R"],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 20,
         "strength_damage": { "damage_type": "stab", "amount": 0.3 }
       }
     ],
-	"armor": [ { "parts": ["ARM_L", "ARM_R"], "bash": 1 }, { "parts": "ALL", "bash": 2 } ],
-	"passive_mods": { "dex_mod": 1 },
-	"attackcost_modifier": 0.95,
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 1 }, { "parts": "ALL", "bash": 2 } ],
+    "passive_mods": { "dex_mod": 1 },
+    "attackcost_modifier": 0.95,
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -156,7 +188,7 @@
     "prereqs": [ "SECRO_TENDRIL_THICK" ],
     "threshreq": [ "THRESH_SECRONOM_EX" ],
     "cancels": [ "SECRO_BLADE_SHARP_THRESHOLD", "SECRO_BLADE_SERRATED_THRESHOLD", "SECRO_TENDRIL_TENT_THRESHOLD" ],
-    "armor": [ { "parts": ["ARM_L", "ARM_R"], "bash": 4 } ],
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 4 } ],
     "bash_dmg_bonus": 4,
     "passive_mods": { "str_mod": 2 },
     "category": [ "SECRONOM_EX" ]
@@ -173,9 +205,7 @@
     "prereqs": [ "SECRO_TENDRIL_TENT" ],
     "threshreq": [ "THRESH_SECRONOM_EX" ],
     "cancels": [ "SECRO_TENDRIL_THICK_THRESHOLD", "SECRO_BLADE_SERRATED_THRESHOLD", "SECRO_BLADE_SHARP_THRESHOLD" ],
-    "spells_learned": [
-      [ "SECRO_TENDRIL_TENT_THRESHOLD_item", 1 ]
-    ],
+    "spells_learned": [ [ "SECRO_TENDRIL_TENT_THRESHOLD_item", 1 ] ],
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -191,10 +221,19 @@
     "types": [ "HANDS" ],
     "restricts_gear": [ "HAND_L" ],
     "changes_to": [ "SECRO_BLADE_L_SHARP", "SECRO_BLADE_L_SERRATED" ],
-    "cancels": [ "NAILS", "CLAWS", "TALONS", "WEBBED", "ARM_TENTACLES", "SECRO_TENDRIL", "SECRO_BLADE_SHARP_THRESHOLD", "SECRO_BLADE_SERRATED_THRESHOLD" ],
+    "cancels": [
+      "NAILS",
+      "CLAWS",
+      "TALONS",
+      "WEBBED",
+      "ARM_TENTACLES",
+      "SECRO_TENDRIL",
+      "SECRO_BLADE_SHARP_THRESHOLD",
+      "SECRO_BLADE_SERRATED_THRESHOLD"
+    ],
     "encumbrance_always": [ [ "HAND_L", 100 ] ],
     "rand_bash_bonus": { "min": 4, "max": 8 },
-	"armor": [ { "parts": "ARM_L", "bash": 10, "cut": 10, "stab": 10 } ],
+    "armor": [ { "parts": "ARM_L", "bash": 10, "cut": 10, "stab": 10 } ],
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -214,7 +253,7 @@
     "encumbrance_always": [ [ "HAND_L", 100 ] ],
     "rand_cut_bonus": { "min": 4, "max": 12 },
     "armor": [ { "parts": "ARM_L", "bash": 6, "cut": 6, "stab": 6 } ],
-	"attackcost_modifier": 0.90,
+    "attackcost_modifier": 0.9,
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -235,7 +274,7 @@
     "rand_cut_bonus": { "min": 3, "max": 8 },
     "rand_bash_bonus": { "min": 3, "max": 8 },
     "armor": [ { "parts": "ARM_L", "bash": 14, "cut": 14, "stab": 14 } ],
-	"attackcost_modifier": 1.05,
+    "attackcost_modifier": 1.05,
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -281,8 +320,30 @@
     "types": [ "SKIN" ],
     "changes_to": [ "SECRO_TITAN2" ],
     "cancels": [ "SKIN_ROUGH", "CHITIN", "CHITIN_FUR", "SCALES" ],
-    "encumbrance_always": [ [ "HAND_L", 10 ], [ "HAND_R", 10 ], [ "FOOT_R", 10 ], [ "FOOT_L", 10 ], [ "LEG_R", 10 ], [ "LEG_L", 10 ], [ "TORSO", 10 ], [ "HEAD", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
-    "encumbrance_covered": [ [ "HAND_L", 7 ], [ "HAND_R", 7 ], [ "FOOT_R", 7 ], [ "FOOT_L", 7 ], [ "LEG_R", 7 ], [ "LEG_L", 7 ], [ "TORSO", 7 ], [ "HEAD", 7 ], [ "ARM_L", 7 ], [ "ARM_R", 7 ] ],
+    "encumbrance_always": [
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
+      [ "FOOT_R", 10 ],
+      [ "FOOT_L", 10 ],
+      [ "LEG_R", 10 ],
+      [ "LEG_L", 10 ],
+      [ "TORSO", 10 ],
+      [ "HEAD", 10 ],
+      [ "ARM_L", 10 ],
+      [ "ARM_R", 10 ]
+    ],
+    "encumbrance_covered": [
+      [ "HAND_L", 7 ],
+      [ "HAND_R", 7 ],
+      [ "FOOT_R", 7 ],
+      [ "FOOT_L", 7 ],
+      [ "LEG_R", 7 ],
+      [ "LEG_L", 7 ],
+      [ "TORSO", 7 ],
+      [ "HEAD", 7 ],
+      [ "ARM_L", 7 ],
+      [ "ARM_R", 7 ]
+    ],
     "armor": [ { "parts": "ALL", "cut": 4, "bash": 4, "stab": 4 } ],
     "dodge_modifier": -0.1,
     "movecost_swim_modifier": 1.025,
@@ -304,8 +365,30 @@
     "types": [ "SKIN" ],
     "prereqs": [ "SECRO_TITAN" ],
     "changes_to": [ "SECRO_TITAN_OK", "SECRO_TITAN_NOTOK" ],
-    "encumbrance_always": [ [ "HAND_L", 15 ], [ "HAND_R", 15 ], [ "FOOT_R", 15 ], [ "FOOT_L", 15 ], [ "LEG_R", 15 ], [ "LEG_L", 15 ], [ "TORSO", 15 ], [ "HEAD", 15 ], [ "ARM_L", 15 ], [ "ARM_R", 15 ] ],
-    "encumbrance_covered": [ [ "HAND_L", 10 ], [ "HAND_R", 10 ], [ "FOOT_R", 10 ], [ "FOOT_L", 10 ], [ "LEG_R", 10 ], [ "LEG_L", 10 ], [ "TORSO", 10 ], [ "HEAD", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
+    "encumbrance_always": [
+      [ "HAND_L", 15 ],
+      [ "HAND_R", 15 ],
+      [ "FOOT_R", 15 ],
+      [ "FOOT_L", 15 ],
+      [ "LEG_R", 15 ],
+      [ "LEG_L", 15 ],
+      [ "TORSO", 15 ],
+      [ "HEAD", 15 ],
+      [ "ARM_L", 15 ],
+      [ "ARM_R", 15 ]
+    ],
+    "encumbrance_covered": [
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
+      [ "FOOT_R", 10 ],
+      [ "FOOT_L", 10 ],
+      [ "LEG_R", 10 ],
+      [ "LEG_L", 10 ],
+      [ "TORSO", 10 ],
+      [ "HEAD", 10 ],
+      [ "ARM_L", 10 ],
+      [ "ARM_R", 10 ]
+    ],
     "armor": [ { "parts": "ALL", "cut": 6, "bash": 6, "stab": 6 } ],
     "dodge_modifier": -0.125,
     "movecost_swim_modifier": 1.075,
@@ -325,8 +408,30 @@
     "description": "Your bone outgrowths became an external layer of armor, which fits and excels at protecting your body while severely reducing the length of the spikes. The spikes have adjusted enough to reduce movement penalties and encumberance to 8, but permanently disables the ability to pierce the attackers.",
     "types": [ "SKIN" ],
     "prereqs": [ "SECRO_TITAN2" ],
-    "encumbrance_always": [ [ "HAND_L", 8 ], [ "HAND_R", 8 ], [ "FOOT_R", 8 ], [ "FOOT_L", 8 ], [ "LEG_R", 8 ], [ "LEG_L", 8 ], [ "TORSO", 8 ], [ "HEAD", 8 ], [ "ARM_L", 8 ], [ "ARM_R", 8 ] ],
-    "encumbrance_covered": [ [ "HAND_L", 5 ], [ "HAND_R", 5 ], [ "FOOT_R", 5 ], [ "FOOT_L", 5 ], [ "LEG_R", 5 ], [ "LEG_L", 5 ], [ "TORSO", 5 ], [ "HEAD", 5 ], [ "ARM_L", 5 ], [ "ARM_R", 5 ] ],
+    "encumbrance_always": [
+      [ "HAND_L", 8 ],
+      [ "HAND_R", 8 ],
+      [ "FOOT_R", 8 ],
+      [ "FOOT_L", 8 ],
+      [ "LEG_R", 8 ],
+      [ "LEG_L", 8 ],
+      [ "TORSO", 8 ],
+      [ "HEAD", 8 ],
+      [ "ARM_L", 8 ],
+      [ "ARM_R", 8 ]
+    ],
+    "encumbrance_covered": [
+      [ "HAND_L", 5 ],
+      [ "HAND_R", 5 ],
+      [ "FOOT_R", 5 ],
+      [ "FOOT_L", 5 ],
+      [ "LEG_R", 5 ],
+      [ "LEG_L", 5 ],
+      [ "TORSO", 5 ],
+      [ "HEAD", 5 ],
+      [ "ARM_L", 5 ],
+      [ "ARM_R", 5 ]
+    ],
     "armor": [ { "parts": "ALL", "cut": 9, "bash": 9, "stab": 9 } ],
     "dodge_modifier": -0.075,
     "movecost_swim_modifier": 1.05,
@@ -345,8 +450,30 @@
     "description": "Your bone outgrowths have altered to a great extent - bone plates have swollen and the spikes grew unnecessary sets of smaller variations. Aside from its significantly improved defense that adds 12 physical resistance to all body parts, its weight and thickness are a hassle, permanently increasing encumberance by 20 and a greatly reduced mobility.",
     "types": [ "SKIN" ],
     "prereqs": [ "SECRO_TITAN2" ],
-    "encumbrance_always": [ [ "HAND_L", 20 ], [ "HAND_R", 20 ], [ "FOOT_R", 20 ], [ "FOOT_L", 20 ], [ "LEG_R", 20 ], [ "LEG_L", 20 ], [ "TORSO", 20 ], [ "HEAD", 20 ], [ "ARM_L", 20 ], [ "ARM_R", 20 ] ],
-    "encumbrance_covered": [ [ "HAND_L", 15 ], [ "HAND_R", 15 ], [ "FOOT_R", 15 ], [ "FOOT_L", 15 ], [ "LEG_R", 15 ], [ "LEG_L", 15 ], [ "TORSO", 15 ], [ "HEAD", 15 ], [ "ARM_L", 15 ], [ "ARM_R", 10 ] ],
+    "encumbrance_always": [
+      [ "HAND_L", 20 ],
+      [ "HAND_R", 20 ],
+      [ "FOOT_R", 20 ],
+      [ "FOOT_L", 20 ],
+      [ "LEG_R", 20 ],
+      [ "LEG_L", 20 ],
+      [ "TORSO", 20 ],
+      [ "HEAD", 20 ],
+      [ "ARM_L", 20 ],
+      [ "ARM_R", 20 ]
+    ],
+    "encumbrance_covered": [
+      [ "HAND_L", 15 ],
+      [ "HAND_R", 15 ],
+      [ "FOOT_R", 15 ],
+      [ "FOOT_L", 15 ],
+      [ "LEG_R", 15 ],
+      [ "LEG_L", 15 ],
+      [ "TORSO", 15 ],
+      [ "HEAD", 15 ],
+      [ "ARM_L", 15 ],
+      [ "ARM_R", 10 ]
+    ],
     "armor": [ { "parts": "ALL", "cut": 12, "bash": 12, "stab": 12 } ],
     "dodge_modifier": -0.2,
     "movecost_swim_modifier": 1.15,
@@ -367,7 +494,17 @@
     "description": "You grew 2 additional pairs of arms sticking out from the sides of your torso close to the abdominal part. They seem to function as duplicates of normal ones, gaining 1 permanent dex and making them beneficial for crafting, combat and vaulting through objects, but increases torsal encumberance by 10 which triples when you wear a tight clothing.",
     "types": [ "HANDS" ],
     "changes_to": [ "SECRO_SPIDER_OK", "SECRO_SPIDER_NOTOK" ],
-    "cancels": [ "NAILS", "CLAWS", "TALONS", "WEBBED", "ARM_TENTACLES", "SECRO_TENDRIL", "SECRO_BLADE_L", "SECRO_TENDRIL_THICK_THRESHOLD", "SECRO_TENDRIL_TENT_THRESHOLD" ],
+    "cancels": [
+      "NAILS",
+      "CLAWS",
+      "TALONS",
+      "WEBBED",
+      "ARM_TENTACLES",
+      "SECRO_TENDRIL",
+      "SECRO_BLADE_L",
+      "SECRO_TENDRIL_THICK_THRESHOLD",
+      "SECRO_TENDRIL_TENT_THRESHOLD"
+    ],
     "encumbrance_always": [ [ "TORSO", 10 ] ],
     "encumbrance_covered": [ [ "TORSO", 30 ] ],
     "attackcost_modifier": 0.95,
