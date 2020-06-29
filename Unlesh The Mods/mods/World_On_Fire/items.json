@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "armguard_firechitin",
     "copy-from": "armguard_chitin",
     "type": "ARMOR",
@@ -10,7 +10,7 @@
     "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
     "relative": { "material_thickness": 1 }
   },
-   {
+  {
     "id": "armor_firechitin",
     "copy-from": "armor_chitin",
     "type": "ARMOR",
@@ -31,7 +31,7 @@
     "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
     "relative": { "bashing": 1, "material_thickness": 1 }
   },
-   {
+  {
     "id": "helmet_firechitin",
     "copy-from": "helmet_chitin",
     "type": "ARMOR",
@@ -52,7 +52,7 @@
     "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
     "relative": { "bashing": 2, "material_thickness": 1 }
   },
-{
+  {
     "id": "stinger_fire",
     "type": "TOOL",
     "category": "weapons",
@@ -79,7 +79,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 5 ] ],
     "flags": [ "STAB", "NONCONDUCTIVE", "SHEATH_KNIFE", "NO_CVD" ]
   },
-{
+  {
     "id": "stinger_knife_fire",
     "type": "TOOL",
     "category": "weapons",
@@ -106,7 +106,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
     "flags": [ "STAB", "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_KNIFE", "NO_CVD" ]
   },
-{
+  {
     "id": "stinger_fire_spear",
     "type": "TOOL",
     "category": "weapons",
@@ -126,7 +126,7 @@
     "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ] ],
     "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR", "NO_CVD", "FRAGILE_MELEE" ]
   },
-{
+  {
     "id": "bot_flamebot",
     "looks_like": "mon_flamebot",
     "type": "TOOL",
@@ -152,7 +152,7 @@
       "skill2": "computer"
     }
   },
-{
+  {
     "id": "bot_flametank",
     "looks_like": "mon_flametank",
     "type": "TOOL",
@@ -178,7 +178,7 @@
       "skill2": "computer"
     }
   },
-{
+  {
     "id": "bot_minebot",
     "looks_like": "mon_minebot",
     "type": "TOOL",
@@ -204,7 +204,7 @@
       "skill2": "computer"
     }
   },
-{
+  {
     "id": "bot_fireminebot",
     "looks_like": "mon_fireminebot",
     "type": "TOOL",
@@ -230,4 +230,4 @@
       "skill2": "computer"
     }
   }
- ]
+]

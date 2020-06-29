@@ -1,13 +1,13 @@
 [
-    {
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_city_B3N_A" ],
     "method": "json",
-    "override":true,
+    "override": true,
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "########################",
         "########################",
         "########################",
@@ -46,26 +46,18 @@
         "2": "t_window_stained_blue",
         "7": "t_secretdoor_brick_wall_c"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      }
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" }
     }
-    },
-    {
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_city_B3S_A" ],
-    "override":true,
+    "override": true,
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "11                    11",
         "11                    11",
         "1                      1",
@@ -102,10 +94,9 @@
         "p": "t_pit_spiked",
         "T": "t_secretdoor_wall_c",
         "0": "t_window_stained_green"
-      },      "furniture": {
-        "S": "f_statue"
       },
-      "place_items": [ 
+      "furniture": { "S": "f_statue" },
+      "place_items": [
         { "item": "doom_lootpack", "x": [ 11, 11 ], "y": [ 22, 22 ], "chance": 100 },
         { "item": "doom_lootpack", "x": [ 12, 12 ], "y": [ 22, 22 ], "chance": 100 },
         { "item": "doom_lootpack", "x": [ 11, 11 ], "y": [ 21, 21 ], "chance": 100 },
@@ -115,20 +106,18 @@
         { "item": "doom_stimpack", "x": [ 11, 11 ], "y": [ 19, 19 ], "chance": 100 },
         { "item": "doom_stimpack", "x": [ 12, 12 ], "y": [ 19, 19 ], "chance": 100 }
       ],
-      "monster": {
-        "G": { "monster": "mon_mechaspider" }
-      }
+      "monster": { "G": { "monster": "mon_mechaspider" } }
     }
-    },
-    {
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_city_B4N" ],
-    "override":true,
+    "override": true,
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "########################",
         "########################",
         "########################",
@@ -165,23 +154,19 @@
         "p": "t_pit_spiked",
         "1": "t_window_stained_red"
       },
-      "furniture": {
-        "S": "f_statue"
-      },
-      "monster": {
-        "G": { "monster": "mon_doom_sacrifice" }
-      }
+      "furniture": { "S": "f_statue" },
+      "monster": { "G": { "monster": "mon_doom_sacrifice" } }
     }
-    },
-    {
+  },
+  {
     "type": "mapgen",
-    "override":true,
+    "override": true,
     "om_terrain": [ "hell_city_B4S" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "11                    11",
         "11                    11",
         "1                      1",
@@ -218,10 +203,9 @@
         "p": "t_pit_spiked",
         "T": "t_secretdoor_wall_c",
         "0": "t_window_stained_blue"
-      },      "furniture": {
-        "S": "f_statue"
       },
-      "place_items": [ 
+      "furniture": { "S": "f_statue" },
+      "place_items": [
         { "item": "bionics_op", "x": [ 11, 11 ], "y": [ 22, 22 ], "chance": 100 },
         { "item": "bionics_op", "x": [ 12, 12 ], "y": [ 22, 22 ], "chance": 100 },
         { "item": "bionics_op", "x": [ 11, 11 ], "y": [ 21, 21 ], "chance": 100 },
@@ -231,9 +215,7 @@
         { "item": "bionics_op", "x": [ 11, 11 ], "y": [ 19, 19 ], "chance": 100 },
         { "item": "bionics_op", "x": [ 12, 12 ], "y": [ 19, 19 ], "chance": 100 }
       ],
-      "monster": {
-        "G": { "monster": "mon_mechaspider_queen" }
-      }
+      "monster": { "G": { "monster": "mon_mechaspider_queen" } }
     }
-    }
+  }
 ]

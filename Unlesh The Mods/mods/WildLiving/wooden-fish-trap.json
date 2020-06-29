@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "fish_trap_primitive",
     "type": "TOOL",
     "name": "wooden fish trap",
@@ -26,9 +26,6 @@
     "autolearn": true,
     "time": 10000,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "stick_long", 8 ] ],
-      [ [ "cordage", 1, "LIST" ] ]
-    ]
+    "components": [ [ [ "stick_long", 8 ] ], [ [ "cordage", 1, "LIST" ] ] ]
   }
 ]

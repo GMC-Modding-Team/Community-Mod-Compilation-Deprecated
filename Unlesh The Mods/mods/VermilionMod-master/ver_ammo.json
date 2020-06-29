@@ -1,4 +1,4 @@
-  [
+[
   {
     "id": "145x114mm",
     "type": "AMMO",
@@ -30,7 +30,7 @@
     "proportional": { "price": 0.7, "damage": { "damage_type": "stab", "amount": 0.9 }, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
-   {
+  {
     "id": "145x114mm_casing",
     "copy-from": "casing",
     "type": "GENERIC",
@@ -58,10 +58,7 @@
     "damage": { "damage_type": "stab", "amount": 85, "armor_penetration": 5 },
     "dispersion": 205,
     "effects": [ "RECYCLED", "CUSTOM_EXPLOSION" ],
-	"explode_in_fire" : true,
-        "explosion" : {
-            "power": 11,
-            "distance_factor": 0.3
+    "explode_in_fire": true,
+    "explosion": { "power": 11, "distance_factor": 0.3 }
   }
-  }
-  ]
+]

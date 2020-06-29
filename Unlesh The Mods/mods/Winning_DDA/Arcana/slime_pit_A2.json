@@ -32,13 +32,7 @@
         "    Z     #F.#  F       ",
         "G         #  #          "
       ],
-      "terrain": {
-        " ": "t_slime",
-        "<": "t_stairs_up",
-        "#": "t_slime",
-        ".": "t_slime",
-        "q": "t_slime"
-      },
+      "terrain": { " ": "t_slime", "<": "t_stairs_up", "#": "t_slime", ".": "t_slime", "q": "t_slime" },
       "place_items": [
         { "item": "bionics_op", "x": [ 11, 11 ], "y": [ 22, 22 ], "chance": 100 },
         { "item": "bionics_op", "x": [ 12, 12 ], "y": [ 22, 22 ], "chance": 100 },
@@ -57,5 +51,5 @@
         "F": { "monster": "mon_gelatin" }
       }
     }
-    }
+  }
 ]

@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "v_hemo_whip",
     "type": "GENERIC",
     "symbol": "/",
@@ -10,15 +10,7 @@
     "volume": 6,
     "material": [ "flesh" ],
     "techniques": [ "PRECISE", "RAPID", "WBLOCK_2" ],
-    "flags": [
-      "REACH_ATTACK",
-      "REACH3",
-      "WHIP",
-      "TRADER_AVOID",
-      "UNARMED_WEAPON",
-      "UNBREAKABLE_MELEE",
-      "MAGIC_FOCUS"
-    ],
+    "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "TRADER_AVOID", "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -77,7 +69,7 @@
           "hit_me_effect": [ { "id": "v_hemo_crimsoncoat_coat_pr_maybe" } ],
           "values": [ { "value": "MAX_HP", "add": 50 }, { "value": "SPEED", "add": -15 } ],
           "//": "The feature below is unexplained, and this trial isn't working as intended.",
-          "intermittent_activation":[ { "effects": [ { "frequency": "30 seconds", "spell_effects": [ { "id": "v_hemo_orusform_bloodling" } ] } ] } ]
+          "intermittent_activation": [ { "effects": [ { "frequency": "30 seconds", "spell_effects": [ { "id": "v_hemo_orusform_bloodling" } ] } ] } ]
         }
       ]
     },
@@ -88,11 +80,11 @@
     "id": "v_war_etherealenchant",
     "type": "ARMOR",
     "name": "ethereal enchantment",
-	    "description": "Enshrouds your wielded weapon (or even bare fists) in ghastly mists.\n* 5% to summon an <color_light_blue>etherean silhouette</color> for 15-25 turns while attacking.",
+    "description": "Enshrouds your wielded weapon (or even bare fists) in ghastly mists.\n* 5% to summon an <color_light_blue>etherean silhouette</color> for 15-25 turns while attacking.",
     "weight": 0,
     "volume": 0,
     "price": 0,
-	"material": [ "ethereal" ],
+    "material": [ "ethereal" ],
     "coverage": 0,
     "symbol": "0",
     "color": "red",
