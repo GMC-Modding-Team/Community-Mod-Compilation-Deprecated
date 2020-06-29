@@ -1,24 +1,24 @@
 [
-{
-    "type" : "COMESTIBLE",
-    "id" : "rice",
-    "name" : "rice",
-    "weight" : 100,
-    "color" : "yellow",
-    "comestible_type" : "FOOD",
-    "symbol" : "|",
-    "healthy" : 1,
-    "nutrition" : 5,
-    "fun" : -5,
-    "description" :"Long-grain white rice.",
-    "price" : 10,
-    "material" : "veggy",
-    "volume" : 1,
+  {
+    "type": "COMESTIBLE",
+    "id": "rice",
+    "name": "rice",
+    "weight": 100,
+    "color": "yellow",
+    "comestible_type": "FOOD",
+    "symbol": "|",
+    "healthy": 1,
+    "nutrition": 5,
+    "fun": -5,
+    "description": "Long-grain white rice.",
+    "price": 10,
+    "material": "veggy",
+    "volume": 1,
     "charges": 3,
     "spoils-in": 0,
-    "flags" : ["HEAT_FOOD","EATEN_HOT"]
-},
-{
+    "flags": [ "HEAT_FOOD", "EATEN_HOT" ]
+  },
+  {
     "type": "COMESTIBLE",
     "id": "patty_plain_rice",
     "name": "plain rice patty",
@@ -36,9 +36,9 @@
     "spoils-in": 12,
     "description": "A plain rice patty.",
     "plural-description": "Some plain rice patties.",
-    "flags": ["HEAT_FOOD","EATEN_HOT" ]
-},
-{
+    "flags": [ "HEAT_FOOD", "EATEN_HOT" ]
+  },
+  {
     "type": "COMESTIBLE",
     "id": "burger_plain_rice",
     "name": "plain rice burger",
@@ -51,13 +51,13 @@
     "nutrition": 35,
     "quench": 2,
     "fun": 12,
-    "weight": "352253 mg", 
+    "weight": "352253 mg",
     "//": "It's just the base weight of the *rice patty*, times 3.10.",
     "volume": 6,
     "price": 50,
     "spoils_in": 3,
     "description": "A plain rice burger",
     "plural-description": "Some plain rice burgers",
-    "flags": ["HEAT_FOOD","EATEN_HOT" ]
-}
+    "flags": [ "HEAT_FOOD", "EATEN_HOT" ]
+  }
 ]
