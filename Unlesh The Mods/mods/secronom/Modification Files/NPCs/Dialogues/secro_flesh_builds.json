@@ -157,7 +157,10 @@
         "text": "[FINISH] Eastern Room\nBasecamp Expansion",
         "topic": "TALK_DONE",
         "condition": {
-          "and": [ { "not": { "npc_has_effect": "secro_flesh_building" } }, { "npc_has_effect": "secro_flesh_building_expandroom_right" } ]
+          "and": [
+            { "not": { "npc_has_effect": "secro_flesh_building" } },
+            { "npc_has_effect": "secro_flesh_building_expandroom_right" }
+          ]
         },
         "effect": [
           { "mapgen_update": "secro_fleshcamp_expandroom_right", "origin_npc": true },
@@ -234,7 +237,10 @@
         "text": "[FINISH] Southern Room\nBasecamp Expansion",
         "topic": "TALK_DONE",
         "condition": {
-          "and": [ { "not": { "npc_has_effect": "secro_flesh_building" } }, { "npc_has_effect": "secro_flesh_building_expandroom_down" } ]
+          "and": [
+            { "not": { "npc_has_effect": "secro_flesh_building" } },
+            { "npc_has_effect": "secro_flesh_building_expandroom_down" }
+          ]
         },
         "effect": [
           { "mapgen_update": "secro_fleshcamp_expandroom_down", "origin_npc": true },
@@ -311,7 +317,10 @@
         "text": "[FINISH] Western Room\nBasecamp Expansion",
         "topic": "TALK_DONE",
         "condition": {
-          "and": [ { "not": { "npc_has_effect": "secro_flesh_building" } }, { "npc_has_effect": "secro_flesh_building_expandroom_left" } ]
+          "and": [
+            { "not": { "npc_has_effect": "secro_flesh_building" } },
+            { "npc_has_effect": "secro_flesh_building_expandroom_left" }
+          ]
         },
         "effect": [
           { "mapgen_update": "secro_fleshcamp_expandroom_left", "origin_npc": true },

@@ -5033,9 +5033,7 @@
     "id": "mon_sflesh_fleshling_scavengy_flee_target",
     "name": "a spell",
     "description": "Target spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then casts the Spell(s).'",
-    "extra_effects": [
-      { "id": "mon_sflesh_fleshling_scavengy_flee", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_sflesh_fleshling_scavengy_flee", "hit_self": true } ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile" ],
     "effect": "target_attack",
@@ -5069,7 +5067,8 @@
     "name": "a spell",
     "description": "Target spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then casts the Spell(s).'",
     "extra_effects": [
-      { "id": "mon_sflesh_fleshling_scavengy_explosive_pop", "hit_self": true }, { "id": "sacrifice_spell", "hit_self": true }
+      { "id": "mon_sflesh_fleshling_scavengy_explosive_pop", "hit_self": true },
+      { "id": "sacrifice_spell", "hit_self": true }
     ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -5088,9 +5087,7 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
     "effect": "projectile_attack",
-    "extra_effects": [
-      { "id": "sacrifice_spell", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "sacrifice_spell", "hit_self": true } ],
     "min_damage": 5,
     "max_damage": 10,
     "min_range": 1,
@@ -5102,9 +5099,7 @@
     "id": "mon_sflesh_fleshling_scavengy_sticky_sg",
     "name": "Sticky Grasp",
     "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster sticks to the target.'",
-    "extra_effects": [
-      { "id": "sacrifice_spell", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "sacrifice_spell", "hit_self": true } ],
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "hostile" ],
     "effect": "target_attack",
@@ -5149,9 +5144,7 @@
     "id": "mon_sflesh_fleshling_ravagy_outb_target_random",
     "name": "a spell",
     "description": "Target spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then randomly casts one of the Spell(s).'",
-    "extra_effects": [
-      { "id": "mon_sflesh_fleshling_ravagy_outb" }
-    ],
+    "extra_effects": [ { "id": "mon_sflesh_fleshling_ravagy_outb" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
     "effect": "target_attack",
@@ -5171,7 +5164,10 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
     "effect": "target_attack",
-    "extra_effects": [ { "id": "mon_sflesh_fleshling_ravagy_outb_target_random" }, { "id": "mon_sflesh_fleshling_ravagy_outb_cost", "hit_self": true } ],
+    "extra_effects": [
+      { "id": "mon_sflesh_fleshling_ravagy_outb_target_random" },
+      { "id": "mon_sflesh_fleshling_ravagy_outb_cost", "hit_self": true }
+    ],
     "effect_str": "mon_sflesh_fleshling_ravagy_outb_YES",
     "min_aoe": 69,
     "max_aoe": 69,
@@ -5212,7 +5208,10 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
     "effect": "target_attack",
-    "extra_effects": [ { "id": "mon_sflesh_fleshling_ravagy_fburst" }, { "id": "mon_sflesh_fleshling_ravagy_fburst_cost", "hit_self": true } ],
+    "extra_effects": [
+      { "id": "mon_sflesh_fleshling_ravagy_fburst" },
+      { "id": "mon_sflesh_fleshling_ravagy_fburst_cost", "hit_self": true }
+    ],
     "effect_str": "mon_sflesh_fleshling_ravagy_fburst_YES",
     "min_aoe": 69,
     "max_aoe": 69,
