@@ -1434,7 +1434,13 @@
     "color": "red",
     "move_cost": 0,
     "coverage": 90,
-    "bash": { "str_min": 10, "str_max": 30, "sound": "splook!", "sound_fail": "splat.", "ter_set": "t_secro_flesh_camp_wall_veins_smoot" },
+    "bash": {
+      "str_min": 10,
+      "str_max": 30,
+      "sound": "splook!",
+      "sound_fail": "splat.",
+      "ter_set": "t_secro_flesh_camp_wall_veins_smoot"
+    },
     "flags": [ "FLAMMABLE_HARD", "NOITEM", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL", "S_FLESH", "BLOCK_WIND" ]
   }
 ]

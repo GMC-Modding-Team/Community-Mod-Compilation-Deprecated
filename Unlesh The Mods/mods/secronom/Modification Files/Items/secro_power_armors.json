@@ -87,7 +87,7 @@
       ]
     },
     "ammo": "secro_flesh",
-"max_charges": 100,
+    "max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
@@ -139,7 +139,7 @@
       ]
     },
     "ammo": "secro_flesh",
-"max_charges": 100,
+    "max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
@@ -192,7 +192,7 @@
       ]
     },
     "ammo": "secro_flesh",
-"max_charges": 100,
+    "max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
@@ -245,7 +245,7 @@
       ]
     },
     "ammo": "secro_flesh",
-"max_charges": 100,
+    "max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
@@ -296,7 +296,7 @@
       ]
     },
     "ammo": "secro_flesh",
-"max_charges": 100,
+    "max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
@@ -325,19 +325,22 @@
     "environmental_protection": 12,
     "power_armor": true,
     "charges_per_use": 50,
-    "use_action": [ {
-      "type": "cast_spell",
-      "spell_id": "secro_power_armor_flesh_infect_morphform_list",
-      "no_fail": true,
-      "need_worn": true,
-      "level": 0
-    },{
-      "type": "place_npc",
-      "npc_class_id": "secronom_flesh",
-      "summon_msg": "You sacrificed a huge amount of flesh to make an artificial flesh hivemind...",
-      "place_randomly": false,
-      "moves": 10
-    } ],
+    "use_action": [
+      {
+        "type": "cast_spell",
+        "spell_id": "secro_power_armor_flesh_infect_morphform_list",
+        "no_fail": true,
+        "need_worn": true,
+        "level": 0
+      },
+      {
+        "type": "place_npc",
+        "npc_class_id": "secronom_flesh",
+        "summon_msg": "You sacrificed a huge amount of flesh to make an artificial flesh hivemind...",
+        "place_randomly": false,
+        "moves": 10
+      }
+    ],
     "relic_data": {
       "passive_effects": [
         {
@@ -368,7 +371,7 @@
       ]
     },
     "ammo": "secro_flesh",
-"max_charges": 200,
+    "max_charges": 200,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 2 ], [ "SECRO_FLESH_REFORMING", 2 ] ],
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
   },
@@ -389,13 +392,7 @@
     "encumbrance": 0,
     "power_armor": true,
     "material_thickness": 1,
-    "use_action": {
-      "type": "cast_spell",
-      "spell_id": "secro_power_armor_feed",
-      "no_fail": true,
-      "need_worn": true,
-      "level": 0
-    },
+    "use_action": { "type": "cast_spell", "spell_id": "secro_power_armor_feed", "no_fail": true, "need_worn": true, "level": 0 },
     "flags": [ "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
   }
 ]

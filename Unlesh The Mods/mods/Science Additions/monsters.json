@@ -7,7 +7,7 @@
     "default_faction": "defense_bot",
     "species": [ "ROBOT" ],
     "diff": 14,
-    "size":"LARGE",
+    "size": "LARGE",
     "hp": 70,
     "speed": 100,
     "material": [ "steel" ],
@@ -20,22 +20,8 @@
     "luminance": 200,
     "revert_to_itype": "bot_turret_science",
     "starting_ammo": { "8mm_hvp": 4000 },
-    "special_attacks": [
-      {
-        "type": "gun",
-        "cooldown": 2,
-        "gun_type": "rm614_lmg",
-        "ranges": [
-          [ 0, 6, "AUTO" ],
-          [ 7, 12, "DEFAULT" ]
-        ]
-      }
-    ],
-    "death_drops": {
-      "groups": [
-        [ "robots", 10 ]
-      ]
-    },
+    "special_attacks": [ { "type": "gun", "cooldown": 2, "gun_type": "rm614_lmg", "ranges": [ [ 0, 6, "AUTO" ], [ 7, 12, "DEFAULT" ] ] } ],
+    "death_drops": { "groups": [ [ "robots", 10 ] ] },
     "death_function": [ "EXPLODE" ],
     "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "IMMOBILE", "NO_BREATHE" ]
   },
@@ -45,9 +31,6 @@
     "type": "MONSTER",
     "name": "zombie scientist",
     "description": "Apart from the jet black eyes it would be easy to believe this scientist was still alive.  Clad in a tattered lab coat, it looks to have some measure of situational awareness and resourcefulness.",
-    "special_attacks": [
-      [ "SCIENCE", 20 ],
-      [ "scratch", 20 ]
-    ]
+    "special_attacks": [ [ "SCIENCE", 20 ], [ "scratch", 20 ] ]
   }
 ]
