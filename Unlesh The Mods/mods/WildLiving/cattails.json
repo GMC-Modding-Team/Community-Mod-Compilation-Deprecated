@@ -1,4 +1,4 @@
-    [
+[
   {
     "type": "recipe",
     "result": "flour",
@@ -29,10 +29,7 @@
     "batch_time_factors": [ 30, 2 ],
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
-    "components": [ 
-      [ [ "cattail_rhizome", 2 ] ], 
-      [ [ "water_clean", 1 ], [ "water", 1 ] ]
-    ]
+    "components": [ [ [ "cattail_rhizome", 2 ] ], [ [ "water_clean", 1 ], [ "water", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -46,9 +43,7 @@
     "autolearn": true,
     "tools": [ [ [ "surface_heat", 40, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
-    "components": [ 
-      [ [ "starch_water", 1 ] ]
-    ]
+    "components": [ [ [ "starch_water", 1 ] ] ]
   },
   {
     "id": "starch_dried_flakes",
