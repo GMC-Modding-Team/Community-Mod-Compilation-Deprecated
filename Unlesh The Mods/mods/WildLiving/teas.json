@@ -1,5 +1,5 @@
 [
-	{
+  {
     "abstract": "tea_bag",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
@@ -10,8 +10,8 @@
     "spoils_in": 8760,
     "color": "brown"
   },
-	{
-		"id": "teabag_pine",
+  {
+    "id": "teabag_pine",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "copy-from": "tea_bag",
@@ -27,7 +27,7 @@
     "fun": -1
   },
   {
-		"id": "teabag_dandelion",
+    "id": "teabag_dandelion",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "copy-from": "tea_bag",
@@ -43,7 +43,7 @@
     "fun": -1
   },
   {
-		"id": "dandelion_ground_root",
+    "id": "dandelion_ground_root",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "copy-from": "tea_bag",
@@ -59,16 +59,16 @@
     "fun": -1
   },
   {
-  	"copy-from": "herbal_tea",
-  	"id": "dandelion_ground_root_tea",
-  	"type": "COMESTIBLE",
-  	"comestible_type": "DRINK",
-  	"name": "ground dandelion root tea",
-  	"name_plural": "ground dandelion root tea",
-  	"description": "An infusion made from ground and dried dandelion roots"
+    "copy-from": "herbal_tea",
+    "id": "dandelion_ground_root_tea",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+    "name": "ground dandelion root tea",
+    "name_plural": "ground dandelion root tea",
+    "description": "An infusion made from ground and dried dandelion roots"
   },
   {
-		"id": "teabag_bark",
+    "id": "teabag_bark",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "copy-from": "tea_bag",
@@ -84,7 +84,7 @@
     "fun": -1
   },
   {
-		"id": "teabag_beebalm",
+    "id": "teabag_beebalm",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "copy-from": "tea_bag",
@@ -100,7 +100,7 @@
     "fun": -1
   },
   {
-		"id": "teabag_herbal",
+    "id": "teabag_herbal",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
     "copy-from": "tea_bag",
@@ -151,7 +151,7 @@
     ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "pine_bough", 1 ], [ "teabag_pine", 1] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+    "components": [ [ [ "pine_bough", 1 ], [ "teabag_pine", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -173,7 +173,7 @@
     ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "raw_dandelion", 1 ], [ "teabag_dandelion", 1] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+    "components": [ [ [ "raw_dandelion", 1 ], [ "teabag_dandelion", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -218,7 +218,7 @@
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "wild_herbs", 10 ], [ "teabag_herbal", 1] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+    "components": [ [ [ "wild_herbs", 10 ], [ "teabag_herbal", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -231,12 +231,8 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ], [ ["mortar_pestle", -1 ] ] ],
-    "components": [
-      [ [ "rag", 1] ],
-      [ [ "filament", 10, "LIST" ] ],
-      [ [ "pine_bough", 1 ] ]
-    ]
+    "tools": [ [ [ "char_smoker", 10 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "filament", 10, "LIST" ] ], [ [ "pine_bough", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -249,12 +245,8 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ], [ ["mortar_pestle", -1 ] ] ],
-    "components": [
-      [ [ "rag", 1] ],
-      [ [ "filament", 10, "LIST" ] ],
-      [ [ "raw_dandelion", 1 ] ]
-    ]
+    "tools": [ [ [ "char_smoker", 10 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "filament", 10, "LIST" ] ], [ [ "raw_dandelion", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -267,12 +259,8 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ], [ ["mortar_pestle", -1 ] ] ],
-    "components": [
-      [ [ "rag", 1] ],
-      [ [ "filament", 10, "LIST" ] ],
-      [ [ "tanbark", 1 ] ]
-    ]
+    "tools": [ [ [ "char_smoker", 10 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "filament", 10, "LIST" ] ], [ [ "tanbark", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -285,12 +273,8 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ], [ ["mortar_pestle", -1 ] ] ],
-    "components": [
-      [ [ "rag", 1] ],
-      [ [ "filament", 10, "LIST" ] ],
-      [ [ "bee_balm", 1 ] ]
-    ]
+    "tools": [ [ [ "char_smoker", 10 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "filament", 10, "LIST" ] ], [ [ "bee_balm", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -303,12 +287,8 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ], [ ["mortar_pestle", -1 ] ] ],
-    "components": [
-      [ [ "rag", 1] ],
-      [ [ "filament", 10, "LIST" ] ],
-      [ [ "wild_herbs", 10 ] ]
-    ]
+    "tools": [ [ [ "char_smoker", 10 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "filament", 10, "LIST" ] ], [ [ "wild_herbs", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -321,12 +301,8 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 10 ] ], [ ["mortar_pestle", -1 ] ] ],
-    "components": [
-      [ [ "rag", 1] ],
-      [ [ "filament", 10, "LIST" ] ],
-      [ [ "raw_dandelion", 1 ] ]
-    ]
+    "tools": [ [ [ "char_smoker", 10 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "filament", 10, "LIST" ] ], [ [ "raw_dandelion", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -341,6 +317,6 @@
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 2, "LIST" ] ] ],
-    "components": [ [ [ "dandelion_ground_root", 1] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+    "components": [ [ [ "dandelion_ground_root", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   }
 ]

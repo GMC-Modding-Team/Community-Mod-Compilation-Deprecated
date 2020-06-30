@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "chainsword_off",
     "type": "TOOL",
     "category": "weapons",
@@ -16,11 +16,11 @@
     "color": "light_gray",
     "ammo": "gasoline",
     "max_charges": 1000,
-	"qualities" : [ ["CUT" , 1 ] ],
+    "qualities": [ [ "CUT", 1 ] ],
     "use_action": "CHAINSAW_OFF",
-	"flags" : [ "DURABLE_MELEE", "TRADER_AVOID" , "TRADER_AVOID" , "BELT_CLIP" ]
-	},
-	{
+    "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "TRADER_AVOID", "BELT_CLIP" ]
+  },
+  {
     "id": "chainsword_on",
     "type": "TOOL",
     "category": "weapons",
@@ -40,12 +40,12 @@
     "max_charges": 1000,
     "turns_per_charge": 1,
     "revert_to": "combatsaw_off",
-	"techniques": [ "WBLOCK_1", "SWEEP" ],
-    "qualities": [ [ "AXE", 3 ], [ "BUTCHER", 4] ],
+    "techniques": [ "WBLOCK_1", "SWEEP" ],
+    "qualities": [ [ "AXE", 3 ], [ "BUTCHER", 4 ] ],
     "use_action": "CHAINSAW_ON",
-    "flags": [ "MESSY", "DURABLE_MELEE", "TRADER_AVOID" , "WIDE" , "TRADER_AVOID" , "BELT_CLIP" ]
-	},
-	{
+    "flags": [ "MESSY", "DURABLE_MELEE", "TRADER_AVOID", "WIDE", "TRADER_AVOID", "BELT_CLIP" ]
+  },
+  {
     "id": "ork_choppa",
     "type": "TOOL",
     "name": "choppa",
@@ -62,8 +62,8 @@
     "techniques": [ "SWEEP", "WIDE", "BRUTAL" ],
     "qualities": [ [ "AXE", 2 ], [ "CUT", 1 ], [ "BUTCHER", -10 ], [ "COOK", 1 ], [ "PRY", 2 ], [ "DIG", 2 ], [ "HAMMER", 2 ] ],
     "flags": [ "MESSY", "TRADER_AVOID", "BELT_CLIP", "NONCONDUCTIVE", "DURABLE_MELEE" ]
-	},
-	{
+  },
+  {
     "id": "ork_choppa_red",
     "copy-from": "ork_choppa",
     "type": "TOOL",
@@ -71,5 +71,5 @@
     "description": "You zoggin' 'umie, yer supposed ta paint da trukk red, not da choppa!  Dat's what 'umie blood's fer!  Wait, by Gork an' Mork, dis might be a good way ta krump 'umies even fasta!",
     "color": "red",
     "techniques": [ "RAPID", "SWEEP", "WIDE", "BRUTAL" ]
-	}	
+  }
 ]

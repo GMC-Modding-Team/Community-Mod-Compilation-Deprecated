@@ -9,7 +9,7 @@
     "price": 500000,
     "material": "nanite",
     "ammo": "metal_nanopowder",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN", "MOUNTED_GUN" ],
+    "flags": [ "NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN", "MOUNTED_GUN" ],
     "volume": 1,
     "bashing": 0,
     "cutting": 0,
@@ -17,7 +17,8 @@
     "durability": 10,
     "clip_size": 100,
     "reload": 0
-  },{
+  },
+  {
     "abstract": "nanoturret",
     "type": "TOOL",
     "name": "nanotech turret",
@@ -26,12 +27,13 @@
     "color": "light_gray",
     "price": 500000,
     "material": "nanite",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
+    "flags": [ "NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
     "volume": 1,
     "bashing": 0,
     "cutting": 0,
     "to_hit": 0
-  },{
+  },
+  {
     "id": "nanoturret_shredder",
     "copy-from": "nanoturret",
     "type": "TOOL",
@@ -41,13 +43,8 @@
     "weight": 4375,
     "volume": 8,
     "use_action": [
+      { "type": "place_monster", "monster_id": "mon_nano_turret_pistol", "difficulty": 0, "moves": 100, "skill": "computer" },
       {
-        "type": "place_monster",
-        "monster_id": "mon_nano_turret_pistol",
-        "difficulty": 0,
-        "moves": 100,
-        "skill": "computer"
-      },{
         "type": "transform",
         "target": "nano_turret_pistol",
         "active": false,
@@ -55,7 +52,8 @@
         "msg": "Turret state switched."
       }
     ]
-  },{
+  },
+  {
     "id": "nanoturret_pistol",
     "copy-from": "nanoturret",
     "type": "TOOL",
@@ -65,13 +63,8 @@
     "weight": 3627,
     "volume": 4,
     "use_action": [
+      { "type": "place_monster", "monster_id": "mon_nano_turret_pistol", "difficulty": 0, "moves": 100, "skill": "computer" },
       {
-        "type": "place_monster",
-        "monster_id": "mon_nano_turret_pistol",
-        "difficulty": 0,
-        "moves": 100,
-        "skill": "computer"
-      },{
         "type": "transform",
         "target": "nano_turret_pistol",
         "active": false,
@@ -79,7 +72,8 @@
         "msg": "Turret state switched."
       }
     ]
-  },{
+  },
+  {
     "id": "nanoturret_rifle",
     "copy-from": "nanoturret",
     "type": "TOOL",
@@ -89,13 +83,8 @@
     "weight": 4375,
     "volume": 8,
     "use_action": [
+      { "type": "place_monster", "monster_id": "mon_nano_turret_rifle", "difficulty": 0, "moves": 100, "skill": "computer" },
       {
-        "type": "place_monster",
-        "monster_id": "mon_nano_turret_rifle",
-        "difficulty": 0,
-        "moves": 100,
-        "skill": "computer"
-      },{
         "type": "transform",
         "target": "nano_turret_rifle",
         "active": false,
@@ -103,7 +92,8 @@
         "msg": "Turret state switched."
       }
     ]
-  },{
+  },
+  {
     "id": "nanoturret_smg",
     "copy-from": "nanoturret",
     "type": "TOOL",
@@ -114,13 +104,8 @@
     "price": 375000,
     "volume": 6,
     "use_action": [
+      { "type": "place_monster", "monster_id": "mon_nano_turret_smg", "difficulty": 0, "moves": 100, "skill": "computer" },
       {
-        "type": "place_monster",
-        "monster_id": "mon_nano_turret_smg",
-        "difficulty": 0,
-        "moves": 100,
-        "skill": "computer"
-      },{
         "type": "transform",
         "target": "nano_turret_smg",
         "active": false,
@@ -128,11 +113,12 @@
         "msg": "Turret state switched."
       }
     ]
-  },{
+  },
+  {
     "id": "nano_turret_shredder",
     "type": "GUN",
     "name": "nanotech shredder turret (v)",
-    "copy-from" : "nanoturretgun",
+    "copy-from": "nanoturretgun",
     "description": "Nanotech shotgun turret, blasts out large clouds of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
     "looks_like": "rm614_lmg",
     "weight": 4375,
@@ -142,24 +128,22 @@
     "range": 4,
     "dispersion": 400,
     "sight_dispersion": 80,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 900,
-    "modes": [
-      [ "DEFAULT", "blast", 5, "SIMULTANEOUS" ],
-      [ "BURST", "auto", 20 ]
-    ],
+    "modes": [ [ "DEFAULT", "blast", 5, "SIMULTANEOUS" ], [ "BURST", "auto", 20 ] ],
     "use_action": {
-        "type": "transform",
-        "target": "nanoturret_shredder",
-        "active": false,
-        "menu_text": "Switch to independent mode",
-        "msg": "Turret state switched."
-      }
-  },{
+      "type": "transform",
+      "target": "nanoturret_shredder",
+      "active": false,
+      "menu_text": "Switch to independent mode",
+      "msg": "Turret state switched."
+    }
+  },
+  {
     "id": "nano_turret_pistol",
     "type": "GUN",
     "name": "nanotech pistol turret (v)",
-    "copy-from" : "nanoturretgun",
+    "copy-from": "nanoturretgun",
     "description": "Nanotech pistol turret, fires bursts of of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
     "looks_like": "needlepistol",
     "weight": 3627,
@@ -170,25 +154,22 @@
     "range": 8,
     "dispersion": 60,
     "sight_dispersion": 20,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 100,
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "BURST", "burst", 5, "SIMULTANEOUS" ],
-      [ "AUTO", "auto", 15 ]
-    ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 5, "SIMULTANEOUS" ], [ "AUTO", "auto", 15 ] ],
     "use_action": {
-        "type": "transform",
-        "target": "nanoturret_pistol",
-        "active": false,
-        "menu_text": "Switch to independent mode",
-        "msg": "Turret state switched."
-      }
-  },{
+      "type": "transform",
+      "target": "nanoturret_pistol",
+      "active": false,
+      "menu_text": "Switch to independent mode",
+      "msg": "Turret state switched."
+    }
+  },
+  {
     "id": "nano_turret_rifle",
     "type": "GUN",
     "name": "nanotech rifle turret (v)",
-    "copy-from" : "nanoturretgun",
+    "copy-from": "nanoturretgun",
     "description": "Nanotech rifle turret, fires large bursts of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
     "looks_like": "rm11b_sniper_rifle",
     "weight": 4375,
@@ -198,25 +179,22 @@
     "range": 24,
     "dispersion": 0,
     "sight_dispersion": 0,
-    "aim_speed" : 20,
+    "aim_speed": 20,
     "recoil": 100,
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "BURST", "burst", 10, "SIMULTANEOUS" ],
-      [ "AUTO", "auto", 25 ]
-    ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 10, "SIMULTANEOUS" ], [ "AUTO", "auto", 25 ] ],
     "use_action": {
-        "type": "transform",
-        "target": "nanoturret_rifle",
-        "active": false,
-        "menu_text": "Switch to independent mode",
-        "msg": "Turret state switched."
-      }
-  },{
+      "type": "transform",
+      "target": "nanoturret_rifle",
+      "active": false,
+      "menu_text": "Switch to independent mode",
+      "msg": "Turret state switched."
+    }
+  },
+  {
     "id": "nano_turret_smg",
     "type": "GUN",
     "name": "nanotech smg turret (v)",
-    "copy-from" : "nanoturretgun",
+    "copy-from": "nanoturretgun",
     "description": "Nanotech smg turret, fires a storm of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
     "looks_like": "rm360_carbine",
     "weight": 4523,
@@ -227,72 +205,72 @@
     "range": 4,
     "dispersion": 200,
     "sight_dispersion": 20,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 400,
-    "modes": [
-      [ "DEFAULT", "burst", 5, "SIMULTANEOUS" ],
-      [ "BURST", "auto", 25 ],
-      [ "FULL", "maximum", 50 ]
-    ],
+    "modes": [ [ "DEFAULT", "burst", 5, "SIMULTANEOUS" ], [ "BURST", "auto", 25 ], [ "FULL", "maximum", 50 ] ],
     "use_action": {
-        "type": "transform",
-        "target": "nanoturret_smg",
-        "active": false,
-        "menu_text": "Switch to independent mode",
-        "msg": "Turret state switched."
-      }
-  },{
-    "type":"GENERIC",
-    "id" : "xl_nanite_cluster",
-    "name" : "xl nanite cluster",
-    "description" : "A very large blob of nanites that can be easily programmed into multiple different forms.",
+      "type": "transform",
+      "target": "nanoturret_smg",
+      "active": false,
+      "menu_text": "Switch to independent mode",
+      "msg": "Turret state switched."
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "xl_nanite_cluster",
+    "name": "xl nanite cluster",
+    "description": "A very large blob of nanites that can be easily programmed into multiple different forms.",
     "looks_like": "slime_scrap",
-    "weight" : 1200,
-    "to_hit" : -2,
-    "color" : "light_cyan",
-    "symbol" : ":",
+    "weight": 1200,
+    "to_hit": -2,
+    "color": "light_cyan",
+    "symbol": ":",
     "material": "nanite",
-    "volume" : 8,
-    "bashing" : 1,
-    "cutting" : 0,
-    "category" : "veh_parts",
-    "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
-    "price" : 600000
-  },{
-    "type":"GENERIC",
-    "id" : "xl_nanite_ai",
-    "name" : "xl nanite cluster(ai)",
-    "description" : "A very large blob of nanites that can be easily programmed into multiple different complex forms due to the included AI.",
+    "volume": 8,
+    "bashing": 1,
+    "cutting": 0,
+    "category": "veh_parts",
+    "flags": [ "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
+    "price": 600000
+  },
+  {
+    "type": "GENERIC",
+    "id": "xl_nanite_ai",
+    "name": "xl nanite cluster(ai)",
+    "description": "A very large blob of nanites that can be easily programmed into multiple different complex forms due to the included AI.",
     "looks_like": "slime_scrap",
-    "weight" : 1469,
-    "to_hit" : -2,
-    "color" : "light_cyan",
-    "symbol" : ":",
+    "weight": 1469,
+    "to_hit": -2,
+    "color": "light_cyan",
+    "symbol": ":",
     "material": "nanite",
-    "volume" : 8,
-    "bashing" : 1,
-    "cutting" : 0,
-    "category" : "veh_parts",
-    "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
-    "price" : 600000
-  },{
-    "type":"GENERIC",
-    "id" : "nanotech_generator",
-    "category" : "veh_parts",
-    "name" : "nanotech generator",
+    "volume": 8,
+    "bashing": 1,
+    "cutting": 0,
+    "category": "veh_parts",
+    "flags": [ "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
+    "price": 600000
+  },
+  {
+    "type": "GENERIC",
+    "id": "nanotech_generator",
+    "category": "veh_parts",
+    "name": "nanotech generator",
     "description": "A mass of nanites and power cells optimized for generating power.",
-    "weight" : 36000,
+    "weight": 36000,
     "volume": 40,
     "price": 2000000,
     "price_postapoc": 240000,
-    "to_hit" : -2,
-    "color" : "light_cyan",
-    "symbol" : ":",
+    "to_hit": -2,
+    "color": "light_cyan",
+    "symbol": ":",
     "material": "nanite",
-    "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
-    "bashing" : 1,
-    "cutting" : 0
-  },{
+    "flags": [ "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
+    "bashing": 1,
+    "cutting": 0
+  },
+  {
     "id": "nanotech_battery",
     "type": "MAGAZINE",
     "category": "veh_parts",
@@ -301,14 +279,15 @@
     "description": "A mass of nanites programmed to store vast amounts of power.",
     "weight": 3600,
     "volume": 6,
-    "price" : 600000,
+    "price": 600000,
     "material": [ "nanite" ],
     "symbol": ":",
     "color": "light_cyan",
     "ammo_type": "battery",
     "capacity": 1000000,
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "RECHARGE", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "nano_crawler",
     "type": "WHEEL",
     "category": "veh_parts",
@@ -320,7 +299,7 @@
     "to_hit": -3,
     "bashing": 30,
     "material": [ "nanite" ],
-    "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
+    "flags": [ "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID" ],
     "qualities": [ [ "SELF_JACK", 40 ] ],
     "symbol": "]",
     "color": "white",

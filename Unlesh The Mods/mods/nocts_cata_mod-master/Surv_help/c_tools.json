@@ -466,10 +466,7 @@
     "max_charges": 25,
     "turns_per_charge": 60,
     "revert_to": "solar_torch",
-    "use_action": [
-      { "type": "firestarter" },
-      { "type": "transform", "msg": "The torch is extinguished.", "target": "solar_torch" }
-    ]
+    "use_action": [ { "type": "firestarter" }, { "type": "transform", "msg": "The torch is extinguished.", "target": "solar_torch" } ]
   },
   {
     "type": "COMESTIBLE",

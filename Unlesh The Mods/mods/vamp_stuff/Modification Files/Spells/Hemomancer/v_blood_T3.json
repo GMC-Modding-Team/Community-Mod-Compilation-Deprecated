@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "t3_blood_crimsonhaze",
     "type": "SPELL",
     "name": "Crimson Haze",
@@ -7,11 +7,7 @@
     "valid_targets": [ "hostile", "ground" ],
     "effect": "projectile_attack",
     "effect_str": "v_spell_crimsonhaze",
-    "extra_effects": [{
-                "id": "t3_blood_crimsonhaze_blind",
-                "hit_self": true
-            }
-        ],
+    "extra_effects": [ { "id": "t3_blood_crimsonhaze_blind", "hit_self": true } ],
     "base_energy_cost": 7,
     "final_energy_cost": 17,
     "energy_source": "HP",
@@ -27,8 +23,8 @@
     "max_field_intensity": 2,
     "field_chance": 15,
     "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS" ]
-},
-{
+  },
+  {
     "id": "t3_blood_suppress",
     "type": "SPELL",
     "name": "Suppress",
@@ -50,5 +46,5 @@
     "max_duration": 1500,
     "base_casting_time": 125,
     "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS" ]
-}
+  }
 ]

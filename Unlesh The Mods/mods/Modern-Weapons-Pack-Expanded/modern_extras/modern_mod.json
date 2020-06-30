@@ -14,8 +14,8 @@
     "location": "sights",
     "mod_targets": [ "smg", "rifle", "shotgun", "crossbow", "pistol", "launcher" ],
     "min_skills": [ [ "gun", 2 ] ],
-      "dispersion_modifier": -20,
-      "handling_modifier": 1,
+    "dispersion_modifier": -20,
+    "handling_modifier": 1,
     "flags": [ "SLOW_WIELD", "COLLAPSIBLE_STOCK" ]
   },
   {
@@ -50,7 +50,7 @@
     "symbol": ":",
     "color": "green",
     "location": "stock",
-    "mod_targets": [ "smg", "pistol"],
+    "mod_targets": [ "smg", "pistol" ],
     "flags": [ "IS_ARMOR", "BELTED", "OVERSIZE" ],
     "dispersion_modifier": -75,
     "handling_modifier": 3
@@ -89,7 +89,7 @@
     "min_skills": [ [ "gun", 2 ], [ "rifle", 1 ] ],
     "aim_speed": 6,
     "sight_dispersion": 45
-  },  
+  },
   {
     "id": "six12_shot_suppressor",
     "type": "GUNMOD",
@@ -112,7 +112,7 @@
     "handling_modifier": 1,
     "flags": [ "IRREMOVABLE" ]
   },
-  {  
+  {
     "id": "six12_mod",
     "type": "GUNMOD",
     "name": "Crye Six12 underbarrel shotgun",
@@ -137,9 +137,7 @@
     },
     "dispersion_modifier": 15,
     "magazine_well": 5,
-    "magazines": [
-       [ "shot", [ "six12mag" ] ]
-    ],
+    "magazines": [ [ "shot", [ "six12mag" ] ] ],
     "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ]
   }
 ]

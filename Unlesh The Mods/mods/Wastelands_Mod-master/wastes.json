@@ -1,14 +1,14 @@
 [
-   {
-	"id": "scatter_burst",
+  {
+    "id": "scatter_burst",
     "type": "GUN",
     "symbol": "(",
     "color": "brown",
     "name": "scrap shotgun",
     "description": "A single barrel shotgun, commonly nicknamed 'scatter burst'.",
     "price": 100000,
-    "material": ["iron", "wood"],
-    "flags": ["RELOAD_ONE","NEVER_JAMS","RELOAD_EJECT"],
+    "material": [ "iron", "wood" ],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 1814,
@@ -19,13 +19,13 @@
     "ranged_damage": 8,
     "dispersion": 150,
     "sight_dispersion": 90,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 225,
     "durability": 6,
     "clip_size": 1,
     "reload": 100,
-    "loudness" : 250,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 2 ],[ "stock", 1 ]]
+    "loudness": 250,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "conversion", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ]
   },
   {
     "id": "doublekill",
@@ -35,8 +35,8 @@
     "name": "derringer",
     "description": "A derringer-pattern pistol, often referred to as a 'doublekill'.",
     "price": 80000,
-    "material": ["iron", "wood"],
-    "flags": ["NEVER_JAMS","RELOAD_EJECT"],
+    "material": [ "iron", "wood" ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
     "skill": "pistol",
     "ammo": "32",
     "weight": 1814,
@@ -47,13 +47,13 @@
     "ranged_damage": 2,
     "dispersion": 175,
     "sight_dispersion": 90,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 200,
     "durability": 5,
     "clip_size": 2,
     "reload": 100,
-    "loudness" : 200,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 2 ],[ "stock", 1 ]]
+    "loudness": 200,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "conversion", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "stock", 1 ] ]
   },
   {
     "id": "longshot",
@@ -64,8 +64,8 @@
     "name_plural": "pull-action rifles",
     "description": "A roughly made rifle, known as a 'longshot'.",
     "price": 105000,
-    "material": ["iron", "wood"],
-    "flags": ["RELOAD_ONE"],
+    "material": [ "iron", "wood" ],
+    "flags": [ "RELOAD_ONE" ],
     "skill": "rifle",
     "ammo": "3006",
     "weight": 4080,
@@ -76,13 +76,13 @@
     "ranged_damage": 5,
     "dispersion": 25,
     "sight_dispersion": 60,
-    "aim_speed" : 7,
+    "aim_speed": 7,
     "recoil": 15,
     "durability": 7,
     "clip_size": 4,
     "reload": 90,
-    "loudness" : 200,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "mechanism", 2 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+    "loudness": 200,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
     "id": "bullethose",
@@ -105,14 +105,22 @@
     "ranged_damage": -5,
     "dispersion": 330,
     "sight_dispersion": 125,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 150,
     "durability": 4,
     "burst": 5,
     "clip_size": 30,
     "reload": 500,
-    "loudness" : 200,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "grip", 1 ],[ "magazine", 1 ],[ "mechanism", 2 ],[ "muzzle", 1 ],[ "sights", 1 ]]
+    "loudness": 200,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ]
+    ]
   },
   {
     "id": "blast_tube",
@@ -122,8 +130,8 @@
     "name": "explosive launcher",
     "description": "A rough grenade launcher, a 'blast tube'.",
     "price": 4000000,
-    "material": ["steel", "wood"],
-    "flags": ["RELOAD_ONE", "NEVER_JAMS"],
+    "material": [ "steel", "wood" ],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS" ],
     "skill": "launcher",
     "ammo": "40mm",
     "weight": 2267,
@@ -133,12 +141,12 @@
     "to_hit": -3,
     "dispersion": 350,
     "sight_dispersion": 150,
-    "aim_speed" : 0,
+    "aim_speed": 0,
     "recoil": 75,
     "durability": 5,
     "clip_size": 1,
     "reload": 350,
-    "loudness" : 250,
-    "valid_mod_locations": [[ "stock", 1 ]]
+    "loudness": 250,
+    "valid_mod_locations": [ [ "stock", 1 ] ]
   }
 ]
