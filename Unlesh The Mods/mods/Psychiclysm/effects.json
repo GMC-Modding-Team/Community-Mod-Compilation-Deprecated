@@ -53,7 +53,7 @@
       [ "Your knees tremble.", 10 ],
       [ "Your hands sweat.", 10 ]
     ],
-    "blocks_effects": ["happy"],
+    "blocks_effects": [ "happy" ],
     "rating": "bad",
     "max_intensity": 16,
     "resist_traits": [ "FEARLESS", "RESISTFEAR" ],
@@ -63,7 +63,7 @@
       "int_mod": [ -1, 0 ],
       "per_mod": [ -1, 0 ],
       "speed_mod": [ -2, -1 ],
-      "vomit_tick": [30],
+      "vomit_tick": [ 30 ],
       "vomit_chance": [ -55, -70 ]
     },
     "scaling_mods": {
@@ -123,31 +123,20 @@
       [ "Your hands sweat.", 10 ],
       [ "Tunnel vision.  \nYour field of view narrows.", 10 ]
     ],
-    "removes_effects": ["happy"],
+    "removes_effects": [ "happy" ],
     "rating": "bad",
     "max_intensity": 16,
     "resist_traits": [ "WILLPOWER" ],
-    "resist_effects": [ "resist_psychic_stress"],
+    "resist_effects": [ "resist_psychic_stress" ],
     "int_decay_tick": 300,
-    "base_mods": {
-      "dex_mod": [ 0 ],
-      "int_mod": [ 0 ],
-      "per_mod": [  -1, 0 ],
-      "fatigue_tick": [ 60, 120 ],
-      "fatigue_min": [ 1 ]
-    },
-    "scaling_mods": {
-      "dex_mod": [ -0.25, -0.125 ],
-      "int_mod": [ -0.5, -0.25 ],
-      "per_mod": [ -0.5, -0.25 ],
-      "fatigue_min": [ 1 ]
-    },
+    "base_mods": { "dex_mod": [ 0 ], "int_mod": [ 0 ], "per_mod": [ -1, 0 ], "fatigue_tick": [ 60, 120 ], "fatigue_min": [ 1 ] },
+    "scaling_mods": { "dex_mod": [ -0.25, -0.125 ], "int_mod": [ -0.5, -0.25 ], "per_mod": [ -0.5, -0.25 ], "fatigue_min": [ 1 ] },
     "show_in_info": true
   },
   {
     "type": "effect_type",
     "id": "psychic_feedback",
-    "name": [ "Psychic Feedback"],
+    "name": [ "Psychic Feedback" ],
     "desc": [ "Your body sympathetically reacts to a direct psychic assault." ],
     "show_in_info": true,
     "rating": "bad",
@@ -155,10 +144,7 @@
     "max_duration": "30 s",
     "resist_traits": [ "WILLPOWER" ],
     "resist_effects": [ "resist_psychic_feedback" ],
-    "base_mods": {
-      "hurt_chance": [ 10, 20 ],
-      "hurt_amount": [ 2 ]
-    }
+    "base_mods": { "hurt_chance": [ 10, 20 ], "hurt_amount": [ 2 ] }
   },
   {
     "type": "effect_type",
@@ -170,12 +156,9 @@
     "apply_memorial_log": "Went Insane.",
     "remove_memorial_log": "Recovered from Insanity.",
     "rating": "bad",
-    "resist_traits": [ "WILLPOWER", "FEARLESS"],
-    "block_effects": [ "block_psychic"],
-    "base_mods": {
-      "per_mod": [ -2, -1 ],
-      "int_mod": [ -1, -1 ]
-    },
+    "resist_traits": [ "WILLPOWER", "FEARLESS" ],
+    "block_effects": [ "block_psychic" ],
+    "base_mods": { "per_mod": [ -2, -1 ], "int_mod": [ -1, -1 ] },
     "show_in_info": true
   },
   {
@@ -249,10 +232,7 @@
     "max_intensity": 4,
     "int_add_val": 1,
     "int_decay_tick": 36000,
-    "base_mods": {
-      "int_mod": [ 2, 3 ],
-      "per_mod": [  2, 3 ]
-    }
+    "base_mods": { "int_mod": [ 2, 3 ], "per_mod": [ 2, 3 ] }
   },
   {
     "type": "effect_type",
@@ -268,9 +248,7 @@
     "max_intensity": 6,
     "int_add_val": 1,
     "int_decay_tick": 600,
-    "base_mods": {
-      "speed_mod": [ 25, 35 ]
-    }
+    "base_mods": { "speed_mod": [ 25, 35 ] }
   },
   {
     "type": "effect_type",
@@ -298,13 +276,7 @@
     "rating": "bad",
     "max_duration": "1 d",
     "show_in_info": true,
-    "base_mods": {
-      "int_mod": [ -4 ],
-      "per_mod": [ -4 ],
-      "speed_mod": [ -20 ],
-      "fatigue_tick": [ 300 ],
-      "fatigue_min": [ 1 ]
-    }
+    "base_mods": { "int_mod": [ -4 ], "per_mod": [ -4 ], "speed_mod": [ -20 ], "fatigue_tick": [ 300 ], "fatigue_min": [ 1 ] }
   },
   {
     "type": "effect_type",
@@ -316,15 +288,8 @@
     "max_duration": "1 d",
     "show_in_info": true,
     "max_intensity": 3,
-    "base_mods": {
-      "per_mod": [ 1 ],
-      "speed_mod": [ 5 ],
-      "fatigue_amount": [ -500 ]
-    },
-    "scaling_mods": {
-      "per_mod": [ 1 ],
-      "int_mod": [ 0.34 ]
-    }
+    "base_mods": { "per_mod": [ 1 ], "speed_mod": [ 5 ], "fatigue_amount": [ -500 ] },
+    "scaling_mods": { "per_mod": [ 1 ], "int_mod": [ 0.34 ] }
   },
   {
     "type": "effect_type",
@@ -375,8 +340,8 @@
   {
     "type": "effect_type",
     "id": "psychic_duelist",
-    "name": [ "Psychic Victory"],
-    "desc": [ "This person has defeated you in a psychic duel.  You cannot challenge them again for some time."],
+    "name": [ "Psychic Victory" ],
+    "desc": [ "This person has defeated you in a psychic duel.  You cannot challenge them again for some time." ],
     "max_duration": "180 d",
     "show_in_info": true,
     "rating": "good"
@@ -384,7 +349,7 @@
   {
     "type": "effect_type",
     "id": "psychic_shackles",
-    "name": [ "Psychic Shackles"],
+    "name": [ "Psychic Shackles" ],
     "desc": [ "You have been temporarily cut off from your psychic powers." ],
     "show_in_info": true,
     "max_duration": "90 d",
@@ -399,14 +364,12 @@
       "resist_psychic_stress"
     ],
     "apply_message": "Your mind is shackled!",
-    "base_mods": {
-      "per_mod": [ -1 ]
-    }
+    "base_mods": { "per_mod": [ -1 ] }
   },
   {
     "type": "effect_type",
     "id": "psychic_death",
-    "name": [ "Fatal Brain Trauma"],
+    "name": [ "Fatal Brain Trauma" ],
     "bp": "HEAD",
     "desc": [ "Runaway psychic feedback is frying the synapses in your brain.  You have only moments to live." ],
     "show_in_info": true,
@@ -415,7 +378,7 @@
     "apply_memorial_log": "Suffered a melted brain",
     "base_mods": {
       "int_mod": [ -10 ],
-      "per_mod": [  -100 ],
+      "per_mod": [ -100 ],
       "pain_tick": [ 1 ],
       "pain_min": [ 2 ],
       "hurt_chance": [ 1 ],

@@ -137,7 +137,10 @@
     "description": "Flashbang on user, blinding anyone nearby.",
     "valid_targets": [ "ally", "hostile", "ground", "self" ],
     "message": "\"Ave martello!\"  The hammer gives off a golden light, that rises to a blinding flare and resounding bang!",
-    "extra_effects": [ { "id": "arcana_item_hammerzeit_attack", "hit_self": false }, { "id": "arcana_item_hammerzeit_dazzle", "hit_self": false } ],
+    "extra_effects": [
+      { "id": "arcana_item_hammerzeit_attack", "hit_self": false },
+      { "id": "arcana_item_hammerzeit_dazzle", "hit_self": false }
+    ],
     "effect": "flashbang",
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "min_damage": 40,

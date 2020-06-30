@@ -2,11 +2,11 @@
   {
     "type": "scenario",
     "name": "Infected Large Building",
-	"description": "In the chaos and panic of evacuation, you got bitten by something!  You didn't get proper medical care, and now the wound has started turning green.",
-	"ident": "infected_large",
+    "description": "In the chaos and panic of evacuation, you got bitten by something!  You didn't get proper medical care, and now the wound has started turning green.",
+    "ident": "infected_large",
     "flags": [ "INFECTED", "SUR_START", "CITY_START", "LONE_START" ],
-	"points": -6,
-	"allowed_locs": [
+    "points": -6,
+    "allowed_locs": [
       "mall_a_12",
       "mall_a_30",
       "apartments_con_tower_114",
@@ -22,7 +22,7 @@
       "hospital_7",
       "hospital_8",
       "hospital_9",
-	  "megastore_1_0_0_s"
+      "megastore_1_0_0_s"
     ],
     "missions": [ "MISSION_INFECTED_START_FIND_ANTIBIOTICS" ],
     "start_name": "In Large Building"
@@ -30,7 +30,7 @@
   {
     "type": "scenario",
     "ident": "largebuilding",
-	"copy-from": "largebuilding",
-	"extend": { "allowed_locs": [ "megastore_1_0_0_s" ] }
+    "copy-from": "largebuilding",
+    "extend": { "allowed_locs": [ "megastore_1_0_0_s" ] }
   }
 ]

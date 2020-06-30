@@ -1,5 +1,5 @@
 [
- {
+  {
     "type": "GENERIC",
     "id": "gun_reciever_part",
     "symbol": "*",
@@ -13,9 +13,7 @@
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ]
   },
-  
- 
- {
+  {
     "type": "GENERIC",
     "id": "cylinder_revolver_part",
     "symbol": "*",
@@ -29,7 +27,6 @@
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ]
   },
-  
   {
     "type": "GENERIC",
     "id": "barrel_rifled_short",
@@ -46,7 +43,6 @@
     "price": 7500,
     "price_postapoc": 300
   },
-  
   {
     "type": "GENERIC",
     "id": "barrel_rifled_long",
@@ -63,13 +59,12 @@
     "price": 7500,
     "price_postapoc": 300
   },
-  
   {
     "type": "GENERIC",
-	"id": "trigger_handmade_gun",
+    "id": "trigger_handmade_gun",
     "name": "homemade trigger mechanism",
     "description": "A homemade trigger mechanism, used in crafting weaponry.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -77,13 +72,12 @@
     "symbol": ":",
     "color": "dark_gray"
   },
-  
   {
     "type": "GENERIC",
-	"id": "mechanism_homemade_automatic",
+    "id": "mechanism_homemade_automatic",
     "name": "automatic weapon parts",
     "description": "A homemade set of parts used in automatic and semi-automatic weapons.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -91,13 +85,12 @@
     "symbol": ":",
     "color": "dark_gray"
   },
-  
   {
     "type": "GENERIC",
-	"id": "mechanism_homemade_pump",
+    "id": "mechanism_homemade_pump",
     "name": "pump action mechanism",
     "description": "A homemade pump that can be used to chamber the next round in a shotgun, or rarely, a rifle.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -105,13 +98,12 @@
     "symbol": ":",
     "color": "dark_gray"
   },
-  
   {
     "type": "GENERIC",
-	"id": "mechanism_homemade_bolt",
+    "id": "mechanism_homemade_bolt",
     "name": "bolt action mechanism",
     "description": "A homemade bolt-action mechanism, used in sniper rifles.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -119,13 +111,12 @@
     "symbol": ":",
     "color": "dark_gray"
   },
-
   {
     "type": "GENERIC",
-	"id": "mechanism_homemade_lever",
+    "id": "mechanism_homemade_lever",
     "name": "lever action mechanism",
     "description": "A homemade mechanism, based around a liver, commonly used in old west shotguns and rifles.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -133,13 +124,12 @@
     "symbol": ":",
     "color": "dark_gray"
   },
- 
- {
+  {
     "type": "GENERIC",
-	"id": "mechanism_homemade_crank",
+    "id": "mechanism_homemade_crank",
     "name": "crank action mechanism",
     "description": "A homemade crank, as used in gatling guns.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -147,13 +137,12 @@
     "symbol": ":",
     "color": "dark_gray"
   },
-  
   {
     "type": "GENERIC",
-	"id": "homemade_gearbox",
+    "id": "homemade_gearbox",
     "name": "custom gearbox",
     "description": "A box full of gears and cogs, meant to be used with a crank action mechanism or similar clockwork weapon.",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 120,
     "volume": 1,
     "price": 1500,
@@ -161,23 +150,21 @@
     "symbol": ":",
     "color": "dark_gray"
   },
-  
   {
     "type": "GENERIC",
-	"id": "wooden_stock_handmade",
+    "id": "wooden_stock_handmade",
     "name": "handmade wooden stock",
     "description": "A wooden stock to a rifle or shotgun. Provides decent enough .",
-	"category": "spare_parts",
+    "category": "spare_parts",
     "weight": 960,
     "volume": 2,
     "price": 400,
     "to_hit": 1,
     "bashing": 6,
-    "material": [ "wood"],
+    "material": [ "wood" ],
     "symbol": ":",
     "color": "dark_gray"
   },
-  
   {
     "type": "GENERIC",
     "id": "wooden_grip_handmade",
@@ -191,13 +178,12 @@
     "symbol": ":",
     "color": "brown"
   },
-  
   {
     "id": "metal_box_large",
     "type": "GENERIC",
     "category": "spare_parts",
     "name": "metal box",
-	"pocket_data": [
+    "pocket_data": [
       {
         "ammo_restriction": {
           "32": 500,
@@ -213,15 +199,15 @@
           "22": 500,
           "223": 500,
           "5x50": 500,
-		  "545x39": 500,
-		  "3006": 500,
-		  "308": 500,
-		  "300": 500,
-		  "762": 500,
-		  "762R": 500,
-		  "8x40mm": 500,
-		  "shot": 500,
-		  "20x66mm": 500
+          "545x39": 500,
+          "3006": 500,
+          "308": 500,
+          "300": 500,
+          "762": 500,
+          "762R": 500,
+          "8x40mm": 500,
+          "shot": 500,
+          "20x66mm": 500
         },
         "moves": 20
       }
@@ -242,7 +228,7 @@
     "type": "GENERIC",
     "category": "spare_parts",
     "name": "small metal box",
-	"pocket_data": [
+    "pocket_data": [
       {
         "ammo_restriction": {
           "32": 50,
@@ -258,15 +244,15 @@
           "22": 50,
           "223": 50,
           "5x50": 50,
-		  "545x39": 50,
-		  "3006": 50,
-		  "308": 50,
-		  "300": 50,
-		  "762": 50,
-		  "762R": 50,
-		  "8x40mm": 50,
-		  "shot": 50,
-		  "20x66mm": 50
+          "545x39": 50,
+          "3006": 50,
+          "308": 50,
+          "300": 50,
+          "762": 50,
+          "762R": 50,
+          "8x40mm": 50,
+          "shot": 50,
+          "20x66mm": 50
         },
         "moves": 20
       }

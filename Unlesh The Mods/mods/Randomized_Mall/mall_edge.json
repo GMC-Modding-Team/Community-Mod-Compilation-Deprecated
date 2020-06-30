@@ -6,7 +6,7 @@
     "method": "json",
     "object": {
       "fill_ter": "t_thconc_floor",
-       "rows": [
+      "rows": [
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
@@ -34,8 +34,8 @@
       ],
       "rotation": 0,
       "palettes": [ "mall_base", "mall_linoleum_gray", "mall_food", "mall_with_bathroom" ],
-      "furniture":{ "Y": "f_counter" },
-      "terrain":{
+      "furniture": { "Y": "f_counter" },
+      "terrain": {
         "Y": "t_floor",
         ",": "t_thconc_floor",
         "t": "t_thconc_floor",
@@ -52,7 +52,7 @@
     "method": "json",
     "object": {
       "fill_ter": "t_thconc_floor",
-       "rows": [
+      "rows": [
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
@@ -79,12 +79,11 @@
         "-----------++-----------"
       ],
       "rotation": 0,
-      "palettes": ["mall_base", "mall_with_bathroom" ],
-      "furniture": {",": "f_tatami"},
-      "terrain": {"S": "t_linoleum_white"}
+      "palettes": [ "mall_base", "mall_with_bathroom" ],
+      "furniture": { ",": "f_tatami" },
+      "terrain": { "S": "t_linoleum_white" }
     }
   },
-
   {
     "type": "mapgen",
     "om_terrain": "mall_edge",
@@ -92,7 +91,7 @@
     "method": "json",
     "object": {
       "fill_ter": "t_thconc_floor",
-       "rows": [
+      "rows": [
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
@@ -119,9 +118,9 @@
         "-----------..-----------"
       ],
       "rotation": 0,
-      "palettes": ["mall_base", "mall_office" ],
-      "terrain":{ "%": "t_atm" },
-      "vendingmachines": { 
+      "palettes": [ "mall_base", "mall_office" ],
+      "terrain": { "%": "t_atm" },
+      "vendingmachines": {
         "V": { "item_group": "vending_drink", "amount": [ 5, 10 ] },
         "v": { "item_group": "vending_food", "amount": [ 2, 10 ] }
       }
@@ -134,7 +133,7 @@
     "method": "json",
     "object": {
       "fill_ter": "t_thconc_floor",
-       "rows": [
+      "rows": [
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
@@ -161,18 +160,10 @@
         "-----------++-----------"
       ],
       "rotation": 0,
-      "palettes": ["mall_base", "mall_carpet_wild", "mall_with_bathroom" ],
-      "furniture":{
-        "Y": "f_arcade_machine",
-        "Z": "f_pinball_machine"
-      },
-      "terrain":{
-        "Y": "t_carpet_red",
-        "Z": "t_carpet_yellow"
-      },
-      "items": {
-        "x": { "item": "arcade_prizes", "chance": 80, "amount": [ 5, 10 ] }
-      }
+      "palettes": [ "mall_base", "mall_carpet_wild", "mall_with_bathroom" ],
+      "furniture": { "Y": "f_arcade_machine", "Z": "f_pinball_machine" },
+      "terrain": { "Y": "t_carpet_red", "Z": "t_carpet_yellow" },
+      "items": { "x": { "item": "arcade_prizes", "chance": 80, "amount": [ 5, 10 ] } }
     }
   },
   {
@@ -182,7 +173,7 @@
     "method": "json",
     "object": {
       "fill_ter": "t_thconc_floor",
-       "rows": [
+      "rows": [
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
@@ -209,9 +200,9 @@
         "-----------++-----------"
       ],
       "rotation": 0,
-      "palettes": [  "mall_base", "mall_wood", "mall_food" , "mall_with_bathroom" ],
-      "furniture":{ "Y": "f_counter" },
-      "terrain":{
+      "palettes": [ "mall_base", "mall_wood", "mall_food", "mall_with_bathroom" ],
+      "furniture": { "Y": "f_counter" },
+      "terrain": {
         ",": "t_thconc_floor",
         "Y": "t_thconc_floor",
         "o": "t_thconc_floor",
@@ -228,7 +219,7 @@
     "method": "json",
     "object": {
       "fill_ter": "t_thconc_floor",
-       "rows": [
+      "rows": [
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
         "PPPPPPPPPPPPPPPPPPPPPPPP",
@@ -255,11 +246,8 @@
         "-----------++-----------"
       ],
       "rotation": 0,
-      "palettes": ["mall_base", "mall_office"],
-      "terrain":{
-        "*": "t_door_metal_locked",
-        "%": "t_gates_mech_control"
-      },
+      "palettes": [ "mall_base", "mall_office" ],
+      "terrain": { "*": "t_door_metal_locked", "%": "t_gates_mech_control" },
       "vehicles": { "v": { "vehicle": "forklift", "chance": 80, "status": 0 } }
     }
   }

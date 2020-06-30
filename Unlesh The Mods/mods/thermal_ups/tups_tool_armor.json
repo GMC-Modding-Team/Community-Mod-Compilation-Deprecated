@@ -1,5 +1,5 @@
 [
-      {
+  {
     "id": "thermal_suit_ups",
     "type": "TOOL_ARMOR",
     "category": "clothing",
@@ -12,19 +12,14 @@
     "material": [ "cotton" ],
     "weight": "864 g",
     "volume": "2 L",
-    "use_action": {
-      "type": "transform",
-      "msg": "You activate your %s.",
-      "target": "thermal_suit_ups_on",
-      "active": true
-    },
+    "use_action": { "type": "transform", "msg": "You activate your %s.", "target": "thermal_suit_ups_on", "active": true },
     "covers": [ "TORSO", "ARMS", "LEGS" ],
     "warmth": 10,
     "coverage": 100,
     "material_thickness": 1
   },
-   {
-	"id": "thermal_suit_ups_on",
+  {
+    "id": "thermal_suit_ups_on",
     "copy-from": "thermal_suit_ups",
     "type": "TOOL_ARMOR",
     "name": "thermal electric suit (UPS) (on)",
@@ -36,7 +31,7 @@
     "warmth": 100,
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "Your %s deactivates.", "target": "thermal_suit_ups" }
   },
-    {
+  {
     "id": "thermal_outfit_ups",
     "type": "TOOL_ARMOR",
     "category": "clothing",
@@ -50,12 +45,7 @@
     "material": [ "cotton" ],
     "weight": "1452 g",
     "volume": "4500 ml",
-    "use_action": {
-      "type": "transform",
-      "msg": "You activate your %s.",
-      "target": "thermal_outfit_ups_on",
-      "active": true
-    },
+    "use_action": { "type": "transform", "msg": "You activate your %s.", "target": "thermal_outfit_ups_on", "active": true },
     "covers": [ "HEAD", "MOUTH", "TORSO", "ARMS", "LEGS", "HANDS", "FEET" ],
     "warmth": 10,
     "coverage": 100,
