@@ -21,7 +21,8 @@
       "not_ready_msg": "Spawning is not yet complete."
     },
     "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
-  },{
+  },
+  {
     "id": "bio_nanite_spawned",
     "type": "TOOL",
     "category": "spare_parts",
@@ -35,7 +36,8 @@
     "symbol": ",",
     "color": "brown",
     "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
-  },{
+  },
+  {
     "id": "nanite_cluster",
     "type": "AMMO",
     "symbol": ";",
@@ -46,20 +48,21 @@
     "looks_like": "slime_scrap",
     "price": 12000,
     "material": "nanite",
-    "ammo_type" : "nanite",
-    "damage" : 0,
-    "pierce" : 0,
-    "range" : 0,
-    "dispersion" : 0,
-    "recoil" : 0,
+    "ammo_type": "nanite",
+    "damage": 0,
+    "pierce": 0,
+    "range": 0,
+    "dispersion": 0,
+    "recoil": 0,
     "loudness": 0,
-    "count" : 100,
-    "stack_size" : 100,
+    "count": 100,
+    "stack_size": 100,
     "weight": 1,
     "volume": "100ml",
-    "effects" : ["NEVER_MISFIRES"],
+    "effects": [ "NEVER_MISFIRES" ],
     "flags": [ "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "bio_nanites",
     "type": "AMMO",
     "symbol": ";",
@@ -70,18 +73,18 @@
     "looks_like": "slime_scrap",
     "price": 12000,
     "material": "nanite",
-    "ammo_type" : "nanite",
-    "damage" : 0,
-    "pierce" : 0,
-    "range" : 0,
-    "dispersion" : 0,
-    "recoil" : 0,
+    "ammo_type": "nanite",
+    "damage": 0,
+    "pierce": 0,
+    "range": 0,
+    "dispersion": 0,
+    "recoil": 0,
     "loudness": 0,
-    "count" : 100,
-    "stack_size" : 100,
+    "count": 100,
+    "stack_size": 100,
     "weight": 1,
     "volume": "100ml",
-    "effects" : ["NOGIB", "NEVER_MISFIRES"],
+    "effects": [ "NOGIB", "NEVER_MISFIRES" ],
     "flags": [ "TRADER_AVOID" ]
   }
 ]
