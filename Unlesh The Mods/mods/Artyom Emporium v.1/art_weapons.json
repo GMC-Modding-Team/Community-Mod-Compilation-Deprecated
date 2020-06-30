@@ -8,7 +8,7 @@
     "name_plural": "Browning Hi-Power",
     "description": "A old but still relatively powerful and reliable semi-auto pistol from Belgium. Rechambered to fire the ever so powerful 10mm round.",
     "price": 69000,
-    "material": ["wood", "steel"],
+    "material": [ "wood", "steel" ],
     "skill": "pistol",
     "ammo": "40",
     "weight": 900,
@@ -17,15 +17,23 @@
     "to_hit": -2,
     "dispersion": 180,
     "sight_dispersion": 70,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 95,
     "durability": 8,
     "reload": 120,
-	"loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	"magazines": [
-      [ "40", [ "40sawmag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "40", [ "40sawmag" ] ] ]
   },
   {
     "id": "r51",
@@ -36,7 +44,7 @@
     "name_plural": "Remington R51-Subcompact",
     "description": "A subcompact pistol made by Remington. Features a extremely light build and easy trigger pull. The perfect drop weapon.",
     "price": 69000,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 450,
@@ -45,15 +53,23 @@
     "to_hit": 1,
     "dispersion": 280,
     "sight_dispersion": 70,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 105,
     "durability": 8,
     "reload": 90,
-	"loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	"magazines": [
-      [ "9mm", [ "9r51"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "9r51" ] ] ]
   },
   {
     "id": "browning_hp_uk",
@@ -64,7 +80,7 @@
     "name_plural": "Rebel",
     "description": "A modified Browning HP pistol showing a lot of wear-n-tear. But don't let that fool you, the weapon is accurate, powerful, and near silent thanks to it's unique sound suppressor. The weapon has the phrase Fight the Power! scratched in by a knife on the right side of the slide. It was most likely made during the first few riots in the beginning of the Cataclysm.",
     "price": 69000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "40",
     "weight": 900,
@@ -73,17 +89,25 @@
     "to_hit": -2,
     "dispersion": 150,
     "sight_dispersion": 60,
-	"ranged_damage": { "damage_type": "stab", "amount": 8 },
-    "aim_speed" : 5,
+    "ranged_damage": { "damage_type": "stab", "amount": 8 },
+    "aim_speed": 5,
     "recoil": 75,
     "durability": 10,
     "reload": 120,
-	"loudness" : 50,
-	"built_in_mods": ["rebel_sup"],
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	"magazines": [
-      [ "40", [ "40sawmag"] ]
-    ]
+    "loudness": 50,
+    "built_in_mods": [ "rebel_sup" ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "40", [ "40sawmag" ] ] ]
   },
   {
     "id": "px4_stormsub",
@@ -94,7 +118,7 @@
     "name_plural": "Beretta Px4 Storm Subcompact",
     "description": "A small, compact pistol made by Beretta. Light and agile, its use is more than just a pistol; it's a life saver.",
     "price": 49000,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 740,
@@ -103,15 +127,23 @@
     "to_hit": 1,
     "dispersion": 195,
     "sight_dispersion": 65,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 115,
     "durability": 7,
     "reload": 100,
-	"loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-  	"magazines": [
-      [ "9mm", [ "9x4", "m9mag", "m9bigmag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "9x4", "m9mag", "m9bigmag" ] ] ]
   },
   {
     "id": "sig_p224",
@@ -122,7 +154,7 @@
     "name_plural": "SIG P224",
     "description": "A very small, pocket pistol made by Sig Sauer for when you need to put a gun in your back pocket just in case. The perfect weapon to put it on the temple of a zombie and blow it's brains all over the wall. Great fun!",
     "price": 49500,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "skill": "pistol",
     "ammo": "40",
     "weight": 720,
@@ -131,15 +163,23 @@
     "to_hit": 1,
     "dispersion": 190,
     "sight_dispersion": 60,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 105,
     "durability": 6,
     "reload": 100,
-	"loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-    "magazines": [
-      [ "40", [ "40sawmag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "40", [ "40sawmag" ] ] ]
   },
   {
     "id": "sig_p220",
@@ -150,7 +190,7 @@
     "name_plural": "SIG P220",
     "description": "The first pistol made by Sig Sauer, quoted to be the most accurate pistol right out of the box. Well it does say that, and it sure does show.",
     "price": 87400,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 1005,
@@ -160,15 +200,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": 195,
     "sight_dispersion": 75,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 140,
     "durability": 8,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines": [
-      [ "45", [ "p220mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "45", [ "p220mag" ] ] ]
   },
   {
     "id": "sig_p227",
@@ -179,7 +229,7 @@
     "name_plural": "SIG P227",
     "description": "A slim, .45 ACP pistol made by SIG. Exceptional and robust, the P227 might just be the perfect .45",
     "price": 87400,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 1205,
@@ -189,15 +239,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 4 },
     "dispersion": 155,
     "sight_dispersion": 85,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 155,
     "durability": 8,
     "reload": 120,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines": [
-      [ "45", [ "p227mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "45", [ "p227mag" ] ] ]
   },
   {
     "id": "sig_p220stb",
@@ -208,7 +268,7 @@
     "name_plural": "SIG P220 Scorpion",
     "description": "A special edition of the SIG P220, custom grips, custom finish, custom everything. All in a nice desert paint job. Even comes with a threaded barrel!",
     "price": 19400,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 975,
@@ -218,15 +278,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 8 },
     "dispersion": 135,
     "sight_dispersion": 70,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 125,
     "durability": 9,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines": [
-      [ "45", [ "p220mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "45", [ "p220mag" ] ] ]
   },
   {
     "id": "sig_p226",
@@ -237,7 +307,7 @@
     "name_plural": "SIG P226",
     "description": "A modern semi-automatic handgun that fires 9x19mm. It's used by police forces all around the world. Though it didn't help them when the cataclysm struck... But hey, they were probably all stupid. You're not stupid, are you?",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 950,
@@ -248,15 +318,24 @@
     "range": 1,
     "dispersion": 150,
     "sight_dispersion": 80,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 65,
     "durability": 7,
     "reload": 125,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	    "magazines": [
-      [ "9mm", [ "p226mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "p226mag" ] ] ]
   },
   {
     "id": "fn_fnp",
@@ -267,7 +346,7 @@
     "name_plural": "FN FNP-9",
     "description": "A modern semi-automatic handgun that fires 9x19mm. Made by the guys who created the FN Five-Seven. This underestimated little pistol packs one hell of a punch. This being from Belgium; I'm not surprised it's good in a bar fight.",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 700,
@@ -278,15 +357,24 @@
     "range": 2,
     "dispersion": 150,
     "sight_dispersion": 70,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 95,
     "durability": 7,
     "reload": 105,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-		    "magazines": [
-      [ "9mm", [ "fnfnp9mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "fnfnp9mag" ] ] ]
   },
   {
     "id": "fn_fnx",
@@ -297,7 +385,7 @@
     "name_plural": "FN FNX-9",
     "description": "A modern semi-automatic handgun that fires 9x19mm. Made by the guys who created the FN Five-Seven. This underestimated little pistol packs one hell of a punch. This being from Belgium; I'm not surprised it's good in a bar fight. And this one has an X in the title so you just know it's supper edgy!",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 621,
@@ -308,15 +396,24 @@
     "range": 3,
     "dispersion": 115,
     "sight_dispersion": 60,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 55,
     "durability": 8,
     "reload": 115,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-     "magazines": [
-      [ "9mm", [ "fnfnp9mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "fnfnp9mag" ] ] ]
   },
   {
     "id": "swiss_p210",
@@ -327,7 +424,7 @@
     "name_plural": "Swiss P210",
     "description": "A old, but very reliable side arm made by the soon-to-be SIG. Robust, accurate, and extremely rare. This pistol sure got some fire to it. Hopefully these zombies don't put out that fire huh?",
     "price": 165000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 970,
@@ -338,15 +435,24 @@
     "range": 6,
     "dispersion": 160,
     "sight_dispersion": 65,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 75,
     "durability": 8,
     "reload": 135,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-    "magazines": [
-      [ "9mm", [ "p226mag"] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "p226mag" ] ] ]
   },
   {
     "id": "m1911a1",
@@ -357,7 +463,7 @@
     "name_plural": "M1911A1",
     "description": "The M1911A1 was the updated version of the 1911 from 1924. This is the version of the pistol that ran through WWII to Desert Storm, and is still in use today.",
     "price": 87400,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 1105,
@@ -367,16 +473,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 7 },
     "dispersion": 175,
     "sight_dispersion": 75,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 130,
     "durability": 9,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "45", [ "m1911mag", "m1911bigmag" ] ],
-	  [ ".460", [ "460mag", "460mag2" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag" ] ], [ ".460", [ "460mag", "460mag2" ] ] ]
   },
   {
     "id": "t17",
@@ -387,8 +502,8 @@
     "name_plural": "Shanxi Type 17",
     "description": "A .45 ACP version of the Mauser C96 produced in China. Features a short action and plenty of firepower. You should know this gun from Metal Gear Solid 3. If you don't... What is wrong with you?!",
     "price": 84400,
-    "flags": ["MODE_BURST"],
-    "material": ["steel", "wood"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 1705,
@@ -398,16 +513,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 6 },
     "dispersion": 245,
     "sight_dispersion": 85,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 100,
     "durability": 9,
     "reload": 170,
-    "loudness" : 150,
-	"burst": 3,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-		"magazines" : [
-      [ "45", ["stripperclip_45"] ]
-	  ]
+    "loudness": 150,
+    "burst": 3,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "45", [ "stripperclip_45" ] ] ]
   },
   {
     "id": "red9",
@@ -418,7 +543,7 @@
     "name_plural": "M19116 Prussian Red 9",
     "description": "The 9mm variant of the Mauser C96. Over 150,000 were made to outpace the Luger. A large number 9 is burned into the broomhandle in red, a distinct look. ",
     "price": 84400,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 1705,
@@ -428,15 +553,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "dispersion": 205,
     "sight_dispersion": 75,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 50,
     "durability": 9,
     "reload": 165,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "9mm", ["stripperclip_9"] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "stripperclip_9" ] ] ]
   },
   {
     "id": "p08-9",
@@ -447,7 +582,7 @@
     "name_plural": "Luger PO8",
     "description": "The Luger PO8 is a semi-automatic 9mm shooting handgun used by the German Empire and by Nazis around the globe. Accurate and with easily available ammo makes this gun a survivor's best friend.",
     "price": 84400,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 1005,
@@ -457,15 +592,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 3 },
     "dispersion": 175,
     "sight_dispersion": 65,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 45,
     "durability": 6,
     "reload": 110,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-		"magazines" : [
-      [ "9mm", ["p08_9mag"] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "p08_9mag" ] ] ]
   },
   {
     "id": "p08-45",
@@ -476,7 +621,7 @@
     "name_plural": "Luger PO8",
     "description": "The Luger PO8 is a semi-automatic 9mm shooting handgun used by the German Empire and by Nazis around the globe. Actually, this one is in .45...",
     "price": 84400,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 1095,
@@ -486,15 +631,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 6 },
     "dispersion": 225,
     "sight_dispersion": 85,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 175,
     "durability": 6,
     "reload": 110,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "45", ["p08_45mag"] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "45", [ "p08_45mag" ] ] ]
   },
   {
     "id": "cz_52",
@@ -504,8 +659,9 @@
     "name": "CZ 52",
     "name_plural": "CZ 52",
     "description": "The Czechoslovakian military pistol in 1952 gained great popularity when it first rolled off the production line. Supporting great accuracy and bullet penetration thanks to the 7.62x25 round that it was chambered in. Not the most reliable though.",
-    "price": 120000, "//" : "And it's therefore expensive.",
-    "material": ["steel", "wood"],
+    "price": 120000,
+    "//": "And it's therefore expensive.",
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "762x25",
     "weight": 888,
@@ -514,15 +670,23 @@
     "to_hit": 1,
     "dispersion": 170,
     "sight_dispersion": 90,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 80,
     "durability": 5,
     "reload": 150,
-    "loudness" : 180,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	"magazines" : [
-      [ "762x25", ["cz52magazine"] ]
-	  ]
+    "loudness": 180,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "762x25", [ "cz52magazine" ] ] ]
   },
   {
     "id": "cz_75",
@@ -533,7 +697,7 @@
     "name_plural": "CZ 75",
     "description": "A Czechoslovakian semi-auto military pistol introduced in 1975 and became one of the original 'wonder nines', fairly accurate and with a common ammo type. Makes this weapon a good addition to any gun nut's arsenal.",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 950,
@@ -544,15 +708,24 @@
     "range": 1,
     "dispersion": 200,
     "sight_dispersion": 80,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 65,
     "durability": 7,
     "reload": 125,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	"magazines" : [
-      [ "9mm", ["cz75magazine"] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "cz75magazine" ] ] ]
   },
   {
     "id": "jericho_941",
@@ -563,7 +736,7 @@
     "name_plural": "IWI Jericho 941",
     "description": "A Israeli defence weapon marketed in the US and parts of the UK as the Baby Eagle. It's not a desert eagle by any means. But kinda looks like it.",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 1050,
@@ -574,15 +747,24 @@
     "range": 2,
     "dispersion": 190,
     "sight_dispersion": 80,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 125,
     "durability": 5,
     "reload": 145,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-    "magazines" : [
-      [ "9mm", ["jerichomagazine"] ]
-  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "jerichomagazine" ] ] ]
   },
   {
     "id": "automag",
@@ -593,7 +775,7 @@
     "name_plural": "Automag",
     "description": "A not-so-beloved .44 caliber semi-auto pistol. Known for it breaking and exploding in the users hand instead of being an actual gun. Still packs a punch though... When it works.",
     "price": 87500,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "44",
     "weight": 1766,
@@ -603,15 +785,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 12 },
     "dispersion": 335,
     "sight_dispersion": 90,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 70,
     "durability": 2,
     "reload": 100,
-    "loudness" : 240,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "44", ["badgunmagazine"] ]
-  ]
+    "loudness": 240,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "44", [ "badgunmagazine" ] ] ]
   },
   {
     "id": "cz_83",
@@ -622,7 +814,7 @@
     "name_plural": "CZ 83",
     "description": "A Czechoslovakian semi-auto civilian pistol introduced in 1983 to replace the CZ 52. Very accurate and reliable thanks to its chrome plated barrel and well built frame.",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 975,
@@ -633,15 +825,24 @@
     "range": 2,
     "dispersion": 175,
     "sight_dispersion": 60,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 120,
     "durability": 8,
     "reload": 125,
-    "loudness" : 100,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	"magazines" : [
-      [ "9mm", ["cz83magazine"] ]
-  ]
+    "loudness": 100,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "cz83magazine" ] ] ]
   },
   {
     "id": "fort12",
@@ -652,7 +853,7 @@
     "name_plural": "Fort 12",
     "description": "A Ukrainian designed and produced pistol firing the ever so popular 9x18mm round. Small for its use as a police pistol, the Fort 12 boasts great Ukrainian reliability and good accuracy for stalken your STALKER.",
     "price": 65000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "pistol",
     "ammo": "9x18",
     "weight": 875,
@@ -663,15 +864,24 @@
     "range": 3,
     "dispersion": 165,
     "sight_dispersion": 60,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 10,
     "durability": 8,
     "reload": 155,
-    "loudness" : 100,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-    "magazines" : [
-      [ "9x18", ["fort12magazine"] ]
-  ]
+    "loudness": 100,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9x18", [ "fort12magazine" ] ] ]
   },
   {
     "id": "glock_34",
@@ -682,7 +892,7 @@
     "name_plural": "Glock 34",
     "description": "Competition version of the Glock 19. Much more accurate and slightly lighter thinks to its weird muzzle drifting system to negate muzzle rise while also decreasing weight in the front end of the gun. An amazing pistol; but sadly not many upgrades available.",
     "price": 169000,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 585,
@@ -691,15 +901,13 @@
     "to_hit": -1,
     "dispersion": 120,
     "sight_dispersion": 60,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 120,
     "durability": 6,
     "reload": 100,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines": [
-      [ "9mm", [ "glockmag", "glockbigmag" ] ]
-	  ]
+    "loudness": 175,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "magazines": [ [ "9mm", [ "glockmag", "glockbigmag" ] ] ]
   },
   {
     "id": "g18",
@@ -710,8 +918,8 @@
     "name_plural": "Glock 18",
     "description": "A fully automatic variant of the Glock 17. The Glock 18 features are exactly the same compared to the Glock 17.",
     "price": 320000,
-    "material": ["plastic", "ceramic"],
-    "flags": ["MODE_BURST"],
+    "material": [ "plastic", "ceramic" ],
+    "flags": [ "MODE_BURST" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 595,
@@ -720,16 +928,24 @@
     "to_hit": -2,
     "dispersion": 170,
     "sight_dispersion": 80,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 120,
     "durability": 9,
     "burst": 5,
     "reload": 150,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "mechanism", 4 ],["conversion", 1 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines": [
-      [ "9mm", [ "glockmag", "glockbigmag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "mechanism", 4 ],
+      [ "conversion", 1 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "glockmag", "glockbigmag" ] ] ]
   },
   {
     "id": "g18c",
@@ -740,8 +956,8 @@
     "name_plural": "Glock 18c",
     "description": "The Glock 18c is a compensated variant of the Glock 18. The compensation allows for better control of recoil.",
     "price": 370000,
-    "material": ["plastic", "ceramic"],
-    "flags": ["MODE_BURST"],
+    "material": [ "plastic", "ceramic" ],
+    "flags": [ "MODE_BURST" ],
     "skill": "pistol",
     "ammo": "9mm",
     "weight": 595,
@@ -750,16 +966,24 @@
     "to_hit": -2,
     "dispersion": 150,
     "sight_dispersion": 80,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 80,
     "durability": 9,
     "burst": 5,
     "reload": 50,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "mechanism", 4 ],["conversion", 1 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines": [
-      [ "9mm", [ "glockmag", "glockbigmag" ] ]
-  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "mechanism", 4 ],
+      [ "conversion", 1 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "glockmag", "glockbigmag" ] ] ]
   },
   {
     "id": "tec22_b",
@@ -781,16 +1005,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 240,
     "sight_dispersion": 105,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 120,
     "durability": 5,
     "burst": 20,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines": [
-      [ "22", [ "tec_22magazine", "tec22drummag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "22", [ "tec_22magazine", "tec22drummag" ] ] ]
   },
   {
     "id": "bizon",
@@ -800,7 +1034,8 @@
     "name": "Bizon",
     "name_plural": "Bizon",
     "description": "A Russian grade military SMG with a unique large capacity magazine. Used by Russian special forces for CQB and tight environments. The Bizon is accurate, and has excellent armour piercing capabilities.",
-    "price": 163000, "//" : "SMGs aren't as commercially traded as rifles/handguns/SGs, so no cite for price points.",
+    "price": 163000,
+    "//": "SMGs aren't as commercially traded as rifles/handguns/SGs, so no cite for price points.",
     "material": "steel",
     "flags": "MODE_BURST",
     "skill": "smg",
@@ -812,16 +1047,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 180,
     "sight_dispersion": 105,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 10,
     "durability": 8,
     "burst": 6,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines": [
-      [ "9x18", [ "bizondrummag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9x18", [ "bizondrummag" ] ] ]
   },
   {
     "id": "bm32",
@@ -832,7 +1077,7 @@
     "name_plural": "Beretta Model 38",
     "description": "Widely acknowledged as the best weapon to come out of Italy during WWII, its simple design and ability to fire German 9mm ammo made it very easy to produce.",
     "price": 490000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "MODE_BURST",
     "skill": "smg",
     "ammo": "9mm",
@@ -842,17 +1087,27 @@
     "to_hit": -3,
     "dispersion": 125,
     "sight_dispersion": 90,
-	"ranged_damage": { "damage_type": "stab", "amount": 1 },
-    "aim_speed" : 4,
+    "ranged_damage": { "damage_type": "stab", "amount": 1 },
+    "aim_speed": 4,
     "recoil": 25,
     "durability": 7,
     "burst": 5,
     "reload": 100,
-    "loudness" : 120,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-        [ "9mm", [ "stenmag", "survivor9mm_mag" ] ]
-    ]
+    "loudness": 120,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "stenmag", "survivor9mm_mag" ] ] ]
   },
   {
     "id": "bm32/38",
@@ -863,7 +1118,7 @@
     "name_plural": "Beretta Model 32/38",
     "description": "Widely acknowledged as the best weapon to come out of Italy during WWII, its simple design and ability to fire German 9mm ammo made it very easy to produce. The 32/38 is the updated version of the 38.",
     "price": 490000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "MODE_BURST",
     "skill": "smg",
     "ammo": "9mm",
@@ -873,17 +1128,27 @@
     "to_hit": -3,
     "dispersion": 115,
     "sight_dispersion": 85,
-	"ranged_damage": { "damage_type": "stab", "amount": 2 },
-    "aim_speed" : 4,
+    "ranged_damage": { "damage_type": "stab", "amount": 2 },
+    "aim_speed": 4,
     "recoil": 20,
     "durability": 7,
     "burst": 5,
     "reload": 100,
-    "loudness" : 120,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-        [ "9mm", [ "stenmag", "survivor9mm_mag" ] ]
-    ]
+    "loudness": 120,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "stenmag", "survivor9mm_mag" ] ] ]
   },
   {
     "id": "scrop_evo",
@@ -894,7 +1159,7 @@
     "name_plural": "Scorpion Evo 3 S1",
     "description": "The latest in line for the Scorpion sub-machine guns started by the Skorpion vz 61, its large amount of rails and ability to be modified is one of the reasons this is a good SMG, the other? It looks fucking cool that's why.",
     "price": 490000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "smg",
     "ammo": "9mm",
@@ -904,17 +1169,27 @@
     "to_hit": -1,
     "dispersion": 135,
     "sight_dispersion": 70,
-	"ranged_damage": { "damage_type": "stab", "amount": -1 },
-    "aim_speed" : 4,
+    "ranged_damage": { "damage_type": "stab", "amount": -1 },
+    "aim_speed": 4,
     "recoil": 100,
     "durability": 8,
     "burst": 4,
     "reload": 140,
-    "loudness" : 135,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "9mm", [ "mp5mag", "mp5bigmag" ] ]
-    ]
+    "loudness": 135,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "mp5mag", "mp5bigmag" ] ] ]
   },
   {
     "id": "homebrew_smg",
@@ -925,7 +1200,7 @@
     "name_plural": "Homemade SMG",
     "description": "A homemade sub machine gun clearly made in someone's garage with clearly some knowledge in gun designs. While not very accurate, and has high recoil. It fires a powerful round... 5.56",
     "price": 490000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "MODE_BURST",
     "skill": "smg",
     "ammo": "223",
@@ -935,17 +1210,27 @@
     "to_hit": -3,
     "dispersion": 265,
     "sight_dispersion": 80,
-	"ranged_damage": { "damage_type": "stab", "amount": 5 },
-    "aim_speed" : 3,
+    "ranged_damage": { "damage_type": "stab", "amount": 5 },
+    "aim_speed": 3,
     "recoil": 65,
     "durability": 5,
     "burst": 7,
     "reload": 100,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "ppsh_clone",
@@ -956,7 +1241,7 @@
     "name_plural": "KP m/44",
     "description": "A Finish made clone of the very popular PPSh-43, while it does have some of the same design, it still wasn't as good as the original.",
     "price": 280000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "MODE_BURST",
     "skill": "smg",
     "ammo": "9mm",
@@ -967,16 +1252,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 130,
     "sight_dispersion": 95,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 15,
     "durability": 7,
     "burst": 6,
     "reload": 120,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "9mm", [ "ppsh_43magazine" ] ]
-    ]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "ppsh_43magazine" ] ] ]
   },
   {
     "id": "akm",
@@ -986,9 +1281,10 @@
     "name": "AK-47",
     "name_plural": "AK-47",
     "description": "The Ak-47 is, by all accounts, an amazing rifle. It's power and robustness can only be topped by some of the most modern guns offered today. It's accuracy isn't great but it's still an amazing firearm.",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "762",
     "weight": 4000,
@@ -997,16 +1293,26 @@
     "to_hit": -1,
     "dispersion": 150,
     "sight_dispersion": 65,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 60,
     "durability": 9,
     "burst": 7,
     "reload": 105,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines": [
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
   {
     "id": "ak101",
@@ -1016,9 +1322,10 @@
     "name": "AK-101",
     "name_plural": "AK-101",
     "description": "A AK designed to fire 556 NATO. One of the many AK-blanks that are coming out. Good accuracy though.",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3800,
@@ -1027,16 +1334,26 @@
     "to_hit": -1,
     "dispersion": 75,
     "sight_dispersion": 55,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 5,
     "durability": 9,
     "burst": 6,
     "reload": 125,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "223", [ "stanarg30", "stanarg10", "stanarg50", "survivor223mag" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanarg30", "stanarg10", "stanarg50", "survivor223mag" ] ] ]
   },
   {
     "id": "ak102",
@@ -1046,9 +1363,10 @@
     "name": "AK-102",
     "name_plural": "AK-102",
     "description": "An AK designed to fire 556 NATO. One of the many AK-blanks that are coming out. Good accuracy though. Lighter and less volume than the AK-101",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3600,
@@ -1057,16 +1375,26 @@
     "to_hit": -1,
     "dispersion": 75,
     "sight_dispersion": 55,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 15,
     "durability": 9,
     "burst": 8,
     "reload": 105,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "223", [ "stanarg30", "stanarg10", "stanarg50", "survivor223mag" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanarg30", "stanarg10", "stanarg50", "survivor223mag" ] ] ]
   },
   {
     "id": "ak104",
@@ -1076,9 +1404,10 @@
     "name": "AK-104",
     "name_plural": "AK-104",
     "description": "A plastic version of the beloved AKM, still performs the same though. The AK-104 is the shortened version of the AK-103",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "762",
     "weight": 3600,
@@ -1087,16 +1416,26 @@
     "to_hit": -1,
     "dispersion": 75,
     "sight_dispersion": 65,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 25,
     "durability": 9,
     "burst": 8,
     "reload": 120,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines": [
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
   {
     "id": "aks74",
@@ -1106,9 +1445,10 @@
     "name": "AKS-74",
     "name_plural": "AKS-74",
     "description": "The paratrooper version of the AK-74, used by special Russian forces and stalkers around the zone. Comes with a collapse-able stock",
-    "price": 390000, "//" : "AKs likewise aren't commercially traded in the US, plus this is newer.",
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 390000,
+    "//": "AKs likewise aren't commercially traded in the US, plus this is newer.",
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "545x39",
     "weight": 3250,
@@ -1117,17 +1457,27 @@
     "to_hit": 1,
     "dispersion": 50,
     "sight_dispersion": 65,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 15,
     "durability": 7,
     "burst": 10,
     "reload": 165,
     "loudness": 140,
-    "built_in_mods" : ["folding_stock"],
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "545x39", [ "ak74mag", "rpk74mag" ] ]
-    ]
+    "built_in_mods": [ "folding_stock" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "545x39", [ "ak74mag", "rpk74mag" ] ] ]
   },
   {
     "id": "aks74u",
@@ -1137,9 +1487,10 @@
     "name": "AKS-74u",
     "name_plural": "AKS-74u",
     "description": "The even more paratrooper version of the AKS-74, used by special Russian forces and stalkers around the zone. Comes with a collapse-able stock and tons of recoil!",
-    "price": 390000, "//" : "AKs likewise aren't commercially traded in the US, plus this is newer.",
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 390000,
+    "//": "AKs likewise aren't commercially traded in the US, plus this is newer.",
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "545x39",
     "weight": 2850,
@@ -1148,17 +1499,27 @@
     "to_hit": 1,
     "dispersion": 60,
     "sight_dispersion": 75,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 20,
     "durability": 7,
     "burst": 15,
     "reload": 135,
     "loudness": 140,
-    "built_in_mods" : ["folding_stock"],
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "545x39", [ "ak74mag", "rpk74mag" ] ]
-    ]
+    "built_in_mods": [ "folding_stock" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "545x39", [ "ak74mag", "rpk74mag" ] ] ]
   },
   {
     "id": "ak12",
@@ -1168,9 +1529,10 @@
     "name": "AK-12",
     "name_plural": "AK-12",
     "description": "The newest AK in the line, just a baby compared to what all the other ones have gone through. This one decides to embrace western culture and has the ability to shoot 5.56 NATO",
-    "price": 390000, "//" : "AKs likewise aren't commercially traded in the US, plus this is newer.",
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 390000,
+    "//": "AKs likewise aren't commercially traded in the US, plus this is newer.",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 2900,
@@ -1179,16 +1541,26 @@
     "to_hit": -1,
     "dispersion": 35,
     "sight_dispersion": 50,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 2,
     "durability": 8,
     "burst": 15,
     "reload": 145,
     "loudness": 140,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "223", [ "stanarg30", "stanarg10", "stanarg50", "survivor223mag" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanarg30", "stanarg10", "stanarg50", "survivor223mag" ] ] ]
   },
   {
     "id": "ak12ussr",
@@ -1198,9 +1570,10 @@
     "name": "AK-12",
     "name_plural": "AK-12",
     "description": "The newest AK in the line, just a baby compared to what all the other ones have gone through. This one said fuck America and NATO and stuck with the 5.45x39",
-    "price": 390000, "//" : "AKs likewise aren't commercially traded in the US, plus this is newer.",
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 390000,
+    "//": "AKs likewise aren't commercially traded in the US, plus this is newer.",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "545x39",
     "weight": 2900,
@@ -1209,16 +1582,26 @@
     "to_hit": -1,
     "dispersion": 35,
     "sight_dispersion": 50,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 5,
     "durability": 9,
     "burst": 12,
     "reload": 145,
     "loudness": 140,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines" : [
-      [ "545x39", [ "ak74mag", "rpk74mag" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "545x39", [ "ak74mag", "rpk74mag" ] ] ]
   },
   {
     "id": "cz_bren",
@@ -1229,8 +1612,8 @@
     "name_plural": "CZ 805 BREN",
     "description": "The replacement of the vz 58, the CZ 805 surpasses any qualification of a good gun, it's an amazing gun. One of the best.",
     "price": 2110000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3330,
@@ -1240,16 +1623,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": -10,
     "sight_dispersion": 40,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 25,
     "durability": 9,
     "burst": 5,
     "reload": 145,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "british_em2",
@@ -1260,7 +1653,7 @@
     "name_plural": "EM-2 Janson",
     "description": "A experimental bullpup designed combat rifle. It was adopted by the UK in 1951, but very quickly was dropped, not because it was bad. But because the UK was tying ties with NATO. This one shoots the powerful 30-06",
     "price": 205000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "3006",
@@ -1271,16 +1664,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": 40,
     "sight_dispersion": 50,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 90,
     "durability": 9,
     "burst": 5,
     "reload": 150,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	  	"magazines" : [
-      [ "3006", [ "jamisonmag/fg42mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "3006", [ "jamisonmag/fg42mag" ] ] ]
   },
   {
     "id": "msbs",
@@ -1291,7 +1694,7 @@
     "name_plural": "MSBS Radon",
     "description": "The standard rifle used by the Poland Military in 2031, There are two versions of this rifle. This one is the Normal version, which looks a lot like the ACR and performs like it as well... Huh",
     "price": 234300,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -1302,16 +1705,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": -5,
     "sight_dispersion": 60,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 5,
     "durability": 7,
     "burst": 4,
     "reload": 125,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "msbsb",
@@ -1322,7 +1735,7 @@
     "name_plural": "MSBS Radon",
     "description": "The standard rifle used by the Poland Military in 2031, There are two versions of this rifle. This one is the bullpup version, which is like a PDW but a hell of a lot more scary.",
     "price": 234300,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -1333,18 +1746,28 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": -25,
     "sight_dispersion": 50,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 15,
     "durability": 6,
     "burst": 6,
     "reload": 125,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
-    {
+  {
     "id": "honeybadger",
     "type": "GUN",
     "symbol": "(",
@@ -1353,7 +1776,7 @@
     "name_plural": "AAC Honey Badger",
     "description": "The AAC Honey Badger is the premier PDW in the modern world. Short, sleek, and silent as hell. The AAC uses the .300 AC Blackout bullet to achieve sub-sonic velocity and super-sonic velocity with just a change of the magazine.",
     "price": 234300,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": ".300",
@@ -1364,17 +1787,27 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": -25,
     "sight_dispersion": 50,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 25,
     "durability": 8,
     "burst": 4,
     "reload": 125,
-    "loudness" : -10,
-    "built_in_mods" : ["suppressor"],
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ ".300", [ "blackout10", "blackout30" ]]
-    ]
+    "loudness": -10,
+    "built_in_mods": [ "suppressor" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ ".300", [ "blackout10", "blackout30" ] ] ]
   },
   {
     "id": "scarl_uk",
@@ -1385,7 +1818,7 @@
     "name_plural": "Grunt",
     "description": "A modified SCAR L made by some unknown soldier. It has been painted a leaf camouflage and features a longer barrel then the base SCAR L, dog tags whose name has long sense faded away are wrapped around the front end of the gun. And magazines jungle taped together clasp to the magazine well. But what makes this weapon stand out is its two M203 Big boys. Two M203 launchers are fashioned to the sides of the SCAR. With a activator switch for each one taped to the magazine well. An amazing gun, unique to the Cataclysm.",
     "price": 1280000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -1396,17 +1829,27 @@
     "ranged_damage": { "damage_type": "stab", "amount": 4 },
     "dispersion": 20,
     "sight_dispersion": 50,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 80,
     "durability": 9,
     "burst": 10,
     "reload": 150,
     "loudness": 150,
-	"built_in_mods": ["scarl_uk_bigboys"],
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "built_in_mods": [ "scarl_uk_bigboys" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "styerscout",
@@ -1416,7 +1859,7 @@
     "name": "Steyr Scout",
     "description": "The Steyr scout is a long range, compact siper rifle meant for scouting teams. It fires the powerful .308 round and packs one hell of a punch",
     "price": 2900000,
-    "material": ["steel", "ceramic"],
+    "material": [ "steel", "ceramic" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 3600,
@@ -1427,15 +1870,24 @@
     "range": 25,
     "dispersion": 20,
     "sight_dispersion": 70,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 45,
     "durability": 8,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ ".30810mag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ ".30810mag" ] ] ]
   },
   {
     "id": "ax308",
@@ -1445,7 +1897,7 @@
     "name": "Accuracy International AX308",
     "description": "The Accuracy International AX308 is a state of the art sniper rifle used by modern sniper teams from around the globe. It's amazing capabilities for taking out enemies from afar is only offset by the fact that it's rare and not many were made.",
     "price": 2900000,
-    "material": ["steel", "ceramic"],
+    "material": [ "steel", "ceramic" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 3100,
@@ -1456,15 +1908,24 @@
     "range": 55,
     "dispersion": 20,
     "sight_dispersion": 50,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 45,
     "durability": 9,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ ".30810mag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ ".30810mag" ] ] ]
   },
   {
     "id": "l96a1",
@@ -1474,7 +1935,7 @@
     "name": "Accuracy International L96A1",
     "description": "The L96A1 is a British designed and manufactured sniper rifle that debuted back in 1982. While an old rifle, the L96A1 still proves itself on the battlefield compared to newer sniper rifles.",
     "price": 2900000,
-    "material": ["steel", "ceramic"],
+    "material": [ "steel", "ceramic" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 3210,
@@ -1485,17 +1946,26 @@
     "range": 45,
     "dispersion": 30,
     "sight_dispersion": 60,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 45,
     "durability": 9,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ ".30810mag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ ".30810mag" ] ] ]
   },
-    {
+  {
     "id": "dsr1",
     "type": "GUN",
     "symbol": "(",
@@ -1503,7 +1973,7 @@
     "name": "DSR-1",
     "description": "The DSR-1 is an incredibly futuristic firearm. Toting the .308 cartage, it's power and accuracy is very commendable. But it's reliability and ease of use is questionable... Seriously, where do you put the magazine?!",
     "price": 2900000,
-    "material": ["steel", "ceramic"],
+    "material": [ "steel", "ceramic" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 5910,
@@ -1514,15 +1984,24 @@
     "range": 45,
     "dispersion": 30,
     "sight_dispersion": 60,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 65,
     "durability": 7,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ ".30810mag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ ".30810mag" ] ] ]
   },
   {
     "id": "artyomrk95_tp",
@@ -1532,9 +2011,10 @@
     "name": "Sako RK95-TP",
     "name_plural": "Sako RK95-TP",
     "description": "A weapon used by the gods of war. A weapon that is used for both good and evil. This gun was born in the fire forges of hell and blessed in the Garden of Eden. This weapon has no commanders, or followers. The Sako has saved many of survivors. It might just save you...",
-    "price": 1290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 1290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "762",
     "weight": 3600,
@@ -1543,17 +2023,27 @@
     "to_hit": 1,
     "dispersion": -15,
     "sight_dispersion": 45,
-	"ranged_damage": { "damage_type": "stab", "amount": 14 },
-    "aim_speed" : 4,
+    "ranged_damage": { "damage_type": "stab", "amount": 14 },
+    "aim_speed": 4,
     "recoil": 90,
     "durability": 10,
     "burst": 6,
     "reload": 150,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines": [
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
   {
     "id": "psg1",
@@ -1564,7 +2054,7 @@
     "name_plural": "PSG1",
     "description": "The PSG1 is Germany's premier sniper rifle. Accurate, Damaging, and super cool looking, this weapon sure is a blast...",
     "price": 130000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 3773,
@@ -1573,15 +2063,21 @@
     "to_hit": -2,
     "dispersion": -5,
     "sight_dispersion": 50,
-    "aim_speed" : 2,
+    "aim_speed": 2,
     "recoil": 60,
     "durability": 7,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ]],
-    "magazines" : [
-      [ "308", [ ".30820mag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ]
+    ],
+    "magazines": [ [ "308", [ ".30820mag" ] ] ]
   },
   {
     "id": "m16",
@@ -1592,8 +2088,8 @@
     "name_plural": "M16",
     "description": "The first generation M16 used during Vietnam. If the history books tell you this was a bad gun, they were a little wrong. It's accurate, low weight and volume, while using a fairly easy to find caliber. Just clean it once in awhile okay?",
     "price": 125000,
-	"flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 2905,
@@ -1602,16 +2098,26 @@
     "to_hit": 1,
     "dispersion": -5,
     "sight_dispersion": 60,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 10,
     "durability": 6,
-	"burst": 12,
+    "burst": 12,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "m16a1",
@@ -1622,8 +2128,8 @@
     "name_plural": "M16A1",
     "description": "The second generation M16 after soldiers told their superiors that the original felt like a toy. It features a longer barrel and lower rate of fire, but much higher accuracy and reliability.",
     "price": 135000,
-	"flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3605,
@@ -1632,16 +2138,26 @@
     "to_hit": -2,
     "dispersion": -15,
     "sight_dispersion": 55,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 30,
     "durability": 7,
-	"burst": 10,
+    "burst": 10,
     "reload": 110,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "m16a2",
@@ -1652,8 +2168,8 @@
     "name_plural": "M16A2",
     "description": "The third generation M16. Used during the Iraq war, it didn't prove very well for the CQB that the marines had to face. Which is where the M4 stepped in. But in the Cataclysm, you don't need to worry about terrorists with AKs, only zombies with electricity powers...",
     "price": 135000,
-    "flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3505,
@@ -1662,16 +2178,26 @@
     "to_hit": -2,
     "dispersion": -10,
     "sight_dispersion": 55,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 10,
     "durability": 8,
-	"burst": 3,
+    "burst": 3,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "m16a3",
@@ -1682,8 +2208,8 @@
     "name_plural": "M16A3",
     "description": "The fourth generation M16, which featured a lower rate of fire in favour of making the M16 into a battle rifle. A good call, seeing that this is the most accurate M16 at that time. A real brute stopper.",
     "price": 140000,
-    "flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3405,
@@ -1692,16 +2218,26 @@
     "to_hit": -3,
     "dispersion": -20,
     "sight_dispersion": 50,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 15,
     "durability": 8,
-	"burst": 8,
+    "burst": 8,
     "reload": 150,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "m16a4",
@@ -1712,8 +2248,8 @@
     "name_plural": "M16A4",
     "description": "The last generation M16, Now a true battle rifle. Rails up the wazoo, and better at close quarters thanks to its tri-burst system. A reliable, accurate, damaging combat rifle.",
     "price": 140000,
-    "flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 3405,
@@ -1722,16 +2258,26 @@
     "to_hit": -3,
     "dispersion": -25,
     "sight_dispersion": 50,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 20,
     "durability": 9,
-	"burst": 3,
+    "burst": 3,
     "reload": 150,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "m110",
@@ -1742,8 +2288,8 @@
     "name_plural": "M110 SASS",
     "description": "A sniper rifle based on the M16A4, extremely accurate and damaging thanks to the power 308 round that it fires.",
     "price": 140000,
-    "material": ["steel", "plastic"],
-	"flags": ["MODE_BURST"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 3705,
@@ -1752,16 +2298,26 @@
     "to_hit": -3,
     "dispersion": -35,
     "sight_dispersion": 45,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 10,
     "durability": 8,
-	"burst": 2,
+    "burst": 2,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ ".30820mag" ] ]
-	  ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ ".30820mag" ] ] ]
   },
   {
     "id": "m4sop",
@@ -1772,8 +2328,8 @@
     "name_plural": "M4 SOPMOD",
     "description": "The military issued M4A1; the SOPMOD, also called the Block 1, was a advancement in M4A1 tech and allows for a more accurate, and reliable M4.",
     "price": 125000,
-	"flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 2905,
@@ -1782,16 +2338,26 @@
     "to_hit": 1,
     "dispersion": -5,
     "sight_dispersion": 56,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 10,
     "durability": 7,
-	"burst": 12,
+    "burst": 12,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 2 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 2 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 2 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "m4block",
@@ -1802,8 +2368,8 @@
     "name_plural": "M4 Block II",
     "description": "The special forces issued M4A1. The Block II was used by Navy Seals during the beginning of the Cataclysm. And has lasted up to this point. Need I say more?",
     "price": 125000,
-	"flags": ["MODE_BURST"],
-    "material": ["steel", "plastic"],
+    "flags": [ "MODE_BURST" ],
+    "material": [ "steel", "plastic" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 2605,
@@ -1812,16 +2378,26 @@
     "to_hit": 1,
     "dispersion": -5,
     "sight_dispersion": 45,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 20,
     "durability": 9,
-	"burst": 12,
+    "burst": 12,
     "reload": 100,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 2 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 2 ]],
-  	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 2 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "delisle",
@@ -1832,7 +2408,7 @@
     "name_plural": "De Lisle Commando",
     "description": "The De Lisle Commando is a short, carbine styled bolt action rifle using .45 caliber with an integrated suppressor. Arguably the most silent rifle ever created, its ability as a survival tool is amazing.",
     "price": 123000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": "45",
     "weight": 3100,
@@ -1841,18 +2417,24 @@
     "to_hit": 1,
     "dispersion": -5,
     "sight_dispersion": 50,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 20,
     "durability": 6,
     "reload": 150,
-    "loudness" : -25,
-	"built_in_mods" : ["suppressor"],
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "mechanism", 4 ],[ "sights", 1 ],["muzzle", 1]],
-		"magazines" : [
-      [ "45", [ "m1911mag", "m1911bigmag" ] ]
-	  ]
-	},
-	{
+    "loudness": -25,
+    "built_in_mods": [ "suppressor" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights", 1 ],
+      [ "muzzle", 1 ]
+    ],
+    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag" ] ] ]
+  },
+  {
     "id": "fg42",
     "type": "GUN",
     "symbol": "(",
@@ -1860,7 +2442,7 @@
     "name": "FG42",
     "description": "Germany's go-to paratrooper weapon during WWII, while not the most reliable, it still caused many casualties on the allied side. A weapon ahead of its time, this one is a modern reproduction chambered in .30-06.",
     "price": 190000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": "3006",
     "weight": 3960,
@@ -1869,15 +2451,25 @@
     "to_hit": -1,
     "dispersion": 5,
     "sight_dispersion": 60,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 10,
     "durability": 7,
     "reload": 125,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "3006", [ "jamisonmag/fg42mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "3006", [ "jamisonmag/fg42mag" ] ] ]
   },
   {
     "id": "fx_05",
@@ -1888,7 +2480,7 @@
     "name_plural": "FX-05 Xiuhcoatl",
     "description": "The Mexican FX-05 Xiuhcoatl is translated into 'Fire Snake' which is awesome in it of itself, but what is most important is it's rifling design, instead of grooves, it has ridges. Making it unique and accurate.",
     "price": 210000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -1899,18 +2491,28 @@
     "ranged_damage": { "damage_type": "stab", "amount": 3 },
     "dispersion": 10,
     "sight_dispersion": 60,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 25,
     "durability": 6,
     "burst": 15,
     "reload": 150,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ]
-    ]
-    },
-    {
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
+  },
+  {
     "id": "hk_g36c",
     "type": "GUN",
     "symbol": "(",
@@ -1919,7 +2521,7 @@
     "name_plural": "H&K G36c",
     "description": "A smaller version of the G36, the G36c is made for CQB. Light, accurate, and very reliable, its the ultimate weapon for any special ops soldier",
     "price": 210000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -1930,16 +2532,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 3 },
     "dispersion": 10,
     "sight_dispersion": 55,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 65,
     "durability": 8,
     "burst": 20,
     "reload": 150,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-	[ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "famas",
@@ -1950,7 +2562,7 @@
     "name_plural": "FAMAS",
     "description": "A bullpup assault rifle made with accuracy in mind. The weapon is very modular, even having the ability to put wing mirrors on the sides... Why?",
     "price": 234300,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -1961,16 +2573,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": -25,
     "sight_dispersion": 55,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 5,
     "durability": 7,
     "burst": 4,
     "reload": 125,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines" : [
-      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]]
-    ]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
   },
   {
     "id": "auto_assault12",
@@ -1981,8 +2603,8 @@
     "name_plural": "AA-12",
     "description": "The US made automatic shotgun features a fully automatic recoil reducer system that provides excess death dealing when in close quarters. ",
     "price": 189000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 3850,
@@ -1991,14 +2613,26 @@
     "to_hit": -1,
     "dispersion": 105,
     "sight_dispersion": 90,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 110,
     "durability": 5,
     "burst": 8,
     "reload": 150,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	    "magazines": [ [ "shot", [ "auto10mag", "auto30mag" ] ] ]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "shot", [ "auto10mag", "auto30mag" ] ] ]
   },
   {
     "id": "usas12",
@@ -2009,8 +2643,8 @@
     "name_plural": "USAS 12",
     "description": "The South Korean made USAS 12 was a semi automatic and fully automatic shotgun for military and civilian usage. While not as cool looking as some of the other automatic shotguns. It was the only one to get out of it's testing phase... So its got some moves.",
     "price": 189000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 3850,
@@ -2019,14 +2653,26 @@
     "to_hit": -1,
     "dispersion": 95,
     "sight_dispersion": 70,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 20,
     "durability": 7,
     "burst": 3,
     "reload": 150,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines": [ [ "shot", [ "usas10mag", "usas30mag" ] ] ]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "shot", [ "usas10mag", "usas30mag" ] ] ]
   },
   {
     "id": "spas15",
@@ -2037,8 +2683,8 @@
     "name_plural": "Franchi Spas 15",
     "description": "The Italian made Spas 15 was a update on the great Spas 12, making much needed improvements on loading of shells and rate of fire. It's got a box magazine and can go full auto!",
     "price": 189000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 3650,
@@ -2047,13 +2693,25 @@
     "to_hit": -1,
     "dispersion": 105,
     "sight_dispersion": 80,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 10,
     "durability": 8,
     "burst": 3,
     "reload": 150,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
     "magazines": [ [ "shot", [ "spas10mag", "spas30mag" ] ] ]
   },
   {
@@ -2074,7 +2732,7 @@
     "ammo": "shot",
     "dispersion": 65,
     "sight_dispersion": 80,
-	"ranged_damage": { "damage_type": "stab", "amount": 2 },
+    "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "aim_speed": 4,
     "recoil": 20,
     "durability": 9,
@@ -2082,10 +2740,22 @@
     "clip_size": 8,
     "reload": 80,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "conversion", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
     "flags": "RELOAD_ONE"
   },
-    {
+  {
     "id": "homebrewer_gun",
     "type": "GUN",
     "symbol": "(",
@@ -2094,23 +2764,23 @@
     "name_plural": "Open Action Revolver",
     "description": "This weapon seems to be a mix of a Semi-Automatic Pistol and a Revolver. Very peculiar weapon but seems to be in working condition. Accurate, powerful, and fecking awesome looking.",
     "price": 75000,
-	"flags": ["RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT"],
-    "material": ["steel", "wood"],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "45",
     "weight": 1190,
     "volume": 4,
     "bashing": 10,
     "to_hit": -1,
-	"ranged_damage": { "damage_type": "stab", "amount": 6 },
+    "ranged_damage": { "damage_type": "stab", "amount": 6 },
     "dispersion": 200,
     "sight_dispersion": 80,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 20,
     "durability": 6,
     "clip_size": 5,
-    "reload" : 110,
-    "loudness" : 195
+    "reload": 110,
+    "loudness": 195
   },
   {
     "id": "colt_single_action_army",
@@ -2121,8 +2791,8 @@
     "name_plural": "Colt Single Action Army",
     "description": "A Russian once said this was the best gun in the world. Nuff said",
     "price": 75000,
-	"flags": ["RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT"],
-    "material": ["steel", "wood"],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "44paper",
     "weight": 1190,
@@ -2131,12 +2801,12 @@
     "to_hit": -1,
     "dispersion": 200,
     "sight_dispersion": 90,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 50,
     "durability": 9,
     "clip_size": 6,
-    "reload" : 130,
-    "loudness" : 160
+    "reload": 130,
+    "loudness": 160
   },
   {
     "id": "colt_python",
@@ -2147,8 +2817,8 @@
     "name_plural": "Colt Python",
     "description": "Weapon of choice for many action heroes and zombie survivalists, this pistol has proven many times that it is one of the best",
     "price": 75000,
-	"flags": ["RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT"],
-    "material": ["steel", "wood"],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "44",
     "weight": 1090,
@@ -2157,13 +2827,13 @@
     "to_hit": -1,
     "dispersion": 200,
     "sight_dispersion": 90,
-    "aim_speed" : 4,
-	"ranged_damage": { "damage_type": "stab", "amount": 4 },
+    "aim_speed": 4,
+    "ranged_damage": { "damage_type": "stab", "amount": 4 },
     "recoil": 70,
     "durability": 9,
     "clip_size": 6,
-    "reload" : 130,
-    "loudness" : 240
+    "reload": 130,
+    "loudness": 240
   },
   {
     "id": "ruger_blackhawk",
@@ -2174,8 +2844,8 @@
     "name_plural": "Ruger Blackhawk",
     "description": "One of the most versatile revolvers to date, this break-action revolver features some of the best accuracy of any revolver",
     "price": 86100,
-    "material": ["steel", "wood"],
-    "flags": ["RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT"],
+    "material": [ "steel", "wood" ],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
     "skill": "pistol",
     "ammo": "44",
     "weight": 1386,
@@ -2185,13 +2855,24 @@
     "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "dispersion": 145,
     "sight_dispersion": 80,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 100,
     "durability": 8,
     "clip_size": 6,
     "reload": 85,
-    "loudness" : 200,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 200,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "colt_detective",
@@ -2202,8 +2883,8 @@
     "name_plural": "Colt Detective Special",
     "description": "The gun that started the Snub-nose revolution. Features small compatibility and the ability to blow someone face off.",
     "price": 95000,
-	"flags": ["RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT"],
-    "material": ["steel", "wood"],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
+    "material": [ "steel", "wood" ],
     "skill": "pistol",
     "ammo": "38",
     "weight": 750,
@@ -2211,14 +2892,14 @@
     "bashing": 8,
     "to_hit": -1,
     "dispersion": 250,
-	"ranged_damage": { "damage_type": "stab", "amount": -1 },
+    "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "sight_dispersion": 90,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 80,
     "durability": 9,
     "clip_size": 5,
-    "reload" : 100,
-    "loudness" : 190
+    "reload": 100,
+    "loudness": 190
   },
   {
     "id": "winmodel1873",
@@ -2229,8 +2910,8 @@
     "name_plural": "Winchester Model 1873",
     "description": "A .44-40 caliber repeating rifle straight out of wild west films. This one has some age to it but like a old mule, it kicks pretty damn hard. Looks like someone had retooled the gun for .44, guess the 44-40 was too expensive.",
     "price": 10000,
-    "material": ["steel", "wood"],
-    "flags": ["RELOAD_ONE"],
+    "material": [ "steel", "wood" ],
+    "flags": [ "RELOAD_ONE" ],
     "skill": "rifle",
     "ammo": "44",
     "weight": 2511,
@@ -2240,15 +2921,28 @@
     "ranged_damage": { "damage_type": "stab", "amount": 4 },
     "dispersion": 175,
     "sight_dispersion": 70,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 40,
     "durability": 7,
     "clip_size": 10,
     "reload": 100,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
-   {
+  {
     "id": "rem_model7600",
     "type": "GUN",
     "symbol": "(",
@@ -2257,7 +2951,7 @@
     "name_plural": "Remington Model 7600",
     "description": "The Remington Model 7600 is a pump-action hunting rifle that shoots 308. Proves to be pretty effective against zombie brains.",
     "price": 53800,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "rifle",
     "ammo": "308",
@@ -2267,13 +2961,25 @@
     "to_hit": -1,
     "dispersion": -10,
     "sight_dispersion": 90,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 10,
     "durability": 8,
     "clip_size": 4,
     "reload": 80,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "svd",
@@ -2298,7 +3004,7 @@
     "durability": 10,
     "barrel_length": 5,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-	"magazines": [ [ "762R", [ "7.62x54Rmag", "7.62x54Rmag2" ] ] ]
+    "magazines": [ [ "762R", [ "7.62x54Rmag", "7.62x54Rmag2" ] ] ]
   },
   {
     "id": "svu",
@@ -2323,7 +3029,7 @@
     "durability": 10,
     "barrel_length": 3,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-	"magazines": [ [ "762R", [ "7.62x54Rmag", "7.62x54Rmag2" ] ] ]
+    "magazines": [ [ "762R", [ "7.62x54Rmag", "7.62x54Rmag2" ] ] ]
   },
   {
     "id": "obrez",
@@ -2334,7 +3040,7 @@
     "name_plural": "Obrez",
     "description": "An Mosin Nagant that is shortened so much that it looks like a pistol. And is a pistol; that shoots 7.62x54R...",
     "price": 19000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "rifle",
     "ammo": "762R",
@@ -2346,13 +3052,22 @@
     "range": -10,
     "dispersion": 200,
     "sight_dispersion": 95,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 275,
     "durability": 5,
     "clip_size": 5,
     "reload": 100,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "sights", 1 ]]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ]
+    ]
   },
   {
     "id": "ithacam37",
@@ -2363,7 +3078,7 @@
     "name_plural": "Ithaca M37",
     "description": "The Ithaca M37 is a extremely popular shotgun for home defense and cool looks. This one has been modified by cutting the stock off.",
     "price": 58700,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "RELOAD_ONE",
     "skill": "shotgun",
     "ammo": "shot",
@@ -2374,13 +3089,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 8 },
     "dispersion": 60,
     "sight_dispersion": 90,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 80,
     "durability": 7,
     "clip_size": 5,
     "reload": 75,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "w1897",
@@ -2391,7 +3118,7 @@
     "name_plural": "Winchester Model 1897",
     "description": "The Winchester Model 1897 was the first pump action shotgun that preformed well under combat scenarios. Sometimes called the Trench Gun, it was mainly used in the clearing of trenches during WWI.",
     "price": 58700,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "shotgun",
     "ammo": "shot",
@@ -2402,14 +3129,26 @@
     "ranged_damage": { "damage_type": "stab", "amount": 3 },
     "dispersion": 25,
     "sight_dispersion": 60,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 20,
     "durability": 9,
     "clip_size": 6,
-	"burst": 3,
+    "burst": 3,
     "reload": 75,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "w1887",
@@ -2420,7 +3159,7 @@
     "name_plural": "Winchester Model 1887",
     "description": "The Winchester Model 1887 was the first successful lever action shotgun. Made popular in movies and video games in the modern day. This particular one has brass knuckles as its cocking lever.",
     "price": 58700,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "shotgun",
     "ammo": "shot",
@@ -2431,13 +3170,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 7 },
     "dispersion": 75,
     "sight_dispersion": 70,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 40,
     "durability": 8,
     "clip_size": 4,
     "reload": 65,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "striker",
@@ -2448,8 +3199,8 @@
     "name_plural": "Striker",
     "description": "The South African Striker provides large capacity to the shot-gunner's world with its revolving wheel of death. Being semi-auto, its very fast in unloading it's payload. But don't expect perfect delivery every time.",
     "price": 189000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST","RELOAD_ONE"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "RELOAD_ONE" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 3850,
@@ -2458,14 +3209,27 @@
     "to_hit": -1,
     "dispersion": 95,
     "sight_dispersion": 80,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 45,
     "durability": 6,
     "burst": 5,
     "clip_size": 12,
     "reload": 100,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "auto5",
@@ -2476,8 +3240,8 @@
     "name_plural": "Browning Auto 5",
     "description": "The Browing made Auto 5 was the first successful semi-automatic shotgun in the world. Using gas, it expelled spent shell casing at 175 rounds a minute.",
     "price": 189000,
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST","RELOAD_ONE"],
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "RELOAD_ONE" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 3850,
@@ -2486,14 +3250,27 @@
     "to_hit": -1,
     "dispersion": 75,
     "sight_dispersion": 80,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 45,
     "durability": 8,
     "burst": 2,
     "clip_size": 6,
     "reload": 100,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "spas12",
@@ -2504,8 +3281,8 @@
     "name_plural": "Franchi Spas 12",
     "description": "The Italian made Spas 12 is a popular shotgun in movies and video games alike. And in the real world not being a terrible gun. Which is good, seeing the circumstances... You're gonna need a Spas 12 for this.",
     "price": 189000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST","RELOAD_ONE"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "RELOAD_ONE" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 3650,
@@ -2514,14 +3291,27 @@
     "to_hit": -1,
     "dispersion": 85,
     "sight_dispersion": 70,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 55,
     "durability": 7,
     "burst": 2,
     "clip_size": 8,
     "reload": 100,
-    "loudness" : 175,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 175,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "bren",
@@ -2532,7 +3322,7 @@
     "name_plural": "Bren Light Machine Gun",
     "description": "The Bren Light Machine gun is a fixed bypod, top loaded machine gun that more or less acts like a anti-personnel SAW. Deadly when used properly - this one has been chambered in .308 NATO. Must be a post-war model.",
     "price": 750000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "3006",
@@ -2543,16 +3333,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 4 },
     "dispersion": 125,
     "sight_dispersion": 75,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 110,
     "durability": 8,
     "burst": 5,
     "reload": 150,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-    "magazines" : [
-      [ "3006", [ "jamisonmag/fg42mag" ]]
-	  ]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "3006", [ "jamisonmag/fg42mag" ] ] ]
   },
   {
     "id": "dplmg",
@@ -2563,7 +3362,7 @@
     "name_plural": "DP Light Machine Gun",
     "description": "The DP is a WWII squad automatic weapon that has one hell of a round coming out of the barrel. Very powerful, and with high capacity.",
     "price": 750000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "762R",
@@ -2574,18 +3373,28 @@
     "ranged_damage": { "damage_type": "stab", "amount": 6 },
     "dispersion": 125,
     "sight_dispersion": 85,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 140,
     "durability": 8,
     "burst": 10,
     "reload": 150,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ], ["underbarrel", 1], [ "stock", 1 ] ],
-		    "magazines" : [
-      [ "762R", [ "dpwhy" ] ]
-	  ]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "underbarrel", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "762R", [ "dpwhy" ] ] ]
   },
-  { 
+  {
     "id": "fnminimi",
     "type": "GUN",
     "symbol": "(",
@@ -2594,7 +3403,7 @@
     "name_plural": "FN Minimi",
     "description": "A paratrooper version of the ever so popular M249 SAW, it features a skeletal stock and light weight. Along with all those SAW parts.",
     "price": 750000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "223",
@@ -2605,16 +3414,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": -8 },
     "dispersion": 160,
     "sight_dispersion": 75,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 110,
     "durability": 7,
     "burst": 30,
     "reload": 150,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-    "magazines" : [
-      [ "223", [ "stanag50", "stanag30", "belt223" ] ]
-	  ]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "223", [ "stanag50", "stanag30", "belt223" ] ] ]
   },
   {
     "id": "lewisgun",
@@ -2625,7 +3443,7 @@
     "name_plural": "Lewis Gun",
     "description": "The Lewis gun is a water cooled machine gun that is meant to be used in a prone position, but thanks to game reasons, you can't prone down to use the thing properly. But if you can use it, it's one hell of a machine gun.",
     "price": 750000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "MODE_BURST",
     "skill": "rifle",
     "ammo": "3006",
@@ -2636,16 +3454,25 @@
     "ranged_damage": { "damage_type": "stab", "amount": 9 },
     "dispersion": 75,
     "sight_dispersion": 85,
-    "aim_speed" : 1,
+    "aim_speed": 1,
     "recoil": 190,
     "durability": 9,
     "burst": 20,
     "reload": 150,
-    "loudness" : 160,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]],
-	    "magazines" : [
-      [ "3006", [ "lewiswhy" ] ]
-	  ]
+    "loudness": 160,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "3006", [ "lewiswhy" ] ] ]
   },
   {
     "id": "rpk",
@@ -2655,9 +3482,10 @@
     "name": "RPK",
     "name_plural": "RPK",
     "description": "The RPK is the light machine gun varient in the AK family. Using the 7.62x39mm round means that there is going to be a lot of lead spewing out of the barrel when this baby is lit up.",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "762",
     "weight": 6500,
@@ -2666,16 +3494,26 @@
     "to_hit": -1,
     "dispersion": 80,
     "sight_dispersion": 65,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 45,
     "durability": 9,
     "burst": 15,
     "reload": 175,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines": [
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
   {
     "id": "pkm",
@@ -2685,28 +3523,39 @@
     "name": "PKM",
     "name_plural": "PKM",
     "description": "The PKM is the Heavy machine gun in the AK family. And unlike everything else, it's internals are the only thing that is based on the AK. The look and feel is it's own thing.",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "762R",
     "weight": 9500,
     "volume": 18,
     "bashing": 19,
     "to_hit": -5,
-	"ranged_damage": { "damage_type": "stab", "amount": 6 },
+    "ranged_damage": { "damage_type": "stab", "amount": 6 },
     "dispersion": 60,
     "sight_dispersion": 65,
-    "aim_speed" : 2,
+    "aim_speed": 2,
     "recoil": 75,
     "durability": 9,
     "burst": 15,
     "reload": 175,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-		"magazines": [
-      [ "762R", [ "belt762R" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "762R", [ "belt762R" ] ] ]
   },
   {
     "id": "mg3",
@@ -2717,27 +3566,37 @@
     "name_plural": "MG3",
     "description": "The MG3 is the modernized version of the MG42. It features more lightweight parts and a slimmer magazine. It's fire rate is still the same 1,200 rounds a minute. So be ready to reload this baby a LOT.",
     "price": 990000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 10500,
     "volume": 22,
     "bashing": 19,
     "to_hit": -5,
-	"ranged_damage": { "damage_type": "stab", "amount": 5 },
+    "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": 50,
     "sight_dispersion": 65,
-    "aim_speed" : 1,
+    "aim_speed": 1,
     "recoil": 75,
     "durability": 9,
     "burst": 25,
     "reload": 145,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ "belt308" ] ]
-	  ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ "belt308" ] ] ]
   },
   {
     "id": "mg3_uk",
@@ -2748,28 +3607,38 @@
     "name_plural": "The Hacksaw",
     "description": "A heavily modified MG3, clearly made in someone's basement. It seems ready for anything. The word Hacksaw is scratched into the right side. Under the word Bundeswehr so faint you can barely see it. A rag is wrapped around the heat shield so the user can hold it by it. But the stock seems the most unique of all the modifications. It seems to float, only held by some para cord and a spring. And when you push your shoulder into the firing position. It seems to push against you. Considerably reducing recoil.",
     "price": 990000,
-    "material": ["steel", "plastic"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "308",
     "weight": 9500,
     "volume": 23,
     "bashing": 19,
     "to_hit": -5,
-	"ranged_damage": { "damage_type": "stab", "amount": 7 },
+    "ranged_damage": { "damage_type": "stab", "amount": 7 },
     "dispersion": -10,
     "sight_dispersion": 90,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 50,
     "durability": 10,
     "burst": 25,
     "reload": 150,
     "loudness": 150,
-	"built_in_mods" : ["mg3_uk_stock"],
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-    "magazines" : [
-      [ "308", [ "belt308" ] ]
-	  ]
+    "built_in_mods": [ "mg3_uk_stock" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "308", [ "belt308" ] ] ]
   },
   {
     "id": "rpd",
@@ -2779,9 +3648,10 @@
     "name": "RPD",
     "name_plural": "RPD",
     "description": "The RPD is the light machine gun varient in the AK family. Using the 7.62x39mm round means that there is going to be a lot of lead spewing out of the barrel when this baby is lit up.",
-    "price": 290000, "//" : "AKs likewise aren't commercially traded in the US.",
-    "material": ["steel", "wood"],
-    "flags": ["MODE_BURST", "NEVER_JAMS"],
+    "price": 290000,
+    "//": "AKs likewise aren't commercially traded in the US.",
+    "material": [ "steel", "wood" ],
+    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "skill": "rifle",
     "ammo": "762",
     "weight": 6300,
@@ -2790,16 +3660,26 @@
     "to_hit": -1,
     "dispersion": 90,
     "sight_dispersion": 65,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 55,
     "durability": 9,
     "burst": 15,
     "reload": 175,
     "loudness": 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]],
-	"magazines": [
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
-    ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
   {
     "id": "SMLEMK4",
@@ -2810,7 +3690,7 @@
     "name_plural": "SMLE Number 4",
     "description": "The Short, Magazine Lee-Enfield Number Four - The quintessential British service rifle, along with other members of the Lee-Enfield family. Rule Britannia!",
     "price": 19000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "rifle",
     "ammo": ".303",
@@ -2822,16 +3702,27 @@
     "range": 2,
     "dispersion": 70,
     "sight_dispersion": 55,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 275,
     "durability": 8,
     "clip_size": 10,
     "reload": 65,
-    "loudness" : 135,
-	"barrel_length": 3,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+    "loudness": 135,
+    "barrel_length": 3,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ]
   },
-    {
+  {
     "id": "G98",
     "type": "GUN",
     "symbol": "(",
@@ -2840,7 +3731,7 @@
     "name_plural": "G98",
     "description": "Developed in 1898, this gun would later become the basis for many rifles the world over, from the Springfield to the Type 24 to the K98k. Today, its action is primarily used in hunting rifles.",
     "price": 21000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "rifle",
     "ammo": "7.92mm",
@@ -2852,14 +3743,25 @@
     "range": 4,
     "dispersion": 50,
     "sight_dispersion": 50,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 300,
     "durability": 8,
     "clip_size": 5,
     "reload": 60,
-    "loudness" : 135,
-	"barrel_length": 4,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+    "loudness": 135,
+    "barrel_length": 4,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ]
   },
   {
     "id": "Type24",
@@ -2870,7 +3772,7 @@
     "name_plural": "T24",
     "description": "Developed with German support in China, this would become one of the most domestically produced rifles in Chinese service in WWII. A smaller, more accurate version of the G98, it was well-liked.",
     "price": 210000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "rifle",
     "ammo": "7.92mm",
@@ -2882,14 +3784,25 @@
     "range": 2,
     "dispersion": 65,
     "sight_dispersion": 50,
-    "aim_speed" : 5,
+    "aim_speed": 5,
     "recoil": 300,
     "durability": 8,
     "clip_size": 5,
     "reload": 55,
-    "loudness" : 135,
-	"barrel_length": 3,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+    "loudness": 135,
+    "barrel_length": 3,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ]
   },
   {
     "id": "mosin_finn",
@@ -2924,7 +3837,7 @@
     "name_plural": "M17 Enfield",
     "description": "Despite being less famous than its cousin, the Springfield 1903, the Enfield 1917 saw large amounts of service with American soldiers in WWI and internationally into WWII. Rule... Britannia?",
     "price": 19000,
-    "material": ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "flags": "RELOAD_ONE",
     "skill": "rifle",
     "ammo": "3006",
@@ -2936,14 +3849,25 @@
     "range": 3,
     "dispersion": 75,
     "sight_dispersion": 55,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 275,
     "durability": 9,
     "clip_size": 6,
     "reload": 65,
-    "loudness" : 135,
-	"barrel_length": 3,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+    "loudness": 135,
+    "barrel_length": 3,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ]
   },
   {
     "id": "needle_rifle",

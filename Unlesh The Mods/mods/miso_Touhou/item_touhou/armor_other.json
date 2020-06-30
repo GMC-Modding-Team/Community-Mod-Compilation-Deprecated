@@ -17,7 +17,11 @@
     "storage": 0,
     "warmth": 0,
     "material_thickness": 0,
-    "use_action": { "type": "transform", "target": "wriggle_lamp02", "msg": "A chemical reaction occurred to cause the light emitter to function." },
+    "use_action": {
+      "type": "transform",
+      "target": "wriggle_lamp02",
+      "msg": "A chemical reaction occurred to cause the light emitter to function."
+    },
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "WAIST", "OVERSIZE" ]
   },
   {
@@ -464,7 +468,7 @@
     "material": "wood",
     "symbol": ")",
     "color": "light_gray",
-	"pocket_data": [
+    "pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,

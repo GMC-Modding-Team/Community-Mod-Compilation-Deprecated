@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "riot_shotgun",
     "type": "GUN",
     "symbol": "(",
@@ -7,8 +7,8 @@
     "name": "riot shotgun",
     "description": "A pre-wastes weapon, a single-barreled shotgun with a drum magazine.",
     "price": 750000,
-    "material": ["steel", "plastic"],
-    "flags": ["RELOAD_ONE","NEVER_JAMS","RELOAD_EJECT","MODE_BURST"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT", "MODE_BURST" ],
     "skill": "shotgun",
     "ammo": "shot",
     "weight": 2725,
@@ -19,15 +19,16 @@
     "ranged_damage": 12,
     "dispersion": 120,
     "sight_dispersion": 80,
-    "aim_speed" : 4,
+    "aim_speed": 4,
     "recoil": 200,
     "durability": 10,
     "clip_size": 12,
-	"burst": 2,
+    "burst": 2,
     "reload": 205,
-    "loudness" : 200,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "stock", 1 ]]
-  },{
+    "loudness": 200,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "conversion", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "stock", 1 ] ]
+  },
+  {
     "id": "semiauto",
     "type": "GUN",
     "symbol": "(",
@@ -36,7 +37,7 @@
     "name_plural": "semiautos",
     "description": "A pre-wastes military weapon that cocks itself after firing.",
     "price": 725000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "NEVER_JAMS",
     "skill": "pistol",
     "ammo": "9mm",
@@ -48,15 +49,15 @@
     "ranged_damage": 1,
     "range": 12,
     "dispersion": 225,
-	"sight_dispersion": 90,
-    "aim_speed" : 3,
+    "sight_dispersion": 90,
+    "aim_speed": 3,
     "recoil": 80,
     "durability": 10,
     "burst": 1,
     "clip_size": 11,
     "reload": 115,
-	"loudness" : 85,
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 2 ]]
+    "loudness": 85,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "bore", 1 ], [ "conversion", 1 ], [ "grip", 1 ], [ "mechanism", 2 ] ]
   },
   {
     "id": "combat_rifle",
@@ -67,8 +68,8 @@
     "name_plural": "combat rifles",
     "description": "A pre-wastes military weapon, able to output many rounds in a short period of time.",
     "price": 775000,
-    "material": ["steel", "plastic"],
-    "flags": ["NEVER_JAMS", "MODE_BURST"],
+    "material": [ "steel", "plastic" ],
+    "flags": [ "NEVER_JAMS", "MODE_BURST" ],
     "skill": "rifle",
     "ammo": "223",
     "weight": 4320,
@@ -79,14 +80,26 @@
     "ranged_damage": 7,
     "dispersion": 5,
     "sight_dispersion": 60,
-    "aim_speed" : 6,
+    "aim_speed": 6,
     "recoil": 0,
     "durability": 8,
-	"burst" : 3,
+    "burst": 3,
     "clip_size": 32,
     "reload": 185,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ]]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ]
   },
   {
     "id": "mil_SMG",
@@ -109,13 +122,26 @@
     "ranged_damage": -3,
     "dispersion": 240,
     "sight_dispersion": 105,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": 60,
     "durability": 6,
     "burst": 3,
     "clip_size": 50,
     "reload": 500,
-    "loudness" : 150,
-    "valid_mod_locations": [[ "accessories", 3 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "magazine", 2 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    "loudness": 150,
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "magazine", 2 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   }
 ]

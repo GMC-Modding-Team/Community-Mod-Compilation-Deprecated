@@ -177,8 +177,9 @@
     "id": "groce_ingredient",
     "type": "item_group",
     "items": [ [ "koji", 2 ] ]
-  },{	
-	"type": "item_group",
+  },
+  {
+    "type": "item_group",
     "subtype": "collection",
     "id": "mon_okka_death_drops",
     "entries": [ { "item": "tomato", "count": [ 1, 1 ], "prob": 30 }, { "group": "youkai_items", "prob": 60 } ]
@@ -187,10 +188,6 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "mon_kanazuchibo_death_drops",
-    "entries": [
-      { "item": "wooden_kine", "count": [ 1, 1 ], "prob": 100 },
-      { "group": "youkai_items", "prob": 60 }
-    ]
+    "entries": [ { "item": "wooden_kine", "count": [ 1, 1 ], "prob": 100 }, { "group": "youkai_items", "prob": 60 } ]
   }
-
 ]

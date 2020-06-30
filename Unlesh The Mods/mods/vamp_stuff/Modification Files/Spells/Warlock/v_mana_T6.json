@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "t6_mana_darkpillar",
     "type": "SPELL",
     "name": "Dark Pillar",
@@ -6,17 +7,7 @@
     "valid_targets": [ "hostile" ],
     "effect": "projectile_attack",
     "effect_str": "v_spell_darkpillar",
-    "extra_effects": [
-            {
-                "id": "t6_mana_darkpillar_bash"
-            },
-            {
-                "id": "t6_mana_darkpillar_bash"
-            },
-            {
-                "id": "t6_mana_darkpillar_bash"
-            }
-        ],
+    "extra_effects": [ { "id": "t6_mana_darkpillar_bash" }, { "id": "t6_mana_darkpillar_bash" }, { "id": "t6_mana_darkpillar_bash" } ],
     "base_energy_cost": 5250,
     "energy_source": "MANA",
     "spell_class": "VAMP_MANA_spellcaster",
@@ -30,8 +21,8 @@
     "flags": [ "SOMATIC", "VERBAL", "NO_LEGS" ],
     "base_casting_time": 2500,
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "t6_mana_etherealenchantment",
     "type": "SPELL",
     "name": "Ethereal Enchantment",
@@ -50,5 +41,5 @@
     "max_duration": 20000,
     "base_casting_time": 1000,
     "flags": [ "SOMATIC", "VERBAL", "NO_LEGS" ]
-}
+  }
 ]

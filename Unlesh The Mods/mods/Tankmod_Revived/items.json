@@ -321,7 +321,11 @@
     "count": 1,
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 10000, "distance_factor": 0.8, "shrapnel": { "casing_mass": 35000, "fragment_mass": 10, "recovery": 1, "drop": "shrapnel" } }
+    "explosion": {
+      "power": 10000,
+      "distance_factor": 0.8,
+      "shrapnel": { "casing_mass": 35000, "fragment_mass": 10, "recovery": 1, "drop": "shrapnel" }
+    }
   },
   {
     "type": "AMMO",

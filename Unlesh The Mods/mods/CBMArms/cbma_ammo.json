@@ -19,7 +19,7 @@
     "damage": { "damage_type": "stab", "amount": 0, "armor_penetration": 0 },
     "dispersion": 0,
     "recoil": 19800,
-    "loudness" : 325,
+    "loudness": 325,
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "MUZZLE_SMOKE", "WIDE" ]
   },
   {
@@ -42,7 +42,7 @@
     "damage": { "damage_type": "stab", "amount": 65, "armor_penetration": 10 },
     "dispersion": 30,
     "recoil": 0,
-    "loudness" : 25,
+    "loudness": 25,
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
@@ -53,11 +53,7 @@
     "name_plural": "steel electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of steel. It is a standard projectile with stable performance.",
     "material": [ "steel" ],
-    "relative": {
-      "damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 5 },
-      "range": 5,
-      "dispersion": -15
-    }
+    "relative": { "damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 5 }, "range": 5, "dispersion": -15 }
   },
   {
     "id": "cbma_em_rail_alloy",
@@ -67,11 +63,7 @@
     "name_plural": "superalloy electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of superalloy. It is a projectile with high performance due to its excellent electrical and chemical properties.",
     "material": [ "superalloy" ],
-    "relative": {
-      "damage": { "damage_type": "stab", "amount": 55, "armor_penetration": 30 },
-      "range": 15,
-      "dispersion": -30
-    }
+    "relative": { "damage": { "damage_type": "stab", "amount": 55, "armor_penetration": 30 }, "range": 15, "dispersion": -30 }
   },
   {
     "id": "cbma_em_railmag",

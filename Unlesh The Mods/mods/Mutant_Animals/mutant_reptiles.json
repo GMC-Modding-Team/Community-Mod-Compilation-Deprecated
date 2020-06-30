@@ -63,16 +63,13 @@
     "anger_triggers": [ "PLAYER_WEAK" ],
     "fear_triggers": [ "FIRE" ],
     "placate_triggers": [ "MEAT" ],
-    "special_attacks":[
+    "special_attacks": [
       {
         "type": "leap",
         "cooldown": 20,
         "accuracy": 10,
-        "max_range": 15, 
-        "damage_max_instance": [
-          { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
-          { "damage_type": "bash", "amount": 20 }
-        ],
+        "max_range": 15,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 }, { "damage_type": "bash", "amount": 20 } ],
         "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ]
       }
     ]
@@ -99,7 +96,7 @@
     "aggression": 30,
     "morale": 50,
     "anger_triggers": [ "PLAYER_CLOSE" ],
-    "fear_triggers": [ "FIRE",  "SOUND", "HURT" ],
+    "fear_triggers": [ "FIRE", "SOUND", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "attack_effs": [ { "id": "poison", "chance": 25, "duration": 100 } ]
   },
@@ -144,7 +141,7 @@
     "vision_day": 50,
     "vision_night": 10,
     "upgrades": { "half_life": 364, "into": "mon_gamma_toad" },
-    "special_attacks": [  
+    "special_attacks": [
       [ "SMASH", 100 ],
       [ "RANGED_PULL", 10 ],
       [ "GRAB_DRAG", 10 ],
@@ -180,7 +177,7 @@
     "vision_day": 50,
     "vision_night": 10,
     "emit_fields": [ "emit_nuclear_trail" ],
-    "special_attacks": [  
+    "special_attacks": [
       [ "SHOCKSTORM", 300 ],
       [ "SMASH", 30 ],
       [ "RANGED_PULL", 10 ],

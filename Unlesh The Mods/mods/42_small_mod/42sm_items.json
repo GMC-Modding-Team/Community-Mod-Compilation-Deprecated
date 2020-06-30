@@ -6,11 +6,11 @@
     "name": { "str": "survivor ammo duster" },
     "description": "A Kevlar armored custom full-length duster, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
     "copy-from": "duster_survivor",
-	"symbol": "[",
+    "symbol": "[",
     "looks_like": "duster_survivor",
     "color": "brown",
     "storage": "5 L",
-	"use_action": {
+    "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
@@ -26,12 +26,12 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str": "sleeveless survivor ammo duster" },
-	"description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
+    "description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
     "copy-from": "sleeveless_duster_survivor",
     "symbol": "[",
     "looks_like": "sleeveless_duster_survivor",
     "color": "brown",
-	"storage": "5 L",
+    "storage": "5 L",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
@@ -53,7 +53,7 @@
     "symbol": "[",
     "looks_like": "trenchcoat_survivor",
     "color": "brown",
-	"storage": "5 L",
+    "storage": "5 L",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
@@ -97,9 +97,7 @@
     "symbol": "[",
     "looks_like": "gloves_lsurvivor",
     "color": "green",
-    "extend": {
-		"flags": [ "ALLOWS_NATURAL_ATTACKS" ]
-	}
+    "extend": { "flags": [ "ALLOWS_NATURAL_ATTACKS" ] }
   },
   {
     "id": "headlight_atomic",
@@ -107,7 +105,7 @@
     "name": { "str": "atomic headlight" },
     "description": "A custom vehicle headlight powered by the magic of nuclear decay, focused to light up the way.",
     "symbol": ",",
-	"looks_like": "car_headlight",
+    "looks_like": "car_headlight",
     "material": "plastic",
     "category": "veh_parts",
     "weight": "2 kg",
@@ -120,7 +118,7 @@
     "name": { "str": "wide-angle atomic headlight" },
     "description": "A custom wide-angle vehicle headlight powered by the magic of nuclear decay, focused to light up the way.",
     "symbol": ",",
-	"looks_like": "car_headlight",
+    "looks_like": "car_headlight",
     "weight": "3 kg",
     "volume": "3 L",
     "price": 8000,
@@ -132,7 +130,7 @@
     "name": { "str": "reinforced atomic headlight" },
     "description": "A custom vehicle headlight powered by the magic of nuclear decay with a cage built around it to protect it from damage without reducing its effectiveness.",
     "weight": "2400 g",
-	"volume": "2500 ml",
+    "volume": "2500 ml",
     "to_hit": -2,
     "color": "light_cyan",
     "symbol": ",",
@@ -158,8 +156,8 @@
     "description": "A larger fridge for keeping food cool.  Provides some insulation from outside weather.",
     "weight": "50803 g",
     "volume": "200 L",
-	"price": 100000,
-	"insulation": 2
+    "price": 100000,
+    "insulation": 2
   },
   {
     "type": "GENERIC",
