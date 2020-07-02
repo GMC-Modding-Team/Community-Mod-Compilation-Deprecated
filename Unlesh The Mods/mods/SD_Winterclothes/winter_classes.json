@@ -1,20 +1,16 @@
 [
   {
     "type": "profession_item_substitutions",
-    "substitutions": [
-      {
-        "traits": [ "WOOLALLERGY" ],
-        "sub": [
-          [ "mittens", "gloves_leather" ],
-          [ "beret_wool", "beret" ],
-          [ "greatcoat", "winter_jacket_army" ],
-          [ "socks_wool", "stockings" ],
-          [ "scarf", "knit_scarf" ],
-          [ "scarf_long", "long_knit_scarf" ],
-          [ "scarf_loose", "knit_scarf_loose" ],
-          [ "scarf_long_loose", "long_knit_scarf_loose" ]
-        ]
-      }
+
+    "trait": "WOOLALLERGY",
+    "sub": [
+      { "item": "mittens", "new": [ "gloves_leather" ] },
+      { "item": "beret_wool", "new": [ "beret" ] },
+      { "item": "greatcoat", "new": [ "winter_jacket_army" ] },
+      { "item": "scarf", "new": [ "knit_scarf" ] },
+      { "item": "scarf_long", "new": [ "long_knit_scarf" ] },
+      { "item": "scarf_loose", "new": [ "knit_scarf_loose" ] },
+      { "item": "scarf_long_loose", "new": [ "long_knit_scarf_loose" ] }
     ]
   },
   {
@@ -192,7 +188,7 @@
           },
           { "item": "sw22mag", "ammo-item": "22_lr", "charges": 10 },
           { "item": "sw22mag", "ammo-item": "22_lr", "charges": 10 },
-          { "item": "22_lr", "charges": "50" },
+          { "item": "22_lr", "charges": 50 },
           { "item": "cell_phone", "charges": 100 }
         ]
       },
