@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "SECRO_TENDRIL_TENT_THRESHOLD_weapon",
     "type": "GENERIC",
     "symbol": "?",
@@ -16,13 +17,17 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [ { "value": "STRENGTH", "add": 1, "//": "Multiply by 2, and we'll get the result." }, { "value": "BONUS_BLOCK", "add": 1 }, { "value": "ATTACK_SPEED", "multiply": -0.025 } ]
+          "values": [
+            { "value": "STRENGTH", "add": 1, "//": "Multiply by 2, and we'll get the result." },
+            { "value": "BONUS_BLOCK", "add": 1 },
+            { "value": "ATTACK_SPEED", "multiply": -0.025 }
+          ]
         }
       ]
     },
     "category": "secro_cores"
   },
-	{
+  {
     "id": "SECRO_BLADE_SHARP_THRESHOLD_item",
     "type": "GENERIC",
     "category": "secro_cores",
@@ -60,7 +65,12 @@
       "passive_effects": [
         {
           "condition": "ALWAYS",
-          "values": [ { "value": "SPEED", "multiply": -0.01 }, { "value": "ATTACK_SPEED", "multiply": -0.015 }, { "value": "BONUS_DODGE", "add": -1 }, { "value": "BONUS_BLOCK", "add": 1 } ]
+          "values": [
+            { "value": "SPEED", "multiply": -0.01 },
+            { "value": "ATTACK_SPEED", "multiply": -0.015 },
+            { "value": "BONUS_DODGE", "add": -1 },
+            { "value": "BONUS_BLOCK", "add": 1 }
+          ]
         }
       ]
     },

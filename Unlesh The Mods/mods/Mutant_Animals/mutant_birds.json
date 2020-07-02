@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "mon_bird_mutant_songbird",
     "copy-from": "mon_songbird",
     "type": "MONSTER",
@@ -239,9 +239,9 @@
     "attack_effs": [ { "id": "downed", "chance": 20, "duration": 10 }, { "id": "grabbed", "chance": 50 } ],
     "anger_triggers": [ "PLAYER_CLOSE" ],
     "fear_triggers": [ "HURT" ],
-    "vision_night": 10,  
+    "vision_night": 10,
     "harvest": "bird_large",
-    "reproduction": { "baby_egg": "egg_bird_mutant_elephant", "baby_count": 1, "baby_timer": 10 }  
+    "reproduction": { "baby_egg": "egg_bird_mutant_elephant", "baby_count": 1, "baby_timer": 10 }
   },
   {
     "id": "mon_bird_mutant_elephant_chick",

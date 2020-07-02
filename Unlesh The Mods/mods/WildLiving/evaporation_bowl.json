@@ -29,11 +29,11 @@
     "time": "80 m",
     "autolearn": true,
     "components": [
-        [ [ "water", 3 ], [ "water_clean", 3 ] ], 
-        [ [ "clay_lump", 15 ] ], 
-        [ [ "cordage_short", 2, "LIST" ] ],
-        [ [ "leather", 3 ], [ "fur", 3 ], [ "birchbark", 9 ] ],
-        [ [ "adhesive", 2, "LIST" ] ]
+      [ [ "water", 3 ], [ "water_clean", 3 ] ],
+      [ [ "clay_lump", 15 ] ],
+      [ [ "cordage_short", 2, "LIST" ] ],
+      [ [ "leather", 3 ], [ "fur", 3 ], [ "birchbark", 9 ] ],
+      [ [ "adhesive", 2, "LIST" ] ]
     ]
   },
   {
@@ -47,10 +47,7 @@
     "difficulty": 1,
     "time": "5 seconds",
     "autolearn": true,
-    "components": [
-      [ [ "salt_water", 80 ] ],
-      [ [ "clay_solution_extractor", 1 ] ]
-    ]
+    "components": [ [ [ "salt_water", 80 ] ], [ [ "clay_solution_extractor", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -63,11 +60,7 @@
     "difficulty": 1,
     "time": "5 seconds",
     "autolearn": true,
-    "components": [
-      [ [ "starch_water", 40 ] ],
-      [ [ "water", 40 ], [ "water_clean", 40 ] ],
-      [ [ "clay_solution_extractor", 1 ] ]
-    ]
+    "components": [ [ [ "starch_water", 40 ] ], [ [ "water", 40 ], [ "water_clean", 40 ] ], [ [ "clay_solution_extractor", 1 ] ] ]
   },
   {
     "id": "clay_solution_extractor_salt_water",
@@ -143,9 +136,7 @@
     "byproducts": [ [ "clay_solution_extractor" ] ],
     "time": "2 minutes",
     "autolearn": true,
-    "components": [
-      [ [ "clay_solution_extractor_salt", 1 ] ]
-    ]
+    "components": [ [ [ "clay_solution_extractor_salt", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -161,8 +152,6 @@
     "byproducts": [ [ "clay_solution_extractor" ] ],
     "time": "2 minutes",
     "autolearn": true,
-    "components": [
-      [ [ "clay_solution_extractor_flour", 1 ] ]
-    ]
+    "components": [ [ [ "clay_solution_extractor_flour", 1 ] ] ]
   }
 ]

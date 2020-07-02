@@ -1,4 +1,4 @@
-[  
+[
   {
     "id": "sonic_extra",
     "type": "SPELL",
@@ -29,7 +29,7 @@
     "max_level": 20,
     "min_damage": 110,
     "max_damage": 220,
-    "damage_increment": 3.10,
+    "damage_increment": 3.1,
     "min_aoe": 1,
     "max_aoe": 12,
     "aoe_increment": 1.2
@@ -46,7 +46,7 @@
     "max_level": 20,
     "min_damage": 80,
     "max_damage": 165,
-    "damage_increment": 4.10,
+    "damage_increment": 4.1,
     "min_aoe": 1,
     "max_aoe": 7,
     "aoe_increment": 1.2
@@ -84,7 +84,7 @@
       { "id": "sonic_demolition_pulse", "hit_self": false, "max_level": 20 }
     ],
     "valid_targets": [ "ground" ],
-	"spell_class": "NONE",
+    "spell_class": "NONE",
     "flags": [ "CONCENTRATE", "NO_LEGS", "IGNORE_WALLS", "SILENT" ],
     "effect_str": "stunned",
     "min_damage": 45,
@@ -119,7 +119,7 @@
       { "id": "sonic_blast_pulse", "hit_self": false, "max_level": 20 }
     ],
     "valid_targets": [ "ground" ],
-	"spell_class": "NONE",
+    "spell_class": "NONE",
     "flags": [ "CONCENTRATE", "NO_LEGS", "IGNORE_WALLS", "SILENT" ],
     "effect_str": "stunned",
     "min_damage": 25,
@@ -137,7 +137,7 @@
     "energy_source": "MANA",
     "base_energy_cost": 315,
     "final_energy_cost": 150,
-    "energy_increment": -8.50,
+    "energy_increment": -8.5,
     "min_duration": 2000,
     "max_duration": 20000,
     "duration_increment": 900

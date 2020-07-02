@@ -25,7 +25,7 @@
     "vision_day": 16,
     "vision_night": 16,
     "dodge": 5,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "revert_to_itype": "bot_nosferatu_meirin",
     "special_attacks": [
       {
@@ -43,17 +43,7 @@
     ],
     "death_drops": "mon_nosferatu_meirin",
     "death_function": [ "BROKEN" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "WARM",
-      "NO_BREATHE",
-      "BONES",
-      "HARDTOSHOOT",
-      "PATH_AVOID_DANGER_2",
-      "FLIES"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "NO_BREATHE", "BONES", "HARDTOSHOOT", "PATH_AVOID_DANGER_2", "FLIES" ]
   },
   {
     "id": "mon_nosferatu_maid",
@@ -80,21 +70,12 @@
     "vision_day": 16,
     "vision_night": 16,
     "armor_electric": 3,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_maid",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "death_function": [ "BROKEN" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "FLIES"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "HIT_AND_RUN", "KEENNOSE", "FLIES" ]
   },
   {
     "id": "mon_hobgoblin",
@@ -118,7 +99,7 @@
     "revert_to_itype": "bot_hobgoblin",
     "vision_day": 16,
     "vision_night": 16,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "anger_triggers": [  ],
     "death_drops": "mon_hobgoblin",
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
@@ -149,22 +130,12 @@
     "revert_to_itype": "bot_nosferatu_patchouli_knowledge",
     "vision_day": 16,
     "vision_night": 16,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_patchouli_knowledge",
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "special_attacks": [ [ "PARROT", 200 ] ],
     "death_function": [ "GUILT", "BROKEN" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "BONES",
-      "IMMOBILE",
-      "HARDTOSHOOT",
-      "PATH_AVOID_DANGER_2",
-      "FLIES",
-      "SUNDEATH"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "BONES", "IMMOBILE", "HARDTOSHOOT", "PATH_AVOID_DANGER_2", "FLIES", "SUNDEATH" ]
   },
   {
     "id": "mon_nosferatu_patchouli_knowledge2",
@@ -192,7 +163,7 @@
     "revert_to_itype": "bot_nosferatu_patchouli_knowledge2",
     "vision_day": 20,
     "vision_night": 20,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "special_attacks": [
       {
         "type": "gun",
@@ -247,7 +218,7 @@
     "armor_electric": 6,
     "vision_day": 16,
     "vision_night": 16,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_little_devil",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "STALK", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "BROKEN" ],
@@ -291,21 +262,11 @@
     "armor_electric": 2,
     "vision_day": 20,
     "vision_night": 20,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "death_drops": "mon_nosferatu_izayoi_sakuya",
     "anger_triggers": [ "HURT", "STALK", "PLAYER_CLOSE" ],
     "death_function": [ "BROKEN" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "PATH_AVOID_DANGER_2",
-      "FLIES",
-      "BLEED",
-      "HARDTOSHOOT",
-      "HIT_AND_RUN",
-      "SUNDEATH"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "FLIES", "BLEED", "HARDTOSHOOT", "HIT_AND_RUN", "SUNDEATH" ]
   },
   {
     "id": "mon_nosferatu_remilia_scarlet",
@@ -335,7 +296,7 @@
     "armor_electric": 6,
     "vision_day": 16,
     "vision_night": 16,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "special_attacks": [
       {
         "id": "scratch",
@@ -392,7 +353,7 @@
     "armor_electric": 6,
     "vision_day": 16,
     "vision_night": 16,
-	"regenerates_in_dark": true,
+    "regenerates_in_dark": true,
     "special_attacks": [
       {
         "type": "gun",

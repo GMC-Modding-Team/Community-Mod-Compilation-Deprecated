@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "secro_flesh_bow_sword",
     "type": "GENERIC",
     "symbol": "/",
@@ -35,15 +36,7 @@
     "bashing": 6,
     "cutting": 28,
     "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WIELD",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ITEM_DAMAGE_CUT", "multiply": 0.15 }
-          ]
-        }
-      ]
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_CUT", "multiply": 0.15 } ] } ]
     },
     "qualities": [ [ "COOK", 1 ], [ "BUTCHER", 10 ] ]
   }
