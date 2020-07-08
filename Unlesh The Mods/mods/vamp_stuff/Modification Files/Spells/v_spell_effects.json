@@ -108,79 +108,121 @@
   {
     "type": "effect_type",
     "id": "onfire",
-    "removes_effects": [ "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "v_spell_elem_flame_curse" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "hit_by_player",
-    "//": "Freezing effects are removed with just a hit.",
-    "removes_effects": [ "v_spell_elem_freeze", "v_spell_elem_flashfreeze" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "v_spell_elem_curse",
-    "name": [ "Cursed" ],
-    "desc": [ "You take more elemental damage!" ],
-    "show_in_info": true,
-    "base_mods": { "environmental_protection": [ -4 ] }
-  },
-  {
-    "type": "effect_type",
-    "id": "v_spell_elem_freeze",
-    "name": [ "Freezed" ],
-    "desc": [ "Can't move at all!" ],
-    "show_in_info": true,
-    "base_mods": { "speed_mod": [ -1000 ] },
-    "removes_effects": [ "hit_by_player", "onfire", "v_spell_elem_flashfreeze", "v_spell_elem_flame_curse" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "v_spell_elem_null",
-    "removes_effects": [ "onfire", "zapped", "cold", "hot", "v_spell_elem_flame_curse", "v_spell_elem_freeze", "v_spell_elem_flashfreeze" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "v_spell_elem_bar",
-    "blocks_effects": [
-      "onfire",
-      "zapped",
-      "cold",
-      "hot",
-      "v_spell_elem_flame_curse",
-      "v_spell_elem_freeze",
-      "v_spell_elem_flashfreeze",
-      "v_spell_elem_flame_frost"
+    "removes_effects": [
+      "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "v_spell_elem_flame_curse"
     ]
   },
   {
     "type": "effect_type",
-    "id": "v_spell_elem_flame_curse",
-    "name": [ "On Fire - Cursed Flames" ],
-    "desc": [ "The baneful flames melt you internally! OMFG!" ],
-    "main_parts_only": true,
-    "show_in_info": true,
-    "max_duration": "40 s",
-    "base_mods": { "hurt_min": [ 1 ], "hurt_max": [ 4 ], "hurt_chance": [ 2 ] },
-    "removes_effects": [ "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "onfire", "v_spell_elem_flame_frost" ]
+    "id": "hit_by_player",
+    "note": "Freezing effects are removed with just a hit.",
+    "removes_effects": [
+      "v_spell_elem_freeze", "v_spell_elem_flashfreeze"
+    ]
   },
-  {
-    "type": "effect_type",
-    "id": "v_spell_elem_flashfreeze",
-    "name": [ "Frozen" ],
-    "desc": [ "It is impossible to move!" ],
-    "show_in_info": true,
-    "base_mods": { "speed_mod": [ -10000 ] },
-    "removes_effects": [ "hit_by_player", "v_spell_elem_freeze", "onfire", "v_spell_elem_flame_curse" ]
-  },
-  {
-    "type": "effect_type",
-    "id": "v_spell_elem_flame_frost",
-    "name": [ "On Fire - Frostburn" ],
-    "desc": [ "Your body suffers from scalding cold! OMFG!" ],
-    "main_parts_only": true,
-    "show_in_info": true,
-    "max_duration": "30 s",
-    "base_mods": { "hurt_min": [ 1 ], "hurt_max": [ 2 ], "speed_mod": [ -30 ], "hurt_chance": [ 2 ] },
-    "removes_effects": [ "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "onfire", "v_spell_elem_flame_curse" ]
-  }
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_curse",
+        "name": [
+            "Cursed"
+        ],
+        "desc": [
+            "You take more elemental damage!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+            "environmental_protection": [-4]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_freeze",
+        "name": [
+            "Freezed"
+        ],
+        "desc": [
+            "Can't move at all!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+      "speed_mod": [ -1000 ]
+    },
+    "removes_effects": [
+      "hit_by_player", "onfire", "v_spell_elem_flashfreeze", "v_spell_elem_flame_curse"
+    ]
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_null",
+    "removes_effects": [
+      "onfire", "zapped", "cold", "hot", "v_spell_elem_flame_curse", "v_spell_elem_freeze", "v_spell_elem_flashfreeze"
+    ]
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_bar",
+    "blocks_effects": [
+      "onfire", "zapped", "cold", "hot", "v_spell_elem_flame_curse", "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "v_spell_elem_flame_frost"
+    ]
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_flame_curse",
+        "name": [
+            "On Fire - Cursed Flames"
+        ],
+        "desc": [
+            "The baneful flames melt you internally! OMFG!"
+        ],
+        "main_parts_only": true,
+        "show_in_info": true,
+        "max_duration": "40 s",
+        "base_mods": {
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 4 ],
+      "hurt_chance": [ 2 ]
+    },
+    "removes_effects": [
+      "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "onfire", "v_spell_elem_flame_frost"
+    ]
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_flashfreeze",
+        "name": [
+            "Frozen"
+        ],
+        "desc": [
+            "It is impossible to move!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+      "speed_mod": [ -10000 ]
+    },
+    "removes_effects": [
+      "hit_by_player", "v_spell_elem_freeze", "onfire", "v_spell_elem_flame_curse"
+    ]
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_elem_flame_frost",
+        "name": [
+            "On Fire - Frostburn"
+        ],
+        "desc": [
+            "Your body suffers from scalding cold! OMFG!"
+        ],
+        "main_parts_only": true,
+        "show_in_info": true,
+        "max_duration": "30 s",
+        "base_mods": {
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 2 ],
+      "speed_mod": [ -30 ],
+      "hurt_chance": [ 2 ]
+    },
+    "removes_effects": [
+      "v_spell_elem_freeze", "v_spell_elem_flashfreeze", "onfire", "v_spell_elem_flame_curse"
+    ]
+    }
 ]
