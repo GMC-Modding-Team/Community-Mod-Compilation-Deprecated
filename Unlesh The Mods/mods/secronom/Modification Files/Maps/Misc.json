@@ -125,5 +125,19 @@
     },
     "om_terrain": [ "carrion_forest" ],
     "type": "mapgen"
+  },
+  {
+    "//": "Make flesh weaver spawn using mapgen.",
+    "method": "json",
+    "object": {
+      "predecessor_mapgen": "forest",
+      "terrain": {  },
+      "place_monster": [
+        { "monster": "mon_fleshweaver", "x": [ 6, 17 ], "y": [ 6, 17 ], "friendly": true }
+      ],
+      "furniture": {  }
+    },
+    "om_terrain": [ "fleshweaver_spawn" ],
+    "type": "mapgen"
   }
 ]

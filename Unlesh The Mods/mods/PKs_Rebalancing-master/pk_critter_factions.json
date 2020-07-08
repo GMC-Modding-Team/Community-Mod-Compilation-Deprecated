@@ -124,7 +124,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "zombie",
-    "friendly": [ "blob", "cult", "zed_doom" ],
+    "friendly": [ "blob", "cult", "zed_doom", "zombie_aquatic" ],
     "neutral": [ "small_animal", "insect", "mutant_small", "cat", "rat" ],
     "by_mood": [ "ant", "spider_wolf", "wasp", "spore" ]
   },
@@ -167,8 +167,8 @@
   {
     "type": "MONSTER_FACTION",
     "name": "science",
-    "base_faction": "bot",
-    "neutral": [ "bot", "small_animal", "military", "defense_bot" ]
+    "base_faction": "zombie",
+    "neutral": [ "bot", "small_animal", "military", "defense_bot", "utility_bot" ]
   },
   {
     "type": "MONSTER_FACTION",

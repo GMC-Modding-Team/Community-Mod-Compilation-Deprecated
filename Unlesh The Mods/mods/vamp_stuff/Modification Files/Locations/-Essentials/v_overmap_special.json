@@ -3,7 +3,7 @@
     "id": "Wasteland Outskirts",
     "locations": [ "forest" ],
     "flags": [ "UNIQUE" ],
-    "occurrences": [ 0, 2 ],
+    "occurrences": [ 25, 100 ],
     "overmaps": [
       { "overmap": "wo3_north", "point": [ 0, 0, 0 ] },
       { "overmap": "wo2_north", "point": [ 1, 0, 0 ] },
@@ -37,7 +37,7 @@
     "id": "Vampire Cove",
     "locations": [ "forest" ],
     "flags": [ "UNIQUE" ],
-    "occurrences": [ 50, 100 ],
+    "occurrences": [ 20, 100 ],
     "overmaps": [
       { "overmap": "vampcave_entrance_north", "point": [ 0, 0, 0 ] },
       { "overmap": "vampcave_corridor1_north", "point": [ 0, 0, -1 ] },
@@ -49,21 +49,21 @@
   {
     "id": "Pedestal - Bloodrune",
     "locations": [ "forest", "field" ],
-    "occurrences": [ 0, 15 ],
+    "occurrences": [ 0, 3 ],
     "overmaps": [ { "overmap": "bloodrune_pedestal_north", "point": [ 0, 0, 0 ] } ],
     "type": "overmap_special"
   },
   {
     "id": "Gravesite - Wild",
     "locations": [ "forest", "field" ],
-    "occurrences": [ 0, 10 ],
+    "occurrences": [ 0, 5 ],
     "overmaps": [ { "overmap": "gravesite1_north", "point": [ 0, 0, 0 ] } ],
     "type": "overmap_special"
   },
   {
     "id": "bhole",
     "locations": [ "field" ],
-    "occurrences": [ 0, 15 ],
+    "occurrences": [ 0, 3 ],
     "overmaps": [
       { "overmap": "bloodhole_north", "point": [ 0, 0, 0 ] },
       { "overmap": "bloodhole_bottom_north", "point": [ 0, 0, -1 ] },
@@ -74,7 +74,7 @@
   {
     "id": "Vampirus",
     "locations": [ "forest" ],
-    "occurrences": [ 0, 15 ],
+    "occurrences": [ 0, 2 ],
     "overmaps": [ { "overmap": "vampirus", "point": [ 0, 0, 0 ] }, { "overmap": "vampirus_prison_up", "point": [ 0, 0, -1 ] } ],
     "type": "overmap_special"
   },
@@ -159,7 +159,7 @@
     "id": "Ghost VIllage 2",
     "locations": [ "forest" ],
     "flags": [ "UNIQUE" ],
-    "occurrences": [ 0, 2 ],
+    "occurrences": [ 50, 100 ],
     "overmaps": [
       { "overmap": "ghost_townchurch_north", "point": [ 0, 0, 0 ] },
       { "overmap": "ghost_towngardenroad_north", "point": [ 0, 1, 0 ] },
@@ -187,7 +187,7 @@
     "id": "Ghost Town",
     "locations": [ "forest" ],
     "flags": [ "UNIQUE" ],
-    "occurrences": [ 0, 4 ],
+    "occurrences": [ 25, 100 ],
     "overmaps": [
       { "overmap": "ghost_townchurch_north", "point": [ 0, 0, 0 ] },
       { "overmap": "ghost_towngardenroad_north", "point": [ 0, 1, 0 ] },

@@ -1,6 +1,5 @@
 [
   {
-    "note": "Flesh heap from flesh city, but less damaging.",
     "id": "mon_sflesh_camp_turret",
     "type": "MONSTER",
     "name": "flesh heap",
@@ -26,7 +25,7 @@
     "special_attacks": [
       {
         "type": "spell",
-        "spell_data": { "id": "mon_sflesh_zombie_turret_target" },
+        "spell_data": { "id": "mon_sflesh_camp_turret_target" },
         "cooldown": 8,
         "monster_message": "<color_light_red>%1$s pulsates...</color>"
       }
@@ -61,9 +60,9 @@
     "special_attacks": [
       {
         "type": "spell",
-        "spell_data": { "id": "mon_sflesh_zombie_turret_target" },
-        "cooldown": 8,
-        "monster_message": "<color_light_red>%1$s pulsates...</color>"
+        "spell_data": { "id": "mon_sflesh_camp_turret_blade_target" },
+        "cooldown": 6,
+        "monster_message": "<color_light_red>%1$s undulates</color>"
       }
     ],
     "death_function": [ "MELT" ],
@@ -95,9 +94,9 @@
     "special_attacks": [
       {
         "type": "spell",
-        "spell_data": { "id": "mon_sflesh_zombie_turret_target" },
-        "cooldown": 8,
-        "monster_message": "<color_light_red>%1$s pulsates...</color>"
+        "spell_data": { "id": "mon_sflesh_camp_turret_tendril_target" },
+        "cooldown": 5,
+        "monster_message": "<color_light_red>%1$s writhes!</color>"
       }
     ],
     "death_function": [ "MELT" ],
@@ -129,9 +128,9 @@
     "special_attacks": [
       {
         "type": "spell",
-        "spell_data": { "id": "mon_sflesh_zombie_turret_target" },
-        "cooldown": 8,
-        "monster_message": "<color_light_red>%1$s pulsates...</color>"
+        "spell_data": { "id": "mon_sflesh_camp_turret_mouth_target" },
+        "cooldown": 30,
+        "monster_message": "<color_light_red>%1$s shakes erratically...</color>"
       }
     ],
     "death_function": [ "MELT" ],
@@ -164,9 +163,9 @@
     "special_attacks": [
       {
         "type": "spell",
-        "spell_data": { "id": "mon_sflesh_zombie_turret_target" },
-        "cooldown": 8,
-        "monster_message": "<color_light_red>%1$s pulsates...</color>"
+        "spell_data": { "id": "mon_sflesh_camp_turret_unify_target" },
+        "cooldown": 35,
+        "monster_message": "<color_light_red>%1$s trembles!</color>"
       }
     ],
     "death_function": [ "MELT" ],
@@ -193,15 +192,15 @@
     "melee_dice": 3,
     "melee_dice_sides": 8,
     "melee_cut": 2,
-    "armor_bash": 16,
-    "armor_cut": 6,
+    "armor_bash": 12,
+    "armor_cut": 2,
     "harvest": "exempt",
     "special_attacks": [
       {
         "type": "spell",
-        "spell_data": { "id": "mon_sflesh_zombie_turret_target" },
+        "spell_data": { "id": "mon_sflesh_camp_turret_hravager_target" },
         "cooldown": 8,
-        "monster_message": "<color_light_red>%1$s pulsates...</color>"
+        "monster_message": "<color_yellow>%1$s writhes wildly!</color>"
       }
     ],
     "death_function": [ "MELT" ],

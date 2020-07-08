@@ -304,5 +304,17 @@
     "max_range": 1,
     "min_duration": 1,
     "max_duration": 1
+  },
+  {
+    "id": "SECRONOM_FLESH_BIO_construction_pp_furnbuild",
+    "type": "SPELL",
+    "name": "Build",
+    "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster builds at the marked spot.'",
+    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "valid_targets": [ "ground", "self" ],
+    "effect": "ter_transform",
+    "effect_str": "secro_furn_build",
+    "min_aoe": 8,
+    "max_aoe": 8
   }
 ]

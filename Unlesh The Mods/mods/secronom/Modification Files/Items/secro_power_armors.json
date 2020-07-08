@@ -38,14 +38,14 @@
         }
       ]
     },
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "WATCH", "THERMOMETER", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "WATCH", "THERMOMETER", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_flesh",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "flesh vessel" },
-    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel\" takes advantage of the flesh's adaptive cell structure and its capability to respond from one's mind, but due to its extreme instability, the suit requires an additional module that prevents the flesh from slowly devouring its user. Limited in interface features, it excels on dealing any situation thanks to its morphing and forming capability.\n\nSecronom exoskeleton type \"Vessel\" provides:\n<color_white>Stamina regeneration: <color_light_green>+3%</color>\nMaximum health: <color_light_green>+5%</color>\nMetabolism: <color_red>+10%</color></color>",
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel\" takes advantage of the flesh's adaptive cell structure and its capability to respond from one's mind, but due to its extreme instability, the wearer is forced to feed it with flesh, and if not, it'll devour them little by little. Limited in interface features, it excels on dealing any situation thanks to its morphing and forming capability.\n\nSecronom exoskeleton type \"Vessel\" provides:\n<color_white>Stamina regeneration: <color_light_green>+3%</color>\nMaximum health: <color_light_green>+5%</color>\nMetabolism: <color_light_green>-2.5%</color></color>",
     "weight": "18400 g",
     "volume": "21 L",
     "price": 32300000,
@@ -80,23 +80,23 @@
           "values": [
             { "value": "REGEN_STAMINA", "multiply": 0.015 },
             { "value": "MAX_HP", "multiply": 0.025 },
-            { "value": "METABOLISM", "multiply": 0.05 }
+            { "value": "METABOLISM", "multiply": -0.125 }
           ],
-          "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] } ] }
+          "ench_effects": [ { "effect": "secro_power_armor_flesh_devouring_note", "intensity": 1 } ]
         }
       ]
     },
     "ammo": "secro_flesh",
-    "max_charges": 100,
+"max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_flesh_fite",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "flesh vessel \"Warrior\"" },
-    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Warrior)\" were developed using potent mutagens, and so far, its efficiency on combat has significantly improved. Although its morphing and forming capability have become limited, it has an outstanding performance in battles. Like any other vessel types, it requires a module to be used without deadly risks.\n\nSecronom exoskeleton type \"Vessel (Warrior)\" provides:\n<color_white>Strength: <color_light_green>+2</color>\nAttack speed: <color_light_green>+5%</color>\nMaximum health: <color_light_green>+7.5%</color>\nMetabolism: <color_red>+10%</color></color>",
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Warrior)\" were developed using potent mutagens, and so far, its efficiency on combat has significantly improved. Although its morphing and forming capability have become limited, it has an outstanding performance in battles. Like any other vessel types, it requires the wearer to feed it with flesh.\n\nSecronom exoskeleton type \"Vessel (Warrior)\" provides:\n<color_white>Strength: <color_light_green>+2</color>\nAttack speed: <color_light_green>+5%</color>\nMaximum health: <color_light_green>+7.5%</color>\nMetabolism: <color_light_green>-2%</color></color>",
     "weight": "19900 g",
     "volume": "22 L",
     "price": 32300000,
@@ -132,23 +132,23 @@
             { "value": "STRENGTH", "add": 1 },
             { "value": "ATTACK_SPEED", "multiply": 0.015 },
             { "value": "MAX_HP", "multiply": 0.0375 },
-            { "value": "METABOLISM", "multiply": 0.05 }
+            { "value": "METABOLISM", "multiply": 0.01 }
           ],
-          "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] } ] }
+          "ench_effects": [ { "effect": "secro_power_armor_flesh_devouring_note", "intensity": 1 } ]
         }
       ]
     },
     "ammo": "secro_flesh",
-    "max_charges": 100,
+"max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_flesh_tank",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "flesh vessel \"Juggernaut\"" },
-    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Juggernaut)\" is a conglomeration of bones and flesh, and an outcome of prolonged mutations. With bone plates covering the entirety of its surface, it is suited for frontline assaults. Like any other vessel types, it requires a module to be used without deadly risks.\n\nSecronom exoskeleton type \"Vessel (Juggernaut)\" provides:\n<color_white>Strength: <color_light_green>+4</color>\nMaximum health: <color_light_green>+12.5%</color>\nSpeed: <color_red>-5%</color>\nMovecost: <color_red>+7.5%</color>\nMetabolism: <color_red>+15%</color></color>",
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Juggernaut)\" is a conglomeration of bones and flesh, and an outcome of prolonged mutations. With bone plates covering the entirety of its surface, it is suited for frontline assaults. Like any other vessel types, it requires the wearer to feed it with flesh.\n\nSecronom exoskeleton type \"Vessel (Juggernaut)\" provides:\n<color_white>Strength: <color_light_green>+4</color>\nMaximum health: <color_light_green>+12.5%</color>\nSpeed: <color_red>-5%</color>\nMovecost: <color_red>+7.5%</color>\nMetabolism: <color_light_green>-5%</color></color>",
     "weight": "26400 g",
     "volume": "30 L",
     "price": 32300000,
@@ -185,23 +185,23 @@
             { "value": "MOVE_COST", "multiply": 0.0375 },
             { "value": "SPEED", "multiply": -0.025 },
             { "value": "MAX_HP", "multiply": 0.6125 },
-            { "value": "METABOLISM", "multiply": 0.075 }
+            { "value": "METABOLISM", "multiply": -0.025 }
           ],
-          "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] } ] }
+          "ench_effects": [ { "effect": "secro_power_armor_flesh_devouring_note", "intensity": 1 } ]
         }
       ]
     },
     "ammo": "secro_flesh",
-    "max_charges": 100,
+"max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_flesh_coward",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "flesh vessel \"Agile\"" },
-    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Agile)\" is an outcome of mutagenic devolution, having thinner fibers and flesh webbings. Its greatly reduced physical protection has also made it extremely lighter than any other types: the vessel focuses on bringing the wearer speed in order to outrun its foe. Like all other flesh vessels, it requires a module to be used without deadly risks.\n\nSecronom exoskeleton type \"Vessel (Agile)\" provides:\n<color_white>Speed: <color_light_green>+10</color>\nAttack speed: <color_light_green>+10%</color>\nMovecost: <color_light_green>-5%</color>\nStamina regeneration: <color_light_green>7.5%</color>\nMetabolism: <color_red>+5%</color></color>",
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Agile)\" is an outcome of mutagenic devolution, having thinner fibers and flesh webbings. Its greatly reduced physical protection has also made it extremely lighter than any other types: the vessel focuses on bringing the wearer speed in order to outrun its foe. Like all other flesh vessels, it requires the wearer to feed it with flesh.\n\nSecronom exoskeleton type \"Vessel (Agile)\" provides:\n<color_white>Speed: <color_light_green>+10</color>\nAttack speed: <color_light_green>+10%</color>\nMovecost: <color_light_green>-5%</color>\nStamina regeneration: <color_light_green>7.5%</color>\nMetabolism: <color_light_green>-1%</color></color>",
     "weight": "12450 g",
     "volume": "13 L",
     "price": 32300000,
@@ -238,23 +238,23 @@
             { "value": "ATTACK_SPEED", "multiply": 0.5 },
             { "value": "MOVE_COST", "multiply": -0.25 },
             { "value": "REGEN_STAMINA", "multiply": 0.375 },
-            { "value": "METABOLISM", "multiply": 0.025 }
+            { "value": "METABOLISM", "multiply": -0.005 }
           ],
-          "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] } ] }
+          "ench_effects": [ { "effect": "secro_power_armor_flesh_devouring_note", "intensity": 1 } ]
         }
       ]
     },
     "ammo": "secro_flesh",
-    "max_charges": 100,
+"max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_flesh_range",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "flesh vessel \"Gunner\"" },
-    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Gunner)\" is an offbranch mutation of a standard vessel, having lesser flesh membranes and webbings in exchange for greater perception. Its body orientation is built to handle several projectile-shooting armaments and to quickly form a gunner creation. Thus, it is ideal for long- to mid-ranged combats. Like all other flesh vessels, it requires a module to be used without deadly risks.\n\nSecronom exoskeleton type \"Vessel (Gunner)\" provides:\n<color_white>Perception: <color_light_green>+4</color>\nSight range: <color_light_green>+5%</color>\nMetabolism: <color_red>+5%</color></color>",
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Gunner)\" is an offbranch mutation of a standard vessel, having lesser flesh membranes and webbings in exchange for greater perception. Its body orientation is built to handle several projectile-shooting armaments and to quickly form a gunner creation. Thus, it is ideal for long- to mid-ranged combats. Like all other flesh vessels, it requires the wearer to feed it with flesh.\n\nSecronom exoskeleton type \"Vessel (Gunner)\" provides:\n<color_white>Perception: <color_light_green>+4</color>\nSight range: <color_light_green>+5%</color>\nMetabolism: <color_light_green>-1%</color></color>",
     "weight": "15325 g",
     "volume": "16 L",
     "price": 32300000,
@@ -289,23 +289,23 @@
           "values": [
             { "value": "PERCEPTION", "add": 2 },
             { "value": "SIGHT_RANGE", "multiply": 0.25 },
-            { "value": "METABOLISM", "multiply": 0.025 }
+            { "value": "METABOLISM", "multiply": -0.005 }
           ],
-          "intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] } ] }
+          "ench_effects": [ { "effect": "secro_power_armor_flesh_devouring_note", "intensity": 1 } ]
         }
       ]
     },
     "ammo": "secro_flesh",
-    "max_charges": 100,
+"max_charges": 100,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 1 ], [ "SECRO_FLESH_REFORMING", 1 ] ],
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_flesh_infect",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "flesh vessel \"Pathogen\"" },
-    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Pathogen)\" is the result of prolonged research for augmentation using mutagens. Its cell structure is much more intricate than the other vessel types, in which it allows mutual connection to the crimson horrors in trade of greatly reduced proficiency on morphing and forming. Due to its extreme need of organic compounds, users may not last long wearing the suit.\n\nSecronom exoskeleton type \"Vessel (Pathogen)\" provides:\n<color_white>Maximum health: <color_light_green>+5%</color>\nBiological armor: <color_light_green>+1</color>\nMetabolism: <color_red>+12.5%</color></color>\n\nActivate to perform:\n<color_cyan><color_pink>[FORM]</color> The Flesh</color> - <color_yellow>60000 movecost</color>/<color_red>100 flesh</color>\n<color_white>* Your flesh vessel forms a sentient flesh hivemind. This hivemind sticks to the the location it is placed, then slowly dominates the surrounding area. Interact for additional commands.</color>",
+    "description": "A complex battle suit brought to existence using the latest technological advancements. Secronom exoskeleton type \"Vessel (Pathogen)\" is the result of prolonged research for augmentation using mutagens. Its cell structure is much more intricate than the other vessel types. Yet due to its extreme need of flesh, users may not last long wearing the suit.\n\nSecronom exoskeleton type \"Vessel (Pathogen)\" provides:\n<color_white>Maximum health: <color_light_green>+5%</color>\nBiological armor: <color_light_green>+1</color>\nMetabolism: <color_light_green>-7.5%</color></color>\n\nActivate to perform:\n<color_cyan><color_pink>[FORM]</color> Hivemind</color> - <color_yellow>500 movecost</color>/<color_red>50 flesh</color>\n<color_white>* Your flesh vessel forms a sentient flesh hivemind. This hivemind starts off as an overseer, and will eventually die if left inactive. Interact for additional commands.</color>",
     "weight": "17600 g",
     "volume": "19 L",
     "price": 32300000,
@@ -325,22 +325,19 @@
     "environmental_protection": 12,
     "power_armor": true,
     "charges_per_use": 50,
-    "use_action": [
-      {
-        "type": "cast_spell",
-        "spell_id": "secro_power_armor_flesh_infect_morphform_list",
-        "no_fail": true,
-        "need_worn": true,
-        "level": 0
-      },
-      {
-        "type": "place_npc",
-        "npc_class_id": "secronom_flesh",
-        "summon_msg": "You sacrificed a huge amount of flesh to make an artificial flesh hivemind...",
-        "place_randomly": false,
-        "moves": 10
-      }
-    ],
+    "use_action": [ {
+      "type": "cast_spell",
+      "spell_id": "secro_power_armor_flesh_infect_morphform_list",
+      "no_fail": true,
+      "need_worn": true,
+      "level": 0
+    },{
+      "type": "place_npc",
+      "npc_class_id": "secronom_flesh_spawn_start",
+      "summon_msg": "You formed an artificial flesh hivemind...",
+      "place_randomly": false,
+      "moves": 500
+    } ],
     "relic_data": {
       "passive_effects": [
         {
@@ -349,15 +346,9 @@
           "values": [
             { "value": "ARMOR_BIO", "add": -1, "multiply": 0.025 },
             { "value": "MAX_HP", "multiply": 0.025 },
-            { "value": "METABOLISM", "multiply": 0.0625 }
+            { "value": "METABOLISM", "multiply": -0.0375 }
           ],
-          "intermittent_activation": {
-            "effects": [
-              { "frequency": "3 minutes", "spell_effects": [ { "id": "secro_power_armor_flesh_devour_note" } ] },
-              { "frequency": "1 seconds", "spell_effects": [ { "id": "secro_power_armor_flesh_infect_or_random" } ] },
-              { "frequency": "1 seconds", "spell_effects": [ { "id": "secro_power_armor_flesh_infect_traverse" } ] }
-            ]
-          },
+          "ench_effects": [ { "effect": "secro_power_armor_flesh_devouring_note", "intensity": 1 } ],
           "hit_you_effect": [
             {
               "id": "mon_flesh_infect_target",
@@ -371,9 +362,9 @@
       ]
     },
     "ammo": "secro_flesh",
-    "max_charges": 200,
+"max_charges": 200,
     "qualities": [ [ "SECRO_FLESH_MORPHING", 2 ], [ "SECRO_FLESH_REFORMING", 2 ] ],
-    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES" ]
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "SUN_GLASSES", "OVERSIZE" ]
   },
   {
     "id": "secro_power_armor_feed_item",
@@ -392,7 +383,13 @@
     "encumbrance": 0,
     "power_armor": true,
     "material_thickness": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "secro_power_armor_feed", "no_fail": true, "need_worn": true, "level": 0 },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "secro_power_armor_feed",
+      "no_fail": true,
+      "need_worn": true,
+      "level": 0
+    },
     "flags": [ "NO_TAKEOFF", "POWERARMOR_COMPATIBLE" ]
   }
 ]
