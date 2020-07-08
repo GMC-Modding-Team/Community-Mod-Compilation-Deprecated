@@ -1271,7 +1271,7 @@
       {
         "name": "...",
         "color": "black",
-        "monster_spawn_chance": 20000,
+        "monster_spawn_chance": 5000,
         "monster_spawn_count": 1,
         "monster_spawn_radius": 1,
         "monster_spawn_group": "GROUP_FLESHLING"
@@ -1321,7 +1321,13 @@
         "monster_spawn_count": 2,
         "monster_spawn_radius": 1,
         "monster_spawn_group": "GROUP_FLESHLING_SCAVENGY_FORMS",
-        "effects": [ { "effect_id": "mon_sflesh_fleshling_scavengy_cost", "min_duration": "1 seconds", "max_duration": "1 seconds" } ]
+        "effects": [
+          {
+            "effect_id": "mon_sflesh_fleshling_scavengy_cost",
+            "min_duration": "1 seconds",
+            "max_duration": "1 seconds"
+          }
+        ]
       }
     ],
     "priority": -1,
@@ -1338,7 +1344,11 @@
         "name": "...",
         "color": "black",
         "effects": [
-          { "effect_id": "mon_sflesh_fleshling_scavengy_spawnlimits", "min_duration": "1 seconds", "max_duration": "1 seconds" }
+          {
+            "effect_id": "mon_sflesh_fleshling_scavengy_spawnlimits",
+            "min_duration": "1 seconds",
+            "max_duration": "1 seconds"
+          }
         ]
       }
     ],

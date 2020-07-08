@@ -4,7 +4,7 @@ This wiki is temporary. I'm working on an updated version.
 ## Zombies
 The secronom's main feature - the zeds. They range from weak up to strong variety of them.
 
-* There are 83 zombies in total: 57 city zeds, 16 zed mutants and 10 lab zombies. Only the zombies that spawn individually and their evolved counterparts are counted, while minions and other special zeds aren't.
+* There are 84 zombies in total: 58 city zeds, 16 zed mutants and 10 lab zombies. Only the zombies that spawn individually and their evolved counterparts are counted, while minions and other special zeds aren't.
 
 ### City Zombies
 Listed below are the zombies encountered in a city, along with their upgrade paths:
@@ -25,6 +25,7 @@ Zombie type with fast attack speed and a set of chained abilities.
 Zombie type with very high attack and movement speed.
 * **Longarm Spider Zombie**
 * **Claw Spider Zombie**
+* **Arachnia**
 
 ##### Mouthswell Zombie **!**
 Zombie type with slow movement speed but has concentrated bite attacks.

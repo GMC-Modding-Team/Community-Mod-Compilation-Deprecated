@@ -246,7 +246,7 @@
     "effect_str": "secro_power_armor_feed_item",
     "min_duration": 300,
     "max_duration": 300,
-    "base_casting_time": 1
+    "base_casting_time": 300
   },
   {
     "id": "secro_power_armor_feed",
@@ -332,9 +332,7 @@
     "valid_targets": [ "self" ],
     "effect": "target_attack",
     "extra_effects": [
-      { "id": "secro_power_armor_feed_give", "hit_self": true },
-      { "id": "secro_power_armor_flesh_morph_coward_powerlegs_give", "hit_self": true }
-    ],
+      { "id": "secro_power_armor_feed_give", "hit_self": true }, { "id": "secro_power_armor_flesh_morph_coward_powerlegs_give", "hit_self": true } ],
     "base_casting_time": 1
   },
   {
@@ -1491,6 +1489,76 @@
     "effect_str": "secro_flesh_transmit_attack",
     "min_duration": 100,
     "max_duration": 100
+  },
+  {
+    "id": "secro_flesh_mod_tendril_ench_sweep",
+    "type": "SPELL",
+    "name": "Sweep",
+    "description": "Spell casted by an item. If you're seeing this, then read this one instead:\n'The modded weapon unleashes several tendrils, swinging wildly into the vicinity that deals bashing damage.'",
+    "message": "",
+    "flags": [ "SILENT", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
+    "valid_targets": [ "hostile", "ground" ],
+    "effect": "cone_attack",
+    "min_damage": 6,
+    "max_damage": 12,
+    "min_aoe": 15,
+    "max_aoe": 30,
+    "min_range": 2,
+    "max_range": 2,
+    "damage_type": "bash"
+  },
+  {
+    "id": "secro_flesh_mod_tendril_ench_target",
+    "type": "SPELL",
+    "name": "a spell",
+    "description": "Target spell casted by an item. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then randomly casts one of the Spell(s).'",
+    "message": "",
+    "flags": [ "SILENT", "WONDER" ],
+    "valid_targets": [ "hostile" ],
+    "extra_effects": [
+      { "id": "secro_flesh_mod_tendril_ench_sweep" }
+    ],
+    "effect": "projectile_attack",
+    "min_damage": 2,
+    "max_damage": 3,
+    "min_range": 2,
+    "max_range": 2
+  },
+  {
+    "id": "secro_flesh_mod_tendril_ench_slam",
+    "type": "SPELL",
+    "name": "Slam",
+    "description": "Spell casted by an item. If you're seeing this, then read this one instead:\n'The modded weapon's tendrils compresses, then slams into the target, dealing bashing damage and applying stun.'",
+    "message": "",
+    "flags": [ "SILENT", "RANDOM_DAMAGE" ],
+    "valid_targets": [ "hostile" ],
+    "effect": "projectile_attack",
+    "min_damage": 8,
+    "max_damage": 16,
+    "min_range": 1,
+    "max_range": 1,
+    "damage_type": "bash",
+    "effect_str": "stunned",
+    "min_duration": 125,
+    "max_duration": 125
+  },
+  {
+    "id": "secro_flesh_mod_tendril_ench_thrust",
+    "type": "SPELL",
+    "name": "Thrust",
+    "description": "Spell casted by an item. If you're seeing this, then read this one instead:\n'The modded weapon's tendrils thrust at the target, dealing stabbing damage and applying stun.'",
+    "message": "",
+    "flags": [ "SILENT", "RANDOM_DAMAGE" ],
+    "valid_targets": [ "hostile" ],
+    "effect": "projectile_attack",
+    "min_damage": 10,
+    "max_damage": 20,
+    "min_range": 1,
+    "max_range": 1,
+    "damage_type": "stab",
+    "effect_str": "stunned",
+    "min_duration": 300,
+    "max_duration": 300
   },
   {
     "id": "secro_power_armor_module_electric_act_shockdischarge",

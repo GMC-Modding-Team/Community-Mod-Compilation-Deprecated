@@ -52,6 +52,18 @@
   },
   {
     "type": "npc",
+    "id": "secronom_flesh_spawn_start",
+    "//": "Hivemind spawn, for building the hivemind.",
+    "name_unique": "\"Hivemind\"",
+    "gender": "male",
+    "class": "NC_SECRO_FLESH_START",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "SECRO_FLESH_HIVEMIND_START_main",
+    "faction": "secro_flesh"
+  },
+  {
+    "type": "npc",
     "id": "secronom_flesh_spawn_splicer",
     "//": "Hivemind spawn, bio-organic splicer.",
     "name_unique": "\"Bio-organic Splicer\"",
