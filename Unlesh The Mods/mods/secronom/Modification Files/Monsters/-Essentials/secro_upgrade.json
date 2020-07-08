@@ -96,6 +96,16 @@
     ]
   },
   {
+    "name": "GROUP_ZSPIDER_UPGRADEX",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_zombie_spodertickle", "freq": 25, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_spoderhug", "freq": 20, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_arachnia", "freq": 100, "cost_multiplier": 10 }
+    ]
+  },
+  {
     "name": "GROUP_MOUTH_UPGRADE",
     "type": "monstergroup",
     "default": "mon_null",

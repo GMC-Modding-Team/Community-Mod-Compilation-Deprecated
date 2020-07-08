@@ -26,13 +26,13 @@
           "npc_has_effect": "secro_flesh_artifice_upgrade_weaver_max",
           "no": {
             "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1",
-            "no": "\n\n[75 flesh] Stronger Weavers\nStronger sets of weavers allow the artifice to craft tougher bio-organic materials.",
+            "no": "\n\n*75 flesh\n> Stronger Weavers\nStronger sets of weavers allow the artifice to craft tougher bio-organic materials.",
             "yes": {
               "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2",
-              "no": "\n\n[175 flesh] Advanced Weavers\nSeveral augmented weavers allow the artifice to craft intricate bio-organic materials.",
+              "no": "\n\n*175 flesh\n> Advanced Weavers\nSeveral augmented weavers allow the artifice to craft intricate bio-organic materials.",
               "yes": {
                 "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver3",
-                "no": "\n\n[400 flesh] Hivemind Weavers\nArtifice's set of weavers now acts similar to the hivemind, making it capable to craft high-end bio-organic materials."
+                "no": "\n\n*400 flesh\n> Hivemind Weavers\nArtifice's set of weavers now acts similar to the hivemind, making it capable to craft high-end bio-organic materials."
               }
             }
           }
@@ -109,7 +109,7 @@
         "*taps you with its weaving tendril, which has given you information about its available crafts.\n",
         {
           "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2",
-          "yes": "\n[80 flesh, 2 core (blade zombie)] bio-organic sword"
+          "yes": "\n*80 flesh\n*2 core (blade zombie)\n> bio-organic sword"
         }
       ]
     },
@@ -141,14 +141,14 @@
     "dynamic_line": {
       "and": [
         "*taps you with its weaving tendril, which has given you information about its available crafts.\n",
-        "\n[8 flesh] small flesh heap",
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1", "yes": "\n[24 flesh] flesh heap" },
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1", "yes": "\n[72 flesh] large flesh heap" },
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2", "yes": "\n[216 flesh] ossified flesh heap" },
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1", "yes": "\n[300 flesh] flesh frame" },
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2", "yes": "\n[500 flesh] hivemind residue" },
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2", "yes": "\n[75 flesh] hivemind controls" },
-        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver3", "yes": "\n[800 flesh] hivemind core" }
+        "\n*8 flesh\n> small flesh heap\n",
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1", "yes": "\n*24 flesh\n> flesh heap\n" },
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1", "yes": "\n*72 flesh]\n> large flesh heap\n" },
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2", "yes": "\n*216 flesh\n> ossified flesh heap\n" },
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver1", "yes": "\n*300 flesh\n> flesh frame\n" },
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2", "yes": "\n*500 flesh\n> hivemind residue\n" },
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver2", "yes": "\n*75 flesh\n> hivemind controls\n" },
+        { "npc_has_trait": "SECRONOM_FLESH_SPAWN_ARTIFICE_weaver3", "yes": "\n*800 flesh\n> hivemind core\n" }
       ]
     },
     "responses": [
