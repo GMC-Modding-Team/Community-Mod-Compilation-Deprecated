@@ -16,7 +16,7 @@
       "offer": "Blood... Our main food for darkest centuries. Even I almost forgot its taste, I'd like to drink it again. Bring me 30, too much but it is essential in many ways.",
       "accepted": "Okay, descendant. This won't be hard and take your time.",
       "rejected": "If only you let me shoot your chest, this will be done easily.",
-      "advice": "Go to a hospital, get a blood drawn kit, and use it on yourself or your victim.",
+      "advice": ".",
       "inquire": "Drinks? You have the drinks ready?",
       "success": "These blood certainly are useful. Thanks for this treats, descendant.",
       "success_lie": "Well, thank you. *smirks*",
@@ -38,9 +38,9 @@
     "dialogue": {
       "describe": "I want you to slay something...",
       "offer": "Ofcourse you know about the bloodsucking pests on the swamp, we hate those parasites squirming for blood to live. Hand over 15 of their teeth as a proof to succeed this trial.",
-      "accepted": "Its easy to kill a leech, but don't get bitten: bleeding is much more dangerous than their teeth.",
+      "accepted": "Slay them in any way you want.",
       "rejected": "It's just okay.",
-      "advice": "They are blind, and depends on what they hear or smell, I think?",
+      "advice": "They are blind, and depends on what they hear or smell.",
       "inquire": "Got 'em?",
       "success": "Nice work, I guess they won't bother us for a long time.",
       "success_lie": "Well, thank you. *smirks*",
@@ -131,32 +131,6 @@
   {
     "id": "VAMP_LONELY_quest2",
     "type": "mission_definition",
-    "name": "Kill 50 leeches",
-    "description": "Kill <color_magenta>50 leeches</color> then talk to the vampire. They live mostly in the <color_light_blue>swamp</color>.",
-    "goal": "MGOAL_KILL_MONSTER_SPEC",
-    "monster_species": "LEECH",
-    "difficulty": 3,
-    "value": 200000,
-    "monster_kill_goal": 50,
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "has_generic_rewards": false,
-    "followup": "VAMP_LONELY_quest3",
-    "dialogue": {
-      "describe": "I want you to eradicate something.",
-      "offer": "Leeches are the vile parasites we really hate the most, aside the rampaging animated bodies. Kill 50 of these creatures, this would put a stop to those wandering bloodsuckers for a little time.",
-      "accepted": "Good. You may start looking for these parasites anytime you wanted to.",
-      "rejected": "Just get back later.",
-      "advice": "Leeches tend to slither in moist areas.",
-      "inquire": "I guess you're not done yet...",
-      "success": "Those leeches would come back later, but thanks anyway.",
-      "success_lie": "Well, thank you. *smirks*",
-      "failure": "*frowns*",
-      "failure_lie_": "Do not lie!"
-    }
-  },
-  {
-    "id": "VAMP_LONELY_quest3",
-    "type": "mission_definition",
     "name": "Take down 10 elder zombies",
     "description": "Slay <color_magenta>10 elder zombies</color> then talk to the vampire after completion.  <color_magenta>Elder zombies</color> are depicted to their stone-like, compact blood and are rarely seen in the <color_light_blue>graveyards</color>.",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
@@ -166,10 +140,10 @@
     "monster_kill_goal": 10,
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
-    "followup": "VAMP_LONELY_quest4",
+    "followup": "VAMP_LONELY_quest3",
     "dialogue": {
       "describe": "This is a little harder...",
-      "offer": "The gravestone in this crypt were built long ago, and the dead bodies has been buried here since before I reside here. Surprisingly, they were resurrected with this odd \"magic\", animating them similar to the city. I want you to take 10 of them down, as they should be peacefully resting in their graves.",
+      "offer": "The gravestone in this crypt were built long ago, and the dead bodies has been buried here since before I reside here. Surprisingly, they were resurrected with this odd \"magic\". I want you to take 10 of them down and let their hollow vessel for an eternal rest.",
       "accepted": "Good. Now go outside and look for them.",
       "rejected": "Come back later.",
       "advice": "Their blood has calcified into a shell, and it is distinctive to their appearance.",
@@ -181,7 +155,7 @@
     }
   },
   {
-    "id": "VAMP_LONELY_quest4",
+    "id": "VAMP_LONELY_quest3",
     "type": "mission_definition",
     "name": "Bring a bloodrune",
     "description": "Get a <color_light_red>bloodrune</color> then deliver it to the vampire.",
@@ -190,7 +164,7 @@
     "value": 400000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
-    "followup": "VAMP_LONELY_quest5",
+    "followup": "VAMP_LONELY_quest4",
     "//": "Locating a blended overmap in a world would take forever, so we WILL set a pedestal in random distances. RNG is your enemy here.",
     "start": {
       "assign_mission_target": {
@@ -203,7 +177,7 @@
     },
     "dialogue": {
       "describe": "This is a bit hard for you. You still want to try?",
-      "offer": "Bloodrune... The vampire's eternal soul. Merely a fact that some of us night creatures turn into an object upon death, and most resists to that point.\nIn the dark days, bloodrunes are set in a pedestal by elder civilizations, and said that their \"god\" will accept it as a praise, which is not true. Get this rune for me, to honor its soul in a way we normally do.",
+      "offer": "Bloodrune... The vampire's eternal soul. Merely a fact that few of us night creatures turn into an object upon death, yet most resists to that point.\nIn the dark days, bloodrunes are set in a pedestal by elder civilizations, and said that their \"god\" will accept it as a praise, which is not true. Get this rune for me, to honor its soul in a way we normally do.",
       "accepted": "Good.",
       "rejected": "Just do it later on.",
       "advice": "A vampire's death is a big success to those elderly jerks. Well, it is their belief that can't be bothered in any way.",
@@ -215,7 +189,7 @@
     }
   },
   {
-    "id": "VAMP_LONELY_quest5",
+    "id": "VAMP_LONELY_quest4",
     "type": "mission_definition",
     "name": "Take Vampire to the Cove",
     "description": "Escort the vampire to the <color_light_blue>vampire cove</color>.",
@@ -234,7 +208,7 @@
       "offer": "Since you've been helping me for a while, I will need you to travel with me to the vampire cove. Being isolated for centuries is a great experience, but seeing a living community of my kind alleviates my frozen body the most.",
       "accepted": "Good, those tests proved yourself a good descendant. As a reward, I'll protect you along the way.",
       "rejected": "Just okay, get back later...",
-      "advice": "This may be a long journey. You know I'm a night creature, so you'll have to take care of me.",
+      "advice": "This may be a long journey. You know I'm a night creature, so you'll have to take care of me in daytime.",
       "inquire": "What?",
       "success": "I see my kindred seems alright. Well, it does matter to me, and you've been the key to this. Thank you, descendant.",
       "success_lie": "Just thanks...",

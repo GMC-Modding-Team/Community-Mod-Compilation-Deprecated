@@ -185,23 +185,27 @@
     "flags": [ "WONDER", "SILENT" ],
     "min_damage": 1,
     "max_damage": 1,
-    "extra_effects": [ { "id": "t5_mana_megamagic_exhaust" } ]
+    "extra_effects": [
+      { "id": "t5_mana_megamagic_exhaust" }
+    ]
   },
   {
-    "id": "t5_mana_megamagic_exhaust",
-    "type": "SPELL",
-    "name": "Megamagic Exhaust",
-    "description": "Weakens the player.",
-    "flags": [ "SILENT" ],
-    "valid_targets": [ "self" ],
-    "effect": "target_attack",
-    "effect_str": "v_spell_megamagic_exhaust",
-    "extra_effects": [ { "id": "t5_mana_megamagic_exhaust_stam" } ],
-    "min_duration": 1200,
-    "max_duration": 1200,
-    "damage_type": "bio"
-  },
-  {
+        "id": "t5_mana_megamagic_exhaust",
+        "type": "SPELL",
+        "name": "Megamagic Exhaust",
+        "description": "Weakens the player.",
+        "flags": ["SILENT"],
+        "valid_targets": ["self"],
+        "effect": "target_attack",
+        "effect_str": "v_spell_megamagic_exhaust",
+        "extra_effects": [
+      { "id": "t5_mana_megamagic_exhaust_stam" }
+    ],
+	    "min_duration": 1200,
+  	  "max_duration": 1200,
+        "damage_type": "bio"
+    },
+    {
     "id": "t5_mana_megamagic_exhaust_stam",
     "type": "SPELL",
     "name": "Exhaustion",
