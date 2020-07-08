@@ -1,5 +1,5 @@
 [
-  {
+ {
     "type": "recipe",
     "result": "mininuke_mod",
     "category": "CC_AMMO",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "pebble_mk2",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -31,11 +31,11 @@
     "time": 35000,
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ] ],
-    "tools": [ [ [ "press", -1 ], [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 2 ], [ "pebble", 40 ] ] ]
+	"tools": [ [ [ "press", -1 ], [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+	"components": [ [ [ "scrap", 3 ], [ "steel_chunk", 2 ], [ "pebble", 40 ] ] ]
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "pebble_mk3",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -45,11 +45,18 @@
     "time": 35000,
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ] ],
-    "tools": [ [ [ "press", -1 ], [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "slime_scrap", 20 ] ], [ [ "bone", 5 ], [ "bone_human", 5 ], [ "bone_tainted", 10 ] ], [ [ "pebble", 40 ] ] ]
+	"tools": [ [ [ "press", -1 ], [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+	"components": [ 
+	[ [ "slime_scrap", 20 ] ],  
+	[   [ "bone", 5 ],
+        [ "bone_human", 5 ],
+        [ "bone_tainted", 10 ]
+      ], 
+	  [ [ "pebble", 40 ] ]
+	  ] 
   },
   {
-    "type": "recipe",
+	"type": "recipe",
     "result": "pebble_mk4",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -59,7 +66,7 @@
     "time": 45000,
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ] ],
-    "tools": [ [ [ "press", -1 ], [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "slime_scrap", 20 ], [ "alloy_plate", 1 ], [ "pebble", 40 ] ] ]
+	"tools": [ [ [ "press", -1 ], [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+	"components": [ [ [ "slime_scrap", 20], [ "alloy_plate", 1 ], [ "pebble", 40 ] ] ]
   }
 ]

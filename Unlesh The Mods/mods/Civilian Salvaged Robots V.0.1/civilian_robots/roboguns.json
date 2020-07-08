@@ -4,13 +4,12 @@
     "type": "GUN",
     "copy-from": "robogun_base",
     "name": "integral nailgun",
-    "ammo": "nail",
     "skill": "smg",
-    "relative": { "volume": 6, "range": 3, "ranged_damage": 4 },
-    "loudness": 5,
+    "ammo": "nail",
     "clip_size": 100,
-    "dispersion": 300,
-    "ammo_effects": [ "NEVER_MISFIRES", "RECOVER_20", "NOGIB" ],
+    "ranged_damage": { "damage_type": "stab", "amount": 2 },
+    "dispersion": 100,
+    "loudness": 5,
     "modes": [ [ "AUTO", "auto", 3 ] ]
   }
 ]
