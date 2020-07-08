@@ -11,27 +11,38 @@
     "requires_flag": "SECRO_FLESH"
   },
   {
-    "type": "vehicle_part",
-    "id": "secro_flesh_armor",
-    "name": { "str": "bio-organic fortification" },
-    "description": "Thick slabs of meat envelops the objects underneath it. Absorbs great impacts.",
-    "symbol": ")",
-    "color": "red",
-    "broken_symbol": ")",
-    "broken_color": "light_red",
-    "durability": 575,
-    "item": "secro_flesh_plate",
-    "location": "armor",
-    "breaks_into": [ { "item": "meat", "prob": 50, "repeat": 20 } ],
-    "requirements": {
+  "type": "vehicle_part",
+  "id": "secro_flesh_armor",
+  "name": {
+    "str": "bio-organic fortification"
+  },
+  "description": "Thick slabs of meat envelops the objects underneath it. Absorbs great impacts.",
+  "symbol": ")",
+  "color": "red",
+  "broken_symbol": ")",
+  "broken_color": "light_red",
+  "durability": 575,
+  "item": "secro_flesh_plate",
+  "location": "armor",
+  "breaks_into": [
+    { "item": "meat", "prob": 50, "repeat": 20 }
+  ],
+  "requirements": {
       "install": { "time": "15 m", "using": [ [ "secro_flesh_vehicle_morph", 4 ] ] },
       "removal": { "time": "10 m", "using": [ [ "secro_flesh_vehicle_reform", 1 ] ] },
       "repair": { "time": "5 m", "using": [ [ "secro_flesh_vehicle_morph", 2 ] ] }
     },
-    "flags": [ "ARMOR", "SHARP", "NEEDS_SECRO_FLESH" ],
-    "damage_reduction": { "all": 50, "bash": 75 }
-  },
-  {
+  "flags": [
+    "ARMOR",
+    "SHARP",
+    "NEEDS_SECRO_FLESH"
+  ],
+  "damage_reduction": {
+    "all": 50,
+    "bash": 75
+  }
+},
+{
     "abstract": "secro_flesh_board",
     "type": "vehicle_part",
     "name": { "str": "bio-organic wall" },
@@ -211,30 +222,39 @@
     "damage_reduction": { "all": 15, "bash": 40 }
   },
   {
-    "id": "secro_flesh_engine",
-    "copy-from": "steam_engine",
-    "type": "vehicle_part",
-    "item": "secro_vehicle_engine",
-    "name": { "str": "hivemind core" },
-    "durability": 525,
-    "epower": 0,
-    "fuel_type": "secro_flesh",
-    "fuel_options": [ "secro_flesh" ],
-    "power": 322500,
-    "energy_consumption": 100000,
-    "backfire_threshold": 0,
-    "backfire_freq": 0,
-    "noise_factor": 0,
-    "breaks_into": [ { "item": "meat", "prob": 50, "repeat": 75 } ],
-    "requirements": {
+  "id": "secro_flesh_engine",
+  "copy-from": "steam_engine",
+  "type": "vehicle_part",
+  "item": "secro_vehicle_engine",
+  "name": {
+    "str": "hivemind core"
+  },
+  "durability": 525,
+  "epower": 0,
+  "fuel_type": "secro_flesh",
+  "fuel_options": [ "secro_flesh" ],
+  "power": 322500,
+  "energy_consumption": 100000,
+  "backfire_threshold": 0,
+  "backfire_freq": 0,
+  "noise_factor": 0,
+  "breaks_into": [
+    { "item": "meat", "prob": 50, "repeat": 75 }
+  ],
+  "requirements": {
       "install": { "time": "60 m", "using": [ [ "secro_flesh_vehicle_morph", 16 ] ] },
       "removal": { "time": "20 m", "using": [ [ "secro_flesh_vehicle_reform", 1 ] ] },
       "repair": { "time": "10 m", "using": [ [ "secro_flesh_vehicle_morph", 8 ] ] }
     },
-    "extend": { "flags": [ "NEEDS_SECRO_FLESH", "E_STARTS_INSTANTLY" ] },
-    "damage_reduction": { "all": 50, "bash": 75 }
+  "extend": {
+    "flags": [ "NEEDS_SECRO_FLESH", "E_STARTS_INSTANTLY" ]
   },
-  {
+  "damage_reduction": {
+    "all": 50,
+    "bash": 75
+  }
+},
+{
     "abstract": "secro_flesh_frame",
     "type": "vehicle_part",
     "name": { "str": "bio-organic frame" },
@@ -603,45 +623,60 @@
     "damage_reduction": { "all": 15, "bash": 40 }
   },
   {
-    "id": "secro_flesh_wheel_leg",
-    "type": "vehicle_part",
-    "name": { "str": "bio-organic leg" },
-    "item": "secro_flesh_wheel",
-    "location": "under",
-    "symbol": "i",
-    "broken_symbol": "k",
-    "color": "red",
-    "durability": 1100,
-    "description": "A gigantic slender leg. Very tough and poses great mobility, regardless of its stiffness.",
-    "damage_modifier": 100,
-    "breaks_into": [ { "item": "meat", "prob": 50, "repeat": 50 } ],
-    "rolling_resistance": 20,
-    "wheel_type": "treads",
-    "contact_area": 1600,
-    "requirements": {
+  "id": "secro_flesh_wheel_leg",
+  "type": "vehicle_part",
+  "name": {
+    "str": "bio-organic leg"
+  },
+  "item": "secro_flesh_wheel",
+  "location": "under",
+  "symbol": "i",
+  "broken_symbol": "k",
+  "color": "red",
+  "durability": 1100,
+  "description": "A gigantic slender leg. Very tough and poses great mobility, regardless of its stiffness.",
+  "damage_modifier": 100,
+  "breaks_into": [
+    { "item": "meat", "prob": 50, "repeat": 50 }
+  ],
+  "rolling_resistance": 20,
+  "wheel_type": "treads",
+  "contact_area": 1600,
+  "requirements": {
       "install": { "time": "45 m", "using": [ [ "secro_flesh_vehicle_morph", 16 ] ] },
       "removal": { "time": "20 m", "using": [ [ "secro_flesh_vehicle_reform", 1 ] ] },
       "repair": { "time": "10 m", "using": [ [ "secro_flesh_vehicle_morph", 8 ] ] }
     },
-    "flags": [ "WHEEL", "TRACKED", "VARIABLE_SIZE", "NEEDS_SECRO_FLESH" ],
-    "damage_reduction": { "all": 75, "bash": 100 }
+  "flags": [
+    "WHEEL", "TRACKED", "VARIABLE_SIZE",
+    "NEEDS_SECRO_FLESH"
+  ],
+  "damage_reduction": {
+    "all": 75,
+    "bash": 100
+  }
+},
+{
+  "type": "GENERIC",
+  "id": "secro_flesh_frame",
+  "name": {
+    "str": "flesh frame"
   },
-  {
-    "type": "GENERIC",
-    "id": "secro_flesh_frame",
-    "name": { "str": "flesh frame" },
-    "description": "A large vehicle frame made of flesh and bones.",
-    "weight": "72000 g",
-    "to_hit": -6,
-    "color": "red",
-    "material": [ "flesh", "bone" ],
-    "volume": "20 L",
-    "bashing": 20,
-    "price": 0,
-    "price_postapoc": 0,
-    "copy-from": "foldframe"
-  },
-  {
+  "description": "A large vehicle frame made of flesh and bones.",
+  "weight": "72000 g",
+  "to_hit": -6,
+  "color": "red",
+  "material": [
+    "flesh",
+    "bone"
+  ],
+  "volume": "20 L",
+  "bashing": 20,
+  "price": 0,
+  "price_postapoc": 0,
+  "copy-from": "foldframe"
+},
+{
     "id": "secro_flesh_fuel_bunker",
     "type": "MAGAZINE",
     "name": { "str": "hivemind residue" },
@@ -672,7 +707,7 @@
     "bashing": 2,
     "category": "veh_parts",
     "price": 0,
-    "price_postapoc": 0
+  "price_postapoc": 0
   },
   {
     "type": "GENERIC",
@@ -688,72 +723,88 @@
     "bashing": 2,
     "category": "veh_parts",
     "price": 0,
-    "price_postapoc": 0
+  "price_postapoc": 0
   },
   {
-    "type": "WHEEL",
-    "id": "secro_flesh_wheel",
-    "name": { "str_sp": "ossified flesh heap" },
-    "description": "A large chunk of bio-organic flesh with higher density thanks to its additional bone growths. Although it is rigid, it can morph into large bodily forms if installed as a vehicle part.",
-    "weight": "28400 g",
-    "to_hit": -1,
-    "color": "red",
-    "symbol": "]",
-    "material": [ "flesh" ],
-    "volume": "15 L",
-    "bashing": 10,
-    "category": "veh_parts",
-    "price": 0,
-    "price_postapoc": 0,
-    "diameter": 30,
+  "type": "WHEEL",
+  "id": "secro_flesh_wheel",
+  "name": {
+    "str_sp": "ossified flesh heap"
+  },
+  "description": "A large chunk of bio-organic flesh with higher density thanks to its additional bone growths. Although it is rigid, it can morph into large bodily forms if installed as a vehicle part.",
+  "weight": "28400 g",
+  "to_hit": -1,
+  "color": "red",
+  "symbol": "]",
+  "material": [
+    "flesh"
+  ],
+  "volume": "15 L",
+  "bashing": 10,
+  "category": "veh_parts",
+  "price": 0,
+  "price_postapoc": 0,
+  "diameter": 30,
     "width": 20
   },
   {
-    "type": "GENERIC",
-    "id": "secro_flesh_plate_large",
-    "name": { "str_sp": "large flesh heap" },
-    "description": "A large chunk of bio-organic flesh. Morphs into any shape you want it to be if installed as a vehicle part.",
-    "weight": "19700 g",
-    "to_hit": -1,
-    "color": "red",
-    "symbol": "]",
-    "material": [ "flesh" ],
-    "volume": "6 L",
-    "bashing": 6,
-    "category": "veh_parts",
-    "price": 0,
-    "price_postapoc": 0
+  "type": "GENERIC",
+  "id": "secro_flesh_plate_large",
+  "name": {
+    "str_sp": "large flesh heap"
+  },
+  "description": "A large chunk of bio-organic flesh. Morphs into any shape you want it to be if installed as a vehicle part.",
+  "weight": "19700 g",
+  "to_hit": -1,
+  "color": "red",
+  "symbol": "]",
+  "material": [
+    "flesh"
+  ],
+  "volume": "6 L",
+  "bashing": 6,
+  "category": "veh_parts",
+  "price": 0,
+  "price_postapoc": 0
   },
   {
-    "type": "GENERIC",
-    "id": "secro_flesh_plate",
-    "name": { "str_sp": "flesh heap" },
-    "description": "A chunk of bio-organic flesh. Morphs into any shape you want it to be if installed as a vehicle part.",
-    "weight": "10035 g",
-    "to_hit": -1,
-    "color": "red",
-    "symbol": "]",
-    "material": [ "flesh" ],
-    "volume": "3 L",
-    "bashing": 6,
-    "category": "veh_parts",
-    "price": 0,
-    "price_postapoc": 0
+  "type": "GENERIC",
+  "id": "secro_flesh_plate",
+  "name": {
+    "str_sp": "flesh heap"
+  },
+  "description": "A chunk of bio-organic flesh. Morphs into any shape you want it to be if installed as a vehicle part.",
+  "weight": "10035 g",
+  "to_hit": -1,
+  "color": "red",
+  "symbol": "]",
+  "material": [
+    "flesh"
+  ],
+  "volume": "3 L",
+  "bashing": 6,
+  "category": "veh_parts",
+  "price": 0,
+  "price_postapoc": 0
   },
   {
-    "type": "GENERIC",
-    "id": "secro_flesh_plate_small",
-    "name": { "str_sp": "small flesh heap" },
-    "description": "A small chunk of bio-organic flesh. Morphs into any shape you want it to be if installed as a vehicle part.",
-    "weight": "3200 g",
-    "to_hit": -1,
-    "color": "red",
-    "symbol": "]",
-    "material": [ "flesh" ],
-    "volume": "1 L",
-    "bashing": 6,
-    "category": "veh_parts",
-    "price": 0,
-    "price_postapoc": 0
+  "type": "GENERIC",
+  "id": "secro_flesh_plate_small",
+  "name": {
+    "str_sp": "small flesh heap"
+  },
+  "description": "A small chunk of bio-organic flesh. Morphs into any shape you want it to be if installed as a vehicle part.",
+  "weight": "3200 g",
+  "to_hit": -1,
+  "color": "red",
+  "symbol": "]",
+  "material": [
+    "flesh"
+  ],
+  "volume": "1 L",
+  "bashing": 6,
+  "category": "veh_parts",
+  "price": 0,
+  "price_postapoc": 0
   }
 ]
