@@ -1,12 +1,13 @@
 [
   {
     "id": "tb_tool_bundle",
+    "//": "added TARDIS flag to keep volume and storage volume discrepancy from raising a flag. Reduced storage volume to keep it reasonable.",
     "type": "TOOL",
     "category": "other",
-    "name": "tool bundle",
+    "name": { "str": "tool bundle" },
     "description": "A simple, rolled up canvas bundle made to keep all your tools in one place.",
-    "weight": 415,
-    "volume": 2,
+    "weight": "415 g",
+    "volume": "500 ml",
     "price": 0,
     "to_hit": -5,
     "rigid": false,
@@ -18,10 +19,10 @@
       "holster_prompt": "Stow what in the bundle?",
       "holster_msg": "You stow your %s in your %s",
       "draw_cost": 200,
-      "min_volume": 0,
-      "max_volume": 4000,
+      "min_volume": "0 ml",
+      "max_volume": "20 L",
       "multi": 20,
-      "flags": [ "STOWABLE" ]
+      "flags": [ "STOWABLE", "TARDIS" ]
     }
   }
 ]
