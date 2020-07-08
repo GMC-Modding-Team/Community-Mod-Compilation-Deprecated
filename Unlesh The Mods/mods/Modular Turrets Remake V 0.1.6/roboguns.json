@@ -23,7 +23,7 @@
     "skill": "shotgun",
     "ammo": "shot",
     "clip_size": 100,
-    "ranged_damage": 10,
+    "ranged_damage": { "damage_type": "stab", "amount": 10 },
     "dispersion": 345,
     "loudness": 75,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
@@ -50,7 +50,7 @@
     "clip_size": 50,
     "skill": "rifle",
     "range": 40,
-    "ranged_damage": 40,
+    "ranged_damage": { "damage_type": "stab", "amount": 40 },
     "dispersion": 100,
     "loudness": 34,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2 ] ],
