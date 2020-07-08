@@ -7,7 +7,11 @@
     "valid_targets": [ "hostile", "ground" ],
     "effect": "projectile_attack",
     "effect_str": "v_spell_crimsonhaze",
-    "extra_effects": [ { "id": "t3_blood_crimsonhaze_blind", "hit_self": true } ],
+    "extra_effects": [{
+                "id": "t3_blood_crimsonhaze_blind",
+                "hit_self": true
+            }
+        ],
     "base_energy_cost": 7,
     "final_energy_cost": 17,
     "energy_source": "HP",

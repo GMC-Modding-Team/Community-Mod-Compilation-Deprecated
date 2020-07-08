@@ -1,6 +1,6 @@
 [
-  {
-    "//": "Spells that activate from hitting, getting hit and intermittence.",
+{
+	"note": "Spells that activate from hitting, getting hit and intermittence.",
     "type": "SPELL",
     "id": "v_spell_null",
     "name": "null",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "//": "Notify the player about the casted on-hit spell.",
+    "note": "Notify the player about the casted on-hit spell.",
     "type": "SPELL",
     "id": "v_hemo_whip_spell_ss_yes",
     "name": "Sweeping Strike!",
@@ -46,7 +46,9 @@
     "flags": [ "SILENT" ],
     "min_damage": 1,
     "max_damage": 1,
-    "extra_effects": [ { "id": "v_hemo_whip_spell_ss" } ]
+    "extra_effects": [
+      { "id": "v_hemo_whip_spell_ss" }
+    ]
   },
   {
     "id": "v_hemo_whip_spell_ss",
@@ -91,7 +93,10 @@
     "message": "The leech's whip absorbs the life force from a nearby creature!",
     "effect": "target_attack",
     "flags": [ "SILENT" ],
-    "extra_effects": [ { "id": "v_hemo_whip_spell_d_dmg" }, { "id": "v_hemo_whip_spell_d_heal", "hit_self": true } ]
+    "extra_effects": [
+      { "id": "v_hemo_whip_spell_d_dmg" },
+      { "id": "v_hemo_whip_spell_d_heal", "hit_self": true }
+    ]
   },
   {
     "id": "v_hemo_whip_spell_d_dmg",
@@ -145,7 +150,9 @@
     "message": "The crimson coat retaliates to the attack!",
     "effect": "target_attack",
     "flags": [ "SILENT" ],
-    "extra_effects": [ { "id": "v_hemo_crimsoncoat_coat_pr" } ]
+    "extra_effects": [
+      { "id": "v_hemo_crimsoncoat_coat_pr" }
+    ]
   },
   {
     "id": "v_hemo_crimsoncoat_coat_pr",
@@ -228,7 +235,9 @@
     "flags": [ "SILENT" ],
     "min_damage": 1,
     "max_damage": 1,
-    "extra_effects": [ { "id": "v_war_etherealenchant_ss", "hit_self": true } ]
+    "extra_effects": [
+      { "id": "v_war_etherealenchant_ss", "hit_self": true }
+    ]
   },
   {
     "id": "v_war_etherealenchant_ss",
