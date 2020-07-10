@@ -13,7 +13,7 @@
     "calories": 125,
     "description": "A mushroom vaguely resembling a black truffle, with a noticable purple coloration instead.  It seems to be edible raw, albeit bittersweet, and might be tastier cooked.",
     "price": 100,
-    "material": "mushroom",
+    "material": [ "mushroom" ],
     "volume": 1,
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
     "fun": -1
@@ -32,7 +32,7 @@
     "calories": 200,
     "description": "A mushroom vaguely resembling a black truffle, with a noticable purple coloration instead.  Much better now that it's been cooked.",
     "price": 200,
-    "material": "mushroom",
+    "material": [ "mushroom" ],
     "volume": 1,
     "flags": [ "EDIBLE_FROZEN" ],
     "fun": -1
@@ -89,7 +89,7 @@
     "symbol": "/",
     "description": "A woody, tangled branch covered in pods resembling overgrown pecans.  Some of the growths are smaller, softer, and greener in color, but the whole thing seems inedible and useless as-is.",
     "price": 200,
-    "material": "wood",
+    "material": [ "wood" ],
     "volume": 1
   },
   {
