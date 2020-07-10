@@ -41,7 +41,7 @@
     "description": "Nanotech shotgun turret, blasts out large clouds of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
     "looks_like": "nano_turret_shredder",
     "weight": 4375,
-    "volume": 8,
+    "volume": "2000 ml",
     "use_action": [
       { "type": "place_monster", "monster_id": "mon_nano_turret_pistol", "difficulty": 0, "moves": 100, "skill": "computer" },
       {
@@ -81,7 +81,7 @@
     "description": "Nanotech rifle turret, fires large bursts of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
     "looks_like": "nano_turret_rifle",
     "weight": 4375,
-    "volume": 8,
+    "volume": "2000 ml",
     "use_action": [
       { "type": "place_monster", "monster_id": "mon_nano_turret_rifle", "difficulty": 0, "moves": 100, "skill": "computer" },
       {
@@ -123,7 +123,7 @@
     "looks_like": "rm614_lmg",
     "weight": 4375,
     "skill": "shotgun",
-    "volume": 8,
+    "volume": "2000 ml",
     "ranged_damage": { "damage_type": "stab", "amount": 18 },
     "range": 4,
     "dispersion": 400,
@@ -174,7 +174,7 @@
     "looks_like": "rm11b_sniper_rifle",
     "weight": 4375,
     "skill": "rifle",
-    "volume": 8,
+    "volume": "2000 ml",
     "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "range": 24,
     "dispersion": 0,
@@ -227,7 +227,7 @@
     "color": "light_cyan",
     "symbol": ":",
     "material": "nanite",
-    "volume": 8,
+    "volume": "2000 ml",
     "bashing": 1,
     "cutting": 0,
     "category": "veh_parts",
@@ -245,7 +245,7 @@
     "color": "light_cyan",
     "symbol": ":",
     "material": "nanite",
-    "volume": 8,
+    "volume": "2000 ml",
     "bashing": 1,
     "cutting": 0,
     "category": "veh_parts",
