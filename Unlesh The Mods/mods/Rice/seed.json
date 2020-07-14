@@ -6,12 +6,12 @@
     "description": "Seeds",
     "name": "seed",
     "category": "other",
-    "volume": "250 ml",
-    "weight": 1,
+    "volume": 1,
+    "weight": "1 g",
     "price": 120,
     "charges": 4,
     "stack_size": 100,
-    "material": [ "fruit" ],
+    "material": "fruit",
     "symbol": ".",
     "color": "brown"
   },
@@ -21,13 +21,8 @@
     "type": "COMESTIBLE",
     "name": "rice seed",
     "name-plural": "rice seeds",
-<<<<<<< HEAD
     "weight": 5,
-    "volume": "2500 ml",
-=======
-    "weight": "5 g",
     "volume": 10,
->>>>>>> 6250dcee7d250b8fade0247f7a3a97f813f04ed1
     "description": "Long grain rice seed",
     "seed_data": { "plant_name": "rice", "fruit": "rice", "byproducts": [ "plant_fibre" ], "grow": 100 }
   }
