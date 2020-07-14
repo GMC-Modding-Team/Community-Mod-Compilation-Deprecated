@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ammo_box_nail",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "nail box",
+    "name_plural": "nail boxes",
+    "description": "A small cardboard box to store nails.",
+    "weight": "151 g",
+    "volume": 4,
+    "price": 0,
+    "material": "paper",
+    "symbol": ")",
+    "color": "brown",
+    "contains": 1,
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": false, "max_contains_volume": "990 ml", "max_contains_weight": "4 kg" } ]
+  },
+  {
+    "id": "ammo_box_9mm",
+    "copy-from": "ammo_box_nail",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "9mm ammo box",
+    "name_plural": "9mm ammo boxes",
+    "description": "A small cardboard box to store 9mm rounds.",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": false, "max_contains_volume": "990 ml", "max_contains_weight": "4 kg" } ]
+  },
+  {
+    "id": "ammo_box_shot",
+    "copy-from": "ammo_box_nail",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "shotshell ammo box",
+    "name_plural": "shotshell ammo boxes",
+    "description": "A small cardboard box to store shotshell.",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": false, "max_contains_volume": "990 ml", "max_contains_weight": "4 kg" } ]
+  },
+  {
+    "id": "ammo_box_223",
+    "copy-from": "ammo_box_nail",
+    "type": "GENERIC",
+    "category": "container",
+    "name": "5.56 ammo box",
+    "name_plural": "shotshell ammo boxes",
+    "description": "A small cardboard box to store 5.56mm rounds.",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": false, "max_contains_volume": "990 ml", "max_contains_weight": "4 kg" } ]
+  },
+  {
+    "id": "ammo_box_50",
+    "copy-from": "ammo_box_nail",
+    "type": "GENERIC",
+    "category": "container",
+    "name": ".50 ammo box",
+    "name_plural": "shotshell ammo boxes",
+    "description": "A small cardboard box to store .50 rounds.",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": false, "max_contains_volume": "990 ml", "max_contains_weight": "4 kg" } ]
+  }
+]
