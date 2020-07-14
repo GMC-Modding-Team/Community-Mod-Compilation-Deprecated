@@ -1,0 +1,56 @@
+[
+  {
+    "id": "SMakeshift_Canteen",
+    "type": "GENERIC",
+    "category": "CONTAINER",
+    "name": "small makeshift canteen",
+    "description": "A small container made from a bottle or a jar, and string. Moderately encumbering.  Holds 0.5 liters and has a simple carry strap.",
+    "weight": "400 g",
+    "volume": "2 ml",
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 1,
+    "rigid": true,
+    "material": [ "glass" ],
+    "symbol": ")",
+    "color": "light_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "2 kg"
+      }
+    ],
+    "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
+    "flags": [ "WAIST" ]
+  },
+  {
+    "id": "LMakeshift_Canteen",
+    "type": "GENERIC",
+    "category": "CONTAINER",
+    "name": "large makeshift canteen",
+    "description": "A large container made from a jug and string. highly encumbering.  Holds 5 liters and has a simple carry strap.",
+    "weight": "853 g",
+    "volume": "2500 ml",
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 1,
+    "rigid": true,
+    "material": [ "plastic" ],
+    "symbol": ")",
+    "color": "light_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "2500 ml",
+        "max_contains_weight": "5 kg"
+      }
+    ],
+    "armor_data": { "covers": [ "TORSO" ], "coverage": 10, "encumbrance": 10, "material_thickness": 1 },
+    "flags": [ "WAIST" ]
+  }
+]

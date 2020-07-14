@@ -1,0 +1,54 @@
+[
+  {
+    "abstract": "fusion_engine_abstract",
+    "type": "vehicle_part",
+    "name": "Fusion Engine",
+    "item": "fusion_engine_standard",
+    "difficulty": 12,
+    "description": "This fusion engine is capable of powering 'Mechs, Aerospace Fighters, and other vehicles.",
+    "noise_factor": 2,
+    "m2c": 99,
+    "epower": 11250000,
+    "symbol": "H",
+    "color": "yellow",
+    "breaks_into": [ { "item": "scrap", "count": [ 0, 5 ] } ],
+    "broken_symbol": "!",
+    "durability": 100,
+    "broken_color": "red",
+    "ammo": "plutonium",
+    "max_charges": 1,
+    "location": "fuel_source",
+    "flags": [ "REACTOR", "TOOL_WRENCH", "E_HIGHER_SKILL", "E_HEATER", "DIFFICULTY_REMOVE", "OBSTACLE", "OPAQUE", "PERPETUAL" ]
+  },
+  {
+    "id": "fusion_test_engine",
+    "copy-from": "fusion_engine_abstract",
+    "type": "vehicle_part",
+    "name": "fusion engine test",
+    "item": "fusion_test_part",
+    "looks_like": "motor_small",
+    "difficulty": 1,
+    "durability": 80,
+    "epower": 11250000,
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "plastic_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 1, 3 ] }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "fusion_test_part",
+    "name": "fusion engine standard 140",
+    "description": "A fusion engine.  Useful, for it's energy output.",
+    "//": "rating of 140, based off of https://bg.battletech.com/forums/index.php?topic=36901.0",
+    "weight": 4535924,
+    "color": "light_cyan",
+    "symbol": "∞",
+    "material": [ "steel", "plastic" ],
+    "volume": "250 L",
+    "category": "veh_parts",
+    "price": 2000000
+  }
+]
