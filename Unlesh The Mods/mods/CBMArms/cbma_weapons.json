@@ -11,7 +11,7 @@
     "symbol": "{",
     "looks_like": "spike",
     "material": [ "superalloy" ],
-    "volume": 1
+    "volume": "250 ml"
   },
   {
     "id": "cbma_mono_cutter",
@@ -26,7 +26,7 @@
     "symbol": "{",
     "looks_like": "carver_off",
     "material": [ "plastic", "superalloy" ],
-    "volume": 1,
+    "volume": "250 ml",
     "cutting": 7,
     "flags": [ "SHEATH_KNIFE", "TRADER_AVOID" ],
     "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 2 ], [ "BUTCHER", 22 ] ]
@@ -44,7 +44,7 @@
     "symbol": "{",
     "looks_like": "carver_off",
     "material": [ "steel", "superalloy" ],
-    "volume": 3,
+    "volume": "750 ml",
     "cutting": 24,
     "techniques": [ "RAPID" ],
     "flags": [ "DURABLE_MELEE", "SHEATH_KNIFE", "TRADER_AVOID" ],
@@ -63,7 +63,7 @@
     "symbol": "{",
     "looks_like": "sword_crude",
     "material": [ "superalloy" ],
-    "volume": 6,
+    "volume": "1500 ml",
     "cutting": 45,
     "techniques": [ "RAPID", "WBLOCK_2" ],
     "flags": [ "UNBREAKABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE", "TRADER_AVOID" ],
@@ -82,7 +82,7 @@
     "symbol": "{",
     "looks_like": "spear_knife",
     "material": [ "steel", "superalloy" ],
-    "volume": 8,
+    "volume": "2000 ml",
     "bashing": 8,
     "cutting": 38,
     "techniques": [ "IMPALE", "WIDE", "RAPID", "PRECISE", "WBLOCK_2" ],
@@ -101,7 +101,7 @@
     "symbol": "{",
     "looks_like": "pipe",
     "material": [ "superalloy" ],
-    "volume": 16,
+    "volume": "4 L",
     "bashing": 28,
     "cutting": 8,
     "flags": [ "UNBREAKABLE_MELEE", "ALWAYS_TWOHAND", "TRADER_AVOID" ]
@@ -114,7 +114,7 @@
     "name_plural": "monomolecular throwing daggers",
     "description": "It is a small knife that is easy to throw as a monomolecular blade. It is not suitable for swinging directly because it is processed to a shape and weight that is easy to throw.",
     "weight": 250,
-    "volume": 2,
+    "volume": "500 ml",
     "price": 200,
     "cutting": 4,
     "material": [ "steel", "superalloy" ],
