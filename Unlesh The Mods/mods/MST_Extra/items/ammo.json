@@ -34,7 +34,7 @@
     "ammo_type": "javelin",
     "range": 13,
     "damage": { "damage_type": "stab", "amount": 13, "armor_penetration": 2 },
-    "relative": { "weight": 100, "cutting": 2 },
+    "relative": { "weight": "100 g", "cutting": 2 },
     "proportional": { "price": 0.5, "bashing": 0.8 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 4 }, { "damage_type": "stab", "amount": 13 } ],
     "flags": [ "FRAGILE_MELEE", "JAVELIN" ]
@@ -53,7 +53,7 @@
     "ammo_type": "javelin",
     "damage": { "damage_type": "stab", "amount": 14, "armor_penetration": 2 },
     "pierce": 2,
-    "relative": { "weight": 30 },
+    "relative": { "weight": "30 g" },
     "proportional": { "price": 0.5, "cutting": 0.85 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 14 } ],
     "flags": [ "FRAGILE_MELEE", "JAVELIN" ]
