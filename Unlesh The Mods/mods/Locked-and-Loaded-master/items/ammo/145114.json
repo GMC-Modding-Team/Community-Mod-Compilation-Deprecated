@@ -18,28 +18,29 @@
     "damage": { "damage_type": "bullet", "amount": 200, "armor_penetration": 50 },
     "dispersion": 150,
     "recoil": 4000
-  },
-  {
+    },
+    {
     "id": "bp_145114",
     "copy-from": "145114",
     "type": "AMMO",
     "name": "14.5x114mm black powder",
-    "proportional": {
-      "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+    "proportional": { 
+      "price": 0.3, 
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 }, 
       "dispersion": 1.2,
       "recoil": 0.76
     },
-    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-  },
-  {
-    "type": "GENERIC",
+     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
+},
+{
+       "type": "GENERIC",
     "id": "145114_casing",
     "copy-from": "casing",
     "name": "14.5x114mm casing",
     "description": "An empty casing from a 14.5x114mm round.",
     "material": "brass",
     "volume": "100ml",
-    "weight": "6 g"
-  }
-]
+    "weight": 6
+    }
+   ]
+   

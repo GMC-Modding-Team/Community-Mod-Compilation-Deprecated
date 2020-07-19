@@ -98,7 +98,7 @@
     "resist_effect": "talisman_warding",
     "desc": [ "Not immortality, but it still feels nice." ],
     "remove_message": "The healing effect fades.",
-    "removes_effects": [ "infected", "fungus", "bleed", "common_cold", "flu", "tetanus" ],
+    "removes_effects": [ "infected", "fungus", "bleed", "common_cold", "flu", "tetanus", "redcells_anemia", "hypovolemia" ],
     "decay_messages": [ [ "The soothing effect of your potion is starting to fade.", "bad" ] ],
     "rating": "good",
     "max_intensity": 15,
@@ -234,11 +234,21 @@
     "name": [ "Clarity of Blood" ],
     "desc": [ "Protection against parasitic and corruptive threats, such as the Mycus." ],
     "remove_message": "The soothing sensation coursing through your veins fades, as the protective magic dissipates.",
+    "resist_traits": [ "THRESH_MARLOSS", "THRESH_MYCUS" ],
     "removes_effects": [ "spores", "fungus", "dermatik", "formication", "tapeworm", "bloodworms", "brainworms", "paincysts" ],
     "decay_messages": [ [ "Your clarity of blood spell is waning.", "bad" ] ],
     "rating": "good",
     "max_intensity": 100,
-    "int_dur_factor": "1 m"
+    "int_dur_factor": "1 m",
+    "base_mods": {
+      "hurt_min": [ 0, 1 ],
+      "hurt_tick": [ 0, 60 ],
+      "stamina_min": [ 0, -150 ],
+      "health_min": [ 0, -10 ],
+      "health_tick": [ 0, 30 ],
+      "pain_min": [ 0, 1 ],
+      "pain_tick": [ 0, 5 ]
+    }
   },
   {
     "type": "effect_type",
@@ -270,7 +280,7 @@
     "id": "poison_ward",
     "name": [ "Ward Against Poison" ],
     "desc": [ "Protection against toxic gas and venom." ],
-    "remove_message": "You feel a momenary weakness as the protective magic fades.",
+    "remove_message": "You feel a momentary weakness as the protective magic fades.",
     "removes_effects": [ "stung", "poison", "badpoison", "paralyzepoison", "teargas" ],
     "max_duration": 1000,
     "int_dur_factor": "1 m"
@@ -281,7 +291,7 @@
     "name": [ "Ward Against Evil" ],
     "desc": [ "Protects against various anomalous effects." ],
     "remove_message": "The magical protection fades.",
-    "removes_effects": [ "darkness", "rat", "evil", "attention", "teleglow", "amigara" ],
+    "removes_effects": [ "darkness", "rat", "evil", "attention", "teleglow", "amigara", "taint", "tindrift" ],
     "decay_messages": [ [ "Your ward against evil is waning.", "bad" ] ],
     "rating": "good",
     "max_intensity": 100,
@@ -291,7 +301,7 @@
     "type": "effect_type",
     "id": "cleric_warding_true",
     "name": [ "Holy Ward" ],
-    "desc": [ "Heavy resistance to bladed weapons, protection from anomalous effects." ],
+    "desc": [ "Immunity to blade and bullet, protection from anomalous effects." ],
     "remove_message": "The magical protection enveloping your body flickers and fades.",
     "removes_effects": [
       "darkness",
@@ -300,6 +310,8 @@
       "attention",
       "teleglow",
       "amigara",
+      "taint",
+      "tindrift",
       "archon_gaze_effect",
       "chalice_offering_side_effects",
       "blood_athame_side_effects"
@@ -425,7 +437,7 @@
     "desc": [ "Unholy power fuels you, strengthening your body with an unnatural adrenaline surge." ],
     "remove_message": "You feel numb, hit with the sheer weight of the unnatural magic fading.",
     "decay_messages": [ [ "The blessing of the eclipse is waning.", "bad" ] ],
-    "blocks_effects": [ "bleed", "winded", "lack_sleep", "sleep" ],
+    "blocks_effects": [ "bleed", "winded", "lack_sleep", "sleep", "redcells_anemia", "hypovolemia" ],
     "rating": "good",
     "max_intensity": 100,
     "int_dur_factor": "1 m",
@@ -518,7 +530,7 @@
   {
     "type": "effect_type",
     "id": "arcane_healing_staunch",
-    "removes_effects": [ "bleed" ],
+    "removes_effects": [ "bleed", "redcells_anemia", "hypovolemia" ],
     "max_duration": "1 s"
   },
   {
@@ -605,16 +617,23 @@
   {
     "type": "effect_type",
     "id": "arcana_aegis_mending",
-    "blocks_effects": [ "bleed" ],
+    "blocks_effects": [ "bleed", "redcells_anemia", "hypovolemia" ],
     "rating": "good"
   },
   {
     "type": "effect_type",
     "id": "sword_mending",
-    "blocks_effects": [ "bleed", "winded" ],
+    "removes_effects": [ "bleed", "winded", "redcells_anemia", "hypovolemia" ],
     "rating": "good",
     "max_duration": "15 s",
     "base_mods": { "pain_min": [ -5 ], "stamina_min": [ 500 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "stormbringer_debuff",
+    "removes_effects": [ "bleed", "winded", "redcells_anemia", "hypovolemia" ],
+    "max_duration": "1 s",
+    "base_mods": { "pain_min": [ -5 ], "stamina_min": [ 500 ], "health_min": [ 60 ] }
   },
   {
     "type": "effect_type",
@@ -633,7 +652,7 @@
       "Light seems to warp around you in an unnatural manner, rendering you invisible and protecting against various perception-related hazards."
     ],
     "remove_message": "The shroud of illusion magic around you fades.",
-    "//": "Immunity to blindness in general is the only way to make an effect reliably protect against flashbangs, so best justification is to counter things that mess with vision as a whole.  Does NOT protect against Glimpse of The Beyond, just because the host can't see you doesn't mean the archon can't...",
+    "//": "Immunity to blindness in general is the only way to make an effect reliably protect against flashbangs, so best justification is to counter things that mess with vision as a whole.  Does NOT protect against Glimpse of The Beyond, just because the host can't see you doesn't mean the archon can't…",
     "removes_effects": [
       "glowy_led",
       "laserlocked",
@@ -647,13 +666,37 @@
       "darkness",
       "no_sight",
       "visuals",
-      "hallu"
+      "hallu",
+      "taint"
     ],
     "decay_messages": [ [ "The illusions enveloping you are starting to fade.", "bad" ] ],
     "rating": "good",
     "max_intensity": 18,
     "int_dur_factor": "1 m",
     "base_mods": { "per_mod": [ -2 ] },
+    "flags": [ "EFFECT_INVISIBLE" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "arcana_invis_lesser",
+    "name": [ "Lesser Illusion Cloak" ],
+    "desc": [
+      "Light seems to warp around you in an unnatural manner, rendering you invisible."
+    ],
+    "remove_message": "The shroud of illusion magic around you fades.",
+    "removes_effects": [
+      "glowy_led",
+      "laserlocked",
+      "was_laserlocked",
+      "glowing",
+      "attention",
+      "haslight",
+      "taint"
+    ],
+    "decay_messages": [ [ "The illusions enveloping you are starting to fade.", "bad" ] ],
+    "rating": "good",
+    "max_intensity": 5,
+    "int_dur_factor": "1 m",
     "flags": [ "EFFECT_INVISIBLE" ]
   },
   {
@@ -689,8 +732,8 @@
     "//": "Regular Ward Against Evil will only protect you a bit, you need Holy Ward to actually stop the effect.  This will be relevant once I add an encounter you can access after restoring the ritual blade.",
     "resist_effect": "cleric_warding",
     "name": [ "Glimpse of The Beyond" ],
-    "desc": [ "You caught the attention of something that doesn't belong in this world..." ],
-    "apply_message": "You feel cold inside...",
+    "desc": [ "You caught the attention of something that doesn't belong in this world…" ],
+    "apply_message": "You feel cold inside…",
     "remove_message": "You feel a faint sense of relief wash over you.",
     "miss_messages": [ [ "Afterimages on the edge of your vision distract you.", 10 ] ],
     "rating": "bad",
@@ -737,12 +780,12 @@
     "desc": [
       "",
       "You've been feeling more weary lately, and it's getting hard to think straight.  Overuse of the chalice seems to have an effect on you.",
-      "It's starting to get harder to focus on your surroundings.  Maybe using your own life force to fuel the chalice is a bad idea....",
+      "It's starting to get harder to focus on your surroundings.  Maybe using your own life force to fuel the chalice is a bad idea….",
       "Even when you aren't exhausted, you find it hard to stay awake.  This is going to be the death of you if you keep overusing that damn chalice!",
       "You feel an odd sensation in the back of your head, an ethereal ache you can't quite explain.  It's like your very existence is crumbling away.",
       "You feel an odd sensation in the back of your head, an ethereal ache you can't quite explain.  It's like your very existence is crumbling away.",
       "You feel an odd sensation in the back of your head, an ethereal ache you can't quite explain.  It's like your very existence is crumbling away.",
-      "Your very essence is nothing more than fuel for the pyre..."
+      "Your very essence is nothing more than fuel for the pyre…"
     ],
     "rating": "bad",
     "max_intensity": 7,
@@ -778,11 +821,11 @@
     "name": [ "", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia" ],
     "desc": [
       "",
-      "Your muscles have been feeling more fatigued lately, and you feel faintly queasy on the inside.  Maybe overusing that athame did something to you...",
+      "Your muscles have been feeling more fatigued lately, and you feel faintly queasy on the inside.  Maybe overusing that athame did something to you…",
       "The weakness in your body has worsened, and you've been having hunger pangs.  It seems blood magic has consequences if overused.",
       "Your body feels sluggish and drained, and it seems to be getting worse the more you rely on blood magic.  Relying on it less might help ease your suffering.",
-      "It feels like your body is struggling to sustain itself, as your overuse of the athame's magic has taken its toll on you.  It might be a good idea to stop using that damn thing for a while...",
-      "It feels like your body is struggling to sustain itself, as your overuse of the athame's magic has taken its toll on you.  It might be a good idea to stop using that damn thing for a while..."
+      "It feels like your body is struggling to sustain itself, as your overuse of the athame's magic has taken its toll on you.  It might be a good idea to stop using that damn thing for a while…",
+      "It feels like your body is struggling to sustain itself, as your overuse of the athame's magic has taken its toll on you.  It might be a good idea to stop using that damn thing for a while…"
     ],
     "rating": "bad",
     "max_intensity": 6,
@@ -813,7 +856,7 @@
     "id": "arcana_scroll_nature_effect",
     "//": "Explicitly punish Mycus players who will be immune to mutation, that's what you get for channeling a rival interloper's nature magic.",
     "resist_traits": [ "THRESH_MARLOSS", "THRESH_MYCUS" ],
-    "blocks_effects": [ "blind", "deaf", "infected", "bite", "bleed", "poison", "badpoison", "spores", "fungus" ],
+    "blocks_effects": [ "blind", "deaf", "infected", "bite", "bleed", "poison", "badpoison", "spores", "fungus", "redcells_anemia", "hypovolemia" ],
     "rating": "good",
     "base_mods": {
       "rad_min": [ -25, 25 ],
@@ -821,6 +864,39 @@
       "health_min": [ 0, -10 ],
       "pain_min": [ 0, 10 ],
       "hunger_min": [ 0, 25 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "arcana_evil_mimic",
+    "resist_effect": "talisman_warding",
+    "apply_message": "You feel an evil presence…",
+    "rating": "bad",
+    "max_intensity": 25,
+    "int_dur_factor": "4 h",
+    "base_mods": {
+      "str_mod": [ 2 ],
+      "dex_mod": [ 1 ],
+      "int_mod": [ -1 ],
+      "per_mod": [ -1 ],
+      "fatigue_tick": [ 1800 ],
+      "fatigue_chance": [ 6, 12 ]
+    },
+    "scaling_mods": {
+      "str_mod": [ -0.24 ],
+      "dex_mod": [ -0.2 ],
+      "int_mod": [ -0.24 ],
+      "per_mod": [ -0.2 ],
+      "stamina_min": [ 25 ],
+      "fatigue_min": [ 0.25 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "arcana_moonstone_touch",
+    "max_duration": "4 s",
+    "base_mods": {
+      "health_min": [ 1 ]
     }
   },
   {

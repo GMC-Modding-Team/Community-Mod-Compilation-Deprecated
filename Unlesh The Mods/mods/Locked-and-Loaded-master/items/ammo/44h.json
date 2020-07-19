@@ -18,8 +18,8 @@
     "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 3 },
     "dispersion": 300,
     "recoil": 100
-  },
-  {
+    },
+    {
     "id": "bp_44h",
     "copy-from": "44h",
     "type": "AMMO",
@@ -28,23 +28,18 @@
       "price": 0.3,
       "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
-      "dispersion": 1.2
+      "dispersion": 1.2 
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-  },
-  {
-    "type": "GENERIC",
+},
+{
+   "type": "GENERIC",
     "id": "44h_casing",
     "copy-from": "casing",
     "name": ".44 Henry Casing",
     "description": "An empty casing from a .44 Henry round.",
-<<<<<<< HEAD
     "material": "brass",
-    "volume": "40 ml",
-=======
-    "material": [ "brass" ],
     "volume": "40ml",
->>>>>>> pr/71
     "weight": "1 g"
-  }
-]
+    }
+   ]
