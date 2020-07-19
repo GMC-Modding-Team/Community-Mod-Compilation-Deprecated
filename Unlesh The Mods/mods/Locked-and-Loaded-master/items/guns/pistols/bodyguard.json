@@ -1,5 +1,27 @@
 [
  {
-  "id": "bodyguard",
-  "name": "S&W 380 bodyguard",
-  "description": "
+    "copy-from": "pistol_base",
+    "id": "bodyguard",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": "M&P 380 Bodyguard",
+    "description": "The M&P 380 bodyguard is. very compact pistol chambered in .38 special. The small size make it perfect for concealed carry. While small, this gun packs quite the punch.",
+    "weight": "349 g",
+    "volume": "250 ml",
+    "price": 45000,
+    "to_hit": -2,
+    "bashing": 6,
+    "material": [ "steel", "aluminum" ],
+    "symbol": ")",
+    "color": "dark_gray",
+    "ammo": "38",
+    "range": 1,
+    "dispersion": 200,
+    "durability": 7,
+    "min_cycle_recoil": 450,
+    "barrel_volume": "10 ml",
+    "default_mods": [ "laser_sight"],
+    "magazine_well": 1,
+    "magazines": [ [ "38", [ "bodyguard_mag"] ] ]
+  }
+ ]
