@@ -1,4 +1,17 @@
-- Experimental 0.07
+0.08
+currently going through a big volume and weight update nearly done
+
+expect a better change log infutre just know theres alot of work being put in to bring the legacy code uptodate
+
+expect more mods after and less at the same time (i dont see the point in mutlple mods that add items or cloths) 1.0 
+
+theres been tones for mod updates since E check there page out
+
+this release doesnt work so well 09 will work
+
+expect big changes to mods after i want to make the more relistic and this is my compilation (better for the community)
+
+0.07
 
 Updated mods various diffrent code
     pocket data updates
