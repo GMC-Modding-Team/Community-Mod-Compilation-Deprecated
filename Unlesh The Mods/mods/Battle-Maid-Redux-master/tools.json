@@ -10,7 +10,7 @@
     "color": "dark_gray",
     "price": 5000,
     "material": [ "maid" ],
-    "volume": 1,
+    "volume": "250 ml",
     "category": "tools"
   },
   {
@@ -25,7 +25,7 @@
     "color": "dark_gray",
     "price": 5000,
     "material": [ "glass", "maid" ],
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 201600,
@@ -46,7 +46,7 @@
     "price": 60000,
     "material": [ "glass", "maid" ],
     "weight": "1200 g",
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_shoggoth_maid",
@@ -66,7 +66,7 @@
     "color": "white",
     "price": 5000,
     "material": [ "maid" ],
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 100800,
@@ -87,7 +87,7 @@
     "price": 60000,
     "material": [ "maid" ],
     "weight": "1200 g",
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_shoggoth_maid",
@@ -106,7 +106,7 @@
     "price": 60000,
     "material": [ "flesh" ],
     "weight": "1200 g",
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "place_monster",
       "monster_id": "maid_master",
@@ -125,7 +125,7 @@
     "price": 5400,
     "material": [ "cotton" ],
     "weight": "300 g",
-    "volume": 3,
+    "volume": "750 ml",
     "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
     "max_charges": 48,
     "artifact_data": { "charge_type": "ARTC_TIME" }
@@ -142,7 +142,7 @@
     "color": "brown",
     "price": 5400,
     "material": [ "cotton" ],
-    "volume": 3
+    "volume": "750 ml"
   },
   {
     "id": "master_doll_vibe_off",
@@ -155,7 +155,7 @@
     "price": 5400,
     "material": [ "cotton", "plastic" ],
     "weight": "400 g",
-    "volume": 3,
+    "volume": "750 ml",
     "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
     "max_charges": 15,
     "use_action": [
@@ -179,7 +179,7 @@
     "price": 5400,
     "material": [ "cotton", "plastic" ],
     "weight": "400 g",
-    "volume": 3,
+    "volume": "750 ml",
     "flags": [ "NO_UNLOAD", "NO_RELOAD" ],
     "max_charges": 16,
     "charges_per_use": 1,
@@ -203,7 +203,7 @@
     "price": 60000,
     "material": [ "paper" ],
     "weight": "1200 g",
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_little_maid",
@@ -223,7 +223,7 @@
     "color": "white",
     "price": 5000,
     "material": [ "maid" ],
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 7200,
@@ -244,7 +244,7 @@
     "price": 60000,
     "material": [ "maid" ],
     "weight": "1200 g",
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_little_maid",
@@ -263,7 +263,7 @@
     "price": 60000,
     "material": [ "paper" ],
     "weight": "1200 g",
-    "volume": 1
+    "volume": "250 ml"
   },
   {
     "id": "maid_mess_kit",
@@ -300,7 +300,7 @@
     "price": 60000,
     "material": [ "maid" ],
     "weight": "34000 g",
-    "volume": 40
+    "volume": "10 L"
   },
   {
     "type": "GENERIC",
@@ -314,7 +314,7 @@
     "color": "white",
     "price": 60000,
     "material": [ "maid" ],
-    "volume": 40,
+    "volume": "10 L",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 1200,
@@ -336,7 +336,7 @@
     "color": "white",
     "price": 60000,
     "material": [ "maid" ],
-    "volume": 40
+    "volume": "10 L"
   },
   {
     "type": "GENERIC",
@@ -350,7 +350,7 @@
     "color": "white",
     "price": 60000,
     "material": [ "maid" ],
-    "volume": 40,
+    "volume": "10 L",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 1200,
@@ -372,7 +372,7 @@
     "color": "white",
     "price": 60000,
     "material": [ "maid" ],
-    "volume": 40
+    "volume": "10 L"
   },
   {
     "type": "GENERIC",
@@ -386,7 +386,7 @@
     "color": "white",
     "price": 60000,
     "material": [ "maid" ],
-    "volume": 40,
+    "volume": "10 L",
     "use_action": {
       "type": "delayed_transform",
       "transform_age": 1200,
@@ -408,7 +408,7 @@
     "color": "white",
     "price": 60000,
     "material": [ "maid" ],
-    "volume": 40
+    "volume": "10 L"
   },
   {
     "id": "summon_alchemic_golem",
@@ -421,7 +421,7 @@
     "price": 60000,
     "material": [ "flesh" ],
     "weight": "1000 g",
-    "volume": 1,
+    "volume": "250 ml",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_alchemic_golem",
