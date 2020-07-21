@@ -67,7 +67,7 @@
     "flags": [ "MAG_COMPACT" ]
   },
   {
-	"id": "SSR",
+    "id": "SSR",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "Standard Service Rifle",
@@ -84,8 +84,8 @@
     "ammo": "BRC",
     "dispersion": 110,
     "durability": 10,
-	"clip_size": 5,
-	"barrel_length": "660 ml",
+    "clip_size": 5,
+    "barrel_length": "660 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -100,7 +100,7 @@
       [ "brass catcher", 1 ]
     ],
     "flags": [ "RELOAD_ONE" ],
-	"pocket_data": [
+    "pocket_data": [
       { "pocket_type": "MAGAZINE", "ammo_restriction": { "BRC": 5 } },
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -108,15 +108,15 @@
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
         "item_restriction": [ "BRC_clip" ]
-		}
-		]
+      }
+    ]
   },
   {
-	"id": "BRC_clip",
-	"type": "MAGAZINE",
-	"name": "BRC stripper clip",
-	"description": "A tiny piece of grooved metal designed to allow a shooter to quickly load a bolt-action rifle.",
-	"weight": "40 g",
+    "id": "BRC_clip",
+    "type": "MAGAZINE",
+    "name": "BRC stripper clip",
+    "description": "A tiny piece of grooved metal designed to allow a shooter to quickly load a bolt-action rifle.",
+    "weight": "40 g",
     "volume": "50 ml",
     "price": 1000,
     "price_postapoc": 50,
@@ -129,8 +129,8 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "BRC": 5 } } ]
   },
   {
-	"id": "SRC-Pipe",
-	"looks_like": "remington_870",
+    "id": "SRC-Pipe",
+    "looks_like": "remington_870",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "pipe rifle: SRC", "str_pl": "pipe rifle: SRC" },
@@ -159,13 +159,13 @@
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-	"faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
     "flags": [ "RELOAD_EJECT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "SRC": 1 } } ]
   },
   {
-	"id": "BRC-Pipe",
-	"looks_like": "remington_870",
+    "id": "BRC-Pipe",
+    "looks_like": "remington_870",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "pipe rifle: BRC", "str_pl": "pipe rifles: BRC" },
@@ -194,7 +194,7 @@
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-	"faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
     "flags": [ "RELOAD_EJECT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "BRC": 1 } } ]
   }
