@@ -75,7 +75,7 @@
     "name": "H.E.C.U Gasmask (off)",
     "description": "A basic gasmak, modified with state-of-the-art technology to acomodate to H.E.C.U's needs. It includes night vision, and an integrated HUD.",
     "weight": "2500 g",
-    "volume": 4,
+    "volume": "1 L",
     "price": 2500000,
     "to_hit": 1,
     "max_charges": 0,
@@ -109,7 +109,7 @@
     "name": "H.E.C.U Gasmask (on)",
     "description": "A basic gasmak, modified with state-of-the-art technology to acomodate to H.E.C.U's needs. It includes night vision, and an integrated HUD.",
     "weight": "2500 g",
-    "volume": 4,
+    "volume": "1 L",
     "price": 2500000,
     "to_hit": -3,
     "max_charges": 0,
@@ -159,8 +159,8 @@
             "target": "pcv_on",
             "active": true,
             "need_charges": 1,
-            "need_charges_msg": "Insuficient power..." 
-                  }, 
+            "need_charges_msg": "Insuficient power..."
+                  },
     "coverage": 85,
     "encumbrance": 7,
     "storage": 10,
@@ -211,7 +211,7 @@
     "name": "H.E.C.U jacket",
     "description": "A tough jacket with lots of pockets, also it comes in a nice urban camo pattern.  Favored by the H.E.C.U.",
     "color": "gray"
-  },  
+  },
   {
     "id": "hecu_pants",
     "copy-from": "pants_army",
