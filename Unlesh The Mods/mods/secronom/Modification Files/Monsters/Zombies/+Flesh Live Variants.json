@@ -68,7 +68,7 @@
     "death_function": [ "NORMAL" ],
     "note": "Its not actually THAT fleshy in all, just infected, so harvest is the same.",
     "harvest": "mammal_large_fur",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "BLEED", "POISON", "NO_BREATHE", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "POISON", "NO_BREATHE", "BASHES" ]
   },
   {
     "id": "mon_sflesh_taken_rat",
@@ -130,7 +130,7 @@
     "special_attacks": [ [ "scratch", 10 ], { "type": "leap", "cooldown": 5, "max_range": 5 } ],
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_fur",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "POISON", "NO_BREATHE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_sflesh_taken_moose",
@@ -161,7 +161,7 @@
     "vision_night": 7,
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_large_leather",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "POISON", "NO_BREATHE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_sflesh_beaver",
@@ -236,7 +236,7 @@
         "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
       }
     ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_boar_wild",
@@ -276,7 +276,7 @@
         "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
       }
     ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_cat_kitten",
@@ -500,7 +500,7 @@
     "path_settings": { "max_dist": 10 },
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_fur",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_deer_fawn",
@@ -685,7 +685,7 @@
     "vision_night": 5,
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_groundhog",
@@ -830,7 +830,7 @@
     ],
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_muskrat",
@@ -914,7 +914,7 @@
     "death_function": [ "NORMAL" ],
     "regenerates": 10,
     "regen_morale": true,
-    "flags": [ "ATTACKMON", "BLEED", "BORES", "CAN_DIG", "HEARS", "KEENNOSE", "SMELLS", "WARM" ]
+    "flags": [ "ATTACKMON", "BORES", "CAN_DIG", "HEARS", "KEENNOSE", "SMELLS", "WARM" ]
   },
   {
     "id": "mon_sflesh_opossum",
@@ -951,7 +951,7 @@
     "vision_night": 5,
     "harvest": "mammal_tiny",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_otter",
@@ -1026,7 +1026,7 @@
         "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
       }
     ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_pig",
@@ -1064,7 +1064,7 @@
         "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
       }
     ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_rabbit",
@@ -1136,7 +1136,7 @@
     "harvest": "mammal_tiny",
     "vision_night": 5,
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_sflesh_sheep_lamb",
@@ -1323,6 +1323,6 @@
         "monster_message": "<color_magenta>%1$s engulfs %3$s with their flesh!</color>"
       }
     ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "WARM", "KEENNOSE" ]
   }
 ]
