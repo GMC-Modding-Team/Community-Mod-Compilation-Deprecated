@@ -18,28 +18,28 @@
     "damage": { "damage_type": "bullet", "amount": 107, "armor_penetration": 25 },
     "dispersion": 120,
     "recoil": 25000
-    },
-    {
+  },
+  {
     "id": "bp_408",
     "copy-from": "408",
     "type": "AMMO",
     "name": ".408 CT black powder",
-    "proportional": { 
+    "proportional": {
       "price": 0.3,
-      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 }, 
-      "recoil": 0.76, 
-      "dispersion": 1.2 
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "recoil": 0.76,
+      "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
-   "type": "GENERIC",
+  },
+  {
+    "type": "GENERIC",
     "id": "408_casing",
     "copy-from": "casing",
     "name": ".408 Cheyenee Tactical casing",
     "description": "An empty casing from a .408 Cheyenee Tactical round.",
     "material": [ "brass " ],
-    "volume": "30ml",
-    "weight": 5
-    }
-   ]
+    "volume": "30 ml",
+    "weight": "5 g"
+  }
+]
