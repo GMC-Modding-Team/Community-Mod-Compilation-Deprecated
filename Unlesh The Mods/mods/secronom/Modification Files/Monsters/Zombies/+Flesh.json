@@ -854,7 +854,7 @@
       }
     ],
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "PUSH_MON" ]
   },
   {
     "id": "mon_sflesh_fleshling_ravagy",
@@ -892,7 +892,7 @@
       }
     ],
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "PUSH_MON" ]
   },
   {
     "id": "mon_sflesh_fleshling_scavengy",
@@ -929,7 +929,19 @@
       }
     ],
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ABSORBS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ABSORBS",
+      "STUMBLES",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "BLEED",
+      "NO_BREATHE",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_sflesh_fleshling_scavengy_explosive",
