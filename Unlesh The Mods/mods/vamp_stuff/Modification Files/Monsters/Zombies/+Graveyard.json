@@ -60,7 +60,7 @@
     "death_drops": "elderzombie",
     "death_function": [ "NORMAL" ],
     "upgrades": { "half_life": 6, "into_group": "GROUP_CRYPTIES_DEFUSEDUPGRADE" },
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_zombie_bloodinfused",
@@ -102,8 +102,7 @@
       "POISON",
       "NO_BREATHE",
       "REVIVES",
-      "BONES",
-      "BLEED"
+      "BONES"
     ]
   },
   {
@@ -145,8 +144,7 @@
       "POISON",
       "NO_BREATHE",
       "REVIVES",
-      "BONES",
-      "BLEED"
+      "BONES"
     ]
   },
   {
@@ -178,6 +176,6 @@
     "special_attacks": [ [ "tentaclebones", 10 ], [ "GRAB", 10 ] ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
   }
 ]

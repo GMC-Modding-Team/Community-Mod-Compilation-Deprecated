@@ -105,7 +105,7 @@
     "special_attacks": [ [ "SMASH", 50 ] ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "FIRE", "FRIEND_ATTACKED" ],
     "burn_into": "mon_horse_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "BASHES", "WARM", "BLEED", "ATTACKMON", "POISON", "NO_BREATHE", "REVIVES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "BASHES", "WARM", "ATTACKMON", "POISON", "NO_BREATHE", "REVIVES" ]
   },
   {
     "id": "mon_zolf",
@@ -263,7 +263,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 7, "min_mul": 0.3 } ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_dog_skeleton_pk",
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "BLEED", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES" ]
   },
   {
     "id": "mon_dog_skeleton_pk",
@@ -1087,7 +1087,6 @@
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
       "WARM",
-      "BLEED",
       "BASHES",
       "DESTROYS",
       "ATTACKMON",

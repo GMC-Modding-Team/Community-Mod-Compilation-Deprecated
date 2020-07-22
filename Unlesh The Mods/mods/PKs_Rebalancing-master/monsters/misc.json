@@ -141,7 +141,7 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "BLEED", "ATTACKMON", "SWIMS" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "ATTACKMON", "SWIMS" ]
   },
   {
     "id": "mon_hallu_mannequin",
@@ -466,7 +466,6 @@
       "WARM",
       "HIT_AND_RUN",
       "KEENNOSE",
-      "BLEED",
       "GROUP_MORALE"
     ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK" ],
@@ -500,7 +499,7 @@
     "anger_triggers": [ "STALK", "HURT", "FRIEND_ATTACKED", "PLAYER_WEAK" ],
     "fear_triggers": [ "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT", "SOUND" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "BLEED", "GROUP_MORALE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "GROUP_MORALE" ]
   },
   {
     "id": "mon_moose",
@@ -524,7 +523,7 @@
     "special_attacks": [ [ "SMASH", 50 ] ],
     "anger_triggers": [ "HURT", "MATING_SEASON", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "WARM", "BLEED", "ATTACKMON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "WARM", "ATTACKMON" ]
   },
   {
     "id": "mon_moose_pk",
@@ -552,7 +551,7 @@
     "anger_triggers": [ "HURT", "MATING_SEASON", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "WARM", "BLEED", "ATTACKMON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "WARM", "ATTACKMON" ]
   },
   {
     "id": "mon_moose_weak",
@@ -579,7 +578,7 @@
     "anger_triggers": [ "HURT", "MATING_SEASON", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "HURT" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "WARM", "BLEED", "ATTACKMON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "WARM", "ATTACKMON" ]
   },
   {
     "id": "mon_wolf",
@@ -646,7 +645,7 @@
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "fear_triggers": [ "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE" ]
   },
   {
     "id": "mon_goat",
@@ -680,7 +679,7 @@
     "fear_triggers": [ "SOUND", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM" ]
   },
   {
     "id": "mon_robin",
@@ -794,7 +793,6 @@
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
       "WARM",
-      "BLEED",
       "BASHES",
       "DESTROYS",
       "PUSH_MON"
@@ -858,7 +856,7 @@
     "fear_triggers": [ "HURT", "FIRE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "WARM", "BLEED", "BASHES", "DESTROYS", "ATTACKMON", "SWARMS" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "SWARMS" ]
   },
   {
     "id": "mon_bear_mega_kid",
@@ -917,7 +915,6 @@
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
       "WARM",
-      "BLEED",
       "BASHES",
       "PUSH_MON",
       "SWARMS",
@@ -963,7 +960,7 @@
     "fear_triggers": [ "HURT", "FRIEND_DIED", "FIRE", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT", "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "WARM", "BLEED", "BASHES", "PUSH_MON", "SWARMS", "GROUP_MORALE", "STUMBLES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "WARM", "BASHES", "PUSH_MON", "SWARMS", "GROUP_MORALE", "STUMBLES" ]
   },
   {
     "id": "mon_coyote_small",
@@ -1008,7 +1005,6 @@
       "WARM",
       "HIT_AND_RUN",
       "KEENNOSE",
-      "BLEED",
       "SWARMS",
       "GROUP_MORALE"
     ]
@@ -1054,7 +1050,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "biosignature": { "biosig_item": "feces_manure", "biosig_timer": 12 },
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "BLEED" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM" ],
     "anger_triggers": [ "PLAYER_WEAK", "STALK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "SOUND", "HURT", "FIRE" ],
     "placate_triggers": [ "MEAT", "FRIEND_ATTACKED" ]
@@ -1090,7 +1086,7 @@
     "fear_triggers": [ "HURT", "SOUND", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "biosignature": { "biosig_item": "feces_manure", "biosig_timer": 15 },
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "KEENNOSE", "BLEED", "SWARMS", "GROUP_MORALE", "CAN_DIG" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "KEENNOSE", "SWARMS", "GROUP_MORALE", "CAN_DIG" ]
   },
   {
     "id": "mon_deer_small",
