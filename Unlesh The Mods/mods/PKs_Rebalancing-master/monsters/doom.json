@@ -55,7 +55,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_imp_revive",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "POISON", "BLEED", "BONES", "CLIMBS", "PUSH_MON", "GROUP_MORALE" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "POISON", "BONES", "CLIMBS", "PUSH_MON", "GROUP_MORALE" ]
   },
   {
     "id": "mon_imp_black",
@@ -114,7 +114,7 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "POISON", "BLEED", "CLIMBS", "PUSH_MON", "GROUP_MORALE" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "POISON", "CLIMBS", "PUSH_MON", "GROUP_MORALE" ]
   },
   {
     "id": "mon_pinky",
@@ -163,7 +163,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_pinky_revive",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "BLEED", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE" ]
   },
   {
     "id": "mon_lostsoul",
@@ -324,7 +324,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_hell_knight_revive",
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "POISON", "PUSH_MON", "BLEED" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "POISON", "PUSH_MON" ]
   },
   {
     "id": "mon_hell_baron",
@@ -401,8 +401,7 @@
       "GROUP_BASH",
       "DESTROYS",
       "POISON",
-      "PUSH_MON",
-      "BLEED"
+      "PUSH_MON"
     ]
   },
   {
@@ -469,7 +468,6 @@
       "GROUP_BASH",
       "DESTROYS",
       "POISON",
-      "BLEED",
       "NO_BREATHE",
       "PUSH_MON"
     ]
@@ -535,7 +533,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_cacodemon_revive",
-    "flags": [ "SEES", "HEARS", "SMELLS", "FLIES", "POISON", "ARTHROPOD_BLOOD", "BLEED", "BASHES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "FLIES", "POISON", "ARTHROPOD_BLOOD", "BASHES", "PUSH_MON" ]
   },
   {
     "id": "mon_mechaspider",
@@ -793,7 +791,6 @@
       "PRIORITIZE_TARGETS",
       "WARM",
       "POISON",
-      "BLEED",
       "BASHES",
       "DESTROYS",
       "NO_BREATHE",
@@ -838,7 +835,7 @@
     "death_drops": { "subtype": "collection", "groups": [ [ "spearmelee_pk", 95 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_doom_churl_revive",
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_DIED", "MEAT" ]
   },
@@ -869,7 +866,7 @@
     "special_attacks": [ [ "scratch", 20 ], [ "wound_minor", 30 ] ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT", "FRIEND_DIED" ],
     "placate_triggers": [ "FRIEND_ATTACKED", "MEAT" ]
