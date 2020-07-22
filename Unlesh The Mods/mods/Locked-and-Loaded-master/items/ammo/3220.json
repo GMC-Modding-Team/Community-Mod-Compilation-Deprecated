@@ -18,21 +18,21 @@
     "damage": { "damage_type": "bullet", "amount": 15, "armor_penetration": 4 },
     "dispersion": 80,
     "recoil": 150
-    },
-    {
-     "id": "bp_3220",
+  },
+  {
+    "id": "bp_3220",
     "copy-from": "3220",
     "type": "AMMO",
     "name": ".32-20 black powder",
-    "proportional": { 
+    "proportional": {
       "price": 0.3,
-     "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
       "recoil": 0.76,
-      "dispersion": 1.2 
+      "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
+  },
+  {
     "type": "GENERIC",
     "id": "3220_casing",
     "copy-from": "casing",
@@ -40,6 +40,6 @@
     "description": "An empty casing from a .32-20 round.",
     "material": [ "brass " ],
     "volume": "50 ml",
-    "weight": 1
-    }
+    "weight": "1 g"
+  }
 ]
