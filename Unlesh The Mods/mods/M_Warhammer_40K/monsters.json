@@ -31,6 +31,7 @@
     "death_function": "NORMAL",
     "special_attack": [ [ "GRAB", 4 ], { "type": "leap", "cooldown": 10, "max_range": 5 } ],
     "description": "A true monster if you ever saw one. It is hunched over on two highly muscled legs with massive claws on four limbs. It's back and head is covered with thick, organic, armored plates.",
+    "regen_morale": true,
     "flags": [
       "ATTACKMON",
       "BADVENOM",
@@ -41,7 +42,6 @@
       "GROUP_MORALE",
       "KEENNOSE",
       "POISON",
-      "REGEN_MORALE",
       "SEES",
       "SMELLS",
       "SWARMS",
@@ -83,6 +83,7 @@
     "death_function": "NORMAL",
     "special_attack": [ [ "GRAB", 2 ], { "type": "leap", "cooldown": 10, "max_range": 4 } ],
     "description": "A wicked beast with four arms and razor-sharp claws. Do NOT get into close-combat with these things. It's back and head is covered with thick, organic, armored plates.",
+    "regen_morale": true,
     "flags": [
       "ATTACKMON",
       "BADVENOM",
@@ -93,7 +94,6 @@
       "GROUP_MORALE",
       "KEENNOSE",
       "POISON",
-      "REGEN_MORALE",
       "SEES",
       "SMELLS",
       "SWARMS",
@@ -136,6 +136,7 @@
     "death_function": "NORMAL",
     "special_attack": [ [ "SHRIEK", 22 ] ],
     "description": "A towering beast, covered in thick plates of heavy chitin. It's muscles ripple beneath it's tough hide.",
+    "regen_morale": true,
     "flags": [
       "ATTACKMON",
       "BADVENOM",
@@ -146,7 +147,6 @@
       "GROUP_MORALE",
       "HEARS",
       "POISON",
-      "REGEN_MORALE",
       "SEES",
       "SMELLS",
       "SWARMS",
@@ -188,6 +188,7 @@
     "death_function": "NORMAL",
     "special_attack": [ { "type": "leap", "cooldown": 15, "max_range": 8 } ],
     "description": "A snake-like creature that slithers along the ground at astonishing speed. It is very small but incredably agile.",
+    "regen_morale": true,
     "flags": [
       "ATTACKMON",
       "BADVENOM",
@@ -200,7 +201,6 @@
       "HEARS",
       "HIT_AND_RUN",
       "KEENNOSE",
-      "REGEN_MORALE",
       "SEES",
       "SMELLS",
       "SWARMS",
@@ -251,7 +251,8 @@
       }
     ],
     "description": "A huge green-skinned, foul-smelling humanoid. His teeth look quite sharp.",
-    "flags": [ "ATTACKMON", "BASHES", "GROUP_BASH", "GROUP_MORALE", "HEARS", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS" ],
+    "regen_morale": true,
+    "flags": [ "ATTACKMON", "BASHES", "GROUP_BASH", "GROUP_MORALE", "HEARS", "POISON", "SEES", "SMELLS", "SWARMS" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "STALK" ],
     "fear_triggers": [ "FIRE", "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "MEAT" ]
@@ -296,6 +297,7 @@
       }
     ],
     "description": "A huge green-skinned humanoid with metal plates welded to it's body in a rough approximation of armor.",
+    "regen_morale": true,
     "flags": [
       "ATTACKMON",
       "BASHES",
@@ -303,7 +305,6 @@
       "GROUP_MORALE",
       "HEARS",
       "POISON",
-      "REGEN_MORALE",
       "SEES",
       "SMELLS",
       "SWARMS",
@@ -346,6 +347,7 @@
     "starting_ammo": { "ork_dakka": 100 },
     "special_attacks": [ { "type": "gun", "cooldown": 9, "gun_type": "big_shoota", "ranges": [ [ 0, 15, "AUTO" ], [ 16, 40, "DEFAULT" ] ] } ],
     "description": "An Ork that's much bigger and greasier than the others. He's holding a bigger gun too...",
+    "regen_morale": true,
     "flags": [
       "ATTACKMON",
       "BASHES",
@@ -356,7 +358,6 @@
       "GROUP_MORALE",
       "HEARS",
       "POISON",
-      "REGEN_MORALE",
       "SEES",
       "SMELLS",
       "SWARMS",
