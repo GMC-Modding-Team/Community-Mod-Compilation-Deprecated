@@ -1,8 +1,8 @@
 [
   {
     "id": "madd_waterskin_plastic",
-    "type": "CONTAINER",
-    "category": "other",
+    "type": "GENERIC",
+    "category": "container",
     "name": "liquid bag",
     "description": "A bag capable of holding 1L of liquid, made from plastic and cloth.",
     "weight": "40 g",
@@ -14,8 +14,15 @@
     "material": [ "plastic", "cotton" ],
     "symbol": "d",
     "color": "light_cyan",
-    "contains": 4,
-    "seals": true,
-    "watertight": true
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "1000 ml",
+        "max_item_volume": "1003 ml",
+        "max_contains_weight": "1 kg"
+      }
+    ]
   }
 ]
