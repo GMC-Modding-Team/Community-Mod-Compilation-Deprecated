@@ -97,8 +97,7 @@
       "GOODHEARING",
       "KEENNOSE",
       "GRABS",
-      "PLASTIC",
-      "REGENERATES_50"
+      "PLASTIC"
     ],
     "death_drops": { "groups": [ [ "default_troll_equipment", 100 ] ] }
   },
@@ -129,7 +128,8 @@
     "death_function": [ "NORMAL" ],
     "description": "A mountain of muscle, with an incongruously small head and beady little eyes. The smell alone is enough to send you reeling.  ",
     "special_attacks": [ [ "FLESH_GOLEM", 5 ], { "type": "bite", "cooldown": 15 } ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BONES", "LEATHER", "FAT", "GOODHEARING", "DESTROYS", "ATTACKMON", "REGEN_MORALE" ],
+    "regen_morale": true,
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BONES", "LEATHER", "FAT", "GOODHEARING", "DESTROYS", "ATTACKMON" ],
     "death_drops": { "groups": [ [ "default_ogre_equipment", 100 ] ] }
   },
   {
@@ -188,7 +188,8 @@
     "hp": 70,
     "death_function": [ "NORMAL" ],
     "description": "A mysterious drow elf appears from the shadows, gracefully swinging a sword at your face.  ",
-    "flags": [ "SEES", "HEARS", "SMELLS", "GOODHEARING", "WARM", "BONES", "VENOM", "REGEN_MORALE" ],
+    "regen_morale": true,
+    "flags": [ "SEES", "HEARS", "SMELLS", "GOODHEARING", "WARM", "BONES", "VENOM" ],
     "death_drops": { "groups": [ [ "default_drow_equipment", 100 ] ] }
   }
 ]
