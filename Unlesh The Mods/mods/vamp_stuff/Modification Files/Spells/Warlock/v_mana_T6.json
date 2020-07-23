@@ -7,17 +7,7 @@
     "valid_targets": [ "hostile" ],
     "effect": "projectile_attack",
     "effect_str": "v_spell_darkpillar",
-    "extra_effects": [
-            {
-                "id": "t6_mana_darkpillar_bash"
-            },
-            {
-                "id": "t6_mana_darkpillar_bash"
-            },
-            {
-                "id": "t6_mana_darkpillar_bash"
-            }
-        ],
+    "extra_effects": [ { "id": "t6_mana_darkpillar_bash" }, { "id": "t6_mana_darkpillar_bash" }, { "id": "t6_mana_darkpillar_bash" } ],
     "base_energy_cost": 5250,
     "energy_source": "MANA",
     "spell_class": "VAMP_MANA_spellcaster",
