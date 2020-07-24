@@ -1,52 +1,53 @@
-0.08
-currently going through a big volume and weight update nearly done
+# 0.08
 
-expect a better change log infutre just know theres alot of work being put in to bring the legacy code uptodate
+Currently going through a big volume and weight update; nearly done. A LOT of back-end work is being done to make the code cleaner and easier to work with. Several new mods have also been added.
 
-expect more mods after and less at the same time (i dont see the point in mutlple mods that add items or cloths) 1.0 
+Expect a better change log in future, just know that there's a lot of work being put in to bring legacy code up to date.
 
-theres been tones for mod updates since E check there page out
+Expect more and less mods at the same time in 1.0 (I dont see the point in having multiple mods that add items or clothes).
 
-this release doesnt work so well 09 will work
+There's been tonnes for mod updates since E check their page out.
 
-expect big changes to mods after i want to make the more relistic and this is my compilation (better for the community)
+This release does'nt work so well. 0.09 will work properly.
 
-0.07
+Expect big changes to mods after 0.09, want to make them more realistic and this is my compilation (better for the community)
 
-Updated mods various diffrent code
+# 0.07
+
+Updated various different sections of code in the mods:
     pocket data updates
     bullet resist
     ect
 
-Moved tools and varius diffrent things to seperate download for a smaller download size although 1gb for all the sound
+Moved tools and various different things to separate download for a smaller download size although it's still 1GB for all the sound.
 
-updated 2ch and @s sound packs with another sound pack for more sound 
+Updated 2ch and @s sound packs with another sound pack for more sound .
 
-@s sound pack plays the sound track that is there as well
+@s sound pack plays the sound track that is there as well.
 
-and more check out the commits im not looking over them again unless i have to
+and more check out the commits im not looking over them again unless I have to.
 
-- update 0.06 
+# 0.06 
 
-Fixed up vihicle json for a mod
+Fixed up vehicle json for a mod
 
-added a pk fix thanks to Kenan
+Added a pk fix thanks to Kenan
 
-bunch of fixes from update 0.04 and 0.05
+Bunch of fixes from update 0.04 and 0.05
 
-- update 0.03
+# 0.03
 
-duplicate mod removal
+Duplicate mod removal
 
-updated arcana mod from github
+Updated arcana mod from github
 
-updated blazemod to keep the original alive
+Updated blazemod to keep the original alive
 
-new more locations without military buildings (it was in there i just had to fix modinfo)
+New more locations without military buildings (it was in there i just had to fix modinfo)
 
-fixed bug in advanced gear mod thanks to addictgamer - AdvancedGear multitool ammo error #46
+Fixed bug in advanced gear mod thanks to addictgamer - AdvancedGear multitool ammo error #46
 
-- update 1.0E
+# 1.0E
 
 Major font update
 

@@ -8,13 +8,16 @@ assignees: ''
 ---
 
 **Name the mod**
-put mod name here
+Put the name(s) of affected mod(s) here.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
 
+**How to reproduce**
+Include the steps you took to get the bug here.
+
 **Solution**
-how to fix
+How you think the bug should be resolved.
 
 **Additional context**
 Add any other context about the problem here.
