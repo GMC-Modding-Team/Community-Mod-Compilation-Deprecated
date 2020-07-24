@@ -1,4 +1,4 @@
-0.08
+aaa0.08
 currently going through a big volume and weight update nearly done
 
 expect a better change log infutre just know theres alot of work being put in to bring the legacy code uptodate
