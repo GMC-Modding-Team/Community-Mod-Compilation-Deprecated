@@ -16,7 +16,7 @@
     "ammo_type": "shot",
     "casing": "shot_hull",
     "range": 15,
-    "damage": 1,
+    "damage": { "damage_type": "bullet", "amount": 1 },
     "recoil": 2000,
     "loudness": 120,
     "drop": "shot_lumin_act",

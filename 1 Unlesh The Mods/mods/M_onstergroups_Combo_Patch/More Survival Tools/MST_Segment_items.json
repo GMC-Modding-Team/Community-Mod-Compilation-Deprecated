@@ -10,7 +10,7 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 15,
-    "damage": 6,
+    "damage": { "damage_type": "bullet", "amount": 6 },
     "dispersion": 135,
     "loudness": 0,
     "effects": [ "RECOVER_10" ]
@@ -28,8 +28,7 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 13,
-    "damage": 8,
-    "pierce": 1,
+    "damage": { "damage_type": "bullet", "amount": 8, "pierce": 1 },
     "relative": { "weight": "100 g", "cutting": 2 },
     "proportional": { "price": 0.5, "bashing": 0.8 }
   },
@@ -45,8 +44,7 @@
     "count": 1,
     "stack_size": 4,
     "ammo_type": "javelin",
-    "damage": 9,
-    "pierce": 2,
+    "damage": { "damage_type": "bullet", "amount": 9, "pierce": 2 },
     "relative": { "weight": "30 g" },
     "proportional": { "price": 0.5, "cutting": 0.85 }
   },
@@ -61,8 +59,7 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 10,
-    "damage": 10,
-    "pierce": 3,
+    "damage": { "damage_type": "bullet", "amount": 10, "pierce": 3 },
     "dispersion": 135,
     "loudness": 0,
     "effects": [ "RECOVER_15" ]
