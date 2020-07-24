@@ -20,14 +20,16 @@
     "damage_reduction" : {
       "all" : 200
     }
-  },{
+  },
+  {
     "abstract": "nanovp_fold",
     "type": "vehicle_part",
     "name": "nanotech vehicle part (foldable)",
     "description": "Seeing this is a bug - nanovp_fold",
     "copy-from": "nanovp",
     "folded_volume": 8
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nano_door",
     "name": "nanotech door",
@@ -44,7 +46,8 @@
     "damage_reduction" : {
       "all" : 400
     }
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nano_door_opaque",
     "name": "nanotech iris",
@@ -54,7 +57,8 @@
     "location": "center",
     "extend": { "flags": [ "OPAQUE" ] },
     "delete": { "flags": [ "WINDOW" ] }
-  },{
+  },
+  {
     "id": "nano_boat",
     "type": "vehicle_part",
     "name": "nanotech boat coating",
@@ -65,7 +69,8 @@
     "symbol": "H",
     "broken_symbol": "#",
     "flags" : ["FLOATS", "FOLDABLE"]
-  },{
+  },
+  {
     "abstract": "nanovp_turret",
     "type": "vehicle_part",
     "name": "nanotech vehicle turret",
@@ -74,7 +79,8 @@
     "location": "on_roof",
     "default_ammo": "metal_nanopowder",
     "flags": [ "TURRET", "USE_TANKS" ]
-  },{
+  },
+  {
     "id": "nano_turret_shredder",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
@@ -84,7 +90,8 @@
       {"item": "nano_turret_shredder", "min": 1, "max": 1}
     ],
     "item": "nano_turret_shredder"
-  },{
+  },
+  {
     "id": "nano_turret_pistol",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
@@ -94,7 +101,8 @@
       {"item": "nano_turret_pistol", "min": 1, "max": 1}
     ],
     "item": "nano_turret_pistol"
-  },{
+  },
+  {
     "id": "nano_turret_rifle",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
@@ -104,7 +112,8 @@
       {"item": "nano_turret_rifle", "min": 1, "max": 1}
     ],
     "item": "nano_turret_rifle"
-  },{
+  },
+  {
     "id": "nano_turret_smg",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
@@ -114,7 +123,8 @@
       {"item": "nano_turret_smg", "min": 1, "max": 1}
     ],
     "item": "nano_turret_smg"
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nano_aisle",
     "name": "nanotech aisle",
@@ -127,7 +137,8 @@
     "size": 200,
     "flags": [ "AISLE", "BOARDABLE", "FLAT_SURF", "CARGO", "COVERED" ],
     "qualities": [ [ "LIFT", 40 ] ]
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nano_roof",
     "name": "nanotech roof",
@@ -137,12 +148,13 @@
     "description": "A nanotech roof that is capable of interfacing with a turret.",
     "location": "roof",
     "flags": [ "ROOF", "TURRET_MOUNT", "FLAT_SURF" ]
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nt_solar_1",
     "name" : "nanotech solar panel",
     "copy-from": "nanovp_fold",
-    "symbol" : "#",
+    "symbol":: "#",
     "color" : "yellow",
     "broken_symbol" : "x",
     "broken_color" : "light_gray",
@@ -151,12 +163,13 @@
     "epower" : 5000,
     "location" : "on_roof",
     "flags" : ["SOLAR_PANEL", "FOLDABLE"]
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nt_armor_1",
     "name" : "nanotech passive plating",
     "copy-from": "nanovp_fold",
-    "symbol" : ")",
+    "symbol":: ")",
     "color" : "green",
     "broken_symbol" : ")",
     "broken_color" : "light_gray",
@@ -168,12 +181,13 @@
     "damage_reduction" : {
       "all" : 1600
     }
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nt_armor_2",
     "name" : "nanotech active plating",
     "copy-from": "nanovp_fold",
-    "symbol" : ")",
+    "symbol":: ")",
     "color" : "green",
     "broken_symbol" : ")",
     "broken_color" : "light_gray",
@@ -189,12 +203,13 @@
     "damage_reduction" : {
       "all" : 500
     }
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nt_fluid_tank_1",
     "name" : "nanotech compression tank (2500L)",
     "copy-from": "nanovp_fold",
-    "symbol" : "O",
+    "symbol":: "O",
     "color" : "light_blue",
     "broken_symbol" : "#",
     "broken_color" : "red",
@@ -208,12 +223,13 @@
     "breaks_into" : [
         {"item": "nano_container", "min": 1, "max": 1}
     ]
-},{
+},
+  {
     "type" : "vehicle_part",
     "id" : "nt_storage",
     "name" : "nanotech 'shoggoth' storage node",
     "copy-from": "nanovp_fold",
-    "symbol" : "=",
+    "symbol":: "=",
     "broken_symbol" : "#",
     "description" : "A large blob of nanites with an AI, it actively branches out pseudopods to grasp items held near it and supports them as optimally as possible",
     "size" : 5000,
@@ -223,7 +239,8 @@
     "breaks_into" : [
         {"item": "nano_storage", "count": [1, 1]}
     ]
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nt_crafter",
     "name" : "nanotech crafting node",
@@ -232,19 +249,21 @@
     "size" : 3000,
     "flags" : ["BOARDABLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET", "CARGO", "FOLDABLE", "FLAT_SURF", "WORKBENCH"],
     "workbench": { "multiplier": 2.5, "mass": 5000000, "volume": "750L" }
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nano_fridge",
     "name" : "nanotech fridge",
     "looks_like": "minifridge",
     "copy-from": "nanovp_fold",
-    "symbol" : "=",
+    "symbol":: "=",
     "broken_symbol" : "#",
     "description" : "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a cool temperature, leading to them being immobile and blocking passage.",
     "size" : 2000,
     "location" : "center",
     "flags" : ["OBSTACLE", "CARGO", "FRIDGE", "COVERED", "FOLDABLE"]
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nano_freezer",
     "name" : "nanotech freezer",
@@ -252,12 +271,13 @@
     "copy-from": "nano_fridge",
     "description" : "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a frozen temperature, leading to them being immobile and blocking passage.",
     "flags" : ["OBSTACLE", "CARGO", "FREEZER", "COVERED", "FOLDABLE"]
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nanofactory_vehicle_1",
     "name" : "installed nanofactory MK I",
     "copy-from": "nanovp",
-    "symbol" : "#",
+    "symbol":: "#",
     "color" : "light_green",
     "broken_symbol" : "0",
     "broken_color" : "blue",
@@ -294,12 +314,13 @@
     "breaks_into" : [
       {"item": "nanofactory_1", "min": 1, "max": 1}
     ]
-  },{
+  },
+  {
     "type" : "vehicle_part",
     "id" : "nanofactory_vehicle_2",
     "name" : "installed nanofactory MK II",
     "copy-from": "nanovp",
-    "symbol" : "#",
+    "symbol":: "#",
     "color" : "light_green",
     "broken_symbol" : "0",
     "broken_color" : "blue",
@@ -336,7 +357,8 @@
     "breaks_into" : [
       {"item": "nanofactory_2", "min": 1, "max": 1}
     ]
-  },{
+  },
+  {
     "id": "nanotech_battery",
     "type": "vehicle_part",
     "name": "nanotech storage array",
@@ -353,7 +375,8 @@
     "breaks_into": [
       { "item": "nanotech_battery", "count": [ 1, 1 ] }
     ]
-  },{
+  },
+  {
     "id": "nanotech_generator",
     "type": "vehicle_part",
     "name": "nanotech power generator",
@@ -373,7 +396,8 @@
     "breaks_into": [
       { "item": "nanotech_generator", "count": [ 1, 1 ] }
     ]
-  },{
+  },
+  {
     "id": "nanotech_anima",
     "copy-from": "engine_electric_large",
     "type": "vehicle_part",
@@ -398,7 +422,8 @@
     "breaks_into": [
       { "item": "xl_nanite_ai", "count": [ 1, 1 ] }
     ]
-  },{
+  },
+  {
     "id": "nanotech_crawler",
     "type": "vehicle_part",
     "name": "nanotech crawler",
@@ -417,7 +442,8 @@
     "wheel_type": "off-road",
     "contact_area": 3500,
     "flags": [ "WHEEL", "MULTISQUARE", "TRACKED", "NO_JACK", "VARIABLE_SIZE", "FOLDABLE", "STABLE", "SELF_JACK" ]
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nanotech_control",
     "name": "nanotech control pod",
@@ -435,7 +461,8 @@
     "breaks_into": [
       { "item": "xl_nanite_ai", "count": [ 1, 1 ] }
     ]
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nanotech_shockmesh",
     "name": "nanotech shock mesh",
@@ -446,7 +473,8 @@
     "bonus": 150,
     "location": "on_seat",
     "flags": [ "SEATBELT", "FOLDABLE" ]
-  },{
+  },
+  {
     "type": "vehicle_part",
     "id": "nanocam",
     "name": "nanotech sensor array",
