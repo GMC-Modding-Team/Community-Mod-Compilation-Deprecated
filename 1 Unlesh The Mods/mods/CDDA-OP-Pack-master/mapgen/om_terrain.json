@@ -1,0 +1,26 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "omni_outpost_entrance",
+    "name": "Omni Corp. outpost entrance",
+    "symbol": "+",
+    "color": "red",
+    "see_cost": 5,
+    "flags": [ "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "omni_outpost_under",
+    "name": "Omni Corp. outpost",
+    "symbol": "+",
+    "color": "red",
+    "flags": [ "KNOWN_UP", "SOURCE_PEOPLE", "SOURCE_GUN", "SOURCE_AMMO", "SOURCE_WEAPON" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "omni_outpost_roof",
+    "name": "Omni Corp. outpost roof",
+    "symbol": "+",
+    "color": "red"
+  }
+]
