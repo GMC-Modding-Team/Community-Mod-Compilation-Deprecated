@@ -29,7 +29,7 @@
     "ammo_type": "40x46mm",
     "casing": "40mm_lumin_casing",
     "range": 40,
-    "damage": 5,
+    "damage": { "damage_type": "bullet", "amount": 5 },
     "dispersion": 30,
     "recoil": 225,
     "drop": "40mm_lumin_act",

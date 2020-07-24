@@ -13,7 +13,7 @@
     "count": 1,
     "stack_size": 45,
     "ammo_type": "shell_ac2",
-    "damage": 444,
+    "damage": { "damage_type": "bullet", "amount": 444 },
     "recoil": 130,
     "explosion": { "power": 50, "distance_factor": 0.2, "fire": true, "shrapnel": 200 },
     "effects": [ "COOKOFF", "SHOT", "NEVER_MISFIRES", "BEANBAG", "CUSTOM_EXPLOSION" ]
@@ -32,7 +32,7 @@
     "count": 1,
     "stack_size": 20,
     "ammo_type": "shell_ac5",
-    "damage": 1111,
+    "damage": { "damage_type": "bullet", "amount": 1111 },
     "recoil": 325,
     "explosion": { "power": 100, "distance_factor": 0.4, "fire": true, "shrapnel": 200 },
     "effects": [ "COOKOFF", "SHOT", "NEVER_MISFIRES", "BEANBAG", "CUSTOM_EXPLOSION" ]
@@ -51,7 +51,7 @@
     "count": 1,
     "stack_size": 10,
     "ammo_type": "shell_ac10",
-    "damage": 2222,
+    "damage": { "damage_type": "bullet", "amount": 2222 },
     "recoil": 450,
     "explosion": { "power": 200, "distance_factor": 0.4, "fire": true, "shrapnel": 200 },
     "effects": [ "COOKOFF", "SHOT", "NEVER_MISFIRES", "BEANBAG", "CUSTOM_EXPLOSION" ]
@@ -70,7 +70,7 @@
     "count": 1,
     "stack_size": 5,
     "ammo_type": "shell_ac20",
-    "damage": 4444,
+    "damage": { "damage_type": "bullet", "amount": 4444 },
     "recoil": 450,
     "explosion": { "power": 400, "distance_factor": 0.4, "fire": true, "shrapnel": 200 },
     "effects": [ "COOKOFF", "SHOT", "NEVER_MISFIRES", "BEANBAG", "CUSTOM_EXPLOSION" ]

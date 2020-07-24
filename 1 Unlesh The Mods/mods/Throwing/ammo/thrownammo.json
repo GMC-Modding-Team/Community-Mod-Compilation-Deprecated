@@ -16,8 +16,7 @@
     "color": "white",
     "ammo_type": "thrown",
     "range": 5,
-    "damage": 1,
-    "pierce": 0,
+    "damage": { "damage_type": "bullet", "amount": 1, "pierce": 0 },
     "dispersion": 120,
     "effects": [ "NON-FOULING" ]
   },
@@ -38,8 +37,7 @@
     "color": "white",
     "ammo_type": "thrown",
     "range": 6,
-    "damage": 3,
-    "pierce": 1,
+    "damage": { "damage_type": "bullet", "amount": 3, "pierce": 1 },
     "dispersion": 120,
     "effects": [ "NON-FOULING" ]
   },
@@ -60,8 +58,7 @@
     "color": "dark_gray",
     "ammo_type": "thrown",
     "range": 6,
-    "damage": 1,
-    "pierce": 0,
+    "damage": { "damage_type": "bullet", "amount": 1, "pierce": 0 },
     "dispersion": 120,
     "effects": [ "NON-FOULING" ]
   },
@@ -82,8 +79,7 @@
     "color": "dark_gray",
     "ammo_type": "thrown",
     "range": 6,
-    "damage": 6,
-    "pierce": 2,
+    "damage": { "damage_type": "bullet", "amount": 6, "pierce": 2 },
     "dispersion": 120,
     "effects": [ "NON-FOULING" ]
   },
@@ -104,8 +100,7 @@
     "color": "dark_gray",
     "ammo_type": "thrown",
     "range": 6,
-    "damage": 14,
-    "pierce": 4,
+    "damage": { "damage_type": "bullet", "amount": 14, "pierce": 4 },
     "dispersion": 120,
     "effects": [ "NON-FOULING" ]
   },
@@ -126,8 +121,7 @@
     "color": "dark_gray",
     "ammo_type": "thrown",
     "range": 6,
-    "damage": 4,
-    "pierce": 2,
+    "damage": { "damage_type": "bullet", "amount": 4, "pierce": 2 },
     "dispersion": 120,
     "effects": [ "NON-FOULING" ]
   }

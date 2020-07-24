@@ -152,7 +152,7 @@
     "name_plural": "OCG ER555-UDD",
     "description": "OmniCorp bullpup ER555 platform uses hypervelocity 5.56 ETC rounds in several roles. The Urban Drone Destroyer is very powerful, fast firing but difficult to control in full auto. Comes with integrated recoil stock, ported barrel and gyroscopic stabilizer.",
     "price": 700000,
-    "relative": { "weight": "350 g", "pierce": 15, "recoil": 1080 },
+    "relative": { "weight": "350 g", "damage": { "damage_type": "bullet", "amount": 6, "pierce": 15 }, "recoil": 1080 },
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2, [ "SIMULTANEOUS" ] ], [ "AUTO", "auto", 18 ] ],
     "built_in_mods": [ "ad_capacitor", "ocg_er555_cqbbarrel", "ocg_recoil_stock", "barrel_ported", "ocg_stabilizer" ],
     "looks_like": "l_car_223"
