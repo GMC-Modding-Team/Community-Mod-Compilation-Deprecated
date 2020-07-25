@@ -25,7 +25,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ranged_damage": -1,
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "loudness": -1,
     "dispersion": 480,
     "durability": 6,
@@ -61,7 +61,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ranged_damage": 1,
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "loudness": -1,
     "dispersion": 480,
     "durability": 6,
