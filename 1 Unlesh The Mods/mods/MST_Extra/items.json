@@ -385,7 +385,7 @@
     "color": "light_gray",
     "charges": 3,
     "stack_size": 9,
-    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.75, "bite": 0.75, "move_cost": 300 }
+    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 1, "bite": 0.75, "move_cost": 300 }
   },
   {
     "id": "mound_distillation",
@@ -471,7 +471,7 @@
     "use_action": {
       "type": "musical_instrument",
       "speed_penalty": 15,
-      "volume": "5 L",
+      "volume": 20,
       "fun": 2,
       "fun_bonus": 2,
       "description_frequency": 20,
