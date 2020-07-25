@@ -12,23 +12,30 @@
     "material": [ "steel" ],
     "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
     "skill": "pistol",
-    "ammo": "shot",
+    "ammo": [ "shot" ],
     "weight": "1420 g",
     "volume": "750 ml",
     "bashing": 7,
-    "cutting": 0,
     "to_hit": -2,
-    "ranged_damage": 0,
+    "range": -2,
+    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "dispersion": 100,
-    "range": 0,
-    "sight_dispersion": 75,
     "aim_speed": 3,
     "recoil": 275,
     "durability": 7,
     "clip_size": 1,
-    "reload": 175,
-    "loudness": 200,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "bore", 1 ], [ "mechanism", 2 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+    "barrel_volume": "250 ml",
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "bore", 1 ],
+      [ "mechanism", 2 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } }
+    ]
   },
   {
     "id": "nm9mmsmallpistol",
@@ -42,15 +49,14 @@
     "material": [ "steel", "plastic" ],
     "flags": [ "RELOAD_ONE" ],
     "skill": "pistol",
-    "ammo": "9mm",
+    "ammo": [ "9mm" ],
     "weight": "370 g",
     "volume": "250 ml",
     "bashing": 3,
-    "cutting": 0,
     "to_hit": -2,
-    "ranged_damage": -2,
-    "dispersion": 180,
     "range": -2,
+    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+    "dispersion": 180,
     "sight_dispersion": 120,
     "aim_speed": 1,
     "recoil": 275,
@@ -58,7 +64,25 @@
     "clip_size": 2,
     "reload": 200,
     "loudness": 200,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "bore", 1 ], [ "mechanism", 2 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "bore", 1 ],
+      [ "mechanism", 2 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "glockmag", "glockbigmag", "glock17_17", "glock17_22", "glock_drum_50rd", "glock_drum_100rd" ]
+      }
+    ]
   },
   {
     "id": "nmlaspistol",
@@ -73,13 +97,13 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "RELOAD_ONE", "NEVER_JAMS", "RELOAD_EJECT" ],
     "skill": "pistol",
-    "ammo": "las",
+    "ammo": [ "las" ],
     "weight": "1000 g",
     "volume": "1500 ml",
     "bashing": 8,
     "cutting": 0,
     "to_hit": -2,
-    "ranged_damage": -5,
+    "ranged_damage": { "damage_type": "bullet", "amount": -5 },
     "dispersion": 0,
     "range": 0,
     "sight_dispersion": 75,
@@ -89,7 +113,23 @@
     "clip_size": 1,
     "reload": 200,
     "loudness": 0,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "lasclip", "lasclip_hl", "lasclippl_hl" ]
+      }
+    ]
   },
   {
     "id": "nm7x30revolver",
@@ -103,13 +143,13 @@
     "material": [ "steel", "plastic" ],
     "flags": [ "RELOAD_ONE", "RELOAD_EJECT", "NEVER_JAMS" ],
     "skill": "pistol",
-    "ammo": "7x30mm",
+    "ammo": [ "7x30mm" ],
     "weight": "980 g",
     "volume": "750 ml",
     "bashing": 3,
     "cutting": 0,
     "to_hit": -2,
-    "ranged_damage": 0,
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "dispersion": 75,
     "range": 0,
     "sight_dispersion": 90,
@@ -119,6 +159,23 @@
     "clip_size": 6,
     "reload": 100,
     "loudness": 200,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "bore", 1 ], [ "mechanism", 2 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "bore", 1 ],
+      [ "mechanism", 2 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "lasclip", "lasclip_hl", "lasclippl_hl" ]
+      }
+    ]
   }
 ]
