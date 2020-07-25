@@ -14,8 +14,8 @@
     "material": [ "aluminum", "steel", "wood" ],
     "symbol": "/",
     "color": "dark_gray",
-    "ammo": "44",
-    "ranged_damage": 4,
+    "ammo": [ "44" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 4 },
     "dispersion": 120,
     "durability": 9,
     "clip_size": 1,
@@ -29,6 +29,17 @@
       [ "sights", 1 ]
     ],
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "NEVER_JAMS" ]
+    "flags": [ "NEVER_JAMS" ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "deaglemag" ]
+      }
+    ]
   }
 ]
