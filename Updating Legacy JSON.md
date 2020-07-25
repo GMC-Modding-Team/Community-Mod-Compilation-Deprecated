@@ -216,7 +216,7 @@ In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/j
 # Volume
 The current JSON standards for the `key` `volume` look like this: 
 ```JSON
-"volume": "250 ml",
+"volume": "250 ml"
 ```
 With obsolete JSON looking like this:
 ```JSON
@@ -231,7 +231,7 @@ The conversion from `number` to `string` is:
 
 Unfortunately, updating volume is not as simple as replacing all volume values with their modern version, as volume is also sometimes used to determine the loudness of sounds. However, this is relatively uncommon, so you can often find those specific files and remove them from this search. 
 ```regex
-"volume": 1,
+"volume": 1
 
 "volume": "250 ml"
 ```
@@ -243,12 +243,11 @@ Note: There is, in [JSON tools](https://github.com/CleverRaven/Cataclysm-DDA/tre
 # Weight
 The current JSON standards for `key` `weight` look like this: 
 ```JSON
-"weight": "100 g",
+"weight": "100 g"
 ```
 With obsolete JSON looking like this:
 ```JSON
-"weight": 100, 
-"weight": "100g" //or this
+"weight": 100
 ```
 The conversion from `number` to `string` is:
 ```JSON
