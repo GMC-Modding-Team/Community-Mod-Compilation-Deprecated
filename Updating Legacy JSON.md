@@ -12,6 +12,7 @@ Use the `home` key to get to the top.
 - [Artifacts](#artifacts)
 - [barrel_length](#barrel_length)
 - [Bleeding](#bleeding)
+- [blob and slime](#blob-and-slime)
 - [blueprint](#blueprint)
 - [bullet_resist](#bullet_resist)
 - [copy-from and looks_like](#copy-from-and-looks_like)
@@ -123,6 +124,10 @@ As I don't currently know the conversion from `number` to `string`, I can't reco
 
 # Bleeding
 I have no idea where to start with this. If you have any information, please feel free to comment. 
+
+
+# blob and slime
+It turns out that THE BLOB is not the same as the blobs you see around all the time. Check out [blobs are slimes](https://github.com/CleverRaven/Cataclysm-DDA/pull/42287) for more info. Mentions to blob may have to be updated to slime.
 
 
 # blueprint
