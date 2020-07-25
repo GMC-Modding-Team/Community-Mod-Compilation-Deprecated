@@ -19,7 +19,7 @@ Use the `home` key to get to the top.
 - [Materials](#materials)
 - [Name](#name)
 - [Pocket Data](#pocket-data)
-- [`type: CONTAINER`](#type:-container)
+- [`type: CONTAINER`](#type-container)
 - [Volume](#volume)
 - [Weight](#weight)
 
