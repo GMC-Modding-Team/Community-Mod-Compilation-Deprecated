@@ -178,6 +178,7 @@ This is easily fixed with a regex search:
 Almost everything that can be seen by characters has a `name: string` `key: value` pair. However, a small subset of these should be specified as: 
 ```JSON
 "name": { "str": "pair of socks", "str_pl": "pairs of socks" }
+"name": { "str_sp": "irradiated celery" } //use this if the item should not pluralise at all.
 ``` 
 A good guide as to whether it should be the above code instead of the code below is if it includes a `nam_pl` `key`:
 ```JSON
