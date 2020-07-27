@@ -1,5 +1,6 @@
-Always lint code that needs linted if your not sure lint it
+# Contributing
+Always lint code that needs to be linted. If you're not sure lint it just in case.
 
-untill i get a workflow i will be double checking every pr from now
+Until I get a workflow I will be double checking every pr.
 
-if you contributate you will be considered appart of the modding team 
+If you contribute you will be considered a part of the modding team. 
