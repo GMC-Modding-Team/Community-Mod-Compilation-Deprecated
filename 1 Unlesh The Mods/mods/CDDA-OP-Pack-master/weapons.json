@@ -15,8 +15,8 @@
     "color": "yellow",
     "description": "A large, impossibly light power core made solely for powering Omni Corp. Weaponry.",
     "material": [ "glass", "plastic", "superalloy" ],
-    "volume": "0 ml",
-    "weight": "0 g",
+    "volume": "1 ml",
+    "weight": "1 g",
     "ammo_type": "omni_ammo",
     "count": 1,
     "fuel": { "energy": 10 },
@@ -29,63 +29,99 @@
     "name": "Omni Corp. battery",
     "looks_like": "plut_cell",
     "description": "An impossibly light battery used only in the Omni Corp. UPS. You shouldn't have this.",
-    "weight": "0 g",
+    "weight": "1 g",
     "volume": "1 ml",
     "price": 0,
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
     "ammo_type": "battery",
-    "capacity": 9999999,
-    "flags": [ "TRADER_AVOID", "RECHARGE", "NO_UNLOAD" ]
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "10000 L",
+        "max_item_volume": "32 ml",
+        "max_contains_weight": "7 kg"
+      }
+    ],
+    "flags": [ "TRADER_AVOID", "RECHARGE", "TARDIS", "NO_UNLOAD" ]
   },
   {
     "id": "omni_mag",
     "type": "MAGAZINE",
     "name": "Omni Corp. cell array",
     "description": "An array of cells used to charge Omni Corp. energy weapons.",
-    "weight": "0 g",
-    "volume": "0 ml",
+    "weight": "1 g",
+    "volume": "1 ml",
     "price": 0,
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
     "ammo_type": "omni_ammo",
-    "capacity": 10,
+    "capacity": 10,"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "10 L",
+        "max_item_volume": "32 ml",
+        "max_contains_weight": "7 kg"
+      }
+    ],
     "reload_time": 0,
-    "flags": [ "MAG_COMPACT", "TRADER_AVOID" ]
+    "flags": [ "MAG_COMPACT", "TARDIS", "TRADER_AVOID" ]
   },
   {
     "id": "omni_mag_belt",
     "type": "MAGAZINE",
     "name": "Omni Corp. cell belt",
     "description": "A belt of Omni Corp. cells used to feed to the Omni Corp. energy rifle.",
-    "weight": "0 g",
-    "volume": "0 ml",
+    "weight": "1 g",
+    "volume": "1 ml",
     "price": 0,
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
     "ammo_type": "omni_ammo",
-    "capacity": 250,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "250 L",
+        "max_item_volume": "32 ml",
+        "max_contains_weight": "7 kg"
+      }
+    ],
     "reload_time": 0,
-    "flags": [ "MAG_BULKY", "TRADER_AVOID" ]
+    "flags": [ "MAG_BULKY", "TARDIS", "TRADER_AVOID" ]
   },
   {
     "id": "omni_mag_max_belt",
     "type": "MAGAZINE",
     "name": "Omni Corp. cell double belt",
     "description": "Two belts of Omni Corp. Cells strapped together, used to feed to the Omni Corp. energy rifle.",
-    "weight": "0 g",
-    "volume": "0 ml",
+    "weight": "1 g",
+    "volume": "1 ml",
     "price": 0,
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
     "ammo_type": "omni_ammo",
-    "capacity": 500,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "500 L",
+        "max_item_volume": "32 ml",
+        "max_contains_weight": "7 kg"
+      }
+    ],
     "reload_time": 0,
-    "flags": [ "MAG_BULKY", "TRADER_AVOID" ]
+    "flags": [ "MAG_BULKY", "TRADER_AVOID", "TARDIS" ]
   },
   {
     "id": "omni_rifle",
