@@ -19,6 +19,7 @@ Use the `home` key to get to the top.
 - [Linting](#linting)
 - [Materials](#materials)
 - [Name](#name)
+- [picklock](#picklock)
 - [Pocket Data](#pocket-data)
 - [`type: CONTAINER`](#type-container)
 - [Volume](#volume)
@@ -119,8 +120,12 @@ While the obsolete JSON looks like this:
 ```JSON
 "barrel_length": 1
 ```
-As I don't currently know the conversion from `number` to `string`, I can't recommend a change. 
-
+The conversion from `number` to `string` is simple - just multiply by 250 and add ml. 
+```JSON
+"barrel_length": 1 = "barrel_length": "250 ml"
+"barrel_length": 5 = "barrel_length": "1250 ml"
+```
+As the result is distinctly different, you will have to use manual find and replace for this part as specified in [volume](#volume).
 
 # Bleeding
 I have no idea where to start with this. If you have any information, please feel free to comment. 
@@ -206,6 +211,17 @@ Then,
 ```
 Afterwards, manually join the fields together. Trust me, it'll still save time.
 
+# picklock
+It is very possible that you will see the `use_action` `picklock`. This has been rendered obsolete by the addition of the `quality` `LOCKPICK`. You may see:
+```JSON
+"use_action": { "type": "picklock", "pick_quality": 5 }
+```
+Which should be:
+```JSON
+"qualities": [ [ "LOCKPICK", 5 ] ]
+```
+
+This has to be done manually due to the possible presence of other text in the `use_action` and a pre-existing `qualities` key.
 
 # Pocket Data
 In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), there is pocket_mags.py that should be able to handle some of the work.
