@@ -20,6 +20,7 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "ammo": [ "nanite" ],
+    "qualities": [ [ "LOCKPICK", 50 ] ],
     "use_action": [
       {
         "type": "transform",
@@ -35,7 +36,6 @@
       "HOTPLATE",
       "SIPHON",
       { "type": "firestarter", "moves_cost": 5 },
-      { "lockpick": 5 },
       { "flame": false, "type": "cauterize" },
       {
         "type": "repair_item",
