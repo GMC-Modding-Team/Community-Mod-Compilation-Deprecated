@@ -12,7 +12,7 @@
     "material": [ "omni_alloy" ],
     "symbol": ";",
     "color": "light_green",
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "magazines": [ [ "battery", [ "omni_battery_mag" ] ] ],
     "max_charges": 99999999,
     "flags": [ "IS_UPS", "NO_UNLOAD", "RECHARGE" ]
@@ -92,7 +92,7 @@
     "symbol": ";",
     "color": "white",
     "use_action": [
-      { "menu_text": "Pick a lock", "type": "picklock", "pick_quality": 999 },
+      { "menu_text": "Pick a lock", "LOCKPICK": 3,
       { "menu_text": "Mine some stone!", "type": "PICKAXE", "tool_quality": 999 },
       {
         "menu_text": "Repair Fabric",
@@ -190,8 +190,6 @@
         "max_contains_weight": "7 kg"
       }
     ],
-    "seals": true,
-    "watertight": true,
 	"preserves": true,
     "armor_data": { "covers": [ "TORSO" ], "coverage": 10, "encumbrance": 4, "material_thickness": 2 },
     "flags": [ "WAIST", "OVERSIZE", "TARDIS", "WATER_FRIENDLY" ]
