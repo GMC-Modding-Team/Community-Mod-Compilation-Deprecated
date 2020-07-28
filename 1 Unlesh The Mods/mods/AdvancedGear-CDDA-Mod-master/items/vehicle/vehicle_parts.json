@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "nanovp",
+    "id": "nanovp",
     "type": "vehicle_part",
     "name": "nanotech vehicle part",
     "color": "light_gray",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "abstract": "nanovp_fold",
+    "id": "nanovp_fold",
     "type": "vehicle_part",
     "name": "nanotech vehicle part (foldable)",
     "description": "Seeing this is a bug - nanovp_fold",
@@ -71,7 +71,7 @@
     "flags" : ["FLOATS", "FOLDABLE"]
   },
   {
-    "abstract": "nanovp_turret",
+    "id": "nanovp_turret",
     "type": "vehicle_part",
     "name": "nanotech vehicle turret",
     "copy-from": "nanovp_fold",
