@@ -117,5 +117,19 @@
     "name": "GROUP_ANT",
     "default": "mon_ant_swarm",
     "monsters": [ { "monster": "mon_ant_swarm", "freq": 30, "cost_multiplier": 3 } ]
+  },
+  {
+    "id": "bees",
+    "type": "item_group",
+    "items": [
+      [ "mutant_meat", 75 ],
+      [ "sinew", 25 ],
+      [ "endochitin", 65 ],
+      [ "mutant_bug_hydrogen_sacs", 65 ],
+      [ "mutant_bug_lungs", 1 ],
+      [ "mutant_bug_organs", 5 ],
+      [ "bee_sting", 75 ],
+      [ "chitin_piece", 65 ]
+    ]
   }
 ]
