@@ -18,7 +18,7 @@ Expect more and less mods at the same time in 1.0 (I dont see the point in havin
 
 There's been tonnes for mod updates since E check their page out.
 
-This release does'nt work so well. 0.09 will work properly.
+This release doesn't work so well. 0.09 will work properly.
 
 Expect big changes to mods after 0.09, want to make them more realistic and this is my compilation (better for the community)
 
