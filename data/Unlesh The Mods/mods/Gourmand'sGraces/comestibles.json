@@ -2817,8 +2817,7 @@
   {
     "type": "COMESTIBLE",
     "id": "soup9",
-    "name": "New England clam chowder",
-    "name_plural": "New England clam chowder",
+    "name": { "str": "New England clam chowder", "str_pl": "New England clam chowder" },
     "weight": "105 g",
     "color": "green",
     "spoils_in": "2 days",
@@ -6201,21 +6200,20 @@
   {
     "type": "COMESTIBLE",
     "id": "littledebbie4",
-    "name": "apple pie pocket",
-    "name_plural": "apple pie pockets",
+    "name": { "str": "apple pie pocket", "str_pl": "apple pie pockets" },
     "weight": "67 g",
     "color": "green",
     "comestible_type": "FOOD",
     "container": "wrapper",
     "price": 710,
     "symbol": "$",
-    "nutrition": 12,
     "healthy": -1,
     "volume": "1 L",
     "charges": 2,
     "fun": 8,
     "description": "Artificially sweetened neatly folded pastry covered liberally with sickeningly sweet sugar and filled with gooey apple chunks in syrup.",
-    "material": [ "junk" ]
+    "material": [ "junk" ],
+    "calories": 12
   },
   {
     "type": "COMESTIBLE",
