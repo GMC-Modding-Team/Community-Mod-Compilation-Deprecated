@@ -4426,20 +4426,19 @@
   {
     "type": "COMESTIBLE",
     "id": "ddbcookie",
-    "name": "brownie mix",
-    "name_plural": "brownie mixes",
+    "name": { "str": "brownie mix", "str_pl": "brownie mixes" },
     "weight": "60 g",
     "color": "brown",
-    "container": "paper",
+    "container": "box_small",
     "comestible_type": "FOOD",
     "symbol": "$",
-    "nutrition": 2,
     "quench": -4,
     "description": "Cookie brownie mix.",
     "price": 2500,
     "volume": "250 ml",
     "charges": 4,
-    "fun": 1
+    "fun": 1,
+    "calories": 2
   },
   {
     "type": "COMESTIBLE",
