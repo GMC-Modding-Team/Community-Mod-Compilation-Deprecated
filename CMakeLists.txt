@@ -2,8 +2,7 @@
 cmake_minimum_required(VERSION 3.1.4)
 
 SET(CATACLYSM_DATA_DIRS
-    ${CMAKE_SOURCE_DIR}/data/json
-    ${CMAKE_SOURCE_DIR}/data/mods
+    ${CMAKE_SOURCE_DIR}/data
 )
 
 IF(RELEASE)
