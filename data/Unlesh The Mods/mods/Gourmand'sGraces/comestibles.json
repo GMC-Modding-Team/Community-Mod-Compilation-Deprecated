@@ -3841,20 +3841,19 @@
   {
     "type": "COMESTIBLE",
     "id": "ddbouillon1",
-    "name": "bouillon cubes",
-    "name_plural": "bouillon cubes",
+    "name": { "str": "bouillon cubes", "str_pl": "bouillon cubes" },
     "weight": "60 g",
     "color": "yellow",
     "container": "tub",
     "comestible_type": "FOOD",
     "symbol": "$",
-    "nutrition": 4,
     "quench": -4,
     "description": "A dozen bouillon cubes. These are the chicken stock variety.",
     "price": 1250,
     "volume": "1 L",
     "charges": 12,
-    "fun": 1
+    "fun": 1,
+    "calories": 4
   },
   {
     "type": "COMESTIBLE",
