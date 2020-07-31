@@ -40,7 +40,7 @@
     "flags": [ "WATCH", "ALARMCLOCK", "LIGHT_25" ]
   },
   {
-    "id": "afs_atomic_reading_light",
+    "id": "atomic_light_off",
     "type": "TOOL",
     "name": "atomic reading light",
     "description": "Rated for almost 100 million years of operation, the Rivtech atomic reading light clips onto any book, anytime, anywhere!  Following after their obsession with making household gadgets powered with plutonium cells, it's bulky for a reading light, but can provide a small, steady light with no fear of ever running out of batteries.",
@@ -53,7 +53,7 @@
     "symbol": ",",
     "color": "light_green",
     "use_action": {
-      "target": "afs_atomic_reading_light_on",
+      "target": "atomic_light",
       "msg": "You switch on the reading light.",
       "active": true,
       "menu_text": "Turn on",
@@ -62,16 +62,16 @@
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
-    "id": "afs_atomic_reading_light_on",
-    "copy-from": "afs_atomic_reading_light",
+    "id": "atomic_light",
+    "copy-from": "atomic_light_off",
     "type": "TOOL",
     "name": "atomic reading light (on)",
     "description": "Rated for almost 200 million years of operation, the Rivtech atomic reading light clips onto any book, anytime, anywhere!  Its blue-tinted lens sheds a pleasing Cherenkov glow in a small circle onto anything you might need to read.",
     "name_plural": "atomic reading lights (on)",
-    "revert_to": "afs_atomic_reading_light",
+    "revert_to": "atomic_light_off",
     "looks_like": "reading_light_on",
     "use_action": {
-      "target": "afs_atomic_reading_light",
+      "target": "atomic_light_off",
       "msg": "You switch off the light.",
       "menu_text": "Turn off",
       "type": "transform"

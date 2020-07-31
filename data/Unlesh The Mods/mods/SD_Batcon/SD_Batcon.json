@@ -65,11 +65,11 @@
       { "id": "WRENCH_FINE", "level": 1 }
     ],
     "tools": [ [ [ "magnifying_glass", -1 ] ], [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
-    "components": [ [ [ "hd_battery", 7 ] ], [ [ "cable", 20 ] ], [ [ "steel_chunk", 3 ], [ "scrap", 12 ] ] ]
+    "components": [ [ [ "heavy_plus_battery_cell", 7 ] ], [ [ "cable", 20 ] ], [ [ "steel_chunk", 3 ], [ "scrap", 12 ] ] ]
   },
   {
     "type": "recipe",
-    "result": "hd_battery",
+    "result": "heavy_plus_battery_cell",
     "id_suffix": "_SDB",
     "result_mult": 7,
     "category": "CC_ELECTRONIC",
@@ -93,7 +93,7 @@
   },
   {
     "type": "recipe",
-    "result": "hd_battery",
+    "result": "heavy_plus_battery_cell",
     "id_suffix": "_SDB_2",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
