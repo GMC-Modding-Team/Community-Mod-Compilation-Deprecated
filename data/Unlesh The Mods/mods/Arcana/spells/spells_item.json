@@ -137,7 +137,10 @@
     "description": "Flashbang on user, blinding anyone nearby.",
     "valid_targets": [ "ally", "hostile", "ground", "self" ],
     "message": "\"Ave martello!\"  The hammer gives off a golden light, that rises to a blinding flare and resounding bang!",
-    "extra_effects": [ { "id": "arcana_item_hammerzeit_attack", "hit_self": false }, { "id": "arcana_item_hammerzeit_dazzle", "hit_self": false } ],
+    "extra_effects": [
+      { "id": "arcana_item_hammerzeit_attack", "hit_self": false },
+      { "id": "arcana_item_hammerzeit_dazzle", "hit_self": false }
+    ],
     "effect": "flashbang",
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "min_damage": 40,
@@ -469,9 +472,7 @@
     "message": "Even after you look away from the orb, the visions linger in the back of your mind...",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
-    "extra_effects": [
-      { "id": "arcana_item_orb_veil_wonder_hallu2" }
-    ],
+    "extra_effects": [ { "id": "arcana_item_orb_veil_wonder_hallu2" } ],
     "effect": "target_attack",
     "effect_str": "visuals",
     "min_duration": 90000,
