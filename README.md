@@ -7,6 +7,10 @@ Welcome to TheGoatGod's Mod Compilation. Currently contains over 275 mods, 5 til
 - Many, many, bugs have been fixed - including some added by us, oops!
 - Folder update: files have been renamed and re-organised into their proper folders.
 - Working on adding .github files to make contributing easier.
+# 0.09a
+- Color update
+- Migration update
+- alot of fixes
 
 # 0.08
 
