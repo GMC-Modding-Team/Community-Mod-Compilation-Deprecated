@@ -67,7 +67,7 @@
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ] ],
     "components": [
-      [ [ "jar_glass", 1 ] ],
+      [ [ "jar_glass_sealed", 1 ] ],
       [ [ "broth", 2 ], [ "broth_bone", 2 ], [ "pine_tea", 2 ], [ "herbal_tea", 2 ] ],
       [
         [ "meat", 2 ],
@@ -195,7 +195,7 @@
     "container": "jar_glass_sealed",
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ], [ [ "vac_sealer", 10 ], [ "makeshift_sealer", 20 ] ], [ [ "rag", -1 ] ] ],
-    "components": [ [ [ "jar_glass", 1 ] ], [ [ "meal_bone", 20 ] ], [ [ "vinegar", 2 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ]
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "meal_bone", 20 ] ], [ [ "vinegar", 2 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ]
   },
   {
     "result": "broth_bone",
