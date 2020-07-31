@@ -523,10 +523,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "SPEED", "add": 5 },
-            { "value": "MOVE_COST", "multiply": -0.025 }
-          ],
+          "values": [ { "value": "SPEED", "add": 5 }, { "value": "MOVE_COST", "multiply": -0.025 } ],
           "hit_you_effect": [
             {
               "id": "secro_power_armor_flesh_morphed_coward_powerlegs_powkick",
