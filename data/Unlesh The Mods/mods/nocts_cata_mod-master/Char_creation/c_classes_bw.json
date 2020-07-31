@@ -219,8 +219,7 @@
       { "level": 3, "name": "swimming" },
       { "level": 3, "name": "computer" },
       { "level": 3, "name": "barter" },
-      { "level": 3, "name": "speech" },
-      { "level": 3, "name": "lockpick" }
+      { "level": 3, "name": "speech" }
     ],
     "CBMs": [
       "bio_atomic_battery",
@@ -394,7 +393,7 @@
     ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "vest", "ifak" ],
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "vest" ],
         "entries": [
           { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
@@ -452,7 +451,7 @@
           "rucksack",
           "dump_pouch",
           "2lcanteen",
-          "ifak",
+          "mil_mess_kit",
           "e_tool",
           "mre_beef_box",
           "militarymap",
@@ -460,7 +459,6 @@
           "rollmat"
         ],
         "entries": [
-          { "item": "medium_plus_battery_cell", "ammo-item": "battery", "charges": 600, "container-item": "mil_mess_kit" },
           { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
@@ -498,7 +496,7 @@
     "skills": [
       { "level": 5, "name": "electronics" },
       { "level": 5, "name": "mechanics" },
-      { "level": 5, "name": "chemistry" },
+      { "level": 5, "name": "cooking" },
       { "level": 5, "name": "firstaid" },
       { "level": 5, "name": "fabrication" },
       { "level": 3, "name": "pistol" },
@@ -514,11 +512,10 @@
           "socks",
           "lmil_armor",
           "molle_pack",
-          "ifak",
-          "id_science"
+          "id_science",
+          "chemistry_set"
         ],
         "entries": [
-          { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 500, "container-item": "chemistry_set" },
           { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
@@ -568,7 +565,7 @@
     ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "vest", "dump_pouch", "ifak" ],
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "vest", "dump_pouch" ],
         "entries": [
           { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
