@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "secro_flesh_bow_sword",
     "type": "GENERIC",
     "symbol": "/",
@@ -61,28 +62,28 @@
           "has": "WIELD",
           "condition": "ALWAYS",
           "hit_you_effect": [
-   	     {
-     	   "id": "secro_flesh_mod_tendril_ench_target",
-      	  "hit_self": false,
-      	  "once_in": 10,
-      	  "message": "Your weapon's tendrils sweep into the vicinity!",
-      	  "npc_message": "%1$s's weapon sweeps its tendrils!"
-     	   },
-    	    {
-     	   "id": "secro_flesh_mod_tendril_ench_slam",
-      	  "hit_self": false,
-      	  "once_in": 20,
-      	  "message": "Your weapon's tendrils slams into %2$s!",
-      	  "npc_message": "%1$s's weapon slams its tendrils!"
-     	   },
-     	   {
-     	   "id": "secro_flesh_mod_tendril_ench_thrust",
-      	  "hit_self": false,
-      	  "once_in": 40,
-      	  "message": "Your weapon's tendrils pierced through %2$s!",
-      	  "npc_message": "%1$s's weapon pierced its tendrils!"
-     	   }
-   	   ]
+            {
+              "id": "secro_flesh_mod_tendril_ench_target",
+              "hit_self": false,
+              "once_in": 10,
+              "message": "Your weapon's tendrils sweep into the vicinity!",
+              "npc_message": "%1$s's weapon sweeps its tendrils!"
+            },
+            {
+              "id": "secro_flesh_mod_tendril_ench_slam",
+              "hit_self": false,
+              "once_in": 20,
+              "message": "Your weapon's tendrils slams into %2$s!",
+              "npc_message": "%1$s's weapon slams its tendrils!"
+            },
+            {
+              "id": "secro_flesh_mod_tendril_ench_thrust",
+              "hit_self": false,
+              "once_in": 40,
+              "message": "Your weapon's tendrils pierced through %2$s!",
+              "npc_message": "%1$s's weapon pierced its tendrils!"
+            }
+          ]
         }
       ]
     }
