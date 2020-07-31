@@ -821,8 +821,7 @@ class JsonObject
 
     public:
         JsonObject( JsonIn &jsin );
-        JsonObject() :
-            start( 0 ), end_( 0 ), final_separator( false ), jsin( nullptr ) {}
+        JsonObject() : start( 0 ), end_( 0 ), jsin( nullptr ) {}
         JsonObject( const JsonObject & ) = default;
         JsonObject( JsonObject && ) = default;
         JsonObject &operator=( const JsonObject & ) = default;
