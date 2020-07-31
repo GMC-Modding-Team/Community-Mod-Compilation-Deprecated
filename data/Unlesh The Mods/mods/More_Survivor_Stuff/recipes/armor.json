@@ -16,12 +16,7 @@
       [ [ "leather", 1 ] ],
       [ [ "duct_tape", 30 ] ],
       [ [ "gloves_tactical", 1 ], [ "kevlar_plate", 3 ] ],
-      [
-        [ "gloves_leather", 1 ],
-        [ "gloves_light", 1 ],
-        [ "gloves_liner", 1 ],
-        [ "wetsuit_gloves", 1 ]
-      ]
+      [ [ "gloves_leather", 1 ], [ "gloves_light", 1 ], [ "gloves_liner", 1 ], [ "wetsuit_gloves", 1 ] ]
     ]
   },
   {
@@ -288,7 +283,7 @@
       ],
       [ [ "duct_tape", 350 ] ],
       [ [ "kevlar", 2 ], [ "ballistic_vest_empty", 2 ], [ "swat_armor", 2 ], [ "kevlar_plate", 48 ] ],
-	  [ [ "kevlar", 2 ], [ "ballistic_vest_empty", 2 ], [ "swat_armor", 2 ], [ "kevlar_plate", 48 ] ]
+      [ [ "kevlar", 2 ], [ "ballistic_vest_empty", 2 ], [ "swat_armor", 2 ], [ "kevlar_plate", 48 ] ]
     ]
   },
   {
@@ -313,12 +308,8 @@
     "time": "9 h",
     "autolearn": true,
     "using": [ [ "sewing_standard", 40 ] ],
-	"tools": [ [ [ "soldering_iron", 50 ] ], [ [ "surface_heat", 60, "LIST" ] ] ],
-    "components": [
-	[ [ "rag", 7 ] ],
-	[ [ "chunk_rubber", 20 ] ],
-	[ [ "plastic_chunk", 16 ] ]
-	]
+    "tools": [ [ [ "soldering_iron", 50 ] ], [ [ "surface_heat", 60, "LIST" ] ] ],
+    "components": [ [ [ "rag", 7 ] ], [ [ "chunk_rubber", 20 ] ], [ [ "plastic_chunk", 16 ] ] ]
   },
   {
     "result": "mss_fancy_plate_gloves",
@@ -333,9 +324,7 @@
     "using": [ [ "sewing_standard", 60 ], [ "blacksmithing_standard", 35 ], [ "steel_standard", 10 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
-    "components": [
-      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ]
-    ]
+    "components": [ [ [ "leather", 10 ], [ "tanned_hide", 2 ] ] ]
   },
   {
     "result": "mss_fancy_plate_boots",
@@ -350,9 +339,7 @@
     "using": [ [ "sewing_standard", 60 ], [ "blacksmithing_standard", 40 ], [ "steel_standard", 14 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
-    "components": [
-      [ [ "leather", 20 ], [ "tanned_hide", 4 ] ]
-    ]
+    "components": [ [ [ "leather", 20 ], [ "tanned_hide", 4 ] ] ]
   },
   {
     "result": "mss_fancy_plate_helmet",
@@ -367,9 +354,7 @@
     "using": [ [ "sewing_standard", 50 ], [ "blacksmithing_standard", 80 ], [ "steel_standard", 22 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ],
-    "components": [
-      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ]
-    ]
+    "components": [ [ [ "leather", 10 ], [ "tanned_hide", 2 ] ] ]
   },
   {
     "result": "mss_fancy_plate_armor",
