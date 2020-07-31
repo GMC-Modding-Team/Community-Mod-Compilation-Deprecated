@@ -2,15 +2,16 @@
 Welcome to TheGoatGod's Mod Compilation. Currently contains over 275 mods, 5 tilesets, 40 NO Mods, and several soundpacks. It is currently, at 0.08, not entirely bug free, but it is undergoing constant improvements, and should soon be bug free. Many changes are planned for the future, consolidating mods to reduce the amount of excess, and cleaning up the code (even more!).
 
 # Changelog
+# 0.09a
+- Color update
+- Migration update
+- alot of fixes
+
 # 0.09
 - Docs have been updated for greater clarity.
 - Many, many, bugs have been fixed - including some added by us, oops!
 - Folder update: files have been renamed and re-organised into their proper folders.
 - Working on adding .github files to make contributing easier.
-# 0.09a
-- Color update
-- Migration update
-- alot of fixes
 
 # 0.08
 
