@@ -4888,19 +4888,18 @@
   {
     "type": "COMESTIBLE",
     "id": "dbcafood",
-    "name": "cake",
-    "name_plural": "cakes",
+    "name": { "str": "cake", "str_pl": "cakes" },
     "weight": "80 g",
     "color": "yellow",
     "comestible_type": "FOOD",
     "container": "platter",
     "symbol": "$",
-    "nutrition": 32,
     "description": "A freshly baked angel food cake. Moist and sweet but without any frosting. From a dry mix.",
     "price": 1250,
     "volume": "1 L",
     "charges": 2,
-    "fun": 10
+    "fun": 10,
+    "calories": 32
   },
   {
     "type": "COMESTIBLE",
