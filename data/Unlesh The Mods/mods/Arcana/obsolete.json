@@ -184,7 +184,7 @@
     "symbol": ",",
     "color": "light_gray",
     "stack_size": 1,
-	"qualities": [ [ "LOCKPICK", 5 ] ],
+    "qualities": [ [ "LOCKPICK", 5 ] ],
     "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_INGEST" ],
     "use_action": "PICK_LOCK",
     "drop_action": { "type": "emit_actor" }
@@ -195,8 +195,8 @@
     "copy-from": "spell_lockpick_lesser",
     "type": "COMESTIBLE",
     "name": { "str": "mote of greater artifice", "str_pl": "motes of greater artifice" },
-	"qualities": [ [ "LOCKPICK", 99 ] ],
-	"flags": [ "PERFECT_LOCKPICK" ],
+    "qualities": [ [ "LOCKPICK", 99 ] ],
+    "flags": [ "PERFECT_LOCKPICK" ],
     "use_action": "PICK_LOCK"
   },
   {

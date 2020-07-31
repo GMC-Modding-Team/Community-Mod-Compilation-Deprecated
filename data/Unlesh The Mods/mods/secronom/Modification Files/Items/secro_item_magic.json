@@ -332,7 +332,9 @@
     "valid_targets": [ "self" ],
     "effect": "target_attack",
     "extra_effects": [
-      { "id": "secro_power_armor_feed_give", "hit_self": true }, { "id": "secro_power_armor_flesh_morph_coward_powerlegs_give", "hit_self": true } ],
+      { "id": "secro_power_armor_feed_give", "hit_self": true },
+      { "id": "secro_power_armor_flesh_morph_coward_powerlegs_give", "hit_self": true }
+    ],
     "base_casting_time": 1
   },
   {
@@ -1515,9 +1517,7 @@
     "message": "",
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "hostile" ],
-    "extra_effects": [
-      { "id": "secro_flesh_mod_tendril_ench_sweep" }
-    ],
+    "extra_effects": [ { "id": "secro_flesh_mod_tendril_ench_sweep" } ],
     "effect": "projectile_attack",
     "min_damage": 2,
     "max_damage": 3,

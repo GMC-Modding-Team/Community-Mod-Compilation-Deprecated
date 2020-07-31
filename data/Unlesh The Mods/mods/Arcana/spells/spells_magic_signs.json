@@ -34,7 +34,10 @@
     "message": "\"Dōnēs nobis virtus...\"  You cast %s!",
     "valid_targets": [ "self" ],
     "flags": [ "NO_HANDS", "NO_LEGS", "VERBAL", "NO_FAIL" ],
-    "extra_effects": [ { "id": "arcana_aftermath_capacitance_zap", "hit_self": true, "max_level": 10 }, { "id": "arcana_aftermath_capacitance_stun", "hit_self": true, "max_level": 10 } ],
+    "extra_effects": [
+      { "id": "arcana_aftermath_capacitance_zap", "hit_self": true, "max_level": 10 },
+      { "id": "arcana_aftermath_capacitance_stun", "hit_self": true, "max_level": 10 }
+    ],
     "min_damage": 150,
     "max_damage": 240,
     "damage_increment": 9,
@@ -283,9 +286,7 @@
     "message": "\"If it is known, it can be attained...\"  You cast %s!",
     "valid_targets": [ "hostile" ],
     "flags": [ "NO_HANDS", "NO_LEGS", "VERBAL", "NO_FAIL", "SWAP_POS" ],
-    "extra_effects": [
-      { "id": "arcana_magic_dampening_aoe", "hit_self": false, "max_level": 10 }
-    ],
+    "extra_effects": [ { "id": "arcana_magic_dampening_aoe", "hit_self": false, "max_level": 10 } ],
     "effect": "target_attack",
     "effect_str": "dazed",
     "energy_source": "FATIGUE",

@@ -95,11 +95,7 @@
     "id": "SECRONOM_FLESH_BIO_ench",
     "values": [ { "value": "ARMOR_BIO", "add": -10 }, { "value": "MAX_HP", "multiply": 5 } ],
     "ench_effects": [ { "effect": "blind", "intensity": 1 } ],
-    "intermittent_activation": {
-      "effects": [
-        { "frequency": "1 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_check_random" } ] }
-      ]
-    }
+    "intermittent_activation": { "effects": [ { "frequency": "1 seconds", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_check_random" } ] } ] }
   },
   {
     "type": "enchantment",
@@ -143,27 +139,21 @@
     "type": "enchantment",
     "id": "SECRONOM_FLESH_BIO_construction_pp_ench",
     "intermittent_activation": {
-      "effects": [
-        { "frequency": "20 minutes", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_construction_pp_furnbuild" } ] }
-      ]
+      "effects": [ { "frequency": "20 minutes", "spell_effects": [ { "id": "SECRONOM_FLESH_BIO_construction_pp_furnbuild" } ] } ]
     }
   },
   {
     "type": "enchantment",
     "id": "SECRONOM_FLESH_traverse_ench",
     "intermittent_activation": {
-      "effects": [
-        { "frequency": "1 seconds", "spell_effects": [ { "id": "secro_power_armor_flesh_infect_traverse" } ] }
-      ]
+      "effects": [ { "frequency": "1 seconds", "spell_effects": [ { "id": "secro_power_armor_flesh_infect_traverse" } ] } ]
     }
   },
   {
     "type": "enchantment",
     "id": "SECRONOM_FLESH_transmit_ench",
     "intermittent_activation": {
-      "effects": [
-        { "frequency": "1 seconds", "spell_effects": [ { "id": "secro_power_armor_flesh_infect_or_random" } ] }
-      ]
+      "effects": [ { "frequency": "1 seconds", "spell_effects": [ { "id": "secro_power_armor_flesh_infect_or_random" } ] } ]
     }
   },
   {
