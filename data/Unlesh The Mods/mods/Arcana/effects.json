@@ -291,7 +291,7 @@
     "name": [ "Ward Against Evil" ],
     "desc": [ "Protects against various anomalous effects." ],
     "remove_message": "The magical protection fades.",
-    "removes_effects": [ "darkness", "rat", "evil", "attention", "teleglow", "amigara", "taint", "tindrift" ],
+    "removes_effects": [ "darkness", "rat", "evil", "arcana_evil_mimic", "attention", "teleglow", "amigara", "taint", "tindrift" ],
     "decay_messages": [ [ "Your ward against evil is waning.", "bad" ] ],
     "rating": "good",
     "max_intensity": 100,
@@ -307,6 +307,7 @@
       "darkness",
       "rat",
       "evil",
+      "arcana_evil_mimic",
       "attention",
       "teleglow",
       "amigara",
@@ -563,6 +564,8 @@
   {
     "type": "effect_type",
     "id": "arcane_pulse_side_effects",
+    "//": "Proper Chosen are more acclimated to channeling He From Beyond The Veil's blessings.",
+    "resist_traits": [ "PROF_CHALICE" ],
     "name": [ "Wave of Destruction Burnout" ],
     "desc": [ "Human minds and bodies were not made to be a conduit for such destructive energy.  Overuse won't kill you, but will make it harder to focus on spellcasting." ],
     "max_intensity": 6,
@@ -574,7 +577,7 @@
       "pain_chance": [ 1000, 1200 ]
     },
     "scaling_mods": {
-      "int_mod": [ -1.25 ],
+      "int_mod": [ -1.25, -1 ],
       "vomit_chance": [ -200, -240 ],
       "stamina_min": [ -5 ],
       "pain_chance": [ 100, 120 ]
@@ -761,6 +764,7 @@
     "type": "effect_type",
     "id": "chalice_offering_side_effects",
     "resist_effect": "talisman_warding",
+    "resist_traits": [ "PROF_CHALICE", "THRESH_VEIL" ],
     "name": [
       "",
       "Otherworldly Weakness",
@@ -817,6 +821,7 @@
     "type": "effect_type",
     "id": "blood_athame_side_effects",
     "resist_effect": "talisman_warding",
+    "resist_traits": [ "PROF_SANGUINE", "THRESH_DRAGONBLOOD" ],
     "//": "This won't kill you, but the health and stat penalties will make you wish it did later on down the line.",
     "name": [ "", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia" ],
     "desc": [
@@ -869,7 +874,6 @@
   {
     "type": "effect_type",
     "id": "arcana_evil_mimic",
-    "resist_effect": "talisman_warding",
     "apply_message": "You feel an evil presence…",
     "rating": "bad",
     "max_intensity": 25,
