@@ -8,13 +8,14 @@
     "weight": "659 g",
     "volume": "500 ml",
     "price": 69000,
+    "price_postapoc": 4000,
     "to_hit": -2,
     "bashing": 8,
     "material": [ "plastic", "steel" ],
     "symbol": "(",
     "color": "dark_gray",
     "flags": [ "PRIMITIVE_RANGED_WEAPON" ],
-    "ammo": "small_bolt_crossbow",
+    "ammo": [ "small_bolt_crossbow" ],
     "//": "This is a note to future Alex, stop replacing this with \"Hybrid_Bolt\". This is specifying the ammo type used.",
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -30,7 +31,7 @@
     "dispersion": 480,
     "durability": 6,
     "magazine_well": 1,
-    "magazines": [ [ "small_bolt_crossbow", [ "crossbow_hybrid_mag", "crossbow_hybrid_mag_extended" ] ] ]
+    "magazines": [ [ [ "small_bolt_crossbow" ], [ "crossbow_hybrid_mag", "crossbow_hybrid_mag_extended" ] ] ]
   },
   {
     "id": "hybrid_crossbow_22",
@@ -41,13 +42,14 @@
     "weight": "595 g",
     "volume": "500 ml",
     "price": 69000,
+    "price_postapoc": 4000,
     "to_hit": -2,
     "bashing": 8,
     "material": [ "plastic", "steel" ],
     "symbol": "(",
     "color": "dark_gray",
     "flags": [ "PRIMITIVE_RANGED_WEAPON" ],
-    "ammo": "small_bolt_crossbow",
+    "ammo": [ "small_bolt_crossbow" ],
     "//": "This is a note to future Alex, stop replacing this with \"Hybrid_Bolt\". This is specifying the ammo type used.",
     "valid_mod_locations": [
       [ "accessories", 2 ],
