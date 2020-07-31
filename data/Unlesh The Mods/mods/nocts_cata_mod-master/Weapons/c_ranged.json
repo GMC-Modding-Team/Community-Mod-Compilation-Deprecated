@@ -134,7 +134,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 60, "armor_penetration": 10 },
     "range": 40,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 50,
     "recoil": 200,
     "durability": 8,
@@ -219,7 +219,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 50, "armor_penetration": 2 },
     "range": 15,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 300,
     "recoil": 300,
     "durability": 8,
@@ -1712,7 +1712,6 @@
       {
         "pocket_type": "MAGAZINE",
         "rigid": true,
-        "watertight": true,
         "ammo_restriction": { "diesel": 1500, "gasoline": 1500, "flammable": 1500, "lamp_oil": 1500, "motor_oil": 1500, "jp8": 1500, "avgas": 1500 }
       }
     ],
