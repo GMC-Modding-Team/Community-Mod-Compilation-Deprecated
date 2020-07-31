@@ -298,7 +298,7 @@
     "using": [ [ "filament", 40 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 40 ], [ "welder_crude", 50 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ] ],
-    "components": [ [ [ "cddaxp_survsrtrenchcoat", 1 ] ], [ [ "chitin_piece", 10 ] ], [ [ "kevlar_plate", 10 ] ] ]
+    "components": [ [ [ "cddaxp_survsrtrenchcoat", 1 ] ], [ [ "chitin_piece", 10 ] ], [ [ "sheet_kevlar_layered", 10 ] ] ]
   },
   {
     "result": "cddaxp_lamesrcpants",
@@ -314,7 +314,7 @@
     "using": [ [ "filament", 36 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 36 ], [ "welder_crude", 46 ], [ "soldering_iron", 36 ], [ "toolset", 36 ] ] ],
-    "components": [ [ [ "cddaxp_survrcpants", 1 ] ], [ [ "chitin_piece", 6 ] ], [ [ "kevlar_plate", 6 ] ] ]
+    "components": [ [ [ "cddaxp_survrcpants", 1 ] ], [ [ "chitin_piece", 6 ] ], [ [ "sheet_kevlar_layered", 6 ] ] ]
   },
   {
     "result": "cddaxp_longshirt",
@@ -376,7 +376,7 @@
     "using": [ [ "filament", 10 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
-    "components": [ [ [ "cddaxp_longshirt", 1 ] ], [ [ "chitin_piece", 4 ] ], [ [ "kevlar_plate", 4 ] ] ]
+    "components": [ [ [ "cddaxp_longshirt", 1 ] ], [ [ "chitin_piece", 4 ] ], [ [ "sheet_kevlar_layered", 4 ] ] ]
   },
   {
     "result": "cddaxp_srbshirt",
@@ -395,7 +395,7 @@
     "components": [
       [ [ "cddaxp_longshirt", 1 ] ],
       [ [ "bone", 4 ], [ "bone_tainted", 4 ], [ "bone_human", 4 ] ],
-      [ [ "kevlar_plate", 4 ] ]
+      [ [ "sheet_kevlar_layered", 4 ] ]
     ]
   },
   {
@@ -412,7 +412,7 @@
     "using": [ [ "filament", 10 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
-    "components": [ [ [ "cddaxp_longshirt", 1 ] ], [ [ "ceramic_armor", 4 ] ], [ [ "kevlar_plate", 4 ] ] ]
+    "components": [ [ [ "cddaxp_longshirt", 1 ] ], [ [ "ceramic_armor", 4 ] ], [ [ "sheet_kevlar_layered", 4 ] ] ]
   },
   {
     "result": "cddaxp_ialamp",
@@ -456,7 +456,7 @@
     "components": [
       [ [ "cddaxp_survsrtrenchcoat", 1 ] ],
       [ [ "bone", 10 ], [ "bone_tainted", 10 ], [ "bone_human", 10 ] ],
-      [ [ "kevlar_plate", 10 ] ]
+      [ [ "sheet_kevlar_layered", 10 ] ]
     ]
   },
   {
@@ -476,7 +476,7 @@
     "components": [
       [ [ "cddaxp_survrcpants", 1 ] ],
       [ [ "bone", 6 ], [ "bone_tainted", 6 ], [ "bone_human", 6 ] ],
-      [ [ "kevlar_plate", 6 ] ]
+      [ [ "sheet_kevlar_layered", 6 ] ]
     ]
   },
   {
@@ -493,7 +493,7 @@
     "using": [ [ "filament", 40 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 40 ], [ "welder_crude", 50 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ] ],
-    "components": [ [ [ "cddaxp_survsrtrenchcoat", 1 ] ], [ [ "ceramic_armor", 10 ] ], [ [ "kevlar_plate", 10 ] ] ]
+    "components": [ [ [ "cddaxp_survsrtrenchcoat", 1 ] ], [ [ "ceramic_armor", 10 ] ], [ [ "sheet_kevlar_layered", 10 ] ] ]
   },
   {
     "result": "cddaxp_lamesccpants",
@@ -509,7 +509,7 @@
     "using": [ [ "filament", 36 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 36 ], [ "welder_crude", 46 ], [ "soldering_iron", 36 ], [ "toolset", 36 ] ] ],
-    "components": [ [ [ "cddaxp_survrcpants", 1 ] ], [ [ "ceramic_armor", 6 ] ], [ [ "kevlar_plate", 6 ] ] ]
+    "components": [ [ [ "cddaxp_survrcpants", 1 ] ], [ [ "ceramic_armor", 6 ] ], [ [ "sheet_kevlar_layered", 6 ] ] ]
   },
   {
     "result": "cddaxp_hlamesstrenchcoat",
@@ -894,7 +894,7 @@
       [ [ "ant_egg", 1 ], [ "spider_egg", 1 ], [ "egg_bird", 2 ], [ "egg_reptile", 2 ], [ "powder_eggs", 4 ] ],
       [
         [ "pine_tea", 1 ],
-        [ "broth_human", 1 ],
+        [ "broth_bone", 1 ],
         [ "herbal_tea", 1 ],
         [ "dandelion_tea", 1 ],
         [ "broth", 1 ],
