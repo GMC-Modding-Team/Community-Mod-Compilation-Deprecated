@@ -60,14 +60,14 @@
       [ [ "sheet_metal", 5 ] ],
       [ [ "pipe", 1 ] ],
       [ [ "hose", 3 ] ],
-      [ [ "jar_glass", 1 ] ],
+      [ [ "jar_glass_sealed", 1 ] ],
       [ [ "bottle_glass", 1 ] ],
       [ [ "jar_3l_glass", 1 ] ]
     ]
   },
   {
     "type": "recipe",
-    "result": "jar_glass",
+    "result": "jar_glass_sealed",
     "id_suffix": "from_MLI",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
@@ -109,7 +109,7 @@
       [ [ "glass_bottle_manufacturing_mold_set", -1 ] ],
       [ [ "forge", 75 ] ]
     ],
-    "components": [ [ [ "glass_shard", 12 ], [ "flask_glass", 3 ], [ "jar_glass", 2 ] ] ]
+    "components": [ [ [ "glass_shard", 12 ], [ "flask_glass", 3 ], [ "jar_glass_sealed", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -132,6 +132,6 @@
       [ [ "glass_bottle_manufacturing_mold_set", -1 ] ],
       [ [ "forge", 150 ] ]
     ],
-    "components": [ [ [ "glass_shard", 48 ], [ "flask_glass", 12 ], [ "jar_glass", 6 ] ] ]
+    "components": [ [ [ "glass_shard", 48 ], [ "flask_glass", 12 ], [ "jar_glass_sealed", 6 ] ] ]
   }
 ]
