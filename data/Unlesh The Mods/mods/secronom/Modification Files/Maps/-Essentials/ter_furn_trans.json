@@ -513,7 +513,12 @@
     "fail_message": "There's nothing for the flesh to devour here.",
     "terrain": [
       {
-        "result": [ [ "t_secro_dirt_flesh_camp", 5 ], [ "t_secro_grass_flesh_camp", 3 ], "t_secro_grass_long_flesh_camp", [ "t_dirt", 10 ] ],
+        "result": [
+          [ "t_secro_dirt_flesh_camp", 5 ],
+          [ "t_secro_grass_flesh_camp", 3 ],
+          "t_secro_grass_long_flesh_camp",
+          [ "t_dirt", 10 ]
+        ],
         "valid_flags": [ "DIGGABLE" ],
         "message": "The flesh spreads successfully."
       },
@@ -849,11 +854,7 @@
     "id": "secro_flesh_traverse",
     "fail_message": "Flesh here have reverted.",
     "terrain": [
-      {
-        "result": "t_dirt",
-        "valid_terrain": [ "t_secro_dirt_flesh_camp" ],
-        "message": "The biohazard here has withdraw!"
-      },
+      { "result": "t_dirt", "valid_terrain": [ "t_secro_dirt_flesh_camp" ], "message": "The biohazard here has withdraw!" },
       {
         "result": "t_grass",
         "valid_terrain": [ "t_secro_grass_flesh_camp" ],
@@ -917,13 +918,7 @@
     "type": "ter_furn_transform",
     "id": "secro_furn_removal",
     "fail_message": "There's nothing to remove here.",
-    "furniture": [
-      {
-        "result": "f_null",
-        "valid_flags": [ "FLOWER", "RUBBLE" ],
-        "message": "The furnitures here has collapsed."
-      }
-    ]
+    "furniture": [ { "result": "f_null", "valid_flags": [ "FLOWER", "RUBBLE" ], "message": "The furnitures here has collapsed." } ]
   },
   {
     "type": "ter_furn_transform",

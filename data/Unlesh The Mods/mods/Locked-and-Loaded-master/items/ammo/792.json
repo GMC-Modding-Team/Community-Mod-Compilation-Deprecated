@@ -1,6 +1,6 @@
-[ 
+[
   {
- "id": "792",
+    "id": "792",
     "type": "AMMO",
     "name": "7.92x57 Mauser S",
     "description": "The 7.92×57mm Mauser is a rimless bottlenecked rifle cartridge. The 7.92×57mm Mauser cartridge was adopted by the German Empire in 1903–1905, and was the German service cartridge in both World Wars.",
@@ -18,9 +18,9 @@
     "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 8 },
     "dispersion": 35,
     "recoil": 200
-     },
-    {
-     "id": "bp_792",
+  },
+  {
+    "id": "bp_792",
     "copy-from": "792",
     "type": "AMMO",
     "name": "7.92x57 Mauser S black powder",
@@ -31,9 +31,9 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
-       "type": "GENERIC",
+  },
+  {
+    "type": "GENERIC",
     "id": "792_casing",
     "copy-from": "casing",
     "name": "7.92x57mm casing",
@@ -41,5 +41,5 @@
     "material": [ "brass" ],
     "volume": "25 ml",
     "weight": "1 g"
-    }
+  }
 ]
