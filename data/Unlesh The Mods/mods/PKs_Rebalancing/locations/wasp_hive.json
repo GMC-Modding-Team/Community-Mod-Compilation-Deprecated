@@ -1,0 +1,73 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": "wasp_center",
+    "method": "json",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_paper_floor",
+      "rows": [
+        "   ###     **    **    *",
+        "* ##x##   *  * ###. ### ",
+        " *.###.###.#*.#*.*###.*#",
+        " ###. ##x##.##.##*.x##* ",
+        "##x##  ###.#.###.###.*  ",
+        " ##*.##.##..##x###x##** ",
+        "**.####*#.**.###x###.** ",
+        "  ##x##*     ##.##x###.*",
+        " *.###  ###* *###x##.## ",
+        "  ###. ##x##* .##..###  ",
+        "*##x## .###A###.###.### ",
+        "*.### .###A##x##x#.##x##",
+        " *  .*##x##A###.###.### ",
+        "  *###.###*.. *##.##.. *",
+        "  ##x##* .###  *###.### ",
+        " **###* *##x##  **.##x##",
+        "**...   *.###*  .**.### ",
+        "*###**.###.*.* *###*.*  ",
+        "##x##.##x##****##x##* * ",
+        ".###.**### ##.#####.*   ",
+        " *.###.     *##..*.###  ",
+        " .##x##.### *..#####x##*",
+        "  *###.##x## *##x#####.*",
+        " *   ***###   .###   ** "
+      ],
+      "terrain": {
+        "#": "t_paper",
+        ".": "t_paper_floor",
+        " ": [
+          "t_paper",
+          "t_paper",
+          "t_paper",
+          "t_grass",
+          "t_grass",
+          "t_grass",
+          "t_grass",
+          "t_grass",
+          "t_grass",
+          "t_grass",
+          "t_dirt",
+          "t_dirt",
+          "t_dirt",
+          "t_dirt",
+          "t_tree",
+          "t_tree"
+        ],
+        "*": [ "t_paper", "t_paper", "t_paper", "t_paper_floor", "t_paper_floor", "t_grass", "t_dirt", "t_dirt" ]
+      },
+      "monster": { "x": { "monster": "mon_wasp_larvae" }, "A": { "monster": "mon_wasp_queen" } },
+      "items": {
+        "x": { "item": "wasp_center", "chance": 50 },
+        ".": { "item": "wasp_center", "chance": 12 },
+        "*": { "item": "wasp_center", "chance": 3 },
+        "#": { "item": "wasp_center", "chance": 5 },
+        "A": { "item": "wasp_center", "chance": 50 },
+        " ": { "item": "wasp_center", "chance": 1 }
+      },
+      "place_monsters": [
+        { "monster": "GROUP_WASP_CENTER", "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] },
+        { "monster": "GROUP_WASP_CENTER", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 }
+      ]
+    }
+  }
+]
