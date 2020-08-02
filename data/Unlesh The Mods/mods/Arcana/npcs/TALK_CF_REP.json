@@ -81,15 +81,12 @@
         "condition": {
           "and": [
             { "u_has_item": "arcana_dream_journal" },
-            {
-              "u_has_var": "johnathan_prelude_penultimate",
-              "type": "mission",
-              "context": "rural_church",
-              "value": "yes"
-            }
+            { "u_has_var": "johnathan_prelude_penultimate", "type": "mission", "context": "rural_church", "value": "yes" }
           ]
         },
-        "effect": [ { "u_consume_item": "arcana_dream_journal" } ]
+        "effect": [
+          { "u_consume_item": "arcana_dream_journal" }
+        ]
       },
       {
         "text": "Johnathan sent me to investigate an anomaly, I found a strange gem there.  What do you make of it?",
@@ -97,15 +94,12 @@
         "condition": {
           "and": [
             { "u_has_item": "arcana_strange_crystal" },
-            {
-              "u_has_var": "johnathan_prelude_penultimate",
-              "type": "mission",
-              "context": "rural_church",
-              "value": "yes"
-            }
+            { "u_has_var": "johnathan_prelude_penultimate", "type": "mission", "context": "rural_church", "value": "yes" }
           ]
         },
-        "effect": [ { "u_consume_item": "arcana_strange_crystal" } ]
+        "effect": [
+          { "u_consume_item": "arcana_strange_crystal" }
+        ]
       },
       {
         "text": "Johnathan asked me about an anomaly he's investigating, and suggested I ask for information from other people.  Who should I ask?",
@@ -113,12 +107,8 @@
         "condition": {
           "and": [
             { "not": { "u_has_mission": "MISSION_CF_GM_4_PRELUDE" } },
-            {
-              "not": { "u_has_var": "johnathan_prelude_penultimate", "type": "mission", "context": "rural_church", "value": "yes" }
-            },
-            {
-              "not": { "u_has_var": "johnathan_prelude_ended", "type": "mission", "context": "rural_church", "value": "yes" }
-            },
+            { "not": { "u_has_var": "johnathan_prelude_penultimate", "type": "mission", "context": "rural_church", "value": "yes" } },
+            { "not": { "u_has_var": "johnathan_prelude_ended", "type": "mission", "context": "rural_church", "value": "yes" } },
             { "u_has_var": "johnathan_prelude_mid", "type": "mission", "context": "rural_church", "value": "yes" }
           ]
         }
@@ -206,7 +196,10 @@
         "topic": "TALK_CF_REP"
       },
       { "text": "Do you have anything to trade?", "switch": true, "default": true, "topic": "TALK_CF_REP_TRADE" },
-      { "text": "Anything I can do to help?", "topic": "TALK_MISSION_LIST" },
+      {
+        "text": "Anything I can do to help?",
+        "topic": "TALK_MISSION_LIST"
+      },
       {
         "text": "Well, bye.",
         "topic": "TALK_DONE",
@@ -556,16 +549,19 @@
         "text": "And what approach is that?",
         "condition": {
           "or": [
-            {
-              "u_has_any_trait": [ "PROF_ARCANIST", "PROF_ARCANIST2", "PROF_SANGUINE", "PROF_CHALICE", "THRESH_VEIL", "THRESH_DRAGONBLOOD" ]
-            },
+            { "u_has_any_trait": [ "PROF_ARCANIST", "PROF_ARCANIST2", "PROF_SANGUINE", "PROF_CHALICE", "THRESH_VEIL", "THRESH_DRAGONBLOOD" ] },
             { "u_has_skill": { "skill": "magic", "level": 1 } }
           ]
         },
         "switch": true,
         "topic": "TALK_CF_REP_ARCANE_2"
       },
-      { "text": "What do you mean, arcane?", "switch": true, "default": true, "topic": "TALK_CF_REP_ARCANE_2" },
+      {
+        "text": "What do you mean, arcane?",
+        "switch": true,
+        "default": true,
+        "topic": "TALK_CF_REP_ARCANE_2"
+      },
       { "text": "…", "topic": "TALK_CF_REP" }
     ]
   },
@@ -577,7 +573,12 @@
       "yes": "There are many approaches to handling these forces.  Some have chosen recklessness, as though it is a drug to be abused.  Others, superstitious faith and worship of powers that do not belong in our world.  We seek to study these anomalies cautiously, and keep others safe from more dangerous artifacts if we must.  The acolyte I took those notes from, the ones I gave you, learned the importance of caution the hard way, and did not live to benefit from that experience.  That is why we have resorted to extreme measures to deal with dangerous relics in the past.",
       "no": "There are many approaches to handling these forces.  Some have chosen recklessness, as though it is a drug to be abused.  Others, superstitious faith and worship of powers that do not belong in our world.  We seek to study these anomalies cautiously, and keep others safe from more dangerous artifacts if we must.  If it means containment, or destruction, so be it.  I prefer instead to teach others how to handle such safely, for caution is a lesson many learn the hard way, and few survive such experiences."
     },
-    "responses": [ { "text": "Alright…", "topic": "TALK_CF_REP" } ]
+    "responses": [
+      {
+        "text": "Alright…",
+        "topic": "TALK_CF_REP"
+      }
+    ]
   },
   {
     "type": "talk_topic",
