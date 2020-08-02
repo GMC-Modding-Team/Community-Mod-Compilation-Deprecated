@@ -7,7 +7,7 @@
       {
         "name": "carrion portal",
         "color": "red",
-        "symbol": "*",
+        "sym": "*",
         "light_emitted": 5,
         "monster_spawn_chance": 1000,
         "monster_spawn_count": 1,
@@ -48,7 +48,7 @@
       {
         "name": "vector portal",
         "color": "blue",
-        "symbol": "*",
+        "sym": "*",
         "light_emitted": 5,
         "monster_spawn_chance": 1000,
         "monster_spawn_count": 1,
@@ -85,7 +85,7 @@
   {
     "id": "fd_ministars",
     "type": "field_type",
-    "intensity_levels": [ { "name": "starlight", "symbol": "*", "light_emitted": 3 } ],
+    "intensity_levels": [ { "name": "starlight", "sym": "*", "light_emitted": 3 } ],
     "priority": 5,
     "half_life": "10 turns",
     "display_field": true
@@ -96,7 +96,7 @@
     "intensity_levels": [
       {
         "name": "hazy cloud",
-        "symbol": ".",
+        "sym": ".",
         "color": "cyan",
         "dangerous": true,
         "light_emitted": 1,
@@ -132,7 +132,7 @@
     "intensity_levels": [
       {
         "name": "thick vector haze",
-        "symbol": "~",
+        "sym": "~",
         "color": "light_blue",
         "dangerous": true,
         "transparent": false,
@@ -231,7 +231,7 @@
     "intensity_levels": [
       {
         "name": "intense airlock",
-        "symbol": "0",
+        "sym": "0",
         "color": "dark_gray",
         "monster_spawn_chance": 2500,
         "monster_spawn_count": 1,
@@ -252,7 +252,7 @@
     "intensity_levels": [
       {
         "name": "loathful pressence",
-        "symbol": "0",
+        "sym": "0",
         "dangerous": true,
         "effects": [ { "effect_id": "secro_nix_fear", "body_part": "HEAD", "min_duration": "1 seconds", "max_duration": "2 seconds" } ]
       }
@@ -275,7 +275,7 @@
     "intensity_levels": [
       {
         "name": "gorepit orb",
-        "symbol": "o",
+        "sym": "o",
         "color": "pink",
         "dangerous": true,
         "effects": [
@@ -301,7 +301,7 @@
     "intensity_levels": [
       {
         "name": "gorepit edge",
-        "symbol": "#",
+        "sym": "#",
         "dangerous": true,
         "color": "red",
         "effects": [
@@ -372,7 +372,7 @@
     "intensity_levels": [
       {
         "name": "corrupted acid splatter",
-        "symbol": "5",
+        "sym": "5",
         "color": "dark_gray",
         "dangerous": true,
         "effects": [
@@ -414,7 +414,7 @@
     "intensity_levels": [
       {
         "name": "hazy cloud",
-        "symbol": "8",
+        "sym": "8",
         "dangerous": true,
         "translucency": 1,
         "effects": [ { "effect_id": "secro_necros_para", "body_part": "TORSO", "min_duration": "1 seconds", "max_duration": "5 seconds" } ]
@@ -457,7 +457,7 @@
     "intensity_levels": [
       {
         "name": "gangrenous flesh",
-        "symbol": "#",
+        "sym": "#",
         "color": "pink",
         "move_cost": 15,
         "monster_spawn_chance": 3000,
@@ -498,7 +498,7 @@
     "intensity_levels": [
       {
         "name": "flesh strands",
-        "symbol": "}",
+        "sym": "}",
         "color": "pink",
         "effects": [ { "effect_id": "secro_mawy_web", "body_part": "TORSO", "min_duration": "5 seconds", "max_duration": "10 seconds" } ]
       },
@@ -1089,7 +1089,7 @@
     "intensity_levels": [
       {
         "name": "blood acid splatter",
-        "symbol": "5",
+        "sym": "5",
         "color": "red",
         "dangerous": true,
         "effects": [
@@ -1207,7 +1207,7 @@
       {
         "name": "energized perimeter",
         "color": "yellow",
-        "symbol": "+",
+        "sym": "+",
         "dangerous": true,
         "effects": [ { "effect_id": "secro_gravtur_magnet", "min_duration": "3 seconds", "max_duration": "3 seconds" } ]
       }
