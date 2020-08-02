@@ -1,29 +1,29 @@
 [
   {
     "type": "MONSTER_FACTION",
-    "name": { "str": "moruboru" },
+    "name": "moruboru",
     "friendly": [ "nether", "triffid" ]
   },
   {
     "type": "MONSTER_FACTION",
-    "name": { "str": "archon" },
+    "name": "archon",
     "friendly": [ "nether", "cult" ]
   },
   {
     "type": "MONSTER_FACTION",
-    "name": { "str": "nether" },
+    "name": "nether",
     "friendly": [ "blob", "cult", "moruboru", "archon" ]
   },
   {
     "type": "MONSTER_FACTION",
-    "name": { "str": "cult" },
+    "name": "cult",
     "base_faction": "zombie",
     "neutral": [ "nether" ],
     "friendly": [ "archon" ]
   },
   {
     "type": "MONSTER_FACTION",
-    "name": { "str": "triffid" },
+    "name": "triffid",
     "base_faction": "plant",
     "friendly": [ "moruboru" ]
   }
