@@ -1,34 +1,37 @@
 [
   {
     "id": "bn_bio_solar1",
-    "copy-from": "bionic_genera",
+    "copy-from": "bn_bio_solar",
     "type": "BIONIC_ITEM",
     "name": "Solar Panels CBM",
     "description": "Installed on your back is a set of retractable solar panels.  When in direct sunlight, they will automatically deploy and slowly recharge your power level.",
     "price": 350000,
+    "price_postapoc": 5000,
     "difficulty": 4
   },
   {
     "id": "afs_bio_precision_solderers1",
-    "copy-from": "bionic_genera",
+    "copy-from": "afs_bio_precision_solderers",
     "type": "BIONIC_ITEM",
     "name": "Precision Solderers CBM",
     "description": "A set of tiny electronics tools, including soldering irons and wire cutters.  They serve no purpose on their own, but are required for crafting bionics.",
     "price": 20000,
+    "price_postapoc": 5000,
     "difficulty": 3
   },
   {
     "id": "afs_bio_missiles1",
-    "copy-from": "bionic_general",
+    "copy-from": "afs_bio_missiles",
     "type": "BIONIC_ITEM",
     "name": "Deployable Grenade Launcher CBM",
     "description": "A small, folding tube that attaches to your right arm.  Once implanted, it can serve as a portable, integrated tool for firing 40mm grenades and canisters.",
     "price": 100000,
+    "price_postapoc": 50000,
     "difficulty": 5
   },
   {
     "id": "afs_bio_linguistic_coprocessor1",
-    "copy-from": "bionic_general",
+    "copy-from": "afs_bio_linguistic_coprocessor",
     "type": "BIONIC_ITEM",
     "name": "Linguistic Coprocessor CBM",
     "description": "A microcomputer installed into the left hemisphere of your brain to increase the speed that it processes language.  When installed, it provides a passive boost to reading speed.",
@@ -38,7 +41,7 @@
   },
   {
     "id": "afs_bio_dopamine_stimulators1",
-    "copy-from": "bionic_general",
+    "copy-from": "afs_bio_dopamine_stimulators",
     "type": "BIONIC_ITEM",
     "name": "Dopamine Stimulators CBM",
     "description": "A set of tiny bionic nerve stimulators that install into the reward center of your brain.  When run with bionic power, it periodically releases a hit of dopamine and other reward chemicals, inducing a state of euphoria and suppressing fear.",
