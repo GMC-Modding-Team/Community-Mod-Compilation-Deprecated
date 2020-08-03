@@ -300,7 +300,7 @@
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
     "use_action": "HEAT_FOOD",
     "//": "In the unlikely event some lunatic mistakes this for the frying pan of doom.",
-    "flags": [ "ALLOWS_REMOTE_USE", "FRAGILE_MELEE" ]
+    "flags": [ "ALLOWS_REMOTE_USE", "FRAGILE_MELEE", "TARDIS" ]
   },
   {
     "id": "molded_shovel",
@@ -466,10 +466,7 @@
     "max_charges": 25,
     "turns_per_charge": 60,
     "revert_to": "solar_torch",
-    "use_action": [
-      { "type": "firestarter" },
-      { "type": "transform", "msg": "The torch is extinguished.", "target": "solar_torch" }
-    ]
+    "use_action": [ { "type": "firestarter" }, { "type": "transform", "msg": "The torch is extinguished.", "target": "solar_torch" } ]
   },
   {
     "type": "COMESTIBLE",
