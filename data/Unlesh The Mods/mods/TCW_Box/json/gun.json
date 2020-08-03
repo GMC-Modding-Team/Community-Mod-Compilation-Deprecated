@@ -12,7 +12,7 @@
     "material": [ "steel", "plastic" ],
     "flags": [ "BACKBLAST", "NEVER_JAMS" ],
     "skill": "launcher",
-    "ammo": "RPG-7",
+    "ammo": [ "RPG-7" ],
     "weight": "6500 g",
     "volume": "4300 ml",
     "bashing": 10,
@@ -75,8 +75,8 @@
     "bashing": 1,
     "to_hit": -5,
     "skill": "rifle",
-    "ammo": "223",
-    "ranged_damage": 0,
+    "ammo": [ "223" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "durability": 6,
     "reload": 100,
     "reload_noise_volume": 10,
@@ -217,7 +217,6 @@
     "color": "light_gray",
     "location": "barrel",
     "mod_targets": [ "rifle" ],
-    "damage_modifier": 1,
     "dispersion_modifier": -40,
     "min_skills": [ [ "weapon", 2 ] ]
   }
