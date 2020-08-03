@@ -26,13 +26,8 @@
     "weight": "6820 g",
     "volume": "10500 ml",
     "to_hit": -3,
-    "max_charges": 5000,
-    "use_action": {
-      "type": "ups_based_armor",
-      "activate_msg": "You activate your armor.",
-      "deactive_msg": "You deactivate your armor.",
-      "out_of_power_msg": "Darn. It's dead."
-    },
+    "max_charges": 50000,
+    "use_action": { "type": "transform", "msg": "You activate the suit.", "target": "elemental_ON", "active": true },
     "gun_data": {
       "type": "rifle",
       "symbol": "[",
@@ -77,14 +72,9 @@
     "weight": "6820 g",
     "volume": "10 L",
     "to_hit": -3,
-    "max_charges": 5000,
+    "max_charges": 50000,
     "ammo": "h_cell",
-    "use_action": {
-      "type": "ups_based_armor",
-      "activate_msg": "You activate the suit.",
-      "deactive_msg": "You deactivate the suit..",
-      "out_of_power_msg": "Darn. It's dead."
-    },
+    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "You deactivate the suit..", "target": "power_armor_basic" },
     "gun_data": {
       "type": "GENERIC",
       "symbol": "[",
