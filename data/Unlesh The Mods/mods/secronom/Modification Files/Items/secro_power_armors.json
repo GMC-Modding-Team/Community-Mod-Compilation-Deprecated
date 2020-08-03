@@ -51,7 +51,12 @@
     "flags": [ "USE_UPS", "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "TRADER_AVOID" ],
     "power_draw": 4000000,
     "revert_to": "secro_power_armor_atk",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your power armor disengages.", "target": "secro_power_armor_atk" },
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "Your power armor disengages.",
+      "target": "secro_power_armor_atk"
+    },
     "covers": [ "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ]
   },
   {

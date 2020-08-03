@@ -173,19 +173,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_pk_weak",
-    "flags": [
-      "SEES",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "NO_BREATHE",
-      "REVIVES",
-      "BONES",
-      "PUSH_MON",
-      "FILTHY"
-    ]
+    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_rot",
@@ -1012,20 +1000,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched",
     "upgrades": { "half_life": 24, "into": "mon_zombie_child_reaver" },
-    "flags": [
-      "GRABS",
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "WARM",
-      "BASHES",
-      "POISON",
-      "GUILT",
-      "NO_BREATHE",
-      "REVIVES",
-      "BONES",
-      "FILTHY"
-    ]
+    "flags": [ "GRABS", "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_child_reaver",
