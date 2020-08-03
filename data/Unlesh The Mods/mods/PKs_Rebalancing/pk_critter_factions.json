@@ -124,14 +124,14 @@
   {
     "type": "MONSTER_FACTION",
     "name": "zombie",
-    "friendly": [ "blob", "cult", "zed_doom", "zombie_aquatic" ],
+    "friendly": [ "slim", "cult", "zed_doom", "zombie_aquatic" ],
     "neutral": [ "small_animal", "insect", "mutant_small", "cat", "rat" ],
     "by_mood": [ "ant", "spider_wolf", "wasp", "spore" ]
   },
   {
     "type": "MONSTER_FACTION",
     "name": "nether",
-    "neutral": [ "blob" ],
+    "neutral": [ "slim" ],
     "by_mood": [ "cult", "small_animal", "zed_doom" ]
   },
   {
@@ -139,7 +139,7 @@
     "name": "shadow",
     "base_faction": "nether",
     "neutral": [ "cult" ],
-    "by_mood": [ "blob", "zombie", "zed_doom" ]
+    "by_mood": [ "slim", "zombie", "zed_doom" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -156,7 +156,7 @@
     "type": "MONSTER_FACTION",
     "name": "zed_doom",
     "base_faction": "doom",
-    "neutral": [ "zombie", "blob" ]
+    "neutral": [ "zombie", "slim" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -197,7 +197,7 @@
     "type": "MONSTER_FACTION",
     "name": "mutant_small",
     "base_faction": "mutant",
-    "neutral": [ "zombie", "blob", "defense_bot", "utility_bot", "mutant" ]
+    "neutral": [ "zombie", "slim", "defense_bot", "utility_bot", "mutant" ]
   },
   {
     "type": "MONSTER_FACTION",
