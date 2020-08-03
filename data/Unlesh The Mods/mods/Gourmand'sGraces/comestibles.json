@@ -3009,20 +3009,19 @@
   {
     "type": "COMESTIBLE",
     "id": "dbgbread1",
-    "name": "garlic bread",
-    "name_plural": "garlic bread",
+    "name": { "str": "garlic bread", "str_pl": "garlic bread" },
     "weight": "150 g",
     "spoils_in": "10 days",
     "color": "yellow",
     "comestible_type": "FOOD",
     "symbol": "$",
-    "nutrition": 10,
     "container": "bag_plastic",
     "description": "A loaf of french bread with a slathering of garlic-infused butter on the inside, in a convenient ready-to-bake foil-lined paper bag.",
-    "materials": [ "wheat", "milk" ],
     "price": 1250,
     "volume": "750 ml",
-    "fun": 1
+    "fun": 1,
+    "material": [ "wheat", "milk" ],
+    "calories": 10
   },
   {
     "type": "COMESTIBLE",
