@@ -457,17 +457,7 @@
     "vision_day": 45,
     "vision_night": 5,
     "path_settings": { "max_dist": 25 },
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "GROUP_MORALE"
-    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "HIT_AND_RUN", "KEENNOSE", "GROUP_MORALE" ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT", "SOUND" ]
   },
@@ -785,18 +775,7 @@
     "fear_triggers": [ "HURT", "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "KEENNOSE",
-      "PATH_AVOID_DANGER_1",
-      "ANIMAL",
-      "WARM",
-      "BASHES",
-      "DESTROYS",
-      "PUSH_MON"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "BASHES", "DESTROYS", "PUSH_MON" ]
   },
   {
     "id": "mon_bear_mega_mating",
