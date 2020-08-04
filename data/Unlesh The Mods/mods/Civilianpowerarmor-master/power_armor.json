@@ -47,7 +47,12 @@
     "power_armor": true,
     "material_thickness": 6,
     "environmental_protection": 8,
-    "use_action": { "type": "transform", "msg": "Your Commercial power armor engages." , "target": "power_armor_Civilian_on", "active": true },
+    "use_action": {
+      "type": "transform",
+      "msg": "Your Commercial power armor engages.",
+      "target": "power_armor_Civilian_on",
+      "active": true
+    },
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ],
     "pocket_data": [
       {
@@ -70,7 +75,12 @@
     "flags": [ "USE_UPS", "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "TRADER_AVOID" ],
     "power_draw": 4000000,
     "revert_to": "power_armor_Civilian",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your Commercial power armor disengages.", "target": "power_armor_Civilian" },
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "Your Commercial power armor disengages.",
+      "target": "power_armor_Civilian"
+    },
     "covers": [ "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ]
   }
 ]

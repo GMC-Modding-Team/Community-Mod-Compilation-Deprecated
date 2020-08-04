@@ -1,14 +1,14 @@
-[ 
- {
+[
+  {
     "type": "martial_art",
     "id": "style_swordfighting",
     "name": { "str": "Swordfighting" },
     "description": "You have a sword in your hand, and have figured out which is the pointy end. What comes next is obvious.\n\n Becomes overpowered at high levels. Based on Cutting Weapons skill, focuses on strong attacks. Usable with any weapon, but only benefits those with cutting damage. Strengths: high damage. Weaknesses: low defense.",
     "initiate": [ "You brandish your sword.", "%s gets ready to slice and dice." ],
     "autolearn": [ [ "cutting", "1" ] ],
-	"primary skill": "cutting",
+    "primary skill": "cutting",
     "allow_melee": true,
-	"static_buffs": [
+    "static_buffs": [
       {
         "id": "buff_featherduster_static",
         "name": "Waving It Like A Featherduster",
@@ -16,196 +16,196 @@
         "melee_allowed": true,
         "bonus_dodges": 1,
         "flat_bonuses": [ [ "block", 0.5 ] ],
-		"mult_bonuses": [ [ "hit", 2 ] ]
+        "mult_bonuses": [ [ "hit", 2 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv1_static",
         "name": "Level 1 sword training",
         "description": "Practise makes perfect.\n\n Boosts speed and cutting damage for every level of Cutting Weapons skill.",
-		"skill_requirements": [ { "name": "cutting", "level": 1 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.1 ], [ "hit", 1.5 ] ]
-	  },
-	  {
+      },
+      {
         "id": "buff_traininglv2_static",
         "name": "Level 2 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 2 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.2 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv3_static",
         "name": "Level 3 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.3 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv4_static",
         "name": "Level 4 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 4 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.4 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv5_static",
         "name": "Level 5 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 5 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.5 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv6_static",
         "name": "Level 6 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 6 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.6 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv7_static",
         "name": "Level 7 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 7 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.7 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv8_static",
         "name": "Level 8 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 8 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.8 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv9_static",
         "name": "Level 9 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 9 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 1.9 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv10_static",
         "name": "Level 10 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 10 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 2 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv11_static",
         "name": "Level 11 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 11 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "cut", 2.1 ], [ "hit", 1.5 ] ]
       },
-	  {
+      {
         "id": "buff_traininglv12_static",
         "name": "Level 12 sword training",
         "description": "Practise makes perfect.",
-		"skill_requirements": [ { "name": "cutting", "level": 12 } ],
+        "skill_requirements": [ { "name": "cutting", "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "mult_bonuses": [ [ "movecost", 0.5 ], [ "damage", "cut", 4.0 ], [ "hit", 3 ] ]
       }
     ],
-	"onhit_buffs": [
+    "onhit_buffs": [
       {
         "id": "buff_training_onhit",
         "name": "Muscle Memory",
         "description": "Every successful hit gives you a small semi-permanent improvement.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
-		"max_stacks": 99999,
+        "max_stacks": 99999,
         "flat_bonuses": [ [ "damage", "bash", 0.01 ], [ "damage", "cut", 0.01 ], [ "damage", "stab", 0.01 ], [ "dodge", 0.01 ], [ "hit", 1 ] ]
       }
     ],
-	"onkill_buffs": [
-	  {
-		"id": "buff_onthemark_onkill",
-		"name": "On the mark",
-		"description": "Every kill makes you more badass.",
-		"unarmed_allowed": true,
-		"melee_allowed": true,
-		"flat_bonuses": [ [ "hit", 1 ], [ "damage", "cut", 1 ], [ "arpen", "cut", 1 ] ],
-		"max_stacks": 99999
-	  }
-	],
-	"onmiss_buffs": [
+    "onkill_buffs": [
+      {
+        "id": "buff_onthemark_onkill",
+        "name": "On the mark",
+        "description": "Every kill makes you more badass.",
+        "unarmed_allowed": true,
+        "melee_allowed": true,
+        "flat_bonuses": [ [ "hit", 1 ], [ "damage", "cut", 1 ], [ "arpen", "cut", 1 ] ],
+        "max_stacks": 99999
+      }
+    ],
+    "onmiss_buffs": [
       {
         "id": "buff_dairyfarmer_onmiss",
         "name": "You Fight Like A Dairy Farmer",
         "description": "You fight like a dairy farmer!",
         "unarmed_allowed": true,
-        "mult_bonuses": [ [ "movecost", 0.0], [ "damage", "cut", 1.5 ] ],
-		"bonus_dodges": 1,
-		"buff_duration": 2
+        "mult_bonuses": [ [ "movecost", 0.0 ], [ "damage", "cut", 1.5 ] ],
+        "bonus_dodges": 1,
+        "buff_duration": 2
       }
     ],
     "techniques": [
       "absword_cow",
-	  "absword_annihilated",
-	  "absword_block",
-	  "absword_spin",
-	  "absword_impale",
-	  "absword_brutal",
-	  "absword_criticalblow",
-	  "absword_feint",
-	  "absword_break",
-	  "absword_stomp",
-	  "absword_kneesweep",
-	  "absword_lunge",
-	  "absword_riposte",
-	  "absword_pommel",
-	  "absword_elbow",
-	  "absword_counter"
+      "absword_annihilated",
+      "absword_block",
+      "absword_spin",
+      "absword_impale",
+      "absword_brutal",
+      "absword_criticalblow",
+      "absword_feint",
+      "absword_break",
+      "absword_stomp",
+      "absword_kneesweep",
+      "absword_lunge",
+      "absword_riposte",
+      "absword_pommel",
+      "absword_elbow",
+      "absword_counter"
     ]
   },
   {
     "type": "technique",
     "id": "absword_cow",
     "name": "You Fight Like A Cow",
-	"melee_allowed": true,
-	"req_buffs": [ "buff_dairyfarmer_onmiss" ],
+    "melee_allowed": true,
+    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "mult_bonuses": [ [ "hit", 1.2 ], [ "damage", "cut", 1.2 ] ],
     "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
     "description": "Miss recovery"
   },
   {
-	"type": "technique",
-	"id": "absword_annihilated",
-	"name": "Every Enemy Ive Met Ive Annihilated",
-	"req_buffs": [ "buff_dairyfarmer_onmiss" ],
-	"skill_requirements": [ { "name": "cutting", "level": 10 } ],
-	"mult_bonuses": [ [ "damage", "cut", 99 ], [ "hit", 99 ] ],
-	"messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
-	"description": "High-level miss recovery - One Hit Kill"
-  },	
+    "type": "technique",
+    "id": "absword_annihilated",
+    "name": "Every Enemy Ive Met Ive Annihilated",
+    "req_buffs": [ "buff_dairyfarmer_onmiss" ],
+    "skill_requirements": [ { "name": "cutting", "level": 10 } ],
+    "mult_bonuses": [ [ "damage", "cut", 99 ], [ "hit", 99 ] ],
+    "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
+    "description": "High-level miss recovery - One Hit Kill"
+  },
   {
     "type": "technique",
     "id": "absword_block",
     "name": "Block",
     "mult_bonuses": [ [ "movecost", 0.0 ], [ "block", 0.5 ] ],
     "messages": [ "You block %s", "<npcname> blocks %s" ],
-	"description": "Medium blocking ability"
+    "description": "Medium blocking ability"
   },
   {
     "type": "technique",
@@ -236,7 +236,7 @@
     "name": "Brutal Strike",
     "unarmed_allowed": true,
     "melee_allowed": true,
-	"skill_requirements": [ { "name": "cutting", "level": 5 } ],
+    "skill_requirements": [ { "name": "cutting", "level": 5 } ],
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
@@ -252,17 +252,14 @@
     "mult_bonuses": [ [ "damage", "cut", 99 ] ],
     "crit_tec": true,
     "weighting": -250,
-    "messages": [
-      "You slice %s through the heart or physiological equivalent",
-      "<npcname> slices through %s"
-    ],
+    "messages": [ "You slice %s through the heart or physiological equivalent", "<npcname> slices through %s" ],
     "description": "Cut damage multiply by 99, crit only"
   },
   {
     "type": "technique",
     "id": "absword_feint",
     "name": "Feint",
-	"skill_requirements": [ { "name": "cutting", "level": 2 } ],
+    "skill_requirements": [ { "name": "cutting", "level": 2 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
     "defensive": true,
@@ -341,7 +338,7 @@
     "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
-	"stun_dur": 1,
+    "stun_dur": 1,
     "mult_bonuses": [ [ "movecost", 0.5 ], [ "damage", "bash", 1.5 ] ]
   },
   {
