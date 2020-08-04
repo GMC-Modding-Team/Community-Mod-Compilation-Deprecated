@@ -1,5 +1,5 @@
 [
-{
+  {
     "type": "GENERIC",
     "id": "v_aft_item",
     "symbol": "T",
@@ -12,7 +12,7 @@
     "copy-from": "v_scoop_item"
   },
   {
-	"type": "GENERIC",
+    "type": "GENERIC",
     "id": "FC_blob_can",
     "symbol": "0",
     "name": "Fungicidal blob canister",
@@ -24,7 +24,7 @@
     "copy-from": "v_scoop_item"
   },
   {
-	"type": "GENERIC",
+    "type": "GENERIC",
     "id": "FC_blob",
     "symbol": "o",
     "name": "Fungicidal blob",
@@ -52,7 +52,7 @@
     "coverage": 20,
     "encumbrance": 40,
     "max_encumbrance": 40,
-	"warmth": 0,
+    "warmth": 0,
     "material_thickness": 1,
     "pocket_data": [
       {
@@ -86,7 +86,7 @@
     "coverage": 20,
     "encumbrance": 20,
     "max_encumbrance": 20,
-	"warmth": 0,
+    "warmth": 0,
     "material_thickness": 1,
     "pocket_data": [
       {
@@ -163,7 +163,7 @@
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "Your %s deactivates.", "target": "fan_suit" }
   },
   {
-	"type": "GENERIC",
+    "type": "GENERIC",
     "id": "small_fan",
     "symbol": "*",
     "name": "Small fan",
@@ -174,7 +174,7 @@
     "volume": "350 ml"
   },
   {
-	"type": "GENERIC",
+    "type": "GENERIC",
     "id": "small_fan_blade",
     "symbol": ")",
     "name": "Small fan blade",
@@ -198,7 +198,7 @@
     "material": [ "rubber", "plastic", "copper" ],
     "weight": "864 g",
     "volume": "2 L",
-	"encumbrance": 10,
+    "encumbrance": 10,
     "charges_per_use": 3,
     "ammo": "battery",
     "use_action": {
@@ -259,7 +259,7 @@
     "material": [ "rubber", "plastic", "copper" ],
     "weight": "864 g",
     "volume": "2 L",
-	"encumbrance": 15,
+    "encumbrance": 15,
     "charges_per_use": 5,
     "ammo": "battery",
     "use_action": {
@@ -326,15 +326,15 @@
   {
     "id": "psa_nitrogen",
     "name": "PSA nitrogen generator",
-	"type": "TOOL",
-	"symbol": "U",
-	"weight": "7 kg",
+    "type": "TOOL",
+    "symbol": "U",
+    "weight": "7 kg",
     "volume": "12000 ml",
     "description": "Pressure swing adsorption (PSA) is a technology used to separate some gases from a mixture of gases under pressure according to the gas' molecular characteristics and affinity for an adsorbent material. It operates at near-ambient temperatures and differs significantly from cryogenic distillation techniques of gas separation. This one is small but specialized to extract nitrogen from the air. Best have a container handy when you do.",
     "color": "light_gray",
-	"ammo": [ "battery" ],
+    "ammo": [ "battery" ],
     "charges_per_use": 1,
-	"pocket_data": [
+    "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
         "rigid": true,
@@ -352,45 +352,43 @@
         ]
       }
     ]
-	},
-	{
+  },
+  {
     "id": "canister_nitrogen",
     "name": "nitrogen canister",
-	"type": "TOOL",
+    "type": "TOOL",
     "category": "container",
-	"symbol": "c",
-	"weight": "1 kg",
+    "symbol": "c",
+    "weight": "1 kg",
     "volume": "6001 ml",
     "description": "A simple gas canister for storing nitrogen. Not a whole lot of use for it in the apocalypse but perhaps you'll find a use for the nitrogen itself.",
     "color": "light_gray",
-	"material": [ "steel" ],
-	"pocket_data": [
+    "material": [ "steel" ],
+    "pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "rigid": true,
-		"watertight": true,
+        "watertight": true,
         "max_contains_volume": "6000 ml",
         "max_contains_weight": "20 kg",
-        "item_restriction": [
-          "nitrogen"
-        ]
+        "item_restriction": [ "nitrogen" ]
       }
     ],
-	"qualities": [ [ "CONTAIN", 3 ] ]
-	},
-	{
+    "qualities": [ [ "CONTAIN", 3 ] ]
+  },
+  {
     "id": "nitrogen",
     "name": "nitrogen",
-	"type": "COMESTIBLE",
+    "type": "COMESTIBLE",
     "category": "chems",
-	"phase": "liquid",
-	"container": "canister_nitrogen",
-	"symbol": "c",
-	"weight": "1 g",
+    "phase": "liquid",
+    "container": "canister_nitrogen",
+    "symbol": "c",
+    "weight": "1 g",
     "volume": "20000 ml",
-	"stack_size": 200,
+    "stack_size": 200,
     "description": "Nitrogen is the chemical element with the symbol N and atomic number 7. It has many uses and applications, but for now all you can think of using it for is liquid nitrogen for cooling.",
-	"flags": [ "NO_INGEST", "NO_DROP", "NO_TAKEOUT" ],
+    "flags": [ "NO_INGEST", "NO_DROP", "NO_TAKEOUT" ],
     "color": "light_gray"
-	}
-  ]
+  }
+]
