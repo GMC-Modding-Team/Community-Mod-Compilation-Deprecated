@@ -14,7 +14,7 @@
     "count": 1,
     "ammo_type": "fire_lance",
     "range": 3,
-    "damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 0 },
+    "damage": { "damage_type": "bullet", "amount": 15, "armor_penetration": 0 },
     "dispersion": 0,
     "recoil": 3000,
     "effects": [ "COOKOFF", "RECYCLED", "BLINDS_EYES" ]
@@ -34,8 +34,7 @@
     "count": 1,
     "ammo_type": "fire_lance",
     "range": 4,
-    "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 1 },
-    "pierce": 1,
+    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 1 },
     "dispersion": 0,
     "recoil": 3000,
     "effects": [ "COOKOFF", "SHOT", "RECYCLED" ]
