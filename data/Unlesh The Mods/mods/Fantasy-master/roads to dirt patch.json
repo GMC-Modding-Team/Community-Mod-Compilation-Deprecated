@@ -1,5 +1,5 @@
 [
-	{
+  {
     "type": "terrain",
     "id": "t_pavement",
     "name": "dirt",
@@ -69,7 +69,7 @@
     "type": "terrain",
     "id": "t_sidewalk_bg_dp",
     "name": "stone bridge sidewalk",
-	"description": "A slightly raised section of a bridge made from stone for people to walk on while carriages and wagons pass by.",
+    "description": "A slightly raised section of a bridge made from stone for people to walk on while carriages and wagons pass by.",
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
@@ -80,7 +80,7 @@
     "type": "terrain",
     "id": "t_sidewalk_hw_air",
     "name": "stone bridge sidewalk",
-	"description": "A slightly raised section of a bridge made from stone for people to walk on while carriages and wagons pass by.",
+    "description": "A slightly raised section of a bridge made from stone for people to walk on while carriages and wagons pass by.",
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
@@ -97,7 +97,7 @@
     "move_cost": 0,
     "coverage": 60,
     "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
-	"examine_action": "chainfence",
+    "examine_action": "chainfence",
     "connects_to": "WALL",
     "bash": {
       "str_min": 40,
@@ -118,7 +118,7 @@
     "move_cost": 0,
     "coverage": 60,
     "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
-	"examine_action": "chainfence",
+    "examine_action": "chainfence",
     "connects_to": "WALL",
     "bash": {
       "str_min": 40,
@@ -139,7 +139,7 @@
     "move_cost": 0,
     "coverage": 60,
     "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
-	"examine_action": "chainfence",
+    "examine_action": "chainfence",
     "connects_to": "WALL",
     "bash": {
       "str_min": 40,
@@ -160,47 +160,37 @@
         "sprite_height": 32,
         "sprite_offset_x": 0,
         "sprite_offset_y": 0,
-        "tiles": [
-		{ "id": "t_pavement", "fg": 0 },
-		{ "id": "t_pavement_y", "fg": 0 }
-		]
+        "tiles": [ { "id": "t_pavement", "fg": 0 }, { "id": "t_pavement_y", "fg": 0 } ]
       },
-	  {
+      {
         "file": "mod_tileset/bridgestone.png",
         "sprite_width": 32,
         "sprite_height": 32,
         "sprite_offset_x": 0,
         "sprite_offset_y": 0,
         "tiles": [
-		{ "id": "t_pavement_y_bg_dp", "fg": 1 }, 
-		{ "id": "t_pavement_bg_dp", "fg": 1 }, 
-		{ "id": "t_pavement_hw_air", "fg": 1 }, 
-		{ "id": "t_pavement_y_hw_air", "fg": 1 }
-		]
+          { "id": "t_pavement_y_bg_dp", "fg": 1 },
+          { "id": "t_pavement_bg_dp", "fg": 1 },
+          { "id": "t_pavement_hw_air", "fg": 1 },
+          { "id": "t_pavement_y_hw_air", "fg": 1 }
+        ]
       },
-	  {
+      {
         "file": "mod_tileset/bridgestoneside.png",
         "sprite_width": 32,
         "sprite_height": 32,
         "sprite_offset_x": 0,
         "sprite_offset_y": 0,
-        "tiles": [
-		{ "id": "t_sidewalk_bg_dp", "fg": 2 },
-		{ "id": "t_sidewalk_hw_air", "fg": 2 }
-		]
+        "tiles": [ { "id": "t_sidewalk_bg_dp", "fg": 2 }, { "id": "t_sidewalk_hw_air", "fg": 2 } ]
       },
-	  {
+      {
         "file": "mod_tileset/bridgestonewall.png",
         "sprite_width": 32,
         "sprite_height": 32,
         "sprite_offset_x": 0,
         "sprite_offset_y": 0,
-        "tiles": [
-		{ "id": "t_guardrail", "fg": 3 },
-		{ "id": "t_guardrail_hw_air", "fg": 3 },
-		{ "id": "t_guardrail_bg_dp", "fg": 3 }
-		]
+        "tiles": [ { "id": "t_guardrail", "fg": 3 }, { "id": "t_guardrail_hw_air", "fg": 3 }, { "id": "t_guardrail_bg_dp", "fg": 3 } ]
       }
     ]
-	}
+  }
 ]
