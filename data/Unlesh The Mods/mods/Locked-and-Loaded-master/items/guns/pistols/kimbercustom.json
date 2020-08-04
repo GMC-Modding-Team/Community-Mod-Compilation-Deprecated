@@ -20,8 +20,15 @@
     "durability": 7,
     "min_cycle_recoil": 450,
     "barrel_volume": "22 ml",
-    "magazine_well": 1,
-    "magazines": [ [ "45", [ "kimber45_mag", "kimber45big_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "kimber45_mag", "kimber45big_mag" ]
+      }
+    ]
   },
   {
     "id": "kimbercust40",
@@ -44,8 +51,15 @@
     "durability": 7,
     "min_cycle_recoil": 450,
     "barrel_volume": "18 ml",
-    "magazine_well": 1,
-    "magazines": [ [ "40", [ "kimber40_mag", "kimber40big_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "kimber40_mag", "kimber40big_mag" ]
+      }
+    ]
   },
   {
     "id": "kimbercust38",
@@ -68,8 +82,15 @@
     "durability": 7,
     "min_cycle_recoil": 450,
     "barrel_volume": "15 ml",
-    "magazine_well": 1,
-    "magazines": [ [ "38", [ "kimber38_mag", "kimber38big_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "kimber38_mag", "kimber38big_mag" ]
+      }
+    ]
   },
   {
     "id": "kimbercust10",
@@ -92,8 +113,15 @@
     "durability": 7,
     "min_cycle_recoil": 450,
     "barrel_volume": "18 ml",
-    "magazine_well": 1,
-    "magazines": [ [ "10mm_fmj", [ "kimber10_mag", "kimber10big_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "kimber10_mag", "kimber10big_mag" ]
+      }
+    ]
   },
   {
     "id": "kimbercust9",
@@ -116,7 +144,14 @@
     "durability": 7,
     "min_cycle_recoil": 450,
     "barrel_volume": "15 ml",
-    "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "kimber9_mag", "kimber9big_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "kimber9_mag", "kimber9big_mag" ]
+      }
+    ]
   }
 ]

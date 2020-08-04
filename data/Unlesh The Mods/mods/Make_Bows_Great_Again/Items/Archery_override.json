@@ -7,7 +7,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.4, "armor_penetration": 10 },
+    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.15, "armor_penetration": 9 },
     "dispersion": 250,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_2" ]
@@ -20,7 +20,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.5, "armor_penetration": 14 },
+    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.25, "armor_penetration": 12 },
     "dispersion": 450,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_30" ]
@@ -33,7 +33,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "armor_penetration": 14, "constant_damage_multiplier": 1.75 },
+    "damage": { "damage_type": "stab", "armor_penetration": 14, "constant_damage_multiplier": 1.5 },
     "dispersion": 440,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_25" ]
@@ -46,7 +46,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.5, "armor_penetration": 12 },
+    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.3, "armor_penetration": 10 },
     "dispersion": 450,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_6" ]
@@ -72,7 +72,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.8, "armor_penetration": 16 },
+    "damage": { "damage_type": "stab", "constant_damage_multiplier": 1.6, "armor_penetration": 14 },
     "dispersion": 450,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_8" ]
@@ -85,7 +85,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "armor_penetration": 17, "constant_damage_multiplier": 2.0 },
+    "damage": { "damage_type": "stab", "armor_penetration": 15, "constant_damage_multiplier": 1.8 },
     "dispersion": 400,
     "critical_multiplier": 2,
     "effects": [ "RECOVER_20" ]
@@ -98,7 +98,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "armor_penetration": 20, "constant_damage_multiplier": 2.2 },
+    "damage": { "damage_type": "stab", "armor_penetration": 18, "constant_damage_multiplier": 1.95 },
     "dispersion": 75,
     "critical_multiplier": 3,
     "effects": [ "RECOVER_35" ]
@@ -111,7 +111,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "armor_penetration": 25, "constant_damage_multiplier": 2.0 },
+    "damage": { "damage_type": "stab", "armor_penetration": 22, "constant_damage_multiplier": 1.8 },
     "dispersion": 75,
     "critical_multiplier": 3,
     "effects": [ "RECOVER_40" ]
@@ -137,7 +137,7 @@
     "count": 10,
     "ammo_type": "arrow",
     "loudness": 0,
-    "damage": { "damage_type": "stab", "constant_damage_multiplier": 2.8, "armor_penetration": 30 },
+    "damage": { "damage_type": "stab", "constant_damage_multiplier": 2.45, "armor_penetration": 26 },
     "dispersion": 50,
     "critical_multiplier": 3,
     "effects": [ "RECOVER_30" ]
@@ -161,7 +161,7 @@
     "type": "GUN",
     "name": { "str": "self bow" },
     "min_strength": 6,
-    "ranged_damage": { "damage_type": "stab", "amount": 4 }
+    "ranged_damage": { "damage_type": "stab", "amount": 3 }
   },
   {
     "id": "shortbow",
@@ -169,7 +169,7 @@
     "type": "GUN",
     "name": { "str": "short bow" },
     "min_strength": 8,
-    "ranged_damage": { "damage_type": "stab", "amount": 14 }
+    "ranged_damage": { "damage_type": "stab", "amount": 11 }
   },
   {
     "id": "compbow",
@@ -177,7 +177,7 @@
     "type": "GUN",
     "name": { "str": "compound bow" },
     "min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 25 },
+    "ranged_damage": { "damage_type": "stab", "amount": 21 },
     "use_action": [
       {
         "menu_text": "Tighten Limbs",
@@ -202,7 +202,7 @@
     "name": { "str": "compound bow (high)", "str_pl": "compound bows (high)" },
     "description": "A high-power bow with shaped cams and extra cables for high velocity shots that can be used effectively by very strong archers.  Currently set to a high weight, and ready to cause some real damage - if you can draw it.",
     "min_strength": 14,
-    "ranged_damage": { "damage_type": "stab", "amount": 31 },
+    "ranged_damage": { "damage_type": "stab", "amount": 27 },
     "use_action": {
       "menu_text": "Loosen Limbs",
       "type": "transform",
@@ -218,7 +218,7 @@
     "name": { "str": "compound bow (low)", "str_pl": "compound bows (low)" },
     "description": "A high-power bow with shaped cams and extra cables for high velocity shots that can be used effectively by average archers.  Currently set to a low weight, making it much easier to draw.",
     "min_strength": 7,
-    "ranged_damage": { "damage_type": "stab", "amount": 21 },
+    "ranged_damage": { "damage_type": "stab", "amount": 18 },
     "use_action": {
       "menu_text": "Tighten Limbs",
       "type": "transform",
@@ -233,7 +233,7 @@
     "type": "GUN",
     "name": { "str": "composite bow" },
     "min_strength": 12,
-    "ranged_damage": { "damage_type": "stab", "amount": 26 }
+    "ranged_damage": { "damage_type": "stab", "amount": 22 }
   },
   {
     "id": "recurbow",
@@ -241,7 +241,7 @@
     "type": "GUN",
     "name": { "str": "recurve bow" },
     "min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 17 }
+    "ranged_damage": { "damage_type": "stab", "amount": 15 }
   },
   {
     "id": "reflexbow",
@@ -249,7 +249,7 @@
     "type": "GUN",
     "name": { "str": "reflex bow" },
     "min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 19 }
+    "ranged_damage": { "damage_type": "stab", "amount": 17 }
   },
   {
     "id": "hybridbow",
@@ -257,7 +257,7 @@
     "type": "GUN",
     "name": { "str": "hybrid longbow" },
     "min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 24 }
+    "ranged_damage": { "damage_type": "stab", "amount": 20 }
   },
   {
     "id": "longbow",
@@ -265,7 +265,7 @@
     "type": "GUN",
     "name": { "str": "longbow" },
     "min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 18 }
+    "ranged_damage": { "damage_type": "stab", "amount": 16 }
   },
   {
     "id": "woodgreatbow",
@@ -273,7 +273,7 @@
     "type": "GUN",
     "name": { "str": "wooden greatbow" },
     "min_strength": 17,
-    "ranged_damage": { "damage_type": "stab", "amount": 29 }
+    "ranged_damage": { "damage_type": "stab", "amount": 25 }
   },
   {
     "id": "reflexrecurvebow",
@@ -281,7 +281,7 @@
     "type": "GUN",
     "name": { "str": "reflex recurve bow" },
     "min_strength": 9,
-    "ranged_damage": { "damage_type": "stab", "amount": 21 }
+    "ranged_damage": { "damage_type": "stab", "amount": 18 }
   },
   {
     "id": "compgreatbow",
@@ -289,7 +289,7 @@
     "type": "GUN",
     "name": { "str": "compound greatbow" },
     "min_strength": 15,
-    "ranged_damage": { "damage_type": "stab", "amount": 41 },
+    "ranged_damage": { "damage_type": "stab", "amount": 35 },
     "use_action": [
       {
         "menu_text": "Tighten Limbs",
@@ -313,7 +313,7 @@
     "type": "GUN",
     "name": { "str": "compound bow (high)", "str_pl": "compound bows (high)" },
     "min_strength": 17,
-    "ranged_damage": { "damage_type": "stab", "amount": 45 },
+    "ranged_damage": { "damage_type": "stab", "amount": 38 },
     "use_action": {
       "menu_text": "Loosen Limbs",
       "type": "transform",
@@ -328,7 +328,7 @@
     "type": "GUN",
     "name": { "str": "compound bow (low)", "str_pl": "compound bows (low)" },
     "min_strength": 13,
-    "ranged_damage": { "damage_type": "stab", "amount": 34 },
+    "ranged_damage": { "damage_type": "stab", "amount": 29 },
     "use_action": {
       "menu_text": "Tighten Limbs",
       "type": "transform",
