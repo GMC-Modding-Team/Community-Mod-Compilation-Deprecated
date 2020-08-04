@@ -1,7 +1,7 @@
 [
   {
     "id": "coilgun",
-    "copy-from": "gun_base",
+    "copy-from": "coilgun",
     "looks_like": "ar15",
     "type": "GUN",
     "name": { "str": "coilgun" },
@@ -30,7 +30,15 @@
       [ "rail mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "magazines": [ [ "nail", [ "nailmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nailmag" ]
+      }
+    ]
   },
   {
     "id": "nailrifle",
@@ -55,8 +63,16 @@
       [ "rail mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "magazines": [ [ "nail", [ "nailmag" ] ] ],
-    "relative": { "weight": "1000 g", "volume": 6, "range": 3, "ranged_damage": { "damage_type": "stab", "amount": 4 } },
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nailmag" ]
+      }
+    ],
+    "relative": { "weight": 1000, "volume": 6, "range": 3, "ranged_damage": { "damage_type": "stab", "amount": 4 } },
     "proportional": { "price": 3, "dispersion": 0.5 }
   }
 ]
