@@ -1,14 +1,21 @@
 name: JSON Validation
 
 on:
-  pull_request
+  push:
+    branches:
+    - master
+    - Experimental-Mod-Pack
+  pull_request:
+    branches:
+    - master
+    - Experimental-Mod-Pack
 
 jobs:
   style-json:
     name: JSON style check
- 
+
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v1
       with:

@@ -4,15 +4,18 @@ on:
   push:
     branches:
     - master
+    - Experimental-Mod-Pack
   pull_request:
     branches:
     - master
+    - Experimental-Mod-Pack
+
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: checkout repository
       uses: actions/checkout@v1
@@ -33,7 +36,7 @@ jobs:
     - name: make
       run: |
         ClangBuildAnalyzer --start .
-        CLANG=clang++-9 CXXFLAGS=-ftime-trace make 
+        CLANG=clang++-9 CXXFLAGS=-ftime-trace make
         ClangBuildAnalyzer --stop . buildAnalysis
     - name: Analyze
       run: ClangBuildAnalyzer --analyze buildAnalysis
