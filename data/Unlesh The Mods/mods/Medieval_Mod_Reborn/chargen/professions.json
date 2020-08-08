@@ -75,10 +75,11 @@
           "shield_scutum",
           "shovel",
           "pot",
-          "canteen_wood"
+          "waterskin"
         ],
         "entries": [
-          { "item": "sword_gladius", "container-item": "baldric" },
+          { "item": "sword_xiphos", "container-item": "baldric" },
+          { "item": "knife_hunting", "container-item": "sheath" },
           { "item": "javelin_iron", "count": 2 }
         ]
       },
@@ -104,7 +105,7 @@
         "items": [
           "gambeson",
           "tunic",
-          "socks_wool",
+          "socks",
           "cloak_wool",
           "gauntlets_larmor",
           "boots_larmor",
@@ -115,9 +116,7 @@
           "waterskin"
         ],
         "entries": [ { "item": "knife_hunting", "container-item": "sheath" } ]
-      },
-      "male": [ "loincloth" ],
-      "female": [ "loincloth", "undershirt" ]
+      }
     }
   },
   {
@@ -136,20 +135,18 @@
     "items": {
       "both": {
         "items": [
-          "tunic",
+          "gambeson",
           "chainmail_hauberk",
           "socks",
-          "boots_larmor",
+          "boots_plate",
           "helmet_plate",
-          "gauntlets_larmor",
+          "gloves_plate",
           "backpack",
-          "shield_heater",
+          "shield_kite",
           "waterskin"
         ],
         "entries": [ { "item": "arming_sword", "container-item": "scabbard" } ]
-      },
-      "male": [ "loincloth" ],
-      "female": [ "loincloth", "undershirt" ]
+      }
     }
   },
   {
@@ -176,13 +173,14 @@
           "gauntlets_larmor",
           "helmet_conical",
           "backpack",
+          "recurbow",
           "fur_rollmat",
           "pot",
           "waterskin"
         ],
         "entries": [
-          { "item": "recurbow", "custom-flags": [ "auto_wield" ] },
           { "item": "scimitar", "container-item": "scabbard" },
+          { "item": "knife_hunting", "container-item": "sheath" },
           { "item": "arrow_wood", "charges": 20, "container-item": "quiver_large" }
         ]
       }
@@ -216,12 +214,12 @@
           "tabi_dress",
           "bastsandals",
           "backpack",
+          "compositebow",
           "waterskin"
         ],
-        "entries": [ { "item": "katana", "container-item": "scabbard" }, { "item": "compositebow", "custom-flags": [ "auto_wield" ] } ]
+        "entries": [ { "item": "katana", "container-item": "scabbard" } ]
       },
-      "female": {
-        "items": [
+      "female": [
         "loincloth",
         "chestwrap",
         "kimono",
@@ -231,13 +229,12 @@
         "tabi_dress",
         "bastsandals",
         "backpack",
+        "compositebow",
         "waterskin",
         "naginata"
-        ],
-        "entries": [ { "item": "compositebow", "custom-flags": [ "auto_wield" ] } ]
-      },
+      ],
       "both": {
-        "entries": [ { "item": "tanto", "container-item": "sheath" }, { "item": "arrow_wood", "charges": 20, "container-item": "quiver_large" } ]
+        "entries": [ { "item": "tanto", "container-item": "sheath" }, { "item": "arrow_wood", "charges": 20, "container-item": "quiver" } ]
       }
     }
   },

@@ -1,6 +1,6 @@
 [
   {
-    "id": "kimber45_mag",
+   "id": "kimber45_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom magazine",
@@ -11,13 +11,12 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "45" ],
+    "ammo_type": "45",
     "capacity": 7,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 7 } } ]
-  },
-  {
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
     "id": "kimber45big_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
@@ -29,15 +28,14 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "45" ],
+    "ammo_type": "45",
     "capacity": 14,
     "reliability": 7,
     "reload_time": 140,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 14 } } ]
-  },
-  {
-    "id": "kimber40_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber40_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom magazine",
@@ -48,22 +46,13 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "40" ],
+    "ammo_type": "40",
     "capacity": 7,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "tdi_mag" ]
-      }
-    ]
-  },
-  {
-    "id": "kimber40big_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber40big_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom extended magazine.",
@@ -74,15 +63,14 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "40" ],
+    "ammo_type": "40",
     "capacity": 14,
     "reliability": 7,
     "reload_time": 140,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 14 } } ]
-  },
-  {
-    "id": "kimber38_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber38_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom magazine",
@@ -93,14 +81,13 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "38" ],
+    "ammo_type": "38",
     "capacity": 7,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "38": 7 } } ]
-  },
-  {
-    "id": "kimber38big_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber38big_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Cutsom extended magazine.",
@@ -111,15 +98,14 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "38" ],
+    "ammo_type": "38",
     "capacity": 14,
     "reliability": 7,
     "reload_time": 140,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "38": 14 } } ]
-  },
-  {
-    "id": "kimber10_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber10_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom magazine",
@@ -130,14 +116,13 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "10mm" ],
+    "ammo_type": "10mm",
     "capacity": 7,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10mm": 7 } } ]
-  },
-  {
-    "id": "kimber10big_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber10big_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom extended magazine.",
@@ -148,15 +133,14 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "10mm" ],
+    "ammo_type": "10mm",
     "capacity": 14,
     "reliability": 7,
     "reload_time": 140,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10mm": 14 } } ]
-  },
-  {
-    "id": "kimber9_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber9_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Custom magazine",
@@ -167,14 +151,13 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "9mm" ],
+    "ammo_type": "9mm",
     "capacity": 7,
     "reliability": 8,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 7 } } ]
-  },
-  {
-    "id": "kimber9big_mag",
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+     "id": "kimber9big_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Kimber Cutsom extended magazine.",
@@ -185,14 +168,13 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "9mm" ],
+    "ammo_type": "9mm",
     "capacity": 14,
     "reliability": 7,
     "reload_time": 140,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 14 } } ]
-  },
-  {
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
     "id": "Kimber_Micro_mag",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
@@ -204,11 +186,10 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "380" ],
+    "ammo_type": "380",
     "capacity": 7,
     "reliability": 7,
     "reload_time": 140,
-    "flags": [ "MAG_COMPACT" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "380": 7 } } ]
-  }
-]
+    "flags": [ "MAG_COMPACT" ]
+    }
+    ]

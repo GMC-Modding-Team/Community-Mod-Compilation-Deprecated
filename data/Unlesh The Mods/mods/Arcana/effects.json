@@ -147,7 +147,6 @@
     "resist_effect": "talisman_warding",
     "remove_message": "Your craving for rotten food subsides.",
     "blocks_effects": [ "poison", "badpoison", "foodpoison", "paralyzepoison", "bloodworms", "paincysts", "brainworms", "tapeworm" ],
-    "removes_effects": [ "hunger_full", "hunger_engorged" ],
     "decay_messages": [ [ "Your craving for rotten food is starting to wane.", "bad" ] ],
     "rating": "good",
     "max_intensity": 30,
@@ -231,13 +230,6 @@
   },
   {
     "type": "effect_type",
-    "id": "heat_ward_dragonblood",
-    "name": [ "Elemental Affinity" ],
-    "desc": [ "Immunity to heatstroke.  High temperatures will still leave you sluggish, and extreme heat will still cause blistering." ],
-    "removes_effects": [ "hot" ]
-  },
-  {
-    "type": "effect_type",
     "id": "blood_clarity",
     "name": [ "Clarity of Blood" ],
     "desc": [ "Protection against parasitic and corruptive threats, such as the Mycus." ],
@@ -289,7 +281,7 @@
     "name": [ "Ward Against Poison" ],
     "desc": [ "Protection against toxic gas and venom." ],
     "remove_message": "You feel a momentary weakness as the protective magic fades.",
-    "removes_effects": [ "stung", "poison", "badpoison", "paralyzepoison", "teargas", "migo_atmosphere" ],
+    "removes_effects": [ "stung", "poison", "badpoison", "paralyzepoison", "teargas" ],
     "max_duration": 1000,
     "int_dur_factor": "1 m"
   },
@@ -479,7 +471,7 @@
     "desc": [ "Immunity to food poisoning, parasites, and fungus.  Increased hunger and thirst gain." ],
     "resist_effect": "talisman_warding",
     "remove_message": "The protective effect of your sanguine mark fades, leaving a momentary itch in your veins.",
-    "remove_effects": [
+    "blocks_effects": [
       "nausea",
       "poison",
       "badpoison",
@@ -489,9 +481,7 @@
       "brainworms",
       "tapeworm",
       "spores",
-      "fungus",
-      "hunger_full",
-      "hunger_engorged"
+      "fungus"
     ],
     "decay_messages": [ [ "The protective magic flowing through your blood is starting to wane.", "bad" ] ],
     "rating": "good",

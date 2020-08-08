@@ -65,12 +65,17 @@
     "to_hit": -2,
     "bashing": 12,
     "material": [ "steel", "wood" ],
-    "ammo": [ "44" ],
+    "ammo": "44",
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 200,
     "durability": 8,
     "magazine_well": 1,
-    "magazines": [ [ "44", [ "deaglemag" ] ], [ "357_mag", [ "357_mag" ] ], [ "45", [ "m1911mag", "m1911bigmag" ] ] ]
+    "magazines": [
+      [ "44", [ "deaglemag" ] ],
+      [ "357_mag", [ "357_mag" ] ],
+      [ "45", [ "m1911mag", "m1911bigmag" ] ],
+      [ "38", [ "taurus38mag" ] ]
+    ]
   },
   {
     "id": "beretta93r",
@@ -85,7 +90,7 @@
     "to_hit": -2,
     "bashing": 9,
     "material": [ "steel", "plastic" ],
-    "ammo": [ "9mm" ],
+    "ammo": "9mm",
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": 225,
     "durability": 6,
