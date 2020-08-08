@@ -8,7 +8,6 @@
     "description": "Contains data on how to work with nanites.",
     "looks_like": "bio_power_storage",
     "price": 8000,
-    "price_postapoc": 2000,
     "material": [ "steel", "plastic" ],
     "weight": "269 g",
     "volume": "2 L",
@@ -16,8 +15,15 @@
     "cutting": 0,
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ],
-    "book_data": { "max_level": 3, "intelligence": 14, "time": 60, "fun": -1, "skill": "computer", "required_level": 0 },
-    "qualities": [ [ "NANOTECH", 1 ] ]
+    "book_data" : {
+      "max_level" : 3,
+      "intelligence" : 14,
+      "time" : 60,
+      "fun" : -1,
+      "skill" : "computer",
+      "required_level" : 0
+    },
+    "qualities": [ ["NANOTECH", 1] ]
   },
   {
     "id": "nanite_guide",
@@ -28,7 +34,6 @@
     "description": "Contains data on producing standard items from a nanofactory.",
     "looks_like": "bio_power_storage",
     "price": 8000,
-    "price_postapoc": 2000,
     "material": [ "steel", "plastic" ],
     "weight": "100 g",
     "volume": "2250 ml",
@@ -36,7 +41,14 @@
     "cutting": 0,
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ],
-    "book_data": { "max_level": 3, "intelligence": 8, "time": 60, "fun": -1, "skill": "computer", "required_level": 0 }
+    "book_data" : {
+      "max_level" : 3,
+      "intelligence" : 8,
+      "time" : 60,
+      "fun" : -1,
+      "skill" : "computer",
+      "required_level" : 0
+    }
   },
   {
     "id": "nanite_core_2",
@@ -47,7 +59,6 @@
     "description": "Contains data on how to work with nanites.",
     "looks_like": "bio_power_storage",
     "price": 8000,
-    "price_postapoc": 2000,
     "material": [ "steel", "plastic" ],
     "weight": "269 g",
     "volume": "2 L",
@@ -55,8 +66,15 @@
     "cutting": 0,
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ],
-    "book_data": { "max_level": 5, "intelligence": 14, "time": 60, "fun": -1, "skill": "computer", "required_level": 0 },
-    "qualities": [ [ "NANOTECH", 2 ] ]
+    "book_data" : {
+      "max_level" : 5,
+      "intelligence" : 14,
+      "time" : 60,
+      "fun" : -1,
+      "skill" : "computer",
+      "required_level" : 0
+    },
+    "qualities": [ ["NANOTECH", 2] ]
   },
   {
     "id": "nanite_core_3",
@@ -67,7 +85,6 @@
     "description": "Contains data on how to work with nanites.",
     "looks_like": "bio_power_storage",
     "price": 8000,
-    "price_postapoc": 2000,
     "material": [ "steel", "plastic" ],
     "weight": "269 g",
     "volume": "2 L",
@@ -75,8 +92,15 @@
     "cutting": 0,
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ],
-    "book_data": { "max_level": 7, "intelligence": 14, "time": 60, "fun": -1, "skill": "computer", "required_level": 0 },
-    "qualities": [ [ "NANOTECH", 3 ] ]
+    "book_data" : {
+      "max_level" : 7,
+      "intelligence" : 14,
+      "time" : 60,
+      "fun" : -1,
+      "skill" : "computer",
+      "required_level" : 0
+    },
+    "qualities": [ ["NANOTECH", 3] ]
   },
   {
     "id": "nanite_core_4",
@@ -87,7 +111,6 @@
     "description": "Contains data on how to work with nanites.",
     "looks_like": "bio_power_storage",
     "price": 8000,
-    "price_postapoc": 2000,
     "material": [ "steel", "plastic" ],
     "weight": "269 g",
     "volume": "2 L",
@@ -95,8 +118,15 @@
     "cutting": 0,
     "to_hit": -1,
     "flags": [ "TRADER_AVOID" ],
-    "book_data": { "max_level": 9, "intelligence": 14, "time": 60, "fun": -1, "skill": "computer", "required_level": 0 },
-    "qualities": [ [ "NANOTECH", 4 ] ]
+    "book_data" : {
+      "max_level" : 9,
+      "intelligence" : 14,
+      "time" : 60,
+      "fun" : -1,
+      "skill" : "computer",
+      "required_level" : 0
+    },
+    "qualities": [ ["NANOTECH", 4] ]
   },
   {
     "id": "ai_core",
@@ -107,14 +137,20 @@
     "description": "Experimental AI core, once used for high-end research tasks.",
     "looks_like": "bio_power_storage",
     "price": 12000,
-    "price_postapoc": 4000,
     "material": [ "steel", "plastic" ],
     "weight": "269 g",
     "volume": "2 L",
     "bashing": 3,
     "cutting": 0,
     "to_hit": -1,
-    "book_data": { "max_level": 3, "intelligence": 14, "time": 60, "fun": -1, "skill": "computer", "required_level": 0 },
+    "book_data" : {
+      "max_level" : 3,
+      "intelligence" : 14,
+      "time" : 60,
+      "fun" : -1,
+      "skill" : "computer",
+      "required_level" : 0
+    },
     "flags": [ "TRADER_AVOID" ]
   },
   {
@@ -126,7 +162,6 @@
     "description": "AI core, currently blank.",
     "looks_like": "bio_power_storage",
     "price": 12000,
-    "price_postapoc": 4000,
     "material": [ "steel", "plastic" ],
     "weight": "269 g",
     "volume": "2 L",
