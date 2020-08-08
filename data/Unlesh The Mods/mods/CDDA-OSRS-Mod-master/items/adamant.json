@@ -530,7 +530,7 @@
     "ammo": "osrs_bolt",
     "weight": "6000 g",
     "volume": "500 ml",
-    "ranged_damage": 78,
+    "ranged_damage": { "damage_type": "stab", "amount": 78 },
     "range": 7,
     "dispersion": 400,
     "clip_size": 1,
