@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "broken_turret_base",
+    "id": "broken_turret_base",
     "type": "GENERIC",
     "override": true,
     "symbol": ",",
@@ -19,7 +19,7 @@
     "flags": [ "TRADER_AVOID" ]
   },
   {
-    "abstract": "broken_milturret_base",
+    "id": "broken_milturret_base",
     "type": "GENERIC",
     "copy-from": "broken_turret_base",
     "name": "broken military turret",
@@ -27,7 +27,7 @@
     "price_postapoc": 10000
   },
   {
-    "abstract": "broken_advturret_base",
+    "id": "broken_advturret_base",
     "type": "GENERIC",
     "copy-from": "broken_turret_base",
     "name": "broken advanced turret",
@@ -243,7 +243,7 @@
     "description": "A broken and completely harmless garden gnome."
   },
   {
-    "abstract": "broken_hack_base",
+    "id": "broken_hack_base",
     "type": "GENERIC",
     "override": true,
     "symbol": ",",

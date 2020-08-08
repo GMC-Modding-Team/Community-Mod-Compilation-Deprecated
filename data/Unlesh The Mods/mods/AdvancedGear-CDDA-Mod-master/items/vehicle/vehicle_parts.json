@@ -6,6 +6,7 @@
     "color": "light_gray",
     "broken_color": "dark_gray",
     "difficulty": 0,
+    "symbol": "]",
     "durability": 1500,
     "item": "xl_nanite_cluster",
     "description": "Seeing this is a bug - nanovp",
@@ -14,12 +15,8 @@
       "removal": { "skills": [ [ "computer", 0 ] ], "qualities": [ { "id": "NANO_PRO", "level": 1 } ] },
       "repair": { "skills": [ [ "computer", 0 ] ], "time": 6000, "qualities": [ { "id": "NANO_PRO", "level": 1 } ] }
     },
-    "breaks_into" : [
-      {"item": "xl_nanite_cluster", "min": 1, "max": 1}
-    ],
-    "damage_reduction" : {
-      "all" : 200
-    }
+    "breaks_into": [ { "item": "xl_nanite_cluster", "min": 1, "max": 1 } ],
+    "damage_reduction": { "all": 200 }
   },
   {
     "id": "nanovp_fold",
@@ -43,9 +40,7 @@
     "folded_volume": 25,
     "size": 200,
     "flags": [ "AISLE", "CARGO", "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ],
-    "damage_reduction" : {
-      "all" : 400
-    }
+    "damage_reduction": { "all": 400 }
   },
   {
     "type": "vehicle_part",
@@ -64,11 +59,11 @@
     "name": "nanotech boat coating",
     "copy-from": "nanovp_fold",
     "description": "An outer coating of nanites that work together to seal out water while also providing another layer of protection.",
-    "location" : "under",
+    "location": "under",
     "looks_like": "metal_boat_hull",
     "symbol": "H",
     "broken_symbol": "#",
-    "flags" : ["FLOATS", "FOLDABLE"]
+    "flags": [ "FLOATS", "FOLDABLE" ]
   },
   {
     "id": "nanovp_turret",
@@ -78,7 +73,7 @@
     "symbol": "t",
     "location": "on_roof",
     "default_ammo": "metal_nanopowder",
-    "flags": [ "TURRET", "USE_TANKS" ]
+    "flags": [ "USE_TANKS" ]
   },
   {
     "id": "nano_turret_shredder",
@@ -86,9 +81,7 @@
     "type": "vehicle_part",
     "name": "nanotech shredder turret",
     "description": "A nanotech shredder adapted for vehicular usage.",
-    "breaks_into" : [
-      {"item": "nano_turret_shredder", "min": 1, "max": 1}
-    ],
+    "breaks_into": [ { "item": "nano_turret_shredder", "min": 1, "max": 1 } ],
     "item": "nano_turret_shredder"
   },
   {
@@ -97,9 +90,7 @@
     "type": "vehicle_part",
     "name": "nanotech pistol turret",
     "description": "A nanotech pistol adapted for vehicular usage.",
-    "breaks_into" : [
-      {"item": "nano_turret_pistol", "min": 1, "max": 1}
-    ],
+    "breaks_into": [ { "item": "nano_turret_pistol", "min": 1, "max": 1 } ],
     "item": "nano_turret_pistol"
   },
   {
@@ -108,9 +99,7 @@
     "type": "vehicle_part",
     "name": "nanotech rifle turret",
     "description": "A nanotech rifle adapted for vehicular usage.",
-    "breaks_into" : [
-      {"item": "nano_turret_rifle", "min": 1, "max": 1}
-    ],
+    "breaks_into": [ { "item": "nano_turret_rifle", "min": 1, "max": 1 } ],
     "item": "nano_turret_rifle"
   },
   {
@@ -119,9 +108,7 @@
     "type": "vehicle_part",
     "name": "nanotech SMG turret",
     "description": "A nanotech smg adapted for vehicular usage.",
-    "breaks_into" : [
-      {"item": "nano_turret_smg", "min": 1, "max": 1}
-    ],
+    "breaks_into": [ { "item": "nano_turret_smg", "min": 1, "max": 1 } ],
     "item": "nano_turret_smg"
   },
   {
@@ -150,145 +137,159 @@
     "flags": [ "ROOF", "TURRET_MOUNT", "FLAT_SURF" ]
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nt_solar_1",
-    "name" : "nanotech solar panel",
+    "type": "vehicle_part",
+    "id": "nt_solar_1",
+    "name": "nanotech solar panel",
     "copy-from": "nanovp_fold",
     "symbol": "#",
-    "color" : "yellow",
-    "broken_symbol" : "x",
-    "broken_color" : "light_gray",
-    "damage_modifier" : 10,
-    "description" : "A large sheet of nanites arranged to capture sunlight and convert it to electrical energy.",
-    "epower" : 5000,
-    "location" : "on_roof",
-    "flags" : ["SOLAR_PANEL", "FOLDABLE"]
+    "color": "yellow",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 10,
+    "description": "A large sheet of nanites arranged to capture sunlight and convert it to electrical energy.",
+    "epower": 5000,
+    "location": "on_roof",
+    "flags": [ "SOLAR_PANEL", "FOLDABLE" ]
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nt_armor_1",
-    "name" : "nanotech passive plating",
+    "type": "vehicle_part",
+    "id": "nt_armor_1",
+    "name": "nanotech passive plating",
     "copy-from": "nanovp_fold",
     "symbol": ")",
-    "color" : "green",
-    "broken_symbol" : ")",
-    "broken_color" : "light_gray",
-    "durability" : 15000,
-    "description" : "Nanites formed into a self-reinforcing mesh designed to reduce incoming damage.",
-    "damage_modifier" : 100,
-    "location" : "armor",
-    "flags" : ["ARMOR", "FOLDABLE"],
-    "damage_reduction" : {
-      "all" : 1600
-    }
+    "color": "green",
+    "broken_symbol": ")",
+    "broken_color": "light_gray",
+    "durability": 15000,
+    "description": "Nanites formed into a self-reinforcing mesh designed to reduce incoming damage.",
+    "damage_modifier": 100,
+    "location": "armor",
+    "flags": [ "ARMOR", "FOLDABLE" ],
+    "damage_reduction": { "all": 1600 }
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nt_armor_2",
-    "name" : "nanotech active plating",
+    "type": "vehicle_part",
+    "id": "nt_armor_2",
+    "name": "nanotech active plating",
     "copy-from": "nanovp_fold",
     "symbol": ")",
-    "color" : "green",
-    "broken_symbol" : ")",
-    "broken_color" : "light_gray",
-    "durability" : 10000,
-    "description" : "Nanites formed into a highly active mesh designed to shred anything they collide with.",
-    "damage_modifier" : 1000,
-    "item" : "xl_nanite_ai",
-    "location" : "armor",
-    "flags" : ["ARMOR", "FOLDABLE"],
-    "breaks_into" : [
-        {"item": "xl_nanite_ai", "min": 1, "max": 1}
-    ],
-    "damage_reduction" : {
-      "all" : 500
-    }
+    "color": "green",
+    "broken_symbol": ")",
+    "broken_color": "light_gray",
+    "durability": 10000,
+    "description": "Nanites formed into a highly active mesh designed to shred anything they collide with.",
+    "damage_modifier": 1000,
+    "item": "xl_nanite_ai",
+    "location": "armor",
+    "flags": [ "ARMOR", "FOLDABLE" ],
+    "breaks_into": [ { "item": "xl_nanite_ai", "min": 1, "max": 1 } ],
+    "damage_reduction": { "all": 500 }
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nt_fluid_tank_1",
-    "name" : "nanotech compression tank (2500L)",
+    "type": "vehicle_part",
+    "id": "nt_fluid_tank_1",
+    "name": "nanotech compression tank (2500L)",
     "copy-from": "nanovp_fold",
     "symbol": "O",
-    "color" : "light_blue",
-    "broken_symbol" : "#",
-    "broken_color" : "red",
-    "damage_modifier" : 80,
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "red",
+    "damage_modifier": 80,
     "folded_volume": 16,
-    "description" : "Collection of nanites formed into a hollow sphere with a complex mechanism to compress and decompress liquid to extreme levels.",
-    "size" : 2500000,
-    "item" : "nano_container",
-    "location" : "fuel_source",
-    "flags" : ["FLUIDTANK", "FOLDABLE"],
-    "breaks_into" : [
-        {"item": "nano_container", "min": 1, "max": 1}
-    ]
-},
-  {
-    "type" : "vehicle_part",
-    "id" : "nt_storage",
-    "name" : "nanotech 'shoggoth' storage node",
-    "copy-from": "nanovp_fold",
-    "symbol": "=",
-    "broken_symbol" : "#",
-    "description" : "A large blob of nanites with an AI, it actively branches out pseudopods to grasp items held near it and supports them as optimally as possible",
-    "size" : 5000,
-    "item" : "nano_storage",
-    "location" : "center",
-    "flags" : ["BOARDABLE", "CARGO", "FOLDABLE"],
-    "breaks_into" : [
-        {"item": "nano_storage", "count": [1, 1]}
-    ]
+    "description": "Collection of nanites formed into a hollow sphere with a complex mechanism to compress and decompress liquid to extreme levels.",
+    "size": 2500000,
+    "item": "nano_container",
+    "location": "fuel_source",
+    "flags": [ "FLUIDTANK", "FOLDABLE" ],
+    "breaks_into": [ { "item": "nano_container", "min": 1, "max": 1 } ]
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nt_crafter",
-    "name" : "nanotech crafting node",
+    "type": "vehicle_part",
+    "id": "nt_storage",
+    "name": "nanotech 'shoggoth' storage node",
+    "copy-from": "nanovp_fold",
+    "symbol": "=",
+    "broken_symbol": "#",
+    "description": "A large blob of nanites with an AI, it actively branches out pseudopods to grasp items held near it and supports them as optimally as possible",
+    "size": 5000,
+    "item": "nano_storage",
+    "location": "center",
+    "flags": [ "BOARDABLE", "CARGO", "FOLDABLE" ],
+    "breaks_into": [ { "item": "nano_storage", "count": [ 1, 1 ] } ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "nt_crafter",
+    "name": "nanotech crafting node",
     "copy-from": "nt_storage",
-    "description" : "A large blob of nanites with an AI, it actively branches out pseudopods to assist with crafting efforts performed nearby.  Additionally, it will act as most tools upon command.",
-    "size" : 3000,
-    "flags" : ["BOARDABLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET", "CARGO", "FOLDABLE", "FLAT_SURF", "WORKBENCH"],
+    "description": "A large blob of nanites with an AI, it actively branches out pseudopods to assist with crafting efforts performed nearby.  Additionally, it will act as most tools upon command.",
+    "size": 3000,
+    "flags": [
+      "BOARDABLE",
+      "KITCHEN",
+      "CHEMLAB",
+      "CRAFTRIG",
+      "FORGE",
+      "WELDRIG",
+      "WATER_PURIFIER",
+      "FAUCET",
+      "CARGO",
+      "FOLDABLE",
+      "FLAT_SURF",
+      "WORKBENCH"
+    ],
     "workbench": { "multiplier": 2.5, "mass": 5000000, "volume": "750L" }
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nano_fridge",
-    "name" : "nanotech fridge",
+    "type": "vehicle_part",
+    "id": "nano_fridge",
+    "name": "nanotech fridge",
     "looks_like": "minifridge",
     "copy-from": "nanovp_fold",
     "symbol": "=",
-    "broken_symbol" : "#",
-    "description" : "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a cool temperature, leading to them being immobile and blocking passage.",
-    "size" : 2000,
-    "location" : "center",
-    "flags" : ["OBSTACLE", "CARGO", "FRIDGE", "COVERED", "FOLDABLE"]
+    "broken_symbol": "#",
+    "description": "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a cool temperature, leading to them being immobile and blocking passage.",
+    "size": 2000,
+    "location": "center",
+    "flags": [ "OBSTACLE", "CARGO", "FRIDGE", "COVERED", "FOLDABLE" ]
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nano_freezer",
-    "name" : "nanotech freezer",
+    "type": "vehicle_part",
+    "id": "nano_freezer",
+    "name": "nanotech freezer",
     "looks_like": "minifreezer",
     "copy-from": "nano_fridge",
-    "description" : "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a frozen temperature, leading to them being immobile and blocking passage.",
-    "flags" : ["OBSTACLE", "CARGO", "FREEZER", "COVERED", "FOLDABLE"]
+    "description": "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a frozen temperature, leading to them being immobile and blocking passage.",
+    "flags": [ "OBSTACLE", "CARGO", "FREEZER", "COVERED", "FOLDABLE" ]
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nanofactory_vehicle_1",
-    "name" : "installed nanofactory MK I",
+    "type": "vehicle_part",
+    "id": "nanofactory_vehicle_1",
+    "name": "installed nanofactory MK I",
     "copy-from": "nanovp",
     "symbol": "#",
-    "color" : "light_green",
-    "broken_symbol" : "0",
-    "broken_color" : "blue",
-    "damage_modifier" : 10,
-    "durability" : 2000,
-    "description" : "A large and bulky prototype nanofactory sitting on a frame somehow not functioning properly",
-    "epower" : -1,
-    "bonus" : 600,
-    "item" : "nanofactory_1",
-    "location" : "center",
-    "flags" : ["RECHARGE", "FORGE", "CHEMLAB", "CRAFTRIG", "WELDRIG", "KITCHEN", "ENABLED_DRAINS_EPOWER", "WATER_PURIFIER", "FAUCET", "NOINSTALL"],
+    "color": "light_green",
+    "broken_symbol": "0",
+    "broken_color": "blue",
+    "damage_modifier": 10,
+    "durability": 2000,
+    "description": "A large and bulky prototype nanofactory sitting on a frame somehow not functioning properly",
+    "epower": -1,
+    "bonus": 600,
+    "item": "nanofactory_1",
+    "location": "center",
+    "flags": [
+      "RECHARGE",
+      "FORGE",
+      "CHEMLAB",
+      "CRAFTRIG",
+      "WELDRIG",
+      "KITCHEN",
+      "ENABLED_DRAINS_EPOWER",
+      "WATER_PURIFIER",
+      "FAUCET",
+      "NOINSTALL"
+    ],
     "tools": [
       "anvil",
       "can_sealer",
@@ -311,27 +312,36 @@
       "forge",
       "nanofactory_1"
     ],
-    "breaks_into" : [
-      {"item": "nanofactory_1", "min": 1, "max": 1}
-    ]
+    "breaks_into": [ { "item": "nanofactory_1", "min": 1, "max": 1 } ]
   },
   {
-    "type" : "vehicle_part",
-    "id" : "nanofactory_vehicle_2",
-    "name" : "installed nanofactory MK II",
+    "type": "vehicle_part",
+    "id": "nanofactory_vehicle_2",
+    "name": "installed nanofactory MK II",
     "copy-from": "nanovp",
     "symbol": "#",
-    "color" : "light_green",
-    "broken_symbol" : "0",
-    "broken_color" : "blue",
-    "damage_modifier" : 10,
-    "durability" : 2000,
-    "description" : "A large and bulky nanofactory sitting on a frame somehow not functioning properly.",
-    "epower" : -1,
-    "bonus" : 600,
-    "item" : "nanofactory_2",
-    "location" : "center",
-    "flags" : ["RECHARGE", "FORGE", "CHEMLAB", "CRAFTRIG", "WELDRIG", "KITCHEN", "ENABLED_DRAINS_EPOWER", "WATER_PURIFIER", "FAUCET", "NOINSTALL"],
+    "color": "light_green",
+    "broken_symbol": "0",
+    "broken_color": "blue",
+    "damage_modifier": 10,
+    "durability": 2000,
+    "description": "A large and bulky nanofactory sitting on a frame somehow not functioning properly.",
+    "epower": -1,
+    "bonus": 600,
+    "item": "nanofactory_2",
+    "location": "center",
+    "flags": [
+      "RECHARGE",
+      "FORGE",
+      "CHEMLAB",
+      "CRAFTRIG",
+      "WELDRIG",
+      "KITCHEN",
+      "ENABLED_DRAINS_EPOWER",
+      "WATER_PURIFIER",
+      "FAUCET",
+      "NOINSTALL"
+    ],
     "tools": [
       "anvil",
       "can_sealer",
@@ -354,9 +364,7 @@
       "forge",
       "nanofactory_2"
     ],
-    "breaks_into" : [
-      {"item": "nanofactory_2", "min": 1, "max": 1}
-    ]
+    "breaks_into": [ { "item": "nanofactory_2", "min": 1, "max": 1 } ]
   },
   {
     "id": "nanotech_battery",
@@ -364,17 +372,15 @@
     "name": "nanotech storage array",
     "copy-from": "nanovp_fold",
     "item": "nanotech_battery",
-    "location" : "fuel_source",
+    "location": "fuel_source",
     "fuel_type": "battery",
     "symbol": "O",
     "color": "yellow",
     "broken_color": "red",
     "description": "A mass of nanites programmed to store vast amounts of power.",
     "damage_modifier": 50,
-    "flags" : [ "FOLDABLE", "RECHARGE"],
-    "breaks_into": [
-      { "item": "nanotech_battery", "count": [ 1, 1 ] }
-    ]
+    "flags": [ "FOLDABLE", "RECHARGE" ],
+    "breaks_into": [ { "item": "nanotech_battery", "count": [ 1, 1 ] } ]
   },
   {
     "id": "nanotech_generator",
@@ -392,10 +398,8 @@
     "size": 100,
     "description": "A mass of nanites and power cells optimized for generating power.",
     "damage_modifier": 50,
-    "flags" : ["REACTOR", "PERPETUAL", "FOLDABLE"],
-    "breaks_into": [
-      { "item": "nanotech_generator", "count": [ 1, 1 ] }
-    ]
+    "flags": [ "REACTOR", "PERPETUAL", "FOLDABLE" ],
+    "breaks_into": [ { "item": "nanotech_generator", "count": [ 1, 1 ] } ]
   },
   {
     "id": "nanotech_anima",
@@ -415,13 +419,9 @@
       "removal": { "skills": [ [ "computer", 0 ] ], "qualities": [ { "id": "NANO_PRO", "level": 1 } ] },
       "repair": { "skills": [ [ "computer", 0 ] ], "qualities": [ { "id": "NANO_PRO", "level": 1 } ] }
     },
-    "damage_reduction" : {
-      "all" : 200
-    },
-    "flags" : [ "FOLDABLE", "ENGINE", "E_HEATER", "E_STARTS_INSTANTLY"],
-    "breaks_into": [
-      { "item": "xl_nanite_ai", "count": [ 1, 1 ] }
-    ]
+    "damage_reduction": { "all": 200 },
+    "flags": [ "FOLDABLE", "ENGINE", "E_HEATER", "E_STARTS_INSTANTLY" ],
+    "breaks_into": [ { "item": "xl_nanite_ai", "count": [ 1, 1 ] } ]
   },
   {
     "id": "nanotech_crawler",
@@ -435,9 +435,7 @@
     "description": "A mass of nanites optimized for travel across any land-based surface while lifting a larger object.",
     "damage_modifier": 120,
     "qualities": [ [ "SELF_JACK", 40 ] ],
-    "breaks_into": [
-      { "item": "nano_crawler", "count": [ 1, 1 ] }
-    ],
+    "breaks_into": [ { "item": "nano_crawler", "count": [ 1, 1 ] } ],
     "rolling_resistance": 1.25,
     "wheel_type": "off-road",
     "contact_area": 3500,
@@ -457,10 +455,21 @@
     "epower": -500,
     "difficulty": 3,
     "location": "center",
-    "flags": [ "REMOTE_CONTROLS", "CONTROLS", "FOLDABLE", "BED", "SEAT", "BOARDABLE", "BELTABLE", "CTRL_ELECTRONIC", "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER" ],
-    "breaks_into": [
-      { "item": "xl_nanite_ai", "count": [ 1, 1 ] }
-    ]
+    "flags": [
+      "REMOTE_CONTROLS",
+      "CONTROLS",
+      "FOLDABLE",
+      "BED",
+      "SEAT",
+      "BOARDABLE",
+      "BELTABLE",
+      "CTRL_ELECTRONIC",
+      "VISION",
+      "CAMERA",
+      "CAMERA_CONTROL",
+      "ENABLED_DRAINS_EPOWER"
+    ],
+    "breaks_into": [ { "item": "xl_nanite_ai", "count": [ 1, 1 ] } ]
   },
   {
     "type": "vehicle_part",

@@ -187,7 +187,13 @@
     "color": "red",
     "move_cost": 0,
     "coverage": 90,
-    "bash": { "str_min": 10, "str_max": 30, "sound": "splook!", "sound_fail": "splat.", "ter_set": "t_secro_flesh_camp_wall_veins_smoot" },
+    "bash": {
+      "str_min": 10,
+      "str_max": 30,
+      "sound": "splook!",
+      "sound_fail": "splat.",
+      "ter_set": "t_secro_flesh_camp_wall_veins_smoot"
+    },
     "flags": [ "FLAMMABLE_HARD", "NOITEM", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL", "S_FLESH", "BLOCK_WIND" ]
   },
   {
@@ -208,9 +214,7 @@
       "str_max": 50,
       "sound": "splook!",
       "sound_fail": "splat.",
-      "items": [
-        { "item": "secro_flesh", "count": [ 2, 4 ] }
-        ]
+      "items": [ { "item": "secro_flesh", "count": [ 2, 4 ] } ]
     }
   },
   {
@@ -230,9 +234,7 @@
       "str_max": 30,
       "sound": "splook!",
       "sound_fail": "splat!",
-      "items": [
-        { "item": "secro_flesh", "count": [ 2, 3 ] }
-      ]
+      "items": [ { "item": "secro_flesh", "count": [ 2, 3 ] } ]
     }
   },
   {
@@ -252,9 +254,7 @@
       "str_max": 60,
       "sound": "splook!",
       "sound_fail": "splat!",
-      "items": [
-        { "item": "secro_flesh", "count": [ 3, 5 ] }
-      ]
+      "items": [ { "item": "secro_flesh", "count": [ 3, 5 ] } ]
     }
   },
   {
@@ -274,9 +274,7 @@
       "str_max": 20,
       "sound": "splook!",
       "sound_fail": "splat!",
-      "items": [
-        { "item": "secro_flesh", "count": [ 1, 3 ] }
-      ]
+      "items": [ { "item": "secro_flesh", "count": [ 1, 3 ] } ]
     }
   },
   {
@@ -297,9 +295,7 @@
       "str_max": 60,
       "sound": "splook!",
       "sound_fail": "splat!",
-      "items": [
-        { "item": "secro_flesh", "count": [ 3, 5 ] }
-      ]
+      "items": [ { "item": "secro_flesh", "count": [ 3, 5 ] } ]
     }
   },
   {
@@ -314,14 +310,6 @@
     "required_str": -1,
     "light_emitted": 3,
     "flags": [ "TRANSPARENT" ],
-    "bash": {
-      "str_min": 6,
-      "str_max": 9,
-      "sound": "splook!",
-      "sound_fail": "splat!",
-      "items": [
-        { "item": "secro_flesh" }
-      ]
-    }
+    "bash": { "str_min": 6, "str_max": 9, "sound": "splook!", "sound_fail": "splat!", "items": [ { "item": "secro_flesh" } ] }
   }
 ]

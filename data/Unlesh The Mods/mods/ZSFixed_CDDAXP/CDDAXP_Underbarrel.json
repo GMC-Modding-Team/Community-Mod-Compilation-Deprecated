@@ -16,7 +16,7 @@
     "location": "underbarrel",
     "mod_targets": [ "shotgun", "smg", "rifle", "crossbow", "launcher" ],
     "dispersion_modifier": 10,
-    "flags": [ "NON_STUCK", "SPEAR", "BAYONET" ]
+    "flags": [ "NON_STUCK", "SPEAR", "knife_combat" ]
   },
   {
     "id": "cddaxp_cswordbayonet",
@@ -34,7 +34,7 @@
     "location": "underbarrel",
     "mod_targets": [ "shotgun", "rifle", "crossbow", "launcher" ],
     "dispersion_modifier": 20,
-    "flags": [ "NON_STUCK", "CHOP", "BAYONET" ]
+    "flags": [ "NON_STUCK", "CHOP", "knife_combat" ]
   },
   {
     "id": "cddaxp_cpistolbayonet",
@@ -53,6 +53,6 @@
     "location": "underbarrel",
     "mod_targets": [ "pistol", "smg", "crossbow" ],
     "dispersion_modifier": 15,
-    "flags": [ "STAB", "BAYONET" ]
+    "flags": [ "STAB", "knife_combat" ]
   }
 ]

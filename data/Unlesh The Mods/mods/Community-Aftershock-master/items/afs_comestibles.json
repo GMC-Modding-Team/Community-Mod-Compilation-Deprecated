@@ -1,7 +1,7 @@
 [
   {
     "type": "COMESTIBLE",
-    "id": "afs_cake",
+    "id": "cake2",
     "name": "plain cake",
     "copy-from": "jihelucake",
     "description": "A modest chocolate cake with no icing added.  Nothing special, but some of the best you can get nowadays.  Besides, cake is cake!",
@@ -12,6 +12,7 @@
     "type": "COMESTIBLE",
     "name": "nutriment",
     "weight": "10 g",
+    "volume": "10 ml",
     "color": "white",
     "comestible_type": "FOOD",
     "symbol": "%",
@@ -20,7 +21,6 @@
     "quench": -5,
     "description": "A crumbly white pill half the size of your thumb, packed with vitamins and calories.  Provides a whole day's nutrition in portable form, but it's a little hard to keep down, thanks to the rancid taste and chalky texture.",
     "price": 10000,
-    "volume": "0 ml",
     "charges": 5,
     "looks_like": "vitamins",
     "fun": -8,
@@ -61,7 +61,7 @@
     "fun": -5
   },
   {
-    "id": "afs_fried_donut_holes",
+    "id": "donut_holes",
     "type": "COMESTIBLE",
     "name": "fried donut holes",
     "name_plural": "fried donut holes",

@@ -11,7 +11,7 @@
     "durability": 9999999,
     "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
     "folded_volume": "1 ml",
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -33,7 +33,7 @@
 	"fuel_type": "battery",
     "durability": 120,
     "folded_volume": "6 ml",
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ]
@@ -57,7 +57,7 @@
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] }
     },
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -90,12 +90,12 @@
     "category": "veh_parts",
     "name": "Omni Corp. armor plate",
     "description": "Armor Plating made by Omni Corp. Protects better than their personal armor!",
-    "weight": "0 g",
+    "weight": "3 g",
     "volume": "0 L",
     "price": 750,
     "to_hit": -1,
     "bashing": 6,
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -116,7 +116,7 @@
     "description": "A massive storage space for holding fuel, made by Omni Corp.",
     "size": 10000,
     "damage_modifier": 80,
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -179,8 +179,8 @@
     "type": "GENERIC",
     "name": { "str": "Omni Corp. generator" },
     "description": "An electrical generator made by Omni Corp. designed to be attached to an engine.",
-    "weight": "0 g",
-    "volume": "0 ml",
+    "weight": "3 g",
+    "volume": "3 ml",
     "price": 30000
   },
   {
@@ -207,11 +207,11 @@
     "id": "omni_foldframe",
     "name": "Omni Corp. vehicle frame",
     "description": "A small foldable lightweight frame made by Omni Corp.",
-    "weight": "0 g",
+    "weight": "3 g",
     "to_hit": -3,
     "color": "light_gray",
     "symbol": "]",
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -247,12 +247,12 @@
     "category": "tools",
     "name": "Omni Corp. lamp",
     "description": "A powerful lamp created by Omni Corp.",
-    "weight": "0 g",
-    "volume": "0 ml",
+    "weight": "3 g",
+    "volume": "3 ml",
     "price": 175000,
     "to_hit": -2,
     "bashing": 8,
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -287,11 +287,11 @@
     "id": "omni_solar_panel",
     "name": "Omni Corp. solar panel",
     "description": "Electronic device that can convert solar radiation into electric power.  Made by Omni Corp.",
-    "weight": "0 g",
+    "weight": "3 g",
     "to_hit": -4,
     "color": "yellow",
     "symbol": "]",
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -306,15 +306,15 @@
     "name": "Omni Corp. recharging station",
     "looks_like": "recharge_station",
     "description": "A universal recharging station made by Omni Corp.",
-    "weight": "0 g",
+    "weight": "3 g",
     "to_hit": 1,
     "color": "light_blue",
     "symbol": "-",
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
-    "volume": "0 ml",
+    "volume": "3 ml",
     "bashing": 5,
     "category": "veh_parts",
     "price": 90000
@@ -368,7 +368,7 @@
     ],
     "item": "omni_basket",
     "location": "center",
-    "requirements": 
+    "requirements":
 	{
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -383,12 +383,12 @@
     "name": "Omni Corp. storage bin",
     "description": "A simple bin with interdimensional space enhancements. Made by Omni Corp.",
     "weight": "00 g",
-    "volume": "0 ml",
+    "volume": "3 ml",
     "price": 3500,
     "to_hit": -5,
     "color": "cyan",
     "symbol": "]",
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],
@@ -439,9 +439,9 @@
 	"symbol": "H",
     "looks_like": "minifridge",
     "color": "light_blue",
-    "weight": "0 g",
+    "weight": "3 g",
     "to_hit": -8,
-    "breaks_into": 
+    "breaks_into":
 	[
       { "item": "omni_alloy", "count": [ 6, 9 ] }
     ],

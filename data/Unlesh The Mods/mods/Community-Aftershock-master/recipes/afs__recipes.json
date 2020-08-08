@@ -13,7 +13,7 @@
     "components": [
       [ [ "acid", 1 ] ],
       [ [ "steel_chunk", 1 ], [ "scrap", 1 ] ],
-      [ [ "can_drink_unsealed", 1 ], [ "can_food_unsealed", 1 ], [ "canister_empty", 1 ] ]
+      [ [ "can_drink", 1 ], [ "can_food", 1 ], [ "canister_empty", 1 ] ]
     ]
   },
   {
@@ -65,7 +65,7 @@
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "steel_chunk", 1 ], [ "scrap", 1 ] ],
-      [ [ "can_drink_unsealed", 1 ], [ "can_food_unsealed", 1 ], [ "canister_empty", 1 ] ],
+      [ [ "can_drink", 1 ], [ "can_food", 1 ], [ "canister_empty", 1 ] ],
       [ [ "plut_cell", 1 ] ]
     ]
   },
@@ -161,7 +161,7 @@
   },
   {
     "type": "recipe",
-    "result": "afs_welding_mask_makeshift",
+    "result": "welding_mask_crude",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "mechanics",
@@ -363,7 +363,7 @@
   },
   {
     "type": "recipe",
-    "result": "afs_atomic_reading_light",
+    "result": "atomic_light_off",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "electronics",
@@ -386,7 +386,7 @@
   },
   {
     "type": "recipe",
-    "result": "afs_large_storage_battery",
+    "result": "large_storage_battery",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
     "skill_used": "electronics",

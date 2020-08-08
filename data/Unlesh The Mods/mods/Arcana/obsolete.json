@@ -184,8 +184,8 @@
     "symbol": ",",
     "color": "light_gray",
     "stack_size": 1,
-	"qualities": [ [ "LOCKPICK", 5 ] ],
-    "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_INGEST" ],
+    "qualities": [ [ "LOCKPICK", 5 ] ],
+    "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_INGEST", "ZERO_WEIGHT" ],
     "use_action": "PICK_LOCK",
     "drop_action": { "type": "emit_actor" }
   },
@@ -195,8 +195,8 @@
     "copy-from": "spell_lockpick_lesser",
     "type": "COMESTIBLE",
     "name": { "str": "mote of greater artifice", "str_pl": "motes of greater artifice" },
-	"qualities": [ [ "LOCKPICK", 99 ] ],
-	"flags": [ "PERFECT_LOCKPICK" ],
+    "qualities": [ [ "LOCKPICK", 99 ] ],
+    "extend": { "flags": [ "PERFECT_LOCKPICK" ] },
     "use_action": "PICK_LOCK"
   },
   {
@@ -276,7 +276,7 @@
   {
     "id": "arcana_mark_suppression",
     "type": "SPELL",
-    "name": "Mark: Suppression",
+    "name": { "str": "Mark: Suppression" },
     "description": "Sanguine Mark\nUsing this spell will anoint you with an obsidian halo, striking blind all who attack you.   It will also dull the fire within you, slowing your metabolism.",
     "message": "You raise your hand, and the odd warmth within your body seems to burn less intensely.  %s!",
     "valid_targets": [ "self" ],
@@ -305,7 +305,7 @@
     "name": { "str": "coral halo" },
     "description": "A strange radiance permeating your body, dulling the effects of flame and radiation.",
     "color": "light_gray",
-    "flags": [ "ONLY_ONE" ]
+    "extend": { "flags": [ "ONLY_ONE" ] }
   },
   {
     "id": "somen_clairvoyance_on",

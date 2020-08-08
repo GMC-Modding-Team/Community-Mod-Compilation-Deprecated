@@ -8,6 +8,7 @@
     "description": "Nanite control unit that can mimic many tools, though some require different configurations.  Currently in default form, allowing access to numerous small tools.",
     "looks_like": "knife_rm42",
     "price": 120,
+    "price_postapoc": 50,
     "material": [ "nanite" ],
     "weight": "3680 g",
     "volume": "250 ml",
@@ -76,6 +77,7 @@
     "description": "Nanite control unit that can mimic many tools, though some require different configurations.  Currently expanded into a larger form for bulkier tools.",
     "looks_like": "e_tool",
     "price": 120,
+    "price_postapoc": 50,
     "material": [ "nanite" ],
     "weight": "3680 g",
     "volume": "2000 ml",
@@ -117,6 +119,7 @@
     "description": "Nanite control unit that can mimic many tools, though some require different configurations.  Currently configured as a laser welder.",
     "looks_like": "v29",
     "price": 120,
+    "price_postapoc": 50,
     "material": [ "nanite" ],
     "weight": "3680 g",
     "volume": "500 ml",
@@ -139,7 +142,8 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": [ "nanites" ],
+    "ammo_type": "nanites",
+    "ammo": [ "nanite_ammo" ],
     "use_action": [
       {
         "type": "transform",
@@ -165,7 +169,7 @@
     "gun_data": {
       "ammo_effects": [ "LASER" ],
       "skill": "pistol",
-      "ranged_damage": 10,
+      "ranged_damage": { "damage_type": "bullet", "amount": 10 },
       "range": 5,
       "dispersion": 1,
       "sight_dispersion": 4,

@@ -3,7 +3,7 @@
     "id": "tray",
     "type": "GENERIC",
     "category": "container",
-    "name": "deli tray",
+    "name": { "str": "deli tray" },
     "description": "A plastic deli tray with a fitted transparent plastic lid. Commonly used to display and transport individual meals such as sandwiches and chow mein.",
     "weight": "6 g",
     "volume": "250 ml",
@@ -24,13 +24,13 @@
     ],
     "seals": true,
     "watertight": true,
-    "flags": "TRADER_AVOID"
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "platter",
     "type": "GENERIC",
     "category": "container",
-    "name": "deli platter",
+    "name": { "str": "deli platter" },
     "description": "A round plastic deli platter with a tall fitted transparent plastic lid. Normally used for larger displays like cheesecake and samplers.",
     "weight": "6 g",
     "volume": "250 ml",
@@ -51,7 +51,7 @@
     ],
     "seals": true,
     "watertight": true,
-    "flags": "TRADER_AVOID"
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "case_plastic",
