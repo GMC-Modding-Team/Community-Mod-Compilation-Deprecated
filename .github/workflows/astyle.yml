@@ -1,7 +1,14 @@
 name: astyle
 
 on:
-  pull_request
+  push:
+    branches:
+    - master
+    - Experimental-Mod-Pack
+  pull_request:
+    branches:
+    - master
+    - Experimental-Mod-Pack
 
 jobs:
   style-json:
