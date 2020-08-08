@@ -529,7 +529,7 @@
     "ammo": "osrs_bolt",
     "weight": "4000 g",
     "volume": "500 ml",
-    "ranged_damage": 18,
+    "ranged_damage": { "damage_type": "bullet", "amount": 18 },
     "range": 6,
     "dispersion": 400,
     "clip_size": 1,
