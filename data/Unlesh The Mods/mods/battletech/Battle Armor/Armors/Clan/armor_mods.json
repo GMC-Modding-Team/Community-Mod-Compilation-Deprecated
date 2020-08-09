@@ -2,7 +2,7 @@
   {
     "id": "aux_firedrake",
     "type": "GUNMOD",
-    "name": "BA Firedrake Mod",
+    "name": { "str": "BA Firedrake Mod" },
     "description": "The 'Firedrake' Incendiary Support Needler is a support weapon produced by Mauser & Gray Firearms for the Lyran Alliance. This one is supposed to be attached to a suit of Battle Armor.",
     "weight": "1820 g",
     "volume": "1000 ml",
@@ -13,7 +13,7 @@
     "location": "accessories",
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow" ],
     "gun_data": {
-      "ranged_damage": 54,
+      "ranged_damage": { "damage_type": "bullet", "amount": 54 },
       "dispersion": 345,
       "durability": 9,
       "clip_size": 30,
@@ -22,7 +22,7 @@
       "reload": 80,
       "burst": 10,
       "skill": "shotgun",
-      "ammo": "if_block"
+      "ammo": [ "if_block" ]
     },
     "dispersion_modifier": 30,
     "min_skills": [ [ "weapon", 1 ] ],
