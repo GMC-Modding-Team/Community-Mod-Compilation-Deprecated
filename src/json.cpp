@@ -2,17 +2,17 @@
 
 #include <algorithm>
 #include <bitset>
-#include <cmath> // IWYU pragma: keep
+#include <cmath> // pow
 #include <cstdint>
 #include <cstdio>
-#include <cstdlib> // strtoul: keep
+#include <cstdlib> // strtoul
 #include <cstring> // strcmp
 #include <exception>
 #include <iterator>
 #include <limits>
 #include <locale> // ensure user's locale doesn't interfere with output
 #include <set>
-#include <sstream> // IWYU pragma: keep
+#include <sstream>
 #include <string>
 #include <utility>
 #include <vector>
