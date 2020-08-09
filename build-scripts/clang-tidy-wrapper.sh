@@ -11,4 +11,3 @@ then
 else
     "$CATA_CLANG_TIDY" "$@"
 fi
-done
