@@ -1,7 +1,7 @@
 [
   {
     "type": "profession",
-    "ident": "Sailor",
+    "id": "Sailor",
     "name": "Sailor",
     "description": "Your second home was always the sea, and after the collapse perhaps you ought to return to.",
     "points": 0,
@@ -28,7 +28,7 @@
   },
  {
     "type": "profession",
-    "ident": "ill_fated_one",
+    "id": "ill_fated_one",
     "name": "Ill Fated One",
     "description": "For as long as you can remember, it always felt like something was trying to reach out to you. And whatever kept it at bay, has vanished when the cataclysm hit.",
     "points": -2,
@@ -43,7 +43,7 @@
    },
    {
     "type": "profession",
-    "ident": "Ex_Con",
+    "id": "Ex_Con",
     "name": "Ex-Con",
     "description": "A soldier, mercenary, convict, and now a survivor. Endured eveything life threw at you, the Cataclysm doesn't change a thing.",
     "points": 3,
@@ -71,7 +71,7 @@
   },
  {
     "type": "profession",
-    "ident": "Cultist",
+    "id": "Cultist",
     "name": "Cultist",
     "description": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
     "points": -1,
@@ -84,7 +84,7 @@
   },
   {
     "type": "profession",
-    "ident": "Reluctant_Hero",
+    "id": "Reluctant_Hero",
     "name": "Reluctant Hero",
     "description": "Always been Wrong person for the wrong job at the wrong time, but now with no one left, you have no choice to fight.",
     "points": 2,
@@ -115,7 +115,7 @@
   },
 {
     "type": "profession",
-    "ident": "shopkeep",
+    "id": "shopkeep",
     "name": "Shopkeep",
     "description": "Some would say that running a shop during the cataclysm is foolish, but you welcome the challenge.",
     "points": 0,
@@ -131,7 +131,7 @@
    },
 {
     "type": "profession",
-    "ident": "directionless",
+    "id": "directionless",
     "name": "Directionless Loser",
     "description": "Directionless loser who coasted through life mostly on booze. Perhaps being forced to survive will turn it all around.",
     "points": 0,
@@ -153,7 +153,7 @@
    },
 {
     "type": "profession",
-    "ident": "bank_manager",
+    "id": "bank_manager",
     "name": "Bank Manager",
     "description": "Managing brain dead employees, and people begging for loans was easy. Managing actual brain dead employees, and people begging for flesh is another matter. ",
     "points": 0,
@@ -161,12 +161,12 @@
       { "level": 2, "name": "barter" },
       { "level": 4, "name": "speech" }
      ],
-    "items": { "both": [ "suit", "knit_scarf", "socks", "dress_shoes" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] 
+    "items": { "both": [ "suit", "knit_scarf", "socks", "dress_shoes" ], "male": [ "briefs" ], "female": [ "bra", "panties" ]
     }
    },
   {
     "type": "profession",
-    "ident": "gunshop_owner",
+    "id": "gunshop_owner",
     "name": "gunshop owner",
     "description": "Murica, Booze, & the second amendment is all one needs in life to survive. And guns. All the guns. ",
     "points": 2,
@@ -192,7 +192,7 @@
   },
   {
     "type": "profession",
-    "ident": "mutant_ninja_1",
+    "id": "mutant_ninja_1",
     "name": "Brave Mutant Ninja",
     "description": "Despite your mutations, you've always faced crime with a calm, bravado. Favoring swords & a tactical approach, you've never forgotten your ninjutsu training",
     "points": 2,
@@ -215,7 +215,7 @@
           "knee_pads",
           "loincloth"
     ],
-       "entries": [ 
+       "entries": [
        { "item": "tanto", "container-item": "bscabbard" }
        ]
          }
@@ -223,7 +223,7 @@
   },
   {
     "type": "profession",
-    "ident": "mutant_ninja_2",
+    "id": "mutant_ninja_2",
     "name": "Smart Mutant Ninja",
     "description": "While never neglecting your ninjutsu training, you've always leaned more towards your inventive mind, although never one above busting faces in with staves.",
     "points": 2,
@@ -246,7 +246,7 @@
           "knee_pads",
           "loincloth"
            ],
- "entries": [ 
+ "entries": [
        { "item": "q_staff", "container-item": "spearsling" }
         ]
        }
@@ -254,7 +254,7 @@
   },
   {
     "type": "profession",
-    "ident": "mutant_ninja_3",
+    "id": "mutant_ninja_3",
     "name": "Tough Mutant Ninja",
     "description": "Tactics & ninjutsu can be useful, however, bashing criminals faces in with brute force and a knife, is just as effective.",
     "points": 2,
@@ -275,7 +275,7 @@
           "knee_pads",
           "loincloth"
            ],
- "entries": [ 
+ "entries": [
        { "item": "knife_trench", "container-item": "sheath" }
        ]
  }
@@ -283,7 +283,7 @@
   },
   {
     "type": "profession",
-    "ident": "mutant_ninja_4",
+    "id": "mutant_ninja_4",
     "name": "Carefree Mutant Ninja",
     "description": "Grapnel in one hand, pizza in the other, what else could you ask for in life?",
     "points": 2,
@@ -309,7 +309,7 @@
   },
   {
     "type": "profession",
-    "ident": "patient_zero",
+    "id": "patient_zero",
     "name": "Patient Zero",
     "description": "Surely you weren't the first, but as everything around you went to hell, you never turned...instead somehow adapting. Unfortantly, that hunger for flesh never left.",
     "points": 2,
@@ -324,7 +324,7 @@
   },
   {
     "type": "profession",
-    "ident": "swamp_thing",
+    "id": "swamp_thing",
     "name": "Swamp Monster",
     "description": "A deformed, plant mutant only the swamp accepts you for who you are. In return you vowed to be it's lone Guardian protecting it fiercely.",
     "points": 2,
@@ -335,7 +335,7 @@
  },
 {
     "type": "profession",
-    "ident": "Mole_person",
+    "id": "Mole_person",
     "name": "Mole Person",
     "description": "Circumstances forced you to find shelter underground years ago, but you've adapted and lived.",
     "points": 2,
@@ -348,7 +348,7 @@
   },
 {
     "type": "profession",
-    "ident": "robot_alive",
+    "id": "robot_alive",
     "name": "Jonny Cinco",
     "description": "Refusing no disassemble, and feeling Alive  you strike out thirsting for input, escaping the trash heap seeking grand adventure.",
     "points": 2,
@@ -361,4 +361,3 @@
      ]
   }
 ]
-  
