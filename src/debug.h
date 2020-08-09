@@ -47,10 +47,10 @@
 // Includes                                                         {{{1
 // ---------------------------------------------------------------------
 #include <iostream>
-#include <string>
-#include <type_traits>
-#include <utility>
 #include <vector>
+#include <string>
+#include <utility>
+#include <type_traits>
 
 #define STRING2(x) #x
 #define STRING(x) STRING2(x)
