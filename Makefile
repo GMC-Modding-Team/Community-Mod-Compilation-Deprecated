@@ -179,7 +179,7 @@ endif
 
 # Default to disabling clang
 ifndef CLANG
-  CLANG = 0
+  CLANG = 1
 endif
 
 # Determine JSON formatter binary name
