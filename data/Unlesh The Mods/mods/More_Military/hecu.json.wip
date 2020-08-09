@@ -30,7 +30,7 @@
   },
   {
     "type": "profession",
-    "ident": "hecu",
+    "id": "hecu",
     "name": "H.E.C.U Marine",
     "description": "You were a H.E.C.U Marine, one of the country's finnest. Your squad was one of the first responders to try to contain the cataclysm but shit went downhill, fast, and they are now all dead. Forget about those pesky scientists, we are pulling out!",
     "points": 8,
@@ -97,7 +97,7 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "EYES", "MOUTH" ],
+    "covers": [ "eyes", "mouth" ],
     "coverage": 100,
     "encumbrance": 40,
     "warmth": 20,
@@ -136,7 +136,7 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "EYES", "MOUTH" ],
+    "covers": [ "eyes", "mouth" ],
     "coverage": 100,
     "encumbrance": 30,
     "warmth": 20,
@@ -172,7 +172,7 @@
     "material": [ "kevlar" ],
     "symbol": "[",
     "color": "light_gray",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "ammo": "battery",
     "max_charges": 0,
     "initial_charges": 0,
@@ -206,7 +206,7 @@
     "material": [ "kevlar" ],
     "symbol": "[",
     "color": "light_gray",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 85,
     "encumbrance": 7,
     "storage": 10,
@@ -287,7 +287,7 @@
 [
   {
     "type": "scenario",
-    "ident": "lab_chal",
+    "id": "lab_chal",
     "copy-from": "lab_chal",
     "extend": { "professions": [ "hecu" ] }
   }
