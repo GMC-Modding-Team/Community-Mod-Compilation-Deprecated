@@ -193,5 +193,4 @@ else
     fi
 fi
 ccache --show-stats
-done
 # vim:tw=0
