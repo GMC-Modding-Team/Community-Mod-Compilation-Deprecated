@@ -9,7 +9,7 @@
     "difficulty": 1,
     "durability": 75,
     "size": 2000,
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "breaks_into": [ { "item": "scrap", "count": [ 1, 2 ] } ]
   },
   {
@@ -22,7 +22,7 @@
     "color": "light_cyan",
     "broken_color": "dark_gray",
     "durability": 30,
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "folded_volume": 1,
     "breaks_into": [ { "item": "glass_shard", "count": [ 0, 2 ] } ],
     "requirements": {
@@ -45,7 +45,7 @@
     "durability": 100,
     "epower": -75,
     "bonus": 24,
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "folded_volume": 8,
     "breaks_into": [ { "item": "e_scrap", "count": [ 4, 16 ] }, { "item": "plastic_chunk", "count": [ 2, 8 ] } ],
     "flags": [ "VISION", "CAMERA", "TOOL_SCREWDRIVER", "ENABLED_DRAINS_EPOWER" ]
