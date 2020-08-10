@@ -260,8 +260,8 @@
     "armor": [
       {
         "parts": [
-          "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l",
-          "foot_r", "mouth", "eyes"
+          "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l",
+          "foot_r", "MOUTH", "EYES"
         ],
         "bash": 4,
         "cut": 4
@@ -285,7 +285,7 @@
       {"part": "leg_r", "ignored": 16}, {"part": "foot_l", "ignored": 5},
       {"part": "foot_r", "ignored": 5}, {"part": "arm_l", "ignored": 14},
       {"part": "arm_r", "ignored": 14}, {"part": "hand_l", "ignored": 4},
-      {"part": "hand_r", "ignored": 4}, {"part": "torso", "ignored": 10}
+      {"part": "hand_r", "ignored": 4}, {"part": "TORSO", "ignored": 10}
     ],
     "armor": [
       {
@@ -294,7 +294,7 @@
         ],
         "cut": 2
       },
-      {"parts": ["torso", "mouth", "eyes"], "cut": 1}
+      {"parts": ["TORSO", "MOUTH", "EYES"], "cut": 1}
     ]
   },
   {
