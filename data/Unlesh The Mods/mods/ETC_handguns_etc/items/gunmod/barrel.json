@@ -13,7 +13,7 @@
     "material": [ "diamond", "superalloy", "steel" ],
     "symbol": ":",
     "color": "dark_gray",
-    "ammo": "plasma",
+    "ammo": [ "plasma" ],
     "initial_charges": 0,
     "max_charges": 1,
     "gunmod_data": {
@@ -22,7 +22,7 @@
       "integral_volume": 7,
       "mod_targets": [ "rifle" ],
       "dispersion_modifier": -855,
-      "damage_modifier": 45,
+      "damage_modifier": { "damage_type": "stab", "amount": 45 },
       "range_modifier": 40,
       "durability_modifier": 7
     },
@@ -51,14 +51,14 @@
     "material": [ "diamond", "superalloy", "steel" ],
     "symbol": ":",
     "color": "dark_gray",
-    "ammo": "plasma",
+    "ammo": [ "plasma" ],
     "gunmod_data": {
       "location": "barrel",
       "volume": 9,
       "integral_volume": 7,
       "mod_targets": [ "rifle" ],
       "dispersion_modifier": -900,
-      "damage_modifier": 83,
+      "damage_modifier": { "damage_type": "stab", "amount": 83 },
       "handling_modifier": -15,
       "ammo_effects": [ "TRAIL", "INCENDIARY" ],
       "range_modifier": 40
@@ -87,7 +87,7 @@
     "integral_volume": 3,
     "material": [ "superalloy" ],
     "dispersion_modifier": 0,
-    "damage_modifier": 1,
+    "damage_modifier": { "damage_type": "stab", "amount": 1 },
     "range_modifier": 0,
     "flags": [ "IRREMOVABLE" ]
   },
@@ -102,7 +102,7 @@
     "integral_volume": 1,
     "material": [ "superalloy" ],
     "dispersion_modifier": 25,
-    "damage_modifier": -4,
+    "damage_modifier": { "damage_type": "stab", "amount": -4 },
     "range_modifier": -9,
     "add_mod": [ [ "underbarrel", 1 ], [ "stock", 1 ] ],
     "flags": [ "IRREMOVABLE" ]
@@ -118,7 +118,7 @@
     "integral_volume": 0,
     "material": [ "superalloy" ],
     "dispersion_modifier": 50,
-    "damage_modifier": -5,
+    "damage_modifier": { "damage_type": "stab", "amount": -5 },
     "range_modifier": -18,
     "//": "because of accuracy loss, not because the round won't travel farther and still remain lethal, as in the AKS-74U",
     "add_mod": [ [ "underbarrel", 1 ], [ "stock", 1 ] ],
@@ -135,7 +135,7 @@
     "integral_volume": 3,
     "material": [ "superalloy" ],
     "dispersion_modifier": 0,
-    "damage_modifier": 1,
+    "damage_modifier": { "damage_type": "stab", "amount": 1 },
     "range_modifier": 0,
     "add_mod": [ [ "stock", 1 ] ],
     "durability_modifier": 1,
@@ -152,7 +152,7 @@
     "integral_volume": 4,
     "material": [ "superalloy" ],
     "dispersion_modifier": -20,
-    "damage_modifier": 3,
+    "damage_modifier": { "damage_type": "stab", "amount": 3 },
     "range_modifier": 5,
     "flags": [ "IRREMOVABLE" ]
   }

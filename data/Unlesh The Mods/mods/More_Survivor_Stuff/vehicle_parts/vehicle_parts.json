@@ -7,7 +7,7 @@
     "color": "light_cyan",
     "broken_symbol": "x",
     "broken_color": "cyan",
-    "damage_modifier": 10,
+    "damage_modifier": { "damage_type": "stab", "amount": 10 },
     "durability": 80,
     "description": "A machining rig mounted to the vehicle. It has its own power supply.  If you attempt to craft an item that requires machining, this will fulfill the need.",
     "size": 200,
