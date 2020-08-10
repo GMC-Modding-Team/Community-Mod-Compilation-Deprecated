@@ -25,7 +25,7 @@
     "mending_modifier": 0.75,
 	"armor": [
       {
-        "parts": [ "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "MOUTH", "EYES", "head" ],
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
         "cut": 1,
 		"bash": 2
       }
@@ -46,7 +46,7 @@
     "mending_modifier": 0.50,
 	"armor": [
       {
-        "parts": [ "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "MOUTH", "EYES" ],
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
         "cut": 5,
 		"pierce": 5,
 		"bash": 5,
@@ -79,7 +79,7 @@
 	"flags": [ "NO_DISEASE", "NO_INFECTION", "NO_POISON", "NO_RADIATION", "NO_PARASITE" ],
 	"armor": [
       {
-        "parts": [ "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "MOUTH", "EYES", "head" ],
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
         "cut": 30,
 		"pierce": 30,
 		"bash": 15,
@@ -255,7 +255,7 @@
     "visibility": 1,
     "ugliness": 1,
     "mixed_effect": true,
-    "encumbrance_always": [ [ "TORSO", 10 ], [ "arm_l", 10 ], [ "arm_r", 10 ] ],
+    "encumbrance_always": [ [ "TORSO", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
     "description": "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +2), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
     "prereqs": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4" ],
     "cancels": [ "SMALL", "SMALL2" ],

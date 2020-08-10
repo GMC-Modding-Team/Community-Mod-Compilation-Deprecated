@@ -83,7 +83,7 @@
         "strength_damage": { "damage_type": "bash", "amount": 0.5 }
       }
     ],
-    "armor": [ { "parts": [ "arm_l", "arm_r" ], "bash": 2 } ],
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 2 } ],
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -112,7 +112,7 @@
         "strength_damage": { "damage_type": "bash", "amount": 0.7 }
       }
     ],
-    "armor": [ { "parts": [ "arm_l", "arm_r" ], "bash": 6 } ],
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 6 } ],
     "passive_mods": { "dex_mod": -2 },
     "category": [ "SECRONOM_EX" ]
   },
@@ -133,26 +133,26 @@
     "encumbrance_always": [
       [ "hand_l", 15 ],
       [ "hand_r", 15 ],
-      [ "foot_r", 5 ],
-      [ "foot_l", 5 ],
-      [ "leg_r", 5 ],
-      [ "leg_l", 5 ],
+      [ "FOOT_R", 5 ],
+      [ "FOOT_L", 5 ],
+      [ "LEG_R", 5 ],
+      [ "LEG_L", 5 ],
       [ "TORSO", 5 ],
-      [ "head", 5 ],
-      [ "arm_l", 5 ],
-      [ "arm_r", 5 ]
+      [ "HEAD", 5 ],
+      [ "ARM_L", 5 ],
+      [ "ARM_R", 5 ]
     ],
     "encumbrance_covered": [
       [ "hand_l", 25 ],
       [ "hand_r", 25 ],
-      [ "foot_r", 25 ],
-      [ "foot_l", 25 ],
-      [ "leg_r", 25 ],
-      [ "leg_l", 25 ],
+      [ "FOOT_R", 25 ],
+      [ "FOOT_L", 25 ],
+      [ "LEG_R", 25 ],
+      [ "LEG_L", 25 ],
       [ "TORSO", 25 ],
-      [ "head", 25 ],
-      [ "arm_l", 25 ],
-      [ "arm_r", 25 ]
+      [ "HEAD", 25 ],
+      [ "ARM_L", 25 ],
+      [ "ARM_R", 25 ]
     ],
     "rand_bash_bonus": { "min": 1, "max": 2 },
     "attacks": [
@@ -171,7 +171,7 @@
         "strength_damage": { "damage_type": "stab", "amount": 0.3 }
       }
     ],
-    "armor": [ { "parts": [ "arm_l", "arm_r" ], "bash": 1 }, { "parts": "ALL", "bash": 2 } ],
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 1 }, { "parts": "ALL", "bash": 2 } ],
     "passive_mods": { "dex_mod": 1 },
     "attackcost_modifier": 0.95,
     "category": [ "SECRONOM_EX" ]
@@ -188,7 +188,7 @@
     "prereqs": [ "SECRO_TENDRIL_THICK" ],
     "threshreq": [ "THRESH_SECRONOM_EX" ],
     "cancels": [ "SECRO_BLADE_SHARP_THRESHOLD", "SECRO_BLADE_SERRATED_THRESHOLD", "SECRO_TENDRIL_TENT_THRESHOLD" ],
-    "armor": [ { "parts": [ "arm_l", "arm_r" ], "bash": 4 } ],
+    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 4 } ],
     "bash_dmg_bonus": 4,
     "passive_mods": { "str_mod": 2 },
     "category": [ "SECRONOM_EX" ]
@@ -233,7 +233,7 @@
     ],
     "encumbrance_always": [ [ "hand_l", 100 ] ],
     "rand_bash_bonus": { "min": 4, "max": 8 },
-    "armor": [ { "parts": "arm_l", "bash": 10, "cut": 10, "stab": 10 } ],
+    "armor": [ { "parts": "ARM_L", "bash": 10, "cut": 10, "stab": 10 } ],
     "category": [ "SECRONOM_EX" ]
   },
   {
@@ -252,7 +252,7 @@
     "additions": [ "SECRO_BLADE_SHARP_THRESHOLD" ],
     "encumbrance_always": [ [ "hand_l", 100 ] ],
     "rand_cut_bonus": { "min": 4, "max": 12 },
-    "armor": [ { "parts": "arm_l", "bash": 6, "cut": 6, "stab": 6 } ],
+    "armor": [ { "parts": "ARM_L", "bash": 6, "cut": 6, "stab": 6 } ],
     "attackcost_modifier": 0.9,
     "category": [ "SECRONOM_EX" ]
   },
@@ -273,7 +273,7 @@
     "encumbrance_always": [ [ "hand_l", 100 ] ],
     "rand_cut_bonus": { "min": 3, "max": 8 },
     "rand_bash_bonus": { "min": 3, "max": 8 },
-    "armor": [ { "parts": "arm_l", "bash": 14, "cut": 14, "stab": 14 } ],
+    "armor": [ { "parts": "ARM_L", "bash": 14, "cut": 14, "stab": 14 } ],
     "attackcost_modifier": 1.05,
     "category": [ "SECRONOM_EX" ]
   },
@@ -323,26 +323,26 @@
     "encumbrance_always": [
       [ "hand_l", 10 ],
       [ "hand_r", 10 ],
-      [ "foot_r", 10 ],
-      [ "foot_l", 10 ],
-      [ "leg_r", 10 ],
-      [ "leg_l", 10 ],
+      [ "FOOT_R", 10 ],
+      [ "FOOT_L", 10 ],
+      [ "LEG_R", 10 ],
+      [ "LEG_L", 10 ],
       [ "TORSO", 10 ],
-      [ "head", 10 ],
-      [ "arm_l", 10 ],
-      [ "arm_r", 10 ]
+      [ "HEAD", 10 ],
+      [ "ARM_L", 10 ],
+      [ "ARM_R", 10 ]
     ],
     "encumbrance_covered": [
       [ "hand_l", 7 ],
       [ "hand_r", 7 ],
-      [ "foot_r", 7 ],
-      [ "foot_l", 7 ],
-      [ "leg_r", 7 ],
-      [ "leg_l", 7 ],
+      [ "FOOT_R", 7 ],
+      [ "FOOT_L", 7 ],
+      [ "LEG_R", 7 ],
+      [ "LEG_L", 7 ],
       [ "TORSO", 7 ],
-      [ "head", 7 ],
-      [ "arm_l", 7 ],
-      [ "arm_r", 7 ]
+      [ "HEAD", 7 ],
+      [ "ARM_L", 7 ],
+      [ "ARM_R", 7 ]
     ],
     "armor": [ { "parts": "ALL", "cut": 4, "bash": 4, "stab": 4 } ],
     "dodge_modifier": -0.1,
@@ -368,26 +368,26 @@
     "encumbrance_always": [
       [ "hand_l", 15 ],
       [ "hand_r", 15 ],
-      [ "foot_r", 15 ],
-      [ "foot_l", 15 ],
-      [ "leg_r", 15 ],
-      [ "leg_l", 15 ],
+      [ "FOOT_R", 15 ],
+      [ "FOOT_L", 15 ],
+      [ "LEG_R", 15 ],
+      [ "LEG_L", 15 ],
       [ "TORSO", 15 ],
-      [ "head", 15 ],
-      [ "arm_l", 15 ],
-      [ "arm_r", 15 ]
+      [ "HEAD", 15 ],
+      [ "ARM_L", 15 ],
+      [ "ARM_R", 15 ]
     ],
     "encumbrance_covered": [
       [ "hand_l", 10 ],
       [ "hand_r", 10 ],
-      [ "foot_r", 10 ],
-      [ "foot_l", 10 ],
-      [ "leg_r", 10 ],
-      [ "leg_l", 10 ],
+      [ "FOOT_R", 10 ],
+      [ "FOOT_L", 10 ],
+      [ "LEG_R", 10 ],
+      [ "LEG_L", 10 ],
       [ "TORSO", 10 ],
-      [ "head", 10 ],
-      [ "arm_l", 10 ],
-      [ "arm_r", 10 ]
+      [ "HEAD", 10 ],
+      [ "ARM_L", 10 ],
+      [ "ARM_R", 10 ]
     ],
     "armor": [ { "parts": "ALL", "cut": 6, "bash": 6, "stab": 6 } ],
     "dodge_modifier": -0.125,
@@ -411,26 +411,26 @@
     "encumbrance_always": [
       [ "hand_l", 8 ],
       [ "hand_r", 8 ],
-      [ "foot_r", 8 ],
-      [ "foot_l", 8 ],
-      [ "leg_r", 8 ],
-      [ "leg_l", 8 ],
+      [ "FOOT_R", 8 ],
+      [ "FOOT_L", 8 ],
+      [ "LEG_R", 8 ],
+      [ "LEG_L", 8 ],
       [ "TORSO", 8 ],
-      [ "head", 8 ],
-      [ "arm_l", 8 ],
-      [ "arm_r", 8 ]
+      [ "HEAD", 8 ],
+      [ "ARM_L", 8 ],
+      [ "ARM_R", 8 ]
     ],
     "encumbrance_covered": [
       [ "hand_l", 5 ],
       [ "hand_r", 5 ],
-      [ "foot_r", 5 ],
-      [ "foot_l", 5 ],
-      [ "leg_r", 5 ],
-      [ "leg_l", 5 ],
+      [ "FOOT_R", 5 ],
+      [ "FOOT_L", 5 ],
+      [ "LEG_R", 5 ],
+      [ "LEG_L", 5 ],
       [ "TORSO", 5 ],
-      [ "head", 5 ],
-      [ "arm_l", 5 ],
-      [ "arm_r", 5 ]
+      [ "HEAD", 5 ],
+      [ "ARM_L", 5 ],
+      [ "ARM_R", 5 ]
     ],
     "armor": [ { "parts": "ALL", "cut": 9, "bash": 9, "stab": 9 } ],
     "dodge_modifier": -0.075,
@@ -453,26 +453,26 @@
     "encumbrance_always": [
       [ "hand_l", 20 ],
       [ "hand_r", 20 ],
-      [ "foot_r", 20 ],
-      [ "foot_l", 20 ],
-      [ "leg_r", 20 ],
-      [ "leg_l", 20 ],
+      [ "FOOT_R", 20 ],
+      [ "FOOT_L", 20 ],
+      [ "LEG_R", 20 ],
+      [ "LEG_L", 20 ],
       [ "TORSO", 20 ],
-      [ "head", 20 ],
-      [ "arm_l", 20 ],
-      [ "arm_r", 20 ]
+      [ "HEAD", 20 ],
+      [ "ARM_L", 20 ],
+      [ "ARM_R", 20 ]
     ],
     "encumbrance_covered": [
       [ "hand_l", 15 ],
       [ "hand_r", 15 ],
-      [ "foot_r", 15 ],
-      [ "foot_l", 15 ],
-      [ "leg_r", 15 ],
-      [ "leg_l", 15 ],
+      [ "FOOT_R", 15 ],
+      [ "FOOT_L", 15 ],
+      [ "LEG_R", 15 ],
+      [ "LEG_L", 15 ],
       [ "TORSO", 15 ],
-      [ "head", 15 ],
-      [ "arm_l", 15 ],
-      [ "arm_r", 10 ]
+      [ "HEAD", 15 ],
+      [ "ARM_L", 15 ],
+      [ "ARM_R", 10 ]
     ],
     "armor": [ { "parts": "ALL", "cut": 12, "bash": 12, "stab": 12 } ],
     "dodge_modifier": -0.2,

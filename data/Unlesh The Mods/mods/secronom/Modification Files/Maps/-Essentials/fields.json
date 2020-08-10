@@ -170,12 +170,12 @@
     "intensity_levels": [
       {
         "name": "resonant voice",
-        "effects": [ { "effect_id": "secro_dissed", "body_part": "head", "min_duration": "4 seconds", "max_duration": "4 seconds" } ]
+        "effects": [ { "effect_id": "secro_dissed", "body_part": "HEAD", "min_duration": "4 seconds", "max_duration": "4 seconds" } ]
       }
     ],
     "priority": -1,
     "half_life": "6 seconds",
-    "immunity_data": { "body_part_env_resistance": [ [ "head", 5 ] ] },
+    "immunity_data": { "body_part_env_resistance": [ [ "HEAD", 5 ] ] },
     "gas_absorption_factor": 10,
     "percent_spread": 5,
     "dirty_transparency_cache": true,
@@ -254,7 +254,7 @@
         "name": "loathful pressence",
         "sym": "0",
         "dangerous": true,
-        "effects": [ { "effect_id": "secro_nix_fear", "body_part": "head", "min_duration": "1 seconds", "max_duration": "2 seconds" } ]
+        "effects": [ { "effect_id": "secro_nix_fear", "body_part": "HEAD", "min_duration": "1 seconds", "max_duration": "2 seconds" } ]
       }
     ],
     "priority": -1,
@@ -307,20 +307,20 @@
         "effects": [
           {
             "effect_id": "secro_gorepit_wall_dmg",
-            "body_part": "leg_r",
+            "body_part": "LEG_R",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           },
           {
             "effect_id": "secro_gorepit_wall_dmg",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
         ]
       }
     ],
-    "immunity_data": { "body_part_env_resistance": [ [ "leg_l", 25 ], [ "leg_r", 25 ] ] },
+    "immunity_data": { "body_part_env_resistance": [ [ "LEG_L", 25 ], [ "LEG_R", 25 ] ] },
     "priority": 1,
     "half_life": "1 seconds",
     "phase": "solid",
@@ -376,10 +376,10 @@
         "color": "dark_gray",
         "dangerous": true,
         "effects": [
-          { "effect_id": "secro_cordev_corrupt", "body_part": "leg_r", "min_duration": "1 seconds", "max_duration": "1 seconds" },
+          { "effect_id": "secro_cordev_corrupt", "body_part": "LEG_R", "min_duration": "1 seconds", "max_duration": "1 seconds" },
           {
             "effect_id": "secro_cordev_corrupt",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
@@ -390,10 +390,10 @@
         "name": "pool of corrupted acid",
         "color": "light_gray",
         "effects": [
-          { "effect_id": "secro_cordev_corrupt", "body_part": "leg_r", "min_duration": "1 seconds", "max_duration": "2 seconds" },
+          { "effect_id": "secro_cordev_corrupt", "body_part": "LEG_R", "min_duration": "1 seconds", "max_duration": "2 seconds" },
           {
             "effect_id": "secro_cordev_corrupt",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "2 seconds"
           }
@@ -908,10 +908,10 @@
         "name": "...",
         "color": "black",
         "effects": [
-          { "effect_id": "secro_flesh_bones", "body_part": "leg_r", "min_duration": "1 seconds", "max_duration": "1 seconds" },
+          { "effect_id": "secro_flesh_bones", "body_part": "LEG_R", "min_duration": "1 seconds", "max_duration": "1 seconds" },
           {
             "effect_id": "secro_flesh_bones",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
@@ -921,7 +921,7 @@
     "priority": -1,
     "half_life": "1 seconds",
     "phase": "gas",
-    "immunity_data": { "body_part_env_resistance": [ [ "leg_l", 10 ], [ "leg_r", 10 ] ] },
+    "immunity_data": { "body_part_env_resistance": [ [ "LEG_L", 10 ], [ "LEG_R", 10 ] ] },
     "display_items": true,
     "display_field": false
   },
@@ -933,10 +933,10 @@
         "name": "...",
         "color": "black",
         "effects": [
-          { "effect_id": "secro_flesh_tendrils", "body_part": "leg_r", "min_duration": "1 seconds", "max_duration": "1 seconds" },
+          { "effect_id": "secro_flesh_tendrils", "body_part": "LEG_R", "min_duration": "1 seconds", "max_duration": "1 seconds" },
           {
             "effect_id": "secro_flesh_tendrils",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
@@ -946,7 +946,7 @@
     "priority": -1,
     "half_life": "1 seconds",
     "phase": "gas",
-    "immunity_data": { "body_part_env_resistance": [ [ "leg_r", 15 ] ] },
+    "immunity_data": { "body_part_env_resistance": [ [ "LEG_R", 15 ] ] },
     "display_items": true,
     "display_field": false
   },
@@ -958,7 +958,7 @@
         "name": "...",
         "color": "black",
         "effects": [
-          { "effect_id": "secro_flesh_biome", "body_part": "head", "min_duration": "1 seconds", "max_duration": "1 seconds" },
+          { "effect_id": "secro_flesh_biome", "body_part": "HEAD", "min_duration": "1 seconds", "max_duration": "1 seconds" },
           {
             "effect_id": "secro_flesh_biome",
             "body_part": "TORSO",
@@ -967,25 +967,25 @@
           },
           {
             "effect_id": "secro_flesh_biome",
-            "body_part": "arm_l",
+            "body_part": "ARM_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           },
           {
             "effect_id": "secro_flesh_biome",
-            "body_part": "arm_r",
+            "body_part": "ARM_R",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           },
           {
             "effect_id": "secro_flesh_biome",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           },
           {
             "effect_id": "secro_flesh_biome",
-            "body_part": "leg_r",
+            "body_part": "LEG_R",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
@@ -995,7 +995,7 @@
     "priority": -1,
     "half_life": "1 seconds",
     "phase": "gas",
-    "immunity_data": { "body_part_env_resistance": [ [ "head", 2 ] ] },
+    "immunity_data": { "body_part_env_resistance": [ [ "HEAD", 2 ] ] },
     "display_items": true,
     "display_field": false
   },
@@ -1093,10 +1093,10 @@
         "color": "red",
         "dangerous": true,
         "effects": [
-          { "effect_id": "secro_blood_acid", "body_part": "leg_r", "min_duration": "1 seconds", "max_duration": "1 seconds" },
+          { "effect_id": "secro_blood_acid", "body_part": "LEG_R", "min_duration": "1 seconds", "max_duration": "1 seconds" },
           {
             "effect_id": "secro_blood_acid",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
@@ -1107,10 +1107,10 @@
         "name": "pool of blood acid",
         "color": "light_red",
         "effects": [
-          { "effect_id": "secro_blood_acid", "body_part": "leg_r", "min_duration": "1 seconds", "max_duration": "2 seconds" },
+          { "effect_id": "secro_blood_acid", "body_part": "LEG_R", "min_duration": "1 seconds", "max_duration": "2 seconds" },
           {
             "effect_id": "secro_blood_acid",
-            "body_part": "leg_l",
+            "body_part": "LEG_L",
             "min_duration": "1 seconds",
             "max_duration": "2 seconds"
           }
@@ -1251,7 +1251,7 @@
         "effects": [
           {
             "effect_id": "secro_power_armor_flesh_linked",
-            "body_part": "head",
+            "body_part": "HEAD",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
@@ -1297,7 +1297,7 @@
         "effects": [
           {
             "effect_id": "mon_sflesh_fleshling_huge_limit",
-            "body_part": "head",
+            "body_part": "HEAD",
             "min_duration": "1 seconds",
             "max_duration": "1 seconds"
           }
