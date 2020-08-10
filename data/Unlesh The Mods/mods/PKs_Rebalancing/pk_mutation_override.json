@@ -919,8 +919,8 @@
       [ "HEAD", 15 ],
       [ "ARM_L", 15 ],
       [ "ARM_R", 15 ],
-      [ "hand_l", 10 ],
-      [ "hand_r", 10 ],
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
       [ "LEG_L", 15 ],
       [ "LEG_R", 15 ],
       [ "FOOT_L", 10 ],
@@ -965,8 +965,8 @@
       [ "HEAD", 13 ],
       [ "ARM_L", 13 ],
       [ "ARM_R", 13 ],
-      [ "hand_l", 12 ],
-      [ "hand_r", 12 ],
+      [ "HAND_L", 12 ],
+      [ "HAND_R", 12 ],
       [ "LEG_L", 13 ],
       [ "LEG_R", 13 ],
       [ "FOOT_L", 12 ],
@@ -1326,8 +1326,8 @@
       [ "MOUTH", 5 ],
       [ "ARM_L", 5 ],
       [ "ARM_R", 5 ],
-      [ "hand_l", 5 ],
-      [ "hand_r", 5 ],
+      [ "HAND_L", 5 ],
+      [ "HAND_R", 5 ],
       [ "LEG_L", 5 ],
       [ "LEG_R", 5 ],
       [ "FOOT_L", 5 ],
@@ -1707,7 +1707,7 @@
     "ugliness": 4,
     "mixed_effect": true,
     "description": "Your arms have transformed into tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 25, and inability to wear gloves.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [ [ "hand_l", 25 ], [ "hand_r", 25 ] ]
+    "encumbrance_always": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ] ]
   },
   {
     "type": "mutation",
@@ -1718,7 +1718,7 @@
     "visibility": 8,
     "ugliness": 5,
     "description": "Your arms have transformed into four tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 25, and inability to wear gloves.  You can make up to 3 extra attacks with them.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [ [ "hand_l", 25 ], [ "hand_r", 25 ] ]
+    "encumbrance_always": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ] ]
   },
   {
     "type": "mutation",
@@ -1729,7 +1729,7 @@
     "visibility": 9,
     "ugliness": 6,
     "description": "Your arms have transformed into eight tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 25, and inability to wear gloves.  You can make up to 7 extra attacks with them.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [ [ "hand_l", 25 ], [ "hand_r", 25 ] ]
+    "encumbrance_always": [ [ "HAND_L", 25 ], [ "HAND_R", 25 ] ]
   },
   {
     "type": "mutation",

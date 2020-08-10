@@ -13,7 +13,7 @@
     "material": [ "hardsteel", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R" ],
+    "covers": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R" ],
     "coverage": 100,
     "encumbrance": 60,
     "storage": 16,
@@ -45,7 +45,7 @@
     "power_draw": 4000000,
     "revert_to": "power_armor_basic",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your power armor disengages.", "target": "power_armor_mutant" },
-    "covers": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R" ],
+    "covers": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R" ],
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",

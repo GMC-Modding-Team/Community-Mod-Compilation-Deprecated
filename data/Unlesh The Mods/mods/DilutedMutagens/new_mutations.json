@@ -15,12 +15,12 @@
       {"part": "LEG_L", "ignored": 4}, {"part": "LEG_R", "ignored": 4},
       {"part": "FOOT_L", "ignored": 1}, {"part": "FOOT_R", "ignored": 1},
       {"part": "ARM_L", "ignored": 3}, {"part": "ARM_R", "ignored": 3},
-      {"part": "hand_l", "ignored": 1}, {"part": "hand_r", "ignored": 1}
+      {"part": "HAND_L", "ignored": 1}, {"part": "HAND_R", "ignored": 1}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 1
       }
@@ -60,7 +60,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 1
       }
@@ -83,7 +83,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 1
       }
@@ -106,7 +106,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 1
       }
@@ -142,12 +142,12 @@
       {"part": "LEG_L", "ignored": 5}, {"part": "LEG_R", "ignored": 5},
       {"part": "FOOT_L", "ignored": 1}, {"part": "FOOT_R", "ignored": 1},
       {"part": "ARM_L", "ignored": 4}, {"part": "ARM_R", "ignored": 4},
-      {"part": "hand_l", "ignored": 1}, {"part": "hand_r", "ignored": 1}
+      {"part": "HAND_L", "ignored": 1}, {"part": "HAND_R", "ignored": 1}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 2,
         "cut": 2
@@ -172,12 +172,12 @@
       {"part": "LEG_L", "ignored": 9}, {"part": "LEG_R", "ignored": 9},
       {"part": "FOOT_L", "ignored": 2}, {"part": "FOOT_R", "ignored": 2},
       {"part": "ARM_L", "ignored": 8}, {"part": "ARM_R", "ignored": 8},
-      {"part": "hand_l", "ignored": 2}, {"part": "hand_r", "ignored": 2}
+      {"part": "HAND_L", "ignored": 2}, {"part": "HAND_R", "ignored": 2}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 4,
         "cut": 4
@@ -202,16 +202,16 @@
       {"part": "LEG_L", "ignored": 14}, {"part": "LEG_R", "ignored": 14},
       {"part": "FOOT_L", "ignored": 4}, {"part": "FOOT_R", "ignored": 4},
       {"part": "ARM_L", "ignored": 12}, {"part": "ARM_R", "ignored": 12},
-      {"part": "hand_l", "ignored": 3}, {"part": "hand_r", "ignored": 3}
+      {"part": "HAND_L", "ignored": 3}, {"part": "HAND_R", "ignored": 3}
     ],
     "encumbrance_always": [
-      ["ARM_L", 10], ["ARM_R", 10], ["hand_l", 10], ["hand_r", 10], ["LEG_L", 10],
+      ["ARM_L", 10], ["ARM_R", 10], ["HAND_L", 10], ["HAND_R", 10], ["LEG_L", 10],
       ["LEG_R", 10], ["FOOT_L", 10], ["FOOT_R", 10]
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 8,
         "cut": 8
@@ -236,7 +236,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "bash": 2,
         "cut": 2
@@ -260,7 +260,7 @@
     "armor": [
       {
         "parts": [
-          "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L",
+          "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L",
           "FOOT_R", "MOUTH", "EYES"
         ],
         "bash": 4,
@@ -284,13 +284,13 @@
       {"part": "HEAD", "ignored": 4}, {"part": "LEG_L", "ignored": 16},
       {"part": "LEG_R", "ignored": 16}, {"part": "FOOT_L", "ignored": 5},
       {"part": "FOOT_R", "ignored": 5}, {"part": "ARM_L", "ignored": 14},
-      {"part": "ARM_R", "ignored": 14}, {"part": "hand_l", "ignored": 4},
-      {"part": "hand_r", "ignored": 4}, {"part": "TORSO", "ignored": 10}
+      {"part": "ARM_R", "ignored": 14}, {"part": "HAND_L", "ignored": 4},
+      {"part": "HAND_R", "ignored": 4}, {"part": "TORSO", "ignored": 10}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "cut": 2
       },
@@ -313,12 +313,12 @@
       {"part": "LEG_L", "ignored": 10}, {"part": "LEG_R", "ignored": 10},
       {"part": "FOOT_L", "ignored": 3}, {"part": "FOOT_R", "ignored": 3},
       {"part": "ARM_L", "ignored": 9}, {"part": "ARM_R", "ignored": 9},
-      {"part": "hand_l", "ignored": 2}, {"part": "hand_r", "ignored": 2}
+      {"part": "HAND_L", "ignored": 2}, {"part": "HAND_R", "ignored": 2}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "cut": 2
       }
@@ -341,12 +341,12 @@
       {"part": "LEG_L", "good": 21}, {"part": "LEG_R", "good": 21},
       {"part": "FOOT_L", "good": 6}, {"part": "FOOT_R", "good": 6},
       {"part": "ARM_L", "good": 19}, {"part": "ARM_R", "good": 19},
-      {"part": "hand_l", "good": 5}, {"part": "hand_r", "good": 5}
+      {"part": "HAND_L", "good": 5}, {"part": "HAND_R", "good": 5}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
         ],
         "cut": 1
       }
