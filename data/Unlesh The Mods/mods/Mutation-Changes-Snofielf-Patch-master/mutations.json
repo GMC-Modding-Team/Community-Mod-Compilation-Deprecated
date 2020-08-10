@@ -66,8 +66,8 @@
       { "part": "FOOT_R", "ignored": 1 },
       { "part": "ARM_L", "ignored": 4 },
       { "part": "ARM_R", "ignored": 4 },
-      { "part": "hand_l", "ignored": 1 },
-      { "part": "hand_r", "ignored": 1 },
+      { "part": "HAND_L", "ignored": 1 },
+      { "part": "HAND_R", "ignored": 1 },
       { "part": "TORSO", "ignored": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 3, "cut": 3, "acid": 1 } ]
@@ -110,8 +110,8 @@
       { "part": "FOOT_R", "ignored": 2 },
       { "part": "ARM_L", "ignored": 8 },
       { "part": "ARM_R", "ignored": 8 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 18 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 2 } ]
@@ -154,8 +154,8 @@
       { "part": "FOOT_R", "ignored": 4 },
       { "part": "ARM_L", "ignored": 12 },
       { "part": "ARM_R", "ignored": 12 },
-      { "part": "hand_l", "ignored": 3 },
-      { "part": "hand_r", "ignored": 3 },
+      { "part": "HAND_L", "ignored": 3 },
+      { "part": "HAND_R", "ignored": 3 },
       { "part": "TORSO", "ignored": 26 }
     ],
     "encumbrance_always": [
@@ -163,8 +163,8 @@
       [ "HEAD", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
-      [ "hand_l", 10 ],
-      [ "hand_r", 10 ],
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
       [ "LEG_L", 10 ],
       [ "LEG_R", 10 ],
       [ "FOOT_L", 10 ],
@@ -242,8 +242,8 @@
       { "part": "FOOT_R", "ignored": 1 },
       { "part": "ARM_L", "ignored": 4 },
       { "part": "ARM_R", "ignored": 4 },
-      { "part": "hand_l", "ignored": 1 },
-      { "part": "hand_r", "ignored": 1 },
+      { "part": "HAND_L", "ignored": 1 },
+      { "part": "HAND_R", "ignored": 1 },
       { "part": "TORSO", "ignored": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 2 } ]
@@ -283,8 +283,8 @@
       { "part": "FOOT_R", "ignored": 2 },
       { "part": "ARM_L", "ignored": 8 },
       { "part": "ARM_R", "ignored": 8 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 18 }
     ],
     "encumbrance_always": [
@@ -292,8 +292,8 @@
       [ "HEAD", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
-      [ "hand_l", 10 ],
-      [ "hand_r", 10 ],
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
       [ "LEG_L", 10 ],
       [ "LEG_R", 10 ],
       [ "FOOT_L", 10 ],
@@ -533,7 +533,7 @@
     "visibility": 4,
     "ugliness": 3,
     "mixed_effect": true,
-    "restricts_gear": [ "hand_l", "hand_r" ],
+    "restricts_gear": [ "HAND_L", "HAND_R" ],
     "destroys_gear": true,
     "description": "Your fingers have grown into huge talons. After a bit of practice, you find that this does not affect your dexterity, but allows for a deadly unarmed attack.  They also prevent you from wearing gloves.",
     "prereqs": [ "NAILS" ],
@@ -671,7 +671,7 @@
     ],
     "restricts_gear": [ "FOOT_L", "FOOT_R" ],
     "destroys_gear": true,
-    "armor": [ { "parts": [ "FOOT_L", "FOOT_R", "LEG_L", "LEG_R", "hand_r", "hand_l", "ARM_L", "ARM_R" ], "cut": 2, "bash": 2 } ],
+    "armor": [ { "parts": [ "FOOT_L", "FOOT_R", "LEG_L", "LEG_R", "HAND_R", "HAND_L", "ARM_L", "ARM_R" ], "cut": 2, "bash": 2 } ],
     "passive_mods": { "dex_mod": 3 },
     "attacks": {
       "attack_text_u": "You scratch and slash at %s with the claws on your feet",
@@ -996,8 +996,8 @@
       { "part": "FOOT_R", "neutral": 2, "good": 4 },
       { "part": "ARM_L", "neutral": 7, "good": 12 },
       { "part": "ARM_R", "neutral": 7, "good": 12 },
-      { "part": "hand_l", "neutral": 2, "good": 3 },
-      { "part": "hand_r", "neutral": 2, "good": 3 },
+      { "part": "HAND_L", "neutral": 2, "good": 3 },
+      { "part": "HAND_R", "neutral": 2, "good": 3 },
       { "part": "TORSO", "neutral": 14, "good": 26 }
     ]
   },
@@ -1267,8 +1267,8 @@
       { "part": "FOOT_R", "neutral": 1 },
       { "part": "ARM_L", "neutral": 4 },
       { "part": "ARM_R", "neutral": 4 },
-      { "part": "hand_l", "neutral": 1 },
-      { "part": "hand_r", "neutral": 1 },
+      { "part": "HAND_L", "neutral": 1 },
+      { "part": "HAND_R", "neutral": 1 },
       { "part": "TORSO", "neutral": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 3, "cut": 3 } ]
@@ -1314,8 +1314,8 @@
       { "part": "FOOT_R", "neutral": 3 },
       { "part": "ARM_L", "neutral": 8 },
       { "part": "ARM_R", "neutral": 8 },
-      { "part": "hand_l", "neutral": 3 },
-      { "part": "hand_r", "neutral": 3 },
+      { "part": "HAND_L", "neutral": 3 },
+      { "part": "HAND_R", "neutral": 3 },
       { "part": "TORSO", "neutral": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 5 } ]
@@ -1585,8 +1585,8 @@
       { "part": "FOOT_R", "ignored": 3 },
       { "part": "ARM_L", "ignored": 9 },
       { "part": "ARM_R", "ignored": 9 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2 } ]
@@ -1630,8 +1630,8 @@
       { "part": "FOOT_R", "ignored": 3 },
       { "part": "ARM_L", "ignored": 9 },
       { "part": "ARM_R", "ignored": 9 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 2, "cut": 3, "acid": 1 } ]
@@ -1677,8 +1677,8 @@
       { "part": "FOOT_R", "ignored": 3 },
       { "part": "ARM_L", "ignored": 9 },
       { "part": "ARM_R", "ignored": 9 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 1, "elec": 1 } ]
@@ -1960,8 +1960,8 @@
       { "part": "FOOT_R", "neutral": 4, "good": 8 },
       { "part": "ARM_L", "neutral": 14, "good": 20 },
       { "part": "ARM_R", "neutral": 14, "good": 20 },
-      { "part": "hand_l", "neutral": 4, "good": 8 },
-      { "part": "hand_r", "neutral": 4, "good": 8 },
+      { "part": "HAND_L", "neutral": 4, "good": 8 },
+      { "part": "HAND_R", "neutral": 4, "good": 8 },
       { "part": "TORSO", "neutral": 28, "good": 40 }
     ]
   },
@@ -2004,8 +2004,8 @@
       { "part": "FOOT_R", "good": 6 },
       { "part": "ARM_L", "good": 19 },
       { "part": "ARM_R", "good": 19 },
-      { "part": "hand_l", "good": 5 },
-      { "part": "hand_r", "good": 5 },
+      { "part": "HAND_L", "good": 5 },
+      { "part": "HAND_R", "good": 5 },
       { "part": "TORSO", "good": 40 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 2 } ]
@@ -2050,8 +2050,8 @@
       { "part": "FOOT_R", "ignored": 5 },
       { "part": "ARM_L", "ignored": 13 },
       { "part": "ARM_R", "ignored": 13 },
-      { "part": "hand_l", "ignored": 4 },
-      { "part": "hand_r", "ignored": 4 },
+      { "part": "HAND_L", "ignored": 4 },
+      { "part": "HAND_R", "ignored": 4 },
       { "part": "TORSO", "ignored": 26 }
     ],
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 5, "acid": 1 } ]
@@ -2521,7 +2521,7 @@
     "changes_to": [ "HUGE_OK" ],
     "category": [ "MUTCAT_CHIMERA" ],
     "passive_mods": { "str_mod": 6 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "hand_l", "hand_r", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -2539,7 +2539,7 @@
     "category": [ "MUTCAT_CHIMERA" ],
     "leads_to": [ "MUT_TOUGH" ],
     "passive_mods": { "str_mod": 8 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "hand_l", "hand_r", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -3940,12 +3940,12 @@
       "ARM_TENTACLES_8"
     ],
     "wet_protection": [
-      { "part": "hand_l", "good": 5 },
-      { "part": "hand_r", "good": 5 },
+      { "part": "HAND_L", "good": 5 },
+      { "part": "HAND_R", "good": 5 },
       { "part": "FOOT_R", "good": 5 },
       { "part": "FOOT_L", "good": 5 }
     ],
-    "encumbrance_covered": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ]
+    "encumbrance_covered": [ [ "HAND_L", 30 ], [ "HAND_R", 30 ] ]
   },
   {
     "type": "mutation",
@@ -4022,8 +4022,8 @@
       { "part": "FOOT_R", "ignored": 5 },
       { "part": "ARM_L", "ignored": 14 },
       { "part": "ARM_R", "ignored": 14 },
-      { "part": "hand_l", "ignored": 4 },
-      { "part": "hand_r", "ignored": 4 },
+      { "part": "HAND_L", "ignored": 4 },
+      { "part": "HAND_R", "ignored": 4 },
       { "part": "TORSO", "ignored": 30 }
     ],
     "armor": [ { "parts": "ALL", "bash": 4, "cut": 4, "acid": 1 } ]
@@ -4058,8 +4058,8 @@
       { "part": "FOOT_R", "ignored": 2 },
       { "part": "ARM_L", "ignored": 10 },
       { "part": "ARM_R", "ignored": 10 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 18 }
     ],
     "armor": [ { "parts": "ALL", "bash": 10, "cut": 10, "acid": 1 } ]
@@ -4106,8 +4106,8 @@
       { "part": "FOOT_R", "ignored": 5 },
       { "part": "ARM_L", "ignored": 14 },
       { "part": "ARM_R", "ignored": 14 },
-      { "part": "hand_l", "ignored": 4 },
-      { "part": "hand_r", "ignored": 4 },
+      { "part": "HAND_L", "ignored": 4 },
+      { "part": "HAND_R", "ignored": 4 },
       { "part": "TORSO", "ignored": 30 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 1 } ],
@@ -4377,8 +4377,8 @@
     "ugliness": 2,
     "mixed_effect": true,
     "description": "Your hands have fused into quasi-paws.  Fine manipulation is a challenge: permanent hand encumbrance of 10, difficulty with delicate craftwork, and your gloves don't fit.  But they handle water better.",
-    "encumbrance_always": [ [ "hand_l", 10 ], [ "hand_r", 10 ] ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
+    "encumbrance_always": [ [ "HAND_L", 10 ], [ "HAND_R", 10 ] ],
+    "restricts_gear": [ "HAND_L", "HAND_R" ],
     "prereqs": [ "CLAWS", "CLAWS_RETRACT" ],
     "cancels": [ "TALONS", "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8" ],
     "changes_to": [ "PAWS_LARGE", "CLAWS_ST" ]
@@ -4395,8 +4395,8 @@
     "wet_protection": [
       { "part": "ARM_L", "neutral": 50 },
       { "part": "ARM_R", "neutral": 50 },
-      { "part": "hand_l", "neutral": 10 },
-      { "part": "hand_r", "neutral": 10 }
+      { "part": "HAND_L", "neutral": 10 },
+      { "part": "HAND_R", "neutral": 10 }
     ],
     "encumbrance_always": [ [ "ARM_L", 5 ], [ "ARM_R", 5 ] ],
     "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 1, "cut": 1 } ]

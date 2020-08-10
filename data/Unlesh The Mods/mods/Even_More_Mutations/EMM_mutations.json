@@ -297,8 +297,8 @@
       { "part": "FOOT_R", "ignored": 4 },
       { "part": "ARM_L", "ignored": 12 },
       { "part": "ARM_R", "ignored": 12 },
-      { "part": "hand_l", "ignored": 3 },
-      { "part": "hand_r", "ignored": 3 },
+      { "part": "HAND_L", "ignored": 3 },
+      { "part": "HAND_R", "ignored": 3 },
       { "part": "TORSO", "ignored": 26 }
     ],
     "encumbrance_always": [
@@ -306,8 +306,8 @@
       [ "HEAD", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
-      [ "hand_l", 10 ],
-      [ "hand_r", 10 ],
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
       [ "LEG_L", 10 ],
       [ "LEG_R", 10 ],
       [ "FOOT_L", 10 ],
@@ -336,8 +336,8 @@
       { "part": "FOOT_R", "ignored": 6 },
       { "part": "ARM_L", "ignored": 16 },
       { "part": "ARM_R", "ignored": 16 },
-      { "part": "hand_l", "ignored": 6 },
-      { "part": "hand_r", "ignored": 6 },
+      { "part": "HAND_L", "ignored": 6 },
+      { "part": "HAND_R", "ignored": 6 },
       { "part": "TORSO", "ignored": 20 }
     ],
     "encumbrance_always": [
@@ -345,8 +345,8 @@
       [ "HEAD", 40 ],
       [ "ARM_L", 30 ],
       [ "ARM_R", 30 ],
-      [ "hand_l", 30 ],
-      [ "hand_r", 30 ],
+      [ "HAND_L", 30 ],
+      [ "HAND_R", 30 ],
       [ "LEG_L", 30 ],
       [ "LEG_R", 30 ],
       [ "FOOT_L", 30 ],
@@ -438,7 +438,7 @@
     "leads_to": [ "MUT_TOUGH" ],
     "category": [ "URSINE", "CATTLE", "CRAB" ],
     "passive_mods": { "str_mod": 4 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "hand_l", "hand_r", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -450,14 +450,14 @@
     "ugliness": 8,
     "mixed_effect": true,
     "description": "Instead of your right hand, you now have a giant crab claw. It encumbers you greatly, but you can occasionally use it in melee combat to deal massive damage.",
-    "encumbrance_always": [ [ "hand_r", 40 ] ],
+    "encumbrance_always": [ [ "HAND_R", 40 ] ],
     "valid": false,
     "cancels": [ "NAILS", "CLAWS", "TALONS", "WEBBED", "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8" ],
     "threshreq": [ "THRESH_CRAB" ],
     "category": [ "CRAB" ],
-    "restricts_gear": [ "hand_r" ],
+    "restricts_gear": [ "HAND_R" ],
     "types": [ "HANDS" ],
-    "armor": [ { "parts": [ "hand_r" ], "bash": 2, "cut": 2 } ],
+    "armor": [ { "parts": [ "HAND_R" ], "bash": 2, "cut": 2 } ],
     "attacks": {
       "attack_text_u": "You pinch %s with your giant claw",
       "attack_text_npc": "%1$s pinches %2$s with their giant claw",
@@ -514,7 +514,7 @@
     "passive_mods": { "str_mod": 4 },
     "hp_adjustment": -6,
     "fatigue_modifier": 0.15,
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "hand_l", "hand_r", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -567,8 +567,8 @@
       { "part": "FOOT_R", "ignored": 3 },
       { "part": "ARM_L", "ignored": 9 },
       { "part": "ARM_R", "ignored": 9 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "cut": 2 } ]
@@ -738,8 +738,8 @@
       { "part": "FOOT_R", "good": 6 },
       { "part": "ARM_L", "good": 19 },
       { "part": "ARM_R", "good": 19 },
-      { "part": "hand_l", "good": 5 },
-      { "part": "hand_r", "good": 5 },
+      { "part": "HAND_L", "good": 5 },
+      { "part": "HAND_R", "good": 5 },
       { "part": "TORSO", "good": 40 }
     ],
     "armor": [ { "parts": "ALL", "cut": 1 } ]

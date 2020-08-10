@@ -181,8 +181,8 @@
       { "part": "FOOT_R", "ignored": 3 },
       { "part": "ARM_L", "ignored": 9 },
       { "part": "ARM_R", "ignored": 9 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
+      { "part": "HAND_L", "ignored": 2 },
+      { "part": "HAND_R", "ignored": 2 },
       { "part": "TORSO", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 4, "stab": 2, "bullet": 1, "acid": 3 } ]
@@ -339,8 +339,8 @@
     "butchering_quality": 6,
     "types": [ "CLAWS" ],
     "category": [ "DRAGONBLOOD" ],
-    "encumbrance_always": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
-    "encumbrance_covered": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
+    "encumbrance_always": [ [ "HAND_L", 5 ], [ "HAND_R", 5 ] ],
+    "encumbrance_covered": [ [ "HAND_L", 5 ], [ "HAND_R", 5 ] ],
     "rand_cut_bonus": { "min": 2, "max": 6 }
   },
   {

@@ -13,7 +13,7 @@
     "type": "bionic",
     "name": "Precision Solderers",
     "description": "Your hands have been outfitted with precise soldering tools, wire cutters, and cable spools.  They're too small to use in most crafting, but in the absence of proper machinery, they're essential for creating bionics without better tools.",
-    "occupied_bodyparts": [ [ "hand_l", 1 ], [ "hand_r", 1 ] ],
+    "occupied_bodyparts": [ [ "HAND_L", 1 ], [ "HAND_R", 1 ] ],
     "fake_item": "afs_solderers_item"
   },
   {
@@ -22,7 +22,7 @@
     "//": "Watch those wrist rockets!",
     "name": "Deployable Grenade Launcher",
     "description": "Your right hand can fold inward to reveal a mechanism capable of igniting and firing 40mm grenades across medium distances.",
-    "occupied_bodyparts": [ [ "hand_r", 3 ] ],
+    "occupied_bodyparts": [ [ "HAND_R", 3 ] ],
     "fake_item": "afs_bionic_rocket",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ],
     "act_cost": 5
