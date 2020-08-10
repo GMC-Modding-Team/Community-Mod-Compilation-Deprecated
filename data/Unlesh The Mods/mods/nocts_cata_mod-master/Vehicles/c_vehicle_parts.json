@@ -53,7 +53,7 @@
     "color": "light_red",
     "broken_symbol": "x",
     "broken_color": "light_red",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "durability": 100,
     "item": "surv_station",
     "difficulty": 6,
@@ -316,7 +316,7 @@
     "power": -750,
     "epower": 370,
     "//": "30.8A @12VDC ~ 1HP drain @ 49% efficiency.  Based more on a sane value relative to motorbike alternators than a straight translation of the motor's efficiency.  Even Mark's rate of 65% would make this blow motorbike alternators out of the water.",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "folded_volume": 1,
     "breaks_into": [
       { "item": "plastic_chunk", "count": [ 1, 2 ] },
@@ -337,7 +337,7 @@
     "power": -7460,
     "epower": 5300,
     "//": "440A @12VDC ~ 10HP drain @ 71% efficiency.  Based on Mark's recommended efficiency for small motors.",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "folded_volume": 1,
     "breaks_into": [
       { "item": "steel_lump", "count": [ 1, 2 ] },
@@ -360,7 +360,7 @@
     "power": -37300,
     "epower": 33500,
     "//": "2791A @12VDC ~ 50HP drain @ 89% efficiency",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 5 ] },
@@ -382,7 +382,7 @@
     "power": -149200,
     "epower": 134100,
     "//": "11175A @12VDC ~ 200HP drain @ 89% efficiency",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 5 ] },
@@ -404,7 +404,7 @@
     "power": -313300,
     "epower": 283200,
     "//": "23600A @12VDC ~ 420HP drain @ 90% efficiency",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 5 ] },
@@ -426,7 +426,7 @@
     "power": -400000,
     "epower": 359500,
     "//": "29958A @12VDC ~ 536HP drain @ 89% efficiency.  Honestly seems like it'd probably fry something if you tried to dump this much power into a car battery.",
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "breaks_into": [
       { "item": "steel_lump", "count": [ 6, 10 ] },
       { "item": "steel_chunk", "count": [ 6, 10 ] },

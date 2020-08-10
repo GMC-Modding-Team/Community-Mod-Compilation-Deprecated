@@ -18,7 +18,7 @@
     "broken_color": "light_gray",
     "difficulty": 1,
     "durability": 37000,
-    "damage_modifier": 10,
+    "damage_modifier": { "damage_type": "stab", "amount": 10 },
     "breaks_into": [ { "item": "slime_scrap", "count": [ 3, 8 ] } ],
     "damage_reduction": { "all": 10 }
   },
