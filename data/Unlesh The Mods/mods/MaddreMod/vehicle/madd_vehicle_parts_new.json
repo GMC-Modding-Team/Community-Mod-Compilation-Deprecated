@@ -12,7 +12,7 @@
     "item": "30gal_drum",
     "difficulty": 1,
     "location": "center",
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "flags": [ "UNMOUNT_ON_DAMAGE", "OBSTACLE", "COVERED" ]
   },
   {
@@ -31,7 +31,7 @@
     "color": "dark_gray",
     "broken_symbol": "$",
     "broken_color": "brown",
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "durability": 350,
     "item": "con_mix",
     "tools": [ "con_mix" ],

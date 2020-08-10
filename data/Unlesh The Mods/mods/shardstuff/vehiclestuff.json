@@ -22,7 +22,7 @@
     "color": "light_gray",
     "broken_symbol": "*",
     "broken_color": "red",
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "durability": 250,
     "bonus": 12000,
     "item": "horn_raid",
@@ -62,7 +62,7 @@
     "difficulty": 1,
     "durability": 160,
     "size": 100000,
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "flags": [ "OBSTACLE", "OPAQUE" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 2, 2 ] },
@@ -142,7 +142,7 @@
     "broken_color": "red",
     "difficulty": 6,
     "durability": 1200,
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "flags": [ "OBSTACLE", "OPAQUE" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 5, 10 ] },
@@ -198,7 +198,7 @@
     "durability": 600,
     "power": 1000,
     "epower": -140000,
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 5 ] },
