@@ -28,7 +28,7 @@
     "broken_color": "light_gray",
     "difficulty": 3,
     "durability": 400,
-    "damage_modifier": 80,
+    "damage_modifier": { "damage_type": "stab", "amount": 80 },
     "folded_volume": 25,
     "description": "A rotating turret, capable of mounting a weapon system.  Install a suitable weapon on it as an automated weapon and the vehicle will be able to fire on hostile targets that get too close.",
     "breaks_into": [
