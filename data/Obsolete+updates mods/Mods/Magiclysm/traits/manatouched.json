@@ -65,7 +65,7 @@
     "name": { "str": "Silent Spell" },
     "description": "You no longer need to use your voice to enforce your will upon the world.  Mouth encumbrance no longer applies to spell failure chance.",
     "points": 3,
-    "lumination": [ [ "mouth", 4 ] ],
+    "lumination": [ [ "MOUTH", 4 ] ],
     "threshreq": [ "THRESH_MANA" ],
     "prereqs": [ "MANA_LUM" ],
     "category": [ "MANATOUCHED" ],
@@ -113,7 +113,7 @@
     "bodytemp_modifiers": [ 100, 100 ],
     "description": "Your body discards unusable mana as light and heat, making you glow softly.",
     "category": [ "MANATOUCHED" ],
-    "lumination": [ [ "torso", 8 ] ]
+    "lumination": [ [ "TORSO", 8 ] ]
   },
   {
     "type": "mutation",

@@ -5,7 +5,7 @@
     "attack_type": "bite",
     "cooldown": 40,
     "accuracy": 6,
-    "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
+    "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
     "body_parts": [ [ "arm_l", 3 ], [ "arm_r", 3 ] ],
     "no_infection_chance": 100,
     "damage_max_instance": [
@@ -31,12 +31,12 @@
       [ "leg_r", 3 ],
       [ "hand_l", 2 ],
       [ "hand_r", 2 ],
-      [ "head", 3 ],
-      [ "eyes", 2 ],
-      [ "mouth", 1 ],
+      [ "HEAD", 3 ],
+      [ "EYES", 2 ],
+      [ "MOUTH", 1 ],
       [ "arm_l", 3 ],
       [ "arm_r", 3 ],
-      [ "torso", 4 ]
+      [ "TORSO", 4 ]
     ],
     "hit_dmg_u": "The %1$s slashes you with an integrated tool!",
     "hit_dmg_npc": "The %1$s slashes <npcname>!",
@@ -57,12 +57,12 @@
       [ "leg_r", 3 ],
       [ "hand_l", 2 ],
       [ "hand_r", 2 ],
-      [ "head", 3 ],
-      [ "eyes", 2 ],
-      [ "mouth", 1 ],
+      [ "HEAD", 3 ],
+      [ "EYES", 2 ],
+      [ "MOUTH", 1 ],
       [ "arm_l", 3 ],
       [ "arm_r", 3 ],
-      [ "torso", 4 ]
+      [ "TORSO", 4 ]
     ],
     "hit_dmg_u": "The %1$s hits you with a heavy sword-slash!!",
     "hit_dmg_npc": "The %1$s heavily slashes <npcname>!!",
@@ -94,12 +94,12 @@
     "body_parts": [
       [ "leg_l", 3 ],
       [ "leg_r", 3 ],
-      [ "head", 3 ],
-      [ "eyes", 2 ],
-      [ "mouth", 1 ],
+      [ "HEAD", 3 ],
+      [ "EYES", 2 ],
+      [ "MOUTH", 1 ],
       [ "arm_l", 3 ],
       [ "arm_r", 3 ],
-      [ "torso", 4 ]
+      [ "TORSO", 4 ]
     ],
     "hit_dmg_u": "The %1$s suddenly slams you with their shield, stunning you!",
     "hit_dmg_npc": "The %1$s stuns <npcname> with a shield bash!",

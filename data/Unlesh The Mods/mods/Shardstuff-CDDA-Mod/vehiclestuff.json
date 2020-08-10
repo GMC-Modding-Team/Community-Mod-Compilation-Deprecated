@@ -24,7 +24,7 @@
     "color": "light_gray",
     "broken_symbol": "*",
     "broken_color": "red",
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "durability": 250,
     "description": "Intended to be part of a building, this air raid siren is ungodly loud.",
     "bonus": 12000,
@@ -67,7 +67,7 @@
     "durability": 160,
     "description": "A large drum hooked into the fuel system.",
     "size": 100000,
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "flags": [ "FLUIDTANK", "BOARDABLE" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 2, 2 ] },
@@ -154,7 +154,7 @@
     "difficulty": 6,
     "durability": 1200,
     "description": "An array of eight storage batteries hooked together for extreme power storage.",
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "flags": [ "OBSTACLE", "OPAQUE" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 5, 10 ] },
@@ -212,7 +212,7 @@
     "difficulty": 4,
     "durability": 600,
     "description": "A massive and incredibly powerful electric motor.",
-    "damage_modifier": { "damage_type": "stab", "amount": 80 },
+    "damage_modifier": 80,
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 5 ] },
