@@ -10,7 +10,7 @@
     "color": "dark_gray",
     "difficulty": 3,
     "durability": 70,
-    "damage_modifier": { "damage_type": "stab", "amount": 50 },
+    "damage_modifier": 50,
     "breaks_into": [ { "item": "steel_lump" }, { "item": "steel_chunk", "count": [ 1, 3 ] }, { "item": "scrap", "count": [ 1, 3 ] } ],
     "flags": [ "WHEEL", "STABLE", "NO_JACK", "ARMOR" ]
   },
@@ -26,7 +26,7 @@
     "broken_color": "light_gray",
     "difficulty": 3,
     "durability": 40,
-    "damage_modifier": { "damage_type": "stab", "amount": 50 },
+    "damage_modifier": 50,
     "folded_volume": 3,
     "breaks_into": [ { "item": "plastic_chunk", "count": [ 10, 20 ] } ],
     "flags": [ "FLOATS", "STABLE", "VARIABLE_SIZE", "FOLDABLE", "ARMOR" ]

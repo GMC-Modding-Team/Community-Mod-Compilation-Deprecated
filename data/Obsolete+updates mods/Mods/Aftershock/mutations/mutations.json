@@ -71,7 +71,7 @@
     "prereqs": [ "MOUTH_TENDRILS" ],
     "cancels": [ "MANDIBLES" ],
     "category": [ "MIGO" ],
-    "wet_protection": [ { "part": "mouth", "neutral": 4 } ]
+    "wet_protection": [ { "part": "MOUTH", "neutral": 4 } ]
   },
   {
     "type": "mutation",
@@ -315,7 +315,7 @@
     "description": "You come from uplifted animal stock.  This decreases morale penalties for being wet.",
     "valid": false,
     "wet_protection": [
-      { "part": "head", "neutral": 9 },
+      { "part": "HEAD", "neutral": 9 },
       { "part": "leg_l", "neutral": 11 },
       { "part": "leg_r", "neutral": 11 },
       { "part": "foot_l", "neutral": 5 },
@@ -324,7 +324,7 @@
       { "part": "arm_r", "neutral": 11 },
       { "part": "hand_l", "neutral": 16 },
       { "part": "hand_r", "neutral": 16 },
-      { "part": "torso", "neutral": 14 }
+      { "part": "TORSO", "neutral": 14 }
     ]
   },
   {
@@ -483,7 +483,7 @@
     "description": "You have a pair of long, pointed tusks, like someone weaponized an elephant.  They allow you to make a strong piercing headbutt attack, but prevent wearing mouthgear that is not made of fabric.",
     "types": [ "HORNS" ],
     "prereqs": [ "HORNS" ],
-    "restricts_gear": [ "mouth" ],
+    "restricts_gear": [ "MOUTH" ],
     "allow_soft_gear": true,
     "category": [ "MASTODON" ],
     "threshreq": [ "THRESH_MASTODON" ],
@@ -561,7 +561,7 @@
     "types": [ "MUZZLE" ],
     "prereqs": [ "SNOUT" ],
     "category": [ "MASTODON" ],
-    "restricts_gear": [ "mouth" ],
+    "restricts_gear": [ "MOUTH" ],
     "social_modifiers": { "intimidate": 10 },
     "craft_skill_bonus": [ [ "electronics", 1 ], [ "tailor", 1 ], [ "mechanics", 1 ], [ "cooking", 1 ] ]
   },

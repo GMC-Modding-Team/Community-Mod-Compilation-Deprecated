@@ -54,7 +54,7 @@
       { "part": "arm_r", "neutral": 7, "good": 12 },
       { "part": "hand_l", "neutral": 2, "good": 3 },
       { "part": "hand_r", "neutral": 2, "good": 3 },
-      { "part": "torso", "neutral": 14, "good": 26 }
+      { "part": "TORSO", "neutral": 14, "good": 26 }
     ]
   },
   {
@@ -413,11 +413,11 @@
     "cancels": [ "BEAK", "BEAK_HUM", "BEAK_PECK", "PROBOSCIS", "MANDIBLES", "MUZZLE_LONG", "MUZZLE", "MINOTAUR" ],
     "description": "Your tongue is dripping with drool. You can not equip anything on your mouth, but they will be surprised when you attack them with your tongue.",
     "category": [ "NECROMANTIC" ],
-    "restricts_gear": [ "mouth" ],
+    "restricts_gear": [ "MOUTH" ],
     "attacks": {
       "attack_text_u": "You attack %s with your tongue.",
       "attack_text_npc": "%1$s attacks %2$s with their tongue.",
-      "body_part": "mouth",
+      "body_part": "MOUTH",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 15 },
       "strength_damage": { "damage_type": "stab", "amount": 0.5 }
@@ -434,7 +434,7 @@
     "description": "Your body starts breaking apart. You become more encumbered and frail.",
     "category": [ "NECROMANTIC" ],
     "encumbrance_always": [
-      [ "torso", 3 ],
+      [ "TORSO", 3 ],
       [ "head", 3 ],
       [ "arm_l", 3 ],
       [ "arm_r", 3 ],
@@ -464,10 +464,10 @@
     "wet_protection": [
       { "part": "arm_l", "neutral": 5, "good": 10 },
       { "part": "arm_r", "neutral": 5, "good": 10 },
-      { "part": "torso", "neutral": 10, "good": 20 }
+      { "part": "TORSO", "neutral": 10, "good": 20 }
     ],
-    "encumbrance_always": [ [ "torso", 10 ] ],
-    "armor": [ { "parts": [ "torso", "arm_l", "arm_r" ], "bash": 14, "cut": 8 } ]
+    "encumbrance_always": [ [ "TORSO", 10 ] ],
+    "armor": [ { "parts": [ "TORSO", "arm_l", "arm_r" ], "bash": 14, "cut": 8 } ]
   },
   {
     "type": "mutation",
@@ -495,7 +495,7 @@
     "prereqs": [ "NEC_FAILED" ],
     "category": [ "NECROMANTIC" ],
     "encumbrance_always": [
-      [ "torso", 9 ],
+      [ "TORSO", 9 ],
       [ "head", 5 ],
       [ "arm_l", 5 ],
       [ "arm_r", 7 ],
@@ -521,7 +521,7 @@
     "threshreq": [ "THRESH_NECROMANTIC" ],
     "prereqs": [ "NEC_RUPTURE" ],
     "encumbrance_always": [
-      [ "torso", -10 ],
+      [ "TORSO", -10 ],
       [ "head", -10 ],
       [ "arm_l", -10 ],
       [ "arm_r", -10 ],

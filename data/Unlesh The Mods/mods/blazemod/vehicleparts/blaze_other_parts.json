@@ -152,7 +152,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "damage_modifier": { "damage_type": "stab", "amount": 80 }
+    "damage_modifier": 80
   },
   {
     "id": "solar_array",
@@ -166,7 +166,7 @@
     "broken_color": "yellow",
     "durability": 250,
     "epower": 600,
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "description": "A dozen solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  Will recharge the vehicle's electrical power when exposed to the sun.",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 6 ] },
@@ -193,7 +193,7 @@
     "broken_color": "yellow",
     "durability": 250,
     "epower": 1200,
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "description": "A dozen upgraded solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  Will recharge the vehicle's electrical power when exposed to the sun.",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 6 ] },
@@ -220,7 +220,7 @@
     "broken_color": "light_gray",
     "durability": 500,
     "epower": 1080,
-    "damage_modifier": { "damage_type": "stab", "amount": 10 },
+    "damage_modifier": 10,
     "description": "A dozen upgraded solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  Will recharge the vehicle's electrical power when exposed to the sun.",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 6, 11 ] },

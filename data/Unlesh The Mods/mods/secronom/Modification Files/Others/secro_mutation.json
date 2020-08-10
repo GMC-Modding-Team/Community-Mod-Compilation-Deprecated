@@ -137,7 +137,7 @@
       [ "foot_l", 5 ],
       [ "leg_r", 5 ],
       [ "leg_l", 5 ],
-      [ "torso", 5 ],
+      [ "TORSO", 5 ],
       [ "head", 5 ],
       [ "arm_l", 5 ],
       [ "arm_r", 5 ]
@@ -149,7 +149,7 @@
       [ "foot_l", 25 ],
       [ "leg_r", 25 ],
       [ "leg_l", 25 ],
-      [ "torso", 25 ],
+      [ "TORSO", 25 ],
       [ "head", 25 ],
       [ "arm_l", 25 ],
       [ "arm_r", 25 ]
@@ -327,7 +327,7 @@
       [ "foot_l", 10 ],
       [ "leg_r", 10 ],
       [ "leg_l", 10 ],
-      [ "torso", 10 ],
+      [ "TORSO", 10 ],
       [ "head", 10 ],
       [ "arm_l", 10 ],
       [ "arm_r", 10 ]
@@ -339,7 +339,7 @@
       [ "foot_l", 7 ],
       [ "leg_r", 7 ],
       [ "leg_l", 7 ],
-      [ "torso", 7 ],
+      [ "TORSO", 7 ],
       [ "head", 7 ],
       [ "arm_l", 7 ],
       [ "arm_r", 7 ]
@@ -372,7 +372,7 @@
       [ "foot_l", 15 ],
       [ "leg_r", 15 ],
       [ "leg_l", 15 ],
-      [ "torso", 15 ],
+      [ "TORSO", 15 ],
       [ "head", 15 ],
       [ "arm_l", 15 ],
       [ "arm_r", 15 ]
@@ -384,7 +384,7 @@
       [ "foot_l", 10 ],
       [ "leg_r", 10 ],
       [ "leg_l", 10 ],
-      [ "torso", 10 ],
+      [ "TORSO", 10 ],
       [ "head", 10 ],
       [ "arm_l", 10 ],
       [ "arm_r", 10 ]
@@ -415,7 +415,7 @@
       [ "foot_l", 8 ],
       [ "leg_r", 8 ],
       [ "leg_l", 8 ],
-      [ "torso", 8 ],
+      [ "TORSO", 8 ],
       [ "head", 8 ],
       [ "arm_l", 8 ],
       [ "arm_r", 8 ]
@@ -427,7 +427,7 @@
       [ "foot_l", 5 ],
       [ "leg_r", 5 ],
       [ "leg_l", 5 ],
-      [ "torso", 5 ],
+      [ "TORSO", 5 ],
       [ "head", 5 ],
       [ "arm_l", 5 ],
       [ "arm_r", 5 ]
@@ -457,7 +457,7 @@
       [ "foot_l", 20 ],
       [ "leg_r", 20 ],
       [ "leg_l", 20 ],
-      [ "torso", 20 ],
+      [ "TORSO", 20 ],
       [ "head", 20 ],
       [ "arm_l", 20 ],
       [ "arm_r", 20 ]
@@ -469,7 +469,7 @@
       [ "foot_l", 15 ],
       [ "leg_r", 15 ],
       [ "leg_l", 15 ],
-      [ "torso", 15 ],
+      [ "TORSO", 15 ],
       [ "head", 15 ],
       [ "arm_l", 15 ],
       [ "arm_r", 10 ]
@@ -505,8 +505,8 @@
       "SECRO_TENDRIL_THICK_THRESHOLD",
       "SECRO_TENDRIL_TENT_THRESHOLD"
     ],
-    "encumbrance_always": [ [ "torso", 10 ] ],
-    "encumbrance_covered": [ [ "torso", 30 ] ],
+    "encumbrance_always": [ [ "TORSO", 10 ] ],
+    "encumbrance_covered": [ [ "TORSO", 30 ] ],
     "attackcost_modifier": 0.95,
     "movecost_obstacle_modifier": 0.95,
     "craft_skill_bonus": [
@@ -534,8 +534,8 @@
     "description": "Your additional limbs have become more responsive, which eases your control over them. They permanently increases your dex by 2 and slightly improving its basic modifiers.",
     "types": [ "HANDS" ],
     "changes_to": [ "SECRO_SPIDER_VERYOK", "SECRO_SPIDER_NOTOK" ],
-    "encumbrance_always": [ [ "torso", 10 ] ],
-    "encumbrance_covered": [ [ "torso", 30 ] ],
+    "encumbrance_always": [ [ "TORSO", 10 ] ],
+    "encumbrance_covered": [ [ "TORSO", 30 ] ],
     "attackcost_modifier": 0.925,
     "movecost_obstacle_modifier": 0.925,
     "craft_skill_bonus": [
@@ -562,8 +562,8 @@
     "valid": false,
     "description": "Your extra limbs became twisted and malformed, which slightly affects the movements of your arms. They removed your permanent dex, increased your torsal encumberance by 15 and a drastic reduction to its basic modifiers.",
     "types": [ "HANDS" ],
-    "encumbrance_always": [ [ "torso", 15 ] ],
-    "encumbrance_covered": [ [ "torso", 45 ] ],
+    "encumbrance_always": [ [ "TORSO", 15 ] ],
+    "encumbrance_covered": [ [ "TORSO", 45 ] ],
     "attackcost_modifier": 0.975,
     "movecost_obstacle_modifier": 0.975,
     "category": [ "SECRONOM_EX" ]
@@ -578,8 +578,8 @@
     "valid": false,
     "description": "Further mutations has caused your limbs to unify with your cerebral cortex, accepting them as part of your body. With full control over them, they permanently increases your dex by 3 and significantly improves the basic modifiers.",
     "types": [ "HANDS" ],
-    "encumbrance_always": [ [ "torso", 10 ] ],
-    "encumbrance_covered": [ [ "torso", 30 ] ],
+    "encumbrance_always": [ [ "TORSO", 10 ] ],
+    "encumbrance_covered": [ [ "TORSO", 30 ] ],
     "attackcost_modifier": 0.875,
     "movecost_obstacle_modifier": 0.875,
     "craft_skill_bonus": [

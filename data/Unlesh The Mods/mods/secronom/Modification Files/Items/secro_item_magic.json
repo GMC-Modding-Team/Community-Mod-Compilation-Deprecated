@@ -203,7 +203,7 @@
     "effect": "target_attack",
     "extra_effects": [ { "id": "secro_power_armor_flesh_devour", "hit_self": true } ],
     "effect_str": "secro_power_armor_flesh_devouring_note",
-    "affected_body_parts": [ "torso" ],
+    "affected_body_parts": [ "TORSO" ],
     "min_duration": 500,
     "max_duration": 500
   },
@@ -217,7 +217,7 @@
     "valid_targets": [ "self" ],
     "effect": "target_attack",
     "effect_str": "secro_power_armor_flesh_devouring",
-    "affected_body_parts": [ "head", "mouth", "eyes", "arm_l", "arm_r", "hand_r", "hand_l", "leg_l", "foot_l", "foot_r" ],
+    "affected_body_parts": [ "head", "MOUTH", "EYES", "arm_l", "arm_r", "hand_r", "hand_l", "leg_l", "foot_l", "foot_r" ],
     "min_duration": 500,
     "max_duration": 500
   },
@@ -963,7 +963,7 @@
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "secro_power_armor_flesh_morphed_jugg_bonespikes_skeletaloutburst_random" } ],
     "effect_str": "secro_power_armor_flesh_morphed_jugg_bonespikes_skeletaloutburst_cost",
-    "affected_body_parts": [ "head", "torso", "arm_r", "arm_l", "leg_r", "leg_l" ],
+    "affected_body_parts": [ "head", "TORSO", "arm_r", "arm_l", "leg_r", "leg_l" ],
     "effect": "target_attack",
     "min_duration": 1,
     "max_duration": 1
@@ -1057,7 +1057,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
     "effect_str": "secro_power_armor_flesh_created_gun_bonerifle_cost",
-    "affected_body_parts": [ "torso" ],
+    "affected_body_parts": [ "TORSO" ],
     "effect": "target_attack",
     "min_duration": 1,
     "max_duration": 1
