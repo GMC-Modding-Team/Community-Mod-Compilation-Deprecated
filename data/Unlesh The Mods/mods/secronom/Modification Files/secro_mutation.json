@@ -59,7 +59,7 @@
     "valid": false,
     "description": "Your arms were replaced by a pair of tough, skinny tendrils. Good for combat, but it's stiff and prevents you from wearing gloves.",
     "types": [ "HANDS" ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
+    "restricts_gear": [ "HAND_L", "HAND_R" ],
     "changes_to": [ "SECRO_TENDRIL_TENT", "SECRO_TENDRIL_THICK" ],
     "cancels": [
       "NAILS",
@@ -74,14 +74,14 @@
       "SECRO_BLADE_SHARP_THRESHOLD",
       "SECRO_BLADE_SERRATED_THRESHOLD"
     ],
-    "encumbrance_always": [ [ "hand_l", 20 ], [ "hand_r", 20 ] ],
-    "encumbrance_covered": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ],
+    "encumbrance_always": [ [ "HAND_L", 20 ], [ "HAND_R", 20 ] ],
+    "encumbrance_covered": [ [ "HAND_L", 30 ], [ "HAND_R", 30 ] ],
     "rand_bash_bonus": { "min": 1, "max": 3 },
     "attacks": [
       {
         "attack_text_u": "You slap %s with your tendrils",
         "attack_text_npc": "%1$s strikes %2$s with their tendrils",
-        "body_part": [ "hand_l", "hand_r" ],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 10,
         "strength_damage": { "damage_type": "bash", "amount": 0.5 }
       }
@@ -100,17 +100,17 @@
     "valid": false,
     "description": "You've got a pair of large, thick tendrils sprouting from your arms. They decreases your dex by 2, but impacts more damage and has increased bash resistance.",
     "types": [ "HANDS" ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
+    "restricts_gear": [ "HAND_L", "HAND_R" ],
     "prereqs": [ "SECRO_TENDRIL" ],
     "additions": [ "SECRO_TENDRIL_THICK_THRESHOLD" ],
-    "encumbrance_always": [ [ "hand_l", 45 ], [ "hand_r", 45 ] ],
-    "encumbrance_covered": [ [ "hand_l", 55 ], [ "hand_r", 55 ] ],
+    "encumbrance_always": [ [ "HAND_L", 45 ], [ "HAND_R", 45 ] ],
+    "encumbrance_covered": [ [ "HAND_L", 55 ], [ "HAND_R", 55 ] ],
     "rand_bash_bonus": { "min": 3, "max": 8 },
     "attacks": [
       {
         "attack_text_u": "You slap %s with your thick tendrils",
         "attack_text_npc": "%1$s strikes %2$s with their thick tendrils",
-        "body_part": [ "hand_l", "hand_r" ],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 10,
         "strength_damage": { "damage_type": "bash", "amount": 0.7 }
       }
@@ -130,12 +130,12 @@
     "valid": false,
     "description": "Your whole body has small wriggly tentacle outgrowths, while your tendril pairs became shorter in length, increasing dex by 1 and decreasing their encumbrance and impact damage. The outgrowths are tough, providing 1 bash resistance to all body parts, yet increases their encumbrance by 5 and becomes much more uncomfortable when wearing tight clothes.",
     "types": [ "HANDS" ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
+    "restricts_gear": [ "HAND_L", "HAND_R" ],
     "prereqs": [ "SECRO_TENDRIL" ],
     "additions": [ "SECRO_TENDRIL_TENT_THRESHOLD" ],
     "encumbrance_always": [
-      [ "hand_l", 15 ],
-      [ "hand_r", 15 ],
+      [ "HAND_L", 15 ],
+      [ "HAND_R", 15 ],
       [ "FOOT_R", 5 ],
       [ "FOOT_L", 5 ],
       [ "LEG_R", 5 ],
@@ -146,8 +146,8 @@
       [ "ARM_R", 5 ]
     ],
     "encumbrance_covered": [
-      [ "hand_l", 25 ],
-      [ "hand_r", 25 ],
+      [ "HAND_L", 25 ],
+      [ "HAND_R", 25 ],
       [ "FOOT_R", 25 ],
       [ "FOOT_L", 25 ],
       [ "LEG_R", 25 ],
@@ -162,14 +162,14 @@
       {
         "attack_text_u": "You slap %s with your tendrils",
         "attack_text_npc": "%1$s strikes %2$s with their tendrils",
-        "body_part": [ "hand_l", "hand_r" ],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 10,
         "strength_damage": { "damage_type": "bash", "amount": 0.375 }
       },
       {
         "attack_text_u": "You pierced %s with your tendrils",
         "attack_text_npc": "%1$s pierces %2$s with their tendrils",
-        "body_part": [ "hand_l", "hand_r" ],
+        "body_part": [ "HAND_L", "HAND_R" ],
         "chance": 30,
         "strength_damage": { "damage_type": "stab", "amount": 0.3 }
       }
@@ -222,7 +222,7 @@
     "valid": false,
     "description": "Your left hand has lost its flesh, revealing only a stout bone blade. It prevents you from wearing gloves nor handling anything with, but has great resistance against physical damage plus it packs a wallop.",
     "types": [ "HANDS" ],
-    "restricts_gear": [ "hand_l" ],
+    "restricts_gear": [ "HAND_L" ],
     "changes_to": [ "SECRO_BLADE_L_SHARP", "SECRO_BLADE_L_SERRATED" ],
     "cancels": [
       "NAILS",
@@ -237,7 +237,7 @@
       "SECRO_BLADE_SHARP_THRESHOLD",
       "SECRO_BLADE_SERRATED_THRESHOLD"
     ],
-    "encumbrance_always": [ [ "hand_l", 100 ] ],
+    "encumbrance_always": [ [ "HAND_L", 100 ] ],
     "rand_bash_bonus": { "min": 4, "max": 8 },
     "armor": [ { "parts": "ARM_L", "bash": 10, "cut": 10, "stab": 10 } ],
     "category": [ "SECRONOM_EX" ]
@@ -253,10 +253,10 @@
     "valid": false,
     "description": "Your bone blade became lighter, thinner and has a sharpened edge, like that of a sword. Instead of impact damage, it cuts through flesh with ease.",
     "types": [ "HANDS" ],
-    "restricts_gear": [ "hand_l" ],
+    "restricts_gear": [ "HAND_L" ],
     "prereqs": [ "SECRO_BLADE_L" ],
     "additions": [ "SECRO_BLADE_SHARP_THRESHOLD" ],
-    "encumbrance_always": [ [ "hand_l", 100 ] ],
+    "encumbrance_always": [ [ "HAND_L", 100 ] ],
     "rand_cut_bonus": { "min": 4, "max": 12 },
     "armor": [ { "parts": "ARM_L", "bash": 6, "cut": 6, "stab": 6 } ],
     "attackcost_modifier": 0.9,
@@ -273,10 +273,10 @@
     "valid": false,
     "description": "Your bone blade has greatly altered, forming irregular bone outgrowths all around the surface. It is heavier and very unpleasant to the sight, but beneficial for both defense and offense.",
     "types": [ "HANDS" ],
-    "restricts_gear": [ "hand_l" ],
+    "restricts_gear": [ "HAND_L" ],
     "prereqs": [ "SECRO_BLADE_L" ],
     "additions": [ "SECRO_BLADE_SERRATED_THRESHOLD" ],
-    "encumbrance_always": [ [ "hand_l", 100 ] ],
+    "encumbrance_always": [ [ "HAND_L", 100 ] ],
     "rand_cut_bonus": { "min": 3, "max": 8 },
     "rand_bash_bonus": { "min": 3, "max": 8 },
     "armor": [ { "parts": "ARM_L", "bash": 14, "cut": 14, "stab": 14 } ],
@@ -327,8 +327,8 @@
     "changes_to": [ "SECRO_TITAN2" ],
     "cancels": [ "SKIN_ROUGH", "CHITIN", "CHITIN_FUR", "SCALES" ],
     "encumbrance_always": [
-      [ "hand_l", 10 ],
-      [ "hand_r", 10 ],
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
       [ "FOOT_R", 10 ],
       [ "FOOT_L", 10 ],
       [ "LEG_R", 10 ],
@@ -339,8 +339,8 @@
       [ "ARM_R", 10 ]
     ],
     "encumbrance_covered": [
-      [ "hand_l", 7 ],
-      [ "hand_r", 7 ],
+      [ "HAND_L", 7 ],
+      [ "HAND_R", 7 ],
       [ "FOOT_R", 7 ],
       [ "FOOT_L", 7 ],
       [ "LEG_R", 7 ],
@@ -372,8 +372,8 @@
     "prereqs": [ "SECRO_TITAN" ],
     "changes_to": [ "SECRO_TITAN_OK", "SECRO_TITAN_NOTOK" ],
     "encumbrance_always": [
-      [ "hand_l", 15 ],
-      [ "hand_r", 15 ],
+      [ "HAND_L", 15 ],
+      [ "HAND_R", 15 ],
       [ "FOOT_R", 15 ],
       [ "FOOT_L", 15 ],
       [ "LEG_R", 15 ],
@@ -384,8 +384,8 @@
       [ "ARM_R", 15 ]
     ],
     "encumbrance_covered": [
-      [ "hand_l", 10 ],
-      [ "hand_r", 10 ],
+      [ "HAND_L", 10 ],
+      [ "HAND_R", 10 ],
       [ "FOOT_R", 10 ],
       [ "FOOT_L", 10 ],
       [ "LEG_R", 10 ],
@@ -415,8 +415,8 @@
     "types": [ "SKIN" ],
     "prereqs": [ "SECRO_TITAN2" ],
     "encumbrance_always": [
-      [ "hand_l", 8 ],
-      [ "hand_r", 8 ],
+      [ "HAND_L", 8 ],
+      [ "HAND_R", 8 ],
       [ "FOOT_R", 8 ],
       [ "FOOT_L", 8 ],
       [ "LEG_R", 8 ],
@@ -427,8 +427,8 @@
       [ "ARM_R", 8 ]
     ],
     "encumbrance_covered": [
-      [ "hand_l", 5 ],
-      [ "hand_r", 5 ],
+      [ "HAND_L", 5 ],
+      [ "HAND_R", 5 ],
       [ "FOOT_R", 5 ],
       [ "FOOT_L", 5 ],
       [ "LEG_R", 5 ],
@@ -457,8 +457,8 @@
     "types": [ "SKIN" ],
     "prereqs": [ "SECRO_TITAN2" ],
     "encumbrance_always": [
-      [ "hand_l", 20 ],
-      [ "hand_r", 20 ],
+      [ "HAND_L", 20 ],
+      [ "HAND_R", 20 ],
       [ "FOOT_R", 20 ],
       [ "FOOT_L", 20 ],
       [ "LEG_R", 20 ],
@@ -469,8 +469,8 @@
       [ "ARM_R", 20 ]
     ],
     "encumbrance_covered": [
-      [ "hand_l", 15 ],
-      [ "hand_r", 15 ],
+      [ "HAND_L", 15 ],
+      [ "HAND_R", 15 ],
       [ "FOOT_R", 15 ],
       [ "FOOT_L", 15 ],
       [ "LEG_R", 15 ],

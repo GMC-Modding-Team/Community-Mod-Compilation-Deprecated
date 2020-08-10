@@ -25,7 +25,7 @@
     "mending_modifier": 0.75,
 	"armor": [
       {
-        "parts": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
         "cut": 1,
 		"bash": 2
       }
@@ -46,7 +46,7 @@
     "mending_modifier": 0.50,
 	"armor": [
       {
-        "parts": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
         "cut": 5,
 		"pierce": 5,
 		"bash": 5,
@@ -79,7 +79,7 @@
 	"flags": [ "NO_DISEASE", "NO_INFECTION", "NO_POISON", "NO_RADIATION", "NO_PARASITE" ],
 	"armor": [
       {
-        "parts": [ "TORSO", "ARM_L", "ARM_R", "hand_l", "hand_r", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
+        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
         "cut": 30,
 		"pierce": 30,
 		"bash": 15,
@@ -218,7 +218,7 @@
 	"cut_dmg_bonus": 3,
     "pierce_dmg_bonus": 12,
     "butchering_quality": 3,
-	"encumbrance_always": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
+	"encumbrance_always": [ [ "HAND_L", 5 ], [ "HAND_R", 5 ] ],
     "description": "The tips of your fingers have turned into claws seemingly made out of diamond or some other superhard mineral. While they hinder manual manipulation somewhat, you've found that they make good implements of hand to hand combat and pierce flesh easily.",
     "starting_trait": false,
     "category": [ "CRYSTAL" ],
