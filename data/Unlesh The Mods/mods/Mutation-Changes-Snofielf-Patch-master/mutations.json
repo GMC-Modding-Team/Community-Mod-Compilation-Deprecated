@@ -59,16 +59,16 @@
     ],
     "changes_to": [ "CHITIN2", "CHITIN_FUR" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 1 },
-      { "part": "LEG_L", "ignored": 5 },
-      { "part": "LEG_R", "ignored": 5 },
-      { "part": "FOOT_L", "ignored": 1 },
-      { "part": "FOOT_R", "ignored": 1 },
-      { "part": "ARM_L", "ignored": 4 },
-      { "part": "ARM_R", "ignored": 4 },
-      { "part": "HAND_L", "ignored": 1 },
-      { "part": "HAND_R", "ignored": 1 },
-      { "part": "TORSO", "ignored": 10 }
+      { "part": "head", "ignored": 1 },
+      { "part": "leg_l", "ignored": 5 },
+      { "part": "leg_r", "ignored": 5 },
+      { "part": "foot_l", "ignored": 1 },
+      { "part": "foot_r", "ignored": 1 },
+      { "part": "arm_l", "ignored": 4 },
+      { "part": "arm_r", "ignored": 4 },
+      { "part": "hand_l", "ignored": 1 },
+      { "part": "hand_r", "ignored": 1 },
+      { "part": "torso", "ignored": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 3, "cut": 3, "acid": 1 } ]
   },
@@ -103,16 +103,16 @@
     ],
     "changes_to": [ "CHITIN3" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 2 },
-      { "part": "LEG_L", "ignored": 9 },
-      { "part": "LEG_R", "ignored": 9 },
-      { "part": "FOOT_L", "ignored": 2 },
-      { "part": "FOOT_R", "ignored": 2 },
-      { "part": "ARM_L", "ignored": 8 },
-      { "part": "ARM_R", "ignored": 8 },
-      { "part": "HAND_L", "ignored": 2 },
-      { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 18 }
+      { "part": "head", "ignored": 2 },
+      { "part": "leg_l", "ignored": 9 },
+      { "part": "leg_r", "ignored": 9 },
+      { "part": "foot_l", "ignored": 2 },
+      { "part": "foot_r", "ignored": 2 },
+      { "part": "arm_l", "ignored": 8 },
+      { "part": "arm_r", "ignored": 8 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 18 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 2 } ]
   },
@@ -147,30 +147,30 @@
     ],
     "changes_to": [ "CHITIN_FUR3" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 4 },
-      { "part": "LEG_L", "ignored": 14 },
-      { "part": "LEG_R", "ignored": 14 },
-      { "part": "FOOT_L", "ignored": 4 },
-      { "part": "FOOT_R", "ignored": 4 },
-      { "part": "ARM_L", "ignored": 12 },
-      { "part": "ARM_R", "ignored": 12 },
-      { "part": "HAND_L", "ignored": 3 },
-      { "part": "HAND_R", "ignored": 3 },
-      { "part": "TORSO", "ignored": 26 }
+      { "part": "head", "ignored": 4 },
+      { "part": "leg_l", "ignored": 14 },
+      { "part": "leg_r", "ignored": 14 },
+      { "part": "foot_l", "ignored": 4 },
+      { "part": "foot_r", "ignored": 4 },
+      { "part": "arm_l", "ignored": 12 },
+      { "part": "arm_r", "ignored": 12 },
+      { "part": "hand_l", "ignored": 3 },
+      { "part": "hand_r", "ignored": 3 },
+      { "part": "torso", "ignored": 26 }
     ],
     "encumbrance_always": [
-      [ "TORSO", 10 ],
-      [ "HEAD", 10 ],
-      [ "ARM_L", 10 ],
-      [ "ARM_R", 10 ],
-      [ "HAND_L", 10 ],
-      [ "HAND_R", 10 ],
-      [ "LEG_L", 10 ],
-      [ "LEG_R", 10 ],
-      [ "FOOT_L", 10 ],
-      [ "FOOT_R", 10 ]
+      [ "torso", 10 ],
+      [ "head", 10 ],
+      [ "arm_l", 10 ],
+      [ "arm_r", 10 ],
+      [ "hand_l", 10 ],
+      [ "hand_r", 10 ],
+      [ "leg_l", 10 ],
+      [ "leg_r", 10 ],
+      [ "foot_l", 10 ],
+      [ "foot_r", 10 ]
     ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "allow_soft_gear": true,
     "armor": [ { "parts": "ALL", "bash": 14, "cut": 14, "acid": 2 } ]
   },
@@ -235,16 +235,16 @@
     ],
     "changes_to": [ "CHITIN_FUR3", "CHITIN3" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 1 },
-      { "part": "LEG_L", "ignored": 5 },
-      { "part": "LEG_R", "ignored": 5 },
-      { "part": "FOOT_L", "ignored": 1 },
-      { "part": "FOOT_R", "ignored": 1 },
-      { "part": "ARM_L", "ignored": 4 },
-      { "part": "ARM_R", "ignored": 4 },
-      { "part": "HAND_L", "ignored": 1 },
-      { "part": "HAND_R", "ignored": 1 },
-      { "part": "TORSO", "ignored": 10 }
+      { "part": "head", "ignored": 1 },
+      { "part": "leg_l", "ignored": 5 },
+      { "part": "leg_r", "ignored": 5 },
+      { "part": "foot_l", "ignored": 1 },
+      { "part": "foot_r", "ignored": 1 },
+      { "part": "arm_l", "ignored": 4 },
+      { "part": "arm_r", "ignored": 4 },
+      { "part": "hand_l", "ignored": 1 },
+      { "part": "hand_r", "ignored": 1 },
+      { "part": "torso", "ignored": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 2 } ]
   },
@@ -276,32 +276,32 @@
     ],
     "description": "Your exoskeleton has hardened considerably--restricting movement, granted--and boasts a fine coat of hairs that put feline whiskers to shame.",
     "wet_protection": [
-      { "part": "HEAD", "ignored": 2 },
-      { "part": "LEG_L", "ignored": 9 },
-      { "part": "LEG_R", "ignored": 9 },
-      { "part": "FOOT_L", "ignored": 2 },
-      { "part": "FOOT_R", "ignored": 2 },
-      { "part": "ARM_L", "ignored": 8 },
-      { "part": "ARM_R", "ignored": 8 },
-      { "part": "HAND_L", "ignored": 2 },
-      { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 18 }
+      { "part": "head", "ignored": 2 },
+      { "part": "leg_l", "ignored": 9 },
+      { "part": "leg_r", "ignored": 9 },
+      { "part": "foot_l", "ignored": 2 },
+      { "part": "foot_r", "ignored": 2 },
+      { "part": "arm_l", "ignored": 8 },
+      { "part": "arm_r", "ignored": 8 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 18 }
     ],
     "encumbrance_always": [
-      [ "TORSO", 10 ],
-      [ "HEAD", 10 ],
-      [ "ARM_L", 10 ],
-      [ "ARM_R", 10 ],
-      [ "HAND_L", 10 ],
-      [ "HAND_R", 10 ],
-      [ "LEG_L", 10 ],
-      [ "LEG_R", 10 ],
-      [ "FOOT_L", 10 ],
-      [ "FOOT_R", 10 ]
+      [ "torso", 10 ],
+      [ "head", 10 ],
+      [ "arm_l", 10 ],
+      [ "arm_r", 10 ],
+      [ "hand_l", 10 ],
+      [ "hand_r", 10 ],
+      [ "leg_l", 10 ],
+      [ "leg_r", 10 ],
+      [ "foot_l", 10 ],
+      [ "foot_r", 10 ]
     ],
     "prereqs": [ "CHITIN_FUR2", "CHITIN3" ],
     "threshreq": [ "THRESH_SPIDER" ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "allow_soft_gear": true,
     "armor": [ { "parts": "ALL", "bash": 12, "cut": 12, "acid": 2 } ]
   },
@@ -314,12 +314,12 @@
     "ugliness": 5,
     "description": "You've *finally* sprouted a pair of arms from your midsection.  They flail more-or-less uncontrollably,  making you feel rather larval.",
     "purifiable": false,
-    "encumbrance_always": [ [ "ARM_L", 30 ], [ "ARM_R", 30 ] ],
+    "encumbrance_always": [ [ "arm_l", 30 ], [ "arm_r", 30 ] ],
     "changes_to": [ "INSECT_ARMS_OK", "ARACHNID_ARMS" ],
     "cancels": [ "PAWS", "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8" ],
     "prereqs": [ "CHITIN", "CHITIN2", "CHITIN3", "CHITIN_FUR2", "CHITIN_FUR3" ],
     "threshreq": [ "THRESH_INSECT", "THRESH_SPIDER" ],
-    "restricts_gear": [ "TORSO" ]
+    "restricts_gear": [ "torso" ]
   },
   {
     "type": "mutation",
@@ -440,7 +440,7 @@
       "TORTOISE_TAIL"
     ],
     "changes_to": [ "WEB_WEAVER" ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "allow_soft_gear": true
   },
   {
@@ -467,7 +467,7 @@
       "INSECT_STINGER",
       "TORTOISE_TAIL"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "allow_soft_gear": true,
     "active": true,
     "cost": 3,
@@ -533,7 +533,7 @@
     "visibility": 4,
     "ugliness": 3,
     "mixed_effect": true,
-    "restricts_gear": [ "HAND_L", "HAND_R" ],
+    "restricts_gear": [ "hand_l", "hand_r" ],
     "destroys_gear": true,
     "description": "Your fingers have grown into huge talons. After a bit of practice, you find that this does not affect your dexterity, but allows for a deadly unarmed attack.  They also prevent you from wearing gloves.",
     "prereqs": [ "NAILS" ],
@@ -581,7 +581,7 @@
     "attacks": {
       "attack_text_u": "You peck %s",
       "attack_text_npc": "%1$s pecks %2$s",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 15,
       "base_damage": { "damage_type": "stab", "amount": 15 }
     },
@@ -669,9 +669,9 @@
       "RAT_BODY",
       "SPIDER_BODY"
     ],
-    "restricts_gear": [ "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "foot_l", "foot_r" ],
     "destroys_gear": true,
-    "armor": [ { "parts": [ "FOOT_L", "FOOT_R", "LEG_L", "LEG_R", "HAND_R", "HAND_L", "ARM_L", "ARM_R" ], "cut": 2, "bash": 2 } ],
+    "armor": [ { "parts": [ "foot_l", "foot_r", "leg_l", "leg_r", "hand_r", "hand_l", "arm_l", "arm_r" ], "cut": 2, "bash": 2 } ],
     "passive_mods": { "dex_mod": 3 },
     "attacks": {
       "attack_text_u": "You scratch and slash at %s with the claws on your feet",
@@ -989,16 +989,16 @@
     ],
     "passive_mods": { "per_mod": 1, "dex_mod": 2 },
     "wet_protection": [
-      { "part": "HEAD", "neutral": 3, "good": 4 },
-      { "part": "LEG_L", "neutral": 7, "good": 14 },
-      { "part": "LEG_R", "neutral": 7, "good": 14 },
-      { "part": "FOOT_L", "neutral": 2, "good": 4 },
-      { "part": "FOOT_R", "neutral": 2, "good": 4 },
-      { "part": "ARM_L", "neutral": 7, "good": 12 },
-      { "part": "ARM_R", "neutral": 7, "good": 12 },
-      { "part": "HAND_L", "neutral": 2, "good": 3 },
-      { "part": "HAND_R", "neutral": 2, "good": 3 },
-      { "part": "TORSO", "neutral": 14, "good": 26 }
+      { "part": "head", "neutral": 3, "good": 4 },
+      { "part": "leg_l", "neutral": 7, "good": 14 },
+      { "part": "leg_r", "neutral": 7, "good": 14 },
+      { "part": "foot_l", "neutral": 2, "good": 4 },
+      { "part": "foot_r", "neutral": 2, "good": 4 },
+      { "part": "arm_l", "neutral": 7, "good": 12 },
+      { "part": "arm_r", "neutral": 7, "good": 12 },
+      { "part": "hand_l", "neutral": 2, "good": 3 },
+      { "part": "hand_r", "neutral": 2, "good": 3 },
+      { "part": "torso", "neutral": 14, "good": 26 }
     ]
   },
   {
@@ -1216,15 +1216,15 @@
     "prereqs": [ "FLOWERS" ],
     "prereqs2": [ "POISONOUS2" ],
     "threshreq": [ "THRESH_PLANT" ],
-    "restricts_gear": [ "MOUTH", "HEAD", "EYES" ],
+    "restricts_gear": [ "mouth", "head", "eyes" ],
     "attacks": {
       "attack_text_u": "You stab at %s with the stinger inside your petals",
       "attack_text_npc": "%1$s stabs at %2$s with the stinger inside their petals",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 40,
       "base_damage": { "damage_type": "stab", "amount": 15 }
     },
-    "wet_protection": [ { "part": "HEAD", "neutral": 6, "good": 8 } ]
+    "wet_protection": [ { "part": "head", "neutral": 6, "good": 8 } ]
   },
   {
     "type": "mutation",
@@ -1260,16 +1260,16 @@
     "leads_to": [ "THORNS", "LEAVES", "BARK", "MOSS" ],
     "category": [ "MUTCAT_PLANT", "MUTCAT_ELFA" ],
     "wet_protection": [
-      { "part": "HEAD", "neutral": 4 },
-      { "part": "LEG_L", "neutral": 5 },
-      { "part": "LEG_R", "neutral": 5 },
-      { "part": "FOOT_L", "neutral": 1 },
-      { "part": "FOOT_R", "neutral": 1 },
-      { "part": "ARM_L", "neutral": 4 },
-      { "part": "ARM_R", "neutral": 4 },
-      { "part": "HAND_L", "neutral": 1 },
-      { "part": "HAND_R", "neutral": 1 },
-      { "part": "TORSO", "neutral": 10 }
+      { "part": "head", "neutral": 4 },
+      { "part": "leg_l", "neutral": 5 },
+      { "part": "leg_r", "neutral": 5 },
+      { "part": "foot_l", "neutral": 1 },
+      { "part": "foot_r", "neutral": 1 },
+      { "part": "arm_l", "neutral": 4 },
+      { "part": "arm_r", "neutral": 4 },
+      { "part": "hand_l", "neutral": 1 },
+      { "part": "hand_r", "neutral": 1 },
+      { "part": "torso", "neutral": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 3, "cut": 3 } ]
   },
@@ -1307,16 +1307,16 @@
     ],
     "category": [ "MUTCAT_PLANT" ],
     "wet_protection": [
-      { "part": "HEAD", "neutral": 8 },
-      { "part": "LEG_L", "neutral": 10 },
-      { "part": "LEG_R", "neutral": 10 },
-      { "part": "FOOT_L", "neutral": 3 },
-      { "part": "FOOT_R", "neutral": 3 },
-      { "part": "ARM_L", "neutral": 8 },
-      { "part": "ARM_R", "neutral": 8 },
-      { "part": "HAND_L", "neutral": 3 },
-      { "part": "HAND_R", "neutral": 3 },
-      { "part": "TORSO", "neutral": 20 }
+      { "part": "head", "neutral": 8 },
+      { "part": "leg_l", "neutral": 10 },
+      { "part": "leg_r", "neutral": 10 },
+      { "part": "foot_l", "neutral": 3 },
+      { "part": "foot_r", "neutral": 3 },
+      { "part": "arm_l", "neutral": 8 },
+      { "part": "arm_r", "neutral": 8 },
+      { "part": "hand_l", "neutral": 3 },
+      { "part": "hand_r", "neutral": 3 },
+      { "part": "torso", "neutral": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 5 } ]
   },
@@ -1357,7 +1357,7 @@
     "prereqs2": [ "SAPROPHAGE" ],
     "threshreq": [ "THRESH_PLANT" ],
     "cancels": [ "LEG_TENTACLES", "SMELLY", "SMELLY2" ],
-    "encumbrance_covered": [ [ "FOOT_L", 10 ], [ "FOOT_R", 10 ] ],
+    "encumbrance_covered": [ [ "foot_l", 10 ], [ "foot_r", 10 ] ],
     "vitamin_rates": [ [ "vitC", -1200 ], [ "calcium", -1200 ], [ "iron", -1200 ], [ "vitB", -1200 ], [ "vitA", -1200 ] ]
   },
   {
@@ -1392,7 +1392,7 @@
     "description": "You have grown large, curved, and wickedly sharp talons in place of your big toes.  Fortunately, they don't get in the way of your movement.  Unfortunately, they do prevent you from wearing footgear.",
     "valid": false,
     "cancels": [ "LEG_TENTACLES", "HOOVES", "ROOTS1", "ROOTS2", "ROOTS3", "HOOF_TALON", "WEBBED" ],
-    "restricts_gear": [ "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "foot_l", "foot_r" ],
     "attacks": {
       "attack_text_u": "You slash %s with a talon",
       "attack_text_npc": "%1$s slashes %2$s with a talon",
@@ -1412,8 +1412,8 @@
     "description": "Your feet have fused into hooves.  This allows kicking attacks to do much more damage, provides natural armor, and removes the need to wear shoes; however, you can not wear shoes of any kind.  Reduces wet effects.",
     "cancels": [ "PADDED_FEET", "LEG_TENTACLES", "RAP_TALONS", "ROOTS1", "ROOTS2", "ROOTS3", "WEBBED" ],
     "changes_to": [ "HOOF_TALON" ],
-    "wet_protection": [ { "part": "FOOT_L", "neutral": 10 }, { "part": "FOOT_R", "neutral": 10 } ],
-    "restricts_gear": [ "FOOT_L", "FOOT_R" ],
+    "wet_protection": [ { "part": "foot_l", "neutral": 10 }, { "part": "foot_r", "neutral": 10 } ],
+    "restricts_gear": [ "foot_l", "foot_r" ],
     "destroys_gear": true,
     "attacks": {
       "attack_text_u": "You kick %s with your hooves",
@@ -1421,7 +1421,7 @@
       "chance": 15,
       "strength_damage": { "damage_type": "bash", "amount": 3 }
     },
-    "armor": [ { "parts": [ "FOOT_L", "FOOT_R" ], "bash": 6, "cut": 6 } ]
+    "armor": [ { "parts": [ "foot_l", "foot_r" ], "bash": 6, "cut": 6 } ]
   },
   {
     "type": "mutation",
@@ -1437,10 +1437,10 @@
     "cancels": [ "PADDED_FEET", "LEG_TENTACLES", "RAP_TALONS", "ROOTS1", "ROOTS2", "ROOTS3", "WEBBED" ],
     "threshreq": [ "THRESH_CHIMERA" ],
     "leads_to": [ "CHIMERA_BODY" ],
-    "wet_protection": [ { "part": "FOOT_R", "neutral": 10 } ],
-    "restricts_gear": [ "FOOT_L", "FOOT_R" ],
+    "wet_protection": [ { "part": "foot_r", "neutral": 10 } ],
+    "restricts_gear": [ "foot_l", "foot_r" ],
     "destroys_gear": true,
-    "armor": [ { "parts": [ "FOOT_R" ], "bash": 6, "cut": 6 } ],
+    "armor": [ { "parts": [ "foot_r" ], "bash": 6, "cut": 6 } ],
     "attacks": [
       {
         "attack_text_u": "You kick at %s with your hoof",
@@ -1578,16 +1578,16 @@
     "prereqs": [ "SNAKE_SKIN" ],
     "changes_to": [ "THICK_SCALES", "SLEEK_SCALES", "FUR_SCALES", "TORTOISE_SCALES", "RAPTOR_SCALES" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 3 },
-      { "part": "LEG_L", "ignored": 10 },
-      { "part": "LEG_R", "ignored": 10 },
-      { "part": "FOOT_L", "ignored": 3 },
-      { "part": "FOOT_R", "ignored": 3 },
-      { "part": "ARM_L", "ignored": 9 },
-      { "part": "ARM_R", "ignored": 9 },
-      { "part": "HAND_L", "ignored": 2 },
-      { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "head", "ignored": 3 },
+      { "part": "leg_l", "ignored": 10 },
+      { "part": "leg_r", "ignored": 10 },
+      { "part": "foot_l", "ignored": 3 },
+      { "part": "foot_r", "ignored": 3 },
+      { "part": "arm_l", "ignored": 9 },
+      { "part": "arm_r", "ignored": 9 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2 } ]
   },
@@ -1623,16 +1623,16 @@
       "LUPINE_FUR"
     ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 3 },
-      { "part": "LEG_L", "ignored": 10 },
-      { "part": "LEG_R", "ignored": 10 },
-      { "part": "FOOT_L", "ignored": 3 },
-      { "part": "FOOT_R", "ignored": 3 },
-      { "part": "ARM_L", "ignored": 9 },
-      { "part": "ARM_R", "ignored": 9 },
-      { "part": "HAND_L", "ignored": 2 },
-      { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "head", "ignored": 3 },
+      { "part": "leg_l", "ignored": 10 },
+      { "part": "leg_r", "ignored": 10 },
+      { "part": "foot_l", "ignored": 3 },
+      { "part": "foot_r", "ignored": 3 },
+      { "part": "arm_l", "ignored": 9 },
+      { "part": "arm_r", "ignored": 9 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 2, "cut": 3, "acid": 1 } ]
   },
@@ -1670,16 +1670,16 @@
     ],
     "bodytemp_modifiers": [ 30, 80 ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 3 },
-      { "part": "LEG_L", "ignored": 10 },
-      { "part": "LEG_R", "ignored": 10 },
-      { "part": "FOOT_L", "ignored": 3 },
-      { "part": "FOOT_R", "ignored": 3 },
-      { "part": "ARM_L", "ignored": 9 },
-      { "part": "ARM_R", "ignored": 9 },
-      { "part": "HAND_L", "ignored": 2 },
-      { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "head", "ignored": 3 },
+      { "part": "leg_l", "ignored": 10 },
+      { "part": "leg_r", "ignored": 10 },
+      { "part": "foot_l", "ignored": 3 },
+      { "part": "foot_r", "ignored": 3 },
+      { "part": "arm_l", "ignored": 9 },
+      { "part": "arm_r", "ignored": 9 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 1, "elec": 1 } ]
   },
@@ -1940,7 +1940,7 @@
       "SCUTES"
     ],
     "category": [ "MUTCAT_FELINE" ],
-    "armor": [ { "parts": [ "HEAD", "MOUTH" ], "bash": 1 } ]
+    "armor": [ { "parts": [ "head", "mouth" ], "bash": 1 } ]
   },
   {
     "type": "mutation",
@@ -1953,16 +1953,16 @@
     "threshreq": [ "THRESH_FISH", "THRESH_CEPHALOPOD" ],
     "category": [ "MUTCAT_FISH", "MUTCAT_CEPHALOPOD" ],
     "wet_protection": [
-      { "part": "HEAD", "neutral": 6, "good": 8 },
-      { "part": "LEG_L", "neutral": 14, "good": 20 },
-      { "part": "LEG_R", "neutral": 14, "good": 20 },
-      { "part": "FOOT_L", "neutral": 4, "good": 8 },
-      { "part": "FOOT_R", "neutral": 4, "good": 8 },
-      { "part": "ARM_L", "neutral": 14, "good": 20 },
-      { "part": "ARM_R", "neutral": 14, "good": 20 },
-      { "part": "HAND_L", "neutral": 4, "good": 8 },
-      { "part": "HAND_R", "neutral": 4, "good": 8 },
-      { "part": "TORSO", "neutral": 28, "good": 40 }
+      { "part": "head", "neutral": 6, "good": 8 },
+      { "part": "leg_l", "neutral": 14, "good": 20 },
+      { "part": "leg_r", "neutral": 14, "good": 20 },
+      { "part": "foot_l", "neutral": 4, "good": 8 },
+      { "part": "foot_r", "neutral": 4, "good": 8 },
+      { "part": "arm_l", "neutral": 14, "good": 20 },
+      { "part": "arm_r", "neutral": 14, "good": 20 },
+      { "part": "hand_l", "neutral": 4, "good": 8 },
+      { "part": "hand_r", "neutral": 4, "good": 8 },
+      { "part": "torso", "neutral": 28, "good": 40 }
     ]
   },
   {
@@ -1997,16 +1997,16 @@
       "SCUTES"
     ],
     "wet_protection": [
-      { "part": "HEAD", "good": 7 },
-      { "part": "LEG_L", "good": 21 },
-      { "part": "LEG_R", "good": 21 },
-      { "part": "FOOT_L", "good": 6 },
-      { "part": "FOOT_R", "good": 6 },
-      { "part": "ARM_L", "good": 19 },
-      { "part": "ARM_R", "good": 19 },
-      { "part": "HAND_L", "good": 5 },
-      { "part": "HAND_R", "good": 5 },
-      { "part": "TORSO", "good": 40 }
+      { "part": "head", "good": 7 },
+      { "part": "leg_l", "good": 21 },
+      { "part": "leg_r", "good": 21 },
+      { "part": "foot_l", "good": 6 },
+      { "part": "foot_r", "good": 6 },
+      { "part": "arm_l", "good": 19 },
+      { "part": "arm_r", "good": 19 },
+      { "part": "hand_l", "good": 5 },
+      { "part": "hand_r", "good": 5 },
+      { "part": "torso", "good": 40 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 2 } ]
   },
@@ -2043,16 +2043,16 @@
     "leads_to": [ "CHIMERA_BODY" ],
     "category": [ "MUTCAT_CHIMERA" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 5 },
-      { "part": "LEG_L", "ignored": 14 },
-      { "part": "LEG_R", "ignored": 14 },
-      { "part": "FOOT_L", "ignored": 5 },
-      { "part": "FOOT_R", "ignored": 5 },
-      { "part": "ARM_L", "ignored": 13 },
-      { "part": "ARM_R", "ignored": 13 },
-      { "part": "HAND_L", "ignored": 4 },
-      { "part": "HAND_R", "ignored": 4 },
-      { "part": "TORSO", "ignored": 26 }
+      { "part": "head", "ignored": 5 },
+      { "part": "leg_l", "ignored": 14 },
+      { "part": "leg_r", "ignored": 14 },
+      { "part": "foot_l", "ignored": 5 },
+      { "part": "foot_r", "ignored": 5 },
+      { "part": "arm_l", "ignored": 13 },
+      { "part": "arm_r", "ignored": 13 },
+      { "part": "hand_l", "ignored": 4 },
+      { "part": "hand_r", "ignored": 4 },
+      { "part": "torso", "ignored": 26 }
     ],
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 5, "acid": 1 } ]
   },
@@ -2098,11 +2098,11 @@
       "attack_text_u": "You nip at %s",
       "attack_text_npc": "%1$s nips and harries %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2135,11 +2135,11 @@
       "attack_text_u": "You nip at %s",
       "attack_text_npc": "%1$s nips and harries %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "cut", "amount": 10 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2168,12 +2168,12 @@
     ],
     "prereqs": [ "MUZZLE" ],
     "category": [ "MUTCAT_BEAST" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You chomp %s",
       "attack_text_npc": "%1$s chomps %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     }
@@ -2211,11 +2211,11 @@
       "attack_text_u": "You nip at %s",
       "attack_text_npc": "%1$s nips and harries %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2244,7 +2244,7 @@
       "FLOWER_HEAD",
       "FANGS_SPIDER"
     ],
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2278,11 +2278,11 @@
       "attack_text_u": "You bite a chunk out of %s",
       "attack_text_npc": "%1$s bites a chunk out of %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "stab", "amount": 16 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2314,7 +2314,7 @@
     "changes_to": [ "MUZZLE_CHIMERA" ],
     "leads_to": [ "BOVINE_BODY" ],
     "social_modifiers": { "intimidate": 15 },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2344,12 +2344,12 @@
     "threshreq": [ "THRESH_CHIMERA" ],
     "category": [ "MUTCAT_CHIMERA" ],
     "leads_to": [ "CHIMERA_BODY" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You bite and rend %s",
       "attack_text_npc": "%1$s bites and rends %2$s",
       "blocker_mutations": [ "FANGS", "SABER_TEETH" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 25 }
     }
@@ -2365,7 +2365,7 @@
     "description": "You have a pair of large curled horns, like those of a ram.  They allow you to make a strong bashing headbutt attack, but prevent you from wearing any headwear that is not made of fabric.",
     "prereqs": [ "HORNS" ],
     "cancels": [ "ANTENNAE", "HORNS_POINTED", "ANTLERS", "FLOWER_HEAD" ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "attacks": {
       "attack_text_u": "You headbutt %s with your curled horns",
       "attack_text_npc": "%1$s headbutts %2$s with their curled horns",
@@ -2406,7 +2406,7 @@
     "prereqs": [ "HORNS" ],
     "cancels": [ "ANTENNAE", "HORNS_CURLED", "ANTLERS", "FLOWER_HEAD" ],
     "category": [ "MUTCAT_CHIMERA" ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "attacks": {
       "attack_text_u": "You stab %s with your pointed horns",
       "attack_text_npc": "%1$s stabs %2$s with their pointed horns",
@@ -2426,7 +2426,7 @@
     "description": "You have a huge rack of antlers, like those of a moose.  They prevent you from hearing headwear that is not made of fabric, but provide a weak headbutt attack.",
     "prereqs": [ "HORNS" ],
     "cancels": [ "ANTENNAE", "HORNS_CURLED", "HORNS_POINTED", "FLOWER_HEAD" ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "attacks": {
       "attack_text_u": "You butt %s with your antlers",
       "attack_text_npc": "%1$s butts %2$s with their antlers",
@@ -2445,7 +2445,7 @@
     "description": "You have a pair of antennae.  They allow you to detect the presence of monsters up to a few tiles away, even if you can't see or hear them, but prevent you from wearing headwear that is not made of fabric.",
     "prereqs": [ "HEADBUMPS" ],
     "cancels": [ "HORNS", "HORNS_CURLED", "HORNS_POINTED", "ANTLERS", "FLOWER_HEAD" ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "allow_soft_gear": true
   },
   {
@@ -2485,7 +2485,7 @@
     "visibility": 1,
     "ugliness": 1,
     "mixed_effect": true,
-    "encumbrance_always": [ [ "TORSO", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
+    "encumbrance_always": [ [ "torso", 10 ], [ "arm_l", 10 ], [ "arm_r", 10 ] ],
     "description": "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +3), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
     "prereqs": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4" ],
     "changes_to": [ "LARGE_OK", "HUGE" ],
@@ -2521,7 +2521,7 @@
     "changes_to": [ "HUGE_OK" ],
     "category": [ "MUTCAT_CHIMERA" ],
     "passive_mods": { "str_mod": 6 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r" ],
     "destroys_gear": true
   },
   {
@@ -2539,7 +2539,7 @@
     "category": [ "MUTCAT_CHIMERA" ],
     "leads_to": [ "MUT_TOUGH" ],
     "passive_mods": { "str_mod": 8 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r" ],
     "destroys_gear": true
   },
   {
@@ -2921,7 +2921,7 @@
       "NO_EARS_BIRD",
       "FLOWER_HEAD"
     ],
-    "wet_protection": [ { "part": "HEAD", "good": 4 } ]
+    "wet_protection": [ { "part": "head", "good": 4 } ]
   },
   {
     "type": "mutation",
@@ -3105,7 +3105,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a lizard-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 5.",
-    "encumbrance_always": [ [ "MOUTH", 5 ] ],
+    "encumbrance_always": [ [ "mouth", 5 ] ],
     "cancels": [ "SLIT_NOSTRILS_TORTOISE", "SLIT_NOSTRILS_FISH", "NO_NOSE_SPIDER", "NO_NOSE_INSECT", "FLOWER_HEAD" ]
   },
   {
@@ -3116,7 +3116,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a fish-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 5.",
-    "encumbrance_always": [ [ "MOUTH", 5 ] ],
+    "encumbrance_always": [ [ "mouth", 5 ] ],
     "cancels": [ "SLIT_NOSTRILS_TORTOISE", "SLIT_NOSTRILS", "NO_NOSE_SPIDER", "NO_NOSE_INSECT", "FLOWER_HEAD" ],
     "category": [ "MUTCAT_FISH" ]
   },
@@ -3128,7 +3128,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a tortoise-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 5.",
-    "encumbrance_always": [ [ "MOUTH", 5 ] ],
+    "encumbrance_always": [ [ "mouth", 5 ] ],
     "cancels": [ "SLIT_NOSTRILS", "SLIT_NOSTRILS_FISH", "NO_NOSE_SPIDER", "NO_NOSE_INSECT", "FLOWER_HEAD" ],
     "category": [ "MUTCAT_TORTOISE" ]
   },
@@ -3159,11 +3159,11 @@
       "WEB_RAPPEL",
       "WEB_ROPE"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "attacks": {
       "attack_text_u": "You stab at %s with your insectoid stinger",
       "attack_text_npc": "%1$s stabs at %2$s with the insectoid stinger",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 30,
       "base_damage": { "damage_type": "stab", "amount": 20 }
     },
@@ -3197,8 +3197,8 @@
       "WEB_ROPE"
     ],
     "category": [ "MUTCAT_FISH" ],
-    "wet_protection": [ { "part": "LEG_L", "good": 5 }, { "part": "LEG_R", "good": 5 } ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "wet_protection": [ { "part": "leg_l", "good": 5 }, { "part": "leg_r", "good": 5 } ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "allow_soft_gear": true
   },
   {
@@ -3227,7 +3227,7 @@
       "WEB_ROPE"
     ],
     "changes_to": [ "TAIL_CATTLE", "TAIL_FLUFFY" ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "dodge_modifier": 2,
     "allow_soft_gear": true
   },
@@ -3257,7 +3257,7 @@
       "WEB_RAPPEL",
       "WEB_ROPE"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "dodge_modifier": 1,
     "allow_soft_gear": true
   },
@@ -3288,7 +3288,7 @@
       "WEB_RAPPEL",
       "WEB_ROPE"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "dodge_modifier": 2,
     "allow_soft_gear": true
   },
@@ -3320,7 +3320,7 @@
       "WEB_ROPE"
     ],
     "changes_to": [ "TAIL_CLUB" ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "dodge_modifier": 2,
     "attacks": {
       "attack_text_u": "You whap %s with your tail",
@@ -3356,7 +3356,7 @@
       "WEB_RAPPEL",
       "WEB_ROPE"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "dodge_modifier": 3,
     "allow_soft_gear": true
   },
@@ -3384,7 +3384,7 @@
       "WEB_RAPPEL",
       "WEB_ROPE"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "social_modifiers": { "lie": -20, "persuade": 10 },
     "dodge_modifier": 4,
     "allow_soft_gear": true
@@ -3446,7 +3446,7 @@
       "WEB_RAPPEL",
       "WEB_ROPE"
     ],
-    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "restricts_gear": [ "leg_l", "leg_r" ],
     "attacks": {
       "attack_text_u": "You club %s with your tail",
       "attack_text_npc": "%1$s clubs %2$s with their tail",
@@ -3518,7 +3518,7 @@
       {
         "attack_text_u": "You bite and tear into %s",
         "attack_text_npc": "%1$s bites and tears into %2$s",
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 35,
         "base_damage": { "damage_type": "stab", "amount": 35 }
       }
@@ -3558,13 +3558,13 @@
       {
         "attack_text_u": "You jackhammer into %s with your beak",
         "attack_text_npc": "%1$s jackhammer into %2$s with their beak",
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "hardcoded_effect": true
       }
     ],
-    "wet_protection": [ { "part": "MOUTH", "ignored": 2 } ],
-    "restricts_gear": [ "MOUTH" ],
+    "wet_protection": [ { "part": "mouth", "ignored": 2 } ],
+    "restricts_gear": [ "mouth" ],
     "destroys_gear": true
   },
   {
@@ -3597,9 +3597,9 @@
     ],
     "prereqs": [ "BEAK" ],
     "threshreq": [ "THRESH_BIRD" ],
-    "wet_protection": [ { "part": "MOUTH", "ignored": 2 } ],
+    "wet_protection": [ { "part": "mouth", "ignored": 2 } ],
     "active": true,
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "destroys_gear": true
   },
   {
@@ -3634,7 +3634,7 @@
     "prereqs": [ "EYEBULGE", "COMPOUND_EYES" ],
     "threshreq": [ "THRESH_INSECT" ],
     "active": true,
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -3664,7 +3664,7 @@
       "FANGS_SPIDER"
     ],
     "category": [ "MUTCAT_CEPHALOPOD" ],
-    "wet_protection": [ { "part": "MOUTH", "neutral": 4 } ]
+    "wet_protection": [ { "part": "mouth", "neutral": 4 } ]
   },
   {
     "type": "mutation",
@@ -3696,13 +3696,13 @@
       "FLOWER_HEAD"
     ],
     "category": [ "MUTCAT_INSECT", "MUTCAT_SPIDER" ],
-    "wet_protection": [ { "part": "MOUTH", "ignored": 1 } ],
-    "restricts_gear": [ "MOUTH" ],
+    "wet_protection": [ { "part": "mouth", "ignored": 1 } ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You bite %s with your fangs",
       "attack_text_npc": "%1$s bites %2$s with their fangs",
       "blocker_mutations": [ "FANGS_SPIDER" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 22,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
@@ -3742,11 +3742,11 @@
       "attack_text_u": "You bite %s with your fangs",
       "attack_text_npc": "%1$s bites %2$s with their fangs",
       "blocker_mutations": [ "MANDIBLES" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 22,
       "base_damage": { "damage_type": "stab", "amount": 15 }
     },
-    "wet_protection": [ { "part": "MOUTH", "ignored": 1 } ]
+    "wet_protection": [ { "part": "mouth", "ignored": 1 } ]
   },
   {
     "type": "mutation",
@@ -3826,11 +3826,11 @@
     "category": [ "MUTCAT_TORTOISE" ],
     "cancels": [ "THINSKIN" ],
     "wet_protection": [
-      { "part": "LEG_L", "neutral": 2 },
-      { "part": "LEG_R", "neutral": 2 },
-      { "part": "ARM_L", "neutral": 2 },
-      { "part": "ARM_R", "neutral": 2 },
-      { "part": "TORSO", "neutral": 4 }
+      { "part": "leg_l", "neutral": 2 },
+      { "part": "leg_r", "neutral": 2 },
+      { "part": "arm_l", "neutral": 2 },
+      { "part": "arm_r", "neutral": 2 },
+      { "part": "torso", "neutral": 4 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 1 } ]
   },
@@ -3940,12 +3940,12 @@
       "ARM_TENTACLES_8"
     ],
     "wet_protection": [
-      { "part": "HAND_L", "good": 5 },
-      { "part": "HAND_R", "good": 5 },
-      { "part": "FOOT_R", "good": 5 },
-      { "part": "FOOT_L", "good": 5 }
+      { "part": "hand_l", "good": 5 },
+      { "part": "hand_r", "good": 5 },
+      { "part": "foot_r", "good": 5 },
+      { "part": "foot_l", "good": 5 }
     ],
-    "encumbrance_covered": [ [ "HAND_L", 30 ], [ "HAND_R", 30 ] ]
+    "encumbrance_covered": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ]
   },
   {
     "type": "mutation",
@@ -3969,7 +3969,7 @@
       "ARM_TENTACLES_4",
       "ARM_TENTACLES_8"
     ],
-    "encumbrance_covered": [ [ "FOOT_L", 10 ], [ "FOOT_R", 10 ] ]
+    "encumbrance_covered": [ [ "foot_l", 10 ], [ "foot_r", 10 ] ]
   },
   {
     "type": "mutation",
@@ -3983,12 +3983,12 @@
     "cancels": [ "PADDED_FEET", "WEBBED", "HOOVES", "HOOF_TALON", "TOUGH_FEET", "RAP_TALONS" ],
     "leads_to": [ "LEG_TENT_BRACE" ],
     "wet_protection": [
-      { "part": "LEG_L", "neutral": 21 },
-      { "part": "LEG_R", "neutral": 21 },
-      { "part": "FOOT_L", "neutral": 6 },
-      { "part": "FOOT_R", "neutral": 6 }
+      { "part": "leg_l", "neutral": 21 },
+      { "part": "leg_r", "neutral": 21 },
+      { "part": "foot_l", "neutral": 6 },
+      { "part": "foot_r", "neutral": 6 }
     ],
-    "restricts_gear": [ "FOOT_L", "FOOT_R" ]
+    "restricts_gear": [ "foot_l", "foot_r" ]
   },
   {
     "type": "mutation",
@@ -4015,16 +4015,16 @@
       "TORTOISE_SCALES"
     ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 5 },
-      { "part": "LEG_L", "ignored": 16 },
-      { "part": "LEG_R", "ignored": 16 },
-      { "part": "FOOT_L", "ignored": 5 },
-      { "part": "FOOT_R", "ignored": 5 },
-      { "part": "ARM_L", "ignored": 14 },
-      { "part": "ARM_R", "ignored": 14 },
-      { "part": "HAND_L", "ignored": 4 },
-      { "part": "HAND_R", "ignored": 4 },
-      { "part": "TORSO", "ignored": 30 }
+      { "part": "head", "ignored": 5 },
+      { "part": "leg_l", "ignored": 16 },
+      { "part": "leg_r", "ignored": 16 },
+      { "part": "foot_l", "ignored": 5 },
+      { "part": "foot_r", "ignored": 5 },
+      { "part": "arm_l", "ignored": 14 },
+      { "part": "arm_r", "ignored": 14 },
+      { "part": "hand_l", "ignored": 4 },
+      { "part": "hand_r", "ignored": 4 },
+      { "part": "torso", "ignored": 30 }
     ],
     "armor": [ { "parts": "ALL", "bash": 4, "cut": 4, "acid": 1 } ]
   },
@@ -4051,16 +4051,16 @@
       "TORTOISE_SCALES"
     ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 2 },
-      { "part": "LEG_L", "ignored": 12 },
-      { "part": "LEG_R", "ignored": 12 },
-      { "part": "FOOT_L", "ignored": 2 },
-      { "part": "FOOT_R", "ignored": 2 },
-      { "part": "ARM_L", "ignored": 10 },
-      { "part": "ARM_R", "ignored": 10 },
-      { "part": "HAND_L", "ignored": 2 },
-      { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 18 }
+      { "part": "head", "ignored": 2 },
+      { "part": "leg_l", "ignored": 12 },
+      { "part": "leg_r", "ignored": 12 },
+      { "part": "foot_l", "ignored": 2 },
+      { "part": "foot_r", "ignored": 2 },
+      { "part": "arm_l", "ignored": 10 },
+      { "part": "arm_r", "ignored": 10 },
+      { "part": "hand_l", "ignored": 2 },
+      { "part": "hand_r", "ignored": 2 },
+      { "part": "torso", "ignored": 18 }
     ],
     "armor": [ { "parts": "ALL", "bash": 10, "cut": 10, "acid": 1 } ]
   },
@@ -4099,16 +4099,16 @@
       "SCUTES"
     ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 5 },
-      { "part": "LEG_L", "ignored": 16 },
-      { "part": "LEG_R", "ignored": 16 },
-      { "part": "FOOT_L", "ignored": 5 },
-      { "part": "FOOT_R", "ignored": 5 },
-      { "part": "ARM_L", "ignored": 14 },
-      { "part": "ARM_R", "ignored": 14 },
-      { "part": "HAND_L", "ignored": 4 },
-      { "part": "HAND_R", "ignored": 4 },
-      { "part": "TORSO", "ignored": 30 }
+      { "part": "head", "ignored": 5 },
+      { "part": "leg_l", "ignored": 16 },
+      { "part": "leg_r", "ignored": 16 },
+      { "part": "foot_l", "ignored": 5 },
+      { "part": "foot_r", "ignored": 5 },
+      { "part": "arm_l", "ignored": 14 },
+      { "part": "arm_r", "ignored": 14 },
+      { "part": "hand_l", "ignored": 4 },
+      { "part": "hand_r", "ignored": 4 },
+      { "part": "torso", "ignored": 30 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 1 } ],
     "passive_mods": { "dex_mod": -3 }
@@ -4225,12 +4225,12 @@
     "prereqs": [ "SNOUT" ],
     "lead_to": [ "TORT_BODY" ],
     "category": [ "MUTCAT_TORTOISE" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "allow_soft_gear": true,
     "attacks": {
       "attack_text_u": "You snap at %s",
       "attack_text_npc": "%1$s snaps at %2$s",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 25,
       "base_damage": { "damage_type": "stab", "amount": 12 }
     }
@@ -4285,10 +4285,10 @@
     "description": "You have grown a thick shell over your torso, providing excellent armor.  You find you can use the empty space as 16 storage space, but cannot wear anything on your torso.  Somewhat reduces wet effects.",
     "changes_to": [ "SHELL2" ],
     "category": [ "MUTCAT_TORTOISE" ],
-    "wet_protection": [ { "part": "TORSO", "ignored": 26 } ],
-    "restricts_gear": [ "TORSO" ],
+    "wet_protection": [ { "part": "torso", "ignored": 26 } ],
+    "restricts_gear": [ "torso" ],
     "destroys_gear": true,
-    "armor": [ { "parts": "TORSO", "bash": 16, "cut": 16, "acid": 2 } ]
+    "armor": [ { "parts": "torso", "bash": 16, "cut": 16, "acid": 2 } ]
   },
   {
     "type": "mutation",
@@ -4301,15 +4301,15 @@
     "bodytemp_sleep": 500,
     "mixed_effect": true,
     "description": "Your protective shell has grown large enough to accommodate--if need be--your whole body.  Activate to pull your head and limbs into your shell, trading mobility and vision for warmth and shelter.",
-    "encumbrance_always": [ [ "TORSO", 10 ] ],
+    "encumbrance_always": [ [ "torso", 10 ] ],
     "prereqs": [ "SHELL" ],
     "threshreq": [ "THRESH_CEPHALOPOD", "THRESH_TORTOISE" ],
     "category": [ "MUTCAT_TORTOISE" ],
-    "wet_protection": [ { "part": "TORSO", "ignored": 26 } ],
+    "wet_protection": [ { "part": "torso", "ignored": 26 } ],
     "active": true,
-    "restricts_gear": [ "TORSO" ],
+    "restricts_gear": [ "torso" ],
     "destroys_gear": true,
-    "armor": [ { "parts": "TORSO", "bash": 30, "cut": 30, "acid": 4 } ]
+    "armor": [ { "parts": "torso", "bash": 30, "cut": 30, "acid": 4 } ]
   },
   {
     "type": "mutation",
@@ -4377,8 +4377,8 @@
     "ugliness": 2,
     "mixed_effect": true,
     "description": "Your hands have fused into quasi-paws.  Fine manipulation is a challenge: permanent hand encumbrance of 10, difficulty with delicate craftwork, and your gloves don't fit.  But they handle water better.",
-    "encumbrance_always": [ [ "HAND_L", 10 ], [ "HAND_R", 10 ] ],
-    "restricts_gear": [ "HAND_L", "HAND_R" ],
+    "encumbrance_always": [ [ "hand_l", 10 ], [ "hand_r", 10 ] ],
+    "restricts_gear": [ "hand_l", "hand_r" ],
     "prereqs": [ "CLAWS", "CLAWS_RETRACT" ],
     "cancels": [ "TALONS", "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8" ],
     "changes_to": [ "PAWS_LARGE", "CLAWS_ST" ]
@@ -4393,13 +4393,13 @@
     "description": "Your arms have grown vibrantly colored feathers.  They effectively waterproof your arms and take the edge off hits, but they get slightly in the way.  They're simply too small to help you in the air.",
     "category": [ "MUTCAT_RAPTOR" ],
     "wet_protection": [
-      { "part": "ARM_L", "neutral": 50 },
-      { "part": "ARM_R", "neutral": 50 },
-      { "part": "HAND_L", "neutral": 10 },
-      { "part": "HAND_R", "neutral": 10 }
+      { "part": "arm_l", "neutral": 50 },
+      { "part": "arm_r", "neutral": 50 },
+      { "part": "hand_l", "neutral": 10 },
+      { "part": "hand_r", "neutral": 10 }
     ],
-    "encumbrance_always": [ [ "ARM_L", 5 ], [ "ARM_R", 5 ] ],
-    "armor": [ { "parts": [ "ARM_L", "ARM_R" ], "bash": 1, "cut": 1 } ]
+    "encumbrance_always": [ [ "arm_l", 5 ], [ "arm_r", 5 ] ],
+    "armor": [ { "parts": [ "arm_l", "arm_r" ], "bash": 1, "cut": 1 } ]
   },
   {
     "type": "mutation",
@@ -4665,7 +4665,7 @@
     "description": "You have a second set of clear eyelids which lower while underwater, allowing you to see as though you were wearing goggles.  Slightly decreases wet penalties.",
     "category": [ "MUTCAT_LIZARD", "MUTCAT_FISH" ],
     "cancels": [ "FLOWER_HEAD" ],
-    "wet_protection": [ { "part": "EYES", "neutral": 2 } ]
+    "wet_protection": [ { "part": "eyes", "neutral": 2 } ]
   },
   {
     "type": "mutation",
@@ -4681,7 +4681,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "blocker_mutations": [ "MUZZLE", "MUZZLE_LONG", "MUZZLE_RAT", "MUZZLE_CHIMERA" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 20,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4689,7 +4689,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 18,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4697,7 +4697,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE_LONG" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4705,7 +4705,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE_RAT" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 19,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4713,7 +4713,7 @@
         "attack_text_u": "You bite and rend %s",
         "attack_text_npc": "%1$s bites and rends %2$s",
         "required_mutations": [ "MUZZLE_CHIMERA" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "base_damage": { "damage_type": "stab", "amount": 25 }
       }
@@ -4732,12 +4732,12 @@
     "prereqs": [ "FANGS" ],
     "threshreq": [ "THRESH_FELINE", "THRESH_CHIMERA" ],
     "cancels": [ "BEAK", "BEAK_HUM", "BEAK_PECK", "MANDIBLES", "RAZOR_TEETH", "FLOWER_HEAD", "FANGS_SPIDER", "PROBOSCIS" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "social_modifiers": { "intimidate": 15 },
     "attacks": {
       "attack_text_u": "You tear into %s with your saber teeth",
       "attack_text_npc": "%1$s tears into %2$s with their saber teeth",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 25 },
       "strength_damage": { "damage_type": "stab", "amount": 1 }
