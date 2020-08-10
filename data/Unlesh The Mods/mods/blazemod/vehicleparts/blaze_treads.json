@@ -10,7 +10,7 @@
     "color": "dark_gray",
     "broken_color": "light_gray",
     "durability": 2000,
-    "damage_modifier": 50,
+    "damage_modifier": { "damage_type": "stab", "amount": 50 },
     "description": "A section of continuous track, the kind mounted on construction vehicles and military fighting vehicles.  It acts as a wheel, and the broad surface provides plenty of traction to move heavy vehicles off-road, but at the cost of speed due to the heavy weight.",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 2, 4 ] },
@@ -40,7 +40,7 @@
     "color": "dark_gray",
     "broken_color": "light_gray",
     "durability": 3500,
-    "damage_modifier": 50,
+    "damage_modifier": { "damage_type": "stab", "amount": 50 },
     "description": "A section of continuous track, the kind mounted on construction vehicles and military fighting vehicles.  It acts as a wheel, and the broad surface provides plenty of traction to move heavy vehicles off-road, but at the cost of speed due to the heavy weight.",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 8, 16 ] },
@@ -70,7 +70,7 @@
     "broken_color": "light_gray",
     "difficulty": 7,
     "durability": 5000,
-    "damage_modifier": 50,
+    "damage_modifier": { "damage_type": "stab", "amount": 50 },
     "description": "A section of continuous track, the kind mounted on construction vehicles and military fighting vehicles.  It acts as a wheel, and the broad surface provides plenty of traction to move heavy vehicles off-road, but at the cost of speed due to the heavy weight.",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 12, 30 ] },
