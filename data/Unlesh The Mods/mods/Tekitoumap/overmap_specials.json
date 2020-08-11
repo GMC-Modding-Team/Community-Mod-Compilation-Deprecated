@@ -9,13 +9,13 @@
       { "point": [ 0, 1, -1 ], "overmap": "surv_bunk4_north" }
     ],
     "locations": [ "wilderness" ],
-    "//": "what special locations does it spawn",
+    "//0": "what special locations does it spawn",
     "city_distance": [ 5, -1 ],
-    "//": "how far from a city it should be",
+    "//1": "how far from a city it should be",
     "city_sizes": [ 1, 16 ],
-    "//": "what city sizes should it spawn in",
+    "//2": "what city sizes should it spawn in",
     "occurrences": [ 0, 3 ],
-    "//": "how many per overmap"
+    "//3": "how many per overmap"
   },
   {
     "type": "overmap_special",
@@ -28,25 +28,25 @@
     ],
     "connections": [ { "point": [ -1, 1, 0 ], "terrain": "road" } ],
     "locations": [ "forest" ],
-    "//": "what special locations does it spawn",
+    "//0": "what special locations does it spawn",
     "city_distance": [ -1, 15 ],
-    "//": "how far from a city it should be",
+    "//1": "how far from a city it should be",
     "city_sizes": [ 4, 12 ],
-    "//": "what city sizes should it spawn in",
+    "//2": "what city sizes should it spawn in",
     "occurrences": [ 1, 2 ],
-    "//": "how many per overmap"
+    "//3": "how many per overmap"
   },
   {
     "type": "overmap_special",
     "id": "yama_dojo",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "yamadojo_south" } ],
     "locations": [ "forest" ],
-    "//": "what special locations does it spawn",
+    "//0": "what special locations does it spawn",
     "city_distance": [ 5, -1 ],
-    "//": "how far from a city it should be",
+    "//1": "how far from a city it should be",
     "city_sizes": [ 4, 12 ],
-    "//": "what city sizes should it spawn in",
+    "//2": "what city sizes should it spawn in",
     "occurrences": [ 1, 3 ],
-    "//": "how many per overmap"
+    "//3": "how many per overmap"
   }
 ]
