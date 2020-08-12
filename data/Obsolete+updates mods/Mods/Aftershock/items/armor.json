@@ -119,7 +119,7 @@
     "flags": [ "VARSIZE", "OVERSIZE" ]
   },
   {
-    "id": "q_solarpack",
+    "id": "solarpack",
     "type": "TOOL_ARMOR",
     "name": { "str": "quantum solar backpack (folded)", "str_pl": "quantum solar backpacks (folded)" },
     "description": "Personal portable charging system consisting of an array of quantum solar panels neatly folded in a form of a large backpack.  It can be worn as one, and has an integrated cable to plug it into a cable charger system.  Cutting edge technology.",
@@ -139,9 +139,9 @@
     "flags": [ "FRAGILE", "OUTER", "ONLY_ONE", "SOLARPACK" ]
   },
   {
-    "id": "q_solarpack_on",
+    "id": "solarpack_on",
     "type": "TOOL_ARMOR",
-    "repairs_like": "q_solarpack",
+    "repairs_like": "solarpack",
     "name": { "str": "quantum solar backpack (unfolded)", "str_pl": "quantum solar backpacks (unfolded)" },
     "description": "Unfolded array of portable quantum solar panels ready to push some power into an active cable charger system.",
     "weight": "7500 g",
