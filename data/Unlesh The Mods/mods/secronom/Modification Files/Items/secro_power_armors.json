@@ -24,7 +24,63 @@
     "environmental_protection": 16,
     "power_armor": true,
     "qualities": [ [ "GLARE", 1 ] ],
-    "use_action": { "type": "transform", "msg": "Your power armor engages.", "target": "secro_power_armor_atk_on", "active": true },
+    "use_action": {
+      "target": "secro_power_armor_atk_on",
+      "msg": "\"Vessel\" module - <color_light_green>online",
+      "type": "transform",
+      "active": true,
+      "menu_text": "Activate \"Vessel\" module"
+    },
+    "ammo": "battery",
+    "max_charges": 500,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "DEXTERITY", "add": 1 },
+            { "value": "BONUS_DODGE", "add": 1 },
+            { "value": "ATTACK_SPEED", "multiply": 0.025 }
+          ]
+        }
+      ]
+    },
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "NO_UNLOAD", "WATCH", "THERMOMETER", "SUN_GLASSES", "OVERSIZE" ]
+  },
+  {
+    "id": "secro_power_armor_atk_on",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "Secronom exoskeleton \"O\"" },
+    "description": "A fully modified military power armor suitable for human... and the likes. Made specially for Secronom project's BOW specimens, but later on redesigned to fit the wearer's anatomy. Augmented by internal nerve stimulators, the Secronom exoskeleton type \"O\" is a lightweight and highly resistant suit that can deflects most projectile and impacts.\n\nSecronom exoskeleton type \"O\" provides:\n<color_white>Dexterity: <color_light_green>+2</color>\nDodge: <color_light_green>+2</color>\nAttack speed: <color_light_green>+5%</color></color>",
+    "weight": "12670 g",
+    "volume": "15 L",
+    "price": 11500000,
+    "price_postapoc": 40000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "power_armor_light",
+    "color": "light_red",
+    "covers": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "HEAD", "EYES", "MOUTH" ],
+    "coverage": 100,
+    "encumbrance": 40,
+    "storage": "4 L",
+    "warmth": 60,
+    "material_thickness": 10,
+    "environmental_protection": 16,
+    "power_armor": true,
+    "qualities": [ [ "GLARE", 1 ] ],
+    "use_action": {
+      "target": "secro_power_armor_atk",
+      "msg": "\"Vessel\" module - <color_red>offline",
+      "type": "transform",
+      "menu_text": "Deactivate \"Vessel\" module"
+    },
+    "ammo": "battery",
+    "max_charges": 500,
     "relic_data": {
       "passive_effects": [
         {
