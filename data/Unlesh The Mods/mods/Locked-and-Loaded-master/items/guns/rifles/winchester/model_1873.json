@@ -18,7 +18,7 @@
     "range": 70,
     "dispersion": 30,
     "durability": 6,
-    "barrel_volume": "610 ml",
+    "barrel_length": " 610 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -34,7 +34,8 @@
       [ "underbarrel", 1 ]
     ],
     "clip_size": 7,
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "4440": 7 } } ]
   },
   {
     "id": "win1873_3840",
@@ -55,7 +56,7 @@
     "range": 70,
     "dispersion": 30,
     "durability": 6,
-    "barrel_volume": "610 ml",
+    "barrel_length": " 610 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -71,7 +72,8 @@
       [ "underbarrel", 1 ]
     ],
     "clip_size": 7,
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3840": 7 } } ]
   },
   {
     "id": "win1873_3220",
@@ -92,7 +94,7 @@
     "range": 70,
     "dispersion": 30,
     "durability": 6,
-    "barrel_volume": "610 ml",
+    "barrel_length": " 610 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -108,6 +110,7 @@
       [ "underbarrel", 1 ]
     ],
     "clip_size": 7,
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3220": 7 } } ]
   }
 ]
