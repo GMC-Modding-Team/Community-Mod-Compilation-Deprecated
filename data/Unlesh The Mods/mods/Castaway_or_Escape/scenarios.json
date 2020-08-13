@@ -1,14 +1,25 @@
 [
   {
     "type": "scenario",
-    "name": "Castaway",
+    "name": "Challenge - Castaway",
     "description": "The aftermath of your plane crash has left you stranded and unconscious on a lake thankfully you've washed up on a lush green island.",
     "id": "castaway_scen",
-    "points": -5,
+    "points": -8,
     "allowed_locs": [ "island_forest", "island_forest_thick", "island_forest_water", "island_field" ],
-    "start_name": "Green Island",
-    "professions": [ "unemployed" ],
+    "start_name": "Island",
+    "professions": [ "castaway" ],
     "flags": [ "LONE_START", "HELI_CRASH", "SUM_START" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Challenge - Airline Disaster",
+    "description": "the plane you're in has crash landed on a field to add insult to injury some passengers have turned into the walking dead.",
+    "id": "airdis_scen",
+    "points": -6,
+    "allowed_locs": [ "airliner_1a" ],
+    "start_name": "Plane Crash",
+    "professions": [ "tweaker", "medic", "unemployed", "us_airmarshal", "politician", "detective", "backpacker" ],
+    "flags": [ "CHALLENGE", "SUR_START", "HELI_CRASH", "FIRE_START" ]
   },
   {
     "type": "scenario",
