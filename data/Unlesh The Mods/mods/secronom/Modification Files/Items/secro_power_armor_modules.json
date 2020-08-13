@@ -19,6 +19,45 @@
     "encumbrance": 10,
     "power_armor": true,
     "material_thickness": 1,
+    "use_action": {
+      "target": "secro_power_armor_module_core_act",
+      "msg": "\"Vessel\" module - <color_light_green>online",
+      "type": "transform",
+      "active": true,
+      "menu_text": "Activate \"Vessel\" module"
+    },
+    "ammo": "battery",
+    "max_charges": 500,
+    "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
+  },
+  {
+    "id": "secro_power_armor_module_core_act",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "Secronom module implant \"Core\"" },
+    "description": "A set of power armor modules that installs a power core on the chest that unifies the wearer's bionic power to the suit for energy distribution. Module implant type \"Core\" enables the user to activate/deactivate the power armor and take full control of it, only if the suit has no feature otherwise it is useless.",
+    "weight": "500 g",
+    "volume": "125 ml",
+    "price": 620000,
+    "price_postapoc": 62000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "superalloy" ],
+    "symbol": "[",
+    "looks_like": "power_armor_frame",
+    "color": "red",
+    "coverage": 10,
+    "encumbrance": 10,
+    "power_armor": true,
+    "material_thickness": 1,
+    "use_action": {
+      "target": "secro_power_armor_module_core",
+      "msg": "\"Vessel\" module - <color_red>offline",
+      "type": "transform",
+      "menu_text": "Deactivate \"Vessel\" module"
+    },
+    "ammo": "battery",
+    "max_charges": 500,
     "flags": [ "WATERPROOF", "OUTER", "STURDY", "ELECTRIC_IMMUNE", "POWERARMOR_COMPATIBLE" ]
   },
   {
