@@ -13,11 +13,11 @@
     "bashing": 12,
     "material": [ "steel", "wood" ],
     "color": "brown",
-    "ammo": "50",
+    "ammo": [ "50" ],
     "range": 96,
     "dispersion": 50,
     "durability": 8,
-    "barrel_volume": "348 ml",
+    "barrel_length": "348 ml",
     "built_in_mods": [ "muzzle_brake" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -33,6 +33,15 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "magazines": [ [ "50", [ "AW50_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "300 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "AW50_mag" ]
+      }
+    ]
   }
 ]

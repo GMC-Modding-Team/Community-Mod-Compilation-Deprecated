@@ -14,14 +14,23 @@
     "material": [ "steel", "aluminum" ],
     "symbol": ")",
     "color": "dark_gray",
-    "ammo": "38",
+    "ammo": [ "38" ],
     "range": 1,
     "dispersion": 200,
     "durability": 7,
     "min_cycle_recoil": 450,
-    "barrel_volume": "10 ml",
+    "barrel_length": "10 ml",
     "default_mods": [ "laser_sight" ],
     "magazine_well": 1,
-    "magazines": [ [ "38", [ "bodyguard_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "bodyguard_mag" ]
+      }
+    ]
   }
 ]
