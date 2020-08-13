@@ -13,12 +13,12 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
-    "ammo": "357mag",
+    "ammo": [ "357mag" ],
     "dispersion": 300,
     "durability": 8,
-    "barrel_volume": "16 ml",
+    "barrel_length": "16 ml",
     "clip_size": 6,
-    "magazines": [ [ "357mag", [ "357mag_speedloader6" ] ] ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "357mag": 6 } } ]
   },
   {
     "id": "vaquero38",
@@ -34,12 +34,12 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
-    "ammo": "38",
+    "ammo": [ "38" ],
     "dispersion": 300,
-    "barrel_volume": "16 ml",
+    "barrel_length": "16 ml",
     "durability": 8,
     "clip_size": 6,
-    "magazines": [ [ "38", [ "38_speedloader6" ] ] ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "38": 6 } } ]
   },
   {
     "id": "vaquero4440",
@@ -55,12 +55,12 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
-    "ammo": "4440",
+    "ammo": [ "4440" ],
     "dispersion": 300,
-    "barrel_volume": "24 ml",
+    "barrel_length": "24 ml",
     "durability": 8,
     "clip_size": 6,
-    "magazines": [ [ "4440", [ "4440_speedloader6" ] ] ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "4440": 6 } } ]
   },
   {
     "id": "vaquero44",
@@ -76,12 +76,12 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
-    "ammo": "44",
+    "ammo": [ "44" ],
     "dispersion": 300,
-    "barrel_volume": "23 ml",
+    "barrel_length": "23 ml",
     "durability": 8,
     "clip_size": 6,
-    "magazines": [ [ "44", [ "44_speedloader6" ] ] ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "44": 6 } } ]
   },
   {
     "id": "vaquero45",
@@ -97,11 +97,11 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
-    "ammo": "45",
+    "ammo": [ "45" ],
     "dispersion": 300,
-    "barrel_volume": "25 ml",
+    "barrel_length": "25 ml",
     "durability": 8,
     "clip_size": 6,
-    "magazines": [ [ "45", [ "45_speedloader6" ] ] ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "45": 6 } } ]
   }
 ]

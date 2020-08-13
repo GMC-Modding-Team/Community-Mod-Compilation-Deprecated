@@ -8,13 +8,14 @@
     "weight": "100 g",
     "volume": "100 ml",
     "price": 250,
-    "material": [ "steel" ],
+    "material": "steel",
     "color": "black",
     "symbol": "*",
     "looks_like": "8x40_50_mag",
-    "ammo_type": "ggp",
+    "ammo_type": [ "ggp" ],
     "capacity": 1,
     "reliability": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "ggp": 1 } } ]
   }
 ]

@@ -14,12 +14,12 @@
     "bashing": 8,
     "material": [ "aluminum", "steel" ],
     "symbol": ")",
-    "ammo": "939",
+    "ammo": [ "939" ],
     "skill": "rifle",
     "range": 50,
     "dispersion": 30,
     "durability": 8,
-    "barrel_volume": "33 ml",
+    "barrel_length": "33 ml",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
     "built_in_mods": [ "suppressor", "cheek_pad" ],
     "valid_mod_locations": [
@@ -34,6 +34,15 @@
       [ "sling", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "939", [ "VSS_mag", "bigVSS_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "VSS_mag", "bigVSS_mag" ]
+      }
+    ]
   }
 ]

@@ -14,13 +14,22 @@
     "to_hit": -2,
     "materials": [ "steel", "plastic" ],
     "symbol": "|",
-    "ammo": "300",
+    "ammo": [ "300" ],
     "skill": "rifle",
     "range": 70,
     "dispersion": 30,
     "durability": 6,
-    "barrel_volume": "140 ml",
+    "barrel_length": "140 ml",
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "mechanism", 3 ], [ "sights", 1 ], [ "sling", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "300", [ "AWM_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "AWM_mag" ]
+      }
+    ]
   }
 ]
