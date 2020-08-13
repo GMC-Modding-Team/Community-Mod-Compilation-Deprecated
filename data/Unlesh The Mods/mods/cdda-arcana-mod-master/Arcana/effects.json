@@ -233,8 +233,8 @@
     "type": "effect_type",
     "id": "heat_ward_dragonblood",
     "name": [ "Elemental Affinity" ],
-    "desc": [ "Immunity to heatstroke.  High temperatures will still leave you sluggish, and extreme heat will still cause blistering." ],
-    "removes_effects": [ "hot" ]
+    "desc": [ "No longer slowed down by heat exhaustion.  You are still vulnerable to the other side effects of heatstroke, and may blister in extreme temperatures." ],
+    "removes_effects": [ "hot_speed" ]
   },
   {
     "type": "effect_type",
@@ -471,6 +471,19 @@
     "rating": "good",
     "max_intensity": 30,
     "int_dur_factor": "1 m"
+  },
+  {
+    "type": "effect_type",
+    "id": "talisman_pet_buff",
+    "name": [ "Warded" ],
+    "removes_effects": [ "bleed", "infected", "bite", "stunned", "downed", "poison", "badpoison", "smoke", "boomered", "glowing", "taint", "visuals" ],
+    "blocks_effects": [ "bleed", "infected", "bite", "stunned", "downed", "poison", "badpoison", "smoke", "boomered", "glowing", "taint", "visuals" ],
+    "flags": [
+      "EFFECT_ELECTRIC_IMMUNE",
+      "EFFECT_ACID_IMMUNE",
+      "EFFECT_COLD_IMMUNE",
+      "EFFECT_BIO_IMMUNE"
+    ]
   },
   {
     "type": "effect_type",
