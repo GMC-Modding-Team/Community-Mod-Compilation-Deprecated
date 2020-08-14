@@ -1,5 +1,6 @@
 [
-  {
+
+{
     "type": "mutation_category",
     "id": "FEVMUTANT",
     "name": "Super Mutant",
@@ -25,7 +26,8 @@
     "iv_sleep_message": "You finally fall asleep to the master's soothing words of unity.",
     "memorial_message": "You are with the master now."
   },
-  {
+
+{
     "type": "mutation",
     "id": "UGLY",
     "name": "Ugly",
@@ -38,6 +40,7 @@
     "changes_to": [ "DEFORMED" ],
     "category": [ "RAPTOR", "FELINE", "LUPINE", "FEVMUTANT" ]
   },
+  
   {
     "type": "mutation",
     "id": "MUT_JUNKIE",
@@ -48,6 +51,7 @@
     "threshreq": [ "THRESH_MEDICAL", "THRESH_CHIMERA" ],
     "category": [ "MEDICAL", "CHIMERA", "FEVMUTANT" ]
   },
+  
   {
     "type": "mutation",
     "id": "UNSTABLE",
@@ -68,7 +72,8 @@
     "prereqs": [ "UNSTABLE", "MUT_JUNKIE" ],
     "category": [ "CHIMERA", "FEVMUTANT" ]
   },
-  {
+
+{
     "type": "mutation",
     "id": "ROBUST",
     "name": "Robust Genetics",
@@ -76,9 +81,10 @@
     "description": "You have a very strong genetic base.  If you mutate, the odds that the mutation will be beneficial are greatly increased.",
     "starting_trait": true,
     "cancels": [ "CHAOTIC_BAD" ],
-    "category": [ "FISH", "SLIME", "ALPHA", "MEDICAL", "FEVMUTANT" ]
+    "category": [ "FISH", "SLIME", "ALPHA", "MEDICAL", "FEVMUTANT"]
   },
-  {
+
+{
     "type": "mutation",
     "id": "HAMFISTS",
     "name": "Ham Fisted",
@@ -96,7 +102,7 @@
       [ "traps", -2 ],
       [ "fabrication", -1 ]
     ],
-    "passive_mods": { "str_mod": 2 },
+	"passive_mods": { "str_mod": 2 },
     "encumbrance_always": [ [ "HAND_L", 10 ], [ "HAND_R", 10 ] ],
     "restricts_gear": [ "HAND_L", "HAND_R" ],
     "types": [ "HANDS" ],
@@ -104,6 +110,7 @@
     "cancels": [ "TALONS" ],
     "category": [ "FEVMUTANT" ]
   },
+  
   {
     "type": "mutation",
     "id": "THRESH_FEVMUTANT",
@@ -111,11 +118,12 @@
     "points": 1,
     "description": "The master has blessed you with the next step in human evolution. The world is good as yours.",
     "cancels": [ "CARNIVORE" ],
-    "social_modifiers": { "intimidate": 2 },
+	"social_modifiers": { "intimidate": 2 },
     "valid": false,
     "purifiable": false,
     "threshold": true
   },
+  
   {
     "type": "mutation",
     "id": "INT_FEVMUTANT",
@@ -128,6 +136,7 @@
     "category": [ "FEVMUTANT" ],
     "passive_mods": { "int_mod": 1 }
   },
+  
   {
     "type": "mutation",
     "id": "SCHIZOPHRENIC",
@@ -138,6 +147,7 @@
     "valid": false,
     "category": [ "MEDICAL", "FEVMUTANT" ]
   },
+  
   {
     "type": "mutation",
     "id": "DEFORMED",
@@ -176,7 +186,8 @@
     "prereqs": [ "DEFORMED2" ],
     "category": [ "SLIME", "RAT", "CHIMERA", "FEVMUTANT" ]
   },
-  {
+  
+   {
     "type": "mutation",
     "id": "SPIRITUAL",
     "name": "Spiritual",
@@ -185,8 +196,9 @@
     "starting_trait": true,
     "social_modifiers": { "persuade": 5 },
     "valid": false,
-    "category": [ "FEVMUTANT" ]
+	"category": [ "FEVMUTANT" ]
   },
+  
   {
     "type": "mutation",
     "id": "TOUGH_FEVMUTANT",
@@ -198,7 +210,7 @@
     "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
     "social_modifiers": { "intimidate": 8 },
     "hp_modifier": 1.5,
-    "movecost_obstacle_modifier": 1.25,
-    "category": [ "FEVMUTANT" ]
+	"movecost_obstacle_modifier": 1.25,
+	"category": [ "FEVMUTANT" ]
   }
 ]

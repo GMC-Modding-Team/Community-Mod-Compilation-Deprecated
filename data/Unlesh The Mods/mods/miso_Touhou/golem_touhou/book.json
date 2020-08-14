@@ -5,8 +5,8 @@
     "name": "Black Magic Grimoire",
     "name_plural": "Black Magic Grimoires",
     "description": "It is an old-fashioned occult book. Pages parchmented on a solid leather cover are authentic and have a magical atmosphere. Maybe it's real.",
-    "weight": "3000 g",
-    "volume": "1 L",
+    "weight": 3000,
+    "volume": 4,
     "price": 3000,
     "bashing": 8,
     "material": [ "leather" ],
@@ -17,7 +17,7 @@
     "intelligence": 14,
     "time": 80,
     "fun": -10,
-    "flags": [ "TRADER_AVOID", "DURABLE_MELEE" ]
+    "flags": ["TRADER_AVOID", "DURABLE_MELEE" ]
   },
   {
     "id": "black_magic_grimoire_fake",
@@ -25,8 +25,8 @@
     "name": "Black Magic Grimoire",
     "name_plural": "Black Magic Grimoire",
     "description": "It is an old-fashioned occult book. It is an age that covers and pages are discolored, and you can feel the magical atmosphere. Maybe it's real.",
-    "weight": "3000 g",
-    "volume": "1 L",
+    "weight": 3000,
+    "volume": 4,
     "price": 3000,
     "bashing": 8,
     "material": [ "paper" ],
@@ -35,6 +35,6 @@
     "intelligence": 14,
     "time": 80,
     "fun": -10,
-    "flags": [ "TRADER_AVOID", "DURABLE_MELEE" ]
+    "flags": ["TRADER_AVOID", "DURABLE_MELEE" ]
   }
 ]

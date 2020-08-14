@@ -1,5 +1,5 @@
 [
-  {
+ {
     "id": "mon_ant_antifungal",
     "type": "MONSTER",
     "name": "antifungal ant",
@@ -8,7 +8,7 @@
     "species": [ "INSECT" ],
     "diff": 7,
     "volume": "62500 ml",
-    "weight": "81500 g",
+    "weight": 81500,
     "hp": 40,
     "speed": 100,
     "material": [ "iflesh" ],
@@ -27,12 +27,13 @@
     "harvest": "arachnid",
     "upgrades": { "age_grow": 14, "into": "mon_ant_soldier" },
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
-    "emit_fields": [ "emit_antifungal_blast" ],
+	    "emit_fields": [ "emit_antifungal_blast" ],
     "death_function": [ "NORMAL" ],
     "special_attacks": [ [ "EAT_FOOD", 30 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CHITIN", "CLIMBS", "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFODDER" ]
   },
-  {
+ 
+   {
     "id": "mon_ant_antifungal_larva",
     "type": "MONSTER",
     "name": "antifungal larva",
@@ -40,7 +41,7 @@
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "volume": "30000 ml",
-    "weight": "40750 g",
+    "weight": 40750,
     "hp": 10,
     "speed": 15,
     "material": [ "iflesh" ],
@@ -54,10 +55,11 @@
     "melee_cut": 0,
     "harvest": "meatslug",
     "upgrades": { "age_grow": 3, "into": "mon_ant_antifungal" },
-    "emit_fields": [ "emit_antifungal_blast" ],
+	    "emit_fields": [ "emit_antifungal_blast" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SMELLS", "LARVA", "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFODDER" ]
   },
+  
   {
     "id": "mon_ant_antifungal_queen",
     "type": "MONSTER",
@@ -67,7 +69,7 @@
     "species": [ "INSECT" ],
     "diff": 13,
     "volume": "92500 ml",
-    "weight": "120000 g",
+    "weight": 120000,
     "hp": 80,
     "speed": 40,
     "material": [ "iflesh" ],
@@ -83,12 +85,13 @@
     "armor_cut": 14,
     "harvest": "arachnid",
     "special_attacks": [ [ "ANTQUEEN", 1 ] ],
-    "revert_to_itype": "mon_antifungal_egg",
+	    "revert_to_itype": "mon_antifungal_egg",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
     "death_function": [ "NORMAL" ],
-    "emit_fields": [ "emit_antifungal_blast" ],
+	    "emit_fields": [ "emit_antifungal_blast" ],
     "flags": [ "SMELLS", "QUEEN", "CHITIN", "FAT", "CLIMBS", "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFODDER" ]
   },
+  
   {
     "id": "mon_ant_antifungal_soldier",
     "type": "MONSTER",
@@ -98,7 +101,7 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "volume": "62500 ml",
-    "weight": "81500 g",
+    "weight": 81500,
     "hp": 80,
     "speed": 100,
     "material": [ "iflesh" ],
@@ -118,7 +121,9 @@
     "harvest": "arachnid",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "emit_fields": [ "emit_antifungal_blast" ],
+	    "emit_fields": [ "emit_antifungal_blast" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CHITIN", "CLIMBS", "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFODDER" ]
   }
-]
+ 
+ 
+ ]

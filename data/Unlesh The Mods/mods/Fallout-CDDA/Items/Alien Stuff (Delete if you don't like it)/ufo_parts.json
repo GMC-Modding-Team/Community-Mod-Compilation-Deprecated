@@ -1,5 +1,6 @@
 [
-  {
+ 
+ {
     "id": "mounted_alien_rifle",
     "copy-from": "turret",
     "type": "vehicle_part",
@@ -14,6 +15,7 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ] }
     }
   },
+  
   {
     "id": "mounted_alien_cannon",
     "copy-from": "turret",
@@ -29,6 +31,8 @@
       "removal": { "skills": [ [ "mechanics", 2 ] ] }
     }
   },
+  
+  
   {
     "id": "wheel_ufo_thruster",
     "type": "vehicle_part",
@@ -42,7 +46,9 @@
     "durability": 800,
     "description": "A weird alien thruster which allows amphibious transportation. Sadly it doesn't allow flight. It seems too broken.",
     "damage_modifier": 50,
-    "breaks_into": [ { "item": "scrap_zetan", "count": [ 2, 3 ] } ],
+    "breaks_into": [
+      { "item": "scrap_zetan", "count": [ 2, 3 ] }
+    ],
     "rolling_resistance": 0.005,
     "wheel_type": "standard",
     "contact_area": 0,
@@ -54,4 +60,5 @@
     "flags": [ "WHEEL", "NEEDS_JACKING", "FLOATS", "STEERABLE" ],
     "damage_reduction": { "bash": 25 }
   }
+ 
 ]

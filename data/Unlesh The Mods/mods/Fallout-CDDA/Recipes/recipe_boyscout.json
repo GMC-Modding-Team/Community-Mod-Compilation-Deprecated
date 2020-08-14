@@ -5,14 +5,16 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+	
+	   [
         [ "bacon", 2 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
@@ -34,9 +36,16 @@
         [ "can_tuna", 1 ],
         [ "can_salmon", 1 ],
         [ "can_herring", 1 ]
-      ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+	   ], 		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -47,7 +56,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -58,23 +68,32 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "milk", 1 ], [ "con_milk", 1 ] ]
-    ]
-  },
-  {
+	  
+	  [ 
+	   [ "milk", 1 ],
+	   [ "con_milk", 1 ]
+	  ]
+	  
+	  ]
+	   
+	 },
+	 
+	   {
     "type": "recipe",
     "result": "omelette_survival_milkless",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+	
+	   [
         [ "bacon", 2 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
@@ -96,9 +115,16 @@
         [ "can_tuna", 1 ],
         [ "can_salmon", 1 ],
         [ "can_herring", 1 ]
-      ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+	   ], 		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -109,7 +135,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -120,24 +147,40 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "water", 1 ], [ "water_clean", 1 ] ]
-    ]
-  },
+	  
+	  [ 
+	   [ "water", 1 ],
+	   [ "water_clean", 1 ]
+	  ]
+	  
+	  ]
+	   
+	 },
+
   {
     "type": "recipe",
     "result": "omelette_survival_meatless",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -148,7 +191,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -159,23 +203,32 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "milk", 1 ], [ "con_milk", 1 ] ]
-    ]
-  },
+	  
+	  [ 
+	   [ "milk", 1 ],
+	   [ "con_milk", 1 ]
+	  ]
+	  
+	  ]
+	   
+	 },	 
+
   {
     "type": "recipe",
     "result": "omelette_survival_fruitless",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+	
+	   [
         [ "bacon", 2 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
@@ -197,8 +250,9 @@
         [ "can_tuna", 1 ],
         [ "can_salmon", 1 ],
         [ "can_herring", 1 ]
-      ],
-      [
+	   ], 		
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -209,7 +263,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -220,24 +275,41 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "milk", 1 ], [ "con_milk", 1 ] ]
-    ]
-  },
-  {
+	  
+	  [ 
+	   [ "milk", 1 ],
+	   [ "con_milk", 1 ]
+	  ]
+	  
+	  ]
+	   
+	 },	 
+	 
+	 
+	   {
     "type": "recipe",
     "result": "omelette_survival_vegan",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -248,7 +320,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -259,23 +332,32 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "water", 1 ], [ "water_clean", 1 ] ]
-    ]
-  },
-  {
+	  
+	  [ 
+	   [ "water", 1 ],
+	   [ "water_clean", 1 ]
+	  ]
+	  
+	  ]
+	   
+	 },
+	 
+	   {
     "type": "recipe",
     "result": "omelette_survival_vegan_nofruit",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],		
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -286,7 +368,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -297,23 +380,32 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "water", 1 ], [ "water_clean", 1 ] ]
-    ]
-  },
-  {
+	  
+	  [ 
+	   [ "water", 1 ],
+	   [ "water_clean", 1 ]
+	  ]
+	  
+	  ]
+	   
+	 },
+	 
+	   {
     "type": "recipe",
     "result": "omelette_survival_cheese",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+	
+	   [
         [ "bacon", 2 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
@@ -335,9 +427,16 @@
         [ "can_tuna", 1 ],
         [ "can_salmon", 1 ],
         [ "can_herring", 1 ]
-      ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+	   ], 		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -348,7 +447,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -359,24 +459,34 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "milk", 1 ], [ "con_milk", 1 ] ],
-      [ [ "cheese", 2 ], [ "can_cheese", 2 ], [ "cheese_hard", 2 ] ]
-    ]
-  },
-  {
+	  
+	  [ 
+	   [ "milk", 1 ],
+	   [ "con_milk", 1 ]
+	  ],
+	  
+	        [ [ "cheese", 2 ], [ "can_cheese", 2 ], [ "cheese_hard", 2 ] ]
+	  
+	  ]
+	   
+	 },
+	 
+	 	   {
     "type": "recipe",
     "result": "omelette_survival_spicy",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+	
+	   [
         [ "bacon", 2 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
@@ -398,9 +508,16 @@
         [ "can_tuna", 1 ],
         [ "can_salmon", 1 ],
         [ "can_herring", 1 ]
-      ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+	   ], 		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -411,7 +528,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -422,24 +540,34 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "milk", 1 ], [ "con_milk", 1 ] ],
-      [ [ "chili_pepper", 2 ], [ "sauce_red", 2 ], [ "chilly-p", 2 ] ]
-    ]
-  },
-  {
+	  
+	  [ 
+	   [ "milk", 1 ],
+	   [ "con_milk", 1 ]
+	  ],
+	  
+	        [ [ "chili_pepper", 2 ], [ "sauce_red", 2 ], [ "chilly-p", 2 ] ]
+	  
+	  ]
+	   
+	 },
+	 
+	   {
     "type": "recipe",
     "result": "omelette_survival_deluxe",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
-    "difficulty": 3,
+	"difficulty": 3,
     "time": 5000,
     "book_learn": [ [ "scout_guide", 3 ] ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [
-      [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
-      [
+    "components": [ 
+	
+    [ [ "eggs_bird", 3, "LIST" ], [ "egg_reptile", 3 ] ],
+	
+	   [
         [ "bacon", 2 ],
         [ "meat_cooked", 1 ],
         [ "meat_smoked", 1 ],
@@ -461,9 +589,16 @@
         [ "can_tuna", 1 ],
         [ "can_salmon", 1 ],
         [ "can_herring", 1 ]
-      ],
-      [ [ "lemon", 1 ], [ "irradiated_lemon", 1 ], [ "orange", 1 ], [ "irradiated_orange", 1 ] ],
-      [
+	   ], 		
+		
+	   [
+	    [ "lemon", 1 ],
+		[ "irradiated_lemon", 1 ],
+		["orange", 1],
+		["irradiated_orange", 1 ] 
+	   ],
+      
+	        [
         [ "oats", 5 ],
         [ "buckwheat", 5 ],
         [ "wheat", 5 ],
@@ -474,7 +609,8 @@
         [ "veggy_wild", 5 ],
         [ "veggy", 5 ]
       ],
-      [
+	  
+	   [
         [ "seasoning_italian", 60 ],
         [ "wild_herbs", 60 ],
         [ "seasoning_salt", 60 ],
@@ -485,13 +621,22 @@
         [ "salt_water", 4 ],
         [ "salt", 60 ]
       ],
-      [ [ "milk", 1 ], [ "con_milk", 1 ] ],
-      [ [ "cheese", 2 ], [ "can_cheese", 2 ], [ "cheese_hard", 2 ] ],
-      [ [ "chili_pepper", 2 ], [ "sauce_red", 2 ], [ "chilly-p", 2 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
+	  
+	  [ 
+	   [ "milk", 1 ],
+	   [ "con_milk", 1 ]
+	  ],
+	  
+	  	    [ [ "cheese", 2 ], [ "can_cheese", 2 ], [ "cheese_hard", 2 ] ],
+	  
+	        [ [ "chili_pepper", 2 ], [ "sauce_red", 2 ], [ "chilly-p", 2 ] ]
+	  
+	  ]
+	   
+	 },
+	 
+	   {
+    "type" : "recipe",
     "result": "healing_powder",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -500,10 +645,14 @@
     "time": 18000,
     "book_learn": [ [ "scout_guide", 1 ] ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ [ [ "broc_flower", 1 ] ], [ [ "xander_root", 1 ] ] ]
+    "components": [
+	[ [ "broc_flower", 1 ] ],
+		[ [ "xander_root", 1 ] ]
+	  ]
   },
-  {
-    "type": "recipe",
+  
+  	   {
+    "type" : "recipe",
     "result": "healing_powder_drink",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRY",
@@ -512,6 +661,15 @@
     "time": 10,
     "book_learn": [ [ "scout_guide", 1 ] ],
     "batch_time_factors": [ 67, 5 ],
-    "components": [ [ [ "healing_powder", 1 ] ], [ [ "cola_nuka", 1 ] ] ]
+    "components": [
+	[ [ "healing_powder", 1 ] ],
+		[ [ "cola_nuka", 1 ] ]
+	  ]
   }
-]
+  
+  
+	   
+	   ]
+
+
+
