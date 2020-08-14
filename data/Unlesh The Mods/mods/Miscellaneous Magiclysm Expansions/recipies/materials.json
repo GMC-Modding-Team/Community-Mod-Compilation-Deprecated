@@ -1,6 +1,4 @@
-[
-  {
-    "result": "crystallized_mana",
+[{ "result": "crystallized_mana",
     "type": "recipe",
     "category": "CC_ENCHANTED",
     "subcategory": "CSC_ENCHANTED_MATERIALS",
@@ -8,8 +6,8 @@
     "skills_required": [ "spellcraft", 1 ],
     "difficulty": 1,
     "time": "15 m",
-    "autolearn": true,
-    "tools": [ [ [ "mortar_pestle", -1 ] ] ],
-    "components": [ [ [ "mushroom", 5 ] ] ]
-  }
-]
+	"autolearn": true,
+        "tools": [ [ [ "mortar_pestle", -1 ] ] ],
+	 "components": [
+       [ [ "mushroom_magic", 5 ] ] ]   
+  }]

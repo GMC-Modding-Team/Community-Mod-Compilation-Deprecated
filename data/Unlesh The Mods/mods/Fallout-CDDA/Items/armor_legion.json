@@ -13,14 +13,15 @@
     "symbol": "[",
     "looks_like": "chestguard_hard",
     "color": "red",
-    "covers": [ "TORSO", "LEG_L", "LEG_R" ],
+    "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 45,
     "encumbrance": 25,
-    "storage": "1500 ml",
+	"storage": "1500 ml",
     "warmth": 10,
     "material_thickness": 6,
     "flags": [ "VARSIZE", "STURDY" ]
   },
+
   {
     "id": "helmet_legion_recruit",
     "repairs_like": "helmet_barbute",
@@ -37,7 +38,7 @@
     "symbol": "[",
     "looks_like": "hat_hard",
     "color": "blue",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 95,
     "encumbrance": 10,
     "warmth": 15,
@@ -46,6 +47,8 @@
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "STURDY" ]
   },
+
+
   {
     "id": "armor_legion_prime",
     "repairs_like": "armor_larmor",
@@ -60,14 +63,15 @@
     "symbol": "[",
     "looks_like": "chestguard_hard",
     "color": "red",
-    "covers": [ "TORSO", "LEG_L", "LEG_R" ],
+    "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 45,
     "encumbrance": 30,
-    "storage": "2000 ml",
+	"storage": "2000 ml",
     "warmth": 10,
     "material_thickness": 7,
     "flags": [ "VARSIZE", "STURDY" ]
   },
+
   {
     "id": "helmet_legion_prime",
     "repairs_like": "helmet_barbute",
@@ -84,7 +88,7 @@
     "symbol": "[",
     "looks_like": "hat_hard",
     "color": "blue",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 95,
     "encumbrance": 10,
     "warmth": 15,
@@ -93,7 +97,8 @@
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "STURDY" ]
   },
-  {
+  
+    {
     "id": "armor_legion_veteran",
     "repairs_like": "armor_larmor",
     "type": "ARMOR",
@@ -107,14 +112,15 @@
     "symbol": "[",
     "looks_like": "chestguard_hard",
     "color": "red",
-    "covers": [ "TORSO", "LEG_L", "LEG_R" ],
+    "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 45,
     "encumbrance": 35,
-    "storage": "2500 ml",
+	"storage": "2500 ml",
     "warmth": 10,
     "material_thickness": 8,
     "flags": [ "VARSIZE", "STURDY" ]
   },
+
   {
     "id": "helmet_legion_veteran",
     "repairs_like": "helmet_barbute",
@@ -131,7 +137,7 @@
     "symbol": "[",
     "looks_like": "hat_hard",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 95,
     "encumbrance": 20,
     "warmth": 15,

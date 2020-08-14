@@ -9,11 +9,17 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "broken_protectron", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 4 ] ], [ [ "plut_cell", 1 ] ] ]
+    "components": [
+	  [ [ "broken_protectron", 1 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "plut_cell", 1 ] ]
+    ]
   },
+  
   {
     "result": "bot_protectron_construction_inactive",
     "type": "recipe",
@@ -24,11 +30,17 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "broken_protectron_construction", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 4 ] ], [ [ "plut_cell", 1 ] ] ]
+    "components": [
+	  [ [ "broken_protectron_construction", 1 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "plut_cell", 1 ] ]
+    ]
   },
+  
   {
     "result": "bot_protectron_fire_inactive",
     "type": "recipe",
@@ -39,32 +51,17 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
-    "using": [ [ "soldering_standard", 10 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "broken_protectron_fire", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 4 ] ], [ [ "plut_cell", 1 ] ] ]
-  },
-  {
-    "result": "bot_protectron_wattz_inactive",
-    "type": "recipe",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_PARTS",
-    "skill_used": "electronics",
-    "difficulty": 5,
-    "skills_required": [ "computer", 2 ],
-    "time": 60000,
-    "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
-      [ [ "broken_protectron", 1 ] ],
-      [ [ "wattz_1000", 1 ] ],
+	  [ [ "broken_protectron_fire", 1 ] ],
       [ [ "scrap", 6 ] ],
       [ [ "cable", 4 ] ],
       [ [ "plut_cell", 1 ] ]
     ]
   },
+  
   {
     "result": "bot_protectron_wattz_inactive",
     "type": "recipe",
@@ -75,11 +72,39 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "broken_protectron_wattz", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 4 ] ], [ [ "plut_cell", 1 ] ] ]
+    "components": [
+	  [ [ "broken_protectron", 1 ] ],
+	  [ [ "wattz_1000", 1 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "plut_cell", 1 ] ]
+    ]
   },
+  
+  {
+    "result": "bot_protectron_wattz_inactive",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "skills_required": [ "computer", 2 ],
+    "time": 60000,
+    "decomp_learn": 4,
+    "book_learn": [ [ "totalhack", 4 ]  ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+	  [ [ "broken_protectron_wattz", 1 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "plut_cell", 1 ] ]
+    ]
+  },
+  
   {
     "result": "bot_protectron_takahashi_inactive",
     "type": "recipe",
@@ -90,17 +115,18 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
-      [ [ "broken_protectron", 1 ] ],
-      [ [ "hat_chef", 1 ] ],
+	  [ [ "broken_protectron", 1 ] ],
+	  [ [ "hat_chef", 1 ] ],
       [ [ "scrap", 6 ] ],
       [ [ "cable", 4 ] ],
       [ [ "plut_cell", 1 ] ]
     ]
   },
+  
   {
     "result": "bot_protectron_subway_inactive",
     "type": "recipe",
@@ -111,11 +137,17 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "broken_protectron_subway", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 4 ] ], [ [ "plut_cell", 1 ] ] ]
+    "components": [
+	  [ [ "broken_protectron_subway", 1 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "plut_cell", 1 ] ]
+    ]
   },
+  
   {
     "result": "bot_protectron_fisto_inactive",
     "type": "recipe",
@@ -126,9 +158,15 @@
     "skills_required": [ "computer", 2 ],
     "time": 60000,
     "decomp_learn": 4,
-    "book_learn": [ [ "totalhack", 4 ] ],
+    "book_learn": [ [ "totalhack", 4 ]  ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "broken_protectron_fisto", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 4 ] ], [ [ "plut_cell", 1 ] ] ]
+    "components": [
+	  [ [ "broken_protectron_fisto", 1 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "plut_cell", 1 ] ]
+    ]
   }
+  
 ]

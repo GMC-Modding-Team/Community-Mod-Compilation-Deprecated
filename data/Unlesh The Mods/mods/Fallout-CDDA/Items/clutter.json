@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": "deck_of_tragic_cards",
     "type": "GENERIC",
     "category": "other",
@@ -11,9 +11,15 @@
     "material": [ "paper" ],
     "symbol": ",",
     "color": "red",
-    "snippet_category": [
-      { "id": "craptier", "text": "The deck is built poorly, with a bunch of terrible cards in it, like Scorned Egomaniac." },
-      { "id": "casual", "text": "This deck is a lovingly used one. The deck seems to be built semi-competently." },
+	"snippet_category": [
+      {
+        "id": "craptier",
+        "text": "The deck is built poorly, with a bunch of terrible cards in it, like Scorned Egomaniac."
+      },
+      {
+        "id": "casual",
+        "text": "This deck is a lovingly used one. The deck seems to be built semi-competently."
+      },
       {
         "id": "Commander",
         "text": "This decks a bit larger than you expected. It turns out its a General format deck! It is built around King of Passantler, a three-color undead!"
@@ -26,10 +32,11 @@
         "id": "blackdahlia",
         "text": "This deck has a Black Dahlia! You could have bought a mansion with one of these in the before times. Shame nobodys around to appreciate this now."
       }
-    ],
-    "flags": [ "NO_REPAIR" ],
+	  ],
+	      "flags": [ "NO_REPAIR" ],
     "use_action": "PLAY_GAME"
   },
+  
   {
     "id": "painting_fuzzy",
     "type": "GENERIC",
@@ -38,12 +45,15 @@
     "name": "fuzzy painting",
     "description": "An image of a singer. Obviously, very old. The image has a felt coating that is still in good condition",
     "weight": "1 g",
-    "volume": "3 ml",
+    "volume": 0,
+	"flags": [ "ZERO_WEIGHT" ],
     "price": 800,
     "material": [ "wool" ],
     "symbol": "*",
     "color": "light_gray"
   },
+  
+  
   {
     "id": "coin_NCR",
     "type": "GENERIC",
@@ -52,13 +62,16 @@
     "name_plural": "NCR Dollars",
     "description": "1$ NCR. Legal tender for the world of the wastes. Or. It would be, if you were in California, Nevada, Arizona, or Oregon, instead of the eternal plane of New England.",
     "weight": "6 g",
-    "volume": "3 ml",
+    "volume": 0,
+	"flags": [ "ZERO_WEIGHT" ],
     "price": 100,
     "material": [ "gold" ],
     "symbol": "o",
     "color": "yellow",
     "use_action": "COIN_FLIP"
   },
+  
+  
   {
     "id": "coin_legion_small",
     "type": "GENERIC",
@@ -67,13 +80,15 @@
     "name_plural": "Legion Denarius",
     "description": "A silver coin from a post-cataclysm civilization out west. How it got here, you don't know.",
     "weight": "6 g",
-    "volume": "3 ml",
+    "volume": 0,
+	"flags": [ "ZERO_WEIGHT" ],
     "price": 400,
     "material": [ "silver" ],
     "symbol": "o",
     "color": "light_gray",
     "use_action": "COIN_FLIP"
   },
+  
   {
     "id": "coin_legion_large",
     "type": "GENERIC",
@@ -82,14 +97,16 @@
     "name_plural": "Legion Aureus",
     "description": "A golden coin from a post-cataclysm civilization out west. How it got here, you don't know.",
     "weight": "6 g",
-    "volume": "3 ml",
+    "volume": 0,
+	"flags": [ "ZERO_WEIGHT" ],
     "price": 4000,
     "material": [ "gold" ],
     "symbol": "o",
     "color": "yellow",
     "use_action": "COIN_FLIP"
   },
-  {
+  
+ {
     "id": "cap_bottle",
     "type": "GENERIC",
     "category": "other",
@@ -97,12 +114,14 @@
     "name_plural": "bottlecaps",
     "description": "A worthless Nuka-Cola bottlecap. You've heard that in some places they are used as money, though you suspect its only a story.",
     "weight": "6 g",
-    "volume": "3 ml",
+    "volume": 0,
+	"flags": [ "ZERO_WEIGHT" ],
     "price": 25,
     "material": [ "steel" ],
     "symbol": "o",
     "color": "red"
   },
+  
   {
     "id": "pipboy_2000",
     "type": "TOOL",
@@ -113,8 +132,8 @@
     "price": 12000,
     "material": [ "plastic" ],
     "symbol": ";",
-    "ammo": "battery",
-    "magazines": [
+		   "ammo": "battery",
+	"magazines": [
       [
         "battery",
         [
@@ -132,9 +151,10 @@
     "color": "light_gray",
     "use_action": "PORTABLE_GAME"
   },
+  
   {
     "type": "TOOL_ARMOR",
-    "//": "Todo; add other purposes than just gaming and watching!",
+	    "//": "Todo; add other purposes than just gaming and watching!",
     "id": "pipboy_3000",
     "name": "Pip-Boy 3000",
     "category": "clothing",
@@ -143,14 +163,14 @@
     "weight": "500 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_L", "HAND_R" ],
+    "covers": [ "hand_l", "hand_r" ],
     "price": 6000,
     "material": [ "plastic" ],
     "flags": [ "WATCH", "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE" ],
     "coverage": 15,
     "symbol": "[",
-    "ammo": "battery",
-    "magazines": [
+	   "ammo": "battery",
+	"magazines": [
       [
         "battery",
         [
@@ -167,6 +187,8 @@
     "magazine_well": 1,
     "use_action": "PORTABLE_GAME"
   },
+  
+  
   {
     "id": "doll_nixon",
     "type": "TOOL",
@@ -176,10 +198,11 @@
     "volume": "750 ml",
     "price": 2000,
     "to_hit": -1,
-    "material": [ "plastic" ],
+    "material": ["plastic"],
     "symbol": "n",
     "color": "blue"
   },
+  
   {
     "id": "condom_jimmy_blue",
     "type": "GENERIC",
@@ -187,14 +210,15 @@
     "name": "Jimmy hat",
     "description": "This is a Jimmy Hats brand condom, a very reliable brand. This one is ribbed for her pleasure.",
     "weight": "5 g",
-    "volume": "3 ml",
+    "volume": 0,
     "price": 0,
     "to_hit": -5,
     "rigid": false,
-    "material": [ "plastic" ],
+    "material": ["plastic"],
     "symbol": ")",
     "color": "blue",
-    "pocket_data": [
+	"flags": [ "TARDIS", "ZERO_WEIGHT" ],
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -207,6 +231,7 @@
     "seals": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
+
   {
     "id": "condom_jimmy_green",
     "type": "GENERIC",
@@ -214,14 +239,15 @@
     "name": "Jimmy hat",
     "description": "This is a Jimmy Hats brand condom, a very reliable brand. This one contains phosphorous green dye #2 and is slathered in spermicidal lubricant for added protection.",
     "weight": "5 g",
-    "volume": "3 ml",
+    "volume": 0,
     "price": 0,
     "to_hit": -5,
     "rigid": false,
-    "material": [ "plastic" ],
+    "material": ["plastic"],
     "symbol": ")",
     "color": "green",
-    "pocket_data": [
+	"flags": [ "TARDIS", "ZERO_WEIGHT" ],
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -234,6 +260,7 @@
     "seals": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
+  
   {
     "id": "condom_jimmy_red",
     "type": "GENERIC",
@@ -241,14 +268,15 @@
     "name": "Jimmy hat",
     "description": "This is a Jimmy Hats brand condom, a very reliable brand.  This one contains phosophorous red dye #5 and has a yummy cinnamon bun flavor... or so you heard.",
     "weight": "5 g",
-    "volume": "3 ml",
+    "volume": 0,
     "price": 0,
     "to_hit": -5,
     "rigid": false,
-    "material": [ "plastic" ],
+    "material": ["plastic"],
     "symbol": ")",
     "color": "red",
-    "pocket_data": [
+	"flags": [ "TARDIS", "ZERO_WEIGHT" ],
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -261,6 +289,7 @@
     "seals": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
+  
   {
     "id": "flask_vault",
     "type": "GENERIC",
@@ -272,10 +301,10 @@
     "price": 1000,
     "to_hit": 1,
     "bashing": 3,
-    "material": [ "iron" ],
+    "material": ["iron"],
     "symbol": ")",
     "color": "blue",
-    "pocket_data": [
+	"pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -286,10 +315,12 @@
     ],
     "seals": true,
     "watertight": true,
-    "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 2, "material_thickness": 1 },
+    "armor_data": { "covers": [ "leg_l", "leg_r" ], "coverage": 2, "material_thickness": 1 },
     "qualities": [ [ "BOIL", 1 ] ],
-    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
+    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY", "TARDIS" ]
   },
+  
+  
   {
     "id": "doll_action_abe",
     "type": "TOOL",
@@ -299,10 +330,11 @@
     "volume": "750 ml",
     "price": 2000,
     "to_hit": -1,
-    "material": [ "wood" ],
+    "material": ["wood"],
     "symbol": "a",
     "color": "black"
   },
+  
   {
     "id": "doll_dinky",
     "type": "TOOL",
@@ -312,10 +344,12 @@
     "volume": "750 ml",
     "price": 2000,
     "to_hit": -1,
-    "material": [ "plastic" ],
+    "material": ["plastic"],
     "symbol": "d",
     "color": "green"
   },
+  
+  
   {
     "id": "doll_buttercup",
     "type": "TOOL",
@@ -325,10 +359,11 @@
     "volume": "750 ml",
     "price": 2000,
     "to_hit": -1,
-    "material": [ "aluminum" ],
+    "material": ["aluminum"],
     "symbol": "b",
     "color": "yellow"
   },
+  
   {
     "id": "toy_nuka_truck",
     "type": "TOOL",
@@ -338,10 +373,11 @@
     "volume": "2500 ml",
     "price": 2000,
     "to_hit": -1,
-    "material": [ "aluminum" ],
+    "material": ["aluminum"],
     "symbol": "t",
     "color": "red"
   },
+  
   {
     "id": "souveneir_rocket",
     "type": "TOOL",
@@ -351,10 +387,11 @@
     "volume": "1500 ml",
     "price": 2000,
     "to_hit": -1,
-    "material": [ "aluminum" ],
+    "material": ["aluminum"],
     "symbol": "r",
     "color": "red"
   },
+  
   {
     "id": "deck_caravan",
     "type": "GENERIC",
@@ -370,4 +407,7 @@
     "flags": [ "NO_REPAIR" ],
     "use_action": "PLAY_GAME"
   }
+  
+  
+  
 ]

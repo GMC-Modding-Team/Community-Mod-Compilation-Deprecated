@@ -5,13 +5,13 @@
     "reload_noise_volume": 10,
     "name": "Vindicator Minigun",
     "description": "The German Rheinmetall AG company created the ultimate minigun. The Vindicator throws over 90,000 caseless shells per minute down its six carbon-polymer barrels. As the pinnacle of Teutonic engineering skill, it is the ultimate hand-held weapon.",
-    "weight": "19500 g",
-    "volume": "6 L",
+    "weight": 19500,
+    "volume": 24,
     "price": 55000000,
     "to_hit": -4,
     "bashing": 18,
-    "looks_like": "m134",
-    "material": [ "hardsteel" ],
+	"looks_like": "m134",
+    "material": ["hardsteel"],
     "symbol": "(",
     "color": "dark_gray",
     "ammo": "47mm",
@@ -19,25 +19,29 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": 200,
     "durability": 9,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+	"valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ]  ],
     "reload": 400,
-    "modes": [ [ "DEFAULT", "low auto", 50 ], [ "AUTO", "high auto", 100 ] ],
+    "modes": [
+      [ "DEFAULT", "low auto", 50 ],
+      [ "AUTO", "high auto", 100 ]
+    ],
     "magazines": [ [ "47mm", [ "47mmminigunmag" ] ] ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
-  {
+  
+    {
     "id": "cz53minigun",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "Rockwell CZ53",
     "description": "A Rockwell CZ53 Personal Minigun. A multi-barrelled chaingun firing 5mm ammunition at over 60,000 RPM. It does not require power to rotate.",
-    "weight": "19500 g",
-    "volume": "6 L",
+    "weight": 19500,
+    "volume": 24,
     "price": 55000000,
     "to_hit": -4,
     "bashing": 18,
-    "looks_like": "m134",
-    "material": [ "hardsteel" ],
+	"looks_like": "m134",
+    "material": ["hardsteel"],
     "symbol": "(",
     "color": "green",
     "ammo": "5mm",
@@ -45,25 +49,29 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 200,
     "durability": 9,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+	"valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ]  ],
     "reload": 400,
-    "modes": [ [ "DEFAULT", "low auto", 25 ], [ "AUTO", "high auto", 50 ] ],
+    "modes": [
+      [ "DEFAULT", "low auto", 25 ],
+      [ "AUTO", "high auto", 50 ]
+    ],
     "magazines": [ [ "5mm", [ "5mmminigunmag" ] ] ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
-  {
+
+      {
     "id": "avenger",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "Avenger Minigun",
     "description": "Rockwell designed the Avenger as the replacement for their aging CZ53 Personal Minigun. The Avenger's design improvements include improved, gel-fin, cooling and chromium plated barrel-bores. This gives it a greater range and lethality. It rotates super fast, so it needs power to fire.",
-    "weight": "19500 g",
-    "volume": "6 L",
+    "weight": 19500,
+    "volume": 24,
     "price": 55000000,
     "to_hit": -4,
     "bashing": 18,
-    "looks_like": "m134",
-    "material": [ "hardsteel" ],
+	"looks_like": "m134",
+    "material": ["hardsteel"],
     "symbol": "(",
     "color": "green",
     "ammo": "5mm",
@@ -71,24 +79,28 @@
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": 200,
     "durability": 9,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+	"valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ]  ],
     "reload": 400,
-    "modes": [ [ "DEFAULT", "low auto", 50 ], [ "AUTO", "high auto", 100 ] ],
+    "modes": [
+      [ "DEFAULT", "low auto", 50 ],
+      [ "AUTO", "high auto", 100 ]
+    ],
     "magazines": [ [ "5mm", [ "5mmminigunmag" ] ] ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
-  {
+  
+    {
     "id": "l30",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "L30 Gatling Laser",
     "description": "An H&K L30 Gatling Laser. Designed specifically for military use, these were in the prototype stage at the beginning of the Cataclysm. Multiple barrels allow longer firing before overheating. Powered by Micro Fusion Cells, or a UPS.",
-    "weight": "9500 g",
-    "volume": "4500 ml",
+    "weight": 9500,
+    "volume": 18,
     "price": 750000,
     "to_hit": -1,
     "bashing": 8,
-    "looks_like": "m134",
+	"looks_like": "m134",
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
@@ -98,35 +110,44 @@
     "sight_dispersion": 150,
     "durability": 8,
     "ups_charges": 10,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
-    "modes": [ [ "DEFAULT", "low auto", 10 ], [ "AUTO", "high auto", 25 ] ],
-    "ammo_effects": [ "LASER" ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ]  ],
+	    "modes": [
+      [ "DEFAULT", "low auto", 10 ],
+      [ "AUTO", "high auto", 25 ]
+    ],
+    "ammo_effects": ["LASER"],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN" ]
   },
-  {
+  
+    {
     "id": "grenademg",
     "copy-from": "launcher_base",
+    "looks_like": "m79",
     "type": "GUN",
     "name": "grenade machinegun",
     "description": "An experimental pre-cataclsym weapon, firing grenades with speeds nearly unheard of. Incredibly dangerous.",
-    "weight": "35200 g",
-    "volume": "4 L",
+    "weight": 35200,
+    "volume": 16,
     "price": 1650000,
     "to_hit": -1,
     "bashing": 14,
-    "material": [ "steel" ],
+    "material": ["steel"],
     "ammo": "25mm",
     "range": 30,
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": 180,
     "durability": 8,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+	"valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ]  ],
     "reload": 400,
-    "modes": [ [ "DEFAULT", "low auto", 3 ], [ "AUTO", "high auto", 10, "NPC_AVOID" ] ],
+    "modes": [
+      [ "DEFAULT", "low auto", 3],
+      [ "AUTO", "high auto", 10, "NPC_AVOID" ]
+    ],
     "magazines": [ [ "25mm", [ "25mmdrummag", "25mmdrummagxl" ] ] ],
     "flags": [ "MOUNTED_GUN" ]
   },
-  {
+  
+    {
     "id": "25mmapw",
     "copy-from": "launcher_base",
     "looks_like": "m79",
@@ -138,16 +159,19 @@
     "price": 850000,
     "to_hit": -3,
     "bashing": 6,
-    "material": [ "steel" ],
+    "material": ["steel"],
     "symbol": "(",
     "ammo": "25mm",
     "dispersion": 270,
     "durability": 9,
     "clip_size": 6,
-    "reload": 150
+    "reload": 150,
+	"magazines": [ [ "25mm", [ "25mmdrummag", "25mmdrummagxl" ] ] ]
   },
+  
   {
     "id": "broadsider",
+	"looks_like": "m79",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -156,12 +180,12 @@
     "name_plural": "Broadsiders",
     "description": "A reclaimed naval swivel gun, repurposed into a weapon you can carry, even if you may prefer mounting it. It has been modified with a special tube to let it hold three shots before a reload. Before the cataclysm, it was written off as little more than an antique-turned-gimmick. It has a special mechanism that lets you discharge the three shots in quick succession",
     "price": 2900000,
-    "material": [ "steel" ],
-    "flags": [ "MOUNTED_GUN", "NEVER_JAMS" ],
+    "material": ["steel"],
+    "flags": ["MOUNTED_GUN", "NEVER_JAMS" ],
     "skill": "launcher",
     "ammo": "cannonball",
-    "weight": "5220 g",
-    "volume": "6 L",
+    "weight": 5220,
+    "volume": 24,
     "bashing": 12,
     "to_hit": -3,
     "dispersion": 300,
@@ -170,10 +194,13 @@
     "clip_size": 3,
     "reload": 1200,
     "loudness": 400,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+	"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cannonball": 3 } } ]
   },
+  
   {
     "id": "rockwell_bigbazooka",
+	"looks_like": "atgm",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -182,12 +209,12 @@
     "name_plural": "Rockwell BigBazooka",
     "description": "A Rockwell BigBazooka rocket launcher, with the deluxe 3 lb. trigger. Fires BigBazooka Rockets",
     "price": 2900000,
-    "material": [ "steel" ],
+    "material": ["steel"],
     "flags": [ "MODE_BURST", "BACKBLAST", "NEVER_JAMS" ],
     "skill": "launcher",
     "ammo": "bbrocket",
-    "weight": "5220 g",
-    "volume": "6 L",
+    "weight": 5220,
+    "volume": 24,
     "bashing": 12,
     "to_hit": -3,
     "dispersion": 300,
@@ -195,8 +222,10 @@
     "clip_size": 1,
     "reload": 600,
     "loudness": 200,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+	"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bbrocket": 1 } } ]
   },
+  
   {
     "id": "amr50",
     "copy-from": "rifle_base",
@@ -210,20 +239,23 @@
     "price": 1483300,
     "to_hit": -1,
     "bashing": 12,
-    "material": [ "steel" ],
+    "material": ["steel"],
     "ammo": "50",
     "range": 100,
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "dispersion": 110,
     "durability": 10,
-    "barrel_length": "1500 ml",
+    "barrel_length": 6,
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
     "magazine_well": 1,
     "magazines": [ [ "50", [ "amr50mag" ] ] ],
     "flags": [ "NEVER_JAMS" ]
   },
-  {
+  
+  
+    {
     "id": "70mm_autocannon",
+	"looks_like": "m79",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -231,7 +263,7 @@
     "name": "70mm bubble cannon",
     "description": "A 70mm bubble autocannon, typically mounted to either side of an Infantry Fighting Vehicle to give it its distinctive 'whiskers'",
     "price": 2800000,
-    "material": [ "hardsteel" ],
+    "material": ["hardsteel"],
     "flags": [ "NO_RELOAD", "MOUNTED_GUN" ],
     "skill": "launcher",
     "ammo": "70mm",
@@ -247,15 +279,17 @@
     "loudness": 175,
     "magazines": [ [ "70mm", [ "belt70mm" ] ] ]
   },
-  {
+  
+    {
     "id": "tank_gun_dual",
+	"looks_like": "m79",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
     "name": "140mm double-barrel tank gun",
     "description": "two 140mm cannons from a tank, with twin 4-round autoloaders.  Obviously it needs to be mounted on a vehicle to fire.",
     "price": 91000000,
-    "material": [ "hardsteel" ],
+    "material": ["hardsteel"],
     "skill": "launcher",
     "ammo": "140mm",
     "weight": "3300 kg",
@@ -269,17 +303,20 @@
     "clip_size": 8,
     "reload": 1500,
     "loudness": 300,
+	"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 8 } } ],
     "flags": [ "NO_RELOAD", "MOUNTED_GUN" ]
   },
-  {
+  
+    {
     "id": "tank_gun_105",
+    "looks_like": "m79",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
     "name": "105mm tank gun",
     "description": "A 105mm cannon from an infantry fighting vehicle.  Obviously it needs to be mounted on a vehicle to fire.",
     "price": 90000000,
-    "material": [ "hardsteel" ],
+    "material": ["hardsteel"],
     "flags": [ "NEVER_JAMS", "NO_RELOAD", "MOUNTED_GUN" ],
     "skill": "launcher",
     "ammo": "105mm",
@@ -293,6 +330,8 @@
     "durability": 9,
     "clip_size": 1,
     "reload": 1400,
-    "loudness": 300
+    "loudness": 300,
+	"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 1 } } ]
   }
+
 ]

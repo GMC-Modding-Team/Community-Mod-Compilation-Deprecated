@@ -1,7 +1,7 @@
 [
-  {
+ {
     "type": "material",
-    "id": "alloy_zetan",
+    "ident": "alloy_zetan",
     "name": "alien alloy",
     "density": 6,
     "bash_resist": 100,
@@ -10,16 +10,17 @@
     "fire_resist": 100,
     "elec_resist": 100,
     "chip_resist": 100,
-    "bullet_resist": 80,
-    "repaired_with": "zetan_scrap",
+	"bullet_resist": 80,
+	"repaired_with": "zetan_scrap",
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
     "cut_dmg_verb": "scratched",
     "compacts_into": [ "zetan_sheet" ]
   },
-  {
+  
+    {
     "type": "material",
-    "id": "leather_gecko",
+    "ident": "leather_gecko",
     "name": "Gecko Skin",
     "density": 6,
     "specific_heat_liquid": 1.5,
@@ -33,7 +34,7 @@
     "fire_resist": 3,
     "elec_resist": 6,
     "chip_resist": 10,
-    "bullet_resist": 3,
+	"bullet_resist": 3,
     "repaired_with": "leather_gecko",
     "salvaged_into": "leather_gecko",
     "dmg_adj": [ "scratched", "cut", "shredded", "tattered" ],
@@ -45,9 +46,10 @@
       { "fuel": 1, "smoke": 3, "burn": 2 }
     ]
   },
-  {
+  
+    {
     "type": "material",
-    "id": "leather_gecko_gold",
+    "ident": "leather_gecko_gold",
     "name": "Golden Gecko Skin",
     "density": 6,
     "specific_heat_liquid": 1.5,
@@ -61,7 +63,7 @@
     "fire_resist": 3,
     "elec_resist": 6,
     "chip_resist": 10,
-    "bullet_resist": 3,
+	"bullet_resist": 3,
     "repaired_with": "leather_gecko_gold",
     "salvaged_into": "leather_gecko_gold",
     "dmg_adj": [ "scratched", "cut", "shredded", "tattered" ],
@@ -73,4 +75,6 @@
       { "fuel": 1, "smoke": 3, "burn": 2 }
     ]
   }
+ 
+ 
 ]
