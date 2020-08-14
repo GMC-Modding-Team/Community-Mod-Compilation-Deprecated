@@ -10,11 +10,12 @@
     "price": 5000,
     "count": 2,
     "stack_size": 10,
-    "material": [ "alloy_zetan" ],
+    "material": ["alloy_zetan"],
     "symbol": ",",
     "color": "red",
     "ammo_type": "components_zetan"
   },
+  
   {
     "type": "GENERIC",
     "id": "zetan_sheet",
@@ -31,6 +32,7 @@
     "price": 6000,
     "qualities": [ [ "COOK", 1 ] ]
   },
+  
   {
     "id": "canister_zetan",
     "type": "MAGAZINE",
@@ -39,7 +41,7 @@
     "weight": "8 g",
     "volume": "25 ml",
     "price": 5000,
-    "material": [ "alloy_zetan" ],
+    "material": ["alloy_zetan"],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": "zetan_plasma",
@@ -47,6 +49,7 @@
     "reliability": 9,
     "reload_time": 3
   },
+  
   {
     "id": "plasma_zetan",
     "type": "AMMO",
@@ -55,13 +58,13 @@
     "description": "An incredibly potent plasma used in alien laser weaponry.",
     "category": "fuel",
     "weight": "1 g",
-    "volume": "200 ml",
+    "volume": "200ml",
     "price": 8000,
     "count": 100,
     "stack_size": 100,
     "phase": "liquid",
     "container": "canister_zetan",
-    "material": [ "hydrocarbons" ],
+    "material": ["hydrocarbons"],
     "symbol": "=",
     "color": "light_blue",
     "ammo_type": "zetan_plasma",
@@ -69,6 +72,7 @@
     "range": 10,
     "effects": [ "NEVER_MISFIRES" ]
   },
+  
   {
     "type": "WHEEL",
     "id": "thruster_zetan",
@@ -82,7 +86,8 @@
     "bashing": 4,
     "category": "veh_parts",
     "price": 12000,
-    "diameter": 32,
+	"diameter": 32,
     "width": 20
   }
+  
 ]

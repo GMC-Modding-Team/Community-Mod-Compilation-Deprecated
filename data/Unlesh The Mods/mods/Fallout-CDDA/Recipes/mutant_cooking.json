@@ -1,5 +1,5 @@
 [
-  {
+ {
     "type": "recipe",
     "result": "meat_mirelurk_cooked",
     "category": "CC_FOOD",
@@ -12,6 +12,7 @@
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
     "components": [ [ [ "meat_mirelurk", 1 ] ] ]
   },
+  
   {
     "type": "recipe",
     "result": "cake_mirelurk",
@@ -25,6 +26,7 @@
     "tools": [ [ [ "frying_oil", 1, "LIST" ] ], [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [ [ [ "meat_mirelurk", 1 ] ], [ [ "batter", 1, "LIST" ] ] ]
   },
+  
   {
     "type": "recipe",
     "result": "claw_mirelurk_cooked",
@@ -38,7 +40,8 @@
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
     "components": [ [ [ "claw_mirelurk", 1 ] ] ]
   },
-  {
+  
+   {
     "type": "recipe",
     "result": "claw_mirelurk_cooked_lemon",
     "category": "CC_FOOD",
@@ -49,8 +52,10 @@
     "batch_time_factors": [ 67, 5 ],
     "qualities": [ { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
-    "components": [ [ [ "claw_mirelurk", 1 ] ], [ [ "lemon", 1 ] ] ]
+    "components": [ [ [ "claw_mirelurk", 1 ] ],
+[ [ "lemon", 1 ] ]	]
   },
+  
   {
     "type": "recipe",
     "result": "mirelurk_jerky",
@@ -75,7 +80,8 @@
       [ [ "meat_mirelurk", 2 ] ]
     ]
   },
-  {
+  
+    {
     "type": "recipe",
     "result": "meat_gecko_cooked",
     "category": "CC_FOOD",
@@ -88,7 +94,8 @@
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
     "components": [ [ [ "meat_gecko", 1 ] ] ]
   },
-  {
+  
+      {
     "type": "recipe",
     "result": "eye_gecko_cooked",
     "category": "CC_FOOD",
@@ -101,7 +108,8 @@
     "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
     "components": [ [ [ "eye_gecko", 1 ] ] ]
   },
-  {
+ 
+   {
     "type": "recipe",
     "result": "rehydrated_meat_gecko",
     "category": "CC_FOOD",
@@ -113,7 +121,8 @@
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [ [ [ "dry_meat_gecko", 1 ] ], [ [ "water_clean", 1 ] ] ]
   },
-  {
+  
+    {
     "type": "recipe",
     "result": "jerky_gecko",
     "category": "CC_FOOD",
@@ -139,7 +148,8 @@
       [ [ "meat_gecko", 1 ] ]
     ]
   },
-  {
+  
+    {
     "type": "recipe",
     "result": "leather_gecko",
     "category": "CC_OTHER",
@@ -150,9 +160,13 @@
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_skin_gecko", 1 ] ] ]
+    "components": [
+      [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
+      [ [ "raw_skin_gecko", 1 ] ]
+    ]
   },
-  {
+  
+      {
     "type": "recipe",
     "result": "leather_gecko_gold",
     "category": "CC_OTHER",
@@ -163,6 +177,9 @@
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_skin_gecko_gold", 1 ] ] ]
+    "components": [
+      [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
+      [ [ "raw_skin_gecko_gold", 1 ] ]
+    ]
   }
 ]

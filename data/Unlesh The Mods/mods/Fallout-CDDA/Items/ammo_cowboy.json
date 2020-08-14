@@ -1,11 +1,11 @@
 [
-  {
+   {
     "id": "357_magnum",
     "type": "AMMO",
     "name": ".357 Magnum",
     "description": ".357 Magnum ammunition. The bigger cousin of the .38 Special. Has more recoil, but does a hell of a lot more to targets.",
-    "weight": "8 g",
-    "volume": "250 ml",
+    "weight": 8,
+    "volume": 1,
     "price": 4400,
     "material": [ "brass", "powder" ],
     "symbol": "=",
@@ -20,13 +20,14 @@
     "recoil": 500,
     "effects": [ "COOKOFF" ]
   },
-  {
+  
+     {
     "id": "357_magnum_hp",
     "type": "AMMO",
     "name": ".357 Magnum HP",
     "description": ".357 Magnum ammunition. The bigger cousin of the .38 Special. Has more recoil, but does a hell of a lot more to targets. In this case, a hollow point. Illegal in several countries and states due to how it works.",
-    "weight": "8 g",
-    "volume": "250 ml",
+    "weight": 8,
+    "volume": 1,
     "price": 4400,
     "material": [ "brass", "powder" ],
     "symbol": "=",
@@ -41,13 +42,13 @@
     "recoil": 500,
     "effects": [ "COOKOFF" ]
   },
-  {
+      {
     "id": "357_magnum_ap",
     "type": "AMMO",
     "name": ".357 Magnum AP",
     "description": ".357 Magnum ammunition. The bigger cousin of the .38 Special. Has more recoil, but does a hell of a lot more to targets. Armor piercing. Perfect for the big iron on your hip.",
-    "weight": "8 g",
-    "volume": "250 ml",
+    "weight": 8,
+    "volume": 1,
     "price": 4400,
     "material": [ "brass", "powder" ],
     "symbol": "=",
@@ -62,13 +63,14 @@
     "recoil": 500,
     "effects": [ "COOKOFF" ]
   },
-  {
+  
+     {
     "id": "4570",
     "type": "AMMO",
     "name": ".45-70 govt.",
     "description": ".45-70 govt. ammunition. Popular in the old west, but rare nowadays.",
-    "weight": "8 g",
-    "volume": "250 ml",
+    "weight": 8,
+    "volume": 1,
     "price": 4400,
     "material": [ "brass", "powder" ],
     "symbol": "=",
@@ -83,4 +85,5 @@
     "recoil": 500,
     "effects": [ "COOKOFF" ]
   }
+ 
 ]

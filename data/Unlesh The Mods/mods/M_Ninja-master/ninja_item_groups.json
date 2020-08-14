@@ -2,20 +2,17 @@
   {
     "id": "ninja_rare_enagy",
     "type": "item_group",
-    "items": [ { "item": "plasma", "prob": 20 }, { "item": "plut_cell", "prob": 80 } ]
+    "items": [
+      { "item": "plasma", "prob": 20 },
+      { "item": "plut_cell", "prob": 80 }
+    ]
   },
   {
     "id": "ninja_rare_chem",
     "type": "item_group",
     "items": [
       { "item": "napalm", "prob": 20, "container-item": "jug_plastic", "charges-min": 3750, "charges-max": 3750 },
-      {
-        "item": "gas_chloramine",
-        "prob": 20,
-        "container-item": "jug_plastic",
-        "charges-min": 1500,
-        "charges-max": 1500
-      },
+      { "item": "gas_chloramine", "prob": 20, "container-item": "jug_plastic", "charges-min": 1500, "charges-max": 1500 },
       { "item": "chem_rocket_fuel", "prob": 60 }
     ]
   },
@@ -24,9 +21,9 @@
     "type": "item_group",
     "items": [
       { "item": "generator_7500w", "prob": 40 },
-      { "item": "light_atomic_battery_cell", "prob": 40 },
+      { "item": "battery_atomic", "prob": 40 },
       { "item": "minireactor", "prob": 20 },
-      { "item": "solar_panel_v2", "prob": 20 }
+      { "item": "solar_panel_v3", "prob": 20 }
     ]
   },
   {
