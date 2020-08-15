@@ -1,4 +1,6 @@
-[{  "result": "mana_engine",
+[
+  {
+    "result": "mana_engine",
     "type": "recipe",
     "category": "CC_ENCHANTED",
     "subcategory": "CSC_ENCHANTED_OTHER",
@@ -7,12 +9,23 @@
     "difficulty": 5,
     "time": "1 h 30 m",
     "autolearn": true,
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 }, { "id": "MANA_INFUSE", "level": 1 } ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 400 ] ] ],
     "components": [
-       [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 8 ] ], [ [ "small_mana_crystal", 10 ] ], [ [ "rune_technomancer", 1 ] ] ]   
+      [ [ "crystallized_mana", 10 ] ],
+      [ [ "pipe", 12 ] ],
+      [ [ "steel_chunk", 8 ] ],
+      [ [ "small_mana_crystal", 10 ] ],
+      [ [ "rune_technomancer", 1 ] ]
+    ]
   },
-  { "result": "magic_fuel_bunker",
+  {
+    "result": "magic_fuel_bunker",
     "type": "recipe",
     "category": "CC_ENCHANTED",
     "subcategory": "CSC_ENCHANTED_OTHER",
@@ -23,6 +36,6 @@
     "autolearn": true,
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 400 ] ] ],
-    "components": [
-       [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 4 ] ], [ [ "rune_technomancer", 1 ] ] ]   
-  }]
+    "components": [ [ [ "crystallized_mana", 10 ] ], [ [ "pipe", 12 ] ], [ [ "steel_chunk", 4 ] ], [ [ "rune_technomancer", 1 ] ] ]
+  }
+]

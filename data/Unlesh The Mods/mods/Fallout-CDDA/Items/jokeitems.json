@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "bag_canvas_westtek_nylon",
     "type": "GENERIC",
     "category": "container",
@@ -10,15 +10,15 @@
     "price": 0,
     "to_hit": -5,
     "rigid": false,
-    "material": ["cotton"],
+    "material": [ "cotton" ],
     "symbol": ")",
     "color": "brown",
-	"pocket_data": [
+    "pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "max_contains_volume": "15 L",
         "max_contains_weight": "30 kg",
-		"spoil_multiplier": 0.7,
+        "spoil_multiplier": 0.7,
         "moves": 400
       }
     ],
@@ -35,10 +35,10 @@
     "price": 0,
     "to_hit": 1,
     "bashing": 2,
-    "material": ["glass"],
+    "material": [ "glass" ],
     "symbol": ")",
     "color": "cyan",
-	"pocket_data": [
+    "pocket_data": [
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
@@ -51,6 +51,4 @@
     "watertight": true,
     "qualities": [ [ "BOIL", 1 ] ]
   }
-
-
 ]

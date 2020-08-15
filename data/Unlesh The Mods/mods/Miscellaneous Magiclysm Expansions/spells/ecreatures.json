@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "mon_ewolf",
     "type": "MONSTER",
     "name": "ethereal wolf",
@@ -9,7 +10,7 @@
     "categories": [ "WILDLIFE" ],
     "species": [ "MAMMAL" ],
     "volume": "26625 ml",
-    "weight": 26625,
+    "weight": "26625 g",
     "hp": 40,
     "speed": 165,
     "material": [ "flesh" ],
@@ -23,7 +24,7 @@
     "melee_cut": 2,
     "dodge": 2,
     "armor_bash": 1,
-    "vision_night": 5, 
+    "vision_night": 5,
     "path_settings": { "max_dist": 10 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT" ],

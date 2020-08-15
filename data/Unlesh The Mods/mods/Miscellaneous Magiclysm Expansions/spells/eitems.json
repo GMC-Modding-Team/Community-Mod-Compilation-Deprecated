@@ -1,22 +1,16 @@
 [
-{
+  {
     "type": "GENERIC",
     "id": "mdag",
     "name": "ethereal dagger",
     "description": "A light-magenta colored dagger shimmering in an organised pattern. It seems rather sharp.",
-    "weight": 1337,
+    "weight": "1337 g",
     "to_hit": 1,
     "color": "magenta",
     "symbol": "|",
     "material": [ "superalloy" ],
-    "flags": [
-      "TRADER_AVOID",
-      "UNBREAKABLE_MELEE",
-      "NO_REPAIR",
-      "NO_SALVAGE",
-      "MAGIC_FOCUS"
-    ],
-    "volume": 5,
+    "flags": [ "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_REPAIR", "NO_SALVAGE", "MAGIC_FOCUS" ],
+    "volume": "1250 ml",
     "cutting": 10,
     "price": 0,
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ]
@@ -29,7 +23,7 @@
     "name": { "str": "ethereal sword", "str_pl": "ethereal swords" },
     "description": "An sword, seemingly magical. This one appears rather weak. ",
     "price": 100000,
-    "material": "superalloy",
+    "material": [ "superalloy" ],
     "flags": [ "UNBREAKABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS", "TRADER_AVOID", "NO_REPAIR", "NO_SALVAGE" ],
     "techniques": [ "WBLOCK_2" ],
     "weight": "800 g",
@@ -55,7 +49,7 @@
     "symbol": "[",
     "looks_like": "cuirass_lightplate",
     "color": "yellow",
-    "covers": [ "torso" ],
+    "covers": [ "TORSO" ],
     "coverage": 90,
     "encumbrance": 15,
     "warmth": 15,
@@ -77,8 +71,8 @@
       "BELTED",
       "UNBREAKABLE_MELEE",
       "NONCONDUCTIVE",
-	  "MAGIC_FOCUS",
-	  "TRADER_AVOID",
+      "MAGIC_FOCUS",
+      "TRADER_AVOID",
       "NO_REPAIR",
       "NO_SALVAGE",
       "NO_UNLOAD",
@@ -111,7 +105,7 @@
     "symbol": "[",
     "looks_like": "helmet_plate",
     "color": "light_gray",
-    "covers": [ "head" ],
+    "covers": [ "HEAD" ],
     "coverage": 90,
     "encumbrance": 30,
     "warmth": 10,
@@ -125,21 +119,27 @@
     "name": "ethereal buckler",
     "category": "armor",
     "description": "A small buckler, this light-magenta one shimmers magically.",
-    "weight": 1814,
+    "weight": "1814 g",
     "volume": 10,
     "price": 0,
     "bashing": 8,
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "[",
     "color": "magenta",
-    "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ],
+    "covers": [ "ARM_EITHER", "HAND_EITHER" ],
     "coverage": 30,
     "encumbrance": 8,
     "material_thickness": 3,
     "techniques": [ "WBLOCK_2" ],
-    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "TRADER_AVOID",
+    "flags": [
+      "OVERSIZE",
+      "BELTED",
+      "RESTRICT_HANDS",
+      "BLOCK_WHILE_WORN",
+      "TRADER_AVOID",
       "UNBREAKABLE_MELEE",
       "NO_REPAIR",
-      "NO_SALVAGE" ]
+      "NO_SALVAGE"
+    ]
   }
-  ]
+]

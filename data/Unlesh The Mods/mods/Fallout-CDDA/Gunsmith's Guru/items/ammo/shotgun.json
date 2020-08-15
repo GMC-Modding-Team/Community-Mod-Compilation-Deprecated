@@ -4,8 +4,8 @@
     "type": "AMMO",
     "name": "punt shot",
     "description": "A massive shell filled with gunpowder and pellets.",
-    "weight": 320,
-    "volume": 20,
+    "weight": "320 g",
+    "volume": "5 L",
     "price": 35000,
     "material": [ "plastic", "powder" ],
     "symbol": "=",
@@ -19,15 +19,14 @@
     "recoil": 25000,
     "loudness": 160,
     "effects": [ "COOKOFF", "SHOT", "MUZZLE_SMOKE" ]
-	},
-	
-	 {
+  },
+  {
     "id": "punt_shot_slug",
     "type": "AMMO",
     "name": "punt slug",
     "description": "A massive shell with a single, large chunk of lead within. This baby could punch a hole in a tank",
-    "weight": 320,
-    "volume": 20,
+    "weight": "320 g",
+    "volume": "5 L",
     "price": 35000,
     "material": [ "plastic", "powder" ],
     "symbol": "=",
@@ -41,23 +40,19 @@
     "recoil": 25000,
     "loudness": 160,
     "effects": [ "COOKOFF", "MUZZLE_SMOKE" ]
-	},
-	
-	{
+  },
+  {
     "id": "puntshot_hull",
     "type": "GENERIC",
     "category": "spare_parts",
     "name": "2 gauge shotgun hull hull",
     "description": "An empty hull from a 2 gauge shell.",
-    "weight": 8,
-    "volume": "32ml",
+    "weight": "8 g",
+    "volume": "32 ml",
     "stackable": true,
-    "material": ["plastic"],
+    "material": [ "plastic" ],
     "symbol": "=",
     "color": "red",
     "damage_states": [ 0, 0 ]
   }
-	
-	
-	
-	]
+]
