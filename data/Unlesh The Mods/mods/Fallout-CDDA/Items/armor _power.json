@@ -30,7 +30,7 @@
         "moves": 200
       }
     ],
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": { "type": "transform", "msg": "The %s engages.", "target": "power_armor_t51_light_on", "active": true },
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
   },
@@ -103,7 +103,7 @@
         "moves": 200
       }
     ],
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": { "type": "transform", "msg": "The %s engages.", "target": "power_armor_t45_on", "active": true },
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
   },
@@ -200,7 +200,7 @@
     "material_thickness": 15,
     "environmental_protection": 15,
     "qualities": [ [ "GLARE", 2 ] ],
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "charges_per_use": 1,
     "use_action": {
       "type": "transform",

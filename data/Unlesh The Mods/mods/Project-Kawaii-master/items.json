@@ -93,7 +93,7 @@
     "max_charges": 500,
     "initial_charges": 500,
     "turns_per_charge": 0,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
       "msg": "You activate the uniform's heating mode.",
@@ -126,7 +126,7 @@
     "flags": [ "VARSIZE", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY", "FANCY" ],
     "max_charges": 500,
     "turns_per_charge": 100,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_maid_dress_lss",
     "use_action": {
       "type": "transform",
@@ -160,7 +160,7 @@
     "flags": [ "VARSIZE", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY", "FANCY" ],
     "max_charges": 500,
     "turns_per_charge": 300,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_maid_dress_lss",
     "use_action": {
       "type": "transform",
@@ -522,7 +522,7 @@
     "max_charges": 200,
     "initial_charges": 200,
     "turns_per_charge": 0,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
       "msg": "You activate the headdress' heating systems",
@@ -554,7 +554,7 @@
     "max_charges": 200,
     "initial_charges": 200,
     "turns_per_charge": 1000,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_maid_hat_thermal_off",
     "use_action": {
       "type": "transform",
@@ -586,7 +586,7 @@
     "turns_per_charge": 0,
     "environmental_protection": 5,
     "techniques": [ "WBLOCK_1" ],
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
       "msg": "You activate the headdress' heating mode.",
@@ -620,7 +620,7 @@
     "turns_per_charge": 1000,
     "environmental_protection": 5,
     "techniques": [ "WBLOCK_1" ],
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_maid_hat_lss",
     "use_action": {
       "type": "transform",
@@ -655,7 +655,7 @@
     "turns_per_charge": 2000,
     "environmental_protection": 5,
     "techniques": [ "WBLOCK_1" ],
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_maid_hat_lss",
     "use_action": {
       "type": "transform",
@@ -684,7 +684,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 0,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
       "menu_text": "Toggle vision mode",
@@ -714,7 +714,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 10,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_hitec_megane",
     "use_action": {
       "type": "transform",
@@ -745,7 +745,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 10,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "kawaii_hitec_megane",
     "use_action": {
       "type": "transform",
@@ -773,7 +773,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 0,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
       "menu_text": "Toggle vision mode",

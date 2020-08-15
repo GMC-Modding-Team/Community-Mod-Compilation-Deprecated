@@ -293,7 +293,7 @@
     "material": [ "stone", "wood" ],
     "symbol": ";",
     "color": "light_gray",
-    "ammo": "pitch_wood",
+    "ammo": [ "pitch_wood" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pitch_wood": 100 } } ],
     "max_charges": 100,
     "charges_per_use": 1,
@@ -349,7 +349,7 @@
     "symbol": ";",
     "color": "light_gray",
     "sub": "water_purifier",
-    "ammo": "charcoal",
+    "ammo": [ "charcoal" ],
     "max_charges": 500,
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },

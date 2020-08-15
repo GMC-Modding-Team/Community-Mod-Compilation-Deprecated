@@ -20,7 +20,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 80,
-    "ammo": "maid_point",
+    "ammo": [ "maid_point" ],
     "use_action": {
       "type": "transform",
       "msg": "The maid's kitchen knife is looking for blood. Let's cook!.",
@@ -51,7 +51,7 @@
     "max_charges": 20,
     "initial_charges": 20,
     "turns_per_charge": 1,
-    "ammo": "maid_point",
+    "ammo": [ "maid_point" ],
     "revert_to": "vorpal_kitchen_knife",
     "use_action": {
       "type": "transform",
@@ -82,7 +82,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 1,
-    "ammo": "maid_point",
+    "ammo": [ "maid_point" ],
     "use_action": {
       "type": "transform",
       "msg": "When you hold your hand over the slay pan, a burning flame has arisen!",
@@ -113,7 +113,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "turns_per_charge": 10,
-    "ammo": "maid_point",
+    "ammo": [ "maid_point" ],
     "revert_to": "slaying_pan",
     "use_action": { "type": "transform", "msg": "The flame fizzles out.", "target": "slaying_pan", "need_charges": 0 },
     "artifact_data": { "effects_worn": [ "AEP_GLOW" ] }
@@ -241,7 +241,7 @@
     "price": 50000,
     "material": [ "steel", "leather" ],
     "skill": "unarmed",
-    "ammo": "maid_point",
+    "ammo": [ "maid_point" ],
     "flags": [ "STAB", "FIRE_20", "NEVER_JAMS", "DURABLE_MELEE", "PRIMITIVE_RANGED_WEAPON", "UNARMED_WEAPON", "NO_SALVAGE" ],
     "weight": "1000 g",
     "volume": "250 ml",

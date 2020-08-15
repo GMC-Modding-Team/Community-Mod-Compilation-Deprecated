@@ -14,7 +14,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 60 } } ],
     "max_charges": 60,
     "charges_per_use": 20,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_gilded_aegis_healing", "no_fail": true, "level": 0, "need_worn": true },
     "relative": { "weight": 3020, "price": 7200, "material_thickness": 3, "encumbrance": 9 },
     "extend": { "flags": [ "NO_SALVAGE", "HELMET_COMPAT", "FANCY", "TRADER_KEEP_EQUIPPED" ] }
@@ -36,7 +36,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 24 } } ],
     "max_charges": 24,
     "charges_per_use": 4,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "covers": [ "EYES", "MOUTH" ],
     "coverage": 100,
     "encumbrance": 10,
@@ -61,7 +61,7 @@
     "color": "green",
     "max_charges": 16,
     "charges_per_use": 4,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "encumbrance": 10,
     "environmental_protection": 10,
     "pocket_data": [
@@ -92,7 +92,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 6 } } ],
     "max_charges": 6,
     "charges_per_use": 2,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "covers": [ "HEAD" ],
     "coverage": 20,
     "material_thickness": 1,
@@ -116,7 +116,7 @@
     "color": "dark_gray",
     "max_charges": 20,
     "charges_per_use": 1,
-    "ammo": "essence_type",
+    "ammo": [ "essence_type" ],
     "pocket_data": [
       { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 20 } },
       { "pocket_type": "CONTAINER", "max_contains_volume": "1500 ml", "max_contains_weight": "5 kg", "moves": 180 },
@@ -139,7 +139,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 4 } } ],
     "max_charges": 4,
     "charges_per_use": 1,
-    "ammo": "essence_type",
+    "ammo": [ "essence_type" ],
     "use_action": {
       "type": "cast_spell",
       "spell_id": "arcana_item_thunder_gauntlets_taze",
@@ -163,7 +163,7 @@
     "environmental_protection": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 120 } } ],
     "max_charges": 120,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "use_action": [
       {
         "target": "hauberk_jade_on",
@@ -222,7 +222,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 30 } } ],
     "max_charges": 30,
     "charges_per_use": 3,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "covers": [ "HEAD" ],
     "coverage": 20,
     "encumbrance": 10,
@@ -251,7 +251,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 60 } } ],
     "max_charges": 60,
     "charges_per_use": 30,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "use_action": {
       "type": "consume_drug",
       "activation_message": "As you activate the talisman, you feel insulated in a strange manner.",
@@ -274,7 +274,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 8 } } ],
     "max_charges": 9,
     "charges_per_use": 3,
-    "ammo": "essence_type",
+    "ammo": [ "essence_type" ],
     "use_action": {
       "type": "consume_drug",
       "activation_message": "A strange energy radiates from the ring's gem, spreading a calming sensation over you.",
