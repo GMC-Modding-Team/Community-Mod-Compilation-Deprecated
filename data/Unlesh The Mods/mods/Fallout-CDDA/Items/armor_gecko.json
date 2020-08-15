@@ -15,7 +15,7 @@
     "symbol": "[",
     "looks_like": "dress_shoes",
     "color": "dark_gray",
-    "covers": [ "foot_l", "foot_r" ],
+    "covers": [ "FOOT_L", "FOOT_R" ],
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 20,
@@ -23,7 +23,6 @@
     "environmental_protection": 2,
     "flags": [ "VARSIZE", "WATERPROOF" ]
   },
-
   {
     "id": "boots_gecko_gold",
     "type": "ARMOR",
@@ -40,7 +39,7 @@
     "symbol": "[",
     "looks_like": "dress_shoes",
     "color": "dark_gray",
-    "covers": [ "foot_l", "foot_r" ],
+    "covers": [ "FOOT_L", "FOOT_R" ],
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 20,
@@ -48,7 +47,6 @@
     "environmental_protection": 3,
     "flags": [ "VARSIZE", "WATERPROOF", "FANCY", "ACIDPROOF" ]
   },
-
   {
     "id": "gloves_leather_gecko",
     "type": "ARMOR",
@@ -63,7 +61,7 @@
     "symbol": "[",
     "looks_like": "gloves_light",
     "color": "light_gray",
-    "covers": [ "hand_l", "hand_r" ],
+    "covers": [ "HAND_L", "HAND_R" ],
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 25,
@@ -71,9 +69,7 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "WATERPROOF" ]
   },
-
-
-   {
+  {
     "id": "gloves_leather_gecko_gold",
     "type": "ARMOR",
     "name": "pair of golden gecko-skin gloves",
@@ -87,7 +83,7 @@
     "symbol": "[",
     "looks_like": "gloves_light",
     "color": "yellow",
-    "covers": [ "hand_l", "hand_r" ],
+    "covers": [ "HAND_L", "HAND_R" ],
     "coverage": 100,
     "encumbrance": 5,
     "warmth": 25,
@@ -95,8 +91,7 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "WATERPROOF", "FANCY", "ACIDPROOF" ]
   },
-  
-   {
+  {
     "id": "backpack_leather_gecko",
     "type": "ARMOR",
     "name": "gecko-skin backpack",
@@ -110,7 +105,7 @@
     "symbol": "[",
     "looks_like": "backpack",
     "color": "light_gray",
-    "covers": [ "torso" ],
+    "covers": [ "TORSO" ],
     "coverage": 30,
     "encumbrance": 2,
     "max_encumbrance": 10,
@@ -119,8 +114,7 @@
     "material_thickness": 3,
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
   },
-  
-     {
+  {
     "id": "backpack_leather_gecko_gold",
     "type": "ARMOR",
     "name": "golden gecko-skin backpack",
@@ -134,7 +128,7 @@
     "symbol": "[",
     "looks_like": "backpack",
     "color": "yellow",
-    "covers": [ "torso" ],
+    "covers": [ "TORSO" ],
     "coverage": 30,
     "encumbrance": 2,
     "max_encumbrance": 10,
@@ -143,8 +137,7 @@
     "material_thickness": 3,
     "flags": [ "BELTED", "WATER_FRIENDLY", "ACIDPROOF", "FANCY" ]
   },
-
-   {
+  {
     "id": "armguard_leather_gecko",
     "type": "ARMOR",
     "category": "armor",
@@ -159,7 +152,7 @@
     "symbol": "[",
     "looks_like": "arm_warmers",
     "color": "light_gray",
-    "covers": [ "arm_l", "arm_r" ],
+    "covers": [ "HAND_L", "HAND_R" ],
     "coverage": 90,
     "encumbrance": 5,
     "warmth": 25,
@@ -167,8 +160,7 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "STURDY", "BELTED", "BLOCK_WHILE_WORN", "WATER_FRIENDLY" ]
   },
-  
-     {
+  {
     "id": "armguard_leather_gecko_gold",
     "type": "ARMOR",
     "category": "armor",
@@ -183,7 +175,7 @@
     "symbol": "[",
     "looks_like": "arm_warmers",
     "color": "yellow",
-    "covers": [ "arm_l", "arm_r" ],
+    "covers": [ "HAND_L", "HAND_R" ],
     "coverage": 10,
     "encumbrance": 5,
     "warmth": 25,
@@ -191,9 +183,7 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "STURDY", "BELTED", "BLOCK_WHILE_WORN", "WATER_FRIENDLY", "ACIDPROOF", "FANCY" ]
   },
-  
-  
-    {
+  {
     "id": "armor_leather_gecko",
     "type": "ARMOR",
     "category": "armor",
@@ -208,7 +198,7 @@
     "symbol": "[",
     "looks_like": "armor_larmor",
     "color": "light_gray",
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "LEG_L", "LEG_R", "TORSO", "ARM_L", "ARM_R" ],
     "coverage": 90,
     "encumbrance": 22,
     "storage": "4 L",
@@ -217,7 +207,6 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "STURDY" ]
   },
-  
   {
     "id": "armor_leather_gecko_gold",
     "type": "ARMOR",
@@ -233,7 +222,7 @@
     "symbol": "[",
     "looks_like": "armor_larmor",
     "color": "light_gray",
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "LEG_L", "LEG_R", "TORSO", "ARM_L", "ARM_R" ],
     "coverage": 100,
     "encumbrance": 22,
     "storage": "4 L",
@@ -242,7 +231,6 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "STURDY", "ACIDPROOF", "FANCY" ]
   },
-  
   {
     "id": "mask_gecko",
     "type": "TOOL_ARMOR",
@@ -256,7 +244,7 @@
     "material": [ "leather_gecko" ],
     "symbol": "[",
     "color": "light_gray",
-    "covers": [ "mouth", "eyes", "head" ],
+    "covers": [ "MOUTH", "EYES", "HEAD" ],
     "coverage": 100,
     "encumbrance": 100,
     "warmth": 20,
@@ -267,11 +255,10 @@
     "initial_charges": 100,
     "ammo": "gasfilter_m",
     "use_action": "GASMASK",
-	"qualities": [ [ "GLARE", 2 ] ],
-	"flags": [ "SUN_GLASSES", "STURDY" ]
+    "qualities": [ [ "GLARE", 2 ] ],
+    "flags": [ "SUN_GLASSES", "STURDY" ]
   },
-  
-    {
+  {
     "id": "mask_gecko_gold",
     "type": "TOOL_ARMOR",
     "name": "golden gecko-skin mask",
@@ -284,7 +271,7 @@
     "material": [ "leather_gecko" ],
     "symbol": "[",
     "color": "yellow",
-    "covers": [ "mouth", "eyes", "head" ],
+    "covers": [ "MOUTH", "EYES", "HEAD" ],
     "coverage": 100,
     "encumbrance": 100,
     "warmth": 20,
@@ -295,11 +282,10 @@
     "initial_charges": 100,
     "ammo": "gasfilter_m",
     "use_action": "GASMASK",
-	"qualities": [ [ "GLARE", 2 ] ],
-	"flags": [ "SUN_GLASSES", "STURDY", "ACIDPROOF", "FANCY" ]
+    "qualities": [ [ "GLARE", 2 ] ],
+    "flags": [ "SUN_GLASSES", "STURDY", "ACIDPROOF", "FANCY" ]
   },
-  
-    {
+  {
     "id": "duster_leather_gecko",
     "type": "ARMOR",
     "name": "gecko-skin duster",
@@ -312,7 +298,7 @@
     "symbol": "[",
     "looks_like": "duster",
     "color": "light_gray",
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "TORSO", "ARM_L", "ARM_R", "LEG_L", "LEG_R" ],
     "coverage": 90,
     "encumbrance": 17,
     "storage": "8 L",
@@ -322,7 +308,6 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "OUTER", "WATERPROOF", "RAINPROOF" ]
   },
-  
   {
     "id": "duster_leather_gecko_gold",
     "type": "ARMOR",
@@ -336,7 +321,7 @@
     "symbol": "[",
     "looks_like": "duster",
     "color": "yellow",
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "TORSO", "ARM_L", "ARM_R", "LEG_L", "LEG_R" ],
     "coverage": 90,
     "encumbrance": 17,
     "storage": "8 L",
@@ -346,5 +331,4 @@
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "OUTER", "WATERPROOF", "RAINPROOF", "ACIDPROOF", "FANCY" ]
   }
-  
 ]

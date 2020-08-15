@@ -9,7 +9,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "46250 ml",
-    "weight": 60000,
+    "weight": "60000 g",
     "hp": 30,
     "speed": 90,
     "material": [ "flesh" ],
@@ -26,7 +26,7 @@
     "armor_cut": 8,
     "vision_day": 3,
     "vision_night": 35,
-	"harvest": "gecko",
+    "harvest": "gecko",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -45,9 +45,9 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-		"upgrades": { "age_grow": 5, "into": "mon_gecko" },
+    "upgrades": { "age_grow": 5, "into": "mon_gecko" },
     "flags": [
-	"DOGFOOD",
+      "DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -61,8 +61,7 @@
       "SWIMS"
     ]
   },
-  
-    {
+  {
     "id": "mon_gecko",
     "type": "MONSTER",
     "name": "gecko",
@@ -72,7 +71,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "92500 ml",
-    "weight": 120000,
+    "weight": "120000 g",
     "hp": 90,
     "speed": 90,
     "material": [ "flesh" ],
@@ -89,7 +88,7 @@
     "armor_cut": 8,
     "vision_day": 35,
     "vision_night": 35,
-	"harvest": "gecko",
+    "harvest": "gecko",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -108,7 +107,7 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-	    "reproduction": { "baby_egg": "egg_gecko", "baby_count": 3, "baby_timer": 10 },
+    "reproduction": { "baby_egg": "egg_gecko", "baby_count": 3, "baby_timer": 10 },
     "flags": [
       "SEES",
       "HEARS",
@@ -123,8 +122,7 @@
       "SWIMS"
     ]
   },
-  
-    {
+  {
     "id": "mon_gecko_gold_young",
     "type": "MONSTER",
     "name": "Young Golden Gecko",
@@ -134,7 +132,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "66250 ml",
-    "weight": 80000,
+    "weight": "80000 g",
     "hp": 30,
     "speed": 90,
     "material": [ "flesh" ],
@@ -151,7 +149,7 @@
     "armor_cut": 8,
     "vision_day": 3,
     "vision_night": 35,
-	"harvest": "gecko_gold",
+    "harvest": "gecko_gold",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -169,12 +167,12 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": ["ACID", "NORMAL" ],
-		"upgrades": { "age_grow": 5, "into": "mon_gecko_gold" },
+    "death_function": [ "ACID", "NORMAL" ],
+    "upgrades": { "age_grow": 5, "into": "mon_gecko_gold" },
     "flags": [
-	"ACIDPROOF",
-	"POISON",
-	"DOGFOOD",
+      "ACIDPROOF",
+      "POISON",
+      "DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -188,8 +186,7 @@
       "SWIMS"
     ]
   },
-  
-    {
+  {
     "id": "mon_gecko_gold",
     "type": "MONSTER",
     "name": "Golden Gecko",
@@ -199,7 +196,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "112500 ml",
-    "weight": 160000,
+    "weight": "160000 g",
     "hp": 90,
     "speed": 90,
     "material": [ "flesh" ],
@@ -216,7 +213,7 @@
     "armor_cut": 8,
     "vision_day": 35,
     "vision_night": 35,
-	"harvest": "gecko_gold",
+    "harvest": "gecko_gold",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -234,11 +231,11 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": ["ACID", "NORMAL" ],
-	    "reproduction": { "baby_egg": "egg_gecko", "baby_count": 3, "baby_timer": 10 },
+    "death_function": [ "ACID", "NORMAL" ],
+    "reproduction": { "baby_egg": "egg_gecko", "baby_count": 3, "baby_timer": 10 },
     "flags": [
-	"ACIDPROOF",
-	"POISON",
+      "ACIDPROOF",
+      "POISON",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -252,9 +249,7 @@
       "SWIMS"
     ]
   },
-  
-  
-     {
+  {
     "id": "mon_deathclaw_young",
     "type": "MONSTER",
     "name": "Young Deathclaw",
@@ -264,7 +259,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "46250 ml",
-    "weight": 60000,
+    "weight": "60000 g",
     "hp": 60,
     "speed": 120,
     "material": [ "flesh" ],
@@ -281,7 +276,7 @@
     "armor_cut": 8,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -299,12 +294,12 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": ["NORMAL" ],
-		"upgrades": { "age_grow": 5, "into": "mon_deathclaw" },
+    "death_function": [ "NORMAL" ],
+    "upgrades": { "age_grow": 5, "into": "mon_deathclaw" },
     "flags": [
       "SEES",
       "HEARS",
-	"DOGFOOD",
+      "DOGFOOD",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
@@ -316,8 +311,7 @@
       "SWIMS"
     ]
   },
-  
-    {
+  {
     "id": "mon_deathclaw",
     "type": "MONSTER",
     "name": "Deathclaw",
@@ -327,7 +321,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "92500 ml",
-    "weight": 120000,
+    "weight": "120000 g",
     "hp": 180,
     "speed": 120,
     "material": [ "flesh" ],
@@ -344,7 +338,7 @@
     "armor_cut": 12,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -363,7 +357,7 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-			"upgrades": { "age_grow": 5, "into": "mon_deathclaw_mother" },
+    "upgrades": { "age_grow": 5, "into": "mon_deathclaw_mother" },
     "flags": [
       "SEES",
       "HEARS",
@@ -378,8 +372,7 @@
       "SWIMS"
     ]
   },
-  
-      {
+  {
     "id": "mon_deathclaw_mother",
     "type": "MONSTER",
     "name": "Deathclaw Mother",
@@ -389,7 +382,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "92500 ml",
-    "weight": 120000,
+    "weight": "120000 g",
     "hp": 500,
     "speed": 240,
     "material": [ "flesh" ],
@@ -406,7 +399,7 @@
     "armor_cut": 12,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -425,7 +418,7 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 3 },
+    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 3 },
     "flags": [
       "SEES",
       "HEARS",
@@ -440,9 +433,7 @@
       "SWIMS"
     ]
   },
-  
-  
-       {
+  {
     "id": "mon_deathclaw_albino_young",
     "type": "MONSTER",
     "name": "Young Albino Deathclaw",
@@ -452,7 +443,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "46250 ml",
-    "weight": 60000,
+    "weight": "60000 g",
     "hp": 90,
     "speed": 120,
     "material": [ "flesh" ],
@@ -469,7 +460,7 @@
     "armor_cut": 8,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -487,12 +478,12 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": ["NORMAL" ],
-		"upgrades": { "age_grow": 5, "into": "mon_deathclaw_albino" },
+    "death_function": [ "NORMAL" ],
+    "upgrades": { "age_grow": 5, "into": "mon_deathclaw_albino" },
     "flags": [
       "SEES",
       "HEARS",
-	"DOGFOOD",
+      "DOGFOOD",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
@@ -504,8 +495,7 @@
       "SWIMS"
     ]
   },
-  
-    {
+  {
     "id": "mon_deathclaw_albino",
     "type": "MONSTER",
     "name": "Albino Deathclaw",
@@ -515,7 +505,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "92500 ml",
-    "weight": 120000,
+    "weight": "120000 g",
     "hp": 260,
     "speed": 120,
     "material": [ "flesh" ],
@@ -532,7 +522,7 @@
     "armor_cut": 12,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -551,7 +541,7 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 10 },
+    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 10 },
     "flags": [
       "SEES",
       "HEARS",
@@ -566,10 +556,7 @@
       "SWIMS"
     ]
   },
-  
-  
-  
-       {
+  {
     "id": "mon_deathclaw_glowing_young",
     "type": "MONSTER",
     "name": "Young Glowing Deathclaw",
@@ -579,7 +566,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "46250 ml",
-    "weight": 60000,
+    "weight": "60000 g",
     "hp": 90,
     "speed": 120,
     "material": [ "flesh" ],
@@ -594,10 +581,10 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-	    "luminance": 200,
+    "luminance": 200,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -616,10 +603,10 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-		"upgrades": { "age_grow": 5, "into": "mon_deathclaw_albino" },
+    "upgrades": { "age_grow": 5, "into": "mon_deathclaw_albino" },
     "flags": [
-		"ACIDPROOF",
-	"POISON",
+      "ACIDPROOF",
+      "POISON",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -633,8 +620,7 @@
       "SWIMS"
     ]
   },
-  
-    {
+  {
     "id": "mon_deathclaw_glowing",
     "type": "MONSTER",
     "name": "Glowing Deathclaw",
@@ -644,7 +630,7 @@
     "species": [ "REPTILE" ],
     "diff": 22,
     "volume": "92500 ml",
-    "weight": 120000,
+    "weight": "120000 g",
     "hp": 360,
     "speed": 120,
     "material": [ "flesh" ],
@@ -656,13 +642,13 @@
     "melee_dice": 2,
     "melee_dice_sides": 20,
     "melee_cut": 24,
-	    "luminance": 200,
+    "luminance": 200,
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
+    "harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -681,10 +667,10 @@
     "fear_triggers": [ "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 10 },
+    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 10 },
     "flags": [
-		"ACIDPROOF",
-	"POISON",
+      "ACIDPROOF",
+      "POISON",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -698,8 +684,6 @@
       "SWIMS"
     ]
   },
-  
-  
   {
     "id": "mon_iguana",
     "type": "MONSTER",
@@ -743,9 +727,8 @@
     ],
     "fear_triggers": [ "FIRE", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
-	"reproduction": { "baby_egg": "egg_reptile", "baby_count": 3, "baby_timer": 10 },
+    "reproduction": { "baby_egg": "egg_reptile", "baby_count": 3, "baby_timer": 10 },
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "ATTACKMON", "DOGFOOD" ]
   }
-  
 ]

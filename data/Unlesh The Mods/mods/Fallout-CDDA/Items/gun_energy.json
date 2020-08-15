@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "wattz_1000",
     "type": "GUN",
     "color": "light_gray",
@@ -8,14 +8,14 @@
     "description": "A Wattz 1000 Laser Pistol. Civilian model, so the wattage is lower than military or police versions. Uses batteries.",
     "price": 42400,
     "material": [ "steel", "wood" ],
-    "weight": 2940,
-    "volume": 4,
+    "weight": "2940 g",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -43,8 +43,7 @@
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-   {
+  {
     "id": "wattz_1000_magneto",
     "type": "GUN",
     "color": "white",
@@ -53,14 +52,14 @@
     "description": "This Wattz 1000 laser pistol has been upgraded with a magnetic field targeting system that tightens the laser emission, giving this pistol extra penetrating power.",
     "price": 42400,
     "material": [ "steel", "wood" ],
-    "weight": 2940,
-    "volume": 4,
+    "weight": "2940 g",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -88,8 +87,7 @@
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-   {
+  {
     "id": "laser_pistol_aep",
     "type": "GUN",
     "color": "light_gray",
@@ -98,14 +96,14 @@
     "description": "The AEP7 laser pistol was put into service to replace the aging Wattz 1000 model. With a generous battery size, tight shot grouping at range, resilience to extended use, and fairly decent damage output, it is a very good choice for a sidearm.",
     "price": 42400,
     "material": [ "steel", "wood" ],
-    "weight": 2940,
-    "volume": 4,
+    "weight": "2940 g",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -133,8 +131,7 @@
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-     {
+  {
     "id": "laser_pistol_aep_pewpew",
     "type": "GUN",
     "color": "light_gray",
@@ -143,14 +140,14 @@
     "description": "The AEP7 laser pistol was put into service to replace the aging Wattz 1000 model. With a generous battery size, tight shot grouping at range, resilience to extended use, and fairly decent damage output, it is a very good choice for a sidearm. This one was customized with the logo of Sunset Sasparilla, and fires 5 shots at once, kind of like a shotgun. The beam has a distinct red color.",
     "price": 42400,
     "material": [ "steel", "wood" ],
-    "weight": 2940,
-    "volume": 4,
+    "weight": "2940 g",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
-	"magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -174,15 +171,12 @@
     "recoil": 0,
     "durability": 8,
     "clip_size": 10,
-	    "modes": [
-      [ "DEFAULT", "Single Fire", 5 ]
-    ],
+    "modes": [ [ "DEFAULT", "Single Fire", 5 ] ],
     "reload": 300,
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
-  
-    {
+  {
     "id": "wattz_2000",
     "type": "GUN",
     "symbol": "(",
@@ -195,8 +189,8 @@
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
     "ups_charges": 84,
     "skill": "rifle",
-    "weight": 2950,
-    "volume": 12,
+    "weight": "2950 g",
+    "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 75, "armor_penetration": 40 },
@@ -207,7 +201,7 @@
     "recoil": 0,
     "durability": 8,
     "reload": 100,
-    "built_in_mods": [ "rifle_scope"],
+    "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
@@ -218,8 +212,7 @@
       [ "mechanism", 1 ]
     ]
   },
-  
-      {
+  {
     "id": "aer9",
     "type": "GUN",
     "symbol": "(",
@@ -229,9 +222,9 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "NEVER_JAMS"],
-	"ammo": "battery",
-	"magazines": [
+    "flags": [ "NEVER_JAMS" ],
+    "ammo": "battery",
+    "magazines": [
       [
         "battery",
         [
@@ -247,8 +240,8 @@
     ],
     "magazine_well": 4,
     "skill": "rifle",
-    "weight": 2950,
-    "volume": 12,
+    "weight": "2950 g",
+    "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 37, "armor_penetration": 20 },
@@ -269,7 +262,6 @@
       [ "mechanism", 1 ]
     ]
   },
-  
   {
     "id": "aer9_tribeam",
     "type": "GUN",
@@ -280,9 +272,9 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "NEVER_JAMS", "SHOT"],
-	"ammo": "battery",
-	"magazines": [
+    "flags": [ "NEVER_JAMS", "SHOT" ],
+    "ammo": "battery",
+    "magazines": [
       [
         "battery",
         [
@@ -298,8 +290,8 @@
     ],
     "magazine_well": 1,
     "skill": "shotgun",
-    "weight": 2950,
-    "volume": 8,
+    "weight": "2950 g",
+    "volume": "2 L",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 121, "armor_penetration": 25 },
@@ -320,7 +312,6 @@
       [ "mechanism", 1 ]
     ]
   },
-  
   {
     "id": "aer14_prototype",
     "type": "GUN",
@@ -331,9 +322,9 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "NEVER_JAMS"],
-	"ammo": "battery",
-	"magazines": [
+    "flags": [ "NEVER_JAMS" ],
+    "ammo": "battery",
+    "magazines": [
       [
         "battery",
         [
@@ -347,10 +338,10 @@
         ]
       ]
     ],
-    "magazine_well":2,
+    "magazine_well": 2,
     "skill": "rifle",
-    "weight": 2950,
-    "volume": 12,
+    "weight": "2950 g",
+    "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 56, "armor_penetration": 25 },
@@ -371,7 +362,6 @@
       [ "mechanism", 1 ]
     ]
   },
-  
   {
     "id": "laser_rcw",
     "type": "GUN",
@@ -380,14 +370,14 @@
     "name": "Laser Rcw",
     "description": "The unique feature of this 'laser assault rifle' is the addition of a 'drum,' which gives this weapon its unique look, high rate of fire, and unusual name.",
     "price": 1600000,
-	"looks_like": "tommygun",
+    "looks_like": "tommygun",
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
     "ups_charges": 16,
     "skill": "smg",
-    "weight": 2950,
-    "volume": 12,
+    "weight": "2950 g",
+    "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 10, "armor_penetration": 20 },
@@ -408,9 +398,7 @@
       [ "mechanism", 1 ]
     ]
   },
-  
-  
-    {
+  {
     "id": "p94_caster",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -419,14 +407,14 @@
     "name": "Winchester P94 Plasma Caster",
     "description": "A Winchester Model P94 plasma caster. An industrial-grade energy weapon, firing superheated bolts of plasma down a superconducting barrel. Powered by microfusion cells.",
     "price": 1750000,
-    "material": ["steel"],
+    "material": [ "steel" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "ups_charges": 5,
     "ammo_effects": [ "PLASMA", "FLAME" ],
     "skill": "launcher",
     "ammo": "plasma",
-    "weight": 4535,
-    "volume": 15,
+    "weight": "4535 g",
+    "volume": "3750 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 50 },
@@ -445,8 +433,7 @@
       [ "underbarrel", 1 ]
     ]
   },
-
-    {
+  {
     "id": "p94_rifle",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -455,14 +442,14 @@
     "name": "Winchester P94-B Plasma Rifle",
     "description": "A Winchester Model P94-B plasma rifle. An industrial-grade energy weapon, firing superheated bolts of plasma down a superconducting barrel. Powered by microfusion cells.",
     "price": 1750000,
-    "material": ["steel"],
+    "material": [ "steel" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS" ],
     "ups_charges": 5,
     "ammo_effects": [ "PLASMA", "FLAME" ],
     "skill": "rifle",
     "ammo": "plasma",
-    "weight": 4535,
-    "volume": 15,
+    "weight": "4535 g",
+    "volume": "2750 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "stab", "amount": 25 },
@@ -481,8 +468,6 @@
       [ "underbarrel", 1 ]
     ]
   },
-  
-  
   {
     "id": "lasermusket_battery_cell",
     "type": "MAGAZINE",
@@ -501,8 +486,7 @@
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
   },
-  
-    {
+  {
     "id": "musket_laser",
     "type": "GUN",
     "color": "green",
@@ -511,8 +495,8 @@
     "description": "The barrel of an AER-9 Laser Rifle put on a makeshift rig with a crank mechanism. Activate it to crank. Modern power in revolutionary style.",
     "price": 749000,
     "material": [ "steel", "wood" ],
-    "weight": 4964,
-    "volume": 17,
+    "weight": "4964 g",
+    "volume": "4250 ml",
     "bashing": 8,
     "to_hit": -1,
     "ammo_effects": [ "LASER", "INCENDIARY" ],
@@ -529,14 +513,7 @@
     "reload": 0,
     "loudness": 20,
     "use_action": "HAND_CRANK",
-    "magazines": [
-      [
-        "battery",
-        [
-          "lasermusket_battery_cell"
-        ]
-      ]
-    ],
+    "magazines": [ [ "battery", [ "lasermusket_battery_cell" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],

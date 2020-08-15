@@ -12,8 +12,8 @@
     "flags": "NEVER_JAMS",
     "skill": "rifle",
     "ammo": "BB",
-    "weight": 1723,
-    "volume": 6,
+    "weight": "1723 g",
+    "volume": "1500 ml",
     "bashing": 9,
     "looks_like": "bbgun",
     "to_hit": 1,
@@ -23,11 +23,9 @@
     "durability": 7,
     "clip_size": 150,
     "reload": 50,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "stock", 1 ], ["sling", 1]  ],
-	"pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "BB": 150 } } ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "stock", 1 ], [ "sling", 1 ] ]
   },
-  
-    {
+  {
     "id": "redryderle",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -40,8 +38,8 @@
     "flags": "NEVER_JAMS",
     "skill": "rifle",
     "ammo": "BB",
-    "weight": 1723,
-    "volume": 6,
+    "weight": "1723 g",
+    "volume": "1500 ml",
     "bashing": 9,
     "looks_like": "bbgun",
     "to_hit": 1,
@@ -51,7 +49,18 @@
     "durability": 7,
     "clip_size": 300,
     "reload": 50,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "stock", 1 ], ["grip", 1], ["rail", 1], ["sling", 1], ["mechanism", 4], ["underbarrel", 1], ["barrel", 1], ["bore", 1], ["muzzle", 1] ],
-	"pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "BB": 300 } } ]
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sling", 1 ],
+      [ "mechanism", 4 ],
+      [ "underbarrel", 1 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "muzzle", 1 ]
+    ]
   }
 ]
