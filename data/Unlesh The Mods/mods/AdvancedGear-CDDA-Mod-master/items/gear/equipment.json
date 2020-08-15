@@ -38,7 +38,7 @@
     "material": [ "nanite" ],
     "symbol": "[",
     "color": "light_gray",
-    "covers": [ "ARM_EITHER", "HAND_EITHER" ],
+    "covers": [ "ARM_L", "ARM_R", "LEG_L", "LEG_R" ],
     "coverage": 90,
     "encumbrance": 28,
     "material_thickness": 4,
@@ -91,7 +91,7 @@
     "name": "nanotech holster",
     "copy-from": "nanogear",
     "looks_like": "holster",
-    "covers": [ "LEG_EITHER" ],
+    "covers": [ "LEG_L", "LEG_R" ],
     "description": "A small blob of nanites with an AI, it actively branches out pseudopods to grasp guns held nearby it, and put them into the user's hands automatically as needed.",
     "extend": { "flags": [ "BELTED" ] },
     "use_action": {
@@ -112,7 +112,7 @@
     "name": "nanotech sheath",
     "copy-from": "nanogear",
     "looks_like": "sheath",
-    "covers": [ "LEG_EITHER" ],
+    "covers": [ "LEG_L", "LEG_R" ],
     "description": "A small blob of nanites with an AI, it actively branches out pseudopods to grasp blades held nearby it, and put them into the user's hands automatically as needed.",
     "extend": { "flags": [ "BELTED" ] },
     "use_action": {

@@ -373,7 +373,7 @@
     "material": [ "wood" ],
     "symbol": ")",
     "color": "yellow",
-    "covers": [ "LEG_EITHER" ],
+    "covers": [ "LEG_L", "LEG_R" ],
     "coverage": 5,
     "encumbrance": 2,
     "material_thickness": 2,
@@ -479,7 +479,7 @@
     ],
     "seals": true,
     "watertight": true,
-    "armor_data": { "covers": [ "ARM_EITHER", "HAND_EITHER" ], "coverage": 0, "encumbrance": 60, "material_thickness": 2 },
+    "armor_data": { "covers": [ "ARM_L", "ARM_R", "LEG_L", "LEG_R" ], "coverage": 0, "encumbrance": 60, "material_thickness": 2 },
     "flags": [ "SUPER_FANCY", "OVERSIZE" ]
   },
   {
