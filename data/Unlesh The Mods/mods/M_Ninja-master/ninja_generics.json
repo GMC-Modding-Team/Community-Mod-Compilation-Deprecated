@@ -5,11 +5,11 @@
     "category": "books",
     "name": "Cosplay map",
     "description": "A map of the venue of a cosplay party.",
-    "weight": 30,
-    "volume": 1,
+    "weight": "30 g",
+    "volume": "250 ml",
     "price": 100,
     "to_hit": -1,
-    "material": "paper",
+    "material": [ "paper" ],
     "symbol": ";",
     "color": "white",
     "use_action": {
@@ -26,13 +26,12 @@
     "name": "Ninja note",
     "name_plural": "Ninja notes",
     "description": "It is a note of a ninja. I use it to write each other's correspondence and phrase. The letters are written in black.",
-    "weight": 1,
-    "volume": 0,
+    "weight": "1 g",
+    "volume": "3 ml",
     "price": 0,
-    "material": "paper",
+    "material": [ "paper" ],
     "symbol": ",",
     "color": "white",
-    "snippet_category": "ninja_snippet_note",
-    "flags": [ "ZERO_WEIGHT" ]
+    "snippet_category": "ninja_snippet_note"
   }
 ]

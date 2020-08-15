@@ -5,12 +5,12 @@
     "name": "molded glaze",
     "name_plural": "molded glaze",
     "description": "It is a molded glaze used for firing the glaze hammer. Steel exteriors are damaged at launch and can not be reused.",
-    "weight": 30,
-    "volume": 1,
+    "weight": "30 g",
+    "volume": "250 ml",
     "price": 0,
     "material": [ "powder", "steel" ],
     "symbol": "=",
-    "color": "dark_gray",
+    "color": [ "dark_gray" ],
     "looks_like": "unfinished_charcoal",
     "count": 6,
     "stack_size": 6,
@@ -19,7 +19,7 @@
     "damage": { "damage_type": "stab", "amount": 0, "armor_penetration": 0 },
     "dispersion": 0,
     "recoil": 19800,
-    "loudness" : 325,
+    "loudness": 325,
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "MUZZLE_SMOKE", "WIDE" ]
   },
   {
@@ -28,13 +28,13 @@
     "name": "iron electromagnetic projectile",
     "name_plural": "iron electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of iron. It is easy to make, but it is fragile compared to other EM projectiles, so it lacks flight distance and stability.",
-    "weight": 15,
-    "volume": 1,
+    "weight": "15 g",
+    "volume": "250 ml",
     "price": 0,
     "material": [ "iron" ],
     "symbol": "=",
-    "color": "dark_gray",
-    "looks_like": "arrow_metal_sharpened",
+    "color": [ "dark_gray" ],
+    "looks_like": "arrow_metal_sharpened_fletched",
     "count": 10,
     "stack_size": 10,
     "ammo_type": "cbma_em_rail",
@@ -42,7 +42,7 @@
     "damage": { "damage_type": "stab", "amount": 65, "armor_penetration": 10 },
     "dispersion": 30,
     "recoil": 0,
-    "loudness" : 25,
+    "loudness": 25,
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
@@ -53,11 +53,7 @@
     "name_plural": "steel electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of steel. It is a standard projectile with stable performance.",
     "material": [ "steel" ],
-    "relative": {
-      "damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 5 },
-      "range": 5,
-      "dispersion": -15
-    }
+    "relative": { "damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 5 }, "range": 5, "dispersion": -15 }
   },
   {
     "id": "cbma_em_rail_alloy",
@@ -67,11 +63,7 @@
     "name_plural": "superalloy electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of superalloy. It is a projectile with high performance due to its excellent electrical and chemical properties.",
     "material": [ "superalloy" ],
-    "relative": {
-      "damage": { "damage_type": "stab", "amount": 55, "armor_penetration": 30 },
-      "range": 15,
-      "dispersion": -30
-    }
+    "relative": { "damage": { "damage_type": "stab", "amount": 55, "armor_penetration": 30 }, "range": 15, "dispersion": -30 }
   },
   {
     "id": "cbma_em_railmag",
@@ -79,12 +71,12 @@
     "name": "electromagnetic projectile magazine",
     "name_plural": "electromagnetic projectile magazines",
     "description": "A magazine dedicated to the improved electromagnetic projectile gun. You can load up to 20 rods.",
-    "weight": 150,
-    "volume": 2,
+    "weight": "150 g",
+    "volume": "500 ml",
     "price": 0,
-    "material": ["steel"],
+    "material": [ "steel" ],
     "symbol": "#",
-    "color": "ltgray",
+    "color": [ "light_gray" ],
     "looks_like": "blrmag",
     "ammo_type": "cbma_em_rail",
     "capacity": 20,

@@ -5,25 +5,21 @@
     "name": "training wheels",
     "item": "wheel_small",
     "symbol": "o",
-    "location" : "armor",
+    "location": "armor",
     "broken_symbol": "x",
     "color": "dark_gray",
     "difficulty": 3,
     "durability": 70,
     "damage_modifier": 50,
-    "breaks_into": [
-      { "item": "steel_lump" },
-      { "item": "steel_chunk", "count": [ 1, 3 ] },
-      { "item": "scrap", "count": [ 1, 3 ] }
-    ],
-    "flags": [ "WHEEL", "STABLE", "NO_JACK", "ARMOR"  ]
+    "breaks_into": [ { "item": "steel_lump" }, { "item": "steel_chunk", "count": [ 1, 3 ] }, { "item": "scrap", "count": [ 1, 3 ] } ],
+    "flags": [ "WHEEL", "STABLE", "NO_JACK", "ARMOR" ]
   },
   {
     "id": "inflatable_airbag_vo",
     "type": "vehicle_part",
     "name": "A floating ring",
     "item": "inflatable_airbag",
-    "location" : "armor",
+    "location": "armor",
     "symbol": "O",
     "broken_symbol": "x",
     "color": "green",

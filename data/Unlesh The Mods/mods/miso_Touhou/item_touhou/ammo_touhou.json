@@ -6,11 +6,11 @@
     "name": "mushroom powder",
     "name_plural": "mushroom",
     "description": "A finely crushed powder of mushroom. Do not eat as it has harmful effects on the human body. If used properly, it may be used as a catalyst for magic.",
-    "material": "veggy",
+    "material": [ "veggy" ],
     "ammo_type": "dry_mushroom_magic_powder",
     "price": 3,
-    "weight": 0,
-    "volume": 0,
+    "weight": "3 g",
+    "volume": "3 ml",
     "symbol": "%",
     "color": "brown",
     "count": 2,
@@ -19,9 +19,7 @@
     "recoil": 4,
     "stack_size": 100,
     "explode_in_fire": true,
-    "explosion": { "power": 25, "count": 30, "distance_factor": 0.2 },
-	"flags": [ "ZERO_WEIGHT" ]
-
+    "explosion": { "power": 25, "count": 30, "distance_factor": 0.2 }
   },
   {
     "id": "dry_mushroom_magic_powder2",
@@ -33,8 +31,8 @@
     "material": [ "veggy", "bone" ],
     "ammo_type": "dry_mushroom_magic_powder",
     "price": 3,
-    "weight": 0,
-    "volume": 0,
+    "weight": "3 g",
+    "volume": "3 ml",
     "symbol": "%",
     "color": "brown",
     "count": 2,
@@ -43,8 +41,7 @@
     "recoil": 4,
     "stack_size": 100,
     "explode_in_fire": true,
-    "explosion": { "power": 30, "count": 60, "distance_factor": 0.4 },
-	"flags": [ "ZERO_WEIGHT" ]
+    "explosion": { "power": 30, "count": 60, "distance_factor": 0.4 }
   },
   {
     "id": "dry_mushroom_magic_powder3",
@@ -56,8 +53,8 @@
     "material": [ "veggy", "bone", "flesh" ],
     "ammo_type": "dry_mushroom_magic_powder",
     "price": 3,
-    "weight": 0,
-    "volume": 0,
+    "weight": "3 g",
+    "volume": "3 ml",
     "symbol": "%",
     "color": "brown",
     "count": 2,
@@ -66,9 +63,7 @@
     "recoil": 4,
     "stack_size": 100,
     "explode_in_fire": true,
-    "explosion": { "power": 105, "count": 10, "distance_factor": 0.6 },
-	"flags": [ "ZERO_WEIGHT" ]
-
+    "explosion": { "power": 105, "count": 10, "distance_factor": 0.6 }
   },
   {
     "type": "AMMO",
@@ -79,9 +74,9 @@
     "symbol": "-",
     "color": "green",
     "description": "It is a long, thick needle specially ordered to defeat youkai. It seems that it is difficult to replenish the world in this situation. The released needle remains with low probability.",
-    "material": "steel",
-    "volume": 1,
-    "weight": 27,
+    "material": [ "steel" ],
+    "volume": "250 ml",
+    "weight": "27 g",
     "cutting": 1,
     "ammo_type": "juhu_paper",
     "damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 14 },
@@ -100,9 +95,9 @@
     "symbol": "=",
     "color": "white",
     "description": "It is a colorful ordinary barrage. It will also help to hunt small animals in the forest. It is difficult to aim and hit only nearby enemies.",
-    "material": "paper",
-    "volume": 0,
-    "weight": 10,
+    "material": [ "paper" ],
+    "volume": "3 ml",
+    "weight": "10 g",
     "bashing": 4,
     "ammo_type": "magic_barrage_ammo",
     "damage": { "damage_type": "stab", "amount": 5, "armor_penetration": 1 },
@@ -112,8 +107,7 @@
     "stack_size": 100,
     "loudness": 0,
     "count": 10,
-    "effects": [ "NOGIB", "SHOT" ],
-	"flags": [ "ZERO_WEIGHT" ]
+    "effects": [ "NOGIB", "SHOT" ]
   },
   {
     "type": "AMMO",
@@ -124,9 +118,9 @@
     "symbol": "=",
     "color": "white",
     "description": "It is a barrage of high difficulty. It is difficult to aim and only hit nearby enemies.",
-    "material": "paper",
-    "volume": 0,
-    "weight": 10,
+    "material": [ "paper" ],
+    "volume": "3 ml",
+    "weight": "10 g",
     "bashing": 4,
     "ammo_type": "magic_barrage_ammo",
     "damage": { "damage_type": "stab", "amount": 9, "armor_penetration": 1 },
@@ -136,8 +130,7 @@
     "stack_size": 100,
     "loudness": 0,
     "count": 6,
-    "effects": [ "NOGIB", "SHOT" ],
-	"flags": [ "ZERO_WEIGHT" ]
+    "effects": [ "NOGIB", "SHOT" ]
   },
   {
     "type": "AMMO",
@@ -148,9 +141,9 @@
     "symbol": "=",
     "color": "white",
     "description": "It is a serious barrage. Be careful, as it explodes over a wide area.",
-    "material": "paper",
-    "volume": 0,
-    "weight": 10,
+    "material": [ "paper" ],
+    "volume": "3 ml",
+    "weight": "10 g",
     "bashing": 4,
     "ammo_type": "magic_barrage_ammo",
     "damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 1 },
@@ -162,8 +155,7 @@
     "count": 1,
     "effects": [ "NOGIB", "NO_ITEM_DAMAGE" ],
     "explode_in_fire": true,
-    "explosion": { "power": 2000, "count": 60, "distance_factor": 0.5 },
-	"flags": [ "ZERO_WEIGHT" ]
+    "explosion": { "power": 2000, "count": 60, "distance_factor": 0.5 }
   },
   {
     "type": "ammunition_type",
