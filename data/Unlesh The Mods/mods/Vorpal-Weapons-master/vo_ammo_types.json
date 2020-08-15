@@ -45,7 +45,7 @@
     "charges": 10,
     "max_charges": 10,
     "initial_charges": 10,
-    "ammo": "blood_clearn_vo",
+    "ammo": [ "blood_clearn_vo" ],
     "use_action": [
       {
         "type": "transform",
@@ -71,7 +71,7 @@
     "flags": [ "NO_UNLOAD" ],
     "max_charges": 10,
     "turns_per_charge": 1,
-    "ammo": "blood_clearn_vo",
+    "ammo": [ "blood_clearn_vo" ],
     "revert_to": "blood_clean_empty_vo",
     "use_action": [
       "ARTIFACT",

@@ -75,7 +75,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -2 ] ],
     "flags": [ "DURABLE_MELEE", "SLICE", "FIRE" ],
     "max_charges": 50,
-    "ammo": "gasoline",
+    "ammo": [ "gasoline" ],
     "use_action": [
       {
         "type": "fireweapon_off",
@@ -107,7 +107,7 @@
     "flags": [ "DURABLE_MELEE", "SLICE", "FIRE", "LIGHT_240", "CHARGEDIM", "FLAMING" ],
     "max_charges": 50,
     "turns_per_charge": 30,
-    "ammo": "gasoline",
+    "ammo": [ "gasoline" ],
     "revert_to": "scythe_fire_off",
     "use_action": [
       {

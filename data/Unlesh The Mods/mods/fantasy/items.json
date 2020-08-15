@@ -555,7 +555,7 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "NULL",
+    "ammo": [ "NULL" ],
     "revert_to": "null",
     "use_action": {
       "type": "delayed_transform",
@@ -674,7 +674,7 @@
     "flags": [ "NO_AMMO", "WATERPROOF_GUN", "NEVER_JAMS" ],
     "ammo_effects": [ "WHIP", "BEANBAG" ],
     "skill": "melee",
-    "ammo": "generic_no_ammo",
+    "ammo": [ "generic_no_ammo" ],
     "weight": "3628 g",
     "volume": "2500 ml",
     "bashing": 2,

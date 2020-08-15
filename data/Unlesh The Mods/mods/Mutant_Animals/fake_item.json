@@ -35,7 +35,7 @@
     "skill": "pistol",
     "range": 20,
     "clip_size": 10,
-    "ammo": "bile_spit",
+    "ammo": [ "bile_spit" ],
     "ranged_damage": { "damage_type": "acid", "amount": 2 },
     "dispersion": 240,
     "ammo_effects": [ "BEANBAG", "BLINDS_EYES", "NEVER_MISFIRES", "NO_DAMAGE_SCALING" ],
@@ -59,7 +59,7 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": 240,
     "clip_size": 10,
-    "ammo": "mucus_spit",
+    "ammo": [ "mucus_spit" ],
     "ammo_effects": [ "BEANBAG", "BLINDS_EYES", "NEVER_MISFIRES", "NO_DAMAGE_SCALING" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
