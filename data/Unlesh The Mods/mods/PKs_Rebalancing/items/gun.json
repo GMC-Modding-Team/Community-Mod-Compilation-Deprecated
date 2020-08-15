@@ -2,7 +2,7 @@
   {
     "id": "bomblet_launcher_single",
     "type": "GUN",
-    "name": "bomblet pipe launcher",
+    "name": { "str": "bomblet pipe launcher" },
     "description": "A simple homemade launcher for bomblets, consisting of a wooden supports nailed to a length of piping and a modified stopper to hold and activate the bomblet.",
     "weight": "1514 g",
     "volume": 5,
@@ -29,7 +29,7 @@
   {
     "id": "bomblet_launcher_double",
     "type": "GUN",
-    "name": "double bomblet launcher",
+    "name": { "str": "double bomblet launcher" },
     "description": "A homemade doubled-barreled homemade launcher for bomblets.  It has the option to fire both barrels at once, a crude sight, and can be made to accept a limited array of modifications.",
     "weight": "1690 g",
     "volume": 6,
@@ -57,7 +57,7 @@
   {
     "id": "bomblet_launcher_rotary",
     "type": "GUN",
-    "name": "PRMP4 Peppergun",
+    "name": { "str": "PRMP4 Peppergun" },
     "description": "Capable both single shot and burst fire, the PRMP4 'peppergun' is one of the first, and most successful, bomblet launchers.  Designed to suppress small squads of infantrymen, it can work equally well to non-lethally quell a riot.",
     "weight": "3259 g",
     "volume": 10,
@@ -93,7 +93,7 @@
   {
     "id": "bomblet_launcher_dualshot",
     "type": "GUN",
-    "name": "PRMP2 Arbiter",
+    "name": { "str": "PRMP2 Arbiter" },
     "description": "Designed to grant versatility to small squad operations, the PRMP2 arbiter is a burst-capable single-handed launcher that accepts up to 2 different rounds at once to accommodate today's changing battlefield.  While more versatile than a full launcher it suffers from increased reload times and rather intense recoil.",
     "weight": "1642 g",
     "volume": "750 ml",
@@ -122,7 +122,7 @@
   {
     "id": "bomblet_launcher_brute",
     "type": "GUN",
-    "name": "Type 25 bomblet launcher",
+    "name": { "str": "Type 25 bomblet launcher" },
     "description": "A massive curved blade affixed to a large bomblet launcher.  The resulting weapon is quite heavy and requires strength to effectively use, but can provide close to medium range supression, has relatively low recoil,  and be reloaded on the fly with a craftable strip magizine.",
     "weight": "10052 g",
     "volume": 24,
@@ -151,7 +151,7 @@
   {
     "id": "bomblet_undermod",
     "type": "GUNMOD",
-    "name": "underbarrel bomblet thrower",
+    "name": { "str": "underbarrel bomblet thrower" },
     "description": "A mount for a rifle that holds and fires up to 3 bomblets.  The weight of the mod and its ammo decreases the accuracy of both firearms some.",
     "weight": "972 g",
     "volume": "750 ml",
@@ -178,7 +178,7 @@
   {
     "id": "shockcannon",
     "type": "GUN",
-    "name": "shockcannon",
+    "name": { "str": "shockcannon" },
     "description": "A rather unwieldy hip fired weapon, firing a burst of electricity in a rampant manner.  Not quite a tesla cannon, it never-the-less is a quite power crowd control device.  Can be modified for plutonium cells or ups usage via crafting",
     "weight": "4542 g",
     "volume": 23,
@@ -207,7 +207,7 @@
   {
     "id": "shockcannon_ups",
     "type": "GUN",
-    "name": "militrized shockcannon",
+    "name": { "str": "militrized shockcannon" },
     "description": "A rather unwieldy hip fired weapon, firing a burst of electricity in a rampant manner.  Not quite a tesla cannon, it never-the-less is a quite power crowd control device.  Modified to run on a UPS, and will not take batteries without the removal of the mod.",
     "weight": "4542 g",
     "volume": 23,
@@ -234,7 +234,7 @@
   {
     "id": "shockcannon_plut",
     "type": "GUN",
-    "name": "atomic shockcannon",
+    "name": { "str": "atomic shockcannon" },
     "description": "A rather unwieldy hip fired weapon, firing a burst of electricity in a rampant manner.  Not quite a tesla cannon, it never-the-less is a quite power crowd control device.  Has a plutonium adaptor installed, and will not accept ups or batteries until it is removed.",
     "weight": "4542 g",
     "volume": 23,
@@ -263,7 +263,7 @@
   {
     "id": "410_lever",
     "type": "GUN",
-    "name": "Klaxon x410",
+    "name": { "str": "Klaxon x410" },
     "description": "A compact and medium range lever-action shotgun utilizing the smaller 410 bore shells.  Capable of firing .45 rounds as well as its own 410 shells, the klaxon offers 'high versatility and reliability for the modern outdoorsman'.  The 'x' in its designation signifies its ten-round capacity.",
     "weight": "1805 g",
     "volume": 7,
@@ -288,7 +288,7 @@
   {
     "id": "410_revolver",
     "type": "GUN",
-    "name": "5410 Frontier",
+    "name": { "str": "5410 Frontier" },
     "description": "A revolver chambered to fire the small-bore 410 shotgun shells.  Marketed as a robust home-defense weapon, the 5410 Frontier is large enough to make reloading a snap with practice and accepts most third-party modifications to make the user feel as secure as possible.",
     "weight": "715 g",
     "volume": "750 ml",
@@ -321,7 +321,7 @@
     "id": "ithaca_doom",
     "copy-from": "shotgun_pump",
     "type": "GUN",
-    "name": "Ithaca 2021",
+    "name": { "str": "Ithaca 2021" },
     "description": "The 2021 shotgun, produced commercially by Ithaca, is sturdy underbarrel shotgun designed for home defense and private military use.  With a pistol grip and a shortened barrel, this manuverable shotgun lacks both a proper stock and point of attachment for an underbarrel mod.",
     "weight": "3066 g",
     "volume": 6,
@@ -356,7 +356,7 @@
     "id": "ithaca_doom_dual",
     "copy-from": "shotgun_pump",
     "type": "GUN",
-    "name": "Ithaca Fateless",
+    "name": { "str": "Ithaca Fateless" },
     "description": "One of the last shotguns produced via contract by manufacturer Ithaca, the Fateless is a sturdy and low maintenance underbarrel loader with a reduced barrel to increase manuverability.  With a partial aluminum  conversion, this lightweight shotgun could hold up to 12 shells and with the flick of a pin the weapon can be slamfired, allowing its user to fire new shells as fast as they can pump them into the chamber; without releasing the trigger.",
     "weight": "2466 g",
     "volume": 6,
@@ -383,7 +383,7 @@
     "type": "GUN",
     "symbol": ")",
     "color": "green",
-    "name": "BFG 2041-2",
+    "name": { "str": "BFG 2041-2" },
     "name_plural": "BFG 2041-2",
     "description": "The BFG 2041-2, a prototype anti-everything weapon.  Utilizing sub-light particles, it spreads from target to target, amplifying the ambient energy and triggering a subnuclear explosion within the flesh of its victims.",
     "price": 12500000,

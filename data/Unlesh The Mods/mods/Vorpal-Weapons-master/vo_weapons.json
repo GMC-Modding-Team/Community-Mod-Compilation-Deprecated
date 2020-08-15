@@ -2,7 +2,7 @@
   {
     "type": "GENERIC",
     "id": "boxing_gloves_vo",
-    "name": "Boxing gloves with stone",
+    "name": { "str": "Boxing gloves with stone" },
     "name_plural": "Boxing gloves with stone",
     "weight": "1110 g",
     "color": "red",
@@ -20,7 +20,7 @@
   {
     "type": "GENERIC",
     "id": "unbio_claws_weapon_vo",
-    "name": "bionic claws",
+    "name": { "str": "bionic claws" },
     "name_plural": "bionic claws",
     "description": "Short and sharp claws made from a high-tech metal.",
     "weight": "1650 g",
@@ -39,7 +39,7 @@
   {
     "type": "GENERIC",
     "id": "unbio_blade_weapon_vo",
-    "name": "monomolecular blade",
+    "name": { "str": "monomolecular blade" },
     "description": "A foot-long blade made from high-tech alloy and edged with bonded nanocrystals.",
     "weight": "100 g",
     "to_hit": 3,
@@ -57,7 +57,7 @@
   {
     "type": "GENERIC",
     "id": "pata_vo",
-    "name": "Pata",
+    "name": { "str": "Pata" },
     "description": "It is a long sword with a structure resembling Jamadahar, which is fitted with swords in armor of a shape like a gauntlet covering the forearm, the outside of the fist. Although it is a powerful weapon, you can not pick up objects because the arms are fixed.",
     "weight": "1500 g",
     "to_hit": 1,
@@ -77,7 +77,7 @@
   {
     "type": "GENERIC",
     "id": "battlehook_vo",
-    "name": "Battle Hook",
+    "name": { "str": "Battle Hook" },
     "description": "It is a simple weapon just having a claw attached to the long handle. I can only pull it down, but it may be tossed off as much as a rotten head.",
     "weight": "1200 g",
     "to_hit": 2,
@@ -98,7 +98,7 @@
   {
     "type": "TOOL",
     "id": "laser_sword_off_vo",
-    "name": "Laser sword (off)",
+    "name": { "str": "Laser sword (off)" },
     "description": "It is my original lightsaber that is supposed to work with UPS. Although it is possible to irradiate an illegal output laser and burn enemies, it is a drawback that electric power is applied too much. It is also a substitute for acetylene lamp.",
     "weight": "1200 g",
     "color": "dark_gray",
@@ -132,7 +132,7 @@
     "type": "TOOL",
     "symbol": "/",
     "color": "red",
-    "name": "Laser sword (on)",
+    "name": { "str": "Laser sword (on)" },
     "description": "It is my original lightsaber that is supposed to work with UPS. Although it is possible to irradiate an illegal output laser and burn enemies, it is a drawback that electric power is applied too much. Since there is no substance, attacks can not be handled.",
     "price": 30000,
     "material": [ "superalloy", "steel" ],
@@ -166,7 +166,7 @@
     "type": "TOOL",
     "symbol": "/",
     "color": "blue",
-    "name": "Sword of plutonium",
+    "name": { "str": "Sword of plutonium" },
     "description": "It is a beautiful sword that fires lightly.",
     "price": 3000000,
     "flags": [ "NON_STUCK", "CHOP", "LIGHT_120", "UNBREAKABLE_MELEE", "RADIOACTIVE", "LEAK_ALWAYS" ],

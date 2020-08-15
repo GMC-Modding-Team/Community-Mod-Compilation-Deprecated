@@ -2,8 +2,8 @@
   {
     "type": "technique",
     "id": "BERSERK",
-    "name": "BERSERK",
-    "skill_requirements": [ { "name": "melee", "level": 1 } ],
+    "name": { "str": "BERSERK" },
+    "skill_requirements": [ { "name": { "str": "melee" }, "level": 1 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "mult_bonuses": [
@@ -25,8 +25,8 @@
   {
     "type": "technique",
     "id": "DSINERTIAL",
-    "name": "SWEEPER",
-    "skill_requirements": [ { "name": "melee", "level": 4 } ],
+    "name": { "str": "SWEEPER" },
+    "skill_requirements": [ { "name": { "str": "melee" }, "level": 4 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "knockback_dist": 1,
@@ -49,8 +49,8 @@
   {
     "type": "technique",
     "id": "DSBI",
-    "name": "BISECTION",
-    "skill_requirements": [ { "name": "melee", "level": 2 } ],
+    "name": { "str": "BISECTION" },
+    "skill_requirements": [ { "name": { "str": "melee" }, "level": 2 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
     "crit_tec": true,

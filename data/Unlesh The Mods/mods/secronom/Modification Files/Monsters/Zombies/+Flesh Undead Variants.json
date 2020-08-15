@@ -3,7 +3,7 @@
     "note": "The taken (or flesh variants) - flesh version of vanilla creatures. This file contains undead variants. Secronom creatures or anything related are immune to flesh infection.The takens has +25% health, +3 bash resistance and +2 adaptive damage (higher melee dice provides 2 bashing damage to its melee attack. If equal, then half for both). Everything else are the same, except the living's conversion into undead. Also, stunts the flesh variant's evolution and can be rid of manipulation if burnt down (but not for living creatures).",
     "id": "mon_sflesh_taken_zombie",
     "type": "MONSTER",
-    "name": "flesh zombie",
+    "name": { "str": "flesh zombie" },
     "description": "A corpse devoured by the flesh, with complete manipulation over its mindless thoughts.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
@@ -57,7 +57,7 @@
   {
     "id": "mon_sflesh_zombie_tough",
     "type": "MONSTER",
-    "name": "tough zombie",
+    "name": { "str": "tough zombie" },
     "description": "Once an athletic human, now a brutal monster. Its facial features are twisted into an expression of pure rage.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
@@ -115,7 +115,7 @@
   {
     "id": "mon_sflesh_zombie_fat",
     "type": "MONSTER",
-    "name": "fat zombie",
+    "name": { "str": "fat zombie" },
     "description": "Stumbling as it moves, this corpse of an overweight human regards its surroundings with an empty black gaze.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
@@ -171,7 +171,7 @@
   {
     "id": "mon_sflesh_skeleton",
     "type": "MONSTER",
-    "name": "skeleton",
+    "name": { "str": "skeleton" },
     "description": "A monstrous overgrowth of ossified tissue has replaced this zombie's rotting skin with an organic armor of dense bone.  Large clumps of black goo seep from its joints as it shambles aimlessly, with sickening crackling sounds filling the air around it.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
@@ -217,7 +217,7 @@
   {
     "id": "mon_sflesh_zombie_spitter",
     "type": "MONSTER",
-    "name": "spitter zombie",
+    "name": { "str": "spitter zombie" },
     "description": "A hunched human body with its eyes pushed up into its forehead and drooping cheeks, most of its face is occupied by a puckered mouth. Its stomach is swollen and nearly translucent, with a sickly velvet tint.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
@@ -735,7 +735,7 @@
   {
     "id": "mon_sflesh_zombie_brute",
     "type": "MONSTER",
-    "name": "zombie brute",
+    "name": { "str": "zombie brute" },
     "description": "Its entire body bulges with distended muscles and swollen, festering wounds.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "human",
@@ -3038,7 +3038,7 @@
   {
     "id": "mon_sflesh_zombie_dog",
     "type": "MONSTER",
-    "name": "zombie dog",
+    "name": { "str": "zombie dog" },
     "description": "The deformed, animated corpse of a canine, a sinewy beast which can easily outpace its two-legged friends.\nMembranous veins cover most of its surface that pulsates in constant beats.",
     "default_faction": "secro_flesh",
     "bodytype": "dog",

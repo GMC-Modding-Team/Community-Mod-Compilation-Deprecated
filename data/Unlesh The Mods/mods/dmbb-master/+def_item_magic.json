@@ -2,7 +2,7 @@
   {
     "id": "DMBB_ORB_death",
     "type": "SPELL",
-    "name": "Death",
+    "name": { "str": "Death" },
     "description": "I die, you die.",
     "message": "<color_light_red>Your body starts to fade out from existence after failing to defend the orb...</color>",
     "flags": [ "SILENT", "RANDOM_TARGET" ],
@@ -15,7 +15,7 @@
   {
     "id": "DMBB_ORB_act_cesheal_heal",
     "type": "SPELL",
-    "name": "Celestial Healing",
+    "name": { "str": "Celestial Healing" },
     "description": "Mends the target with celestial prowess.",
     "message": "<color_light_green>The orb pulsates as the shard shatters apart!</color>",
     "flags": [ "LOUD" ],
@@ -34,7 +34,7 @@
   {
     "id": "DMBB_ORB_act_cesheal_plus_heal",
     "type": "SPELL",
-    "name": "Celestial Healing+",
+    "name": { "str": "Celestial Healing+" },
     "description": "Greatly mends the target with celestial prowess.",
     "message": "<color_light_green>The orb pulsates as the shard shatters apart!</color>",
     "flags": [ "LOUD" ],
@@ -53,7 +53,7 @@
   {
     "id": "DMBB_ORB_act_cespure_pure",
     "type": "SPELL",
-    "name": "Celestial Purification",
+    "name": { "str": "Celestial Purification" },
     "description": "Removes most debuffs from the target with celestial prowess. Will ward further debuffs for 20 turns.",
     "message": "<color_light_green>The orb pulsates as the shard shatters apart!</color>",
     "flags": [ "LOUD" ],
@@ -71,7 +71,7 @@
   {
     "id": "DMBB_ORB_act_blindingflash_stun",
     "type": "SPELL",
-    "name": "Blinding Flash",
+    "name": { "str": "Blinding Flash" },
     "description": "Taste the light.",
     "message": "<color_light_green>The orb radiates blinding rays in all direction!</color>",
     "extra_effects": [ { "id": "DMBB_ORB_act_blindingflash_blind", "hit_self": true } ],
@@ -186,7 +186,7 @@
   {
     "id": "DMBB_ORB_act_blindingflash_blind",
     "type": "SPELL",
-    "name": "Blinding Flash",
+    "name": { "str": "Blinding Flash" },
     "description": "Taste the light.",
     "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DURATION" ],
     "valid_targets": [ "hostile" ],
@@ -294,7 +294,7 @@
   {
     "id": "DMBB_ORB_act_shockstorm_zap",
     "type": "SPELL",
-    "name": "Shockstorm",
+    "name": { "str": "Shockstorm" },
     "description": "Taste the shock.",
     "message": "<color_light_green>The orb calls forth thunderstrikes!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS", "RANDOM_DURATION" ],
@@ -414,7 +414,7 @@
   {
     "id": "DMBB_ORB_act_inferno_fire",
     "type": "SPELL",
-    "name": "Inferno",
+    "name": { "str": "Inferno" },
     "description": "Taste the flames.",
     "message": "<color_light_green>The orb blasts an infernal explosion!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS", "RANDOM_DURATION" ],
@@ -528,7 +528,7 @@
   {
     "id": "DMBB_ORB_act_blizzard_ice",
     "type": "SPELL",
-    "name": "Blizzard",
+    "name": { "str": "Blizzard" },
     "description": "Taste the frost.",
     "message": "<color_light_green>The orb created a hail of ice!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS", "RANDOM_DURATION" ],
@@ -641,7 +641,7 @@
   {
     "id": "DMBB_ORB_act_judgement_judge",
     "type": "SPELL",
-    "name": "Judgment",
+    "name": { "str": "Judgment" },
     "description": "Taste the divine light.",
     "message": "<color_yellow>The orb channels itself...</color>\n<color_light_green>Moments after, all monsters were struck by divine light!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS" ],
@@ -752,7 +752,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_build_shock1_spawn",
-    "name": "Build",
+    "name": { "str": "Build" },
     "description": "Summons the turret in the targetted location.",
     "flags": [ "LOUD", "PERMANENT" ],
     "valid_targets": [ "ground" ],
@@ -770,7 +770,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_build_fire1_spawn",
-    "name": "Build",
+    "name": { "str": "Build" },
     "description": "Summons the turret in the targetted location.",
     "flags": [ "LOUD", "PERMANENT" ],
     "valid_targets": [ "ground" ],
@@ -788,7 +788,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_build_ice1_spawn",
-    "name": "Build",
+    "name": { "str": "Build" },
     "description": "Summons the turret in the targetted location.",
     "flags": [ "LOUD", "PERMANENT" ],
     "valid_targets": [ "ground" ],
@@ -806,7 +806,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_shock1_up_grade",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Electric.",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -825,7 +825,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_shock2_up_grade_er",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Electric+ to Turret - Electric (shock).",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -844,7 +844,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_shock2_up_grade_tesla",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Electric+ to Turret - Electric (tesla).",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -863,7 +863,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_fire1_up_grade",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Fire.",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -882,7 +882,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_fire2_up_grade_pyro",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Fire+ to Turret - Fire (pyro).",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -901,7 +901,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_fire2_up_grade_scorch",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Fire+ to Turret - Fire (scorch).",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -920,7 +920,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_ice1_up_grade",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Ice.",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -939,7 +939,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_ice2_up_grade_frost",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Ice+ to Turret - Ice (frost).",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -958,7 +958,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_ice2_up_grade_icicle",
-    "name": "Upgrade",
+    "name": { "str": "Upgrade" },
     "description": "Upgrades Turret - Ice+ to Turret - Ice (icicle).",
     "flags": [ "LOUD", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -977,7 +977,7 @@
   {
     "type": "SPELL",
     "id": "dmbb_act_cesward_item",
-    "name": "Spawn",
+    "name": { "str": "Spawn" },
     "description": "Forms celestial ward.",
     "message": "<color_light_green>A celestial ward were formed around you!</color>",
     "flags": [ "LOUD", "RANDOM_DURATION" ],
