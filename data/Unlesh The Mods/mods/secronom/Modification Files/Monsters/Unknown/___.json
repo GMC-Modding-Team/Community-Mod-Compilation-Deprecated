@@ -4,7 +4,7 @@
     "id": "mon_unknown_unknown",
     "looks_like": "mon_vortex",
     "type": "MONSTER",
-    "name": "Unknown",
+    "name": { "str": "Unknown" },
     "description": "A ripple of time and space, transparent and emits a gravitational force field, like that of a black hole's surrounding. Unidentified, it leaves you uncomfortable as if it is a threat or not.",
     "default_faction": "unknown",
     "species": [ "UNKNOWN" ],
@@ -39,7 +39,7 @@
     "copy-from": "mon_unknown_unknown",
     "looks_like": "mon_vortex",
     "type": "MONSTER",
-    "name": "???",
+    "name": { "str": "???" },
     "name_plural": "???",
     "special_attacks": [ { "type": "spell", "spell_data": { "id": "mon_unknown_unknown_carrion_target" }, "cooldown": 10 } ]
   },
@@ -48,7 +48,7 @@
     "copy-from": "mon_unknown_unknown",
     "looks_like": "mon_vortex",
     "type": "MONSTER",
-    "name": "???",
+    "name": { "str": "???" },
     "name_plural": "???",
     "special_attacks": [ { "type": "spell", "spell_data": { "id": "mon_unknown_unknown_vector_target" }, "cooldown": 10 } ]
   }

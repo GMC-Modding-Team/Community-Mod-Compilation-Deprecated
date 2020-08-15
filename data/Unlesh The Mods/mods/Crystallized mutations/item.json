@@ -1,7 +1,7 @@
 [
 	{
     "id": "crystal_heart",
-    "name": "Crystal heart",
+    "name": { "str": "Crystal heart" },
 	"type": "TOOL",
 	"symbol": "*",
 	"weight": "420 g",
@@ -13,7 +13,7 @@
     "id": "mutagen_crystal",
     "copy-from": "mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "Shimmering water",
+    "name": { "str": "Shimmering water" },
     "description": "A watery measure of the crystalline blood you've managed to stabilize and collect from the crystal heart. Drinking this is sure to change you.",
     "color": "light_blue",
     "use_action": { "type": "mutagen", "mutation_category": "CRYSTAL" }
@@ -22,14 +22,14 @@
     "id": "iv_mutagen_crystal",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "Crystal blood",
+    "name": { "str": "Crystal blood" },
     "description": "A thick and glittering measure of the crystalline blood you've managed to stabilize and collect from the crystal heart. Injecting this straight into your bloodstream is sure to change you.",
     "color": "light_blue",
     "use_action": { "type": "mutagen_iv", "mutation_category": "CRYSTAL" }
 	},
 	{
 	"id": "mineral_glue",
-    "name": "Mineral glue",
+    "name": { "str": "Mineral glue" },
     "description": "Crushed diamond mixed with superglue to make a suitable substance to fill in and patch up the cracks in crystalline objects. A mineral being might have use of this.",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
@@ -67,7 +67,7 @@
   {
   "copy-from": "sharp_rock",
   "type": "COMESTIBLE",
-  "name": "sharp rock",
+  "name": { "str": "sharp rock" },
   "material": "stone",
   "calories": 1060,
   "quench": -1,
@@ -83,7 +83,7 @@
   {
   "copy-from": "rock",
   "type": "COMESTIBLE",
-  "name": "rock",
+  "name": { "str": "rock" },
   "material": "stone",
   "calories": 1060,
   "quench": -1,
@@ -99,19 +99,19 @@
   {
   "copy-from": "water",
   "type": "COMESTIBLE",
-  "name": "water",
+  "name": { "str": "water" },
   "material": "water"
   },
   {
   "copy-from": "salt_water",
   "type": "COMESTIBLE",
-  "name": "salt water",
+  "name": { "str": "salt water" },
   "material": "water"
   },
   {
   "copy-from": "water_clean",
   "type": "COMESTIBLE",
-  "name": "clean water",
+  "name": { "str": "clean water" },
   "material": "water"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "mushroom_ammo01",
     "type": "AMMO",
-    "name": "spore mass",
+    "name": { "str": "spore mass" },
     "description": "It is a spore extracted from a fungus. The stone is blown away using the explosive power that spore bursts. It can be used as such, but it will still be a lack of power for monsters.",
     "weight": "7 g",
     "volume": "250 ml",
@@ -22,7 +22,7 @@
   {
     "id": "mushroom_ammo02",
     "type": "AMMO",
-    "name": "large spore mass",
+    "name": { "str": "large spore mass" },
     "description": "It is a large spore isolated from a fungus. Although the productivity dropped, I was able to greatly improve the power.",
     "weight": "14 g",
     "volume": "250 ml",
@@ -42,7 +42,7 @@
   {
     "type": "ammunition_type",
     "id": "mushroom_ammo",
-    "name": "spores",
+    "name": { "str": "spores" },
     "default": "mushroom_ammo01"
   }
 ]

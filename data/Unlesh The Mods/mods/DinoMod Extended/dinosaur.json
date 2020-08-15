@@ -8,7 +8,7 @@
   {
     "type": "MONSTER",
     "id": "mon_compsognathus",
-    "name": "Compsognathus",
+    "name": { "str": "Compsognathus" },
     "species": "DINOSAUR",
     "default_faction": "compsognathus",
     "symbol": "D",
@@ -60,7 +60,7 @@
   {
     "type": "MONSTER",
     "id": "mon_gallimimus",
-    "name": "Gallimimus",
+    "name": { "str": "Gallimimus" },
     "species": "DINOSAUR",
     "default_faction": "gallimimus",
     "symbol": "D",
@@ -106,7 +106,7 @@
   {
     "type": "MONSTER",
     "id": "mon_spinosaurus",
-    "name": "Spinosaurus",
+    "name": { "str": "Spinosaurus" },
     "species": "DINOSAUR",
     "default_faction": "spinosaurus",
     "symbol": "D",
@@ -156,7 +156,7 @@
   {
     "type": "MONSTER",
     "id": "mon_tyrannosaurus",
-    "name": "Tyrannosaurus rex",
+    "name": { "str": "Tyrannosaurus rex" },
     "species": "DINOSAUR",
     "default_faction": "t-rex",
     "symbol": "D",
@@ -205,7 +205,7 @@
   {
     "type": "MONSTER",
     "id": "mon_triceratops",
-    "name": "Triceratops",
+    "name": { "str": "Triceratops" },
     "species": "DINOSAUR",
     "default_faction": "herbivore_dino",
     "symbol": "D",
@@ -252,7 +252,7 @@
   {
     "type": "MONSTER",
     "id": "mon_stegosaurus",
-    "name": "Stegosaurus",
+    "name": { "str": "Stegosaurus" },
     "species": "DINOSAUR",
     "default_faction": "herbivore_dino",
     "symbol": "D",
@@ -299,7 +299,7 @@
   {
     "type": "MONSTER",
     "id": "mon_ankylosaurus",
-    "name": "Ankylosaurus",
+    "name": { "str": "Ankylosaurus" },
     "species": "DINOSAUR",
     "default_faction": "herbivore_dino",
     "symbol": "D",
@@ -346,7 +346,7 @@
   {
     "type": "MONSTER",
     "id": "mon_allosaurus",
-    "name": "Allosaurus",
+    "name": { "str": "Allosaurus" },
     "species": "DINOSAUR",
     "default_faction": "allosaurus",
     "symbol": "D",
@@ -382,7 +382,7 @@
   {
     "type": "MONSTER",
     "id": "mon_eoraptor",
-    "name": "Eoraptor",
+    "name": { "str": "Eoraptor" },
     "species": "DINOSAUR",
     "default_faction": "eoraptor",
     "symbol": "D",
@@ -416,7 +416,7 @@
   {
     "type": "MONSTER",
     "id": "mon_velociraptor",
-    "name": "Velociraptor",
+    "name": { "str": "Velociraptor" },
     "species": "DINOSAUR",
     "default_faction": "velociraptor",
     "symbol": "D",
@@ -452,7 +452,7 @@
   {
     "type": "MONSTER",
     "id": "mon_deinonychus",
-    "name": "Deinonychus",
+    "name": { "str": "Deinonychus" },
     "species": "DINOSAUR",
     "default_faction": "deinonychus",
     "symbol": "D",
@@ -501,7 +501,7 @@
   {
     "type": "MONSTER",
     "id": "mon_utahraptor",
-    "name": "Utahraptor",
+    "name": { "str": "Utahraptor" },
     "species": "DINOSAUR",
     "default_faction": "utahraptor",
     "symbol": "D",
@@ -550,7 +550,7 @@
   {
     "type": "MONSTER",
     "id": "mon_parasaurolophus",
-    "name": "Parasaurolophus",
+    "name": { "str": "Parasaurolophus" },
     "species": "DINOSAUR",
     "default_faction": "herbivore_dino",
     "symbol": "D",
@@ -597,7 +597,7 @@
   {
     "type": "MONSTER",
     "id": "mon_dilophosaurus",
-    "name": "Dilophosaurus",
+    "name": { "str": "Dilophosaurus" },
     "species": "DINOSAUR",
     "default_faction": "dilophosaurus",
     "symbol": "D",
@@ -633,7 +633,7 @@
   {
     "id": "mon_compsognathus_hatchling",
     "type": "MONSTER",
-    "name": "greenish yellow hatchling",
+    "name": { "str": "greenish yellow hatchling" },
     "description": "A tiny dinosaur hatchling with huge shiny eyes, it could be from a number of different species.",
     "default_faction": "compsognathus",
     "categories": [ "DINOSAUR" ],
@@ -662,96 +662,96 @@
     "id": "mon_gallimimus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light green and yellow hatchling",
+    "name": { "str": "light green and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_gallimimus" }
   },
   {
     "id": "mon_spinosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "red and white hatchling",
+    "name": { "str": "red and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_spinosaurus" }
   },
   {
     "id": "mon_tyrannosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light red and white hatchling",
+    "name": { "str": "light red and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_tyrannosaurus" }
   },
   {
     "id": "mon_triceratops_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light green and magenta hatchling",
+    "name": { "str": "light green and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_triceratops" }
   },
   {
     "id": "mon_stegosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "green and magenta hatchling",
+    "name": { "str": "green and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_stegosaurus" }
   },
   {
     "id": "mon_ankylosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and magenta hatchling",
+    "name": { "str": "brown and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_ankylosaurus" }
   },
   {
     "id": "mon_allosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and white hatchling",
+    "name": { "str": "brown and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_allosaurus" }
   },
   {
     "id": "mon_eoraptor_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and yellow hatchling",
+    "name": { "str": "dark gray and yellow hatchling" },
     "upgrades": { "age_grow": 10, "into": "mon_eoraptor" }
   },
   {
     "id": "mon_velociraptor_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and yellow hatchling",
+    "name": { "str": "dark gray and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_velociraptor" }
   },
   {
     "id": "mon_deinonychus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "red and green hatchling",
+    "name": { "str": "red and green hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_deinonychus" }
   },
   {
     "id": "mon_utahraptor_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and white hatchling",
+    "name": { "str": "dark gray and white hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_utahraptor" }
   },
   {
     "id": "mon_parasaurolophus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and magenta hatchling",
+    "name": { "str": "dark gray and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_parasaurolophus" }
   },
   {
     "id": "mon_dilophosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "magenta and green hatchling",
+    "name": { "str": "magenta and green hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_dilophosaurus" }
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_DINOSAUR",
+    "name": { "str": "GROUP_DINOSAUR" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 100, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
@@ -772,7 +772,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_DINOSAUR_HARMLESS",
+    "name": { "str": "GROUP_DINOSAUR_HARMLESS" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 100, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
@@ -782,7 +782,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_DINOSAUR_DANGEROUS",
+    "name": { "str": "GROUP_DINOSAUR_DANGEROUS" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_allosaurus", "freq": 2, "cost_multiplier": 30 },
@@ -794,7 +794,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_DINOSAUR_MEGA_HERBIVORE",
+    "name": { "str": "GROUP_DINOSAUR_MEGA_HERBIVORE" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_triceratops", "freq": 3, "cost_multiplier": 30, "pack_size": [ 1, 2 ] },
@@ -805,7 +805,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_DINOSAUR_MEGA_CARNIVORE",
+    "name": { "str": "GROUP_DINOSAUR_MEGA_CARNIVORE" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_spinosaurus", "freq": 1, "cost_multiplier": 50 },
@@ -815,7 +815,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_FOREST",
+    "name": { "str": "GROUP_FOREST" },
     "default": "mon_null",
     "monsters": [
       {
@@ -864,7 +864,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SWAMP",
+    "name": { "str": "GROUP_SWAMP" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_parasaurolophus", "freq": 30, "cost_multiplier": 10, "pack_size": [ 2, 4 ] },
@@ -876,7 +876,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SEWER",
+    "name": { "str": "GROUP_SEWER" },
     "default": "mon_sewer_rat",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 300, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
@@ -889,7 +889,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SAFE",
+    "name": { "str": "GROUP_SAFE" },
     "is_safe": true,
     "default": "mon_null",
     "monsters": [
@@ -900,7 +900,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_CAVE",
+    "name": { "str": "GROUP_CAVE" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 600, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },

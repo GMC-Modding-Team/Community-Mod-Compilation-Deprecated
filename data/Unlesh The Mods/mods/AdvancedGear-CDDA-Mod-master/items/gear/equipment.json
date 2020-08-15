@@ -2,7 +2,7 @@
   {
     "id": "nanogear",
     "type": "ARMOR",
-    "name": "nanotech gear",
+    "name": { "str": "nanotech gear" },
     "description": "You shouldn't see this - nanogear",
     "symbol": "[",
     "color": "light_gray",
@@ -25,7 +25,7 @@
   {
     "id": "nano_shield",
     "type": "ARMOR",
-    "name": "nanotech shield",
+    "name": { "str": "nanotech shield" },
     "category": "armor",
     "looks_like": "shield_scutum",
     "description": "A large shield composed of a cluster of nanites, currently in passive mode, you can block attacks with it.  When not in use, it compresses itself into the handle.",
@@ -49,7 +49,7 @@
   {
     "id": "nano_shield_active",
     "type": "ARMOR",
-    "name": "nanotech shield (active)",
+    "name": { "str": "nanotech shield (active)" },
     "category": "armor",
     "looks_like": "shield_scutum",
     "description": "A large shield composed of a cluster of nanites, currently in active mode, it will automatically attempt to block attacks for you, allowing you to make use of your hand.  When not in use, it compresses itself into the handle.",
@@ -73,7 +73,7 @@
   {
     "id": "nano_storage",
     "type": "ARMOR",
-    "name": "nanotech 'mini-shoggoth' storage",
+    "name": { "str": "nanotech 'mini-shoggoth' storage" },
     "copy-from": "nanogear",
     "looks_like": "slime_scrap",
     "weight": "3157 g",
@@ -88,7 +88,7 @@
   {
     "id": "nano_holster",
     "type": "ARMOR",
-    "name": "nanotech holster",
+    "name": { "str": "nanotech holster" },
     "copy-from": "nanogear",
     "looks_like": "holster",
     "covers": [ "LEG_L", "LEG_R" ],
@@ -109,7 +109,7 @@
   {
     "id": "nano_sheath",
     "type": "ARMOR",
-    "name": "nanotech sheath",
+    "name": { "str": "nanotech sheath" },
     "copy-from": "nanogear",
     "looks_like": "sheath",
     "covers": [ "LEG_L", "LEG_R" ],
@@ -130,7 +130,7 @@
   {
     "id": "nano_mag_holder",
     "type": "ARMOR",
-    "name": "nanotech magazine holder",
+    "name": { "str": "nanotech magazine holder" },
     "copy-from": "nanogear",
     "looks_like": "slime_scrap",
     "description": "A small blob of nanites with an AI, it stores magazines and assists in loading them as needed.",
@@ -150,7 +150,7 @@
   {
     "id": "nanosuit",
     "type": "ARMOR",
-    "name": "nanosuit",
+    "name": { "str": "nanosuit" },
     "copy-from": "nanogear",
     "weight": "9836 g",
     "volume": "1500 ml",
@@ -202,7 +202,7 @@
   {
     "id": "nanosuit_heated",
     "type": "ARMOR",
-    "name": "nanosuit (heat+)",
+    "name": { "str": "nanosuit (heat+)" },
     "copy-from": "nanosuit",
     "description": "A cluster of carefully programmed nanites designed to fully cover the body and defend against external threats.  Currently heating itself.",
     "warmth": 50,
@@ -220,7 +220,7 @@
     "id": "nanosuit_heated_2",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat++)",
+    "name": { "str": "nanosuit (heat++)" },
     "warmth": 100,
     "use_action": [
       {
@@ -236,7 +236,7 @@
     "id": "nanosuit_heated_3",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat+++)",
+    "name": { "str": "nanosuit (heat+++)" },
     "warmth": 150,
     "use_action": [
       {
@@ -252,7 +252,7 @@
     "id": "nanosuit_heated_4",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat++++)",
+    "name": { "str": "nanosuit (heat++++)" },
     "warmth": 200,
     "use_action": [
       {
@@ -268,7 +268,7 @@
     "id": "nanosuit_heated_5",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat+++++)",
+    "name": { "str": "nanosuit (heat+++++)" },
     "warmth": 250,
     "use_action": [
       {
@@ -286,7 +286,7 @@
     "category": "container",
     "symbol": ")",
     "color": "light_gray",
-    "name": "nanotech liquid compressor",
+    "name": { "str": "nanotech liquid compressor" },
     "description": "A heavily compressed liquid storage device, it is also capable of keeping its contents fresh and maintaining their temperature.",
     "price": 240000,
     "price_postapoc": 10000,

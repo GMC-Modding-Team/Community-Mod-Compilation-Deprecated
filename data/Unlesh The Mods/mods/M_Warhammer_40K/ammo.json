@@ -2,7 +2,7 @@
   {
     "id": "75bolt",
     "type": "AMMO",
-    "name": "75mm bolt",
+    "name": { "str": "75mm bolt" },
     "name_plural": "75mm bolts",
     "description": "Case of standard boltgun rounds. A mass-reactive charge inside the round explodes when hitting a solid mass.",
     "weight": "20 g",
@@ -35,7 +35,7 @@
   {
     "id": "hellfire_bolt",
     "type": "AMMO",
-    "name": "Hellfire bolt",
+    "name": { "str": "Hellfire bolt" },
     "name_plural": "Hellfire bolts",
     "description": "Case of Hellfire boltgun rounds. A mass-reactive charge inside the round has been replaced with a vial of mugenic acid.",
     "weight": "20 g",
@@ -60,7 +60,7 @@
   {
     "id": "promethium",
     "type": "AMMO",
-    "name": "promethium",
+    "name": { "str": "promethium" },
     "description": "A highly volatile fuel used in Imperial incendiary weapons. It tends to stick to whatever it comes into contact with.",
     "weight": "20 g",
     "volume": "250 ml",
@@ -82,7 +82,7 @@
     "id": "las",
     "category": "spare_parts",
     "price": 12000,
-    "name": "las battery",
+    "name": { "str": "las battery" },
     "symbol": "=",
     "color": "yellow",
     "description": "A carton of charging units to recharge a Lasgun or Lascarbine's powerpack",
@@ -100,7 +100,7 @@
   {
     "id": "ork_dakka",
     "type": "AMMO",
-    "name": "dakka",
+    "name": { "str": "dakka" },
     "description": "It's fuel for your orky shootas, loud and made out of random junk, made for a gun with a roughly inch-wide bore.  What marvel of weirdboy magic is this, that so much dakka fits in your backpack at all?",
     "weight": "50 g",
     "volume": "500 ml",

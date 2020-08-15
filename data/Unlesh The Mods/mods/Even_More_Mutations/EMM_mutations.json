@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "ECDYSIS",
-    "name": "Ecdysis",
+    "name": { "str": "Ecdysis" },
     "points": 3,
     "description": "If you feel like your exoskeleton is getting too tight, you may choose to shed it. Doing so will produce chitin chunks, useful for crafting. Activate to shed your carapace.",
     "threshreq": [ "THRESH_SPIDER", "THRESH_CRAB", "THRESH_INSECT" ],
@@ -17,7 +17,7 @@
   {
     "type": "mutation",
     "id": "TAIL_FIN",
-    "name": "Tail Fin",
+    "name": { "str": "Tail Fin" },
     "points": -1,
     "visibility": 4,
     "ugliness": 2,
@@ -42,7 +42,7 @@
   {
     "type": "mutation",
     "id": "TAIL_LONG",
-    "name": "Long Tail",
+    "name": { "str": "Long Tail" },
     "points": 0,
     "visibility": 6,
     "ugliness": 2,
@@ -57,7 +57,7 @@
   {
     "type": "mutation",
     "id": "TAIL_CATTLE",
-    "name": "Cattle Tail",
+    "name": { "str": "Cattle Tail" },
     "points": -1,
     "visibility": 6,
     "ugliness": 2,
@@ -71,7 +71,7 @@
   {
     "type": "mutation",
     "id": "TAIL_RAT",
-    "name": "Rodent Tail",
+    "name": { "str": "Rodent Tail" },
     "points": 1,
     "visibility": 6,
     "ugliness": 4,
@@ -85,7 +85,7 @@
   {
     "type": "mutation",
     "id": "TAIL_THICK",
-    "name": "Thick Tail",
+    "name": { "str": "Thick Tail" },
     "points": 1,
     "visibility": 8,
     "ugliness": 2,
@@ -106,7 +106,7 @@
   {
     "type": "mutation",
     "id": "TAIL_RAPTOR",
-    "name": "Raptor Tail",
+    "name": { "str": "Raptor Tail" },
     "points": 1,
     "visibility": 8,
     "ugliness": 2,
@@ -120,7 +120,7 @@
   {
     "type": "mutation",
     "id": "TAIL_FLUFFY",
-    "name": "Fluffy Tail",
+    "name": { "str": "Fluffy Tail" },
     "points": 1,
     "visibility": 7,
     "description": "You have a long, fluffy-furred tail.  It greatly improves your balance, making your ability to dodge much higher.  Prevents wearing non-fabric pants.",
@@ -134,7 +134,7 @@
   {
     "type": "mutation",
     "id": "TAIL_STING",
-    "name": "Spiked Tail",
+    "name": { "str": "Spiked Tail" },
     "points": 0,
     "visibility": 6,
     "ugliness": 3,
@@ -154,7 +154,7 @@
   {
     "type": "mutation",
     "id": "TAIL_CLUB",
-    "name": "Club Tail",
+    "name": { "str": "Club Tail" },
     "points": 0,
     "visibility": 7,
     "ugliness": 2,
@@ -174,7 +174,7 @@
   {
     "type": "mutation",
     "id": "EYEBULGE",
-    "name": "Bulging Eyes",
+    "name": { "str": "Bulging Eyes" },
     "points": 0,
     "visibility": 8,
     "ugliness": 4,
@@ -186,7 +186,7 @@
   {
     "type": "mutation",
     "id": "SMELLY2",
-    "name": "Smelly",
+    "name": { "str": "Smelly" },
     "points": -2,
     "visibility": 4,
     "ugliness": 5,
@@ -198,7 +198,7 @@
   {
     "type": "mutation",
     "id": "COLDBLOOD",
-    "name": "Heat Dependent",
+    "name": { "str": "Heat Dependent" },
     "points": 0,
     "mixed_effect": true,
     "description": "Your muscle response is dependent on ambient temperatures.  You lose 1% of your speed for every 5 (2.8) degrees below 65 F (18.3 C).  This sluggishness helps you conserve energy, however.",
@@ -210,7 +210,7 @@
   {
     "type": "mutation",
     "id": "DEFORMED2",
-    "name": "Badly Deformed",
+    "name": { "str": "Badly Deformed" },
     "points": -3,
     "visibility": 7,
     "ugliness": 7,
@@ -223,7 +223,7 @@
   {
     "type": "mutation",
     "id": "FASTHEALER",
-    "name": "Fast Healer",
+    "name": { "str": "Fast Healer" },
     "points": 2,
     "description": "You heal faster when sleeping and will even recover small amount of HP when not sleeping.",
     "starting_trait": true,
@@ -236,7 +236,7 @@
   {
     "type": "mutation",
     "id": "TERRIFYING",
-    "name": "Terrifying",
+    "name": { "str": "Terrifying" },
     "points": 1,
     "description": "There's something about you that creatures find frightening, and they are more likely to try to flee.",
     "starting_trait": true,
@@ -246,7 +246,7 @@
   {
     "type": "mutation",
     "id": "THIRST2",
-    "name": "Very Thirsty",
+    "name": { "str": "Very Thirsty" },
     "points": -3,
     "description": "Ugh, out of water already?  You need about twice the fluids of an average human.",
     "prereqs": [ "THIRST" ],
@@ -258,7 +258,7 @@
   {
     "type": "mutation",
     "id": "GILLS",
-    "name": "Gills",
+    "name": { "str": "Gills" },
     "points": 2,
     "visibility": 5,
     "ugliness": 3,
@@ -270,7 +270,7 @@
   {
     "type": "mutation",
     "id": "CLUMSY",
-    "name": "Clumsy",
+    "name": { "str": "Clumsy" },
     "points": -1,
     "description": "You make more noise while walking.  You're also more likely to set off traps.",
     "starting_trait": true,
@@ -280,7 +280,7 @@
   {
     "type": "mutation",
     "id": "CHITIN3",
-    "name": "Chitinous Plate",
+    "name": { "str": "Chitinous Plate" },
     "points": 2,
     "visibility": 8,
     "ugliness": 5,
@@ -319,7 +319,7 @@
   {
     "type": "mutation",
     "id": "CHITIN4",
-    "name": "Chitinous Carapace",
+    "name": { "str": "Chitinous Carapace" },
     "points": 8,
     "visibility": 10,
     "ugliness": 8,
@@ -360,7 +360,7 @@
   {
     "type": "mutation",
     "id": "STR_UP_3",
-    "name": "Extremely Strong",
+    "name": { "str": "Extremely Strong" },
     "points": 4,
     "visibility": 1,
     "description": "Your muscles are much stronger.  Strength + 4",
@@ -373,7 +373,7 @@
   {
     "type": "mutation",
     "id": "EATPOISON",
-    "name": "Intestinal Fortitude",
+    "name": { "str": "Intestinal Fortitude" },
     "points": 3,
     "description": "Your guts have developed the ability to handle poisonous food.  Mostly.",
     "changes_to": [ "EATDEAD" ],
@@ -387,7 +387,7 @@
   {
     "type": "mutation",
     "id": "EATDEAD",
-    "name": "Eater Of The Dead",
+    "name": { "str": "Eater Of The Dead" },
     "points": 4,
     "description": "Eating rotting, long-dead flesh is good for the struggle, and safe--if still completely unappealing--for you.",
     "prereqs": [ "EATPOISON" ],
@@ -398,7 +398,7 @@
   {
     "type": "mutation",
     "id": "MUT_TOUGH",
-    "name": "Resilient",
+    "name": { "str": "Resilient" },
     "points": 2,
     "description": "You can survive injuries that would incapacitate humans: you get a 20% bonus to all hit points.  Stacks with Tough, etc.",
     "prereqs": [ "LARGE_OK", "HUGE_OK", "STR_UP_3", "STR_UP_4" ],
@@ -411,7 +411,7 @@
   {
     "type": "mutation",
     "id": "MUT_TOUGH2",
-    "name": "Solidly Built",
+    "name": { "str": "Solidly Built" },
     "points": 3,
     "description": "Not much scares you.  You get a 30% bonus to all hit points.  Stacks with Tough, etc.",
     "valid": false,
@@ -425,7 +425,7 @@
   {
     "type": "mutation",
     "id": "HUGE_OK",
-    "name": "Huge",
+    "name": { "str": "Huge" },
     "points": 2,
     "visibility": 4,
     "ugliness": 3,
@@ -444,7 +444,7 @@
   {
     "type": "mutation",
     "id": "CRAB_CLAW",
-    "name": "Giant Pincer",
+    "name": { "str": "Giant Pincer" },
     "points": 0,
     "visibility": 10,
     "ugliness": 8,
@@ -468,7 +468,7 @@
   {
     "type": "mutation",
     "id": "LARGE",
-    "name": "Inconveniently Large",
+    "name": { "str": "Inconveniently Large" },
     "points": 0,
     "visibility": 1,
     "ugliness": 1,
@@ -484,7 +484,7 @@
   {
     "type": "mutation",
     "id": "LARGE_OK",
-    "name": "Large",
+    "name": { "str": "Large" },
     "points": 2,
     "visibility": 1,
     "description": "You carry your rugged body with the dignity you deserve.  Strength +2.",
@@ -500,7 +500,7 @@
   {
     "type": "mutation",
     "id": "HUGE",
-    "name": "Freakishly Huge",
+    "name": { "str": "Freakishly Huge" },
     "points": -2,
     "visibility": 4,
     "ugliness": 4,
@@ -520,7 +520,7 @@
   {
     "type": "mutation",
     "id": "THRESH_CRAB",
-    "name": "Crab",
+    "name": { "str": "Crab" },
     "points": 1,
     "description": "Who needs skin when you can have a carapace?",
     "valid": false,
@@ -530,7 +530,7 @@
   {
     "type": "mutation",
     "id": "THRESH_SNAKE",
-    "name": "Snake",
+    "name": { "str": "Snake" },
     "points": 1,
     "description": "Who needssss legssss anyway?",
     "valid": false,
@@ -540,7 +540,7 @@
   {
     "type": "mutation",
     "id": "THRESH_RABBIT",
-    "name": "Rabbit",
+    "name": { "str": "Rabbit" },
     "points": 1,
     "description": "You are so adorable!",
     "valid": false,
@@ -550,7 +550,7 @@
   {
     "type": "mutation",
     "id": "SCALES",
-    "name": "Scales",
+    "name": { "str": "Scales" },
     "points": 2,
     "visibility": 10,
     "ugliness": 3,
@@ -576,7 +576,7 @@
   {
     "type": "mutation",
     "id": "SLIT_NOSTRILS",
-    "name": "Slit Nostrils",
+    "name": { "str": "Slit Nostrils" },
     "points": -2,
     "visibility": 7,
     "ugliness": 4,
@@ -587,7 +587,7 @@
   {
     "type": "mutation",
     "id": "LIZ_EYE",
-    "name": "Reptilian Eyes",
+    "name": { "str": "Reptilian Eyes" },
     "points": 0,
     "visibility": 2,
     "ugliness": 1,
@@ -599,7 +599,7 @@
   {
     "type": "mutation",
     "id": "SPIDER_EYE",
-    "name": "Spider Eyes",
+    "name": { "str": "Spider Eyes" },
     "points": 2,
     "visibility": 8,
     "ugliness": 8,
@@ -611,7 +611,7 @@
   {
     "type": "mutation",
     "id": "LIAR",
-    "name": "Skilled Liar",
+    "name": { "str": "Skilled Liar" },
     "points": 1,
     "description": "You have no qualms about bending the truth, and have practically no tells.  Telling lies and otherwise bluffing will be much easier for you.",
     "starting_trait": true,
@@ -622,7 +622,7 @@
   {
     "type": "mutation",
     "id": "COLDBLOOD3",
-    "name": "Cold Blooded",
+    "name": { "str": "Cold Blooded" },
     "points": -3,
     "mixed_effect": true,
     "description": "You are cold-blooded and rely on heat to keep moving.  Your lose 1% of your speed for every 2 (1.1) degrees below 65 F (18.3 C), but only need to eat about half as much as before.",
@@ -635,7 +635,7 @@
   {
     "type": "mutation",
     "id": "COLDBLOOD4",
-    "name": "Ectothermic",
+    "name": { "str": "Ectothermic" },
     "points": 0,
     "mixed_effect": true,
     "description": "Your body has become permanently cold-blooded.  Your speed lowers--or raises--for every 2 (1.1) degrees below or above 65 F (18.3 C).  You only need to eat half as much as an average human.",
@@ -649,7 +649,7 @@
   {
     "type": "mutation",
     "id": "TAIL_STUB",
-    "name": "Stubby Tail",
+    "name": { "str": "Stubby Tail" },
     "points": 0,
     "visibility": 1,
     "ugliness": 2,
@@ -660,7 +660,7 @@
   {
     "type": "mutation",
     "id": "PER_UP_4",
-    "name": "Insanely Perceptive",
+    "name": { "str": "Insanely Perceptive" },
     "points": 4,
     "description": "You can sense things you never imagined.  Perception + 7",
     "prereqs": [ "PER_UP_3" ],
@@ -671,7 +671,7 @@
   {
     "type": "mutation",
     "id": "BADHEARING",
-    "name": "Poor Hearing",
+    "name": { "str": "Poor Hearing" },
     "points": -2,
     "description": "Your hearing is poor, and you may not hear quiet or far-off noises.",
     "starting_trait": true,
@@ -681,7 +681,7 @@
   {
     "type": "mutation",
     "id": "BADBACK",
-    "name": "Bad Back",
+    "name": { "str": "Bad Back" },
     "points": -3,
     "description": "You simply can not carry as much as people with a similar strength could.  Your maximum weight carried is reduced by 35%.",
     "starting_trait": true,
@@ -691,7 +691,7 @@
   {
     "type": "mutation",
     "id": "PARKOUR",
-    "name": "Parkour Expert",
+    "name": { "str": "Parkour Expert" },
     "points": 2,
     "description": "You're skilled at clearing obstacles; terrain like railings or counters are as easy for you to move on as solid ground.",
     "starting_trait": true,
@@ -702,7 +702,7 @@
   {
     "type": "mutation",
     "id": "LIZ_IR",
-    "name": "Reptilian IR",
+    "name": { "str": "Reptilian IR" },
     "points": 5,
     "description": "Your optic nerves and brain have mutated to catch up with your eyes, allowing you to see in the infrared spectrum.",
     "prereqs": [ "LIZ_EYE" ],
@@ -712,7 +712,7 @@
   {
     "type": "mutation",
     "id": "HISS",
-    "name": "Hissing Voice",
+    "name": { "str": "Hissing Voice" },
     "mixed_effect": true,
     "points": -1,
     "description": "You hiss when speaking.  Persuading NPCs will be more difficult, but threatening them will be easier.",
@@ -722,7 +722,7 @@
   {
     "type": "mutation",
     "id": "SLEEK_SCALES",
-    "name": "Sleek Scales",
+    "name": { "str": "Sleek Scales" },
     "points": 4,
     "visibility": 10,
     "ugliness": 4,
@@ -747,7 +747,7 @@
   {
     "type": "mutation",
     "id": "FANGS",
-    "name": "Fangs",
+    "name": { "str": "Fangs" },
     "points": 2,
     "visibility": 2,
     "ugliness": 2,
@@ -793,7 +793,7 @@
   {
     "type": "mutation",
     "id": "CARNIVORE",
-    "name": "Carnivore",
+    "name": { "str": "Carnivore" },
     "points": -4,
     "description": "Your body's ability to digest fruits, vegetables and grains is severely hampered.  You cannot eat anything besides meat.",
     "cancels": [ "VEGETARIAN", "HERBIVORE", "RUMINANT", "GRAZER" ],
@@ -804,7 +804,7 @@
   {
     "type": "mutation",
     "id": "POISRESIST",
-    "name": "Poison Resistant",
+    "name": { "str": "Poison Resistant" },
     "points": 1,
     "description": "Your system is rather tolerant of poisons and toxins, and most will affect you less.",
     "starting_trait": true,
@@ -814,7 +814,7 @@
   {
     "type": "mutation",
     "id": "POISONOUS",
-    "name": "Venomous",
+    "name": { "str": "Venomous" },
     "points": 1,
     "description": "Your body produces a potent venom.  Cutting or stabbing attacks from mutations have a chance to poison your target.",
     "prereqs": [ "POISRESIST" ],
@@ -825,7 +825,7 @@
   {
     "type": "mutation",
     "id": "POISONOUS2",
-    "name": "Strongly Venomous",
+    "name": { "str": "Strongly Venomous" },
     "points": 2,
     "description": "Your venom has become particularly strong.  You're confident that your bites or other cutting/stabbing natural attacks will take your target down quickly.",
     "prereqs": [ "POISONOUS" ],
@@ -835,7 +835,7 @@
   {
     "type": "mutation",
     "id": "FORKED_TONGUE",
-    "name": "Forked Tongue",
+    "name": { "str": "Forked Tongue" },
     "points": 0,
     "visibility": 1,
     "ugliness": 3,
@@ -845,7 +845,7 @@
   {
     "type": "mutation",
     "id": "STR_DOWN",
-    "name": "Weak",
+    "name": { "str": "Weak" },
     "points": -1,
     "description": "You are a little weaker.  Strength - 1",
     "changes_to": [ "STR_DOWN_2" ],
@@ -855,7 +855,7 @@
   {
     "type": "mutation",
     "id": "STR_DOWN_2",
-    "name": "Very Weak",
+    "name": { "str": "Very Weak" },
     "points": -2,
     "description": "You are weaker.  Strength -2",
     "prereqs": [ "STR_DOWN" ],
@@ -865,7 +865,7 @@
   {
     "type": "mutation",
     "id": "DEX_UP_2",
-    "name": "Very Dextrous",
+    "name": { "str": "Very Dextrous" },
     "points": 2,
     "description": "You are nimbler.  Dexterity + 2",
     "prereqs": [ "DEX_UP" ],
@@ -876,7 +876,7 @@
   {
     "type": "mutation",
     "id": "DEX_UP_3",
-    "name": "Extremely Dextrous",
+    "name": { "str": "Extremely Dextrous" },
     "points": 3,
     "description": "You are nimble and quick.  Dexterity + 4",
     "prereqs": [ "DEX_UP_2" ],
@@ -887,7 +887,7 @@
   {
     "type": "mutation",
     "id": "FANGS_SNAKE",
-    "name": "Viper Fangs",
+    "name": { "str": "Viper Fangs" },
     "points": 3,
     "visibility": 2,
     "ugliness": 2,
@@ -912,7 +912,7 @@
   {
     "type": "mutation",
     "id": "DEFORMED_LEGS",
-    "name": "Deformed Legs",
+    "name": { "str": "Deformed Legs" },
     "points": -3,
     "mixed_effect": true,
     "visibility": 10,
@@ -925,7 +925,7 @@
   {
     "type": "mutation",
     "id": "TAIL_SNAKE",
-    "name": "Serpentine Tail",
+    "name": { "str": "Serpentine Tail" },
     "points": 2,
     "mixed_effect": true,
     "visibility": 10,
@@ -950,7 +950,7 @@
   {
     "type": "mutation",
     "id": "DEBUG_SILENT",
-    "name": "Silent Movement",
+    "name": { "str": "Silent Movement" },
     "points": 6,
     "valid": false,
     "description": "You know how to move completely silently.",
@@ -961,7 +961,7 @@
   {
     "type": "mutation",
     "id": "PRED1",
-    "name": "Culler",
+    "name": { "str": "Culler" },
     "points": 2,
     "description": "You've had a revelation: by killing the weaker creatures, who would only die anyway, you preserve resources for those better able to survive.  You are less bothered by death of others: their own weakness invited these fates upon them.",
     "purifiable": false,
@@ -984,7 +984,7 @@
   {
     "type": "mutation",
     "id": "PRED2",
-    "name": "Hunter",
+    "name": { "str": "Hunter" },
     "points": 3,
     "description": "Your brain has a lot more in common with predatory animal than a human, making it easier to control misplaced reactions to death of your prey.  Additionally, combat skills, which you use to hunt, are easier to learn and maintain.",
     "purifiable": false,
@@ -1008,7 +1008,7 @@
   {
     "type": "mutation",
     "id": "PRED3",
-    "name": "Predator",
+    "name": { "str": "Predator" },
     "points": 3,
     "description": "You consider yourself something other than human and no longer empathize with them.  Combat skills are easy to learn and maintain, but your critical thinking, so characteristic to these creatures, suffers.",
     "valid": false,
@@ -1035,7 +1035,7 @@
   {
     "type": "mutation",
     "id": "SAPIOVORE",
-    "name": "Sapiovore",
+    "name": { "str": "Sapiovore" },
     "points": 1,
     "description": "The hairless apes are as good eating as any other meat.",
     "valid": false,
@@ -1049,7 +1049,7 @@
   {
     "type": "mutation",
     "id": "LONG_NECK",
-    "name": "Long Neck",
+    "name": { "str": "Long Neck" },
     "points": 0,
     "visibility": 3,
     "ugliness": 3,
@@ -1059,7 +1059,7 @@
   {
     "type": "mutation",
     "id": "GLASSJAW",
-    "name": "Glass Jaw",
+    "name": { "str": "Glass Jaw" },
     "points": -2,
     "description": "Your head can't take much abuse.  Its maximum HP is 20% lower than usual.",
     "starting_trait": true,
@@ -1069,7 +1069,7 @@
   {
     "type": "mutation",
     "id": "SNAKE_HOOD",
-    "name": "Cobra's Hood",
+    "name": { "str": "Cobra's Hood" },
     "points": 0,
     "visibility": 5,
     "ugliness": 3,
@@ -1082,7 +1082,7 @@
   {
     "type": "mutation",
     "id": "GOODHEARING",
-    "name": "Good Hearing",
+    "name": { "str": "Good Hearing" },
     "points": 1,
     "description": "Your hearing is better than average, and you can hear distant sounds more easily.",
     "starting_trait": true,
@@ -1092,7 +1092,7 @@
   {
     "type": "mutation",
     "id": "QUICK",
-    "name": "Quick",
+    "name": { "str": "Quick" },
     "points": 3,
     "description": "You're just generally quick!  You get a 10% bonus to action points.",
     "starting_trait": true,
@@ -1101,7 +1101,7 @@
   {
     "type": "mutation",
     "id": "LIGHTSTEP",
-    "name": "Light Step",
+    "name": { "str": "Light Step" },
     "points": 1,
     "description": "You make less noise while walking.  You're also less likely to set off traps.",
     "starting_trait": true,
@@ -1111,7 +1111,7 @@
   {
     "type": "mutation",
     "id": "MOUSE_EARS",
-    "name": "Rodent Ears",
+    "name": { "str": "Rodent Ears" },
     "points": 1,
     "visibility": 8,
     "ugliness": 1,
@@ -1123,7 +1123,7 @@
   {
     "type": "mutation",
     "id": "SKIN_ROUGH",
-    "name": "Rough Skin",
+    "name": { "str": "Rough Skin" },
     "points": 0,
     "visibility": 2,
     "ugliness": 1,
@@ -1135,7 +1135,7 @@
   {
     "type": "mutation",
     "id": "RABBIT_FUR",
-    "name": "Soft Fur",
+    "name": { "str": "Soft Fur" },
     "points": 1,
     "visibility": 6,
     "ugliness": 0,
@@ -1151,7 +1151,7 @@
   {
     "type": "mutation",
     "id": "WHISKERS_RAT",
-    "name": "Wiry Whiskers",
+    "name": { "str": "Wiry Whiskers" },
     "points": 2,
     "visibility": 3,
     "ugliness": 1,
@@ -1162,7 +1162,7 @@
   {
     "type": "mutation",
     "id": "BEAUTIFUL",
-    "name": "Beautiful",
+    "name": { "str": "Beautiful" },
     "points": 2,
     "visibility": -4,
     "ugliness": -4,
@@ -1175,7 +1175,7 @@
   {
     "type": "mutation",
     "id": "HUNGER2",
-    "name": "Very Fast Metabolism",
+    "name": { "str": "Very Fast Metabolism" },
     "points": -2,
     "description": "You need about twice as much food as the average human to maintain your expanded cardiovascular and respiratory systems.  On a plus side, it doesn't take you much time to recover from any strenuous activity.",
     "prereqs": [ "HUNGER" ],
@@ -1188,7 +1188,7 @@
   {
     "type": "mutation",
     "id": "ANIMALDISCORD2",
-    "name": "Prey Animal",
+    "name": { "str": "Prey Animal" },
     "points": -3,
     "description": "Natural animals like dogs and wolves see you as prey, and are liable to attack you on sight.",
     "cancels": [ "ANIMALEMPATH" ],
@@ -1198,7 +1198,7 @@
   {
     "type": "mutation",
     "id": "GOODCARDIO",
-    "name": "Indefatigable",
+    "name": { "str": "Indefatigable" },
     "points": 2,
     "description": "Whether due to exercise and good diet, or due to a natural propensity to physical endurance, you tire due to physical exertion much less readily than others.  Your maximum stamina is 25% higher than usual.",
     "starting_trait": true,
@@ -1210,7 +1210,7 @@
   {
     "type": "mutation",
     "id": "FORGETFUL",
-    "name": "Forgetful",
+    "name": { "str": "Forgetful" },
     "points": -3,
     "description": "You have a hard time remembering things.  Your skills will erode slightly faster than usual, and you can remember less terrain.",
     "starting_trait": true,
@@ -1220,7 +1220,7 @@
   {
     "type": "mutation",
     "id": "PADDED_FEET",
-    "name": "Padded Feet",
+    "name": { "str": "Padded Feet" },
     "points": 1,
     "visibility": 1,
     "description": "The bottoms of your feet are strongly padded.  You receive no movement penalty for not wearing shoes, and even receive a 10% bonus when moving barefoot.",
@@ -1231,7 +1231,7 @@
   {
     "type": "mutation",
     "id": "RABBIT_FEET",
-    "name": "Rabbit Feet",
+    "name": { "str": "Rabbit Feet" },
     "points": -2,
     "visibility": 2,
     "ugliness": 2,
@@ -1245,7 +1245,7 @@
   {
     "type": "mutation",
     "id": "RAP_TALONS",
-    "name": "Toe Talons",
+    "name": { "str": "Toe Talons" },
     "points": -1,
     "visibility": 4,
     "ugliness": 2,
@@ -1266,7 +1266,7 @@
   {
     "type": "mutation",
     "id": "HOOVES",
-    "name": "Hooves",
+    "name": { "str": "Hooves" },
     "points": -4,
     "visibility": 2,
     "ugliness": 2,
@@ -1288,7 +1288,7 @@
   {
     "type": "mutation",
     "id": "ROOTS1",
-    "name": "Toe Roots",
+    "name": { "str": "Toe Roots" },
     "points": -2,
     "visibility": 1,
     "ugliness": 5,
@@ -1303,7 +1303,7 @@
   {
     "type": "mutation",
     "id": "ROOTS2",
-    "name": "Roots",
+    "name": { "str": "Roots" },
     "points": 2,
     "visibility": 4,
     "ugliness": 5,
@@ -1319,7 +1319,7 @@
   {
     "type": "mutation",
     "id": "ROOTS3",
-    "name": "Rooter",
+    "name": { "str": "Rooter" },
     "points": -3,
     "visibility": 5,
     "ugliness": 5,
@@ -1334,7 +1334,7 @@
   {
     "type": "mutation",
     "id": "LEG_TENTACLES",
-    "name": "Leg Tentacles",
+    "name": { "str": "Leg Tentacles" },
     "points": -4,
     "visibility": 8,
     "ugliness": 4,
@@ -1354,7 +1354,7 @@
   {
     "type": "mutation",
     "id": "PER_UP_2",
-    "name": "Very Perceptive",
+    "name": { "str": "Very Perceptive" },
     "points": 2,
     "description": "Your senses are keener.  Perception + 2",
     "prereqs": [ "PER_UP" ],
@@ -1365,7 +1365,7 @@
   {
     "type": "mutation",
     "id": "RABBIT_INT",
-    "name": "Absent Minded",
+    "name": { "str": "Absent Minded" },
     "points": -2,
     "description": "You are not too bright, and you get distracted easily. Intelligence - 2",
     "category": [ "RABBIT" ],
@@ -1374,7 +1374,7 @@
   {
     "type": "mutation",
     "id": "INCISORS",
-    "name": "Incisors",
+    "name": { "str": "Incisors" },
     "points": 2,
     "visibility": 3,
     "ugliness": 3,
@@ -1394,7 +1394,7 @@
   {
     "type": "mutation",
     "id": "RUMINANT",
-    "name": "Ruminant",
+    "name": { "str": "Ruminant" },
     "points": 2,
     "description": "Your digestive system is capable of digesting cellulose and other rough plant material.  You can eat underbrush by activating this, standing over your target, and pressing E.",
     "prereqs": [ "HERBIVORE" ],
@@ -1407,7 +1407,7 @@
   {
     "type": "mutation",
     "id": "GRAZER",
-    "name": "Grazer",
+    "name": { "str": "Grazer" },
     "points": 3,
     "description": "You're accustomed to eating plants directly, and can get nutrition from grass as well as underbrush.  Eat either one by activating this, standing over your target, and pressing E.",
     "prereqs": [ "RUMINANT" ],
@@ -1420,7 +1420,7 @@
   {
     "type": "mutation",
     "id": "OPTIMISTIC",
-    "name": "Optimist",
+    "name": { "str": "Optimist" },
     "points": 2,
     "description": "Nothing gets you down!  You savor the joys of life, ignore its hardships, and are generally happier than most people.",
     "starting_trait": true,
@@ -1431,7 +1431,7 @@
   {
     "type": "mutation",
     "id": "FLEET2",
-    "name": "Road-Runner",
+    "name": { "str": "Road-Runner" },
     "points": 3,
     "description": "Your legs are extremely limber and fast-moving.  You move 30% faster on flat surfaces.",
     "prereqs": [ "FLEET" ],
@@ -1441,7 +1441,7 @@
   {
     "type": "mutation",
     "id": "GOODCARDIO2",
-    "name": "Hyperactive",
+    "name": { "str": "Hyperactive" },
     "points": 4,
     "description": "Your body's efficiency is like that of a tiny furnace, increasing your maximum stamina by 40%.",
     "valid": false,
@@ -1453,7 +1453,7 @@
   {
     "type": "mutation",
     "id": "JITTERY",
-    "name": "Jittery",
+    "name": { "str": "Jittery" },
     "points": -3,
     "description": "During moments of great stress or under the effects of stimulants, you may find your hands shaking uncontrollably, severely reducing your dexterity.",
     "starting_trait": true,

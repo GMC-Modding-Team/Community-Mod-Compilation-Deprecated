@@ -2,7 +2,7 @@
   {
     "type": "MONSTER",
     "id": "mon_bandit_rifle",
-    "name": "Marksman",
+    "name": { "str": "Marksman" },
     "default_faction": "bandit_raid",
     "symbol": "@",
     "color": "green",
@@ -79,7 +79,7 @@
   {
     "type": "MONSTER",
     "id": "mon_bandit_super_snipe",
-    "name": "Head Hunter",
+    "name": { "str": "Head Hunter" },
     "default_faction": "bandit_raid",
     "symbol": "@",
     "color": "light_green_green",
@@ -153,7 +153,7 @@
   {
     "type": "MONSTER",
     "id": "mon_bandit_alpha",
-    "name": "Marauder",
+    "name": { "str": "Marauder" },
     "default_faction": "bandit_gun",
     "symbol": "@",
     "color": "red_white",
