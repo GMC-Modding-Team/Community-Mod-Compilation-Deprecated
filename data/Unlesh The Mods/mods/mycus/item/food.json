@@ -3,7 +3,7 @@
     "type": "COMESTIBLE",
     "id": "veggy_tainted",
     "category": "other",
-    "name": "mycus",
+    "name": { "str": "mycus" },
     "weight": "138 g",
     "color": "green",
     "spoils_in": "3 days 10 hours",
@@ -22,7 +22,7 @@
   {
     "type": "COMESTIBLE",
     "id": "plant_sac",
-    "name": "fluid sac",
+    "name": { "str": "fluid sac" },
     "weight": "178 g",
     "color": "light_green",
     "comestible_type": "FOOD",
@@ -39,7 +39,7 @@
     "type": "COMESTIBLE",
     "id": "dry_veggy_tainted",
     "category": "other",
-    "name": "dry mycus",
+    "name": { "str": "dry mycus" },
     "name_plural": "dry mycuss",
     "weight": "44 g",
     "color": "green",
@@ -59,7 +59,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_juice_tainted",
-    "name": "mycus juice",
+    "name": { "str": "mycus juice" },
     "name_plural": "mycus juice",
     "spoils_in": "4 days",
     "weight": "263 g",
@@ -82,7 +82,7 @@
   {
     "type": "COMESTIBLE",
     "id": "sandwich_veggy_tainted",
-    "name": "mycus sandwich",
+    "name": { "str": "mycus sandwich" },
     "name_plural": "mycus sandwiches",
     "weight": "190 g",
     "color": "light_gray",
@@ -104,7 +104,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_tainted_salad",
-    "name": "mycus salad",
+    "name": { "str": "mycus salad" },
     "name_plural": "mycus salads",
     "weight": "221 g",
     "color": "brown",
@@ -123,7 +123,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_tainted_fried",
-    "name": "fried mycus",
+    "name": { "str": "fried mycus" },
     "name_plural": "fried mycuss",
     "weight": "121 g",
     "color": "brown",
@@ -143,7 +143,7 @@
   {
     "type": "COMESTIBLE",
     "id": "pie_veggy_tainted",
-    "name": "mycus pie",
+    "name": { "str": "mycus pie" },
     "name_plural": "mycus pies",
     "weight": "252 g",
     "color": "brown",
@@ -165,7 +165,7 @@
   {
     "type": "COMESTIBLE",
     "id": "pizza_veggy_tainted",
-    "name": "mycus pizza",
+    "name": { "str": "mycus pizza" },
     "name_plural": "mycus pizzas",
     "weight": "175 g",
     "color": "light_green",
@@ -185,7 +185,7 @@
   {
     "type": "COMESTIBLE",
     "id": "soup_veggy_tainted",
-    "name": "mycus soup",
+    "name": { "str": "mycus soup" },
     "name_plural": "mycus soup",
     "weight": "125 g",
     "color": "red",
@@ -208,7 +208,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_tainted_tornado",
-    "name": "mycus tornado",
+    "name": { "str": "mycus tornado" },
     "name_plural": "mycus tornado",
     "weight": "100 g",
     "color": "red",
@@ -233,7 +233,7 @@
   {
     "type": "COMESTIBLE",
     "id": "drink_veggy_tainted_alcohol",
-    "name": "mycus alcohol",
+    "name": { "str": "mycus alcohol" },
     "name_plural": "mycus alcohol",
     "weight": "36 g",
     "color": "pink",
@@ -259,7 +259,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_tainted_brew_vodka",
-    "name": "mycus vodka (unfermented)",
+    "name": { "str": "mycus vodka (unfermented)" },
     "name_plural": "mycus vodka (unfermented)",
     "description": "It is a primary moromi that has not finished fermentation. It is a sweet liquid made by mixing enzyme-degraded persimmons and undigested persimmons and vegetables.",
     "weight": "50 g",
@@ -279,7 +279,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_tainted_wash_vodka",
-    "name": "mycus vodka (undistilled)",
+    "name": { "str": "mycus vodka (undistilled)" },
     "name_plural": "mycus vodka (undistilled)",
     "description": "It is a secondary mash that is not distilled after fermentation. It is not delicious because it is mixed with alcohol and water with persimmons and vegetables.",
     "weight": "33 g",
@@ -303,7 +303,7 @@
   {
     "type": "COMESTIBLE",
     "id": "veggy_tainted_vodka",
-    "name": "mycus vodka",
+    "name": { "str": "mycus vodka" },
     "name_plural": "mycus vodka",
     "weight": "33 g",
     "color": "light_cyan",
@@ -331,7 +331,7 @@
     "id": "meatblock_veggy_tainted",
     "category": "food",
     "price": 10,
-    "name": "protein block",
+    "name": { "str": "protein block" },
     "name_plural": "protein block",
     "symbol": "%",
     "color": "magenta",
@@ -345,14 +345,14 @@
   {
     "type": "ammunition_type",
     "id": "meatblock_veggy_tainted",
-    "name": "protein block",
+    "name": { "str": "protein block" },
     "default": "meatblock_veggy_tainted"
   },
   {
     "id": "coffee_bean_veggy_tainted",
     "type": "GENERIC",
     "category": "food",
-    "name": "substitute coffee beans",
+    "name": { "str": "substitute coffee beans" },
     "name_plural": "substitute coffee beans",
     "description": "Mycus rice cake and fluid sac were fried until it turned black and made it coffee flavor. It is not good enough compared to the real thing, but it will be a substitute for the time being.",
     "weight": "52 g",
@@ -367,7 +367,7 @@
     "id": "milk_veggy_tainted",
     "type": "GENERIC",
     "category": "food",
-    "name": "Mycus milk",
+    "name": { "str": "Mycus milk" },
     "name_plural": "Mycus milk",
     "description": "It is the one that collects and squeezes the latex that comes out when you damage the brow. Those aged are transformed into milk by mycus.",
     "weight": "52 g",

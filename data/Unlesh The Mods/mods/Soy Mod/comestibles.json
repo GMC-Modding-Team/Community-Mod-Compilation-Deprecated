@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "daizu",
-    "name": "soybean",
+    "name": { "str": "soybean" },
     "name_plural": "soybeans",
     "weight": "100 g",
     "color": "white",
@@ -30,7 +30,7 @@
   {
     "type": "COMESTIBLE",
     "id": "edamame",
-    "name": "edamame",
+    "name": { "str": "edamame" },
     "name_plural": "edamame",
     "weight": "100 g",
     "color": "white",
@@ -60,7 +60,7 @@
     "id": "seed_daizu",
     "category": "other",
     "price": 50,
-    "name": "soybean seed",
+    "name": { "str": "soybean seed" },
     "name_plural": "soybean seeds",
     "symbol": ".",
     "color": "brown",
@@ -81,7 +81,7 @@
   {
     "type": "COMESTIBLE",
     "id": "brew_soysauce",
-    "name": "soy sauce (not fermented)",
+    "name": { "str": "soy sauce (not fermented)" },
     "name_plural": "soy sauce (not fermented)",
     "description": "If fermented, it will be fine soy sauce.",
     "weight": "24 g",
@@ -111,7 +111,7 @@
   {
     "type": "GENERIC",
     "id": "miso_before",
-    "name": "miso (immature)",
+    "name": { "str": "miso (immature)" },
     "name_plural": "miso (immature)",
     "description": "It is miso in the middle of aging. If left alone, it will be completed in 8 days.",
     "weight": "14985 g",
@@ -138,7 +138,7 @@
   {
     "type": "COMESTIBLE",
     "id": "miso",
-    "name": "miso",
+    "name": { "str": "miso" },
     "name_plural": "miso",
     "weight": "115 g",
     "color": "brown",
@@ -166,7 +166,7 @@
   {
     "type": "COMESTIBLE",
     "id": "tounyu",
-    "name": "soy milk",
+    "name": { "str": "soy milk" },
     "name_plural": "soy milk",
     "weight": "200 g",
     "color": "red",
@@ -196,7 +196,7 @@
   {
     "type": "COMESTIBLE",
     "id": "okara",
-    "name": "okara",
+    "name": { "str": "okara" },
     "name_plural": "okara",
     "weight": "68 g",
     "color": "brown",
@@ -224,7 +224,7 @@
   {
     "type": "COMESTIBLE",
     "id": "tofu",
-    "name": "tofu",
+    "name": { "str": "tofu" },
     "name_plural": "tofu",
     "weight": "200 g",
     "color": "red",
@@ -252,7 +252,7 @@
   {
     "type": "COMESTIBLE",
     "id": "aburage",
-    "name": "aburage",
+    "name": { "str": "aburage" },
     "name_plural": "aburage",
     "weight": "100 g",
     "color": "red",
@@ -280,7 +280,7 @@
   {
     "type": "COMESTIBLE",
     "id": "unohana",
-    "name": "unohana",
+    "name": { "str": "unohana" },
     "name_plural": "unohana",
     "weight": "70 g",
     "color": "red",
@@ -308,7 +308,7 @@
   {
     "type": "COMESTIBLE",
     "id": "nattou",
-    "name": "natto",
+    "name": { "str": "natto" },
     "name_plural": "natto",
     "weight": "100 g",
     "color": "brown",
@@ -330,7 +330,7 @@
   {
     "type": "COMESTIBLE",
     "id": "nattou_before",
-    "name": "natto (immature)",
+    "name": { "str": "natto (immature)" },
     "name_plural": "natto (immature)",
     "description": "It is wrapped in soybeans. There are already natto bacteria in the cocoons, and it is not necessary to put them into the fermented cocoons, and it is safe to leave them for only one day.",
     "weight": "100 g",
@@ -363,7 +363,7 @@
   {
     "type": "COMESTIBLE",
     "id": "dry_nattou",
-    "name": "dried natto",
+    "name": { "str": "dried natto" },
     "name_plural": "dried natto",
     "weight": "20 g",
     "color": "brown",
@@ -391,7 +391,7 @@
   {
     "type": "COMESTIBLE",
     "id": "miso_soup",
-    "name": "miso soup",
+    "name": { "str": "miso soup" },
     "name_plural": "miso soup",
     "weight": "288 g",
     "color": "red",
@@ -421,7 +421,7 @@
   {
     "type": "COMESTIBLE",
     "id": "nattou_soup",
-    "name": "natto soup",
+    "name": { "str": "natto soup" },
     "name_plural": "natto soup",
     "weight": "288 g",
     "color": "red",
@@ -453,7 +453,7 @@
     "type": "GENERIC",
     "symbol": "%",
     "color": "red",
-    "name": "sealed bottle (miso soup)",
+    "name": { "str": "sealed bottle (miso soup)" },
     "name_plural": "sealed bottles (miso soup)",
     "description": "A sealed glass jar containing miso soup. You can eat if you open the lid.",
     "price": 800,
@@ -476,7 +476,7 @@
     "type": "GENERIC",
     "symbol": "%",
     "color": "red",
-    "name": "sealed bottle (natto soup)",
+    "name": { "str": "sealed bottle (natto soup)" },
     "name_plural": "sealed bottles (natto soup)",
     "description": "A sealed glass jar containing natto soup. You can eat if you open the lid.",
     "price": 850,
@@ -497,7 +497,7 @@
   {
     "type": "COMESTIBLE",
     "id": "tofu_hamburg",
-    "name": "Tofu hamburger",
+    "name": { "str": "Tofu hamburger" },
     "name_plural": "Tofu hamburgers",
     "weight": "300 g",
     "color": "brown",
@@ -527,7 +527,7 @@
   {
     "type": "COMESTIBLE",
     "id": "cheese_tofu_burg",
-    "name": "tofu cheeseburger",
+    "name": { "str": "tofu cheeseburger" },
     "name_plural": "tofu cheeseburgers",
     "weight": "320 g",
     "color": "brown",
@@ -557,7 +557,7 @@
   {
     "type": "COMESTIBLE",
     "id": "tofu_hamburg_pate",
-    "name": "Tofu hamburger patty",
+    "name": { "str": "Tofu hamburger patty" },
     "name_plural": "Tofu hamburger patties",
     "weight": "300 g",
     "color": "brown",
@@ -588,7 +588,7 @@
     "type": "GENERIC",
     "symbol": "%",
     "color": "brown",
-    "name": "vacuum pack (tofu hamburger patty)",
+    "name": { "str": "vacuum pack (tofu hamburger patty)" },
     "name_plural": "vacuum packs (tofu hamburger patty)",
     "description": "A vacuum pack of plastic packaging containing tofu hamburger patties. Let's bake it after opening it.",
     "price": 750,
@@ -609,7 +609,7 @@
   {
     "type": "COMESTIBLE",
     "id": "ttt_burger",
-    "name": "triple tofu burger",
+    "name": { "str": "triple tofu burger" },
     "name_plural": "triple tofu burgers",
     "weight": "300 g",
     "color": "brown",
@@ -639,7 +639,7 @@
   {
     "type": "COMESTIBLE",
     "id": "tounyu_cheese",
-    "name": "soymilk cheese",
+    "name": { "str": "soymilk cheese" },
     "name_plural": "soymilk cheese",
     "weight": "120 g",
     "color": "yellow",
@@ -668,7 +668,7 @@
   {
     "type": "COMESTIBLE",
     "id": "aspergillus",
-    "name": "koji",
+    "name": { "str": "koji" },
     "name_plural": "koji",
     "weight": "11 g",
     "color": "white",
@@ -689,7 +689,7 @@
   {
     "type": "GENERIC",
     "id": "kouji_before",
-    "name": "koji (immature)",
+    "name": { "str": "koji (immature)" },
     "description": "I wait for rice bran to grow on steamed rice and soybeans. That moth is niece. Mixing wood ash is a recipe in Singa in Heian period, and is considered to obtain purer bean sprouts.",
     "weight": "11 g",
     "symbol": ";",
@@ -720,7 +720,7 @@
   {
     "type": "COMESTIBLE",
     "id": "zunda",
-    "name": "zunda",
+    "name": { "str": "zunda" },
     "name_plural": "zunda",
     "weight": "45 g",
     "color": "white",
@@ -749,7 +749,7 @@
   {
     "type": "COMESTIBLE",
     "id": "kinako",
-    "name": "kinako",
+    "name": { "str": "kinako" },
     "name_plural": "kinako",
     "weight": "45 g",
     "color": "white",
@@ -778,7 +778,7 @@
   {
     "type": "COMESTIBLE",
     "id": "mirin",
-    "name": "mirin",
+    "name": { "str": "mirin" },
     "name_plural": "mirin",
     "weight": "127 g",
     "color": "white",
@@ -807,7 +807,7 @@
   {
     "type": "COMESTIBLE",
     "id": "brew_mirin",
-    "name": "mirin (unfermented)",
+    "name": { "str": "mirin (unfermented)" },
     "name_plural": "mirin (unfermented)",
     "description": "It becomes miso when it is aged. It takes about 70 hours in the fermentor to ferment.",
     "weight": "127 g",
@@ -837,7 +837,7 @@
   {
     "type": "COMESTIBLE",
     "id": "nikujaga",
-    "name": "nikujaga",
+    "name": { "str": "nikujaga" },
     "name_plural": "nikujaga",
     "weight": "320 g",
     "color": "red",
@@ -869,7 +869,7 @@
     "type": "GENERIC",
     "symbol": "%",
     "color": "red",
-    "name": "sealed jar (nikujaga)",
+    "name": { "str": "sealed jar (nikujaga)" },
     "name_plural": "sealed jars (nikujaga)",
     "description": "A sealed glass jar containing meat and potatoes. You can eat if you open the lid.",
     "price": 800,
@@ -890,7 +890,7 @@
   {
     "type": "COMESTIBLE",
     "id": "boiled_edamame",
-    "name": "boiled edamame",
+    "name": { "str": "boiled edamame" },
     "name_plural": "boiled edamame",
     "weight": "38 g",
     "color": "brown",
@@ -919,7 +919,7 @@
   {
     "type": "COMESTIBLE",
     "id": "inari",
-    "name": "inari",
+    "name": { "str": "inari" },
     "name_plural": "inari",
     "weight": "122 g",
     "color": "white",
@@ -947,7 +947,7 @@
   {
     "type": "COMESTIBLE",
     "id": "yuba",
-    "name": "yuba",
+    "name": { "str": "yuba" },
     "name_plural": "yuba",
     "weight": "40 g",
     "color": "yellow",
@@ -976,7 +976,7 @@
   {
     "type": "COMESTIBLE",
     "id": "yuba_kabayaki",
-    "name": "grilled yuba",
+    "name": { "str": "grilled yuba" },
     "name_plural": "grilled yuba",
     "weight": "60 g",
     "color": "yellow",
@@ -1005,7 +1005,7 @@
   {
     "type": "COMESTIBLE",
     "id": "tounyu_stew",
-    "name": "soymilk stew",
+    "name": { "str": "soymilk stew" },
     "name_plural": "soymilk stew",
     "weight": "320 g",
     "color": "red",
@@ -1037,7 +1037,7 @@
     "type": "GENERIC",
     "symbol": "%",
     "color": "red",
-    "name": "sealed jar (soymilk stew)",
+    "name": { "str": "sealed jar (soymilk stew)" },
     "name_plural": "sealed jars (soymilk stew)",
     "description": "A sealed glass jar containing soymilk stew. You can eat if you open the lid.",
     "price": 800,
@@ -1059,7 +1059,7 @@
   {
     "type": "COMESTIBLE",
     "id": "nattoupan",
-    "name": "natto bread",
+    "name": { "str": "natto bread" },
     "name_plural": "natto bread",
     "weight": "80 g",
     "color": "white",
@@ -1091,7 +1091,7 @@
     "type": "GENERIC",
     "symbol": "%",
     "color": "white",
-    "name": "vacuum pack (natto bread)",
+    "name": { "str": "vacuum pack (natto bread)" },
     "name_plural": "vacuum packs (natto bread)",
     "description": "It is a vacuum pack of plastic packaging containing natto bread. You can eat it if you open it.",
     "price": 350,

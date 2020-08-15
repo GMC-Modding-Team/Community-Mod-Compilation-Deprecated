@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "cake2",
-    "name": "plain cake",
+    "name": { "str": "plain cake" },
     "copy-from": "jihelucake",
     "description": "A modest chocolate cake with no icing added.  Nothing special, but some of the best you can get nowadays.  Besides, cake is cake!",
     "fun": 15
@@ -10,7 +10,7 @@
   {
     "id": "afs_calorie_pill",
     "type": "COMESTIBLE",
-    "name": "nutriment",
+    "name": { "str": "nutriment" },
     "weight": "10 g",
     "volume": "10 ml",
     "color": "white",
@@ -30,7 +30,7 @@
   {
     "id": "afs_calorie_water",
     "type": "COMESTIBLE",
-    "name": "nutriment water",
+    "name": { "str": "nutriment water" },
     "copy-from": "water_clean",
     "comestible_type": "DRINK",
     "color": "white",
@@ -45,7 +45,7 @@
   {
     "id": "afs_dough",
     "type": "COMESTIBLE",
-    "name": "dough",
+    "name": { "str": "dough" },
     "weight": "226 g",
     "color": "yellow",
     "comestible_type": "FOOD",
@@ -63,7 +63,7 @@
   {
     "id": "donut_holes",
     "type": "COMESTIBLE",
-    "name": "fried donut holes",
+    "name": { "str": "fried donut holes" },
     "name_plural": "fried donut holes",
     "weight": "226 g",
     "color": "yellow",
@@ -83,7 +83,7 @@
   {
     "id": "afs_sundew",
     "type": "COMESTIBLE",
-    "name": "sundew",
+    "name": { "str": "sundew" },
     "copy-from": "water_clean",
     "weight": "10 g",
     "color": "yellow",
@@ -99,7 +99,7 @@
   {
     "id": "afs_sungel",
     "type": "COMESTIBLE",
-    "name": "sungel",
+    "name": { "str": "sungel" },
     "copy-from": "afs_sundew",
     "description": "Mixed with morphine, this sundew has congealed, and has an immense stimulative and pain-numbing effect.  With sufficient tools, it could be used to create anesthesia.",
     "stim": 50,
@@ -119,7 +119,7 @@
   {
     "id": "afs_sunesthesia",
     "type": "COMESTIBLE",
-    "name": "sunesthesia",
+    "name": { "str": "sunesthesia" },
     "copy-from": "afs_sungel",
     "description": "This sungel has been mixed with several drugs and yet inherits none of their effects.  Its painkilling effect hasn't changed, but its stimulative properties have been reversed, and it could be used as anesthesia for installation of bionics.",
     "stim": -30,

@@ -11,7 +11,7 @@
     "static_buffs": [
       {
         "id": "buff_heavybrandishing_static",
-        "name": "Brandishing",
+        "name": { "str": "Brandishing" },
         "description": "With your weapon in hand, any smart enemy would think twice about approaching.\n\n Gives damage, accuracy, and armor bonuses.",
         "melee_allowed": true,
         "bonus_dodges": 1,
@@ -32,9 +32,9 @@
       },
       {
         "id": "buff_heavytraininglv1_static",
-        "name": "Level 1 heavy training",
+        "name": { "str": "Level 1 heavy training" },
         "description": "Practise makes perfect.\n\n Boosts speed and cutting damage for every level of cutting Weapons skill.",
-        "skill_requirements": [ { "name": "cutting", "level": 1 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -54,9 +54,9 @@
       },
       {
         "id": "buff_heavytraininglv2_static",
-        "name": "Level 2 heavy training",
+        "name": { "str": "Level 2 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 2 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -76,9 +76,9 @@
       },
       {
         "id": "buff_heavytraininglv3_static",
-        "name": "Level 3 heavy training",
+        "name": { "str": "Level 3 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -98,9 +98,9 @@
       },
       {
         "id": "buff_heavytraininglv4_static",
-        "name": "Level 4 heavy training",
+        "name": { "str": "Level 4 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 4 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -120,9 +120,9 @@
       },
       {
         "id": "buff_heavytraininglv5_static",
-        "name": "Level 5 heavy training",
+        "name": { "str": "Level 5 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 5 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -142,9 +142,9 @@
       },
       {
         "id": "buff_heavytraininglv6_static",
-        "name": "Level 6 heavy training",
+        "name": { "str": "Level 6 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 6 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -164,9 +164,9 @@
       },
       {
         "id": "buff_heavytraininglv7_static",
-        "name": "Level 7 heavy training",
+        "name": { "str": "Level 7 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 7 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -186,9 +186,9 @@
       },
       {
         "id": "buff_heavytraininglv8_static",
-        "name": "Level 8 heavy training",
+        "name": { "str": "Level 8 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 8 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -208,9 +208,9 @@
       },
       {
         "id": "buff_heavytraininglv9_static",
-        "name": "Level 9 heavy training",
+        "name": { "str": "Level 9 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 9 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -230,9 +230,9 @@
       },
       {
         "id": "buff_heavytraininglv10_static",
-        "name": "Level 10 heavy training",
+        "name": { "str": "Level 10 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 10 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -252,9 +252,9 @@
       },
       {
         "id": "buff_heavytraininglv11_static",
-        "name": "Level 11 heavy training",
+        "name": { "str": "Level 11 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 11 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -274,9 +274,9 @@
       },
       {
         "id": "buff_heavytraininglv12_static",
-        "name": "Level 12 heavy training",
+        "name": { "str": "Level 12 heavy training" },
         "description": "Practise makes perfect.",
-        "skill_requirements": [ { "name": "cutting", "level": 12 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
         "bonus_blocks": 2,
@@ -298,10 +298,10 @@
     "onhit_buffs": [
       {
         "id": "buff_heavytraining_onhit",
-        "name": "Muscle Memory",
+        "name": { "str": "Muscle Memory" },
         "description": "Every successful hit gives you a small semi-permanent improvement.",
         "unarmed_allowed": true,
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
           [ "damage", "bash", 0.01 ],
@@ -316,7 +316,7 @@
       },
       {
         "id": "buff_bestdefense_onhit",
-        "name": "The Best Defense...",
+        "name": { "str": "The Best Defense..." },
         "description": "...Is a Good Offense. Gives large stacking damage and armor bonuses, and a small accuracy penalty, with every hit, for 1 turn.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -342,7 +342,7 @@
     "onattack_buffs": [
       {
         "id": "buff_heavyhitter_onattack",
-        "name": "Heavy Hitter",
+        "name": { "str": "Heavy Hitter" },
         "description": "Every attack gives you large damage and armor bonuses, small accuracy penalty for 1 turn.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -366,10 +366,10 @@
       },
       {
         "id": "buff_heavyattacktraining_onattack",
-        "name": "Muscle Building",
+        "name": { "str": "Muscle Building" },
         "description": "Every attack gives you a small semi-permanent improvement.",
         "unarmed_allowed": true,
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
           [ "damage", "bash", 0.01 ],
@@ -386,11 +386,11 @@
     "ongethit_buffs": [
       {
         "id": "buff_toughen_ongethit",
-        "name": "What doesn't kill you makes you stronger.",
+        "name": { "str": "What doesn't kill you makes you stronger." },
         "description": "Getting hit gives you a small semi-permanent improvement.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
           [ "damage", "bash", 0.01 ],
@@ -410,7 +410,7 @@
     "onblock_buffs": [
       {
         "id": "buff_defending_onblock",
-        "name": "Defending the Weak",
+        "name": { "str": "Defending the Weak" },
         "description": "Every successful block increases your defense for as long as the style is active.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -429,7 +429,7 @@
     "onpause_buffs": [
       {
         "id": "buff_castle_onpause",
-        "name": "Castle",
+        "name": { "str": "Castle" },
         "description": "You fortify your defenses while reducing your offensive capabilities in order to recover.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -453,7 +453,7 @@
     "oncrit_buffs": [
       {
         "id": "buff_berserker_oncrit",
-        "name": "Berserker",
+        "name": { "str": "Berserker" },
         "description": "A critical hit sends you into a frenzy!\n\n Large speed, damage, and armor bonuses, small accuracy penalty for 3 turns.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -478,10 +478,10 @@
       },
       {
         "id": "buff_heavycrittraining_oncrit",
-        "name": "Muscle Augmentation",
+        "name": { "str": "Muscle Augmentation" },
         "description": "Every critical hit gives you a small semi-permanent improvement.",
         "unarmed_allowed": true,
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
           [ "damage", "bash", 0.01 ],
@@ -498,7 +498,7 @@
     "onkill_buffs": [
       {
         "id": "buff_battlefury_onkill",
-        "name": "Battle Fury",
+        "name": { "str": "Battle Fury" },
         "description": "On killing your enemy, you are consumed with bloodlust!\n\n Every kill gives you huge stacking damage and armor bonuses, small accuracy penalty for 5 turns.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -521,10 +521,10 @@
       },
       {
         "id": "buff_heavykilltraining_onkill",
-        "name": "Muscle Stimulation",
+        "name": { "str": "Muscle Stimulation" },
         "description": "Every kill gives you a small semi-permanent improvement.",
         "unarmed_allowed": true,
-        "skill_requirements": [ { "name": "cutting", "level": 3 } ],
+        "skill_requirements": [ { "name": { "str": "cutting" }, "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
           [ "damage", "bash", 0.01 ],
@@ -541,7 +541,7 @@
     "onmove_buffs": [
       {
         "id": "buff_heavycharge_onmove",
-        "name": "Charge",
+        "name": { "str": "Charge" },
         "description": "You charge at the enemy!\n\n Huge damage and armor bonuses, half accuracy for 2 turns.",
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -565,7 +565,7 @@
     "onmiss_buffs": [
       {
         "id": "buff_dairyfarmer_onmiss",
-        "name": "You Fight Like A Dairy Farmer",
+        "name": { "str": "You Fight Like A Dairy Farmer" },
         "description": "You fight like a dairy farmer!",
         "unarmed_allowed": true,
         "mult_bonuses": [
@@ -594,7 +594,7 @@
   {
     "type": "technique",
     "id": "abheavy_cow",
-    "name": "You Fight Like A Cow",
+    "name": { "str": "You Fight Like A Cow" },
     "melee_allowed": true,
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "mult_bonuses": [
@@ -609,9 +609,9 @@
   {
     "type": "technique",
     "id": "abheavy_annihilated",
-    "name": "Every Enemy Ive Met Ive Annihilated",
+    "name": { "str": "Every Enemy Ive Met Ive Annihilated" },
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "skill_requirements": [ { "name": "cutting", "level": 10 } ],
+    "skill_requirements": [ { "name": { "str": "cutting" }, "level": 10 } ],
     "mult_bonuses": [ [ "damage", "cut", 99 ], [ "damage", "bash", 99 ], [ "damage", "stab", 99 ], [ "hit", 99 ] ],
     "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
     "description": "High-level miss recovery - One Hit Kill"
@@ -619,7 +619,7 @@
   {
     "type": "technique",
     "id": "abheavy_block",
-    "name": "Block",
+    "name": { "str": "Block" },
     "mult_bonuses": [ [ "movecost", 0.0 ], [ "block", 0.1 ] ],
     "messages": [ "You block %s", "<npcname> blocks %s" ],
     "description": "High blocking ability"
@@ -627,10 +627,10 @@
   {
     "type": "technique",
     "id": "abheavy_spin",
-    "name": "Spinning Strike",
+    "name": { "str": "Spinning Strike" },
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "skill_requirements": [ { "name": "cutting", "level": 4 } ],
+    "skill_requirements": [ { "name": { "str": "cutting" }, "level": 4 } ],
     "crit_tec": true,
     "messages": [ "You strike %s and nearby enemies", "<npcname> strikes %s and everyone nearby" ],
     "aoe": "spin",
@@ -640,10 +640,10 @@
   {
     "type": "technique",
     "id": "abheavy_brutal",
-    "name": "Brutal Strike",
+    "name": { "str": "Brutal Strike" },
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "skill_requirements": [ { "name": "cutting", "level": 5 } ],
+    "skill_requirements": [ { "name": { "str": "cutting" }, "level": 5 } ],
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
@@ -653,7 +653,7 @@
   {
     "type": "technique",
     "id": "abheavy_criticalblow",
-    "name": "Critical Strike",
+    "name": { "str": "Critical Strike" },
     "unarmed_allowed": true,
     "melee_allowed": true,
     "mult_bonuses": [ [ "damage", "cut", 99 ], [ "damage", "bash", 99 ], [ "damage", "stab", 99 ] ],
@@ -665,9 +665,9 @@
   {
     "type": "technique",
     "id": "abheavy_lunge",
-    "name": "Heavy Lunge",
+    "name": { "str": "Heavy Lunge" },
     "messages": [ "You lunge at %s", "<npcname> lunges at %s" ],
-    "skill_requirements": [ { "name": "cutting", "level": 2 } ],
+    "skill_requirements": [ { "name": { "str": "cutting" }, "level": 2 } ],
     "melee_allowed": true,
     "crit_ok": true,
     "mult_bonuses": [ [ "movecost", 0.8 ], [ "damage", "cut", 1.5 ], [ "damage", "stab", 2 ], [ "damage", "bash", 2 ] ]
@@ -675,7 +675,7 @@
   {
     "type": "technique",
     "id": "abheavy_counter",
-    "name": "Counterattack",
+    "name": { "str": "Counterattack" },
     "messages": [ "You dodge, and swing wildly at %s with a mighty blow", "<npcname> dodges, and hits %s hard" ],
     "unarmed_allowed": true,
     "dodge_counter": true,
@@ -691,7 +691,7 @@
   {
     "type": "technique",
     "id": "abheavy_riposte",
-    "name": "Shield Bash",
+    "name": { "str": "Shield Bash" },
     "messages": [ "You block %s, and send them and nearby enemies reeling!", "<npcname> blocks and knocks back %s and nearby enemies." ],
     "block_counter": true,
     "crit_ok": true,

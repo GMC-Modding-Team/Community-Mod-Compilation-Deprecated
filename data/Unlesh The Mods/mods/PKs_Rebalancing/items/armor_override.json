@@ -4,7 +4,7 @@
     "//": "Why the hell is the survivor and bog-standard trenchcoat the same encumbrance as a duster but not the leather/fur ones?",
     "type": "ARMOR",
     "copy-from": "duster",
-    "name": "duster",
+    "name": { "str": "duster" },
     "description": "A rugged full-length duster coat.  Has many pockets for storage.",
     "encumbrance": 12,
     "storage": 24
@@ -14,7 +14,7 @@
     "type": "ARMOR",
     "copy-from": "duster_survivor",
     "category": "armor",
-    "name": "survivor duster",
+    "name": { "str": "survivor duster" },
     "description": "A Kevlar armored custom full-length duster, covered with pouches and pockets.  Comfortable, durable, and great for storage.",
     "encumbrance": 14
   },
@@ -22,7 +22,7 @@
     "id": "sleeveless_duster",
     "type": "ARMOR",
     "copy-from": "sleeveless_duster",
-    "name": "sleeveless duster",
+    "name": { "str": "sleeveless duster" },
     "description": "A rugged full-length duster that leaves your arms unencumbered.  Has plenty of storage space due to its many pockets.",
     "encumbrance": 12
   },
@@ -31,7 +31,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster_survivor",
     "category": "armor",
-    "name": "sleeveless survivor duster",
+    "name": { "str": "sleeveless survivor duster" },
     "description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets.  Comfortable, durable, and great for storage.",
     "encumbrance": 14
   },
@@ -39,7 +39,7 @@
     "id": "jacket_leather_mod",
     "type": "ARMOR",
     "copy-from": "jacket_leather_mod",
-    "name": "armored leather jacket",
+    "name": { "str": "armored leather jacket" },
     "description": "An armored jacket made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.",
     "coverage": 92,
     "encumbrance": 18
@@ -48,7 +48,7 @@
     "id": "vest_leather_mod",
     "type": "ARMOR",
     "copy-from": "vest_leather_mod",
-    "name": "armored leather vest",
+    "name": { "str": "armored leather vest" },
     "description": "An armored vest made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.",
     "coverage": 92,
     "encumbrance": 18
@@ -57,7 +57,7 @@
     "id": "dive_bag",
     "type": "ARMOR",
     "copy-from": "dive_bag",
-    "name": "dive bag",
+    "name": { "str": "dive bag" },
     "description": "A lightweight mesh backpack, commonly used by swimmers and divers.",
     "weight": "512 g",
     "volume": "2500 ml",
@@ -75,7 +75,7 @@
   {
     "id": "fireman_belt",
     "type": "ARMOR",
-    "name": "firefighter belt",
+    "name": { "str": "firefighter belt" },
     "description": "A stout firefighter's belt.  Useful for keeping your bunker gear up, it also doubles as an equipment belt with a reinforced loop for holding a large tool.",
     "weight": "210 g",
     "volume": "500 ml",
@@ -104,7 +104,7 @@
   {
     "id": "leather_cat_ears",
     "type": "ARMOR",
-    "name": "pair of leather cat ears",
+    "name": { "str": "pair of leather cat ears" },
     "name_plural": "pairs of leather cat ears",
     "description": "A shiny pair of black cat ears on a headband.  It does nothing, but there's no reason not to look good even if no one's looking.",
     "weight": "20 g",
@@ -123,7 +123,7 @@
   {
     "id": "fur_cat_ears",
     "type": "ARMOR",
-    "name": "pair of fuzzy cat ears",
+    "name": { "str": "pair of fuzzy cat ears" },
     "name_plural": "pairs of fuzzy cat ears",
     "description": "A fuzzy pair of brownish cat ears on a headband.  It does nothing, but there's no reason not to look good even if no one's looking.",
     "weight": "20 g",
@@ -142,7 +142,7 @@
   {
     "id": "leather_cat_tail",
     "type": "ARMOR",
-    "name": "leather cat tail",
+    "name": { "str": "leather cat tail" },
     "description": "A glossy black leather tail weighted down with tiny beads of plastic.  Sways behind you when you walk.",
     "weight": "80 g",
     "volume": "250 ml",
@@ -161,7 +161,7 @@
   {
     "id": "fur_cat_tail",
     "type": "ARMOR",
-    "name": "fuzzy cat tail",
+    "name": { "str": "fuzzy cat tail" },
     "description": "A fuzzy tawny tail weighted down with tiny beads of plastic.  Sways behind you when you walk.",
     "weight": "80 g",
     "volume": "250 ml",
@@ -180,7 +180,7 @@
   {
     "id": "gold_dental_grill",
     "type": "ARMOR",
-    "name": "gold dental grill",
+    "name": { "str": "gold dental grill" },
     "description": "Fake golden teeth, worn over the teeth.  Fits horribly, but looks very shiny.",
     "weight": "10 g",
     "volume": "10 ml",
@@ -200,7 +200,7 @@
   {
     "id": "diamond_dental_grill",
     "type": "ARMOR",
-    "name": "diamond dental grill",
+    "name": { "str": "diamond dental grill" },
     "description": "Fake teeth inlaid with diamonds, worn over the teeth.  Fits horribly, but looks very shiny.  For that high class gangsta rap look.",
     "weight": "10 g",
     "volume": "10 ml",
@@ -221,7 +221,7 @@
     "id": "wearable_rx12",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": "wearable RX12 jet injector",
+    "name": { "str": "wearable RX12 jet injector" },
     "description": "This is a modified RX12 jet injector which can be worn on the body.  A label on the side warns against using more than two doses per hour.",
     "weight": "364 g",
     "volume": "750 ml",
@@ -243,7 +243,7 @@
     "id": "rx11_stimpack",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": "RX11 stimulant delivery system",
+    "name": { "str": "RX11 stimulant delivery system" },
     "name_plural": "RX11 stimulant delivery system",
     "description": "The Rivtech RX11 stimulant delivery system is a jet autoinjector system worn on the user's body.  A simple press of its activator injects powerful chemical stimulants into the bloodstream without using a needle.",
     "weight": "212 g",
@@ -267,7 +267,7 @@
     "id": "rad_monitor",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": "radiation biomonitor",
+    "name": { "str": "radiation biomonitor" },
     "description": "A battery-powered biometric safety device worn on the wrist.  Activate to check your current level of radiation exposure.",
     "weight": "68 g",
     "volume": "250 ml",
@@ -291,7 +291,7 @@
     "id": "harmonica_holder",
     "type": "TOOL_ARMOR",
     "category": "tools",
-    "name": "harmonica with a holder",
+    "name": { "str": "harmonica with a holder" },
     "name_plural": "harmonicas with holders",
     "description": "A harmonica with a holder, so that you can play it without a free hand.",
     "weight": "200 g",
@@ -320,7 +320,7 @@
   {
     "id": "wristwatch",
     "type": "ARMOR",
-    "name": "wrist watch",
+    "name": { "str": "wrist watch" },
     "name_plural": "wrist watches",
     "description": "A simple wristwatch on a plastic band.  Tells the time and has an alarm clock feature.",
     "weight": "50 g",
@@ -340,7 +340,7 @@
   {
     "id": "diving_watch",
     "type": "ARMOR",
-    "name": "diver's watch",
+    "name": { "str": "diver's watch" },
     "name_plural": "diver's watches",
     "description": "A waterpr1of, self-winding watch on a steel watchband.  Tells the time and current temperature and is impervious to water.  Activate to check the digital thermometer.",
     "weight": "65 g",
@@ -361,7 +361,7 @@
   {
     "id": "gold_watch",
     "type": "ARMOR",
-    "name": "gold watch",
+    "name": { "str": "gold watch" },
     "name_plural": "gold watches",
     "description": "A gold-plated steel self-winding wristwatch, suitable for a retirement present.  Tells the time and looks good.",
     "weight": "60 g",
@@ -381,7 +381,7 @@
   {
     "id": "sf_watch",
     "type": "ARMOR",
-    "name": "fancy watch",
+    "name": { "str": "fancy watch" },
     "name_plural": "fancy watches",
     "//": "That's about the midpoint for a rolex.",
     "description": "A rather large and expensively made wristwatch.  Tells the time in elegantly wrought gold with silver detailing.  It's really the only timepiece suitable for someone of your exquisitely discerning tastes.",
@@ -402,7 +402,7 @@
   {
     "id": "fancy_sunglasses",
     "type": "ARMOR",
-    "name": "pair of stylish sunglasses",
+    "name": { "str": "pair of stylish sunglasses" },
     "name_plural": "pairs of stylish sunglasses",
     "description": "A pair of stylish sunglasses, look good while keeping the glare out of your eyes.",
     "weight": "42 g",
@@ -423,7 +423,7 @@
   {
     "id": "fitover_sunglasses",
     "type": "ARMOR",
-    "name": "pair of fit-over sunglasses",
+    "name": { "str": "pair of fit-over sunglasses" },
     "name_plural": "pairs of fit-over sunglasses",
     "description": "A pair of fit-over sunglasses designed to be worn over a pair of corrective glasses.  Good for keeping the glare out of your eyes.",
     "weight": "45 g",
@@ -444,7 +444,7 @@
   {
     "id": "glasses_bal",
     "type": "ARMOR",
-    "name": "pair of ballistic glasses",
+    "name": { "str": "pair of ballistic glasses" },
     "name_plural": "pairs of ballistic glasses",
     "description": "Modern tactical eyewear that protects from small projectiles and fragments.  Excellent protection from environmental dangers.",
     "weight": "184 g",
@@ -466,7 +466,7 @@
   {
     "id": "glasses_bifocal",
     "type": "ARMOR",
-    "name": "pair of bifocal glasses",
+    "name": { "str": "pair of bifocal glasses" },
     "name_plural": "pairs of bifocal glasses",
     "description": "A pair of bifocal glasses for those who are both near-sighted and far-sighted.  You can use them to focus the sunlight.",
     "weight": "30 g",
@@ -487,7 +487,7 @@
   {
     "id": "glasses_eye",
     "type": "ARMOR",
-    "name": "pair of eyeglasses",
+    "name": { "str": "pair of eyeglasses" },
     "name_plural": "pairs of eyeglasses",
     "description": "A pair of glasses for the near-sighted.  The concave lenses diffuse the sunlight, rendering them useless for starting fires.",
     "weight": "30 g",
@@ -507,7 +507,7 @@
   {
     "id": "glasses_monocle",
     "type": "ARMOR",
-    "name": "monocle",
+    "name": { "str": "monocle" },
     "//": "DDA monocle is optical-grade.  Costume ones go for about $10.",
     "description": "An essential article of the gentleman's apparel.  Also corrects near-sightedness.  You can use this to focus the sunlight.",
     "weight": "16 g",
@@ -528,7 +528,7 @@
   {
     "id": "glasses_reading",
     "type": "ARMOR",
-    "name": "pair of reading glasses",
+    "name": { "str": "pair of reading glasses" },
     "name_plural": "pairs of reading glasses",
     "description": "A pair of glasses for the far-sighted.  Useless for anyone else.  You can use them to focus the sunlight.",
     "weight": "30 g",
@@ -549,7 +549,7 @@
   {
     "id": "glasses_safety",
     "type": "ARMOR",
-    "name": "pair of safety glasses",
+    "name": { "str": "pair of safety glasses" },
     "name_plural": "pairs of safety glasses",
     "description": "A pair of plastic glasses, used in workshops, sports, chemistry labs, and many other places.  Provides great protection from damage.",
     "weight": "60 g",
@@ -570,7 +570,7 @@
   {
     "id": "goggles_ski",
     "type": "ARMOR",
-    "name": "pair of ski goggles",
+    "name": { "str": "pair of ski goggles" },
     "name_plural": "pairs of ski goggles",
     "description": "A large pair of goggles that completely seal off your eyes.  Excellent protection from environmental dangers.",
     "weight": "354 g",
@@ -592,7 +592,7 @@
   {
     "id": "goggles_swim",
     "type": "ARMOR",
-    "name": "pair of swim goggles",
+    "name": { "str": "pair of swim goggles" },
     "name_plural": "pairs of swim goggles",
     "description": "A small pair of tinted goggles made for swimming.",
     "weight": "81 g",
@@ -613,7 +613,7 @@
   {
     "id": "goggles_welding",
     "type": "ARMOR",
-    "name": "pair of welding goggles",
+    "name": { "str": "pair of welding goggles" },
     "name_plural": "pairs of welding goggles",
     "description": "A dark pair of goggles.  They make seeing very difficult, but protect you from bright flashes.",
     "weight": "153 g",
@@ -635,7 +635,7 @@
   {
     "id": "sunglasses",
     "type": "ARMOR",
-    "name": "pair of sunglasses",
+    "name": { "str": "pair of sunglasses" },
     "name_plural": "pairs of sunglasses",
     "description": "A pair of sunglasses, good for keeping the glare out of your eyes.",
     "weight": "35 g",
@@ -656,7 +656,7 @@
   {
     "id": "survivor_goggles",
     "type": "ARMOR",
-    "name": "survivor goggles",
+    "name": { "str": "survivor goggles" },
     "name_plural": "pairs of survivor goggles",
     "description": "A custom-built pair of armored goggles with tinted lenses.  Relatively comfortable and built to last, they provide excellent protection from environmental dangers.",
     "weight": "212 g",
@@ -679,7 +679,7 @@
     "id": "mask_filter",
     "type": "ARMOR",
     "//": "Keeps the filter mask at 20 warmth.  In summer it presents a choice between more prot/warmth here or less warmth for less prot with a dust mask.",
-    "name": "filter mask",
+    "name": { "str": "filter mask" },
     "description": "A mask that straps over your mouth and nose and filters air.  Protects from smoke, dust, and other contaminants quite well.",
     "weight": "260 g",
     "volume": "500 ml",
@@ -698,7 +698,7 @@
   {
     "id": "mask_dust",
     "type": "ARMOR",
-    "name": "dust mask",
+    "name": { "str": "dust mask" },
     "description": "A simple piece of cotton that straps over the mouth.  Provides a small amount of protection from air-borne illness and dust.",
     "weight": "200 g",
     "volume": "10 ml",
