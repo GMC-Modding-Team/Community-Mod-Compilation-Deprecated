@@ -18,7 +18,7 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "gasoline",
+    "ammo": [ "gasoline" ],
     "use_action": [
       {
         "type": "transform",
@@ -52,7 +52,7 @@
     "initial_charges": 100,
     "charges_per_use": 0,
     "turns_per_charge": 10,
-    "ammo": "gasoline",
+    "ammo": [ "gasoline" ],
     "revert_to": "bullet_lighter",
     "use_action": [
       { "type": "firestarter", "moves_cost": 15 },
