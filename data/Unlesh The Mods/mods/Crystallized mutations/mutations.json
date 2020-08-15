@@ -25,7 +25,7 @@
     "mending_modifier": 0.75,
 	"armor": [
       {
-        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
+        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes", "head" ],
         "cut": 1,
 		"bash": 2
       }
@@ -46,7 +46,7 @@
     "mending_modifier": 0.50,
 	"armor": [
       {
-        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES" ],
+        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
         "cut": 5,
 		"pierce": 5,
 		"bash": 5,
@@ -79,7 +79,7 @@
 	"flags": [ "NO_DISEASE", "NO_INFECTION", "NO_POISON", "NO_RADIATION", "NO_PARASITE" ],
 	"armor": [
       {
-        "parts": [ "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R", "MOUTH", "EYES", "HEAD" ],
+        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes", "head" ],
         "cut": 30,
 		"pierce": 30,
 		"bash": 15,
@@ -144,7 +144,7 @@
 	"passive_mods": { "per_mod": 2 },
 	"armor": [
       {
-        "parts": [ "EYES" ],
+        "parts": [ "eyes" ],
         "cut": 5,
 		"pierce": 5,
 		"bash": 5
@@ -218,7 +218,7 @@
 	"cut_dmg_bonus": 3,
     "pierce_dmg_bonus": 12,
     "butchering_quality": 3,
-	"encumbrance_always": [ [ "HAND_L", 5 ], [ "HAND_R", 5 ] ],
+	"encumbrance_always": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
     "description": "The tips of your fingers have turned into claws seemingly made out of diamond or some other superhard mineral. While they hinder manual manipulation somewhat, you've found that they make good implements of hand to hand combat and pierce flesh easily.",
     "starting_trait": false,
     "category": [ "CRYSTAL" ],
@@ -255,7 +255,7 @@
     "visibility": 1,
     "ugliness": 1,
     "mixed_effect": true,
-    "encumbrance_always": [ [ "TORSO", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
+    "encumbrance_always": [ [ "torso", 10 ], [ "arm_l", 10 ], [ "arm_r", 10 ] ],
     "description": "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +2), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
     "prereqs": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4" ],
     "cancels": [ "SMALL", "SMALL2" ],
