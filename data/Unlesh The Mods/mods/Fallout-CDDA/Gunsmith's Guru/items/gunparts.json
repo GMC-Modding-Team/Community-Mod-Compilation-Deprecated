@@ -4,7 +4,7 @@
     "id": "gun_reciever_part",
     "symbol": "*",
     "color": "light_gray",
-    "name": "firearm reciever",
+    "name": { "str": "firearm reciever" },
     "description": "A generic reciever for a firearm. Youre sure they have to come in more varieties than this, but this one seems like it will work for anything. Oh joyous day.",
     "material": [ "steel" ],
     "weight": "158 g",
@@ -18,7 +18,7 @@
     "id": "cylinder_revolver_part",
     "symbol": "*",
     "color": "light_gray",
-    "name": "revolver cylinder",
+    "name": { "str": "revolver cylinder" },
     "description": "A cylinder for a revolver. Usful for gun crafting.",
     "material": [ "steel" ],
     "weight": "158 g",
@@ -30,7 +30,7 @@
   {
     "type": "GENERIC",
     "id": "barrel_rifled_short",
-    "name": "short rifled barrel",
+    "name": { "str": "short rifled barrel" },
     "description": "A rifled barrel for a gun. Ideal in length for an SMG or similar compact weapon.",
     "category": "spare_parts",
     "weight": "625 g",
@@ -46,7 +46,7 @@
   {
     "type": "GENERIC",
     "id": "barrel_rifled_long",
-    "name": "long rifled barrel",
+    "name": { "str": "long rifled barrel" },
     "description": "A rifled barrel for a gun. Ideal in length for rifles.",
     "category": "spare_parts",
     "weight": "1250 g",
@@ -62,7 +62,7 @@
   {
     "type": "GENERIC",
     "id": "trigger_handmade_gun",
-    "name": "homemade trigger mechanism",
+    "name": { "str": "homemade trigger mechanism" },
     "description": "A homemade trigger mechanism, used in crafting weaponry.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -75,7 +75,7 @@
   {
     "type": "GENERIC",
     "id": "mechanism_homemade_automatic",
-    "name": "automatic weapon parts",
+    "name": { "str": "automatic weapon parts" },
     "description": "A homemade set of parts used in automatic and semi-automatic weapons.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -88,7 +88,7 @@
   {
     "type": "GENERIC",
     "id": "mechanism_homemade_pump",
-    "name": "pump action mechanism",
+    "name": { "str": "pump action mechanism" },
     "description": "A homemade pump that can be used to chamber the next round in a shotgun, or rarely, a rifle.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -101,7 +101,7 @@
   {
     "type": "GENERIC",
     "id": "mechanism_homemade_bolt",
-    "name": "bolt action mechanism",
+    "name": { "str": "bolt action mechanism" },
     "description": "A homemade bolt-action mechanism, used in sniper rifles.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -114,7 +114,7 @@
   {
     "type": "GENERIC",
     "id": "mechanism_homemade_lever",
-    "name": "lever action mechanism",
+    "name": { "str": "lever action mechanism" },
     "description": "A homemade mechanism, based around a liver, commonly used in old west shotguns and rifles.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -127,7 +127,7 @@
   {
     "type": "GENERIC",
     "id": "mechanism_homemade_crank",
-    "name": "crank action mechanism",
+    "name": { "str": "crank action mechanism" },
     "description": "A homemade crank, as used in gatling guns.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -140,7 +140,7 @@
   {
     "type": "GENERIC",
     "id": "homemade_gearbox",
-    "name": "custom gearbox",
+    "name": { "str": "custom gearbox" },
     "description": "A box full of gears and cogs, meant to be used with a crank action mechanism or similar clockwork weapon.",
     "category": "spare_parts",
     "weight": "120 g",
@@ -153,7 +153,7 @@
   {
     "type": "GENERIC",
     "id": "wooden_stock_handmade",
-    "name": "handmade wooden stock",
+    "name": { "str": "handmade wooden stock" },
     "description": "A wooden stock to a rifle or shotgun. Provides decent enough .",
     "category": "spare_parts",
     "weight": "960 g",
@@ -169,7 +169,7 @@
     "type": "GENERIC",
     "id": "wooden_grip_handmade",
     "category": "spare_parts",
-    "name": "wooden handmade grip",
+    "name": { "str": "wooden handmade grip" },
     "description": "A light, wooden grip for a firearm.",
     "weight": "140 g",
     "volume": "250 ml",
@@ -182,7 +182,7 @@
     "id": "metal_box_large",
     "type": "GENERIC",
     "category": "spare_parts",
-    "name": "metal box",
+    "name": { "str": "metal box" },
     "pocket_data": [
       {
         "ammo_restriction": {
@@ -212,7 +212,7 @@
         "moves": 20
       }
     ],
-    "name_plural": "metal box",
+    "str_plural": "metal box"
     "description": "The metal box your 80% gun came in! You could make a decently sized box mag for one of your big guns.",
     "weight": "800 g",
     "volume": "8 L",
@@ -227,7 +227,7 @@
     "id": "metal_box_small",
     "type": "GENERIC",
     "category": "spare_parts",
-    "name": "small metal box",
+    "name": { "str": "small metal box" },
     "pocket_data": [
       {
         "ammo_restriction": {
@@ -257,7 +257,7 @@
         "moves": 20
       }
     ],
-    "name_plural": "small box",
+    "str_plural": "small box"
     "description": "A small metal box. You can think of several uses for it, including containing ammo, and small box magazines!",
     "weight": "800 g",
     "volume": "1 L",
@@ -271,7 +271,7 @@
   {
     "id": "22boxmag",
     "type": "MAGAZINE",
-    "name": "handmade .22 box mag",
+    "name": { "str": "handmade .22 box mag" },
     "description": "A simple metal box, turned into a magazine.",
     "weight": "60 g",
     "volume": "250 ml",
@@ -279,7 +279,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "22",
+    "ammo_type": [ "22" ],
     "capacity": 500,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
@@ -287,7 +287,7 @@
   {
     "id": "45boxmag",
     "type": "MAGAZINE",
-    "name": "handmade .45 box mag",
+    "name": { "str": "handmade .45 box mag" },
     "description": "A simple metal box, turned into a magazine.",
     "weight": "60 g",
     "volume": "250 ml",
@@ -295,7 +295,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "45",
+    "ammo_type": [ "45" ],
     "capacity": 500,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]

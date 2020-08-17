@@ -2,8 +2,7 @@
   {
     "id": "gunblade",
     "type": "GUN",
-    "name": { "str": "gunblade" },
-    "name_plural": "gunblades",
+    "name": { "str": "gunblade", "str_pl": "gunblades" },
     "description": "The horrible abomination that is a combo of a sword and a .44 revolver. Used by weaboos and perverted facists, primarily. Its too bulky to really fit in a holster or sheathe, too.",
     "weight": "2311 g",
     "volume": "2000 ml",
@@ -23,14 +22,14 @@
     "clip_size": 6,
     "reload": 250,
     "barrel_volume": "500 ml",
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 6 } } ]
   },
   {
     "id": "belt_gun",
     "copy-from": "pistol_base",
     "type": "GUN",
-    "name": { "str": "Belt Buckle Gun" },
-    "name_plural": "Belt Buckle Gun",
+    "name": { "str": "Belt Buckle Gun", "str_pl": "Belt Buckle Gun" },
     "description": "a tiny .22 pistol, invented by the nazis. Less than 10 originals exist. Not that that matters now, not only is rarity irrelevant, but these things are highly unreliable.",
     "weight": "164 g",
     "volume": "250 ml",
@@ -47,7 +46,8 @@
     "dispersion": 520,
     "durability": 6,
     "clip_size": 1,
-    "flags": [ "RELOAD_ONE", "BELTED" ]
+    "flags": [ "RELOAD_ONE", "BELTED" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22": 1 } } ]
   },
   {
     "id": "rifle_shield",
@@ -73,6 +73,7 @@
     "clip_size": 1,
     "reload": 1200,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ], [ "underbarrel", 1 ] ],
-    "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
+    "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "flintlock": 1 } } ]
   }
 ]
