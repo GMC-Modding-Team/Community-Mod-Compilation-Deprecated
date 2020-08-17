@@ -2,7 +2,7 @@
   {
     "id": "colt6250mag",
     "type": "MAGAZINE",
-    "name": "Colt 6250 magazine",
+    "name": { "str": "Colt 6250 magazine" },
     "description": "A solid black magazine made just for the Colt 6250.",
     "weight": "140 g",
     "volume": "250 ml",
@@ -10,7 +10,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "black",
-    "ammo_type": "40",
+    "ammo_type": [ "40" ],
     "capacity": 12,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]
@@ -18,7 +18,7 @@
   {
     "id": "10mmsmgmag",
     "type": "MAGAZINE",
-    "name": "MP9 magazine",
+    "name": { "str": "MP9 magazine" },
     "description": "A compact, grey magazine made just for the H&K MP9.",
     "weight": "280 g",
     "volume": "250 ml",
@@ -26,7 +26,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "40",
+    "ammo_type": [ "40" ],
     "capacity": 30,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]
@@ -34,7 +34,7 @@
   {
     "id": "10mmgatlingmag",
     "type": "MAGAZINE",
-    "name": "60 round 10mm box",
+    "name": { "str": "60 round 10mm box" },
     "description": "A box magazine meant to feed into a 10mm minigun.",
     "weight": "140 g",
     "volume": "250 ml",
@@ -42,7 +42,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "black",
-    "ammo_type": "40",
+    "ammo_type": [ "40" ],
     "capacity": 60,
     "reliability": 7,
     "flags": [ "MAG_BULKY" ]
@@ -50,7 +50,7 @@
   {
     "id": "10mmgatlingmagxl",
     "type": "MAGAZINE",
-    "name": "75 round 10mm box",
+    "name": { "str": "75 round 10mm box" },
     "description": "A box magazine meant to feed into a 10mm minigun.",
     "weight": "140 g",
     "volume": "250 ml",
@@ -58,7 +58,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "black",
-    "ammo_type": "40",
+    "ammo_type": [ "40" ],
     "capacity": 75,
     "reliability": 7,
     "flags": [ "MAG_BULKY" ]
@@ -66,7 +66,7 @@
   {
     "id": "p90cmag",
     "type": "MAGAZINE",
-    "name": "p90c magazine",
+    "name": { "str": "p90c magazine" },
     "description": "A top-loading 10mm magazine with sights on it.",
     "weight": "280 g",
     "volume": "250 ml",
@@ -74,7 +74,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "40",
+    "ammo_type": [ "40" ],
     "capacity": 24,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]

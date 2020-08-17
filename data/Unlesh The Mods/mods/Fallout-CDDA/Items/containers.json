@@ -3,7 +3,7 @@
     "id": "bottle_glass_nuka",
     "type": "GENERIC",
     "category": "container",
-    "name": "glass bottle",
+    "name": { "str": "glass bottle" },
     "description": "A resealable glass bottle, used originally for nuka cola. It has a distinct rocket shape.",
     "weight": "300 g",
     "volume": "1000 ml",
@@ -13,6 +13,7 @@
     "material": [ "glass" ],
     "symbol": ")",
     "color": "cyan",
+    "flags": [ "TARDIS" ],
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
