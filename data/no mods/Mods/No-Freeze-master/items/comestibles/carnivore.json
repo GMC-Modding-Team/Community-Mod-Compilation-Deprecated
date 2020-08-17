@@ -10,16 +10,14 @@
   {
     "id": "fish",
     "type": "COMESTIBLE",
-    "name": { "str": "fillet of fish" },
-    "name_plural": "fillets of fish",
+    "name": { "str": "fillet of fish", "str_pl": "fillets of fish" },
     "copy-from": "fish",
     "freezing_point": -1000
   },
   {
     "id": "fish_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked fish" },
-    "name_plural": "cooked fish",
+    "name": { "str": "cooked fish", "str_pl": "cooked fish" },
     "copy-from": "fish_cooked",
     "freezing_point": -1000
   },
@@ -40,8 +38,7 @@
   {
     "id": "human_flesh",
     "type": "COMESTIBLE",
-    "name": { "str": "human flesh" },
-    "name_plural": "human fleshes",
+    "name": { "str": "human flesh", "str_pl": "human fleshes" },
     "copy-from": "human_flesh",
     "freezing_point": -1000
   },
@@ -55,8 +52,7 @@
   {
     "id": "meat",
     "type": "COMESTIBLE",
-    "name": { "str": "chunk of meat" },
-    "name_plural": "chunks of meat",
+    "name": { "str": "chunk of meat", "str_pl": "chunks of meat" },
     "copy-from": "meat",
     "freezing_point": -1000
   },
@@ -77,24 +73,21 @@
   {
     "id": "offal_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked offal" },
-    "name_plural": "cooked offal",
+    "name": { "str": "cooked offal", "str_pl": "cooked offal" },
     "copy-from": "offal_cooked",
     "freezing_point": -1000
   },
   {
     "id": "offal_pickled",
     "type": "COMESTIBLE",
-    "name": { "str": "pickled offal" },
-    "name_plural": "pickled offal",
+    "name": { "str": "pickled offal", "str_pl": "pickled offal" },
     "copy-from": "offal_pickled",
     "freezing_point": -1000
   },
   {
     "id": "offal_canned",
     "type": "COMESTIBLE",
-    "name": { "str": "canned offal" },
-    "name_plural": "canned offal",
+    "name": { "str": "canned offal", "str_pl": "canned offal" },
     "copy-from": "offal_canned",
     "freezing_point": -1000
   },
@@ -115,16 +108,14 @@
   {
     "id": "jerky",
     "type": "COMESTIBLE",
-    "name": { "str": "meat jerky" },
-    "name_plural": "meat jerky",
+    "name": { "str": "meat jerky", "str_pl": "meat jerky" },
     "copy-from": "jerky",
     "freezing_point": -1000
   },
   {
     "id": "salted_fish",
     "type": "COMESTIBLE",
-    "name": { "str": "salted fish" },
-    "name_plural": "salted fish",
+    "name": { "str": "salted fish", "str_pl": "salted fish" },
     "copy-from": "salted_fish",
     "freezing_point": -1000
   },
@@ -138,24 +129,21 @@
   {
     "id": "fish_smoked",
     "type": "COMESTIBLE",
-    "name": { "str": "smoked fish" },
-    "name_plural": "smoked fish",
+    "name": { "str": "smoked fish", "str_pl": "smoked fish" },
     "copy-from": "fish_smoked",
     "freezing_point": -1000
   },
   {
     "id": "mutant_meat",
     "type": "COMESTIBLE",
-    "name": { "str": "chunk of mutant meat" },
-    "name_plural": "chunks of mutant meat",
+    "name": { "str": "chunk of mutant meat", "str_pl": "chunks of mutant meat" },
     "copy-from": "mutant_meat",
     "freezing_point": -1000
   },
   {
     "id": "mutant_meat_scrap",
     "type": "COMESTIBLE",
-    "name": { "str": "scrap of mutant meat" },
-    "name_plural": "scraps of mutant meat",
+    "name": { "str": "scrap of mutant meat", "str_pl": "scraps of mutant meat" },
     "copy-from": "mutant_meat_scrap",
     "freezing_point": -1000
   },
@@ -183,24 +171,21 @@
   {
     "id": "mutant_meat_scrap_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked scrap of mutant meat" },
-    "name_plural": "cooked scraps of mutant meat",
+    "name": { "str": "cooked scrap of mutant meat", "str_pl": "cooked scraps of mutant meat" },
     "copy-from": "mutant_meat_scrap_cooked",
     "freezing_point": -1000
   },
   {
     "id": "lung",
     "type": "COMESTIBLE",
-    "name": { "str": "piece of raw lung" },
-    "name_plural": "pieces of raw lung",
+    "name": { "str": "piece of raw lung", "str_pl": "pieces of raw lung" },
     "copy-from": "lung",
     "freezing_point": -1000
   },
   {
     "id": "lung_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked piece of lung" },
-    "name_plural": "cooked pieces of lung",
+    "name": { "str": "cooked piece of lung", "str_pl": "cooked pieces of lung" },
     "copy-from": "lung_cooked",
     "freezing_point": -1000
   },
@@ -221,16 +206,14 @@
   {
     "id": "brain",
     "type": "COMESTIBLE",
-    "name": { "str": "raw brains" },
-    "name_plural": "raw brains",
+    "name": { "str": "raw brains", "str_pl": "raw brains" },
     "copy-from": "brain",
     "freezing_point": -1000
   },
   {
     "id": "brain_cooked",
     "type": "COMESTIBLE",
-    "name": { "str": "cooked brains" },
-    "name_plural": "cooked brains",
+    "name": { "str": "cooked brains", "str_pl": "cooked brains" },
     "copy-from": "brain_cooked",
     "freezing_point": -1000
   },
@@ -265,8 +248,7 @@
   {
     "id": "mutant_fat",
     "type": "COMESTIBLE",
-    "name": { "str": "chunk of mutant fat" },
-    "name_plural": "chunks of mutant fat",
+    "name": { "str": "chunk of mutant fat", "str_pl": "chunks of mutant fat" },
     "copy-from": "mutant_fat",
     "freezing_point": -1000
   },
@@ -287,8 +269,7 @@
   {
     "id": "mutant_human_fat",
     "type": "COMESTIBLE",
-    "name": { "str": "chunk of mutant humanoid fat" },
-    "name_plural": "chunks of mutant humanoid fat",
+    "name": { "str": "chunk of mutant humanoid fat", "str_pl": "chunks of mutant humanoid fat" },
     "copy-from": "mutant_human_fat",
     "freezing_point": -1000
   },
