@@ -7,7 +7,7 @@
     "material": [ "iron" ],
     "symbol": "*",
     "color": "red",
-    "ammo_type": "h_projectile",
+    "ammo_type": [ "h_projectile" ],
     "range": 10,
     "effects": [ "NEVER_MISFIRES", "COOKOFF" ],
     "flags": [ "" ]
@@ -96,7 +96,7 @@
     "color": "green",
     "count": 1,
     "stack_size": 2,
-    "ammo_type": "h_projectile",
+    "ammo_type": [ "h_projectile" ],
     "damage": { "damage_type": "stab", "amount": 14 },
     "effects": [ "MININUKE_MOD", "NEVER_MISFIRES" ],
     "flags": [ "LEAK_RAD" ]
@@ -114,7 +114,7 @@
     "symbol": "=",
     "color": "brown",
     "count": 10,
-    "ammo_type": "harpoon",
+    "ammo_type": [ "harpoon" ],
     "damage": { "damage_type": "stab", "amount": 40, "armor_penetration": 10 },
     "effects": [ "RECOVER_3", "NEVER_MISFIRES" ]
   },
@@ -129,7 +129,7 @@
     "color": "red",
     "count": 1,
     "stack_size": 1,
-    "ammo_type": "hbolt",
+    "ammo_type": [ "hbolt" ],
     "damage": { "damage_type": "stab", "amount": 14 },
     "effects": [ "NEVER_MISFIRES", "COOKOFF" ],
     "flags": [ "" ]
@@ -197,7 +197,7 @@
     "symbol": "=",
     "color": "green",
     "count": 5,
-    "ammo_type": "hbolt",
+    "ammo_type": [ "hbolt" ],
     "range": 10,
     "damage": { "damage_type": "stab", "amount": 35, "armor_penetration": 35 },
     "effects": [ "RECOVER_3" ]
@@ -216,7 +216,7 @@
     "color": "green",
     "count": 1,
     "stack_size": 2,
-    "ammo_type": "hbolt",
+    "ammo_type": [ "hbolt" ],
     "damage": { "damage_type": "stab", "amount": 14 },
     "effects": [ "MININUKE_MOD", "NEVER_MISFIRES" ],
     "flags": [ "LEAK_RAD" ]
@@ -234,7 +234,7 @@
     "symbol": "=",
     "color": "green",
     "count": 5,
-    "ammo_type": "hbolt",
+    "ammo_type": [ "hbolt" ],
     "range": 10,
     "damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 20 },
     "effects": [ "RECOVER_5" ]
@@ -253,7 +253,7 @@
     "symbol": "*",
     "color": "blue",
     "count": 1,
-    "ammo_type": "h_projectile",
+    "ammo_type": [ "h_projectile" ],
     "range": 3,
     "damage": { "damage_type": "stab", "amount": 50 },
     "effects": [ "RECOVER_20", "LARGE_BEANBAG" ]
@@ -271,7 +271,7 @@
     "symbol": "=",
     "color": "green",
     "count": 20,
-    "ammo_type": "ripdisk",
+    "ammo_type": [ "ripdisk" ],
     "range": 6,
     "damage": { "damage_type": "stab", "amount": 25, "armor_penetration": 5 },
     "effects": [ "RECOVER_3", "NEVER_MISFIRES" ]
@@ -289,7 +289,7 @@
     "symbol": "=",
     "color": "blue",
     "count": 250,
-    "ammo_type": "BB",
+    "ammo_type": [ "BB" ],
     "damage": { "damage_type": "stab", "amount": 1, "armor_penetration": 1 },
     "dispersion": 200
   }
