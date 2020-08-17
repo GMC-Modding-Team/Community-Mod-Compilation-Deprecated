@@ -2,7 +2,7 @@
   {
     "type": "GENERIC",
     "id": "nano_frame",
-    "name": "nanotech hybrid frame",
+    "name": { "str": "nanotech hybrid frame" },
     "description": "A large frame made of steel and reinforced with nanites.  Useful for crafting.",
     "looks_like": "frame",
     "weight": "20000 g",
@@ -20,7 +20,7 @@
   {
     "id": "nanotech_frame",
     "type": "vehicle_part",
-    "name": "nanotech hybrid frame",
+    "name": { "str": "nanotech hybrid frame" },
     "item": "nano_frame",
     "location": "structure",
     "color": "dark_gray",
@@ -113,7 +113,7 @@
   {
     "id": "nanotech_frame2",
     "type": "vehicle_part",
-    "name": "nanotech frame",
+    "name": { "str": "nanotech frame" },
     "item": "xl_nanite_cluster",
     "location": "structure",
     "color": "dark_gray",
@@ -206,7 +206,7 @@
   {
     "id": "nanoboard",
     "type": "vehicle_part",
-    "name": "nanotech board",
+    "name": { "str": "nanotech board" },
     "item": "xl_nanite_cluster",
     "location": "center",
     "color": "dark_gray",
@@ -229,7 +229,7 @@
     "id": "nanohalfboard",
     "copy-from": "nanoboard",
     "type": "vehicle_part",
-    "name": "nanotech quarterpanel",
+    "name": { "str": "nanotech quarterpanel" },
     "description": "A half-height strong metal wall.  Keeps zombies outside the vehicle but allows people to see over it.",
     "delete": { "flags": [ "OPAQUE" ] }
   },
