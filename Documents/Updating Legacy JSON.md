@@ -36,7 +36,7 @@ Before you go any further, I highly recommend you read the [Manual of Style](htt
 A lot of obsolete and legacy JSON requires the usage of find-and-replace to bring it up to date. To this end, I recommend that you have a text editor with regex capabilities such as [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/), or [atom](https://atom.io/). I personally find Sublime Text 3 the easiest to work with, but TheGoatGod advocates atom, and many others prefer Notepad++, so find what works best for you.
 
 It can also be useful to have a file searcher on hand if you're editing large quantities of files, or modifying file names. [Grepwin](https://tools.stefankueng.com/grepWin.html) is what I use, and TheGoatGod recommends [Ultrasearch](https://www.jam-software.com/ultrasearch). Again, and I cannot emphasise this enough, use whatever works best for you.
--Goats Comment- I use both tools now, im going to end up with grepwin being my defualt. 
+-Goats Comment- I use both tools now, im going to end up with grepwin being my defualt.
 
 ## Regex
 Regex, short for regular expressions, is a syntax language most commonly used in find-and-replace to find patterns and use complicated replaces. As you'll see later on, even simple regex can massively streamline the process of removing obsolete code. In each section below, I include the specific regex necessary for the task, and how to use it, so don't worry if you don't know what regex is. (For those of you interested in learning more, [Regex Quickstart Cheatsheet](https://www.rexegg.com/regex-quickstart.html) has the necessary information.).
@@ -210,7 +210,7 @@ If you are sure that the files you are replacing in need to be in the new format
 ```
 Then,
 ```regex
-"name_plural": "([a-z]+)",
+"name_plural": "([ a-z]+)",
 
 "str_plural": "$1"
 ```
