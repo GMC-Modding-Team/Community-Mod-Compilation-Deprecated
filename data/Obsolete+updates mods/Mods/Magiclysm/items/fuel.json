@@ -13,7 +13,7 @@
     "volume": "1 ml",
     "phase": "liquid",
     "category": "fuel",
-    "ammo_type": "dragon_blood",
+    "ammo_type": [ "dragon_blood" ],
     "damage": { "damage_type": "stab", "amount": 5, "armor_penetration": 5 },
     "range": 4,
     "effects": [ "FLAME", "STREAM", "INCENDIARY", "NEVER_MISFIRES" ],
@@ -36,7 +36,7 @@
     "volume": "1 ml",
     "phase": "liquid",
     "category": "fuel",
-    "ammo_type": "tainted_blood",
+    "ammo_type": [ "tainted_blood" ],
     "fuel": { "energy": 5 }
   },
   {
@@ -53,7 +53,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "category": "fuel",
-    "ammo_type": "blood",
+    "ammo_type": [ "blood" ],
     "fuel": { "energy": 1 }
   },
   {
@@ -71,7 +71,7 @@
     "container": "flask_glass",
     "tool": "syringe",
     "quench": 50,
-    "ammo_data": { "ammo_type": "mana_infused_blood" },
+    "ammo_data": { "ammo_type": [ "mana_infused_blood" ] },
     "flags": [ "NO_INGEST" ],
     "use_action": { "type": "cast_spell", "spell_id": "mana_doping", "no_fail": true, "level": 0 }
   }
