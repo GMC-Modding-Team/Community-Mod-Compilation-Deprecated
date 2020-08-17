@@ -137,7 +137,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_PIZZAPARLOR_ROBOT",
+    "name": { "str": "GROUP_PIZZAPARLOR_ROBOT" },
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_animatronic_fox_old", "freq": 100, "cost_multiplier": 2 },
@@ -167,7 +167,7 @@
   {
     "type": "overmap_terrain",
     "id": "bankruptpizzeria",
-    "name": "Bankrupt Pizzeria",
+    "name": { "str": "Bankrupt Pizzeria" },
     "sym": "^",
     "color": "dark_gray",
     "see_cost": 5,
