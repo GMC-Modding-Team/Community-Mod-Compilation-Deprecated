@@ -6,7 +6,7 @@
     "name": { "str": "Colt Rangemaster" },
     "description": "A Colt Rangemaster semi-automatic rifle, in .223 caliber. Single-shot only. It's popular for hunting vermin.",
     "weight": "2800 g",
-    "volume": "2000 ml",
+    "volume": "2 L",
     "price": 92100,
     "to_hit": 1,
     "bashing": 12,
@@ -18,7 +18,7 @@
     "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "dispersion": 100,
     "durability": 8,
-    "barrel_volume": 2,
+    "barrel_volume": "500 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -37,7 +37,7 @@
     "name": { "str": "Varmint Rifle" },
     "description": "A bolt-action .223 rifle. It's popular for hunting vermin.",
     "weight": "2800 g",
-    "volume": "2000 ml",
+    "volume": "2 L",
     "price": 92100,
     "to_hit": 1,
     "bashing": 12,
@@ -49,7 +49,7 @@
     "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "dispersion": 100,
     "durability": 8,
-    "barrel_volume": 1,
+    "barrel_volume": "250 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -68,7 +68,7 @@
     "name": { "str": "Rat Slayer's Rifle" },
     "description": "A varmint rifle that appears to have been customized by an exterminator to stealthily hunt vermin. It has a black finish, with a rat skull engraved upon it",
     "weight": "2800 g",
-    "volume": "2000 ml",
+    "volume": "2 L",
     "price": 92100,
     "to_hit": 1,
     "bashing": 12,
@@ -100,7 +100,7 @@
     "name": { "str": "DKS-501" },
     "description": "The DKS-501 Sniper Rifle. A popular weapon among mercenaries, SWAT, and even the military. It has a distinctive black-and-yellow paintjob.",
     "weight": "2800 g",
-    "volume": "2000 ml",
+    "volume": "2 L",
     "price": 92100,
     "to_hit": 1,
     "bashing": 12,
@@ -153,7 +153,8 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ]
+    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "223": 5 } } ]
   },
   {
     "id": "bozar",
@@ -162,7 +163,7 @@
     "name": { "str": "Bozar" },
     "description": "The ultimate refinement of the sniper's art. Although, somewhat finicky and prone to jamming if not kept scrupulously clean, the big weapon's accuracy more than makes up for its extra maintenance requirements.",
     "weight": "3495 g",
-    "volume": "2000 ml",
+    "volume": "2 L",
     "price": 234300,
     "to_hit": -1,
     "bashing": 12,
