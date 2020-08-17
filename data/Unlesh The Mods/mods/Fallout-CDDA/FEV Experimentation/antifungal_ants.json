@@ -2,7 +2,7 @@
   {
     "id": "mon_ant_antifungal",
     "type": "MONSTER",
-    "name": "antifungal ant",
+    "name": { "str": "antifungal ant" },
     "description": "An enormous green ant covered in chitinous plates.  It possesses a pair of wriggling antennae and vicious-looking mandibles. It seems to emit fungicide.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -35,7 +35,7 @@
   {
     "id": "mon_ant_antifungal_larva",
     "type": "MONSTER",
-    "name": "antifungal larva",
+    "name": { "str": "antifungal larva" },
     "description": "A pulsating sausage of glistening white flesh, the size of a large cat.  On one end is a set of squirming mouth parts.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -61,7 +61,7 @@
   {
     "id": "mon_ant_antifungal_queen",
     "type": "MONSTER",
-    "name": "antifungal queen",
+    "name": { "str": "antifungal queen" },
     "description": "A colossal green ant with a bulging, bloated thorax.  It moves slowly and deliberately, tending to nearby eggs and continually laying more. Much like it's minions, it emits antifungal clouds.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -92,7 +92,7 @@
   {
     "id": "mon_ant_antifungal_soldier",
     "type": "MONSTER",
-    "name": "soldier ant",
+    "name": { "str": "soldier ant" },
     "description": "A huge and hairy green ant almost twice the size of other giant ants.  Bulging pincers extend from its jaws. It emits clouds of strong fungicide to protect the queen.",
     "default_faction": "ant",
     "species": [ "INSECT" ],

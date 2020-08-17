@@ -4,7 +4,7 @@
     "repairs_like": "armor_larmor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Legion Recruit Armor",
+    "name": { "str": "Legion Recruit Armor" },
     "description": "A set of football armor reinforced with leather, worn by fresh recruits of Caesar's Legion. It has an attached leather skirt.",
     "weight": "2810 g",
     "volume": "9 L",
@@ -16,7 +16,10 @@
     "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 45,
     "encumbrance": 25,
-    "storage": "1500 ml",
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "750 ml", "max_contains_weight": "1500 g", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "750 ml", "max_contains_weight": "1500 g", "moves": 80 }
+    ],
     "warmth": 10,
     "material_thickness": 6,
     "flags": [ "VARSIZE", "STURDY" ]
@@ -26,7 +29,7 @@
     "repairs_like": "helmet_barbute",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Legion Recruit Helmet",
+    "name": { "str": "Legion Recruit Helmet" },
     "description": "A leather cap used by Legion recruits, combined with some form of tinted eyewear and a bandana for best effect.",
     "weight": "453 g",
     "volume": "1750 ml",
@@ -51,7 +54,7 @@
     "repairs_like": "armor_larmor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Legion Prime Armor",
+    "name": { "str": "Legion Prime Armor" },
     "description": "A set of football armor reinforced with copius amounts of leather, worn by the primary forces of Caesar's Legion. It has an attached leather skirt.",
     "weight": "3010 g",
     "volume": "11 L",
@@ -63,7 +66,10 @@
     "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 45,
     "encumbrance": 30,
-    "storage": "2000 ml",
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "2 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "2 kg", "moves": 80 }
+    ],
     "warmth": 10,
     "material_thickness": 7,
     "flags": [ "VARSIZE", "STURDY" ]
@@ -73,7 +79,7 @@
     "repairs_like": "helmet_barbute",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Legion Prime Helmet",
+    "name": { "str": "Legion Prime Helmet" },
     "description": "A leather cap used by Prime-ranked legionarries, often combined with some form of tinted eyewear and a bandana for best effect.",
     "weight": "453 g",
     "volume": "1750 ml",
@@ -98,7 +104,7 @@
     "repairs_like": "armor_larmor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Legion Veteran Armor",
+    "name": { "str": "Legion Veteran Armor" },
     "description": "A set of football armor reinforced with leather and iron, worn by elite veterans of Caesar's Legion. It has an attached leather skirt.",
     "weight": "2810 g",
     "volume": "7 L",
@@ -110,7 +116,10 @@
     "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 45,
     "encumbrance": 35,
-    "storage": "2500 ml",
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1250 ml", "max_contains_weight": "2 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1250 ml", "max_contains_weight": "2 kg", "moves": 80 }
+    ],
     "warmth": 10,
     "material_thickness": 8,
     "flags": [ "VARSIZE", "STURDY" ]
@@ -120,7 +129,7 @@
     "repairs_like": "helmet_barbute",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Legion Veteran Helmet",
+    "name": { "str": "Legion Veteran Helmet" },
     "description": "A plastic and iron baseball helmet used by Legion veterans, combined with some form of tinted eyewear and a bandana for best effect.",
     "weight": "453 g",
     "volume": "1750 ml",
