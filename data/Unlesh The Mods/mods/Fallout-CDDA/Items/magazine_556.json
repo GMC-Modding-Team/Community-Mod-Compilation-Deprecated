@@ -2,7 +2,7 @@
   {
     "id": "rangemastermag",
     "type": "MAGAZINE",
-    "name": "rangemaster magazine",
+    "name": { "str": "rangemaster magazine" },
     "description": "A compact 10-round magazine for the Colt Rangemaster.",
     "weight": "100 g",
     "volume": "250 ml",
@@ -10,7 +10,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "223",
+    "ammo_type": [ "223" ],
     "capacity": 10,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
@@ -18,7 +18,7 @@
   {
     "id": "rangemastermag2",
     "type": "MAGAZINE",
-    "name": "Rangemaster Extended Magazine",
+    "name": { "str": "Rangemaster Extended Magazine" },
     "description": "A larger magazine for the Colt Rangemaster. It carries 20 rounds.",
     "weight": "360 g",
     "volume": "500 ml",
@@ -26,7 +26,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "223",
+    "ammo_type": [ "223" ],
     "capacity": 20,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
@@ -34,7 +34,7 @@
   {
     "id": "rf2076mag",
     "type": "MAGAZINE",
-    "name": "Derringer RF2076 magazine",
+    "name": { "str": "Derringer RF2076 magazine" },
     "description": "A compact 30-round magazine for the Derringer RF2076.",
     "weight": "100 g",
     "volume": "500 ml",
@@ -42,7 +42,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "223",
+    "ammo_type": [ "223" ],
     "capacity": 30,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
@@ -50,7 +50,7 @@
   {
     "id": "rf2076drummag",
     "type": "MAGAZINE",
-    "name": "Derringer RF2076 drum",
+    "name": { "str": "Derringer RF2076 drum" },
     "description": "A compact 80-round drum for the Derringer RF2076.",
     "weight": "100 g",
     "volume": "1250 ml",
@@ -58,7 +58,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "223",
+    "ammo_type": [ "223" ],
     "capacity": 80,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]

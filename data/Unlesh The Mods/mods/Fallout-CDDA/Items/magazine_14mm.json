@@ -2,7 +2,7 @@
   {
     "id": "14mmpistolmag",
     "type": "MAGAZINE",
-    "name": "14mm pistol magazine",
+    "name": { "str": "14mm pistol magazine" },
     "description": "A solid black magazine chambered in 14mm.",
     "weight": "140 g",
     "volume": "250 ml",
@@ -10,7 +10,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "black",
-    "ammo_type": "14mm",
+    "ammo_type": [ "14mm" ],
     "capacity": 7,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]
@@ -18,7 +18,7 @@
   {
     "id": "14mmsmgmag",
     "type": "MAGAZINE",
-    "name": "14mm smg magazine",
+    "name": { "str": "14mm smg magazine" },
     "description": "A solid black magazine chambered in 14mm. It has rear sights on it.",
     "weight": "140 g",
     "volume": "250 ml",
@@ -26,7 +26,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "#",
     "color": "black",
-    "ammo_type": "14mm",
+    "ammo_type": [ "14mm" ],
     "capacity": 21,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]

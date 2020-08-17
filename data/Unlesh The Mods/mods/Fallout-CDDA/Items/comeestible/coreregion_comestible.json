@@ -28,8 +28,7 @@
   {
     "type": "COMESTIBLE",
     "id": "rum_roentgen",
-    "name": { "str": "Roentgen Rum" },
-    "name_plural": "Roentgen Rum",
+    "name": { "str": "Roentgen Rum", "str_pl": "Roentgen Rum" },
     "weight": "33 g",
     "color": "yellow",
     "addiction_type": "alcohol",
@@ -55,8 +54,7 @@
   {
     "type": "COMESTIBLE",
     "id": "beer_gamma",
-    "name": { "str": "Gamma Gulp Beer" },
-    "name_plural": "Gamma Gulp Beer",
+    "name": { "str": "Gamma Gulp Beer", "str_pl": "Gamma Gulp Beer" },
     "weight": "33 g",
     "color": "green",
     "addiction_type": "alcohol",
@@ -82,8 +80,7 @@
   {
     "type": "COMESTIBLE",
     "id": "healing_powder",
-    "name": { "str": "Healing Powder" },
-    "name_plural": "servings of Healing Powder",
+    "name": { "str": "Healing Powder", "str_pl": "servings of Healing Powder" },
     "weight": "6 g",
     "color": "yellow",
     "container": "bottle_plastic_small",
@@ -104,8 +101,7 @@
   {
     "type": "COMESTIBLE",
     "id": "healing_powder_drink",
-    "name": { "str": "Healing Drink" },
-    "name_plural": "Healing Drink",
+    "name": { "str": "Healing Drink", "str_pl": "Healing Drink" },
     "weight": "263 g",
     "color": "yellow",
     "container": "bottle_glass",
@@ -165,8 +161,7 @@
   {
     "type": "COMESTIBLE",
     "id": "xander_root",
-    "name": { "str": "Xander Root" },
-    "name_plural": "Xander Roots",
+    "name": { "str": "Xander Root", "str_pl": "Xander Roots" },
     "weight": "238 g",
     "color": "green",
     "comestible_type": "FOOD",
@@ -185,8 +180,7 @@
   {
     "type": "COMESTIBLE",
     "id": "broc_flower",
-    "name": { "str": "Broc Flower" },
-    "name_plural": "Broc Flowers",
+    "name": { "str": "Broc Flower", "str_pl": "Broc Flowers" },
     "weight": "96 g",
     "color": "yellow",
     "comestible_type": "FOOD",
@@ -230,8 +224,7 @@
   {
     "type": "COMESTIBLE",
     "id": "beer_5x",
-    "name": { "str": "XXXXX beer" },
-    "name_plural": "XXXXX beer",
+    "name": { "str": "XXXXX beer", "str_pl": "XXXXX beer" },
     "weight": "249 g",
     "color": "brown",
     "addiction_type": "alcohol",
@@ -271,7 +264,7 @@
     "description": "Amazingly, still edible.",
     "price": 1250,
     "material": [ "wheat", "fruit", "junk" ],
-    "volume": "1 L",
+    "volume": "1000 ml",
     "charges": 6,
     "flags": [ "EATEN_HOT" ],
     "fun": 20,

@@ -84,7 +84,7 @@
     "name": { "str": "L30 Gatling Laser" },
     "description": "An H&K L30 Gatling Laser. Designed specifically for military use, these were in the prototype stage at the beginning of the Cataclysm. Multiple barrels allow longer firing before overheating. Powered by Micro Fusion Cells, or a UPS.",
     "weight": "9500 g",
-    "volume": "4500 ml",
+    "volume": 18,
     "price": 750000,
     "to_hit": -1,
     "bashing": 8,
@@ -106,6 +106,7 @@
   {
     "id": "grenademg",
     "copy-from": "launcher_base",
+    "looks_like": "m79",
     "type": "GUN",
     "name": { "str": "grenade machinegun" },
     "description": "An experimental pre-cataclsym weapon, firing grenades with speeds nearly unheard of. Incredibly dangerous.",
@@ -144,10 +145,12 @@
     "dispersion": 270,
     "durability": 9,
     "clip_size": 6,
-    "reload": 150
+    "reload": 150,
+    "magazines": [ [ "25mm", [ "25mmdrummag", "25mmdrummagxl" ] ] ]
   },
   {
     "id": "broadsider",
+    "looks_like": "m79",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -170,10 +173,12 @@
     "clip_size": 3,
     "reload": 1200,
     "loudness": 400,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cannonball": 3 } } ]
   },
   {
     "id": "rockwell_bigbazooka",
+    "looks_like": "atgm",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -195,7 +200,8 @@
     "clip_size": 1,
     "reload": 600,
     "loudness": 200,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bbrocket": 1 } } ]
   },
   {
     "id": "amr50",
@@ -224,6 +230,7 @@
   },
   {
     "id": "70mm_autocannon",
+    "looks_like": "m79",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -249,6 +256,7 @@
   },
   {
     "id": "tank_gun_dual",
+    "looks_like": "m79",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -269,10 +277,12 @@
     "clip_size": 8,
     "reload": 1500,
     "loudness": 300,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 8 } } ],
     "flags": [ "NO_RELOAD", "MOUNTED_GUN" ]
   },
   {
     "id": "tank_gun_105",
+    "looks_like": "m79",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -293,6 +303,7 @@
     "durability": 9,
     "clip_size": 1,
     "reload": 1400,
-    "loudness": 300
+    "loudness": 300,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 1 } } ]
   }
 ]
