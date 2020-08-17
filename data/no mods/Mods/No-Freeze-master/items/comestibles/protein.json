@@ -3,7 +3,7 @@
     "id": "protein_drink",
     "type": "COMESTIBLE",
     "comestible_type": "DRINK",
-    "name": "protein drink",
+    "name": { "str": "protein drink" },
     "copy-from": "protein_drink",
     "freezing_point": -1000
   },
@@ -11,22 +11,21 @@
     "id": "protein_powder",
     "type": "COMESTIBLE",
     "comestible_type": "FOOD",
-    "name": "protein powder",
-    "name_plural": "servings of protein powder",
+    "name": { "str": "protein powder", "str_pl": "servings of protein powder" },
     "copy-from": "protein_powder",
     "freezing_point": -1000
   },
   {
     "id": "protein_shake",
     "type": "COMESTIBLE",
-    "name": "protein shake",
+    "name": { "str": "protein shake" },
     "copy-from": "protein_shake",
     "freezing_point": -1000
   },
   {
     "id": "protein_shake_fortified",
     "type": "COMESTIBLE",
-    "name": "fortified protein shake",
+    "name": { "str": "fortified protein shake" },
     "copy-from": "protein_shake_fortified",
     "freezing_point": -1000
   }
