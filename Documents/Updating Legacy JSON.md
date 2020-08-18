@@ -212,7 +212,7 @@ Then,
 ```regex
 "name_plural": "([ a-z]+)",
 
-"str_plural": "$1"
+"str_plural": "$1",
 ```
 Afterwards, manually join the fields together. Trust me, it'll still save time.
 
