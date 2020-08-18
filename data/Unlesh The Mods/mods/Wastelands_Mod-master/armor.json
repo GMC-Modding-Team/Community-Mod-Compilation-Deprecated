@@ -2,7 +2,7 @@
   {
     "type": "ARMOR",
     "id": "ragshirt",
-    "name": "rag shirt",
+    "name": { "str": "rag shirt" },
     "weight": "100 g",
     "color": "white",
     "covers": [ "torso" ],
@@ -24,11 +24,10 @@
   {
     "type": "ARMOR",
     "id": "ragpants",
-    "name": "rag pants",
-    "name_plural": "rag pants",
+    "name": { "str": "rag pants", "str_pl": "rag pants" },
     "weight": "650 g",
     "color": "light_gray",
-    "covers": [ "leg_l", "leg_r" ],
+    "covers": [ "LEG_L", "LEG_R" ],
     "to_hit": 0,
     "storage": 6,
     "symbol": "[",
