@@ -2,7 +2,7 @@
   {
     "id": "XEAS_bag",
     "type": "ARMOR",
-    "name": "xeas bag",
+    "name": { "str": "xeas bag" },
     "description": "Small lace bag. But large inside!",
     "weight": "300 g",
     "volume": "3 L",
@@ -17,7 +17,12 @@
     "coverage": 1,
     "encumbrance": 1,
     "max_encumbrance": 1,
-    "storage": "120 L",
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "40 L", "max_contains_weight": "50 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "40 L", "max_contains_weight": "50 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "20 L", "max_contains_weight": "30 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "20 L", "max_contains_weight": "30 kg", "moves": 80 }
+    ],
     "warmth": 1,
     "material_thickness": 2,
     "flags": [ "BELTED", "WATERPROOF", "STURDY", "POWERARMOR_COMPATIBLE" ]
