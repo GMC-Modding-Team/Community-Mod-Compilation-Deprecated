@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_helmet_plump",
-    "name": "dark truffle",
+    "name": { "str": "dark truffle" },
     "weight": "120 g",
     "color": "magenta",
     "spoils_in": "270 days",
@@ -21,7 +21,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_helmet_plump_cooked",
-    "name": "cooked dark truffle",
+    "name": { "str": "cooked dark truffle" },
     "weight": "120 g",
     "color": "magenta",
     "spoils_in": "180 days",
@@ -40,7 +40,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_pod_sweet",
-    "name": "vibrant bulb",
+    "name": { "str": "vibrant bulb" },
     "weight": "115 g",
     "color": "red",
     "spoils_in": "360 days",
@@ -54,8 +54,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_wheat_cave",
-    "name": "cloudy brush",
-    "name_plural": "cloudy brushes",
+    "name": { "str": "cloudy brush", "str_pl": "cloudy brushes" },
     "weight": "120 g",
     "color": "white",
     "comestible_type": "FOOD",
@@ -68,7 +67,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_tails_pig",
-    "name": "spiral stalk",
+    "name": { "str": "spiral stalk" },
     "weight": "120 g",
     "color": "light_gray",
     "comestible_type": "FOOD",
@@ -81,8 +80,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_bush_quarry",
-    "name": "hardened bramble branch",
-    "name_plural": "hardened bramble branches",
+    "name": { "str": "hardened bramble branch", "str_pl": "hardened bramble branches" },
     "weight": "200 g",
     "color": "brown",
     "comestible_type": "FOOD",
@@ -95,7 +93,7 @@
   {
     "type": "COMESTIBLE",
     "id": "caveyot_bush_quarry_cooked",
-    "name": "handful of roasted hardened bramble nuts",
+    "name": { "str": "handful of roasted hardened bramble nuts" },
     "looks_like": "hickory_nut_roasted",
     "weight": "120 g",
     "color": "brown",
