@@ -2,7 +2,7 @@
   {
     "type": "MONSTER",
     "id": "mon_shoggoth_maid",
-    "name": "shoggoth maid",
+    "name": { "str": "shoggoth maid" },
     "species": "NETHER",
     "default_faction": "player",
     "symbol": "M",
@@ -40,8 +40,7 @@
   {
     "type": "MONSTER",
     "id": "maid_master",
-    "name": "master",
-    "name_plural": "masters",
+    "name": { "str": "master", "str_pl": "masters" },
     "species": "UNKNOWN",
     "default_faction": "player",
     "symbol": "m",
@@ -70,7 +69,7 @@
   {
     "type": "MONSTER",
     "id": "mon_little_maid",
-    "name": "little maid",
+    "name": { "str": "little maid" },
     "species": "NETHER",
     "default_faction": "player",
     "symbol": "m",
@@ -102,7 +101,7 @@
   {
     "type": "MONSTER",
     "id": "mon_alchemic_golem",
-    "name": "alchemic flesh golem (cooked)",
+    "name": { "str": "alchemic flesh golem (cooked)" },
     "species": "NETHER",
     "default_faction": "player",
     "symbol": "g",
