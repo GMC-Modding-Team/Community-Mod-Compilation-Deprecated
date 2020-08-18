@@ -2,8 +2,7 @@
   {
     "type": "GENERIC",
     "id": "boxing_gloves_vo",
-    "name": { "str": "Boxing gloves with stone" },
-    "name_plural": "Boxing gloves with stone",
+    "name": { "str": "Boxing gloves with stone", "str_pl": "Boxing gloves with stone" },
     "weight": "1110 g",
     "color": "red",
     "to_hit": -2,
@@ -20,8 +19,7 @@
   {
     "type": "GENERIC",
     "id": "unbio_claws_weapon_vo",
-    "name": { "str": "bionic claws" },
-    "name_plural": "bionic claws",
+    "name": { "str": "bionic claws", "str_pl": "bionic claws" },
     "description": "Short and sharp claws made from a high-tech metal.",
     "weight": "1650 g",
     "color": "light_gray",
@@ -85,7 +83,7 @@
     "symbol": "{",
     "material": [ "wood", "steel" ],
     "techniques": [ "RAPID", "SWEEP" ],
-    "volume": 6,
+    "volume": "1500 ml",
     "bashing": 5,
     "cutting": 9,
     "category": "weapons",

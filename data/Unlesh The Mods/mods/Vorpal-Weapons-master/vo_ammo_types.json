@@ -2,14 +2,13 @@
   {
     "type": "ammunition_type",
     "id": "blood_clearn_vo",
-    "name": "Blood transfusion pack",
+    "name": { "str": "Blood transfusion pack" },
     "default": "blood_clearn_vo"
   },
   {
     "type": "AMMO",
     "id": "blood_clearn_vo",
-    "name": "Blood for transfusion",
-    "name_plural": "Blood for transfusion",
+    "name": { "str": "Blood for transfusion", "str_pl": "Blood for transfusion" },
     "color": "red",
     "symbol": "~",
     "description": "It is cleaned blood.",
@@ -17,7 +16,7 @@
     "weight": "50 g",
     "volume": "250 ml",
     "category": "spare_parts",
-    "ammo_type": "blood_clearn_vo",
+    "ammo_type": [ "blood_clearn_vo" ],
     "phase": "liquid",
     "damage": { "damage_type": "stab", "amount": 0 },
     "range": 0,
@@ -30,8 +29,7 @@
     "type": "TOOL",
     "id": "blood_clean_off_vo",
     "category": "drugs",
-    "name": "Blood transfusion pack (off)",
-    "name_plural": "Blood transfusion pack (off)",
+    "name": { "str": "Blood transfusion pack (off)", "str_pl": "Blood transfusion pack (off)" },
     "description": "It is a transfusion pack kept clean. It can be used as it is.",
     "weight": "30 g",
     "symbol": "%",
@@ -62,7 +60,7 @@
     "category": "drugs",
     "symbol": "%",
     "color": "red",
-    "name": "Blood transfusion pack (on)",
+    "name": { "str": "Blood transfusion pack (on)" },
     "description": "It is a transfusion pack kept clean. It is strange to see blood coming inside of me.",
     "price": 100,
     "material": [ "plastic" ],
@@ -85,14 +83,13 @@
     "category": "spare_parts",
     "symbol": "%",
     "color": "white",
-    "name": "Blood transfusion pack (empty)",
-    "name_plural": "Blood transfusion pack (empty)",
+    "name": { "str": "Blood transfusion pack (empty)", "str_pl": "Blood transfusion pack (empty)" },
     "description": "It is an empty transfusion pack. It can be reused if it washes cleanly. Probably it will be okay.",
     "price": 100,
     "material": [ "plastic" ],
     "weight": "30 g",
     "volume": "250 ml",
     "flags": [ "NO_UNLOAD" ],
-    "ammo": "blood_clearn_vo"
+    "ammo": [ "blood_clearn_vo" ]
   }
 ]
