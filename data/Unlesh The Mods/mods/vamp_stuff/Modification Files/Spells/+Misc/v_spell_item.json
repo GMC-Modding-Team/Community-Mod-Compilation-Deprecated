@@ -7,7 +7,7 @@
     "name": "leech's whip",
     "description": "Viscious dire whip, serving its owner with an unbreakable loyalty. Throbs as if it is alive, its bloodlust flows through its wielder who radiates in faint, velvety aura.\n* 10% chance to perform Sweeping Strike while attacking. Sweeping Strike deals <color_gray>16 cutting damage</color> to foes in a very wide cone.\n* 20% chance to drain life force from an adjacent foe when hit, dealing up to <color_green>2 biological damage</color> and heals you by <color_green>1</color>.",
     "weight": "2110 g",
-    "volume": 6,
+    "volume": "1500 ml",
     "material": [ "flesh" ],
     "techniques": [ "PRECISE", "RAPID", "WBLOCK_2" ],
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "TRADER_AVOID", "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "MAGIC_FOCUS" ],
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "covers": [ "head", "torso", "arm_r", "arm_l", "leg_r", "leg_l" ],
+    "covers": [ "HEAD", "torso", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "flags": [ "PERSONAL", "OVERSIZE", "BLOCK_WHILE_WORN", "SEMITANGIBLE", "NO_DROP" ]
   },
   {
@@ -97,7 +97,7 @@
         }
       ]
     },
-    "covers": [ "arm_r", "arm_l" ],
+    "covers": [ "ARM_R", "ARM_L" ],
     "flags": [ "AURA", "ONLY_ONE", "SEMITANGIBLE", "NO_DROP" ]
   }
 ]
