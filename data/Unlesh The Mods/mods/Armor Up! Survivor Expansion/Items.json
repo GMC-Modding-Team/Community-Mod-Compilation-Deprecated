@@ -58,13 +58,16 @@
     "material": [ "kevlar", "cotton" ],
     "symbol": "[",
     "color": "green",
-    "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 100,
     "encumbrance": 6,
-    "storage": 2,
     "warmth": 10,
     "material_thickness": 1,
     "environmental_protection": 2,
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 45 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 45 }
+    ],
     "flags": [ "VARSIZE", "RAINPROOF", "STURDY", "SKINTIGHT" ]
   },
   {
@@ -102,7 +105,29 @@
     "covers": [ "torso" ],
     "coverage": 30,
     "encumbrance": 12,
-    "storage": 50,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "14 L",
+        "max_contains_weight": "18 kg",
+        "max_item_length": "22 cm",
+        "moves": 265
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "15 cm",
+        "moves": 235
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "12 cm",
+        "moves": 215
+      }
+    ],
     "material_thickness": 2,
     "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED" ]
   }
