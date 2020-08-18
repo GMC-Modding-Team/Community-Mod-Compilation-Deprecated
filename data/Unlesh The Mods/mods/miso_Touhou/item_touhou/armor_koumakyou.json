@@ -2,8 +2,7 @@
   {
     "id": "lumia_ribbon",
     "type": "ARMOR",
-    "name": { "str": "ribbon" },
-    "name_plural": "ribbons",
+    "name": { "str": "ribbon", "str_pl": "ribbons" },
     "description": "It is a bill like a ribbon, but it seems to have no effect in this world. Thanks to the loss of sealing, you can exercise some abilities.",
     "weight": "20 g",
     "volume": "3 ml",
@@ -15,13 +14,12 @@
     "coverage": 5,
     "warmth": 0,
     "material_thickness": 1,
-    "flags": [ "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS" ]
+    "flags": [ "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "ZERO_WEIGHT" ]
   },
   {
     "id": "cirno_ribbon",
     "type": "ARMOR",
-    "name": { "str": "ribbon" },
-    "name_plural": "ribbons",
+    "name": { "str": "ribbon", "str_pl": "ribbons" },
     "description": "It is a blue big ribbon that brings out the cuteness.",
     "weight": "20 g",
     "volume": "250 ml",
@@ -38,8 +36,7 @@
   {
     "id": "cirno_wing1",
     "type": "ARMOR",
-    "name": { "str": "ice wings" },
-    "name_plural": "ice wings",
+    "name": { "str": "ice wings", "str_pl": "ice wings" },
     "description": "Transparent wings that tells of being an ice fairy. No matter how cold it is.",
     "weight": "1 g",
     "volume": "3 ml",
@@ -47,17 +44,16 @@
     "material": [ "glass" ],
     "symbol": "[",
     "color": "light_blue",
-    "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "torso", "head", "mouth", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 0,
     "warmth": 50,
     "material_thickness": 0,
-    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT" ]
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "ZERO_WEIGHT" ]
   },
   {
     "id": "cirno_wing2",
     "type": "ARMOR",
-    "name": { "str": "ice wings" },
-    "name_plural": "ice wings",
+    "name": { "str": "ice wings", "str_pl": "ice wings" },
     "description": "Transparent wings that tells of being an ice fairy. No matter how cold it is.",
     "weight": "1 g",
     "volume": "3 ml",
@@ -65,17 +61,16 @@
     "material": [ "glass" ],
     "symbol": "[",
     "color": "light_blue",
-    "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "torso", "head", "mouth", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 0,
     "warmth": 50,
     "material_thickness": 0,
-    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT" ]
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "ZERO_WEIGHT" ]
   },
   {
     "id": "cirno_wing3",
     "type": "ARMOR",
-    "name": { "str": "ice wings" },
-    "name_plural": "ice wings",
+    "name": { "str": "ice wings", "str_pl": "ice wings" },
     "description": "Transparent wings that tells of being an ice fairy. No matter how cold it is.",
     "weight": "1 g",
     "volume": "3 ml",
@@ -83,17 +78,16 @@
     "material": [ "glass" ],
     "symbol": "[",
     "color": "light_blue",
-    "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "torso", "head", "mouth", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 0,
     "warmth": 50,
     "material_thickness": 0,
-    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT" ]
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT", "ZERO_WEIGHT" ]
   },
   {
     "id": "cirno_onepiece",
     "type": "ARMOR",
-    "name": { "str": "one-piece dress" },
-    "name_plural": "one-piece dresses",
+    "name": { "str": "one-piece dress", "str_pl": "one-piece dresses" },
     "description": "A blue-based, easy-to-move clothes that looks good on a lively girl.",
     "weight": "550 g",
     "volume": "500 ml",
@@ -110,8 +104,7 @@
   {
     "id": "meirin_dress",
     "type": "ARMOR",
-    "name": { "str": "Chinese dress" },
-    "name_plural": "Chinese dresses",
+    "name": { "str": "Chinese dress", "str_pl": "Chinese dresses" },
     "description": "A Chinese dress with a large slit in the skirt, including elements of cheongsam. It is easy to move and sturdy.",
     "weight": "1875 g",
     "volume": "2 L",
@@ -122,7 +115,10 @@
     "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 80,
     "encumbrance": 7,
-    "storage": 4,
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "585 ml", "max_contains_weight": "1 kg", "moves": 145 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "585 ml", "max_contains_weight": "1 kg", "moves": 145 }
+    ],
     "warmth": 15,
     "material_thickness": 3,
     "flags": [ "VARSIZE", "FANCY", "STURDY" ]
@@ -130,8 +126,7 @@
   {
     "id": "meirin_jinminbou",
     "type": "ARMOR",
-    "name": { "str": "jinminbou" },
-    "name_plural": "jinminbou",
+    "name": { "str": "jinminbou", "str_pl": "jinminbou" },
     "description": "It is a simple hat with the decoration of the character of 'dragon'.",
     "weight": "200 g",
     "volume": "250 ml",
@@ -148,8 +143,7 @@
   {
     "id": "fairy_maid_dress",
     "type": "ARMOR",
-    "name": { "str": "small maid clothes" },
-    "name_plural": "small maid clothes",
+    "name": { "str": "small maid clothes", "str_pl": "small maid clothes" },
     "description": "A child-sized maid's dress with holes in the back for feathers.",
     "weight": "600 g",
     "volume": "2 L",
@@ -160,7 +154,10 @@
     "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 68,
     "encumbrance": 7,
-    "storage": 2,
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "300 ml", "max_contains_weight": "775 g", "moves": 15 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "300 ml", "max_contains_weight": "775 g", "moves": 115 }
+    ],
     "warmth": 5,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "FANCY" ]
@@ -168,20 +165,22 @@
   {
     "id": "patchouli_robe",
     "type": "ARMOR",
-    "name": { "str": "robe" },
-    "name_plural": "robes",
+    "name": { "str": "robe", "str_pl": "robes" },
     "description": "A loose robe resembling a nightwear.",
-    "weight": "1000 g",
+    "weight": "1 kg",
     "volume": "2250 ml",
     "price": 10000,
     "to_hit": -5,
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "light_purple",
-    "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
     "coverage": 90,
     "encumbrance": 11,
-    "storage": 12,
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1800 ml", "max_contains_weight": "3 kg", "moves": 165 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1800 ml", "max_contains_weight": "3 kg", "moves": 165 }
+    ],
     "warmth": 15,
     "material_thickness": 2,
     "environmental_protection": 2,
@@ -190,8 +189,7 @@
   {
     "id": "patchouli_cap",
     "type": "ARMOR",
-    "name": { "str": "night cap" },
-    "name_plural": "night caps",
+    "name": { "str": "night cap", "str_pl": "night caps" },
     "description": "It is a night cap with a crescent decoration.",
     "weight": "100 g",
     "volume": "250 ml",
@@ -210,8 +208,7 @@
   {
     "id": "vampir_cloth",
     "type": "ARMOR",
-    "name": { "str": "robe" },
-    "name_plural": "robes",
+    "name": { "str": "robe", "str_pl": "robes" },
     "description": "It is a magic robe specially prepared by Patchouli. It is heavy and bulky, but it prevents sunlight.",
     "weight": "5017 g",
     "volume": "5250 ml",
@@ -219,10 +216,13 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "brown",
-    "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "head", "mouth", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "encumbrance": 15,
-    "storage": 12,
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1800 ml", "max_contains_weight": "3 kg", "moves": 165 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1800 ml", "max_contains_weight": "3 kg", "moves": 165 }
+    ],
     "warmth": 20,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "RAIN_PROTECT", "OUTER", "ALLOWS_NATURAL_ATTACKS", "STURDY", "OVERSIZE" ]
@@ -230,8 +230,7 @@
   {
     "id": "scarlet_cap",
     "type": "ARMOR",
-    "name": { "str": "night cap" },
-    "name_plural": "night cap",
+    "name": { "str": "night cap", "str_pl": "night cap" },
     "description": "It is a night cap with a big ribbon tied. Made of the finest silk, it is soft and comfortable to wear.",
     "weight": "100 g",
     "volume": "250 ml",
@@ -249,8 +248,7 @@
   {
     "id": "remilia_dress",
     "type": "ARMOR",
-    "name": { "str": "dress" },
-    "name_plural": "dresses",
+    "name": { "str": "dress", "str_pl": "dresses" },
     "description": "It is a lovely dress made of cherry-colored cloth. A big red ribbon is tied to the waist, and the skirt length is up to the ankle. It is made of the finest silk and is very comfortable to wear.",
     "weight": "680 g",
     "volume": "3500 ml",
@@ -259,7 +257,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "light_pink",
-    "covers": [ "leg_l", "leg_r", "torso" ],
+    "covers": [ "torso", "leg_l", "leg_r" ],
     "coverage": 85,
     "encumbrance": 7,
     "warmth": 15,
@@ -269,8 +267,7 @@
   {
     "id": "frandre_dress1",
     "type": "ARMOR",
-    "name": { "str": "blouse" },
-    "name_plural": "blouses",
+    "name": { "str": "blouse", "str_pl": "blouses" },
     "description": "A short-sleeved shirt made of white fabric. It is made of the finest silk and is very comfortable to wear.",
     "weight": "220 g",
     "volume": "500 ml",
@@ -289,8 +286,7 @@
   {
     "id": "frandre_dress2",
     "type": "ARMOR",
-    "name": { "str": "shirt" },
-    "name_plural": "shirts",
+    "name": { "str": "shirt", "str_pl": "shirts" },
     "description": "A short sleeved shirt made of crimson cloth. It is made of the finest silk and is very comfortable to wear.",
     "weight": "360 g",
     "volume": "500 ml",
@@ -309,8 +305,7 @@
   {
     "id": "frandre_skirt",
     "type": "ARMOR",
-    "name": { "str": "skirt" },
-    "name_plural": "skirts",
+    "name": { "str": "skirt", "str_pl": "skirts" },
     "description": "It is a rolled skirt made of crimson cloth. Since the skirt length is only up to the knees, it looks like it moves around too much. It is made of the finest silk and is very comfortable to wear.",
     "weight": "380 g",
     "volume": "750 ml",
