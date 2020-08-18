@@ -2,7 +2,7 @@
   {
     "id": "ninja_shuriken_smg",
     "type": "GUN",
-    "name": "Shuriken thrower (smg)",
+    "name": { "str": "Shuriken thrower (smg)" },
     "description": "It is a device which modified the coil gun. You can shoot shuriken continuously. To use it should be installed in the vehicle.",
     "weight": "12000 g",
     "volume": 21,
@@ -30,7 +30,7 @@
   {
     "id": "ninja_shuriken_smg",
     "type": "vehicle_part",
-    "name": "Automotive / Sub Machine Gun (Shuriken)",
+    "name": { "str": "Automotive / Sub Machine Gun (Shuriken)" },
     "item": "ninja_shuriken_smg",
     "location": "on_roof",
     "symbol": "t",
@@ -56,7 +56,7 @@
   {
     "id": "ninja_vp_tatami",
     "type": "vehicle_part",
-    "name": "Aisle (tatami)",
+    "name": { "str": "Aisle (tatami)" },
     "item": "straw_pile",
     "location": "center",
     "symbol": "#",
@@ -76,7 +76,7 @@
   {
     "id": "ninja_tatami_aisle",
     "type": "GENERIC",
-    "name": "Aisle (tatami)",
+    "name": { "str": "Aisle (tatami)" },
     "description": "Tatami is traditional Japanese flooring. It is very cool and calm. This tatami can be installed as the floor of the vehicle.",
     "weight": "4000 g",
     "volume": 12,
@@ -88,7 +88,7 @@
   {
     "id": "ninja_tatami_aisle",
     "type": "vehicle_part",
-    "name": "Aisle (tatami)",
+    "name": { "str": "Aisle (tatami)" },
     "item": "ninja_tatami_aisle",
     "location": "center",
     "symbol": "#",
