@@ -14,7 +14,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "MBR vest (ceramic plates)",
-    "name_plural": "MBR vests (ceramic plates)",
+    "str_pl": "MBR vests (ceramic plates)",
     "copy-from": "modularvestceramic",
     "flags": [ "BELTED", "STURDY" ],
     "extend": { "use_action": { "flags": [ "MAG_BULKY" ] } }
@@ -24,7 +24,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "MBR vest (hard plates)",
-    "name_plural": "MBR vests (hard plates)",
+    "str_pl": "MBR vests (hard plates)",
     "copy-from": "modularvesthard",
     "flags": [ "BELTED", "STURDY" ],
     "extend": { "use_action": { "flags": [ "MAG_BULKY" ] } }
@@ -34,7 +34,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "MBR vest (Kevlar plates)",
-    "name_plural": "MBR vests (Kevlar plates)",
+    "str_pl": "MBR vests (Kevlar plates)",
     "copy-from": "modularvestkevlar",
     "flags": [ "BELTED", "STURDY" ],
     "extend": { "use_action": { "flags": [ "MAG_BULKY" ] } }
@@ -44,7 +44,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "MBR vest (steel plating)",
-    "name_plural": "MBR vests (steel plating)",
+    "str_pl": "MBR vests (steel plating)",
     "description": "A Modular Bullet Resistant Vest.  Its armor pouches have steel plates in them; this improves protection, but makes the vest much heavier and encumbering.",
     "copy-from": "modularveststeel",
     "flags": [ "BELTED", "STURDY" ],
@@ -55,7 +55,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "MBR vest (superalloy)",
-    "name_plural": "MBR vests (superalloy)",
+    "str_pl": "MBR vests (superalloy)",
     "copy-from": "modularvestsuper",
     "flags": [ "BELTED", "STURDY" ],
     "extend": { "use_action": { "flags": [ "MAG_BULKY" ] } }
@@ -66,7 +66,7 @@
     "id": "UPS_off",
     "type": "TOOL",
     "name": "UPS",
-    "name_plural": "UPS's",
+    "str_pl": "UPS's",
     "extend": { "flags": [ "UPS_MAG" ] }
   },
   {
@@ -74,7 +74,7 @@
     "id": "adv_UPS_off",
     "type": "TOOL",
     "name": "advanced UPS",
-    "name_plural": "advanced UPS's",
+    "str_pl": "advanced UPS's",
     "extend": { "flags": [ "UPS_MAG" ] }
   },
   {
