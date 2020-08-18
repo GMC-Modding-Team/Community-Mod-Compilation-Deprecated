@@ -108,7 +108,7 @@
     "type": "COMESTIBLE",
     "id": "crispycran",
     "name": { "str": "crispy cranberry", "str_pl": "crispy cranberries" },
-    "copy-from": "crispycran",
+    "copy-from": "crispycran",c
     "freezing_point": -1000
   },
   {
@@ -331,16 +331,14 @@
   {
     "type": "COMESTIBLE",
     "id": "irish_coffee",
-    "name": { "str": "Irish coffee" },
-    "name_plural": "Irish coffee",
+    "name": { "str": "Irish coffee", "str_pl": "Irish coffee" },
     "copy-from": "irish_coffee",
     "freezing_point": -1000
   },
   {
     "type": "COMESTIBLE",
     "id": "long_island",
-    "name": { "str": "Long Island iced tea" },
-    "name_plural": "Long Island iced tea",
+    "name": { "str": "Long Island iced tea", "str_pl": "Long Island iced tea" },
     "copy-from": "long_island",
     "freezing_point": -1000
   },
@@ -362,7 +360,7 @@
     "type": "COMESTIBLE",
     "id": "drink_rumcola",
     "name": { "str": "rum & cola" },
-    "name_plural": "rum & cola",
+    "str_pl": "rum & cola",
     "copy-from": "drink_rumcola",
     "freezing_point": -1000
   },
@@ -411,24 +409,21 @@
   {
     "type": "COMESTIBLE",
     "id": "european_pilsner",
-    "name": { "str": "European pilsner" },
-    "name_plural": "European pilsner",
+    "name": { "str": "European pilsner", "str_pl": "European pilsner" },
     "copy-from": "european_pilsner",
     "freezing_point": -1000
   },
   {
     "type": "COMESTIBLE",
     "id": "pale_ale",
-    "name": { "str": "American pale ale" },
-    "name_plural": "American pale ale",
+    "name": { "str": "American pale ale", "str_pl": "American pale ale" },
     "copy-from": "pale_ale",
     "freezing_point": -1000
   },
   {
     "type": "COMESTIBLE",
     "id": "india_pale_ale",
-    "name": { "str": "India pale ale" },
-    "name_plural": "India pale ale",
+    "name": { "str": "India pale ale", "str_pl": "India pale ale" },
     "copy-from": "india_pale_ale",
     "freezing_point": -1000
   },
@@ -442,8 +437,7 @@
   {
     "type": "COMESTIBLE",
     "id": "belgian_ale",
-    "name": { "str": "Belgian ale" },
-    "name_plural": "Belgian ale",
+    "name": { "str": "Belgian ale", "str_pl": "Belgian ale" },
     "copy-from": "belgian_ale",
     "freezing_point": -1000
   },
@@ -913,7 +907,7 @@
     "type": "COMESTIBLE",
     "id": "toasterpastryfrozen",
     "name": { "str": "toaster pastry (uncooked)" },
-    "name_plural": "toaster pastries (uncooked)",
+    "str_pl": "toaster pastries (uncooked)",
     "copy-from": "toasterpastryfrozen",
     "freezing_point": -1000
   },
@@ -1026,7 +1020,7 @@
     "type": "COMESTIBLE",
     "id": "smores",
     "name": { "str": "s'mores" },
-    "name_plural": "s'mores",
+    "str_pl": "s'mores",
     "copy-from": "smores",
     "freezing_point": -1000
   },
@@ -1097,7 +1091,7 @@
     "type": "COMESTIBLE",
     "id": "sandwich_pbj",
     "name": { "str": "PB&J sandwich" },
-    "name_plural": "PB&J sandwiches",
+    "str_pl": "PB&J sandwiches",
     "copy-from": "sandwich_pbj",
     "freezing_point": -1000
   },
@@ -1105,7 +1099,7 @@
     "type": "COMESTIBLE",
     "id": "sandwich_pbh",
     "name": { "str": "PB&H sandwich" },
-    "name_plural": "PB&H sandwiches",
+    "str_pl": "PB&H sandwiches",
     "copy-from": "sandwich_pbh",
     "freezing_point": -1000
   },
@@ -1113,7 +1107,7 @@
     "type": "COMESTIBLE",
     "id": "sandwich_pbm",
     "name": { "str": "PB&M sandwich" },
-    "name_plural": "PB&M sandwiches",
+    "str_pl": "PB&M sandwiches",
     "copy-from": "sandwich_pbm",
     "freezing_point": -1000
   },
@@ -1474,7 +1468,7 @@
     "type": "COMESTIBLE",
     "id": "macaroni_cooked",
     "name": { "str": "mac & cheese" },
-    "name_plural": "mac & cheese",
+    "str_pl": "mac & cheese",
     "copy-from": "macaroni_cooked",
     "freezing_point": -1000
   },
@@ -2002,8 +1996,7 @@
   {
     "type": "COMESTIBLE",
     "id": "frenchtoast",
-    "name": { "str": "French toast" },
-    "name_plural": "French toasts",
+    "name": { "str": "French toast", "str_pl": "French toasts" },
     "copy-from": "frenchtoast",
     "freezing_point": -1000
   },
@@ -2291,7 +2284,7 @@
     "type": "COMESTIBLE",
     "id": "sauerkraut_onions",
     "name": { "str": "sauerkraut w/ sautee'd onions" },
-    "name_plural": "sauerkraut w/ sautee'd onions",
+    "str_pl": "sauerkraut w/ sautee'd onions",
     "copy-from": "sauerkraut_onions",
     "freezing_point": -1000
   },
@@ -2544,15 +2537,14 @@
     "type": "COMESTIBLE",
     "id": "fries",
     "name": { "str": "fast-food French fries" },
-    "name_plural": "fast-food French fries",
+    "str_pl": "fast-food French fries",
     "copy-from": "fries",
     "freezing_point": -1000
   },
   {
     "type": "COMESTIBLE",
     "id": "fresh_fries",
-    "name": { "str": "French fries" },
-    "name_plural": "French fries",
+    "name": { "str": "French fries", "str_pl": "French fries" },
     "copy-from": "fresh_fries",
     "freezing_point": -1000
   },
@@ -3176,8 +3168,7 @@
     "id": "mex_chocolate",
     "type": "COMESTIBLE",
     "category": "food",
-    "name": { "str": "Mexican hot chocolate" },
-    "name_plural": "Mexican hot chocolate",
+    "name": { "str": "Mexican hot chocolate", "str_pl": "Mexican hot chocolate" },
     "copy-from": "mex_chocolate",
     "freezing_point": -1000
   },
