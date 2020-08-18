@@ -6,7 +6,7 @@
     "symbol": "(",
     "color": "brown",
     "name": "RPG-7 TAC",
-    "name_plural": "RPG-7 TAC",
+    "str_pl": "RPG-7 TAC",
     "description": "  <color_yellow>▋</color>RPG-7 Tactical(<color_yellow>Tactical</color>)\r\n<color_dark_gray>    「Warning: please do not aim at the face」</color>\r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n  伤害          <good>■■■■■■■■■■■■■■■■■■■</good>□   9\r\n  准确度        <good>■■■■■■■■■■■■</good>□□□□□□□□   5\r\n  射程          <good>■■■■■■■■■■■■■■■</good>□□□□□   7\r\n  射速          <good>■■■■</good>□□□□□□□□□□□□□□□□   2\r\n  操作性        <good>■■■■■■■■■■■■</good>□□□□□□□□   5\r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n<color_dark_gray>Tactical RPG！Just attach your favorite accessory and turn it into a Christmas tree too！</color>",
     "price": 250000,
     "material": [ "steel", "plastic" ],
@@ -41,7 +41,7 @@
     "copy-from": "RPG_TAC",
     "type": "GUN",
     "name": "RPG-7 TAC",
-    "name_plural": "RPG-7 TAC",
+    "str_pl": "RPG-7 TAC",
     "countdown_interval": 1,
     "countdown_action": { "target": "RPG_TAC", "type": "transform" }
   },
@@ -50,7 +50,7 @@
     "copy-from": "RPG_TAC",
     "type": "GUN",
     "name": "A cool bazooka",
-    "name_plural": "A cool bazooka",
+    "str_pl": "A cool bazooka",
     "description": "-[Unidentified]-",
     "proportional": { "price": 0.35 },
     "use_action": {
@@ -66,7 +66,7 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "AK-M4 Assault rifle",
-    "name_plural": "AK-M4 Assault rifle",
+    "str_pl": "AK-M4 Assault rifle",
     "description": "  <color_yellow>▋</color>AK-M4(<color_yellow>Drunk</color>)\r\n<color_dark_gray>    「AK and AR were drunk that day」</color>\r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n  Hurt          <good>■■■■■■■■■■■</good>□□□□□□□□□   5\r\n  准确度        <good>■■■■■■■■■■■■</good>□□□□□□□□   5\r\n  射程          <good>■■■■■■■■■■■■■■</good>□□□□□□   6\r\n  射速          <good>■■■■■■■■■■■■■■</good>□□□□□□   6\r\n  操作性        <good>■■■■■■■■■■■■■■■</good>□□□□□   7\r\n<color_dark_gray>─────────────────────────────────────────</color>\r\n<color_dark_gray>This beauty is a hybrid of AK47 in the Eastern Hemisphere and M4 in the Western Hemisphere.</color>",
     "material": [ "steel" ],
     "weight": "1000 g",
@@ -112,7 +112,7 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "AK-M4 Assault rifle",
-    "name_plural": "AK-M4 Assault rifle",
+    "str_pl": "AK-M4 Assault rifle",
     "countdown_interval": 1,
     "countdown_action": { "target": "AKAR_B", "type": "transform" }
   },
@@ -121,7 +121,7 @@
     "copy-from": "AKAR_B",
     "type": "GUN",
     "name": "A strange gun",
-    "name_plural": "A strange gun",
+    "str_pl": "A strange gun",
     "description": "-[Unidentified]-",
     "proportional": { "price": 0.35 },
     "use_action": { "target": "AKAR_B_C", "msg": "你仔细的检查了一遍武器.", "menu_text": "鉴定武器", "type": "transform" }
