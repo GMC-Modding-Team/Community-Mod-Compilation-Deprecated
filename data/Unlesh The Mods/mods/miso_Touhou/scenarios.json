@@ -2,7 +2,7 @@
   {
     "type": "scenario",
     "id": "lab_gensou",
-    "name": "Challenge - Lab (Gensou)",
+    "name": { "str": "Challenge - Lab (Gensou)",
     "points": -8,
     "description": "The existence of another world, or a special ability, may be a reason that is more than enough to attract researchers' interest. Having been experimented, I was unable to exercise most of my abilities. On a cataclysmic day, a red-dressed red-haired female researcher freed you from jealousy.",
     "start_name": "Locked Lab",
@@ -94,20 +94,20 @@
     "type": "scenario",
     "copy-from": "schools_out",
     "id": "schools_out",
-    "name": "School",
+    "name": { "str": "School",
     "extend": { "professions": [ "kakasi2", "maribel_hearn", "usami_renko", "usami_sumireko", "kamisirasawa_keine" ] }
   },
   {
     "type": "scenario",
     "copy-from": "prisonbreak",
     "id": "prisonbreak",
-    "name": "Prison Break",
+    "name": { "str": "Prison Break",
     "extend": { "professions": [ "ekisya" ] }
   },
   {
     "type": "scenario",
     "id": "wilderness_gensou",
-    "name": "Lost (Gensou)",
+    "name": { "str": "Lost (Gensou)",
     "points": -1,
     "description": "I got lost in a forest I didn't know. I saw a dog that was still moving even though my body fell, and I realized that something was wrong, what is the point behind this forest?",
     "start_name": "Forest",
@@ -159,7 +159,7 @@
   {
     "type": "scenario",
     "id": "kirisame_magicshop",
-    "name": "Kirisame Magic Store",
+    "name": { "str": "Kirisame Magic Store",
     "points": 1,
     "description": "I was awakened by the strange cold, and when I looked out of the window while shrinking myself, the unfamiliar scenery was spreading. It seems that there is nothing but snow wind blowing outdoors to investigate the cause.",
     "start_name": "Kirisame Magic Store",
@@ -170,13 +170,13 @@
   {
     "type": "start_location",
     "id": "marisa_start01",
-    "name": "Kirisame Magic Store",
+    "name": { "str": "Kirisame Magic Store",
     "target": "marisanoie_2"
   },
   {
     "type": "scenario",
     "id": "koumakan",
-    "name": "Strange red house",
+    "name": { "str": "Strange red house",
     "points": -1,
     "description": "I've been lost in these bad fakes, the similarity of the atmosphere is so unpleasant. At first let's survive in this world anyway.",
     "start_name": "Strange Scarlet Magical Hall",
@@ -195,13 +195,13 @@
   {
     "type": "start_location",
     "id": "koumakan_modoki01",
-    "name": "Scarlet Western Mansion",
+    "name": { "str": "Scarlet Western Mansion",
     "target": "koumakan00_4"
   },
   {
     "type": "scenario",
     "id": "haraheri_yuyuko",
-    "name": "Challenge - Hungry",
+    "name": { "str": "Challenge - Hungry",
     "points": -5,
     "description": "'I'm hungry ... I have a dry throat ... I want to eat it all ...' It is not until you are starved to die, or it is first to freeze or die, or it is first to be killed by a monster. I was thrown out in the middle of the winter forest. The food reserves are not enough at all.",
     "start_name": "Forest",
@@ -212,7 +212,7 @@
   {
     "type": "scenario",
     "id": "bad_ekisen",
-    "name": "Challenge - Really Bad Day (Gensou)",
+    "name": { "str": "Challenge - Really Bad Day (Gensou)",
     "points": -12,
     "description": "When a man who shows off the part of the silly word and shows off to others as it is a syllabary that he has developed other than that. I can be resurrected from that world by the heart of jealousy.",
     "start_name": "Anywhere",
