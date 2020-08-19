@@ -2,8 +2,7 @@
   {
     "type": "vehicle_part",
     "id": "insulated_box_large",
-    "name": "large insulated box",
-    "name_plural": "large insulated boxes",
+    "name": { "str": "large insulated box", "str_pl": "large insulated boxes" },
     "description": "A storage place to keep your pizzas warm.  Might be useable for other food as well.",
     "symbol": "o",
     "color": "red",
@@ -21,7 +20,7 @@
   {
     "type": "vehicle_part",
     "id": "drone_interface",
-    "name": "drone interface",
+    "name": { "str": "drone interface" },
     "symbol": "$",
     "looks_like": "robot_controls",
     "color": "light_green",
