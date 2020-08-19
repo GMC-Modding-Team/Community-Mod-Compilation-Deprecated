@@ -512,5 +512,22 @@
     "reversible": true,
     "using": [ [ "bullet_forming", 2 ], [ "ammo_bullet", 2 ] ],
     "components": [ [ [ "55645_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "chem_black_powder", 3 ] ], [ [ "copper", 4 ] ] ]
+  },
+  {
+    "result": "50_bb",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "gun", 1 ],
+    "time": "1 m",
+    "batch_time_factors": [ 60, 10 ],
+    "autolearn": true,
+    "charges": 1,
+    "reversible": true,
+    "using": [ [ "ammo_bullet", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "chem_black_powder", 5 ] ], [ [ "paper", 1 ] ], [ [ "lead", 1 ] ] ]
   }
-]
+ ]

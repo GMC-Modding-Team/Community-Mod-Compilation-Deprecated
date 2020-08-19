@@ -6,7 +6,7 @@
     "looks_like": "SKS",
     "type": "GUN",
     "name": "VSS",
-    "str_pl": "VSS",
+    "name_plural": "VSS",
     "description": "The VSS or Vintorez is a suppressed sniper rifle that uses a heavy subsonic 9×39mm SP5 cartridges and armor-piercing SP6 cartridges. The rifle can be fired in semi-auto or in full-auto",
     "weight": "2599 g",
     "volume": "3 L",
@@ -22,6 +22,7 @@
     "durability": 7,
     "//": "The VSS' barrel is extremly short...",
     "barrel_volume": "32 ml",
+    "longest_side": "894 mm",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
     "built_in_mods": [ "suppressor" ],
     "valid_mod_locations": [
@@ -36,7 +37,6 @@
     ],
     "pocket_data": [
       {
-        "magazine_well": "250 ml",
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "20 L",
