@@ -3,7 +3,7 @@
     "abstract": "tiny_bird",
     "type": "MONSTER",
     "name": "tiny bird",
-    "description": "Just a tiny bird, quite cute",
+	"description": "Just a tiny bird, quite cute",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
     "species": [ "BIRD" ],
@@ -12,7 +12,7 @@
     "harvest": "bird_tiny",
     "hp": 4,
     "volume": "750 ml",
-    "weight": "1000 g",
+    "weight": 1000,
     "material": [ "flesh" ],
     "symbol": "v",
     "morale": 15,
@@ -457,7 +457,17 @@
     "vision_day": 45,
     "vision_night": 5,
     "path_settings": { "max_dist": 25 },
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "HIT_AND_RUN", "KEENNOSE", "GROUP_MORALE" ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ANIMAL",
+      "PATH_AVOID_DANGER_1",
+      "WARM",
+      "HIT_AND_RUN",
+      "KEENNOSE",
+      "GROUP_MORALE"
+    ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT", "SOUND" ]
   },
@@ -775,7 +785,18 @@
     "fear_triggers": [ "HURT", "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "BASHES", "DESTROYS", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "KEENNOSE",
+      "PATH_AVOID_DANGER_1",
+      "ANIMAL",
+      "WARM",
+      "BASHES",
+      "DESTROYS",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_bear_mega_mating",
@@ -1065,7 +1086,7 @@
     "fear_triggers": [ "HURT", "SOUND", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "biosignature": { "biosig_item": "feces_manure", "biosig_timer": 15 },
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "KEENNOSE", "SWARMS", "GROUP_MORALE", "CAN_DIG" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "KEENNOSE",  "SWARMS", "GROUP_MORALE", "CAN_DIG" ]
   },
   {
     "id": "mon_deer_small",

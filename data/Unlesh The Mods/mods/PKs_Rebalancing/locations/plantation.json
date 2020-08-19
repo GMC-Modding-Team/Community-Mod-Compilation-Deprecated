@@ -1,5 +1,20 @@
 [
   {
+    "type": "vehicle_group",
+    "id": "plantation_vehicles",
+    "vehicles": [
+      [ "motorcycle", 200 ],
+      [ "superbike", 100 ],
+      [ "motorcycle_sidecart", 100 ],
+      [ "quad_bike", 200 ],
+      [ "pickup", 100 ],
+      [ "portable_generator", 50 ],
+      [ "excavator", 100 ],
+      [ "meth_lab", 50 ],
+      [ "heavy_plow_tractor", 100 ]
+    ]
+  },
+  {
     "type": "mapgen",
     "om_terrain": "barn",
     "method": "json",

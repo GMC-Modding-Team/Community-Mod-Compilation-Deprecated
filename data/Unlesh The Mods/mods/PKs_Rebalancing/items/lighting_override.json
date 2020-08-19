@@ -7,8 +7,8 @@
     "material": [ "plastic", "powder" ],
     "symbol": ";",
     "color": "light_red",
-    "weight": "128 g",
-    "volume": "250 ml",
+    "weight": 128,
+    "volume": 1,
     "price": 400,
     "use_action": { "type": "transform", "target": "handflare_act", "active": true, "target_charges": 6, "msg": "You strike your flare." }
   },
@@ -44,7 +44,7 @@
     "copy-from": "cell_phone_flashlight",
     "type": "TOOL",
     "name": "cell phone - Flashlight",
-    "str_pl": "cell phones - Flashlight",
+    "name_plural": "cell phones - Flashlight",
     "turns_per_charge": 6
   }
 ]

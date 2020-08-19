@@ -2,7 +2,7 @@
   {
     "id": "mon_doom_archvile_queen",
     "type": "MONSTER",
-    "name": { "str": "archvile" },
+    "name": "archvile",
     "species": [ "ABERRATION" ],
     "default_faction": "upper_doom",
     "symbol": "A",
@@ -41,7 +41,7 @@
         "type": "gun",
         "cooldown": 30,
         "gun_type": "bomblet_launcher_rotary",
-        "ammo_type": [ "bomblet_archvile" ],
+        "ammo_type": "bomblet_archvile",
         "max_ammo": 1000,
         "fake_str": 10,
         "fake_dex": 20,
@@ -64,7 +64,7 @@
   {
     "id": "mon_imp_revive",
     "type": "MONSTER",
-    "name": { "str": "scarred imp" },
+    "name": "scarred imp",
     "species": [ "ABERRATION" ],
     "default_faction": "doom",
     "symbol": "i",
@@ -104,7 +104,7 @@
         "type": "gun",
         "cooldown": 5,
         "gun_type": "hell_ball",
-        "ammo_type": [ "flaming_skull" ],
+        "ammo_type": "flaming_skull",
         "max_ammo": 1000,
         "fake_str": 10,
         "fake_dex": 13,
@@ -120,12 +120,23 @@
       }
     ],
     "description": "This humanoid resembles a burnt cenobite.  It attacks with fire and claw, and is the grunt of the demonic armies.",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "POISON", "CLIMBS", "PUSH_MON", "GROUP_MORALE", "REVIVES", "REVIVES_HEALTHY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "CLIMBS",
+      "PUSH_MON",
+      "GROUP_MORALE",
+      "REVIVES",
+      "REVIVES_HEALTHY"
+    ]
   },
   {
     "id": "mon_pinky_revive",
     "type": "MONSTER",
-    "name": { "str": "scarred demon" },
+    "name": "scarred demon",
     "species": [ "ABERRATION" ],
     "default_faction": "doom",
     "symbol": "D",
@@ -184,7 +195,7 @@
   {
     "id": "mon_hell_knight_revive",
     "type": "MONSTER",
-    "name": { "str": "battered hell knight" },
+    "name": "battered hell knight",
     "species": [ "ABERRATION" ],
     "default_faction": "upper_doom",
     "symbol": "K",
@@ -226,7 +237,7 @@
         "type": "gun",
         "cooldown": 5,
         "gun_type": "hell_plasma",
-        "ammo_type": [ "hell_plasma_k" ],
+        "ammo_type": "hell_plasma_k",
         "max_ammo": 1000,
         "fake_str": 17,
         "fake_dex": 9,
@@ -259,7 +270,7 @@
   {
     "id": "mon_cacodemon_revive",
     "type": "MONSTER",
-    "name": { "str": "abhorrent cacodemon" },
+    "name": "abhorrent cacodemon",
     "species": [ "ABERRATION" ],
     "default_faction": "doom",
     "symbol": "C",
@@ -298,7 +309,7 @@
         "type": "gun",
         "cooldown": 3,
         "gun_type": "hell_plasma",
-        "ammo_type": [ "hell_plasma_c" ],
+        "ammo_type": "hell_plasma_c",
         "max_ammo": 1000,
         "fake_str": 16,
         "fake_dex": 5,
@@ -319,7 +330,7 @@
   {
     "id": "mon_doom_churl_revive",
     "type": "MONSTER",
-    "name": { "str": "enslaved churle" },
+    "name": "enslaved churle",
     "description": "A tortured slave; a living survivor, beaten, starved, wearing tattered rags and wielding a crude weapon.  They look hungry enough to eat anything.",
     "species": [ "MAMMAL" ],
     "default_faction": "doom",

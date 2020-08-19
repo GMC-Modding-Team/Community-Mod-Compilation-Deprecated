@@ -13,15 +13,15 @@
     "category": "weapons",
     "name": "micro acidbomb",
     "description": "A single glass flask filled with caustic chemicals.  When exposed to the air they will spray out in every direction, creating a modest field of acid.",
-    "weight": "285 g",
-    "volume": "250 ml",
+    "weight": 285,
+    "volume": 1,
     "price": 4500,
     "to_hit": -1,
     "bashing": 8,
     "material": [ "glass" ],
     "symbol": "*",
     "color": "light_green",
-    "ammo_type": [ "thrown" ],
+    "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_trail_slow" ],
     "countdown_interval": 18,
@@ -38,7 +38,7 @@
     "time": 900,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "clay_canister", 1 ], [ "flask_glass", 1 ] ], [ [ "chem_sulphuric_acid", 1 ] ], [ [ "string_6", 1 ] ], [ [ "rag", 1 ] ] ]
+    "components": [ [ [ "clay_canister", 1 ], [ "flask_glass", 1 ] ], [ [ "acid", 1 ] ], [ [ "string_6", 1 ] ], [ [ "rag", 1 ] ] ]
   },
   {
     "id": "acidbomb_medium",
@@ -46,15 +46,15 @@
     "category": "weapons",
     "name": "large acidbomb",
     "description": "There is enough frothing fluid inside this acidbomb to coat a relatively large area with fields of acid.",
-    "weight": "1640 g",
-    "volume": "500 ml",
+    "weight": 1640,
+    "volume": 2,
     "price": 10000,
     "to_hit": -1,
     "bashing": 8,
     "material": [ "glass" ],
     "symbol": "*",
     "color": "i_green",
-    "ammo_type": [ "thrown" ],
+    "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_large" ],
     "countdown_interval": 8,
@@ -82,7 +82,7 @@
     "components": [
       [ [ "bottle_glass", 1 ] ],
       [ [ "clay_canister", 1 ], [ "flask_glass", 1 ] ],
-      [ [ "chem_sulphuric_acid", 4 ] ],
+      [ [ "acid", 4 ] ],
       [ [ "string_36", 1 ] ],
       [ [ "rag", 2 ] ]
     ]
@@ -99,8 +99,8 @@
     "reversible": true,
     "autolearn": true,
     "components": [
-      [ [ "jar_glass_sealed", 2 ], [ "clay_canister", 4 ], [ "flask_glass", 4 ] ],
-      [ [ "chem_sulphuric_acid", 4 ] ],
+      [ [ "jar_glass", 2 ], [ "clay_canister", 4 ], [ "flask_glass", 4 ] ],
+      [ [ "acid", 4 ] ],
       [ [ "string_36", 1 ] ],
       [ [ "rag", 3 ] ]
     ]
