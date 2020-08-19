@@ -126,7 +126,7 @@
     "material_thickness": 2,
     "environmental_protection": 6,
     "max_charges": 1000,
-    "ammo": "plutonium",
+    "ammo": [ "plutonium" ],
     "artifact_data": { "effects_worn": [ "AEP_DEX_DOWN", "AEP_RESIST_ELECTRICITY" ] },
     "use_action": {
       "type": "transform",
@@ -160,7 +160,7 @@
     "environmental_protection": 8,
     "max_charges": 1000,
     "turns_per_charge": 6,
-    "ammo": "plutonium",
+    "ammo": [ "plutonium" ],
     "revert_to": "megaarmor_torso_3",
     "artifact_data": {
       "effects_worn": [ "AEP_STR_UP", "AEP_SPEED_UP", "AEP_DEX_DOWN", "AEP_RESIST_ELECTRICITY", "AEP_EVIL", "AEP_PSYSHIELD" ]
