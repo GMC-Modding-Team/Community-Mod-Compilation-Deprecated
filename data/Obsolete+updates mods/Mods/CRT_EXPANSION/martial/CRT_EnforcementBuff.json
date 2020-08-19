@@ -3,7 +3,7 @@
     "id": "manual_crt_enforcement",
     "copy-from": "book_martial",
     "type": "GENERIC",
-    "name": { "str": "C.R.I.T Enforcement manual" },
+    "name": "C.R.I.T Enforcement manual",
     "description": "An advanced military manual on C.R.I.T Enforcer melee.",
     "book_data": { "martial_art": "style_crt_enforcement" }
   },
@@ -15,7 +15,7 @@
   {
     "type": "martial_art",
     "id": "style_crt_enforcement",
-    "name": { "str": "C.R.I.T Enforcement" },
+    "name": "C.R.I.T Enforcement",
     "description": "A defensive style that is centered around stunning swings, knockback and grounding enemies.  Each attack landed increases your armor by 0.125 and offers other combat bonuses based on stats.",
     "initiate": [ "You ready yourself to stand your ground.", "%s draws a line in the sand." ],
     "arm_block": 2,
@@ -23,7 +23,7 @@
     "static_buffs": [
       {
         "id": "crt_enforcement_static",
-        "name": { "str": "Unyielding Front" },
+        "name": "Unyielding Front",
         "description": "Stand strong in the face of adversity. +1 armor.  STR provides accuracy and minor bash arpen.",
         "unarmed_allowed": false,
         "melee_allowed": true,
@@ -38,11 +38,11 @@
     "onhit_buffs": [
       {
         "id": "crt_enforcement_hit_buff",
-        "name": { "str": "Bulwark" },
+        "name": "Bulwark",
         "description": "+0.5 armor and other small bonuses per stack.  Max of 2 stacks",
         "unarmed_allowed": false,
         "melee_allowed": true,
-        "skill_requirements": [ { "name": { "str": "melee" }, "level": 1 } ],
+        "skill_requirements": [ { "name": "melee", "level": 1 } ],
         "buff_duration": 1,
         "max_stacks": 2,
         "flat_bonuses": [
@@ -84,8 +84,8 @@
   {
     "type": "technique",
     "id": "tec_crt_enforcement_normal",
-    "name": { "str": "Reprimand" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 1 } ],
+    "name": "Reprimand",
+    "skill_requirements": [ { "name": "melee", "level": 1 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ],
@@ -96,8 +96,8 @@
   {
     "type": "technique",
     "id": "tec_crt_enforcement_rapid",
-    "name": { "str": "Forced Compliance" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 2 } ],
+    "name": "Forced Compliance",
+    "skill_requirements": [ { "name": "melee", "level": 2 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "mult_bonuses": [ { "stat": "movecost", "scale": 0.8 } ],
@@ -110,8 +110,8 @@
   {
     "type": "technique",
     "id": "tec_crt_enforcement_brutal",
-    "name": { "str": "Roomsweeper" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 4 } ],
+    "name": "Roomsweeper",
+    "skill_requirements": [ { "name": "melee", "level": 4 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "flat_bonuses": [
