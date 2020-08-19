@@ -180,7 +180,7 @@
     "id": "mon_zolf_shady",
     "type": "MONSTER",
     "copy-from": "mon_zolf",
-    "name": "dark howler",
+    "name": { "str": "dark howler" },
     "description": "A zombified wolf with a shady disposition.  There are dirty white fangs, but you can't make out much else.",
     "diff": 16,
     "hp": 55,
@@ -242,7 +242,7 @@
   {
     "id": "mon_horse_zombie",
     "type": "MONSTER",
-    "name": "zombie horse",
+    "name": { "str": "zombie horse" },
     "description": "This horse has a brackish liquid coating its bared teeth, as well as the occasional oozing wounds breaking the otherwise glorious sheen of its hair.  Its hooves are fearsome weapons.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -289,7 +289,7 @@
   {
     "id": "mon_zombie_dog_pk",
     "type": "MONSTER",
-    "name": "zombie chaser",
+    "name": { "str": "zombie chaser" },
     "description": "Its fur pulled taunt and dyed a faint green, this once-dog is now an accomplished pack hunter.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -321,7 +321,7 @@
   {
     "id": "mon_dog_skeleton_pk",
     "type": "MONSTER",
-    "name": "hell hound",
+    "name": { "str": "hell hound" },
     "description": "Through its smoke you can make out a lithe, tightly wound frame.  From time to time it emits a coarse, rumbling howl that sounds like it came from the bowels of the Earth.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -368,7 +368,7 @@
   {
     "id": "mon_dog_zombie_cop_pk",
     "type": "MONSTER",
-    "name": "zombie hunting dog",
+    "name": { "str": "zombie hunting dog" },
     "description": "This engorged dog sloshes audibly as it erratically leaps after new prey.  Its rubbery body appears to both slow it down some and resist blunt trauma.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -409,7 +409,7 @@
     "id": "mon_bear_smoky_pk",
     "type": "MONSTER",
     "copy_from": "mon_zombear",
-    "name": "smoky bear",
+    "name": { "str": "smoky bear" },
     "description": "A smoking husk is all that remains of this once proud bear.  Its black eyes gaze at you with malice... and hunger.",
     "default_faction": "bear",
     "categories": [ "WILDLIFE" ],
@@ -457,8 +457,7 @@
   {
     "id": "mon_zombie_child_scorched",
     "type": "MONSTER",
-    "name": "zombie kinderling",
-    "name_plural": "zombie kinderlings",
+    "name": { "str": "zombie kinderling", "str_pl": "zombie kinderlings" },
     "description": "A tiny, still-smoldering body, jumping and kicking and flailing around in a mockery of playground exercise.  It does not need a face for you to feel bad about killing it.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -505,7 +504,7 @@
   {
     "id": "mon_zombie_scorched",
     "type": "MONSTER",
-    "name": "scorched zombie",
+    "name": { "str": "scorched zombie" },
     "description": "Heavily burned zombie that still reeks of charred flesh.  Its skin has hardened and cracked in several areas.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -540,7 +539,7 @@
     "id": "mon_zombie_fiend",
     "type": "MONSTER",
     "copy-from": "mon_zombie_fiend",
-    "name": "fiend",
+    "name": { "str": "fiend" },
     "description": "Charred zombie with bony plates, spikes and protursions.  Moves stiffly about.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -574,7 +573,7 @@
   {
     "id": "mon_zombie_scorched_pk",
     "type": "MONSTER",
-    "name": "scorched zombie",
+    "name": { "str": "scorched zombie" },
     "description": "Heavily burned zombie that still reeks of charred flesh.  Its skin has hardened and cracked in several areas.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -607,7 +606,7 @@
   {
     "id": "mon_zombie_scorched_shocker",
     "type": "MONSTER",
-    "name": "scorched zombie",
+    "name": { "str": "scorched zombie" },
     "description": "Heavily burned zombie that still reeks of charred flesh.  Its skin has hardened and cracked in several areas.  From various wounds a faint crackling can be seen.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -654,7 +653,7 @@
   {
     "id": "mon_zombie_fiend_pk",
     "type": "MONSTER",
-    "name": "fiend",
+    "name": { "str": "fiend" },
     "description": "Charred zombie with bony plates, spikes and protrusions.  Moves stiffly about.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -687,7 +686,7 @@
   {
     "id": "mon_zombie_fiend_shocker",
     "type": "MONSTER",
-    "name": "fiend",
+    "name": { "str": "fiend" },
     "description": "Charred zombie with bony plates, spikes and protrusions.  Moves stiffly about.  Occasionally small bursts of electricity arch from its hands.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -723,7 +722,7 @@
   {
     "id": "mon_zombie_crawler_scorched",
     "type": "MONSTER",
-    "name": "gutted zombie",
+    "name": { "str": "gutted zombie" },
     "description": "Burned to the point of near blob-exsanguination, this weak zombie is hardly a threat to anything.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -755,7 +754,7 @@
   {
     "id": "mon_skeleton_scorched",
     "type": "MONSTER",
-    "name": "gutted zombie",
+    "name": { "str": "gutted zombie" },
     "description": "Burned to the point of blob-exsanguination, this weak zombie is hardly a threat to anything.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -787,7 +786,7 @@
   {
     "id": "mon_zombie_scorched_necro",
     "type": "MONSTER",
-    "name": "zombie abomination",
+    "name": { "str": "zombie abomination" },
     "description": "An encrusted humanoid mass so blackened by fire only the simmering of the liquid oozing from its wounds indicate damage.  Still seems capable of supporting its horde despite it weakened state.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -832,7 +831,7 @@
   {
     "id": "mon_zombie_scorched_master",
     "type": "MONSTER",
-    "name": "zombie abomination",
+    "name": { "str": "zombie abomination" },
     "description": "An encrusted humanoid mass so blackened by fire only the simmering of the liquid oozing from its wounds indicate damage.  Still seems capable of controlling its horde despite it weakened state.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -877,7 +876,7 @@
   {
     "id": "mon_zombie_child_scorched_2",
     "type": "MONSTER",
-    "name": "burned child zombie",
+    "name": { "str": "burned child zombie" },
     "description": "A tiny, horribly charred body, jumping and kicking and flailing around in a mockery of playground exercise.  It does not need a face for you to feel bad about killing it.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -923,7 +922,7 @@
   {
     "id": "mon_horse_zombie_scorched",
     "type": "MONSTER",
-    "name": "hooved horror",
+    "name": { "str": "hooved horror" },
     "description": "Blackened hooves adorn the charred limbs of this monstrous being.  It lumbers after prey with horrifying  speed, snuffing them out with brutal force.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -955,7 +954,7 @@
   {
     "id": "mon_zolf_scorched",
     "type": "MONSTER",
-    "name": "torrid beast",
+    "name": { "str": "torrid beast" },
     "description": "A scorched, chaotic mass of flesh, squirming and writhing to slowly work its way across the ground.  A couple of bony scythes have ruptured out of the pile and wave around erratically as it nears.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1001,7 +1000,7 @@
   {
     "id": "mon_zanimal_scorched",
     "type": "MONSTER",
-    "name": "putrid pile",
+    "name": { "str": "putrid pile" },
     "description": "An appaling black mass of flowing crusted flesh, the liquid of this beast seems to be more fleeing than flowing, such as rats on a sinking ship.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1037,7 +1036,7 @@
   {
     "id": "mon_zanimal_skeleton",
     "type": "MONSTER",
-    "name": "putrified pile",
+    "name": { "str": "putrified pile" },
     "description": "An appaling black mass of flowing crusted flesh, flailing helplessly about.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1068,7 +1067,7 @@
   {
     "id": "mon_zanimal_skeleton_dead",
     "type": "MONSTER",
-    "name": "putrified pile",
+    "name": { "str": "putrified pile" },
     "description": "An appaling black mass of flowing crusted flesh, flailing helplessly about.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1097,7 +1096,7 @@
   {
     "id": "mon_zombie_bear_mega",
     "type": "MONSTER",
-    "name": "zombie megabear",
+    "name": { "str": "zombie megabear" },
     "description": "Although the elephant bears seem much more capable of avoiding death at the hands of zombies, a few do fall.  Several humanoid zombies can fit into its mere shadow.",
     "default_faction": "zombie",
     "species": [ "MAMMAL" ],
