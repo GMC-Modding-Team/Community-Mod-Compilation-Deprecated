@@ -3,33 +3,44 @@
     "type": "scenario",
     "name": "Challenge - Castaway",
     "description": "The aftermath of your plane crash has left you stranded and unconscious on a lake thankfully you've washed up on a lush green island.",
-    "id": "castaway_scen",
-    "points": -8,
-    "allowed_locs": [ "island_forest", "island_forest_thick", "island_forest_water", "island_field" ],
+    "ident": "castaway_scen",
+    "points": -7,
+    "allowed_locs": [ "sloc_island" ],
     "start_name": "Island",
     "professions": [ "castaway" ],
-    "flags": [ "LONE_START", "HELI_CRASH", "SUM_START" ]
+    "flags": [ "CHALLENGE", "LONE_START", "HELI_CRASH", "SUM_START", "LAKE" ]
   },
   {
     "type": "scenario",
     "name": "Challenge - Airline Disaster",
     "description": "the plane you're in has crash landed on a field to add insult to injury some passengers have turned into the walking dead.",
-    "id": "airdis_scen",
+    "ident": "airdis_scen",
     "points": -6,
-    "allowed_locs": [ "airliner_1a" ],
-    "start_name": "Plane Crash",
+    "allowed_locs": [ "sloc_airliner" ],
+    "start_name": "Plane Crash Site",
     "professions": [ "tweaker", "medic", "unemployed", "us_airmarshal", "politician", "detective", "backpacker" ],
-    "flags": [ "CHALLENGE", "SUR_START", "HELI_CRASH", "FIRE_START" ]
+    "flags": [ "CHALLENGE", "SUR_START", "HELI_CRASH", "WILDERNESS", "LONE_START" ]
   },
   {
     "type": "scenario",
     "name": "Stranger",
     "description": "while you are resting on your cabin a stranger knocked on your door claiming that a number of people is after him or her",
-    "id": "Stranger_scen",
-    "points": -4,
-    "allowed_locs": [ "cabin", "cabin_1", "cabin_2", "cabin_3", "cabin_4", "cabin_5", "cabin_6", "cabin_7" ],
+    "ident": "Stranger_scen",
+    "points": -3,
+    "allowed_locs": [ "sloc_cabin" ],
     "start_name": "Cabin",
     "professions": [ "lumberjack", "tailor", "trapper", "senior", "jr_survivalist", "survivalist" ],
-    "flags": [ "SUR_START" ]
+    "flags": [ "SUR_START", "WILDERNESS" ]
+  },
+  {
+    "type": "scenario",
+    "name": "The Graveyard",
+    "description": "Reasons why you visited or even live in or near a cemetery does not matter because the dead have now risen from there graves.",
+    "ident": "graveyard_scen",
+    "points": -3,
+    "allowed_locs": [ "sloc_cemetery_med", "sloc_cemetery_big" ],
+    "start_name": "Cemetery",
+    "professions": [ "unemployed", "tweaker", "priest", "senior", "homeless", "preacher", "punkrockgirl", "skaboy", "gangster" ],
+    "flags": [ "SUR_START", "LONE_START", "WILDERNESS" ]
   }
 ]
