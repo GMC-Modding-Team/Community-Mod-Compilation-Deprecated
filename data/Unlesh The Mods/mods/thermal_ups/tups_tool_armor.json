@@ -13,7 +13,7 @@
     "weight": "864 g",
     "volume": "2 L",
     "use_action": { "type": "transform", "msg": "You activate your %s.", "target": "thermal_suit_ups_on", "active": true },
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "TORSO", "ARM_L", "ARM_R", "LEG_L", "LEG_R" ],
     "warmth": 10,
     "coverage": 100,
     "material_thickness": 1
@@ -46,7 +46,7 @@
     "weight": "1452 g",
     "volume": "4500 ml",
     "use_action": { "type": "transform", "msg": "You activate your %s.", "target": "thermal_outfit_ups_on", "active": true },
-    "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "leg_l", "leg_r", "hand_l", "hand_r", "foot_l", "foot_r" ],
+    "covers": [ "HEAD", "MOUTH", "TORSO", "ARM_L", "ARM_R", "LEG_L", "LEG_R", "HAND_L", "HAND_R", "FOOT_L", "FOOT_R" ],
     "warmth": 10,
     "coverage": 100,
     "material_thickness": 1
@@ -62,7 +62,7 @@
     "power_draw": 130000,
     "revert_to": "thermal_outfit_ups",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s deactivates.", "target": "thermal_outfit_ups" },
-    "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "leg_l", "leg_r", "hand_l", "hand_r", "foot_l", "foot_r" ],
+    "covers": [ "HEAD", "MOUTH", "TORSO", "ARM_L", "ARM_R", "LEG_L", "LEG_R", "HAND_L", "HAND_R", "FOOT_L", "FOOT_R" ],
     "warmth": 100
   }
 ]
