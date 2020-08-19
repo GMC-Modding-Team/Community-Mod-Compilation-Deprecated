@@ -173,7 +173,7 @@
     "color": "yellow",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 20 } } ],
     "max_charges": 20,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ],
     "techniques": [ "WBLOCK_2" ],
     "use_action": [
@@ -222,7 +222,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 3 } } ],
     "max_charges": 3,
     "charges_per_use": 3,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_hammerzeit", "no_fail": true, "need_wielding": true, "level": 0 },
     "relative": { "weight": "360 g", "bashing": 2, "price": 12000 },
     "extend": { "flags": [ "NO_SALVAGE" ] }
@@ -240,7 +240,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 9 } } ],
     "max_charges": 9,
     "charges_per_use": 1,
-    "ammo": "essence_type",
+    "ammo": [ "essence_type" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -844,7 +844,7 @@
     "color": "brown",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 3 } } ],
     "max_charges": 3,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "volume": "750 ml",
     "relative": { "bashing": -2, "weight": "-200 g" },
     "use_action": [
@@ -883,7 +883,7 @@
     "max_charges": 3,
     "turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 3 } } ],
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "revert_to": "bloodaxe",
     "use_action": {
       "type": "explosion",
@@ -1381,7 +1381,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_pure_type": 1 } } ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "ammo": "essence_pure_type",
+    "ammo": [ "essence_pure_type" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -1416,7 +1416,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 300 } } ],
     "max_charges": 300,
     "charges_per_use": 1,
-    "ammo": "essence_dull_type",
+    "ammo": [ "essence_dull_type" ],
     "use_action": [
       {
         "type": "repair_item",
@@ -1540,7 +1540,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 10 } } ],
     "max_charges": 10,
     "charges_per_use": 2,
-    "ammo": "essence_type",
+    "ammo": [ "essence_type" ],
     "relic_data": {
       "passive_effects": [
         {
@@ -1585,7 +1585,7 @@
     "cutting": 21,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 24 } } ],
     "max_charges": 24,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "use_action": [
       {
         "target": "scourge_moonstone_on",
@@ -1634,7 +1634,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 8 } } ],
     "max_charges": 8,
     "charges_per_use": 1,
-    "ammo": "essence_type",
+    "ammo": [ "essence_type" ],
     "techniques": [ "RAPID", "DEF_DISARM" ],
     "qualities": [ [ "BUTCHER", 6 ] ],
     "relic_data": {
@@ -1684,7 +1684,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_pure_type": 10 } } ],
     "max_charges": 10,
     "charges_per_use": 1,
-    "ammo": "essence_pure_type",
+    "ammo": [ "essence_pure_type" ],
     "use_action": { "type": "mutagen_iv", "mutation_category": "VEIL" },
     "relic_data": {
       "passive_effects": [
@@ -1725,7 +1725,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 10 } } ],
     "max_charges": 10,
     "charges_per_use": 10,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "use_action": { "type": "mutagen_iv", "mutation_category": "DRAGONBLOOD" }
   },
   {
@@ -1742,7 +1742,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 9 } } ],
     "max_charges": 9,
     "charges_per_use": 9,
-    "ammo": "essence_blood_type",
+    "ammo": [ "essence_blood_type" ],
     "use_action": [ { "type": "cast_spell", "spell_id": "arcana_item_stormbringer", "no_fail": true, "need_wielding": true, "level": 0 } ],
     "relative": { "to_hit": -1, "cutting": -5 },
     "extend": { "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] },
