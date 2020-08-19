@@ -6,12 +6,12 @@
     "description": "abstract part for APEX module - if you see this, it's a bug",
     "symbol": "[",
     "color": "light_gray",
-    "volume": "3 ml",
-    "weight": "3 g",
+    "volume": "0 ml",
+    "weight": "0 g",
     "coverage": 0,
     "covers": [ "torso" ],
     "price": 1000000,
-    "flags": [ "TRADER_AVOID", "ONLY_ONE", "SEMITANGIBLE", "ALLOWS_NATURAL_ATTACKS" ]
+    "flags": [ "TRADER_AVOID", "ONLY_ONE", "SEMITANGIBLE", "ALLOWS_NATURAL_ATTACKS", "ZERO_WEIGHT" ]
   },
   {
     "abstract": "apex_module_system",
@@ -25,14 +25,14 @@
     "name": "APEX suit module (cortex)",
     "type": "ARMOR",
     "copy-from": "apex_module",
-    "covers": [ "head" ]
+    "covers": [ "HEAD" ]
   },
   {
     "abstract": "apex_module_mobility",
     "name": "APEX suit module (mobility)",
     "type": "ARMOR",
     "copy-from": "apex_module",
-    "covers": [ "head" ]
+    "covers": [ "HEAD" ]
   },
   {
     "id": "apex_module_strength",
@@ -40,34 +40,54 @@
     "name": "APEX suit module (strength enhancement)",
     "type": "ARMOR",
     "weight_capacity_bonus": "30 kg",
-    "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 3 } ] } ] }
   },
   {
     "id": "apex_module_stealth",
     "copy-from": "apex_module_system",
     "name": "APEX suit module (stealth suite)",
     "type": "ARMOR",
-    "artifact_data": { "effects_worn": [ "AEP_STEALTH", "AEP_INVISIBLE" ] }
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "STRENGTH", "add": 0 } ],
+          "mutations": [ "DEBUG_SILENT", "DEBUG_CLOAK" ]
+        }
+      ]
+    }
   },
   {
     "id": "apex_module_wallhack",
     "copy-from": "apex_module_system",
     "name": "APEX suit module (ultrawide band scanner)",
     "type": "ARMOR",
-    "artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE" ] }
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "STRENGTH", "add": 0 } ],
+          "mutations": [ "DEBUG_CLAIRVOYANCE" ]
+        }
+      ]
+    }
   },
   {
     "id": "apex_module_exocortex",
     "copy-from": "apex_module_cortex",
     "type": "ARMOR",
     "name": "APEX suit module (exocortex)",
-    "artifact_data": { "effects_worn": [ "AEP_INT_UP" ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 3 } ] } ] }
   },
   {
     "id": "apex_module_mobil",
     "copy-from": "apex_module_mobility",
     "type": "ARMOR",
     "name": "APEX suit module (mobility suite)",
-    "artifact_data": { "effects_worn": [ "AEP_SPEED_UP" ] }
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "multiply": 0.25 } ] } ]
+    }
   }
 ]
