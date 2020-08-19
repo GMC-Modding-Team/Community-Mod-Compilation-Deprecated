@@ -15,7 +15,7 @@
   {
     "type": "martial_art",
     "id": "style_crt_blade",
-    "name": { "str": "CRIT Blade-work" },
+    "name": "CRIT Blade-work",
     "description": "An offensive style centered around rapid slashes and prodding.  Each attack landed increases combat ability but leaves you increasingly vunerable",
     "initiate": [ "You prepare to whittle down your enemies.", "%s initiates blade-work." ],
     "arm_block": 99,
@@ -23,11 +23,11 @@
     "static_buffs": [
       {
         "id": "crt_blade_static",
-        "name": { "str": "Calculating Eyes" },
+        "name": "Calculating Eyes",
         "description": "You have been taught how to properly utilize small to medium-sized sharp weaponry. Gain great Cutting and Stabbing Armor Penetration on top of minor Accuracy",
         "unarmed_allowed": false,
         "melee_allowed": true,
-        "skill_requirements": [ { "name": { "str": "melee" }, "level": 0 } ],
+        "skill_requirements": [ { "name": "melee", "level": 0 } ],
         "flat_bonuses": [
           { "stat": "arpen", "type": "stab", "scale": 5.0 },
           { "stat": "arpen", "type": "cut", "scale": 5.0 },
@@ -36,7 +36,7 @@
       },
       {
         "id": "crt_blade_static_2",
-        "name": { "str": "Honed Movements" },
+        "name": "Honed Movements",
         "description": "Your skill and handling with sharp weaponry has improved. Gain extra Cutting and Stabbing damage.",
         "unarmed_allowed": false,
         "melee_allowed": true,
@@ -51,11 +51,11 @@
     "onhit_buffs": [
       {
         "id": "crt_blade_hit_buff",
-        "name": { "str": "Unwavering Edge" },
+        "name": "Unwavering Edge",
         "description": "Gain minor Accuracy, Cutting and Stabbing Arpen per stack. Greatly reduces dodge skill. 2 stacks max",
         "unarmed_allowed": false,
         "melee_allowed": true,
-        "skill_requirements": [ { "name": { "str": "melee" }, "level": 0 } ],
+        "skill_requirements": [ { "name": "melee", "level": 0 } ],
         "buff_duration": 2,
         "max_stacks": 2,
         "flat_bonuses": [
@@ -66,11 +66,11 @@
       },
       {
         "id": "crt_blade_hit_buff_2",
-        "name": { "str": "Ruthlessness" },
+        "name": "Ruthlessness",
         "description": "Additional Stabbing and Cutting damage per stack.  Reduces dodge attempts. 4 stacks max.",
         "unarmed_allowed": false,
         "melee_allowed": true,
-        "skill_requirements": [ { "name": { "str": "melee" }, "level": 4 } ],
+        "skill_requirements": [ { "name": "melee", "level": 4 } ],
         "buff_duration": 1,
         "bonus_dodges": -1,
         "max_stacks": 4,
@@ -78,7 +78,7 @@
       },
       {
         "id": "crt_blade_hit_buff_3",
-        "name": { "str": "Rending Strikes" },
+        "name": "Rending Strikes",
         "description": "Additional Armor penetration per stack.  Further reduces dodge attempts. 3 stacks max.",
         "unarmed_allowed": false,
         "melee_allowed": true,
@@ -154,8 +154,8 @@
   {
     "type": "technique",
     "id": "tec_crt_blade_rapid",
-    "name": { "str": "Tipped Intent" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 2 } ],
+    "name": "Tipped Intent",
+    "skill_requirements": [ { "name": "melee", "level": 2 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "mult_bonuses": [
@@ -169,8 +169,8 @@
   {
     "type": "technique",
     "id": "tec_crt_blade_slash",
-    "name": { "str": "Shimmer Flurry" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 3 } ],
+    "name": "Shimmer Flurry",
+    "skill_requirements": [ { "name": "melee", "level": 3 } ],
     "unarmed_allowed": false,
     "melee_allowed": true,
     "crit_ok": true,
@@ -183,8 +183,8 @@
   {
     "type": "technique",
     "id": "tec_crt_blade_precise",
-    "name": { "str": "Mirage Slash" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 6 } ],
+    "name": "Mirage Slash",
+    "skill_requirements": [ { "name": "melee", "level": 6 } ],
     "weighting": 1,
     "unarmed_allowed": false,
     "melee_allowed": true,
@@ -200,8 +200,8 @@
   {
     "type": "technique",
     "id": "tec_crt_blade_execute",
-    "name": { "str": "The Point" },
-    "skill_requirements": [ { "name": { "str": "melee" }, "level": 6 } ],
+    "name": "The Point",
+    "skill_requirements": [ { "name": "melee", "level": 6 } ],
     "weighting": 3,
     "unarmed_allowed": false,
     "melee_allowed": true,
