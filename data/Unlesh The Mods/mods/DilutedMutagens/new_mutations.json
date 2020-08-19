@@ -12,15 +12,15 @@
     "changes_to": ["FEATHERS"],
     "category": ["BIRD_DILUTED"],
     "wet_protection": [
-      {"part": "LEG_L", "ignored": 4}, {"part": "LEG_R", "ignored": 4},
-      {"part": "FOOT_L", "ignored": 1}, {"part": "FOOT_R", "ignored": 1},
-      {"part": "ARM_L", "ignored": 3}, {"part": "ARM_R", "ignored": 3},
-      {"part": "HAND_L", "ignored": 1}, {"part": "HAND_R", "ignored": 1}
+      {"part": "leg_l", "ignored": 4}, {"part": "leg_r", "ignored": 4},
+      {"part": "foot_l", "ignored": 1}, {"part": "foot_r", "ignored": 1},
+      {"part": "arm_l", "ignored": 3}, {"part": "arm_r", "ignored": 3},
+      {"part": "hand_l", "ignored": 1}, {"part": "hand_r", "ignored": 1}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 1
       }
@@ -60,7 +60,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 1
       }
@@ -83,7 +83,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 1
       }
@@ -106,7 +106,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 1
       }
@@ -139,15 +139,15 @@
     "changes_to": ["CHITIN2_DILUTED", "CHITIN_FUR_DILUTED", "CHITIN"],
     "category": ["SPIDER_DILUTED"],
     "wet_protection": [
-      {"part": "LEG_L", "ignored": 5}, {"part": "LEG_R", "ignored": 5},
-      {"part": "FOOT_L", "ignored": 1}, {"part": "FOOT_R", "ignored": 1},
-      {"part": "ARM_L", "ignored": 4}, {"part": "ARM_R", "ignored": 4},
-      {"part": "HAND_L", "ignored": 1}, {"part": "HAND_R", "ignored": 1}
+      {"part": "leg_l", "ignored": 5}, {"part": "leg_r", "ignored": 5},
+      {"part": "foot_l", "ignored": 1}, {"part": "foot_r", "ignored": 1},
+      {"part": "arm_l", "ignored": 4}, {"part": "arm_r", "ignored": 4},
+      {"part": "hand_l", "ignored": 1}, {"part": "hand_r", "ignored": 1}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 2,
         "cut": 2
@@ -169,15 +169,15 @@
     "changes_to": ["CHITIN3_DILUTED", "CHITIN2"],
     "category": ["INSECT_DILUTED"],
     "wet_protection": [
-      {"part": "LEG_L", "ignored": 9}, {"part": "LEG_R", "ignored": 9},
-      {"part": "FOOT_L", "ignored": 2}, {"part": "FOOT_R", "ignored": 2},
-      {"part": "ARM_L", "ignored": 8}, {"part": "ARM_R", "ignored": 8},
-      {"part": "HAND_L", "ignored": 2}, {"part": "HAND_R", "ignored": 2}
+      {"part": "leg_l", "ignored": 9}, {"part": "leg_r", "ignored": 9},
+      {"part": "foot_l", "ignored": 2}, {"part": "foot_r", "ignored": 2},
+      {"part": "arm_l", "ignored": 8}, {"part": "arm_r", "ignored": 8},
+      {"part": "hand_l", "ignored": 2}, {"part": "hand_r", "ignored": 2}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 4,
         "cut": 4
@@ -199,19 +199,19 @@
     "category": ["SPIDER_DILUTED"],
     "changes_to": ["CHITIN3"],
     "wet_protection": [
-      {"part": "LEG_L", "ignored": 14}, {"part": "LEG_R", "ignored": 14},
-      {"part": "FOOT_L", "ignored": 4}, {"part": "FOOT_R", "ignored": 4},
-      {"part": "ARM_L", "ignored": 12}, {"part": "ARM_R", "ignored": 12},
-      {"part": "HAND_L", "ignored": 3}, {"part": "HAND_R", "ignored": 3}
+      {"part": "leg_l", "ignored": 14}, {"part": "leg_r", "ignored": 14},
+      {"part": "foot_l", "ignored": 4}, {"part": "foot_r", "ignored": 4},
+      {"part": "arm_l", "ignored": 12}, {"part": "arm_r", "ignored": 12},
+      {"part": "hand_l", "ignored": 3}, {"part": "hand_r", "ignored": 3}
     ],
     "encumbrance_always": [
-      ["ARM_L", 10], ["ARM_R", 10], ["HAND_L", 10], ["HAND_R", 10], ["LEG_L", 10],
-      ["LEG_R", 10], ["FOOT_L", 10], ["FOOT_R", 10]
+      ["arm_l", 10], ["arm_r", 10], ["hand_l", 10], ["hand_r", 10], ["leg_l", 10],
+      ["leg_r", 10], ["foot_l", 10], ["foot_r", 10]
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 8,
         "cut": 8
@@ -236,7 +236,7 @@
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "bash": 2,
         "cut": 2
@@ -260,8 +260,8 @@
     "armor": [
       {
         "parts": [
-          "TORSO", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L",
-          "FOOT_R", "MOUTH", "EYES"
+          "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l",
+          "foot_r", "mouth", "eyes"
         ],
         "bash": 4,
         "cut": 4
@@ -281,20 +281,20 @@
     "changes_to": ["BARK"],
     "category": ["PLANT_DILUTED"],
     "wet_protection": [
-      {"part": "HEAD", "ignored": 4}, {"part": "LEG_L", "ignored": 16},
-      {"part": "LEG_R", "ignored": 16}, {"part": "FOOT_L", "ignored": 5},
-      {"part": "FOOT_R", "ignored": 5}, {"part": "ARM_L", "ignored": 14},
-      {"part": "ARM_R", "ignored": 14}, {"part": "HAND_L", "ignored": 4},
-      {"part": "HAND_R", "ignored": 4}, {"part": "TORSO", "ignored": 10}
+      {"part": "head", "ignored": 4}, {"part": "leg_l", "ignored": 16},
+      {"part": "leg_r", "ignored": 16}, {"part": "foot_l", "ignored": 5},
+      {"part": "foot_r", "ignored": 5}, {"part": "arm_l", "ignored": 14},
+      {"part": "arm_r", "ignored": 14}, {"part": "hand_l", "ignored": 4},
+      {"part": "hand_r", "ignored": 4}, {"part": "torso", "ignored": 10}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "cut": 2
       },
-      {"parts": ["TORSO", "MOUTH", "EYES"], "cut": 1}
+      {"parts": ["torso", "mouth", "eyes"], "cut": 1}
     ]
   },
   {
@@ -310,15 +310,15 @@
     "changes_to": ["SCALES", "SLEEK_SCALES_DILUTED"],
     "movecost_swim_modifier": 0.92,
     "wet_protection": [
-      {"part": "LEG_L", "ignored": 10}, {"part": "LEG_R", "ignored": 10},
-      {"part": "FOOT_L", "ignored": 3}, {"part": "FOOT_R", "ignored": 3},
-      {"part": "ARM_L", "ignored": 9}, {"part": "ARM_R", "ignored": 9},
-      {"part": "HAND_L", "ignored": 2}, {"part": "HAND_R", "ignored": 2}
+      {"part": "leg_l", "ignored": 10}, {"part": "leg_r", "ignored": 10},
+      {"part": "foot_l", "ignored": 3}, {"part": "foot_r", "ignored": 3},
+      {"part": "arm_l", "ignored": 9}, {"part": "arm_r", "ignored": 9},
+      {"part": "hand_l", "ignored": 2}, {"part": "hand_r", "ignored": 2}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "cut": 2
       }
@@ -338,15 +338,15 @@
     "category": ["FISH_DILUTED"],
     "movecost_swim_modifier": 0.8,
     "wet_protection": [
-      {"part": "LEG_L", "good": 21}, {"part": "LEG_R", "good": 21},
-      {"part": "FOOT_L", "good": 6}, {"part": "FOOT_R", "good": 6},
-      {"part": "ARM_L", "good": 19}, {"part": "ARM_R", "good": 19},
-      {"part": "HAND_L", "good": 5}, {"part": "HAND_R", "good": 5}
+      {"part": "leg_l", "good": 21}, {"part": "leg_r", "good": 21},
+      {"part": "foot_l", "good": 6}, {"part": "foot_r", "good": 6},
+      {"part": "arm_l", "good": 19}, {"part": "arm_r", "good": 19},
+      {"part": "hand_l", "good": 5}, {"part": "hand_r", "good": 5}
     ],
     "armor": [
       {
         "parts": [
-          "ARM_L", "ARM_R", "HAND_L", "HAND_R", "LEG_L", "LEG_R", "FOOT_L", "FOOT_R"
+          "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r"
         ],
         "cut": 1
       }
