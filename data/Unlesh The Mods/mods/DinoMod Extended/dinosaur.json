@@ -751,7 +751,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_DINOSAUR" },
+    "name": "GROUP_DINOSAUR",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 100, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
@@ -772,7 +772,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_DINOSAUR_HARMLESS" },
+    "name": "GROUP_DINOSAUR_HARMLESS",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 100, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
@@ -782,7 +782,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_DINOSAUR_DANGEROUS" },
+    "name": "GROUP_DINOSAUR_DANGEROUS",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_allosaurus", "freq": 2, "cost_multiplier": 30 },
@@ -794,7 +794,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_DINOSAUR_MEGA_HERBIVORE" },
+    "name": "GROUP_DINOSAUR_MEGA_HERBIVORE",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_triceratops", "freq": 3, "cost_multiplier": 30, "pack_size": [ 1, 2 ] },
@@ -805,7 +805,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_DINOSAUR_MEGA_CARNIVORE" },
+    "name": "GROUP_DINOSAUR_MEGA_CARNIVORE",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_spinosaurus", "freq": 1, "cost_multiplier": 50 },
@@ -815,7 +815,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_FOREST" },
+    "name": "GROUP_FOREST",
     "default": "mon_null",
     "monsters": [
       {
@@ -864,7 +864,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_SWAMP" },
+    "name": "GROUP_SWAMP",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_parasaurolophus", "freq": 30, "cost_multiplier": 10, "pack_size": [ 2, 4 ] },
@@ -876,7 +876,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_SEWER" },
+    "name": "GROUP_SEWER",
     "default": "mon_sewer_rat",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 300, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
@@ -889,7 +889,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_SAFE" },
+    "name": "GROUP_SAFE",
     "is_safe": true,
     "default": "mon_null",
     "monsters": [
@@ -900,7 +900,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_CAVE" },
+    "name": "GROUP_CAVE",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_compsognathus", "freq": 600, "cost_multiplier": 0, "pack_size": [ 4, 12 ] },
