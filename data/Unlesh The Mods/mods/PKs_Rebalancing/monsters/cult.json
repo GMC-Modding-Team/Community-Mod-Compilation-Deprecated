@@ -2,7 +2,7 @@
   {
     "id": "mon_darkman",
     "type": "MONSTER",
-    "name": { "str": "wraith" },
+    "name": "wraith",
     "copy-from": "mon_darkman",
     "description": "A large humanoid shadow, chaotically changing in shape and volume , two piercing orbs of light dominate what can only be described as its head.",
     "default_faction": "shadow",
@@ -36,7 +36,7 @@
   {
     "id": "mon_shadow",
     "type": "MONSTER",
-    "name": { "str": "shadow" },
+    "name": "shadow",
     "copy-from": "mon_shadow",
     "default_faction": "shadow",
     "hp": 40,
@@ -70,6 +70,7 @@
     "symbol": "H",
     "color": "red",
     "aggression": 60,
+    "morale": 100,
     "melee_skill": 9,
     "melee_dice": 3,
     "melee_dice_sides": 4,
@@ -79,6 +80,9 @@
     "harvest": "zombie",
     "vision_day": 40,
     "vision_night": 20,
+    "death_drops": "default_zombie_clothes",
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HARDTOSHOOT", "ATTACKMON", "HUMAN", "POISON", "REVIVES", "FILTHY" ],
     "special_attacks": [
       [ "FEAR_PARALYZE", 5 ],
       [ "FLESH_GOLEM", 20 ],
@@ -88,22 +92,18 @@
         "cooldown": 20,
         "damage_max_instance": [ { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.75 } ]
       }
-    ],
-    "death_drops": "default_zombie_clothes",
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HARDTOSHOOT", "ATTACKMON", "HUMAN", "POISON", "REVIVES", "FILTHY" ]
+    ]
   },
   {
     "id": "mon_homunculus",
     "type": "MONSTER",
     "name": { "str": "homunculus", "str_pl": "homunculi" },
-    "description": "A pale hairless man with an impressive athletic physique.  Its lidless eyes are totally black, and seeping with blood.",
     "default_faction": "cult",
+    "diff": 13,
     "bodytype": "human",
     "species": [ "ZOMBIE" ],
     "volume": "62500 ml",
     "weight": "81500 g",
-    "diff": 13,
     "hp": 160,
     "speed": 100,
     "material": [ "flesh" ],
@@ -116,8 +116,14 @@
     "melee_dice_sides": 8,
     "melee_cut": 3,
     "dodge": 6,
+    "armor_bash": 4,
+    "armor_cut": 2,
+    "armor_bullet": 2,
+    "harvest": "human",
+    "death_function": [ "NORMAL" ],
     "vision_day": 15,
     "vision_night": 15,
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "REVIVES", "CLIMBS", "FILTHY" ],
     "special_attacks": [
       [ "hammer", 15 ],
       {
@@ -126,15 +132,12 @@
         "accuracy": 6,
         "damage_max_instance": [ { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.85 } ]
       }
-    ],
-    "harvest": "human",
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "REVIVES", "CLIMBS", "FILTHY" ]
+    ]
   },
   {
     "id": "mon_cult_churl",
     "type": "MONSTER",
-    "name": { "str": "ascendent" },
+    "name": "ascendent",
     "description": "A shaved trans-human, attempting to becoming something else.  Its hair has fallen out or been shaved, and its forehead has grown abnormally large.  An air of evil menace hangs about it.",
     "default_faction": "cult",
     "species": [ "MAMMAL" ],
@@ -165,7 +168,7 @@
   {
     "id": "mon_cult_slave",
     "type": "MONSTER",
-    "name": { "str": "acolyte" },
+    "name": "acolyte",
     "description": "A novice or adept of a cult.  Fanatically loyal, phsyiologically disturbed, and completely unreasoning, but ultimately human.",
     "default_faction": "cult",
     "species": [ "MAMMAL" ],
@@ -197,7 +200,7 @@
   {
     "id": "mon_legion",
     "type": "MONSTER",
-    "name": { "str": "legion" },
+    "name": "legion",
     "description": "A fused pile of bodies, writhing and squirming in the most base of ways. Utterly repulsive to behold, the bodies seem to be shielding something ...",
     "default_faction": "shadow",
     "species": [ "NETHER" ],
@@ -241,7 +244,7 @@
   {
     "id": "mon_nuculais",
     "type": "MONSTER",
-    "name": { "str": "nuculais" },
+    "name": "nuculais",
     "description": "A humanoid sheathed entirely in a dull white light.  While majestic and exuding the air of a god amoungst mortals, something dark and forboding hangs about it; a certain veil of death and termination of substance.",
     "default_faction": "shadow",
     "species": [ "NETHER" ],
