@@ -1,7 +1,7 @@
 [
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_FOREST" },
+    "name": "GROUP_FOREST",
     "default": "mon_null",
     "monsters": [
       {
@@ -143,7 +143,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_SEWER" },
+    "name": "GROUP_SEWER",
     "monsters": [
       { "monster": "mon_cave_rat", "freq": 300, "cost_multiplier": 0, "pack_size": [ 2, 6 ] },
       { "monster": "mon_gecko_gold", "freq": 300, "cost_multiplier": 0, "pack_size": [ 1, 3 ] },
@@ -159,7 +159,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_CAVE" },
+    "name": "GROUP_CAVE",
     "monsters": [
       { "monster": "mon_cave_rat", "freq": 30, "cost_multiplier": 0, "pack_size": [ 2, 6 ] },
       {
@@ -180,7 +180,7 @@
   },
   {
     "type": "monstergroup",
-    "name": { "str": "GROUP_RIVER" },
+    "name": "GROUP_RIVER",
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_fish_horseshoe", "freq": 35, "cost_multiplier": 3, "pack_size": [ 1, 3 ] },
