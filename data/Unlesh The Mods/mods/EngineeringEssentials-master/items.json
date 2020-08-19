@@ -12,7 +12,7 @@
     "material": [ "plastic", "aluminum" ],
     "symbol": ";",
     "color": "yellow",
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "initial_charges": 50,
     "max_charges": 50,
     "charges_per_use": 10,
@@ -73,7 +73,7 @@
     "material": "steel",
     "symbol": ";",
     "color": "green",
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "flags": [ "ALLOWS_REMOTE_USE" ],
     "magazines": [
       [ "battery", [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ] ]

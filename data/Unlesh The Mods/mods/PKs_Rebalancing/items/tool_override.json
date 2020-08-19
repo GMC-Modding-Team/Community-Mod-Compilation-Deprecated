@@ -11,7 +11,7 @@
     "material": "aluminum",
     "symbol": ";",
     "color": "light_gray",
-    "ammo": "conc_alcohol",
+    "ammo": [ "conc_alcohol" ],
     "sub": "hotplate",
     "initial_charges": 140,
     "max_charges": 250,
@@ -31,7 +31,7 @@
     "color": "light_gray",
     "location": "underbarrel",
     "mod_targets": [ "rifle", "crossbow", "shotgun" ],
-    "gun_data": { "ammo": "40x46mm", "skill": "launcher", "dispersion": 450, "durability": 10, "clip_size": 1 },
+    "gun_data": { "ammo": [ "40x46mm" ], "skill": "launcher", "dispersion": 450, "durability": 10, "clip_size": 1 },
     "dispersion_modifier": 60,
     "min_skills": [ [ "gun", 1 ] ]
   }
