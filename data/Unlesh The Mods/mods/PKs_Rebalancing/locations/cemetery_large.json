@@ -1,5 +1,40 @@
 [
   {
+    "type": "ARMOR",
+    "id": "locket_lucy",
+    "name": "Lucy's locket",
+    "volume": 0,
+    "material_thickness": 0,
+    "description": "A small locket with a frame inside to store photographs or small objects.  Inside is a picture of a lovely looking woman and the etched words 'Lucy, my love'.",
+    "weight": 30,
+    "color": "light_gray",
+    "encumbrance": 0,
+    "price": 4000,
+    "material": [ "silver" ],
+    "coverage": 0,
+    "symbol": "[",
+    "warmth": 0,
+    "flags": [ "FANCY" ]
+  },
+  {
+    "type": "item_group",
+    "id": "coffin_human",
+    "items": [
+      [ "bone_human", 200 ],
+      [ "bone", 4 ],
+      [ "corpse", 1 ],
+      [ "withered", 5 ],
+      [ "jeans", 5 ],
+      [ "tshirt", 5 ],
+      [ "dress_shirt", 5 ],
+      [ "pants", 5 ],
+      [ "dress", 5 ],
+      [ "dress_shoes", 5 ],
+      [ "heels", 5 ],
+      [ "socks", 5 ]
+    ]
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "cemetery_large_00" ],
     "//": "top left map tile of this 6x5 design",

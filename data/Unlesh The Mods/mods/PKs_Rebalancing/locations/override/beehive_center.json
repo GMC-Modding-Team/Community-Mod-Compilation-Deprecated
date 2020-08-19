@@ -1,5 +1,21 @@
 [
   {
+    "type": "monstergroup",
+    "name": "GROUP_BEE_CENTER",
+    "default": "mon_bee_larvae",
+    "monsters": [
+      { "monster": "mon_bee_soldier", "freq": 30, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_bee_king", "freq": 15, "cost_multiplier": 3 },
+      { "monster": "mon_bee_queen", "freq": 10, "cost_multiplier": 0 },
+      { "monster": "mon_bee_larvae", "freq": 45, "cost_multiplier": 0, "pack_size": [ 1, 2 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "beecenter",
+    "items": [ [ "honeycomb", 40 ], [ "royal_jelly", 10 ] ]
+  },
+  {
     "type": "mapgen",
     "om_terrain": "beehive_center",
     "method": "json",
