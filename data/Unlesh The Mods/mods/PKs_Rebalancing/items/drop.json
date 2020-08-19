@@ -54,7 +54,7 @@
   {
     "type": "COMESTIBLE",
     "id": "megabear_skull_unclean",
-    "name": { "str_sp": "juvenille megabear head" },
+    "name": { "str_sp": "juvenille megabear head. },
     "weight": "7887 g",
     "color": "i_dark_gray",
     "description": "An uncleaned elephant bear head.  It could be crafted into a snug bone helmet with some skill and patience, and eaten in times of desperation.",
@@ -200,7 +200,7 @@
     "id": "spider_steak_fried",
     "type": "COMESTIBLE",
     "name": { "str_sp": "batter fried arachnotron fillet" },
-    "name_plural": "batter fried arachnotron fillet",
+    "str_pl": "batter fried arachnotron fillet"
     "description": "A slice of batter coated and fried mechaspider.  Delicious.",
     "weight": "180 g",
     "volume": "250 ml",
@@ -242,7 +242,7 @@
     "id": "spider_steak_sandwich",
     "type": "COMESTIBLE",
     "name": { "str_sp": "arachnotron sandwich" },
-    "name_plural": "arachnotron sandwiches",
+    "str_pl": "arachnotron sandwiches"
     "description": "Arachnotron fillets cooked and wrapped in bread.",
     "weight": "256 g",
     "volume": "250 ml",
@@ -262,7 +262,7 @@
   {
     "id": "jar_spider_steak_pickled",
     "name": { "str_sp": "sealed jar of pickled arachnotron fillets" },
-    "name_plural": "sealed jars of pickled arachnotron fillets",
+    "str_pl": "sealed jars of pickled arachnotron fillets"
     "type": "GENERIC",
     "description": "A sealed jar of mechaspider flesh.  Use to open and eat to enjoy.",
     "category": "food",
@@ -284,7 +284,7 @@
     "type": "COMESTIBLE",
     "id": "spider_steak_pickled",
     "name": { "str_sp": "pickled arachnotron flesh" },
-    "name_plural": "pickled arachnotron flesh",
+    "str_pl": "pickled arachnotron flesh"
     "description": "This is a jar with 2 sealed servings of (re)pickled arachnotron flesh.  Surprisingly tasty and healthy.",
     "weight": "440 g",
     "volume": "500 ml",
@@ -305,7 +305,7 @@
     "type": "AMMO",
     "category": "chems",
     "name": { "str_sp": "biollante sap" },
-    "name_plural": "biollante sap",
+    "str_pl": "biollante sap"
     "//": "Didn't precisely exist pre-cataclysm, so tough to price.",
     "description": "The thick gelatin extract from a biollante's budding flowers.  Not particularly useful as is, but in a pinch you could throw it to create a field of sap, and harm anything you hit.",
     "weight": "215 g",
@@ -313,7 +313,7 @@
     "price": 9000,
     "symbol": "%",
     "color": "i_yellow",
-    "ammo_type": "components",
+    "ammo_type": [ "components" ],
     "use_action": { "target": "triffid_sap_thrown", "target_charges": 0, "active": true, "type": "transform" },
     "flags": [ "ACT_ON_RANGED_HIT", "TRADER_AVOID" ]
   },
@@ -345,7 +345,7 @@
     "type": "COMESTIBLE",
     "category": "drugs",
     "name": { "str_sp": "mixed royal jelly" },
-    "name_plural": "mixed royal jellies",
+    "str_pl": "mixed royal jellies"
     "//": "Didn't precisely exist pre-cataclysm, so tough to price.",
     "description": "A milky colored, sweet smelling jelly, mixed with some triffid sap to spread the alchemical properties of the jelly further.  While not useful for further crafting or cooking it can be used to heal afflictions.",
     "weight": "132 g",
@@ -376,7 +376,7 @@
     "material": [ "veggy" ],
     "symbol": ",",
     "color": "green",
-    "ammo_type": "components"
+    "ammo_type": [ "components" ]
   },
   {
     "type": "COMESTIBLE",
