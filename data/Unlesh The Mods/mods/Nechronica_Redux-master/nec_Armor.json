@@ -13,7 +13,7 @@
     "looks_like": "briefcase",
     "symbol": "[",
     "color": "white",
-    "covers": [ "ARM_L", "ARM_R", "HAND_L", "HAND_R" ],
+    "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ],
     "coverage": 50,
     "encumbrance": 30,
     "pocket_data": [
@@ -38,7 +38,7 @@
     "material": [ "steel", "wood" ],
     "symbol": "[",
     "color": "black",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 50,
     "encumbrance": 35,
     "pocket_data": [
@@ -74,7 +74,7 @@
     "material": [ "cotton", "plastic" ],
     "symbol": "[",
     "color": "brown",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 5,
     "encumbrance": 0,
     "flags": [ "BELTED" ]
@@ -91,7 +91,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEG_L", "LEG_R", "TORSO", "ARM_L", "ARM_R" ],
+    "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ],
     "coverage": 90,
     "encumbrance": 20,
     "warmth": 20,
@@ -109,7 +109,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 20,
     "encumbrance": 5,
     "warmth": 5,
@@ -128,7 +128,7 @@
     "material": [ "kevlar", "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEG_L", "LEG_R", "TORSO", "ARM_L", "ARM_R" ],
+    "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ],
     "pocket_data": [
       { "pocket_type": "CONTAINER", "max_contains_volume": "2500 ml", "max_contains_weight": "5 kg", "moves": 75 },
       { "pocket_type": "CONTAINER", "max_contains_volume": "2500 ml", "max_contains_weight": "5 kg", "moves": 75 }
@@ -152,7 +152,7 @@
     "description": "An underskirt meant to be worn under a dress. It keeps the skirt puffy by way of wires.",
     "price": 500,
     "material": [ "cotton" ],
-    "covers": [ "LEG_L", "LEG_R" ],
+    "covers": [ "leg_l", "leg_r" ],
     "warmth": 5,
     "encumbrance": 5,
     "volume": "250 ml",
