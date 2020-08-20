@@ -3,7 +3,7 @@
     "id": "acr",
     "copy-from": "acr",
     "type": "GUN",
-    "name": "Remington ACR",
+    "name": { "str": "Remington ACR" },
     "magazines": [
       [
         "223",
@@ -28,7 +28,7 @@
     "id": "ar15",
     "copy-from": "ar15",
     "type": "GUN",
-    "name": "AR-15",
+    "name": { "str": "AR-15" },
     "magazines": [
       [
         "223",
@@ -53,7 +53,7 @@
     "id": "h&k416a5",
     "copy-from": "h&k416a5",
     "type": "GUN",
-    "name": "H&K 416A5",
+    "name": { "str": "H&K 416A5" },
     "magazines": [
       [
         "223",
@@ -78,7 +78,7 @@
     "id": "hk_g36",
     "copy-from": "hk_g36",
     "type": "GUN",
-    "name": "H&K G36",
+    "name": { "str": "H&K G36" },
     "magazines": [
       [
         "223",
@@ -103,7 +103,7 @@
     "id": "m249",
     "copy-from": "m249",
     "type": "GUN",
-    "name": "M249",
+    "name": { "str": "M249" },
     "magazines": [
       [
         "223",
@@ -128,7 +128,7 @@
     "id": "m27iar",
     "copy-from": "m27iar",
     "type": "GUN",
-    "name": "M27 IAR",
+    "name": { "str": "M27 IAR" },
     "magazines": [
       [
         "223",
@@ -153,7 +153,7 @@
     "id": "m4a1",
     "copy-from": "m4a1",
     "type": "GUN",
-    "name": "M4A1",
+    "name": { "str": "M4A1" },
     "magazines": [
       [
         "223",
@@ -233,8 +233,7 @@
     "id": "qr555_car",
     "copy-from": "qr555",
     "type": "GUN",
-    "name": "OCG QR555-CAR",
-    "str_pl": "OCG QR555-CAR",
+    "name": { "str": "OCG QR555-CAR", "str_pl": "OCG QR555-CAR" },
     "description": "OmniCorp bullpup QR555 covert ops platform uses new subsonic 5.56 NATO loads in several roles, \"quietly\". The Carbine supports automatic fire, has integrated recoil stock and foregrip, with room for one more underbarrel accessory.",
     "price": 830000,
     "range": 7,
@@ -264,8 +263,7 @@
     "id": "qr555_cqb",
     "copy-from": "qr555",
     "type": "GUN",
-    "name": "OCG QR555-SMG",
-    "str_pl": "OCG QR555-SMG",
+    "name": { "str": "OCG QR555-SMG", "str_pl": "OCG QR555-SMG" },
     "description": "OmniCorp bullpup QR555 covert ops platform uses new subsonic 5.56 NATO loads in several roles, \"quietly\". The Submachinegun supports automatic fire and ammo belts, comes with integrated recoil stock, underbarrel laser sight and RM42I bayonet.",
     "price": 810000,
     "range": 7,
@@ -297,8 +295,7 @@
     "id": "qr555_dmr",
     "copy-from": "qr555",
     "type": "GUN",
-    "name": "OCG QR555-DMR",
-    "str_pl": "OCG QR555-DMR",
+    "name": { "str": "OCG QR555-DMR", "str_pl": "OCG QR555-DMR" },
     "description": "OmniCorp bullpup QR555 covert ops platform uses new subsonic 5.56 NATO loads in several roles, \"quietly\". The Designated Marksman Rifle features a longer, match-grade barrel and an accurized action, limited to only semi-auto and 2-round bursts.",
     "price": 930000,
     "relative": { "weight": "650 g", "dispersion": -10 },
@@ -327,8 +324,7 @@
     "id": "qr555_saw",
     "copy-from": "qr555",
     "type": "GUN",
-    "name": "OCG QR555-SAW",
-    "str_pl": "OCG QR555-SAW",
+    "name": { "str": "OCG QR555-SAW", "str_pl": "OCG QR555-SAW" },
     "description": "OmniCorp bullpup QR555 covert ops platform uses new subsonic 5.56 NATO loads in several roles, \"quietly\". The Squad Automatic Weapon has a reinforced barrel, support for ammo belts, a very high rate of fire and comes with integrated forward grip/bipod unit, recoil stock and gyroscopic stabilizer.",
     "price": 900000,
     "relative": { "weight": "1100 g" },
@@ -365,7 +361,7 @@
     "id": "ruger_mini",
     "copy-from": "ruger_mini",
     "type": "GUN",
-    "name": "Ruger Mini-14",
+    "name": { "str": "Ruger Mini-14" },
     "magazines": [
       [
         "223",
@@ -390,7 +386,7 @@
     "id": "scar_l",
     "copy-from": "scar_l",
     "type": "GUN",
-    "name": "FN SCAR-L",
+    "name": { "str": "FN SCAR-L" },
     "magazines": [
       [
         "223",
@@ -415,7 +411,7 @@
     "id": "sig552",
     "copy-from": "sig552",
     "type": "GUN",
-    "name": "SIG 552",
+    "name": { "str": "SIG 552" },
     "magazines": [
       [
         "223",
@@ -440,7 +436,7 @@
     "id": "steyr_aug",
     "copy-from": "steyr_aug",
     "type": "GUN",
-    "name": "Steyr AUG",
+    "name": { "str": "Steyr AUG" },
     "magazines": [
       [
         "223",

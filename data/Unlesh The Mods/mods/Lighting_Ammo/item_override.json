@@ -2,32 +2,28 @@
   {
     "id": "flashlight",
     "type": "TOOL",
-    "name": "flashlight (off)",
-    "str_pl": "flashlights (off)",
+    "name": { "str": "flashlight (off)", "str_pl": "flashlights (off)" },
     "copy-from": "flashlight",
     "extend": { "flags": [ "RADIO_MODABLE" ] }
   },
   {
     "id": "flashlight_on",
     "type": "TOOL",
-    "name": "flashlight (on)",
-    "str_pl": "flashlights (on)",
+    "name": { "str": "flashlight (on)", "str_pl": "flashlights (on)" },
     "copy-from": "flashlight_on",
     "extend": { "flags": [ "RADIO_MODABLE" ] }
   },
   {
     "id": "heavy_flashlight",
     "type": "TOOL",
-    "name": "heavy duty flashlight (off)",
-    "str_pl": "heavy duty flashlights (off)",
+    "name": { "str": "heavy duty flashlight (off)", "str_pl": "heavy duty flashlights (off)" },
     "copy-from": "heavy_flashlight",
     "extend": { "flags": [ "RADIO_MODABLE" ] }
   },
   {
     "id": "heavy_flashlight_on",
     "type": "TOOL",
-    "name": "heavy duty flashlight (on)",
-    "str_pl": "heavy duty flashlights (on)",
+    "name": { "str": "heavy duty flashlight (on)", "str_pl": "heavy duty flashlights (on)" },
     "copy-from": "heavy_flashlight_on",
     "extend": { "flags": [ "RADIO_MODABLE" ] }
   }

@@ -2,8 +2,7 @@
   {
     "type": "GENERIC",
     "id": "promethium_puck",
-    "name": "Promethium puck",
-    "str_pl": "Promethium pucks",
+    "name": { "str": "Promethium puck", "str_pl": "Promethium pucks" },
     "price": 25000,
     "weight": "300 g",
     "symbol": "*",
@@ -18,8 +17,7 @@
   {
     "type": "GENERIC",
     "id": "promethium_slurry",
-    "name": "Promethium slurry",
-    "str_pl": "Promethium Slurry",
+    "name": { "str": "Promethium slurry", "str_pl": "Promethium Slurry" },
     "description": "A thickly bubbling mixture that reeks of chemicals you can't even describe.",
     "price": 250000,
     "weight": "250 g",
@@ -35,7 +33,7 @@
     "id": "pro_slurry_canister",
     "type": "GENERIC",
     "category": "other",
-    "name": "Promethium slurry canister",
+    "name": { "str": "Promethium slurry canister" },
     "description": "A thick steel canister. On it's side reads 'Promethium Slurry. Do not expose to direct flame.",
     "weight": "500 g",
     "volume": "75 L",
