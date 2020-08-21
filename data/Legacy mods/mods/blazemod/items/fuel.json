@@ -3,7 +3,7 @@
     "id": "bfeedfuel",
     "type": "AMMO",
     "category": "fuel",
-    "name": { "str": "liquified blob feed", "str_pl": "bfeedfuel" },
+    "name": "liquified blob feed",
     "description": "Liquified blob feed, useful for fueling certain blob based vehicle parts",
     "weight": "1 g",
     "volume": "200 ml",
@@ -25,7 +25,7 @@
     "id": "bfeed",
     "type": "AMMO",
     "category": "fuel",
-    "name": { "str": "blob feed", "str_pl": "blob feed" },
+    "name": "blob feed",
     "description": "An amalgam of various types of organic material, contains everything the blob needs to be healthy.  You think…",
     "weight": "50 g",
     "volume": "250 ml",
@@ -36,6 +36,6 @@
     "symbol": "*",
     "color": "red",
     "count": 25,
-    "ammo_type": [ "bfeed" ]
+    "ammo_type": "bfeed"
   }
 ]
