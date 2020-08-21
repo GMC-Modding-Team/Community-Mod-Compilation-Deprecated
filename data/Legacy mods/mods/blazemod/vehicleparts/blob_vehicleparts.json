@@ -166,13 +166,12 @@
     "location": "under"
   },
   {
-    "id": "gloopleaisle_horizontal",
+    "id": "gloopleaisle_aisle",
     "type": "vehicle_part",
     "name": { "str": "gel walkway" },
     "item": "gloople",
     "location": "center",
-    "symbol": "=",
-    "broken_symbol": "#",
+    "standard_symbols": true,
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -182,12 +181,6 @@
     "breaks_into": [ { "item": "glooplegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "AISLE", "BOARDABLE", "FOLDABLE" ]
-  },
-  {
-    "id": "gloopleaisle_vertical",
-    "type": "vehicle_part",
-    "copy-from": "gloopleaisle_horizontal",
-    "symbol": "H"
   },
   {
     "id": "gloopledoor",
@@ -373,13 +366,12 @@
     "location": "under"
   },
   {
-    "id": "grayaisle_horizontal",
+    "id": "grayaisle_aisle",
     "type": "vehicle_part",
     "name": { "str": "gray walkway" },
     "item": "gray",
     "location": "center",
-    "symbol": "=",
-    "broken_symbol": "#",
+    "standard_symbols": true,
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -389,12 +381,6 @@
     "breaks_into": [ { "item": "graygrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "AISLE", "BOARDABLE", "FOLDABLE" ]
-  },
-  {
-    "id": "grayaisle_vertical",
-    "type": "vehicle_part",
-    "copy-from": "grayaisle_horizontal",
-    "symbol": "H"
   },
   {
     "id": "graydoor",
@@ -600,13 +586,12 @@
     "location": "under"
   },
   {
-    "id": "oozleaisle_horizontal",
+    "id": "oozleaisle_aisle",
     "type": "vehicle_part",
     "name": { "str": "ooze walkway" },
     "item": "oozle",
     "location": "center",
-    "symbol": "=",
-    "broken_symbol": "#",
+    "standard_symbols": true,
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -616,12 +601,6 @@
     "description": "A living blob, formed into a walkway.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "AISLE", "BOARDABLE", "FOLDABLE" ]
-  },
-  {
-    "id": "oozleaisle_vertical",
-    "type": "vehicle_part",
-    "copy-from": "oozleaisle_horizontal",
-    "symbol": "H"
   },
   {
     "id": "oozledoor",
