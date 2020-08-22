@@ -1,5 +1,4 @@
 [
-
   {
     "type": "recipe",
     "result": "instantlegolas",
@@ -28,10 +27,15 @@
     "reversible": false,
     "decomp_learn": 1,
     "autolearn": false,
-	"tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
     "book_learn": [ [ "recipe_bows", 1 ], [ "manual_archery", 2 ], [ "book_archery", 2 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "plastic_chunk", 4 ], [ "hose", 1 ] ], [ [ "nail", 4 ] ], [ [ "2x4", 2 ] ], [ [ "cordage_superior", 2, "LIST" ] ] ]
+    "components": [
+      [ [ "plastic_chunk", 4 ], [ "hose", 1 ] ],
+      [ [ "nail", 4 ] ],
+      [ [ "2x4", 2 ] ],
+      [ [ "cordage_superior", 2, "LIST" ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -47,7 +51,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "2x4", 2 ] ], [ [ "hose", 1 ] ], [ [ "cordage_superior", 3, "LIST" ] ] ]
   },
-   {
+  {
     "type": "recipe",
     "result": "minislingshot",
     "category": "CC_WEAPON",
@@ -80,7 +84,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-	"skills_required": [ "archery", 6 ],
+    "skills_required": [ "archery", 6 ],
     "difficulty": 6,
     "time": "1 h",
     "reversible": true,
@@ -102,7 +106,7 @@
       [ [ "nail", 10 ] ]
     ]
   },
-    {
+  {
     "type": "recipe",
     "result": "Instantlegolaslongbow",
     "category": "CC_WEAPON",
@@ -116,7 +120,12 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_bows", 2 ], [ "manual_archery", 2 ], [ "book_archery", 2 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "DRILL", "level": 1 } ],
-    "components": [ [ [ "2x4", 3 ] ], [ [ "arrow_wood_heavy", 2 ]  ], [ [ "cordage_superior", 3, "LIST" ],  [ "superglue", 2 ], [ "bone_glue", 3 ]  ], [ [ "longbow", 1 ] ] ]
+    "components": [
+      [ [ "2x4", 3 ] ],
+      [ [ "arrow_wood_heavy", 2 ] ],
+      [ [ "cordage_superior", 3, "LIST" ], [ "superglue", 2 ], [ "bone_glue", 3 ] ],
+      [ [ "longbow", 1 ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -137,12 +146,11 @@
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
     "skills_required": [ "archery", 4 ],
-	"book_learn": [ [ "recipe_bows", 2 ], [ "manual_archery", 2 ], [ "book_archery", 2 ] ],
+    "book_learn": [ [ "recipe_bows", 2 ], [ "manual_archery", 2 ], [ "book_archery", 2 ] ],
     "difficulty": 4,
     "time": "3 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "stick", 2 ], [ "2x4", 2 ] ], [ [ "hose", 2 ] ], [ [ "rag", 1 ] ] ]
   }
-  
-  ]
+]

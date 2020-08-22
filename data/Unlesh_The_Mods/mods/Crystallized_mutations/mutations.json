@@ -19,15 +19,15 @@
     "starting_trait": false,
     "changes_to": [ "GLITTERING" ],
     "category": [ "CRYSTAL" ],
-	"prereqs": [ "STIFF" ],
+    "prereqs": [ "STIFF" ],
     "movecost_modifier": 1.2,
-	"healing_resting": -0.25,
+    "healing_resting": -0.25,
     "mending_modifier": 0.75,
-	"armor": [
+    "armor": [
       {
         "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes", "head" ],
         "cut": 1,
-		"bash": 2
+        "bash": 2
       }
     ]
   },
@@ -40,20 +40,20 @@
     "starting_trait": false,
     "changes_to": [ "CRYSTALLIZED" ],
     "category": [ "CRYSTAL" ],
-	"prereqs": [ "HARD" ],
+    "prereqs": [ "HARD" ],
     "movecost_modifier": 1.3,
-	"healing_resting": -0.50,
-    "mending_modifier": 0.50,
-	"armor": [
+    "healing_resting": -0.5,
+    "mending_modifier": 0.5,
+    "armor": [
       {
         "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
         "cut": 5,
-		"pierce": 5,
-		"bash": 5,
-		"ballistic": 5,
-		"fire": 5,
-		"acid": 5,
-		"electricity": 5
+        "pierce": 5,
+        "bash": 5,
+        "ballistic": 5,
+        "fire": 5,
+        "acid": 5,
+        "electricity": 5
       }
     ]
   },
@@ -64,29 +64,29 @@
     "points": 8,
     "description": "Your body is the successful merging of flesh and crystal. This gives you good armour against almost everything but you'll sink like a rock and fast movement is out of the question. Your healing rate is in the pits as well unfortunately, so you'll have to either wait half an eternity to heal or find ways of speeding up your recovery.",
     "starting_trait": false,
-	"purifiable": false,
-	"mixed_effect": true,
+    "purifiable": false,
+    "mixed_effect": true,
     "category": [ "CRYSTAL" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
-	"allowed_category": [ "CRYSTAL" ],
+    "threshreq": [ "THRESH_CRYSTAL" ],
+    "allowed_category": [ "CRYSTAL" ],
     "movecost_modifier": 1.4,
-	"healing_resting": -0.9,
+    "healing_resting": -0.9,
     "bleed_resist": 1000,
-	"fat_to_max_hp": 10.0,
-	"movecost_swim_modifier": 10.0,
-	"weight_capacity_modifier": 1.15,
-	"can_heal_with": [ "mineral_glue" ],
-	"flags": [ "NO_DISEASE", "NO_INFECTION", "NO_POISON", "NO_RADIATION", "NO_PARASITE" ],
-	"armor": [
+    "fat_to_max_hp": 10.0,
+    "movecost_swim_modifier": 10.0,
+    "weight_capacity_modifier": 1.15,
+    "can_heal_with": [ "mineral_glue" ],
+    "flags": [ "NO_DISEASE", "NO_INFECTION", "NO_POISON", "NO_RADIATION", "NO_PARASITE" ],
+    "armor": [
       {
         "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes", "head" ],
         "cut": 30,
-		"pierce": 30,
-		"bash": 15,
-		"ballistic": 15,
-		"fire": 45,
-		"acid": 45,
-		"electricity": 45
+        "pierce": 30,
+        "bash": 15,
+        "ballistic": 15,
+        "fire": 45,
+        "acid": 45,
+        "electricity": 45
       }
     ]
   },
@@ -107,13 +107,13 @@
     "name": { "str": "Stone chewer" },
     "points": 2,
     "description": "Your teeth and jaw muscles are tough enough to break and chew through rocks. Your digestive system accommodates it too but not much else. Rocks are what feed you now. Eating speed is highly increased.",
-	"mixed_effect": true,
+    "mixed_effect": true,
     "starting_trait": false,
-	"enchantments": [ "ENCH_ROCKEATER" ],
-	"can_only_eat": [ "stone", "water", "alcohol" ],
+    "enchantments": [ "ENCH_ROCKEATER" ],
+    "can_only_eat": [ "stone", "water", "alcohol" ],
     "category": [ "CRYSTAL" ],
-	"prereqs": [ "HARDTEETH" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
+    "prereqs": [ "HARDTEETH" ],
+    "threshreq": [ "THRESH_CRYSTAL" ],
     "consume_time_modifier": 0.1
   },
   {
@@ -123,10 +123,10 @@
     "points": -2,
     "description": "Your eyesight is frequently blocked or disturbed by odd refractions and multiplied imagery. You can still see and read but this distracts you and reduces your perception by 4 and slows reading down a lot. Glasses will not help.",
     "starting_trait": true,
-	"reading_speed_multiplier": 2.0,
+    "reading_speed_multiplier": 2.0,
     "category": [ "CRYSTAL" ],
-	"changes_to": [ "CRYSTALEYE" ],
-	"passive_mods": { "per_mod": -4 }
+    "changes_to": [ "CRYSTALEYE" ],
+    "passive_mods": { "per_mod": -4 }
   },
   {
     "type": "mutation",
@@ -135,27 +135,20 @@
     "points": 2,
     "description": "Your eyes have become crystalline, harder to damage with perfect lenses for light that have improved your sight and perception. The only downside to this is that you can't install any cbms anywhere in or around your eyes.",
     "starting_trait": false,
-	"active": true,
+    "active": true,
     "starts_active": true,
     "category": [ "CRYSTAL" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
-	"prereqs": [ "KALEYE" ],
-	"overmap_sight": 5,
-	"passive_mods": { "per_mod": 2 },
-	"armor": [
-      {
-        "parts": [ "eyes" ],
-        "cut": 5,
-		"pierce": 5,
-		"bash": 5
-      }
-    ]
+    "threshreq": [ "THRESH_CRYSTAL" ],
+    "prereqs": [ "KALEYE" ],
+    "overmap_sight": 5,
+    "passive_mods": { "per_mod": 2 },
+    "armor": [ { "parts": [ "eyes" ], "cut": 5, "pierce": 5, "bash": 5 } ]
   },
   {
     "type": "mutation",
     "id": "TOUGH_FEET",
     "name": { "str": "Tough Feet" },
-	"category": [ "CRYSTAL" ],
+    "category": [ "CRYSTAL" ],
     "points": 1,
     "description": "The bottoms of your feet are tough and you are accustomed to going barefoot.  You receive no movement penalty for not wearing shoes.",
     "starting_trait": true
@@ -167,7 +160,7 @@
     "points": 2,
     "description": "It takes a lot to bring you down!  You get a 20% bonus to all hit points.",
     "starting_trait": true,
-	"category": [ "CRYSTAL", "TOUGH" ],
+    "category": [ "CRYSTAL", "TOUGH" ],
     "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
     "changes_to": [ "TOUGH2" ],
     "social_modifiers": { "intimidate": 2 },
@@ -179,8 +172,8 @@
     "name": { "str": "Durable" },
     "points": 3,
     "description": "You can shrug off almost anything!  You get a 30% bonus to all hit points.",
-	"category": [ "CRYSTAL", "TOUGH2" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
+    "category": [ "CRYSTAL", "TOUGH2" ],
+    "threshreq": [ "THRESH_CRYSTAL" ],
     "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
     "prereqs": [ "TOUGH" ],
     "changes_to": [ "TOUGH3" ],
@@ -193,8 +186,8 @@
     "name": { "str": "Unbreakable" },
     "points": 4,
     "description": "Nothing can break you!  You get a 40% bonus to all hit points.",
-	"category": [ "CRYSTAL", "TOUGH3" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
+    "category": [ "CRYSTAL", "TOUGH3" ],
+    "threshreq": [ "THRESH_CRYSTAL" ],
     "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
     "prereqs": [ "TOUGH2" ],
     "social_modifiers": { "intimidate": 4 },
@@ -208,22 +201,22 @@
     "description": "Your nails are really hard for some reason. Hard enough to be hard to clip. It's probably nothing.",
     "starting_trait": true,
     "category": [ "CRYSTAL" ],
-	"changes_to": [ "CRYSTALCLAWS" ]
+    "changes_to": [ "CRYSTALCLAWS" ]
   },
   {
     "type": "mutation",
     "id": "CRYSTALCLAWS",
     "name": { "str": "Crystal claws" },
     "points": 4,
-	"cut_dmg_bonus": 3,
+    "cut_dmg_bonus": 3,
     "pierce_dmg_bonus": 12,
     "butchering_quality": 3,
-	"encumbrance_always": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
+    "encumbrance_always": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
     "description": "The tips of your fingers have turned into claws seemingly made out of diamond or some other superhard mineral. While they hinder manual manipulation somewhat, you've found that they make good implements of hand to hand combat and pierce flesh easily.",
     "starting_trait": false,
     "category": [ "CRYSTAL" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
-	"prereqs": [ "HARDNAILS" ]
+    "threshreq": [ "THRESH_CRYSTAL" ],
+    "prereqs": [ "HARDNAILS" ]
   },
   {
     "type": "mutation",
@@ -233,9 +226,9 @@
     "description": "You've learned how to use your claws to dig through earth and stone.",
     "starting_trait": false,
     "category": [ "CRYSTAL" ],
-	"threshreq": [ "THRESH_CRYSTAL" ],
-	"prereqs": [ "CRYSTALCLAWS" ],
-	"spells_learned": [ [ "clawminer_dig", 1 ] ]
+    "threshreq": [ "THRESH_CRYSTAL" ],
+    "prereqs": [ "CRYSTALCLAWS" ],
+    "spells_learned": [ [ "clawminer_dig", 1 ] ]
   },
   {
     "type": "mutation",
@@ -387,7 +380,7 @@
     "valid": false,
     "social_modifiers": { "intimidate": -3 },
     "cancels": [ "TOUGH", "TOUGH2", "TOUGH3" ],
-	"category": [ "CRYSTAL" ],
+    "category": [ "CRYSTAL" ],
     "prereqs": [ "FLIMSY" ],
     "changes_to": [ "FLIMSY3" ],
     "hp_modifier": -0.5
@@ -402,7 +395,7 @@
     "valid": false,
     "social_modifiers": { "intimidate": -4 },
     "cancels": [ "TOUGH", "TOUGH2", "TOUGH3" ],
-	"category": [ "CRYSTAL" ],
+    "category": [ "CRYSTAL" ],
     "prereqs": [ "FLIMSY2" ],
     "hp_modifier": -0.75
   },
@@ -423,11 +416,11 @@
     "name": { "str": "Crystallizing Aura" },
     "points": 2,
     "description": "Your body constantly attempts to crystallize everything around it, slowing amd slowly damaging all caught by the effect. Activate to turn on/off.",
-	"mixed_effect": true,
+    "mixed_effect": true,
     "starting_trait": false,
-	"active": true,
-	"enchantments": [ "xp_crystal_ench" ],
+    "active": true,
+    "enchantments": [ "xp_crystal_ench" ],
     "category": [ "CRYSTAL" ],
-	"threshreq": [ "THRESH_CRYSTAL" ]
+    "threshreq": [ "THRESH_CRYSTAL" ]
   }
 ]

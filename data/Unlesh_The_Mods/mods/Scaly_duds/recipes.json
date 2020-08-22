@@ -1,6 +1,6 @@
 [
-	{
-	"type": "recipe",
+  {
+    "type": "recipe",
     "result": "tanned_snake_skin",
     "id_suffix": "from_pieces",
     "category": "CC_OTHER",
@@ -10,9 +10,9 @@
     "autolearn": true,
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
     "components": [ [ [ "snake_skin", 6 ] ], [ [ "filament", 4, "LIST" ] ] ]
-	},
-	{
-	"type": "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "tanned_allig_hide",
     "id_suffix": "from_pieces",
     "category": "CC_OTHER",
@@ -22,9 +22,9 @@
     "autolearn": true,
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
     "components": [ [ [ "allig_hide", 6 ] ], [ [ "filament", 4, "LIST" ] ] ]
-	},
-	{
-	"type": "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "tanning_snake",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -48,9 +48,9 @@
       [ [ "edible_tallow_lard", 1, "LIST" ], [ "tallow_tainted", 1 ] ],
       [ [ "cured_snake_skin", 6 ] ]
     ]
-	},
-	{
-	"type": "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "tanning_allig",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -74,9 +74,9 @@
       [ [ "edible_tallow_lard", 1, "LIST" ], [ "tallow_tainted", 1 ] ],
       [ [ "cured_allig_hide", 6 ] ]
     ]
-	},
-	{
-	"type": "recipe",
+  },
+  {
+    "type": "recipe",
     "result": "cured_snake_skin",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -86,13 +86,10 @@
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
-      [ [ "raw_snake_skin", 1 ] ]
-	  ]
-	},
-	{
-	"type": "recipe",
+    "components": [ [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_snake_skin", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "cured_allig_hide",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -102,13 +99,10 @@
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
-      [ [ "raw_allig_hide", 1 ] ]
-	  ]
-	},
-	{
-	"result": "sleeveless_snake_duster",
+    "components": [ [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_allig_hide", 1 ] ] ]
+  },
+  {
+    "result": "sleeveless_snake_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -119,9 +113,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 50 ] ],
     "components": [ [ [ "snake_skin", 25 ], [ "tanned_snake_skin", 4 ] ] ]
-	},
-	{
-	"result": "sleeveless_snake_duster",
+  },
+  {
+    "result": "sleeveless_snake_duster",
     "type": "recipe",
     "id_suffix": "from_snake_duster",
     "category": "CC_ARMOR",
@@ -133,9 +127,9 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "flags": [ "NO_RESIZE" ],
     "components": [ [ [ "snake_duster", 1 ] ] ]
-	},
-	{
-	"result": "snake_duster",
+  },
+  {
+    "result": "snake_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -146,9 +140,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 60 ] ],
     "components": [ [ [ "snake_skin", 29 ], [ "tanned_snake_skin", 5 ] ] ]
-	},
-	{
-	"result": "snake_jacket",
+  },
+  {
+    "result": "snake_jacket",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -159,9 +153,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "manual_tailor", 3 ] ],
     "using": [ [ "sewing_standard", 30 ] ],
     "components": [ [ [ "snake_skin", 18 ], [ "tanned_snake_skin", 3 ] ] ]
-	},
-	{
-	"result": "sleeveless_allig_duster",
+  },
+  {
+    "result": "sleeveless_allig_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -172,9 +166,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 50 ] ],
     "components": [ [ [ "allig_hide", 25 ], [ "tanned_allig_hide", 4 ] ] ]
-	},
-	{
-	"result": "sleeveless_heavy_allig_duster",
+  },
+  {
+    "result": "sleeveless_heavy_allig_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -185,9 +179,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 50 ] ],
     "components": [ [ [ "allig_hide", 30 ], [ "tanned_allig_hide", 5 ] ] ]
-	},
-	{
-	"result": "sleeveless_allig_duster",
+  },
+  {
+    "result": "sleeveless_allig_duster",
     "type": "recipe",
     "id_suffix": "from_allig_duster",
     "category": "CC_ARMOR",
@@ -199,9 +193,9 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "flags": [ "NO_RESIZE" ],
     "components": [ [ [ "allig_duster", 1 ] ] ]
-	},
-	{
-	"result": "sleeveless_heavy_allig_duster",
+  },
+  {
+    "result": "sleeveless_heavy_allig_duster",
     "type": "recipe",
     "id_suffix": "from_heavy_allig_duster",
     "category": "CC_ARMOR",
@@ -213,9 +207,9 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "flags": [ "NO_RESIZE" ],
     "components": [ [ [ "heavy_allig_duster", 1 ] ] ]
-	},
-	{
-	"result": "allig_duster",
+  },
+  {
+    "result": "allig_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -226,9 +220,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 60 ] ],
     "components": [ [ [ "allig_hide", 29 ], [ "tanned_allig_hide", 5 ] ] ]
-	},
-	{
-	"result": "heavy_allig_duster",
+  },
+  {
+    "result": "heavy_allig_duster",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -239,9 +233,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 60 ] ],
     "components": [ [ [ "allig_hide", 32 ], [ "tanned_allig_hide", 6 ] ] ]
-	},
-	{
-	"result": "allig_jacket",
+  },
+  {
+    "result": "allig_jacket",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -252,9 +246,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "manual_tailor", 3 ] ],
     "using": [ [ "sewing_standard", 30 ] ],
     "components": [ [ [ "allig_hide", 18 ], [ "tanned_allig_hide", 3 ] ] ]
-	},
-	{
-	"result": "heavy_allig_jacket",
+  },
+  {
+    "result": "heavy_allig_jacket",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
@@ -265,9 +259,9 @@
     "book_learn": [ [ "textbook_tailor", 4 ], [ "manual_tailor", 3 ] ],
     "using": [ [ "sewing_standard", 30 ] ],
     "components": [ [ [ "allig_hide", 24 ], [ "tanned_allig_hide", 4 ] ] ]
-	},
-	{
-	"result": "snake_belt",
+  },
+  {
+    "result": "snake_belt",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_STORAGE",
@@ -276,9 +270,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 12 ] ],
     "components": [ [ [ "snake_skin", 6 ], [ "tanned_snake_skin", 1 ] ] ]
-	},
-	{
-	"result": "allig_belt",
+  },
+  {
+    "result": "allig_belt",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_STORAGE",
@@ -287,9 +281,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 12 ] ],
     "components": [ [ [ "allig_hide", 6 ], [ "tanned_allig_hide", 1 ] ] ]
-	},
-	{
-	"result": "snake_hood",
+  },
+  {
+    "result": "snake_hood",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -299,9 +293,9 @@
     "autolearn": true,
     "tools": [  ],
     "components": [ [ [ "snake_skin", 6 ], [ "tanned_snake_skin", 1 ] ] ]
-	},
-	{
-	"result": "allig_hood",
+  },
+  {
+    "result": "allig_hood",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -311,9 +305,9 @@
     "autolearn": true,
     "tools": [  ],
     "components": [ [ [ "allig_hide", 6 ], [ "tanned_allig_hide", 1 ] ] ]
-	},
-	{
-	"result": "heavy_allig_hood",
+  },
+  {
+    "result": "heavy_allig_hood",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -323,9 +317,9 @@
     "autolearn": true,
     "tools": [  ],
     "components": [ [ [ "allig_hide", 12 ], [ "tanned_allig_hide", 2 ] ] ]
-	},
-	{
-	"result": "snake_cloak",
+  },
+  {
+    "result": "snake_cloak",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -337,9 +331,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 18 ] ],
     "components": [ [ [ "snake_skin", 15 ], [ "tanned_snake_skin", 3 ] ] ]
-	},
-	{
-	"result": "allig_cloak",
+  },
+  {
+    "result": "allig_cloak",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -351,9 +345,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 18 ] ],
     "components": [ [ [ "allig_hide", 15 ], [ "tanned_allig_hide", 3 ] ] ]
-	},
-	{
-	"result": "heavy_allig_cloak",
+  },
+  {
+    "result": "heavy_allig_cloak",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -365,9 +359,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 18 ] ],
     "components": [ [ [ "allig_hide", 24 ], [ "tanned_allig_hide", 4 ] ] ]
-	},
-	{
-	"result": "snake_gloves",
+  },
+  {
+    "result": "snake_gloves",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
@@ -378,9 +372,9 @@
     "book_learn": [ [ "manual_tailor", 1 ], [ "mag_tailor", 0 ], [ "textbook_survival", 1 ], [ "pocket_survival", 1 ] ],
     "using": [ [ "sewing_standard", 6 ] ],
     "components": [ [ [ "snake_skin", 2 ] ] ]
-	},
-	{
-	"result": "allig_gloves",
+  },
+  {
+    "result": "allig_gloves",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
@@ -391,9 +385,9 @@
     "book_learn": [ [ "manual_tailor", 1 ], [ "mag_tailor", 0 ], [ "textbook_survival", 1 ], [ "pocket_survival", 1 ] ],
     "using": [ [ "sewing_standard", 6 ] ],
     "components": [ [ [ "allig_hide", 2 ] ] ]
-	},
-	{
-	"result": "heavy_allig_gloves",
+  },
+  {
+    "result": "heavy_allig_gloves",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
@@ -404,9 +398,9 @@
     "book_learn": [ [ "manual_tailor", 1 ], [ "mag_tailor", 0 ], [ "textbook_survival", 1 ], [ "pocket_survival", 1 ] ],
     "using": [ [ "sewing_standard", 6 ] ],
     "components": [ [ [ "allig_hide", 4 ] ] ]
-	},
-	{
-	"result": "snake_loincloth",
+  },
+  {
+    "result": "snake_loincloth",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
@@ -415,9 +409,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 12 ] ],
     "components": [ [ [ "snake_skin", 4 ] ] ]
-	},
-	{
-	"result": "allig_loincloth",
+  },
+  {
+    "result": "allig_loincloth",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
@@ -426,9 +420,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 12 ] ],
     "components": [ [ [ "allig_hide", 4 ] ] ]
-	},
-	{
-	"result": "snake_pants",
+  },
+  {
+    "result": "snake_pants",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
@@ -438,9 +432,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "snake_skin", 10 ], [ "tanned_snake_skin", 2 ] ] ]
-	},
-	{
-	"result": "allig_pants",
+  },
+  {
+    "result": "allig_pants",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
@@ -450,9 +444,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "allig_hide", 10 ], [ "tanned_allig_hide", 2 ] ] ]
-	},
-	{
-	"result": "heavy_allig_pants",
+  },
+  {
+    "result": "heavy_allig_pants",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
@@ -462,9 +456,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "allig_hide", 16 ], [ "tanned_allig_hide", 3 ] ] ]
-	},
-	{
-	"result": "snake_boots",
+  },
+  {
+    "result": "snake_boots",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
@@ -474,9 +468,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "snake_skin", 10 ], [ "tanned_snake_skin", 2 ] ] ]
-	},
-	{
-	"result": "allig_boots",
+  },
+  {
+    "result": "allig_boots",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
@@ -486,9 +480,9 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "allig_hide", 10 ], [ "tanned_allig_hide", 2 ] ] ]
-	},
-	{
-	"result": "heavy_allig_boots",
+  },
+  {
+    "result": "heavy_allig_boots",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
@@ -498,5 +492,5 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 10 ] ],
     "components": [ [ [ "allig_hide", 16 ], [ "tanned_allig_hide", 3 ] ] ]
-	}
-  ]
+  }
+]
