@@ -58,7 +58,7 @@
     "symbol": "/",
     "material": [ "wood" ],
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE"],
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ],
     "volume": "212 ml",
     "bashing": 7,
     "price": 16000
@@ -122,7 +122,7 @@
     "symbol": "/",
     "material": [ "steel", "lead" ],
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE"],
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ],
     "volume": "212 ml",
     "bashing": 7,
     "price": 16000
@@ -138,7 +138,7 @@
     "symbol": "/",
     "material": [ "steel" ],
     "techniques": [ "WBLOCK_1", "DEF_DISARM", "RAPID", "SWEEP", "PRECISE" ],
-	"//": "GRAB would be more accurate than SWEEP, but GRAB is not implemented",
+    "//": "GRAB would be more accurate than SWEEP, but GRAB is not implemented",
     "flags": [ "DURABLE_MELEE" ],
     "volume": "141 ml",
     "bashing": 20,
@@ -156,7 +156,12 @@
     "symbol": "/",
     "material": [ "steel", "lead" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
-    "use_action": { "menu_text": "Expand", "type": "transform", "target": "tokushukeibo-extended", "msg": "You snap open your tokushukeibo." },
+    "use_action": {
+      "menu_text": "Expand",
+      "type": "transform",
+      "target": "tokushukeibo-extended",
+      "msg": "You snap open your tokushukeibo."
+    },
     "volume": "250 ml",
     "bashing": 4,
     "price": 17500
@@ -191,7 +196,12 @@
     "symbol": "/",
     "material": [ "steel", "lead" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
-    "use_action": { "menu_text": "Expand", "type": "transform", "target": "tokushukeibo-jitte-extended", "msg": "You snap open your tokushukeibo." },
+    "use_action": {
+      "menu_text": "Expand",
+      "type": "transform",
+      "target": "tokushukeibo-jitte-extended",
+      "msg": "You snap open your tokushukeibo."
+    },
     "volume": "250 ml",
     "bashing": 4,
     "price": 17500
@@ -209,7 +219,12 @@
     "material": [ "steel", "lead" ],
     "techniques": [ "WBLOCK_1", "RAPID", "DEF_DISARM", "SWEEP", "PRECISE" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
-    "use_action": { "menu_text": "Collapse", "type": "transform", "target": "tokushukeibo-jitte", "msg": "You collapse your tokushukeibo." },
+    "use_action": {
+      "menu_text": "Collapse",
+      "type": "transform",
+      "target": "tokushukeibo-jitte",
+      "msg": "You collapse your tokushukeibo."
+    },
     "volume": "750 ml",
     "bashing": 12,
     "price": 17500
@@ -257,7 +272,7 @@
     "symbol": "/",
     "material": [ "wood" ],
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE"],
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE" ],
     "volume": "212 ml",
     "bashing": 5,
     "price": 16000
@@ -288,7 +303,7 @@
     "volume": "1000 ml",
     "price": 25000,
     "bashing": 12,
-	"cutting": 2,
+    "cutting": 2,
     "material": [ "steel" ],
     "symbol": "\\",
     "color": "dark_gray",
