@@ -1,5 +1,5 @@
 [
-{
+  {
     "type": "COMESTIBLE",
     "id": "maggi_goreng",
     "name": { "str": "maggi goreng", "str_pl": "maggi goreng" },
@@ -76,7 +76,11 @@
     "id": "beet_stew",
     "name": { "str": "Babylonian beet stew", "str_pl": "Babylonian beet stew" },
     "conditional_names": [
-      { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str": "Babe-lonian beet stew", "str_pl": "Babes-lonian beet stew" } },
+      {
+        "type": "FLAG",
+        "condition": "CANNIBALISM",
+        "name": { "str": "Babe-lonian beet stew", "str_pl": "Babes-lonian beet stew" }
+      },
       {
         "type": "COMPONENT_ID",
         "condition": "mutant",
@@ -134,7 +138,11 @@
     "id": "beetstew_withcouscous",
     "name": { "str": "Babylonian beet stew with couscous", "str_pl": "Babylonian beet stews with couscous" },
     "conditional_names": [
-      { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str": "Babe-lonian beet stew with couscous", "str_pl": "Babes-lonian beet stews with couscous" } },
+      {
+        "type": "FLAG",
+        "condition": "CANNIBALISM",
+        "name": { "str": "Babe-lonian beet stew with couscous", "str_pl": "Babes-lonian beet stews with couscous" }
+      },
       {
         "type": "COMPONENT_ID",
         "condition": "mutant",
@@ -157,5 +165,5 @@
     "fun": 5,
     "charges": 1,
     "vitamins": [ [ "vitA", 14 ], [ "vitC", 7 ], [ "calcium", 6 ], [ "iron", 27 ] ]
-  }  
+  }
 ]
