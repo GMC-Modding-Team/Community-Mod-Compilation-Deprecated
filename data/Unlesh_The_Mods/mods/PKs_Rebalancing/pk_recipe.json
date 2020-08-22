@@ -15,7 +15,7 @@
     "type": "recipe",
     "result": "water_smoke",
     "category": "CC_AMMO",
-    "subcategory": "CSC_OTHER",
+    "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -51,8 +51,6 @@
     "type": "recipe",
     "result": "smoke_machine_unpreped",
     "id_suffix": "decon",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "fabrication",
     "difficulty": 3,
     "time": "4 m",
@@ -174,8 +172,6 @@
   {
     "type": "recipe",
     "result": "broken_mechaspider",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "survival",
     "difficulty": 2,
     "time": "1 m",
@@ -201,8 +197,6 @@
   {
     "type": "recipe",
     "result": "arachnotron_guts",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "electronics",
     "difficulty": 8,
     "time": "480 m",
@@ -395,7 +389,7 @@
     "tools": [ [ [ "surface_heat", 15, "LIST" ], [ "char_smoker", 20 ] ] ],
     "components": [
       [ [ "water", 1 ], [ "water_clean", 1 ], [ "salt_water", 1 ], [ "saline", 5 ] ],
-      [ [ "jar_glass_sealed", 1 ] ],
+      [ [ "jar_glass", 1 ] ],
       [ [ "spider_steak", 1 ] ],
       [ [ "vinegar", 1 ] ]
     ]
@@ -500,7 +494,7 @@
     "result": "bomblet_explosive",
     "note": "crafted explosive bomblets",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_GRENADES",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 2 ],
     "difficulty": 4,
@@ -538,7 +532,7 @@
     "result": "bomblet_frag",
     "note": "crafted frag bomblets",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_GRENADES",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 2 ],
     "difficulty": 5,
@@ -576,7 +570,7 @@
     "result": "bomblet_fire",
     "note": "crafted fire bomblets",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_GRENADES",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
@@ -615,7 +609,7 @@
     "result": "bomblet_acid",
     "note": "crafted acid bomblets",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_GRENADES",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
@@ -646,7 +640,7 @@
     "result": "bomblet_stun",
     "note": "crafted stun bomblets",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_GRENADES",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 3, "cooking", 5 ],
     "difficulty": 7,
@@ -694,8 +688,6 @@
     "type": "recipe",
     "result": "megaarmor_torso_1",
     "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "fabrication",
     "skills_required": [ "tailor", 3 ],
     "difficulty": 3,
@@ -760,8 +752,6 @@
     "type": "recipe",
     "result": "megaarmor_leggings_1",
     "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "fabrication",
     "skills_required": [ "tailor", 3 ],
     "difficulty": 3,
@@ -775,8 +765,6 @@
     "type": "recipe",
     "result": "megaarmor_boots_1",
     "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "fabrication",
     "skills_required": [ "tailor", 4 ],
     "difficulty": 5,
@@ -790,8 +778,6 @@
     "type": "recipe",
     "result": "megaarmor_gloves_1",
     "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "fabrication",
     "skills_required": [ "tailor", 2 ],
     "difficulty": 3,
@@ -805,8 +791,6 @@
     "type": "recipe",
     "result": "megaarmor_armguards_1",
     "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
     "skill_used": "fabrication",
     "skills_required": [ "tailor", 2 ],
     "difficulty": 3,
@@ -839,7 +823,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [
-      [ [ "jar_glass_sealed", 1 ], [ "clay_canister", 2 ], [ "flask_glass", 2 ] ],
+      [ [ "jar_glass", 1 ], [ "clay_canister", 2 ], [ "flask_glass", 2 ] ],
       [ [ "acid", 2 ], [ "chem_sulphuric_acid", 1 ] ],
       [ [ "string_6", 2 ] ],
       [ [ "rag", 1 ] ]
@@ -1005,7 +989,7 @@
     "components": [
       [ [ "triffid_sap", 2 ], [ "triffid_sap_thrown", 2 ] ],
       [ [ "plant_sac", 1 ], [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "chem_sulphuric_acid", 1 ], [ "chem_acetic_acid", 2 ] ],
+      [ [ "water_acid", 1 ], [ "water_acid_weak", 2 ] ],
       [ [ "clay_canister", 1 ], [ "flask_glass", 1 ], [ "bottle_glass", 1 ] ]
     ]
   },
@@ -1076,7 +1060,7 @@
     "components": [
       [ [ "fighter_sting_juice", 2 ] ],
       [ [ "royal_jelly_sap", 1 ], [ "royal_jelly", 1 ] ],
-      [ [ "chem_sulphuric_acid", 2 ], [ "chem_acetic_acid", 2 ] ]
+      [ [ "water_acid", 2 ], [ "water_acid_weak", 2 ] ]
     ]
   },
   {
@@ -1097,7 +1081,7 @@
       [ [ "fighter_sting_juice", 3 ] ],
       [ [ "royal_jelly_sap", 1 ], [ "royal_jelly", 1 ] ],
       [ [ "disinfectant", 3 ], [ "chem_hydrogen_peroxide_conc", 1 ], [ "chem_hydrogen_peroxide", 3 ] ],
-      [ [ "chem_sulphuric_acid", 2 ], [ "chem_acetic_acid", 2 ] ]
+      [ [ "water_acid", 2 ], [ "water_acid_weak", 2 ] ]
     ]
   },
   {
@@ -1202,7 +1186,7 @@
     "components": [
       [ [ "wasp_glue", 3 ] ],
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "chem_sulphuric_acid", 1 ], [ "chem_acetic_acid", 2 ] ],
+      [ [ "water_acid", 1 ], [ "water_acid_weak", 2 ] ],
       [
         [ "fertilizer_commercial", 50 ],
         [ "fertilizer_liquid", 50 ],
