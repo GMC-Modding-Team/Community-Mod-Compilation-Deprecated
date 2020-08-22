@@ -8,7 +8,7 @@ Inside the file, if you want to remove some combination of monsters and items, p
 [
   {
     "type": "MOD_INFO",
-    "ident": "no_personal_edition",
+    "id": "no_personal_edition",
     "name": "Put the display name of your NO! mod here. Keep it short and sweet.",
     "description": "Write a short description of your NO! mod here.",
     "category": "monster_exclude",
@@ -34,7 +34,7 @@ If you don't want to remove any monsters (this category includes animals), paste
 [
   {
     "type": "MOD_INFO",
-    "ident": "no_personal_edition",
+    "id": "no_personal_edition",
     "name": "Put the display name of your NO! mod here. Keep it short and sweet.",
     "description": "Write a short description of your NO! mod here.",
     "category": "monster_exclude",
@@ -54,7 +54,7 @@ And, if you don't want to remove any items paste this code (again without the ba
 [
   {
     "type": "MOD_INFO",
-    "ident": "no_personal_edition",
+    "id": "no_personal_edition",
     "name": "Put the display name of your NO! mod here. Keep it short and sweet.",
     "description": "Write a short description of your NO! mod here.",
     "category": "monster_exclude",
@@ -78,7 +78,7 @@ Let's say we wanted to remove the aforementioned katana and acid zombies from th
 [
   {
     "type": "MOD_INFO",
-    "ident": "no_personal_edition",
+    "id": "no_personal_edition",
     "name": "Put the display name of your NO! mod here. Keep it short and sweet.",
     "description": "Write a short description of your NO! mod here.",
     "category": "monster_exclude",
