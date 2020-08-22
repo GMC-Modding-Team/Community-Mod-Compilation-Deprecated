@@ -1,4 +1,4 @@
-[ 
+[
   {
     "type": "mapgen",
     "method": "json",
@@ -39,50 +39,44 @@
         "I": "t_ballistic_glass",
         "M": "t_wall_metal",
         "|": "t_chainfence_v",
-		",": "t_thconc_floor"
+        ",": "t_thconc_floor"
       }
     }
   },
   {
     "type": "mapgen",
-	"method": "json",
-	"om_terrain": [ "omni_outpost_under" ],
-	"object": {
-	  "fill_ter": "t_metal_floor",
-	  "rows": [
-	    "#########################",
-		"#MMMMMMMMMMMMMMMMMMMMMMM#",
-		"#M,,,,,,,,,M,,M,,,,,,,,M#",
-		"#M,,,,,,,,,D,,D,,,,,,,,M#",
-		"#M,,,,,,,,,M,,M,,,,,,,,M#",
-		"#M,,,,,,,,,M,,M,,,,,,,,M#",
-		"#M,,,,,,,,,M,,M,,,,,,,,M#",
-		"#MMMMMMMMMMM,,MMMMMMMMMM#",
-		"#M,,,,,,,,,,,,,,,,,,,,,M#",
-		"#M,,,,,,,,,,,,,,,,,,,,,M#",
-		"#M,,,,,,,,,,,,,,,,,,,,,M#",
-		"#M,,,,,,,,,,,,,,,,,,,,,M#",
-		"#M,,,,,MMMMMDMMMMM,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#M,,,,,M,,,,<<,,,M,,,,,M#",
-		"#M,,,,,MMMDMMMMMMM,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#M,,,,,M,,,,,,,,,M,,,,,M#",
-		"#MMMMMMMMMMMMMMMMMMMMMMM#",
-		"#########################"
-	],
-	"terrain": {
-	  "#": "t_rock",
-	  "M": "t_wall_metal",
-	  "D": "t_door_metal_c",
-	  ",": "t_metal_floor",
-      "<": "t_stairs_up"
-	  }
-	}
+    "method": "json",
+    "om_terrain": [ "omni_outpost_under" ],
+    "object": {
+      "fill_ter": "t_metal_floor",
+      "rows": [
+        "#########################",
+        "#MMMMMMMMMMMMMMMMMMMMMMM#",
+        "#M,,,,,,,,,M,,M,,,,,,,,M#",
+        "#M,,,,,,,,,D,,D,,,,,,,,M#",
+        "#M,,,,,,,,,M,,M,,,,,,,,M#",
+        "#M,,,,,,,,,M,,M,,,,,,,,M#",
+        "#M,,,,,,,,,M,,M,,,,,,,,M#",
+        "#MMMMMMMMMMM,,MMMMMMMMMM#",
+        "#M,,,,,,,,,,,,,,,,,,,,,M#",
+        "#M,,,,,,,,,,,,,,,,,,,,,M#",
+        "#M,,,,,,,,,,,,,,,,,,,,,M#",
+        "#M,,,,,,,,,,,,,,,,,,,,,M#",
+        "#M,,,,,MMMMMDMMMMM,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#M,,,,,M,,,,<<,,,M,,,,,M#",
+        "#M,,,,,MMMDMMMMMMM,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#M,,,,,M,,,,,,,,,M,,,,,M#",
+        "#MMMMMMMMMMMMMMMMMMMMMMM#",
+        "#########################"
+      ],
+      "terrain": { "#": "t_rock", "M": "t_wall_metal", "D": "t_door_metal_c", ",": "t_metal_floor", "<": "t_stairs_up" }
+    }
   },
   {
     "type": "mapgen",
@@ -115,10 +109,7 @@
         "                        ",
         "                        "
       ],
-      "terrain": {
-	    " ": "t_open_air",
-        "M": "t_flat_roof"
-      }
+      "terrain": { " ": "t_open_air", "M": "t_flat_roof" }
     }
   }
-]  
+]

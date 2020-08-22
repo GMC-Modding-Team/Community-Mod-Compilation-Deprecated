@@ -2,15 +2,23 @@
   "id": "TALK_DMBB_ORB_command_endwave",
   "type": "talk_topic",
   "dynamic_line": "*blasts beams of light rays, radiating into the vicinity which has blinded you and everything nearby.\n\nIts powerful explosion dropped some sentinel essences.",
-    "speaker_effect": [
-      {
-        "effect": [ { "u_add_effect": "blind", "duration": 3 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 } ]
-      },
-      {
-        "condition": { "npc_has_trait": "DMBB_ORB_sentguard" },
-        "effect": [ { "u_lose_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" }, { "u_buy_monster": "mon_dmbb_bless_sentguard_despawn" } ]
-      }
-    ],
+  "speaker_effect": [
+    {
+      "effect": [
+        { "u_add_effect": "blind", "duration": 3 },
+        { "u_add_effect": "deaf", "duration": 1 },
+        { "u_add_effect": "deaf", "duration": 1 },
+        { "u_add_effect": "deaf", "duration": 1 }
+      ]
+    },
+    {
+      "condition": { "npc_has_trait": "DMBB_ORB_sentguard" },
+      "effect": [
+        { "u_lose_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" },
+        { "u_buy_monster": "mon_dmbb_bless_sentguard_despawn" }
+      ]
+    }
+  ],
   "responses": [
     {
       "text": "[FINISH] Wave 1",

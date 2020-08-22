@@ -1,6 +1,11 @@
 [
   {
-    "id": [ "TALK_DMBB_ORB_command_upgrade", "TALK_DMBB_ORB_command_upgrade_pas", "TALK_DMBB_ORB_command_upgrade_act", "TALK_DMBB_ORB_command_upgrade_sen" ],
+    "id": [
+      "TALK_DMBB_ORB_command_upgrade",
+      "TALK_DMBB_ORB_command_upgrade_pas",
+      "TALK_DMBB_ORB_command_upgrade_act",
+      "TALK_DMBB_ORB_command_upgrade_sen"
+    ],
     "type": "talk_topic",
     "dynamic_line": "*requires sentinel essences to upgrade the orb.\n\nSelect the upgrade type to show.",
     "responses": [
@@ -745,7 +750,12 @@
         "text": "[50 blood essence] Strength+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "u_has_trait": "DMBB_ORB_PC_str" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "u_has_trait": "DMBB_ORB_PC_str" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -794,7 +804,12 @@
         "text": "[50 blood essence] Dexterity+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "u_has_trait": "DMBB_ORB_PC_dex" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "u_has_trait": "DMBB_ORB_PC_dex" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -843,7 +858,12 @@
         "text": "[50 blood essence] Intelligence+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "u_has_trait": "DMBB_ORB_PC_int" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "u_has_trait": "DMBB_ORB_PC_int" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -892,7 +912,12 @@
         "text": "[50 blood essence] Perception+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "u_has_trait": "DMBB_ORB_PC_per" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "u_has_trait": "DMBB_ORB_PC_per" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -1176,10 +1201,7 @@
         "text": "[3000 essence] Heavenly Protection",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen",
         "condition": {
-          "and": [
-            { "not": { "u_has_trait": "DMBB_ORB_PC_hevpro" } },
-            { "u_has_items": { "item": "dmbb_essence", "count": 3000 } }
-          ]
+          "and": [ { "not": { "u_has_trait": "DMBB_ORB_PC_hevpro" } }, { "u_has_items": { "item": "dmbb_essence", "count": 3000 } } ]
         },
         "effect": [
           { "u_sell_item": "dmbb_essence", "count": 3000 },
@@ -1192,10 +1214,7 @@
         "text": "[2500 essence] Consecrate",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen",
         "condition": {
-          "and": [
-            { "not": { "u_has_trait": "DMBB_ORB_PC_consecrate" } },
-            { "u_has_items": { "item": "dmbb_essence", "count": 2500 } }
-          ]
+          "and": [ { "not": { "u_has_trait": "DMBB_ORB_PC_consecrate" } }, { "u_has_items": { "item": "dmbb_essence", "count": 2500 } } ]
         },
         "effect": [
           { "u_sell_item": "dmbb_essence", "count": 2500 },
@@ -1213,7 +1232,10 @@
       "and": [
         "*\"What SENTINEL upgrade will I get?\"",
         {
-          "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes",
+          "u_has_var": "dmbb_orb",
+          "type": "has_passive",
+          "context": "arcanasy",
+          "value": "yes",
           "yes": {
             "npc_has_trait": "DMBB_ORB_PC_str",
             "no": "\n\n*50 blood essence\n[SENTINEL] Strength+\nPermanently increases STR by 1.",
@@ -1228,7 +1250,10 @@
           }
         },
         {
-          "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes",
+          "u_has_var": "dmbb_orb",
+          "type": "has_passive",
+          "context": "arcanasy",
+          "value": "yes",
           "yes": {
             "npc_has_trait": "DMBB_ORB_PC_dex",
             "no": "\n\n*50 blood essence\n[SENTINEL] Dexterity+\nPermanently increases DEX by 1.",
@@ -1243,7 +1268,10 @@
           }
         },
         {
-          "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes",
+          "u_has_var": "dmbb_orb",
+          "type": "has_passive",
+          "context": "arcanasy",
+          "value": "yes",
           "yes": {
             "npc_has_trait": "DMBB_ORB_PC_int",
             "no": "\n\n*50 blood essence\n[SENTINEL] Intelligence+\nPermanently increases INT by 1.",
@@ -1258,7 +1286,10 @@
           }
         },
         {
-          "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes",
+          "u_has_var": "dmbb_orb",
+          "type": "has_passive",
+          "context": "arcanasy",
+          "value": "yes",
           "yes": {
             "npc_has_trait": "DMBB_ORB_PC_per",
             "no": "\n\n*50 blood essence\n[SENTINEL] Perception+\nPermanently increases PER by 1.",
@@ -1347,7 +1378,12 @@
         "text": "[50 blood essence] Strength+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen_merc",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "npc_has_trait": "DMBB_ORB_PC_str" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "npc_has_trait": "DMBB_ORB_PC_str" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -1393,7 +1429,12 @@
         "text": "[50 blood essence] Dexterity+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen_merc",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "npc_has_trait": "DMBB_ORB_PC_dex" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "npc_has_trait": "DMBB_ORB_PC_dex" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -1439,7 +1480,12 @@
         "text": "[50 blood essence] Intelligence+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen_merc",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "npc_has_trait": "DMBB_ORB_PC_int" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "npc_has_trait": "DMBB_ORB_PC_int" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -1485,7 +1531,12 @@
         "text": "[50 blood essence] Perception+",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen_merc",
         "condition": {
-          "and": [ { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" }, { "npc_has_trait": "DMBB_ORB_arcanasy" }, { "not": { "npc_has_trait": "DMBB_ORB_PC_per" } }, { "u_has_items": { "item": "essence_blood", "count": 50 } } ]
+          "and": [
+            { "u_has_var": "dmbb_orb", "type": "has_passive", "context": "arcanasy", "value": "yes" },
+            { "npc_has_trait": "DMBB_ORB_arcanasy" },
+            { "not": { "npc_has_trait": "DMBB_ORB_PC_per" } },
+            { "u_has_items": { "item": "essence_blood", "count": 50 } }
+          ]
         },
         "effect": [
           { "u_sell_item": "essence_blood", "count": 50 },
@@ -1751,10 +1802,7 @@
         "text": "[3000 essence] Heavenly Protection",
         "topic": "TALK_DMBB_ORB_command_upgrade_sen_merc",
         "condition": {
-          "and": [
-            { "not": { "npc_has_trait": "DMBB_ORB_PC_hevpro" } },
-            { "u_has_items": { "item": "dmbb_essence", "count": 3000 } }
-          ]
+          "and": [ { "not": { "npc_has_trait": "DMBB_ORB_PC_hevpro" } }, { "u_has_items": { "item": "dmbb_essence", "count": 3000 } } ]
         },
         "effect": [
           { "u_sell_item": "dmbb_essence", "count": 3000 },
