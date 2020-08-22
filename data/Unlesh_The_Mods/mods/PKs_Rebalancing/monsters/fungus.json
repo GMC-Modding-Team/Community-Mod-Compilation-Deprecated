@@ -38,8 +38,8 @@
     "starting_ammo": { "bot_fungal_boil": 8 },
     "special_attacks": [ [ "FUNGUS_BRISTLE", 20 ], [ "FUNGUS", 30 ], [ "wound_minor", 30 ], [ "GRENADIER", 60 ] ],
     "death_function": [ "FUNGUS", "DISINTEGRATE" ],
-	"regenerates": 1,
-    "flags": [ "SEES", "NOHEAD", "POISON", "NO_BREATHE", "IMMOBILE"]
+    "regenerates": 1,
+    "flags": [ "SEES", "NOHEAD", "POISON", "NO_BREATHE", "IMMOBILE" ]
   },
   {
     "id": "mon_fungaloid_young",
@@ -193,18 +193,7 @@
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "SOUND", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "PATH_AVOID_DANGER_1",
-      "ANIMAL",
-      "POISON",
-      "WARM",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "ATTACKMON"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "POISON", "WARM", "HIT_AND_RUN", "KEENNOSE", "ATTACKMON" ]
   },
   {
     "id": "mon_feer",
@@ -1073,7 +1062,7 @@
     ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-	"regenerates": 1,
+    "regenerates": 1,
     "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BASHES", "POISON", "PLASTIC" ]
   }
 ]

@@ -254,7 +254,11 @@
     "symbol": ",",
     "color": "light_green",
     "comestible_type": "MED",
-    "use_action": { "type": "consume_drug", "tools_needed": { "syringe": 1 }, "effects": [ { "id": "triffid_neutralization", "duration": 1 } ] },
+    "use_action": {
+      "type": "consume_drug",
+      "tools_needed": { "syringe": 1 },
+      "effects": [ { "id": "triffid_neutralization", "duration": 1 } ]
+    },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
