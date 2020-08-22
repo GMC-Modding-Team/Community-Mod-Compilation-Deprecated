@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "tanning_snake",
     "type": "TOOL",
     "category": "spare_parts",
@@ -23,8 +23,8 @@
       "//": "2 days"
     },
     "flags": [ "NO_SALVAGE" ]
-	},
-	{
+  },
+  {
     "id": "tanning_allig",
     "type": "TOOL",
     "category": "spare_parts",
@@ -48,8 +48,8 @@
       "//": "2 days"
     },
     "flags": [ "NO_SALVAGE" ]
-	},
-	{
+  },
+  {
     "copy-from": "needle_bone",
     "type": "TOOL",
     "name": { "str": "bone needle" },
@@ -70,15 +70,29 @@
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_fabric",
-      "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "kevlar_layered", "gutskin", "snake_leather", "allig_leather" ],
+      "materials": [
+        "cotton",
+        "leather",
+        "lycra",
+        "nylon",
+        "wool",
+        "fur",
+        "faux_fur",
+        "nomex",
+        "kevlar",
+        "kevlar_layered",
+        "gutskin",
+        "snake_leather",
+        "allig_leather"
+      ],
       "skill": "tailor",
       "tool_quality": -1,
       "cost_scaling": 0.1,
       "move_cost": 1300
     },
     "flags": [ "STAB", "ALLOWS_REMOTE_USE" ]
-	},
-	{
+  },
+  {
     "id": "needle_wood",
     "type": "TOOL",
     "name": { "str": "wooden needle" },
@@ -99,15 +113,27 @@
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_fabric",
-      "materials": [ "cotton", "lycra", "nylon", "leather", "wool", "fur", "faux_fur", "nomex", "gutskin", "snake_leather", "allig_leather" ],
+      "materials": [
+        "cotton",
+        "lycra",
+        "nylon",
+        "leather",
+        "wool",
+        "fur",
+        "faux_fur",
+        "nomex",
+        "gutskin",
+        "snake_leather",
+        "allig_leather"
+      ],
       "skill": "tailor",
       "tool_quality": -1,
       "cost_scaling": 0.1,
       "move_cost": 1500
     },
     "flags": [ "STAB", "ALLOWS_REMOTE_USE" ]
-	},
-	{
+  },
+  {
     "copy-from": "sewing_kit",
     "type": "TOOL",
     "name": { "str": "sewing kit" },
@@ -126,12 +152,26 @@
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_fabric",
-      "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "kevlar_layered", "gutskin", "snake_leather", "allig_leather" ],
+      "materials": [
+        "cotton",
+        "leather",
+        "lycra",
+        "nylon",
+        "wool",
+        "fur",
+        "faux_fur",
+        "nomex",
+        "kevlar",
+        "kevlar_layered",
+        "gutskin",
+        "snake_leather",
+        "allig_leather"
+      ],
       "skill": "tailor",
       "tool_quality": 0,
       "cost_scaling": 0.1,
       "move_cost": 1000
     },
     "flags": [ "ALLOWS_REMOTE_USE" ]
-	}
+  }
 ]
