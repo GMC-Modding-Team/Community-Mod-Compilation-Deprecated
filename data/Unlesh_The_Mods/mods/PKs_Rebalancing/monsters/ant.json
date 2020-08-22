@@ -131,6 +131,7 @@
     "extend": { "upgrades": { "into_group": "GROUP_DRONE", "half_life": 5 } },
     "delete": { "upgrades": { "age_grow": 14, "into": "mon_ant_soldier" } }
   },
+
   {
     "id": "mon_ant_soldier",
     "type": "MONSTER",
@@ -139,7 +140,7 @@
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "volume": "62500 ml",
-    "weight": "81500 g",
+    "weight": 81500,
     "hp": 80,
     "speed": 100,
     "material": [ "iflesh" ],
@@ -161,6 +162,8 @@
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS" ]
   },
+
+
   {
     "id": "mon_ant_soldier",
     "type": "MONSTER",
@@ -527,10 +530,7 @@
       }
     ],
     "extend": { "anger_triggers": [ "FIRE" ], "upgrades": { "into_group": "GROUP_ANT_ACID_UPGRADE", "half_life": 5 } },
-    "delete": {
-      "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
-      "upgrades": { "age_grow": 14, "into": "mon_ant_acid_soldier" }
-    }
+    "delete": { "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ], "upgrades": { "age_grow": 14, "into": "mon_ant_acid_soldier" } }
   },
   {
     "id": "mon_ant_acid_terminal",
@@ -654,7 +654,7 @@
     "symbol": "A",
     "color": "red",
     "size": "MEDIUM",
-    "material": [ "iflesh" ],
+    "material": "iflesh",
     "diff": 20,
     "hp": 120,
     "aggression": 7,
@@ -687,7 +687,7 @@
     "symbol": "A",
     "color": "green_red",
     "size": "HUGE",
-    "material": [ "iflesh" ],
+    "material": "iflesh",
     "diff": 30,
     "hp": 260,
     "aggression": 30,

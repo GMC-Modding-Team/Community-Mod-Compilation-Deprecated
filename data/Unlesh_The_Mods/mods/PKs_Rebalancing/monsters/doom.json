@@ -99,7 +99,7 @@
         "cooldown": 5,
         "move_cost": 150,
         "gun_type": "hell_ball",
-        "ammo_type": "shot",
+        "ammo_type": "flaming_ball",
         "fake_skills": [ [ "gun", 2 ] ],
         "fake_str": 10,
         "fake_dex": 13,
@@ -785,7 +785,18 @@
       }
     ],
     "death_function": [ "NORMAL", "SMOKEBURST" ],
-    "flags": [ "SEES", "HEARS", "PRIORITIZE_TARGETS", "WARM", "POISON", "BASHES", "DESTROYS", "NO_BREATHE", "PUSH_MON", "ATTACKMON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PRIORITIZE_TARGETS",
+      "WARM",
+      "POISON",
+      "BASHES",
+      "DESTROYS",
+      "NO_BREATHE",
+      "PUSH_MON",
+      "ATTACKMON"
+    ]
   },
   {
     "id": "mon_doom_churl",
