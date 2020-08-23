@@ -2,14 +2,14 @@
   {
     "id": "mon_fungaloid",
     "type": "MONSTER",
-    "name": { "str": "fungaloid" },
+    "name": { "str_sp": "fungaloid" },
     "copy-from": "mon_fungaloid",
     "special_attacks": [ [ "FUNGUS_CORPORATE", 30 ] ]
   },
   {
     "id": "mon_zombie_electric",
     "type": "MONSTER",
-    "name": { "str": "shocker zombie" },
+    "name": { "str_sp": "shocker zombie" },
     "description": "A human body with pale blue flesh, crackling with electrical energy.  It seems eager to tell you something.",
     "copy-from": "mon_zombie_electric",
     "special_attacks": [ [ "SHOCKING_REVEAL", 25 ] ]
@@ -17,7 +17,7 @@
   {
     "id": "mon_zombie_skeltal",
     "type": "MONSTER",
-    "name": { "str": "mr skeltal" },
+    "name": { "str_sp": "mr skeltal" },
     "description": "Devoid entirely of flesh and organs, this walking skeleton rattles you to the bone.  In its bony hand, it holds a pristine trumpet, unmarred by the end of the world.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE", "HUMAN" ],

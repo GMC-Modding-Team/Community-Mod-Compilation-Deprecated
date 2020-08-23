@@ -126,13 +126,13 @@
     "id": "mon_spore",
     "type": "MONSTER",
     "copy-from": "mon_spore",
-    "name": { "str": "spore cloud" },
+    "name": { "str_sp": "spore cloud" },
     "default_faction": "spore"
   },
   {
     "id": "mon_fungus_boil",
     "type": "MONSTER",
-    "name": { "str": "fungal boil" },
+    "name": { "str_sp": "fungal boil" },
     "description": "A quick-growing mass of spores, wafting around vague with purpose.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -160,7 +160,7 @@
   {
     "id": "mon_fougar",
     "type": "MONSTER",
-    "name": { "str": "fungal cougar" },
+    "name": { "str_sp": "fungal cougar" },
     "description": "The Eastern cougar, now an aspiring fungaloid.  Although it appears its transformation has affected its agility some, it still bounds after targets with savagery.",
     "default_faction": "finfected",
     "species": [ "MAMMAL" ],
@@ -198,7 +198,7 @@
   {
     "id": "mon_feer",
     "type": "MONSTER",
-    "name": { "str": "deer" },
+    "name": { "str_sp": "deer" },
     "description": "A deer riddled with budding fungi.  Suicidally fast.  So fast you hardly have time to recognize its affliction.",
     "default_faction": "finfected",
     "species": [ "MAMMAL" ],
@@ -230,7 +230,7 @@
   {
     "id": "mon_foose",
     "type": "MONSTER",
-    "name": { "str": "foose" },
+    "name": { "str_sp": "foose" },
     "description": "The 'foose' is an ill-tempered beast, fighting a battle it must inevitably lose.  Occasionally it gives unearthly voice to its anguish.",
     "default_faction": "finfected",
     "species": [ "MAMMAL" ],
@@ -305,7 +305,7 @@
   {
     "id": "mon_fant",
     "type": "MONSTER",
-    "name": { "str": "fant" },
+    "name": { "str_sp": "fant" },
     "description": "Pale and sickly gray in color, it's hard to believe this ant is still alive, much less moving to attack you.",
     "default_faction": "finfected",
     "species": [ "INSECT", "FUNGUS" ],
@@ -350,7 +350,7 @@
   {
     "id": "mon_fungaloid_pk",
     "type": "MONSTER",
-    "name": { "str": "fungal tender" },
+    "name": { "str_sp": "fungal tender" },
     "description": "A stout stalk of gray matter, this fungus pulls itself along with several tipped tendrils.  Two of these tendrils are raised ominously when the fungaloid finds a suitable host for its crop of spores.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -395,7 +395,7 @@
   {
     "id": "mon_fardigrade",
     "type": "MONSTER",
-    "name": { "str": "infected tardigrade" },
+    "name": { "str_sp": "infected tardigrade" },
     "description": "A giant water bear that is host to the fungal invasion.  Its body has softened as a result of the infection, and its sensory tentacles have lengthened significantly where fungal buds have formed.  Even as this gentle beast ignores you the fungal tentacles seek new flesh to pollinate.",
     "default_faction": "finfected",
     "species": [ "INSECT" ],
@@ -449,7 +449,7 @@
   {
     "id": "mon_furvivor",
     "type": "MONSTER",
-    "name": { "str": "fungal survivor" },
+    "name": { "str_sp": "fungal survivor" },
     "description": "An apparent survivor of the apocalypse, this individual has visibly active fungal growth sprouting throughout their body.  Whatever individuality they once held is completely subverted.",
     "default_faction": "fungus",
     "species": [ "MAMMAL", "FUNGUS" ],
@@ -492,7 +492,7 @@
   {
     "id": "mon_furvivor_glock",
     "type": "MONSTER",
-    "name": { "str": "infected survivor" },
+    "name": { "str_sp": "infected survivor" },
     "description": "A survivor of the apocalypse, this individual is succumbing to their infection; displaying paranoia, and incoherency.  Unpredictable and terminally-ill, they will not respond to any attempts to communicate.  You can't help but notice they still wear their armor and holster, despite the fresh fungal budding that threatens to rip through it  . . .",
     "default_faction": "finfected",
     "species": [ "MAMMAL", "FUNGUS" ],
@@ -553,7 +553,7 @@
   {
     "id": "mon_furvivor_shotgun",
     "type": "MONSTER",
-    "name": { "str": "infected survivor" },
+    "name": { "str_sp": "infected survivor" },
     "description": "A survivor of the apocalypse, this individual is succumbing to their infection; displaying paranoia, and incoherency.  Unpredictable and terminally-ill, they will not respond to any attempts to communicate.  You can't help but notice they still wear their armor and holster, despite the fresh fungal budding that threatens to rip through it  . . .",
     "default_faction": "finfected",
     "species": [ "MAMMAL", "FUNGUS" ],
@@ -613,7 +613,7 @@
   {
     "id": "mon_furvivor_deagle",
     "type": "MONSTER",
-    "name": { "str": "infected survivor" },
+    "name": { "str_sp": "infected survivor" },
     "description": "A survivor of the apocalypse, this individual is succumbing to their infection; displaying paranoia, and incoherency.  Unpredictable and terminally-ill, they will not respond to any attempts to communicate.  You can't help but notice they still wear their armor and holster, despite the fresh fungal budding that threatens to rip through it  . . .",
     "default_faction": "fungus",
     "species": [ "MAMMAL", "FUNGUS" ],
@@ -673,7 +673,7 @@
   {
     "id": "mon_furvivor_smg",
     "type": "MONSTER",
-    "name": { "str": "infected survivor" },
+    "name": { "str_sp": "infected survivor" },
     "description": "A survivor of the apocalypse, this individual is succumbing to their infection; displaying paranoia, and incoherency.  Unpredictable and terminally-ill, they will not respond to any attempts to communicate.  You can't help but notice they still wear their armor and holster, despite the fresh fungal budding that threatens to rip through it  . . .",
     "default_faction": "finfected",
     "species": [ "MAMMAL", "FUNGUS" ],
@@ -732,7 +732,7 @@
   {
     "id": "mon_furvivor_pk",
     "type": "MONSTER",
-    "name": { "str": "infected survivor" },
+    "name": { "str_sp": "infected survivor" },
     "description": "A survivor of the apocalypse, this individual is succumbing to their infection; displaying paranoia, and incoherency.  Unpredictable and terminally-ill, they will not respond to any attempts to communicate.  You can't help but notice they still wear their armor and holster, despite the fresh fungal budding that threatens to rip through it  . . .",
     "default_faction": "finfected",
     "species": [ "MAMMAL", "FUNGUS" ],
@@ -774,7 +774,7 @@
   {
     "id": "mon_marloss_man",
     "type": "MONSTER",
-    "name": { "str": "marloss man" },
+    "name": { "str_sp": "marloss man" },
     "description": "This survivor has willingly given their body to the fungus in some strange, ill-described ritual.  As a result they have retained much of their personality and hold unnatural abilities.  They don't seem interested in talking to you; you cannot even discern their gender.",
     "default_faction": "fungus",
     "species": [ "ABERRATION", "FUNGUS" ],
@@ -847,7 +847,7 @@
   {
     "id": "mon_finebeast",
     "type": "MONSTER",
-    "name": { "str": "fungal vinebeast" },
+    "name": { "str_sp": "fungal vinebeast" },
     "description": "A cluster of overgrown gray vines.  Most of its movements are sluggish and reluctant, and most of its normally rapidly-growing vines now lie limp; rupturing to release spores.",
     "default_faction": "fungus",
     "species": [ "PLANT", "FUNGUS" ],
@@ -888,7 +888,7 @@
   {
     "id": "mon_fionaea",
     "type": "MONSTER",
-    "name": { "str": "fionaea" },
+    "name": { "str_sp": "fionaea" },
     "description": "Unlike its Triffid masters the dionaea lacks the anti-fungal compounds they possess.  Rendered crippled by the bulbous growths along its vines, this plant-creature is large enough to suffer the growth and birth of man-sized walls of fungus.",
     "default_faction": "fungus",
     "species": [ "PLANT", "FUNGUS" ],
@@ -929,7 +929,7 @@
   {
     "id": "mon_finecraft",
     "type": "MONSTER",
-    "name": { "str": "fungal brood" },
+    "name": { "str_sp": "fungal brood" },
     "description": "This plant's once-dry body is now host to moist fluid sacs that hang off haphazardly; occasionally bursting into a cloud of haze.",
     "default_faction": "fungus",
     "species": [ "PLANT", "FUNGUS" ],
@@ -975,7 +975,7 @@
   {
     "id": "mon_zombie_electric_fungal",
     "type": "MONSTER",
-    "name": { "str": "fungal shocker" },
+    "name": { "str_sp": "fungal shocker" },
     "description": "A fungal Zombie with bionic implants, it uses its energy to harm others despite the harm it can cause its own flesh.",
     "default_faction": "fungus",
     "species": [ "ZOMBIE", "FUNGUS" ],
@@ -1023,7 +1023,7 @@
   {
     "id": "mon_fungus_pig",
     "type": "MONSTER",
-    "name": { "str": "squig" },
+    "name": { "str_sp": "squig" },
     "description": "A large, astoundingly tough creature that used to be a dog or boar.  Its massive maw takes up almost half its body.  Rows of teeth pushing older rows forward; creating a jutting smile only made more terrifying by the beady red eyes, socketed above behind the maw, looking down at its prey.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
