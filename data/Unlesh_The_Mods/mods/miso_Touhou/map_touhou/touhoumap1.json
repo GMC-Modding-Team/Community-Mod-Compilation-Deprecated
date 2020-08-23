@@ -89,7 +89,7 @@
       "computers": {
         "6": {
           "name": { "str": "Centrifuge",
-          "options": [ { "name": { "str": "Analyze blood", "action": "blood_anal" } ],
+          "options": [ { "name": "Analyze blood", "action": "blood_anal" } ],
           "failures": [ { "action": "destroy_blood" } ]
         }
       },
