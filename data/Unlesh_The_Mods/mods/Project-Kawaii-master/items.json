@@ -498,7 +498,7 @@
     "id": "kawaii_maid_hat",
     "type": "ARMOR",
     "name": { "str": "Cute Maid Headdress" },
-    "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their head. warm during winter. (Toggle to change warmth)",
+    "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)",
     "weight": "10 g",
     "volume": "250 ml",
     "price": 2500,
@@ -522,7 +522,7 @@
     "id": "kawaii_maid_hat_kiai",
     "type": "ARMOR",
     "name": { "str": "Cute Maid Headdress" },
-    "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their head. warm during winter. (Toggle to change warmth)",
+    "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)",
     "weight": "10 g",
     "volume": "250 ml",
     "price": 2500,
@@ -537,7 +537,7 @@
     "flags": [ "VARSIZE", "FANCY", "WATERPROOF", "RAINPROOF", "SKINTIGHT" ],
     "use_action": {
       "type": "transform",
-      "msg": "You stop channeling your spirit into te head.iece",
+      "msg": "You stop channeling your spirit into te headpiece",
       "target": "kawaii_maid_hat",
       "menu_text": "Stop channeling spirit"
     }
@@ -547,7 +547,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "Cute Thermal Maid Headdress (off)" },
-    "description": "One of the most important parts of the maid unifrom is the head.ress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
+    "description": "One of the most important parts of the maid unifrom is the headdress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
     "weight": "15 g",
     "volume": "250 ml",
     "price": 25000,
@@ -566,7 +566,7 @@
     "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
-      "msg": "You activate the head.ress' heating systems",
+      "msg": "You activate the headdress' heating systems",
       "target": "kawaii_maid_hat_thermal_on",
       "active": true,
       "menu_text": "Activate heater",
@@ -579,7 +579,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "Cute Thermal Maid Headdress (on)" },
-    "description": "One of the most important parts of the maid unifrom is the head.ress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
+    "description": "One of the most important parts of the maid unifrom is the headdress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
     "weight": "15 g",
     "volume": "250 ml",
     "price": 25000,
@@ -599,7 +599,7 @@
     "revert_to": "kawaii_maid_hat_thermal_off",
     "use_action": {
       "type": "transform",
-      "msg": "You deactivate the head.ress' heating systems",
+      "msg": "You deactivate the headdress' heating systems",
       "target": "kawaii_maid_hat_thermal_off",
       "menu_text": "Deactivate heater"
     }
@@ -609,7 +609,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "Cute Maid Headdress LSS-PRO (off)" },
-    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The head.ress is not just a piece of the uniform, it's a symbol of a maid's pride.",
+    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The headdress is not just a piece of the uniform, it's a symbol of a maid's pride.",
     "weight": "15 g",
     "volume": "250 ml",
     "price": 55000,
@@ -630,7 +630,7 @@
     "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
-      "msg": "You activate the head.ress' heating mode.",
+      "msg": "You activate the headdress' heating mode.",
       "target": "kawaii_maid_hat_lss1",
       "active": true,
       "menu_text": "Change climate control settings",
@@ -643,7 +643,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "Cute Maid Headdress LSS-PRO (warming)" },
-    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The head.ress is not just a piece of the uniform, it's a symbol of a maid's pride.",
+    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The headdress is not just a piece of the uniform, it's a symbol of a maid's pride.",
     "weight": "15 g",
     "volume": "250 ml",
     "price": 55000,
@@ -665,7 +665,7 @@
     "revert_to": "kawaii_maid_hat_lss",
     "use_action": {
       "type": "transform",
-      "msg": "You activate the head.ress' cooling mode.",
+      "msg": "You activate the headdress' cooling mode.",
       "target": "kawaii_maid_hat_lss2",
       "active": true,
       "menu_text": "Change climate control settings",
@@ -678,7 +678,7 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": { "str": "Cute Maid Headdress LSS-PRO (cooling)" },
-    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The head.ress is not just a piece of the uniform, it's a symbol of a maid's pride.",
+    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The headdress is not just a piece of the uniform, it's a symbol of a maid's pride.",
     "weight": "15 g",
     "volume": "250 ml",
     "price": 55000,
@@ -700,7 +700,7 @@
     "revert_to": "kawaii_maid_hat_lss",
     "use_action": {
       "type": "transform",
-      "msg": "You deactivate the head.ress' climate control.",
+      "msg": "You deactivate the headdress' climate control.",
       "target": "kawaii_maid_hat_lss",
       "menu_text": "Change climate control settings"
     }
