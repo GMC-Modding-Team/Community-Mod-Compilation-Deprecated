@@ -2,7 +2,7 @@
   {
     "id": "nanogear",
     "type": "ARMOR",
-    "name": { "str": "nanotech gear" },
+    "name": { "str_sp": "nanotech gear" },
     "description": "You shouldn't see this - nanogear",
     "symbol": "[",
     "color": "light_gray",
@@ -24,7 +24,7 @@
   {
     "id": "nano_shield",
     "type": "ARMOR",
-    "name": { "str": "nanotech shield" },
+    "name": { "str_sp": "nanotech shield" },
     "category": "armor",
     "looks_like": "shield_scutum",
     "description": "A large shield composed of a cluster of nanites, currently in passive mode, you can block attacks with it.  When not in use, it compresses itself into the handle.",
@@ -97,7 +97,7 @@
   {
     "type": "ARMOR",
     "id": "nano_holster",
-    "name": { "str": "nanotech holster" },
+    "name": { "str_sp": "nanotech holster" },
     "copy-from": "nanogear",
     "looks_like": "holster",
     "covers": [ "leg_l", "leg_r" ],
@@ -118,7 +118,7 @@
   {
     "type": "ARMOR",
     "id": "nano_sheath",
-    "name": { "str": "nanotech sheath" },
+    "name": { "str_sp": "nanotech sheath" },
     "copy-from": "nanogear",
     "looks_like": "sheath",
     "covers": [ "leg_l", "leg_r" ],
@@ -139,7 +139,7 @@
   {
     "type": "ARMOR",
     "id": "nano_mag_holder",
-    "name": { "str": "nanotech magazine holder" },
+    "name": { "str_sp": "nanotech magazine holder" },
     "copy-from": "nanogear",
     "looks_like": "slime_scrap",
     "description": "A small blob of nanites with an AI, it stores magazines and assists in loading them as needed.",
@@ -159,7 +159,7 @@
   {
     "type": "ARMOR",
     "id": "nanosuit",
-    "name": { "str": "nanosuit" },
+    "name": { "str_sp": "nanosuit" },
     "copy-from": "nanogear",
     "weight": "9836 g",
     "volume": "1500 ml",
@@ -307,7 +307,7 @@
     "category": "container",
     "symbol": ")",
     "color": "light_gray",
-    "name": { "str": "nanotech liquid compressor" },
+    "name": { "str_sp": "nanotech liquid compressor" },
     "description": "A heavily compressed liquid storage device, it is also capable of keeping its contents fresh and maintaining their temperature.",
     "price": 240000,
     "price_postapoc": 10000,

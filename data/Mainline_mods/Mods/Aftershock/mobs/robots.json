@@ -2,7 +2,7 @@
   {
     "id": "afs_mon_migoturret",
     "type": "MONSTER",
-    "name": { "str": "brain blaster" },
+    "name": { "str_sp": "brain blaster" },
     "description": "The mi-go have set up some defenses here.  This horrifying techo-organic amalgamation appears to use brains in jars as their operating system.  On the plus side it looks like it can be headshot.",
     "default_faction": "mi-go",
     "species": [ "ROBOT" ],
@@ -47,7 +47,7 @@
   {
     "id": "mon_chickenbot",
     "type": "MONSTER",
-    "name": { "str": "chicken walker" },
+    "name": { "str_sp": "chicken walker" },
     "description": "The Northrop ATSV, a massive, heavily-armed and armored robot walking on a pair of reverse-jointed legs.  Armed with a 40mm anti-vehicle grenade launcher, 5.56 anti-personnel gun, and the ability to electrify itself against attackers, it is an effective automated sentry, though production was limited due to a legal dispute.",
     "default_faction": "military",
     "species": [ "ROBOT" ],
@@ -123,7 +123,7 @@
   {
     "id": "mon_tripod",
     "type": "MONSTER",
-    "name": { "str": "tripod" },
+    "name": { "str_sp": "tripod" },
     "description": "The Honda Crop King.  Originally designed for agriculture, it has a trio of spiked retractable cables and where it used to mount pesticide sprayer the PrepNet Phyle have modified it to have a flamethrower for their war against the Mycus.",
     "default_faction": "PrepNet",
     "species": [ "ROBOT" ],
@@ -228,7 +228,7 @@
     "id": "mon_bloodhound_drone",
     "copy-from": "base_drone",
     "type": "MONSTER",
-    "name": { "str": "bloodhound drone" },
+    "name": { "str_sp": "bloodhound drone" },
     "description": "A small spiked quadcopter robot equipped with a high-power spotlight.  This automated seeker drone was originally designed harry and harrass fugitives while maintaining visual contact for other pursuers.",
     "diff": 2,
     "default_faction": "science",

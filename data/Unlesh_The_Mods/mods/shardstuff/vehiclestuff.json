@@ -3,7 +3,7 @@
     "id": "horn_raid",
     "type": "TOOL",
     "category": "veh_parts",
-    "name": { "str": "air raid siren" },
+    "name": { "str_sp": "air raid siren" },
     "description": "Intended to be part of a building, this air raid siren is ungodly loud.",
     "weight": "6210 g",
     "volume": "25 L",
@@ -17,7 +17,7 @@
   {
     "type": "vehicle_part",
     "id": "horn_raid",
-    "name": { "str": "air raid siren" },
+    "name": { "str_sp": "air raid siren" },
     "symbol": "*",
     "color": "light_gray",
     "broken_symbol": "*",
@@ -81,7 +81,7 @@
   {
     "type": "vehicle_part",
     "id": "cargo_racks",
-    "name": { "str": "cargo racks" },
+    "name": { "str_sp": "cargo racks" },
     "symbol": "=",
     "color": "light_gray",
     "broken_symbol": "#",
@@ -101,7 +101,7 @@
   {
     "type": "GENERIC",
     "id": "storage_rack",
-    "name": { "str": "cargo rack" },
+    "name": { "str_sp": "cargo rack" },
     "description": "A huge rack with four shelves.",
     "weight": "344000 g",
     "to_hit": -8,
@@ -133,7 +133,7 @@
   {
     "id": "storage_battery_array",
     "type": "vehicle_part",
-    "name": { "str": "storage battery array" },
+    "name": { "str_sp": "storage battery array" },
     "item": "storage_battery_array",
     "location": "center",
     "fuel_type": "battery",
@@ -191,7 +191,7 @@
     "id": "engine_electric_massive",
     "copy-from": "engine_motor",
     "type": "vehicle_part",
-    "name": { "str": "massive electric motor" },
+    "name": { "str_sp": "massive electric motor" },
     "item": "motor_massive",
     "difficulty": 4,
     "durability": 600,
@@ -208,7 +208,7 @@
   {
     "type": "GENERIC",
     "id": "motor_massive",
-    "name": { "str": "massive electric motor" },
+    "name": { "str_sp": "massive electric motor" },
     "description": "A massive and incredibly powerful electric motor.",
     "weight": "160000 g",
     "to_hit": -8,

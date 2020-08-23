@@ -2,7 +2,7 @@
   {
     "id": "nanovp",
     "type": "vehicle_part",
-    "name": { "str": "nanotech vehicle part" },
+    "name": { "str_sp": "nanotech vehicle part" },
     "color": "light_gray",
     "broken_color": "dark_gray",
     "difficulty": 0,
@@ -29,7 +29,7 @@
   {
     "type": "vehicle_part",
     "id": "nano_door",
-    "name": { "str": "nanotech door" },
+    "name": { "str_sp": "nanotech door" },
     "copy-from": "nanovp",
     "symbol": "+",
     "looks_like": "hdhatch",
@@ -45,7 +45,7 @@
   {
     "type": "vehicle_part",
     "id": "nano_door_opaque",
-    "name": { "str": "nanotech iris" },
+    "name": { "str_sp": "nanotech iris" },
     "copy-from": "nano_door",
     "looks_like": "hdhatch_opaque",
     "description": "A highly durable iris composed of nanites, this blocks sight while also acting as a combination of door and armor.",
@@ -56,7 +56,7 @@
   {
     "id": "nano_boat",
     "type": "vehicle_part",
-    "name": { "str": "nanotech boat coating" },
+    "name": { "str_sp": "nanotech boat coating" },
     "copy-from": "nanovp_fold",
     "description": "An outer coating of nanites that work together to seal out water while also providing another layer of protection.",
     "location": "under",
@@ -68,7 +68,7 @@
   {
     "id": "nanovp_turret",
     "type": "vehicle_part",
-    "name": { "str": "nanotech vehicle turret" },
+    "name": { "str_sp": "nanotech vehicle turret" },
     "copy-from": "nanovp_fold",
     "symbol": "t",
     "location": "on_roof",
@@ -79,7 +79,7 @@
     "id": "nano_turret_shredder",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
-    "name": { "str": "nanotech shredder turret" },
+    "name": { "str_sp": "nanotech shredder turret" },
     "description": "A nanotech shredder adapted for vehicular usage.",
     "breaks_into": [ { "item": "nano_turret_shredder", "min": 1, "max": 1 } ],
     "item": "nano_turret_shredder"
@@ -88,7 +88,7 @@
     "id": "nano_turret_pistol",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
-    "name": { "str": "nanotech pistol turret" },
+    "name": { "str_sp": "nanotech pistol turret" },
     "description": "A nanotech pistol adapted for vehicular usage.",
     "breaks_into": [ { "item": "nano_turret_pistol", "min": 1, "max": 1 } ],
     "item": "nano_turret_pistol"
@@ -97,7 +97,7 @@
     "id": "nano_turret_rifle",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
-    "name": { "str": "nanotech rifle turret" },
+    "name": { "str_sp": "nanotech rifle turret" },
     "description": "A nanotech rifle adapted for vehicular usage.",
     "breaks_into": [ { "item": "nano_turret_rifle", "min": 1, "max": 1 } ],
     "item": "nano_turret_rifle"
@@ -114,7 +114,7 @@
   {
     "type": "vehicle_part",
     "id": "nano_aisle",
-    "name": { "str": "nanotech aisle" },
+    "name": { "str_sp": "nanotech aisle" },
     "looks_like": "aisle_horizontal",
     "copy-from": "nanovp_fold",
     "symbol": "H",
@@ -128,7 +128,7 @@
   {
     "type": "vehicle_part",
     "id": "nano_roof",
-    "name": { "str": "nanotech roof" },
+    "name": { "str_sp": "nanotech roof" },
     "copy-from": "nanovp_fold",
     "symbol": "#",
     "broken_symbol": "#",
@@ -139,7 +139,7 @@
   {
     "type": "vehicle_part",
     "id": "nt_solar_1",
-    "name": { "str": "nanotech solar panel" },
+    "name": { "str_sp": "nanotech solar panel" },
     "copy-from": "nanovp_fold",
     "symbol": "#",
     "color": "yellow",
@@ -154,7 +154,7 @@
   {
     "type": "vehicle_part",
     "id": "nt_armor_1",
-    "name": { "str": "nanotech passive plating" },
+    "name": { "str_sp": "nanotech passive plating" },
     "copy-from": "nanovp_fold",
     "symbol": ")",
     "color": "green",
@@ -170,7 +170,7 @@
   {
     "type": "vehicle_part",
     "id": "nt_armor_2",
-    "name": { "str": "nanotech active plating" },
+    "name": { "str_sp": "nanotech active plating" },
     "copy-from": "nanovp_fold",
     "symbol": ")",
     "color": "green",
@@ -220,7 +220,7 @@
   {
     "type": "vehicle_part",
     "id": "nt_crafter",
-    "name": { "str": "nanotech crafting node" },
+    "name": { "str_sp": "nanotech crafting node" },
     "copy-from": "nt_storage",
     "description": "A large blob of nanites with an AI, it actively branches out pseudopods to assist with crafting efforts performed nearby.  Additionally, it will act as most tools upon command.",
     "size": 3000,
@@ -243,7 +243,7 @@
   {
     "type": "vehicle_part",
     "id": "nano_fridge",
-    "name": { "str": "nanotech fridge" },
+    "name": { "str_sp": "nanotech fridge" },
     "looks_like": "minifridge",
     "copy-from": "nanovp_fold",
     "symbol": "=",
@@ -256,7 +256,7 @@
   {
     "type": "vehicle_part",
     "id": "nano_freezer",
-    "name": { "str": "nanotech freezer" },
+    "name": { "str_sp": "nanotech freezer" },
     "looks_like": "minifreezer",
     "copy-from": "nano_fridge",
     "description": "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a frozen temperature, leading to them being immobile and blocking passage.",
@@ -369,7 +369,7 @@
   {
     "id": "nanotech_battery",
     "type": "vehicle_part",
-    "name": { "str": "nanotech storage array" },
+    "name": { "str_sp": "nanotech storage array" },
     "copy-from": "nanovp_fold",
     "item": "nanotech_battery",
     "location": "fuel_source",
@@ -385,7 +385,7 @@
   {
     "id": "nanotech_generator",
     "type": "vehicle_part",
-    "name": { "str": "nanotech power generator" },
+    "name": { "str_sp": "nanotech power generator" },
     "copy-from": "nanovp_fold",
     "item": "nanotech_generator",
     "location": "engine_block",
@@ -405,7 +405,7 @@
     "id": "nanotech_anima",
     "copy-from": "engine_electric_large",
     "type": "vehicle_part",
-    "name": { "str": "nanotech anima" },
+    "name": { "str_sp": "nanotech anima" },
     "proportional": { "energy_consumption": 0.25, "power": 9 },
     "item": "xl_nanite_ai",
     "difficulty": 0,
@@ -426,7 +426,7 @@
   {
     "id": "nanotech_crawler",
     "type": "vehicle_part",
-    "name": { "str": "nanotech crawler" },
+    "name": { "str_sp": "nanotech crawler" },
     "copy-from": "nanovp_fold",
     "item": "nano_crawler",
     "symbol": "|",
@@ -444,7 +444,7 @@
   {
     "type": "vehicle_part",
     "id": "nanotech_control",
-    "name": { "str": "nanotech control pod" },
+    "name": { "str_sp": "nanotech control pod" },
     "copy-from": "nanovp_fold",
     "looks_like": "seat",
     "symbol": "#",
@@ -474,7 +474,7 @@
   {
     "type": "vehicle_part",
     "id": "nanotech_shockmesh",
-    "name": { "str": "nanotech shock mesh" },
+    "name": { "str_sp": "nanotech shock mesh" },
     "copy-from": "nanovp_fold",
     "symbol": ",",
     "damage_modifier": 10,
@@ -486,7 +486,7 @@
   {
     "type": "vehicle_part",
     "id": "nanocam",
-    "name": { "str": "nanotech sensor array" },
+    "name": { "str_sp": "nanotech sensor array" },
     "copy-from": "nanovp_fold",
     "looks_like": "omnicam",
     "symbol": "o",

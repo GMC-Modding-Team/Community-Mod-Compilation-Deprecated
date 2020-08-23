@@ -3,14 +3,14 @@
     "id": "afs_solderers_item",
     "copy-from": "fake_item",
     "type": "TOOL",
-    "name": { "str": "precision solderers" },
+    "name": { "str_sp": "precision solderers" },
     "flags": "TRADER_AVOID",
     "qualities": [ [ "SAW_M_FINE", 1 ], [ "SCREW_FINE", 1 ], [ "CUT_FINE", 2 ] ]
   },
   {
     "id": "afs_basin",
     "type": "GENERIC",
-    "name": { "str": "basin" },
+    "name": { "str_sp": "basin" },
     "description": "A wide, shallow basin used to hold liquid, hammered from a piece of sheet metal.  Ideal for collecting water.",
     "weight": "5000 g",
     "volume": "2500 ml",
@@ -35,7 +35,7 @@
   {
     "id": "afs_fridge",
     "type": "GENERIC",
-    "name": { "str": "vehicle refrigerator" },
+    "name": { "str_sp": "vehicle refrigerator" },
     "description": "A household refrigerator with impressive capacity.  Its power connection has been refurbished, and it can be mounted onto a vehicle to draw from its power.",
     "symbol": "{",
     "color": "white",
@@ -52,7 +52,7 @@
   {
     "id": "afs_freezer",
     "type": "GENERIC",
-    "name": { "str": "vehicle freezer" },
+    "name": { "str_sp": "vehicle freezer" },
     "copy-from": "afs_fridge",
     "description": "This refurbished refrigerator has been stripped of much of its internal components and converted to run at a much lower temperature, causing it to serve as a freezer for more power.  Like its predecessor, it runs on vehicle power.",
     "color": "light_blue"
@@ -60,7 +60,7 @@
   {
     "id": "rolling_pin",
     "type": "GENERIC",
-    "name": { "str": "rolling pin" },
+    "name": { "str_sp": "rolling pin" },
     "description": "A light wooden rolling pin used to flatten dough.",
     "symbol": "[",
     "color": "brown",
@@ -93,7 +93,7 @@
   {
     "type": "GENERIC",
     "id": "afs_titanium_frame",
-    "name": { "str": "ultralight frame" },
+    "name": { "str_sp": "ultralight frame" },
     "description": "A sturdy, lightweight frame made from titanium.  Useful for crafting.",
     "weight": "1000 g",
     "to_hit": -3,
