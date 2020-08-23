@@ -14,7 +14,6 @@
           "t_setta",
           "mittens",
           "tabi_dress_wool",
-          "t_gauntlets_take_aseyoke",
           "scarf_long",
           "holybook_kojikiden",
           "holybook_sintousi",
@@ -26,7 +25,7 @@
         "entries": [ { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 } ]
       },
       "male": [ "kimono", "eboshi" ],
-      "female": [ "miko_siraginu", "reimu_hibakama", "miko_suikan", "reimu_cloth" ]
+      "female": [ "miko_siraginu", "miko_suikan" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -45,7 +44,6 @@
           "t_setta",
           "mittens",
           "tabi_dress_wool",
-          "t_gauntlets_take_aseyoke",
           "scarf_long",
           "holybook_kojikiden",
           "holybook_sintousi",
@@ -57,7 +55,7 @@
         "entries": [ { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 } ]
       },
       "male": [ "kimono", "eboshi" ],
-      "female": [ "miko_siraginu", "reimu_hibakama", "miko_suikan", "reimu_cloth" ]
+      "female": [ "miko_siraginu", "miko_suikan" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -76,7 +74,7 @@
         ]
       },
       "male": [ "kimono" ],
-      "female": [ "sarasi", "kimono" ]
+      "female": [ "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -96,7 +94,7 @@
         ]
       },
       "male": [ "kimono" ],
-      "female": [ "sarasi", "kimono" ]
+      "female": [ "kimono" ]
     }
   },
   {
@@ -115,7 +113,7 @@
         ]
       },
       "male": [ "kimono" ],
-      "female": [ "sarasi", "kimono" ]
+      "female": [ "kimono" ]
     }
   },
   {
@@ -134,7 +132,6 @@
           "t_setta",
           "mittens",
           "tabi_dress_wool",
-          "t_gauntlets_take_aseyoke",
           "scarf_long",
           "holybook_kojikiden",
           "holybook_sintousi",
@@ -149,7 +146,7 @@
         ]
       },
       "male": [ "kimono", "eboshi" ],
-      "female": [ "miko_siraginu", "reimu_hibakama", "reimu_suikan", "reimu_cloth" ]
+      "female": [ "miko_siraginu" ]
     }
   },
   {
@@ -233,7 +230,7 @@
     "CBMs": [ "bio_watch" ],
     "items": {
       "both": {
-        "items": [ "socks", "dress_shirt", "usami_hatr", "boots", "tie_skinny", "backpack_leather", "tieclip", "sports_drink" ],
+        "items": [ "socks", "dress_shirt", "boots", "tie_skinny", "backpack_leather", "tieclip", "sports_drink" ],
         "entries": [ { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 } ]
       },
       "male": [ "boxer_shorts", "shorts_denim" ],
@@ -270,23 +267,10 @@
     "CBMs": [ "bio_ethanol", "bio_laser", "bio_lighter", "bio_power_storage_mkII" ],
     "items": {
       "both": {
-        "items": [
-          "magic_barrage_energy",
-          "usami_hat",
-          "boots",
-          "backpack_leather",
-          "dress_shirt",
-          "sumireko_cloak",
-          "sumireko_skirt",
-          "sumireko_vest",
-          "gloves_liner",
-          "cell_phone",
-          "water_clean"
-        ],
+        "items": [ "magic_barrage_energy", "boots", "backpack_leather", "dress_shirt", "gloves_liner", "cell_phone", "water_clean" ],
         "entries": [
           { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 },
-          { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 },
-          { "item": "sumireko_gun", "ammo-item": "380_p", "charges": 20 }
+          { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -368,9 +352,6 @@
           "socks",
           "strap_shoes",
           "knit_scarf",
-          "chignon",
-          "ibaraki_dress",
-          "ibaraki_chain",
           "shavingkit",
           "ibaraki_hyakuyakumasu",
           "oni_cookboock",
@@ -421,7 +402,7 @@
     "name": { "male": "Fortune-teller", "female": "Fortune-teller (Male Only!)" },
     "description": "(Fortune-teller) I saw the outside of the world through horoscopes. Then the human life suddenly managed by youkai looks miserable. I was thinking of quitting humans.",
     "points": -1,
-    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "sarasi", "kimono" ] }
+    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "kimono" ] }
   },
   {
     "type": "profession",
@@ -429,7 +410,7 @@
     "name": { "male": "Fortune-teller", "female": "Fortune-teller (Male Only!)" },
     "description": "(Fortune-teller) I saw the outside of the world through horoscopes. Then the human life suddenly managed by youkai looks miserable. I was thinking of quitting humans.",
     "points": -1,
-    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "sarasi", "kimono" ] },
+    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "kimono" ] },
     "addictions": [ { "intensity": 30, "type": "amphetamine" } ],
     "flags": [ "SCEN_ONLY" ]
   },
@@ -439,7 +420,7 @@
     "name": { "male": "Fortune-teller", "female": "Fortune-teller (Male Only!)" },
     "description": "(Fortune-teller) I saw the outside of the world through horoscopes. Then the human life suddenly managed by youkai looks miserable. I was thinking of quitting humans.",
     "points": -2,
-    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "sarasi", "kimono" ] },
+    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "kimono" ] },
     "CBMs": [
       "bio_dis_shock",
       "bio_dis_acid",
@@ -796,7 +777,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "blouse01",
           "letty_shirt",
           "letty_skirt",
           "letty_apron",
@@ -913,7 +893,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "blouse01",
           "strap_shoes",
           "socks",
           "lunasa_skirt",
@@ -944,7 +923,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "blouse01",
           "strap_shoes",
           "socks",
           "merlin_cap",
@@ -975,7 +953,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "blouse01",
           "strap_shoes",
           "socks",
           "lyrica_cap",
@@ -1008,7 +985,6 @@
           "magic_barrage_energy",
           "asinaka",
           "tabi_dress_wool",
-          "white_shirt01",
           "compaq_vest",
           "compaq_skirt",
           "compaq_ribbon",
@@ -1023,7 +999,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "kimono" ]
+      "female": [ "kimono" ]
     }
   },
   {
@@ -1059,8 +1035,8 @@
           { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
         ]
       },
-      "male": [ "sarasi", "kimono" ],
-      "female": [ "sarasi", "eboshi" ]
+      "male": [ "kimono" ],
+      "female": [ "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1094,7 +1070,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "kimono", "camisole" ]
+      "female": [ "kimono", "camisole" ]
     }
   },
   {
@@ -1193,7 +1169,6 @@
         "items": [
           "magic_barrage_energy",
           "wriggle_lamp01",
-          "blouse01",
           "wriggle_skirt",
           "socks",
           "strap_shoes",
@@ -1225,7 +1200,6 @@
           "magic_barrage_energy",
           "mistia_cap",
           "pot_helmet",
-          "blouse01",
           "mistia_dress",
           "socks",
           "mistia_strap_shoes",
@@ -1308,7 +1282,7 @@
       "SAPIOVORE",
       "NIGHTVISION",
       "STRONGSTOMACH",
-      "DRUNKEN",
+      "LIGHTWEIGHT",
       "ADRENALINE",
       "OPTIMISTIC",
       "HORNS_POINTED",
@@ -1324,7 +1298,6 @@
           "magic_barrage_energy",
           "socks",
           "strap_shoes",
-          "white_shirt01",
           "ibuki_skirt",
           "ibuki_ribbon",
           "ibuki_ribbon2",
@@ -1341,7 +1314,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "kimono" ]
+      "female": [ "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1377,7 +1350,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "kimono" ]
+      "female": [ "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1405,7 +1378,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "blouse01",
           "nazrin_vest",
           "nazrin_cape",
           "nazrin_skirt",
@@ -1443,7 +1415,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "blouse01",
           "kogasa_bodice",
           "kogasa_skirt",
           "geta",

@@ -197,7 +197,16 @@
     "dispersion": 40,
     "durability": 9,
     "burst": 2,
-    "magazines": [ [ "kawaii_308AM", [ "kawaii_eve_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "kawaii_eve_mag" ]
+      }
+    ]
   },
   {
     "id": "kawaii_eve_mag",
@@ -210,8 +219,9 @@
     "material": [ "kawaii_amsteel", "kawaii_amplastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "kawaii_308AM",
+    "ammo_type": [ "kawaii_308AM" ],
     "capacity": 20,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "kawaii_308AM": 20 } } ],
     "reliability": 9
   },
   {

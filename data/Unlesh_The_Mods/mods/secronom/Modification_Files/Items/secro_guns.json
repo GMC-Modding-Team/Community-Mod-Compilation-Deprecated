@@ -58,6 +58,7 @@
     "recoil": 35,
     "durability": 8,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "SSgrenade": 5 } } ],
     "reload": 500,
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE", "NO_EMBED" ],
@@ -82,10 +83,19 @@
     "note": "A weaker version of Barrett.",
     "dispersion": 92,
     "durability": 8,
-    "barrel_length": "1250 ml",
+    "barrel_volume": "1250 ml",
     "default_mods": [ "bipod", "rifle_scope" ],
     "magazine_well": 1,
-    "magazines": [ [ "50", [ "cheytacmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cheytacmag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   },
   {
@@ -100,8 +110,9 @@
     "symbol": "#",
     "color": "light_gray",
     "looks_like": "8x40_50_mag",
-    "ammo_type": "50",
+    "ammo_type": [ "50" ],
     "capacity": 7,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 7 } } ],
     "reliability": 9,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
@@ -125,10 +136,19 @@
     "ranged_damage": { "damage_type": "stab", "amount": 0 },
     "dispersion": 80,
     "durability": 8,
-    "barrel_length": "1500 ml",
+    "barrel_volume": "1500 ml",
     "default_mods": [ "bipod", "hecate_muzzle_brake", "rifle_scope" ],
     "magazine_well": 1,
-    "magazines": [ [ "50", [ "hecatemag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "hecatemag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   },
   {
@@ -161,8 +181,9 @@
     "symbol": "#",
     "color": "light_gray",
     "looks_like": "8x40_50_mag",
-    "ammo_type": "50",
+    "ammo_type": [ "50" ],
     "capacity": 7,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 7 } } ],
     "reliability": 9,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
@@ -189,7 +210,16 @@
     "ranged_damage": { "damage_type": "stab", "amount": 2 },
     "modes": [ [ "DEFAULT", "auto", 50 ] ],
     "valid_mod_locations": [ [ "accessories", 4 ] ],
-    "magazines": [ [ "223", [ "belt223" ] ], [ "308", [ "belt308" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt223", "belt308" ]
+      }
+    ]
   },
   {
     "id": "psg1",
@@ -211,9 +241,18 @@
     "ranged_damage": { "damage_type": "stab", "amount": 8 },
     "dispersion": 85,
     "durability": 8,
-    "barrel_length": "500 ml",
+    "barrel_volume": "500 ml",
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]
+      }
+    ],
     "note": "Since its magazine is similar to stanags, we'd use them too. As a sniper rifle, it can also use drum magazines!"
   },
   {
@@ -235,10 +274,19 @@
     "ranged_damage": { "damage_type": "stab", "amount": 10 },
     "dispersion": 80,
     "durability": 8,
-    "barrel_length": "1000 ml",
+    "barrel_volume": "1000 ml",
     "default_mods": [ "bipod", "rifle_scope" ],
     "magazine_well": 1,
-    "magazines": [ [ "300", [ "walther2000mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "walther2000mag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   },
   {
@@ -253,8 +301,9 @@
     "symbol": "#",
     "color": "light_gray",
     "looks_like": "8x40_50_mag",
-    "ammo_type": "300",
+    "ammo_type": [ "300" ],
     "capacity": 7,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "300": 7 } } ],
     "reliability": 9,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
@@ -282,7 +331,16 @@
     "modes": [ [ "DEFAULT", "auto", 80 ] ],
     "built_in_mods": [ "bipod" ],
     "valid_mod_locations": [ [ "accessories", 4 ] ],
-    "magazines": [ [ "223", [ "belt223" ] ], [ "308", [ "belt308" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt223", "belt308" ]
+      }
+    ]
   },
   {
     "id": "xm8",
@@ -303,7 +361,16 @@
     "dispersion": 170,
     "durability": 6,
     "burst": 10,
-    "magazines": [ [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ], [ "308", [ "g3mag", "g3bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "g3mag", "g3bigmag" ]
+      }
+    ]
   },
   {
     "id": "zx1sniper",
@@ -326,6 +393,7 @@
     "dispersion": 180,
     "durability": 8,
     "clip_size": 3,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 3 } } ],
     "reload": 100,
     "default_mods": [ "rifle_scope" ],
     "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]

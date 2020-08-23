@@ -11,7 +11,16 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "relative": { "dispersion": -90 },
     "durability": 8,
-    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m1911mag", "m1911bigmag" ]
+      }
+    ]
   },
   {
     "id": "stechkin",
@@ -32,7 +41,16 @@
     "burst": 13,
     "default_mods": [ "suppressor_compact" ],
     "magazine_well": 1,
-    "magazines": [ [ "9x18", [ "stechkinmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stechkinmag" ]
+      }
+    ]
   },
   {
     "id": "strike_one",
@@ -50,7 +68,16 @@
     "dispersion": 90,
     "durability": 7,
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "strike9mm_mag" ] ], [ "40", [ "strike40_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "strike9mm_mag", "strike40_mag" ]
+      }
+    ]
   },
   {
     "id": "automag",
@@ -70,7 +97,16 @@
     "dispersion": 200,
     "durability": 8,
     "magazine_well": 1,
-    "magazines": [ [ "44", [ "deaglemag" ] ], [ "357_mag", [ "357_mag" ] ], [ "45", [ "m1911mag", "m1911bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "deaglemag", "357_mag", "m1911mag", "m1911bigmag" ]
+      }
+    ]
   },
   {
     "id": "beretta93r",
@@ -91,7 +127,16 @@
     "durability": 6,
     "burst": 3,
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "glockmag", "glockbigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "glockmag", "glockbigmag" ]
+      }
+    ]
   },
   {
     "id": "browning_hp",
@@ -111,7 +156,16 @@
     "dispersion": 150,
     "durability": 8,
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "hp9mm_mag" ] ], [ "40", [ "hp40mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "hp9mm_mag", "hp40mag" ]
+      }
+    ]
   },
   {
     "id": "m45a1",
@@ -123,7 +177,16 @@
     "price": 155000,
     "material": [ "steel", "wood" ],
     "relative": { "dispersion": -30 },
-    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m1911mag", "m1911mag" ]
+      }
+    ]
   },
   {
     "id": "coonan357",
@@ -142,7 +205,16 @@
     "dispersion": 30,
     "durability": 9,
     "magazine_well": 1,
-    "magazines": [ [ "357_mag", [ "357_mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "357_mag" ]
+      }
+    ],
     "default_mods": [ "muzzle_brake" ]
   },
   {
@@ -162,7 +234,16 @@
     "dispersion": 110,
     "durability": 8,
     "magazine_well": 1,
-    "magazines": [ [ "45", [ "m1911bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m1911bigmag" ]
+      }
+    ]
   },
   {
     "id": "hk45ct",
@@ -173,7 +254,16 @@
     "description": "The Heckler & Koch 45 Compact Tactical is a double-action pistol, short-recoil operated, using modified Browning-type locking system and tilting barrel.",
     "weight": "717 g",
     "volume": "250 ml",
-    "magazines": [ [ "45", [ "m1911mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m1911mag" ]
+      }
+    ]
   },
   {
     "id": "henry_mares_leg",
@@ -195,6 +285,7 @@
     "dispersion": 30,
     "durability": 7,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 5 } } ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -225,7 +316,16 @@
     "dispersion": 90,
     "durability": 6,
     "magazine_well": 1,
-    "magazines": [ [ "22", [ "22mag", "sw22mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "22mag", "sw22mag" ]
+      }
+    ],
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   },
   {
@@ -256,7 +356,8 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 90,
     "durability": 6,
-    "clip_size": 9
+    "clip_size": 9,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22": 9 } } ]
   },
   {
     "id": "kahr_k9",
@@ -274,7 +375,16 @@
     "dispersion": 140,
     "durability": 7,
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "ccw9mm_mag" ] ], [ "40", [ "ccw40mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ccw9mm_mag", "ccw40mag" ]
+      }
+    ]
   },
   {
     "id": "nibelungen",
@@ -295,6 +405,7 @@
     "dispersion": 10,
     "durability": 10,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "357_mag": 6 } } ],
     "default_mods": [ "match_trigger", "tuned_mechanism", "improve_sights" ]
   },
   {
@@ -315,6 +426,7 @@
     "dispersion": 25,
     "durability": 9,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "357_mag": 6 } } ],
     "default_mods": [ "match_trigger", "improve_sights" ]
   },
   {
@@ -335,6 +447,7 @@
     "dispersion": 10,
     "durability": 10,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "357_mag": 6 } } ],
     "default_mods": [ "match_trigger", "tuned_mechanism" ]
   },
   {
@@ -356,7 +469,16 @@
     "dispersion": 120,
     "durability": 4,
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "ccw9mm_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ccw9mm_mag" ]
+      }
+    ]
   },
   {
     "id": "sw_59",
@@ -374,7 +496,16 @@
     "dispersion": 145,
     "durability": 7,
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "sw9mm_mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "sw9mm_mag" ]
+      }
+    ]
   },
   {
     "id": "sw_686",
@@ -391,7 +522,8 @@
     "ammo": [ "357_mag" ],
     "dispersion": 45,
     "durability": 7,
-    "clip_size": 6
+    "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "357_mag": 6 } } ]
   },
   {
     "id": "vd01",
@@ -425,6 +557,15 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "vd01mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "vd01mag" ]
+      }
+    ]
   }
 ]

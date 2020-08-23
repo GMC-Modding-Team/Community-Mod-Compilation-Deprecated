@@ -5,7 +5,7 @@
     "looks_like": "heavy_rail_rifle",
     "name": { "str": "S-01 Rail Accelerator mk2" },
     "description": "A crude, humongous hunk of tech scrap seated into the remains of what seems like a minigun's frame and the widened receiver of a large caliber machine gun, as well as numerous picatinny rails and odds and ends from other weapons that are now impossible to identify, reinforced with superalloy and ceramics covered in piezoelectric capacitors. The weapon launches rails at such an overkill velocity that they shatter on impact. Carved near the blade are the words 'With love, Shion' and a small carving of a canine-eared head of a person with a smug grin, holding up a victory sign.",
-    "weight": "20000 g",
+    "weight": "20 kg",
     "volume": "5250 ml",
     "price": 78000,
     "to_hit": -3,
@@ -28,7 +28,16 @@
     "recoil": 3000,
     "reload": 248,
     "magazine_well": 1,
-    "magazines": [ [ "metal_rail", [ "s01ra_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "s01ra_mag" ]
+      }
+    ],
     "built_in_mods": [ "ceramic_blade_s01", "cushioned_handle_s01", "accelerator_barrel_s01" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -68,6 +77,15 @@
     "barrel_volume": "1250 ml",
     "default_mods": [ "bipod", "muzzle_brake" ],
     "magazine_well": 1,
-    "magazines": [ [ "145x114mm", [ "145x114mm_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "145x114mm_mag" ]
+      }
+    ]
   }
 ]
