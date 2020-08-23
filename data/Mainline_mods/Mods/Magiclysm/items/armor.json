@@ -1,28 +1,28 @@
 [
   {
     "id": "quiver",
-    "name": { "str_sp": "quiver" },
+    "name": { "str": "quiver" },
     "copy-from": "quiver",
     "type": "ARMOR",
     "pocket_data": [ { "ammo_restriction": { "arrow": 20, "bolt": 20, "arrow_orichalcum": 20 }, "moves": 20 } ]
   },
   {
     "id": "quiver_large",
-    "name": { "str_sp": "large quiver" },
+    "name": { "str": "large quiver" },
     "copy-from": "quiver_large",
     "type": "ARMOR",
     "pocket_data": [ { "ammo_restriction": { "arrow": 60, "bolt": 60, "arrow_orichalcum": 60 }, "moves": 20 } ]
   },
   {
     "id": "quiver_birchbark",
-    "name": { "str_sp": "birchbark quiver" },
+    "name": { "str": "birchbark quiver" },
     "copy-from": "quiver_birchbark",
     "type": "ARMOR",
     "pocket_data": [ { "ammo_restriction": { "arrow": 20, "bolt": 20, "arrow_orichalcum": 20 }, "moves": 20 } ]
   },
   {
     "id": "quiver_large_birchbark",
-    "name": { "str_sp": "large birchbark quiver" },
+    "name": { "str": "large birchbark quiver" },
     "copy-from": "quiver_large_birchbark",
     "type": "ARMOR",
     "pocket_data": [ { "ammo_restriction": { "arrow": 60, "bolt": 60, "arrow_orichalcum": 60 }, "moves": 20 } ]
@@ -41,7 +41,7 @@
     "id": "armor_demonchitin",
     "copy-from": "armor_chitin",
     "type": "ARMOR",
-    "name": { "str_sp": "demon chitin armor" },
+    "name": { "str": "demon chitin armor" },
     "description": "Leg and body armor crafted from the carefully cleaned and pruned red exoskeletons of demon spiders.  Fire-resistant and very durable.",
     "material": [ "demon_chitin" ],
     "proportional": { "weight": 0.9, "encumbrance": 0.9, "price": 10, "warmth": 2 },
@@ -51,7 +51,7 @@
     "id": "helmet_demonchitin",
     "copy-from": "helmet_chitin",
     "type": "ARMOR",
-    "name": { "str_sp": "demon chitin helmet" },
+    "name": { "str": "demon chitin helmet" },
     "description": "A helmet crafted from the carefully cleaned and pruned red exoskeletons of demon spiders.  Covers the entire head; fire-resistant and very durable.",
     "material": [ "demon_chitin" ],
     "proportional": { "weight": 0.9, "encumbrance": 0.9, "price": 10, "warmth": 2 },
@@ -95,7 +95,7 @@
     "id": "demonchitin_armor_horse",
     "copy-from": "horse_armor",
     "color": "green",
-    "name": { "str_sp": "demon chitin horse armor" },
+    "name": { "str": "demon chitin horse armor" },
     "description": "A makeshift assembly of criniere, peytral and croupiere made from demon chitin fitted to a thin mesh.  You could put this on a friendly horse.",
     "price": 120000,
     "price_postapoc": 12000,

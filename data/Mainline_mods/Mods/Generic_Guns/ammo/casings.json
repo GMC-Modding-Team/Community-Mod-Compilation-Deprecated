@@ -3,7 +3,7 @@
     "id": "pistol_tiny_casing",
     "copy-from": "32_casing",
     "type": "GENERIC",
-    "name": { "str_sp": "tiny pistol casing" },
+    "name": { "str": "tiny pistol casing" },
     "description": "An empty casing from a tiny pistol round.",
     "weight": "5 g",
     "volume": "5 ml"
@@ -12,7 +12,7 @@
     "id": "pistol_casing",
     "copy-from": "9mm_casing",
     "type": "GENERIC",
-    "name": { "str_sp": "pistol casing" },
+    "name": { "str": "pistol casing" },
     "description": "An empty casing from a standard pistol round.",
     "weight": "5 g",
     "volume": "5 ml"
@@ -21,7 +21,7 @@
     "id": "pistol_magnum_casing",
     "copy-from": "44_casing",
     "type": "GENERIC",
-    "name": { "str_sp": "magnum pistol casing" },
+    "name": { "str": "magnum pistol casing" },
     "description": "An empty casing from a magnum pistol round.",
     "weight": "5 g",
     "volume": "5 ml"
@@ -30,7 +30,7 @@
     "id": "rifle_casing",
     "copy-from": "308_casing",
     "type": "GENERIC",
-    "name": { "str_sp": "rifle casing" },
+    "name": { "str": "rifle casing" },
     "description": "An empty casing from a rifle round.",
     "weight": "5 g",
     "volume": "5 ml"
@@ -39,7 +39,7 @@
     "id": "rifle_huge_casing",
     "copy-from": "50_casing",
     "type": "GENERIC",
-    "name": { "str_sp": "huge rifle casing" },
+    "name": { "str": "huge rifle casing" },
     "description": "An empty casing from a huge rifle round.",
     "weight": "5 g",
     "volume": "5 ml"
@@ -57,7 +57,7 @@
     "id": "grenade_casing",
     "copy-from": "40x46mm_m199_casing",
     "type": "GENERIC",
-    "name": { "str_sp": "grenade casing" },
+    "name": { "str": "grenade casing" },
     "description": "A large casing from a grenade round.",
     "weight": "5 g",
     "volume": "5 ml"
@@ -66,7 +66,7 @@
     "id": "ammolinkrifle",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str_sp": "rifle belt linkage" },
+    "name": { "str": "rifle belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "rifle_belt" },
     "weight": "5 g",
     "volume": "5 ml"
@@ -75,7 +75,7 @@
     "id": "ammolinkgrenade",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str_sp": "grenade belt linkage" },
+    "name": { "str": "grenade belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "grenade_belt" },
     "weight": "5 g",
     "volume": "5 ml"
@@ -84,7 +84,7 @@
     "id": "ammolinkrifle_huge",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str_sp": "heavy machinegun belt linkage" },
+    "name": { "str": "heavy machinegun belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "rifle_huge_belt" },
     "weight": "5 g",
     "volume": "5 ml"

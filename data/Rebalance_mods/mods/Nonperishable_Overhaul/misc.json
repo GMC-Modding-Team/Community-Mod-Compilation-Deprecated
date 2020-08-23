@@ -3,7 +3,7 @@
     "type": "COMESTIBLE",
     "id": "brew_milk_curdled",
     "copy-from": "brew_milk_curdled",
-    "name": { "str_sp": "curdling milk" },
+    "name": { "str": "curdling milk" },
     "description": "Milk with vinegar and natural rennet added.  Used for making cheese if left in a fermenting vat for some time.",
     "spoils_in": "0 hours"
   },
@@ -12,7 +12,7 @@
     "copy-from": "mugwort_oil",
     "//": "Last I checked, med-type comestibles are bugged and can't spoiled, so this fixes that.  Also fixes the inevitable consequence of fixing it in the hardcoded, as them mugwort will have no good way to store it in an accessible state.",
     "type": "COMESTIBLE",
-    "name": { "str_sp": "mugwort oil" },
+    "name": { "str": "mugwort oil" },
     "description": "Some essential oil made from mugwort, which may kill parasites when ingested.  Consume it with water!",
     "spoils_in": "0 hours"
   },
@@ -20,7 +20,7 @@
     "id": "thyme_oil",
     "copy-from": "thyme_oil",
     "type": "COMESTIBLE",
-    "name": { "str_sp": "thyme oil" },
+    "name": { "str": "thyme oil" },
     "description": "Some essential oil made from thyme, which can act as a mildly irritating disinfectant.",
     "spoils_in": "0 hours"
   },
@@ -37,7 +37,7 @@
     "type": "COMESTIBLE",
     "id": "milk_curdled",
     "copy-from": "milk_curdled",
-    "name": { "str_sp": "curdled milk" },
+    "name": { "str": "curdled milk" },
     "description": "Milk that has been curdled with vinegar and rennet.  It still needs to be salted and drained of whey.",
     "spoils_in": "0 hours"
   }

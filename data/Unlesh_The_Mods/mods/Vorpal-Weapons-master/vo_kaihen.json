@@ -3,7 +3,7 @@
     "copy-from": "survivor_belt_notools",
     "type": "ARMOR",
     "id": "survivor_belt_notools",
-    "name": { "str_sp": "survivor belt" },
+    "name": { "str": "survivor belt" },
     "encumbrance": 1,
     "use_action": {
       "type": "holster",
@@ -24,7 +24,7 @@
   {
     "copy-from": "q_staff",
     "id": "q_staff",
-    "name": { "str_sp": "quarterstaff" },
+    "name": { "str": "quarterstaff" },
     "type": "GENERIC",
     "extend": { "flags": [ "REACH_ATTACK" ] }
   },
@@ -32,21 +32,21 @@
     "copy-from": "i_staff",
     "type": "GENERIC",
     "id": "i_staff",
-    "name": { "str_sp": "ironshod quarterstaff" },
+    "name": { "str": "ironshod quarterstaff" },
     "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "copy-from": "shock_staff",
     "id": "shock_staff",
     "type": "TOOL",
-    "name": { "str_sp": "powered quarterstaff" },
+    "name": { "str": "powered quarterstaff" },
     "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "copy-from": "headgear",
     "type": "ARMOR",
     "id": "headgear",
-    "name": { "str_sp": "headgear" },
+    "name": { "str": "headgear" },
     "extend": { "flags": [ "ALLOWS_NATURAL_ATTACKS" ] }
   },
   {
@@ -54,7 +54,7 @@
     "type": "TOOL",
     "symbol": "/",
     "color": "dark_gray",
-    "name": { "str_sp": "lobotomizer" },
+    "name": { "str": "lobotomizer" },
     "description": "This is a hand-forged collapsible tool that has two axe heads and sharp shovel-like tip on one end.  It can be used as a shovel, or you could chop some zombies with it instead.",
     "price": 25000,
     "material": [ "steel" ],
@@ -78,35 +78,35 @@
     "copy-from": "halberd",
     "id": "halberd",
     "type": "GENERIC",
-    "name": { "str_sp": "halberd" },
+    "name": { "str": "halberd" },
     "techniques": [ "SWEEP" ]
   },
   {
     "copy-from": "naginata",
     "id": "naginata",
     "type": "GENERIC",
-    "name": { "str_sp": "naginata" },
+    "name": { "str": "naginata" },
     "techniques": [ "SWEEP", "RAPID" ]
   },
   {
     "copy-from": "glaive",
     "id": "glaive",
     "type": "GENERIC",
-    "name": { "str_sp": "glaive" },
+    "name": { "str": "glaive" },
     "techniques": [ "BRUTAL" ]
   },
   {
     "copy-from": "battleaxe",
     "id": "battleaxe",
     "type": "TOOL",
-    "name": { "str_sp": "battle axe" },
+    "name": { "str": "battle axe" },
     "techniques": [ "BRUTAL", "WBLOCK_1" ]
   },
   {
     "copy-from": "broadsword",
     "id": "broadsword",
     "type": "TOOL",
-    "name": { "str_sp": "broadsword" },
+    "name": { "str": "broadsword" },
     "techniques": "SWEEP",
     "bashing": 12,
     "cutting": 31
@@ -148,7 +148,7 @@
     "copy-from": "katana",
     "id": "katana",
     "type": "TOOL",
-    "name": { "str_sp": "katana" },
+    "name": { "str": "katana" },
     "bashing": 4,
     "cutting": 35
   },
@@ -213,7 +213,7 @@
     "copy-from": "bio_blade_weapon",
     "type": "GENERIC",
     "id": "bio_blade_weapon",
-    "name": { "str_sp": "monomolecular blade" },
+    "name": { "str": "monomolecular blade" },
     "techniques": [ "RAPID" ],
     "cutting": 36
   },
@@ -222,7 +222,7 @@
     "type": "ARMOR",
     "id": "tinfoil_hat",
     "category": "armor",
-    "name": { "str_sp": "tinfoil hat" },
+    "name": { "str": "tinfoil hat" },
     "artifact_data": { "effects_worn": [ "AEP_PSYSHIELD", "AEP_SCHIZO" ] }
   },
   {

@@ -99,7 +99,7 @@
     "type": "COMESTIBLE",
     "id": "tea",
     "copy-from": "tea",
-    "name": { "str_sp": "tea" },
+    "name": { "str": "tea" },
     "description": "Tea, the beverage of gentlemen everywhere.",
     "spoils_in": "0 hours"
   },
@@ -123,7 +123,7 @@
     "type": "COMESTIBLE",
     "id": "choc_drink",
     "copy-from": "choc_drink",
-    "name": { "str_sp": "chocolate drink" },
+    "name": { "str": "chocolate drink" },
     "description": "A chocolate flavored beverage made of artificial flavoring and milk byproducts.  Shelf stable and vaguely appetizing even when lukewarm.",
     "spoils_in": "0 hours"
   },
@@ -147,7 +147,7 @@
     "type": "COMESTIBLE",
     "id": "tallow_tainted",
     "copy-from": "tallow_tainted",
-    "name": { "str_sp": "tainted tallow" },
+    "name": { "str": "tainted tallow" },
     "description": "A smooth grayish block of cleaned and rendered monster fat.  It will remain 'fresh' for a very long time, and can be used as an ingredient in many projects.  You could eat it, but it will poison you.",
     "spoils_in": "0 hours"
   },
@@ -155,7 +155,7 @@
     "type": "COMESTIBLE",
     "id": "slime_scrap",
     "copy-from": "slime_scrap",
-    "name": { "str_sp": "blob glob" },
+    "name": { "str": "blob glob" },
     "description": "A little hunk of glop that fell off a blob monster.  It doesn't seem hostile, but it does wiggle occasionally.",
     "spoils_in": "0 hours"
   },
@@ -163,7 +163,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_apple",
     "copy-from": "irradiated_apple",
-    "name": { "str_sp": "irradiated apple" },
+    "name": { "str": "irradiated apple" },
     "description": "Mmm, irradiated.  Will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -171,7 +171,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_banana",
     "copy-from": "irradiated_banana",
-    "name": { "str_sp": "irradiated banana" },
+    "name": { "str": "irradiated banana" },
     "description": "An irradiated banana will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -179,7 +179,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_orange",
     "copy-from": "irradiated_orange",
-    "name": { "str_sp": "irradiated orange" },
+    "name": { "str": "irradiated orange" },
     "description": "An irradiated orange will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -187,7 +187,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_lemon",
     "copy-from": "irradiated_lemon",
-    "name": { "str_sp": "irradiated lemon" },
+    "name": { "str": "irradiated lemon" },
     "description": "An irradiated lemon will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -243,7 +243,7 @@
     "type": "COMESTIBLE",
     "id": "barley",
     "copy-from": "barley",
-    "name": { "str_sp": "barley" },
+    "name": { "str": "barley" },
     "description": "Grainy cereal used for malting.  A staple of brewing everywhere.  It can also be ground into flour.",
     "spoils_in": "0 hours"
   },
@@ -251,7 +251,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_lettuce",
     "copy-from": "irradiated_lettuce",
-    "name": { "str_sp": "irradiated lettuce" },
+    "name": { "str": "irradiated lettuce" },
     "description": "An irradiated head of lettuce will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -259,7 +259,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_cabbage",
     "copy-from": "irradiated_cabbage",
-    "name": { "str_sp": "irradiated cabbage" },
+    "name": { "str": "irradiated cabbage" },
     "description": "An irradiated head of cabbage will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -283,7 +283,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_zucchini",
     "copy-from": "irradiated_zucchini",
-    "name": { "str_sp": "irradiated zucchini" },
+    "name": { "str": "irradiated zucchini" },
     "description": "An irradiated zucchini will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -291,7 +291,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_onion",
     "copy-from": "irradiated_onion",
-    "name": { "str_sp": "irradiated onion" },
+    "name": { "str": "irradiated onion" },
     "description": "An irradiated onion will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -299,7 +299,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_carrot",
     "copy-from": "irradiated_carrot",
-    "name": { "str_sp": "irradiated carrot" },
+    "name": { "str": "irradiated carrot" },
     "description": "An irradiated bundle of carrots will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -316,7 +316,7 @@
     "id": "honeycomb",
     "copy-from": "honeycomb",
     "//": "Just to illustrate something here.  Honey is one of the few items that so thoroughly earns the distinction of being called non-perishable that edible examples have been found that are centuries old.  And yet I'm taking no chances with this.",
-    "name": { "str_sp": "honey comb" },
+    "name": { "str": "honey comb" },
     "description": "A large chunk of wax filled with honey.  Very tasty.",
     "spoils_in": "0 hours"
   },
@@ -356,7 +356,7 @@
     "type": "COMESTIBLE",
     "id": "yeast",
     "copy-from": "yeast",
-    "name": { "str_sp": "yeast" },
+    "name": { "str": "yeast" },
     "description": "A powder-like mix of cultured yeast, good for baking and brewing alike.",
     "spoils_in": "0 hours"
   },
@@ -364,7 +364,7 @@
     "type": "COMESTIBLE",
     "id": "meal_bone",
     "copy-from": "meal_bone",
-    "name": { "str_sp": "bone meal" },
+    "name": { "str": "bone meal" },
     "description": "This bone meal can be used to craft fertilizer and some other things.",
     "spoils_in": "0 hours"
   },
@@ -372,7 +372,7 @@
     "type": "COMESTIBLE",
     "id": "meal_bone_tainted",
     "copy-from": "meal_bone_tainted",
-    "name": { "str_sp": "tainted bone meal" },
+    "name": { "str": "tainted bone meal" },
     "description": "This is a grayish bone meal made from rotten bones.",
     "spoils_in": "0 hours"
   },
@@ -421,7 +421,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_pumpkin",
     "copy-from": "irradiated_pumpkin",
-    "name": { "str_sp": "irradiated pumpkin" },
+    "name": { "str": "irradiated pumpkin" },
     "description": "An irradiated pumpkin will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -502,7 +502,7 @@
     "id": "paper",
     "copy-from": "paper",
     "//": "Why in the name of Armok, god of blood, is this even a comestible in the first place?",
-    "name": { "str_sp": "paper" },
+    "name": { "str": "paper" },
     "description": "A piece of paper.  Can be used for fires.",
     "spoils_in": "0 hours"
   },
@@ -510,7 +510,7 @@
     "type": "COMESTIBLE",
     "id": "drink_strawberry_surprise",
     "copy-from": "drink_strawberry_surprise",
-    "name": { "str_sp": "strawberry surprise" },
+    "name": { "str": "strawberry surprise" },
     "description": "Strawberries left to ferment with a few other choice ingredients offer up a surprisingly palatable mixture; you barely even have to force yourself to drink it after the first few gulps.",
     "spoils_in": "0 hours"
   },
@@ -526,7 +526,7 @@
     "type": "COMESTIBLE",
     "id": "taint_tornado",
     "copy-from": "taint_tornado",
-    "name": { "str_sp": "tainted tornado" },
+    "name": { "str": "tainted tornado" },
     "description": "A frothing slurry of alcohol-soaked zombie flesh and rotten blood, it smells almost as bad as it looks.  Has weak mutagenic properties.",
     "spoils_in": "0 hours"
   },
@@ -550,7 +550,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_pear",
     "copy-from": "irradiated_pear",
-    "name": { "str_sp": "irradiated pear" },
+    "name": { "str": "irradiated pear" },
     "description": "An irradiated pear will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -582,7 +582,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_plums",
     "copy-from": "irradiated_plums",
-    "name": { "str_sp": "irradiated plum" },
+    "name": { "str": "irradiated plum" },
     "description": "A group of irradiated plums will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -598,7 +598,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_pineapple",
     "copy-from": "irradiated_pineapple",
-    "name": { "str_sp": "irradiated pineapple" },
+    "name": { "str": "irradiated pineapple" },
     "description": "An irradiated pineapple will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -630,7 +630,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_watermelon",
     "copy-from": "irradiated_watermelon",
-    "name": { "str_sp": "irradiated watermelon" },
+    "name": { "str": "irradiated watermelon" },
     "description": "An irradiated watermelon will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -638,7 +638,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_melon",
     "copy-from": "irradiated_melon",
-    "name": { "str_sp": "irradiated melon" },
+    "name": { "str": "irradiated melon" },
     "description": "An irradiated melon will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -670,7 +670,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_mango",
     "copy-from": "irradiated_mango",
-    "name": { "str_sp": "irradiated mango" },
+    "name": { "str": "irradiated mango" },
     "description": "An irradiated mango will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -678,7 +678,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_pomegranate",
     "copy-from": "irradiated_pomegranate",
-    "name": { "str_sp": "irradiated pomegranate" },
+    "name": { "str": "irradiated pomegranate" },
     "description": "An irradiated pomegranate will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -686,7 +686,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_rhubarb",
     "copy-from": "irradiated_rhubarb",
-    "name": { "str_sp": "irradiated rhubarb" },
+    "name": { "str": "irradiated rhubarb" },
     "description": "An irradiated rhubarb will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -694,7 +694,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_papaya",
     "copy-from": "irradiated_papaya",
-    "name": { "str_sp": "irradiated papaya" },
+    "name": { "str": "irradiated papaya" },
     "description": "An irradiated papaya will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -702,7 +702,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_kiwi",
     "copy-from": "irradiated_kiwi",
-    "name": { "str_sp": "irradiated kiwi" },
+    "name": { "str": "irradiated kiwi" },
     "description": "An irradiated kiwi will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -710,7 +710,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_apricot",
     "copy-from": "irradiated_apricot",
-    "name": { "str_sp": "irradiated apricot" },
+    "name": { "str": "irradiated apricot" },
     "description": "An irradiated apricot will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -726,7 +726,7 @@
     "type": "COMESTIBLE",
     "id": "irradiated_celery",
     "copy-from": "irradiated_celery",
-    "name": { "str_sp": "irradiated celery" },
+    "name": { "str": "irradiated celery" },
     "description": "An irradiated cluster of celery will remain edible nearly forever.  Sterilized using radiation, so it's safe to eat.",
     "spoils_in": "0 hours"
   },
@@ -758,7 +758,7 @@
     "type": "COMESTIBLE",
     "id": "drink_sewerbrew",
     "copy-from": "drink_sewerbrew",
-    "name": { "str_sp": "sewer brew" },
+    "name": { "str": "sewer brew" },
     "description": "A thirsty mutant's drink of choice.  It tastes horrible but it's probably a lot safer to drink than before.",
     "spoils_in": "0 hours"
   },
@@ -766,7 +766,7 @@
     "type": "COMESTIBLE",
     "id": "tea_bark",
     "copy-from": "tea_bark",
-    "name": { "str_sp": "bark tea" },
+    "name": { "str": "bark tea" },
     "description": "Often regarded as folk medicine in some countries, bark tea tastes awful and tends to dry you out, but can help flush out stomach or other gut bugs.",
     "spoils_in": "0 hours"
   },
@@ -774,7 +774,7 @@
     "type": "COMESTIBLE",
     "id": "honey_gold",
     "copy-from": "honey_gold",
-    "name": { "str_sp": "honeygold brew" },
+    "name": { "str": "honeygold brew" },
     "description": "A mixed drink containing all the advantages of its ingredients and none of their disadvantages.  It tastes great and it's a good source of nourishment.",
     "spoils_in": "0 hours"
   },
@@ -782,7 +782,7 @@
     "type": "COMESTIBLE",
     "id": "honey_ant",
     "copy-from": "honey_ant",
-    "name": { "str_sp": "honey ball" },
+    "name": { "str": "honey ball" },
     "description": "Droplet shaped ant food.  It's like a thick balloon the size of a baseball, filled with sticky liquid.  Unlike bee honey, this has mostly a sour taste, probably because ants feed upon a variety of things.",
     "spoils_in": "0 hours"
   },
@@ -790,7 +790,7 @@
     "type": "COMESTIBLE",
     "id": "thyme",
     "copy-from": "thyme",
-    "name": { "str_sp": "thyme" },
+    "name": { "str": "thyme" },
     "description": "A stalk of thyme.  Smells delicious.",
     "spoils_in": "0 hours"
   },
@@ -798,7 +798,7 @@
     "type": "COMESTIBLE",
     "id": "canola",
     "copy-from": "canola",
-    "name": { "str_sp": "canola" },
+    "name": { "str": "canola" },
     "description": "A pretty stalk of canola.  Its seeds can be pressed into oil.",
     "spoils_in": "0 hours"
   },
@@ -806,7 +806,7 @@
     "type": "COMESTIBLE",
     "id": "dogbane",
     "copy-from": "dogbane",
-    "name": { "str_sp": "dogbane" },
+    "name": { "str": "dogbane" },
     "description": "A stalk of dogbane.  It has very fibrous stems and is mildly poisonous.",
     "spoils_in": "0 hours"
   },
@@ -814,7 +814,7 @@
     "type": "COMESTIBLE",
     "id": "bee_balm",
     "copy-from": "bee_balm",
-    "name": { "str_sp": "bee balm" },
+    "name": { "str": "bee balm" },
     "description": "A snow-white flower also known as wild bergamot.  Smells faintly of mint.",
     "spoils_in": "0 hours"
   },
@@ -822,7 +822,7 @@
     "type": "COMESTIBLE",
     "id": "eggnog_spiked",
     "copy-from": "eggnog_spiked",
-    "name": { "str_sp": "spiked eggnog" },
+    "name": { "str": "spiked eggnog" },
     "description": "Smooth and rich, this spoon-coating mixture of milk, cream, eggs, and booze is a popular traditional holiday drink.  Having been fortified with alcohol, it will keep for a long time.",
     "spoils_in": "0 hours"
   }
