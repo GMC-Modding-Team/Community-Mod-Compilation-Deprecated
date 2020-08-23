@@ -32,7 +32,16 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "40", [ "colt6250mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "colt6250mag" ]
+      }
+    ]
   },
   {
     "id": "colt6250_weathered",
@@ -67,7 +76,16 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "40", [ "colt6250mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "colt6250mag" ]
+      }
+    ]
   },
   {
     "id": "10mmsmg",
@@ -103,7 +121,16 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "40", [ "10mmsmgmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10mmsmgmag" ]
+      }
+    ]
   },
   {
     "id": "hk_p90c",
@@ -135,7 +162,16 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 2,
-    "magazines": [ [ "40", [ "p90cmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "p90cmag" ]
+      }
+    ]
   },
   {
     "id": "10mmgatling",
@@ -160,7 +196,16 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
     "reload": 400,
     "modes": [ [ "DEFAULT", "low auto", 15 ], [ "AUTO", "high auto", 30 ] ],
-    "magazines": [ [ "40", [ "10mmgatlingmag", "10mmgatlingmagxl" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10mmgatlingmag", "10mmgatlingmagxl" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   }
 ]

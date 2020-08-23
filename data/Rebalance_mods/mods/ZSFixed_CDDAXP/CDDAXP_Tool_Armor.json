@@ -3,10 +3,10 @@
     "id": "cddaxp_tech_helmet",
     "type": "TOOL_ARMOR",
     "category": "armor",
-    "name": { "str": "Miltech 'VRC' helmet" },
+    "name": "Miltech 'VRC' helmet",
     "description": "A lightweight Miltech helmet, that provides excellent protection from all sorts of damage and also capable of transmitting vocals orders in the ultra high frequencies utilized by robots.  Activate it to command robots from afar.",
     "weight": "1220 g",
-    "volume": 9,
+    "volume": "2250 ml",
     "price": 1750000,
     "to_hit": -1,
     "bashing": 10,
@@ -16,8 +16,24 @@
     "symbol": "[",
     "color": "dark_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 200,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 10,
     "turns_per_charge": 0,
     "revert_to": null,
@@ -35,7 +51,7 @@
     "id": "cddaxp_goggles_artnv",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "Miltech tactical night visor" },
+    "name": "Miltech tactical night visor",
     "description": "A Miltech battery-powered tactical visor that amplify ambient light, with 'HUD' for enhancing perception purposes.  Use it to turn it on.",
     "weight": "1050 g",
     "volume": "1250 ml",
@@ -48,8 +64,24 @@
     "symbol": "[",
     "color": "dark_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 300,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 6,
     "turns_per_charge": 0,
     "revert_to": null,
@@ -73,7 +105,7 @@
     "id": "cddaxp_goggles_artnv_on",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "Miltech tactical night visor (on)" },
+    "name": "Miltech tactical night visor (on)",
     "description": "A Miltech battery-powered tactical visor that amplify ambient light, with 'HUD' for enhancing perception purposes.  It is currently on, and continually draining batteries.  Use it to turn it off.",
     "weight": "1050 g",
     "volume": "1250 ml",
@@ -86,8 +118,24 @@
     "symbol": "[",
     "color": "dark_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 300,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 0,
     "turns_per_charge": 5,
     "revert_to": "cddaxp_goggles_artnv",
@@ -97,7 +145,7 @@
     "warmth": 25,
     "material_thickness": 2,
     "environmental_protection": 8,
-    "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 3 } ] } ] },
     "use_action": { "target": "cddaxp_goggles_artnv", "msg": "Your %s deactivates.", "type": "transform" },
     "flags": [ "GNV_EFFECT", "FRAGILE", "VARSIZE" ]
   },
@@ -105,10 +153,10 @@
     "id": "cddaxp_artclocloak",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "Miltech cloaking cloak" },
+    "name": "Miltech cloaking cloak",
     "description": "A Miltech battery-powered hi-tech light bending cloak.  Turn it on to became invisible.",
     "weight": "1600 g",
-    "volume": 11,
+    "volume": "2750 ml",
     "price": 5550000,
     "to_hit": -1,
     "bashing": 1,
@@ -118,8 +166,24 @@
     "symbol": "[",
     "color": "brown",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 200,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 4,
     "turns_per_charge": 0,
     "revert_to": null,
@@ -143,10 +207,10 @@
     "id": "cddaxp_artclocloak_on",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "Miltech cloaking cloak (on)" },
+    "name": "Miltech cloaking cloak (on)",
     "description": "A Miltech battery-powered hi-tech light bending cloak.  It is currently on, and continually draining batteries.  Use it to turn it off.",
     "weight": "1600 g",
-    "volume": 11,
+    "volume": "2750 ml",
     "price": 5550000,
     "to_hit": -1,
     "bashing": 1,
@@ -156,8 +220,24 @@
     "symbol": "[",
     "color": "brown",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 200,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 0,
     "turns_per_charge": 2,
     "revert_to": "cddaxp_artclocloak",
@@ -167,7 +247,16 @@
     "warmth": 55,
     "material_thickness": 2,
     "environmental_protection": 6,
-    "artifact_data": { "effects_worn": [ "AEP_INVISIBLE" ] },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "STRENGTH", "add": 0 } ],
+          "mutations": [ "DEBUG_CLOAK" ]
+        }
+      ]
+    },
     "use_action": { "target": "cddaxp_artclocloak", "msg": "Your %s deactivates.  You are visible again.", "type": "transform" },
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE" ]
   },
@@ -175,7 +264,7 @@
     "id": "cddaxp_artesosk",
     "type": "TOOL_ARMOR",
     "category": "armor",
-    "name": { "str": "Miltech powerloader exoskeleton" },
+    "name": "Miltech powerloader exoskeleton",
     "description": "This plutonium powered Miltech exoskeleton is a really useful powertool!  Use it to turn it on.",
     "weight": "2270 g",
     "volume": 12,
@@ -187,9 +276,17 @@
     "material": [ "aluminum", "cddaxp_carbonfiber" ],
     "symbol": "[",
     "color": "dark_gray",
-    "ammo": [ "plutonium" ],
-    "initial_charges": 0,
-    "max_charges": 5000,
+    "ammo": [ "battery" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+      }
+    ],
     "charges_per_use": 5,
     "turns_per_charge": 0,
     "revert_to": null,
@@ -213,10 +310,10 @@
     "id": "cddaxp_artesosk_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
-    "name": { "str": "Miltech powerloader exoskeleton (on)" },
+    "name": "Miltech powerloader exoskeleton (on)",
     "description": "This plutonium powered Miltech exoskeleton is a really useful powertool!  It is currently on, and continually draining batteries.  Use it to turn it off.",
     "weight": "2270 g",
-    "volume": 12,
+    "volume": "3 L",
     "price": 17500000,
     "to_hit": -3,
     "bashing": 0,
@@ -225,9 +322,17 @@
     "material": [ "aluminum", "cddaxp_carbonfiber" ],
     "symbol": "[",
     "color": "dark_gray",
-    "ammo": [ "plutonium" ],
-    "initial_charges": 0,
-    "max_charges": 5000,
+    "ammo": [ "battery" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+      }
+    ],
     "charges_per_use": 0,
     "turns_per_charge": 2,
     "revert_to": "cddaxp_artesosk",
@@ -237,7 +342,7 @@
     "warmth": 10,
     "material_thickness": 2,
     "environmental_protection": 0,
-    "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 3 } ] } ] },
     "use_action": { "target": "cddaxp_artesosk", "msg": "Your %s deactivates.", "type": "transform" },
     "flags": [ "STURDY", "WATCH", "ALARMCLOCK", "OUTER", "VARSIZE", "LIGHT_100", "CHARGEDIM" ]
   },
@@ -245,7 +350,7 @@
     "id": "cddaxp_artgloves",
     "type": "TOOL_ARMOR",
     "category": "armor",
-    "name": { "str": "Miltech actuator served gloves" },
+    "name": "Miltech actuator served gloves",
     "description": "A pair of Miltech reinforced Kevlar tactical gloves with actuators, sensors, stabilizer and motion control system.  Use it to turn it on.",
     "weight": "230 g",
     "volume": "500 ml",
@@ -258,8 +363,24 @@
     "symbol": "[",
     "color": "dark_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 200,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 4,
     "turns_per_charge": 0,
     "revert_to": null,
@@ -283,7 +404,7 @@
     "id": "cddaxp_artgloves_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
-    "name": { "str": "Miltech actuator served gloves (on)" },
+    "name": "Miltech actuator served gloves (on)",
     "description": "A pair of Miltech reinforced Kevlar tactical gloves with actuators, sensors, stabilizer and motion control system.  They are currently on, and continually draining batteries.  Use it to turn it off.",
     "weight": "230 g",
     "volume": "500 ml",
@@ -296,8 +417,24 @@
     "symbol": "[",
     "color": "dark_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 0,
-    "max_charges": 200,
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      }
+    ],
     "charges_per_use": 0,
     "turns_per_charge": 2,
     "revert_to": "cddaxp_artgloves",
@@ -307,17 +444,17 @@
     "warmth": 25,
     "material_thickness": 2,
     "environmental_protection": 1,
-    "artifact_data": { "effects_worn": [ "AEP_DEX_UP" ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 3 } ] } ] },
     "use_action": { "target": "cddaxp_artgloves", "msg": "Your %s deactivates.", "type": "transform" },
     "flags": [ "VARSIZE", "STURDY" ]
   },
   {
     "id": "cddaxp_survrbelt",
     "type": "ARMOR",
-    "name": { "str": "survivor rioter belt" },
+    "name": "survivor rioter belt",
     "description": "A custom-built leather utility belt covered with straps and pouches containing many useful hand tools and a comfortable quick draw holster for small guns.  Durable and carefully crafted to be comfortable to wear.  Activate to holster/draw a gun.",
     "weight": "3400 g",
-    "volume": 16,
+    "volume": "4 L",
     "price": 50000,
     "bashing": 1,
     "material": [ "leather", "iron" ],
@@ -356,17 +493,25 @@
     "id": "cddaxp_mtsuit",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "Miltech thermal suit" },
+    "name": "Miltech thermal suit",
     "description": "This hi-tech suit of thin thermal underwear covers you from head to toe and is equipped with internal battery-powered high-efficiency heating elements.  Use it to turn it on.",
     "weight": "1500 g",
-    "volume": 19,
+    "volume": "4750 ml",
     "price": 40000,
     "material": [ "wool", "neoprene" ],
     "symbol": "[",
     "color": "light_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 500,
-    "max_charges": 500,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
+    ],
     "charges_per_use": 1,
     "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "leg_l", "leg_r", "hand_l", "hand_r", "foot_l", "foot_r" ],
     "coverage": 100,
@@ -388,17 +533,25 @@
     "id": "cddaxp_mtsuit_on",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "Miltech thermal suit (on)" },
+    "name": "Miltech thermal suit (on)",
     "description": "This hi-tech suit of thin thermal underwear covers you from head to toe and is equipped with internal battery-powered high-efficiency heating elements.  It is currently on, and continually draining batteries.  Use it to turn it off.",
     "weight": "1500 g",
-    "volume": 19,
+    "volume": "4750 ml",
     "price": 40000,
     "material": [ "wool", "neoprene" ],
     "symbol": "[",
     "color": "light_gray",
     "ammo": [ "battery" ],
-    "initial_charges": 500,
-    "max_charges": 500,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
+    ],
     "turns_per_charge": 8,
     "revert_to": "cddaxp_mtsuit",
     "covers": [ "head", "mouth", "torso", "arm_l", "arm_r", "leg_l", "leg_r", "hand_l", "hand_r", "foot_l", "foot_r" ],

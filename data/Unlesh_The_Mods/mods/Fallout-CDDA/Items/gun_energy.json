@@ -9,16 +9,20 @@
     "price": 42400,
     "material": [ "steel", "wood" ],
     "weight": "2940 g",
-    "volume": "1000 ml",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
-    "flags": [ "MODE_BURST" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
           "light_minus_disposable_cell",
           "light_disposable_cell",
           "light_minus_battery_cell",
@@ -27,19 +31,19 @@
           "light_atomic_battery_cell",
           "light_minus_atomic_battery_cell"
         ]
-      ]
+      }
     ],
     "magazine_well": 1,
     "skill": "pistol",
-    "ranged_damage": { "damage_type": "stab", "amount": 25 },
+    "ranged_damage": { "damage_type": "heat", "amount": 2, "armor_penetration": 5 },
     "range": 30,
     "dispersion": 5,
     "sight_dispersion": 20,
     "aim_speed": 4,
     "recoil": 0,
     "durability": 8,
-    "clip_size": 12,
-    "reload": 300,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
+    "reload": 140,
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
@@ -53,36 +57,31 @@
     "price": 42400,
     "material": [ "steel", "wood" ],
     "weight": "2940 g",
-    "volume": "1000 ml",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
-    "flags": [ "MODE_BURST" ],
+    "flags": [ "FIRE_20", "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_minus_disposable_cell",
-          "light_disposable_cell",
-          "light_minus_battery_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
-        ]
-      ]
+    "pocket_data": [
+      {
+        "magazine_well": "150 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
     ],
     "magazine_well": 1,
     "skill": "pistol",
-    "ranged_damage": { "damage_type": "stab", "amount": 25, "armor_penetration": 40 },
+    "ranged_damage": { "damage_type": "heat", "amount": 27, "armor_penetration": 12 },
     "range": 30,
     "dispersion": 5,
     "sight_dispersion": 20,
     "aim_speed": 4,
     "recoil": 0,
     "durability": 8,
-    "clip_size": 12,
     "reload": 300,
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
@@ -97,16 +96,20 @@
     "price": 42400,
     "material": [ "steel", "wood" ],
     "weight": "2940 g",
-    "volume": "1000 ml",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
-    "flags": [ "MODE_BURST" ],
+    "flags": [ "FIRE_20", "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
+    "pocket_data": [
+      {
+        "magazine_well": "150 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
           "light_minus_disposable_cell",
           "light_disposable_cell",
           "light_minus_battery_cell",
@@ -115,18 +118,17 @@
           "light_atomic_battery_cell",
           "light_minus_atomic_battery_cell"
         ]
-      ]
+      }
     ],
     "magazine_well": 2,
     "skill": "pistol",
-    "ranged_damage": { "damage_type": "stab", "amount": 20 },
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 5 },
     "range": 30,
     "dispersion": 5,
     "sight_dispersion": 20,
     "aim_speed": 4,
     "recoil": 0,
     "durability": 8,
-    "clip_size": 30,
     "reload": 300,
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
@@ -141,16 +143,20 @@
     "price": 42400,
     "material": [ "steel", "wood" ],
     "weight": "2940 g",
-    "volume": "1000 ml",
+    "volume": "1 L",
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LASER" ],
-    "flags": [ "MODE_BURST" ],
+    "flags": [ "FIRE_20", "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
+    "pocket_data": [
+      {
+        "magazine_well": "150 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
           "light_minus_disposable_cell",
           "light_disposable_cell",
           "light_minus_battery_cell",
@@ -159,18 +165,17 @@
           "light_atomic_battery_cell",
           "light_minus_atomic_battery_cell"
         ]
-      ]
+      }
     ],
     "magazine_well": 1,
     "skill": "pistol",
-    "ranged_damage": { "damage_type": "stab", "amount": 20 },
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 9 },
     "range": 30,
     "dispersion": 5,
     "sight_dispersion": 20,
     "aim_speed": 4,
     "recoil": 0,
     "durability": 8,
-    "clip_size": 10,
     "modes": [ [ "DEFAULT", "Single Fire", 5 ] ],
     "reload": 300,
     "loudness": 2,
@@ -186,14 +191,14 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ups_charges": 84,
     "skill": "rifle",
     "weight": "2950 g",
     "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 75, "armor_penetration": 40 },
+    "ranged_damage": { "damage_type": "heat", "amount": 75, "armor_penetration": 24 },
     "range": 80,
     "dispersion": 0,
     "sight_dispersion": 60,
@@ -222,21 +227,17 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS" ],
+    "flags": [ "FIRE_20", "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_minus_disposable_cell",
-          "light_disposable_cell",
-          "light_minus_battery_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
-        ]
-      ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "magazine_well": "300 ml",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
     ],
     "magazine_well": 4,
     "skill": "rifle",
@@ -244,7 +245,7 @@
     "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 37, "armor_penetration": 20 },
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 18 },
     "range": 80,
     "dispersion": 0,
     "sight_dispersion": 60,
@@ -272,21 +273,17 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "SHOT" ],
+    "flags": [ "FIRE_50", "SHOT", "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_minus_disposable_cell",
-          "light_disposable_cell",
-          "light_minus_battery_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
-        ]
-      ]
+    "pocket_data": [
+      {
+        "magazine_well": "200 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+      }
     ],
     "magazine_well": 1,
     "skill": "shotgun",
@@ -294,7 +291,7 @@
     "volume": "2 L",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 121, "armor_penetration": 25 },
+    "ranged_damage": { "damage_type": "heat", "amount": 121, "armor_penetration": 33 },
     "range": 40,
     "dispersion": 0,
     "sight_dispersion": 60,
@@ -321,22 +318,18 @@
     "description": "A AER14 Prototype Laser Rifle. Meant to replace the aging laser rifle models on the market, it is a great balance between the Wattz and AER9 laser weapons. However, as a prototype, it is more finnicky and prone to damage. It has a pretty green beam.",
     "price": 1600000,
     "material": [ "steel", "plastic" ],
-    "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS" ],
+    "ammo_effects": [ "LASER", "INCENDIARY", "FIRE_20" ],
+    "flags": [ "FIRE_20", "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_minus_disposable_cell",
-          "light_disposable_cell",
-          "light_minus_battery_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
-        ]
-      ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+      }
     ],
     "magazine_well": 2,
     "skill": "rifle",
@@ -344,7 +337,7 @@
     "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 56, "armor_penetration": 25 },
+    "ranged_damage": { "damage_type": "heat", "amount": 58, "armor_penetration": 25 },
     "range": 80,
     "dispersion": 0,
     "sight_dispersion": 60,
@@ -373,14 +366,14 @@
     "looks_like": "tommygun",
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 16,
+    "flags": [ "NO_UNLOAD", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "ups_charges": 10,
     "skill": "smg",
     "weight": "2950 g",
     "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 10, "armor_penetration": 20 },
+    "ranged_damage": { "damage_type": "heat", "amount": 10, "armor_penetration": 10 },
     "range": 40,
     "dispersion": 0,
     "sight_dispersion": 60,
@@ -409,19 +402,17 @@
     "price": 1750000,
     "material": [ "steel" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS" ],
-    "ups_charges": 5,
+    "ups_charges": 65,
     "ammo_effects": [ "PLASMA", "FLAME" ],
     "skill": "launcher",
-    "ammo": [ "plasma" ],
     "weight": "4535 g",
     "volume": "3750 ml",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 50 },
+    "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 20 },
     "dispersion": 60,
     "durability": 8,
     "burst": 5,
-    "clip_size": 10,
     "reload": 700,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -444,19 +435,17 @@
     "price": 1750000,
     "material": [ "steel" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS" ],
-    "ups_charges": 5,
+    "ups_charges": 30,
     "ammo_effects": [ "PLASMA", "FLAME" ],
     "skill": "rifle",
-    "ammo": [ "plasma" ],
     "weight": "4535 g",
     "volume": "3750 ml",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 25 },
+    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 12 },
     "dispersion": 60,
     "durability": 8,
     "burst": 5,
-    "clip_size": 10,
     "reload": 700,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -480,9 +469,21 @@
     "material": [ "iron", "plastic" ],
     "symbol": "=",
     "color": "yellow",
-    "ammo_type": "battery",
-    "capacity": 20,
+    "ammo_type": [ "battery" ],
+    "capacity": 1,
     "reliability": 5,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "medium_battery_cell": 1,
+          "medium_plus_battery_cell": 1,
+          "medium_atomic_battery_cell": 1,
+          "medium_disposable_cell": 1
+        }
+      }
+    ],
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
   },
@@ -503,7 +504,7 @@
     "flags": [ "NON-FOULING", "NEEDS_NO_LUBE", "FIRE_20" ],
     "skill": "rifle",
     "ammo": [ "battery" ],
-    "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 10 },
+    "ranged_damage": { "damage_type": "heat", "amount": 32, "armor_penetration": 14 },
     "range": 30,
     "dispersion": 50,
     "sight_dispersion": 100,
@@ -513,7 +514,16 @@
     "reload": 0,
     "loudness": 20,
     "use_action": "HAND_CRANK",
-    "magazines": [ [ "battery", [ "lasermusket_battery_cell" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "lasermusket_battery_cell" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],

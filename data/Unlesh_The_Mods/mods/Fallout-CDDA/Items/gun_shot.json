@@ -68,7 +68,7 @@
     "name": { "str": "Winchester City-Killer", "str_pl": "Winchester City-Killer" },
     "description": "A Winchester City-Killer 12 gauge combat shotgun, bullpup variant. It has the optional DesertWarfare environmental sealant modification for extra reliability.",
     "weight": "3820 g",
-    "volume": 10,
+    "volume": "2500 ml",
     "price": 169900,
     "to_hit": -1,
     "bashing": 12,
@@ -78,7 +78,16 @@
     "dispersion": 345,
     "durability": 9,
     "burst": 3,
-    "magazines": [ [ "shot", [ "citykillermag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "citykillermag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   }
 ]

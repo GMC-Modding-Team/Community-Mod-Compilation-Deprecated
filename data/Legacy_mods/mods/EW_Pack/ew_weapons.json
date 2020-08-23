@@ -34,10 +34,26 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [
-      [ "654", [ "svs24_robomag", "svs24_robodrum" ] ],
-      [ "545x39", [ "cw24_robomag", "cw24_bigrobomag", "ak74mag" ] ],
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "svs24_robomag",
+          "svs24_robodrum",
+          "cw24_robomag",
+          "cw24_bigrobomag",
+          "ak74mag",
+          "akmag30",
+          "akmag10",
+          "akmag20",
+          "akmag40",
+          "akdrum75"
+        ]
+      }
     ]
   },
   {
@@ -99,10 +115,25 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [
-      [ "545x39", [ "cw24_robomag", "cw24_bigrobomag" ] ],
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ],
-      [ "654", [ "svs24_robomag", "svs24_robodrum" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "cw24_robomag",
+          "cw24_bigrobomag",
+          "akmag30",
+          "akmag10",
+          "akmag20",
+          "akmag40",
+          "akdrum75",
+          "svs24_robomag",
+          "svs24_robodrum"
+        ]
+      }
     ]
   },
   {
@@ -124,10 +155,25 @@
     "description": "Civilian version of the SVS-24.  This one fires the cheaper, but still powerful, 7.62x39mm cartridge.",
     "price": 160000,
     "ammo": [ "762" ],
-    "magazines": [
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ],
-      [ "545x39", [ "cw24_robomag", "cw24_bigrobomag" ] ],
-      [ "654", [ "svs24_robomag", "svs24_robodrum" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "cw24_robomag",
+          "cw24_bigrobomag",
+          "akmag30",
+          "akmag10",
+          "akmag20",
+          "akmag40",
+          "akdrum75",
+          "svs24_robomag",
+          "svs24_robodrum"
+        ]
+      }
     ]
   },
   {
@@ -183,7 +229,16 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "308", [ "cwd-63mag", "cwd-63bigmag" ] ], [ "223", [ "stanag10" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cwd-63mag", "cwd-63mag", "stanag10" ]
+      }
+    ]
   },
   {
     "id": "wrist_dread",
@@ -206,6 +261,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 30 ] ],
     "clip_size": 90,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "wr_dread": 90 } } ],
     "reload": 300,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "magazine", 2 ], [ "sling", 1 ], [ "underbarrel", 1 ] ],
     "flags": [ "NON-FOULING" ]
