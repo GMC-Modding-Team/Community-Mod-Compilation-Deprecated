@@ -31,10 +31,28 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [
-      [ "9mm", [ "nato9mag", "m9bigmag", "m9mag", "9mmbetacmag" ] ],
-      [ "45", [ "usp45mag", "ump45mag" ] ],
-      [ "223", [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "nato9mag",
+          "m9bigmag",
+          "m9mag",
+          "9mmbetacmag",
+          "usp45mag",
+          "ump45mag",
+          "transmag",
+          "stanag30",
+          "stanag10",
+          "stanag50",
+          "223betacmag",
+          "survivor223mag"
+        ]
+      }
     ]
   },
   {
@@ -67,7 +85,16 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "uzimag", "9mmbetacmag" ] ], [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "uzimag", "9mmbetacmag", "ruger1022bigmag", "ruger1022mag" ]
+      }
+    ]
   },
   {
     "id": "cbj_ms",
@@ -100,7 +127,16 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "9mmcbjmag" ], [ "nato9mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "9mmcbjmag", "nato9mag" ]
+      }
+    ]
   },
   {
     "id": "stkcpw",
@@ -131,10 +167,15 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [
-      [ "9mm", [ "nato9mag", "m9mag", "m9bigmag", "9mmbetacmag" ] ],
-      [ "46", [ "hk46mag", "hk46bigmag" ] ],
-      [ "57", [ "fnp90mag" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nato9mag", "m9mag", "m9bigmag", "9mmbetacmag", "hk46mag", "hk46bigmag", "fnp90mag" ]
+      }
     ]
   },
   {
@@ -165,6 +206,15 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "sterlingmag", "stenmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "sterlingmag", "stenmag" ]
+      }
+    ]
   }
 ]

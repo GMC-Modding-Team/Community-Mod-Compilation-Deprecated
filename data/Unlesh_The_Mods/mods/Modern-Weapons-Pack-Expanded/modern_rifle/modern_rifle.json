@@ -32,7 +32,16 @@
       [ "stock", 1 ]
     ],
     "magazine_well": 2,
-    "magazines": [ [ "57", [ "fnp90mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "fnp90mag" ]
+      }
+    ]
   },
   {
     "id": "r93t2",
@@ -55,7 +64,16 @@
     "barrel_volume": "750 ml",
     "built_in_mods": [ "adjustable_stock" ],
     "magazine_well": 1,
-    "magazines": [ [ "300", [ "300r4mag" ] ], [ "223", [ "223r5mag" ] ], [ "308", [ "308r5mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "300r4mag", "223r5mag", "308r5mag" ]
+      }
+    ],
     "flags": "NEVER_JAMS"
   },
   {
@@ -89,7 +107,16 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "magazines": [ [ "223", [ "belt223" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt223" ]
+      }
+    ]
   },
   {
     "id": "m1_9",
@@ -116,7 +143,16 @@
       [ "sights", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "m9mag", "m9bigmag", "nato9mag", "9mmbetacmag" ] ], [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m9mag", "m9bigmag", "nato9mag", "9mmbetacmag", "ruger1022bigmag", "ruger1022mag" ]
+      }
+    ]
   },
   {
     "id": "mdr",
@@ -135,9 +171,15 @@
     "durability": 8,
     "burst": 5,
     "magazine_well": 1,
-    "magazines": [
-      [ "223", [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ] ],
-      [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag", "g3mag", "g3bigmag", "308betacmag" ]
+      }
     ]
   },
   {
@@ -159,7 +201,16 @@
     "burst": 11,
     "default_mods": [ "susat_scope", "grip" ],
     "magazine_well": 1,
-    "magazines": [ [ "223", [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ]
+      }
+    ]
   },
   {
     "id": "fad",
@@ -179,7 +230,16 @@
     "burst": 5,
     "built_in_mods": [ "m203" ],
     "magazine_well": 1,
-    "magazines": [ [ "223", [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ]
+      }
+    ]
   },
   {
     "id": "fx_05",
@@ -210,6 +270,7 @@
     "dispersion": 30,
     "durability": 8,
     "clip_size": 7,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3030": 7 } } ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -242,7 +303,16 @@
     "barrel_volume": "250 ml",
     "default_mods": [ "folding_stock", "peep_sight" ],
     "magazine_well": 1,
-    "magazines": [ [ "223", [ "223ak74mag35", "223ak74mag30" ] ], [ "308", [ "308ak74mag25" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "223ak74mag35", "223ak74mag30", "308ak74mag25" ]
+      }
+    ]
   },
   {
     "id": "marlin_1894",
@@ -264,6 +334,7 @@
     "dispersion": 75,
     "durability": 8,
     "clip_size": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 10 } } ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -330,7 +401,7 @@
     "type": "GUN",
     "name": "Norinco Type 56-1",
     "description": "Manufactured by China North Industries Corporation, this assault rifle is a near copy of the Russian AKM.  This model has an integrated pig sticker bayonet, and a foldable stock.",
-    "weight": "3213 g",
+    "weight": "3215 g",
     "volume": "750 ml",
     "price": 95000,
     "default_mods": [ "folding_stock" ],
@@ -366,6 +437,7 @@
     "dispersion": 75,
     "durability": 8,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3006": 6 } } ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -410,10 +482,25 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [
-      [ "223", [ "223ak74mag30", "223ak74mag10", "survivor223mag" ] ],
-      [ "308", [ "308ak74mag25" ] ],
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "223ak74mag30",
+          "223ak74mag10",
+          "survivor223mag",
+          "308ak74mag25",
+          "akmag30",
+          "akmag10",
+          "akmag20",
+          "akmag40",
+          "akdrum75"
+        ]
+      }
     ]
   },
   {
@@ -437,6 +524,7 @@
     "recoil": 75,
     "durability": 8,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 1 } } ],
     "barrel_volume": "1250 ml",
     "default_mods": [ "muzzle_brake", "rifle_scope" ],
     "flags": [ "RELOAD_ONE", "NEVER_JAMS" ]
@@ -476,7 +564,16 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "50", [ "m107a1mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m107a1mag" ]
+      }
+    ],
     "flags": "NEVER_JAMS"
   },
   {
@@ -502,7 +599,16 @@
     "default_mods": [ "rifle_scope" ],
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
     "magazine_well": 1,
-    "magazines": [ [ "308", [ "308steyrmag5", "308steyrmag10" ] ], [ "223", [ "stanag10" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "308steyrmag5", "308steyrmag10", "stanag10" ]
+      }
+    ]
   },
   {
     "id": "mtar21",
@@ -536,15 +642,34 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [
-      [ "223", [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag" ] ],
-      [ "9mm", [ "uzimag", "9mmbetacmag" ] ],
-      [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "transmag",
+          "stanag30",
+          "stanag10",
+          "stanag50",
+          "223betacmag",
+          "survivor223mag",
+          "uzimag",
+          "9mmbetacmag",
+          "akmag30",
+          "akmag10",
+          "akmag20",
+          "akmag40",
+          "akdrum75"
+        ]
+      }
     ]
   },
   {
     "id": "wa2000",
-    "//": "I hestitated to include this since only 15 were ever imported to the US, but...",
+    "//": "I hesitated to include this since only 15 were ever imported to the US, but...",
     "copy-from": "rifle_manual",
     "type": "GUN",
     "name": "Walther WA 2000",
@@ -573,6 +698,15 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "300", [ "300r4mag" ] ], [ "308", [ "308r5mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "300r4mag", "308r5mag" ]
+      }
+    ]
   }
 ]

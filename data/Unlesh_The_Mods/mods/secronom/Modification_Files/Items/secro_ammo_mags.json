@@ -63,8 +63,9 @@
     "material": [ "flesh" ],
     "symbol": "%",
     "color": "light_red",
-    "ammo_type": "secro_flesh",
+    "ammo_type": [ "secro_flesh" ],
     "capacity": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "secro_flesh": 10 } } ],
     "flags": [ "NO_SALVAGE", "NO_UNLOAD" ]
   },
   {
@@ -80,8 +81,9 @@
     "material": [ "flesh" ],
     "symbol": "%",
     "color": "light_red",
-    "ammo_type": "secro_flesh",
+    "ammo_type": [ "secro_flesh" ],
     "capacity": 100,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "secro_flesh": 100 } } ],
     "flags": [ "NO_SALVAGE", "NO_UNLOAD" ]
   },
   {
@@ -97,8 +99,9 @@
     "material": [ "flesh" ],
     "symbol": "%",
     "color": "light_red",
-    "ammo_type": "secro_flesh",
+    "ammo_type": [ "secro_flesh" ],
     "capacity": 1000,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "secro_flesh": 1000 } } ],
     "flags": [ "NO_SALVAGE", "NO_UNLOAD" ]
   },
   {
@@ -114,8 +117,23 @@
     "material": [ "iron", "plastic" ],
     "symbol": "=",
     "color": "cyan",
-    "ammo_type": "battery",
+    "ammo_type": [ "battery" ],
     "capacity": 2000,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "light_minus_disposable_cell": 2000,
+          "light_disposable_cell": 2000,
+          "light_minus_battery_cell": 2000,
+          "light_battery_cell": 2000,
+          "light_plus_battery_cell": 2000,
+          "light_atomic_battery_cell": 2000,
+          "light_minus_atomic_battery_cell": 2000
+        }
+      }
+    ],
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
   }

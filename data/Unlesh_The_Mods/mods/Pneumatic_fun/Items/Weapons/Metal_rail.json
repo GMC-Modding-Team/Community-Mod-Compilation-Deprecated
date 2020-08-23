@@ -18,10 +18,11 @@
     "ammo": [ "metal_rail" ],
     "skill": "rifle",
     "range": 40,
-    "ranged_damage": { "damage_type": "stab", "amount": 40 },
+    "ranged_damage": { "damage_type": "stab", "amount": 45, "armor_penetration": 15 },
     "dispersion": 100,
     "durability": 7,
     "clip_size": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "metal_rail": 10 } } ],
     "ups_charges": 100,
     "reload": 200,
     "valid_mod_locations": [
@@ -56,8 +57,10 @@
     "ammo": [ "metal_rail" ],
     "skill": "rifle",
     "dispersion": 90,
+    "ranged_damage": { "damage_type": "stab", "amount": 25, "armor_penetration": 10 },
     "durability": 6,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "metal_rail": 1 } } ],
     "ups_charges": 40,
     "reload": 200,
     "valid_mod_locations": [

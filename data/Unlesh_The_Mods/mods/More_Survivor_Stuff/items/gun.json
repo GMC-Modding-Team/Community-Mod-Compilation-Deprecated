@@ -21,7 +21,7 @@
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2 ], [ "AUTO", "auto", 6 ] ],
     "reload": 550,
-    "barrel_length": "60 ml",
+    "barrel_volume": "60 ml",
     "sight_dispersion": 25,
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -36,7 +36,16 @@
       [ "sights", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "shot", [ "mss_belt_shot" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "mss_belt_shot" ]
+      }
+    ]
   },
   {
     "id": "mss_survivor_shotgunrevolver",
@@ -59,6 +68,7 @@
     "dispersion": 350,
     "durability": 9,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 5 } } ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],

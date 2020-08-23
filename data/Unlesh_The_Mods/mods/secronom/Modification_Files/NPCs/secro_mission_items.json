@@ -29,19 +29,23 @@
     "charges_per_use": 50,
     "use_action": { "type": "cast_spell", "spell_id": "secro_missionkey_sampler_enigma_target", "no_fail": true, "level": 0 },
     "flags": [ "NONCONDUCTIVE" ],
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_plus_battery_cell",
-          "light_minus_battery_cell",
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
           "light_minus_disposable_cell",
-          "light_battery_cell",
           "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
           "light_atomic_battery_cell",
           "light_minus_atomic_battery_cell"
         ]
-      ]
+      }
     ],
     "magazine_well": 1
   },

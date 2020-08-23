@@ -24,19 +24,15 @@
     "reload_noise_volume": 7,
     "ammo": [ "battery" ],
     "charges_per_use": 1,
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_battery_cell",
-          "light_minus_battery_cell",
-          "light_plus_battery_cell",
-          "light_minus_atomic_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_disposable_cell",
-          "light_disposable_cell"
-        ]
-      ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
     ],
     "magazine_well": 1,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
