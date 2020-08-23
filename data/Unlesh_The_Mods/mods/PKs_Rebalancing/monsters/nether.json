@@ -30,7 +30,7 @@
   {
     "id": "mon_stemcell_nether",
     "type": "MONSTER",
-    "name": { "str_sp": "shimmering light" },
+    "name": { "str": "shimmering light" },
     "description": "A shimmering light.  It has no shape at all, yet you can see limbs and appendages poking out of and into its core.  It clearly has some kind of sentience, judging by its informed actions.",
     "default_faction": "nether",
     "size": "SMALL",
@@ -76,7 +76,7 @@
     "id": "mon_gracke",
     "type": "MONSTER",
     "copy-from": "mon_gracke",
-    "name": { "str_sp": "gracken" },
+    "name": { "str": "gracken" },
     "description": "A bizarre humanoid creature with a calculating stare.  Its twitching hands move so fast they appear to be nothing but blurs.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -113,7 +113,7 @@
   {
     "id": "mon_flaming_eye",
     "type": "MONSTER",
-    "name": { "str_sp": "flaming eye" },
+    "name": { "str": "flaming eye" },
     "copy-from": "mon_flaming_eye",
     "diff": 25,
     "hp": 250,
@@ -125,7 +125,7 @@
   {
     "id": "mon_gozu",
     "type": "MONSTER",
-    "name": { "str_sp": "gozu" },
+    "name": { "str": "gozu" },
     "copy-from": "mon_gozu",
     "size": "LARGE",
     "speed": 85,
@@ -183,7 +183,7 @@
   {
     "id": "mon_horror_dusk",
     "type": "MONSTER",
-    "name": { "str_sp": "dusk horror" },
+    "name": { "str": "dusk horror" },
     "description": "An anteater twisted into humanoid form.  Its elongated trunk wriggles with fury.  Its antlers are hairy.  Its eyebrows bushel into a furrow.  Beware its deadly saliva!  Now you know why you fear the night.",
     "default_faction": "nether",
     "species": [ "ABERRATION" ],
@@ -251,7 +251,7 @@
   {
     "id": "mon_horror_dusk_queen",
     "type": "MONSTER",
-    "name": { "str_sp": "dusk horror" },
+    "name": { "str": "dusk horror" },
     "copy-from": "mon_horror_dusk",
     "hp": 440,
     "speed": 100,

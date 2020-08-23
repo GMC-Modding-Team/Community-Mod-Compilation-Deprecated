@@ -3,7 +3,7 @@
     "id": "morlock_map",
     "copy-from": "abstractmap",
     "type": "GENERIC",
-    "name": { "str_sp": "underground map" },
+    "name": { "str": "underground map" },
     "description": "This is a crude map of the local sewers and subways.  It has a few additional sites as well.",
     "color": "light_green",
     "use_action": {
@@ -27,7 +27,7 @@
   {
     "id": "morlock_cookbook",
     "type": "BOOK",
-    "name": { "str_sp": "morlock cookbook" },
+    "name": { "str": "morlock cookbook" },
     "description": "A hand written notebook full of nightmarish Morlock recipes, such as rat soup, cockroach stirfry, worm-in-a-blanket, and others.  But there are a few useful recipes mixed in with the bad.",
     "weight": "1887 g",
     "volume": "1250 ml",
@@ -66,7 +66,7 @@
   {
     "type": "COMESTIBLE",
     "id": "mushroom_glowing",
-    "name": { "str_sp": "glowing mushroom" },
+    "name": { "str": "glowing mushroom" },
     "weight": "69 g",
     "color": "yellow",
     "spoils_in": "7 days",
@@ -103,7 +103,7 @@
   {
     "type": "COMESTIBLE",
     "id": "dry_mushroom_glowing",
-    "name": { "str_sp": "dried glowing mushroom" },
+    "name": { "str": "dried glowing mushroom" },
     "copy-from": "dry_mushroom",
     "description": "A mutant mushroom.  It no longers glows with phosphorescent light, but still looks unsafe to eat."
   },

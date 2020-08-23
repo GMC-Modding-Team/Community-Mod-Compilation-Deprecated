@@ -4,7 +4,7 @@
     "//": "Why the hell is the survivor and bog-standard trenchcoat the same encumbrance as a duster but not the leather/fur ones?",
     "type": "ARMOR",
     "copy-from": "duster",
-    "name": { "str_sp": "duster" },
+    "name": { "str": "duster" },
     "description": "A rugged full-length duster coat.  Has many pockets for storage.",
     "encumbrance": 12,
     "pocket_data": [
@@ -19,7 +19,7 @@
     "type": "ARMOR",
     "copy-from": "duster_survivor",
     "category": "armor",
-    "name": { "str_sp": "survivor duster" },
+    "name": { "str": "survivor duster" },
     "description": "A Kevlar armored custom full-length duster, covered with pouches and pockets.  Comfortable, durable, and great for storage.",
     "encumbrance": 14
   },
@@ -27,7 +27,7 @@
     "id": "sleeveless_duster",
     "type": "ARMOR",
     "copy-from": "sleeveless_duster",
-    "name": { "str_sp": "sleeveless duster" },
+    "name": { "str": "sleeveless duster" },
     "description": "A rugged full-length duster that leaves your arms unencumbered.  Has plenty of storage space due to its many pockets.",
     "encumbrance": 12
   },
@@ -36,7 +36,7 @@
     "type": "ARMOR",
     "copy-from": "sleeveless_duster_survivor",
     "category": "armor",
-    "name": { "str_sp": "sleeveless survivor duster" },
+    "name": { "str": "sleeveless survivor duster" },
     "description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets.  Comfortable, durable, and great for storage.",
     "encumbrance": 14
   },
@@ -44,7 +44,7 @@
     "id": "jacket_leather_mod",
     "type": "ARMOR",
     "copy-from": "jacket_leather_mod",
-    "name": { "str_sp": "armored leather jacket" },
+    "name": { "str": "armored leather jacket" },
     "description": "An armored jacket made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.",
     "coverage": 92,
     "encumbrance": 18
@@ -53,7 +53,7 @@
     "id": "vest_leather_mod",
     "type": "ARMOR",
     "copy-from": "vest_leather_mod",
-    "name": { "str_sp": "armored leather vest" },
+    "name": { "str": "armored leather vest" },
     "description": "An armored vest made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.",
     "coverage": 92,
     "encumbrance": 18
@@ -62,7 +62,7 @@
     "id": "dive_bag",
     "type": "ARMOR",
     "copy-from": "dive_bag",
-    "name": { "str_sp": "dive bag" },
+    "name": { "str": "dive bag" },
     "description": "A lightweight mesh backpack, commonly used by swimmers and divers.",
     "weight": "512 g",
     "volume": "2500 ml",
@@ -85,7 +85,7 @@
   {
     "id": "fireman_belt",
     "type": "ARMOR",
-    "name": { "str_sp": "firefighter belt" },
+    "name": { "str": "firefighter belt" },
     "description": "A stout firefighter's belt.  Useful for keeping your bunker gear up, it also doubles as an equipment belt with a reinforced loop for holding a large tool.",
     "weight": "210 g",
     "volume": "500 ml",
@@ -153,7 +153,7 @@
   {
     "id": "leather_cat_tail",
     "type": "ARMOR",
-    "name": { "str_sp": "leather cat tail" },
+    "name": { "str": "leather cat tail" },
     "description": "A glossy black leather tail weighted down with tiny beads of plastic.  Sways behind you when you walk.",
     "weight": "80 g",
     "volume": "250 ml",
@@ -172,7 +172,7 @@
   {
     "id": "fur_cat_tail",
     "type": "ARMOR",
-    "name": { "str_sp": "fuzzy cat tail" },
+    "name": { "str": "fuzzy cat tail" },
     "description": "A fuzzy tawny tail weighted down with tiny beads of plastic.  Sways behind you when you walk.",
     "weight": "80 g",
     "volume": "250 ml",
@@ -191,7 +191,7 @@
   {
     "id": "gold_dental_grill",
     "type": "ARMOR",
-    "name": { "str_sp": "gold dental grill" },
+    "name": { "str": "gold dental grill" },
     "description": "Fake golden teeth, worn over the teeth.  Fits horribly, but looks very shiny.",
     "weight": "10 g",
     "volume": "10 ml",
@@ -211,7 +211,7 @@
   {
     "id": "diamond_dental_grill",
     "type": "ARMOR",
-    "name": { "str_sp": "diamond dental grill" },
+    "name": { "str": "diamond dental grill" },
     "description": "Fake teeth inlaid with diamonds, worn over the teeth.  Fits horribly, but looks very shiny.  For that high class gangsta rap look.",
     "weight": "10 g",
     "volume": "10 ml",
@@ -277,7 +277,7 @@
     "id": "rad_monitor",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str_sp": "radiation biomonitor" },
+    "name": { "str": "radiation biomonitor" },
     "description": "A battery-powered biometric safety device worn on the wrist.  Activate to check your current level of radiation exposure.",
     "weight": "68 g",
     "volume": "250 ml",
@@ -523,7 +523,7 @@
   {
     "id": "glasses_monocle",
     "type": "ARMOR",
-    "name": { "str_sp": "monocle" },
+    "name": { "str": "monocle" },
     "//": "DDA monocle is optical-grade.  Costume ones go for about $10.",
     "description": "An essential article of the gentleman's apparel.  Also corrects near-sightedness.  You can use this to focus the sunlight.",
     "weight": "16 g",
@@ -688,7 +688,7 @@
     "id": "mask_filter",
     "type": "ARMOR",
     "//": "Keeps the filter mask at 20 warmth.  In summer it presents a choice between more prot/warmth here or less warmth for less prot with a dust mask.",
-    "name": { "str_sp": "filter mask" },
+    "name": { "str": "filter mask" },
     "description": "A mask that straps over your mouth and nose and filters air.  Protects from smoke, dust, and other contaminants quite well.",
     "weight": "260 g",
     "volume": "500 ml",
@@ -707,7 +707,7 @@
   {
     "id": "mask_dust",
     "type": "ARMOR",
-    "name": { "str_sp": "dust mask" },
+    "name": { "str": "dust mask" },
     "description": "A simple piece of cotton that straps over the mouth.  Provides a small amount of protection from air-borne illness and dust.",
     "weight": "200 g",
     "volume": "10 ml",
