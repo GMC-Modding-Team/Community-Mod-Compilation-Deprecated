@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "cake2",
-    "name": { "str": "plain cake" },
+    "name": { "str_sp": "plain cake" },
     "copy-from": "jihelucake",
     "description": "A modest chocolate cake with no icing added.  Nothing special, but some of the best you can get nowadays.  Besides, cake is cake!",
     "fun": 15
@@ -10,7 +10,7 @@
   {
     "id": "afs_calorie_pill",
     "type": "COMESTIBLE",
-    "name": { "str": "nutriment" },
+    "name": { "str_sp": "nutriment" },
     "weight": "10 g",
     "volume": "10 ml",
     "color": "white",
@@ -30,7 +30,7 @@
   {
     "id": "afs_calorie_water",
     "type": "COMESTIBLE",
-    "name": { "str": "nutriment water" },
+    "name": { "str_sp": "nutriment water" },
     "copy-from": "water_clean",
     "comestible_type": "DRINK",
     "color": "white",
@@ -45,7 +45,7 @@
   {
     "id": "afs_dough",
     "type": "COMESTIBLE",
-    "name": { "str": "dough" },
+    "name": { "str_sp": "dough" },
     "weight": "226 g",
     "color": "yellow",
     "comestible_type": "FOOD",
@@ -82,7 +82,7 @@
   {
     "id": "afs_sundew",
     "type": "COMESTIBLE",
-    "name": { "str": "sundew" },
+    "name": { "str_sp": "sundew" },
     "copy-from": "water_clean",
     "weight": "10 g",
     "color": "yellow",
@@ -98,7 +98,7 @@
   {
     "id": "afs_sungel",
     "type": "COMESTIBLE",
-    "name": { "str": "sungel" },
+    "name": { "str_sp": "sungel" },
     "copy-from": "afs_sundew",
     "description": "Mixed with morphine, this sundew has congealed, and has an immense stimulative and pain-numbing effect.  With sufficient tools, it could be used to create anesthesia.",
     "stim": 50,
@@ -118,7 +118,7 @@
   {
     "id": "afs_sunesthesia",
     "type": "COMESTIBLE",
-    "name": { "str": "sunesthesia" },
+    "name": { "str_sp": "sunesthesia" },
     "copy-from": "afs_sungel",
     "description": "This sungel has been mixed with several drugs and yet inherits none of their effects.  Its painkilling effect hasn't changed, but its stimulative properties have been reversed, and it could be used as anesthesia for installation of bionics.",
     "stim": -30,

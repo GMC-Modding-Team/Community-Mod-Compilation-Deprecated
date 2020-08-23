@@ -3,7 +3,7 @@
     "id": "storage_battery_removable",
     "copy-from": "storage_battery",
     "type": "vehicle_part",
-    "name": { "str": "swappable storage battery" },
+    "name": { "str_sp": "swappable storage battery" },
     "item": "storage_battery",
     "difficulty": 0,
     "requirements": { "install": { "time": 1000 } },
@@ -13,7 +13,7 @@
   {
     "id": "aisle_lights",
     "type": "vehicle_part",
-    "name": { "str": "aisle lights" },
+    "name": { "str_sp": "aisle lights" },
     "item": "flashlight",
     "location": "on_ceiling",
     "symbol": "*",
@@ -29,7 +29,7 @@
   {
     "type": "vehicle_part",
     "id": "saddle",
-    "name": { "str": "saddle" },
+    "name": { "str_sp": "saddle" },
     "symbol": "#",
     "color": "red",
     "broken_symbol": "*",
@@ -46,7 +46,7 @@
   {
     "type": "vehicle_part",
     "id": "frame_handle",
-    "name": { "str": "handle" },
+    "name": { "str_sp": "handle" },
     "symbol": "^",
     "color": "light_cyan",
     "broken_symbol": "#",
@@ -66,7 +66,7 @@
   {
     "type": "vehicle_part",
     "id": "roof_cloth",
-    "name": { "str": "cloth roof" },
+    "name": { "str_sp": "cloth roof" },
     "symbol": "#",
     "color": "light_gray",
     "broken_symbol": "#",
@@ -82,7 +82,7 @@
   {
     "type": "vehicle_part",
     "id": "horn_bicycle",
-    "name": { "str": "bicycle horn" },
+    "name": { "str_sp": "bicycle horn" },
     "symbol": "*",
     "color": "light_gray",
     "broken_symbol": "*",
@@ -123,7 +123,7 @@
   {
     "type": "vehicle_part",
     "id": "wing_mirror",
-    "name": { "str": "wing mirror" },
+    "name": { "str_sp": "wing mirror" },
     "symbol": "o",
     "color": "light_cyan",
     "broken_symbol": "*",
@@ -140,7 +140,7 @@
   {
     "id": "shockcannon_mounted",
     "type": "vehicle_part",
-    "name": { "str": "mounted shockcannon" },
+    "name": { "str_sp": "mounted shockcannon" },
     "item": "shockcannon_ups",
     "location": "on_roof",
     "symbol": "t",
@@ -161,7 +161,7 @@
     "type": "vehicle_part",
     "id": "bfg_mounted",
     "copy-from": "turret",
-    "name": { "str": "mounted bfg" },
+    "name": { "str_sp": "mounted bfg" },
     "item": "BFG",
     "looks_like": "mounted_plasma_gun",
     "broken_symbol": "#",
@@ -178,7 +178,7 @@
   {
     "type": "vehicle_part",
     "id": "fridge_cargo",
-    "name": { "str": "ice box" },
+    "name": { "str_sp": "ice box" },
     "symbol": "Q",
     "looks_like": "minifridge",
     "color": "light_blue",

@@ -19,7 +19,7 @@
     "id": "meat_smoked",
     "copy-from": "meat_smoked",
     "type": "COMESTIBLE",
-    "name": { "str": "smoked meat" },
+    "name": { "str_sp": "smoked meat" },
     "description": "Tasty meat that has been heavily smoked for long term preservation.",
     "spoils_in": "0 hours"
   },
@@ -35,7 +35,7 @@
     "id": "meat_smoked",
     "copy-from": "meat_smoked",
     "type": "COMESTIBLE",
-    "name": { "str": "smoked sucker" },
+    "name": { "str_sp": "smoked sucker" },
     "description": "A heavily smoked portion of human flesh.  Lasts for a very long time and tastes pretty good, if you like that sort of thing.",
     "spoils_in": "0 hours"
   },
@@ -43,7 +43,7 @@
     "type": "COMESTIBLE",
     "id": "plant_sac",
     "copy-from": "plant_sac",
-    "name": { "str": "fluid sac" },
+    "name": { "str_sp": "fluid sac" },
     "description": "A fluid bladder from a plant based lifeform.  Not very nutritious, but fine to eat anyway.",
     "spoils_in": "0 hours"
   },
@@ -51,14 +51,14 @@
     "type": "COMESTIBLE",
     "id": "tallow",
     "copy-from": "tallow",
-    "name": { "str": "tallow" },
+    "name": { "str_sp": "tallow" },
     "description": "A smooth white block of cleaned and rendered animal fat.  It will remain edible for a very long time, and can be used as an ingredient in many foods and projects.",
     "spoils_in": "0 hours"
   },
   {
     "type": "COMESTIBLE",
     "id": "lard",
-    "name": { "str": "lard" },
+    "name": { "str_sp": "lard" },
     "copy-from": "tallow",
     "description": "A smooth white block of dry-rendered animal fat.  It will remain edible for a very long time, and can be used as an ingredient in many foods and projects.",
     "spoils_in": "0 hours"
@@ -76,7 +76,7 @@
     "type": "COMESTIBLE",
     "id": "lutefisk",
     "copy-from": "lutefisk",
-    "name": { "str": "lutefisk" },
+    "name": { "str_sp": "lutefisk" },
     "description": "Lutefisk is preserved fish that has been dried in a lye solution.  Vile and soap-like yet highly nutritious, it is reminiscent of the afterbirth of a dog or the world's largest chunk of phlegm.",
     "spoils_in": "0 hours"
   },
@@ -84,7 +84,7 @@
     "type": "COMESTIBLE",
     "id": "sausage",
     "copy-from": "sausage",
-    "name": { "str": "sausage" },
+    "name": { "str_sp": "sausage" },
     "description": "A hefty sausage that has been cured for long term storage.",
     "spoils_in": "0 hours"
   },
@@ -92,7 +92,7 @@
     "type": "COMESTIBLE",
     "id": "sausage",
     "copy-from": "sausage",
-    "name": { "str": "sausage" },
+    "name": { "str_sp": "sausage" },
     "description": "A hefty long pork sausage that has been cured for long term storage.  Very tasty, if you're in the market for human flesh.",
     "spoils_in": "0 hours"
   },
@@ -100,7 +100,7 @@
     "type": "COMESTIBLE",
     "id": "fruit_leather",
     "copy-from": "fruit_leather",
-    "name": { "str": "fruit leather" },
+    "name": { "str_sp": "fruit leather" },
     "description": "Dried strips of sugary fruit paste.",
     "spoils_in": "0 hours"
   },
@@ -124,7 +124,7 @@
     "type": "COMESTIBLE",
     "id": "cereal",
     "copy-from": "cereal",
-    "name": { "str": "sugary cereal" },
+    "name": { "str_sp": "sugary cereal" },
     "description": "A box of sugary breakfast cereal with marshmallows.  It takes you back to your childhood.",
     "spoils_in": "0 hours"
   },
@@ -132,7 +132,7 @@
     "type": "COMESTIBLE",
     "id": "cereal2",
     "copy-from": "cereal2",
-    "name": { "str": "wheat cereal" },
+    "name": { "str_sp": "wheat cereal" },
     "description": "A box of whole-grain wheat cereal.  It's surprisingly good, and allegedly good for your heart.",
     "spoils_in": "0 hours"
   },
@@ -140,7 +140,7 @@
     "type": "COMESTIBLE",
     "id": "cereal3",
     "copy-from": "cereal3",
-    "name": { "str": "corn cereal" },
+    "name": { "str_sp": "corn cereal" },
     "description": "A box of cornflakes.  They're not that good, but it beats nothing.",
     "spoils_in": "0 hours"
   },
@@ -213,7 +213,7 @@
     "id": "chocolate",
     "copy-from": "chocolate",
     "//": "Catnip shall not be denied.",
-    "name": { "str": "chocolate bar" },
+    "name": { "str_sp": "chocolate bar" },
     "description": "Chocolate isn't very healthy, but it does make a delicious treat.",
     "spoils_in": "0 hours"
   },
@@ -229,7 +229,7 @@
     "type": "COMESTIBLE",
     "id": "pemmican",
     "copy-from": "pemmican",
-    "name": { "str": "pemmican" },
+    "name": { "str_sp": "pemmican" },
     "description": "A concentrated mixture of fat and protein used as a nutritious high-energy food.  Composed of meat, tallow, and edible plants, it provides excellent nutrition in an easy to carry form.",
     "spoils_in": "0 hours"
   },
@@ -237,7 +237,7 @@
     "type": "COMESTIBLE",
     "id": "granola",
     "copy-from": "granola",
-    "name": { "str": "granola" },
+    "name": { "str_sp": "granola" },
     "description": "A tasty and nutritious mixture of oats, honey, and other ingredients that has been baked until crisp.",
     "spoils_in": "0 hours"
   },
@@ -245,7 +245,7 @@
     "type": "COMESTIBLE",
     "id": "porkstick",
     "copy-from": "porkstick",
-    "name": { "str": "pork stick" },
+    "name": { "str_sp": "pork stick" },
     "nutrition": 16,
     "description": "Salty dried pork.  Tastes good, but it will make you thirsty.",
     "spoils_in": "0 hours"
@@ -295,7 +295,7 @@
     "type": "COMESTIBLE",
     "id": "dry_mushroom",
     "copy-from": "dry_mushroom",
-    "name": { "str": "dried mushroom" },
+    "name": { "str_sp": "dried mushroom" },
     "description": "Dried mushrooms are a tasty and healthy addition to many meals.",
     "spoils_in": "0 hours"
   },
@@ -311,7 +311,7 @@
     "type": "COMESTIBLE",
     "id": "lasagne_raw",
     "copy-from": "lasagne_raw",
-    "name": { "str": "raw lasagne" },
+    "name": { "str_sp": "raw lasagne" },
     "description": "It could be eaten raw if you're desperate, but is much better cooked.",
     "spoils_in": "0 hours"
   },
@@ -335,7 +335,7 @@
     "type": "COMESTIBLE",
     "id": "cornmeal",
     "copy-from": "cornmeal",
-    "name": { "str": "cornmeal" },
+    "name": { "str_sp": "cornmeal" },
     "description": "This yellow cornmeal is useful for baking.",
     "spoils_in": "0 hours"
   },
@@ -343,7 +343,7 @@
     "type": "COMESTIBLE",
     "id": "oatmeal",
     "copy-from": "oatmeal",
-    "name": { "str": "oatmeal" },
+    "name": { "str_sp": "oatmeal" },
     "description": "Dry flakes of flattened grain.  Tasty and nutritious when cooked, it also doubles as food for horses while dry.",
     "spoils_in": "0 hours"
   },
@@ -383,7 +383,7 @@
     "type": "COMESTIBLE",
     "id": "crackers",
     "copy-from": "crackers",
-    "name": { "str": "cracker" },
+    "name": { "str_sp": "cracker" },
     "description": "Dry and salty, these crackers will leave you quite thirsty.",
     "spoils_in": "0 hours"
   },
@@ -391,7 +391,7 @@
     "type": "COMESTIBLE",
     "id": "grahmcrackers",
     "copy-from": "grahmcrackers",
-    "name": { "str": "graham cracker" },
+    "name": { "str_sp": "graham cracker" },
     "description": "Dry and sugary, these crackers will leave you thirsty, but go good with some chocolate and marshmallows.",
     "spoils_in": "0 hours"
   },
@@ -399,7 +399,7 @@
     "type": "COMESTIBLE",
     "id": "cookies",
     "copy-from": "cookies",
-    "name": { "str": "cookie" },
+    "name": { "str_sp": "cookie" },
     "description": "Sweet and delicious cookies, just like grandma used to bake.",
     "spoils_in": "0 hours"
   },
@@ -407,7 +407,7 @@
     "type": "COMESTIBLE",
     "id": "hardtack",
     "copy-from": "hardtack",
-    "name": { "str": "hardtack" },
+    "name": { "str_sp": "hardtack" },
     "description": "A dry and virtually tasteless bread product capable of remaining edible without spoilage for vast lengths of time.",
     "spoils_in": "0 hours"
   },
@@ -447,7 +447,7 @@
     "type": "COMESTIBLE",
     "id": "maltballs",
     "copy-from": "maltballs",
-    "name": { "str": "malted milk ball" },
+    "name": { "str_sp": "malted milk ball" },
     "description": "Crunchy sugar in chocolate capsules.  Legal and stimmy.",
     "spoils_in": "0 hours"
   },
@@ -463,7 +463,7 @@
     "type": "COMESTIBLE",
     "id": "dry_meat",
     "copy-from": "dry_meat",
-    "name": { "str": "dehydrated meat" },
+    "name": { "str_sp": "dehydrated meat" },
     "description": "Dehydrated meat flakes.  With proper storage, this dried food will remain edible for an incredibly long time.",
     "spoils_in": "0 hours"
   },
@@ -479,7 +479,7 @@
     "type": "COMESTIBLE",
     "id": "dry_veggy",
     "copy-from": "dry_veggy",
-    "name": { "str": "dehydrated vegetable" },
+    "name": { "str_sp": "dehydrated vegetable" },
     "description": "Dehydrated vegetable flakes.  With proper storage, this dried food will remain edible for an incredibly long time.",
     "spoils_in": "0 hours"
   },
@@ -503,7 +503,7 @@
     "type": "COMESTIBLE",
     "id": "candycigarette",
     "copy-from": "candycigarette",
-    "name": { "str": "candy cigarette" },
+    "name": { "str_sp": "candy cigarette" },
     "description": "Candy sticks.  Slightly more healthy than tobacco cigarettes, but with no possibility of addiction.",
     "spoils_in": "0 hours"
   },
@@ -511,7 +511,7 @@
     "type": "COMESTIBLE",
     "id": "dried_salad",
     "copy-from": "dried_salad",
-    "name": { "str": "dried salad" },
+    "name": { "str_sp": "dried salad" },
     "description": "Dried salad packed in a box with mayonnaise and ketchup.  Add water to enjoy.",
     "spoils_in": "0 hours"
   },
@@ -520,7 +520,7 @@
     "id": "dry_meat_tainted",
     "copy-from": "dry_meat_tainted",
     "//": "Why is this change even needed.  Who is going around making zombie jerky?",
-    "name": { "str": "dehydrated tainted meat" },
+    "name": { "str_sp": "dehydrated tainted meat" },
     "description": "Pieces of poisonous meat that have been dried to prevent them from rotting away.  It will still poison you if you eat this.",
     "spoils_in": "0 hours"
   },
@@ -536,7 +536,7 @@
     "id": "sausage_wasteland",
     "copy-from": "sausage_wasteland",
     "type": "COMESTIBLE",
-    "name": { "str": "wasteland sausage" },
+    "name": { "str_sp": "wasteland sausage" },
     "description": "Lean sausage made from heavily salt-cured offal, with natural gut casing.  Waste not, want not.",
     "spoils_in": "0 hours"
   },
@@ -544,7 +544,7 @@
     "id": "garlic",
     "copy-from": "garlic",
     "type": "COMESTIBLE",
-    "name": { "str": "garlic bulb" },
+    "name": { "str_sp": "garlic bulb" },
     "description": "A pungent garlic bulb.  Popular as a seasoning for its strong flavor.  Can be disassembled to cloves.",
     "spoils_in": "0 hours"
   },

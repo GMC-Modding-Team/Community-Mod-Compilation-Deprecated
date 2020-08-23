@@ -86,7 +86,7 @@
     "id": "mon_molebot",
     "type": "MONSTER",
     "copy-from": "mon_molebot",
-    "name": { "str": "miner bot" },
+    "name": { "str_sp": "miner bot" },
     "description": "A long snake-like, segmented robot built to  create tunnels and detonate landmines.",
     "size": "MEDIUM",
     "hp": 80,
@@ -111,7 +111,7 @@
     "id": "mon_broken_cyborg",
     "type": "MONSTER",
     "copy-from": "mon_broken_cyborg",
-    "name": { "str": "broken cyborg" },
+    "name": { "str_sp": "broken cyborg" },
     "special_attacks": [
       [ "PARROT", 20 ],
       [ "wound_minor", 10 ],
@@ -126,7 +126,7 @@
   {
     "id": "mon_cyborg_guard",
     "type": "MONSTER",
-    "name": { "str": "guard cyborg" },
+    "name": { "str_sp": "guard cyborg" },
     "description": "An outdated and decrepit looking sentinel cyborg with a rather disturbing gun barrel where its left arm should be.  What little flesh it has is pallid.  Its steps are awkward and stiff with neglect.",
     "default_faction": "bot",
     "species": [ "ROBOT" ],
@@ -199,7 +199,7 @@
   {
     "id": "mon_cyborg_cop",
     "type": "MONSTER",
-    "name": { "str": "robotic cop" },
+    "name": { "str_sp": "robotic cop" },
     "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, these old models always proven their worth under heavy fire.  Its weaponry is famous for being DNA locked.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
@@ -269,7 +269,7 @@
   {
     "id": "mon_manhack_missile",
     "type": "MONSTER",
-    "name": { "str": "revenant rocket" },
+    "name": { "str_sp": "revenant rocket" },
     "description": "A revenant's homing missile, working its way towards you.  If only you could disable it . . .",
     "default_faction": "doom",
     "species": [ "ROBOT" ],
@@ -301,7 +301,7 @@
   {
     "id": "mon_manhack_fire",
     "type": "MONSTER",
-    "name": { "str": "firebomb hack" },
+    "name": { "str_sp": "firebomb hack" },
     "copy-from": "mon_manhack",
     "description": "This manhack carries an incendiary explosive within its core.",
     "default_faction": "defense_bot",
@@ -332,7 +332,7 @@
   {
     "id": "mon_turret_shockcannon",
     "type": "MONSTER",
-    "name": { "str": "shock turret" },
+    "name": { "str_sp": "shock turret" },
     "description": "Taking the dense storage capacity of UPS to its logical conclusion, the PRD3 Mounted Shockcannon is a 'computer aided defense tool designed for repeling crowds in a nonlethal manner'.",
     "default_faction": "defense_bot",
     "species": [ "ROBOT" ],
@@ -408,7 +408,7 @@
   {
     "id": "mon_generator_SCINET",
     "type": "MONSTER",
-    "name": { "str": "generator" },
+    "name": { "str_sp": "generator" },
     "description": "The generator that powers the Security, Crime, and Investigation Networking Eternal Team program.  Destroying it should stop the creation and resupply of new robots.",
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
