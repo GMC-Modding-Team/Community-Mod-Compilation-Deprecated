@@ -275,11 +275,12 @@
     "copy-from": "magazine_belt",
     "type": "MAGAZINE",
     "name": { "str": "70mm ammo belt" },
-    "ammo_type": "70mm",
+    "ammo_type": [ "70mm" ],
     "default_ammo": "70mm_hedp",
     "capacity": 300,
     "count": 50,
-    "linkage": "ammolink70mm"
+    "linkage": "ammolink70mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "70mm": 300 } } ]
   },
   {
     "id": "ammolink70mm",
@@ -287,7 +288,7 @@
     "type": "GENERIC",
     "name": { "str": "70mm autocannon belt linkage" },
     "weight": "6 g",
-    "volume": "10ml",
+    "volume": "10 ml",
     "stackable": true,
     "use_action": { "type": "ammobelt", "belt": "belt70mm" }
   },

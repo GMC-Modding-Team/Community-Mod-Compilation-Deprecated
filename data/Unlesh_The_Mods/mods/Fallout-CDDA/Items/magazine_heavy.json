@@ -10,8 +10,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "25mm",
+    "ammo_type": [ "25mm" ],
     "capacity": 100,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "25mm": 100 } } ],
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -21,13 +22,14 @@
     "name": { "str": "25mm expanded drum magazine" },
     "description": "A 300 round 25mm drum magazine, for use in the grenade MG. This thing can annihalate a small town before loading",
     "weight": "1000 g",
-    "volume": 60,
+    "volume": "15 L",
     "price": 8000,
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "25mm",
+    "ammo_type": [ "25mm" ],
     "capacity": 100,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "25mm": 100 } } ],
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
   },
@@ -42,9 +44,10 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "47mm",
+    "ammo_type": [ "47mm" ],
     "capacity": 500,
     "reliability": 8,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "47mm": 500 } } ],
     "flags": [ "MAG_COMPACT" ]
   },
   {
@@ -59,9 +62,10 @@
     "symbol": "#",
     "color": "light_gray",
     "looks_like": "8x40_50_mag",
-    "ammo_type": "50",
+    "ammo_type": [ "50" ],
     "capacity": 8,
     "reliability": 9,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 8 } } ],
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
   }

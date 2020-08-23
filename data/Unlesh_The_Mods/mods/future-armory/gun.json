@@ -44,7 +44,16 @@
     "loudness": 20,
     "built_in_mods": [ "muzzle_brake", "rifle_scope" ],
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "550arlov", [ "v85mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "v85mag" ]
+      }
+    ]
   },
   {
     "id": "eliminator",
@@ -122,7 +131,16 @@
     "built_in_mods": [ "pistol_scope" ],
     "flags": [ "NEVER_JAMS" ],
     "valid_mod_locations": [ [ "muzzle", 1 ], [ "stock", 1 ] ],
-    "magazines": [ [ "9mm", [ "xs3mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "xs3mag" ]
+      }
+    ]
   },
   {
     "id": "anzio20mm",
@@ -147,7 +165,16 @@
     "loudness": 25,
     "built_in_mods": [ "rifle_scope", "muzzle_brake" ],
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "20mm", [ "anziomag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "anziomag" ]
+      }
+    ]
   },
   {
     "id": "pancor_jack",
@@ -171,7 +198,16 @@
     "burst": 5,
     "loudness": 20,
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "shot", [ "pancormag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "pancormag" ]
+      }
+    ]
   },
   {
     "id": "armgun",
@@ -195,7 +231,16 @@
     "burst": 10,
     "loudness": 10,
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "9mm", [ "armgunmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "armgunmag" ]
+      }
+    ],
     "armor_data": { "covers": [ "arm_l", "arm_r" ], "warmth": 10, "encumbrance": 10, "coverage": 20 }
   },
   {
@@ -219,7 +264,16 @@
     "durability": 9,
     "built_in_mods": [ "rifle_scope", "suppressor" ],
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "9x39", [ "vssmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "vssmag" ]
+      }
+    ]
   },
   {
     "id": "port_cannon",
@@ -243,6 +297,7 @@
     "durability": 8,
     "loudness": 20,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cannonball": 1 } } ],
     "reload": 100,
     "flags": [ "NEVER_JAMS" ]
   },
@@ -268,13 +323,14 @@
     "durability": 8,
     "loudness": 20,
     "clip_size": 4,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 4 } } ],
     "reload": 100,
     "flags": [ "RELOAD_ONE", "NEVER_JAMS" ]
   },
   {
     "id": "mts255",
     "type": "GUN",
-    "name": { "str": "MTs255" },
+    "name": { "str": "Winchester Liberator" },
     "description": "Russian-made shotgun with 5-shell internal revolving cylinder, combining revolver mechanism with shotgun apparently is a good combo for russians. it also has picattiny rail for sight device.",
     "weight": "3700 g",
     "volume": "1870 ml",
@@ -293,6 +349,7 @@
     "durability": 8,
     "loudness": 15,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 5 } } ],
     "reload": 100,
     "flags": [ "RELOAD_ONE", "NEVER_JAMS" ]
   }
