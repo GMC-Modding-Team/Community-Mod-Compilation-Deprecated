@@ -18,7 +18,16 @@
     "durability": 9,
     "clip_size": 8,
     "reload": 80,
-    "magazines": [ [ "454", [ "454_speedloader8" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "454_speedloader8" ]
+      }
+    ],
     "built_in_mods": [ "m320_mod" ]
   },
   {
@@ -42,7 +51,16 @@
     "durability": 9,
     "clip_size": 6,
     "reload": 80,
-    "magazines": [ [ "454", [ "454_speedloader6" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "454_speedloader6" ]
+      }
+    ],
     "built_in_mods": [ "boom_flamer" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -78,6 +96,7 @@
     "dispersion": 180,
     "durability": 10,
     "clip_size": 2,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "500": 2 } } ],
     "reload": 80,
     "valid_mod_locations": [ [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ] ],
     "techniques": [ "WBLOCK_2" ]
@@ -104,6 +123,7 @@
     "dispersion": 180,
     "durability": 10,
     "clip_size": 2,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "500": 2 } } ],
     "reload": 80,
     "loudness": 50,
     "valid_mod_locations": [ [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ] ],
@@ -131,6 +151,7 @@
     "dispersion": 700,
     "durability": 4,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 1 } } ],
     "reload": 200,
     "loudness": 200,
     "valid_mod_locations": [
@@ -164,12 +185,15 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ], [ "AUTO", "auto", 8 ] ],
     "built_in_mods": [ "m320_mod" ],
-    "magazines": [
-      [ "9mm", [ "mp5mag", "mp5bigmag" ] ],
-      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-      [ "45", [ "ump45mag" ] ],
-      [ "46", [ "hk46mag", "hk46bigmag" ] ],
-      [ "57", [ "fn57mag" ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "mp5mag", "mp5bigmag", "ruger1022bigmag", "ruger1022mag", "ump45mag", "hk46mag", "hk46bigmag", "fn57mag" ]
+      }
     ]
   },
   {
@@ -206,7 +230,16 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "44", [ "e1776mag", "deaglemag" ] ], [ "9mm", [ "mp5mag", "mp5bigmag" ] ], [ "45", [ "ump45mag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "e1776mag", "deaglemag", "mp5mag", "mp5bigmag", "ump45mag" ]
+      }
+    ]
   },
   {
     "id": "light_carb",
@@ -225,11 +258,11 @@
     "weight": "2100 g",
     "volume": "1500 ml",
     "bashing": 7,
-    "ranged_damage": { "damage_type": "stab", "amount": 10 },
+    "ranged_damage": { "damage_type": "stab", "amount": 10, "armor_penetration": 4 },
     "range": 25,
     "dispersion": 100,
     "durability": 6,
-    "reload": 0,
+    "reload": 100,
     "loudness": 75,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -258,11 +291,11 @@
     "weight": "2700 g",
     "volume": "2 L",
     "bashing": 7,
-    "ranged_damage": { "damage_type": "stab", "amount": 16 },
+    "ranged_damage": { "damage_type": "stab", "amount": 16, "armor_penetration": 8 },
     "range": 15,
     "dispersion": 250,
     "durability": 7,
-    "reload": 0,
+    "reload": 140,
     "loudness": 100,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
@@ -295,6 +328,15 @@
       [ "underbarrel", 1 ]
     ],
     "built_in_mods": [ "gun_crossbow" ],
-    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag" ] ], [ "9mm", [ "m9mag", "m9bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m1911mag", "m1911bigmag", "m9mag", "m9bigmag" ]
+      }
+    ]
   }
 ]

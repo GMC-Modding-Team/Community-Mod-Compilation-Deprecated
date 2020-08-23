@@ -22,7 +22,16 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
     "reload": 400,
     "modes": [ [ "DEFAULT", "low auto", 50 ], [ "AUTO", "high auto", 100 ] ],
-    "magazines": [ [ "47mm", [ "47mmminigunmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "47mmminigunmag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
   {
@@ -48,7 +57,16 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
     "reload": 400,
     "modes": [ [ "DEFAULT", "low auto", 25 ], [ "AUTO", "high auto", 50 ] ],
-    "magazines": [ [ "5mm", [ "5mmminigunmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "5mmminigunmag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
   {
@@ -74,7 +92,16 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
     "reload": 400,
     "modes": [ [ "DEFAULT", "low auto", 50 ], [ "AUTO", "high auto", 100 ] ],
-    "magazines": [ [ "5mm", [ "5mmminigunmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "5mmminigunmag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
   {
@@ -84,7 +111,7 @@
     "name": { "str": "L30 Gatling Laser" },
     "description": "An H&K L30 Gatling Laser. Designed specifically for military use, these were in the prototype stage at the beginning of the Cataclysm. Multiple barrels allow longer firing before overheating. Powered by Micro Fusion Cells, or a UPS.",
     "weight": "9500 g",
-    "volume": 18,
+    "volume": "4500 ml",
     "price": 750000,
     "to_hit": -1,
     "bashing": 8,
@@ -124,7 +151,16 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ],
     "reload": 400,
     "modes": [ [ "DEFAULT", "low auto", 3 ], [ "AUTO", "high auto", 10, "NPC_AVOID" ] ],
-    "magazines": [ [ "25mm", [ "25mmdrummag", "25mmdrummagxl" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "25mmdrummag", "25mmdrummagxl" ]
+      }
+    ],
     "flags": [ "MOUNTED_GUN" ]
   },
   {
@@ -146,7 +182,16 @@
     "durability": 9,
     "clip_size": 6,
     "reload": 150,
-    "magazines": [ [ "25mm", [ "25mmdrummag", "25mmdrummagxl" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "25mmdrummag", "25mmdrummagxl" ]
+      }
+    ]
   },
   {
     "id": "broadsider",
@@ -222,7 +267,16 @@
     "barrel_volume": "1500 ml",
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
     "magazine_well": 1,
-    "magazines": [ [ "50", [ "amr50mag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "amr50mag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   },
   {
@@ -249,7 +303,16 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "reload": 700,
     "loudness": 175,
-    "magazines": [ [ "70mm", [ "belt70mm" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt70mm" ]
+      }
+    ]
   },
   {
     "id": "tank_gun_dual",
@@ -274,7 +337,7 @@
     "clip_size": 8,
     "reload": 1500,
     "loudness": 300,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 8 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "140mm": 8 } } ],
     "flags": [ "NO_RELOAD", "MOUNTED_GUN" ]
   },
   {
@@ -301,6 +364,6 @@
     "clip_size": 1,
     "reload": 1400,
     "loudness": 300,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 1 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "105mm": 1 } } ]
   }
 ]

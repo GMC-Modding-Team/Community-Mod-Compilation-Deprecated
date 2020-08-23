@@ -22,7 +22,16 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "reload": 150,
     "magazine_well": 1,
-    "magazines": [ [ "bolt", [ "bolt_hopper" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "bolt_hopper" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
   {
@@ -48,7 +57,16 @@
     "reload": 750,
     "valid_mod_locations": [  ],
     "magazine_well": 1,
-    "magazines": [ [ "h_projectile", [ "cannister_rack" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cannister_rack" ]
+      }
+    ],
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   },
@@ -73,6 +91,7 @@
     "durability": 6,
     "loudness": 150,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "ripdisk": 5 } } ],
     "reload": 1250,
     "valid_mod_locations": [  ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
@@ -99,6 +118,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 12,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "flintlock": 12 } } ],
     "reload": 750,
     "valid_mod_locations": [  ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
@@ -119,7 +139,7 @@
     "color": "blue",
     "skill": "rifle",
     "range": 30,
-    "ranged_damage": { "damage_type": "stab", "amount": 150, "armor_penetration": 100 },
+    "ranged_damage": { "damage_type": "heat", "amount": 150, "armor_penetration": 100 },
     "sight_dispersion": 150,
     "durability": 8,
     "ups_charges": 249,
@@ -143,7 +163,7 @@
     "color": "blue",
     "skill": "rifle",
     "range": 25,
-    "ranged_damage": { "damage_type": "stab", "amount": 50, "armor_penetration": 20 },
+    "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 20 },
     "sight_dispersion": 150,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
@@ -168,7 +188,7 @@
     "color": "magenta",
     "skill": "rifle",
     "range": 30,
-    "ranged_damage": { "damage_type": "stab", "amount": 200, "armor_penetration": 100 },
+    "ranged_damage": { "damage_type": "heat", "amount": 200, "armor_penetration": 100 },
     "sight_dispersion": 150,
     "durability": 8,
     "ups_charges": 499,
@@ -200,7 +220,16 @@
     "reload": 150,
     "valid_mod_locations": [  ],
     "magazine_well": 1,
-    "magazines": [ [ "nail", [ "nailmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nailmag" ]
+      }
+    ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
@@ -227,7 +256,16 @@
     "reload": 150,
     "valid_mod_locations": [  ],
     "magazine_well": 1,
-    "magazines": [ [ "nail", [ "nailmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nailmag" ]
+      }
+    ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS" ]
   },
   {
@@ -251,6 +289,7 @@
     "sight_dispersion": 150,
     "durability": 6,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "metal_rail": 1 } } ],
     "ups_charges": 249,
     "reload": 200,
     "valid_mod_locations": [  ],
@@ -278,6 +317,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "clip_size": 15,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "ripdisk": 15 } } ],
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
@@ -305,6 +345,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 12,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "harpoon": 12 } } ],
     "reload": 2500,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
@@ -331,6 +372,7 @@
     "sight_dispersion": 150,
     "durability": 8,
     "clip_size": 12,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "hbolt": 12 } } ],
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
@@ -362,7 +404,16 @@
     "reload": 150,
     "valid_mod_locations": [  ],
     "magazine_well": 1,
-    "magazines": [ [ "BB", [ "bb_hopper" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "bb_hopper" ]
+      }
+    ],
     "flags": [ "BURST_ONLY", "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
@@ -387,6 +438,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 12,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "harpoon": 12 } } ],
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
@@ -408,7 +460,7 @@
     "color": "blue",
     "skill": "rifle",
     "range": 20,
-    "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 10 },
+    "ranged_damage": { "damage_type": "electric", "amount": 30, "armor_penetration": 10 },
     "durability": 8,
     "ups_charges": 249,
     "valid_mod_locations": [  ],
@@ -437,7 +489,16 @@
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "magazine_well": 1,
-    "magazines": [ [ "pebble", [ "pebble_hopper" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "pebble_hopper" ]
+      }
+    ],
     "reload": 150,
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   }
