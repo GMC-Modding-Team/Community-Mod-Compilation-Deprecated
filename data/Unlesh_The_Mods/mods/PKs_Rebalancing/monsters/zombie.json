@@ -53,7 +53,7 @@
     "id": "mon_zombie_runner_pk",
     "type": "MONSTER",
     "copy-from": "mon_zombie",
-    "name": { "str_sp": "feral runner" },
+    "name": { "str": "feral runner" },
     "color": "brown_white",
     "description": "A slain human, revived freshly enough to move unhindered by the rigid finality of death.  It stumbles about, clearly lacking the motor skills to do much more than 'grope intently' at its target.",
     "hp": 65,
@@ -113,7 +113,7 @@
   {
     "id": "mon_zombie_armored",
     "type": "MONSTER",
-    "name": { "str_sp": "armored zombie" },
+    "name": { "str": "armored zombie" },
     "copy-from": "mon_zombie_armored",
     "description": "Despite being encased in this malfunctioning wreck of what was once a nigh-impenetrable suit of power armor, something still managed to kill this soldier.",
     "melee_skill": 5,
@@ -135,7 +135,7 @@
   {
     "id": "mon_zombie_rot_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "rotting zombie" },
+    "name": { "str": "rotting zombie" },
     "description": "A corpse that rots even as it moves to kill.  Swarms of flies dart in and out of this monsters many bloated and oozing wounds..",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -337,7 +337,7 @@
   {
     "id": "mon_zombie_acidic_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "acidic zombie" },
+    "name": { "str": "acidic zombie" },
     "copy-from": "mon_zombie_acidic",
     "description": "A pale zombie with foul fluids dribbling from its orifaces.  perhaps its best not to get too close to this one ...",
     "diff": 18,
@@ -400,7 +400,7 @@
   {
     "id": "mon_zombie_cripple",
     "type": "MONSTER",
-    "name": { "str_sp": "maimed zombie" },
+    "name": { "str": "maimed zombie" },
     "description": "A once-lame human, now a lame zombie.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -448,7 +448,7 @@
   {
     "id": "mon_zombie_blind",
     "type": "MONSTER",
-    "name": { "str_sp": "blind zombie" },
+    "name": { "str": "blind zombie" },
     "description": "A human corpse, filled with a blind rage.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -493,7 +493,7 @@
   {
     "id": "mon_zombie_blind_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "unseeing zombie" },
+    "name": { "str": "unseeing zombie" },
     "description": "A human corpse, filled with an uncanny agility.  Its pupilless, blind eyes gaze blankly and belie its grace and other perceptions.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -540,7 +540,7 @@
   {
     "id": "mon_zombie_2",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie" },
+    "name": { "str": "zombie" },
     "description": "A human body, swaying as it moves, an unstoppable rage is visible in its oily black eyes.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -589,7 +589,7 @@
   {
     "id": "mon_zombie_3",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie" },
+    "name": { "str": "zombie" },
     "description": "A human body, swaying as it moves, an unstoppable rage is visible in its oily black eyes.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -638,7 +638,7 @@
   {
     "id": "mon_zombie_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "hungry zombie" },
+    "name": { "str": "hungry zombie" },
     "description": "A human body that seems to have . . . tightened into something more dangerous.  While it still stumbles around slowly, there is little doubt about what it would do to you if you let it.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -789,7 +789,7 @@
   {
     "id": "mon_zombie_hollow_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie nadir" },
+    "name": { "str": "zombie nadir" },
     "description": "With empty black sockets this creature surveys its surroundings deliberately.  As it scans, its body pulsates and contorts in a fashion that should break most bones.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -822,7 +822,7 @@
   {
     "id": "mon_zombie_fat_2",
     "type": "MONSTER",
-    "name": { "str_sp": "fat zombie" },
+    "name": { "str": "fat zombie" },
     "description": "Stumbling as it moves, this corpse of an overweight human regards its surroundings with an empty black gaze.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -871,7 +871,7 @@
   {
     "id": "mon_zombie_fat_3",
     "type": "MONSTER",
-    "name": { "str_sp": "fat zombie" },
+    "name": { "str": "fat zombie" },
     "description": "Stumbling as it moves, this corpse of an overweight human regards its surroundings with an empty black gaze.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -921,7 +921,7 @@
   {
     "id": "mon_beekeeper_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "scabby zombie" },
+    "name": { "str": "scabby zombie" },
     "description": "A deformed human body, its skin has been transformed into one thick, calloused envelope of scar tissue.  Its tissues secrete an oozing liquid that smells like poisonous death.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -969,7 +969,7 @@
   {
     "id": "mon_zombie_child_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie scrapper" },
+    "name": { "str": "zombie scrapper" },
     "description": "Although it has the face of a child, its knuckles bear oozing calluses.  It appears to take joy in combat, evident by a slick smile and a gleam in its eye...",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -1003,7 +1003,7 @@
   {
     "id": "mon_zombie_child_reaver",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie reaver" },
+    "name": { "str": "zombie reaver" },
     "description": "Its face disfigured and scabbed over, this foul child-sized corpse has been forged through constant combat, imbibing it with remarkable agility, speed, and savage brutality.  It bears scars that indicate that this isn't the first (or second) time it has died.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -1078,7 +1078,7 @@
     "id": "mon_zombie_tough",
     "copy-from": "mon_zombie_tough",
     "type": "MONSTER",
-    "name": { "str_sp": "tough zombie" },
+    "name": { "str": "tough zombie" },
     "description": "Once an athletic human, now a brutal monster.  Its facial features are twisted into an expression of pure rage.",
     "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.7 }, [ "GRAB", 60 ], [ "scratch", 20 ] ],
     "burn_into": "mon_zombie_smoker",
@@ -1088,7 +1088,7 @@
   {
     "id": "mon_zombie_tough_2",
     "type": "MONSTER",
-    "name": { "str_sp": "tough zombie" },
+    "name": { "str": "tough zombie" },
     "description": "Once an athletic human, now a brutal monster.  Its facial features are twisted into an expression of pure rage.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -1136,7 +1136,7 @@
   {
     "id": "mon_zombie_tough_3",
     "type": "MONSTER",
-    "name": { "str_sp": "tough zombie" },
+    "name": { "str": "tough zombie" },
     "description": "Once an athletic human, now a brutal monster.  Its facial features are twisted into an expression of pure rage.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -1216,7 +1216,7 @@
     "id": "mon_zombie_electric",
     "copy-from": "mon_zombie_electric",
     "type": "MONSTER",
-    "name": { "str_sp": "shocker zombie" },
+    "name": { "str": "shocker zombie" },
     "description": "A human body with pale blue flesh, crackling with electrical energy.",
     "diff": 12,
     "burn_into": "mon_zombie_scorched_shocker",
@@ -1226,7 +1226,7 @@
   {
     "id": "mon_zombie_electric_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "sparker zombie" },
+    "name": { "str": "sparker zombie" },
     "description": "As this zombie began to deform like the other zombies, its bionics have become unstable and unreliable.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1423,7 +1423,7 @@
   {
     "id": "mon_zombie_shady_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "shadowed zombie" },
+    "name": { "str": "shadowed zombie" },
     "description": "A ropey humanoid figure with a shimmering silhouette, even in full light.  It moves like a zombie, but you can tell nothing more than that.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -1473,7 +1473,7 @@
   {
     "id": "mon_zombie_shady_ghost",
     "type": "MONSTER",
-    "name": { "str_sp": "ethereal zombie" },
+    "name": { "str": "ethereal zombie" },
     "description": "The permanent shadow around this gaunt figure makes it hard to make out.  What you can see appears translucent and shimmering.  It is disoriented in light, and actively avoids fire.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -1559,7 +1559,7 @@
   {
     "id": "mon_zombie_master_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie master" },
+    "name": { "str": "zombie master" },
     "description": "A pale, pink-skinned monster with a wretched smile and cruel pupilless eyes.  Its face contorts in a manner that implies intelligence and emotion.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1610,7 +1610,7 @@
   {
     "id": "mon_zombie_necro_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie necromancer" },
+    "name": { "str": "zombie necromancer" },
     "description": "A twisted, greyskinned humanoid with trembling muscles.  Its contorting arms appear to be imbibed with some otherwordly power as it performs profane gestures at its fallen kin.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1661,7 +1661,7 @@
   {
     "id": "mon_zombie_lord",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie lord" },
+    "name": { "str": "zombie lord" },
     "description": "Standing with erect back and mocking smile, this graceful zombie appears to actually direct nearby zombies with glares and the twitching of its jagged claws.  Its skin is a revolting shade of pink, and every once in a while it stops what it is doing to excrete a few gooey, animate blobs.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1726,7 +1726,7 @@
   {
     "id": "mon_zombie_swimmer_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "swimmer zombie" },
+    "name": { "str": "swimmer zombie" },
     "description": "This web-footed swimmer sways in a restless but predatory manner.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1774,7 +1774,7 @@
   {
     "id": "mon_zombie_scales",
     "type": "MONSTER",
-    "name": { "str_sp": "encrusted zombie" },
+    "name": { "str": "encrusted zombie" },
     "description": "This zombie seems to be more comfortable in water than out.  Its skin has hardened into a flaky chitinous layer, and its ponderous movements belie its hostility.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1858,7 +1858,7 @@
   {
     "id": "mon_zombie_crawler_pk_weak",
     "type": "MONSTER",
-    "name": { "str_sp": "shambling zombie" },
+    "name": { "str": "shambling zombie" },
     "description": "A prone body propped up on outstretched arms; with moist, jagged cracks along its fire-hardened skin.  Sticky sludge escapes from holes in its chest cavity where the friction of crawling has torn through.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1906,7 +1906,7 @@
   {
     "id": "mon_zombie_crawler_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "shambler" },
+    "name": { "str": "shambler" },
     "description": "A prone humanoidesque monster, engorged to the size of 3 men, that springs forward with a sickening sucking sound.  As it consumes bodies and materials from the ground it becomes much, much stronger and produces several blobs.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1956,7 +1956,7 @@
   {
     "id": "mon_zombie_hulk_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie tank" },
+    "name": { "str": "zombie tank" },
     "description": "Rumored to be the conjoining of several bodies, the massive Zombie Tank is perhaps the ultimate tool of destruction.  Making up for what it lacks in skill with brutality, it is the wrecking ball of the zombie scourge.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -2007,7 +2007,7 @@
   {
     "id": "mon_boomer_huge_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "huge boomer" },
+    "name": { "str": "huge boomer" },
     "description": "This boomer, normally swollen and ready to burst, has strengthened and solidified.  The bile dribbling from its mouth also appears to have changed...",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -2092,7 +2092,7 @@
   {
     "id": "mon_zombie_gasbag_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "putrid zombie" },
+    "name": { "str": "putrid zombie" },
     "description": "A fetid body with a featureless face that emits a noxious gas of unknown makeup.  Its skin knots and reforms into putty-like globs as it walks and attacks, and bullets seem to pass through its morphing form.  A glimmering sludge drips from its open mouth.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -2140,7 +2140,7 @@
   {
     "id": "mon_zombie_radbag",
     "type": "MONSTER",
-    "name": { "str_sp": "smoldering zombie" },
+    "name": { "str": "smoldering zombie" },
     "description": "A faintly shimmering and leathery humanoid within a cloud of misty vapors.  Horrible burns pock its rough flakey skin.  Just looking at it make your skin prickle; being close it makes you feel tingly in a very bad way.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -2175,7 +2175,7 @@
   {
     "id": "mon_zombie_smoker_pk",
     "type": "MONSTER",
-    "name": { "str_sp": "zombie incus" },
+    "name": { "str": "zombie incus" },
     "description": "A stout, shadowy humanoid that emits a constant aura of smog around it.  This thick smoke hides its allies and obscures vision through it.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],

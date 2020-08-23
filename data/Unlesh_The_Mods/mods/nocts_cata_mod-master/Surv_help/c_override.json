@@ -3,7 +3,7 @@
     "id": "skirt_leather",
     "copy-from": "skirt_leather",
     "type": "ARMOR",
-    "name": { "str_sp": "leather skirt" },
+    "name": { "str": "leather skirt" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
@@ -32,56 +32,56 @@
     "id": "bikini_bottom",
     "copy-from": "bikini_bottom",
     "type": "ARMOR",
-    "name": { "str_sp": "bikini bottom" },
+    "name": { "str": "bikini bottom" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "bikini_top",
     "copy-from": "bikini_top",
     "type": "ARMOR",
-    "name": { "str_sp": "bikini top" },
+    "name": { "str": "bikini top" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "bikini_top_fur",
     "copy-from": "bikini_top_fur",
     "type": "ARMOR",
-    "name": { "str_sp": "fur bikini top" },
+    "name": { "str": "fur bikini top" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "bikini_top_leather",
     "copy-from": "bikini_top_leather",
     "type": "ARMOR",
-    "name": { "str_sp": "leather bikini top" },
+    "name": { "str": "leather bikini top" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "wetsuit_spring",
     "copy-from": "wetsuit_spring",
     "type": "ARMOR",
-    "name": { "str_sp": "spring suit" },
+    "name": { "str": "spring suit" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "bondage_suit",
     "copy-from": "bondage_suit",
     "type": "ARMOR",
-    "name": { "str_sp": "bondage suit" },
+    "name": { "str": "bondage suit" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "cowboy_hat",
     "copy-from": "cowboy_hat",
     "type": "ARMOR",
-    "name": { "str_sp": "cowboy hat" },
+    "name": { "str": "cowboy hat" },
     "extend": { "flags": [ "FANCY" ] }
   },
   {
     "id": "nanoskirt",
     "copy-from": "nanoskirt",
     "type": "ARMOR",
-    "name": { "str_sp": "nanoskirt" },
+    "name": { "str": "nanoskirt" },
     "extend": { "flags": [ "SUPER_FANCY" ] },
     "delete": { "flags": [ "FANCY" ] }
   },
@@ -90,7 +90,7 @@
     "//": "In this case, a full override is needed to prevent bugs.",
     "type": "MAGAZINE",
     "category": "tools",
-    "name": { "str_sp": "hydrogen tank" },
+    "name": { "str": "hydrogen tank" },
     "description": "This is a tank of compressed hydrogen gas.  If you need to make water from scratch, or lift a zeppelin, it could come in handy.",
     "weight": "2268 g",
     "volume": "1500 ml",
@@ -119,7 +119,7 @@
     "id": "bot_laserturret",
     "//": "A full override for this and broken_laserturret is retained due to these items being obsolete, with no guarantee that they won't simply be removed in the future.",
     "type": "TOOL",
-    "name": { "str_sp": "inactive laser turret" },
+    "name": { "str": "inactive laser turret" },
     "description": "This is an inactive laser turret.  Using this item involves turning it on and placing it on the ground, where it will attach itself.  If reprogrammed and rewired successfully the turret will identify you as a friendly, and attack all enemies with its revolving laser cannons.  It requires sunlight in order to fire.",
     "weight": "40750 g",
     "volume": "30 L",
@@ -143,7 +143,7 @@
     "id": "broken_laserturret",
     "symbol": ",",
     "color": "green",
-    "name": { "str_sp": "broken laser turret" },
+    "name": { "str": "broken laser turret" },
     "weight": "110 kg",
     "copy-from": "broken_turret"
   }

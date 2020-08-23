@@ -2,7 +2,7 @@
   {
     "id": "mon_goblin_warrior",
     "type": "MONSTER",
-    "name": { "str_sp": "goblin warrior" },
+    "name": { "str": "goblin warrior" },
     "description": "This short humanoid is covered in filth and shouts slurs at you as it brandishes a cudgel.",
     "default_faction": "goblin",
     "bodytype": "human",
@@ -40,7 +40,7 @@
   {
     "type": "MONSTER",
     "id": "mon_goblin_slinger",
-    "name": { "str_sp": "goblin slinger" },
+    "name": { "str": "goblin slinger" },
     "description": "An ugly creature that slings rocks almost as well as it slings insults.",
     "copy-from": "mon_goblin_warrior",
     "melee_skill": 2,
@@ -79,7 +79,7 @@
     "id": "mon_goblin_chieftain",
     "type": "MONSTER",
     "copy-from": "mon_goblin_warrior",
-    "name": { "str_sp": "goblin chieftain" },
+    "name": { "str": "goblin chieftain" },
     "description": "An ugly creature that was promoted to chieftain because it figured out which end of the weapon is pointy.",
     "hp": 135,
     "dodge": 6,
