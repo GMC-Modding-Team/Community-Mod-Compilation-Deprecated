@@ -2,7 +2,7 @@
   {
     "id": "mon_darkman",
     "type": "MONSTER",
-    "name": "wraith",
+    "name": { "str": "wraith" },
     "copy-from": "mon_darkman",
     "description": "A large humanoid shadow, chaotically changing in shape and volume , two piercing orbs of light dominate what can only be described as its head.",
     "default_faction": "shadow",
@@ -36,7 +36,7 @@
   {
     "id": "mon_shadow",
     "type": "MONSTER",
-    "name": "shadow",
+    "name": { "str": "shadow" },
     "copy-from": "mon_shadow",
     "default_faction": "shadow",
     "hp": 40,
@@ -137,7 +137,7 @@
   {
     "id": "mon_cult_churl",
     "type": "MONSTER",
-    "name": "ascendent",
+    "name": { "str": "ascendent" },
     "description": "A shaved trans-human, attempting to becoming something else.  Its hair has fallen out or been shaved, and its forehead has grown abnormally large.  An air of evil menace hangs about it.",
     "default_faction": "cult",
     "species": [ "MAMMAL" ],
@@ -168,7 +168,7 @@
   {
     "id": "mon_cult_slave",
     "type": "MONSTER",
-    "name": "acolyte",
+    "name": { "str": "acolyte" },
     "description": "A novice or adept of a cult.  Fanatically loyal, phsyiologically disturbed, and completely unreasoning, but ultimately human.",
     "default_faction": "cult",
     "species": [ "MAMMAL" ],
@@ -200,7 +200,7 @@
   {
     "id": "mon_legion",
     "type": "MONSTER",
-    "name": "legion",
+    "name": { "str": "legion" },
     "description": "A fused pile of bodies, writhing and squirming in the most base of ways. Utterly repulsive to behold, the bodies seem to be shielding something ...",
     "default_faction": "shadow",
     "species": [ "NETHER" ],
@@ -244,7 +244,7 @@
   {
     "id": "mon_nuculais",
     "type": "MONSTER",
-    "name": "nuculais",
+    "name": { "str": "nuculais" },
     "description": "A humanoid sheathed entirely in a dull white light.  While majestic and exuding the air of a god amoungst mortals, something dark and forboding hangs about it; a certain veil of death and termination of substance.",
     "default_faction": "shadow",
     "species": [ "NETHER" ],
