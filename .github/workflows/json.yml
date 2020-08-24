@@ -1,12 +1,9 @@
 name: JSON Validation
 
 on:
-  push:
-    branches:
-    - Experimental-Mod-Pack
-  pull_request:
-    branches:
-    - Experimental-Mod-Pack
+  push
+  pull_request
+
 
 jobs:
   style-json:
