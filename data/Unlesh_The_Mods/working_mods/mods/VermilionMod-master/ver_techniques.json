@@ -2,7 +2,7 @@
   {
     "type": "technique",
     "id": "augsword_ripper",
-    "name": { "str": "Ripper Slash" },
+    "name": "Ripper Slash",
     "min_melee": 3,
     "crit_tec": true,
     "mult_bonuses": [ { "stat": "damage", "type": "cut", "scale": 1.2 } ],
@@ -11,7 +11,7 @@
   {
     "type": "technique",
     "id": "augsword_shadow",
-    "name": { "str": "Shadow Slash" },
+    "name": "Shadow Slash",
     "min_melee": 5,
     "mult_bonuses": [ { "stat": "movecost", "scale": 0.7 }, { "stat": "damage", "type": "cut", "scale": 0.7 } ],
     "messages": [ "You slash %s from the shadows", "<npcname> slashes %s from the shadows" ]
@@ -19,7 +19,7 @@
   {
     "type": "technique",
     "id": "augsword_zandatsu",
-    "name": { "str": "Zandatsu" },
+    "name": "Zandatsu",
     "min_melee": 7,
     "crit_tec": true,
     "req_buffs": [ "augsword_parry" ],
@@ -29,7 +29,7 @@
   {
     "type": "technique",
     "id": "augsword_legsweep",
-    "name": { "str": "Leg sweep" },
+    "name": "Leg sweep",
     "min_unarmed": 3,
     "min_melee": 5,
     "down_dur": 2,
