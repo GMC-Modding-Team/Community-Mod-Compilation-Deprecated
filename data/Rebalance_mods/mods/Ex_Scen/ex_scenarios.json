@@ -27,7 +27,7 @@
     "description": "They never appreciated the extra mile you go overseeing the bank. You've taken pride in denying unworthy loans, and managing their accounts. A coward, loan shark, greedy devil, you've heard it all. They claim you'll get your just deserts...didn't think they meant it literally!",
     "id": "bank_scen",
     "points": -2,
-    "allowed_locs": [ "bank" ],
+    "allowed_locs": [ "sloc_bank" ],
     "start_name": "Bank",
     "flags": [ "SCEN_ONLY", "SUR_START" ],
     "professions": [ "bank_manager" ]
@@ -38,7 +38,7 @@
     "description": "Spending your entire fortune, one earned from years as a mecenary assassin, you found someone to give your eyes a special shine. Awaking from a long slumber, your new eyes work great, but something is amiss",
     "id": "darkness_scen",
     "points": -2,
-    "allowed_locs": [ "basement_bionic" ],
+    "allowed_locs": [ "sloc_basement_bionic" ],
     "start_name": "Shady Basement",
     "professions": [ "Ex_Con" ],
     "forced_traits": [ "NIGHTVISION3", "TROGLO2", "PRED3", "LIGHTSTEP" ]
@@ -49,7 +49,7 @@
     "description": "Inheriting your granpa's long forgotten farm, you decide to head there to start anew, but learning to farm isn't going to be the problem...",
     "id": "farm_scen",
     "points": -2,
-    "allowed_locs": [ "barn_aban1", "desolatebarn" ],
+    "allowed_locs": [ "sloc_horse_ranch", "sloc_farm_survivalist" ],
     "start_name": "Abandon Farm",
     "professions": [ "farmer" ]
   },
@@ -131,7 +131,7 @@
     "description": "Normally your mechanic skills are flawless, but after accidentlly breaking a part that goes nowhere, you can't help wonder if that's what started the cataclysm.",
     "id": "mechanic_scen",
     "points": -2,
-    "allowed_locs": [ "s_garage", "public_works_NW", "public_works_NE", "public_works_SW", "public_works_SE" ],
+    "allowed_locs": [ "sloc_garage", "public_works_NW", "public_works_NE", "public_works_SW", "public_works_SE" ],
     "start_name": "Garage, Public Works",
     "professions": [ "mechanic" ]
   },
