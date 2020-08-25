@@ -62,7 +62,7 @@
     "move_cost": 120,
     "damage_max_instance": [ { "damage_type": "bash", "amount": 15, "armor_penetration": 25, "armor_multiplier": 0.6 } ],
     "body_parts": [ [ "torso", 1 ] ],
-    "effects": [ { "id": "grabbed", "duration": 250, "bp": "torso" }, { "id": "downed", "duration": 10 } ],
+    "effects": [ { "id": "grabbed", "duration": 250, "body_part": "torso" }, { "id": "downed", "duration": 10 } ],
     "hit_dmg_u": "The %1$s hugs you to the floor!",
     "hit_dmg_npc": "The %1$s is hugging <npcname>!",
     "no_dmg_msg_u": "The %1$s tries to hug you, but fails to do it!",
@@ -76,7 +76,7 @@
     "move_cost": 100,
     "damage_max_instance": [ { "damage_type": "cut", "amount": 3, "armor_penetration": 20, "armor_multiplier": 0.5 } ],
     "body_parts": [ [ "torso", 1 ] ],
-    "effects": [ { "id": "bleed", "duration": 50000, "bp": "torso" } ],
+    "effects": [ { "id": "bleed", "duration": 50000, "body_part": "torso" } ],
     "hit_dmg_u": "The %1$s bit your torso with hemorrhage!",
     "hit_dmg_npc": "The %1$s bit <npcname>'s torso with hemorrhage!",
     "no_dmg_msg_u": "The %1$s tries to bite your torso, but fails to penetrate your armor!",
@@ -151,8 +151,8 @@
     "damage_max_instance": [ { "damage_type": "cut", "amount": 3, "armor_penetration": 20, "armor_multiplier": 0.5 } ],
     "body_parts": [ [ "torso", 1 ] ],
     "effects": [
-      { "id": "bleed", "duration": 100, "bp": "torso" },
-      { "id": "grabbed", "duration": 100, "bp": "torso" },
+      { "id": "bleed", "duration": 100, "body_part": "torso" },
+      { "id": "grabbed", "duration": 100, "body_part": "torso" },
       { "id": "stunned", "duration": 5 }
     ],
     "hit_dmg_u": "The %1$s is sucking your torso!",

@@ -9,8 +9,8 @@
     "body_parts": [ [ "torso", 1 ] ],
     "effects": [
       { "id": "stunned", "duration": 3, "chance": 75 },
-      { "id": "grabbed", "duration": 1000, "bp": "torso", "chance": 75 },
-      { "id": "bleed", "duration": 15, "bp": "torso", "chance": 25 },
+      { "id": "grabbed", "duration": 1000, "body_part": "torso", "chance": 75 },
+      { "id": "bleed", "duration": 15, "body_part": "torso", "chance": 25 },
       { "id": "infection_minor", "duration": 20000, "chance": 25 }
     ],
     "hit_dmg_u": "The %1$s impales your torso!",
