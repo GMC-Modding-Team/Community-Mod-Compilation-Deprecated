@@ -88,7 +88,7 @@
       "vendingmachines": { "D": { "item_group": "vending_drink" }, "F": { "item_group": "vending_food" } },
       "computers": {
         "6": {
-          "name": { "str": "Centrifuge",
+          "name": "Centrifuge",
           "options": [ { "name": "Analyze blood", "action": "blood_anal" } ],
           "failures": [ { "action": "destroy_blood" } ]
         }
