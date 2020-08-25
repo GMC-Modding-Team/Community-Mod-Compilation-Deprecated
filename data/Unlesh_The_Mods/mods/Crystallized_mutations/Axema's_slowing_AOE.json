@@ -18,9 +18,7 @@
       {
         "name": "crystalline aura",
         "color": "blue",
-        "effects": [
-          { "effect_id": "xp_crystal_slow", "body_part": "torso", "min_duration": "3 seconds", "max_duration": "6 seconds" }
-        ]
+        "effects": [ { "effect_id": "xp_crystal_slow", "body_part": "torso", "min_duration": "3 seconds", "max_duration": "6 seconds" } ]
       }
     ],
     "priority": -1,
@@ -39,9 +37,7 @@
   {
     "type": "enchantment",
     "id": "xp_crystal_ench",
-    "ench_effects": [
-      { "effect": "xp_crystal_slow_immune", "intensity": 1 }
-    ],
+    "ench_effects": [ { "effect": "xp_crystal_slow_immune", "intensity": 1 } ],
     "emitter": "emit_xp_crystal_eff"
   }
 ]
