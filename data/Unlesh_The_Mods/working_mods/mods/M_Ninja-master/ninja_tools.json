@@ -124,7 +124,7 @@
     "material": [ "paper", "steel", "plastic" ],
     "symbol": "?",
     "color": "dark_gray",
-    "ammo": [ "battery" ],
+    "ammo": "battery",
     "max_charges": 100,
     "charges_per_use": 25
   },
@@ -141,7 +141,7 @@
     "material": [ "paper", "steel", "plastic", "stone" ],
     "symbol": "?",
     "color": "white",
-    "ammo": [ "battery" ],
+    "ammo": "battery",
     "max_charges": 100,
     "charges_per_use": 100
   },
@@ -503,7 +503,7 @@
     "material": [ "steel" ],
     "symbol": "[",
     "color": "gray",
-    "ammo": [ "ammo_type_ninja_jet_fuel" ],
+    "ammo": "ammo_type_ninja_jet_fuel",
     "initial_charges": 0,
     "max_charges": 50,
     "turns_per_charge": 30,
@@ -541,7 +541,16 @@
     "durability": 9,
     "modes": [ [ "AUTO", "8 shots", 8 ], [ "BURST", "9 shots", 9 ], [ "DEFAULT", "3 shots", 3 ] ],
     "magazine_well": 1,
-    "magazines": [ [ "9mm", [ "glockbigmag" ] ], [ "9mm", [ "glockmag" ] ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "glockbigmag", "glockmag" ]
+      }
+    ],
     "flags": [ "DURABLE_MELEE" ]
   }
 ]
