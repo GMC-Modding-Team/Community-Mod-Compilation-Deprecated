@@ -102,7 +102,7 @@
           { "amount": 9, "armor_multiplier": 0.2, "damage_type": "bash" },
           { "amount": 3, "armor_multiplier": 0.6, "damage_type": "stab" }
         ],
-        "effects": [ { "body_part": "torso", "duration": 1000, "id": "grabbed" } ],
+        "effects": [ { "bp": "torso", "duration": 1000, "id": "grabbed" } ],
         "type": "bite"
       }
     ],
@@ -142,7 +142,7 @@
           { "amount": 18, "armor_multiplier": 0.2, "damage_type": "bash" },
           { "amount": 6, "armor_multiplier": 0.6, "damage_type": "stab" }
         ],
-        "effects": [ { "body_part": "torso", "duration": 1000, "id": "grabbed" } ],
+        "effects": [ { "bp": "torso", "duration": 1000, "id": "grabbed" } ],
         "type": "bite"
       }
     ],
@@ -333,7 +333,7 @@
     "note": "This is the boss. It regenerates super fast, converts nearby terrains into biohazards, calls out new takens and will try to devour the target by suppressing them with the walls! Killing it won't bring the flesh terrains back to normal, but it is the queen, so crimson horrors will cease to exist... hopefully.",
     "id": "mon_sflesh_flesh",
     "type": "MONSTER",
-    "name": { "str": "flesh" },
+    "name": "flesh",
     "description": "A gargantuan lump of meat, pulsating in faint, velvety hue. Thick, numerous veins penetrate the walls, in every beat causes the surrounding flesh to undulate.",
     "default_faction": "secro_flesh",
     "bodytype": "blob",
