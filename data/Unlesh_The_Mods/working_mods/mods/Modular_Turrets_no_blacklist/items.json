@@ -3,7 +3,7 @@
     "id": "electrohack",
     "type": "TOOL",
     "category": "tools",
-    "name": { "str": "electrohack" },
+    "name": "electrohack",
     "description": "This device has many ports attached, allowing it to connect to almost any control panel or other electronic machine (but not computers).  With a little skill, it can be used to crack passwords and more.  It requires 25 charges of battery power per use.",
     "weight": "114 g",
     "volume": "500 ml",
@@ -39,7 +39,7 @@
     "id": "robopart_base",
     "type": "GENERIC",
     "category": "spare_parts",
-    "name": { "str": "robot component" },
+    "name": "robot component",
     "description": "A component for turrets and robots.  It is unuseable in its current state.",
     "weight": "3000 g",
     "volume": "2 L",
@@ -54,7 +54,7 @@
     "id": "robopart_microreactor",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral microreactor" },
+    "name": "integral microreactor",
     "description": "A compact fusion reactor used to power a robot's energy weapons.",
     "color": "pink"
   },
@@ -62,125 +62,124 @@
     "id": "robopart_flash",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral flash gun" },
+    "name": "integral flash gun",
     "color": "pink"
   },
   {
     "id": "robopart_tazer",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral tazer" },
+    "name": "integral tazer",
     "color": "pink"
   },
   {
     "id": "robopart_9mm",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral 9mm firearm" }
+    "name": "integral 9mm firearm"
   },
   {
     "id": "robopart_556",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral 5.56 firearm" }
+    "name": "integral 5.56mm firearm"
   },
   {
     "id": "robopart_308",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral 7.62mm firearm" }
+    "name": "integral 7.62mm firearm"
   },
   {
     "id": "robopart_shot",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral shotgun" }
+    "name": "integral shotgun"
   },
   {
     "id": "robopart_beanbag",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral beanbag launcher" }
+    "name": "integral beanbag launcher"
   },
   {
     "id": "robopart_teargas",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral teargas launcher" }
+    "name": "integral teargas launcher"
   },
   {
     "id": "robopart_flame",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral flamethrower" }
+    "name": "integral flamethrower"
   },
   {
     "id": "robopart_needle",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral flechette firearm" }
+    "name": "integral flechette firearm"
   },
   {
     "id": "robopart_8x40mm",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral 8x40mm firearm" }
+    "name": "integral 8x40mm firearm"
   },
   {
     "id": "robopart_50bmg",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral 50 caliber firearm" }
+    "name": "integral 50 caliber firearm"
   },
   {
     "id": "robopart_40mm",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral grenade launcher" }
+    "name": "integral grenade launcher"
   },
   {
     "id": "robopart_laser",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral laser weapon" }
+    "name": "integral laser weapon"
   },
   {
     "id": "robopart_plasma",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral plasma injector" }
+    "name": "integral plasma ejector"
   },
   {
     "id": "robopart_rail",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral electromagnetic railgun" }
+    "name": "integral electromagnetic railgun"
   },
   {
     "id": "robopart_acid",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral acid thrower" }
+    "name": "integral acid thrower"
   },
   {
     "id": "robopart_lightning",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral electro caster" }
+    "name": "integral electro caster"
   },
   {
     "id": "robopart_emp",
     "type": "GENERIC",
     "copy-from": "robopart_base",
-    "name": { "str": "integral EMP projector" }
+    "name": "integral EMP projector"
   },
   {
     "id": "bot_turret_base",
     "type": "TOOL",
-    "name": { "str": "inactive turret" },
-    "description": "A base turret for crafting other turrets",
+    "name": "inactive turret",
     "weight": "1507 g",
-    "volume": "3 L",
+    "volume": 12,
     "to_hit": -3,
     "bashing": 8,
     "material": [ "steel", "plastic" ],
@@ -191,7 +190,7 @@
     "id": "bot_turret_disarmed",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "disarmed defense turret" },
+    "name": "disarmed defense turret",
     "description": "An automated defense turret.  It lacks an integrated weapon.",
     "price": 10000,
     "price_postapoc": 10000,
@@ -210,7 +209,7 @@
     "id": "bot_milturret_disarmed",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "disarmed military turret" },
+    "name": "disarmed military turret",
     "description": "An automated military turret.  It lacks an integrated weapon.",
     "price": 10000,
     "price_postapoc": 10000,
@@ -229,7 +228,7 @@
     "id": "bot_advturret_disarmed",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "disarmed advanced turret" },
+    "name": "disarmed advanced turret",
     "description": "An advanced automated turret.  It lacks an integrated weapon.",
     "price": 10000,
     "price_postapoc": 10000,
@@ -248,7 +247,7 @@
     "id": "bot_turret_9mm",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive 9mm defense turret" },
+    "name": "inactive 9mm defense turret",
     "description": "An inactive 9mm defense turret.  Up to 100 standard 9mm rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -267,7 +266,7 @@
     "type": "TOOL",
     "copy-from": "bot_turret_base",
     "override": "true",
-    "name": { "str": "inactive 9mm defense turret" },
+    "name": "inactive 9mm defense turret",
     "description": "An inactive 9mm defense turret.  Up to 100 standard 9mm rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -285,7 +284,7 @@
     "id": "bot_turret_shot",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive shotgun defense turret" },
+    "name": "inactive shotgun defense turret",
     "description": "An inactive shotgun defense turret.  Up to 100 standard 12ga shells will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -303,7 +302,7 @@
     "id": "bot_turret_beanbag",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive riot control turret" },
+    "name": "inactive riot control turret",
     "description": "An inactive riotcontrol turret.  Up to 50 standard 40mm less-than-lethal beanbag canisters will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "yellow",
     "price": 10000,
@@ -321,7 +320,7 @@
     "id": "bot_turret_teargas",
     "copy-from": "bot_turret_base",
     "type": "TOOL",
-    "name": { "str": "inactive riot control turret" },
+    "name": "inactive riot control turret",
     "description": "An inactive riot control turret.  Up to 50 standard 40mm teargas canisters will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "yellow",
     "price": 10000,
@@ -339,7 +338,7 @@
     "id": "bot_milturret_556",
     "copy-from": "bot_turret_base",
     "type": "TOOL",
-    "name": { "str": "inactive 5.56mm military turret" },
+    "name": "inactive 5.56mm military turret",
     "description": "An inactive 5.56mm military turret.  Up to 100 standard 5.56mm NATO rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "green",
     "price": 10000,
@@ -358,7 +357,7 @@
     "copy-from": "bot_turret_base",
     "type": "TOOL",
     "override": "true",
-    "name": { "str": "inactive 5.56mm military turret" },
+    "name": "inactive 5.56mm military turret",
     "description": "An inactive 5.56mm military turret.  Up to 100 standard 5.56mm NATO rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "green",
     "price": 10000,
@@ -376,7 +375,7 @@
     "id": "bot_milturret_308",
     "copy-from": "bot_turret_base",
     "type": "TOOL",
-    "name": { "str": "inactive 7.62mm military turret" },
+    "name": "inactive 7.62mm military turret",
     "description": "An inactive 7.62mm military turret.  Up to 100 standard 7.62mm NATO rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "green",
     "price": 10000,
@@ -394,7 +393,7 @@
     "id": "bot_milturret_50bmg",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive 50 caliber military turret" },
+    "name": "inactive 50 caliber military turret",
     "description": "An inactive 50 caliber military turret.  Up to 100 standard 50 caliber bmg rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -412,7 +411,7 @@
     "id": "bot_antimateriel",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive 50 caliber military turret" },
+    "name": "inactive 50 caliber military turret",
     "description": "An inactive 50 caliber military turret.  Up to 100 standard 50 caliber bmg rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -430,7 +429,7 @@
     "id": "bot_milturret_needle",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive military needle turret" },
+    "name": "inactive military needle turret",
     "description": "An inactive advanced needle turret.  Up to 100 standard 5x50mm flechette rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -448,7 +447,7 @@
     "id": "bot_milturret_8x40mm",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive military 8x40mm turret" },
+    "name": "inactive military 8x40mm turret",
     "description": "An inactive advanced 8x40mm turret.  Up to 100 standard 8x40mm caseless rounds will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -466,7 +465,7 @@
     "id": "bot_milturret_40mm",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive military 40mm grenade turret" },
+    "name": "inactive military 40mm grenade turret",
     "description": "An inactive military grenade turret.  Up to 50 standard 40mm fragmentation grenades will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software. Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -484,7 +483,7 @@
     "id": "bot_milturret_flame",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive military flamethrower turret" },
+    "name": "inactive military flamethrower turret",
     "description": "An inactive flame turret.  Up to 100 units of napalm will be automatically loaded from your inventory into the turret upon activation.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "red",
     "price": 10000,
@@ -502,7 +501,7 @@
     "id": "bot_advturret_laser",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive advanced laser turret" },
+    "name": "inactive advanced laser turret",
     "description": "An inactive advanced laser turret.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "yellow",
     "price": 10000,
@@ -521,7 +520,7 @@
     "type": "TOOL",
     "copy-from": "bot_turret_base",
     "override": "true",
-    "name": { "str": "inactive advanced laser turret" },
+    "name": "inactive advanced laser turret",
     "description": "An inactive advanced laser turret.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "yellow",
     "price": 10000,
@@ -539,7 +538,7 @@
     "id": "bot_advturret_plasma",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive advanced plasma turret" },
+    "name": "inactive advanced plasma turret",
     "description": "An inactive advanced plasma turret.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "color": "pink",
     "price": 10000,
@@ -557,7 +556,7 @@
     "id": "bot_advturret_rail",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive advanced railgun turret" },
+    "name": "inactive advanced railgun turret",
     "description": "An inactive advanced railgun turret.  Up to 50 standard rail projectiles will be automatically loaded from your inventory into the turret upon activation. Place the turret and it will ID you as friendly with its advanced IFF software. Consult your safety manual in the event of a malfunction.",
     "color": "magenta",
     "price": 10000,
@@ -575,7 +574,7 @@
     "id": "bot_advturret_acid",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive advanced acid turret" },
+    "name": "inactive advanced acid turret",
     "description": "An inactive advanced acid turret.  Place the turret and it will ID you as friendly with its advanced IFF software. Consult your safety manual in the event of a malfunction.",
     "color": "light_green",
     "price": 10000,
@@ -593,7 +592,7 @@
     "id": "bot_advturret_emp",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive advanced EMP turret" },
+    "name": "inactive advanced EMP turret",
     "description": "An inactive advanced EMP turret.  Place the turret and it will ID you as friendly with its advanced IFF software. Consult your safety manual in the event of a malfunction.",
     "price": 10000,
     "price_postapoc": 10000,
@@ -611,7 +610,7 @@
     "id": "bot_advturret_lightning",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "inactive advanced electro turret" },
+    "name": "inactive advanced electro turret",
     "description": "An inactive advanced electro turret.  Place the turret and it will ID you as friendly with its advanced IFF software.  Consult your safety manual in the event of a malfunction.",
     "price": 10000,
     "price_postapoc": 10000,
@@ -629,7 +628,7 @@
     "id": "garden_gnome",
     "type": "TOOL",
     "category": "other",
-    "name": { "str": "garden gnome" },
+    "name": "garden gnome",
     "description": "A normal and completely harmless garden gnome.  You can place him in your garden or elsewhere.",
     "weight": "650 g",
     "volume": "500 ml",
@@ -646,7 +645,7 @@
     "id": "bot_turret_gnome",
     "type": "TOOL",
     "copy-from": "bot_turret_base",
-    "name": { "str": "gaurdin gnome" },
+    "name": "gaurdin gnome",
     "price": 10000,
     "price_postapoc": 10000,
     "description": "A normal and completely harmless garden gnome.  He holds up to 100 rounds of 9mm ammo.",
