@@ -48,21 +48,6 @@
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
-    "id": "mon_wattz_1000",
-    "type": "GUN",
-    "copy-from": "fake_item",
-    "name": { "str": "Monster Wattz 1000 Laser Pistol" },
-    "description": "This is a pseudo item for monster attacks. If you see this, it's a bug.",
-    "skill": "pistol",
-    "range": 30,
-    "ranged_damage": { "damage_type": "heat", "amount": 4, "armor_penetration": 5 },
-    "dispersion": 10,
-    "durability": 8,
-    "loudness": 12,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "4 rd.", 4 ], [ "AUTO", "auto", 6 ] ],
-    "ammo_effects": [ "LASER", "INCENDIARY" ]
-  },
-  {
     "id": "wattz_1000_magneto",
     "type": "GUN",
     "color": "white",
@@ -147,21 +132,6 @@
     "reload": 300,
     "loudness": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
-  },
-  {
-    "id": "mon_laser_pistol_aep",
-    "type": "GUN",
-    "copy-from": "fake_item",
-    "name": { "str": "Monster AEP7 Laser Pistol" },
-    "description": "This is a pseudo item for monster attacks. If you see this, it's a bug.",
-    "skill": "pistol",
-    "range": 30,
-    "ranged_damage": { "damage_type": "heat", "amount": 22, "armor_penetration": 7 },
-    "dispersion": 10,
-    "durability": 8,
-    "loudness": 12,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "4 rd.", 4 ], [ "AUTO", "auto", 6 ] ],
-    "ammo_effects": [ "LASER", "INCENDIARY" ]
   },
   {
     "id": "laser_pistol_aep_pewpew",
