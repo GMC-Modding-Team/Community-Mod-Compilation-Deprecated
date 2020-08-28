@@ -31,7 +31,7 @@ static void write_array( JsonIn &jsin, JsonOut &jsout, int depth, bool force_wra
     jsout.start_array( force_wrap );
     jsin.start_array();
     while( !jsin.end_array() ) {
-        formatter::format( jsin, jsout, depth );
+        format( jsin, jsout, depth );
     }
     jsout.end_array();
 }
@@ -57,7 +57,7 @@ static void write_object( JsonIn &jsin, JsonOut &jsout, int depth, bool force_wr
             jsin.seek( in_start_pos );
             jsin.set_ate_separator( ate_seperator );
         }
-        formatter::format( jsin, jsout, depth, override_wrap );
+        format( jsin, jsout, depth, override_wrap );
     }
     jsout.end_object();
 }
@@ -91,7 +91,7 @@ static void format_collection( JsonIn &jsin, JsonOut &jsout, int depth,
     write_func( jsin, jsout, depth, true );
 }
 
-void formatter::format( JsonIn &jsin, JsonOut &jsout, int depth, bool force_wrap )
+static void format( JsonIn &jsin, JsonOut &jsout, int depth, bool force_wrap )
 {
     depth++;
     if( jsin.test_array() ) {
