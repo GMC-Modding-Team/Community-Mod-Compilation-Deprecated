@@ -233,13 +233,7 @@
     "max_charges": 48,
     "charges_per_use": 1,
     "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WIELD",
-          "condition": "ALWAYS",
-          "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ]
-        }
-      ]
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ] } ]
     },
     "armor_data": { "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
     "flags": [ "NO_SALVAGE" ]
