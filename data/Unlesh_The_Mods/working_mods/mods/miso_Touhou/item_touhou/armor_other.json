@@ -379,7 +379,15 @@
     "material_thickness": 2,
     "initial_charges": 0,
     "max_charges": 24,
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ]
+        }
+      ]
+    },
     "flags": [ "WAIST", "OVERSIZE" ]
   },
   {
