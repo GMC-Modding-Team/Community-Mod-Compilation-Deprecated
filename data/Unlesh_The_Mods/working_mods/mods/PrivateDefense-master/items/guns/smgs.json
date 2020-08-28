@@ -9,7 +9,17 @@
     "relative": { "bashing": -2, "ranged_damage": { "damage_type": "bullet", "amount": -6 }, "durability": -4, "dispersion": 100 },
     "proportional": { "weight": 0.66 },
     "blackpowder_tolerance": 16,
-    "magazines": [ [ "9mm", [ "mp5mag", "mp5bigmag", "mp5mag_polymer", "mp5bigmag_polymer" ] ] ]
+    "ammo": "9mm",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "mp5mag", "mp5bigmag", "mp5mag_polymer", "mp5bigmag_polymer" ]
+      }
+    ]
   },
   {
     "type": "GUN",
@@ -21,7 +31,17 @@
     "relative": { "bashing": -2, "ranged_damage": { "damage_type": "bullet", "amount": -6 }, "durability": -4, "dispersion": 100 },
     "proportional": { "weight": 0.66 },
     "blackpowder_tolerance": 24,
-    "magazines": [ [ "45", [ "mac10mag", "smg_45_mag", "mac10mag_polymer" ] ] ]
+    "ammo": "45",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "mac10mag", "smg_45_mag", "mac10mag_polymer" ]
+      }
+    ]
   },
   {
     "type": "GUN",
@@ -33,6 +53,16 @@
     "relative": { "bashing": -2, "ranged_damage": { "damage_type": "bullet", "amount": -6 }, "durability": -4, "dispersion": 100 },
     "proportional": { "weight": 0.66 },
     "blackpowder_tolerance": 24,
-    "magazines": [ [ "9mm", [ "uzimag", "uzimag_polymer" ] ] ]
+    "ammo": "9mm",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "uzimag", "uzimag_polymer" ]
+      }
+    ]
   }
 ]
