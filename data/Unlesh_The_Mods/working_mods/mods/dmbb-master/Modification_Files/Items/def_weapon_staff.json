@@ -34,7 +34,13 @@
     "copy-from": "dmbb_magus_staff",
     "name": { "str": "magus staff", "str_pl": "magus staves" },
     "description": "An old, yet sturdy wooden staff. Good for bashing, but much greater for channeling spells.\n\nSpell: <color_cyan>Mana Beam</color>\n<color_white>Strikes the target with a beam of mana, dealing 10-20 true damage.</color>",
-    "use_action": { "type": "cast_spell", "spell_id": "dmbb_magus_staff_manabeam_cast", "level": 0, "no_fail": true, "need_wielding": true },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "dmbb_magus_staff_manabeam_cast",
+      "level": 0,
+      "no_fail": true,
+      "need_wielding": true
+    },
     "charges_per_use": 2
   },
   {
@@ -43,7 +49,13 @@
     "copy-from": "dmbb_magus_staff",
     "name": { "str": "magus staff", "str_pl": "magus staves" },
     "description": "An old, yet sturdy wooden staff. Good for bashing, but much greater for channeling spells.\n\nSpell: <color_cyan>Mana Burst</color>\n<color_white>Blasts targets in a small area, dealing 7-14 true damage.</color>",
-    "use_action": { "type": "cast_spell", "spell_id": "dmbb_magus_staff_manaburst_cast", "level": 0, "no_fail": true, "need_wielding": true },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "dmbb_magus_staff_manaburst_cast",
+      "level": 0,
+      "no_fail": true,
+      "need_wielding": true
+    },
     "charges_per_use": 4
   },
   {
@@ -52,7 +64,13 @@
     "copy-from": "dmbb_magus_staff",
     "name": { "str": "magus staff", "str_pl": "magus staves" },
     "description": "An old, yet sturdy wooden staff. Good for bashing, but much greater for channeling spells.\n\nSpell: <color_cyan>Mana Bolts</color>\n<color_white>Short-ranged bolts of mana that strikes the target 3-6 times, each dealing 2-4 true damage.</color>",
-    "use_action": { "type": "cast_spell", "spell_id": "dmbb_magus_staff_manabolts_cast_target", "level": 0, "no_fail": true, "need_wielding": true },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "dmbb_magus_staff_manabolts_cast_target",
+      "level": 0,
+      "no_fail": true,
+      "need_wielding": true
+    },
     "charges_per_use": 3
   },
   {
@@ -61,7 +79,13 @@
     "copy-from": "dmbb_magus_staff",
     "name": { "str": "magus staff", "str_pl": "magus staves" },
     "description": "An old, yet sturdy wooden staff. Good for bashing, but much greater for channeling spells.\n\nSpell: <color_cyan>Mana Flow</color>\n<color_white>Provides 60 mana over 20 turns.</color>",
-    "use_action": { "type": "cast_spell", "spell_id": "dmbb_magus_staff_manaflow_cast", "level": 0, "no_fail": true, "need_wielding": true },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "dmbb_magus_staff_manaflow_cast",
+      "level": 0,
+      "no_fail": true,
+      "need_wielding": true
+    },
     "charges_per_use": 10
   },
   {
@@ -70,7 +94,13 @@
     "copy-from": "dmbb_magus_staff",
     "name": { "str": "magus staff", "str_pl": "magus staves" },
     "description": "An old, yet sturdy wooden staff. Good for bashing, but much greater for channeling spells.\n\nSpell: <color_cyan>Mana Beam+</color>\n<color_white>Strikes the target with concentrated beam of mana, dealing 20-40 true damage.</color>",
-    "use_action": { "type": "cast_spell", "spell_id": "dmbb_magus_staff_manabeam_plus_cast", "level": 0, "no_fail": true, "need_wielding": true },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "dmbb_magus_staff_manabeam_plus_cast",
+      "level": 0,
+      "no_fail": true,
+      "need_wielding": true
+    },
     "charges_per_use": 6
   }
 ]

@@ -40,9 +40,7 @@
     "id": "fd_mtc_dragon_ice",
     "looks_like": "fd_cold_air4",
     "type": "field_type",
-    "intensity_levels": [
-      { "name": "cold air", "sym": "&", "convection_temperature_mod": -70 }
-    ],
+    "intensity_levels": [ { "name": "cold air", "sym": "&", "convection_temperature_mod": -70 } ],
     "percent_spread": 100,
     "half_life": "5 seconds",
     "phase": "gas",
@@ -56,7 +54,12 @@
         "name": "draconic pressence",
         "color": "dark_gray",
         "effects": [
-          { "effect_id": "eff_mtc_dragon_fire_immune", "body_part": "torso", "min_duration": "1 seconds", "max_duration": "1 seconds" }
+          {
+            "effect_id": "eff_mtc_dragon_fire_immune",
+            "body_part": "torso",
+            "min_duration": "1 seconds",
+            "max_duration": "1 seconds"
+          }
         ]
       }
     ],
@@ -74,7 +77,12 @@
         "name": "draconic pressence",
         "color": "dark_gray",
         "effects": [
-          { "effect_id": "eff_mtc_dragon_ice_immune", "body_part": "torso", "min_duration": "1 seconds", "max_duration": "1 seconds" }
+          {
+            "effect_id": "eff_mtc_dragon_ice_immune",
+            "body_part": "torso",
+            "min_duration": "1 seconds",
+            "max_duration": "1 seconds"
+          }
         ]
       }
     ],

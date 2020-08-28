@@ -27,10 +27,7 @@
     },
     "speaker_effect": { "effect": { "u_add_var": "dmbb_orb", "type": "greeted_by", "context": "axema", "value": "yes" } },
     "responses": [
-      {
-        "text": "[ARCHIVE]",
-        "topic": "TALK_DMBB_ORB_command_halp_archive"
-      },
+      { "text": "[ARCHIVE]", "topic": "TALK_DMBB_ORB_command_halp_archive" },
       {
         "text": "About DMBB",
         "topic": "TALK_DMBB_ORB_command_halp_dmbb",
@@ -172,10 +169,7 @@
         },
         "effect": { "u_add_var": "dmbb_orb", "type": "help", "context": "diff_plus", "value": "yes" }
       },
-      {
-        "text": "*Disable [VIEW HELP]*",
-        "topic": "TALK_DMBB_ORB_command_halp_idnu"
-      },
+      { "text": "*Disable [VIEW HELP]*", "topic": "TALK_DMBB_ORB_command_halp_idnu" },
       { "text": "< - - -", "topic": "TALK_DMBB_ORB_command" }
     ]
   },

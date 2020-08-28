@@ -136,7 +136,13 @@
     "type": "effect_type",
     "id": "eff_mtc_dragon_ice",
     "name": [ "Frosted", "Frosted", "Frosted", "Frosted", "Everfrosted" ],
-    "desc": [ "You have been frosted!", "You have been frosted!", "You have been frosted!", "You have been frosted!", "You have been severely frosted!" ],
+    "desc": [
+      "You have been frosted!",
+      "You have been frosted!",
+      "You have been frosted!",
+      "You have been frosted!",
+      "You have been severely frosted!"
+    ],
     "show_in_info": true,
     "max_intensity": 5,
     "max_duration": "10 minutes",
@@ -242,11 +248,7 @@
     "id": "eff_mtc_hobgoblin_shaman_buff",
     "name": [ "Warded (physical)" ],
     "show_in_info": true,
-    "flags": [
-      "EFFECT_BASH_IMMUNE",
-      "EFFECT_CUT_IMMUNE",
-      "EFFECT_STAB_IMMUNE"
-    ]
+    "flags": [ "EFFECT_BASH_IMMUNE", "EFFECT_CUT_IMMUNE", "EFFECT_STAB_IMMUNE" ]
   },
   {
     "type": "effect_type",
