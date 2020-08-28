@@ -1,0 +1,155 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          id: "7fab9082-2fa6-44bf-a469-924783439191"
+          password: "{AQAAABAAAAAQn9DjnYGCDqZpPpfjML5/GxXhlHV/FhY51TZaRqDxElI=}"
+          scope: GLOBAL
+      - usernamePassword:
+          id: "3f51d545-5020-4fff-90a9-a91c8a55e44f"
+          password: "{AQAAABAAAAAQzaSOoyEhRNk1oubnTLVzHlH2RKB+uuONRGLuavqNnYo=}"
+          scope: GLOBAL
+      - usernamePassword:
+          id: "34f70526-b1d2-4e34-a74b-bb37bef10c4d"
+          password: "{AQAAABAAAAAQa9dZbFLIkBPEkMJVghP67kUc7We9L4FCY6u6KV545X4=}"
+          scope: GLOBAL
+          username: "thegoatgod"
+      - usernamePassword:
+          id: "b7baa78f-ff82-4d3f-9944-779b6799d8bc"
+          password: "{AQAAABAAAAAwtVDdWazp59RDEOInzXflMHQiJd/E6NNCxFhtOT7DGfMw2ryVr9/cTzh/k64K7e2eESCXzgMss7fDeBkEpxRMdg==}"
+          scope: GLOBAL
+          username: "Martin Duke"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  clouds:
+  - docker:
+      dockerApi:
+        connectTimeout: 60
+        dockerHost:
+          uri: "https://app.zoomadmin.com/"
+        readTimeout: 60
+      name: "docker"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  labelAtoms:
+  - name: "master"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 1
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "martinduke"
+        name: "Martin Duke"
+        properties:
+        - "apiToken"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "xXMartinDXx@gmail.com"
+  slaveAgentPort: -1
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  sSHD:
+    port: -1
+unclassified:
+  buildStepOperation:
+    enabled: true
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:\r\n\r\nCheck\
+      \ console output at $BUILD_URL to view the results."
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    watchingEnabled: false
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://yourhost.goatsmodcompilation/jenkins/github-webhook/"
+  gitSCM:
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  globalDefaultFlowDurabilityLevel:
+    durabilityHint: MAX_SURVIVABILITY
+  location:
+    adminAddress: "xXMartinDXx@gmail.com"
+    url: "http://yourhost.goatsmodcompilation/jenkins/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  pollSCM:
+    pollingThreadCount: 10
+  resourceRoot:
+    url: "https://github.com/TheGoatGod/Goats-Mod-Compilation/"
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+  whitelist:
+    enabled: false
+tool:
+  git:
+    installations:
+    - home: "git.exe"
+      name: "Default"
+  jdk:
+    installations:
+    - properties:
+      - installSource:
+          installers:
+          - jdkInstaller:
+              acceptLicense: false
+              id: "jdk-9.0.4-oth-JPR"
+    - properties:
+      - installSource:
+          installers:
+          - jdkInstaller:
+              acceptLicense: false
+              id: "jdk-9.0.4-oth-JPR"
