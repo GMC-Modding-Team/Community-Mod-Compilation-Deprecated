@@ -8,7 +8,7 @@
     "material": [ "steel" ],
     "symbol": "=",
     "color": "dark_gray",
-    "proportional": { "price": 3, "damage": 3.0, "pierce": 3.0 }
+    "proportional": { "price": 3, "ranged_damage": { "damage_type": "stab", "amount": 3, "armor_penetration": 3 } }
   },
   {
     "id": "rebar_rail",
@@ -28,8 +28,7 @@
     "count": 10,
     "ammo_type": "metal_rail",
     "range": 40,
-    "damage": 70,
-    "pierce": 25,
+    "ranged_damage": { "damage_type": "stab", "amount": 70, "armor_penetration": 25 },
     "dispersion": 150,
     "effects": [ "RECYCLED", "NON-FOULING" ]
   },
@@ -39,7 +38,8 @@
     "type": "AMMO",
     "name": { "str": "steel rail" },
     "description": "A short piece of steel which has been forged true and sharpened on one end.  Could be used as a projectile by a sufficiently powerful electromagnetic weapon.",
-    "volume": "20ml",
+    "weight": "5 g",
+    "volume": "20 ml",
     "price": 1500,
     "price_postapoc": 1500,
     "bashing": 4,
@@ -48,7 +48,7 @@
     "color": "light_gray",
     "dispersion": 0,
     "effects": [ "NEVER_MISFIRES", "NON-FOULING" ],
-    "relative": { "range": 10, "damage": -5, "pierce": 15 }
+    "relative": { "range": 10, "ranged_damage": { "damage_type": "stab", "amount": -5, "armor_penetration": 15 } }
   },
   {
     "type": "AMMO",
@@ -67,7 +67,7 @@
     "ammo_type": "shotcanister",
     "looks_like": "shot_scrap",
     "range": 1,
-    "damage": 10,
+    "ranged_damage": { "damage_type": "stab", "amount": 10 },
     "dispersion": 250,
     "loudness": 0,
     "count": 10
@@ -89,8 +89,7 @@
     "ammo_type": "shotcanister",
     "looks_like": "shot_scrap",
     "range": 2,
-    "pierce": 1,
-    "damage": 7,
+    "ranged_damage": { "damage_type": "stab", "amount": 7,"armor_penetration": 1 },
     "dispersion": 80,
     "loudness": 0,
     "count": 10
@@ -112,8 +111,7 @@
     "ammo_type": "shotcanister",
     "looks_like": "shot_scrap",
     "range": 3,
-    "damage": 13,
-    "pierce": 7,
+    "ranged_damage": { "damage_type": "stab", "amount": 13, "armor_penetration": 7 },
     "dispersion": 50,
     "loudness": 0,
     "count": 10
@@ -135,8 +133,7 @@
     "ammo_type": "shotcanister",
     "looks_like": "shot_scrap",
     "range": 2,
-    "damage": 12,
-    "pierce": 2,
+    "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 2 },
     "dispersion": 100,
     "loudness": 0,
     "count": 10
