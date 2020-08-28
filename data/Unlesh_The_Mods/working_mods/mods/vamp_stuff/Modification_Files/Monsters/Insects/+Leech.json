@@ -88,7 +88,6 @@
     "size": "SMALL",
     "species": [ "INSECT", "LEECH" ],
     "speed": 95,
-    "starting_ammo": { "leechblood": 1000, "leechsharptooth": 100, "leechtooth": 100 },
     "symbol": "~",
     "type": "MONSTER",
     "upgrades": { "half_life": 12, "into_group": "GROUP_LEECH_UPGRADE" }
@@ -116,7 +115,7 @@
     "melee_dice_sides": 1,
     "melee_skill": 1,
     "morale": 100,
-    "name": "bloated leech",
+    "name": { "str": "bloated leech" },
     "size": "SMALL",
     "special_attacks": [ [ "SUICIDE", 5 ] ],
     "species": [ "INSECT", "LEECH" ],
@@ -182,7 +181,6 @@
     "size": "MEDIUM",
     "special_attacks": [
       {
-        "ammo_type": "leechblood",
         "cooldown": 3,
         "description": "The blood surge leech showers its blood!",
         "fake_dex": 8,
@@ -190,9 +188,7 @@
         "fake_skills": [ [ "gun", 3 ], [ "smg", 2 ] ],
         "fake_str": 12,
         "gun_type": "bloodsurgeleechmouth",
-        "max_ammo": 1000,
         "move_cost": 255,
-        "no_ammo_sound": "nothing but a joke.",
         "ranges": [ [ 1, 3, "DEFAULT" ] ],
         "targeting_cost": 100,
         "targeting_sound": "bubbling liquid",
@@ -202,7 +198,6 @@
     ],
     "species": [ "INSECT", "LEECH" ],
     "speed": 90,
-    "starting_ammo": { "leechblood": 1000 },
     "symbol": "$",
     "type": "MONSTER",
     "vision_day": 25
@@ -267,16 +262,13 @@
     "size": "TINY",
     "special_attacks": [
       {
-        "ammo_type": "leechtooth",
         "cooldown": 3,
         "description": "The eyed leech spew its tooth!",
         "fake_dex": 8,
         "fake_per": 8,
         "fake_skills": [ [ "gun", 1 ], [ "pistol", 1 ] ],
         "gun_type": "eyedleechmouth",
-        "max_ammo": 100,
         "move_cost": 125,
-        "no_ammo_sound": "nothing but a joke.",
         "ranges": [ [ 1, 10, "DEFAULT" ] ],
         "targeting_cost": 120,
         "targeting_sound": "snapped tooth",
@@ -286,7 +278,6 @@
     ],
     "species": [ "INSECT", "LEECH" ],
     "speed": 100,
-    "starting_ammo": { "leechtooth": 100 },
     "symbol": "~",
     "type": "MONSTER",
     "upgrades": { "half_life": 12, "into_group": "GROUP_LEECH_EYEDUPGRADE" },
@@ -351,7 +342,6 @@
     "size": "TINY",
     "species": [ "INSECT", "LEECH" ],
     "speed": 100,
-    "starting_ammo": { "leechblood": 1000, "leechsharptooth": 100, "leechtooth": 100 },
     "symbol": "~",
     "type": "MONSTER",
     "upgrades": { "half_life": 12, "into_group": "GROUP_LEECH_UPGRADE" }
@@ -384,16 +374,13 @@
     "size": "SMALL",
     "special_attacks": [
       {
-        "ammo_type": "leechsharptooth",
         "cooldown": 5,
         "description": "The sharpshooter leech spew it tooth!",
         "fake_dex": 9,
         "fake_per": 9,
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 2 ] ],
         "gun_type": "sharpshooterleechmouth",
-        "max_ammo": 100,
         "move_cost": 175,
-        "no_ammo_sound": "nothing but a joke.",
         "ranges": [ [ 1, 13, "DEFAULT" ] ],
         "targeting_cost": 175,
         "targeting_sound": "snapped tooth",
@@ -403,7 +390,6 @@
     ],
     "species": [ "INSECT", "LEECH" ],
     "speed": 105,
-    "starting_ammo": { "leechsharptooth": 100 },
     "symbol": "~",
     "type": "MONSTER",
     "vision_day": 35
