@@ -30,7 +30,9 @@
     "max_charges": 50,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "artifact_data": { "charge_type": "ARTC_TIME" }
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ] } ]
+    }
   },
   {
     "id": "remilia_Gungnir02",
@@ -62,7 +64,23 @@
     "max_charges": 50,
     "charges_per_use": 0,
     "turns_per_charge": 150,
-    "artifact_data": { "charge_type": "ARTC_TIME", "effects_carried": [ "AEP_SAP_LIFE", "AEP_ALL_UP", "AEP_SPEED_UP" ] }
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ],
+          "intermittent_activation": {
+            "effects": [
+              {
+                "frequency": "2 minutes",
+                "spell_effects": [ { "id": "AEP_SAP_LIFE" }, { "id": "AEP_ALL_UP" }, { "id": "AEP_SPEED_UP" } ]
+              }
+            ]
+          }
+        }
+      ]
+    }
   },
   {
     "id": "remilia_Gungnir03",
@@ -87,7 +105,9 @@
     "max_charges": 50,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "artifact_data": { "charge_type": "ARTC_TIME" }
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 5 } ] } ]
+    }
   },
   {
     "id": "frandre_lavateinn01",
@@ -121,7 +141,9 @@
     "max_charges": 50,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "artifact_data": { "charge_type": "ARTC_TIME" }
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 5 } ] } ]
+    }
   },
   {
     "id": "frandre_lavateinn02",
@@ -165,7 +187,23 @@
     "max_charges": 50,
     "charges_per_use": 0,
     "turns_per_charge": 150,
-    "artifact_data": { "charge_type": "ARTC_TIME", "effects_carried": [ "AEP_SAP_LIFE", "AEP_ALL_UP", "AEP_SPEED_UP" ] }
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ],
+          "intermittent_activation": {
+            "effects": [
+              {
+                "frequency": "2 minutes",
+                "spell_effects": [ { "id": "AEP_SAP_LIFE" }, { "id": "AEP_ALL_UP" }, { "id": "AEP_SPEED_UP" } ]
+              }
+            ]
+          }
+        }
+      ]
+    }
   },
   {
     "id": "frandre_lavateinn03",
@@ -206,7 +244,9 @@
     "max_charges": 50,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "artifact_data": { "charge_type": "ARTC_TIME" }
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 5 } ] } ]
+    }
   },
   {
     "id": "t_kusanagi01",
@@ -249,17 +289,23 @@
     "initial_charges": 2,
     "max_charges": 20,
     "charges_per_use": 5,
-    "use_action": {
-      "menu_text": "Sun protection",
-      "type": "ARTIFACT",
-      "msg": "You have prayed to Amaterasu.",
-      "need_charges_msg": "Activate ability is not currently available. Apparently it seems to be filled with sunlight."
-    },
-    "artifact_data": {
-      "charge_type": "ARTC_SOLAR",
-      "effects_carried": [ "AEP_PER_UP", "AEP_PSYSHIELD" ],
-      "effects_wielded": [ "AEP_ALL_UP", "AEP_EXTINGUISH" ],
-      "effects_activated": [ "AEA_HEAL", "AEA_HEAL" ]
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "ARTC_SOLAR", "once_in": 3 } ],
+          "intermittent_activation": {
+            "effects": [
+              {
+                "frequency": "2 minutes",
+                "spell_effects": [ { "id": "AEP_ALL_UP" }, { "id": "AEP_EXTINGUISH" }, { "id": "AEP_PSYSHIELD" }, { "id": "AEP_PER_UP" } ]
+              }
+            ]
+          }
+        }
+      ],
+      "active_effects": [ { "id": "AEA_HEAL" }, { "id": "AEA_HEAL" } ]
     }
   },
   {
@@ -473,7 +519,9 @@
     "max_charges": 240,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 5 } ] } ]
+    },
     "use_action": {
       "type": "transform",
       "target": "dowsing_rod2",
@@ -502,7 +550,23 @@
     "charges_per_use": 0,
     "turns_per_charge": 150,
     "revert_to": "dowsing_rod",
-    "artifact_data": { "charge_type": "ARTC_TIME", "effects_carried": [ "AEP_SPEED_DOWN", "AEP_CLAIRVOYANCE" ] },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "ARTC_TIME", "once_in": 3 } ],
+          "intermittent_activation": {
+            "effects": [
+              {
+                "frequency": "2 minutes",
+                "spell_effects": [ { "id": "AEP_SPEED_DOWN" }, { "id": "AEP_CLAIRVOYANCE" }, { "id": "AEP_SPEED_UP" } ]
+              }
+            ]
+          }
+        }
+      ]
+    },
     "use_action": { "type": "transform", "target": "dowsing_rod", "msg": "You stopped dowsing.", "active": false, "need_charges": 0 }
   },
   {
