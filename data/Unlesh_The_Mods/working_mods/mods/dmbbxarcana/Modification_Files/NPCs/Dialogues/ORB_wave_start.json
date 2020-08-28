@@ -6,14 +6,17 @@
       "text": "[SELECT WAVEPACK] Arcana",
       "topic": "TALK_DMBB_ORB_command_wave",
       "condition": { "not": { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "has_selected", "value": "yes" } },
-      "effect": [ { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "has_selected", "value": "yes" } ]
+      "effect": [
+        { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
+        { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "has_selected", "value": "yes" }
+      ]
     },
     {
       "text": "[START] Special Wave - Anomalies 1",
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave5", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specarcanaano1", "context": "finish", "value": "yes" } }
         ]
@@ -42,7 +45,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave5", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specarcanamor1", "context": "finish", "value": "yes" } }
         ]
@@ -68,7 +71,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave10", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specarcanasof1", "context": "finish", "value": "yes" } }
         ]
@@ -94,7 +97,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave10", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specarcanaarc1", "context": "finish", "value": "yes" } }
         ]
@@ -120,7 +123,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave15", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specarcanadra1", "context": "finish", "value": "yes" } }
         ]
@@ -146,7 +149,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "arcana", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave20", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specarcanaser1", "context": "finish", "value": "yes" } }
         ]
