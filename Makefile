@@ -159,7 +159,7 @@ ASTYLE_BINARY = astyle
 
 # Enable astyle by default
 ifndef ASTYLE
-  ASTYLE = 1
+  ASTYLE = 0
 endif
 
 # Enable json format check by default
@@ -183,7 +183,7 @@ endif
 
 # Default to disabling clang
 ifndef CLANG
-  CLANG = 0
+  CLANG = 1
 endif
 
 # Determine JSON formatter binary name
@@ -801,7 +801,7 @@ SOURCES := $(wildcard $(SRC_DIR)/*.cpp)
 HEADERS := $(wildcard $(SRC_DIR)/*.h)
 TESTSRC := $(wildcard tests/*.cpp)
 TESTHDR := $(wildcard tests/*.h)
-JSON_FORMATTER_SOURCES := tools/format/format.cpp src/json.cpp
+JSON_FORMATTER_SOURCES := tools/format/format.cpp tools/format/format_main.cpp src/json.cpp
 CHKJSON_SOURCES := src/chkjson/chkjson.cpp src/json.cpp
 CLANG_TIDY_PLUGIN_SOURCES := \
   $(wildcard tools/clang-tidy-plugin/*.cpp tools/clang-tidy-plugin/*/*.cpp)
