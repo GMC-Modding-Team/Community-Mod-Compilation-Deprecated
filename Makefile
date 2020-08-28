@@ -159,7 +159,7 @@ ASTYLE_BINARY = astyle
 
 # Enable astyle by default
 ifndef ASTYLE
-  ASTYLE = 0
+  ASTYLE = 1
 endif
 
 # Enable json format check by default
@@ -183,7 +183,7 @@ endif
 
 # Default to disabling clang
 ifndef CLANG
-  CLANG = 1
+  CLANG = 0
 endif
 
 # Determine JSON formatter binary name
