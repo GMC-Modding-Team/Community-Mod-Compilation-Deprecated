@@ -2,45 +2,38 @@
   {
     "id": "elec_razor",
     "type": "TOOL",
-    "name": { "str": "electric razor" },
+    "name": { "str": "electric razor", "str_pl": "electric razors" },
     "description": "This is a pocket-sized electric razor for fast and safe shaving.  You can use it to shave if it's supplied with batteries.  It requires 10 batteries per use.",
     "weight": "138 g",
     "volume": "250 ml",
     "price": 3000,
+    "price_postapoc": 250,
     "to_hit": -1,
     "bashing": 1,
     "material": [ "plastic", "aluminum" ],
     "symbol": ";",
     "color": "yellow",
     "ammo": [ "battery" ],
+    "charges_per_use": 10,
+    "use_action": [ "SHAVEKIT" ],
     "pocket_data": [
       {
-        "magazine_well": "300 ml",
         "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [
-          "light_minus_disposable_cell",
-          "light_disposable_cell",
-          "light_minus_battery_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
-        ]
+        "item_restriction": [ "light_minus_battery_cell", "light_minus_atomic_battery_cell", "light_minus_disposable_cell" ]
       }
-    ],
-    "charges_per_use": 10,
-    "use_action": "SHAVEKIT"
+    ]
   },
   {
     "id": "press_large",
     "type": "TOOL",
-    "name": { "str": "large press" },
+    "name": { "str": "large press", "str_pl": "large presses" },
     "description": "Large press that can be used to glue wooden parts together under pressure.",
-    "weight": "71520 g",
-    "volume": "100 L",
+    "weight": "30 kg",
+    "volume": "50 L",
     "price": 50000,
     "to_hit": -4,
     "bashing": 15,
@@ -74,14 +67,13 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
         "holster": true,
         "max_contains_volume": "20 L",
-        "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
         "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
       }
-    ],
-    "magazine_well": 4
+    ]
   },
   {
     "id": "lathe",
@@ -93,21 +85,20 @@
     "to_hit": -6,
     "weight": "40 kg",
     "volume": "72 L",
-    "material": [ "steel" ],
+    "material": "steel",
     "symbol": ";",
     "color": "green",
-    "ammo": [ "battery" ],
+    "ammo": "battery",
     "flags": [ "ALLOWS_REMOTE_USE" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
         "holster": true,
         "max_contains_volume": "20 L",
-        "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
         "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
       }
-    ],
-    "magazine_well": 4
+    ]
   }
 ]
