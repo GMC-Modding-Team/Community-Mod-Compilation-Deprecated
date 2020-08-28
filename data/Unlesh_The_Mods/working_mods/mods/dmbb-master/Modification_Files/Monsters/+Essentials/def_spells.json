@@ -714,9 +714,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_fire_adult_fireball" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_fire_adult_fireball" } ],
     "effect_str": "efc_mtc_dragon_fire_adult_fireball_note",
     "min_aoe": 30
   },
@@ -747,9 +745,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_fire_adult_fieryflash" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_fire_adult_fieryflash" } ],
     "effect_str": "efc_mtc_dragon_fire_adult_fieryflash_note",
     "min_aoe": 30
   },
@@ -781,9 +777,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_fire_adult_firebreath" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_fire_adult_firebreath" } ],
     "effect_str": "eff_mtc_dragon_fire_adult_firebreath_note",
     "min_aoe": 30
   },
@@ -878,10 +872,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_ice_adult_absolutezero_freeze" },
-      { "id": "mon_mtc_dragon_ice_adult_absolutezero" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_absolutezero_freeze" }, { "id": "mon_mtc_dragon_ice_adult_absolutezero" } ],
     "effect_str": "eff_mtc_dragon_ice_adult_absolutezero_note",
     "min_aoe": 24
   },
@@ -903,9 +894,7 @@
     "id": "mon_mtc_dragon_ice_adult_iciclevolley_target_random",
     "name": "a spell",
     "description": "Targets then casts the spells.",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_ice_adult_iciclevolley" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_iciclevolley" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "target_attack",
@@ -921,9 +910,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_ice_adult_iciclevolley_target_random" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_iciclevolley_target_random" } ],
     "effect_str": "eff_mtc_dragon_ice_adult_iciclevolley_note",
     "min_aoe": 24
   },
@@ -958,9 +945,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_ice_adult_icebeam" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_icebeam" } ],
     "effect_str": "eff_mtc_dragon_ice_adult_icebeam_note",
     "min_aoe": 24
   },
@@ -994,9 +979,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_ice_adult_blizzard", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_blizzard", "hit_self": true } ],
     "effect_str": "eff_mtc_dragon_ice_adult_blizzard_note",
     "min_aoe": 24
   },
@@ -1032,9 +1015,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_ice_adult_icebreath" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_icebreath" } ],
     "effect_str": "eff_mtc_dragon_ice_adult_icebreath_note",
     "min_aoe": 24
   },
@@ -1127,9 +1108,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_shockbeam" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_shockbeam" } ],
     "effect_str": "eff_mtc_dragon_storm_adult_shockbeam_note",
     "min_aoe": 20
   },
@@ -1160,9 +1139,7 @@
     "id": "mon_mtc_dragon_storm_adult_shockstorm_target_random",
     "name": "a spell",
     "description": "Targets then casts the spells.",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_shockstorm" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_shockstorm" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "target_attack",
@@ -1178,9 +1155,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_shockstorm_target_random" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_shockstorm_target_random" } ],
     "effect_str": "eff_mtc_dragon_storm_adult_shockstorm_note",
     "min_aoe": 20
   },
@@ -1204,9 +1179,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_charge" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_charge" } ],
     "effect_str": "eff_mtc_dragon_storm_adult_charge_note",
     "min_aoe": 20
   },
@@ -1235,9 +1208,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_thunderstrike" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_thunderstrike" } ],
     "effect_str": "eff_mtc_dragon_storm_adult_thunderstrike_note",
     "min_aoe": 20
   },
@@ -1268,9 +1239,7 @@
     "id": "mon_mtc_dragon_storm_adult_thunderblasts_target_random",
     "name": "a spell",
     "description": "Targets then casts the spells.",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_thunderblasts" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_thunderblasts" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "target_attack",
@@ -1286,9 +1255,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_dragon_storm_adult_thunderblasts_target_random" }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_thunderblasts_target_random" } ],
     "effect_str": "eff_mtc_dragon_storm_adult_thunderblasts_note",
     "min_aoe": 20
   },
@@ -1346,10 +1313,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_goblin_mage_hexblast" },
-      { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_goblin_mage_hexblast" }, { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true } ],
     "effect_str": "eff_mtc_goblin_mage_hexblast_note",
     "min_aoe": 30
   },
@@ -1373,10 +1337,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_goblin_mage_poisoncoat" },
-      { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_goblin_mage_poisoncoat" }, { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true } ],
     "effect_str": "eff_mtc_goblin_mage_poisoncoat_note",
     "min_aoe": 36
   },
@@ -1402,10 +1363,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_goblin_mage_firebolt" },
-      { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_goblin_mage_firebolt" }, { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true } ],
     "effect_str": "eff_mtc_goblin_mage_firebolt_note",
     "min_aoe": 30
   },
@@ -1543,10 +1501,7 @@
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
     "effect": "target_attack",
-    "extra_effects": [
-      { "id": "mon_mtc_bugbear_shaman_hexbeam" },
-      { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_mtc_bugbear_shaman_hexbeam" }, { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true } ],
     "effect_str": "eff_mtc_bugbear_shaman_hexbeam_note",
     "min_aoe": 30
   },

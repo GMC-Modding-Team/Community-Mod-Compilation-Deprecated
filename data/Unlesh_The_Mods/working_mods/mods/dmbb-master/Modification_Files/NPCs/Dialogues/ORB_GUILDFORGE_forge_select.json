@@ -5,22 +5,10 @@
     "dynamic_line": {
       "and": [
         "Here's what I can forge.\"\n",
-        {
-          "u_has_item": "dmbb_hexsteel_chunk",
-          "yes": "\n* Armamentalist Sword"
-        },
-        {
-          "u_has_item": "dmbb_hexsteel_chunk",
-          "yes": "\n* Hex Blade"
-        },
-        {
-          "u_has_item": "dmbb_hexsteel_chunk",
-          "yes": "\n* Hex Dagger"
-        },
-        {
-          "u_has_item": "dmbb_hexsteel_chunk",
-          "yes": "\n* Hex Hammer"
-        },
+        { "u_has_item": "dmbb_hexsteel_chunk", "yes": "\n* Armamentalist Sword" },
+        { "u_has_item": "dmbb_hexsteel_chunk", "yes": "\n* Hex Blade" },
+        { "u_has_item": "dmbb_hexsteel_chunk", "yes": "\n* Hex Dagger" },
+        { "u_has_item": "dmbb_hexsteel_chunk", "yes": "\n* Hex Hammer" },
         "\n\n\"Missing something on the list? Maybe you don't have the main material in your space."
       ]
     },
@@ -72,7 +60,14 @@
       {
         "text": "[FORGE] Armamentalist Sword",
         "topic": "TALK_DMBB_ORB_GUILDSMITH_forge_now",
-        "condition": { "and": [ { "u_has_items": { "item": "dmbb_coin", "count": 100 } }, { "u_has_items": { "item": "dmbb_hexsteel_chunk", "count": 4 } }, { "u_has_items": { "item": "leather", "count": 2 } }, { "u_has_items": { "item": "fur", "count": 2 } } ] },
+        "condition": {
+          "and": [
+            { "u_has_items": { "item": "dmbb_coin", "count": 100 } },
+            { "u_has_items": { "item": "dmbb_hexsteel_chunk", "count": 4 } },
+            { "u_has_items": { "item": "leather", "count": 2 } },
+            { "u_has_items": { "item": "fur", "count": 2 } }
+          ]
+        },
         "effect": [
           { "u_sell_item": "dmbb_coin", "count": 100 },
           { "npc_consume_item": "dmbb_coin", "count": 100 },
@@ -123,7 +118,14 @@
       {
         "text": "[FORGE] Hex Blade",
         "topic": "TALK_DMBB_ORB_GUILDSMITH_forge_now",
-        "condition": { "and": [ { "u_has_items": { "item": "dmbb_coin", "count": 80 } }, { "u_has_items": { "item": "dmbb_hexsteel_chunk", "count": 5 } }, { "u_has_items": { "item": "leather", "count": 2 } }, { "u_has_items": { "item": "fur", "count": 2 } } ] },
+        "condition": {
+          "and": [
+            { "u_has_items": { "item": "dmbb_coin", "count": 80 } },
+            { "u_has_items": { "item": "dmbb_hexsteel_chunk", "count": 5 } },
+            { "u_has_items": { "item": "leather", "count": 2 } },
+            { "u_has_items": { "item": "fur", "count": 2 } }
+          ]
+        },
         "effect": [
           { "u_sell_item": "dmbb_coin", "count": 80 },
           { "npc_consume_item": "dmbb_coin", "count": 80 },
