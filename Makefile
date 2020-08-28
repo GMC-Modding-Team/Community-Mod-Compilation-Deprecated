@@ -159,7 +159,7 @@ ASTYLE_BINARY = astyle
 
 # Enable astyle by default
 ifndef ASTYLE
-  ASTYLE = 1
+  ASTYLE = 0
 endif
 
 # Enable json format check by default
