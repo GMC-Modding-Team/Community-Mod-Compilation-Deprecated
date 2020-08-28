@@ -6,14 +6,17 @@
       "text": "[SELECT WAVEPACK] Secronom",
       "topic": "TALK_DMBB_ORB_command_wave",
       "condition": { "not": { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "has_selected", "value": "yes" } },
-      "effect": [ { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "has_selected", "value": "yes" } ]
+      "effect": [
+        { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
+        { "u_add_var": "dmbb_orb", "type": "wavepack", "context": "has_selected", "value": "yes" }
+      ]
     },
     {
       "text": "[START] Special Wave - Swarmer Swarm 1",
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave5", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecroswa1", "context": "finish", "value": "yes" } }
         ]
@@ -42,7 +45,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave10", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecrosad1", "context": "finish", "value": "yes" } }
         ]
@@ -71,7 +74,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave10", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecrofbs1", "context": "finish", "value": "yes" } }
         ]
@@ -100,7 +103,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave15", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecrocar1", "context": "finish", "value": "yes" } }
         ]
@@ -129,7 +132,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave15", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecrovec1", "context": "finish", "value": "yes" } }
         ]
@@ -158,7 +161,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave20", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecroeni1", "context": "finish", "value": "yes" } }
         ]
@@ -187,7 +190,7 @@
       "topic": "TALK_DONE",
       "condition": {
         "and": [
-          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" }, 
+          { "u_has_var": "dmbb_orb", "type": "wavepack", "context": "secronom", "value": "yes" },
           { "u_has_var": "dmbb_orb", "type": "wave50", "context": "finish", "value": "yes" },
           { "not": { "u_has_var": "dmbb_orb", "type": "specsecrocms1", "context": "finish", "value": "yes" } }
         ]
