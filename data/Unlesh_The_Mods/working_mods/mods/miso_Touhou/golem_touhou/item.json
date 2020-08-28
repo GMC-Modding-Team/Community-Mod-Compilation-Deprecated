@@ -32,7 +32,9 @@
       "target": "magical_power_converter",
       "need_charges": 0
     },
-    "artifact_data": { "charge_type": "ARTC_HP" }
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_HP", "once_in": 5, "self": true } ] } ]
+    }
   },
   {
     "id": "magical_power_converter",
