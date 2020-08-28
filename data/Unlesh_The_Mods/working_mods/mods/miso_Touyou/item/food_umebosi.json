@@ -421,13 +421,7 @@
     "charges_per_use": 60,
     "turns_per_charge": 0,
     "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WIELD",
-          "condition": "ALWAYS",
-          "hit_you_effect": [ { "id": "ARTC_SOLAR", "once_in": 3 } ]
-        }
-      ]
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "ARTC_SOLAR", "once_in": 3 } ] } ]
     }
   },
   {
