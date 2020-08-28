@@ -6,11 +6,17 @@
       "and": [
         "Pick the quest you want to engage.\"\n",
         {
-          "u_has_var": "dmbb_orb", "type": "guildmaster_quest_selected", "context": "goblinsiege", "value": "yes",
+          "u_has_var": "dmbb_orb",
+          "type": "guildmaster_quest_selected",
+          "context": "goblinsiege",
+          "value": "yes",
           "no": "\n* Goblin Siege!"
         },
         {
-          "u_has_var": "dmbb_orb", "type": "guildmaster_quest_selected", "context": "firenice", "value": "yes",
+          "u_has_var": "dmbb_orb",
+          "type": "guildmaster_quest_selected",
+          "context": "firenice",
+          "value": "yes",
           "no": "\n* Fire and Ice"
         },
         "\n\n\"You can only partake on one quest at a time."
@@ -64,10 +70,7 @@
     "type": "talk_topic",
     "dynamic_line": "This item is exclusively given to those who are successful in slaying the fire and ice dragons in this quest.\"\n\nShowing basic information for \"Dragonslayer\":\n* bash - 16\n* cut - 36\n\nAbilities:\n* Dragon's Bane - each attack has a 1/3 chance to deal 45-60 cutting damage to dragon-type monsters\n\n\"(Obtained immediately after completing \"Fire and Ice\" quest)",
     "responses": [
-      {
-        "text": "[INFO] Fire and Ice",
-        "topic": "TALK_DMBB_ORB_GUILDMASTER_quest_firenice"
-      },
+      { "text": "[INFO] Fire and Ice", "topic": "TALK_DMBB_ORB_GUILDMASTER_quest_firenice" },
       { "text": "Nevermind.", "topic": "TALK_DMBB_ORB_GUILDMASTER" }
     ]
   },

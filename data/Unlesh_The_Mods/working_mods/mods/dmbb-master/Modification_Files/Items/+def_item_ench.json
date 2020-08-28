@@ -301,7 +301,12 @@
     "id": "dmbb_rune_worn_strength_ench",
     "has": "WORN",
     "condition": "ALWAYS",
-    "values": [ { "value": "STRENGTH", "add": 1 }, { "value": "ITEM_ARMOR_BASH", "add": -1 }, { "value": "ITEM_ARMOR_CUT", "add": -1 }, { "value": "ITEM_ARMOR_STAB", "add": -1 } ],
+    "values": [
+      { "value": "STRENGTH", "add": 1 },
+      { "value": "ITEM_ARMOR_BASH", "add": -1 },
+      { "value": "ITEM_ARMOR_CUT", "add": -1 },
+      { "value": "ITEM_ARMOR_STAB", "add": -1 }
+    ],
     "ench_effects": [ { "effect": "mabuff:dmbb_buff_effs_rune_strength", "intensity": 1 } ]
   },
   {

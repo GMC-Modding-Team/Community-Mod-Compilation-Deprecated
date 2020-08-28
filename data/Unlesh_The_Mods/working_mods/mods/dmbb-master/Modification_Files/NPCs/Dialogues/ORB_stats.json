@@ -10,15 +10,39 @@
     "dynamic_line": {
       "and": [
         "*will view the current upgrades in what category?",
-        { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "passive", "value": "yes", "yes": "\n\n* PASSIVE" },
+        {
+          "u_has_var": "dmbb_orb",
+          "type": "has_upgrade",
+          "context": "passive",
+          "value": "yes",
+          "yes": "\n\n* PASSIVE"
+        },
         { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "active", "value": "yes", "yes": "\n\n* ACTIVE" },
-        { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "sentinel", "value": "yes", "yes": "\n\n* SENTINEL" }
+        {
+          "u_has_var": "dmbb_orb",
+          "type": "has_upgrade",
+          "context": "sentinel",
+          "value": "yes",
+          "yes": "\n\n* SENTINEL"
+        }
       ]
     },
     "responses": [
-      { "text": "View \"PASSIVE\" upgrades", "topic": "TALK_DMBB_ORB_command_stat_pas", "condition": { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "passive", "value": "yes" } },
-      { "text": "View \"ACTIVE\" upgrades", "topic": "TALK_DMBB_ORB_command_stat_act", "condition": { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "active", "value": "yes" } },
-      { "text": "View \"SENTINEL\" upgrades", "topic": "TALK_DMBB_ORB_command_stat_sen", "condition": { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "sentinel", "value": "yes" } },
+      {
+        "text": "View \"PASSIVE\" upgrades",
+        "topic": "TALK_DMBB_ORB_command_stat_pas",
+        "condition": { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "passive", "value": "yes" }
+      },
+      {
+        "text": "View \"ACTIVE\" upgrades",
+        "topic": "TALK_DMBB_ORB_command_stat_act",
+        "condition": { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "active", "value": "yes" }
+      },
+      {
+        "text": "View \"SENTINEL\" upgrades",
+        "topic": "TALK_DMBB_ORB_command_stat_sen",
+        "condition": { "u_has_var": "dmbb_orb", "type": "has_upgrade", "context": "sentinel", "value": "yes" }
+      },
       { "text": "< - - -", "topic": "TALK_DMBB_ORB_command" }
     ]
   },
@@ -123,7 +147,11 @@
           "yes": {
             "u_has_trait": "DMBB_ORB_PC_int_plus",
             "no": "\n* SENTINEL - Intelligence+",
-            "yes": { "u_has_trait": "DMBB_ORB_PC_int_plusultra", "no": "\n* SENTINEL - Intelligence++", "yes": "\n* SENTINEL - Intelligence+++" }
+            "yes": {
+              "u_has_trait": "DMBB_ORB_PC_int_plusultra",
+              "no": "\n* SENTINEL - Intelligence++",
+              "yes": "\n* SENTINEL - Intelligence+++"
+            }
           }
         },
         {
@@ -131,7 +159,11 @@
           "yes": {
             "u_has_trait": "DMBB_ORB_PC_per_plus",
             "no": "\n* SENTINEL - Perception+",
-            "yes": { "u_has_trait": "DMBB_ORB_PC_per_plusultra", "no": "\n* SENTINEL - Perception++", "yes": "\n* SENTINEL - Perception+++" }
+            "yes": {
+              "u_has_trait": "DMBB_ORB_PC_per_plusultra",
+              "no": "\n* SENTINEL - Perception++",
+              "yes": "\n* SENTINEL - Perception+++"
+            }
           }
         },
         {

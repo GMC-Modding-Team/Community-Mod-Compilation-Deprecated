@@ -2,28 +2,37 @@
   "id": "TALK_DMBB_ORB_command_endwave",
   "type": "talk_topic",
   "dynamic_line": "*blasts beams of light rays, radiating into the vicinity.\n\nIts powerful explosion dropped some sentinel's essences.",
-    "speaker_effect": [
-      {
-        "effect": [ { "u_add_effect": "blind", "duration": 3 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_add_effect": "deaf", "duration": 1 }, { "u_lose_var": "dmbb_orb", "type": "guildsmith", "context": "forging", "value": "yes" } ]
-      },
-      {
-        "condition": { "npc_has_trait": "DMBB_ORB_sentguard" },
-        "effect": [ { "u_lose_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" }, { "u_buy_monster": "mon_dmbb_bless_sentguard_despawn" } ]
-      },
-      {
-        "effect": [
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_1", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_2", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_3", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_4", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_5", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_6", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_7", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_8", "om_special": "DMBB Arena" },
-          { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_9", "om_special": "DMBB Arena" }
-        ]
-      }
-    ],
+  "speaker_effect": [
+    {
+      "effect": [
+        { "u_add_effect": "blind", "duration": 3 },
+        { "u_add_effect": "deaf", "duration": 1 },
+        { "u_add_effect": "deaf", "duration": 1 },
+        { "u_add_effect": "deaf", "duration": 1 },
+        { "u_lose_var": "dmbb_orb", "type": "guildsmith", "context": "forging", "value": "yes" }
+      ]
+    },
+    {
+      "condition": { "npc_has_trait": "DMBB_ORB_sentguard" },
+      "effect": [
+        { "u_lose_var": "dmbb_orb", "type": "sentguard", "context": "summon", "value": "yes" },
+        { "u_buy_monster": "mon_dmbb_bless_sentguard_despawn" }
+      ]
+    },
+    {
+      "effect": [
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_1", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_2", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_3", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_4", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_5", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_6", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_7", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_8", "om_special": "DMBB Arena" },
+        { "mapgen_update": "dmbb_orb_arenacolor_remove", "om_terrain": "dmbb_arena_9", "om_special": "DMBB Arena" }
+      ]
+    }
+  ],
   "responses": [
     {
       "text": "[FINISH] Wave 1",

@@ -19,22 +19,27 @@
             "value": "yes",
             "no": "\n\n*25 essence\nTurret - Electric+\nDoubles the maximum health and damage of the turret, with slight gain in physical resistance.",
             "yes": {
-              "u_has_var": "dmbb_orb", "type": "bosswave2", "context": "finish", "value": "yes",
-              "yes": { "and": [ {
-                   "u_has_var": "dmbb_orb",
-                   "type": "research",
-                   "context": "turret_shock_er",
-                   "value": "yes",
-                   "no": "\n\n*100 essence\nTurret - Electric (shock)\nSignificantly increases damage and range. Slightly increases maximum health and armor."
-                 },
-                 {
-                   "u_has_var": "dmbb_orb",
-                   "type": "research",
-                   "context": "turret_shock_tesla",
-                   "value": "yes",
-                   "no": "\n\n*100 essence\nTurret - Electric (tesla)\nDecreased damage, range and fire rate, but does a radial AOE. Slightly increases maximum health and armor."
+              "u_has_var": "dmbb_orb",
+              "type": "bosswave2",
+              "context": "finish",
+              "value": "yes",
+              "yes": {
+                "and": [
+                  {
+                    "u_has_var": "dmbb_orb",
+                    "type": "research",
+                    "context": "turret_shock_er",
+                    "value": "yes",
+                    "no": "\n\n*100 essence\nTurret - Electric (shock)\nSignificantly increases damage and range. Slightly increases maximum health and armor."
+                  },
+                  {
+                    "u_has_var": "dmbb_orb",
+                    "type": "research",
+                    "context": "turret_shock_tesla",
+                    "value": "yes",
+                    "no": "\n\n*100 essence\nTurret - Electric (tesla)\nDecreased damage, range and fire rate, but does a radial AOE. Slightly increases maximum health and armor."
                   }
-                ] 
+                ]
               }
             }
           }
@@ -55,22 +60,27 @@
             "value": "yes",
             "no": "\n\n*25 essence\nTurret - Fire+\nDoubles the maximum health and damage of the turret, with slight gain in physical resistance.",
             "yes": {
-              "u_has_var": "dmbb_orb", "type": "bosswave2", "context": "finish", "value": "yes",
-              "yes": { "and": [ {
-                   "u_has_var": "dmbb_orb",
-                   "type": "research",
-                   "context": "turret_fire_pyro",
-                   "value": "yes",
-                   "no": "\n\n*100 essence\nTurret - Fire (pyro)\nSignificantly increases damage and range. Projectile does a small explosion on impact. Slightly increases maximum health and armor."
-                 },
-                 {
-                   "u_has_var": "dmbb_orb",
-                   "type": "research",
-                   "context": "turret_fire_scorch",
-                   "value": "yes",
-                   "no": "\n\n*100 essence\nTurret - Fire (scorch)\nDoes a lingering fire damage on the targets in a cone. Slightly increases maximum health and armor."
+              "u_has_var": "dmbb_orb",
+              "type": "bosswave2",
+              "context": "finish",
+              "value": "yes",
+              "yes": {
+                "and": [
+                  {
+                    "u_has_var": "dmbb_orb",
+                    "type": "research",
+                    "context": "turret_fire_pyro",
+                    "value": "yes",
+                    "no": "\n\n*100 essence\nTurret - Fire (pyro)\nSignificantly increases damage and range. Projectile does a small explosion on impact. Slightly increases maximum health and armor."
+                  },
+                  {
+                    "u_has_var": "dmbb_orb",
+                    "type": "research",
+                    "context": "turret_fire_scorch",
+                    "value": "yes",
+                    "no": "\n\n*100 essence\nTurret - Fire (scorch)\nDoes a lingering fire damage on the targets in a cone. Slightly increases maximum health and armor."
                   }
-                ] 
+                ]
               }
             }
           }
@@ -91,24 +101,27 @@
             "value": "yes",
             "no": "\n\n*25 essence\nTurret - Ice+\nDoubles the maximum health and damage of the turret, with slight gain in physical resistance.",
             "yes": {
-              "u_has_var": "dmbb_orb", "type": "bosswave2", "context": "finish", "value": "yes",
+              "u_has_var": "dmbb_orb",
+              "type": "bosswave2",
+              "context": "finish",
+              "value": "yes",
               "yes": {
                 "and": [
                   {
-                  "u_has_var": "dmbb_orb",
-                  "type": "research",
-                  "context": "turret_ice_frost",
-                  "value": "yes",
-                  "no": "\n\n*100 essence\nTurret - Ice (frost)\nSignificantly increases AOE and slow duration. Slightly increases damage, maximum health and armor."
-                 },
-                 {
-                  "u_has_var": "dmbb_orb",
-                  "type": "research",
-                  "context": "turret_ice_icicle",
-                  "value": "yes",
-                  "no": "\n\n*100 essence\nTurret - Electric (tesla)\nFires icicle spikes in rapid succession, with great range, damage output and slowness duration. Slightly increases maximum health and armor."
+                    "u_has_var": "dmbb_orb",
+                    "type": "research",
+                    "context": "turret_ice_frost",
+                    "value": "yes",
+                    "no": "\n\n*100 essence\nTurret - Ice (frost)\nSignificantly increases AOE and slow duration. Slightly increases damage, maximum health and armor."
+                  },
+                  {
+                    "u_has_var": "dmbb_orb",
+                    "type": "research",
+                    "context": "turret_ice_icicle",
+                    "value": "yes",
+                    "no": "\n\n*100 essence\nTurret - Electric (tesla)\nFires icicle spikes in rapid succession, with great range, damage output and slowness duration. Slightly increases maximum health and armor."
                   }
-                ] 
+                ]
               }
             }
           }
