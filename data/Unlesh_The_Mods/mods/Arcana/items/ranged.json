@@ -16,7 +16,7 @@
     "symbol": ",",
     "looks_like": "gold_bracelet",
     "color": "yellow",
-    "ammo": [ "essence_type" ],
+    "ammo": "essence_type",
     "skill": "magic",
     "range": 50,
     "ranged_damage": { "damage_type": "electric", "amount": 60, "armor_penetration": 15 },
@@ -27,7 +27,20 @@
     "clip_size": 5,
     "reload": 400,
     "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_symbol_judgment_wonder" } ] } ]
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_symbol_judgment_zap",
+              "once_in": 5,
+              "message": "Sparks leap from your weapon.",
+              "npc_message": "Sparks leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
     },
     "ammo_effects": [ "LIGHTNING_JUDGMENT" ],
     "flags": [ "STAB", "BELT_CLIP", "NEVER_JAMS", "PRIMITIVE_RANGED_WEAPON", "MAGIC_FOCUS", "TRADER_KEEP_EQUIPPED" ],
@@ -49,7 +62,7 @@
     "symbol": "/",
     "looks_like": "q_staff",
     "color": "red",
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
     "skill": "magic",
     "range": 20,
     "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 3 },
@@ -64,7 +77,20 @@
     "techniques": [ "WBLOCK_1", "RAPID" ],
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_sparks", "no_fail": true, "level": 0, "need_wielding": true },
     "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_bloodscourge_wonder" } ] } ]
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_bloodscourge_fire",
+              "once_in": 3,
+              "message": "The air around %2$s wavers with unearthly heat in the wake of your strike!",
+              "npc_message": "%2$s suddenly bursts into flames as %1$s swings at them!"
+            }
+          ]
+        }
+      ]
     },
     "flags": [
       "NEVER_JAMS",
@@ -94,7 +120,7 @@
     "symbol": "(",
     "looks_like": "crossbow",
     "color": "green",
-    "ammo": [ "essence_dull_type" ],
+    "ammo": "essence_dull_type",
     "skill": "magic",
     "range": 15,
     "ranged_damage": { "damage_type": "true", "amount": 40, "armor_penetration": 50 },
@@ -124,7 +150,7 @@
     "looks_like": "bagh_nakha",
     "repairs_like": "bloodscourge",
     "color": "yellow",
-    "ammo": [ "essence_pure_type" ],
+    "ammo": "essence_pure_type",
     "skill": "magic",
     "range": 40,
     "//": "High as that amount is, remember this is the equivalent to 10 essence a shot, and is half as efficient compared to the other items.",
@@ -143,7 +169,7 @@
           "has": "WIELD",
           "condition": "ALWAYS",
           "hit_you_effect": [ { "id": "arcana_react_drain_life", "once_in": 3 } ],
-          "intermittent_activation": { "effects": [ { "frequency": "25 minutes", "spell_effects": [ { "id": "arcana_react_evil_mimic" } ] } ] }
+          "//intermittent_activation": { "effects": [ { "frequency": "25 minutes", "spell_effects": [ { "id": "arcana_react_evil_mimic" } ] } ] }
         }
       ]
     },
@@ -178,7 +204,7 @@
     "looks_like": "q_staff",
     "repairs_like": "staff_druidic",
     "color": "yellow",
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
     "skill": "magic",
     "range": 20,
     "ranged_damage": { "damage_type": "acid", "amount": 30, "armor_penetration": 10 },
@@ -189,7 +215,19 @@
     "clip_size": 4,
     "reload": 200,
     "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_bane_staff_venom" } ] } ]
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_bane_staff_venom",
+              "message": "Sickening venom flows from your staff as you strike.",
+              "npc_message": "Sickening venom flows from %1$s's staff as they strike."
+            }
+          ]
+        }
+      ]
     },
     "ammo_effects": [ "ACIDBOMB", "TOXICGAS" ],
     "techniques": [ "WBLOCK_1", "RAPID" ],
