@@ -28,7 +28,6 @@
     "vision_day": 40,
     "vision_night": 4,
     "path_settings": { "max_dist": 30 },
-    "starting_ammo": { "flaming_skull": 66 },
     "special_attacks": [
       [ "scratch", 20 ],
       [ "LUNGE", 40 ],
@@ -37,20 +36,20 @@
       { "type": "bite", "cooldown": 30, "no_infection_chance": 9 },
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 8,
         "move_cost": 150,
-        "gun_type": "hell_ball",
-        "ammo_type": "flaming_skull",
+        "gun_type": "hell_ball2",
         "fake_skills": [ [ "gun", 2 ] ],
         "fake_dex": 13,
         "fake_per": 6,
-        "max_ammo": 1000,
         "ranges": [ [ 1, 13, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
         "targeting_sound": "RAAAAGHH!",
         "targeting_volume": 25,
-        "description": "The imp lets loose a fireball!",
-        "no_ammo_sound": "RAAGH?"
+        "description": "The imp lets loose a fireball!"
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -86,7 +85,6 @@
     "vision_day": 40,
     "vision_night": 4,
     "path_settings": { "max_dist": 30 },
-    "starting_ammo": { "flaming_ball": 66 },
     "special_attacks": [
       [ "LUNGE", 40 ],
       [ "scratch", 40 ],
@@ -96,21 +94,21 @@
       { "type": "bite", "cooldown": 30, "no_infection_chance": 9 },
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 8,
         "move_cost": 150,
-        "gun_type": "hell_ball",
-        "ammo_type": "flaming_ball",
+        "gun_type": "hell_ball1",
         "fake_skills": [ [ "gun", 2 ] ],
         "fake_str": 10,
         "fake_dex": 13,
         "fake_per": 7,
-        "max_ammo": 1000,
         "ranges": [ [ 2, 17, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 250,
         "targeting_sound": "RAAHHI!",
         "targeting_volume": 25,
-        "description": "The imp looses a fireball!",
-        "no_ammo_sound": "RAAGH?"
+        "description": "The imp looses a fireball!"
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -195,28 +193,27 @@
     "vision_night": 5,
     "path_settings": { "max_dist": 30 },
     "luminance": 10,
-    "starting_ammo": { "flaming_skull": 66 },
     "emit_fields": [ "emit_fire_small" ],
     "special_attacks": [
       [ "LUNGE", 20 ],
       [ "wound_minor", 10 ],
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 8,
         "move_cost": 300,
-        "gun_type": "hell_ball",
-        "ammo_type": "flaming_skull",
+        "gun_type": "hell_ball2",
         "fake_skills": [ [ "gun", 1 ], [ "pistol", 1 ] ],
         "fake_str": 5,
         "fake_dex": 15,
         "fake_per": 9,
-        "max_ammo": 1000,
         "ranges": [ [ 0, 1, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 300,
         "targeting_sound": "skaaah!",
         "targeting_volume": 15,
-        "description": "From the lost soul's mouth pours a gout of flame!",
-        "no_ammo_sound": "skiiiissh"
+        "description": "From the lost soul's mouth pours a gout of flame!"
       }
     ],
     "flags": [ "SEES", "STUMBLES", "FLIES", "POISON", "NO_BREATHE", "NOGIB", "HARDTOSHOOT", "FIREY", "SWARMS", "HIT_AND_RUN" ]
@@ -289,7 +286,6 @@
     "vision_day": 50,
     "vision_night": 5,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "hell_plasma_k": 66 },
     "special_attacks": [
       [ "SMASH", 60 ],
       [ "slash", 40 ],
@@ -305,21 +301,21 @@
       },
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 8,
         "move_cost": 150,
-        "gun_type": "hell_plasma",
-        "ammo_type": "hell_plasma_k",
+        "gun_type": "hell_plasma1",
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 1 ] ],
         "fake_str": 17,
         "fake_dex": 9,
         "fake_per": 10,
-        "max_ammo": 1000,
-        "ranges": [ [ 2, 17, "DEFAULT" ] ],
+        "ranges": [ [ 3, 25, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
         "targeting_sound": "ROOAWNNT!!",
         "targeting_volume": 40,
-        "description": "With a clap the knight's hands close!",
-        "no_ammo_sound": "Rooar?"
+        "description": "With a clap the knight's hands close!"
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -355,7 +351,6 @@
     "vision_day": 50,
     "vision_night": 7,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "hell_plasma_b": 66 },
     "special_attacks": [
       [ "SMASH", 40 ],
       [ "GRAB", 30 ],
@@ -372,21 +367,21 @@
       },
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 12,
         "move_cost": 150,
-        "gun_type": "hell_plasma",
-        "ammo_type": "hell_plasma_b",
+        "gun_type": "hell_plasma2",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 2 ] ],
         "fake_str": 17,
         "fake_dex": 9,
         "fake_per": 10,
-        "max_ammo": 1000,
-        "ranges": [ [ 2, 25, "DEFAULT" ] ],
+        "ranges": [ [ 3, 25, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 300,
         "targeting_sound": "!!ROOOWWNT!!",
         "targeting_volume": 35,
-        "description": "A ball of plasma is launched from the hand of the baron!",
-        "no_ammo_sound": "Rownt:("
+        "description": "A ball of plasma is launched from the hand of the baron!"
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -434,28 +429,27 @@
     "vision_night": 3,
     "luminance": 5,
     "path_settings": { "max_dist": 25 },
-    "starting_ammo": { "hell_napalm": 122 },
     "special_attacks": [
       [ "SMASH", 30 ],
       [ "hammer", 20 ],
       [ "FLAMETHROWER", 60 ],
       {
         "type": "gun",
-        "cooldown": 4,
+        "cooldown": 20,
         "move_cost": 200,
         "gun_type": "hell_laser_napalm",
-        "ammo_type": "hell_napalm",
         "fake_skills": [ [ "launcher", 3 ] ],
         "fake_str": 25,
         "fake_dex": 8,
         "fake_per": 9,
-        "max_ammo": 1000,
         "ranges": [ [ 3, 11, "DEFAULT" ], [ 12, 19, "AUTO" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
         "targeting_sound": "fppphh~!",
         "targeting_volume": 50,
-        "description": "The mancubus raises its arm-cannons!",
-        "no_ammo_sound": "BLOOOWM!"
+        "description": "The mancubus raises its arm-cannons!"
       }
     ],
     "flags": [
@@ -502,7 +496,6 @@
     "vision_day": 40,
     "vision_night": 10,
     "path_settings": { "max_dist": 25 },
-    "starting_ammo": { "hell_plasma_c": 122 },
     "special_attacks": [
       [ "wound_minor", 30 ],
       {
@@ -514,21 +507,21 @@
       },
       {
         "type": "gun",
-        "cooldown": 3,
+        "cooldown": 6,
         "move_cost": 95,
-        "gun_type": "hell_plasma",
-        "ammo_type": "hell_plasma_c",
+        "gun_type": "hell_plasma3",
         "fake_skills": [ [ "gun", 1 ], [ "rifle", 5 ] ],
         "fake_str": 16,
         "fake_dex": 5,
         "fake_per": 8,
-        "max_ammo": 1000,
         "ranges": [ [ 3, 30, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 300,
         "targeting_sound": "SKIIIEEEE",
         "targeting_volume": 30,
-        "description": "As the cacodemon opens its mouth a torrent of plasma bursts forth!",
-        "no_ammo_sound": "HIiiiss?"
+        "description": "As the cacodemon opens its mouth a torrent of plasma bursts forth!"
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -538,7 +531,7 @@
   {
     "id": "mon_mechaspider",
     "type": "MONSTER",
-    "name": "arachnotron",
+    "name": { "str": "arachnotron" },
     "description": "With metal girders supporting an encased brain, this lasgun-armed robot is almost ripped directly from 80s sci-fi.",
     "default_faction": "doom",
     "species": [ "ABERRATION" ],
@@ -563,27 +556,27 @@
     "vision_day": 45,
     "vision_night": 5,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "hell_laser": 264, "bot_cherub": 3, "bot_cherub_fly": 1 },
+    "starting_ammo": { "bot_cherub": 3, "bot_cherub_fly": 1 },
     "special_attacks": [
       [ "wound_minor", 30 ],
       [ "GRENADIER", 25 ],
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 8,
         "move_cost": 400,
         "gun_type": "hell_laser_gun",
-        "ammo_type": "hell_laser",
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
         "fake_str": 33,
         "fake_dex": 9,
         "fake_per": 13,
-        "max_ammo": 1000,
         "ranges": [ [ 3, 50, "AUTO" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
         "targeting_sound": "Vvvoooooooo-",
         "targeting_volume": 50,
-        "description": "The arachnotron grimaces and fires its carbine!",
-        "no_ammo_sound": "-Beep-beep-beep-"
+        "description": "The arachnotron grimaces and fires its carbine!"
       }
     ],
     "death_function": [ "SMOKEBURST", "BROKEN" ],
@@ -628,28 +621,28 @@
     "vision_day": 45,
     "vision_night": 15,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "hell_laser_queen": 666, "bot_cherub": 18, "bot_cherub_fly": 7 },
+    "starting_ammo": { "bot_cherub": 18, "bot_cherub_fly": 7 },
     "special_attacks": [
       [ "UPGRADE", 10 ],
       [ "GRENADIER", 10 ],
       { "id": "hammer", "damage_max_instance": [ { "damage_type": "bash", "amount": 35, "armor_multiplier": 0.8 } ] },
       {
         "type": "gun",
-        "cooldown": 3,
+        "cooldown": 10,
         "move_cost": 350,
         "gun_type": "hell_laser_gun_queen",
-        "ammo_type": "hell_laser_queen",
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
         "fake_str": 33,
         "fake_dex": 9,
         "fake_per": 13,
-        "max_ammo": 1000,
         "ranges": [ [ 3, 50, "AUTO" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 200,
         "targeting_sound": "rrraaaaaAHHHH-",
         "targeting_volume": 50,
-        "description": "The arachnotron grimaces and fires its carbine!",
-        "no_ammo_sound": "-Beep-beep-beep-"
+        "description": "The arachnotron grimaces and fires its carbine!"
       }
     ],
     "death_function": [ "SMOKEBURST", "MELT" ],
@@ -758,7 +751,6 @@
     "vision_day": 50,
     "vision_night": 5,
     "path_settings": { "max_dist": 35 },
-    "starting_ammo": { "cyber_rocket": 99 },
     "special_attacks": [
       {
         "id": "hammer",
@@ -767,21 +759,21 @@
       },
       {
         "type": "gun",
-        "cooldown": 5,
+        "cooldown": 27,
         "move_cost": 500,
         "gun_type": "hell_launcher",
-        "ammo_type": "cyber_rocket",
         "fake_skills": [ [ "gun", 4 ], [ "launcher", 4 ] ],
         "fake_str": 33,
         "fake_dex": 9,
         "fake_per": 13,
-        "max_ammo": 1000,
         "ranges": [ [ 1, 50, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 300,
         "targeting_sound": "a charging whine!",
         "targeting_volume": 70,
-        "description": "A series of explosions is heard as the cyberdemon raises its rifled hand!",
-        "no_ammo_sound": "ROOOAAAAAaat"
+        "description": "A series of explosions is heard as the cyberdemon raises its rifled hand!"
       }
     ],
     "death_function": [ "NORMAL", "SMOKEBURST" ],
@@ -915,26 +907,25 @@
     "vision_day": 5,
     "vision_night": 3,
     "luminance": 19,
-    "starting_ammo": { "flaming_skull": 66 },
     "emit_fields": [ "emit_fire_small" ],
     "special_attacks": [
       {
         "type": "gun",
-        "cooldown": 1,
+        "cooldown": 6,
         "move_cost": 100,
-        "gun_type": "hell_ball",
-        "ammo_type": "flaming_skull",
+        "gun_type": "hell_ball2",
         "fake_skills": [ [ "gun", 1 ], [ "pistol", 0 ] ],
         "fake_str": 4,
         "fake_dex": 11,
         "fake_per": 7,
-        "max_ammo": 1000,
         "ranges": [ [ 0, 1, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
         "targeting_cost": 300,
         "targeting_sound": "skaaah!",
         "targeting_volume": 10,
-        "description": "A tongue of flame licks out from the lost soul!",
-        "no_ammo_sound": "skiiiissh"
+        "description": "A tongue of flame licks out from the lost soul!"
       }
     ],
     "flags": [ "SEES", "STUMBLES", "FLIES", "POISON", "NO_BREATHE", "NOGIB", "HARDTOSHOOT", "FIREY", "IMMOBILE" ]
@@ -1030,30 +1021,33 @@
     "vision_day": 55,
     "vision_night": 5,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "bomblet_vile": 100, "bot_imp_revive": 3, "bot_pinky_revive": 1 },
+    "starting_ammo": { "bot_imp_revive": 3, "bot_pinky_revive": 1 },
     "special_attacks": [
       [ "RESURRECT", 30 ],
       [ "UPGRADE", 30 ],
       [ "GRENADIER", 15 ],
       [ "hammer", 20 ],
       {
+        "type": "spell",
+        "spell_data": { "id": "mon_vile_elec_attack" },
+        "cooldown": 20,
+        "monster_message": "<color_red>A gout of flames erupts into existence!</color>"
+      },
+      {
         "type": "gun",
         "cooldown": 50,
         "move_cost": 200,
-        "gun_type": "bomblet_launcher_rotary",
-        "ammo_type": "bomblet_vile",
+        "gun_type": "hell_bomblet_launcher_rotary1",
         "fake_skills": [ [ "gun", 9 ], [ "launcher", 9 ] ],
         "fake_str": 10,
         "fake_dex": 20,
         "fake_per": 7,
-        "max_ammo": 1000,
         "ranges": [ [ 0, 25, "AUTO" ] ],
         "require_targeting_player": false,
         "require_targeting_npc": false,
         "require_targeting_monster": false,
         "targeting_cost": 100,
-        "description": "A warmth spreads within you!",
-        "no_ammo_sound": "a cry of frustration!"
+        "description": "A warmth spreads within you!"
       }
     ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
@@ -1064,25 +1058,25 @@
     "id": "mon_doom_archvile_2",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 100, "bot_churl_revive": 5 }
+    "starting_ammo": { "bot_churl_revive": 5 }
   },
   {
     "id": "mon_doom_archvile_3",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 100, "bot_pinky_revive": 2, "bot_cacodemon_revive": 1 }
+    "starting_ammo": { "bot_pinky_revive": 2, "bot_cacodemon_revive": 1 }
   },
   {
     "id": "mon_doom_archvile_4",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 100, "bot_cacodemon_revive": 2 }
+    "starting_ammo": { "bot_cacodemon_revive": 2 }
   },
   {
     "id": "mon_doom_archvile_5",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 100, "bot_hell_knight_revive": 2 }
+    "starting_ammo": { "bot_hell_knight_revive": 2 }
   },
   {
     "id": "mon_doom_archdemon",
@@ -1112,7 +1106,6 @@
     "vision_day": 50,
     "vision_night": 50,
     "starting_ammo": {
-      "bomblet_archdemon": 5,
       "bot_cacodemon": 5,
       "bot_cyberdemon": 1,
       "bot_hell_baron": 5,
@@ -1129,16 +1122,20 @@
       [ "GRENADIER_ELITE", 40 ],
       [ "GRENADIER", 50 ],
       {
+        "type": "spell",
+        "spell_data": { "id": "mon_vile_elec_attack" },
+        "cooldown": 20,
+        "monster_message": "<color_red>The crisp air around feels like burning!</color>"
+      },
+      {
         "type": "gun",
         "cooldown": 60,
         "move_cost": 200,
-        "gun_type": "bomblet_launcher_single",
-        "ammo_type": "bomblet_archdemon",
+        "gun_type": "hell_bomblet_launcher_single",
         "fake_skills": [ [ "gun", 9 ], [ "launcher", 9 ] ],
         "fake_str": 10,
         "fake_dex": 13,
         "fake_per": 7,
-        "max_ammo": 1000,
         "ranges": [ [ 0, 20, "DEFAULT" ] ],
         "require_targeting_player": false,
         "require_targeting_npc": false,
@@ -1146,8 +1143,7 @@
         "targeting_cost": 200,
         "targeting_sound": "em llik tsum uoy emag eht niw ot",
         "targeting_volume": 120,
-        "description": "em llik tsum uoy emag eht niw ot",
-        "no_ammo_sound": "lliw ruoy erimda ew"
+        "description": "em llik tsum uoy emag eht niw ot"
       }
     ],
     "death_function": [ "JABBERWOCKY", "SMOKEBURST" ],
