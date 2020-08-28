@@ -731,8 +731,8 @@
       {
         "distribution": [
           { "item": "chainmail_hood", "prob": 50 },
-          { "item": "helmet_barbute", "prob": 20 },
-          { "item": "helmet_galea", "prob": 5 },
+          { "item": "helmet_galea", "prob": 15 },
+          { "item": "helmet_nasal", "prob": 10 },
           { "item": "kufi", "prob": 10 },
           { "item": "eboshi", "prob": 10 },
           { "item": "kippah", "prob": 5 }
@@ -830,7 +830,7 @@
       { "item": "water_clean" },
       { "item": "matches" },
       {
-        "distribution": [ { "item": "rag", "prob": 25, "count": [ 1, 3 ] }, { "item": "rag_bloody", "prob": 75, "count": [ 1, 3 ] } ],
+        "distribution": [ { "item": "rag", "prob": 25, "count": [ 1, 3 ] }, { "item": "bandages", "prob": 75 } ],
         "prob": 75
       },
       { "item": "essence_blood", "charges": [ 1, 3 ], "prob": 25 }
