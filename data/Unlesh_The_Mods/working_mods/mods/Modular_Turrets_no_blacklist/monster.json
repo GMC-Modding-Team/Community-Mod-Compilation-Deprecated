@@ -68,16 +68,13 @@
     "color": "light_gray",
     "luminance": 200,
     "revert_to_itype": "bot_turret_9mm",
-    "starting_ammo": { "9mm": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_9mm",
-        "ammo_type": "9mm",
         "fake_skills": [ [ "gun", 2 ], [ "smg", 2 ] ],
         "fake_dex": 9,
-        "no_ammo_sound": "click click!",
         "ranges": [ [ 0, 2, "BURST" ], [ 3, 6, "AUTO" ], [ 7, 12, "DEFAULT" ] ]
       }
     ]
@@ -94,16 +91,13 @@
     "color": "red",
     "luminance": 200,
     "revert_to_itype": "bot_turret_shot",
-    "starting_ammo": { "shot_00": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_shot",
-        "ammo_type": "shot",
         "fake_skills": [ [ "gun", 2 ], [ "shotgun", 2 ] ],
         "fake_dex": 9,
-        "no_ammo_sound": "click click!",
         "range": 8,
         "ranges": [ [ 0, 8, "DEFAULT" ] ]
       }
@@ -121,16 +115,13 @@
     "color": "blue",
     "luminance": 300,
     "revert_to_itype": "bot_turret_teargas",
-    "starting_ammo": { "40x46mm_m651": 50 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_teargas",
-        "ammo_type": "40x46mm_m651",
         "fake_skills": [ [ "gun", 2 ], [ "launcher", 2 ] ],
         "fake_dex": 9,
-        "no_ammo_sound": "click click!",
         "range": 18,
         "ranges": [ [ 0, 6, "DEFAULT" ], [ 7, 12, "BURST" ] ]
       }
@@ -148,16 +139,13 @@
     "color": "blue",
     "luminance": 300,
     "revert_to_itype": "bot_turret_beanbag",
-    "starting_ammo": { "40x46mm_m1006": 50 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 1,
         "gun_type": "robogun_beanbag",
-        "ammo_type": "40x46mm_m1006",
         "fake_skills": [ [ "gun", 2 ], [ "launcher", 2 ] ],
         "fake_dex": 9,
-        "no_ammo_sound": "click click!",
         "range": 8,
         "ranges": [ [ 0, 8, "DEFAULT" ] ]
       }
@@ -175,16 +163,13 @@
     "color": "green",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_556",
-    "starting_ammo": { "556": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_556",
-        "ammo_type": "556",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "click!",
         "range": 18,
         "ranges": [ [ 0, 4, "BURST" ], [ 4, 8, "AUTO" ], [ 9, 16, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -209,16 +194,13 @@
     "color": "green",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_308",
-    "starting_ammo": { "762_51": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_308",
-        "ammo_type": "762_51",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "click!",
         "range": 20,
         "ranges": [ [ 0, 4, "BURST" ], [ 4, 8, "AUTO" ], [ 9, 18, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -243,17 +225,14 @@
     "color": "green",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_50bmg",
-    "starting_ammo": { "50bmg": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 3,
         "move_cost": 150,
         "gun_type": "robogun_50bmg",
-        "ammo_type": "50bmg",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "click!",
         "range": 20,
         "ranges": [ [ 0, 5, "DEFAULT" ], [ 6, 10, "BURST" ], [ 11, 20, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -278,16 +257,13 @@
     "color": "green",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_8x40mm",
-    "starting_ammo": { "8mm_caseless": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_8x40mm",
-        "ammo_type": "8mm_caseless",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 6 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "whirrrr!",
         "range": 24,
         "ranges": [ [ 0, 5, "BURST" ], [ 6, 10, "AUTO" ], [ 11, 24, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -312,16 +288,13 @@
     "color": "green",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_needle",
-    "starting_ammo": { "5x50dart": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 1,
         "gun_type": "robogun_needle",
-        "ammo_type": "5x50dart",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "click!",
         "range": 18,
         "ranges": [ [ 0, 4, "BURST" ], [ 4, 8, "AUTO" ], [ 9, 16, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -346,16 +319,13 @@
     "color": "red",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_40mm",
-    "starting_ammo": { "40x46mm_m433": 50 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 3,
         "gun_type": "robogun_40mm",
-        "ammo_type": "40x53mm",
         "fake_skills": [ [ "gun", 4 ], [ "launcher", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "click!",
         "range": 30,
         "ranges": [ [ 6, 30, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -380,16 +350,13 @@
     "color": "red",
     "luminance": 200,
     "revert_to_itype": "bot_milturret_flame",
-    "starting_ammo": { "napalm": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 1,
         "gun_type": "robogun_flame",
-        "ammo_type": "napalm",
         "fake_skills": [ [ "gun", 4 ], [ "launcher", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "hiss!",
         "range": 10,
         "ranges": [ [ 0, 10, "DEFAULT" ] ],
         "require_targeting_player": true,
@@ -504,16 +471,13 @@
     "color": "magenta",
     "luminance": 300,
     "revert_to_itype": "bot_advturret_rail",
-    "starting_ammo": { "steel_rail": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 4,
         "gun_type": "robogun_rail",
-        "ammo_type": "steel_rail",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
         "fake_dex": 10,
-        "no_ammo_sound": "buzz!",
         "range": 18,
         "ranges": [ [ 0, 18, "DEFAULT" ] ],
         "require_targeting_npc": true,
@@ -601,16 +565,13 @@
     "diff": 10,
     "color": "red",
     "revert_to_itype": "bot_turret_gnome",
-    "starting_ammo": { "9mm": 100 },
     "special_attacks": [
       {
         "type": "gun",
         "cooldown": 2,
         "gun_type": "robogun_9mm",
-        "ammo_type": "9mm",
         "fake_skills": [ [ "gun", 2 ], [ "smg", 2 ] ],
         "fake_dex": 9,
-        "no_ammo_sound": "click click!",
         "ranges": [ [ 0, 2, "BURST" ], [ 3, 6, "AUTO" ], [ 7, 12, "DEFAULT" ] ]
       }
     ],
