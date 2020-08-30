@@ -106,7 +106,7 @@
   },
   {
     "id": "secro_power_armor_battery",
-    "type": "MAGAZINE",
+    "type": "TOOL_ARMOR",
     "category": "spare_parts",
     "name": { "str": "Secronom module UPS", "str_pl": "Secronom module UPS" },
     "description": "A UPS with an extremely high-capacity battery specially designed to be used for all Secronom module implant types.",
@@ -121,20 +121,23 @@
     "capacity": 2000,
     "pocket_data": [
       {
-        "pocket_type": "MAGAZINE",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
         "rigid": true,
-        "ammo_restriction": {
-          "light_minus_disposable_cell": 2000,
-          "light_disposable_cell": 2000,
-          "light_minus_battery_cell": 2000,
-          "light_battery_cell": 2000,
-          "light_plus_battery_cell": 2000,
-          "light_atomic_battery_cell": 2000,
-          "light_minus_atomic_battery_cell": 2000
-        }
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
       }
     ],
     "looks_like": "battery",
-    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
+    "flags": [ "USE_UPS", "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
   }
 ]
