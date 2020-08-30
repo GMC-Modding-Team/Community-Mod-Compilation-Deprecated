@@ -631,7 +631,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_white" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_white" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_white" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_white" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_white" ] },
@@ -639,13 +643,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_white", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_white", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_white" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_white", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_white", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_white" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_white" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_white" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_white" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_white" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_white", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_white" ] },
@@ -998,7 +1006,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_silver",
     "type": "vehicle",
     "name": "ビートル(シルバー)",
@@ -1630,7 +1639,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_silver" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_silver" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_silver" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_silver" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_silver" ] },
@@ -1638,13 +1651,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_silver", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_silver", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_silver" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_silver", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_silver", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_silver" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_silver" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_silver" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_silver" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_silver" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_silver", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_silver" ] },
@@ -1997,7 +2014,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_gray",
     "type": "vehicle",
     "name": "ビートル(グレー)",
@@ -2629,7 +2647,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_gray" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_gray" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_gray" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_gray" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_gray" ] },
@@ -2637,13 +2659,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_gray", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_gray", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_gray" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_gray", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_gray", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_gray" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_gray" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_gray" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_gray" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_gray" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_gray", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_gray" ] },
@@ -2996,7 +3022,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_black",
     "type": "vehicle",
     "name": "ビートル(ブラック)",
@@ -3628,7 +3655,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_black" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_black" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_black" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_black" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_black" ] },
@@ -3636,13 +3667,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_black", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_black", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_black" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_black", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_black", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_black" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_black" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_black" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_black" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_black" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_black", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_black" ] },
@@ -3995,7 +4030,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_orange",
     "type": "vehicle",
     "name": "ビートル(オレンジ)",
@@ -4627,7 +4663,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_orange" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_orange" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_orange" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_orange" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_orange" ] },
@@ -4635,13 +4675,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_orange", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_orange", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_orange" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_orange", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_orange", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_orange" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_orange" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_orange" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_orange" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_orange" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_orange", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_orange" ] },
@@ -4994,7 +5038,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_yellow",
     "type": "vehicle",
     "name": "ビートル(イエロー)",
@@ -5626,7 +5671,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_yellow" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_yellow" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_yellow" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_yellow" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_yellow" ] },
@@ -5634,13 +5683,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_yellow", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_yellow", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_yellow" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_yellow", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_yellow", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_yellow" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_yellow" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_yellow" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_yellow" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_yellow" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_yellow", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_yellow" ] },
@@ -5993,7 +6046,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_lime",
     "type": "vehicle",
     "name": "ビートル(ライム)",
@@ -6625,7 +6679,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_lime" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_lime" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_lime" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_lime" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_lime" ] },
@@ -6633,13 +6691,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_lime", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_lime", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_lime" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_lime", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_lime", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_lime" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_lime" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_lime" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_lime" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_lime" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_lime", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_lime" ] },
@@ -6992,7 +7054,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_gleen",
     "type": "vehicle",
     "name": "ビートル(グリーン)",
@@ -7624,7 +7687,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_gleen" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_gleen" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_gleen" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_gleen" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_gleen" ] },
@@ -7632,13 +7699,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_gleen", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_gleen", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_gleen" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_gleen", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_gleen", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_gleen" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_gleen" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_gleen" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_gleen" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_gleen" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_gleen", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_gleen" ] },
@@ -7991,7 +8062,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_aqua",
     "type": "vehicle",
     "name": "ビートル(アクア)",
@@ -8623,7 +8695,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_aqua" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_aqua" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_aqua" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_aqua" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_aqua" ] },
@@ -8631,13 +8707,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_aqua", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_aqua", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_aqua" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_aqua", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_aqua", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_aqua" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_aqua" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_aqua" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_aqua" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_aqua" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_aqua", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_aqua" ] },
@@ -8990,7 +9070,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_dodgerblue",
     "type": "vehicle",
     "name": "ビートル(ドジャーブルー)",
@@ -9622,7 +9703,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_dodgerblue" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_dodgerblue" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_dodgerblue" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_dodgerblue" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_dodgerblue" ] },
@@ -9630,13 +9715,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_dodgerblue", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_dodgerblue", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_dodgerblue" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_dodgerblue", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_dodgerblue", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_dodgerblue" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_dodgerblue" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_dodgerblue" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_dodgerblue" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_dodgerblue" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_dodgerblue", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_dodgerblue" ] },
@@ -9989,7 +10078,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_blue",
     "type": "vehicle",
     "name": "ビートル(ブルー)",
@@ -10621,7 +10711,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_blue" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_blue" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_blue" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_blue" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_blue" ] },
@@ -10629,13 +10723,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_blue", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_blue", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_blue" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_blue", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_blue", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_blue" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_blue" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_blue" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_blue" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_blue" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_blue", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_blue" ] },
@@ -10988,7 +11086,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_navy",
     "type": "vehicle",
     "name": "ビートル(ネイビー)",
@@ -11620,7 +11719,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_navy" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_navy" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_navy" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_navy" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_navy" ] },
@@ -11628,13 +11731,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_navy", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_navy", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_navy" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_navy", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_navy", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_navy" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_navy" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_navy" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_navy" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_navy" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_navy", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_navy" ] },
@@ -11987,7 +12094,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_violet",
     "type": "vehicle",
     "name": "ビートル(バイオレット)",
@@ -12619,7 +12727,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_violet" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_violet" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_violet" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_violet" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_violet" ] },
@@ -12627,13 +12739,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_violet", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_violet", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_violet" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_violet", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_violet", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_violet" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_violet" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_violet" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_violet" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_violet" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_violet", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_violet" ] },
@@ -12986,7 +13102,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_purple",
     "type": "vehicle",
     "name": "ビートル(パープル)",
@@ -13618,7 +13735,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_purple" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_purple" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_purple" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_purple" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_purple" ] },
@@ -13626,13 +13747,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_purple", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_purple", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_purple" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_purple", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_purple", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_purple" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_purple" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_purple" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_purple" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_purple" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_purple", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_purple" ] },
@@ -13985,7 +14110,8 @@
       { "x": -2, "y": 1, "chance": 5, "items": [ "jumper_cable" ] },
       { "x": -2, "y": 1, "chance": 15, "items": [ "jack_small", "wheel" ] }
     ]
-  },{
+  },
+  {
     "id": "beetle_red",
     "type": "vehicle",
     "name": "ビートル(レッド)",
@@ -14617,7 +14743,11 @@
       [ "o-+-o" ]
     ],
     "parts": [
-      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_red" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "roof_red" ]
+      },
       { "x": 0, "y": 1, "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof_red" ] },
       { "x": 0, "y": -1, "parts": [ "xlframe_vertical", "door_red" ] },
       { "x": 0, "y": 2, "parts": [ "xlframe_vertical", "door_red" ] },
@@ -14625,13 +14755,17 @@
       { "x": 1, "y": 1, "parts": [ "xlframe_horizontal", "windshield" ] },
       { "x": 1, "y": -1, "parts": [ "xlframe_vertical", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "xlframe_vertical", "windshield" ] },
-      { "x": 2, "y": 0, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_red", "engine_electric_super", "storage_battery" ] },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal_red", "engine_electric_super", "storage_battery" ]
+      },
       { "x": 2, "y": 1, "parts": [ "xlframe_horizontal", "storage_battery", "xlhalfboard_horizontal_red" ] },
       { "x": 2, "y": -1, "parts": [ "xlframe_nw", "xlhalfboard_nw_red", "wheel_steerable", "headlight" ] },
       { "x": 2, "y": 2, "parts": [ "xlframe_ne", "xlhalfboard_ne_red", "wheel_steerable", "headlight" ] },
       { "x": -1, "y": 0, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_red" ] },
       { "x": -1, "y": 1, "parts": [ "xlframe_vertical", "storage_battery", "trunk", "roof_red" ] },
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ,"xlhalfboard_vertical_red" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_red" ] },
       { "x": -1, "y": 2, "parts": [ "xlframe_vertical", "xlhalfboard_vertical_red" ] },
       { "x": -2, "y": -1, "parts": [ "xlframe_horizontal", "xlhalfboard_sw_red", "wheel_slick_steerable" ] },
       { "x": -2, "y": 0, "parts": [ "xlframe_horizontal", "door_trunk_red" ] },
