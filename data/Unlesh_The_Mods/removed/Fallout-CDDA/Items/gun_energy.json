@@ -501,17 +501,19 @@
     "color": "yellow",
     "ammo_type": [ "battery" ],
     "capacity": 1,
-    "reliability": 5,
     "pocket_data": [
       {
-        "pocket_type": "MAGAZINE",
+        "pocket_type": "MAGAZINE_WELL",
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "holster": true,
         "rigid": true,
-        "ammo_restriction": {
-          "medium_battery_cell": 1,
-          "medium_plus_battery_cell": 1,
-          "medium_atomic_battery_cell": 1,
-          "medium_disposable_cell": 1
-        }
+        "item_restriction": [
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_atomic_battery_cell",
+          "medium_disposable_cell"
+        ]
       }
     ],
     "looks_like": "battery",
