@@ -2,14 +2,13 @@
   {
     "id": "magic_fuel_bunker",
     "type": "vehicle_part",
-    "name": "magical fuel bunker",
+    "name": { "str": "magical fuel bunker" },
     "item": "magic_fuel_bunker",
     "location": "fuel_source",
     "symbol": "O",
     "color": "blue",
     "broken_color": "blue",
     "looks_like": "tank",
-    "difficulty": 1,
     "durability": 150,
     "description": "A storage space for holding solid fuels, this one designed for solid fuels of magical nature. If filled with the appropriate fuel for the vehicle's engine, the engine will automatically draw fuel from the tank when the engine is on.",
     "size": 60000,
@@ -19,6 +18,11 @@
       { "item": "steel_chunk", "count": [ 1, 2 ] },
       { "item": "scrap", "count": [ 1, 5 ] }
     ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
     "damage_reduction": { "all": 24, "stab": 18 }
   },
   {
@@ -35,7 +39,6 @@
     "backfire_threshold": 0.7,
     "backfire_freq": 10,
     "noise_factor": 5,
-    "difficulty": 4,
     "durability": 200,
     "damage_reduction": { "all": 75 },
     "epower": 0,
