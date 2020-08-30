@@ -2,7 +2,7 @@
   {
     "id": "mon_zombie_magic",
     "type": "MONSTER",
-    "name": "zombified magician",
+    "name": { "str": "zombified magician" },
     "description": "Once a normal human, now risen from its grave. It would appear to be completely normal, other than the spells its preparing to cast.",
     "default_faction": "zombie",
     "bodytype": "human",
@@ -55,7 +55,7 @@
   {
     "id": "mon_zhorse",
     "type": "MONSTER",
-    "name": "decayed steed",
+    "name": { "str": "decayed steed" },
     "description": "Once a magestic steed, this horse has succumb to the infection which plauges the world. It now seeks blood, rather than grass.",
     "default_faction": "zombie",
     "bodytype": "horse",
