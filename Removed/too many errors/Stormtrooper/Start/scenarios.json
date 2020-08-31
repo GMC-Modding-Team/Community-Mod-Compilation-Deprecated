@@ -1,0 +1,13 @@
+{
+    "type": "scenario",
+    "ident": "storm_start",
+    "name": "The Last Assault",
+    "points": -6,
+    "description": "You were leading your squad of Stormtroopers to victory. Your task seemed simple - reclaim this military outpost for a base of further operations. However, something went wrong... Apparently a hostile spec-ops unit has targeted your squad. You've been wounded in the firefight, and what is worse, all your comrades are dead. You've managed to hide from the enemies somehow and barely holding on, in the last desperate attempt you've called for a napalm strike. And so you lay, surrounded by unknown enemies while everything is burning... And the gunfire seems to have attracted a lot of unwanted attention...",
+    "allowed_locs": [ "start" ],
+    "professions": [
+      "assault_soldier"
+    ],
+    "start_name": "Military base",
+    "flags": [ "FIRE_START", "HELI_CRASH", "SUR_START", "LONE_START", "CHALLENGE" ]
+  }

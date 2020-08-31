@@ -1,0 +1,60 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "military_base_gym" ],
+    "weight": 1000,
+    "object": {
+	  "fill_ter": "t_concrete_floor",
+      "rows": [
+        "|||||||||||dd|||||||||||",
+        "|......................|",
+        "|......................|",
+        "|||||||||||dd||||||||..|",
+        "|,,,,,,,,,,,,,,,,,,,|..|",
+        "|,,,,,,,,,,,,,,,,,,,|..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,y!y!yyyyyyyVyVy,,|..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,y!y!yyyyyyyVyVy,,|..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,y!y!yyyyyyyVyVy,,|...",
+        "|,,yyyyyyyyyyyyyyy,,d...",
+        "|,,y!y!yyyyyyyVyVy,,d..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,y!y!yyyyyyyVyVy,,|..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,y!y!yyyyyyyVyVy,,|..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,y!y!yyyyyyyVyVy,,|..|",
+        "|,,yyyyyyyyyyyyyyy,,|..|",
+        "|,,,,,,,,,,,,,,,,,,,|..|",
+        "|ccccccccccccccccccc|..|",
+        "|||||||||||||||||||||..|"
+      ],
+      "terrain": {
+        ".": "t_thconc_floor",
+        "d": "t_door_metal_c",
+        "|": "t_strconc_wall",
+		",": "t_floor",
+		"y": "t_carpet_yellow",
+		"!": "t_carpet_yellow",
+		"V": "t_carpet_yellow",
+        "c": "t_floor"
+      },
+      "furniture": {
+		"!": "f_ergometer",
+		"V": "f_exercise",
+        "c": "f_bench"
+		
+      },
+	  "add": [
+		{ "item": "sports_drink", "x": [ 2, 19 ], "y": 22, "chance": 35}
+      ],
+      "items": {
+        "c": { "item": "clothing_sport", "chance": 50, "repeat": 2 },
+		".": [ { "item": "soldier_dead", "chance": 1 }, { "item": "casings2", "chance": 1 } ]
+      }
+    }
+  }
+]

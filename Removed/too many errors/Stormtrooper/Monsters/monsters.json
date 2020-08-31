@@ -1,0 +1,28 @@
+[
+	{
+		"id": "psi_mad",
+		"type": "MONSTER",
+		"name": "psionic madman",
+		"description": "This horror was once human. Was, before the prolonged psionic experiments conducted on him have driven him totally insane. It may look just like a poor, lost soul, but it'll attack mercilessly while screaming in agony, with fury you'd never thought existed.",
+		"default_faction": "mutant",
+		"species": [ "HORROR" ],
+		"diff": 5,
+		"size": "MEDIUM",
+		"hp": 250,
+		"speed": 85,
+		"material": [ "flesh" ],
+		"symbol": "&",
+		"color": "white",
+		"aggression": 100,
+		"morale": 100,
+		"melee_skill": 10,
+		"melee_dice": 2,
+		"melee_dice_sides": 4,
+		"melee_cut": 0,
+		"dodge": 2,
+		"harvest": "human",
+		"special_attacks": [ [ "FEAR_PARALYZE", 5 ], [ "SHRIEK", 10 ] ],
+		"death_function": [ "AMIGARA", "NORMAL" ],
+		"flags": [ "SMELLS", "HEARS", "SEES", "STUMBLES"]
+	}
+]

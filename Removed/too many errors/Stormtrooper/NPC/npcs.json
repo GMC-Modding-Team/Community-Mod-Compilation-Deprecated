@@ -1,0 +1,88 @@
+[
+	{
+		"type": "npc",
+		"id": "storm_npc",
+		"comment": "One of the members of the Stormtroopers forces.",
+		"name_suffix": "Stormtrooper",
+		"gender": "male",
+		"mission": 7,
+		"class": "NC_STORM",
+		"attitude": 1,
+		"chat": "chat_storm",
+		"faction": "storm_fac"
+	},
+	{
+		"type": "npc",
+		"id": "storm_guard",
+		"comment": "One of the members of the Stormtroopers forces, guarding entrance to the recent base of operations.",
+		"name_suffix": "Stormtrooper Guard",
+		"gender": "male",
+		"mission": 7,
+		"class": "NC_STORM",
+		"attitude": 1,
+		"chat": "chat_guard",
+		"faction": "storm_fac"
+	},
+	{
+		"type": "npc",
+		"id": "storm_recruit",
+		"comment": "One of the members of the Stormtroopers forces, responsible for recruiting new members of the forces provided the're skilled and worthy.",
+		"name_suffix": "Stormtrooper Recruiter",
+		"gender": "male",
+		"mission": 7,
+		"class": "NC_STORM",
+		"attitude": 0,
+		"chat": "chat_recruit",
+		"faction": "storm_fac",
+		"mission_offered": "MISSION_RECRUIT_1"
+	},
+	{
+		"type": "npc",
+		"id": "storm_commander",
+		"comment": "The Stormtroopers' Squad Leader.",
+		"name_suffix": "Stormtrooper Squad Leader",
+		"gender": "male",
+		"mission": 7,
+		"class": "NC_STORM",
+		"attitude": 0,
+		"chat": "chat_commander",
+		"faction": "storm_fac",
+		"mission_offered": "MISSION_STORM_1"
+	},
+	{
+		"type": "npc",
+		"id": "storm_doc",
+		"comment": "Doctor assigned to Stormtroopers' squad.",
+		"name_suffix": "Doctor",
+		"gender": "male",
+		"mission": 7,
+		"class": "STORM_DOCTOR",
+		"attitude": 0,
+		"chat": "chat_doc",
+		"faction": "storm_fac"
+	},
+	{
+		"type": "npc",
+		"id": "storm_xc177",
+		"comment": "One of the members of the Stormtroopers forces.",
+		"name_suffix": "Stormtrooper",
+		"gender": "male",
+		"mission": 7,
+		"class": "NC_STORM",
+		"attitude": 0,
+		"chat": "chat_xc177",
+		"faction": "storm_fac"
+	},
+	{
+		"type": "npc",
+		"id": "storm_science",
+		"comment": "Scientist working for Stormtroopers.",
+		"name_suffix": "Scientist",
+		"gender": "male",
+		"mission": 7,
+		"class": "STORM_SCIENTIST",
+		"attitude": 0,
+		"chat": "chat_science",
+		"faction": "storm_fac"
+	}
+]

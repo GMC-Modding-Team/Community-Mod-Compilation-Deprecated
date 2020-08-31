@@ -1,0 +1,140 @@
+[
+  {
+    "id": "chat_guard",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_any_trait": [
+            "MARLOSS",
+            "MARLOSS_BLUE",
+            "MARLOSS_YELLOW",
+            "MYCUS",
+			"M_IMMUNE"
+        ],
+      "yes": "Wait, is that... You've joined the wrong faction, fungal scum! YOU'LL BURN FOR THIS!!!",
+      "no": "This is a restricted area. You must identify yourself so I can be sure if you're authorized to enter."
+    },
+    "responses": [
+	  {
+			"text": "You can't defeat us. Join us. It's not too late...",
+			"topic": "TALK_DONE",
+			"condition": {
+			  "u_has_any_trait": [
+					"MARLOSS",
+					"MARLOSS_BLUE",
+					"MARLOSS_YELLOW",
+					"MYCUS",
+					"M_IMMUNE"
+				]
+			},
+			"effect": "hostile",
+			"switch": true
+	  },
+	  {
+        "text": "I'm a Stormtrooper just like you. You can have a look at my ID badge. Assault Squad XC-175, region of operations: New York State, recent operation: 'The Dawn of the Purge', password: 'Mycus must burn'. Is it enough for you?",
+        "topic": "confirmed3",
+        "condition": {
+          "and": [
+		    { "not": { "u_has_trait": "MARLOSS" } },
+			{ "not": { "u_has_trait": "MARLOSS_BLUE" } },
+			{ "not": { "u_has_trait": "MARLOSS_YELLOW" } },
+			{ "not": { "u_has_trait": "MYCUS" } },
+			{ "not": { "u_has_trait": "M_IMMUNE" } },
+            { "u_is_wearing": "badge_storm" },
+            { "u_has_trait": "STORMTROOPER" }
+          ]
+        }
+      },
+      {
+        "text": "I'm a Stormtrooper just like you. Sadly due to all that combat I've lost my badge, but I can prove it. Assault Squad XC-175, region of operations: New York State, recent operation: 'The Dawn of the Purge', password: 'Mycus must burn'. Is it enough for you?",
+        "topic": "confirmed3",
+        "condition": {
+          "and": [
+		    { "not": { "u_has_trait": "MARLOSS" } },
+			{ "not": { "u_has_trait": "MARLOSS_BLUE" } },
+			{ "not": { "u_has_trait": "MARLOSS_YELLOW" } },
+			{ "not": { "u_has_trait": "MYCUS" } },
+			{ "not": { "u_has_trait": "M_IMMUNE" } },
+            { "not": { "u_is_wearing": "badge_storm" } },
+            { "u_has_trait": "STORMTROOPER" }
+          ]
+        }
+      },
+	  {
+        "text": "You know... The old world is gone and I just want to meet reliable people, you know...",
+        "topic": "leave",
+        "condition": {
+          "and": [
+		    { "not": { "u_has_trait": "MARLOSS" } },
+			{ "not": { "u_has_trait": "MARLOSS_BLUE" } },
+			{ "not": { "u_has_trait": "MARLOSS_YELLOW" } },
+			{ "not": { "u_has_trait": "MYCUS" } },
+			{ "not": { "u_has_trait": "M_IMMUNE" } },
+            { "not": { "u_is_wearing": "badge_storm" } },
+            { "not": { "u_has_trait": "STORMTROOPER" } }
+          ]
+        }
+      },
+	  {
+        "text": "Um... Isn't that badge of mine enoug of a proof?",
+        "topic": "hostile",
+        "condition": {
+          "and": [
+		    { "not": { "u_has_trait": "MARLOSS" } },
+			{ "not": { "u_has_trait": "MARLOSS_BLUE" } },
+			{ "not": { "u_has_trait": "MARLOSS_YELLOW" } },
+			{ "not": { "u_has_trait": "MYCUS" } },
+			{ "not": { "u_has_trait": "M_IMMUNE" } },
+            { "u_is_wearing": "badge_storm" },
+            { "not": { "u_has_trait": "STORMTROOPER" } }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "hostile",
+    "type": "talk_topic",
+    "dynamic_line": "No, it's not enough. How can I know if you aren't just a bandit who has killed one of us? In order to prove yourself, tell me about your squad and recent operations.",
+    "responses": [ 
+		{
+        "text": "Um... You know... Squad... yyyyy... First Squad. Yeah, the First Squad, fighting in... eeeee...",
+		"topic": "dead2"
+		}
+	]
+  },
+  {
+    "id": "dead2",
+    "type": "talk_topic",
+    "dynamic_line": "Enough of this bullshit, filthy bandit!",
+    "responses": [ 
+		{
+        "text": "...",
+		"topic": "TALK_DONE",
+		"effect": "hostile",
+		"switch": true
+		}
+	]
+  },
+  {
+    "id": "leave",
+    "type": "talk_topic",
+    "dynamic_line": "You aren't authorized to stay there. Leave immediately or I'll have to use force.",
+    "responses": [ 
+		{
+        "text": "Okay, okay, I'm leaving...",
+		"topic": "TALK_DONE"
+		}
+	]
+  },
+  {
+    "id": "confirmed3",
+    "type": "talk_topic",
+	"dynamic_line": "Okay, all right. Welcome to our makeshift HQ... The base we've been residing sadly had been overrun, so we had to regroup somewhere else and so we've ended up establishing ourselves in this abandoned storage building. You can help yourslef if you're hungry or tired, but make sure to talk to the commander. That's an order, Stormtrooper.",
+	"responses": [ 
+		{
+			"text": "Shit. Looks like the situation got really tough. But the war's not over. I'll talk with the commander, then.",
+			"topic": "TALK_DONE"
+		}
+	  ]
+  }
+]

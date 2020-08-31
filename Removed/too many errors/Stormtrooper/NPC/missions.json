@@ -1,0 +1,220 @@
+[
+	{
+		"id": "MISSION_STORM_1",
+		"type": "mission_definition",
+		"name": "Kill a thousand zombies",
+		"goal": "MGOAL_KILL_MONSTER_SPEC",
+		"monster_species": "ZOMBIE",
+		"monster_kill_goal": 1000,
+		"difficulty": 10,
+		"value": 100000,
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_2",
+		"dialogue": {
+		  "describe": "I've got orders for you, Stormtrooper.",
+		  "offer": "Currently we need more supplies so we can become self-sufficient eventually. However, looting is a bit problematic because of zombies. We need to start clearing out the streets. The sooner, the less survivors will die to them. I need you to travel to the nearest city and kill as many zeds as you can. At least a thousand. Also it'll be a good combat exercise for you. Before you say anything, I know you're a trained Stormtrooper, but there's never too much practicing. And someone has to kill the turned anyways.",
+		  "accepted": "Good luck with your battle, Stormtrooper.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to go fight those monsters!",
+		  "advice": "I'm surprised you ask this question. Have you not participated in the initial 'Dawn of the Purge' battles? If you're a Stormtrooper, you must have been fighting before, fending off the incoming zeds! So you know the answer to this question yourself.",
+		  "inquire": "Have you cleared the streets?",
+		  "success": "Thanks, the world is now a thousand zombies better. That should speed up the looting expeditions. And the whole 'Dawn of the Purge'.",
+		  "success_lie": "Thanks, the world is now a thousand zombies better. That should speed up the looting expeditions. And the whole 'Dawn of the Purge'.",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? You've been trained to handle combat well, am I right? Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_2",
+		"type": "mission_definition",
+		"name": "Bring twenty Marloss berries",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "marloss_berry",
+		"count": 20,
+		"difficulty": 10,
+		"value": 100000,
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_3",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "Thanks to your clearing mission we're now capable of doing faster and more frequent raids to the city, so the common supplies aren't going to be a problem for now. As a result, I'm now able to start thinking about the more serious probolems. You know why the password was 'Mycus must burn'? Because it's a far more dangerous opponent than any other monster. Well... Maybe not that dangerous, even the common pre-apocalypse antifungal substances kill it easily, not to mention its flammability, but the problem is that it grows. Zombies? They don't multpily, so there's already a finite number of them. Mutants, such as ants? They breed, but not that fast. However Mycus grows, and it must be stopped as soon as possible. Currently those two scientists you see here are working on the ways to combat it at a global scale, however with their computers they can only do so much. They claim they'd need to analyze the Mycus samples to progress further. And so I order you to go to the Mycus-occupied area and forage for twenty Marloss berries and bring them here for analysis. Also, obviously, bring some napalm with you and burn the whole place down to the ground, so that only ashes remain. Later burn down the ashes. And burn the whole area once more, better safe than sorry. Well, why am I explaining it to you? Maybe you're not from my squad, but you know the anti-Mycus procedures yourself, after all.",
+		  "accepted": "Good luck with your battle, Stormtrooper. Let the Purge continue!",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "I won't warn you about protecting your body from spores, because that's obvious, however be careful when you harvest the berries. Mycus seems to posess some kind of psionic powers and as soon as you pick them up, you'll be tempted to eat those fruits not only because of their aroma. You'll likely hear voices in your head, telling you: 'join us' and other bullshit. Bring the fruit back as soon as you can and DON'T EAT IT AT ALL COSTS!",
+		  "inquire": "Have you brought the Fruit?",
+		  "success": "Thanks, now we can really start making progress with the research. And I'm glad you didn't eat that shit.",
+		  "success_lie": "Thanks, now we can really start making progress with the research. And I'm glad you didn't eat that shit.",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? You've fought Mycus during the initial days, am I right? Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_3",
+		"type": "mission_definition",
+		"name": "Bring twenty Marloss seeds",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "marloss_seed",
+		"count": 20,
+		"difficulty": 10,
+		"value": 100000,
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_4",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "Argghhh... My head... It HURTS... Damned fungus, why do they think I'd join them?! I'll burn them to the ground!!! Oh, as about your next orders... The scientists are thankful for having the opportunity to try some experiments on that shit you've brought. But even they seem to be disturbed by the psionic attacks so much that while one is researching, the second is standing with a gun next to him just to make sure no one will eat any Marloss... Anywyas, the analysis of the active substances in the Fruit shows that it indeed contains some hallucinogens... And it should be fairly easy to get addicted to it. What is more interesing and odd, though, is that it also could possibly have some substances responsible for rebuilding tissues, regenerating blood cells and suppressing the pain... Also the scientists' first theory was that the 'psionic' attacks are nothing more than the hallicungoenic, but armoatic gases released by the Fruit, but it turned out to be false. There's nothing in this aroma expects substances that make it smell pleasantly and tempting... So, we don't know how those disruptive thoughts are generated. Another thing that can't get out of my head is that since the Mycus tries to make us 'join it' and it's obviously related to the Fruit, it indicates those berries can't be simply an addicting drug. It has to be something more. One of our researches suggested, that the Fruit alone is not enough for him and he'd like to observe the full life cycle of the Mycus products... And so here I am, sending you to the field to find yet another Mycus bloom and forage through it before burning it down.",
+		  "accepted": "Your task is to bring twenty Marloss seeds. With that we hope we could start growing our own Marloss berries and hopefully understand when and how the growing... plant? Fungus? Whatever... starts to develop its powers... Good luck out there.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "There's nothing I can say to you that hasn't been said before, really. We still struggle to fully understand our enemy.",
+		  "inquire": "Have you brought the Seeds?",
+		  "success": "Thanks, hope we can finish the research and come up with some anti-Mycus combat technologies before we all go insane...",
+		  "success_lie": "Thanks, hope we can finish the research and come up with some anti-Mycus combat technologies before we all go insane...",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? You've fought Mycus during the initial days, am I right? Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_4",
+		"type": "mission_definition",
+		"name": "Bring Marloss gelatin from the fungal tower",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "marloss_gel",
+		"count": 1,
+		"difficulty": 10,
+		"value": 100000,
+		"start": {
+			"assign_mission_target": { "om_terrain": "fungal_tower", "om_special": "Fungal Tower", "reveal_radius": 3 }
+		},
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_5",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "Good, the expermental Marloss plants... I mean, fungus... Damn it, whatever shit is that, it's growing and our scientists are busy observing and analyzing its growth. Now onto your next mission. A day ago the Free Merchants visited us here as they have been passing by with their caravan. They've told us about the fungus no one has ever seen before... It was tall and looked solid, growing as high as a... tower? Yeah, tower is the best word I can think of right now... Damn, those mutants surely got comfy in our world! The merchants have also told me about some rumours of some survivors seen approaching the Tower alone, naked and with insanity in their eyes... They're supposed to be the ones 'joining' the Mycus... If that's true, then the Tower should also hold the ultimate answers to our questions related to learning about our foe. The merchants have revealed to me the location of that tower they've seen. I'm sending you to get there, kill it and before you'll cleanse the local Mycus with fire, gather a sample of the tower's body. Ideally aim for collecting the heart and brain.",
+		  "accepted": "Hand over your tactical map, I'm going to mark you the directions the merchants have shared with me. Good luck on the battlefield, soldier! Give the Mycus hell!",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "Be careful. Maybe it's not that you can simply join Mycus that way, maybe there're some other requirements as well, so maybe you won't be 'sucked' like those madmen the rumours are about, but stay sharp. The Tower's tendrills are extremely lethal and the psionic attacks are the worst near it. Shoot it down from range, and then run as if the devil was pursuing you himself, get the samples, spam napalm and run away!",
+		  "inquire": "Have you brought the samples?",
+		  "success": "Excellent... Now we can truly understand the enemy's nature, or at least I hope we can... 'If you know the enemy and know yourself, you need not fear the result of a hundred battles.' Maybe Sun Tzu didn't know about any aliens, but let's hope his truths are so universal that they apply even to the extraterrestial beings.",
+		  "success_lie": "Excellent... Now we can truly understand the enemy's nature, or at least I hope we can... 'If you know the enemy and know yourself, you need not fear the result of a hundred battles.' Maybe Sun Tzu didn't know about any aliens, but let's hope his truths are so universal they apply even to the extraterrestial beings.",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? You've fought Mycus during the initial days, am I right? Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_5",
+		"type": "mission_definition",
+		"name": "Bring five mutagen",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "mutagen",
+		"count": 5,
+		"difficulty": 10,
+		"value": 100000,
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_6",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "All right, according to the latest report thanks to your performance we've been able to gather all the data about 'joining the Mycus'. To keep things short and simple, our researchers suggest that in order to join the Mycus one has to eat all three things - the Fruit, Seeds and the samples you've brought from the Tower. Although the 'preferred' way is to approach the Tower after eating the berries and seeds and letting it inject you with that fungal venom... As for the psionics, we've only discovered that the Mycus has a hive mind, so the thoughts generated by its fruits are in fact the thoughts of the whole Mycus... We still don't fully understand this, but various tests has confirmed that such psionic capability seems to be 'hardcoded' in their biology, so no special devices required. Which means that whoever joins those bastards loses his/her 'private' personality and gets linked to the hive mind. And here comes the sketch of an idea - if we could somehow link to their mind, but without 'joining', so without losing ourselves (and having our bodies infested with fungus), we could possibly interact with the Mycus on the psionic level and wreak some chavoc in their territory... Our fellow two scientists are eager to get to work on altering the 'ingredients' you've brought here so that consuming them would open up the possibility to 'talk' with the Mycus yet won't end with the person being corrupted or having the body contaminated with spores or something like that. However, they'd need so-called 'mutagen'. They claim that before the lab 'incident' they were working on some substances capable of altering humans in some insane ways... They hope that same substances can be used to alter the Mycus fruits as well...",
+		  "accepted": "Okay, your orders are to breach into one of the top-secret government labs and bring at least fifve flasks of the 'mutagen'. With that we could eventually start developing actual weapons against the Mycus.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "Unfortunately you have to find your own science ID card, because those two here have lost theirs and without it you expose yourself to some nasty secruity systems... Unless you know enough about computers to hack through everything or your gun is big enough. Also stay put while walking past some... 'experiments'.",
+		  "inquire": "Have you brought the mutagen?",
+		  "success": "Well done, soldier! With that sweet jucie you have the Mycus should really start to fear us!",
+		  "success_lie": "Well done, soldier! With that sweer jucie you have the Mycus should really start to fear us!",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? I know raiding labs ain't easy task, but you're a Stormtrooper. An elite soldier specializing in all kinds of assaults and breaches! Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_6",
+		"type": "mission_definition",
+		"name": "Bring Mycus research report",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "fungus_book",
+		"count": 1,
+		"difficulty": 10,
+		"value": 100000,
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_7",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "Stormtrooper, unfortunately the mutagen idea turned out to be a dead end - Mycus simply rejects the mutagen and it's immune to it, so we can't alter its fruits that way. Scientists suggest that in some labs there were teams researching the Mycus shortly after it has arrived to Earth, before the end of the world... They claim that some reports written by the scientists may prove useful in our case.",
+		  "accepted": "Search the labs once again and bring me the Mycus research reports. And do it fast, before I'd have to burn our Mycus samples down due to prolonged psionic expousure.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "Brace yourself, it might be required for you to raid more than one lab in order to find it.",
+		  "inquire": "Have you brought the report?",
+		  "success": "Good. I hope in this report we'll find what we're looking for.",
+		  "success_lie": "Good. I hope in this report we'll find what we're looking for.",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? I know raiding labs ain't easy task, but you're a Stormtrooper. An elite soldier specializing in all kinds of assaults and breaches! Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_7",
+		"type": "mission_definition",
+		"name": "Bring psionic research report",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "psi_book",
+		"count": 1,
+		"difficulty": 10,
+		"value": 100000,
+		"start": {
+			"assign_mission_target": { "om_terrain": "psi_lab", "om_special": "psi", "reveal_radius": 3, "search_range": 350 }
+		},
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_8",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "After briefly looking throught the report you've found before handing it over to the scientists I've notcied that it contains the coordinates of a psionic lab. A few of these facilities had been quickly assembled to support further research on the field shortly before the world ended. If we want to succeed with the 'Dawn of the Purge', then we need to get our hands at that technology so we could eventually connect to the hivemind and destriy the Mycus from inside. I order you to go to the nearest psionic lab and bring any documentation you can find there.",
+		  "accepted": "Hand over your tactical map, I'm going to mark you the location of the closest psionic lab. Good luck out there.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "Stay sharp and remian calm at all costs. The... things you may see there might be... disturbing.",
+		  "inquire": "Have you brought the report?",
+		  "success": "Good. I feel we're almost there.",
+		  "success_lie": "Good. I feel we're almost there.",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? I know raiding labs ain't easy task, but you're a Stormtrooper. An elite soldier specializing in all kinds of assaults and breaches! Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_8",
+		"type": "mission_definition",
+		"name": "Bring psionic connection device",
+		"goal": "MGOAL_FIND_ITEM",
+		"item": "psi_gun",
+		"count": 1,
+		"difficulty": 10,
+		"value": 100000,
+		"start": {
+			"effect": [ { "u_buy_item": "psi_doc" } ]
+		},
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"followup": "MISSION_STORM_9",
+		"dialogue": {
+		  "describe": "I've got more orders for you, Stormtrooper.",
+		  "offer": "Excellent news, Stormtrooper! This report you've obtained is a freaking gold mine! It contains the documentation describing the device which grants its user psionic powers! And with that thing... We could eventually launch the global anti-Mycus assault! Just imagine, Mycus whispers to you 'join us...' and then you reply directly to it, in your head 'You'll burn!' And, according to the documentation, if you try and focus hard enough, you can even project the psionic vision of ALL Mycus burning specially for that fungal scum! Oh, and it'll also work against other creatures. All right, enough of getting excited, there's work to do! We have to craft that device somehow, however our scientists aren't specializing in such field as crafting high-tech stuff... And hence it'll be your task to do it. Don't look at me like that, if you can't find or understand enough reference manuals teaching skills you'll need to accomplish that task or simply don't want to bother with hard science, that's ok. In that case your task would be to simply find a person capable of making it and convincing him to do it. Good luck, Stormtrooper.",
+		  "accepted": "Here's the documentation of the device. It skips all that hard science stuff from the report you don't really need... Our scientists have already scanned it, so no real loss if it burns among the Mycus during one of your battles. But remember to use it well and don't expose it. I believe many would kill for it, with invaders on top.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to obey the orders!",
+		  "advice": "Finding scientists capable of doing it... Sounds hard, I admit. It was probably hard even before the world fell... But even if you can't find anyone, at least try yourself. You have nothing to lose. That's your most importnat order in your whole life.",
+		  "inquire": "Do you have our Ultimate Weapon?",
+		  "success": "There we go! Excellent work, Stormtrooper! The world will become a better place now. Thanks to all your efforts the humanity will stand a chance. 'The Dawn of the Purge' has just truly begun.",
+		  "success_lie": "There we go! Excellent work, Stormtrooper! The world will become a better place now. Thanks to all your efforts the humanity will stand a chance. 'The Dawn of the Purge' has just truly begun.",
+		  "failure": "Damn it, Stormtrooper! I know it's a hard task, but you're a Stormtrooper for a reason! Go figure something out! Humanity needs that device for yesterday!!!"
+		}
+	},
+	{
+		"id": "MISSION_STORM_9",
+		"type": "mission_definition",
+		"name": "Kill a thousand Mycus scum",
+		"goal": "MGOAL_KILL_MONSTER_SPEC",
+		"monster_species": "FUNGUS",
+		"monster_kill_goal": 1000,
+		"difficulty": 10,
+		"value": 100000,
+		"start": {
+			"effect": [ { "u_buy_item": "psi_gun" }, { "u_buy_item": "badge_elite" }, { "u_add_trait": "STORMTROOPER_ELITE" } ]
+		},
+		"origins": [ "ORIGIN_SECONDARY" ],
+		"dialogue": {
+		  "describe": "I've got orders for you, Stormtrooper.",
+		  "offer": "We may have the device, but the war's just begun, after all. Now it's time to strike back and reclaim the Earth! Here, take this device. We have it thanks to your struggles, so you're the most legitimate Stormtrooper to use it. Your orders are pretty standard this time: go out there and show the Mycus that now we posess their psionic powers hence they should consider leaving our world before we'll kill them all. Burn as many of those monsters as you can.",
+		  "accepted": "Good luck with your battle, Stormtrooper. Also, take this Elite Stormtrooper badge. You deserve it. Wear it with required respect and pride.",
+		  "rejected": "You know that refusing orders won't do you any good, to say the least, don't you? Okay, I can let you rest for a while, but I still request you to go fight those monsters!",
+		  "advice": "After all you've been through you ask me this? Let's pretend I din't hear that... *sigh* All right, maybe you're just tired and need a short break... *sigh* Well, given what have you accomplished I'll allow that. Rest if you need, really.",
+		  "inquire": "Have you cleansed the Mycus?",
+		  "success": "And so the world is now a far better place. Thanks, Stormtrooper, for all that you've done for the humanity. Mycus must be in retreat now. It probably must be extremely confused by how it's even possible for humans to fight with it on a psionic plane...",
+		  "success_lie": "And so the world is now a far better place. Thanks, Stormtrooper, for all that you've done for the humanity. Mycus must be in retreat now. It probably must be extremely confused by how it's even possible for humans to fight with it on a psionic plane...",
+		  "failure": "Damn it, Stormtrooper! What's wrong with you? You've been trained to handle combat well, am I right? Okay, take a day off and then immediately get back to the action, soldier!"
+		}
+	}
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "psi_lab" ],
+    "weight": 1000,
+    "object": {
+	  "fill_ter": "t_metal_floor",
+      "rows": [
+        "||||||||||C==|||||||||||",
+        "|{{ofcccT|...|qqqqq....|",
+        "|........|._.|.........|",
+        "|#####.._|...|_...UA...|",
+        "|ttttt...d...d.........|",
+        "||||||||||ddd|||||||||||",
+        "|_........._.........De|",
+        "|L...................|||",
+        "|L......#######.......L|",
+        "|L......6666666.......L|",
+        "|L....................L|",
+        "|_...&...&7...&...&..._|",
+        "|GGGGGGGGGG==GGGGGGGGGG|",
+        "|_...................._|",
+        "|......................|",
+        "|......................|",
+        "|......_........_......|",
+        "|......................|",
+        "|......................|",
+        "|......_........_......|",
+        "|......................|",
+        "|......................|",
+        "|_...................._|",
+        "||||||||||||||||||||||||"
+      ],
+      "terrain": {
+        "&": "t_plut_generator",
+        ".": "t_metal_floor",
+        "6": "t_console_broken",
+        "C": "t_card_science",
+        "_": "t_utility_light",
+        "d": "t_door_metal_c",
+		"D": "t_door_c",
+        "|": "t_wall_metal",
+		"G": "t_reinforced_glass",
+		"7": "t_console",
+		"=": "t_door_metal_locked"
+      },
+      "furniture": {
+        "#": "f_chair",
+        "A": "f_autodoc",
+        "L": "f_locker",
+        "T": "f_trashcan",
+        "U": "f_autodoc_couch",
+        "f": "f_sink",
+        "o": "f_oven",
+        "t": "f_table",
+        "{": "f_fridge",
+		"c": "f_cupboard",
+		"q": "f_glass_fridge",
+		"e": "f_toilet"
+      },
+      "place_items": [
+        { "item": "fridge", "x": [ 1, 2 ], "y": 1, "chance": 90, "repeat": 4 },
+        { "item": "oven", "x": 3, "y": 1, "chance": 80, "repeat": 4 },
+		{ "item": "science", "x": 1, "y": [ 7, 10 ], "chance": 90, "repeat": 20},
+		{ "item": "science", "x": 22, "y": [ 8, 10 ], "chance": 90, "repeat": 20},
+        { "item": "kitchen", "x": [ 5, 7 ], "y": 1, "chance": 80, "repeat": 3 }
+      ],
+	  "items": {
+		"t": { "item": "dining", "chance": 55, "repeat": 2 },
+		"q": [ {"item": "softdrugs", "chance": 40, "repeat": 2}, {"item": "hospital_medical_items", "chance": 40, "repeat": 2}, {"item": "surgery", "chance": 35, "repeat": 2} ]
+	  },
+	  "computers": {
+        "7": {
+          "name": "Containment control terminal",
+          "security": 3,
+          "options": [ { "name": "UNLOCK ENTRANCE", "action": "unlock", "security": 5 } ],
+          "failures": [ { "action": "damage" }, { "action": "shutdown" } ]
+        }
+      },
+	  "place_monsters": [
+        { "monster": "labb", "x": [ 1, 22 ], "y": [ 1, 11 ], "density": 0.75 },
+		{ "monster": "psii", "x": [ 1, 22 ], "y": [ 13, 22 ], "density": 0.35 }
+	  ],
+      "add": [
+        { "item": "anesthesia", "x": 18, "y": 3, "chance": 50, "repeat": 3 },
+		{ "item": "psi_book", "x": 11, "y": 8 }
+      ]
+    }
+  }
+]
