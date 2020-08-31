@@ -7,13 +7,14 @@
     "weight": "380 g",
     "volume": "500 ml",
     "price": 8000,
+    "price_postapoc": 800,
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": "SRC",
     "capacity": 40,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "SRC": 40 } } ]
   },
   {
     "id": "SSRAmag410",
@@ -23,13 +24,14 @@
     "weight": "380 g",
     "volume": "500 ml",
     "price": 8000,
+    "price_postapoc": 800,
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": "410shot",
     "capacity": 40,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "410shot": 40 } } ]
   },
   {
     "id": "BRC_clip",
@@ -39,7 +41,7 @@
     "weight": "40 g",
     "volume": "50 ml",
     "price": 1000,
-    "price_postapoc": 50,
+    "price_postapoc": 100,
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
