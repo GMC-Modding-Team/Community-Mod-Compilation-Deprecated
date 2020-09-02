@@ -72,9 +72,8 @@ When I provide regex it will always be in the format find entry, empty line, rep
 ```
 
 # abstract, ident, and id
-`abstract`, `ident`, and `id`, are a specific type of `key` that tells the game the unique identifier of the item. Almost every top-level JSON `object` contains an an identifier and a `type`. `type` is an incredibly important `key` that tells the game how to handle the specific `key: value` pairs in the `object`.
+`abstract` and `id`, are a specific type of `key` that tells the game the unique identifier of the item. Almost every top-level JSON `object` contains an an identifier and a `type`. `type` is an incredibly important `key` that tells the game how to handle the specific `key: value` pairs in the `object`.
 
-`ident` is exclusively used in `type: material`, `type: MOD_INFO`, `type: profession`, `type: scenario`, `type: skill_display_type` and `type: skill`. If you see `ident` used anywhere else, immediately replace it with `id`. If you see `id` or `abstract`, used in any of the above `type`, immediately replace with `ident`. Using the wrong identifier can cause major errors with the game.
 
 `abstract` can only be used on `type: TOOL`, `type: GENERIC`, `type: GUN`, `type: COMESTIBLE`, `type: BOOK`, `type: AMMO`, `type: PET_ARMOR`, `type: vehicle_part`, `type: BIONIC_ITEM`, `type: ARMOR`, `type: TOOLMOD`, `type: ENGINE`, `type: MONSTER`, `type: uncraft`, and `type: overmap_terrain`.
 
@@ -91,7 +90,7 @@ For reference, here is what it should look like under `type: GUN`:
 ```
 And what it should look like under `type: AMMO`:
 ```JSON
-"ammo": "300blk"
+"ammo_type": "300blk"
 ```
 
 It is practically impossible to replace all at once, due to the similarities between `type: GUN` and `type: AMMO`. However, if you exclude all `type: AMMO` from the search (manually or otherwise), this will work:
