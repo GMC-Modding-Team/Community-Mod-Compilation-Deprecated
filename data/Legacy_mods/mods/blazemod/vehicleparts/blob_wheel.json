@@ -21,6 +21,24 @@
     "flags": [ "WHEEL", "FOLDABLE", "EXTRA_DRAG", "SHARP", "TRACKED" ]
   },
   {
+    "id": "frostie_wheel_sea",
+    "type": "vehicle_part",
+    "name": { "str": "icy sea skimmer" },
+    "item": "frostie_hull",
+    "location": "under",
+    "symbol": "|",
+    "broken_symbol": "x",
+    "color": "light_blue",
+    "broken_color": "light_blue",
+    "durability": 500,
+    "damage_modifier": 200,
+    "folded_volume": 1,
+    "breaks_into": [ { "item": "frostiegrow" } ],
+    "description": "A living blob, existing in a super-cooled state.  It acts as a boat hull.",
+    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "flags": [ "FLOATS", "FOLDABLE", "EXTRA_DRAG", "SHARP", "TRACKED" ]
+  },
+  {
     "id": "gloople_wheel",
     "type": "vehicle_part",
     "name": { "str": "gelatinous wheel" },
