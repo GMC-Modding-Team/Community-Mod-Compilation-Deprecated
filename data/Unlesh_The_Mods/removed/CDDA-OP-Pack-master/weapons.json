@@ -33,18 +33,10 @@
     "price": 0,
     "material": [ "omni_alloy" ],
     "symbol": "#",
+    "capacity": 5000,
     "color": "white",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "10000 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
     "ammo_type": [ "battery" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 5000 } } ],
     "flags": [ "TRADER_AVOID", "RECHARGE", "TARDIS", "NO_UNLOAD" ]
   },
   {
@@ -60,16 +52,7 @@
     "color": "white",
     "ammo_type": [ "omni_ammo" ],
     "capacity": 10,
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "10 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "omni_ammo": 10 } } ],
     "reload_time": 0,
     "flags": [ "MAG_COMPACT", "TARDIS", "TRADER_AVOID" ]
   },
@@ -84,17 +67,8 @@
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "250 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
     "ammo_type": [ "omni_ammo" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "omni_ammo": 12 } } ],
     "reload_time": 0,
     "flags": [ "MAG_BULKY", "TARDIS", "TRADER_AVOID" ]
   },
@@ -109,17 +83,8 @@
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "500 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
     "ammo_type": [ "omni_ammo" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "omni_ammo": 24 } } ],
     "reload_time": 0,
     "flags": [ "MAG_BULKY", "TRADER_AVOID", "TARDIS" ]
   },

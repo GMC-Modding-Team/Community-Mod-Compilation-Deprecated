@@ -11,7 +11,8 @@
     "color": "light_gray",
     "ammo_type": [ "9x18" ],
     "capacity": 15,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 15 } } ]
   },
   {
     "id": "rak_9x18_30",
@@ -25,6 +26,7 @@
     "color": "light_gray",
     "ammo_type": [ "9x18" ],
     "capacity": 30,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 30 } } ]
   }
 ]

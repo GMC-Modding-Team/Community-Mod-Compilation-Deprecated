@@ -13,7 +13,8 @@
     "ammo_type": [ "32" ],
     "capacity": 9,
     "reload_time": 100,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "32": 9 } } ]
   },
   {
     "id": "32survmagxl",
@@ -29,6 +30,7 @@
     "ammo_type": [ "32" ],
     "capacity": 14,
     "reload_time": 150,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "32": 14 } } ]
   }
 ]

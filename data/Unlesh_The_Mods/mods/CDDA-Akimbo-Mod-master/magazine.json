@@ -13,7 +13,8 @@
     "color": "light_gray",
     "ammo_type": [ "9mm" ],
     "capacity": 34,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 34 } } ]
   },
   {
     "id": "ak_40_speedloader",
@@ -29,7 +30,8 @@
     "color": "light_gray",
     "ammo_type": [ "40", "10mm" ],
     "capacity": 12,
-    "flags": [ "SPEEDLOADER" ]
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 12, "10mm": 12 } } ]
   },
   {
     "id": "ak_tec9mag",
@@ -45,7 +47,8 @@
     "color": "light_gray",
     "ammo_type": [ "9mm" ],
     "capacity": 64,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 64 } } ]
   },
   {
     "id": "ak_deaglemag",
@@ -61,7 +64,8 @@
     "color": "light_gray",
     "ammo_type": [ "44" ],
     "capacity": 16,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 16 } } ]
   },
   {
     "id": "ak_1911bigmag",
@@ -77,7 +81,8 @@
     "color": "light_gray",
     "ammo_type": [ "45" ],
     "capacity": 20,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 20 } } ]
   },
   {
     "id": "ak_1911mag",
@@ -93,6 +98,7 @@
     "color": "light_gray",
     "ammo_type": [ "45" ],
     "capacity": 14,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 14 } } ]
   }
 ]

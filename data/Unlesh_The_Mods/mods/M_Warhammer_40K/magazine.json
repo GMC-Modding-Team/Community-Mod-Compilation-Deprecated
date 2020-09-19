@@ -12,7 +12,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 9,
-    "reload_time": 120
+    "reload_time": 120,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 9 } } ]
   },
   {
     "id": "BolterSickleMag_20",
@@ -27,7 +28,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 20,
-    "reload_time": 200
+    "reload_time": 200,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 20 } } ]
   },
   {
     "id": "BolterSickleMag_25",
@@ -42,7 +44,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 25,
-    "reload_time": 250
+    "reload_time": 250,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 25 } } ]
   },
   {
     "id": "BolterSickleMag_30",
@@ -57,7 +60,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 30,
-    "reload_time": 280
+    "reload_time": 280,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 30 } } ]
   },
   {
     "id": "BolterDrumMag_40",
@@ -72,7 +76,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 40,
-    "reload_time": 300
+    "reload_time": 300,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 40 } } ]
   },
   {
     "id": "BolterDrumMag_60",
@@ -87,7 +92,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 60,
-    "reload_time": 300
+    "reload_time": 300,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 60 } } ]
   },
   {
     "id": "StormBolterMag_100",
@@ -102,7 +108,8 @@
     "color": "light_gray",
     "ammo_type": [ "75bolt" ],
     "capacity": 100,
-    "reload_time": 400
+    "reload_time": 400,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 100 } } ]
   },
   {
     "id": "flame_tank",
@@ -117,7 +124,8 @@
     "color": "light_gray",
     "ammo_type": [ "promethium" ],
     "capacity": 250,
-    "reload_time": 200
+    "reload_time": 200,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "promethium": 250 } } ]
   },
   {
     "id": "laspistol_40",
@@ -133,7 +141,8 @@
     "ammo_type": [ "las" ],
     "capacity": 40,
     "reload_time": 35,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "las": 40 } } ]
   },
   {
     "id": "lasgun_80",
@@ -149,7 +158,8 @@
     "ammo_type": [ "las" ],
     "capacity": 80,
     "reload_time": 60,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "las": 80 } } ]
   },
   {
     "id": "lasgun_140",
@@ -165,7 +175,8 @@
     "ammo_type": [ "las" ],
     "capacity": 140,
     "reload_time": 120,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "las": 140 } } ]
   },
   {
     "id": "ob_30",
@@ -180,7 +191,8 @@
     "color": "light_gray",
     "ammo_type": [ "ork_dakka" ],
     "capacity": 30,
-    "reload_time": 120
+    "reload_time": 120,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "ork_dakka": 30 } } ]
   },
   {
     "id": "ob_50",
@@ -195,7 +207,8 @@
     "color": "light_gray",
     "ammo_type": [ "ork_dakka" ],
     "capacity": 50,
-    "reload_time": 160
+    "reload_time": 160,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "ork_dakka": 50 } } ]
   },
   {
     "id": "ob_100",
@@ -210,6 +223,7 @@
     "color": "light_gray",
     "ammo_type": [ "ork_dakka" ],
     "capacity": 100,
-    "reload_time": 160
+    "reload_time": 160,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "ork_dakka": 100 } } ]
   }
 ]
