@@ -327,7 +327,7 @@
   {
     "type": "terrain",
     "id": "t_secro_flesh_wall_veins",
-    "looks_like": "t_secro_flesh_wall",
+    "looks-like": "t_secro_flesh_wall",
     "name": "vein wall",
     "description": "A wall composed of vein-like tendrils, seemingly made on the fly.",
     "symbol": "#",
@@ -457,7 +457,7 @@
   },
   {
     "note": "Another type of floor augmented with traps by the flesh.",
-    "looks_like": "t_secro_flesh",
+    "looks-like": "t_secro_flesh",
     "type": "furniture",
     "id": "f_secro_flesh",
     "name": "flesh",
@@ -469,7 +469,7 @@
     "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "FF_BIOHAZARD" ]
   },
   {
-    "looks_like": "t_secro_flesh_wall",
+    "looks-like": "t_secro_flesh_wall",
     "type": "furniture",
     "id": "f_secro_flesh_wall",
     "name": "flesh wall",
@@ -482,7 +482,7 @@
     "flags": [ "FLAMMABLE_HARD", "NOITEM", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL", "S_FLESH", "BLOCK_WIND", "FF_BIOHAZARD" ]
   },
   {
-    "looks_like": "t_secro_flesh_wall",
+    "looks-like": "t_secro_flesh_wall",
     "type": "furniture",
     "id": "f_secro_flesh_wall_spawning",
     "name": "flesh wall",
@@ -506,7 +506,7 @@
     ]
   },
   {
-    "looks_like": "t_secro_flesh",
+    "looks-like": "t_secro_flesh",
     "type": "terrain",
     "id": "t_secro_flesh_inside_up_close",
     "name": "flesh",
@@ -517,7 +517,7 @@
     "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "FF_EXIT" ]
   },
   {
-    "looks_like": "t_secro_flesh",
+    "looks-like": "t_secro_flesh",
     "type": "furniture",
     "id": "f_secro_biome",
     "name": "flesh",
@@ -542,7 +542,7 @@
     "bash": { "str_min": 10, "str_max": 20, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_secro_flesh" }
   },
   {
-    "looks_like": "t_secro_flesh_inside_up_close",
+    "looks-like": "t_secro_flesh_inside_up_close",
     "type": "terrain",
     "id": "t_secro_flesh_exit_closed",
     "name": "flesh",
@@ -1169,7 +1169,7 @@
     "type": "terrain",
     "id": "t_secro_ballistic_glass_flesh",
     "name": "fleshed ballistic glass",
-    "looks_like": "t_reinforced_glass",
+    "looks-like": "t_reinforced_glass",
     "description": "Overrun by the flesh, this stacked up laminated glass is much tougher than before.",
     "symbol": "LINE_OXOX",
     "color": "light_red",
@@ -1204,7 +1204,7 @@
     "description": "A galvanized steel door, forged to withstand punishment and impede anyone or anything. Typically used in conjunction with automated electronic locking mechanisms that require an external source to unlock. It has a biohazard symbol depicting something unearthly on the other side... as the flesh fibers crawl out of the edges. A card reader is embedded to the door, and it requires a special key card for it to open.",
     "//": "Actually locked, as in, LOCKED",
     "symbol": "+",
-    "looks_like": "t_door_metal_c",
+    "looks-like": "t_door_metal_c",
     "color": "cyan",
     "move_cost": 0,
     "coverage": 95,
@@ -1230,7 +1230,7 @@
     "description": "A large vat full of yellowish solution. Flesh seems to surround the glass tube, as if they are concealing something...",
     "symbol": "0",
     "color": "light_red",
-    "looks_like": "t_vat",
+    "looks-like": "t_vat",
     "move_cost": 0,
     "coverage": 40,
     "roof": "t_flat_roof",
