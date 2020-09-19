@@ -82,7 +82,7 @@
     "id": "avatar_secronom_secrosaddler_kills",
     "type": "event_transformation",
     "event_transformation": "avatar_species_kills",
-    "value_constraints": { "species": { "equals": [ "species_id", "SECROZED_ULTIMATESSADDLER" ] } }
+    "value_constraints": { "species": { "equals": [ "species_id", "SECROZED_ULTIMATE" ] } }
   },
   {
     "id": "num_avatar_secronom_secrosaddler_kills",
@@ -1230,7 +1230,7 @@
     "id": "avatar_secronom_efflost_blind",
     "type": "event_transformation",
     "event_type": "character_loses_effect",
-    "value_constraints": { "effect": { "equals": [ "efftype_id", "blinded" ] } },
+    "value_constraints": { "effect": { "equals": [ "efftype_id", "blind" ] } },
     "drop_fields": [ "effect" ]
   },
   {
