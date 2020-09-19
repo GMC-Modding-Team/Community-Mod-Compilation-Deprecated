@@ -1,6 +1,7 @@
 [
   {
     "id": "SVD_mag",
+    "looks-like": "8x40_50_mag",
     "type": "MAGAZINE",
     "name": { "str": "SVD magazine" },
     "description": "A magazine for an SVD, it can hold 10 rounds.",
@@ -10,8 +11,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks-like": "8x40_50_mag",
-    "ammo_type": "762R",
+    "ammo_type": [ "762R" ],
     "capacity": 10,
     "reliability": 10,
     "//": "Zero max volume",
