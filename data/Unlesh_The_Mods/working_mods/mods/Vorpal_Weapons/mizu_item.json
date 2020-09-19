@@ -2,7 +2,7 @@
   {
     "id": "snorkel_mizu",
     "type": "ARMOR",
-    "name": "Snorkelling",
+    "name": { "str": "Snorkelling" },
     "category": "clothing",
     "symbol": "[",
     "color": "dark_gray",
@@ -21,7 +21,7 @@
   {
     "id": "snorkel_makeshift_mizu",
     "type": "ARMOR",
-    "name": "Simple snorkel",
+    "name": { "str": "Simple snorkel" },
     "category": "clothing",
     "symbol": "[",
     "color": "dark_gray",
@@ -39,10 +39,9 @@
   },
   {
     "result": "snorkel_makeshift_mizu",
-    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
+    "subcategory": "CSC_ARMOR_head",
     "skill_used": "fabrication",
     "difficulty": 2,
     "time": 5000,
@@ -51,7 +50,6 @@
   },
   {
     "result": "chainmail_arms",
-    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_ARMS",
@@ -64,7 +62,6 @@
   },
   {
     "result": "chainmail_legs",
-    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
@@ -77,10 +74,9 @@
   },
   {
     "result": "chainmail_hood",
-    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
+    "subcategory": "CSC_ARMOR_head",
     "skill_used": "fabrication",
     "difficulty": 5,
     "time": 200000,
@@ -90,10 +86,9 @@
   },
   {
     "result": "chainmail_vest",
-    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORO",
+    "subcategory": "CSC_ARMOR_torso",
     "skill_used": "fabrication",
     "difficulty": 5,
     "time": 400000,
@@ -103,7 +98,6 @@
   },
   {
     "result": "shark_suit",
-    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
