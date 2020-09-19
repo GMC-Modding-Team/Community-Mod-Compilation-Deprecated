@@ -1,6 +1,7 @@
 [
   {
     "result": "vgen",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -23,6 +24,7 @@
   },
   {
     "result": "vgen2",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -44,7 +46,52 @@
     ]
   },
   {
+    "result": "vortexbolter",
+    "activity_level": "LIGHT_EXERCISE",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "mechanics", 7 ],
+    "time": "8 h 20 m",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 30 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "helsing", 1 ] ],
+      [ [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "vortex_stone", 1 ] ]
+    ]
+  },
+  {
+    "result": "vortexrifle",
+    "activity_level": "LIGHT_EXERCISE",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "mechanics", 7 ],
+    "time": "8 h 20 m",
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 30 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "tihar", 1 ] ],
+      [ [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "vortex_stone", 1 ] ]
+    ]
+  },
+  {
     "result": "vortexaccelerator",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -65,6 +112,7 @@
   },
   {
     "result": "spiral_matrix",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -78,6 +126,7 @@
   },
   {
     "result": "vortexcannon",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",

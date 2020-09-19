@@ -1,6 +1,7 @@
 [
   {
     "result": "solar_array",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -20,6 +21,7 @@
   },
   {
     "result": "solar_array2",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -39,6 +41,7 @@
   },
   {
     "result": "solar_array2r",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -58,6 +61,7 @@
   },
   {
     "result": "tread1",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -73,6 +77,7 @@
   },
   {
     "result": "tread2",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -88,6 +93,7 @@
   },
   {
     "result": "tread3",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -102,36 +108,47 @@
     "components": [ [ [ "hard_plate", 10 ] ], [ [ "chain", 8 ] ] ]
   },
   {
-    "result": "stablilized_portal",
+    "result": "turret_mount",
+    "activity_level": "LIGHT_EXERCISE",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 5 ] ],
+    "time": "2 h 30 m",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "pipe", 8 ], [ "rebar", 4 ] ],
+      [ [ "wire", 20 ] ],
+      [ [ "scrap", 21 ], [ "steel_chunk", 9 ], [ "steel_lump", 1 ] ],
+      [ [ "spring", 4 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "small_storage_battery", 1 ], [ "UPS_off", 1 ] ],
+      [ [ "e_scrap", 8 ] ],
+      [ [ "solar_cell", 12 ] ],
+      [ [ "cable", 40 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "motor", 1 ], [ "motor_small", 2 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "RAM", 2 ] ]
+    ]
+  },
+  {
+    "result": "space_anomaly",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "electronics",
     "difficulty": 8,
-    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 8 ] ],
+    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
     "time": "40 h",
     "autolearn": true,
     "using": [ [ "welding_standard", 6 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [ [ [ "cargo_rack", 1 ] ], [ [ "teleporter", 1 ] ], [ [ "portal", 1 ] ], [ [ "plut_cell", 5 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "vehicle_shelving",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_PARTS",
-    "skill_used": "fabrication",
-    "skills_required": [ "mechanics", 4 ],
-    "difficulty": 4,
-    "time": "6 h",
-    "autolearn": true,
-    "using": [ [ "rope_natural", 4 ], [ "welding_standard", 15 ] ],
-    "qualities": [
-      { "id": "SCREW", "level": 1 },
-      { "id": "HAMMER", "level": 2 },
-      { "id": "SAW_M", "level": 1 },
-      { "id": "WRENCH", "level": 1 }
-    ],
-    "components": [ [ [ "cargo_rack", 4 ] ], [ [ "pipe", 16 ] ], [ [ "sheet_metal", 4 ] ], [ [ "hinge", 10 ] ] ]
   }
 ]
