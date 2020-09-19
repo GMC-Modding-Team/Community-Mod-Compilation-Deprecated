@@ -13,7 +13,9 @@
     "looks-like": "8x40_50_mag",
     "ammo_type": [ "545x39" ],
     "capacity": 30,
-    "flags": [ "MAG_COMPACT" ]
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 30 } } ]
   },
   {
     "id": "bigXM8_mag",
@@ -29,5 +31,8 @@
     "looks-like": "8x40_50_mag",
     "ammo_type": [ "545x39" ],
     "capacity": 100,
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 100 } } ]
   }
 ]

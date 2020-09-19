@@ -14,7 +14,8 @@
     "casing": "filtercasing",
     "capacity": 600,
     "count": 600,
-    "flags": [ "MAG_EJECT", "NO_UNLOAD", "MAG_COMPACT" ]
+    "flags": [ "MAG_EJECT", "NO_UNLOAD", "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_1": 600 } } ]
   },
   {
     "id": "sm_filter_1b",
@@ -31,7 +32,8 @@
     "casing": "filtercasing",
     "capacity": 600,
     "count": 600,
-    "flags": [ "NO_UNLOAD", "MAG_COMPACT", "MAG_EJECT" ]
+    "flags": [ "NO_UNLOAD", "MAG_COMPACT", "MAG_EJECT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_2": 600 } } ]
   },
   {
     "id": "lg_filter",
@@ -48,7 +50,8 @@
     "casing": "filtercasing_lg",
     "capacity": 1000,
     "count": 1000,
-    "flags": [ "NO_UNLOAD", "MAG_BULKY", "MAG_EJECT" ]
+    "flags": [ "NO_UNLOAD", "MAG_BULKY", "MAG_EJECT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_1": 1000 } } ]
   },
   {
     "id": "cheek_filter",
@@ -65,6 +68,7 @@
     "weight": "100 g",
     "capacity": 1200,
     "count": 1200,
-    "flags": [ "NO_UNLOAD", "NO_RELOAD", "MAG_COMPACT" ]
+    "flags": [ "NO_UNLOAD", "NO_RELOAD", "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_1": 1200 } } ]
   }
 ]
