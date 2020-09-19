@@ -9,7 +9,7 @@
     "price": 200000,
     "price_postapoc": 2500,
     "material": [ "plastic", "aluminum" ],
-    "looks_like": "cell_phone",
+    "looks-like": "cell_phone",
     "symbol": ";",
     "color": "light_green",
     "use_action": [
@@ -48,7 +48,7 @@
     "price": 10000,
     "price_postapoc": 1000,
     "material": [ "plastic", "aluminum" ],
-    "looks_like": "reading_light",
+    "looks-like": "reading_light",
     "symbol": ",",
     "color": "light_green",
     "use_action": {
@@ -67,7 +67,7 @@
     "name": { "str": "atomic reading light (on)", "str_pl": "atomic reading lights (on)" },
     "description": "Rated for almost 200 million years of operation, the Rivtech atomic reading light clips onto any book, anytime, anywhere!  Its blue-tinted lens sheds a pleasing Cherenkov glow in a small circle onto anything you might need to read.",
     "revert_to": "atomic_light_off",
-    "looks_like": "reading_light_on",
+    "looks-like": "reading_light_on",
     "use_action": { "target": "atomic_light_off", "msg": "You switch off the light.", "menu_text": "Turn off", "type": "transform" },
     "flags": [ "ALLOWS_REMOTE_USE", "LIGHT_8" ]
   },
@@ -80,7 +80,7 @@
     "price": 30000,
     "price_postapoc": 5000,
     "material": [ "steel", "plastic" ],
-    "looks_like": "pot",
+    "looks-like": "pot",
     "symbol": ")",
     "color": "light_green",
     "use_action": "HOTPLATE",
@@ -102,7 +102,7 @@
     "color": "light_gray",
     "qualities": [ [ "WRENCH", 2 ] ],
     "flags": [ "BELT_CLIP" ],
-    "looks_like": "wrench"
+    "looks-like": "wrench"
   },
   {
     "id": "afs_power_cutter",
@@ -205,7 +205,7 @@
     "charges_per_use": 1,
     "use_action": { "type": "firestarter", "moves": 150 },
     "flags": [ "FIRESTARTER" ],
-    "looks_like": "rope_30"
+    "looks-like": "rope_30"
   },
   {
     "id": "UPS_off",
