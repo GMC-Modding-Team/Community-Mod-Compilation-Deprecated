@@ -1,7 +1,7 @@
 [
   {
     "id": "afs_foam_tank",
-    "looks_like": "pressurized_tank_chem",
+    "looks-like": "pressurized_tank_chem",
     "type": "MAGAZINE",
     "name": { "str": "pressurized foam tank" },
     "description": "A pressurized 5L canister designed to feed an industrial foam gun.",
@@ -12,7 +12,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "afs_foam" ],
+    "ammo_type": "afs_foam",
     "flags": [ "MAG_BULKY" ],
     "capacity": 30,
     "reload_time": 3,

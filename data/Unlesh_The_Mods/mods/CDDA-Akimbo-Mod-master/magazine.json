@@ -1,7 +1,7 @@
 [
   {
     "id": "ak_glockmag",
-    "looks_like": "glock17_17",
+    "looks-like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Akimbo Glock magazine",
     "description": "Two compact light-weight polymer magazines for use with Glock compatible firearms.",
@@ -11,14 +11,14 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "9mm" ],
+    "ammo_type": "9mm",
     "capacity": 34,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
   },
   {
     "id": "ak_40_speedloader",
-    "looks_like": "38_speedloader",
+    "looks-like": "38_speedloader",
     "type": "MAGAZINE",
     "name": "Akimbo .40 6-round speedloaders",
     "description": "Two speedloaders holding 6 rounds of .40 S&W or 10mm Auto each.",
@@ -28,13 +28,13 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "40", "10mm" ],
+    "ammo_type": "40", "10mm",
     "capacity": 12,
     "flags": [ "SPEEDLOADER" ]
   },
   {
     "id": "ak_tec9mag",
-    "looks_like": "mp5mag",
+    "looks-like": "mp5mag",
     "type": "MAGAZINE",
     "name": "Akimbo TEC-9 magazines",
     "description": "Two cheap and somewhat unreliable 32-round steel box magazine for use with the Akimbo TEC-9.",
@@ -44,14 +44,14 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "9mm" ],
+    "ammo_type": "9mm",
     "capacity": 64,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]
   },
   {
     "id": "ak_deaglemag",
-    "looks_like": "glock17_17",
+    "looks-like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Akimbo Desert Eagle magazine",
     "description": "Two standard 7-round steel box magazines for use with the Akimbo Desert Eagle.",
@@ -61,14 +61,14 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "44" ],
+    "ammo_type": "44",
     "capacity": 16,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
   },
   {
     "id": "ak_1911bigmag",
-    "looks_like": "glock17_17",
+    "looks-like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Akimbo M1911 extended magazine",
     "description": "Two extended 10-round magazines for use with the Akimbo M1911.",
@@ -78,14 +78,14 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "45" ],
+    "ammo_type": "45",
     "capacity": 20,
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
   },
   {
     "id": "ak_1911mag",
-    "looks_like": "glock17_17",
+    "looks-like": "glock17_17",
     "type": "MAGAZINE",
     "name": "Akimbo M1911 magazine",
     "description": "Two military issue 7-round magazines for use with the Akimbo M1911.",
@@ -95,7 +95,7 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "45" ],
+    "ammo_type": "45",
     "capacity": 14,
     "reliability": 10,
     "flags": [ "MAG_COMPACT" ]
