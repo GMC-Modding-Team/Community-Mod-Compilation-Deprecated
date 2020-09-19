@@ -13,6 +13,8 @@
     "color": "light_gray",
     "ammo_type": [ "792" ],
     "capacity": 5,
-    "flags": [ "SPEEDLOADER" ]
+    "reload_time": 60,
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "792": 5 } } ]
   }
 ]

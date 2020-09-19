@@ -655,7 +655,9 @@
     "capacity": 2000,
     "ammo_type": [ "secro_flesh" ],
     "price": 0,
-    "price_postapoc": 0
+    "price_postapoc": 0,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "secro_flesh": 2000 } } ]
   },
   {
     "type": "GENERIC",

@@ -12,7 +12,8 @@
     "color": "light_gray",
     "ammo_type": [ "40" ],
     "capacity": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 10 } } ]
   },
   {
     "id": "hipoint40magext",
@@ -28,6 +29,7 @@
     "color": "light_gray",
     "ammo_type": [ "40" ],
     "capacity": 15,
-    "flags": [ "MAG_BULKY" ]
+    "flags": [ "MAG_BULKY" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 15 } } ]
   }
 ]

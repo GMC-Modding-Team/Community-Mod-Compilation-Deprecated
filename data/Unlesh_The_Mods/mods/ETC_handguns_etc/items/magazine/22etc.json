@@ -13,7 +13,8 @@
     "ammo_type": [ "22etc" ],
     "looks-like": "38_speedloader",
     "capacity": 12,
-    "flags": [ "SPEEDLOADER" ]
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 12 } } ]
   },
   {
     "id": "belt22etc",
@@ -25,7 +26,8 @@
     "count": 1000,
     "default_ammo": "22etc_apt",
     "linkage": "ammolink22etc",
-    "looks-like": "belt223"
+    "looks-like": "belt223",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 12 } } ]
   },
   {
     "id": "nanogun_240_mag",
@@ -42,7 +44,8 @@
     "capacity": 240,
     "reload_time": 60,
     "looks-like": "a180mag",
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 60 } } ]
   },
   {
     "id": "nanogun_480_mag",
@@ -59,7 +62,8 @@
     "capacity": 480,
     "reload_time": 60,
     "looks-like": "a180mag",
-    "flags": [ "MAG_BULKY" ]
+    "flags": [ "MAG_BULKY" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 60 } } ]
   },
   {
     "id": "o2038_100_mag",
@@ -75,7 +79,8 @@
     "ammo_type": [ "22etc" ],
     "capacity": 100,
     "looks-like": "fnp90mag",
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 100 } } ]
   },
   {
     "id": "smp_30_mag",
@@ -91,7 +96,8 @@
     "ammo_type": [ "22etc" ],
     "capacity": 30,
     "looks-like": "fn57mag",
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 30 } } ]
   },
   {
     "id": "smp_60_mag",
@@ -107,7 +113,8 @@
     "ammo_type": [ "22etc" ],
     "looks-like": "ruger1022bigmag",
     "capacity": 60,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 60 } } ]
   },
   {
     "id": "spistol_mag",
@@ -124,6 +131,7 @@
     "capacity": 7,
     "//": "For a pistol that cuts a lot of corners so it can fit inside a pocket despite its integrated suppressor.",
     "looks-like": "mosquitomag",
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22etc": 7 } } ]
   }
 ]

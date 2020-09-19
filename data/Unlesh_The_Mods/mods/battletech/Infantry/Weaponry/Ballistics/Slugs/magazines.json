@@ -13,6 +13,7 @@
     "ammo_type": [ "auto_pistol" ],
     "capacity": 10,
     "reload_time": 90,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "auto_pistol": 10 } } ]
   }
 ]
