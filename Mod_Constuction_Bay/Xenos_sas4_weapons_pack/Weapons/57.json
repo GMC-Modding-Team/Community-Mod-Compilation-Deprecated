@@ -2,6 +2,7 @@
   {
     "id": "ria_7",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 7", "str_pl": "RIA 7" },
@@ -16,20 +17,27 @@
     "to_hit": -2,
     "dispersion": 50,
     "sight_dispersion": 30,
-    "aim_speed": 4,
     "recoil": 80,
     "durability": 6,
-    "reload": 90,
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "range": 2,
-    "loudness": 100,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "57", [ "45ria57" ] ], [ "57", [ "2x45ria57" ] ], [ "57", [ "80ria57" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 12 ], [ "BURST", "5 rd", 5 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 12 ], [ "BURST", "5 rd", 5 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "45ria57", "2x45ria57", "80ria57" ]
+      }
+    ]
   },
   {
     "id": "ria_T7",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA T7", "str_pl": "RIA T7" },
@@ -44,15 +52,21 @@
     "to_hit": -2,
     "dispersion": 40,
     "sight_dispersion": 30,
-    "aim_speed": 4,
-    "recoil": 80,
+    "min_cycle_recoil": 80,
     "durability": 6,
-    "reload": 90,
     "ranged_damage": { "damage_type": "bullet", "amount": 3 },
     "range": 3,
-    "loudness": 90,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "57", [ "45ria57" ] ], [ "57", [ "2x45ria57" ] ], [ "57", [ "80ria57" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 12 ], [ "BURST", "5 rd", 5 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 12 ], [ "BURST", "5 rd", 5 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "45ria57", "2x45ria57", "80ria57" ]
+      }
+    ]
   }
 ]
