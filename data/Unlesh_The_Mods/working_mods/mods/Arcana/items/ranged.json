@@ -25,7 +25,6 @@
     "loudness": 150,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 5 } } ],
     "clip_size": 5,
-    
     "relic_data": {
       "passive_effects": [
         {
@@ -71,7 +70,6 @@
     "loudness": 100,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 15 } } ],
     "clip_size": 15,
-    
     "modes": [ [ "DEFAULT", "single", 1 ], [ "BURST", "triple", 3 ] ],
     "ammo_effects": [ "FLAME", "STREAM", "INCENDIARY", "FLARE" ],
     "techniques": [ "WBLOCK_1", "RAPID" ],
@@ -128,7 +126,6 @@
     "durability": 6,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 20 } } ],
     "clip_size": 20,
-    
     "ammo_effects": [ "WIDE", "LASER", "BEANBAG", "BLINDS_EYES" ],
     "flags": [ "FIRE_20", "NEVER_JAMS", "PRIMITIVE_RANGED_WEAPON", "NO_SALVAGE", "BELTED", "TRADER_KEEP_EQUIPPED" ],
     "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "material_thickness": 1, "encumbrance": 15 }
@@ -160,7 +157,6 @@
     "loudness": 500,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_pure_type": 1 } } ],
     "clip_size": 1,
-    
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_sparks", "no_fail": true, "level": 0, "need_wielding": true },
     "ammo_effects": [ "NAPALM", "FIRE_CORRUPTION" ],
     "relic_data": {
@@ -213,7 +209,6 @@
     "loudness": 75,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 4 } } ],
     "clip_size": 4,
-    
     "relic_data": {
       "passive_effects": [
         {
@@ -264,7 +259,6 @@
     "durability": 7,
     "loudness": 35,
     "ups_charges": 120,
-    
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -313,7 +307,6 @@
     "dispersion": 20,
     "durability": 7,
     "clip_size": 1,
-    
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -384,7 +377,6 @@
     "dispersion": 300,
     "durability": 10,
     "loudness": 5,
-    
     "ammo_effects": [ "WIDE", "STREAM", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID", "ZERO_WEIGHT" ]
   },
