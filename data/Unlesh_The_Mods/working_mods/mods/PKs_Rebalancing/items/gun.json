@@ -22,7 +22,6 @@
     "durability": 7,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bomblet": 1 } } ],
-    
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE" ],
     "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
@@ -51,7 +50,6 @@
     "burst": 2,
     "clip_size": 2,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bomblet": 2 } } ],
-    
     "valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS", "RELOAD_ONE" ]
@@ -80,7 +78,6 @@
     "burst": 4,
     "clip_size": 24,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bomblet": 24 } } ],
-    
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
@@ -117,7 +114,6 @@
     "burst": 2,
     "clip_size": 6,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bomblet": 6 } } ],
-    
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "built_in_mods": [ "bomblet_undermod" ],
     "ammo_effects": [ "DRAW_AS_LINE" ],
@@ -145,7 +141,6 @@
     "sight_dispersion": 30,
     "recoil": 10,
     "durability": 10,
-    
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE" ],
     "magazine_well": 2,
@@ -182,7 +177,6 @@
       "recoil": 50,
       "durability": 10,
       "clip_size": 3,
-      
       "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
     },
     "dispersion_modifier": 40,
@@ -221,7 +215,6 @@
         "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
       }
     ],
-    
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE", "BEANBAG", "WIDE", "BOUNCE", "LIGHTNING" ],
     "flags": [ "NEVER_JAMS", "FIRE_100", "NO_UNLOAD", "RECHARGE" ]
@@ -286,7 +279,6 @@
         "item_restriction": [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
       }
     ],
-    
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE", "BEANBAG", "WIDE", "BOUNCE", "LIGHTNING" ],
     "flags": [ "NEVER_JAMS", "FIRE_50", "NO_UNLOAD" ]
@@ -312,7 +304,6 @@
     "durability": 5,
     "clip_size": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 10 } } ],
-    
     "reload_noise": "click - chak",
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "mechanism", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
@@ -338,7 +329,6 @@
     "durability": 9,
     "clip_size": 6,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 6 } } ],
-    
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -373,7 +363,6 @@
     "durability": 7,
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 12 } } ],
-    
     "flags": [ "NEVER_JAMS", "RELOAD_ONE" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -409,7 +398,6 @@
     "burst": 2,
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 12 } } ],
-    
     "flags": [ "MODE_BURST", "NEVER_JAMS", "RELOAD_ONE" ],
     "valid_mod_locations": [ [ "accessories", 4 ], [ "bore", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },

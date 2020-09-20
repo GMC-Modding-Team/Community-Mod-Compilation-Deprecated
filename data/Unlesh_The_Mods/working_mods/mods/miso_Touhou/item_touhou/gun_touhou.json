@@ -48,7 +48,6 @@
     "burst": 2,
     "clip_size": 10,
     "recoil": 150,
-    
     "ammo_effects": [ "LASER", "INCENDIARY", "CUSTOM_EXPLOSION", "NEVER_JAMS" ],
     "flags": [ "TRADER_AVOID", "NEVER_JAMS", "NO_UNLOAD" ]
   },
@@ -75,7 +74,6 @@
     "burst": 5,
     "clip_size": 10,
     "recoil": 25,
-    
     "ammo_effects": [ "PLASMA", "INCENDIARY", "SHOT" ],
     "flags": [ "TRADER_AVOID", "NEVER_JAMS", "RELOAD_ONE", "MODE_BURST" ]
   },
@@ -97,7 +95,6 @@
     "ranged_damage": { "damage_type": "stab", "amount": 10, "armor_penetration": 8 },
     "dispersion": 10,
     "durability": 10,
-    
     "ups_charges": 0,
     "ammo_effects": [ "PLASMA", "INCENDIARY", "SHOT" ],
     "flags": [ "TRADER_AVOID", "NEVER_JAMS" ],
@@ -150,13 +147,11 @@
     "range": 9,
     "dispersion": 110,
     "sight_dispersion": 120,
-    
     "recoil": 225,
     "durability": 6,
     "ammo_effects": [ "NEVER_JAMS" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
     "clip_size": 60,
-    
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
@@ -185,10 +180,8 @@
     "durability": 9,
     "skill": "launcher",
     "ups_charges": 0,
-    
     "ammo_effects": [ "NO_BOOM", "LASER", "INCENDIARY" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "5 rd.", 5 ] ],
-    
     "flags": [ "TRADER_AVOID", "NEVER_JAMS" ],
     "valid_mod_locations": [ [ "accessories", 4 ], [ "rail", 1 ], [ "grip", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   },
@@ -214,7 +207,6 @@
     "burst": 2,
     "loudness": 12,
     "ups_charges": 40,
-    
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
