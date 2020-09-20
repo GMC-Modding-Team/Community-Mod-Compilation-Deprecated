@@ -3294,6 +3294,7 @@
     "durability": 9,
     "loudness": 175,
     "clip_size": 8,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 8 } } ],
     "reload": 80,
     "barrel_volume": "250 ml",
     "valid_mod_locations": [
@@ -3309,8 +3310,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 8 } } ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS" ]
   },
   {
     "id": "homebrewer_gun",
@@ -3335,9 +3335,9 @@
     "recoil": 20,
     "durability": 6,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 5 } } ],
     "reload": 110,
-    "loudness": 195,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 5 } } ]
+    "loudness": 195
   },
   {
     "id": "colt_single_action_army",
@@ -3361,9 +3361,9 @@
     "recoil": 50,
     "durability": 9,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44paper": 6 } } ],
     "reload": 130,
-    "loudness": 160,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44paper": 6 } } ]
+    "loudness": 160
   },
   {
     "id": "colt_python",
@@ -3388,9 +3388,9 @@
     "recoil": 70,
     "durability": 9,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 6 } } ],
     "reload": 130,
-    "loudness": 240,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 6 } } ]
+    "loudness": 240
   },
   {
     "id": "ruger_blackhawk",
@@ -3415,6 +3415,7 @@
     "recoil": 100,
     "durability": 8,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 6 } } ],
     "reload": 85,
     "loudness": 200,
     "valid_mod_locations": [
@@ -3428,8 +3429,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 6 } } ]
+    ]
   },
   {
     "id": "colt_detective",
@@ -3454,9 +3454,9 @@
     "recoil": 80,
     "durability": 9,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "38": 5 } } ],
     "reload": 100,
-    "loudness": 190,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "38": 5 } } ]
+    "loudness": 190
   },
   {
     "id": "winmodel1873",
@@ -3481,6 +3481,7 @@
     "recoil": 40,
     "durability": 7,
     "clip_size": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 10 } } ],
     "reload": 100,
     "loudness": 160,
     "valid_mod_locations": [
@@ -3496,8 +3497,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "44": 10 } } ]
+    ]
   },
   {
     "id": "rem_model7600",
@@ -3521,6 +3521,7 @@
     "recoil": 10,
     "durability": 8,
     "clip_size": 4,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "308": 4 } } ],
     "reload": 80,
     "loudness": 150,
     "valid_mod_locations": [
@@ -3535,8 +3536,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "308": 4 } } ]
+    ]
   },
   {
     "id": "svd",
@@ -3628,6 +3628,7 @@
     "recoil": 275,
     "durability": 5,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 5 } } ],
     "reload": 100,
     "loudness": 160,
     "valid_mod_locations": [
@@ -3639,8 +3640,7 @@
       [ "mechanism", 4 ],
       [ "muzzle", 1 ],
       [ "sights", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 5 } } ]
+    ]
   },
   {
     "id": "ithacam37",
@@ -3665,6 +3665,7 @@
     "recoil": 80,
     "durability": 7,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 5 } } ],
     "reload": 75,
     "loudness": 175,
     "valid_mod_locations": [
@@ -3679,8 +3680,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 5 } } ]
+    ]
   },
   {
     "id": "w1897",
@@ -3705,6 +3705,7 @@
     "recoil": 20,
     "durability": 9,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 6 } } ],
     "burst": 3,
     "reload": 75,
     "loudness": 175,
@@ -3720,8 +3721,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 6 } } ]
+    ]
   },
   {
     "id": "w1887",
@@ -3746,6 +3746,7 @@
     "recoil": 40,
     "durability": 8,
     "clip_size": 4,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 4 } } ],
     "reload": 65,
     "loudness": 175,
     "valid_mod_locations": [
@@ -3760,8 +3761,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 4 } } ]
+    ]
   },
   {
     "id": "striker",
@@ -3786,6 +3786,7 @@
     "durability": 6,
     "burst": 5,
     "clip_size": 12,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 12 } } ],
     "reload": 100,
     "loudness": 175,
     "valid_mod_locations": [
@@ -3801,8 +3802,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 12 } } ]
+    ]
   },
   {
     "id": "auto5",
@@ -3827,6 +3827,7 @@
     "durability": 8,
     "burst": 2,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 6 } } ],
     "reload": 100,
     "loudness": 175,
     "valid_mod_locations": [
@@ -3842,8 +3843,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 6 } } ]
+    ]
   },
   {
     "id": "spas12",
@@ -4350,6 +4350,7 @@
     "recoil": 275,
     "durability": 8,
     "clip_size": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { ".303": 10 } } ],
     "reload": 65,
     "loudness": 135,
     "barrel_volume": "750 ml",
@@ -4364,8 +4365,7 @@
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { ".303": 10 } } ]
+    ]
   },
   {
     "id": "G98",
@@ -4391,6 +4391,7 @@
     "recoil": 300,
     "durability": 8,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "7.92mm": 5 } } ],
     "reload": 60,
     "loudness": 135,
     "barrel_volume": "1000 ml",
@@ -4405,8 +4406,7 @@
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "7.92mm": 5 } } ]
+    ]
   },
   {
     "id": "Type24",
@@ -4432,6 +4432,7 @@
     "recoil": 300,
     "durability": 8,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "7.92mm": 5 } } ],
     "reload": 55,
     "loudness": 135,
     "barrel_volume": "750 ml",
@@ -4446,8 +4447,7 @@
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "7.92mm": 5 } } ]
+    ]
   },
   {
     "id": "mosin_finn",
@@ -4467,11 +4467,11 @@
     "dispersion": 75,
     "durability": 10,
     "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 5 } } ],
     "reload": 70,
     "barrel_volume": "750 ml",
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 5 } } ]
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS" ]
   },
   {
     "id": "Enfield17",
@@ -4497,6 +4497,7 @@
     "recoil": 275,
     "durability": 9,
     "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3006": 6 } } ],
     "reload": 65,
     "loudness": 135,
     "barrel_volume": "750 ml",
@@ -4511,8 +4512,7 @@
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ]
-    ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3006": 6 } } ]
+    ]
   },
   {
     "id": "needle_rifle",
@@ -4534,7 +4534,6 @@
     "dispersion": 100,
     "durability": 6,
     "clip_size": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "flintlock": 1 } } ],
     "reload": 60,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "underbarrel", 1 ] ],
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]

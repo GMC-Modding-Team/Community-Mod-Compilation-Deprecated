@@ -2,7 +2,7 @@
   {
     "id": "223_fungicidal",
     "copy-from": "223",
-    "looks_like": "223",
+    "looks-like": "223",
     "type": "AMMO",
     "name": { "str": "fungicidal gas warhead .203", "str_pl": "fungicidal gas warheads .203" },
     "description": "It is a specially-made bullet that sprays the fungicidal gas sealed in the warhead when it lands. There is almost no killing power and the amount of glaze is modest to avoid warhead damage at launch.",
@@ -15,7 +15,7 @@
   {
     "id": "308_fungicidal",
     "copy-from": "308",
-    "looks_like": "308",
+    "looks-like": "308",
     "type": "AMMO",
     "name": { "str": "fungicidal gas warhead .308", "str_pl": "fungicidal gas warheads .308" },
     "description": "It is a specially-made bullet that sprays the fungicidal gas sealed in the warhead when it lands. There is almost no killing power and the amount of glaze is modest to avoid warhead damage at launch.",
@@ -28,7 +28,7 @@
   {
     "id": "50_fungicidal",
     "copy-from": "50bmg",
-    "looks_like": "50bmg",
+    "looks-like": "50bmg",
     "type": "AMMO",
     "name": { "str": "fungicidal gas warhead .50 BMG", "str_pl": "fungicidal gas warheads .50 BMG" },
     "description": "It is a specially-made bullet that sprays the fungicidal gas sealed in the warhead when it lands. There is almost no killing power and the amount of glaze is modest to avoid warhead damage at launch.",
@@ -45,7 +45,7 @@
     "name": { "str": "fungicide gas hand grenade", "str_pl": "fungicide gas hand grenades" },
     "description": "A hand grenade filled with fungicidal gas. Use to pull the pin and ignite. It takes 5 turns to gas spout.",
     "price": 1800,
-    "looks_like": "gasbomb",
+    "looks-like": "gasbomb",
     "countdown_action": { "type": "transform", "target": "fungicidal_bomb_act" }
   },
   {
@@ -54,7 +54,7 @@
     "type": "GENERIC",
     "name": { "str": "fungicide gas hand grenade (active)", "str_pl": "fungicide gas hand grenades (active)" },
     "description": "A hand grenade filled with fungicidal gas. The pin is already pulled and is releasing gas.",
-    "looks_like": "gasbomb_act",
+    "looks-like": "gasbomb_act",
     "emits": [ "emit_fungicidal_stream" ],
     "countdown_interval": 50,
     "countdown_action": { "type": "transform", "target": "canister_empty" },
@@ -66,7 +66,7 @@
     "type": "AMMO",
     "name": { "str": "40mm fungicidal gas grenade", "str_pl": "40mm fungicidal gas grenades" },
     "description": "A 40 mm grenade bullet filled with fungicidal gas. For a while, we will keep releasing the sterilizing gas to the impact point.",
-    "looks_like": "40x46mm_m433",
+    "looks-like": "40x46mm_m433",
     "drop": "fungicidal_bomb_act",
     "extend": { "effects": [ "NO_EMBED" ] }
   }

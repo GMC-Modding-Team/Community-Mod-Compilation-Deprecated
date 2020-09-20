@@ -371,14 +371,13 @@
     "volume": "1500 ml",
     "price": 5000,
     "price_postapoc": 1000,
-    "bashing": 2,
-    "to_hit": -2,
     "material": [ "veggy" ],
     "symbol": ":",
     "color": "brown",
-    "ammo_type": "battery",
-    "capacity": 500,
-    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD" ]
+    "ammo_type": [ "battery" ],
+    "capacity": 5000,
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 5000 } } ]
   },
   {
     "id": "mushroom_storage_battery",

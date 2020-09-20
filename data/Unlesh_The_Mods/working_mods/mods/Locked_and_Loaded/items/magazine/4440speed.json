@@ -1,7 +1,7 @@
 [
   {
     "id": "4440_speedloader6",
-    "looks_like": "38_speedloader",
+    "looks-like": "38_speedloader",
     "type": "MAGAZINE",
     "name": { "str": ".44-40 6 speedloader" },
     "description": "This speedloader can hold 6 rounds of .44-40 and quickly reload a compatible revolver.",
@@ -11,8 +11,10 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "4440",
+    "ammo_type": [ "4440" ],
     "capacity": 6,
-    "flags": [ "SPEEDLOADER" ]
+    "reload_time": 60,
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "4440": 6 } } ]
   }
 ]

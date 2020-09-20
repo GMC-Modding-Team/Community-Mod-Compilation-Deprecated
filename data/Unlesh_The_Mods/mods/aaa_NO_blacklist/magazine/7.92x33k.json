@@ -9,10 +9,10 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "7.92x33k",
+    "ammo_type": [ "7.92x33k" ],
     "capacity": 30,
-    "reliability": 2,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "7.92x33k": 30 } } ]
   },
   {
     "id": "stg44magnew",
@@ -24,9 +24,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "7.92x33k",
+    "ammo_type": [ "7.92x33k" ],
     "capacity": 30,
-    "reliability": 6,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "7.92x33k": 30 } } ]
   }
 ]

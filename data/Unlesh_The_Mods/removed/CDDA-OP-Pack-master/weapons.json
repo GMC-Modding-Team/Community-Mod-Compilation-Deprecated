@@ -26,25 +26,17 @@
     "type": "MAGAZINE",
     "category": "spare_parts",
     "name": { "str": "Omni Corp. battery" },
-    "looks_like": "plut_cell",
+    "looks-like": "plut_cell",
     "description": "An impossibly light battery used only in the Omni Corp. UPS. You shouldn't have this.",
     "weight": "1 g",
     "volume": "1 ml",
     "price": 0,
     "material": [ "omni_alloy" ],
     "symbol": "#",
+    "capacity": 5000,
     "color": "white",
-    "ammo_type": "battery",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "10000 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
+    "ammo_type": [ "battery" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 5000 } } ],
     "flags": [ "TRADER_AVOID", "RECHARGE", "TARDIS", "NO_UNLOAD" ]
   },
   {
@@ -58,18 +50,9 @@
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
-    "ammo_type": "omni_ammo",
+    "ammo_type": [ "omni_ammo" ],
     "capacity": 10,
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "10 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "omni_ammo": 10 } } ],
     "reload_time": 0,
     "flags": [ "MAG_COMPACT", "TARDIS", "TRADER_AVOID" ]
   },
@@ -84,17 +67,8 @@
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
-    "ammo_type": "omni_ammo",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "250 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
+    "ammo_type": [ "omni_ammo" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "omni_ammo": 12 } } ],
     "reload_time": 0,
     "flags": [ "MAG_BULKY", "TARDIS", "TRADER_AVOID" ]
   },
@@ -109,24 +83,15 @@
     "material": [ "omni_alloy" ],
     "symbol": "#",
     "color": "white",
-    "ammo_type": "omni_ammo",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "rigid": true,
-        "max_contains_volume": "500 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "7 kg"
-      }
-    ],
+    "ammo_type": [ "omni_ammo" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "omni_ammo": 24 } } ],
     "reload_time": 0,
     "flags": [ "MAG_BULKY", "TRADER_AVOID", "TARDIS" ]
   },
   {
     "id": "omni_rifle",
     "type": "GUN",
-    "looks_like": "ar15",
+    "looks-like": "ar15",
     "reload_noise_volume": 0,
     "symbol": "(",
     "color": "black",
@@ -156,7 +121,7 @@
   {
     "id": "omni_rifle_ups",
     "type": "GUN",
-    "looks_like": "ar15",
+    "looks-like": "ar15",
     "reload_noise_volume": 0,
     "symbol": "(",
     "color": "black",
@@ -184,7 +149,7 @@
   },
   {
     "id": "omni_pistol",
-    "looks_like": "glock17",
+    "looks-like": "glock17",
     "type": "GUN",
     "reload_noise_volume": 0,
     "symbol": "(",
@@ -214,7 +179,7 @@
   },
   {
     "id": "omni_pistol_ups",
-    "looks_like": "glock17",
+    "looks-like": "glock17",
     "type": "GUN",
     "reload_noise_volume": 0,
     "symbol": "(",
@@ -243,7 +208,7 @@
   },
   {
     "type": "GENERIC",
-    "looks_like": "broadsword",
+    "looks-like": "broadsword",
     "id": "omni_blade",
     "name": { "str": "Omni Corp. energy blade", "str_pl": "Omni Corp. energy blades" },
     "description": "A medium length hard-light edged blade, standard issue to Omni Corp. Personel in hazardous environs. The blade is currently off.",
@@ -260,7 +225,7 @@
   },
   {
     "type": "GENERIC",
-    "looks_like": "broadsword",
+    "looks-like": "broadsword",
     "id": "omni_blade_on",
     "name": { "str": "Omni Corp. energy blade", "str_pl": "Omni Corp. energy blades" },
     "description": "A medium length hard-light edged blade, standard issue to Omni Corp. Personel in hazardous environs. The blade is currently on.",
@@ -277,7 +242,7 @@
   },
   {
     "type": "GENERIC",
-    "looks_like": "combat_knife",
+    "looks-like": "combat_knife",
     "id": "omni_knife",
     "name": { "str": "Omni Corp. energy knife", "str_pl": "Omni Corp. energy knives" },
     "description": "A short hard-light edged knife, standard issue to Omni Corp. Personel in hazardous environs. The blade is currently off.",
@@ -294,7 +259,7 @@
   },
   {
     "type": "GENERIC",
-    "looks_like": "combat_knife",
+    "looks-like": "combat_knife",
     "id": "omni_knife_on",
     "name": { "str": "Omni Corp. energy knife", "str_pl": "Omni Corp. energy knives" },
     "description": "A short hard-light edged knife, standard issue to Omni Corp. Personel in hazardous environs. The blade is currently on.",
@@ -311,7 +276,7 @@
   },
   {
     "type": "GENERIC",
-    "looks_like": "spear_steel",
+    "looks-like": "spear_steel",
     "id": "omni_spear",
     "name": { "str": "Omni Corp. energy spear", "str_pl": "Omni Corp. energy spears" },
     "description": "A long hafted hard-light edged spear, issued to Omni Corp. Personel in hazardous environs. The blade is currently off.",
@@ -328,7 +293,7 @@
   },
   {
     "type": "GENERIC",
-    "looks_like": "spear_steel",
+    "looks-like": "spear_steel",
     "id": "omni_spear_on",
     "name": { "str": "Omni Corp. energy spear", "str_pl": "Omni Corp. energy spears" },
     "description": "A long hafted hard-light edged spear, issued to Omni Corp. Personel in hazardous environs. The blade is currently on.",

@@ -1,7 +1,7 @@
 [
   {
     "id": "BL9_pistol",
-    "looks_like": "m1911",
+    "looks-like": "m1911",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -48,7 +48,7 @@
   },
   {
     "id": "BL9_smg",
-    "looks_like": "tommygun",
+    "looks-like": "tommygun",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -96,7 +96,7 @@
   },
   {
     "id": "BL9_sniper",
-    "looks_like": "M24",
+    "looks-like": "M24",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -114,7 +114,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 1 },
     "range": 27,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 105,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 2 ] ],
@@ -143,7 +143,7 @@
   },
   {
     "id": "BL9_auto",
-    "looks_like": "acr",
+    "looks-like": "acr",
     "type": "GUN",
     "symbol": "(",
     "color": "red",
@@ -191,7 +191,7 @@
   },
   {
     "id": "BL9_shotgun",
-    "looks_like": "remington_1100",
+    "looks-like": "remington_1100",
     "type": "GUN",
     "symbol": "(",
     "color": "red",
@@ -209,7 +209,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 1 },
     "range": 12,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 300,
     "durability": 8,
     "modes": [ [ "DEFAULT", "one shot", 1 ], [ "BURST", "double barrel", 2 ] ],
@@ -229,7 +229,7 @@
   },
   {
     "id": "BL9_magnum",
-    "looks_like": "ruger_redhawk",
+    "looks-like": "ruger_redhawk",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -268,7 +268,7 @@
   },
   {
     "id": "BL9_sprayer",
-    "looks_like": "chemical_thrower",
+    "looks-like": "chemical_thrower",
     "copy-from": "gun_base",
     "type": "GUN",
     "reload_noise": "slosh.",
@@ -308,7 +308,7 @@
   },
   {
     "id": "BL9_launcher",
-    "looks_like": "mgl",
+    "looks-like": "mgl",
     "type": "GUN",
     "symbol": "(",
     "name": { "str": "BL9-infused launcher" },
@@ -353,7 +353,7 @@
   },
   {
     "id": "BL9_bow",
-    "looks_like": "compositebow",
+    "looks-like": "compositebow",
     "type": "GUN",
     "symbol": "(",
     "color": "yellow",
@@ -382,7 +382,7 @@
   },
   {
     "id": "BL9_crossbow",
-    "looks_like": "compositecrossbow",
+    "looks-like": "compositecrossbow",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -422,7 +422,7 @@
   },
   {
     "id": "BL9_pistol_mk2",
-    "looks_like": "walther_p38",
+    "looks-like": "walther_p38",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -469,7 +469,7 @@
   },
   {
     "id": "BL9_smg_mk2",
-    "looks_like": "TDI",
+    "looks-like": "TDI",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -517,7 +517,7 @@
   },
   {
     "id": "BL9_sniper_mk2",
-    "looks_like": "as50",
+    "looks-like": "as50",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -535,7 +535,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 1 },
     "range": 35,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 88,
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 2 ] ],
@@ -564,7 +564,7 @@
   },
   {
     "id": "BL9_auto_mk2",
-    "looks_like": "scar_l",
+    "looks-like": "scar_l",
     "type": "GUN",
     "symbol": "(",
     "color": "red",
@@ -612,7 +612,7 @@
   },
   {
     "id": "BL9_shotgun_mk2",
-    "looks_like": "SPAS_12",
+    "looks-like": "SPAS_12",
     "type": "GUN",
     "symbol": "(",
     "color": "red",
@@ -630,7 +630,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 1 },
     "range": 16,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 245,
     "durability": 9,
     "modes": [ [ "DEFAULT", "one shot", 1 ], [ "BURST", "double barrel", 2 ] ],
@@ -652,7 +652,7 @@
   },
   {
     "id": "BL9_magnum_mk2",
-    "looks_like": "sw629",
+    "looks-like": "sw629",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -691,7 +691,7 @@
   },
   {
     "id": "BL9_sprayer_mk2",
-    "looks_like": "chemical_thrower",
+    "looks-like": "chemical_thrower",
     "copy-from": "gun_base",
     "type": "GUN",
     "reload_noise": "slosh.",
@@ -731,7 +731,7 @@
   },
   {
     "id": "BL9_launcher_mk2",
-    "looks_like": "rm802",
+    "looks-like": "rm802",
     "type": "GUN",
     "symbol": "(",
     "name": { "str": "BL9-infused launcher MK ii" },
@@ -776,7 +776,7 @@
   },
   {
     "id": "BL9_bow_mk2",
-    "looks_like": "compgreatbow",
+    "looks-like": "compgreatbow",
     "type": "GUN",
     "symbol": "(",
     "color": "yellow",
@@ -805,7 +805,7 @@
   },
   {
     "id": "BL9_crossbow_mk2",
-    "looks_like": "compcrossbow",
+    "looks-like": "compcrossbow",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -845,7 +845,7 @@
   },
   {
     "id": "BL9_pistol_mk3",
-    "looks_like": "walther_p38",
+    "looks-like": "walther_p38",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -892,7 +892,7 @@
   },
   {
     "id": "BL9_smg_mk3",
-    "looks_like": "TDI",
+    "looks-like": "TDI",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -940,7 +940,7 @@
   },
   {
     "id": "BL9_sniper_mk3",
-    "looks_like": "as50",
+    "looks-like": "as50",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -958,7 +958,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 1 },
     "range": 45,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 72,
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 2 ] ],
@@ -987,7 +987,7 @@
   },
   {
     "id": "BL9_auto_mk3",
-    "looks_like": "scar_l",
+    "looks-like": "scar_l",
     "type": "GUN",
     "symbol": "(",
     "color": "red",
@@ -1035,7 +1035,7 @@
   },
   {
     "id": "BL9_shotgun_mk3",
-    "looks_like": "SPAS_12",
+    "looks-like": "SPAS_12",
     "type": "GUN",
     "symbol": "(",
     "color": "red",
@@ -1053,7 +1053,7 @@
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 1, "armor_penetration": 1 },
     "range": 24,
-    "barrel_length": 2,
+    "barrel_volume": 2,
     "dispersion": 210,
     "durability": 10,
     "modes": [ [ "DEFAULT", "one shot", 1 ], [ "BURST", "double barrel", 2 ] ],
@@ -1075,7 +1075,7 @@
   },
   {
     "id": "BL9_magnum_mk3",
-    "looks_like": "sw629",
+    "looks-like": "sw629",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -1114,7 +1114,7 @@
   },
   {
     "id": "BL9_sprayer_mk3",
-    "looks_like": "chemical_thrower",
+    "looks-like": "chemical_thrower",
     "copy-from": "gun_base",
     "type": "GUN",
     "reload_noise": "slosh.",
@@ -1154,7 +1154,7 @@
   },
   {
     "id": "BL9_launcher_mk3",
-    "looks_like": "rm802",
+    "looks-like": "rm802",
     "type": "GUN",
     "symbol": "(",
     "name": { "str": "BL9-infused launcher MK iii" },
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "BL9_bow_mk3",
-    "looks_like": "compgreatbow",
+    "looks-like": "compgreatbow",
     "type": "GUN",
     "symbol": "(",
     "color": "yellow",
@@ -1228,7 +1228,7 @@
   },
   {
     "id": "BL9_crossbow_mk3",
-    "looks_like": "compcrossbow",
+    "looks-like": "compcrossbow",
     "type": "GUN",
     "symbol": "(",
     "color": "green",

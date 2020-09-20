@@ -10,11 +10,11 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks_like": "8x40_50_mag",
-    "ammo_type": "939",
+    "looks-like": "8x40_50_mag",
+    "ammo_type": [ "939" ],
     "capacity": 10,
-    "reliability": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "939": 10 } } ]
   },
   {
     "id": "bigVSS_mag",
@@ -27,10 +27,10 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks_like": "8x40_50_mag",
-    "ammo_type": "939",
+    "looks-like": "8x40_50_mag",
+    "ammo_type": [ "939" ],
     "capacity": 20,
-    "reliability": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "939": 20 } } ]
   }
 ]

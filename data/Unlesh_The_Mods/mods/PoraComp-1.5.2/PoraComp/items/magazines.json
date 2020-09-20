@@ -10,10 +10,10 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "bolt",
+    "ammo_type": [ "bolt" ],
     "capacity": 6,
-    "reliability": 6,
     "reload_time": 800,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bolt": 6 } } ]
   }
 ]

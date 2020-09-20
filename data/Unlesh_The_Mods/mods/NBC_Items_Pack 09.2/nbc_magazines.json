@@ -10,12 +10,12 @@
     "material": [ "steel", "cotton" ],
     "symbol": "=",
     "color": "green",
-    "ammo_type": "filter_open_1",
+    "ammo_type": [ "filter_open_1" ],
     "casing": "filtercasing",
     "capacity": 600,
     "count": 600,
-    "reliability": 10,
-    "flags": [ "MAG_EJECT", "NO_UNLOAD", "MAG_COMPACT" ]
+    "flags": [ "MAG_EJECT", "NO_UNLOAD", "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_1": 600 } } ]
   },
   {
     "id": "sm_filter_1b",
@@ -28,12 +28,12 @@
     "material": [ "steel", "cotton" ],
     "symbol": "=",
     "color": "light_gray",
-    "ammo_type": "filter_open_2",
+    "ammo_type": [ "filter_open_2" ],
     "casing": "filtercasing",
     "capacity": 600,
     "count": 600,
-    "reliability": 10,
-    "flags": [ "NO_UNLOAD", "MAG_COMPACT", "MAG_EJECT" ]
+    "flags": [ "NO_UNLOAD", "MAG_COMPACT", "MAG_EJECT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_2": 600 } } ]
   },
   {
     "id": "lg_filter",
@@ -46,12 +46,12 @@
     "material": [ "steel", "cotton" ],
     "symbol": "=",
     "color": "brown",
-    "ammo_type": "filter_open_1",
+    "ammo_type": [ "filter_open_1" ],
     "casing": "filtercasing_lg",
     "capacity": 1000,
     "count": 1000,
-    "reliability": 10,
-    "flags": [ "NO_UNLOAD", "MAG_BULKY", "MAG_EJECT" ]
+    "flags": [ "NO_UNLOAD", "MAG_BULKY", "MAG_EJECT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_1": 1000 } } ]
   },
   {
     "id": "cheek_filter",
@@ -61,14 +61,14 @@
     "description": "This is a pack of cheek filters sealed in an airtight bag.",
     "symbol": "=",
     "color": "white",
-    "ammo_type": "filter_open_1",
+    "ammo_type": [ "filter_open_1" ],
     "casing": "cheek_casing",
     "material": [ "plastic", "cotton" ],
     "volume": "250 ml",
     "weight": "100 g",
     "capacity": 1200,
     "count": 1200,
-    "reliability": 10,
-    "flags": [ "NO_UNLOAD", "NO_RELOAD", "MAG_COMPACT" ]
+    "flags": [ "NO_UNLOAD", "NO_RELOAD", "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "filter_open_1": 1200 } } ]
   }
 ]
