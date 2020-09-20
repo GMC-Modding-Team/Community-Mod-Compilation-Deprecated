@@ -8,7 +8,7 @@
       "location": "muzzle",
       "mod_targets": [ "shotgun", "rifle" ],
       "dispersion_modifier": 10,
-      "mode_modifier": [ [ "REACH", "knife_combat", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
     }
   },
   {
@@ -20,7 +20,7 @@
       "location": "muzzle",
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
       "dispersion_modifier": 10,
-      "mode_modifier": [ [ "REACH", "knife_combat", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
     }
   },
   {
@@ -32,7 +32,27 @@
       "location": "muzzle",
       "mod_targets": [ "shotgun", "rifle", "crossbow", "launcher" ],
       "dispersion_modifier": 20,
-      "mode_modifier": [ [ "REACH", "knife_combat", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
     }
+  },
+  {
+    "id": "knife_combat_mod",
+    "copy-from": "knife_combat_mod",
+    "type": "TOOL",
+    "name": "combat knife",
+    "gunmod_data": {
+      "location": "muzzle",
+      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow", "launcher" ],
+      "dispersion_modifier": 10,
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
+    }
+  },
+  {
+    "id": "sword_bayonet_mod",
+    "copy-from": "sword_bayonet",
+    "type": "TOOL",
+    "name": { "str": "modified sword bayonet" },
+    "description": "A sword bayonet is a large slashing weapon that can be attached to the front of a firearm or crossbow converting it into a pike.  This one was modified and customized to mount on pretty much any weapon other than pistols and SMGs, if you so want.",
+    "extend": { "flags": [ "PUMP_RAIL_COMPATIBLE" ] }
   }
 ]
