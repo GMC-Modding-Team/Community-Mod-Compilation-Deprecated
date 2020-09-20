@@ -64,7 +64,7 @@
     "id": "revival_serum",
     "type": "COMESTIBLE",
     "name": "revival serum",
-    "spoils_in": "0 hours",
+    "spoils_in": 0,
     "use_action": "POISON",
     "stim": -50,
     "container": "flask_glass",
@@ -104,6 +104,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "control_chip",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -126,6 +127,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "blob_dormant",
     "category": "CC_OTHER",
     "subcategory": "CC_OTHER_TOOLS",
@@ -140,6 +142,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "revival_serum",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_OTHER",
@@ -154,6 +157,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "minion_dormant",
     "//": "The weight of crafting requirements should be equal to a jabberwock corpse, or 440.92 lbs.",
     "category": "CC_OTHER",

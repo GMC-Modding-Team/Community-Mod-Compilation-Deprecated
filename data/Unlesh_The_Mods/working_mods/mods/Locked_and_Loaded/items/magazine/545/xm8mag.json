@@ -10,11 +10,12 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks_like": "8x40_50_mag",
-    "ammo_type": "545x39",
+    "looks-like": "8x40_50_mag",
+    "ammo_type": [ "545x39" ],
     "capacity": 30,
-    "reliability": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 30 } } ]
   },
   {
     "id": "bigXM8_mag",
@@ -27,9 +28,11 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks_like": "8x40_50_mag",
-    "ammo_type": "545x39",
+    "looks-like": "8x40_50_mag",
+    "ammo_type": [ "545x39" ],
     "capacity": 100,
-    "reliability": 5
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 100 } } ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "357mag_speedloader6",
-    "looks_like": "38_speedloader",
+    "looks-like": "38_speedloader",
     "type": "MAGAZINE",
     "name": { "str": ".357 magnum 6 speedloader" },
     "description": "This speedloader can hold 6 rounds of .357mag and quickly reload a compatible revolver.",
@@ -11,8 +11,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "357mag",
+    "ammo_type": [ "357mag" ],
     "capacity": 6,
-    "flags": [ "SPEEDLOADER" ]
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "357mag": 6 } } ]
   }
 ]

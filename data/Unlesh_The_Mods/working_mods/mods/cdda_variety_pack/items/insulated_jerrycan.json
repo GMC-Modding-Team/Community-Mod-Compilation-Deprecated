@@ -1,12 +1,12 @@
 [
   {
-    "id": "insulated_jerrycan_small",
+    "id": "insulated_jerrycan",
     "type": "GENERIC",
     "category": "container",
-    "name": { "str": "10L insulated jerrycan", "str_pl": "10L insulated jerrycans" },
-    "description": "A bulky 10L plastic jerrycan with insulation.",
-    "weight": "1587 g",
-    "volume": "10003 ml",
+    "name": "insulated jerrycan",
+    "description": "A bulky plastic jerrycan with insulation.",
+    "weight": "2587 g",
+    "volume": "12 L",
     "price": 1999,
     "to_hit": -3,
     "material": [ "plastic" ],
@@ -16,61 +16,12 @@
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
-        "seals": true,
         "rigid": true,
         "max_contains_volume": "10 L",
-        "max_item_volume": "32 ml",
         "max_contains_weight": "22 kg"
       }
-    ]
-  },
-  {
-    "id": "insulated_jerrycan_medium",
-    "type": "GENERIC",
-    "category": "container",
-    "name": { "str": "20L insulated jerrycan", "str_pl": "20L insulated jerrycans" },
-    "description": "A bulky 20L plastic jerrycan with insulation.",
-    "weight": "4815 g",
-    "volume": "20002 ml",
-    "price": 1999,
-    "to_hit": -3,
-    "material": [ "plastic" ],
-    "symbol": ")",
-    "color": "light_green",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "seals": true,
-        "rigid": true,
-        "max_contains_volume": "20 L",
-        "max_item_volume": "32 ml",
-        "max_contains_weight": "25 kg"
-      }
-    ]
-  },
-  {
-    "id": "insulated_jerrycan_large",
-    "type": "GENERIC",
-    "category": "container",
-    "name": { "str": "60L insulated jerrycan", "str_pl": "60L insulated jerrycans" },
-    "description": "A bulky 60L plastic jerrycan with insulation.",
-    "weight": "5668 g",
-    "volume": "60050 ml",
-    "price": 1999,
-    "to_hit": -3,
-    "material": [ "plastic" ],
-    "symbol": ")",
-    "color": "light_green",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "watertight": true,
-        "seals": true,
-        "rigid": true,
-        "max_contains_volume": "60 L",
-        "max_contains_weight": "120 kg"
-      }
-    ]
+    ],
+    "seals": true,
+    "watertight": true
   }
 ]

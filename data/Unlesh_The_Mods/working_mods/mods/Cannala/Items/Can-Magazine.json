@@ -11,8 +11,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "SRC",
+    "ammo_type": [ "SRC" ],
     "capacity": 40,
+    "reload_time": 60,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "SRC": 40 } } ]
   },
@@ -28,8 +29,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "SRC",
+    "ammo_type": [ "SRC" ],
     "capacity": 40,
+    "reload_time": 60,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "SRC": 40 } } ]
   },
@@ -45,8 +47,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "BRC",
+    "ammo_type": [ "BRC" ],
     "capacity": 5,
+    "reload_time": 60,
     "flags": [ "SPEEDLOADER" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "BRC": 5 } } ]
   }

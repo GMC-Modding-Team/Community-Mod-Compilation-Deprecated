@@ -10,11 +10,12 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks_like": "8x40_50_mag",
-    "ammo_type": "5842",
+    "looks-like": "8x40_50_mag",
+    "ammo_type": [ "5842" ],
     "capacity": 10,
-    "reliability": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "5842": 10 } } ]
   },
   {
     "id": "mod88_mag",
@@ -27,10 +28,11 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "looks_like": "8x40_50_mag",
-    "ammo_type": "55645",
+    "looks-like": "8x40_50_mag",
+    "ammo_type": [ "55645" ],
     "capacity": 10,
-    "reliability": 10,
-    "flags": [ "MAG_COMPACT" ]
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "55645": 10 } } ]
   }
 ]

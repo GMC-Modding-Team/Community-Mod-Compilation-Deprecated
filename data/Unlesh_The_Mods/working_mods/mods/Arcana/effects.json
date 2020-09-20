@@ -519,7 +519,9 @@
     "type": "effect_type",
     "id": "dragonblood_clarity",
     "name": [ "Revenant Blood" ],
-    "desc": [ "Immunity to food poisoning, parasites, and fungus.  Increased hunger and thirst gain." ],
+    "desc": [
+      "Immunity to food poisoning, parasites, and fungus.  Increased hunger and thirst gain, with positive metabolic effects."
+    ],
     "resist_effect": "talisman_warding",
     "remove_message": "The protective effect of your sanguine mark fades, leaving a momentary itch in your veins.",
     "remove_effects": [
@@ -543,10 +545,13 @@
     "base_mods": {
       "hunger_min": [ 1 ],
       "hunger_chance": [ 18, 36 ],
+      "thirst_min": [ 1 ],
+      "thirst_chance": [ 18, 36 ],
       "fatigue_min": [ 1 ],
       "fatigue_chance": [ 36, 12 ],
-      "health_min": [ -1 ],
-      "health_chance": [ 6 ]
+      "stamina_min": [ 100 ],
+      "health_min": [ 1 ],
+      "health_chance": [ 12 ]
     }
   },
   {
@@ -674,13 +679,6 @@
   },
   {
     "type": "effect_type",
-    "id": "stormbringer_debuff",
-    "removes_effects": [ "bleed", "winded", "redcells_anemia", "hypovolemia" ],
-    "max_duration": "1 s",
-    "base_mods": { "pain_min": [ -5 ], "stamina_min": [ 500 ], "health_min": [ 60 ] }
-  },
-  {
-    "type": "effect_type",
     "id": "mantle_escape_effect",
     "rating": "good",
     "max_intensity": 5,
@@ -797,6 +795,7 @@
     "resist_effect": "talisman_warding",
     "resist_traits": [ "PROF_CHALICE", "THRESH_VEIL" ],
     "name": [
+      "",
       "Otherworldly Weakness",
       "Otherworldly Weakness",
       "Otherworldly Weakness",
@@ -812,6 +811,7 @@
       "Otherworldly Offering"
     ],
     "desc": [
+      "",
       "You've been feeling more weary lately, and it's getting hard to think straight.  Overuse of the chalice seems to have an effect on you.",
       "It's starting to get harder to focus on your surroundings.  Maybe using your own life force to fuel the chalice is a bad idea….",
       "Even when you aren't exhausted, you find it hard to stay awake.  This is going to be the death of you if you keep overusing that damn chalice!",
@@ -855,8 +855,9 @@
     "resist_effect": "talisman_warding",
     "resist_traits": [ "PROF_SANGUINE", "THRESH_DRAGONBLOOD" ],
     "//": "This won't kill you, but the health and stat penalties will make you wish it did later on down the line.",
-    "name": [ "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia" ],
+    "name": [ "", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia", "Strange Anemia" ],
     "desc": [
+      "",
       "Your muscles have been feeling more fatigued lately, and you feel faintly queasy on the inside.  Maybe overusing that athame did something to you…",
       "The weakness in your body has worsened, and you've been having hunger pangs.  It seems blood magic has consequences if overused.",
       "Your body feels sluggish and drained, and it seems to be getting worse the more you rely on blood magic.  Relying on it less might help ease your suffering.",

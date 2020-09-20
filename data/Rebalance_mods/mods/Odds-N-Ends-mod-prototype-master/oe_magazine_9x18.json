@@ -10,9 +10,9 @@
     "material": [ "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "9x18",
+    "ammo_type": [ "9x18" ],
     "capacity": 64,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 64 } } ]
   }
 ]

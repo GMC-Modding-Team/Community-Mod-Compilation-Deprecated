@@ -10,10 +10,10 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "762x25",
+    "ammo_type": [ "762x25" ],
     "capacity": 20,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 20 } } ]
   },
   {
     "id": "type64mag",
@@ -26,9 +26,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "762x25",
+    "ammo_type": [ "762x25" ],
     "capacity": 30,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 30 } } ]
   }
 ]
