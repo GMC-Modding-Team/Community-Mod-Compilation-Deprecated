@@ -2,6 +2,7 @@
   {
     "id": "cm_202",
     "type": "GUN",
+    "copy-from": "pistol_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 202", "str_pl": "CM 202" },
@@ -16,20 +17,27 @@
     "to_hit": -2,
     "dispersion": 70,
     "sight_dispersion": 40,
-    "aim_speed": 15,
-    "recoil": 50,
+    "min_cycle_recoil": 50,
     "durability": 6,
-    "reload": 100,
-    "loudness": 300,
     "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "range": -20,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "223", [ "20cm223" ] ], [ "223", [ "35cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20cm223", "35cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_307",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 307", "str_pl": "CM 307" },
@@ -44,20 +52,27 @@
     "to_hit": -2,
     "dispersion": 180,
     "sight_dispersion": 70,
-    "aim_speed": 5,
-    "recoil": 20,
+    "min_cycle_recoil": 20,
     "durability": 6,
-    "reload": 250,
-    "loudness": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "range": -10,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "223", [ "20cm223" ] ], [ "223", [ "35cm223" ] ], [ "223", [ "50cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20cm223", "35cm223", "50cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_330",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 330", "str_pl": "CM 330" },
@@ -72,20 +87,27 @@
     "to_hit": -2,
     "dispersion": 140,
     "sight_dispersion": 70,
-    "aim_speed": 5,
-    "recoil": 20,
+    "min_cycle_recoil": 20,
     "durability": 6,
-    "reload": 250,
-    "loudness": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "range": -9,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "223", [ "20cm223" ] ], [ "223", [ "35cm223" ] ], [ "223", [ "50cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20cm223", "35cm223", "50cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_351_sunflare",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 351 Sunflare", "str_pl": "CM 351 Sunflare" },
@@ -100,20 +122,27 @@
     "to_hit": -2,
     "dispersion": 140,
     "sight_dispersion": 70,
-    "aim_speed": 5,
-    "recoil": 20,
+    "min_cycle_recoil": 20,
     "durability": 8,
-    "reload": 250,
-    "loudness": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "range": -9,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "223", [ "35cm223" ] ], [ "223", [ "50cm223" ] ], [ "223", [ "65cm223" ] ], [ "223", [ "65+15cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "35cm223", "50cm223", "65cm223", "65+15cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_gigavolt",
     "type": "GUN",
+    "copy-from": "rifle_semi",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM Gigavolt", "str_pl": "CM Gigavolt" },
@@ -128,20 +157,27 @@
     "to_hit": -2,
     "dispersion": 140,
     "sight_dispersion": 50,
-    "aim_speed": 3,
-    "recoil": 80,
+    "min_cycle_recoil": 80,
     "durability": 8,
-    "reload": 1500,
-    "loudness": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 12 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ], [ "grip", 1 ] ],
-    "magazines": [ [ "223", [ "50cm223" ] ], [ "223", [ "65cm223" ] ], [ "223", [ "65+15cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "50cm223", "65cm223", "65+15cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_401_planet_stormer",
     "type": "GUN",
+    "copy-from": "rifle_semi",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 401 Planet Stormer", "str_pl": "CM 401 Planet Stormer" },
@@ -156,20 +192,27 @@
     "to_hit": -2,
     "dispersion": 140,
     "sight_dispersion": 50,
-    "aim_speed": 3,
-    "recoil": 80,
+    "min_cycle_recoil": 80,
     "durability": 8,
-    "reload": 200,
-    "loudness": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 12 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ], [ "grip", 1 ] ],
-    "magazines": [ [ "223", [ "50cm223" ] ], [ "223", [ "65cm223" ] ], [ "223", [ "65+15cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "50cm223", "65cm223", "65+15cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_440_titan",
     "type": "GUN",
+    "copy-from": "rifle_semi",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 440 Titan", "str_pl": "CM 440 Titam" },
@@ -184,20 +227,27 @@
     "to_hit": -2,
     "dispersion": 140,
     "sight_dispersion": 80,
-    "aim_speed": 7,
-    "recoil": 90,
+    "min_cycle_recoil": 90,
     "durability": 8,
-    "reload": 200,
-    "loudness": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 12 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 2 ], [ "sights", 1 ], [ "grip", 1 ] ],
-    "magazines": [ [ "223", [ "50cm223" ] ], [ "223", [ "65cm223" ] ], [ "223", [ "65+15cm223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "50cm223", "65cm223", "65+15cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_451_starburst",
     "type": "GUN",
+    "copy-from": "rifle_semi",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 451 Starburst", "str_pl": "CM 451 Starburst" },
@@ -212,26 +262,27 @@
     "to_hit": -2,
     "dispersion": 170,
     "sight_dispersion": 50,
-    "aim_speed": 2,
-    "recoil": 100,
+    "min_cycle_recoil": 100,
     "durability": 8,
-    "reload": 230,
-    "loudness": 250,
     "ranged_damage": { "damage_type": "bullet", "amount": 15 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ], [ "grip", 1 ] ],
-    "magazines": [
-      [ "223", [ "50cm223" ] ],
-      [ "223", [ "65cm223" ] ],
-      [ "223", [ "65+15cm223" ] ],
-      [ "223", [ "100cm223" ] ],
-      [ "223", [ "120cm223" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "50cm223", "65cm223", "65+15cm223", "100cm223", "120cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_505",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 505", "str_pl": "CM 505" },
@@ -246,20 +297,27 @@
     "to_hit": -2,
     "dispersion": 170,
     "sight_dispersion": 50,
-    "aim_speed": 8,
-    "recoil": 100,
+    "min_cycle_recoil": 100,
     "durability": 8,
-    "reload": 600,
-    "loudness": 320,
     "ranged_damage": { "damage_type": "bullet", "amount": 3 },
     "range": 6,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ], [ "grip", 1 ] ],
-    "magazines": [ [ "223", [ "100cm223" ] ], [ "223", [ "120cm223" ] ], [ "223", [ "180cm223" ] ], [ "223", [ "220cm223" ] ] ],
-    "modes": [ [ "BURST", "short burst", 8 ], [ "DEFAULT", "auto", 20 ] ]
+    "modes": [ [ "BURST", "short burst", 8 ], [ "DEFAULT", "auto", 20 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "100cm223", "120cm223", "180cm223", "220cm223" ]
+      }
+    ]
   },
   {
     "id": "cm_530_babycom",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 530 BabyCOM", "str_pl": "CM 530 BabyCOM" },
@@ -274,20 +332,27 @@
     "to_hit": -2,
     "dispersion": 120,
     "sight_dispersion": 50,
-    "aim_speed": 8,
-    "recoil": 60,
+    "min_cycle_recoil": 60,
     "durability": 8,
-    "reload": 600,
-    "loudness": 320,
     "ranged_damage": { "damage_type": "bullet", "amount": 3 },
     "range": 16,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ], [ "grip", 1 ] ],
-    "magazines": [ [ "223", [ "100cm223" ] ], [ "223", [ "120cm223" ] ], [ "223", [ "180cm223" ] ], [ "223", [ "220cm223" ] ] ],
-    "modes": [ [ "BURST", "short burst", 8 ], [ "DEFAULT", "auto", 20 ] ]
+    "modes": [ [ "BURST", "short burst", 8 ], [ "DEFAULT", "auto", 20 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "100cm223", "120cm223", "180cm223", "220cm223" ]
+      }
+    ]
   },
   {
     "id": "heartburn",
     "type": "GUN",
+    "copy-from": "rifle_semi",
     "symbol": "(",
     "color": "red",
     "name": { "str": "Heartburn", "str_pl": "Heartburns" },
@@ -302,11 +367,8 @@
     "to_hit": -2,
     "dispersion": 350,
     "sight_dispersion": 100,
-    "aim_speed": 14,
-    "recoil": 120,
+    "min_cycle_recoil": 120,
     "durability": 6,
-    "reload": 1200,
-    "loudness": 300,
     "ranged_damage": { "damage_type": "bullet", "amount": 40 },
     "range": 5,
     "valid_mod_locations": [
@@ -318,7 +380,16 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "223", [ "15rancor223" ] ], [ "223", [ "25rancor223" ] ], [ "223", [ "35rancor223" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "BURST", "3 rd", 6 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "BURST", "3 rd", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "15rancor223", "25rancor223", "35rancor223" ]
+      }
+    ]
   }
 ]

@@ -2,6 +2,7 @@
   {
     "id": "hvm_004",
     "type": "GUN",
+    "copy-from": "shotgun_base",
     "symbol": "(",
     "color": "green",
     "name": { "str": "HVM 004", "str_pl": "HVM 004" },
@@ -10,21 +11,19 @@
     "material": [ "plastic", "steel" ],
     "skill": "shotgun",
     "ammo": [ "shot" ],
+    "longest_side": "1234 mm",
+    "barrel_volume": "250 ml",
     "weight": "1200 g",
     "volume": "2500 ml",
     "bashing": 10,
     "to_hit": -2,
     "dispersion": 220,
     "sight_dispersion": 120,
-    "aim_speed": 10,
-    "recoil": 120,
+    "min_cycle_recoil": 120,
     "durability": 6,
-    "reload": 150,
-    "loudness": 210,
-    "clip_size": 25,
     "ranged_damage": { "damage_type": "bullet", "amount": -10 },
     "range": -5,
-    "barrel_volume": "250 ml",
+    "clip_size": 1,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "grip", 1 ],
@@ -34,11 +33,13 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "flags": "RELOAD_ONE"
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 1 } } ]
   },
   {
     "id": "ria_30_strikeforce",
     "type": "GUN",
+    "copy-from": "shotgun_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 30 Strikeforce", "str_pl": "RIA 30 Strikeforce" },
@@ -47,21 +48,18 @@
     "material": [ "plastic", "steel" ],
     "skill": "shotgun",
     "ammo": [ "shot" ],
+    "longest_side": "1234 mm",
+    "barrel_volume": "250 ml",
     "weight": "1200 g",
     "volume": "2500 ml",
     "bashing": 10,
     "to_hit": -2,
     "dispersion": 220,
     "sight_dispersion": 120,
-    "aim_speed": 10,
-    "recoil": 180,
+    "min_cycle_recoil": 180,
     "durability": 6,
-    "reload": 80,
-    "loudness": 210,
-    "clip_size": 10,
     "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "range": 0,
-    "barrel_volume": "250 ml",
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "grip", 1 ],
@@ -71,11 +69,21 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "flags": "RELOAD_ONE"
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "saiga10mag", "USAS10mag" ]
+      }
+    ]
   },
   {
     "id": "stripper",
     "type": "GUN",
+    "copy-from": "shotgun_base",
     "symbol": "(",
     "color": "red",
     "name": { "str": "Stripper", "str_pl": "Strippers" },
@@ -83,6 +91,8 @@
     "price": 25400,
     "material": [ "plastic", "steel" ],
     "skill": "shotgun",
+    "longest_side": "1234 mm",
+    "barrel_volume": "500 ml",
     "ammo": [ "shot" ],
     "weight": "1200 g",
     "volume": "2000 ml",
@@ -90,17 +100,21 @@
     "to_hit": 7,
     "dispersion": 220,
     "sight_dispersion": 120,
-    "aim_speed": 10,
-    "recoil": 30,
+    "min_cycle_recoil": 30,
     "durability": 6,
-    "reload": 20,
-    "loudness": 120,
-    "clip_size": 18,
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "range": 3,
-    "barrel_volume": "500 ml",
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "flags": "RELOAD_ONE",
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 7 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 7 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stripper18mag", "stripper18belt" ]
+      }
+    ]
   }
 ]

@@ -2,6 +2,7 @@
   {
     "id": "z5_heavy",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Z-5 Heavy", "str_pl": "Z-5 Heavy" },
@@ -16,20 +17,28 @@
     "to_hit": -2,
     "dispersion": 30,
     "sight_dispersion": 80,
-    "aim_speed": 10,
-    "recoil": 140,
+    "min_cycle_recoil": 140,
     "durability": 2,
-    "reload": 1550,
-    "loudness": 210,
     "ranged_damage": { "damage_type": "bullet", "amount": -6 },
     "range": 1,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
     "magazines": [ [ "762", [ "100za" ] ], [ "762", [ "120za" ] ], [ "762", [ "140za" ] ] ],
-    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "6 rd", 6 ] ]
+    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "6 rd", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "100za", "120za", "140za" ]
+      }
+    ]
   },
   {
     "id": "z5_heavy_fixed",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Fixed Z-5 Heavy", "str_pl": "Fixed Z-5 Heavy" },
@@ -44,20 +53,27 @@
     "to_hit": 2,
     "dispersion": 20,
     "sight_dispersion": 80,
-    "aim_speed": 20,
-    "recoil": 120,
+    "min_cycle_recoil": 120,
     "durability": 5,
-    "reload": 1250,
-    "loudness": 180,
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "range": 3,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "762", [ "100za" ] ], [ "762", [ "120za" ] ], [ "762", [ "140za" ] ] ],
-    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "6 rd", 6 ] ]
+    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "6 rd", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "100za", "120za", "140za" ]
+      }
+    ]
   },
   {
     "id": "z5_heavy_reinforced",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Reinforced Z-5 Heavy", "str_pl": "Reinforced Z-5 Heavy" },
@@ -72,20 +88,27 @@
     "to_hit": 3,
     "dispersion": 40,
     "sight_dispersion": 80,
-    "aim_speed": 20,
-    "recoil": 130,
+    "min_cycle_recoil": 130,
     "durability": 8,
-    "reload": 1150,
-    "loudness": 180,
     "ranged_damage": { "damage_type": "bullet", "amount": 8 },
     "range": 12,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "762", [ "100za" ] ], [ "762", [ "120za" ] ], [ "762", [ "140za" ] ] ],
-    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "6 rd", 6 ] ]
+    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "6 rd", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "100za", "120za", "140za" ]
+      }
+    ]
   },
   {
     "id": "ronson_65_a",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "blue",
     "name": { "str": "Ronson 65-a", "str_pl": "Ronson 65-a" },
@@ -100,26 +123,27 @@
     "to_hit": 0,
     "dispersion": 180,
     "sight_dispersion": 80,
-    "aim_speed": 9,
-    "recoil": 30,
+    "min_cycle_recoil": 30,
     "durability": 6,
-    "reload": 200,
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "range": 3,
-    "loudness": 120,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ] ],
-    "magazines": [
-      [ "762", [ "20ronson762" ] ],
-      [ "762", [ "30ronson762" ] ],
-      [ "762", [ "40ronson762" ] ],
-      [ "762", [ "50ronson762" ] ],
-      [ "762", [ "60ronson762" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 8 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 8 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20ronson762", "30ronson762", "40ronson762", "50ronson762", "60ronson762" ]
+      }
+    ]
   },
   {
     "id": "ria_20_para",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 20 Para", "str_pl": "RIA 20 Para" },
@@ -134,11 +158,8 @@
     "to_hit": -2,
     "dispersion": 120,
     "sight_dispersion": 80,
-    "aim_speed": 7,
-    "recoil": 120,
+    "min_cycle_recoil": 120,
     "durability": 6,
-    "reload": 100,
-    "loudness": 190,
     "ranged_damage": { "damage_type": "bullet", "amount": 3 },
     "range": 3,
     "valid_mod_locations": [
@@ -150,12 +171,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "762", [ "45ria762" ] ], [ "762", [ "2x45ria762" ] ], [ "762", [ "80ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 6 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "45ria762", "2x45ria762", "80ria762" ]
+      }
+    ]
   },
   {
     "id": "ria_20_dsc",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 20 DSC", "str_pl": "RIA 20 DSC" },
@@ -170,11 +201,8 @@
     "to_hit": -2,
     "dispersion": 120,
     "sight_dispersion": 80,
-    "aim_speed": 8,
-    "recoil": 170,
+    "min_cycle_recoil": 170,
     "durability": 6,
-    "reload": 100,
-    "loudness": 190,
     "ranged_damage": { "damage_type": "bullet", "amount": 3 },
     "range": 3,
     "valid_mod_locations": [
@@ -186,12 +214,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "762", [ "45ria762" ] ], [ "762", [ "2x45ria762" ] ], [ "762", [ "80ria762" ] ], [ "762", [ "120ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "45ria762", "2x45ria762", "80ria762", "120ria762" ]
+      }
+    ]
   },
   {
     "id": "ria_20_striker",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 20 Striker", "str_pl": "RIA 20 Striker" },
@@ -206,11 +244,8 @@
     "to_hit": -2,
     "dispersion": 120,
     "sight_dispersion": 80,
-    "aim_speed": 5,
-    "recoil": 150,
+    "min_cycle_recoil": 150,
     "durability": 6,
-    "reload": 100,
-    "loudness": 190,
     "ranged_damage": { "damage_type": "bullet", "amount": 7 },
     "range": 5,
     "valid_mod_locations": [
@@ -222,12 +257,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "762", [ "45ria762" ] ], [ "762", [ "2x45ria762" ] ], [ "762", [ "80ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 7 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 7 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "45ria762", "2x45ria762", "80ria762" ]
+      }
+    ]
   },
   {
     "id": "ria_trident",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA Trident", "str_pl": "RIA Trident" },
@@ -242,11 +287,8 @@
     "to_hit": -2,
     "dispersion": 110,
     "sight_dispersion": 80,
-    "aim_speed": 5,
-    "recoil": 80,
+    "min_cycle_recoil": 80,
     "durability": 6,
-    "reload": 100,
-    "loudness": 190,
     "ranged_damage": { "damage_type": "bullet", "amount": 5 },
     "range": 6,
     "valid_mod_locations": [
@@ -258,12 +300,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "762", [ "45ria762" ] ], [ "762", [ "2x45ria762" ] ], [ "762", [ "80ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 3 ], [ "BURST", "3 rd", 9 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 3 ], [ "BURST", "3 rd", 9 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "45ria762", "2x45ria762", "80ria762" ]
+      }
+    ]
   },
   {
     "id": "ria_40",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 40", "str_pl": "RIA 40" },
@@ -278,11 +330,8 @@
     "to_hit": -2,
     "dispersion": 145,
     "sight_dispersion": 80,
-    "aim_speed": 5,
-    "recoil": 150,
+    "min_cycle_recoil": 150,
     "durability": 6,
-    "reload": 700,
-    "loudness": 280,
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "range": 5,
     "valid_mod_locations": [
@@ -295,11 +344,22 @@
       [ "underbarrel", 1 ]
     ],
     "magazines": [ [ "762", [ "80ria762" ] ], [ "762", [ "100ria762" ] ], [ "762", [ "2x80ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "5 rd", 5 ], [ "AUTO", "auto", 15 ] ]
+    "modes": [ [ "DEFAULT", "5 rd", 5 ], [ "AUTO", "auto", 15 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "80ria762", "100ria762", "2x80ria762" ]
+      }
+    ]
   },
   {
     "id": "ria_t40",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA T40", "str_pl": "RIA T40" },
@@ -314,11 +374,8 @@
     "to_hit": -2,
     "dispersion": 165,
     "sight_dispersion": 80,
-    "aim_speed": 5,
-    "recoil": 160,
+    "min_cycle_recoil": 160,
     "durability": 7,
-    "reload": 800,
-    "loudness": 320,
     "ranged_damage": { "damage_type": "bullet", "amount": 18 },
     "range": 2,
     "valid_mod_locations": [
@@ -331,11 +388,22 @@
       [ "underbarrel", 1 ]
     ],
     "magazines": [ [ "762", [ "80ria762" ] ], [ "762", [ "100ria762" ] ], [ "762", [ "2x80ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "5 rd", 5 ], [ "AUTO", "auto", 15 ] ]
+    "modes": [ [ "DEFAULT", "5 rd", 5 ], [ "AUTO", "auto", 15 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "80ria762", "100ria762", "2x80ria762" ]
+      }
+    ]
   },
   {
     "id": "ria_45",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 45", "str_pl": "RIA 45" },
@@ -350,11 +418,8 @@
     "to_hit": -2,
     "dispersion": 95,
     "sight_dispersion": 60,
-    "aim_speed": 6,
-    "recoil": 150,
+    "min_cycle_recoil": 150,
     "durability": 6,
-    "reload": 500,
-    "loudness": 210,
     "ranged_damage": { "damage_type": "bullet", "amount": 6 },
     "range": -1,
     "valid_mod_locations": [
@@ -367,11 +432,22 @@
       [ "underbarrel", 1 ]
     ],
     "magazines": [ [ "762", [ "80ria762" ] ], [ "762", [ "100ria762" ] ], [ "762", [ "2x80ria762" ] ] ],
-    "modes": [ [ "DEFAULT", "2 rd", 2 ], [ "BURST", "5 rd", 5 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "2 rd", 2 ], [ "BURST", "5 rd", 5 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "80ria762", "100ria762", "2x80ria762" ]
+      }
+    ]
   },
   {
     "id": "hard_thorn",
     "type": "GUN",
+    "copy-from": "rifle_semi",
     "symbol": "(",
     "color": "red",
     "name": { "str": "Hard Thorn", "str_pl": "Hard Thorns" },
@@ -386,15 +462,21 @@
     "to_hit": 10,
     "dispersion": 220,
     "sight_dispersion": 80,
-    "aim_speed": 10,
-    "recoil": 80,
+    "min_cycle_recoil": 80,
     "durability": 6,
-    "reload": 100,
-    "loudness": 180,
     "ranged_damage": { "damage_type": "bullet", "amount": 20 },
     "range": 10,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
-    "magazines": [ [ "762", [ "15rancor762" ] ], [ "762", [ "20rancor762" ] ], [ "762", [ "25rancor762" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "15rancor762", "20rancor762", "25rancor762" ]
+      }
+    ]
   }
 ]

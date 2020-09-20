@@ -2,6 +2,7 @@
   {
     "id": "ronson_50",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "blue",
     "name": { "str": "Ronson 50", "str_pl": "Ronson 50" },
@@ -16,20 +17,27 @@
     "to_hit": 0,
     "dispersion": 180,
     "sight_dispersion": 80,
-    "aim_speed": 9,
-    "recoil": 350,
+    "min_cycle_recoil": 350,
     "durability": 6,
-    "reload": 1250,
     "ranged_damage": { "damage_type": "bullet", "amount": -15 },
     "range": -20,
-    "loudness": 350,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sight", 1 ] ],
-    "magazines": [ [ "50", [ "20ronson50" ] ], [ "50", [ "30ronson50" ] ], [ "50", [ "40ronson50" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 6 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20ronson50", "30ronson50", "40ronson50" ]
+      }
+    ]
   },
   {
     "id": "ronson_55",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "blue",
     "name": { "str": "Ronson 55", "str_pl": "Ronson 55" },
@@ -44,20 +52,27 @@
     "to_hit": 0,
     "dispersion": 180,
     "sight_dispersion": 80,
-    "aim_speed": 9,
-    "recoil": 30,
+    "min_cycle_recoil": 30,
     "durability": 6,
-    "reload": 1250,
     "ranged_damage": { "damage_type": "bullet", "amount": -15 },
     "range": -20,
-    "loudness": 450,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ] ],
-    "magazines": [ [ "50", [ "20ronson50" ] ], [ "50", [ "30ronson50" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "BURST", "3 rd", 6 ], [ "AUTO", "auto", 12 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "BURST", "3 rd", 6 ], [ "AUTO", "auto", 12 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20ronson50", "30ronson50" ]
+      }
+    ]
   },
   {
     "id": "ronson_lbm",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "blue",
     "name": { "str": "Ronson LBM", "str_pl": "Ronson LBM" },
@@ -72,13 +87,10 @@
     "to_hit": 0,
     "dispersion": 180,
     "sight_dispersion": 80,
-    "aim_speed": 9,
-    "recoil": 360,
+    "min_cycle_recoil": 360,
     "durability": 6,
-    "reload": 1500,
     "ranged_damage": { "damage_type": "bullet", "amount": -20 },
     "range": -20,
-    "loudness": 20,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sight", 1 ] ],
     "magazines": [
       [ "50", [ "20ronson50" ] ],
@@ -88,6 +100,16 @@
       [ "50", [ "100ronson50" ] ],
       [ "50", [ "120ronson50" ] ]
     ],
-    "modes": [ [ "DEFAULT", "5 rd", 5 ], [ "AUTO", "auto", 13 ] ]
+    "modes": [ [ "DEFAULT", "5 rd", 5 ], [ "AUTO", "auto", 13 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "2 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20ronson50", "30ronson50", "40ronson50", "60ronson50", "100ronson50", "120ronson50" ]
+      }
+    ]
   }
 ]
