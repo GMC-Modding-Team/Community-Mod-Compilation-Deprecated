@@ -37,7 +37,6 @@
     "location": "rail",
     "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "crossbow", "launcher" ],
     "sight_dispersion": 27,
-    
     "min_skills": [ [ "weapon", 2 ], [ "gun", 2 ] ],
     "use_action": { "menu_text": "Rotate", "type": "transform", "target": "mana_laser_under", "msg": "You rotate the laser sight." }
   },
@@ -56,7 +55,6 @@
     "location": "underbarrel",
     "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "crossbow", "bow", "launcher" ],
     "sight_dispersion": 27,
-    
     "min_skills": [ [ "weapon", 2 ], [ "gun", 2 ] ],
     "use_action": { "menu_text": "Rotate", "type": "transform", "target": "mana_laser_rail", "msg": "You rotate the laser sight." },
     "flags": [ "PUMP_RAIL_COMPATIBLE" ]
@@ -76,7 +74,6 @@
     "location": "sights",
     "mod_targets": [ "smg", "rifle", "shotgun", "pistol", "crossbow", "launcher" ],
     "sight_dispersion": 21,
-    
     "min_skills": [ [ "weapon", 2 ], [ "gun", 2 ] ],
     "flags": [ "DISABLE_SIGHTS" ]
   }
