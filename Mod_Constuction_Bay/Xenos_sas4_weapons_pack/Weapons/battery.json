@@ -2,6 +2,7 @@
   {
     "id": "ronson_70",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "blue",
     "name": { "str": "Ronson 70", "str_pl": "Ronson 70" },
@@ -15,25 +16,28 @@
     "bashing": 12,
     "to_hit": 0,
     "dispersion": 180,
-    "sight_dispersion": 80,
-    "aim_speed": 9,
-    "recoil": 0,
     "durability": 6,
-    "reload": 670,
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "range": 35,
-    "loudness": 20,
+    "sight_dispersion": 80,
+    "min_cycle_recoil": 0,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sight", 1 ] ],
-    "magazines": [
-      [ "battery", [ "light_minus_battery_cell" ] ],
-      [ "battery", [ "light_battery_cell" ] ],
-      [ "battery", [ "light_plus_battery_cell" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 8 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd", 3 ], [ "AUTO", "auto", 8 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "35 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "light_minus_battery_cell", "light_battery_cell", "light_plus_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "hotspot",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "red",
     "name": { "str": "Hotspot", "str_pl": "Hotspots" },
@@ -48,11 +52,8 @@
     "to_hit": -2,
     "dispersion": 220,
     "sight_dispersion": 80,
-    "aim_speed": 10,
-    "recoil": 0,
+    "min_cycle_recoil": 0,
     "durability": 10,
-    "reload": 100,
-    "loudness": 20,
     "ranged_damage": { "damage_type": "bullet", "amount": 15 },
     "range": 50,
     "ranged_piercing": 100,
@@ -65,22 +66,27 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [
-      [ "battery", [ "medium_battery_cell" ] ],
-      [ "battery", [ "medium_plus_battery_cell" ] ],
-      [ "battery", [ "heavy_battery_cell" ] ],
-      [ "battery", [ "heavy_plus_battery_cell" ] ]
-    ],
     "modes": [
       [ "SEMIAUTO", "very short stream", 10 ],
       [ "DEFAULT", "short stream", 20 ],
       [ "BURST", "long stream", 50 ],
       [ "AUTO", "very long stream", 100 ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "1500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "heavy_battery_cell", "heavy_plus_battery_cell" ]
+      }
     ]
   },
   {
     "id": "mixmaster",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "red",
     "name": { "str": "Mixmaster", "str_pl": "Mixmasters" },
@@ -95,11 +101,8 @@
     "to_hit": -2,
     "dispersion": 220,
     "sight_dispersion": 80,
-    "aim_speed": 10,
-    "recoil": 120,
+    "min_cycle_recoil": 120,
     "durability": 6,
-    "reload": 100,
-    "loudness": 40,
     "ranged_damage": { "damage_type": "bullet", "amount": 35 },
     "range": 20,
     "valid_mod_locations": [
@@ -111,11 +114,16 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [
-      [ "battery", [ "light_minus_battery_cell" ] ],
-      [ "battery", [ "light_battery_cell" ] ],
-      [ "battery", [ "light_plus_battery_cell" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "BURST", "3 rd", 6 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 2 ], [ "BURST", "3 rd", 6 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "35 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "light_minus_battery_cell", "light_battery_cell", "light_plus_battery_cell" ]
+      }
+    ]
   }
 ]
