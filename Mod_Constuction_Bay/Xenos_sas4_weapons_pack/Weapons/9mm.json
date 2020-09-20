@@ -2,6 +2,7 @@
   {
     "id": "z1_assault",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Z-1 Assault", "str_pl": "Z-1 Assaults" },
@@ -29,12 +30,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "25za" ] ], [ "9mm", [ "50za" ] ], [ "9mm", [ "40za" ] ], [ "9mm", [ "10za" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ], [ "BURST", "5 rd", 5 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ], [ "BURST", "5 rd", 5 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10za", "25za", "40za", "50za" ]
+      }
+    ]
   },
   {
     "id": "z2_lmp",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Z-2 LMP", "str_pl": "Z-2 LMPs" },
@@ -54,19 +65,22 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -6 },
     "range": 1,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
-    "magazines": [
-      [ "9mm", [ "10za" ] ],
-      [ "9mm", [ "25za" ] ],
-      [ "9mm", [ "40za" ] ],
-      [ "9mm", [ "50za" ] ],
-      [ "9mm", [ "65za" ] ],
-      [ "9mm", [ "80za" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10za", "25za", "40za", "50za", "65za", "80za" ]
+      }
+    ]
   },
   {
     "id": "z1_assault_fixed",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Fixed Z-1 Assault", "str_pl": "Fixed Z-1 Assaults" },
@@ -94,12 +108,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "25za" ] ], [ "9mm", [ "50za" ] ], [ "9mm", [ "40za" ] ], [ "9mm", [ "10za" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ], [ "BURST", "5 rd", 5 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ], [ "BURST", "5 rd", 5 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10za", "25za", "40za", "50za" ]
+      }
+    ]
   },
   {
     "id": "z2_lmp_fixed",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Fixed Z-2 LMP", "str_pl": "Fixed Z-2 LMPs" },
@@ -119,19 +143,22 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "range": 3,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
-    "magazines": [
-      [ "9mm", [ "10za" ] ],
-      [ "9mm", [ "25za" ] ],
-      [ "9mm", [ "40za" ] ],
-      [ "9mm", [ "50za" ] ],
-      [ "9mm", [ "65za" ] ],
-      [ "9mm", [ "80za" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10za", "25za", "40za", "50za", "65za", "80za" ]
+      }
+    ]
   },
   {
     "id": "z1_assault_reinforced",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Reinforced Z-1 Assault", "str_pl": "Reinforced Z-1 Assaults" },
@@ -159,12 +186,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "25za" ] ], [ "9mm", [ "50za" ] ], [ "9mm", [ "40za" ] ], [ "9mm", [ "10za" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ], [ "BURST", "5 rd", 5 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ], [ "BURST", "5 rd", 5 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10za", "25za", "40za", "50za" ]
+      }
+    ]
   },
   {
     "id": "z2_lmp_reinforced",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "light_gray",
     "name": { "str": "Reinforced Z-2 LMP", "str_pl": "Reinforced Z-2 LMPs" },
@@ -184,19 +221,22 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 7 },
     "range": 6,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
-    "magazines": [
-      [ "9mm", [ "10za" ] ],
-      [ "9mm", [ "25za" ] ],
-      [ "9mm", [ "40za" ] ],
-      [ "9mm", [ "50za" ] ],
-      [ "9mm", [ "65za" ] ],
-      [ "9mm", [ "80za" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10za", "25za", "40za", "50za", "65za", "80za" ]
+      }
+    ]
   },
   {
     "id": "hvm_001",
     "type": "GUN",
+    "copy-from": "pistol_base",
     "symbol": "(",
     "color": "green",
     "name": { "str": "HVM 001", "str_pl": "HVM 001" },
@@ -216,11 +256,21 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -7 },
     "range": -8,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ] ],
-    "magazines": [ [ "9mm", [ "25hvm" ] ], [ "9mm", [ "25hvmspeedloader" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "25hvm", "25hvmspeedloader" ]
+      }
+    ]
   },
   {
     "id": "hvm_002",
     "type": "GUN",
+    "copy-from": "smg_base",
     "symbol": "(",
     "color": "green",
     "name": { "str": "HVM 002", "str_pl": "HVM 002" },
@@ -248,12 +298,22 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "25hvm" ] ], [ "9mm", [ "50hvm" ] ], [ "9mm", [ "25hvmspeedloader" ] ], [ "9mm", [ "50hvmspeedloader" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ], [ "BURST", "3 rd", 3 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "25hvm", "50hvm", "25hvmspeedloader", "50hvmspeedloader" ]
+      }
+    ]
   },
   {
     "id": "hvm_005_G",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "green",
     "name": { "str": "HVM 005 G-Class", "str_pl": "HVM 005 G-Class" },
@@ -282,22 +342,32 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [
-      [ "9mm", [ "25hvm" ] ],
-      [ "9mm", [ "50hvm" ] ],
-      [ "9mm", [ "75hvm" ] ],
-      [ "9mm", [ "100hvm" ] ],
-      [ "9mm", [ "25hvmspeedloader" ] ],
-      [ "9mm", [ "50hvmspeedloader" ] ],
-      [ "9mm", [ "75hvmspeedloader" ] ],
-      [ "9mm", [ "100hvmspeedloader" ] ],
-      [ "9mm", [ "2x50hvm" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 12 ], [ "BURST", "5 rd", 5 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 12 ], [ "BURST", "5 rd", 5 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "1 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "25hvm",
+          "50hvm",
+          "75hvm",
+          "100hvm",
+          "25hvmspeedloader",
+          "50hvmspeedloader",
+          "75hvmspeedloader",
+          "100hvmspeedloader",
+          "2x50hvm"
+        ]
+      }
+    ]
   },
   {
     "id": "hvm_008",
     "type": "GUN",
+    "copy-from": "rifle_base",
     "symbol": "(",
     "color": "green",
     "name": { "str": "HVM 008", "str_pl": "HVM 008" },
@@ -317,21 +387,22 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -14 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "mechanism", 4 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [
-      [ "9mm", [ "75hvm" ] ],
-      [ "9mm", [ "100hvm" ] ],
-      [ "9mm", [ "75hvmspeedloader" ] ],
-      [ "9mm", [ "100hvmspeedloader" ] ],
-      [ "9mm", [ "2x50hvm" ] ],
-      [ "9mm", [ "2x100hvm" ] ],
-      [ "9mm", [ "180hvm" ] ],
-      [ "9mm", [ "2x180hvm" ] ]
-    ],
-    "modes": [ [ "DEFAULT", "auto", 15 ], [ "BURST", "5 rd", 5 ] ]
+    "modes": [ [ "DEFAULT", "auto", 15 ], [ "BURST", "5 rd", 5 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "2750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "75hvm", "100hvm", "75hvmspeedloader", "100hvmspeedloader", "2x50hvm", "2x100hvm", "180hvm", "2x180hvm" ]
+      }
+    ]
   },
   {
     "id": "ria_313",
     "type": "GUN",
+    "copy-from": "pistol_base",
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "RIA 313", "str_pl": "RIA 313" },
@@ -352,11 +423,21 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "range": 0,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "9mm", [ "20ria9mm" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "20ria9mm" ]
+      }
+    ]
   },
   {
     "id": "cm_205",
     "type": "GUN",
+    "copy-from": "pistol_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 205", "str_pl": "CM 205" },
@@ -376,12 +457,22 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 20 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "9mm", [ "40cm9mm" ] ], [ "9mm", [ "60cm9mm" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 8 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 8 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "40cm9mm", "60cm9mm" ]
+      }
+    ]
   },
   {
     "id": "cm_225",
     "type": "GUN",
+    "copy-from": "pistol_base",
     "symbol": "(",
     "color": "white",
     "name": { "str": "CM 225", "str_pl": "CM 225" },
@@ -401,12 +492,22 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 20 },
     "range": 2,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "muzzle", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "9mm", [ "40cm9mm" ] ], [ "9mm", [ "60cm9mm" ] ], [ "9mm", [ "80cm9mm" ] ], [ "9mm", [ "2x40cm9mm" ] ] ],
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 10 ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "40cm9mm", "60cm9mm", "80cm9mm", "2x40cm9mm" ]
+      }
+    ]
   },
   {
     "id": "poison_claw",
     "type": "GUN",
+    "copy-from": "pistol_base",
     "symbol": "(",
     "color": "red",
     "name": { "str": "Poison Claw", "str_pl": "Poison Claws" },
@@ -426,6 +527,15 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 35 },
     "range": 2,
     "valid_mod_locations": [ [ "barrel", 1 ], [ "muzzle", 1 ] ],
-    "magazines": [ [ "9mm", [ "10rancor9mm" ] ], [ "9mm", [ "20rancor9mm" ] ], [ "9mm", [ "30rancor9mm" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "750 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "10rancor9mm", "20rancor9mm", "30rancor9mm" ]
+      }
+    ]
   }
 ]
