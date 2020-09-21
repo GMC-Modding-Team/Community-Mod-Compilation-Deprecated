@@ -54,5 +54,5 @@ def change_file(json_dir):
 
 
 if __name__ == "__main__":
-    json_dir = input('What directory is the JSON files in? ')
+    json_dir = input('What directory are the json files in? ')
     change_file(json_dir)
