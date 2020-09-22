@@ -3,7 +3,7 @@
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
 # For Windows:
-# Using command prompt type "python vehicle_code.py"
+# Using command prompt type "python barrellength_volume.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -23,27 +23,28 @@ def gen_new(path):
             print("JSONDecodeError in {0}".format(path))
             return None
         for jo in json_data:
-            locations = {}
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            # And only vehicles
-            if jo.get("type") != "vehicle":
-                continue
-            for part in jo["parts"]:
-                x, y = part["x"], part["y"]
-                item = part.get("part")
-                if part.get("parts"):
-                    if locations.get((x, y)):
-                        locations[(x, y)]["parts"].extend(part["parts"])
-                    else:
-                        locations[(x, y)] = {"x": x, "y": y, "parts": part["parts"]}
-                elif (x, y) in locations:
-                    locations[(x, y)]["parts"].append(item)
+            if type(jo.get("volume")) != str and jo.get("volume") \
+                    and jo.get("type") not in ["sound_effect", "speech"]:
+                volume = jo["volume"]
+                volume *= 250
+                if volume > 10000 and volume % 1000 == 0:
+                    jo["volume"] = str(int(volume/1000)) + " L"
                 else:
-                    locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-            jo["parts"] = [locations[key] for key in locations]
-            change = True
+                    jo["volume"] = str(volume) + " ml"
+                change = True
+            if jo.get("barrel_length"):
+                if type(jo["barrel_length"]) == int:
+                    barrel_length = jo["barrel_length"]
+                    barrel_length *= 250
+                    jo["barrel_volume"] = str(barrel_length) + " ml"
+                elif type(jo["barrel_length"]) == str:
+                    jo["barrel_volume"] = jo["barrel_length"]
+                del jo["barrel_length"]
+                change = True
+
     return json_data if change else None
 
 
