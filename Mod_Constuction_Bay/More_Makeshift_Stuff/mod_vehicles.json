@@ -5,15 +5,10 @@
     "blueprint": [ "o#o" ],
     "name": "Makeshift raft",
     "parts": [
-      { "x": 0, "y": 0, "part": "frame_wood_cross" },
-      { "x": 0, "y": 0, "part": "seat_wood" },
-      { "x": 0, "y": 0, "part": "boat_board" },
-      { "x": 0, "y": 0, "part": "hand_paddles" },
-      { "x": 1, "y": 0, "part": "frame_wood_cross" },
-      { "x": 1, "y": 0, "part": "boat_board" },
-      { "x": -1, "y": 0, "part": "frame_wood_cross" },
-      { "x": -1, "y": 0, "part": "boat_board" }
-    ]
+      { "y": 0, "x": 1, "parts": [ "frame_wood_cross", "boat_board" ] },
+      { "y": 0, "x": 0, "parts": [ "frame_wood_cross", "seat_wood", "boat_board", "hand_paddles" ] },
+      { "y": 0, "x": -1, "parts": [ "frame_wood_cross", "boat_board" ] }
+    ],
   },
   {
     "type": "vehicle",
@@ -21,16 +16,9 @@
     "blueprint": [ "o#o" ],
     "name": "Primitive canoe",
     "parts": [
-      { "x": 0, "y": 0, "part": "frame_wood_cross" },
-      { "x": 0, "y": 0, "part": "seat_wood" },
-      { "x": 0, "y": 0, "part": "boat_board" },
-      { "x": 0, "y": 0, "part": "hand_paddles" },
-      { "x": 1, "y": 0, "part": "frame_wood_cross" },
-      { "x": 1, "y": 0, "part": "wood box" },
-      { "x": 1, "y": 0, "part": "boat_board" },
-      { "x": -1, "y": 0, "part": "frame_wood_cross" },
-      { "x": -1, "y": 0, "part": "wood box" },
-      { "x": -1, "y": 0, "part": "boat_board" }
-    ]
+      { "y": 0, "x": 1, "parts": [ "frame_wood_cross", "wood box", "boat_board" ] },
+      { "y": 0, "x": 0, "parts": [ "frame_wood_cross", "seat_wood", "boat_board", "hand_paddles" ] },
+      { "y": 0, "x": -1, "parts": [ "frame_wood_cross", "wood box", "boat_board" ] }
+    ],
   }
 ]
