@@ -2,7 +2,7 @@
   {
     "id": "nano_storage",
     "type": "ARMOR",
-    "name": "nanotech 'mini-shoggoth' storage",
+    "name": { "str": "nanotech 'mini-shoggoth' storage" },
     "copy-from": "nanogear",
     "looks-like": "slime_scrap",
     "weight": "3157 g",
@@ -20,7 +20,7 @@
     "category": "container",
     "symbol": ")",
     "color": "light_gray",
-    "name": "nanotech liquid compressor",
+    "name": { "str": "nanotech liquid compressor" },
     "description": "A heavily compressed liquid storage device, it is also capable of keeping its contents fresh and maintaining their temperature.",
     "price": 240000,
     "price_postapoc": 10000,
@@ -51,7 +51,7 @@
     "category": "container",
     "symbol": ")",
     "color": "light_gray",
-    "name": "small nanotech liquid compressor",
+    "name": { "str": "small nanotech liquid compressor" },
     "description": "A small heavily compressed liquid storage device, it is also capable of keeping its contents fresh and maintaining their temperature.",
     "price": 2400,
     "weight": "29 g",
@@ -79,7 +79,7 @@
   {
     "id": "nanosuit_heated",
     "type": "ARMOR",
-    "name": "nanosuit (heat+)",
+    "name": { "str": "nanosuit (heat+)" },
     "copy-from": "nanosuit",
     "description": "A cluster of carefully programmed nanites designed to fully cover the body and defend against external threats.  Currently heating itself.",
     "warmth": 50,
@@ -97,7 +97,7 @@
     "id": "nanosuit_heated_2",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat++)",
+    "name": { "str": "nanosuit (heat++)" },
     "warmth": 100,
     "use_action": [
       {
@@ -113,7 +113,7 @@
     "id": "nanosuit_heated_3",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat+++)",
+    "name": { "str": "nanosuit (heat+++)" },
     "warmth": 150,
     "use_action": [
       {
@@ -129,7 +129,7 @@
     "id": "nanosuit_heated_4",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat++++)",
+    "name": { "str": "nanosuit (heat++++)" },
     "warmth": 200,
     "use_action": [
       {
@@ -145,7 +145,7 @@
     "id": "nanosuit_heated_5",
     "type": "ARMOR",
     "copy-from": "nanosuit_heated",
-    "name": "nanosuit (heat+++++)",
+    "name": { "str": "nanosuit (heat+++++)" },
     "warmth": 250,
     "use_action": [
       {

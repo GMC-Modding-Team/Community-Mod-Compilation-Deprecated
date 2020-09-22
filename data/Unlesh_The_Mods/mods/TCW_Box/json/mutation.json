@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "IRONJAW",
-    "name": "Head iron",
+    "name": { "str": "Head iron" },
     "points": 2,
     "description": "The head made of bronze is the amount of iron.\r\n+5 head defense.\r\nUnlock Skill: Head Hammer",
     "starting_trait": true,
@@ -21,14 +21,14 @@
     "type": "mutation",
     "id": "GLASSJAW",
     "copy-from": "GLASSJAW",
-    "name": "Glass Jaw",
+    "name": { "str": "Glass Jaw" },
     "cancels": [ "TOUGH", "IRONJAW" ]
   },
   {
     "id": "HAIR_BALD",
     "copy-from": "HAIR_BALD",
     "type": "mutation",
-    "name": "Shiny bald",
+    "name": { "str": "Shiny bald" },
     "player_display": true,
     "description": "The less hair, the more powerful.\r\nHead Defense +8.\r\nUnlock Skills: Head Hammer, Broken Offspring Legs, Slap in the Face",
     "social_modifiers": { "intimidate": -5 },

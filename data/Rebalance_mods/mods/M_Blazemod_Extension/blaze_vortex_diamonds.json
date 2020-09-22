@@ -2,7 +2,7 @@
   {
     "id": "daisle",
     "type": "vehicle_part",
-    "name": "crystal path",
+    "name": { "str": "crystal path" },
     "item": "diamondplate",
     "symbol": "=",
     "difficulty": 6,
@@ -13,7 +13,7 @@
   {
     "id": "obeliskoflight",
     "type": "vehicle_part",
-    "name": "diamond obelisk",
+    "name": { "str": "diamond obelisk" },
     "item": "dobelisk",
     "location": "on_roof",
     "symbol": "T",
@@ -34,7 +34,7 @@
   {
     "id": "prismoflight",
     "type": "vehicle_part",
-    "name": "diamond prism",
+    "name": { "str": "diamond prism" },
     "item": "dprism",
     "location": "on_roof",
     "symbol": "*",
@@ -56,7 +56,7 @@
     "id": "dobelisk",
     "copy-from": "blaze_gun_base",
     "type": "GUN",
-    "name": "diamond obelisk",
+    "name": { "str": "diamond obelisk" },
     "description": "A tall tower composed almost entirely of diamond, the cluster of diamond matrices focuses the energy from an array of solar panels into a terribly powerful laser.  It is also capable of storing energy from the sun and can fire even in the dark.",
     "weight": "250000 g",
     "volume": "30 L",
@@ -78,7 +78,7 @@
     "id": "dprism",
     "copy-from": "blaze_gun_base",
     "type": "GUN",
-    "name": "diamond prism",
+    "name": { "str": "diamond prism" },
     "description": "A smaller crystal that fell off the diamond obelisk upon creation.  Through some unknown mechanism, is able to link with the obelisk to fire a small, yet still powerful laser.  Even more perplexing is its ability to do so without guidance.",
     "weight": "2500 g",
     "volume": "2500 ml",
@@ -99,7 +99,7 @@
   {
     "id": "spiral_matrix",
     "type": "TOOL",
-    "name": "diamond matrix",
+    "name": { "str": "diamond matrix" },
     "description": "A sparkling diamond with a dazzling spiral pattern.  Small pieces of glittering crystal form on the edges as you hold it.  With enough base material, applying it to objects causes organic matter, wood in particular, to rapidly transform into diamond. However, this new crystalline compound quickly disintegrates without some other form of support.",
     "weight": "250 g",
     "volume": "500 ml",

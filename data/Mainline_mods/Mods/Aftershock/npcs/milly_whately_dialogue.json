@@ -94,7 +94,7 @@
   {
     "id": "MISSION_migo_biology_1",
     "type": "mission_definition",
-    "name": "Migo biology",
+    "name": { "str": "Migo biology" },
     "description": "Find fetid goop.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 5,
@@ -119,7 +119,7 @@
   {
     "id": "MISSION_migo_biology_2",
     "type": "mission_definition",
-    "name": "Migo Resin",
+    "name": { "str": "Migo Resin" },
     "description": "Find 56 chunks of mi-go resin.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 6,
@@ -144,7 +144,7 @@
   {
     "id": "MISSION_migo_biology_3",
     "type": "mission_definition",
-    "name": "Mutagen",
+    "name": { "str": "Mutagen" },
     "description": "Bring me 3 mutagen.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 3,
@@ -169,7 +169,7 @@
   {
     "id": "MISSION_migo_biology_4",
     "type": "mission_definition",
-    "name": "Humming Hearts",
+    "name": { "str": "Humming Hearts" },
     "description": "Find 2 humming hearts.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 8,
@@ -194,7 +194,7 @@
   {
     "id": "MISSION_FIND_CYRUS",
     "type": "mission_definition",
-    "name": "Find my great uncle Cyrus Whately",
+    "name": { "str": "Find my great uncle Cyrus Whately" },
     "description": "Cyrus and his family were poorly liked even for Whately's before the end of the world.  They went so far off grid that they may not even know anything has changed.  I need to know he's alive and where his research has taken him.",
     "goal": "MGOAL_TALK_TO_NPC",
     "difficulty": 2,

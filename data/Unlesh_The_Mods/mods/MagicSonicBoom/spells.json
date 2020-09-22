@@ -2,7 +2,7 @@
   {
     "id": "sonic_extra",
     "type": "SPELL",
-    "name": "Sonic Extra",
+    "name": { "str": "Sonic Extra" },
     "description": "Dirty hack to work around bugs in magic code.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
@@ -20,7 +20,7 @@
   {
     "id": "sonic_demolition_pulse",
     "type": "SPELL",
-    "name": "Sonic Demolition Pulse",
+    "name": { "str": "Sonic Demolition Pulse" },
     "description": "This adds the actual effect of yeeting terrain in range.",
     "valid_targets": [ "ground" ],
     "extra_effects": [ { "id": "sonic_extra", "hit_self": false, "max_level": 10 } ],
@@ -37,7 +37,7 @@
   {
     "id": "sonic_blast_pulse",
     "type": "SPELL",
-    "name": "Sonic Blast Pulse",
+    "name": { "str": "Sonic Blast Pulse" },
     "description": "This adds the actual effect of yeeting terrain in range.",
     "valid_targets": [ "ground" ],
     "extra_effects": [ { "id": "sonic_extra", "hit_self": false, "max_level": 10 } ],
@@ -54,7 +54,7 @@
   {
     "id": "sonic_spike",
     "type": "SPELL",
-    "name": "Sonic Spike",
+    "name": { "str": "Sonic Spike" },
     "description": "This splits of the AoE into beefy and stupid beefy depending on distance.",
     "message": "",
     "effect": "target_attack",
@@ -75,7 +75,7 @@
   {
     "id": "sonic_demolition",
     "type": "SPELL",
-    "name": "Sonic Demolition",
+    "name": { "str": "Sonic Demolition" },
     "description": "Sonic Demolition\nUsing this spell will unleash a devastating, destructive blast of sonic force, causing a massive earthquake and shattering everything in it's distance.  Anything close enough will take double damage.",
     "message": "You tremble in terror as you cast this spell but manage to fully control it and unleash the full force of sonic energy",
     "effect": "target_attack",
@@ -110,7 +110,7 @@
   {
     "id": "sonic_blast",
     "type": "SPELL",
-    "name": "Sonic Blast",
+    "name": { "str": "Sonic Blast" },
     "description": "Sonic Blast\nUsing this spell will unleash a quite strong, destructive blast of sonic force, shattering everything in it's distance.  Anything close enough will take double damage.",
     "message": "You manage to fully control the power of the blast and unleash the force of sonic energy",
     "effect": "target_attack",

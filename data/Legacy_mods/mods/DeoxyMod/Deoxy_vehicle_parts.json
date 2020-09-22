@@ -2,7 +2,7 @@
   {
     "abstract": "fxlhalfboard",
     "type": "vehicle_part",
-    "name": "folding extra light quarterpanel",
+    "name": { "str": "folding extra light quarterpanel" },
     "color": "light_gray",
     "broken_symbol": "#",
     "broken_color": "light_gray",
@@ -69,7 +69,7 @@
   {
     "type": "vehicle_part",
     "id": "fdoor",
-    "name": "foldable door",
+    "name": { "str": "foldable door" },
     "symbol": "+",
     "color": "cyan",
     "broken_symbol": "&",
@@ -91,7 +91,7 @@
   {
     "type": "vehicle_part",
     "id": "sheet_superalloy",
-    "name": "superalloy coating",
+    "name": { "str": "superalloy coating" },
     "symbol": ")",
     "color": "dark_gray",
     "broken_symbol": ")",
@@ -117,7 +117,7 @@
     "id": "storage_battery_mount",
     "copy-from": "storage_battery_mount",
     "type": "vehicle_part",
-    "name": "swappable storage battery case",
+    "name": { "str": "swappable storage battery case" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 9
   },
@@ -125,7 +125,7 @@
     "id": "solar_panel",
     "copy-from": "solar_panel",
     "type": "vehicle_part",
-    "name": "solar panel",
+    "name": { "str": "solar panel" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 12
   },
@@ -133,7 +133,7 @@
     "id": "reinforced_solar_panel",
     "copy-from": "reinforced_solar_panel",
     "type": "vehicle_part",
-    "name": "reinforced solar panel",
+    "name": { "str": "reinforced solar panel" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 26
   },
@@ -141,7 +141,7 @@
     "id": "solar_panel_v2",
     "copy-from": "solar_panel_v2",
     "type": "vehicle_part",
-    "name": "upgraded solar panel",
+    "name": { "str": "upgraded solar panel" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 18
   },
@@ -149,7 +149,7 @@
     "id": "reinforced_solar_panel_v2",
     "copy-from": "reinforced_solar_panel_v2",
     "type": "vehicle_part",
-    "name": "upgraded reinforced solar panel",
+    "name": { "str": "upgraded reinforced solar panel" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 30
   },
@@ -157,7 +157,7 @@
     "id": "solar_panel_v2",
     "copy-from": "solar_panel_v2",
     "type": "vehicle_part",
-    "name": "quantum solar panel",
+    "name": { "str": "quantum solar panel" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 18
   },
@@ -165,7 +165,7 @@
     "id": "stereo",
     "copy-from": "stereo",
     "type": "vehicle_part",
-    "name": "stereo system",
+    "name": { "str": "stereo system" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 14
   },
@@ -173,7 +173,7 @@
     "id": "drive_by_wire_controls",
     "copy-from": "drive_by_wire_controls",
     "type": "vehicle_part",
-    "name": "drive by wire controls",
+    "name": { "str": "drive by wire controls" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 15
   },
@@ -181,7 +181,7 @@
     "id": "cam_control",
     "copy-from": "cam_control",
     "type": "vehicle_part",
-    "name": "camera control system",
+    "name": { "str": "camera control system" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 16
   },
@@ -189,7 +189,7 @@
     "id": "omnicam",
     "copy-from": "omnicam",
     "type": "vehicle_part",
-    "name": "security camera",
+    "name": { "str": "security camera" },
     "extend": { "flags": [ "FOLDABLE" ] },
     "folded_volume": 8
   },

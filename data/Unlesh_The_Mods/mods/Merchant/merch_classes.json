@@ -2,7 +2,7 @@
   {
     "type": "npc_class",
     "id": "Merc_guard",
-    "name": "Merchant guard",
+    "name": { "str": "Merchant guard" },
     "job_description": "Guard the shop",
     "common": false,
     "bonus_str": { "rng": [ 1, 6 ] },
@@ -19,7 +19,7 @@
   {
     "type": "npc_class",
     "id": "Merc_guardH",
-    "name": "Merchant guard",
+    "name": { "str": "Merchant guard" },
     "job_description": "Guard the shop",
     "common": false,
     "bonus_str": { "rng": [ 1, 6 ] },
@@ -36,7 +36,7 @@
   {
     "type": "npc_class",
     "id": "Merc_Military",
-    "name": "Military goods Merchant",
+    "name": { "str": "Military goods Merchant" },
     "job_description": "Sells Military goods",
     "common": false,
     "bonus_int": { "one_in": 4 },
@@ -56,7 +56,7 @@
   {
     "type": "npc_class",
     "id": "Merc_Food",
-    "name": "Foods Merchant",
+    "name": { "str": "Foods Merchant" },
     "job_description": "Sells Foods",
     "common": false,
     "bonus_int": { "one_in": 4 },
@@ -76,7 +76,7 @@
   {
     "type": "npc_class",
     "id": "Merc_Broker",
-    "name": "Wasteland Broker",
+    "name": { "str": "Wasteland Broker" },
     "job_description": "Sells somethings",
     "common": false,
     "bonus_int": { "one_in": 4 },
@@ -96,7 +96,7 @@
   {
     "type": "npc_class",
     "id": "Merc_Med",
-    "name": "Medicine Trader",
+    "name": { "str": "Medicine Trader" },
     "job_description": "Sells Medicines",
     "common": false,
     "bonus_int": { "one_in": 4 },
@@ -116,7 +116,7 @@
   {
     "type": "npc_class",
     "id": "Merc_Ammo",
-    "name": "Ammo Trader",
+    "name": { "str": "Ammo Trader" },
     "job_description": "Sells Ammo",
     "common": false,
     "bonus_int": { "one_in": 4 },
@@ -136,7 +136,7 @@
   {
     "type": "npc_class",
     "id": "Merc_Smith",
-    "name": "Merchant Smith",
+    "name": { "str": "Merchant Smith" },
     "job_description": "Sells Makeshift items",
     "common": false,
     "bonus_int": { "one_in": 4 },

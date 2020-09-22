@@ -2,7 +2,7 @@
   {
     "id": "dmbb_magus_staff_manabeam_cast",
     "type": "SPELL",
-    "name": "Mana Beam",
+    "name": { "str": "Mana Beam" },
     "description": "Strikes the target with a beam of mana, dealing 10-20 true damage.",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -20,7 +20,7 @@
   {
     "id": "dmbb_magus_staff_manaburst_cast",
     "type": "SPELL",
-    "name": "Mana Burst",
+    "name": { "str": "Mana Burst" },
     "description": "Blasts targets in a small area, dealing 7-14 true damage.",
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
@@ -39,7 +39,7 @@
   {
     "id": "dmbb_magus_staff_manabolts_cast",
     "type": "SPELL",
-    "name": "Mana Bolts",
+    "name": { "str": "Mana Bolts" },
     "description": "Short-ranged bolts of mana that strikes the target 3-6 times, each dealing 2-4 true damage.",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -57,7 +57,7 @@
   {
     "id": "dmbb_magus_staff_manabolts_cast_target",
     "type": "SPELL",
-    "name": "Mana Bolts",
+    "name": { "str": "Mana Bolts" },
     "description": "Short-ranged bolts of mana that strikes the target 3-6 times, each dealing 2-4 true damage.",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -71,7 +71,7 @@
   {
     "id": "dmbb_magus_staff_manaflow_cast",
     "type": "SPELL",
-    "name": "Mana Flow",
+    "name": { "str": "Mana Flow" },
     "description": "Provides 60 mana over 20 turns.",
     "message": "",
     "valid_targets": [ "self" ],
@@ -90,7 +90,7 @@
   {
     "id": "dmbb_magus_staff_manaflow_regen",
     "type": "SPELL",
-    "name": "Mana Regen",
+    "name": { "str": "Mana Regen" },
     "description": "3 mana each turn.",
     "message": "",
     "valid_targets": [ "self" ],
@@ -102,7 +102,7 @@
   {
     "id": "dmbb_magus_staff_manabeam_plus_cast",
     "type": "SPELL",
-    "name": "Mana Beam+",
+    "name": { "str": "Mana Beam+" },
     "description": "Strikes the target with concentrated beam of mana, dealing 20-40 true damage.",
     "message": "",
     "valid_targets": [ "hostile", "ground" ],

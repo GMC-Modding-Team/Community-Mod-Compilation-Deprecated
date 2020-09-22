@@ -3,7 +3,7 @@
     "abstract": "blob_tool",
     "type": "vehicle_part",
     "override": true,
-    "name": "blob part",
+    "name": { "str": "blob part" },
     "folded_volume": 1,
     "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } }
   },
@@ -12,7 +12,7 @@
     "type": "vehicle_part",
     "override": true,
     "copy-from": "blob_tool",
-    "name": "metalloid part",
+    "name": { "str": "metalloid part" },
     "item": "gray",
     "color": "light_gray",
     "broken_color": "light_gray",
@@ -28,7 +28,7 @@
     "copy-from": "gray_part",
     "location": "structure",
     "broken_symbol": "#",
-    "name": "metalloid frame",
+    "name": { "str": "metalloid frame" },
     "flags": [ "TOOL_NONE", "BOARDABLE", "MOUNTABLE", "AISLE" ]
   },
   {
@@ -91,7 +91,7 @@
     "copy-from": "gray_part",
     "location": "center",
     "broken_symbol": "#",
-    "name": "metalloid wall",
+    "name": { "str": "metalloid wall" },
     "flags": [ "OPAQUE", "OBSTACLE", "TOOL_NONE" ]
   },
   {
@@ -133,7 +133,7 @@
   {
     "id": "graydoor",
     "type": "vehicle_part",
-    "name": "metalloid hatch",
+    "name": { "str": "metalloid hatch" },
     "copy-from": "gray_part",
     "location": "center",
     "symbol": "+",
@@ -143,7 +143,7 @@
   {
     "id": "graydoor_opaque",
     "type": "vehicle_part",
-    "name": "opaque metalloid hatch",
+    "name": { "str": "opaque metalloid hatch" },
     "copy-from": "gray_board",
     "item": "gray",
     "location": "center",
@@ -157,7 +157,7 @@
     "copy-from": "gray_part",
     "location": "center",
     "broken_symbol": "#",
-    "name": "metalloid barrier",
+    "name": { "str": "metalloid barrier" },
     "flags": [ "OBSTACLE", "TOOL_NONE" ]
   },
   {
@@ -212,7 +212,7 @@
     "id": "gray_seat",
     "type": "vehicle_part",
     "copy-from": "gray_part",
-    "name": "metalloid seat",
+    "name": { "str": "metalloid seat" },
     "location": "center",
     "symbol": "#",
     "broken_symbol": "*",
@@ -221,7 +221,7 @@
   {
     "id": "gray_plate",
     "type": "vehicle_part",
-    "name": "metalloid reinforcement",
+    "name": { "str": "metalloid reinforcement" },
     "copy-from": "gray_part",
     "location": "armor",
     "symbol": "X",
@@ -231,7 +231,7 @@
   {
     "id": "gray_roof",
     "type": "vehicle_part",
-    "name": "metalloid roof",
+    "name": { "str": "metalloid roof" },
     "copy-from": "gray_part",
     "location": "roof",
     "symbol": "#",
