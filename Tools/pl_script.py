@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# Make sure you have python3 installed.
+# Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
+# For Windows:
+# Using command prompt type 'python vehicle_code.py' and then the dir.
+# For Max OS X or Linux:
+# Swap any '\\' with '/', then run the script as in windows.
+
 import argparse
 import json
 import os
@@ -42,4 +49,4 @@ for root, directories, filenames in os.walk(args_dict["dir"]):
             if new is not None:
                 with open(path, "w") as jf:
                     json.dump(new, jf, ensure_ascii=False)
-                os.system(f"./tools/format/json_formatter.cgi {path}")
+                os.system(f".\\json_formatter.exe {path}")
