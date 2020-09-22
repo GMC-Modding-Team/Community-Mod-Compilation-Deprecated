@@ -26,23 +26,23 @@ def gen_new(path):
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            if type(jo.get('volume')) != str and jo.get('volume') \
-                    and jo.get('type') != 'sound_effect':
-                volume = jo['volume']
+            if type(jo.get("volume")) != str and jo.get("volume") \
+                    and jo.get("type") not in ["sound_effect", "speech"]:
+                volume = jo["volume"]
                 volume *= 250
                 if volume > 10000 and volume % 1000 == 0:
-                    jo['volume'] = str(int(volume/1000)) + ' L'
+                    jo["volume"] = str(int(volume/1000)) + " L"
                 else:
-                    jo['volume'] = str(volume) + ' ml'
+                    jo["volume"] = str(volume) + " ml"
                 change = True
-            if jo.get('barrel_length'):
-                if type(jo['barrel_length']) == int:
-                    barrel_length = jo['barrel_length']
+            if jo.get("barrel_length"):
+                if type(jo["barrel_length"]) == int:
+                    barrel_length = jo["barrel_length"]
                     barrel_length *= 250
-                    jo['barrel_volume'] = str(barrel_length) + ' ml'
-                elif type(jo['barrel_length']) == str:
-                    jo['barrel_volume'] = jo['barrel_length']
-                del jo['barrel_length']
+                    jo["barrel_volume"] = str(barrel_length) + " ml"
+                elif type(jo["barrel_length"]) == str:
+                    jo["barrel_volume"] = jo["barrel_length"]
+                del jo["barrel_length"]
                 change = True
 
     return json_data if change else None
