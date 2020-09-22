@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Make sure you have python3 installed.
-# Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
+# Ensure that the json_formatter is kept in Tools with this script.
 # For Windows:
 # Using command prompt type "python vehicle_code.py"
 # For Max OS X or Linux:
@@ -18,9 +18,6 @@ def gen_new(path):
             json_data = json.load(json_file)
         except UnicodeDecodeError:
             print("UnicodeDecodeError in {0}".format(path))
-            return None
-        except json.decoder.JSONDecodeError:
-            print("JSONDecodeError in {0}".format(path))
             return None
         for jo in json_data:
             locations = {}
