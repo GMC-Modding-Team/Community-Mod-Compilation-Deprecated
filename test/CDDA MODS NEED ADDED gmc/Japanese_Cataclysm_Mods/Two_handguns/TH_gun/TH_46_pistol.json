@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TH_hk_ucp",
+    "copy-from": "hk_ucp",
+    "type": "GUN",
+    "name": "Twin hand gun(4.6x30mm/H&K UCP)",
+    "name_plural": "Twin hand gun(4.6x30mm/H&K UCP)",
+    "description": "It is H & K UCP both hands on hand.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },
+    "magazines": [
+      [ "46", [ "TH_hk46mag", "TH_hk46bigmag" ] ],
+      [ "22", [ "TH_ruger1022bigmag", "TH_ruger1022mag" ] ]
+    ]
+  }
+]

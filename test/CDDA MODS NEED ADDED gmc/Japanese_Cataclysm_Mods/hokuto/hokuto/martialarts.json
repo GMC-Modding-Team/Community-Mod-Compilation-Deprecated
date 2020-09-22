@@ -1,0 +1,197 @@
+[
+    {
+        "type" : "martial_art",
+        "id" : "style_hokuto",
+        "name" : "Hokuto Shinken",
+        "description" : "With its unique breathing method, it is the strongest assassination fist that draws out the potential ability by 100% and destroys it from the enemy's inside.",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "static_buffs" : [
+            {
+                "id" : "hokuto_tenryu",
+                "name" : "Dragon breathing method",
+                "description" : "With a unique breathing method, we draw out the potential capacity by 100%. All abilities have a bonus.",
+                "unarmed_allowed" : true,
+                "flat_bonuses" : [
+                                  ["damage","bash","str", 0.75],
+                                  ["block","str", 2.0],
+                                  ["movecost", -5.0],
+                                  ["hit","dex", 2.0],
+                                  ["dodge","per", 2.0]
+                                 ]
+            }
+        
+            ],
+"ondodge_buffs": [
+            {
+                "id" : "hokuto_musotensei",
+                "name" : "Innocence",
+                "description" : "The ultimate mystery of Hokuto Kenko worn by @ Mr. @ who carried the sadness accidentally drinking bleach. The essence lies in picking up living things more than nothing",
+                "unarmed_allowed" : true,
+                "melee_allowed" : true,
+                "min_unarmed" : 6,
+                "buff_duration" : 2,
+                "max_stacks" : 1,
+                "mult_bonuses" : [
+                    ["damage", "bash", 1.2],
+                    ["dodge", 1.5]
+                ]
+            }
+        ],
+        "techniques" : ["tec_hokuto_ganzan",
+                        "tec_hokuto_kousyu",
+                        "tec_hokuto_gosiretudan",
+                        "tec_hokuto_juhazan",
+                        "tec_hokuto_kuukyoku",
+                        "tec_hokuto_kaikotu",
+                        "tec_hokuto_musotensei",
+                        "tec_hokuto_sitisikiheidzan",
+                        "tec_hokuto_sitiseitensin",
+                        "tec_hokuto_tenha",
+                        "tec_hokuto_ujomosyo",
+                        "tec_hokuto_hyaku"
+                        
+                       ]
+    },{
+        "type" : "martial_art",
+        "id" : "style_nanto_sui",
+        "name" : "Nanko Waterbird Fist",
+        "description" : "Characterized by brilliant legs judgment, its dancing figure attracts something to see The graceful brutally horrendous killing fist",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "flags" : ["CHOP", "DURABLE_MELEE", "SHEATH_SWORD"],
+        "static_buffs" : [
+            {
+                "id" : "nanto_sui_karei",
+                "name" : "Brilliant move like waterfowl",
+                "description" : "Brilliant move like waterfowl fascinates even fighting opponent. A bonus is added to the action cost.",
+                "unarmed_allowed" : true,
+                "flat_bonuses" : [
+                                  ["movecost", -20.0]
+                                 ]
+            }
+    
+        
+            ],
+            "techniques" : ["tec_nanto_hien",
+                            "tec_nanto_suzaku",
+                            "tec_nanto_danko",
+                            "tec_nanto_hisyo"
+                           ]
+    },{
+        "type" : "martial_art",
+        "id" : "style_nanto_kosyu",
+        "name" : "Nanjo Isseijuu",
+        "description" : "Although it is a method of fighting mainly through penetrating by penetrating thrusts, since kicking technique is also used, in the South Korean mechanic Nantou Devil fist, relatively versatile type of fist",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "flags" : ["CHOP", "DURABLE_MELEE", "SHEATH_SWORD"],
+        "static_buffs" : [
+            {
+                "id" : "nanto_kosyu_tikara",
+                "name" : "Power is justice, a good era",
+                "description" : "Damage, hits and speeds are subject to a bonus.",
+                "unarmed_allowed" : true,
+                "flat_bonuses" : [
+                                  ["damage","cut","str", 1.0],
+                                  ["hit", 2.0],
+                                  ["speed", 2.0]
+                                 ]
+            }
+    
+        
+            ],
+            "techniques" : ["tec_nanto_hiryu",
+                            "tec_nanto_sensyu",
+                            "tec_nanto_hakuha",
+                            "tec_nanto_syosyu",
+                            "tec_nanto_gokuto"
+                           ]
+    },
+    {
+        "type" : "martial_art",
+        "id" : "style_nanto_koukaku",
+        "name" : "Minamijiri Tsurumen",
+        "description" : "Returning beautifully dyed red with blood, beautifully given its name to a crane and given its name, a glittering murder fist",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "flags" : ["CHOP", "DURABLE_MELEE", "SHEATH_SWORD"],
+        "static_buffs" : [
+            {
+                "id" : "nanto_koukaku_atama",
+                "name" : "@ sama is a very smart person",
+                "description" : "@ Sama really smart person ... damage bonus is attached according to intelligence.",
+                "unarmed_allowed" : true,
+                "flat_bonuses" : [
+                                  ["damage","bash","int", 1.2],
+                                  ["damage","bash","per", 1.2]
+                                 ]
+            }
+    
+        
+            ],
+            "techniques" : ["tec_nanto_densyo",
+                            "tec_nanto_yousou",
+                            "tec_nanto_kesyo"
+                           ]
+    },
+    
+    
+    
+    
+    {
+        "type" : "martial_art",
+        "id" : "style_nanto_hakuro",
+        "name" : "Minami Shirasen Fist",
+        "description" : "Fist of the fist based on leg skill which is different in Nantou Saint Fist",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "static_buffs" : [
+            {
+                "id" : "nanto_hakuro_yugensyo",
+                "name" : "Causal palm",
+                "description" : "Nanjo Birch Fist Mysterious Epistle Palm · · · Pointing the palms of both hands towards the other, dazzling the opponent by moving it slowly, completely losing its signs. Depending on the sensation, bonus is added for hit and damage, avoidance.",
+                "unarmed_allowed" : true,
+                "flat_bonuses" : [
+                                  ["hit","per", 1.3],
+                                  ["dodge","per", 1.3],
+                                  ["damage","bash","per", 1.3]
+                                 ]
+            }
+    
+        
+            ],
+            "techniques" : ["tec_nanto_rekyaku",
+                            "tec_nanto_zanjin"
+                           ]
+    },
+        {
+        "type" : "martial_art",
+        "id" : "style_nanto_houou",
+        "name" : "Nanko Phoenix Fist",
+        "description" : "As it is called fist of the emperor, the fist of Kamen that is regarded as the strongest fist among the 108 factions of the Nanko Seiken",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "static_buffs" : [
+            {
+                "id" : "nanto_houou_seiatu",
+                "name" : "Do not retreat! Beautiful! I do not care!",
+                "description" : "Stance is the type of defense that Shiro uses, and the phoenix fist which is the fist of the emperor is in the forward control only · · · Bonus is added to the damage and the action cost corresponding to dex",
+                "unarmed_allowed" : true,
+                "flat_bonuses" : [
+                                  ["damage","bash","dex", 1.3],
+                                  ["movecost", -10.0]
+                                 ]
+            }
+    
+        
+            ],
+            "techniques" : ["tec_nanto_kyokusei",
+                            "tec_nanto_juji",
+                            "tec_nanto_bakusei",
+                            "tec_nanto_housyou",
+                            "tec_nanto_tensyo"
+                           ]
+    }
+    
+]

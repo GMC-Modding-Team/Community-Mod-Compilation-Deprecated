@@ -1,0 +1,45 @@
+[
+  {
+    "id": "makeshift_milking_tool",
+    "type": "TOOL",
+    "symbol": "J",
+    "color": "blue",
+    "name": "簡易搾乳機",
+    "description": "自作の搾乳機です。使用する際にはミルクの入れ物を用意しておきましょう。",
+    "price": 3600,
+    "material": [ "aluminum", "plastic" ],
+    "weight": 2000,
+    "volume": 8,
+    "ammo": "battery",
+    "max_charges": 150,
+    "initial_charges": 150,
+    "charges_per_use": 1,
+    "use_action" : "IUSE_NURSERY_BLOB_MILKING"
+  },
+  {
+    "type" : "recipe",
+    "result": "makeshift_milking_tool",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "mechanics", 1 ],
+    "difficulty": 3,
+    "time": 30000,
+    "reversible": true,
+    "book_learn": [[ "advanced_electronics", 1 ] , [ "mag_electronics", 3 ] , [ "manual_electronics", 2 ]],
+    "qualities" : [
+      {"id":"SCREW","level":1}
+    ],
+    "tools": [
+      [[ "soldering_iron", 5 ], [ "toolset", 5 ]]
+    ],
+    "components": [
+      [[ "scrap", 3 ]],
+      [[ "plastic_chunk", 4 ]],
+      [[ "motor_small", 1 ]],
+      [[ "superglue", 1 ]],
+      [[ "hose", 1 ]],
+      [[ "power_supply", 1 ]]
+    ]
+  }
+]

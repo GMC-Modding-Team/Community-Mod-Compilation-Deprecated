@@ -1,0 +1,35 @@
+[
+  {
+    "type": "scenario",
+    "name": "Challenge - Castaway",
+    "description": "The aftermath of your plane crash has left you stranded and unconscious on a lake thankfully you've washed up on a lush green island.",
+    "ident": "castaway_scen",
+    "points": -8,
+    "allowed_locs": [ "island_forest", "island_forest_thick", "island_forest_water", "island_field" ],
+    "start_name": "Island",
+    "professions": [ "castaway" ],
+    "flags": [ "LONE_START", "HELI_CRASH", "SUM_START" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Challenge - Airline Disaster",
+    "description": "the plane you're in has crash landed on a field to add insult to injury some passengers have turned into the walking dead.",
+    "ident": "airdis_scen",
+    "points": -6,
+    "allowed_locs": [ "airliner_1a" ],
+    "start_name": "Plane Crash",
+    "professions": [ "tweaker", "medic", "unemployed", "us_airmarshal", "politician", "detective", "backpacker" ],
+    "flags": [ "CHALLENGE", "SUR_START", "HELI_CRASH", "FIRE_START" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Stranger",
+    "description": "while you are resting on your cabin a stranger knocked on your door claiming that a number of people is after him or her",
+    "ident": "Stranger_scen",
+    "points": -4,
+    "allowed_locs": [ "cabin", "cabin_1", "cabin_2", "cabin_3", "cabin_4", "cabin_5", "cabin_6", "cabin_7" ],
+    "start_name": "Cabin",
+    "professions": [ "lumberjack", "tailor", "trapper", "senior", "jr_survivalist", "survivalist" ],
+    "flags": [ "SUR_START" ]
+  } 
+]

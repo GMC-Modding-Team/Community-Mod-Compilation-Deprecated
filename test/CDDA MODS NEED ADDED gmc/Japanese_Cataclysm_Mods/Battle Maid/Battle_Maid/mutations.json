@@ -1,0 +1,42 @@
+[
+{
+        "type" : "mutation",
+        "id" : "MARTIAL_ARTS_maid",
+        "name" : "Maid fighting technique",
+        "points" : 3,
+        "description" : "I am learning about the assassination as a first-class follower.",
+        "starting_trait" : true,
+        "initial_ma_styles" : [ "style_maid" ],
+        "valid" : false
+},
+{
+        "type" : "mutation",
+        "id" : "PROF_MA_MAID",
+        "name" : "Maid fighting technique",
+        "points" : 0,
+        "description" : "I am learning about the assassination as a first-class follower.",
+        "initial_ma_styles" : [ "style_maid" ],
+        "valid": false,
+        "purifiable": false,
+        "profession": true
+},
+{
+        "type" : "mutation",
+        "id" : "PROF_NEKOMIMI",
+        "name" : "Characteristics of cats",
+        "points" : 0,
+        "description" : "It features the characteristics of a cat by mutation.",
+        "valid": false,
+        "purifiable": false,
+        "profession": true
+},
+{
+        "type" : "mutation",
+        "id" : "STYLISH",
+        "name" : "Stylish",
+        "points" : 1,
+        "description" : "Practicality is far less important than style.  Your morale is improved by wearing fashionable and attractive clothing.",
+        "starting_trait" : true,
+        "valid" : false
+}
+]

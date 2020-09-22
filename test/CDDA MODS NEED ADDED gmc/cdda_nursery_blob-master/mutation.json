@@ -1,0 +1,36 @@
+[
+    {
+        "type" : "mutation_category",
+        "id" : "mutation_nursery",
+        "name" : "苗床",
+        "category" : "NURSERY",
+        "mutagen_message" : "何かが身体の中で蠢き始めた・・・",
+        "iv_message" : " ",
+        "memorial_message" : " "
+    },
+    {
+        "type" : "mutation",
+        "id" : "THRESH_NURSERY",
+        "name" : "苗床",
+        "points" : 0,
+        "description" : "苗床です。",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },
+    {
+        "type" : "mutation",
+        "id" : "NURSERY_BLOB",
+        "name" : "ブロブの苗床",
+        "points" : 0,
+        "visibility" : 2,
+        "ugliness" : 1,
+        "mixed_effect" : true,
+        "description" : "体内でブロブが蠢き、動作に支障をきたします。ランダムでブロブを出産するようになるほか、母乳が出るようになります。",
+        "category" : ["MUTCAT_NURSERY"],
+        "encumbrance_always" : [
+          [ "TORSO", 10 ]
+        ],
+        "metabolism_modifier": 0.1
+    }
+]
