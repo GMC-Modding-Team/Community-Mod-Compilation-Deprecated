@@ -31,12 +31,13 @@ def gen_new(path):
                 if bodypart.endswith("_EITHER"):
                     bodypart = bodypart[:-7]
                     jo["sided"] = True
+                    bodypart = bodypart + "s"
                 if bodypart == "ARMS":
                     joc.append("arm_l")
                     joc.append("arm_r")
                 elif bodypart == "EYES":
                     joc.append("eyes")
-                elif bodypart == "FEET":
+                elif bodypart in ["FEET", "FOOTS"]:
                     joc.append("foot_l")
                     joc.append("foot_r")
                 elif bodypart == "HANDS":
