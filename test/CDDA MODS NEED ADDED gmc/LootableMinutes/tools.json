@@ -1,0 +1,60 @@
+[
+	{
+		"id": "minute",
+		"type": "TOOL",
+		"symbol": "&",
+		"color": "gray",
+		"name": "Minute",
+		"description": "This is part of the fabric of time itself, you somehow know it is equal to a single minute, it makes you uneasy",
+		"price": 0,
+		"material": ["bone"],
+		"weight": 0,
+		"volume": 0,
+		"use_action":"IUSE_MINUTE"
+	},
+	{
+		"id": "time_net",
+		"type": "TOOL",
+		"symbol": "%",
+		"color": "gray",
+		"name": "Temporal Net",
+		"description": "This is a net capable of capturing time itself, if you use it you will lose some time that you may redeem later, this is an inexact science so you are likely to lose far more time than you gain",
+		"price": 0,
+		"material": ["superalloy"],
+		"weight": 0,
+		"volume": 0,
+		"max_charges": 20000,
+		"initial_charges": 0,
+		"use_action":"IUSE_CAST_TIMENET"
+	},
+	{
+		"id": "time_net_capture",
+		"type": "TOOL",
+		"symbol": "%",
+		"color": "gray",
+		"name": "Temporal Net (Cast)",
+		"description": "This Temporal Net has been cast into the winds of time, you move more slowly as it captures bits of Time from you.",
+		"price": 0,
+		"material": ["superalloy"],
+		"weight": 0,
+		"volume": 0,
+		"max_charges": 20000,
+		"initial_charges": 0,
+		"use_action":"IUSE_FOLD_TIMENET"
+	},
+	{
+		"id": "time_net_release",
+		"type": "TOOL",
+		"symbol": "%",
+		"color": "gray",
+		"name": "Temporal Net (Release)",
+		"description": "This Temporal Net has been released, the winds of Time push you forward, you feel faster.",
+		"price": 0,
+		"material": ["superalloy"],
+		"weight": 0,
+		"volume": 0,
+		"max_charges": 20000,
+		"initial_charges": 0,
+		"use_action":"IUSE_FOLD_TIMENET"
+	}
+]

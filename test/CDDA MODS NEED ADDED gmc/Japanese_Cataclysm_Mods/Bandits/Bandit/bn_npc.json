@@ -1,0 +1,184 @@
+[
+  {
+    "type" : "npc",
+    "id" : "ban_old_guard_rep",
+    "comment" : "Appears in the refugee center as a source of missions and info.  Faction critical.",
+    "comment" : "name+ is appended to the end of the npc's name.  If you remove the comma it sets the name as is.",
+    "name+" : ", Representative",
+    "comment" : "Class is based on the enum in npc.h.  The important ones are 0=NC_NONE, 2=NC_SHOPKEEP,",
+    "comment" : "3=NC_HACKER, 4=NC_DOCTOR, 5=NC_TRADER, 6=NC_NINJA, 7=NC_COWBOY, 8=NC_SCIENTIST,",
+    "comment" : "9=NC_BOUNTY_HUNTER, 10=NC_THUG, 11=NC_SCAVENGER, 13=NC_HUNTER, 14=NC_SOLDIER.",
+    "class" : "NC_COWBOY",
+    "comment" : "Attitude is based on the enum in npc.h.  The important ones are 0=NPCATT_NULL, 1=NPCATT_TALK",
+    "comment" : "3=NPCATT_FOLLOW, 7=NPCATT_DEFEND, 10=NPCATT_KILL, and 11=NPCATT_FLEE",
+    "attitude" : 8,
+    "comment" : "Mission is based on the enum in npc.h.  The important ones are 0=NPC_MISSION_NUL, 3=NPC_MISSION_SHOPKEEP",
+    "comment" : "and 7=NPC_MISSION_GUARD",
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population",
+    "comment" : "Mission_offered is based on the enum mission_id in mission.h.  0=MISSION_NULL"
+  },{
+    "type" : "npc",
+    "id" : "lone_hunter",
+    "comment" : "Appears in the refugee center as a trader.",
+    "name+" : ", Hunter",
+    "class" : "NC_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_STRANGER_WARY",
+    "faction" : "hunter_guild"
+  },{
+    "type" : "npc",
+    "id" : "ban_scavenger_hunter",
+    "comment" : "Appears in the refugee center as a trader.",
+    "name+" : ", Hunter",
+    "class" : "NC_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_scavenger_merc",
+    "comment" : "Appears in the refugee center as a partner for hire.",
+    "name+" : ", Merc",
+    "class" : "NC_COWBOY",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_arsonist",
+    "comment" : "Appears in the refugee center as a unique trader and potential mission provider.",
+    "name+" : ", Arsonist",
+    "comment" : "Gender is only referenced when the npc has a complete unique name",
+    "gender" : "female",
+    "class" : "NC_ARSONIST",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_evac_merchant",
+    "comment" : "Appears in the refugee center as shopkeeper with missions.  Faction critical.",
+    "name+" : ", Merchant",
+    "class" : "NC_EVAC_SHOPKEEP",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_evac_broker",
+    "comment" : "Appears in the refugee center as a bulk trader.  Promotes production of nonperishable food.",
+    "name+" : ", Broker",
+    "class" : "NC_BOUNTY_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_evac_guard1",
+    "comment" : "Appears in the refugee center as a guard with custom dialogue.",
+    "name+" : ", Guard",
+    "class" : "NC_BOUNTY_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_evac_guard2",
+    "comment" : "Appears in the refugee center as a guard with custom dialogue.",
+    "name+" : ", Guard",
+    "class" : "NC_BOUNTY_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_evac_guard3",
+    "comment" : "Appears in the refugee center as a guard with custom dialogue.",
+    "name+" : ", Guard",
+    "class" : "NC_BOUNTY_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_guard",
+    "comment" : "A generic guard for the Free Merchants faction.",
+    "name+" : ", Guard",
+    "class" : "NC_BOUNTY_HUNTER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ban_hostile_guard",
+    "comment" : "A generic hostile guard for the Free Merchants faction.  For where the player shouldn't venture.'",
+    "name+" : ", Guard",
+    "class" : "NC_BOUNTY_HUNTER",
+    "attitude" : 10,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "thug_bn",
+    "comment" : "Generic melee focused guard for the Hell's Raiders faction.",
+    "name+" : ", Thug",
+    "class" : "NC_THUG",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "thug_bn2",
+    "comment" : "Generic melee focused guard for the Hell's Raiders faction.",
+    "name+" : ", Thug",
+    "class" : "NC_THUG",
+    "attitude" : 9,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "bandit_bn",
+    "comment" : "Generic pistol/rifle focused guard for the Hell's Raiders faction.",
+    "name+" : ", Bandit",
+    "class" : "NC_SCAVENGER",
+    "attitude" : 8,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "bandit_bn2",
+    "comment" : "Generic pistol/rifle focused guard for the Hell's Raiders faction.",
+    "name+" : ", Bandit",
+    "class" : "NC_SCAVENGER",
+    "attitude" : 9,
+    "mission" : 7,
+    "chat" : "TALK_MUG",
+    "faction" : "mob_population"
+  },{
+    "type" : "npc",
+    "id" : "ninja_bn",
+    "comment" : "Generic pistol/rifle focused guard for the Hell's Raiders faction.",
+    "name+" : ", NINJA",
+    "class" : "NC_NINJA_BN",
+    "attitude" : 9,
+    "mission" : 7,
+    "chat" : "TALK_STRANGER_AGGRESSIVE",
+    "faction" : "mob_population"
+  }
+]

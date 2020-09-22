@@ -1,0 +1,54 @@
+[
+  {
+    "id": "TH_sig_p230",
+    "copy-from": "sig_p230",
+    "type": "GUN",
+    "name": "Twin hand gun (.32 caliber / SIG P230)",
+    "name_plural": "Twin hand gun (.32 caliber / SIG P230)",
+    "description": "It is both hand-held SIG P230.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },    "magazines": [ [ "32", [ "TH_sigp230mag" ] ] ]
+  },
+  {
+    "id": "TH_walther_ppk",
+    "copy-from": "walther_ppk",
+    "type": "GUN",
+    "name": "Twin hand gun (.32 caliber / Walser PPK)",
+    "name_plural": "Twin hand gun (.32 caliber / Walser PPK)",
+    "description": "It is both hand-held Walser PPK.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },    "magazines": [ [ "32", [ "TH_ppkmag" ] ] ]
+  }
+]

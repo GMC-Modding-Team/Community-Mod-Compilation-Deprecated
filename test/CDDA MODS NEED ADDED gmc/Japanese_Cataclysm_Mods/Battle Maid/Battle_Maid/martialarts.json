@@ -1,0 +1,61 @@
+[
+{
+        "type" : "martial_art",
+        "id" : "style_maid",
+        "name" : "Maid fighting technique",
+        "description" : "It is an assassination technique to ask the attendance from an elegant appearance, turn to counterattack. In addition to getting a bonus to avoid avoiding, you can step on a raid by stepping in avoidance.",
+        "arm_block" : 99,
+        "leg_block" : 99,
+        "static_buffs" : [
+            {
+                "id" : "maid_evade",
+                "name" : "A silent appearance",
+                "description" : "By keeping waiting you get +2 bonus on avoidance.",
+                "unarmed_allowed" : true,
+                "melee_allowed" : true,
+                "flat_bonuses" : [["dodge", 2.0]]
+            }
+        ],
+        "onmove_buffs": [
+            {
+                "id" : "maid_moved",
+                "name" : "Raid",
+                "description" : "Although it receives a penalty for avoidance by moving it, you get a bonus to hit and damage according to your senses.",
+                "unarmed_allowed" : true,
+                "melee_allowed" : true,
+                "min_unarmed" : 0,
+                "buff_duration" : 2,
+                "flat_bonuses" : [
+                    ["hit", "per", 1],
+                    ["damage", "bash", "per", 0.3],
+                    ["damage", "cut", "per", 0.3],
+                    ["damage", "stab", "per", 0.3],
+                    ["dodge", -4.0]
+                ]
+            }
+            ],
+"ondodge_buffs": [
+            {
+                "id" : "maid_evaded_bonus",
+                "name" : "Counterattack",
+                "description" : "We avoided attacks with minimal movement. It is an opportunity of counterattack.",
+                "unarmed_allowed" : true,
+                "melee_allowed" : true,
+                "min_unarmed" : 0,
+                "buff_duration" : 2,
+                "max_stacks" : 1,
+                "mult_bonuses" : [
+                    ["damage", "bash", 1.3],
+                    ["damage", "cut", 1.3],
+                    ["damage", "stab", 1.3]
+                ]
+            }
+        ],
+        "techniques" : ["tec_maid_precise",
+                        "tec_maid_counter",
+                        "tec_maid_meleecounter",
+                        "tec_maid_miyage",
+                        "tec_maid_kyusyu"
+        ]
+    }
+]

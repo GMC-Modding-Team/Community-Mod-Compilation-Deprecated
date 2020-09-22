@@ -1,0 +1,24 @@
+[
+
+  {
+    "id": "TH_deaglemag",
+    "copy-from": "deaglemag",
+    "type": "MAGAZINE",
+    "name": "Dual mag(.44 caliber/Desert Eagle)",
+    "name_plural": "Dual mag(.44 caliber/Desert Eagle)",
+    "description": "A standard 7-round steel box magazine for use with the IMI Desert Eagle.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "reliability": -1
+    },
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "capacity": 2,
+      "reload_time": 1.5
+    }
+  }
+
+]

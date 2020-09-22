@@ -1,0 +1,57 @@
+[
+  {
+    "id": "TH_v29",
+    "copy-from": "v29",
+    "type": "GUN",
+    "name": "Twin hand gun (V29 laser pistol)",
+    "name_plural": "Twin hand gun (V29 laser pistol)",
+    "description": "It is a hand-held V29 laser pistol.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "reload": 1.5,
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.2
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] }
+  }
+  ,  {
+    "//":"Development data only for weapons that do not appear at the time of 6348",
+    "id": "TH_v29_cheap",
+    "copy-from": "v29_cheap",
+    "type": "GUN",
+    "name": "Twin hand gun (LACP laser pistol)",
+    "name_plural": "Twin hand gun (LACP laser pistol)",
+    "description": "It is a hand held LACP laser pistol.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.2,
+      "recoil": 1.2
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "duffelbag_external",
+    "type": "vehicle_part",
+    "name": "duffel bag",
+    "item": "duffelbag",
+    "location": "structure",
+    "symbol": "=",
+    "broken_symbol": "#",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 0,
+    "durability": 50,
+    "size": 120,
+    "breaks_into": [],
+    "flags": [ "UNMOUNT_ON_DAMAGE", "CARGO", "PROTRUSION", "COVERED", "BOARDABLE" ],
+    "requirements": {
+          "install": {
+            "time": 3000,
+            "skills": [  ],
+            "using": [  ],
+            "qualities": [  ]
+          }
+    }
+  }
+]

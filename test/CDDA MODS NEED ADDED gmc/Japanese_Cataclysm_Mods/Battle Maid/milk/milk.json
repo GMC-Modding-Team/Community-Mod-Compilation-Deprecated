@@ -1,0 +1,204 @@
+[
+     {
+       "id": "little_maid_R18_tane",
+       "type": "TOOL",
+       "category": "other",
+       "symbol": "m",
+       "color": "white",
+       "name": "Little maid for pet (seed)",
+       "description": "It is a little maid which seeded. When you were gazing at you gently, I shyly cheeked my cheeks and gave a gentle smile. If you use it after 28 days you will be able to milk.",
+       "price": 60000,
+       "material": ["maid"],
+       "weight": 34000,
+       "volume": 40,
+       "use_action": {
+           "type": "delayed_transform",
+           "transform_age": 403200,
+           "not_ready_msg": "When gently stroking my head, I flushed my cheek thinly and I kept leaving myself hoarse...",
+           "msg": "Little maid rubs the growing stomach like loving good things. My heart has come out much. It will not be long before milk comes out.",
+           "moves": 0,
+           "target": "little_maid_R18_milk"
+      }
+     },
+     {
+       "id": "little_maid_R18_milk",
+       "type": "TOOL",
+       "category": "other",
+       "symbol": "m",
+       "color": "white",
+       "name": "Little maid for pet (milkable)",
+       "description": "It is a little maid which seeded. My chest and stomach have swollen considerably, and I am staring at you with a truly lavish eyes ... I can obtain milk by milking.",
+       "price": 60000,
+       "material": ["maid"],
+       "weight": 36000,
+       "volume": 45
+       },
+     {
+       "id": "little_maid_R18_milk2",
+       "type": "TOOL",
+       "category": "other",
+       "symbol": "m",
+       "color": "white",
+       "name": "Little maid for pet (after milking)",
+       "description": "It is a little maid made milking. I feel a fulfilled expression and I feel that the skin is shining somewhere. It can be milked again when used after 23 hours.",
+       "price": 60000,
+       "material": ["maid"],
+       "weight": 36000,
+       "volume": 45,
+       "use_action": {
+           "type": "delayed_transform",
+           "transform_age": 13800,
+           "not_ready_msg": "Little maid took your hand and gently strike your stomach. I feel a very warm body temperature...",
+           "msg": "Little maid came close to your side. I'm staring at you as if I'm sick of something ... with milking again possible.",
+           "moves": 0,
+           "target": "little_maid_R18_milk"
+      }
+    },
+{
+  "type" : "recipe",
+  "result": "little_maid_R18_tane",
+  "id_suffix": "from_little_maid_R18",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 0,
+  "time": 60000,
+  "flags": ["BLIND_EASY"],
+  "reversible": false,
+  "autolearn": true,
+  "components": [
+      [
+       [ "little_maid_R18", 1 ]
+      ]
+     ]
+},
+{
+  "type" : "COMESTIBLE",
+  "id" : "maid_aphrodisiac",
+  "name" : "aphrodisiac",
+  "weight" : 322,
+   "color" : "pink",
+  "addiction_type" : "none",
+  "spoils_in" : 0,
+  "stim" : 0,
+  "comestible_type" : "DRINK",
+  "container": "bottle_plastic",
+  "symbol" : "%",
+  "quench" : 10,
+  "healthy" : 1,
+  "addiction_potential" : 0,
+  "nutrition" : 10,
+  "description" : "t is an aphrodisiac which increases vitality when drinking. If you drink a little maid, lay eggs.",
+  "price" : 300,
+  "material" : "veggy",
+  "tool" : "null",
+  "volume" : 1,
+  "phase" : "liquid",
+  "charges" : 1,
+  "fun" : 20
+},
+{
+  "type" : "recipe",
+  "result": "maid_aphrodisiac",
+  "id_suffix": "from_apple",
+  "result_mult": 2,
+  "category": "CC_FOOD",
+  "subcategory": "CSC_FOOD_DRINKS",
+  "skill_used": "cooking",
+  "difficulty": 4,
+  "time": 10000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities":[{"id":"CHEM","level":1,"amount":1}],
+  "tools": [
+    [
+      [ "hotplate", 6 ],
+      [ "char_smoker", 1 ],
+      [ "toolset", 6 ],
+      [ "fire", -1 ]
+    ]
+  ],
+  "components": [
+     [
+      [ "apple", 1 ],
+      [ "pomegranate", 1 ],
+      [ "onion", 1 ],
+      [ "lettuce", 1 ],
+      [ "garlic", 1 ],
+      [ "pepper", 10 ]
+     ],
+     [
+      [ "honey_bottled", 1 ],
+      [ "honey_glassed", 1 ],
+      [ "honeycomb", 1 ]
+     ],
+     [
+      [ "water", 1 ],
+      [ "water_clean", 1 ]
+     ]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "milk",
+  "id_suffix": "from_little_maid_R18_milk",
+  "result_mult": 3,
+  "byproducts": [["little_maid_R18_milk2"]],
+  "category": "CC_FOOD",
+  "subcategory": "CSC_FOOD_DRINKS",
+  "skill_used": "fabrication",
+  "difficulty": 0,
+  "time": 60000,
+  "flags": ["BLIND_EASY"],
+  "reversible": false,
+  "autolearn": true,
+  "components": [
+      [
+       [ "little_maid_R18_milk", 1 ]
+      ]
+     ]
+},
+{
+  "type" : "recipe",
+  "result": "egg_bird",
+  "id_suffix": "from_maid_aphrodisiac",
+  "result_mult": 3,
+  "category": "CC_FOOD",
+  "subcategory": "CSC_FOOD_OTHER",
+  "skill_used": "fabrication",
+  "difficulty": 0,
+  "time": 5000,
+  "flags": ["BLIND_EASY"],
+  "reversible": false,
+  "autolearn": true,
+  "tools": [
+      [
+       [ "little_maid_R18_milk", -1 ],
+       [ "little_maid_R18_milk2", -1 ]
+      ]
+      ],
+  "components": [
+      [
+       [ "maid_aphrodisiac", 1 ]
+      ]
+     ]
+},
+    {
+        "type" : "mutation",
+        "id" : "futanari",
+        "name" : "Futanari",
+        "points" : 0,
+        "description" : "There is another gender in the body.",
+        "starting_trait" : true,
+        "valid" : false
+    },
+    {
+        "type" : "mutation",
+        "id" : "syokusyu",
+        "name" : "Reproductive tentacle",
+        "points" : 0,
+        "description" : "Tentacles for reproduction are growing in the body.",
+        "starting_trait" : true,
+        "valid" : false
+    }
+]

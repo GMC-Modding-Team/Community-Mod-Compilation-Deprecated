@@ -1,0 +1,89 @@
+[
+
+
+
+  {
+    "id": "scissors",
+    "type": "TOOL",
+    "name": "pair of scissors",
+    "name_plural": "pairs of scissors",
+    "description": "These are a long pair of heavy duty scissors.  Use scissors to cut items made from cotton (like clothing) into rags.",
+    "weight": 113,
+    "volume": 1,
+    "price": 400,
+    "to_hit": -1,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_red",
+    "qualities": [ [ "CUT", 1 ] ],
+    "flags": [ "SPEAR" ],
+    "use_action": [ "IUSE_LUA_TRIM_FUR"]
+  },
+  {
+    "id": "elec_hairtrimmer",
+    "type": "TOOL",
+    "name": "electric hair trimmer",
+    "description": "This is a pocket-sized electric trimmer made for cutting hair.  You can use it to cut your hair if it's supplied with batteries.  It requires 10 batteries per use.",
+    "weight": 138,
+    "volume": 1,
+    "price": 3000,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ";",
+    "color": "yellow",
+    "ammo": "battery",
+    "initial_charges": 50,
+    "max_charges": 50,
+    "charges_per_use": 10,
+    "use_action": ["HAIRKIT", "IUSE_LUA_TRIM_FUR"]
+  },{
+    "id": "toolbox",
+    "type": "TOOL",
+    "name": "toolbox",
+    "name_plural": "toolboxes",
+    "description": "This is a stout metal box containing a complete tool kit suitable for most household maintenance and construction activities.",
+    "weight": 3522,
+    "volume": 10,
+    "price": 12999,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": "steel",
+    "symbol": ";",
+    "color": "red",
+    "qualities": [ [ "CUT", 1 ], [ "HAMMER", 3 ], [ "SAW_M", 2 ], [ "SAW_W", 2 ], [ "WRENCH", 2 ], [ "SCREW", 1 ], [ "HAMMER_FINE", 1 ], [ "SAW_M_FINE", 1 ], [ "WRENCH_FINE", 1 ], [ "SCREW_FINE", 1 ], [ "BUTCHER", 12 ] ],
+    "use_action": [ "HAMMER", "IUSE_LUA_REMOVE_HORNS", "IUSE_LUA_REMOVE_RAP_TALONS", "IUSE_LUA_REMOVE_CLAWS" ]
+  },{
+    "id": "hacksaw",
+    "type": "TOOL",
+    "name": "hacksaw",
+    "description": "This is a sturdy saw, useful for cutting through metal objects.",
+    "weight": 952,
+    "volume": 4,
+    "price": 2500,
+    "to_hit": -1,
+    "bashing": 1,
+    "cutting": 1,
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "qualities": [ [ "SAW_M", 2 ], [ "SAW_M_FINE", 1 ] ],
+    "use_action": [ "IUSE_LUA_REMOVE_HORNS", "IUSE_LUA_REMOVE_RAP_TALONS", "IUSE_LUA_REMOVE_CLAWS"]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

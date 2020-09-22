@@ -1,0 +1,43 @@
+[
+    {
+        "id": "eink_tablet_pc",
+        "type": "TOOL",
+        "name": "E-Ink Tablet PC",
+        "description": "A tablet PC using an efficient color e-ink display.  Before the cataclysm, these were nifty gadgets; now, it's an almost priceless resource.  Runs on conventional batteries.",
+        "weight": 250,
+        "volume": 1,
+        "price": 20000,
+        "to_hit": -1,
+        "material": "plastic",
+        "symbol": ";",
+        "color": "blue",
+        "ammo": "battery",
+        "initial_charges": 50,
+        "max_charges": 100,
+        "charges_per_use": 1,
+        "revert_to": "eink_tablet_pc",
+        "use_action": [
+            "EINKTABLETPC",
+            "IUSE_EBOOK_SCAN_BOOK",
+            "IUSE_EBOOK_CRAFT",
+            "IUSE_EBOOK_LIST",
+            "IUSE_EBOOK_READ"
+        ],
+        "flags": [
+            "WATCH"
+        ]
+    },
+    {
+        "id": "ebook_scanner",
+        "type": "TOOL",
+        "name": "ドキュメントスキャナ",
+        "description": "特殊な紙送り機構により紙の本を素早く電子データに変換する装置です。PCやタブレット端末に接続して使用します。電源は本体側から供給を受けます。",
+        "weight": 2500,
+        "volume": 3,
+        "price": 39800,
+        "to_hit": -3,
+        "material": "plastic",
+        "symbol": "&",
+        "color": "blue"
+    }
+]

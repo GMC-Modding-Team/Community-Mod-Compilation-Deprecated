@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TH_makarov",
+    "copy-from": "makarov",
+    "type": "GUN",
+    "name": "Twin hand gun (9 x 18 mm / Makarov PM)",
+    "name_plural": "Twin hand gun (9 x 18 mm / Makarov PM)",
+     "description": "It is both handheld Makarov PM.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },
+    "magazines": [
+      [ "9x18", [ "TH_makarovmag" ] ],
+      [ "9mm", [ "TH_m9mag" ] ]
+    ]
+  }
+]
