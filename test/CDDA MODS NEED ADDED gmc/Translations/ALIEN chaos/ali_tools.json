@@ -1,0 +1,184 @@
+[   
+    {
+        "type":"TOOL",
+        "id": "ali_rescue_signal_1",
+        "symbol": "!",
+        "color": "blue",
+        "name": "援軍要請無線",
+        "description": "本部に繋がる無線。使用すると援軍を要請することができる。",
+        "weight": 800,
+        "volume": 1,
+        "to_hit": -1,
+        "price": 0,
+        "material": "steel",
+        "flags" : ["WATER_FRIENDLY"],
+       "use_action":[
+	       {
+           "type": "transform",
+           "msg": "『援軍が到着するまで時間がかかる。それまで持ちこたえてくれ！』",
+           "target": "ali_rescue_signal_1_on",
+           "active": true,
+           "need_charges": 0
+    	   }
+	   ]
+    },
+    {
+       "type": "GENERIC",
+       "category": "other",
+       "id": "ali_rescue_signal_1_on",
+       "name": "援軍要請無線（要請済）",
+       "name_plural" : "援軍要請無線（要請済）",
+       "description": "援軍は既に要請されている。後は待つだけだ。",
+       "weight": 800,
+       "symbol": "!",
+       "color": "dkgray",
+       "price": 0,
+       "material" : [ "steel" ],
+       "volume": 1,
+       "use_action": {
+           "type": "delayed_transform",
+           "transform_age": 7200,
+           "not_ready_msg": "『到着するまでまだ時間がかかる。 それまで持ちこたえてくれ！』",
+           "msg": "『もう少しで到着だ！ 合図を送ってくれ！』",
+           "moves": 0,
+           "target": "ali_rescue_signal_1_arrival"
+       }
+     },
+     {
+       "id": "ali_rescue_signal_1_arrival",
+       "type": "TOOL",
+       "category": "other",
+       "symbol": "!",
+       "color": "dkgray",
+       "name": "援軍要請無線（到着）",
+       "description": "援軍はすぐ近くまで来ているようだ。後は合図を送るだけだ。",
+       "price": 0,
+       "material": [ "steel" ],
+       "weight": 800,
+       "volume": 1,
+       "use_action": {
+           "type": "place_monster",
+           "monster_id": "mon_ali_ranger",
+           "friendly_msg": "『現在地を確認した。これより降下する』",
+           "place_randomly": true
+       }
+     },
+    {
+        "type":"TOOL",
+        "id": "ali_sh_st_beacon",
+        "symbol": "*",
+        "color": "blue",
+        "name": "SHADOW STALKERビーコン",
+        "description": "STALKERを呼び出すためのビーコン。使うとSTALKERが現れる。",
+        "weight": 25,
+        "volume": 1,
+        "to_hit": -1,
+        "price": 0,
+        "material": "steel",
+        "flags" : ["WATER_FRIENDLY"],
+        "use_action": {
+          "type": "place_monster",
+          "monster_id": "mon_ali_shadowstalker",
+          "difficulty": 1000,
+          "hostile_msg": "貴様の行動に責任を取れ！",
+          "place_randomly": true,
+          "moves": 0
+         }
+    },
+    {
+        "type":"TOOL",
+        "id": "ali_st_beacon",
+        "symbol": "*",
+        "color": "blue",
+        "name": "STALKERビーコン",
+        "description": "STALKERを呼び出すためのビーコン。使うとSTALKERが現れる。",
+        "weight": 25,
+        "volume": 1,
+        "to_hit": -1,
+        "price": 0,
+        "material": "steel",
+        "flags" : ["WATER_FRIENDLY"],
+        "use_action": {
+          "type": "place_monster",
+          "monster_id": "mon_ali_stalker",
+          "difficulty": 1000,
+          "hostile_msg": "貴様の行動に責任を取れ！",
+          "place_randomly": true,
+          "moves": 10
+         }
+    },
+    {
+        "type":"TOOL",
+        "id": "ali_cursed_television_1",
+        "symbol": ";",
+        "looks_like": "television",
+        "color": "red",
+        "name": "テレビ",
+        "description": "VHSビデオデッキが接続された大型のブラウン管テレビです。有用な電子部品が詰まっています。ビデオを再生中のようで画面には森の中にある井戸映し出されています。…がコンセントに繋がれていないようです。きっと原子力電池搭載の最新ブラウン管テレビなのでしょう。テレビを探れば原子力電池が手に入るかもしれません。",
+        "price": 0,
+        "material": "plastic",
+        "weight": 22600,
+        "volume": 12,
+        "bashing": 5,
+        "to_hit": -5,
+        "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_ali_sadako",
+        "difficulty": 900,
+        "hostile_msg": "画面の中の井戸から白い服の女が出てきて、こちら側に近寄ってくると画面から這い出て来た！。白い服の女はこちらに襲いかかって来た！",
+        "friendly_msg": "画面の中の井戸から白い服の女が出てきて、こちら側に近寄ってくると画面から這い出て来た！…がこちらには興味がないようだ…",
+        "place_randomly": true,
+        "moves": 60
+         }
+    },
+    {
+        "type":"TOOL",
+        "id": "ali_cursed_television_2",
+        "symbol": ";",
+        "looks_like": "television",
+        "color": "red",
+        "name": "テレビ",
+        "description": "VHSビデオデッキが接続された大型のブラウン管テレビです。有用な電子部品が詰まっています。ビデオを再生中のようで画面には森の中にある井戸映し出されています。…がコンセントに繋がれていないようです。きっと原子力電池搭載の最新ブラウン管テレビなのでしょう。テレビを探れば原子力電池が手に入るかもしれません。",
+        "price": 0,
+        "material": "plastic",
+        "weight": 22600,
+        "volume": 12,
+        "bashing": 5,
+        "to_hit": -5,
+        "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_ali_sadako_hand",
+        "difficulty": 900,
+        "hostile_msg": "画面の中の井戸から白い服の女が出てきて、こちら側に近寄ってくると画面から這い出て来…ようとしたが手が出た時点でテレビを殴り壊した…。手だけだがこちらに襲いかかってきた！",
+        "friendly_msg": "画面の中の井戸から白い服の女が出てきて、こちら側に近寄ってくると画面から這い出て来…ようとしたが手が出た時点でテレビを殴り壊した…。手だけが出てきたが、どうやらこちらを見失っているようだ…",
+        "place_randomly": true,
+        "moves": 60
+        }
+         
+    },
+    {
+        "type":"TOOL",
+        "id": "ali_cursed_television_3",
+        "symbol": ";",
+        "looks_like": "television",
+        "color": "red",
+        "name": "テレビ",
+        "description": "VHSビデオデッキが接続された大型のブラウン管テレビです。有用な電子部品が詰まっています。ビデオを再生中のようで画面には森の中にある井戸映し出されています。,,,がコンセントに繋がれていないようです。きっと原子力電池搭載の最新ブラウン管テレビなのでしょう。テレビを探れば原子力電池が手に入るかもしれません。",
+        "price": 0,
+        "material": "plastic",
+        "weight": 22600,
+        "volume": 12,
+        "bashing": 5,
+        "to_hit": -5,
+        "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie",
+        "difficulty": 100,
+        "hostile_msg": "画面の中の井戸から白い服の女が現れ、こちら側に近寄ってくると画面から這い出て来…ようとしたが、どこからともなくゾンビが現れ、テレビを壊すとこちらに襲いかかってきた！",
+        "friendly_msg": "画面の中の井戸から白い服の女が現れ、こちら側に近寄ってくると画面から這い出て来…ようとしたが、どこからともなくゾンビが現れ、テレビを壊した！。ゾンビはこちらに興味はないようだ",
+        "place_randomly": true,
+        "moves": 60
+        }
+    }
+    
+]

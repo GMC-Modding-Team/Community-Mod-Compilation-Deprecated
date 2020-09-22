@@ -1,0 +1,27 @@
+[
+  {
+    "//" : "Add BELT_CLIP, SHEATH_KNIFE, MAG_COMPACT to hose.",
+    "id" : "hose",
+    "type": "TOOL",
+    "name" : "hose",
+    "copy-from" : "hose",
+    "flags" : ["WRAP", "BELT_CLIP", "SHEATH_KNIFE", "MAG_COMPACT"]
+  },
+
+  {
+    "//": "reduce reload fuckin 900 -> 1. (clip-size * reload = loading time.)",
+    "id": "chemical_thrower",
+    "type": "GUN",
+    "copy-from" : "chemical_thrower",
+    "name": "chemical thrower",
+    "name_plural": "chemical throwers",
+    "reload": 1
+  },
+
+  {
+    "id" : "bolt",
+    "type" : "ammunition_type",
+    "name" : "bolts",
+    "default" : "bolt_steel"
+  }
+]

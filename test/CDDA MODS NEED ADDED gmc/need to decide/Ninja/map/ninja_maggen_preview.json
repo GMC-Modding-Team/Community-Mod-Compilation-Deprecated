@@ -1,0 +1,81 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [
+      "basement"
+    ],
+    "method": "json",
+    "weight": 0, "//": "for mod image screen shot.",
+    "object": {
+      "rows": [
+        " ---------------------- ",
+        " |....................| ",
+        " |...--------------...| ",
+        " |...|............|...| ",
+        " |...|..&######&..|...| ",
+        " |...|..#@@@@@@#..|...| ",
+        " |...|..#@####@#..|...| ",
+        " |...|..#@####@#..|...| ",
+        " |...|..#@####@#..|...| ",
+        " |...|..#@####@#..|...| ",
+        " |...|..#@@@@@@#..|...| ",
+        " |...|..&######&..|...| ",
+        " |...|............|...| ",
+        " |...--------------...| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " |....................| ",
+        " ---------------------- "
+      ],
+      "fill_ter": "t_rock",
+      "terrain": {
+        "|": "t_wall",
+        "-": "t_wall",
+        "<": "t_stairs_up",
+        ".": "t_rock_floor",
+        "#": "t_rock_floor",
+        "A": "t_rock_floor",
+        "@": "t_rock_floor",
+        "&": "t_rock_floor"
+      },
+      "furniture": {
+        "#": "f_tatami",
+        "&": "f_tatami",
+        "A": "f_tatami",
+        "@": "f_tatami"
+      },
+      "fields": {
+        "&": {"field": "fd_fire", "age": 1, "density": 1 }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "monster": {
+        "A": {"monster": "mon_ninja_afterimage" }
+      },
+      "traps": {
+        "&": "tr_brazier"
+      },
+      "place_loot": [
+        {"item": "ninja_katana"           , "chance": 100, "x":  9, "y": 11},
+        {"item": "ninja_diamond_katana"   , "chance": 100, "x": 10, "y": 11},
+        {"item": "ninja_kusari_gama"      , "chance": 100, "x": 11, "y": 11},
+        {"item": "ninja_nunchuk"          , "chance": 100, "x": 12, "y": 11},
+        {"item": "ninja_shuriken"         , "chance": 100, "x": 13, "y": 11},
+        {"item": "ninja_shuriken_star"    , "chance": 100, "x": 14, "y": 11},
+        {"item": "ninja_scroll_lightning" , "chance": 100, "x":  9, "y":  4},
+        {"item": "ninja_scroll_fire"      , "chance": 100, "x": 10, "y":  4},
+        {"item": "ninja_scroll_afterimage", "chance": 100, "x": 11, "y":  4},
+        {"item": "ninja_ration"           , "chance": 100, "x": 12, "y":  4},
+        {"item": "ninja_decoy"            , "chance": 100, "x": 13, "y":  4},
+        {"item": "ninja_tengu_mask"       , "chance": 100, "x": 14, "y":  4}
+      ]
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "type": "mod_tileset",
+  "compatibility": [ "MSX++DEAD_PEOPLE" ],
+  "tile_info": [
+    {
+      "height": 32,
+      "width": 32
+    }
+  ],
+  "tiles-new": [
+	{
+		"file": "tile/tiles_kawaiimaidmod_64x48.png",
+		"sprite_width":64,
+		"sprite_height":48,
+		"sprite_offset_x":-16,
+		"sprite_offset_y":-16,
+		"tiles":
+	[
+		{ "id": "kawaii_rita_and_rosa",								"fg": 0, "rotates": false },
+		{ "id": "kawaii_rita_and_rosa_off",							"fg": 1, "rotates": false },
+		{ "id": "kawaii_crystal_td",								"fg": 2, "rotates": false },
+		{ "id": "kawaii_crystal_tr",								"fg": 3, "rotates": false },
+		{ "id": "kawaii_crystal_tr_prot",							"fg": 3, "rotates": false },
+		{ "id": "kawaii_customspear_v2",							"fg": 4, "rotates": false },
+		{ "id": "kawaii_death_scythe",								"fg": 5, "rotates": false },
+		{ "id": "kawaii_customspear_v1",							"fg": 6, "rotates": false },
+		{ "id": "kawaii_customspear_v3",							"fg": 7, "rotates": false },
+		{ "id": "kawaii_muso_spearstaff",							"fg": 8, "rotates": false },
+
+		{ "id": "overlay_wielded_kawaii_rita_and_rosa",				"fg": 0, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_rita_and_rosa_off",			"fg": 1, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_crystal_td",				"fg": 2, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_crystal_tr",				"fg": 3, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_crystal_tr_prot",			"fg": 3, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_customspear_v2",			"fg": 4, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_death_scythe",				"fg": 5, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_customspear_v1",			"fg": 6, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_customspear_v3",			"fg": 7, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_muso_spearstaff",			"fg": 8, "rotates": false }
+	]
+	}
+  ]
+}

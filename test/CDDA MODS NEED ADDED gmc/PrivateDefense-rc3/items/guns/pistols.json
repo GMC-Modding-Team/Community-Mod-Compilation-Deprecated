@@ -1,0 +1,70 @@
+[
+  {
+    "type": "GUN",
+    "id": "pd_9mm",
+    "name": { "str": "Private 9" },
+    "copy-from": "glock_19",
+    "description": "A purely-polymer printed copy of Glock 19, a popular handgun already known for its mostly-plastic construction. Less durable than its market counterpart, but an effective firearm if you have nothing else available.",
+    "material": [ "plastic" ],
+    "weight": "350 g",
+    "relative": {
+      "bashing":       -2,
+      "ranged_damage": -3,
+      "durability":    -3,
+      "dispersion":    80
+    },
+    "blackpowder_tolerance": 24
+  },
+  {
+    "type": "GUN",
+    "id": "pd_357",
+    "name": { "str": "Private 357" },
+    "copy-from": "p226_357sig",
+    "description": "A purely-polymer printed copy of SIG Sauer P226, popular with law enforcement organizations around the world. Less durable than its market counterpart, but an effective firearm if you have nothing else available.",
+    "material": [ "plastic" ],
+    "weight": "540 g",
+    "relative": {
+      "bashing":       -2,
+      "ranged_damage": -3,
+      "durability":    -3,
+      "dispersion":    80
+    },
+    "blackpowder_tolerance": 24,
+    "magazines": [
+      [
+        "357sig",
+        [
+          "p226mag_15rd_357sig",
+          "p226mag_polymer"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "GUN",
+    "id": "pd_45",
+    "name": { "str": "Private 45" },
+    "copy-from": "m1911",
+    "description": "A purely-polymer printed copy of M1911, a highly-successful handgun with a long history of employment. Less durable than its market counterpart, but an effective firearm if you have nothing else available.",
+    "material": [ "plastic" ],
+    "weight": "650 g",
+    "relative": {
+      "bashing":       -2,
+      "ranged_damage": -3,
+      "durability":    -3,
+      "dispersion":    80
+    },
+    "blackpowder_tolerance": 24,
+    "magazines": [
+      [
+        "45",
+        [
+          "m1911mag",
+          "m1911bigmag",
+          "m1911mag_polymer",
+          "m1911bigmag_polymer"
+        ]
+      ]
+    ]
+  }
+]

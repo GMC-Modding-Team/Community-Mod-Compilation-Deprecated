@@ -1,0 +1,53 @@
+[
+  {
+    "id": "npctw_ma_lerning_machine",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "学習装置(武術)",
+    "description": "脳細胞を活性化させ武術の学習を促進する装置です。使用には対応した本が必要です。",
+    "weight": 200,
+    "volume": 2,
+    "price": 100000,
+    "to_hit": 1,
+    "bashing": 5,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ",",
+    "color": "green",
+    "ammo": "battery",
+    "max_charges": 100,
+    "charges_per_use": 10,
+    "use_action": ["IUSE_NPCTW_MA_LERNING_MACHINE"]
+  },
+  {
+    "id": "npctw_name_tag",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "名札",
+    "description": "自分の名前を周囲に知らせるための装飾品です。使用時にプレートに名前を書きますが、こんな世の中ですから勝手に新しい名前を名乗ってもバレないでしょう。",
+    "weight": 10,
+    "volume": 1,
+    "price": 10,
+    "to_hit": -1,
+    "material": [ "plastic" ],
+    "symbol": ",",
+    "color": "white",
+    "ammo": "NULL",
+    "use_action": ["IUSE_NPCTW_NAME_TAG"]
+  },
+  {
+    "id": "npctw_baton",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "指揮棒",
+    "description": "50cmほどの長さのよく目立つ棒です。本来は音楽に使うものですが、この荒廃した世界においては生存者たちのリーダーが仲間に指示を出すために使用されます。",
+    "weight": 200,
+    "volume": 1,
+    "price": 50,
+    "to_hit": 0,
+    "material": [ "plastic" ],
+    "symbol": "/",
+    "color": "white",
+    "ammo": "NULL",
+    "use_action": ["IUSE_NPCTW_BATON"]
+  }
+]
