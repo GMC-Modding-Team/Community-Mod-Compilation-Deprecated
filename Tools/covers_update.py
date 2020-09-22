@@ -3,7 +3,7 @@
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
 # For Windows:
-# Using command prompt type "python vehicle_code.py"
+# Using command prompt type "python covers_update.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -20,27 +20,40 @@ def gen_new(path):
             print("UnicodeDecodeError in {0}".format(path))
             return None
         for jo in json_data:
-            locations = {}
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            # And only vehicles
-            if jo.get("type") != "vehicle":
+            # And only if they have coverage
+            if not jo.get("covers"):
                 continue
-            for part in jo["parts"]:
-                x, y = part["x"], part["y"]
-                item = part.get("part")
-                if part.get("parts"):
-                    if locations.get((x, y)):
-                        locations[(x, y)]["parts"].extend(part["parts"])
-                    else:
-                        locations[(x, y)] = {"x": x, "y": y, "parts": part["parts"]}
-                elif (x, y) in locations:
-                    locations[(x, y)]["parts"].append(item)
-                else:
-                    locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-            jo["parts"] = [locations[key] for key in locations]
+            joc = []
+            for bodypart in jo["covers"]:
+                if bodypart.endswith("_EITHER"):
+                    bodypart = bodypart[:-7]
+                    jo["sided"] = True
+                if bodypart == "ARMS":
+                    joc.append("arm_l")
+                    joc.append("arm_r")
+                elif bodypart == "EYES":
+                    joc.append("eyes")
+                elif bodypart == "FEET":
+                    joc.append("foot_l")
+                    joc.append("foot_r")
+                elif bodypart == "HANDS":
+                    joc.append("hand_l")
+                    joc.append("hand_r")
+                elif bodypart == "HEAD":
+                    joc.append("head")
+                elif bodypart == "LEGS":
+                    joc.append("leg_l")
+                    joc.append("leg_r")
+                elif bodypart == "MOUTH":
+                    joc.append("mouth")
+                elif bodypart == "TORSO":
+                    joc.append("torso")
+            jo["covers"] = joc
             change = True
+
     return json_data if change else None
 
 

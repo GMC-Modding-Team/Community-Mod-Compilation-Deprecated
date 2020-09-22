@@ -3,7 +3,7 @@
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
 # For Windows:
-# Using command prompt type "python vehicle_code.py"
+# Using command prompt type "python weight_update.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -20,27 +20,21 @@ def gen_new(path):
             print("UnicodeDecodeError in {0}".format(path))
             return None
         for jo in json_data:
-            locations = {}
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            # And only vehicles
-            if jo.get("type") != "vehicle":
+            # And only if they have weight
+            if not jo.get('weight'):
                 continue
-            for part in jo["parts"]:
-                x, y = part["x"], part["y"]
-                item = part.get("part")
-                if part.get("parts"):
-                    if locations.get((x, y)):
-                        locations[(x, y)]["parts"].extend(part["parts"])
-                    else:
-                        locations[(x, y)] = {"x": x, "y": y, "parts": part["parts"]}
-                elif (x, y) in locations:
-                    locations[(x, y)]["parts"].append(item)
-                else:
-                    locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-            jo["parts"] = [locations[key] for key in locations]
-            change = True
+            # Mapgen uses the wrong type of weight, so we exclude it.
+            elif jo.get('type') in ['mapgen', 'overmap_terrain', 'mod_tileset']:
+                continue
+            # We're only looking for integers.
+            elif isinstance(jo.get('weight'), int):
+                weight = jo['weight']
+                jo['weight'] = str(weight) + ' g'
+                change = True
+
     return json_data if change else None
 
 
