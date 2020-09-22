@@ -1,0 +1,146 @@
+[
+
+  {
+    "id": "TH_2_shot_special",
+    "copy-from": "2_shot_special",
+    "type": "GUN",
+    "name": "Twin hand gun(.38 caliber / 2 shot special)",
+    "name_plural": "Twin hand gun(.38 caliber / 2 shot special)",
+    "description": "It is two handshot special with both hands.",
+    "reload": 300,
+    "relative": {
+      "range": -2
+    },
+    "//":"Change by magnification",
+    "proportional": { 
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "//":"Simultaneous firing count",
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },    
+    "modes": [
+      [ "DEFAULT", "revolver", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ]
+  },
+ 
+  {
+    "id": "TH_cop_38",
+    "copy-from": "cop_38",
+    "type": "GUN",
+    "name": "Twin hand gun(.38 caliber / COP)",
+    "name_plural": "Twin hand gun(.38 caliber / COP)",
+    "description": "It is a two-handed COP.",
+    "reload": 150,
+    "relative": {
+      "range": -2
+    },
+    "//":"Change by magnification",
+    "proportional": { 
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "//":"Simultaneous firing count",
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },    
+    "modes": [
+      [ "DEFAULT", "revolver", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ]
+  },
+  {
+    "id": "TH_ruger_lcr_38",
+    "copy-from": "ruger_lcr_38",
+    "type": "GUN",
+    "name": "Twin hand gun(.38 caliber / Ruger LCR)",
+    "name_plural": "Twin hand gun(.338 caliber / Ruger LCR)",
+    "description": "It is a handheld Ruger LCR.",
+    "reload": 150,
+    "relative": {
+      "range": -2
+    },
+    "//":"Change by magnification",
+    "proportional": { 
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "//":"Simultaneous firing count",
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },    
+    "modes": [
+      [ "DEFAULT", "revolver", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ]
+  },
+  {
+    "id": "TH_sw_619",
+    "copy-from": "sw_619",
+    "type": "GUN",
+    "name": "Twin hand gun(.38 caliber / S & W 619)",
+    "name_plural": "Twin hand gun(.38 caliber / S & W 619)",
+    "description": "It is both handheld S & W 619.",
+    "reload": 150,
+    "relative": {
+      "range": -2
+    },
+    "//":"Change by magnification",
+    "proportional": { 
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "//":"Simultaneous firing count",
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },    
+    "modes": [
+      [ "DEFAULT", "revolver", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ]
+  },
+  {
+    "id": "TH_taurus_38",
+    "copy-from": "taurus_38",
+    "type": "GUN",
+    "name": "Twin hand gun(.38 caliber / taurus Pro)",
+    "name_plural": "Twin hand gun(.38 caliber / taurus Pro)",
+    "description": "It is a handheld Taurus Pro.",
+    "reload": 150,
+    "relative": {
+      "range": -2
+    },
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.5,
+      "recoil": 1.5
+    },
+    "//":"Simultaneous firing count",
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "magazines": [
+      [ "38", [ "TH_taurus38mag" ] ],
+      [ "22", [ "TH_ruger1022bigmag", "TH_ruger1022mag" ] ],
+      [ "45", [ "TH_m1911mag", "TH_m1911bigmag" ] ],
+      [ "46", [ "TH_hk46mag", "TH_hk46bigmag" ] ],
+      [ "57", [ "TH_fn57mag" ] ],
+      [ "9mm", [ "TH_glockmag", "TH_glockbigmag" ] ]
+    ]
+  }
+]

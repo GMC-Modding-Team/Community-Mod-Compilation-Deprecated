@@ -1,0 +1,91 @@
+[
+  {
+    "id": "TH_moss_brownie",
+    "copy-from": "moss_brownie",
+    "type": "GUN",
+    "name": "Twin hand gun (.22 caliber / Mossberg brownie)",
+    "description": "Both handmade Mossberg brownies.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "revolver", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "clip_size": 2,
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.2,
+      "recoil": 1.2
+    },
+    "flags": [ "FIRE_TWOHAND" ]
+  },
+   {
+    "id": "TH_ruger_lcr_22",
+    "copy-from": "TH_ruger_lcr_38",
+    "type": "GUN",
+    "name": "Twin hand gun (.22 caliber / Ruger LCR)",
+    "description": "It is a handheld Ruger LCR.",
+    "ammo": "22",
+    "clip_size": 16
+
+  },
+   {
+    "id": "TH_sig_mosquito",
+    "copy-from": "sig_mosquito",
+    "type": "GUN",
+    "name": "Twin hand gun (.22 caliber / SIG Mosquito)",
+    "description": "It is both hand-held SIG Mosquito.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.2,
+      "recoil": 1.2
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },
+    "magazines": [
+      [ "22", [ "TH_mosquitomag" ] ]
+     ]
+  },  {
+    "id": "TH_sw_22",
+    "copy-from": "sw_22",
+    "type": "GUN",
+    "name": "Twin hand gun (.22 caliber / S & W 22 A)",
+    "description": "It is both hand-held S & W 22A.",
+    "//":"Fixed value number correction",
+    "relative": {
+      "range": -2
+    },
+    "//":"Simultaneous firing count",
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "//":"Change by magnification",
+    "proportional": { 
+      "weight": 2,
+      "volume": 2,
+      "price": 2, 
+      "dispersion": 1.2,
+      "recoil": 1.2
+    },
+    "extend": { "flags": [ "FIRE_TWOHAND" ] },
+    "magazines": [ [ "22", [ "TH_sw22mag" ] ] ]
+  }
+]

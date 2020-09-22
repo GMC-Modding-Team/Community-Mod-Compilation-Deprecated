@@ -1,0 +1,125 @@
+[
+    {
+        "type"  : "item_group",
+        "id"    : "japan_weapons",
+        "items" : [
+            ["nodachi",20],
+            ["katana", 30],
+            ["wakizashi", 50],
+            ["tanto", 80]
+        ]
+    },{
+        "type"  : "item_group",
+        "id"    : "japan_armors",
+        "items" : [
+            ["armor_samurai", 30],
+            ["helmet_kabuto",30],
+            ["tabi_dress", 80],
+            ["geta", 50],
+            ["kimono", 20]
+        ]
+    },{
+        "type"  : "item_group",
+        "id"    : "japan_manuals",
+        "items" : [
+            ["manual_ninjutsu", 80],
+            ["manual_niten",50],
+            ["textbook_weapeast", 30],
+            ["textbook_armeast", 30],
+            ["holybook_kojiki", 10]
+        ]
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "dojo",
+        "name" : "dojo",
+        "rotate" : true,
+        "sym" : 94,
+        "color" : "i_ltcyan",
+        "see_cost" : 5,
+        "extras" : "build",
+        "mondensity" : 2,
+        "sidewalk" : true,
+        "mapgen": [
+            { "weight": 200,
+            "method": "json", "object": {
+                "fill_ter": "t_grass",
+                "rows":[
+                    "  --------ssss--------  ",
+                    "  -,-----,ssss,-----,-  ",
+                    "  -,-----,ssss,-----,-  ",
+                    "  -,-----,ssss,-----,-  ",
+                    "  -,-----,ssss,-----,-  ",
+                    "  -,-----,ssss,-----,-  ",
+                    "  qqqqqqqqq++qqqqqqqqq  ",
+                    "  x..................x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x.################.x  ",
+                    "  x..................x  ",
+                    "  xqqqqqqqqqq''qqqqqqx  ",
+                    "  xLLLLLLLLLx..x.DC..x  ",
+                    "  xBBBBBBBBBx..x.DDD.x  ",
+                    "  x.........'..'.....x  ",
+                    "  xqqq...qqqx..x.....x  ",
+                    "  xS.'...'.Tx..xXXXXXx  ",
+                    "  qqqqqqqqqqqqqqqqqqqq  "
+                ],
+                "terrain":{
+                    " ": "t_null",
+                    "g": "t_wall_glass",
+                    ",": "t_pavement_y",
+                    "-": "t_pavement",
+                    "#": "t_floor",
+                    ".": "t_floor",
+                    "q": "t_wall",
+                    "x": "t_wall",
+                    "L": "t_floor",
+                    "+": "t_door_boarded",
+                    "'": "t_door_c",
+                    "T": "t_floor",
+                    "S": "t_floor",
+                    "B": "t_floor",
+                    "D": "t_floor",
+                    "X": "t_floor",
+                    "C": "t_floor",
+                    "s": "t_sidewalk"
+                },
+                "furniture":{
+                    "S": "f_shower",
+                    "L": "f_locker",
+                    "B": "f_bench",
+                    "D": "f_desk",
+                    "#": "f_tatami",
+                    "C": "f_chair",
+                    "X": "f_rack"
+                },
+            "place_npcs": [
+                { "class": "ninja_bn", "x": [5,18], "y": [12,15], "repeat": [2, 3] }
+            ],
+            "set": [
+                { "point": "trap", "id": "tr_caltrops", "x": [ 5, 18 ], "y": [9,15], "repeat": [ 3, 6 ] },
+                { "point": "trap", "id": "tr_boobytrap", "x": [ 5, 18 ], "y": [9,15], "repeat": [ 3, 6 ] },
+                { "point": "trap", "id": "tr_sinkhole", "x": [ 13, 14 ], "y": [ 18, 22 ], "repeat": [ 2, 6 ] }
+            ],
+                "place_items": [
+                    { "item": "japan_armors", "x": [3, 11], "y": [18, 18], "chance": 80, "repeat": [1, 3] },
+                    { "item": "japan_weapons", "x": [3, 11], "y": [18, 18], "chance": 80, "repeat": [1, 3] },
+                    { "item": "japan_manuals", "x": [17, 19], "y": [19, 19], "chance": 50, "repeat": [1, 2] }
+                ],
+                "toilets": {
+                    "T": { }
+                },
+                "add": [
+                { "item": "atomic_light", "x": 10, "y": 7 },
+                { "item": "atomic_light", "x": 13, "y": 7 }
+                ] }
+            }
+        ]
+    }
+]
