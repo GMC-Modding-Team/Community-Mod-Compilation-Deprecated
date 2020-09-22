@@ -3,7 +3,7 @@
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
 # For Windows:
-# Using command prompt type "python weight_update.py"
+# Using command prompt type "python material_ammo_update.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -26,16 +26,13 @@ def gen_new(path):
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            # And only if they have weight
-            if not jo.get('weight'):
-                continue
-            # Mapgen uses the wrong type of weight, so we exclude it.
-            elif jo.get('type') in ['mapgen', 'overmap_terrain', 'mod_tileset']:
-                continue
-            # We're only looking for integers.
-            elif isinstance(jo.get('weight'), int):
-                weight = jo['weight']
-                jo['weight'] = str(weight) + ' g'
+            if type(jo.get('material')) == str:
+                material = jo['material']
+                jo['material'] = [material]
+                change = True
+            if type(jo.get('ammo')) == str and jo.get('type') == 'ammo':
+                ammo = jo['ammo']
+                jo['ammo'] = [ammo]
                 change = True
 
     return json_data if change else None

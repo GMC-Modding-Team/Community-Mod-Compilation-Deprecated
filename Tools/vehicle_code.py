@@ -19,6 +19,9 @@ def gen_new(path):
         except UnicodeDecodeError:
             print("UnicodeDecodeError in {0}".format(path))
             return None
+        except json.decoder.JSONDecodeError:
+            print("JSONDecodeError in {0}".format(path))
+            return None
         for jo in json_data:
             locations = {}
             # We only want JsonObjects
