@@ -2,7 +2,7 @@
   {
     "id": "summon_decayed_zombie",
     "type": "SPELL",
-    "name": "Summon Decayed Zombie",
+    "name": { "str": "Summon Decayed Zombie" },
     "description": "A quasi-decayed zombie rises from the earth to serve you.  You may be able to summon more with a higher level in this spell.",
     "valid_targets": [ "ground" ],
     "min_damage": 1,
@@ -26,7 +26,7 @@
   {
     "id": "mass_summon_zombie",
     "type": "SPELL",
-    "name": "Summon Zombie Pack",
+    "name": { "str": "Summon Zombie Pack" },
     "description": "Several ethereal-looking zombies rise from the depths of the earth to fight for you.  You may be able to summon more with a higher level in this spell.",
     "valid_targets": [ "ground" ],
     "min_damage": 3,
@@ -53,7 +53,7 @@
   {
     "id": "summon_skeletons",
     "type": "SPELL",
-    "name": "Summon Skeletons",
+    "name": { "str": "Summon Skeletons" },
     "description": "Ghostly skeletons rise from the depths of the earth to fight for you.  You may be able to summon more with a higher level in this spell.",
     "valid_targets": [ "ground" ],
     "min_damage": 3,
@@ -80,7 +80,7 @@
   {
     "id": "summon_uncatpack",
     "type": "SPELL",
-    "name": "Summon Decayed Pouncer Pack",
+    "name": { "str": "Summon Decayed Pouncer Pack" },
     "description": " Decrepit-looking large cats rises from the depths of the earth to fight for you.  You may be able to summon more with a higher level in this spell.",
     "valid_targets": [ "ground" ],
     "min_damage": 2,
@@ -107,7 +107,7 @@
   {
     "id": "summon_zhorse",
     "type": "SPELL",
-    "name": "Conjure Undead Steed",
+    "name": { "str": "Conjure Undead Steed" },
     "description": " From the grave, you summon an undead steed to your permanent service.",
     "valid_targets": [ "ground" ],
     "min_damage": 1,

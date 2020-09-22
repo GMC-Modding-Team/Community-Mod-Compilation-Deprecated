@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "water_heavy",
-    "name": "heavy water",
+    "name": { "str": "heavy water" },
     "looks-like": "water",
     "weight": "52 g",
     "color": "blue",
@@ -25,7 +25,7 @@
     "type": "COMESTIBLE",
     "id": "water_heavy_rg",
     "looks-like": "water",
-    "name": "reactor grade heavy water",
+    "name": { "str": "reactor grade heavy water" },
     "weight": "55 g",
     "color": "blue",
     "container": "bottle_glass",
@@ -46,7 +46,7 @@
   {
     "type": "COMESTIBLE",
     "id": "hydrogen_sulfide_vial",
-    "name": "Hydrogen sulfide",
+    "name": { "str": "Hydrogen sulfide" },
     "looks-like": "bleach",
     "weight": "40 g",
     "color": "red",
