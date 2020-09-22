@@ -57,6 +57,8 @@ def gen_new(path):
                     joc.append("torso")
                 else:
                     joc.append(bodypart)
+            if jo["covers"] == joc:
+                continue
             jo["covers"] = joc
             change = True
 
