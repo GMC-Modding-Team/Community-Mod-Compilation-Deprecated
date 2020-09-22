@@ -2,7 +2,7 @@
   {
     "id": "earth_pillar",
     "type": "SPELL",
-    "name": "earth pillar",
+    "name": { "str": "earth pillar" },
     "description": "spell to raise an earth pillar",
     "effect": "ter_transform",
     "effect_str": "create_earth_pillar",
@@ -42,7 +42,7 @@
   {
     "id": "remove_earth_pillar",
     "type": "SPELL",
-    "name": "remove earth pillar",
+    "name": { "str": "remove earth pillar" },
     "description": "spell to raise an earth pillar",
     "effect": "ter_transform",
     "effect_str": "remove_earth_pillar",

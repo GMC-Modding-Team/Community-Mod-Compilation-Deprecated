@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "SHMELD",
-    "name": "Shadow Meld",
+    "name": { "str": "Shadow Meld" },
     "points": 4,
     "description": "The light around you bends strangely, making it harder for enemies to notice you.",
     "valid": false,
@@ -15,7 +15,7 @@
   {
     "type": "mutation",
     "id": "BEAUTIFULVAMP",
-    "name": "Moon-lit Grace",
+    "name": { "str": "Moon-lit Grace" },
     "points": 6,
     "visibility": -7,
     "ugliness": -7,
@@ -30,7 +30,7 @@
   {
     "type": "mutation",
     "id": "VAMPEYES",
-    "name": "Red Iris",
+    "name": { "str": "Red Iris" },
     "mixed_effect": true,
     "points": 4,
     "visibility": -1,

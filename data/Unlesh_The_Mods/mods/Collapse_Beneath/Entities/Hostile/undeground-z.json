@@ -2,7 +2,7 @@
   {
     "id": "mon_zombie_ag",
     "type": "MONSTER",
-    "name": "Undeground Feral",
+    "name": { "str": "Undeground Feral" },
     "description": "A what once seem human figure lost to nothing but deformation and mutilation. its gastly white flesh dosent hide the black goo inside as its yellow eyes dart in all dirrections brightlty.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -48,7 +48,7 @@
   {
     "id": "mon_zombie_m",
     "type": "MONSTER",
-    "name": "Zombie miner",
+    "name": { "str": "Zombie miner" },
     "description": "A human body, swaying as it moves, this one seems to have lost its pickaxe...",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -91,7 +91,7 @@
   {
     "id": "mon_zombie_brute_m",
     "type": "MONSTER",
-    "name": "Mining brute",
+    "name": { "str": "Mining brute" },
     "description": "once this person worked hard none stop in the mines lifting carts and stone, now all its swollen muscle is nothing but something to fear.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE", "HUMAN" ],

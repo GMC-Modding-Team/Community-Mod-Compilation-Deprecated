@@ -2,7 +2,7 @@
   {
     "id": "clawminer_dig",
     "type": "SPELL",
-    "name": "Dig",
+    "name": { "str": "Dig" },
     "description": "Dig through earth and stone and most walls.",
     "valid_targets": [ "hostile", "ally", "ground", "self" ],
     "flags": [ "LOUD", "NO_FAIL", "NO_LEGS", "NO_HANDS" ],
