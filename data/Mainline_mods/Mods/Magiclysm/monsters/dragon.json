@@ -69,7 +69,7 @@
   {
     "id": "mon_dragon_black_wyrmling",
     "type": "MONSTER",
-    "name": "black dragon wyrmling",
+    "name": { "str": "black dragon wyrmling" },
     "description": "This is a small black dragon, less than five years old.  Its scales are glossy, and its horns barely peek out of its head.  Even from one so young, you see the glint of sadism in its eyes.",
     "default_faction": "dragon_black",
     "bodytype": "angel",
@@ -119,7 +119,7 @@
   {
     "id": "mon_dragon_black_young",
     "type": "MONSTER",
-    "name": "young black dragon",
+    "name": { "str": "young black dragon" },
     "description": "This black dragon appears to still be in the early stages of life.  Its eyes have just started to sink in its sockets, and its curved, segmented horns have just begun to darken at the tips.  You can tell just by looking at it, this creature is evil to its very core.  Even though this dragon is not fully grown, it is the size of a full-grown bull.",
     "copy-from": "mon_dragon_black_wyrmling",
     "//": "should be roughly 4000 L, as that's the size of a large cow.",
@@ -142,7 +142,7 @@
   {
     "id": "mon_dragon_black_adult",
     "type": "MONSTER",
-    "name": "adult black dragon",
+    "name": { "str": "adult black dragon" },
     "description": "A black-scaled monstrosity with deep-set eye sockets glowing green with evil.  Its face and skull appear skeletal, and acid drips from its dagger-like jaws.",
     "copy-from": "mon_dragon_black_young",
     "//": "If it were possible, the adult would be about double the size of a young version or so.",

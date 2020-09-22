@@ -3,7 +3,7 @@
     "note": "We've got tons of monster targeting stuff. This is to make sure the caster doesn't cast spells with the orb always triggering them.",
     "id": "DMBB_ORB_MERC_berserker_swill_regen",
     "type": "SPELL",
-    "name": "Strong Will - Regen",
+    "name": { "str": "Strong Will - Regen" },
     "description": "\"Yes! I am stronk!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -16,7 +16,7 @@
   {
     "id": "DMBB_ORB_MERC_berserker_swill",
     "type": "SPELL",
-    "name": "Strong Will",
+    "name": { "str": "Strong Will" },
     "description": "\"Ouch! Thank you, here's your change!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -29,7 +29,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_oofed",
     "type": "SPELL",
-    "name": "OMFG",
+    "name": { "str": "OMFG" },
     "description": "\"Aight! I'm done! Goodbye!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -42,7 +42,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_oof",
     "type": "SPELL",
-    "name": "Stop",
+    "name": { "str": "Stop" },
     "description": "\"Oh god! Oh fuck!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -55,7 +55,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_battletrance",
     "type": "SPELL",
-    "name": "Battle Trance",
+    "name": { "str": "Battle Trance" },
     "description": "\"Poke me and I will literally stop!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -68,7 +68,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_battletrance_cast",
     "type": "SPELL",
-    "name": "Battle Trance",
+    "name": { "str": "Battle Trance" },
     "description": "\"Just fight, cunts!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -82,7 +82,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_allegro",
     "type": "SPELL",
-    "name": "Allegro",
+    "name": { "str": "Allegro" },
     "description": "\"Poke me and I will literally stop!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -95,7 +95,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_allegro_cast",
     "type": "SPELL",
-    "name": "Allegro",
+    "name": { "str": "Allegro" },
     "description": "\"Just fight, cunts!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -109,7 +109,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_adagio",
     "type": "SPELL",
-    "name": "Adagio",
+    "name": { "str": "Adagio" },
     "description": "\"Poke me and I will literally stop!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -122,7 +122,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_adagio_cast",
     "type": "SPELL",
-    "name": "Adagio",
+    "name": { "str": "Adagio" },
     "description": "\"Just fight, cunts!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -136,7 +136,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_manabeam",
     "type": "SPELL",
-    "name": "Mana Beam",
+    "name": { "str": "Mana Beam" },
     "description": "\"Taste my mana!\"",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -383,7 +383,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_manabeam_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_manabeam", "hit_self": true } ],
@@ -394,7 +394,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_manabeam_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_manabeam_target1" } ],
@@ -403,7 +403,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_manaburst",
     "type": "SPELL",
-    "name": "Mana Burst",
+    "name": { "str": "Mana Burst" },
     "description": "\"Taste my mana! All of you!\"",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -651,7 +651,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_manaburst_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_manaburst", "hit_self": true } ],
@@ -662,7 +662,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_manaburst_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_manaburst_target1" } ],
@@ -671,7 +671,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_stunlock",
     "type": "SPELL",
-    "name": "Stunlock",
+    "name": { "str": "Stunlock" },
     "description": "\"Stay calm!\"",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -918,7 +918,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_stunlock_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_stunlock", "hit_self": true } ],
@@ -1158,7 +1158,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_stunlock_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_stunlock_target1" } ],
@@ -1167,7 +1167,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_megamagic",
     "type": "SPELL",
-    "name": "Megamagic",
+    "name": { "str": "Megamagic" },
     "description": "\"Pew! Goodbye!\"",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -1415,7 +1415,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_megamagic_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_megamagic", "hit_self": true } ],
@@ -1655,7 +1655,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_megamagic_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_megamagic_target1" } ],
@@ -1664,7 +1664,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus",
     "type": "SPELL",
-    "name": "Mana Beam+",
+    "name": { "str": "Mana Beam+" },
     "description": "\"Taste my mana!\"",
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
@@ -1912,7 +1912,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus", "hit_self": true } ],
@@ -2154,7 +2154,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus_target1" } ],
@@ -2163,7 +2163,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus",
     "type": "SPELL",
-    "name": "Chaotic Obliteration",
+    "name": { "str": "Chaotic Obliteration" },
     "description": "\"This place needs some lights...\"",
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
@@ -2411,7 +2411,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus", "hit_self": true } ],
@@ -2653,7 +2653,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus_target1" } ],
@@ -2662,7 +2662,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_spawn",
     "type": "SPELL",
-    "name": "Summon Horde",
+    "name": { "str": "Summon Horde" },
     "description": "\"I need you, my pets...\"",
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
@@ -2913,7 +2913,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_spawn_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_necro_spawn", "hit_self": true } ],
@@ -3153,7 +3153,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_spawn_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_necro_spawn_target1" } ],
@@ -3162,7 +3162,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_vamp_heal",
     "type": "SPELL",
-    "name": "Vampiric Heal",
+    "name": { "str": "Vampiric Heal" },
     "description": "\"Yo guys! I got some juice!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -3175,7 +3175,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_vamp",
     "type": "SPELL",
-    "name": "Widespread Transfusion",
+    "name": { "str": "Widespread Transfusion" },
     "description": "\"Give us your juice!\"",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -3234,7 +3234,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_vamp_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_necro_vamp", "hit_self": true } ],
@@ -3285,7 +3285,7 @@
   {
     "id": "DMBB_ORB_MERC_mage_necro_vamp_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_necro_vamp_target1" } ],
@@ -3294,7 +3294,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_heal",
     "type": "SPELL",
-    "name": "Heal",
+    "name": { "str": "Heal" },
     "description": "\"Then here's my generic, low-lyfe healing spell!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -3312,7 +3312,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_heal_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_heal", "hit_self": true } ],
@@ -3552,7 +3552,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_heal_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_heal_target1" } ],
@@ -3561,7 +3561,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_buff",
     "type": "SPELL",
-    "name": "buff",
+    "name": { "str": "buff" },
     "description": "\"Then here's my generic, not-so-powerful buffing spell!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -3579,7 +3579,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_buff_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_buff", "hit_self": true } ],
@@ -3819,7 +3819,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_buff_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_buff_target1" } ],
@@ -3828,7 +3828,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_debuff",
     "type": "SPELL",
-    "name": "debuff",
+    "name": { "str": "debuff" },
     "description": "\"Then here's my generic, not-so-powerful debuffing spell!\"",
     "message": "",
     "valid_targets": [ "hostile" ],
@@ -4075,7 +4075,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_debuff_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_debuff", "hit_self": true } ],
@@ -4315,7 +4315,7 @@
   {
     "id": "DMBB_ORB_MERC_cleric_debuff_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_debuff_target1" } ],
@@ -4324,7 +4324,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_heal",
     "type": "SPELL",
-    "name": "Heal",
+    "name": { "str": "Heal" },
     "description": "\"Then here's my generic healing spell!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -4342,7 +4342,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_heal_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_heal", "hit_self": true } ],
@@ -4582,7 +4582,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_heal_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_heal_target1" } ],
@@ -4591,7 +4591,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_qheal",
     "type": "SPELL",
-    "name": "Heal",
+    "name": { "str": "Heal" },
     "description": "\"Then here's my useless generic healing spell!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -4609,7 +4609,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_qheal_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_qheal", "hit_self": true } ],
@@ -4849,7 +4849,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_qheal_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_qheal_target1" } ],
@@ -4858,7 +4858,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_pure",
     "type": "SPELL",
-    "name": "Purify",
+    "name": { "str": "Purify" },
     "description": "\"Then here's my generic purification spell!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -4876,7 +4876,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_pure_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_pure", "hit_self": true } ],
@@ -5116,7 +5116,7 @@
   {
     "id": "DMBB_ORB_MERC_priest_pure_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_pure_target1" } ],
