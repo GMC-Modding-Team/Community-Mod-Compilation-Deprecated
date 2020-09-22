@@ -956,7 +956,7 @@
   {
     "id": "mon_compsognathus_hatchling",
     "type": "MONSTER",
-    "name": "greenish yellow hatchling",
+    "name": { "str": "greenish yellow hatchling" },
     "description": "A tiny dinosaur hatchling with huge shiny eyes, it could be from a number of different species.",
     "default_faction": "compsognathus",
     "categories": [ "DINOSAUR" ],
@@ -986,182 +986,182 @@
     "id": "mon_gallimimus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light green and yellow hatchling",
+    "name": { "str": "light green and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_gallimimus" }
   },
   {
     "id": "mon_pachycephalosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light green and yellow hatchling",
+    "name": { "str": "light green and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_pachycephalosaurus" }
   },
   {
     "id": "mon_spinosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "red and white hatchling",
+    "name": { "str": "red and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_spinosaurus" }
   },
   {
     "id": "mon_tyrannosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light red and white hatchling",
+    "name": { "str": "light red and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_tyrannosaurus" }
   },
   {
     "id": "mon_albertosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light red and white hatchling",
+    "name": { "str": "light red and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_albertosaurus" }
   },
   {
     "id": "mon_triceratops_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light green and magenta hatchling",
+    "name": { "str": "light green and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_triceratops" }
   },
   {
     "id": "mon_stegosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "green and magenta hatchling",
+    "name": { "str": "green and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_stegosaurus" }
   },
   {
     "id": "mon_ankylosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and magenta hatchling",
+    "name": { "str": "brown and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_ankylosaurus" }
   },
   {
     "id": "mon_diplodocus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and magenta hatchling",
+    "name": { "str": "brown and magenta hatchling" },
     "upgrades": { "age_grow": 40, "into": "mon_diplodocus" }
   },
   {
     "id": "mon_camarasaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and magenta hatchling",
+    "name": { "str": "brown and magenta hatchling" },
     "upgrades": { "age_grow": 50, "into": "mon_camarasaurus" }
   },
   {
     "id": "mon_apatosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and magenta hatchling",
+    "name": { "str": "brown and magenta hatchling" },
     "upgrades": { "age_grow": 50, "into": "mon_apatosaurus" }
   },
   {
     "id": "mon_allosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and white hatchling",
+    "name": { "str": "brown and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_allosaurus" }
   },
   {
     "id": "mon_eoraptor_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and yellow hatchling",
+    "name": { "str": "dark gray and yellow hatchling" },
     "upgrades": { "age_grow": 10, "into": "mon_eoraptor" }
   },
   {
     "id": "mon_velociraptor_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and yellow hatchling",
+    "name": { "str": "dark gray and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_velociraptor" }
   },
   {
     "id": "mon_deinonychus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "red and green hatchling",
+    "name": { "str": "red and green hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_deinonychus" }
   },
   {
     "id": "mon_utahraptor_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and white hatchling",
+    "name": { "str": "dark gray and white hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_utahraptor" }
   },
   {
     "id": "mon_camptosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light green and yellow hatchling",
+    "name": { "str": "light green and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_camptosaurus" }
   },
   {
     "id": "mon_parasaurolophus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and magenta hatchling",
+    "name": { "str": "dark gray and magenta hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_parasaurolophus" }
   },
   {
     "id": "mon_corythosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and magenta hatchling",
+    "name": { "str": "dark gray and magenta hatchling" },
     "upgrades": { "age_grow": 40, "into": "mon_corythosaurus" }
   },
   {
     "id": "mon_edmontosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "dark gray and magenta hatchling",
+    "name": { "str": "dark gray and magenta hatchling" },
     "upgrades": { "age_grow": 50, "into": "mon_edmontosaurus" }
   },
   {
     "id": "mon_dimorphodon_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light gray and yellow hatchling",
+    "name": { "str": "light gray and yellow hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_dimorphodon" }
   },
   {
     "id": "mon_pteranodon_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light gray and yellow hatchling",
+    "name": { "str": "light gray and yellow hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_pteranodon" }
   },
   {
     "id": "mon_quetzalcoatlus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "light gray and yellow hatchling",
+    "name": { "str": "light gray and yellow hatchling" },
     "upgrades": { "age_grow": 40, "into": "mon_quetzalcoatlus" }
   },
   {
     "id": "mon_dilophosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "magenta and green hatchling",
+    "name": { "str": "magenta and green hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_dilophosaurus" }
   },
   {
     "id": "mon_ceratosaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "brown and white hatchling",
+    "name": { "str": "brown and white hatchling" },
     "upgrades": { "age_grow": 30, "into": "mon_ceratosaurus" }
   },
   {
     "id": "mon_mosasaurus_hatchling",
     "type": "MONSTER",
     "copy-from": "mon_compsognathus_hatchling",
-    "name": "red and white hatchling",
+    "name": { "str": "red and white hatchling" },
     "upgrades": { "age_grow": 20, "into": "mon_mosasaurus" }
   }
 ]
