@@ -2,7 +2,7 @@
   {
     "type": "GENERIC",
     "id": "frame_mushroom",
-    "name": "mushroom frame",
+    "name": { "str": "mushroom frame" },
     "description": "It is a big frame made of fungi. Used for vehicle construction.",
     "weight": "2000 g",
     "to_hit": -5,
@@ -10,7 +10,7 @@
     "symbol": "%",
     "material": [ "veggy" ],
     "techniques": [ "DEF_DISARM" ],
-    "volume": 45,
+    "volume": "11250 ml",
     "bashing": 5,
     "cutting": 1,
     "category": "veh_parts",
@@ -19,7 +19,7 @@
   {
     "type": "vehicle_part",
     "id": "roof_mushroom01",
-    "name": "mushroom roof",
+    "name": { "str": "mushroom roof" },
     "symbol": "#",
     "color": "light_gray",
     "broken_symbol": "#",
@@ -39,7 +39,7 @@
   {
     "type": "vehicle_part",
     "id": "roof_mushroom02",
-    "name": "mushroom roof",
+    "name": { "str": "mushroom roof" },
     "symbol": "#",
     "color": "light_gray",
     "broken_symbol": "#",
@@ -59,7 +59,7 @@
   {
     "type": "vehicle_part",
     "id": "mushroom_controls",
-    "name": "mushroom controls",
+    "name": { "str": "mushroom controls" },
     "symbol": "$",
     "color": "pink",
     "broken_symbol": "$",
@@ -81,7 +81,7 @@
   {
     "id": "mushroom_tank_medium",
     "type": "vehicle_part",
-    "name": "20L mushroom tank",
+    "name": { "str": "20L mushroom tank" },
     "item": "mushroom_armor01",
     "location": "fuel_source",
     "symbol": "O",
@@ -101,7 +101,7 @@
   {
     "id": "mushroom_tank",
     "type": "vehicle_part",
-    "name": "60L mushroom tank",
+    "name": { "str": "60L mushroom tank" },
     "item": "mushroom_armor02",
     "location": "fuel_source",
     "symbol": "O",
@@ -121,7 +121,7 @@
   {
     "type": "vehicle_part",
     "id": "mushroom_solar_panel",
-    "name": "mushroom solar panel",
+    "name": { "str": "mushroom solar panel" },
     "symbol": "#",
     "color": "brown",
     "broken_symbol": "x",
@@ -143,7 +143,7 @@
   {
     "type": "vehicle_part",
     "id": "quarterpanel_mushroom",
-    "name": "mushroom quarterpanel",
+    "name": { "str": "mushroom quarterpanel" },
     "symbol": "h",
     "color": "brown",
     "broken_symbol": "%",
@@ -164,7 +164,7 @@
   {
     "type": "vehicle_part",
     "id": "quarterpanel_mushroom_opaque",
-    "name": "opaque mushroom quarterpanel",
+    "name": { "str": "opaque mushroom quarterpanel" },
     "symbol": "h",
     "color": "brown",
     "broken_symbol": "&",
@@ -185,7 +185,7 @@
   {
     "type": "vehicle_part",
     "id": "frame_mushroom",
-    "name": "mushroom frame",
+    "name": { "str": "mushroom frame" },
     "symbol": "F",
     "color": "light_gray",
     "broken_symbol": "%",
@@ -205,7 +205,7 @@
   {
     "type": "vehicle_part",
     "id": "folding_mushroom_box",
-    "name": "mushroom folding box",
+    "name": { "str": "mushroom folding box" },
     "symbol": "H",
     "color": "brown",
     "broken_symbol": "#",
@@ -227,7 +227,7 @@
   {
     "type": "vehicle_part",
     "id": "door_mushroom",
-    "name": "mushroom door",
+    "name": { "str": "mushroom door" },
     "symbol": "+",
     "color": "brown",
     "broken_symbol": "&",
@@ -248,7 +248,7 @@
   {
     "type": "vehicle_part",
     "id": "door_mushroom_opaque",
-    "name": "opaque mushroom door",
+    "name": { "str": "opaque mushroom door" },
     "symbol": "+",
     "color": "brown",
     "broken_symbol": "&",
@@ -270,10 +270,10 @@
     "id": "wheel_mushroom",
     "type": "WHEEL",
     "category": "veh_parts",
-    "name": "mushroom wheel",
+    "name": { "str": "mushroom wheel" },
     "description": "It is a self-made wheel that is made by combining fungi.",
     "weight": "2500 g",
-    "volume": 35,
+    "volume": "8750 ml",
     "price": 1200,
     "bashing": 6,
     "to_hit": -4,
@@ -286,7 +286,7 @@
   {
     "id": "wheel_mushroom",
     "type": "vehicle_part",
-    "name": "mushroom wheel",
+    "name": { "str": "mushroom wheel" },
     "item": "wheel_mushroom",
     "location": "under",
     "symbol": "|",
@@ -307,7 +307,7 @@
   {
     "id": "wheel_mushroom2",
     "type": "vehicle_part",
-    "name": "steerable mushroom wheel",
+    "name": { "str": "steerable mushroom wheel" },
     "item": "wheel_mushroom",
     "location": "under",
     "symbol": "|",
@@ -330,7 +330,7 @@
     "id": "mushroom_plate",
     "symbol": "%",
     "color": "brown",
-    "name": "mushroom plate",
+    "name": { "str": "mushroom plate" },
     "description": "It is a self-made armor made from fungi. Made of soft fiber, it is a vehicle component that aims to absorb rather than prevent attacks.",
     "price": 800,
     "material": [ "veggy" ],
@@ -343,7 +343,7 @@
   {
     "type": "vehicle_part",
     "id": "plating_mushroom",
-    "name": "mushroom plating",
+    "name": { "str": "mushroom plating" },
     "symbol": ")",
     "color": "brown",
     "broken_symbol": ")",
@@ -365,7 +365,7 @@
     "id": "mushroom_storage_battery",
     "type": "MAGAZINE",
     "category": "veh_parts",
-    "name": "mushroom storage battery",
+    "name": { "str": "mushroom storage battery" },
     "description": "A special processing is applied and it is mutated to a storage pot. The capacity is small but you can not afford luxury.",
     "weight": "2500 g",
     "volume": "1500 ml",
@@ -382,7 +382,7 @@
   {
     "id": "mushroom_storage_battery",
     "type": "vehicle_part",
-    "name": "mushroom storage battery",
+    "name": { "str": "mushroom storage battery" },
     "item": "mushroom_storage_battery",
     "location": "fuel_source",
     "fuel_type": "battery",
@@ -403,7 +403,7 @@
   {
     "type": "GENERIC",
     "id": "motor_mushroom",
-    "name": "mushroom motor",
+    "name": { "str": "mushroom motor" },
     "description": "It is a trap that moves rhythmically powered by electricity. This extremely efficient device gives you amazing output.",
     "weight": "10000 g",
     "to_hit": -3,
@@ -418,7 +418,7 @@
   {
     "id": "engine_mushroom",
     "type": "vehicle_part",
-    "name": "mushroom engine",
+    "name": { "str": "mushroom engine" },
     "item": "motor_mushroom",
     "difficulty": 3,
     "durability": 200,
@@ -441,14 +441,14 @@
   {
     "type": "GENERIC",
     "id": "seat_mushroom",
-    "name": "mushroom seat",
+    "name": { "str": "mushroom seat" },
     "description": "Comfortable polka-dot seating made of fungi. Used for vehicle construction.",
     "weight": "4071 g",
     "to_hit": -4,
     "color": "pink",
     "symbol": "0",
     "material": [ "veggy" ],
-    "volume": 35,
+    "volume": "8750 ml",
     "bashing": 4,
     "category": "veh_parts",
     "price": 25000
@@ -456,7 +456,7 @@
   {
     "type": "vehicle_part",
     "id": "seat_mushroom",
-    "name": "mushroom seat",
+    "name": { "str": "mushroom seat" },
     "symbol": "#",
     "color": "pink",
     "broken_symbol": "*",

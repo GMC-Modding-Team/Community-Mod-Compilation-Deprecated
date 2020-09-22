@@ -2,7 +2,7 @@
   {
     "id": "sword_healing",
     "type": "SPELL",
-    "name": "Blade Rush",
+    "name": { "str": "Blade Rush" },
     "description": "Heals some light damage to the character.",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT", "NO_LEGS", "NO_HANDS", "NO_FAIL" ],

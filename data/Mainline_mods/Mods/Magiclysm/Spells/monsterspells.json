@@ -20,7 +20,7 @@
   {
     "id": "bear_trap",
     "type": "SPELL",
-    "name": "Bear Trap",
+    "name": { "str": "Bear Trap" },
     "description": "A trap that summons bears!  Not what you were expecting, is it?",
     "valid_targets": [ "ground" ],
     "flags": [ "HOSTILE_SUMMON", "LOUD" ],
@@ -38,7 +38,7 @@
   {
     "id": "rocket_punch",
     "type": "SPELL",
-    "name": "Rocket Punch",
+    "name": { "str": "Rocket Punch" },
     "description": "Ejects giant fist from arm.",
     "valid_targets": [ "hostile" ],
     "flags": [ "NO_LEGS" ],
@@ -55,7 +55,7 @@
   {
     "id": "gas_attack",
     "type": "SPELL",
-    "name": "Gas Attack",
+    "name": { "str": "Gas Attack" },
     "description": "Spreads toxic gas around itself.",
     "valid_targets": [ "self", "hostile", "ground" ],
     "flags": [ "NO_HANDS", "NO_LEGS" ],
@@ -81,7 +81,7 @@
   {
     "type": "SPELL",
     "id": "mon_demon_fireball",
-    "name": "Demon Fireball",
+    "name": { "str": "Demon Fireball" },
     "description": "This is a monster only spell.",
     "flags": [ "IGNITE_FLAMMABLE" ],
     "valid_targets": [ "hostile", "ground", "ally", "self" ],
@@ -98,7 +98,7 @@
   {
     "type": "SPELL",
     "id": "mon_summon_demon_spiderlings",
-    "name": "Summon Demon Spiderlings",
+    "name": { "str": "Summon Demon Spiderlings" },
     "description": "Summons 4 permanent demon spiderlings.",
     "flags": [ "HOSTILE_SUMMON", "PERMANENT" ],
     "valid_targets": [ "ground" ],

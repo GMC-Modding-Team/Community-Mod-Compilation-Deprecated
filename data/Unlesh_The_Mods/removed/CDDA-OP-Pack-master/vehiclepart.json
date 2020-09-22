@@ -57,7 +57,7 @@
   {
     "id": "omni_plate",
     "type": "vehicle_part",
-    "name": "Omni Corp. armor plate",
+    "name": { "str": "Omni Corp. armor plate" },
     "item": "omni_plate",
     "location": "armor",
     "symbol": "X",
@@ -79,7 +79,7 @@
     "id": "omni_plate",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": "Omni Corp. armor plate",
+    "name": { "str": "Omni Corp. armor plate" },
     "description": "Armor Plating made by Omni Corp. Protects better than their personal armor!",
     "weight": "3 g",
     "volume": "0 L",
@@ -138,7 +138,7 @@
   {
     "id": "omni_generator",
     "type": "vehicle_part",
-    "name": "Omni Corp. alternator",
+    "name": { "str": "Omni Corp. alternator" },
     "item": "omni_generator",
     "symbol": "*",
     "color": "yellow",
@@ -171,7 +171,7 @@
   {
     "id": "omni_frame",
     "type": "vehicle_part",
-    "name": "Omni Corp. vehicle frame",
+    "name": { "str": "Omni Corp. vehicle frame" },
     "looks-like": "folding_frame",
     "item": "omni_foldframe",
     "location": "structure",
@@ -190,7 +190,7 @@
   {
     "type": "GENERIC",
     "id": "omni_foldframe",
-    "name": "Omni Corp. vehicle frame",
+    "name": { "str": "Omni Corp. vehicle frame" },
     "description": "A small foldable lightweight frame made by Omni Corp.",
     "weight": "3 g",
     "to_hit": -3,
@@ -206,7 +206,7 @@
   {
     "id": "omni_lamp",
     "type": "vehicle_part",
-    "name": "atomic lamp",
+    "name": { "str": "atomic lamp" },
     "item": "omni_lamp",
     "location": "on_ceiling",
     "symbol": "*",
@@ -227,7 +227,7 @@
     "id": "omni_lamp",
     "type": "GENERIC",
     "category": "tools",
-    "name": "Omni Corp. lamp",
+    "name": { "str": "Omni Corp. lamp" },
     "description": "A powerful lamp created by Omni Corp.",
     "weight": "3 g",
     "volume": "3 ml",
@@ -242,7 +242,7 @@
   {
     "type": "vehicle_part",
     "id": "omni_solar_panel",
-    "name": "Omni Corp. vehicle solar panel",
+    "name": { "str": "Omni Corp. vehicle solar panel" },
     "looks-like": "solar_panel_v2",
     "item": "omni_solar_panel",
     "durability": 9999999,
@@ -264,7 +264,7 @@
   {
     "type": "GENERIC",
     "id": "omni_solar_panel",
-    "name": "Omni Corp. solar panel",
+    "name": { "str": "Omni Corp. solar panel" },
     "description": "Electronic device that can convert solar radiation into electric power.  Made by Omni Corp.",
     "weight": "3 g",
     "to_hit": -4,
@@ -279,7 +279,7 @@
   {
     "type": "GENERIC",
     "id": "omni_recharge_station",
-    "name": "Omni Corp. recharging station",
+    "name": { "str": "Omni Corp. recharging station" },
     "looks-like": "recharge_station",
     "description": "A universal recharging station made by Omni Corp.",
     "weight": "3 g",
@@ -295,7 +295,7 @@
   {
     "type": "vehicle_part",
     "id": "omni_recharge_station",
-    "name": "Omni Cop. recharging station",
+    "name": { "str": "Omni Cop. recharging station" },
     "looks-like": "recharge_station",
     "symbol": "o",
     "color": "light_green",
@@ -320,7 +320,7 @@
   {
     "type": "vehicle_part",
     "id": "omni_baskets",
-    "name": "Omni Corp. storage bin",
+    "name": { "str": "Omni Corp. storage bin" },
     "symbol": "o",
     "looks-like": "basketsm",
     "color": "brown",
@@ -352,7 +352,7 @@
   {
     "type": "GENERIC",
     "id": "omni_basket",
-    "name": "Omni Corp. storage bin",
+    "name": { "str": "Omni Corp. storage bin" },
     "description": "A simple bin with interdimensional space enhancements. Made by Omni Corp.",
     "weight": "00 g",
     "volume": "3 ml",
@@ -369,7 +369,7 @@
   {
     "type": "vehicle_part",
     "id": "omni_fridge",
-    "name": "Omni Corp. vehicle fridge",
+    "name": { "str": "Omni Corp. vehicle fridge" },
     "symbol": "H",
     "looks-like": "minifridge",
     "color": "light_blue",
@@ -402,7 +402,7 @@
   {
     "type": "GENERIC",
     "id": "omni_mini_fridge",
-    "name": "Omni Corp. minifridge",
+    "name": { "str": "Omni Corp. minifridge" },
     "description": "A very small fridge for keeping food cool. Made by Omni Corp.",
     "insulation": 2,
     "symbol": "H",
@@ -430,7 +430,7 @@
   {
     "type": "GENERIC",
     "id": "omni_mini_freezer",
-    "name": "Omni Corp. minifreezer",
+    "name": { "str": "Omni Corp. minifreezer" },
     "description": "Compact version of a chest freezer, designed by Omni Corp.",
     "price": 0,
     "symbol": "H",
@@ -442,7 +442,7 @@
   {
     "type": "vehicle_part",
     "id": "omni_freezer",
-    "name": "Omni Corp. vehicle freezer",
+    "name": { "str": "Omni Corp. vehicle freezer" },
     "symbol": "H",
     "color": "light_blue",
     "broken_symbol": "#",

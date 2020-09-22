@@ -2,7 +2,7 @@
   {
     "id": "mon_stonepillar",
     "type": "MONSTER",
-    "name": "stone-apillar",
+    "name": { "str": "stone-apillar" },
     "description": "a large bulky worm coverd in what seems to be plates of stone and chittin. it makes you wonder if any predator would be able to break through its amor.",
     "default_faction": "worm",
     "species": [ "WORM" ],
@@ -33,7 +33,7 @@
   {
     "id": "mon_stonematis",
     "type": "MONSTER",
-    "name": "Rock mantis",
+    "name": { "str": "Rock mantis" },
     "description": "A large stone mantis that prawls the undeground. Its large dark eyes scan the area as it hunts in the dark and surely can catch you by suprice. Its large barbed pincers are one deadly weapon and strong enough to crush stone.",
     "diff": 5,
     "default_faction": "insect",
@@ -66,7 +66,7 @@
   {
     "id": "mon_fuelfly",
     "type": "MONSTER",
-    "name": "sulfufly",
+    "name": { "str": "sulfufly" },
     "description": "a rather large cat size fly-like insect. its chitin is coverd in yellow powder and its thorax bloted with sulfure. seems volatile and energetic.",
     "default_faction": "insect",
     "species": [ "INSECT" ],
@@ -92,7 +92,7 @@
   {
     "id": "mon_dark_wyrm_hatch",
     "type": "MONSTER",
-    "name": "dark wyrm hatchling",
+    "name": { "str": "dark wyrm hatchling" },
     "description": "A small mutated worm the size of a medium dog found deep underground.  Its maw is rather closed and inmature as it slithers about unable to borrow in the earth, and its flesh is a glossy and slick as blue slime covers its body.",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],
@@ -119,7 +119,7 @@
   {
     "id": "mon_albino_dark_wyrm",
     "type": "MONSTER",
-    "name": "light wyrm",
+    "name": { "str": "light wyrm" },
     "description": "A huge mutated worm found deep underground but this one is different. its flesh is slick and pale white as it oozes a transparent slime. It seems a bit larger and is coverd in unique grey patches",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],
@@ -146,7 +146,7 @@
   {
     "id": "mon_brood_dark_wyrm",
     "type": "MONSTER",
-    "name": "Dark wyrm queen",
+    "name": { "str": "Dark wyrm queen" },
     "description": "A massive bloated wyrm, it reches and births its spawn. It's massive maw filled with endless rows of sharp needle-like teeths as it gurgles and hisses.",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],

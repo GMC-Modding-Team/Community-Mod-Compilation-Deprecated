@@ -94,7 +94,7 @@
   {
     "id": "MISSION_FRANKENSTEIN_1",
     "type": "mission_definition",
-    "name": "In the absence of life",
+    "name": { "str": "In the absence of life" },
     "description": "Find self healing polymers.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 5,
@@ -119,7 +119,7 @@
   {
     "id": "MISSION_FRANKENSTEIN_2",
     "type": "mission_definition",
-    "name": "Making Connections",
+    "name": { "str": "Making Connections" },
     "description": "I need a neurosynaptic interface matrix.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 6,
@@ -144,7 +144,7 @@
   {
     "id": "MISSION_FRANKENSTEIN_3",
     "type": "mission_definition",
-    "name": "Alpha Mutagen",
+    "name": { "str": "Alpha Mutagen" },
     "description": "Bring me 3 alpha mutagen.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 4,
@@ -169,7 +169,7 @@
   {
     "id": "MISSION_FRANKENSTEIN_4",
     "type": "mission_definition",
-    "name": "Broken Cyborg",
+    "name": { "str": "Broken Cyborg" },
     "description": "We need a strong base for our experiment.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 6,
@@ -194,7 +194,7 @@
   {
     "id": "MISSION_FRANKENSTEIN_5",
     "type": "mission_definition",
-    "name": "A-Mi-go, You-go find me some brains",
+    "name": { "str": "A-Mi-go, You-go find me some brains" },
     "description": "Find 6 living brains in jars.",
     "//": "Sometime consider changing the end effect of this item and making the test site it's own quest.",
     "goal": "MGOAL_FIND_ITEM",

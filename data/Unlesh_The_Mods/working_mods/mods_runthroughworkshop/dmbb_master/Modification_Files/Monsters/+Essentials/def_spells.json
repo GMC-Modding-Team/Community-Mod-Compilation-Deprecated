@@ -2,7 +2,7 @@
   {
     "id": "dmbb_deactivate",
     "type": "SPELL",
-    "name": "Deactivate",
+    "name": { "str": "Deactivate" },
     "description": "Monster can't use spells anymore.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground", "self" ],
@@ -13,7 +13,7 @@
   {
     "type": "SPELL",
     "id": "mon_dmbb_spawner_zed_spawn_GROUP_ZOMBIE",
-    "name": "Call Forth",
+    "name": { "str": "Call Forth" },
     "description": "Spawns a monster from the specified group.",
     "flags": [ "LOUD", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT", "SPAWN_GROUP" ],
     "valid_targets": [ "ground" ],
@@ -31,7 +31,7 @@
   {
     "type": "SPELL",
     "id": "mon_dmbb_spawner_zed_spawn_GROUP_ZOMBIE_UPGRADE",
-    "name": "Call Forth",
+    "name": { "str": "Call Forth" },
     "description": "Spawns a monster from the specified group.",
     "flags": [ "LOUD", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT", "SPAWN_GROUP" ],
     "valid_targets": [ "ground" ],
@@ -49,7 +49,7 @@
   {
     "type": "SPELL",
     "id": "mon_dmbb_spawner_zed1_spawn_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [ { "id": "mon_dmbb_spawner_zed_spawn_GROUP_ZOMBIE", "hit_self": true } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
@@ -63,7 +63,7 @@
   {
     "type": "SPELL",
     "id": "mon_dmbb_spawner_zed2_spawn_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_dmbb_spawner_zed_spawn_GROUP_ZOMBIE", "hit_self": true },
@@ -89,7 +89,7 @@
   {
     "type": "SPELL",
     "id": "mon_dmbb_spawner_survival1_zed_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_dmbb_spawner_zed_spawn_GROUP_ZOMBIE", "hit_self": true },
@@ -127,7 +127,7 @@
   {
     "id": "mon_dmbb_turret_shock1_shock",
     "type": "SPELL",
-    "name": "Shock",
+    "name": { "str": "Shock" },
     "description": "Shocks the target with strong electric discharge.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -150,7 +150,7 @@
   {
     "id": "mon_dmbb_turret_shock2_shock",
     "type": "SPELL",
-    "name": "Shock",
+    "name": { "str": "Shock" },
     "description": "Shocks the target with strong electric discharge.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -174,7 +174,7 @@
   {
     "id": "mon_dmbb_turret_shock_er_megashock",
     "type": "SPELL",
-    "name": "Megahock",
+    "name": { "str": "Megahock" },
     "description": "Shocks the target with very strong electric discharge.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -198,7 +198,7 @@
   {
     "id": "mon_dmbb_turret_shock_tesla_electrify",
     "type": "SPELL",
-    "name": "Electrify",
+    "name": { "str": "Electrify" },
     "description": "Shocks surrounding hostiles.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
@@ -221,7 +221,7 @@
   {
     "id": "mon_dmbb_turret_shock_tesla_target",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets hostiles.",
     "flags": [ "LOUD" ],
     "valid_targets": [ "hostile" ],
@@ -232,7 +232,7 @@
   {
     "id": "mon_dmbb_turret_fire1_scorch",
     "type": "SPELL",
-    "name": "Scorch",
+    "name": { "str": "Scorch" },
     "description": "Sets the target ablaze with a fireball.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -252,7 +252,7 @@
   {
     "id": "mon_dmbb_turret_fire2_scorch",
     "type": "SPELL",
-    "name": "Scorch",
+    "name": { "str": "Scorch" },
     "description": "Sets the target ablaze with a fireball.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -272,7 +272,7 @@
   {
     "id": "mon_dmbb_turret_fire_pyro_megascorch",
     "type": "SPELL",
-    "name": "Megacorch",
+    "name": { "str": "Megacorch" },
     "description": "Sets the targets ablaze with a great fireball.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -293,7 +293,7 @@
   {
     "id": "mon_dmbb_turret_fire_scorch_hellfire",
     "type": "SPELL",
-    "name": "Hellfire",
+    "name": { "str": "Hellfire" },
     "description": "Sets targets ablaze in a cone.",
     "flags": [ "LOUD", "RANDOM_DAMAGE", "RANDOM_DURATION" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -312,7 +312,7 @@
   {
     "id": "mon_dmbb_turret_ice1_frost",
     "type": "SPELL",
-    "name": "Frost",
+    "name": { "str": "Frost" },
     "description": "Freezes targets in a cone.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -333,7 +333,7 @@
   {
     "id": "mon_dmbb_turret_ice2_frost",
     "type": "SPELL",
-    "name": "Frost",
+    "name": { "str": "Frost" },
     "description": "Freezes targets in a cone.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -354,7 +354,7 @@
   {
     "id": "mon_dmbb_turret_ice_frost_megafrost",
     "type": "SPELL",
-    "name": "Megafrost",
+    "name": { "str": "Megafrost" },
     "description": "Freezes targets in a wide cone.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -375,7 +375,7 @@
   {
     "id": "mon_dmbb_turret_ice_icicle_fspike",
     "type": "SPELL",
-    "name": "Frost Spike",
+    "name": { "str": "Frost Spike" },
     "description": "Pierces the target with icicle spikes.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -395,7 +395,7 @@
   {
     "id": "mon_dmbb_turret_ice_icicle_fspike_main",
     "type": "SPELL",
-    "name": "Frost Spike",
+    "name": { "str": "Frost Spike" },
     "description": "Pierces the target with icicle spikes.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -421,7 +421,7 @@
   {
     "id": "mon_dmbb_divineshade_etherealimplosion",
     "type": "SPELL",
-    "name": "Ethereal Implosion",
+    "name": { "str": "Ethereal Implosion" },
     "description": "Caster implodes, dealing high true damage to all hostiles in its radius.",
     "flags": [ "LOUD", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "self" ],
@@ -438,7 +438,7 @@
   {
     "id": "mon_dmbb_divineshade_target",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets hostiles.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
@@ -449,7 +449,7 @@
   {
     "id": "DMBB_ORB_MERC_bard_notoof",
     "type": "SPELL",
-    "name": "Stop",
+    "name": { "str": "Stop" },
     "description": "\"U not like it?!!\"",
     "message": "",
     "valid_targets": [ "ally", "self" ],
@@ -462,7 +462,7 @@
   {
     "id": "DMBB_ORB_sentguard_despawn",
     "type": "SPELL",
-    "name": "Despawn",
+    "name": { "str": "Despawn" },
     "description": "\"Go back!\"",
     "message": "",
     "flags": [ "SILENT", "RANDOM_TARGET" ],
@@ -477,7 +477,7 @@
   {
     "id": "mon_mtc_goblin_warbanner_inspire",
     "type": "SPELL",
-    "name": "Inspire",
+    "name": { "str": "Inspire" },
     "description": "Nearby allies get combat bonuses.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
@@ -490,7 +490,7 @@
   {
     "id": "mon_mtc_goblin_warbanner_wave",
     "type": "SPELL",
-    "name": "Wave",
+    "name": { "str": "Wave" },
     "description": "This unit is waving their warbanner gloriously!",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
@@ -502,7 +502,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_warbanner_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_goblin_warbanner_wave", "hit_self": true },
@@ -516,7 +516,7 @@
   {
     "id": "mon_mtc_goblin_shaman_spellbound",
     "type": "SPELL",
-    "name": "Spellbound",
+    "name": { "str": "Spellbound" },
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
@@ -527,7 +527,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_shaman_heal_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -542,7 +542,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_shaman_heal",
-    "name": "Heal",
+    "name": { "str": "Heal" },
     "description": "Heals all allies in the unit's range of vision.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "self" ],
@@ -553,7 +553,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_shaman_debuff_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -569,7 +569,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_shaman_buff",
-    "name": "Leeched Power",
+    "name": { "str": "Leeched Power" },
     "description": "Provides combat bonuses to nearby allies.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally" ],
@@ -581,7 +581,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_shaman_debuff",
-    "name": "Power Drain",
+    "name": { "str": "Power Drain" },
     "description": "Enlowers the target's raw power while increasing allies'.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
@@ -593,7 +593,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_shaman_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_goblin_shaman_heal_note" },
@@ -611,7 +611,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mounted_ed",
-    "name": "Revert",
+    "name": { "str": "Revert" },
     "description": "Worg's ability to dismount is gone!",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
@@ -623,7 +623,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mounted_dismount",
-    "name": "Dismount",
+    "name": { "str": "Dismount" },
     "description": "The goblin dismounts from the worg.",
     "flags": [ "SILENT", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT", "SPAWN_GROUP" ],
     "valid_targets": [ "ground" ],
@@ -637,7 +637,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mounted_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_goblin_mounted_dismount", "hit_self": true },
@@ -651,7 +651,7 @@
   {
     "id": "mon_mtc_dragon_fire_adult_smoke",
     "type": "SPELL",
-    "name": "Huff",
+    "name": { "str": "Huff" },
     "description": "Before this unit takes flight, they leave a thick smoke behind.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
@@ -665,7 +665,7 @@
   {
     "id": "mon_mtc_dragon_adult_flight",
     "type": "SPELL",
-    "name": "Dragon's Flight",
+    "name": { "str": "Dragon's Flight" },
     "description": "This unit will fly vigoriously.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
@@ -678,7 +678,7 @@
   {
     "id": "mon_mtc_dragon_adult_stepback",
     "type": "SPELL",
-    "name": "Step Back",
+    "name": { "str": "Step Back" },
     "description": "This unit takes some distance from their target.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
@@ -691,7 +691,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_fireball",
-    "name": "Fireball",
+    "name": { "str": "Fireball" },
     "description": "Blasts the target with a fiery fireball.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -709,7 +709,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_fireball_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -721,7 +721,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_fieryflash",
-    "name": "Fiery Flash",
+    "name": { "str": "Fiery Flash" },
     "description": "Incinerates targets in a line with a destructive ray of blazing flames.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -740,7 +740,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_fieryflash_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -752,7 +752,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_firebreath",
-    "name": "Fire Breath",
+    "name": { "str": "Fire Breath" },
     "description": "Spreads blazing flames amongst the targets in a cone.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -772,7 +772,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_firebreath_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -784,7 +784,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_target_random",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_dragon_fire_adult_firebreath_note" },
@@ -804,7 +804,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_fire_adult_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_dragon_fire_adult_target_random" },
@@ -820,7 +820,7 @@
   {
     "id": "mon_mtc_dragon_ice_adult_frigid",
     "type": "SPELL",
-    "name": "Frigid Pressence",
+    "name": { "str": "Frigid Pressence" },
     "description": "Before this unit takes flight, enshrouds target in intense coldness.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -833,7 +833,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_absolutezero_freeze",
-    "name": "Absolute Zero - Freeze",
+    "name": { "str": "Absolute Zero - Freeze" },
     "description": "Target can't move for several turns.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -846,7 +846,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_absolutezero",
-    "name": "Absolute Zero",
+    "name": { "str": "Absolute Zero" },
     "description": "Encases the target in sheer coldness, dealing high ice damage.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "head", "torso", "arm_r", "arm_l", "leg_r", "leg_l" ],
@@ -867,7 +867,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_absolutezero_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -879,7 +879,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_iciclevolley",
-    "name": "Icicle Volley",
+    "name": { "str": "Icicle Volley" },
     "description": "Projects several icicle spears that does stabbing damage.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -892,7 +892,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_iciclevolley_target_random",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [ { "id": "mon_mtc_dragon_ice_adult_iciclevolley" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
@@ -905,7 +905,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_iciclevolley_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -917,7 +917,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_icebeam",
-    "name": "Ice Beam",
+    "name": { "str": "Ice Beam" },
     "description": "Freezes targets in a line.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "head", "torso", "arm_r", "arm_l", "leg_r", "leg_l" ],
@@ -940,7 +940,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_icebeam_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -952,7 +952,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_blizzard",
-    "name": "Blizzard",
+    "name": { "str": "Blizzard" },
     "description": "Creates a snowstorm in a wide area.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "head", "torso", "arm_r", "arm_l", "leg_r", "leg_l" ],
@@ -974,7 +974,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_blizzard_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -986,7 +986,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_icebreath",
-    "name": "Ice Breath",
+    "name": { "str": "Ice Breath" },
     "description": "Spreads freezing air to all targets in a cone.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "head", "torso", "arm_r", "arm_l", "leg_r", "leg_l" ],
@@ -1010,7 +1010,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_icebreath_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1022,7 +1022,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_target_random",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_icebreath_note" },
@@ -1052,7 +1052,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_ice_adult_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_target_random" },
@@ -1068,7 +1068,7 @@
   {
     "id": "mon_mtc_dragon_storm_adult_shock",
     "type": "SPELL",
-    "name": "Shock",
+    "name": { "str": "Shock" },
     "description": "Before this unit takes flight, spreads electrical discharges at nearby targets.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
@@ -1084,7 +1084,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_shockbeam",
-    "name": "Shock Beam",
+    "name": { "str": "Shock Beam" },
     "description": "Projects a concentrated beam of electricity.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -1103,7 +1103,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_shockbeam_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1115,7 +1115,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_shockstorm",
-    "name": "Shockstorm",
+    "name": { "str": "Shockstorm" },
     "description": "Discharges electricity at random areas in a line.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -1137,7 +1137,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_shockstorm_target_random",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_shockstorm" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
@@ -1150,7 +1150,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_shockstorm_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1162,7 +1162,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_charge",
-    "name": "Charge",
+    "name": { "str": "Charge" },
     "description": "Units coats itself in electricity, granting bonus damage and speed.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "self" ],
@@ -1174,7 +1174,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_charge_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1186,7 +1186,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_thunderstrike",
-    "name": "Thunderstrike",
+    "name": { "str": "Thunderstrike" },
     "description": "Strikes with a concentrated burst of electrical discharge at the target.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -1203,7 +1203,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_thunderstrike_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1215,7 +1215,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_thunderblasts",
-    "name": "Thunder Blasts",
+    "name": { "str": "Thunder Blasts" },
     "description": "Electric arcs randomly blasts an area.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -1237,7 +1237,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_thunderblasts_target_random",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [ { "id": "mon_mtc_dragon_storm_adult_thunderblasts" } ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
@@ -1250,7 +1250,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_thunderblasts_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1262,7 +1262,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_target_random",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_thunderblasts_note" },
@@ -1281,7 +1281,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_dragon_storm_adult_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_target_random" },
@@ -1297,7 +1297,7 @@
   {
     "id": "mon_mtc_goblin_mage_spellbound",
     "type": "SPELL",
-    "name": "Spellbound",
+    "name": { "str": "Spellbound" },
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
@@ -1308,7 +1308,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_hexblast_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1320,7 +1320,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_hexblast",
-    "name": "Hexblast",
+    "name": { "str": "Hexblast" },
     "description": "Unleashes a dark bolt of mana.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
@@ -1332,7 +1332,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_poisoncoat_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1344,7 +1344,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_poisoncoat",
-    "name": "Poison Coat",
+    "name": { "str": "Poison Coat" },
     "description": "Covers the target in poison clouds.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "ally", "ground" ],
@@ -1358,7 +1358,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_firebolt_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1370,7 +1370,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_firebolt",
-    "name": "Firebolt",
+    "name": { "str": "Firebolt" },
     "description": "Unleashes a bolt of fire.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
@@ -1383,7 +1383,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_goblin_mage_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_goblin_mage_firebolt_note" },
@@ -1403,7 +1403,7 @@
   {
     "id": "mon_mtc_hobgoblin_shaman_spellbound",
     "type": "SPELL",
-    "name": "Spellbound",
+    "name": { "str": "Spellbound" },
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
@@ -1414,7 +1414,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_hobgoblin_shaman_heal_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1429,7 +1429,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_hobgoblin_shaman_heal",
-    "name": "Heal",
+    "name": { "str": "Heal" },
     "description": "Heals all allies in the unit's range of vision.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "self" ],
@@ -1440,7 +1440,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_hobgoblin_shaman_buff_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1455,7 +1455,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_hobgoblin_shaman_buff",
-    "name": "Ward",
+    "name": { "str": "Ward" },
     "description": "Creates a ward that negates physical damage.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally" ],
@@ -1467,7 +1467,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_hobgoblin_shaman_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_hobgoblin_shaman_heal_note" },
@@ -1485,7 +1485,7 @@
   {
     "id": "mon_mtc_bugbear_shaman_spellbound",
     "type": "SPELL",
-    "name": "Spellbound",
+    "name": { "str": "Spellbound" },
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
@@ -1496,7 +1496,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_hexbeam_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1508,7 +1508,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_hexbeam",
-    "name": "Hexbeam",
+    "name": { "str": "Hexbeam" },
     "description": "Jolts a beam of dark mana.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "ground" ],
@@ -1520,7 +1520,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_heal_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1535,7 +1535,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_heal",
-    "name": "Heal",
+    "name": { "str": "Heal" },
     "description": "Heals all allies in the unit's range of vision.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "self" ],
@@ -1546,7 +1546,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_buff_note",
-    "name": "note",
+    "name": { "str": "note" },
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
@@ -1561,7 +1561,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_buff",
-    "name": "Battle Trance",
+    "name": { "str": "Battle Trance" },
     "description": "Increases combat efficiency of allies.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally" ],
@@ -1573,7 +1573,7 @@
   {
     "type": "SPELL",
     "id": "mon_mtc_bugbear_shaman_target",
-    "name": "a spell",
+    "name": { "str": "a spell" },
     "description": "Targets then casts the spells.",
     "extra_effects": [
       { "id": "mon_mtc_bugbear_shaman_heal_note" },
