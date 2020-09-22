@@ -1,0 +1,57 @@
+[
+  {   "type" : "AMMO",
+        "id" : "ali_despair",
+        "category" : "weapons",
+        "price" : 0,
+        "name" : "DESPAIR",
+        "name_plural" : "DESPAIR",
+        "symbol" : ";",
+        "color" : "light_gray",
+        "description" : "STALKERが愛用する投擲暗器、「DESPAIR」は戦闘用外骨格すら貫く単繊維製の強靭な刃を持つ",
+        "material" : "steel",
+        "volume" : 1,
+        "weight" : 268,
+        "bashing" : 1,
+        "cutting" : 12,
+        "thrown_damage" : [
+            { "damage_type": "bash", "amount": 4 },
+            { "damage_type": "cut", "amount": 25 },
+            { "damage_type": "stab", "amount": 6 }
+        ],
+        "ammo_type" : "thrown",
+        "count" : 5
+   },
+   {
+      "id" : "ali_dread",
+      "type" : "GUN",
+      "symbol" : "(",
+      "color" : "light_gray",
+      "name" : "DREAD",
+      "description" : "STALKERの切り札である弓矢。敵を切り裂く強力な矢を射出する",
+      "price" : 0,
+      "material" : ["steel"],
+      "flags" : ["FIRE_TWOHAND", "STR_DRAW", "STR_RELOAD", "RELOAD_AND_SHOOT", "PRIMITIVE_RANGED_WEAPON", "BELTED"],
+      "skill" : "archery",
+      "min_strength" : 7,
+      "ammo" : "arrow",
+      "weight" : 500,
+      "volume" : 10,
+      "bashing" : 4,
+      "armor_data" : {
+         "covers" : ["TORSO"],
+         "coverage" : 5,
+         "material_thickness" : 1,
+         "encumbrance" : 14
+      },
+      "reload_noise_volume": 2,
+      "loudness": 4,
+      "ranged_damage" : 20,
+      "pierce": 30,
+      "range" : 30,
+      "dispersion" : 250,
+      "durability" : 6,
+      "clip_size" : 1,
+      "reload" : 60,
+      "valid_mod_locations": []
+   }
+]

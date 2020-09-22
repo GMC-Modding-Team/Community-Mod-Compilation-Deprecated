@@ -1,0 +1,491 @@
+[
+  {
+    "type": "mapgen",
+    "//": "Ninja Dojo",
+    "om_terrain": [
+        "basement"
+    ],
+    "method": "json",
+    "weight": 200,
+    "object": {
+      "rows": [
+        " -----------------_..2- ",
+        " |----------------....| ",
+        " |-------------------!| ",
+        " |^Y^..............^y^| ",
+        " |^^^...&######&...^^^| ",
+        " |......#@####@#......| ",
+        " |......########......| ",
+        " |......###@####......| ",
+        " |......####@###......| ",
+        " |......########......| ",
+        " |......#@####@#......| ",
+        " |^^^...&######&...^^^| ",
+        " |^Y^..............^Y^| ",
+        " |^^^.....^^^^.....^^^| ",
+        " |.........<<.........| ",
+        " -+-------------------- ",
+        " |.|.e.e.e.UT.$.$.$|t.| ",
+        " |.|...............--+| ",
+        " |....................| ",
+        " |---------..---------| ",
+        " |fkP.hh.U|..|].b.b.b.| ",
+        " |.[..__..+..+..b.b.b.| ",
+        " |g...hh..|..|........| ",
+        " ---------------------- "
+      ],
+      "fill_ter": "t_rock",
+      "terrain": {
+        "|": "t_wall",
+        "-": "t_wall",
+        "<": "t_stairs_up",
+        "+": "t_door_c",
+        ".": "t_rock_floor",
+        "#": "t_rock_floor",
+        "h": "t_rock_floor",
+        "b": "t_rock_floor",
+        "]": "t_rock_floor",
+        "g": "t_rock_floor",
+        "k": "t_rock_floor",
+        "f": "t_rock_floor",
+        "t": "t_rock_floor",
+        "_": "t_rock_floor",
+        "&": "t_rock_floor",
+        "@": "t_rock_floor",
+        "^": "t_rock_floor",
+        "[": "t_rock_floor",
+        "Y": "t_rock_floor",
+        "y": "t_rock_floor",
+        "e": "t_rock_floor",
+        "$": "t_rock_floor",
+        "T": "t_rock_floor",
+        "2": "t_rock_floor",
+        "P": "t_water_pump",
+        "!": "t_ninja_secret_door_c",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "#": "f_tatami",
+        "&": "f_tatami",
+        "@": "f_tatami",
+        "_": "f_table",
+        "h": "f_chair",
+        "b": "f_bed",
+        "]": "f_bookcase",
+        "g": "f_oven",
+        "k": "f_sink",
+        "f": "f_fridge",
+        "e": "f_exercise",
+        "$": "f_floor_canvas"
+      },
+      "fields": {
+        "Y": {"field": "fd_fire", "age": 1, "density": 1 },
+        "&": {"field": "fd_fire", "age": 1, "density": 1 }
+      },
+      "signs": {
+        "T": {"snippet": "ninja_snippet_dojo" }
+      },
+      "toilets": {
+        "t": { }
+      },
+      "traps": {
+        "^": "tr_caltrops",
+        "[": "tr_shotgun_2",
+        "t": "tr_shotgun_2",
+        "&": "tr_brazier",
+        "Y": "tr_brazier",
+        "y": "tr_brazier"
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "monster": {
+        "2": {"monster": "mon_turret"}
+      },
+      "place_loot": [
+        {"group": "fridge"          , "chance": 100, "x":  2, "y": 20, "repeat": [10,20]},
+        {"group": "cannedfood"      , "chance": 100, "x":  6, "y": 21, "repeat": [ 5,10]},
+        {"group": "cannedfood"      , "chance": 100, "x":  7, "y": 21, "repeat": [ 5,10]},
+        {"group": "book_martial"    , "chance": 100, "x": 14, "y": 20 },
+        {"item":  "2x4"             , "chance": 100, "x":  3, "y":  3, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x":  3, "y":  3, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x":  3, "y": 12, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x": 20, "y": 12, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x":  8, "y":  4, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x":  8, "y": 11, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x": 15, "y":  4, "repeat": [20,30]},
+        {"item":  "2x4"             , "chance": 100, "x": 15, "y": 11, "repeat": [20,30]},
+        {"item":  "pillow"          , "chance": 100, "x": 16, "y": 20 },
+        {"item":  "pillow"          , "chance": 100, "x": 18, "y": 20 },
+        {"item":  "pillow"          , "chance": 100, "x": 20, "y": 20 },
+        {"item":  "blanket"         , "chance": 100, "x": 16, "y": 21 },
+        {"item":  "blanket"         , "chance": 100, "x": 18, "y": 21 },
+        {"item":  "blanket"         , "chance": 100, "x": 20, "y": 21 },
+        {"group": "ninja_rare_enagy", "chance": 100, "x": 18, "y":  0, "repeat": [ 8,10]},
+        {"group": "ninja_rare_chem" , "chance": 100, "x": 18, "y":  0, "repeat": [ 4, 8]}
+      ]
+    }
+  },{
+    "type": "mapgen",
+    "//": "Ninja Food Factory",
+    "om_terrain": [
+        "basement"
+    ],
+    "method": "json",
+    "weight": 200,
+    "object": {
+      "rows": [
+        " ---------------------- ",
+        " |.......@...........@| ",
+        " |.--------..--------.| ",
+        " |.|~~~~~~|..|^^^^^^|.| ",
+        " |.|~~~~~~|..|^^^^^^|.| ",
+        " |.|//oo//|..|//oo//|.| ",
+        " |.|U.....+..+.....U|.| ",
+        " |.|//oo//|..|//oo//|.| ",
+        " |.|~~~~~~|+-|^^^^^^|.| ",
+        " |.|~~~~~~|__|^^^^^^|.| ",
+        " |.|----------------|.| ",
+        " |.|-2.....{{......-|.| ",
+        " |.|-.............2-|.| ",
+        " |.|-------!--------|.| ",
+        " |.|D..###|t.|ffPkkg|.| ",
+        " |.|W..###|-+|[[[...|.| ",
+        " |.|{..##&|..|......|.| ",
+        " |.|U.....+..+@hhh.U|.| ",
+        " |.|-+---+|..|.___.T|.| ",
+        " |.|].b.b.|..|.___..|.| ",
+        " |.|].b.b.|..|.hhh..|.| ",
+        " |.--------..--------.| ",
+        " |<.......@...........| ",
+        " ---------------------- "
+      ],
+      "fill_ter": "t_rock",
+      "terrain": {
+        "|": "t_wall",
+        "-": "t_wall",
+        "<": "t_stairs_up",
+        "+": "t_door_c",
+        ".": "t_rock_floor",
+        "#": "t_rock_floor",
+        "&": "t_rock_floor",
+        "h": "t_rock_floor",
+        "b": "t_rock_floor",
+        "]": "t_rock_floor",
+        "g": "t_rock_floor",
+        "k": "t_rock_floor",
+        "f": "t_rock_floor",
+        "t": "t_rock_floor",
+        "_": "t_rock_floor",
+        "{": "t_rock_floor",
+        "T": "t_rock_floor",
+        "@": "t_rock_floor",
+        "[": "t_rock_floor",
+        "D": "t_rock_floor",
+        "W": "t_rock_floor",
+        "2": "t_rock_floor",
+        "P": "t_water_pump",
+        "^": "t_dirt",
+        "~": "t_water_sh",
+        "/": "t_reinforced_glass",
+        "o": "t_door_metal_c_peep",
+        "!": "t_ninja_secret_door_c",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "#": "f_tatami",
+        "&": "f_tatami",
+        "{": "f_rack",
+        "_": "f_table",
+        "h": "f_chair",
+        "b": "f_bed",
+        "]": "f_bookcase",
+        "g": "f_oven",
+        "k": "f_sink",
+        "f": "f_fridge",
+        "D": "f_dryer",
+        "W": "f_washer",
+        "^": "f_egg_sackbw"
+      },
+      "signs": {
+        "T": {"snippet": "ninja_snippet_kitchen" }
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "traps": {
+        "t": "tr_shotgun_2",
+        "[": "tr_shotgun_2"
+      },
+      "monster": {
+        "2": {"monster": "mon_turret"},
+        "&": {"monster": "mon_ninja_decoy"}
+      },
+      "place_monster": [
+        {"monster": "mon_spider_widow_giant", "x":[19,19], "y":[ 3, 3], "repeat": [ 1, 1]},
+        {"monster": "mon_spider_widow_giant", "x":[14,14], "y":[ 8, 8], "repeat": [ 1, 1]},
+        {"monster": "mon_fish_bluegill"     , "x":[ 4, 9], "y":[ 3, 4], "repeat": [ 5,10]},
+        {"monster": "mon_fish_bluegill"     , "x":[ 4, 9], "y":[ 8, 9], "repeat": [ 5,10]}
+      ],
+      "place_loot": [
+        {"group": "fridge"                  , "chance": 100, "x": 14, "y": 14, "repeat": [ 5,10]},
+        {"group": "fridge"                  , "chance": 100, "x": 15, "y": 14, "repeat": [ 5,10]},
+        {"group": "book_martial"            , "chance": 100, "x":  4, "y": 19 },
+        {"group": "book_survival"           , "chance": 100, "x":  4, "y": 20 },
+        {"item" : "pillow"                  , "chance": 100, "x":  6, "y": 19 },
+        {"item" : "pillow"                  , "chance": 100, "x":  8, "y": 19 },
+        {"item" : "blanket"                 , "chance": 100, "x":  6, "y": 20 },
+        {"item" : "blanket"                 , "chance": 100, "x":  8, "y": 20 },
+        {"item" : "fishing_rod_professional", "chance": 100, "x": 11, "y":  9 },
+        {"item" : "fish_bait"               , "chance": 100, "x": 12, "y":  9, "repeat": [ 5,10]},
+        {"group": "ninja_rare_ammo"         , "chance": 100, "x": 11, "y": 11, "repeat": [ 5, 8]},
+        {"group": "ninja_rare_gunmod"       , "chance": 100, "x": 11, "y": 11, "repeat": [ 1, 3]},
+        {"group": "ninja_rare_chem"         , "chance": 100, "x": 12, "y": 11, "repeat": [ 8,10]},
+        {"item" : "can_sealer"              , "chance":  50, "x": 17, "y": 14 },
+        {"item" : "can_food_unsealed"       , "chance": 100, "x": 17, "y": 14, "repeat": [15,20]},
+        {"item" : "soap"                    , "chance": 100, "x":  4, "y": 16, "repeat": [20,30]},
+        {"group": "cleaning"                , "chance": 100, "x":  4, "y": 16, "repeat": [ 5,10]},
+        {"item" : "washboard"               , "chance": 100, "x":  4, "y": 16, "repeat": [ 1, 1]}
+      ]
+    }
+  },{
+    "type": "mapgen",
+    "//": "Ninja Vehicle Factory",
+    "om_terrain": [
+        "basement"
+    ],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "rows": [
+        " ---------------------- ",
+        " |U{{{{{{{{{{{|.|r|//t| ",
+        " |............+.+.|+--| ",
+        " |.___........|-?.....| ",
+        " |.___........|-|**...| ",
+        " |.___........|2|**...| ",
+        " !............|.|----&| ",
+        " $............|.|2??.?| ",
+        " $........FBBB|.|?????| ",
+        " $-$!---------|.|?.???| ",
+        " $.,2..........2|????2| ",
+        " $.,-------------!$$--| ",
+        " $.,|......,.........R| ",
+        " $.,-----o!$-!$$------| ",
+        " $.,2,..........?.....| ",
+        " $--!$-------------!$$| ",
+        " $####@...h.h......DW_| ",
+        " $####....___.........| ",
+        " $####....___.........| ",
+        " $####@...___......@..| ",
+        " $........h.h........F| ",
+        " $...................S| ",
+        " |U.........<........P| ",
+        " ---------------------- "
+      ],
+      "fill_ter": "t_rock",
+      "terrain": {
+        "|": "t_wall",
+        "-": "t_wall",
+        "<": "t_stairs_up",
+        "+": "t_door_c",
+        "o": "t_door_metal_c_peep",
+        ".": "t_rock_floor",
+        "#": "t_rock_floor",
+        "&": "t_rock_floor",
+        "h": "t_rock_floor",
+        "B": "t_rock_floor",
+        "S": "t_rock_floor",
+        "F": "t_rock_floor",
+        "_": "t_rock_floor",
+        "{": "t_rock_floor",
+        "@": "t_rock_floor",
+        "D": "t_rock_floor",
+        "W": "t_rock_floor",
+        "2": "t_rock_floor",
+        "r": "t_rock_floor",
+        "R": "t_rock_floor",
+        "*": "t_rock_floor",
+        "t": "t_linoleum_white",
+        "/": "t_linoleum_white",
+        "P": "t_water_pump",
+        "?": "t_ninja_secret_door_c",
+        "!": "t_ninja_secret_gate_control",
+        "$": "t_ninja_secret_wall",
+        ",": "t_ninja_secret_rock_floor",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "#": "f_tatami",
+        "{": "f_rack",
+        "_": "f_table",
+        "h": "f_chair",
+        "B": "f_bookcase",
+        "S": "f_sink",
+        "F": "f_fridge",
+        "D": "f_dryer",
+        "W": "f_washer"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "traps": {
+        "t": "tr_shotgun_2",
+        "*": "tr_landmine_buried"
+      },
+      "monster": {
+        "2": {"monster": "mon_turret"},
+        "R": {"monster": "mon_secubot"},
+        "&": {"monster": "mon_ninja_decoy"},
+        "r": {"monster": "mon_ninja_spring_floor"}
+      },
+      "place_loot": [
+        {"group": "fridge"                 , "chance": 100, "x":      21, "y": 20, "repeat": [ 5,10]},
+        {"group": "fridge"                 , "chance": 100, "x":      10, "y":  8, "repeat": [ 3, 5]},
+        {"group": "magazines"              , "chance": 100, "x": [11,13], "y":  8, "repeat": [ 5, 8]},
+        {"group": "supplies_fuel"          , "chance": 100, "x": [ 3, 3], "y":  1, "repeat": [ 3, 5]},
+        {"group": "supplies_spares_vehicle", "chance": 100, "x": [ 3, 3], "y":  1, "repeat": [10,20]},
+        {"group": "supplies_electronics"   , "chance": 100, "x": [ 4, 4], "y":  1, "repeat": [15,30]},
+        {"group": "mechanics"              , "chance": 100, "x": [ 5,13], "y":  1, "repeat": [30,60]},
+        {"item" : "toolbox"                , "chance": 100, "x":       4, "y":  4, "repeat": [ 1, 1]},
+        {"item" : "duct_tape"              , "chance": 100, "x":       5, "y":  4, "repeat": [ 3, 5]},
+        {"item" : "soap"                   , "chance": 100, "x":      21, "y": 16, "repeat": [20,30]},
+        {"group": "cleaning"               , "chance": 100, "x":      21, "y": 16, "repeat": [ 5, 8]},
+        {"item" : "washboard"              , "chance": 100, "x":      21, "y": 16, "repeat": [ 1, 1]}
+      ],
+      "place_vehicles": [
+        {"vehicle": "swivel_chair"      , "x":  4, "y":  6, "rotation": -90, "chance": 100},
+        {"vehicle": "engine_crane"      , "x":  7, "y":  3, "rotation":   0, "chance": 100},
+        {"vehicle": "welding_cart"      , "x":  7, "y":  5, "rotation":   0, "chance":  50},
+        {"vehicle": "portable_generator", "x":  7, "y":  7, "rotation":   0, "chance":  20}
+      ]
+    }
+  },{
+    "type": "mapgen",
+    "//": "Ninja Laboratory",
+    "om_terrain": [
+        "basement"
+    ],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "rows": [
+        " ---------------------- ",
+        " |U....hC|aah......Y$U| ",
+        " |RRR...@|h...........| ",
+        " |<......D....@|--D|+-| ",
+        " |RRR...T|..PSF|[..|_t| ",
+        " |----------------D---| ",
+        " |U...........[[[[...U| ",
+        " |.s.ooooooo..........| ",
+        " |..o///////oo....oo..| ",
+        " |.o/============D=/o.| ",
+        " |.o/=AcCCCVVVV...=//.| ",
+        " |./%=..hhh.......=%/.| ",
+        " |./%=U...........=%/.| ",
+        " |./%====HHHHHH==D=%%.| ",
+        " |./%=.emf...yu.=D=%%.| ",
+        " |./%=g.y.e....mgg=%%.| ",
+        " |./%=..u.pC[....m=%%.| ",
+        " |./%=.y.f.y.e.y.f=%%.| ",
+        " |./%=U.ug.ug.ue.U=%%.| ",
+        " |./%==============%%.| ",
+        " |./%%%%%%%%%%%%%%%%%.| ",
+        " |.///%%%%%%%%%%%%%%%.| ",
+        " |U..................U| ",
+        " ---------------------- "
+      ],
+      "fill_ter": "t_rock",
+      "terrain": {
+        "|": "t_wall",
+        "-": "t_wall",
+        "=": "t_wall_metal",
+        "o": "t_reb_cage",
+        "/": "t_strconc_wall_halfway",
+        "%": "t_strconc_wall",
+        "<": "t_stairs_up",
+        "R": "t_railing_v",
+        "+": "t_door_c",
+        "D": "t_door_metal_c",
+        "H": "t_reinforced_glass_shutter",
+        ".": "t_rock_floor",
+        "A": "t_rock_floor",
+        "a": "t_rock_floor",
+        "h": "t_rock_floor",
+        "S": "t_rock_floor",
+        "F": "t_rock_floor",
+        "[": "t_rock_floor",
+        "T": "t_rock_floor",
+        "Y": "t_rock_floor",
+        "$": "t_rock_floor",
+        "@": "t_rock_floor",
+        "e": "t_rock_floor",
+        "f": "t_rock_floor",
+        "u": "t_rock_floor",
+        "m": "t_rock_floor",
+        "y": "t_rock_floor",
+        "g": "t_rock_floor",
+        "s": "t_rock_floor",
+        "p": "t_rock_floor",
+        "_": "t_linoleum_white",
+        "t": "t_linoleum_white",
+        "P": "t_water_pump",
+        "C": "t_console_broken",
+        "V": "t_vat",
+        "c": "t_centrifuge",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "[": "f_rack",
+        "a": "f_table",
+        "h": "f_chair",
+        "S": "f_sink",
+        "F": "f_fridge",
+        "A": "f_robotic_arm",
+        "$": "f_safe_l"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "traps": {
+        "p": "tr_portal"
+      },
+      "signs": {
+        "T": {"snippet": "ninja_snippet_lab1" },
+        "Y": {"snippet": "ninja_snippet_lab2" }
+      },
+      "monster": {
+        "e": {"monster": "mon_flaming_eye"},
+        "f": {"monster": "mon_flying_polyp"},
+        "u": {"monster": "mon_hunting_horror"},
+        "m": {"monster": "mon_mi_go"},
+        "y": {"monster": "mon_yugg"},
+        "g": {"monster": "mon_gozu"},
+        "s": {"monster": "mon_shoggoth"}
+      },
+      "place_loot": [
+        {"item" : "metal_smoother"      , "chance": 100, "x":14, "y": 6, "repeat": [  4,  8]},
+        {"item" : "concrete"            , "chance": 100, "x":14, "y": 6, "repeat": [500,600]},
+        {"item" : "concrete"            , "chance": 100, "x":15, "y": 6, "repeat": [500,600]},
+        {"item" : "2x4"                 , "chance": 100, "x":16, "y": 6, "repeat": [200,300]},
+        {"item" : "rebar"               , "chance": 100, "x":17, "y": 6, "repeat": [100,200]},
+        {"group": "fridge"              , "chance": 100, "x":14, "y": 4, "repeat": [  5, 10]},
+        {"item" : "anbc_suit"           , "chance": 100, "x":16, "y": 4, "repeat": [  1,  1]},
+        {"item" : "cleansuit"           , "chance": 100, "x":16, "y": 4, "repeat": [  2,  4]},
+        {"group": "toxic_dump_equipment", "chance": 100, "x":16, "y": 4, "repeat": [  8, 12]},
+        {"item" : "mininuke"            , "chance": 100, "x":20, "y": 1, "repeat": [  3,  5]},
+        {"item" : "teleporter"          , "chance": 100, "x":12, "y":16, "repeat": [  1,  1]},
+        {"item" : "portal"              , "chance":  10, "x":12, "y":16, "repeat": [  1,  1]}
+      ]
+    }
+  }
+]

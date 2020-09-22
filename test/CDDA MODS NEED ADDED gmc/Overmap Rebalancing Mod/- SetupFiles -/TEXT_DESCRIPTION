@@ -1,0 +1,150 @@
+----------------------------------------------------------------------------------------------------
+------------------------- Part of the original forum post ------------------------------------------
+------------------------- http://smf.cataclysmdda.com/index.php?topic=12455.0 ----------------------
+----------------------------------------------------------------------------------------------------
+
+Good day, ladies and gentlemen!
+
+First of all: Please excuse my bad english, I didn't have a lot of practice in recent years.
+
+I really like all the mods, that get delivered with Cataclysm - and use most of them. Since the base game already delivers a lot of locations for every "overmap region", it get's more with some of these mods enabled. Personally, I prefer maps with small cities, that are far away from each other. It generates this "all alone and lost"-feeling to me. What I dislike is an overflow of locations on every regional overmap. It prevents this feeling. But I also really enjoy mods like "Arcana", "More Locations", "Z-Level_Buildings" and "PKs rebalance" (lite versions, delivered with Cataclysm - I don't know if my mod works with the full versions of "Arcana" or "PKs rebalance".)
+UPDATE: I now also use the mod "Extended Buldings"
+So I decided to make this mod.
+
+=- Content of this mod -=
+
+A) All special locations within the base game (hospital, prison, powerstation, military bunker, mall, necropolis, fungi-"buildings", anthills, bee hives, goo pits, hotels, motels, road stops, cathedrals, labs, ice labs, mansions, road mansions, megastores, public works, apartments, schools, toxic waste dumps, hazardous waste sarcophagus, evac centers, bandit camps, home improvement superstores, warehouses, football fields, etc.) and the mods (hell castle, factory, military outpost, office tower, multi-storey-motel, field office, etc.) will be generated at max. once per overmap region. With some exceptions, which have only been massively restricted, like caves [up to 5 times], FEMA-camps [up to 2 times], sewage treatment [up to 2 times], pump station [up to 2 times], farms [up to 3 times], wood cabins [up to 10 times], multi-storey-houses [up to 10 times per type], triffid groves [up to 2 times], spider pits [up to 50 times], LMOE shelters [up to 2 times], radio towers [up to 2 times], mines [up to 2 times], evac shelters [up to 5 times], camp sites [up to 5 times, one per type], gas stations and one or two exceptions more.
+
+B) The min. city size for every special location has been decreased to one or two. So every location can spawn - even with small cities.
+
+C) If a special location spawns enemies in a circle around it, they don't flood the overmap region anymore. It is now possible to avoid them.
+
+D) You don't use one or any at all of the mentioned mods? No problem. Have a look into the mod folder. There should be a folder, named "Rebalanced_BuildingSpawns_Mods". In this folder you will find six files that start with "overmap_specials_mod_". If you don't use "Arcana", "More Locations" (or parts of this mod), "Dino Mod" or "Z-Level_Buildings" then delete the corresponding file(s) & folder(s).
+If you don't use "PKs rebalance", please follow these steps:
+1) Open the mod folder "Overmap_Rebalancing".
+2) Herein you will find a file, called "monstergroups_mod_dino_and_mod_pkrebalance.json". Please delete it.
+3) Then open the folder "Rebalanced_BuildingSpawns_BaseGame_&_pksrebalance" in the mod folder.
+4) The file "overmap_specials_basegame_and_mod_pksrebalance.json" residing in this folder, should be deleted by you.
+5) Last step:
+-EITHER- rename
+"overmap_specials_basegame_without_mod_pksrebalance.json_REMOVE_EXTENSION_MORE_STREETS" to "overmap_specials_basegame_without_mod_pksrebalance.json"
+(then labs, fema-camps and some other building will have streets leading to them)
+-OR- rename
+"overmap_specials_basegame_without_mod_pksrebalance.json_REMOVE_EXTENSION" to "overmap_specials_basegame_without_mod_pksrebalance.json"
+(then labs, fema-camps, etc. won't have streets).
+
+E) Special "event" scenes like helicopter crashsites, mine fields, etc. will occur way less often. Only once in three cases, compared to normal settings. And the value for max. forest size has been doubled. You don't like this? Delete the "regional_map_settings.json" file in the mod folder. Done.
+
+Additional content comes with updates (see below)!
+
+----------------------------------------------------------------------------------------------------
+------------------------- UPDATE (2016-05-02) ------------------------------------------------------
+------------------------- An apocalyptic cataclysm -------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Good evening, good morning, ladies and gentlemen!
+
+This mod has been through a lot in the last days - but step by step:
+F) New buildings:
+1) I included orchards (six variations) into the game, which may spawn near cities on occasions.
+2) There are now allotments occurring within cities - on occasions. Two variations.
+3) A special plaza with a little secret has been included.
+4) Flat studios may be appear in your cities. Included are thirteen variations.
+5) A new varation of the existing warehouse has been included.
+6) Two new LMOE-basements with a bit more equipment (reasons will be clear in a moment - just keep reading).
+
+G) New variations to existing buildings:
+The biggest expansion of this mod has been changing the cities from "a walk in the park" to "battlefields" - 95 to 97% of every building (and it's variations!) which is/are already included in cataclysm via a JSON file got additional variations:
+- four bombed/nuked (no radiation included) ones (the four models are all the same for every building-typ) with lesser spawning weight,
+- one looted version with the same spawning weight as the original building and at last
+- an burned-down version with the same spawning weight as the original building.
+The models for the looted and the burned-down version are different for every building.
+Long story short: you will find way less items. Buildings you see on the map may be destroyed or looted when you arrive. You will see a lot of destructed and looted buildings. It now really feels like the end of the world.
+
+There are also exploded versions for some mods included. I would explain everything, but it 03:15 in the morning and I NEED to go to bed - so have a look at the mod folder after extracting and try figuring evereything out if you want. I will have no time in the next days to explain more so please be patient with me. If you're using the mods "Arcana", "Dino Mod", "More Locations", "Z-Level_Buildings", "PKs rebalance" and the updated "EXTENDED_BUILDINGS" mod, you can extract the zip-file in your mod-folder and start your new game right away. If you don't use any of these mods, have a look at point -D- in the original part of this starting post.
+
+
+----------------------------------------------------------------------------------------------------
+------------------------- UPDATE (2016-05-07) ------------------------------------------------------
+------------------------- An even more apocalyptic cataclysm ---------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Good evening, ladies and gentlemen!
+
+First, I want to cover some points, I didn't in the last update:
+H) Some basegame buildings now rarely spawn far outside of cities: bars, houses, gunstores, dinners, churches, police stations, abandoned stores
+
+I) Some locations don't have streets, leading to them, anymore: military bunkers, labs, missile silos, radio tower, SAIs, power relais, FEMA camps
+My reasons for this: IMO secret locations like a military bunker, labs, missile silos shouldn't be connected via big streets. Also things like a simple radio tower, a sai or a power relay aren't normally connected with roads (at least where I live). FEMA camps are, I my imagination, rush raised as the cataclysm stroke. So they surely didn't begin paving a road to the camp. All in all, there (at max) should be dirt roads, which shouldn't be visible on the overmap. As there are no dirt roads in the game (afaik) I remove the roads.
+But I imagined, that the outcome in this decision wouldn't be everybodies cup of tea. So I included an easy way to change this back:
+- First open the folder mod folder.
+- Open the folder "Rebalanced_BuildingSpawns_BaseGame_&_pksrebalance" in the mod folder.
+- Delete the file "overmap_specials_basegame_and_mod_pksrebalance.json" and at last...
+- ...rename the file overmap_specials_basegame_and_mod_pksrebalance.json_MORE_STREETS" to "overmap_specials_basegame_and_mod_pksrebalance.json".
+
+Now to the current update:
+J) I included some new buildings. These are: bakery, butchery, a grove, empty lot, public toilets, more studio flat variations
+
+K) Not only are there ~120 burned, ~125 looted and ~70 bombed building variations included in this mod - now there are also additional ~115 shelled (and looted) variations (variations for seven buildings are currently missing and will follow in some days).
+
+
+----------------------------------------------------------------------------------------------------
+------------------------- UPDATE (2016-05-18) ------------------------------------------------------
+------------------------- An devious and even more apocalyptic cataclysm ---------------------------
+----------------------------------------------------------------------------------------------------
+
+Good day, ladies and gentlemen!
+
+L) Anon420 mentioned here the integration of the mod "Add_Bandits". I thought, this was a great idea, as I fumbled around with hostile npcs to add "trapped" buildings in my mod - but didn't really like the results. With integration of GovTDs mod "Add_Bandits" it works more the way I expected it to. So this mod now includes (kind of) fortified houses with some nice guests. I also included my first try (hostile npcs) - as standalone version of the trapped buildings (which is the standard version after installating this mod) and as estranged companions for GovTDs bandits (which needs some work to be done - see below). So there will be some, well, carnage if you use the later version.
+
+As GovTDs mod "Add_Bandits" isn't my work, I didn't include any of his files! So after installing this mod you will only get the version with (mostly static) hostile npcs. If you want the more interesting version, you have to follow this steps:
+- First download GovTDs mod "Add_Bandits" and install it.
+- Delete the folder "Additional_AmbushedBuildings_BaseGame" within the mod folder "Overmap_Rebalancing".
+- Extract the zip file "Additional_AmbushedBuildings_BaseGame&AddBandits" in the mod folder.
+
+Now, if you activate the mod "Add_Bandits" in youre game worlds, you're done here.
+If you don't, precede with this last step:
+- Copy the file "gov_bandits.json" from GovTDs mod (found in the folder "ADD_BANDITS v0.10" -> "bandit_mod") to the new folder "Additional_AmbushedBuildings_BaseGame&AddBandits" in the mod folder "Overmap_Rebalancing"
+
+
+Before updating, please delete the old mod folder!
+
+
+----------------------------------------------------------------------------------------------------
+------------------------- UPDATE (2016-11-16) ------------------------------------------------------
+------------------------- Considering recent changes in C:DDA & PKs rebalance ----------------------
+----------------------------------------------------------------------------------------------------
+
+Good evening, ladies and gentlemen!
+
+Recent changes in Cataclysm:DDA broke this mod, so I changed the affected parts.
+Some mods have been marked obsolete by the developers. So I included some of these mods:
+
+    DinoCat's DinoMod
+    Lanceo90's Animatronic Monsters
+    GovTD's Add Bandits
+
+- which was never part of the original releases but adds a lot of atmosphere to the game!
+
+Before updating, please delete the old mod folder!
+
+WARNING: Because of the huge size of the mapgen folder because of this mod, it can take up to 1-2 minutes for the game to start the first time after you newly launched your system!
+
+I hope you enjoy this mod. I'll appreciate your critiques!
+
+- Have fun -
+
+PS. Make sure, "OvermapRebalance" is the last one in your "mods.json" (found in your region-folder, which you can find in your save-folder).
+
+===================================================
+           - C - R - E - D - I - T - S -
+===================================================
+
+Included in this mod are these excellent mods:
+
+    DinoCat's DinoMod
+    GovTD's Add Bandits
+    Lanceo90's Animatronic Monsters
+    Whaley's Extended Buildings
+    Whaley's Parks and Recreation Buildings
+

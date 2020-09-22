@@ -1,0 +1,59 @@
+[
+  {
+    "type"     : "gate",
+    "handle"   : "t_ninja_secret_gate_control",
+    "door"     : "t_ninja_secret_wall",
+    "floor"    : "t_ninja_secret_rock_floor",
+    "walls"    : ["t_ninja_secret_wall"],
+    "messages" : {
+      "pull"   : "怪しげな隠しハンドルを恐る恐る回しました。",
+      "open"   : "秘密の通路が現れました。",
+      "close"  : "通路が閉ざされました。",
+      "fail"   : "何も起きない…"
+    },
+    "moves" : 500,
+    "bashing_damage" : 40
+  },{
+    "type"     : "gate",
+    "handle"   : "t_ninja_secret_gate_control_metal",
+    "door"     : "t_ninja_secret_wall_metal",
+    "floor"    : "t_ninja_secret_floor",
+    "walls"    : ["t_ninja_secret_wall_metal"],
+    "messages" : {
+      "pull"   : "怪しげな隠しハンドルを恐る恐る回しました。",
+      "open"   : "秘密の通路が現れました。",
+      "close"  : "通路が閉ざされました。",
+      "fail"   : "何も起きない…"
+    },
+    "moves" : 500,
+    "bashing_damage" : 40
+  },{
+    "type"     : "gate",
+    "handle"   : "t_ninja_secret_gate_control_air",
+    "door"     : "t_open_air",
+    "floor"    : "t_ninja_secret_floor",
+    "walls"    : ["t_ninja_secret_floor"],
+    "messages" : {
+      "pull"   : "怪しげな隠しハンドルを恐る恐る回しました。",
+      "open"   : "秘密の通路が現れました。",
+      "close"  : "通路は消えるようにどこかへ格納されました。",
+      "fail"   : "何も起きない…"
+    },
+    "moves" : 500,
+    "bashing_damage" : 40
+  },{
+    "type"     : "gate",
+    "handle"   : "t_ninja_secret_gate_control_water",
+    "door"     : "t_water_dp",
+    "floor"    : "t_ninja_secret_floor",
+    "walls"    : ["t_ninja_secret_floor"],
+    "messages" : {
+      "pull"   : "怪しげな隠しハンドルを恐る恐る回しました。",
+      "open"   : "秘密の通路が現れました。",
+      "close"  : "通路は水没しました。",
+      "fail"   : "何も起きない…"
+    },
+    "moves" : 500,
+    "bashing_damage" : 40
+  }
+]

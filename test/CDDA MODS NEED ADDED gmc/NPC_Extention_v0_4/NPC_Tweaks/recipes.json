@@ -1,0 +1,63 @@
+[
+  {
+    "type" : "recipe",
+    "result": "npctw_ma_lerning_machine",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ [ "computer", 4 ], [ "mechanics", 2 ] ],
+    "difficulty": 4,
+    "reversible": true,
+    "autolearn": true,
+    "time": 35000,
+    "components": [
+      [ [ "processor", 2 ] ],
+      [ [ "RAM", 2 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "e_scrap", 4 ] ],
+      [ [ "amplifier", 2 ] ]
+    ],
+    "qualities": [
+      { "level": 1, "id":"SCREW" } 
+    ],
+    "using": [
+      [ "soldering_standard", 20 ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "npctw_name_tag",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [
+      { "level": 1, "id":"CUT" } 
+    ],
+    "components": [
+      [ [ "string_6", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "npctw_baton",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [
+      { "level": 1, "id":"CUT" } 
+    ],
+    "components": [
+      [ [ "2x4", 1 ], [ "stick_long", 1 ] ]
+    ]
+  }
+]
