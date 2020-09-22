@@ -1,0 +1,136 @@
+[
+  {
+    "id": "ug_cashcard_reader",
+    "type": "TOOL",
+    "symbol": ",",
+    "color": "gray",
+    "name": "携帯スキミング装置",
+    "description": "キャッシュカードを読み取り、別のカードに残高を付け替えることができる装置です。大変動前であれば、これの所持が判明しただけで数十年刑務所行きです。小さな太陽光パネルが付属しており電源は不要です。",
+    "price": 100000,
+    "material": ["steel", "plastic"],
+    "weight": 400,
+    "volume": 1,
+    "bashing": 1,
+    "category": "tools",
+    "use_action": "IUSE_CASHCARD_TRANSFER"
+
+  },{
+    "id": "ug_garage_jack",
+    "type": "TOOL",
+    "name": "ガレージジャッキ",
+    "description": "車両を持ち上げるのに使用する強力な油圧式ジャッキです。ジャッキアップ後に移動できるように車輪が付いています。",
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "weight": 14900,
+    "volume": 8,
+    "price": 24000,
+    "bashing": 8,
+    "to_hit": -2,
+    "qualities": [["JACK", 40]]
+
+  },{
+    "id": "ug_g_shock",
+    "type": "ARMOR",
+    "copy-from": "diving_watch",
+    "name": "高耐久腕時計",
+    "name_plural": "高耐久腕時計",
+    "description": "Navy-SEALsや宇宙飛行士にも採用されている頑丈な腕時計です。落下強度10m、防水性能10m、電池寿命10年を誇り、あらゆる酷使に耐えます。これは憧れの限定モデル！",
+    "price": 24000,
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
+    "use_action": ["WEATHER_TOOL", "IUSE_SEASON_INFO"],
+    "flags": [ "WATCH", "WATER_FRIENDLY", "THERMOMETER", "HYGROMETER", "BAROMETER", "BELTED", "ALLOWS_NATURAL_ATTACKS", "FANCY" ]
+  
+  },{
+    "id": "ug_shooting_target",
+    "type": "TOOL",
+    "symbol": "o",
+    "color": "dark_gray",
+    "name": "標的(射撃練習用)",
+    "description": "射撃練習に使う標的です。人の上半身をイメージしていますが、的そのものはただの円形となっています。設置して使います。",
+    "price": 1200,
+    "material": ["wood", "cotton"],
+    "weight": 2700,
+    "volume": 3,
+    "bashing": 1,
+    "category": "tools",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_ug_shooting_target",
+      "friendly_msg": "*おおっと！*",
+      "hostile_msg": "標的を設置しました。",
+      "difficulty": 99,
+      "moves": 60,
+      "place_randomly": false
+    }
+
+  },{
+    "id": "ug_dart_board",
+    "type": "TOOL",
+    "symbol": "o",
+    "color": "ltbrown_green",
+    "name": "ダーツボード",
+    "description": "ダーツゲームに使用する的です。騒々しい電子音のするエレクトリックボードではなく、インテリアにも最適なシンプルなボードです。",
+    "price": 1200,
+    "material": ["wood", "cotton"],
+    "weight": 1550,
+    "volume": 2,
+    "bashing": 1,
+    "category": "tools",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_ug_dart_board",
+      "friendly_msg": "*おおっと！*",
+      "hostile_msg": "ダーツボードを設置しました。",
+      "difficulty": 99,
+      "moves": 60,
+      "place_randomly": false
+    }
+
+  },{
+    "id": "panties",
+    "type": "ARMOR",
+    "name": "panties",
+    "copy-from": "panties",
+    "use_action": {
+      "type": "transform",
+      "target": "panties_on"
+    }
+
+  },{
+    "id": "panties_on",
+    "type": "ARMOR",
+    "name": "パンティ(オン)",
+    "name_plural": "パンティ(オン)",
+    "description": "おまわりさんこいつです。",
+    "copy-from": "panties",
+    "covers": ["HEAD", "MOUTH"],
+    "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ],
+    "use_action": {
+      "type": "transform",
+      "msg": "フォオオオオオオオオオオ！",
+      "target": "panties_more_on"
+    }
+
+  },{
+    "id": "panties_more_on",
+    "type": "ARMOR",
+    "name": "パンティ(もっとオン)",
+    "name_plural": "パンティ(もっとオン)",
+    "description": "クロスアウッ！気分はエクスタシー！",
+    "copy-from": "panties_on",
+    "covers": ["HEAD", "MOUTH"],
+    "coverage": 15,
+    "warmth": 5,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ],
+    "use_action": {
+      "type": "transform",
+      "target": "panties"
+    },
+    "artifact_data" : {
+      "effects_worn": ["AEP_PER_UP", "AEP_HUNGER"]
+    }
+  }
+]

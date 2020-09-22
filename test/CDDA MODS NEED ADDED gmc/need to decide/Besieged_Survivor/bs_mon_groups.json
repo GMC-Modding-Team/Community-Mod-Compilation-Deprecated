@@ -1,0 +1,23 @@
+[
+  {
+    "type" : "monstergroup",
+    "name" : "BS_GROUP_BUNKER",
+    "default" : "mon_zombie_soldier",
+    "monsters" : [
+       {"monster" : "mon_zombie_soldier"        , "freq" : 70, "cost_multiplier" :  1}
+      ,{"monster" : "mon_zombie_bio_op"         , "freq" : 10, "cost_multiplier" :  1}
+      ,{"monster" : "mon_zombie_grenadier"      , "freq" : 10, "cost_multiplier" :  1}
+      ,{"monster" : "mon_zombie_armored"        , "freq" :  5, "cost_multiplier" : 50}
+      ,{"monster" : "mon_zombie_grenadier_elite", "freq" :  5, "cost_multiplier" : 50}
+    ]
+  },{
+    "type" : "monstergroup",
+    "name" : "BS_GROUP_LOWYERS_CLIENT",
+    "default" : "mon_zombie_fat",
+    "monsters" : [
+       {"monster" : "mon_shadow"                , "freq" : 50, "cost_multiplier" : 1}
+      ,{"monster" : "mon_zombie_fat"            , "freq" : 50, "cost_multiplier" : 1}
+    ]
+  }
+
+]

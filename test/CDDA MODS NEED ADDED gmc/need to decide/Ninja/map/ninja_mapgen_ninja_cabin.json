@@ -1,0 +1,206 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [
+        "ninja_cabin_1"
+    ],
+    "method": "json",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "4w4w    6         w4 4w4",
+        "w4w  ////;;;/////  w4w4w",
+        "4ww  /**6   ****/    4w4",
+        "w  oo/***   ****/oo   w4",
+        "w  o^/***   ****/^o    w",
+        " ooo^/***   ****/^ooooo ",
+        " o^^^/          /^^^^ o ",
+        "wo^|--,,----++---++-|^o ",
+        " o^|a,,,a..#########|^o ",
+        "wo^|P,,,,..#########|^o ",
+        "wo^+S,,,,..#########|^o ",
+        "wo^|O,,,,..###,,,###|^o ",
+        " o^|a,,,,..###,&,###|^o ",
+        " o^|.......###,,,###|^o ",
+        " o^|.......#########|^o ",
+        "wo^|.......#########|^o ",
+        "wo^|.......####@B@B#|^ow",
+        " o^|>,,,,..#####B#B#|^o ",
+        " o^|--,,--++--------|^o4",
+        "4oo/b               /oo4",
+        "4w /b  mmmmmmm    | | w4",
+        "4 4/P~ mmmmmmm  C |t| 4 ",
+        "w4 ///////////////|-|4 4",
+        "4w4 4w   w  ww w   w4 4 "
+      ],
+      "terrain": {
+        " ": ["t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt"],
+        "|": "t_wall_log",
+        "-": "t_wall_log",
+        ".": "t_floor",
+        "#": "t_floor",
+        "B": "t_floor",
+        "C": "t_dirt",
+        "b": "t_floor",
+        "4": "t_tree_willow",
+        "w": "t_shrub",
+        "~": "t_water_dp",
+        ",": "t_dirtfloor",
+        "/": "t_palisade",
+        ";": "t_palisade_gate",
+        "6": "t_palisade_pulley",
+        "m": "t_dirtmound",
+        "P": "t_water_pump",
+        "S": "t_dirtfloor",
+        "O": "t_dirtfloor",
+        "a": "t_dirtfloor",
+        "+": "t_window_boarded",
+        ">": "t_stairs_down"
+      },
+      "furniture": {
+        "S": "f_sink",
+        "O": "f_oven",
+        "a": "f_table",
+        "B": "f_bed",
+        "@": "f_tatami",
+        "#": "f_tatami",
+        "C": "f_kiln_empty",
+        "b": "f_bench",
+        ">": "f_tatami"
+      },
+      "fields": {
+        "&": {"field": "fd_fire", "age": 1, "density": 1 }
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "traps": {
+        ">": "tr_shotgun_2",
+        "t": "tr_shotgun_2",
+        "^": "tr_caltrops",
+        "o": "tr_spike_pit",
+        "*": "tr_landmine_buried",
+        "&": "tr_brazier"
+      },
+      "place_loot": [
+        {"item": "2x4"                     , "chance": 100, "x": 15, "y": 12, "repeat": [20, 30]},
+        {"item": "pillow"                  , "chance": 100, "x": 16, "y": 16, "repeat": [ 1,  1]},
+        {"item": "pillow"                  , "chance": 100, "x": 18, "y": 16, "repeat": [ 1,  1]},
+        {"item": "blanket"                 , "chance": 100, "x": 16, "y": 17, "repeat": [ 1,  1]},
+        {"item": "blanket"                 , "chance": 100, "x": 18, "y": 17, "repeat": [ 1,  1]},
+        {"item": "fishing_rod_professional", "chance": 100, "x":  8, "y":  8, "repeat": [ 1,  1]},
+        {"item": "fishing_waders"          , "chance": 100, "x":  8, "y":  8, "repeat": [ 1,  1]},
+        {"item": "fish_trap"               , "chance": 100, "x":  8, "y":  8, "repeat": [ 3,  5]},
+        {"item": "fish_bait"               , "chance": 100, "x":  8, "y":  8, "repeat": [ 5,  8]},
+        {"item": "fish_bowl"               , "chance": 100, "x":  4, "y":  8, "repeat": [ 1,  1]},
+        {"item": "can_sealer"              , "chance":  20, "x":  4, "y": 12, "repeat": [ 1,  1]},
+        {"item": "can_food_unsealed"       , "chance": 100, "x":  4, "y": 12, "repeat": [12, 18]},
+        {"item": "fish_canned"             , "chance": 100, "x":  4, "y": 12, "repeat": [ 5, 10]},
+        {"item": "fish_smoked"             , "chance": 100, "x":  4, "y": 12, "repeat": [12, 18]},
+        {"item": "salted_fish"             , "chance": 100, "x":  4, "y": 12, "repeat": [ 5, 10]},
+        {"item": "soap"                    , "chance": 100, "x":  4, "y": 19, "repeat": [10, 15]},
+        {"item": "washboard"               , "chance": 100, "x":  4, "y": 20, "repeat": [ 1,  1]},
+        {"item": "charcoal"                , "chance": 100, "x": 17, "y": 21, "repeat": [80,120]}
+      ],
+      "monster": {
+        "r": {"monster": "mon_ninja_spring_floor"}
+      }
+    }
+  },{
+    "type": "mapgen",
+    "om_terrain": [
+        "ninja_cabin_b1"
+    ],
+    "method": "json",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "////////////////////////",
+        "/|--------------------|/",
+        "/|U   ######%........U|/",
+        "/|P   ######?..htth...|/",
+        "/|S  H######?..htth...|/",
+        "/|O   ######?........b|/",
+        "/|F   ######|---------|/",
+        "/|%                   |/",
+        "/|????????????????????|/",
+        "/|%                   |/",
+        "/|  ???%--------------|/",
+        "/|  |  |              |/",
+        "/|  |  %  2   2   2   |/",
+        "/| @|  ?______________?/",
+        "/|  |  |    ^LLL^     |/",
+        "/%  |  |    ^^^^^     |/",
+        "/???---|--D????????%--|/",
+        "/%B < T|              |/",
+        "/|L    | ### ### ###  |/",
+        "/|L    | ### ### ###  |/",
+        "/|**   | ### ### ###  |/",
+        "/|**   +  r           |/",
+        "/|--------------------|/",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "|": "t_wall",
+        "-": "t_wall",
+        ".": "t_floor",
+        "h": "t_floor",
+        "t": "t_floor",
+        "b": "t_floor",
+        "_": "t_ninja_secret_rock_floor",
+        "?": "t_ninja_secret_wall",
+        "2": "t_rock_floor",
+        "L": "t_rock_floor",
+        "B": "t_rock_floor",
+        "#": "t_rock_floor",
+        "^": "t_rock_floor",
+        "*": "t_rock_floor",
+        "T": "t_rock_floor",
+        "+": "t_door_c",
+        "%": "t_ninja_secret_gate_control",
+        "<": "t_stairs_up",
+        "P": "t_water_pump",
+        "D": "t_door_metal_c_peep",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "B": "f_bookcase",
+        "L": "f_locker",
+        "S": "f_sink",
+        "F": "f_fridge",
+        "O": "f_oven",
+        "h": "f_chair",
+        "t": "f_table",
+        "#": "f_tatami"
+      },
+      "npcs": {
+        "H": {"class": "ninja_npc_high_ninja" },
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "monster": {
+        "2": {"monster": "mon_turret_rifle"},
+        "r": {"monster": "mon_ninja_spring_floor"}
+      },
+      "traps": {
+        "^": "tr_caltrops",
+        "*": "tr_landmine_buried"
+      },
+      "signs": {
+        "T": {"snippet": "ninja_snippet_dojo"}
+      },
+      "place_loot": [
+        {"item" : "ninja_map_cosplaypt", "chance": 100, "x": 16, "y":  3, "repeat": [ 1, 1]},
+        {"item" : "television"         , "chance": 100, "x": 21, "y":  5, "repeat": [ 1, 1]},
+        {"group": "ninja_rare_ammo"    , "chance":  70, "x": 13, "y": 14, "repeat": [ 4, 6]},
+        {"group": "ninja_rare_enagy"   , "chance":  70, "x": 14, "y": 14, "repeat": [ 8,10]},
+        {"group": "ninja_rare_ammo"    , "chance":  70, "x": 15, "y": 14, "repeat": [ 4, 6]},
+        {"group": "fridge"             , "chance": 100, "x":  2, "y":  6, "repeat": [10,20]}
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+   {
+    "type":"monstergroup",
+    "name" : "GROUP_ZOMBIE",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_zombie_age", "freq" : 40, "cost_multiplier": 10, "pack_size": [2,5]},
+      { "monster" : "mon_zombie_age", "freq" : 20, "cost_multiplier": 25, "pack_size": [5,11]},
+      { "monster" : "mon_zombie_blind", "freq" : 30, "cost_multiplier": 3, "pack_size": [1,3]}
+    ]
+  }
+]
+
+      

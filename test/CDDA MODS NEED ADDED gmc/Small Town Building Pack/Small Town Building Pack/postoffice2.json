@@ -1,0 +1,206 @@
+{
+    "method": "json",
+    "object": {
+        "furniture": {
+            "#": "f_counter",
+            "&": "f_trashcan",
+            "+": "f_null",
+            "-": "f_null",
+            ".": "f_null",
+            "4": "f_null",
+            "7": "f_null",
+            "C": "f_chair",
+            "D": "f_null",
+            "S": "f_statue",
+            "W": "f_null",
+            "X": "f_safe_l",
+            "^": "f_indoor_plant",
+            "_": "f_null",
+            "a": "f_null",
+            "b": "f_bench",
+            "c": "f_counter",
+            "d": "f_null",
+            "l": "f_locker",
+            "p": "f_null",
+            "s": "f_null",
+            "t": "f_null",
+            "u": "f_null",
+            "w": "f_null",
+            "{": "f_dumpster",
+            "|": "f_null"
+        },
+        "place_items": [
+            {
+                "chance": 45,
+                "item": "cubical_office",
+                "x": 4,
+                "y": [
+                    18,
+                    19
+                ]
+            },
+            {
+                "chance": 45,
+                "item": "cubical_office",
+                "x": 11,
+                "y": 15
+            },
+            {
+                "chance": 35,
+                "item": "art",
+                "x": 6,
+                "y": 16
+            },
+            {
+                "chance": 35,
+                "item": "art",
+                "x": 4,
+                "y": 15
+            },
+            {
+                "chance": 35,
+                "item": "bags",
+                "x": 9,
+                "y": 21
+            },
+            {
+                "chance": 45,
+                "item": "clothing_outdoor_torso",
+                "x": 8,
+                "y": 21
+            },
+            {
+                "chance": 65,
+                "item": "trash",
+                "x": 10,
+                "y": 21
+            },
+            {
+                "chance": 65,
+                "item": "trash",
+                "x": 6,
+                "y": 18
+            },
+            {
+                "chance": 35,
+                "item": "floor_trash",
+                "x": 18,
+                "y": [
+                    20,
+                    21
+                ]
+            },
+            {
+                "chance": 35,
+                "item": "floor_trash",
+                "x": 10,
+                "y": 18
+            },
+            {
+                "chance": 35,
+                "item": "floor_trash",
+                "x": 15,
+                "y": 13
+            },
+            {
+                "chance": 35,
+                "item": "floor_trash",
+                "x": 10,
+                "y": 2
+            },
+            {
+                "chance": 55,
+                "item": "office",
+                "x": 6,
+                "y": 21
+            },
+            {
+                "chance": 55,
+                "item": "office",
+                "x": 4,
+                "y": 20
+            },
+            {
+                "chance": 55,
+                "item": "office",
+                "x": 14,
+                "y": 16
+            },
+            {
+                "chance": 55,
+                "item": "office",
+                "x": 4,
+                "y": 13
+            },
+            {
+                "chance": 75,
+                "item": "file_room",
+                "x": 4,
+                "y": 21
+            },
+            {
+                "chance": 75,
+                "item": "file_room",
+                "x": 13,
+                "y": 16
+            }
+        ],
+        "rows": [
+            "..........ss............",
+            "..........ss............",
+            "....d.....ss........d...",
+            "...d7d....ss.......d4d..",
+            "....d.....sss.......d...",
+            "........ssssss..........",
+            ".......bssS7ssb.........",
+            "....d..bss7Sssb.....d...",
+            "...d4d..ssssss.....dtd..",
+            "....d....ssss.......d...",
+            "..........ss............",
+            "....uuuuu.ss.uuuuu......",
+            "...||www||++||www||.....",
+            "...|#____________^|.....",
+            "...|#_____________|.....",
+            "...|X__--ccc----D-|.....",
+            "...|XXX-_C___##___|.....",
+            "...|----__________W.....",
+            "...|##&-^_________|.....",
+            "...|#_______---||||.....",
+            "...|#__________asp{.....",
+            "...|###-ll&____|sp{.....",
+            "...|||||||||||||spp.....",
+            "........................"
+        ],
+        "terrain": {
+            "#": "t_floor",
+            "&": "t_floor",
+            "+": "t_door_glass_c",
+            "-": "t_wall",
+            ".": "t_grass",
+            "4": "t_tree_pine",
+            "7": "t_tree_apple",
+            "C": "t_floor",
+            "D": "t_door_c",
+            "S": "t_hole",
+            "W": "t_window",
+            "X": "t_floor",
+            "^": "t_floor",
+            "_": "t_floor",
+            "a": "t_door_locked",
+            "b": "t_grass",
+            "c": "t_hole",
+            "d": "t_dirt",
+            "l": "t_floor",
+            "p": "t_pavement",
+            "s": "t_sidewalk",
+            "t": "t_tree_birch",
+            "u": "t_underbrush",
+            "w": "t_wall_glass",
+            "{": "t_pavement",
+            "|": "t_brick_wall"
+        }
+    },
+    "om_terrain": "post_office",
+    "type": "mapgen",
+    "weight": 100
+}

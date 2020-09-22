@@ -1,0 +1,1312 @@
+[
+  {
+    "type" : "mapgen",
+    "//" : "1F NW",
+    "om_terrain" : ["ninja_tower_1"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "ssssssssssssssssssssssss",
+        "ssssssssssssssssssssssss",
+        "ss%%%%%%%%%%%%%%%%%%%%%%",
+        "ss%wwwwwwwwwwwwwwwwwwwww",
+        "ss%w|-HH--HHH--HHH--HHH-",
+        "ss%wHU.................L",
+        "ss%wH....@.d....d.@.....",
+        "ss%w|...dddd....dddd....",
+        "ss%wH...................",
+        "ss%wH...hddh....hddh...d",
+        "ss%wH...hddh....hddh...d",
+        "ss%w|.@.hddh.@..hddh...d",
+        "ss%wH...................",
+        "ss%wH...hddh....hddh....",
+        "ss%wH...hddh....hddh..LL",
+        "ss%w|...----------------",
+        "ss%wH...........|_t|_t|2",
+        "ss%wH...........|__|__|L",
+        "ss%w|-----GG----|D--D-|-",
+        "ss%w|U..................",
+        "ss%wH^..................",
+        "ss%wH..mmm...|---|---|..",
+        "ss%wHn.......|<R.|EEE|..",
+        "ss%w|V.mmm...|.R.|EEED.."
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "s": "t_sidewalk",
+        ",": "t_pavement_y",
+        "%": "t_chainfence_h",
+        "w": "t_shrub",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "<": "t_stairs_up",
+        "H": "t_reinforced_glass_shutter_open",
+        "d": "t_floor",
+        "h": "t_floor",
+        "l": "t_floor",
+        "m": "t_floor",
+        "V": "t_floor",
+        "^": "t_floor",
+        "t": "t_linoleum_white",
+        "_": "t_linoleum_white",
+        "n": "t_floor",
+        "L": "t_floor",
+        "2": "t_floor",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "d": "f_desk",
+        "h": "f_chair",
+        "l": "f_locker",
+        "m": "f_sofa",
+        "V": "f_vending_c",
+        "n": "f_trashcan",
+        "L": "f_locker",
+        "^": "f_indoor_plant"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "monster": {
+        "2": {"monster": "mon_turret"}
+      },
+      "place_vehicles": [
+        {"vehicle": "swivel_chair", "x":  9, "y":  6, "rotation": 90, "chance": 100},
+        {"vehicle": "swivel_chair", "x": 18, "y":  6, "rotation": 90, "chance": 100}
+      ],
+      "place_loot": [
+        {"group": "vending_drink"    , "chance": 100, "x":  5, "y": 23, "repeat": [ 4,48]},
+        {"group": "cubical_office"   , "chance":  50, "x": 23, "y":  5, "repeat": [ 1, 3]},
+        {"group": "cubical_office"   , "chance":  50, "x": 22, "y": 14, "repeat": [ 1, 3]},
+        {"group": "cubical_office"   , "chance":  50, "x": 23, "y": 14, "repeat": [ 1, 3]},
+        {"group": "ninja_rare_vparts", "chance": 100, "x": 23, "y": 17, "repeat": [ 1, 1]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "1F NE",
+    "om_terrain" : ["ninja_tower_2"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "ssssssssssssssssssssssss",
+        "ssssssssssssssssssssssss",
+        "%%%%%%%%%%%%%%%%%%%%%%ss",
+        "wwwwwwwwwwwwwwwwwwwww%ss",
+        "-HHH--HHH--HHH--HH-|w%ss",
+        "L.................UHw%ss",
+        ".....@.d....d.@....Hw%ss",
+        "....dddd....dddd...|w%ss",
+        "...................Hw%ss",
+        "d...hddh....hddh...Hw%ss",
+        "d...hddh....hddh...Hw%ss",
+        "d...hddh.@..hddh.@.|w%ss",
+        "...................Hw%ss",
+        "....hddh....hddh...Hw%ss",
+        "LL..hddh....hddh...Hw%ss",
+        "----------------...|w%ss",
+        ".!t_|t_|...........Hw%ss",
+        ".|__|__|...........Hw%ss",
+        "---D--D-----GG-----|w%ss",
+        "..................U|w%ss",
+        "..................^Hw%ss",
+        "..|---|---|...mmm..Hw%ss",
+        "..|xEE|<R.|.......nHw%ss",
+        "..DEEE|.R.|...mmm.V|w%ss"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "s": "t_sidewalk",
+        ",": "t_pavement_y",
+        "%": "t_chainfence_h",
+        "w": "t_shrub",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "<": "t_stairs_up",
+        "x": "t_console_broken",
+        "H": "t_reinforced_glass_shutter_open",
+        "d": "t_floor",
+        "c": "t_floor",
+        "h": "t_floor",
+        "^": "t_floor",
+        "m": "t_floor",
+        "V": "t_floor",
+        "t": "t_linoleum_white",
+        "_": "t_linoleum_white",
+        "n": "t_floor",
+        "L": "t_floor",
+        "!": "t_ninja_secret_door_metal_c",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "d": "f_desk",
+        "c": "f_counter",
+        "h": "f_chair",
+        "m": "f_sofa",
+        "V": "f_vending_c",
+        "n": "f_trashcan",
+        "L": "f_locker",
+        "^": "f_indoor_plant"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "place_vehicles": [
+        {"vehicle": "swivel_chair", "x":  5, "y":  6, "rotation": 90, "chance": 100},
+        {"vehicle": "swivel_chair", "x": 14, "y":  6, "rotation": 90, "chance": 100}
+      ],
+      "place_loot": [
+        {"group": "vending_drink" , "chance": 100, "x": 18, "y": 23, "repeat": [ 4,48]},
+        {"group": "cubical_office", "chance":  50, "x":  0, "y":  5, "repeat": [ 1, 3]},
+        {"group": "cubical_office", "chance":  50, "x":  0, "y": 14, "repeat": [ 1, 3]},
+        {"group": "cubical_office", "chance":  50, "x":  1, "y": 14, "repeat": [ 1, 3]},
+        {"group": "cubical_office", "chance":  50, "x":  1, "y": 14, "repeat": [ 1, 3]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "1F SW",
+    "om_terrain" : ["ninja_tower_3"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "ss%w|V.mmm...|...|EEED..",
+        "ss%wHn.......|...|EEx|..",
+        "ss%wH..mmm...|-D-|---|..",
+        "ss%wH^..................",
+        "ss%w|U..................",
+        "ss%w|-D-----------------",
+        "ss%w|***,***,***,***,***",
+        "ss%w|***,***,***,***,***",
+        "ss%w|***,***,***,***,***",
+        "ss%w|***,***,***,***,***",
+        "ss%w|***,***,***,***,***",
+        "ss%w|*******************",
+        "ss%w|*******************",
+        "ss%w|*******************",
+        "ss%w|***,***,***,*******",
+        "ss%w|***,***,***,*******",
+        "ss%w|***,***,***,*******",
+        "ss%w|***,***,***,*******",
+        "ss%w|***,***,***,***,***",
+        "ss%w|------------**,,,**",
+        "ss%wwwwwwwwwwwwww*,,,,,*",
+        "ss%%%%%%%%%%%%%%%**,,,**",
+        "sssssssssssssssss**,,,**",
+        "sssssssssssssssss**,,,**"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "s": "t_sidewalk",
+        "*": "t_pavement",
+        ",": "t_pavement_y",
+        "%": "t_chainfence_h",
+        "w": "t_shrub",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "x": "t_console_broken",
+        "H": "t_reinforced_glass_shutter_open",
+        "^": "t_floor",
+        "m": "t_floor",
+        "V": "t_floor",
+        "t": "t_floor",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "m": "f_sofa",
+        "V": "f_vending_c",
+        "n": "f_trashcan",
+        "^": "f_indoor_plant"
+      },
+      "place_vehicles": [
+        {"vehicle": "ninja_vehicle_ninja_ZX14_custom", "x": [ 7, 7], "y": [ 8, 8], "rotation": 90, "chance":  20},
+        {"vehicle": "ninja_vehicle_ninja_ZX14_custom", "x": [10,10], "y": [ 8, 8], "rotation": 90, "chance":  20},
+        {"vehicle": "ninja_vehicle_ninja_ZX14"       , "x": [13,13], "y": [ 8, 8], "rotation": 90, "chance":  70},
+        {"vehicle": "ninja_vehicle_ninja_ZX14"       , "x": [16,16], "y": [ 8, 8], "rotation": 90, "chance":  70},
+        {"vehicle": "ninja_vehicle_ninja_ZX14"       , "x": [19,16], "y": [ 8, 8], "rotation": 90, "chance":  70},
+        {"vehicle": "ninja_vehicle_ninja_ZX14"       , "x": [22,16], "y": [ 8, 8], "rotation": 90, "chance":  70}
+      ],
+      "place_loot": [
+        {"group": "vending_food", "chance": 100, "x":  5, "y":  0, "repeat": [ 4,48]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "1F SE",
+    "om_terrain" : ["ninja_tower_4"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "..DEEE|...|...mmm.V|w%ss",
+        "..|EEE|...|.......nHw%ss",
+        "..|---|-D-|...mmm..Hw%ss",
+        "..................^Hw%ss",
+        "..................U|w%ss",
+        "------D---GG-|G----|w%ss",
+        ",***,**U|....|..dxdHw%ss",
+        ",***,***|....|..h.h|w%ss",
+        ",***,***|....c^....|w%ss",
+        ",***,***|....c@h@hxHw%ss",
+        ",***,***|....ccccccHw%ss",
+        "********|..........|w%ss",
+        "********|.m......m.|w%ss",
+        "********|.m......m.Hw%ss",
+        "********|.m......m.Hw%ss",
+        "********|..........|w%ss",
+        "********|.m......m.|w%ss",
+        "********|.m......m.Hw%ss",
+        "***,,,**|^m......mUHw%ss",
+        "***,,,**|---GGGG---|w%ss",
+        "***,,,**wwwwsssswwwww%ss",
+        "**,,,,,*%%%%ssss%%%%%%ss",
+        "***,,,**444Tssss444444ss",
+        "****,***ssssssssssssssss"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "s": "t_sidewalk",
+        "*": "t_pavement",
+        ",": "t_pavement_y",
+        "%": "t_chainfence_h",
+        "w": "t_shrub",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "H": "t_reinforced_glass_shutter_open",
+        "x": "t_console_broken",
+        "4": "t_tree_willow",
+        "d": "t_floor",
+        "c": "t_floor",
+        "h": "t_floor",
+        "^": "t_floor",
+        "V": "t_floor",
+        "n": "t_floor",
+        "T": "t_dirt",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "d": "f_desk",
+        "c": "f_counter",
+        "h": "f_chair",
+        "m": "f_sofa",
+        "n": "f_trashcan",
+        "V": "f_vending_c",
+        "^": "f_indoor_plant"
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "place_vehicles": [
+        {"vehicle": "ninja_vehicle_yakata_car", "x": [ 4, 4], "y": [12,12], "rotation": 90, "chance":  100}
+      ],
+      "signs": {
+        "T": { "snippet": "ninja_snippet_tower" }
+      },
+      "place_loot": [
+        {"group": "vending_food", "chance": 100, "x": 18, "y":  0, "repeat": [ 4,48]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "2F NW",
+    "om_terrain" : ["ninja_tower_5"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////|---HHHH-----HHHH---",
+        "////|U.......^|U.......^",
+        "////|.........|.........",
+        "////H...haah..|..haah...",
+        "////H...haah..|..haah...",
+        "////H...haah..|..haah...",
+        "////H...haah..|..haah...",
+        "////|.........|.........",
+        "////|........^|........^",
+        "////|-D---------D-------",
+        "////|U..................",
+        "////|...................",
+        "////|.######.|-------|..",
+        "////|.#~f~~#.|t__|t__|..",
+        "////|.#f~~~#.|___|___|..",
+        "////|.#~~f~#.|-D---D-|..",
+        "////|.#~~~~#.|.......D..",
+        "////|.#~f~~#.|---|---|..",
+        "////|.#~~~f#.|>R<|EEE|..",
+        "////|.######.|.R.|EEED.."
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "a": "t_floor",
+        "c": "t_floor",
+        "h": "t_floor",
+        "^": "t_floor",
+        "A": "t_floor",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "<": "t_stairs_up",
+        ">": "t_stairs_down",
+        "H": "t_reinforced_glass_shutter_open",
+        "#": "t_reinforced_glass",
+        "~": "t_water_sh",
+        "f": "t_water_sh",
+        "t": "t_linoleum_white",
+        "_": "t_linoleum_white",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "a": "f_table",
+        "h": "f_chair",
+        "^": "f_indoor_plant"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "monster": {
+        "f": {"monster": "mon_fish_trout"},
+        "A": {"monster": "mon_secubot"   }
+      }
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "2F NE",
+    "om_terrain" : ["ninja_tower_6"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "|----------------*-|////",
+        "|*****************U|////",
+        "|******************|////",
+        "|******************|////",
+        "|******************|////",
+        "|******************|////",
+        "|******************|////",
+        "|******************|////",
+        "|*********,,,******|////",
+        "|*********,,,******|////",
+        "|*********,,,******|////",
+        "|*********,,,******|////",
+        "|*********,,,******|////",
+        "|*********,,,******|////",
+        "|********,,,,,*****|////",
+        "|*********,,,******|////",
+        "|**********,*******|////",
+        "|-|---|---|!-------|////",
+        "..|xEE|>R<|XLLLLLLL|////",
+        "..DEEE|.R.|........|////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "X": "t_floor",
+        "L": "t_floor",
+        "*": "t_pavement",
+        ",": "t_pavement_y",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "<": "t_stairs_up",
+        ">": "t_stairs_down",
+        "x": "t_console_broken",
+        "H": "t_reinforced_glass_shutter_open",
+        "!": "t_ninja_secret_door_metal_c",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "^": "f_indoor_plant",
+        "L": "f_locker",
+        "X": "f_locker"
+      },
+      "traps": {
+        "X": "tr_landmine_buried"
+      },
+      "toilets": {
+        "t": { }
+      }
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "2F SW",
+    "om_terrain" : ["ninja_tower_7"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "////|........|...|EEED..",
+        "////|.bbbbbb.|...|EEx|..",
+        "////|........|-D-|---|..",
+        "////|...................",
+        "////|...................",
+        "////|-----------------GG",
+        "////|Sr..****|..........",
+        "////|Sr..****|.....A....",
+        "////|Sr..****|..........",
+        "////|---D------D--------",
+        "////|A.......D_____LLLL.",
+        "////|---------__________",
+        "////H_________________m_",
+        "////|___d__________aa_m_",
+        "////|___d____aaa___aa_m_",
+        "////|___d____aaa___aa_m_",
+        "////H_ddd_____________m_",
+        "////H_______mmmmm____mm_",
+        "////HU_________________^",
+        "////|HHH---HHH-HHH---HHH",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "x": "t_console_broken",
+        "H": "t_reinforced_glass_shutter_open",
+        ".": "t_floor",
+        "A": "t_floor",
+        "r": "t_floor",
+        "*": "t_floor",
+        "S": "t_floor",
+        "L": "t_carpet_purple",
+        "d": "t_carpet_purple",
+        "a": "t_carpet_purple",
+        "m": "t_carpet_purple",
+        "_": "t_carpet_purple",
+        "^": "t_carpet_purple",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "d": "f_desk",
+        "m": "f_sofa",
+        "a": "f_table",
+        "L": "f_locker",
+        "S": "f_safe_l",
+        "^": "f_indoor_plant"
+      },
+      "traps": {
+        "*": "tr_landmine_buried"
+      },
+      "monster": {
+        "A": {"monster": "mon_secubot"},
+        "r": {"monster": "mon_ninja_spring_floor"}
+      },
+      "place_vehicles": [
+        {"vehicle": "swivel_chair", "x":  6, "y": 14, "rotation": 0, "chance": 100}
+      ],
+      "place_loot": [
+        {"group": "vault"          , "chance": 100, "x":  5, "y":  6, "repeat": [ 1, 2]},
+        {"group": "vault"          , "chance": 100, "x":  5, "y":  7, "repeat": [ 1, 2]},
+        {"group": "vault"          , "chance": 100, "x":  5, "y":  8, "repeat": [ 1, 2]},
+        {"item" : "laptop"         , "chance": 100, "x":  8, "y": 14, "repeat": [ 1, 1]},
+        {"item" : "eink_tablet_pc" , "chance": 100, "x":  8, "y": 15, "repeat": [ 1, 1]},
+        {"group": "file_room"      , "chance":  50, "x":  8, "y": 16, "repeat": [ 1, 2]},
+        {"group": "alcohol"        , "chance": 100, "x": 19, "y": 10, "repeat": [ 3, 5]},
+        {"group": "alcohol"        , "chance": 100, "x": 20, "y": 10, "repeat": [ 3, 5]},
+        {"group": "alcohol"        , "chance": 100, "x": 21, "y": 10, "repeat": [ 3, 5]},
+        {"group": "alcohol"        , "chance": 100, "x": 22, "y": 10, "repeat": [ 3, 5]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "2F SE",
+    "om_terrain" : ["ninja_tower_8"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "..DEEE|...|........|////",
+        "..|EEE|...|........|////",
+        "..|---|-D-|........|////",
+        "...................|////",
+        "..............A....|////",
+        "|G|-----|..........H////",
+        "|.|UffSS|.mmm..mmm.H////",
+        "|......a|..........|////",
+        "|.|....a|.mmm..mmm.H////",
+        "|.|-----|.........UH////",
+        "|.|]]]]]|RRRRRRRRRR|////",
+        "|.......H//////////|////",
+        "|.|]]]]]|//////////|////",
+        "|.|-----H//////////|////",
+        "|.|LLLLL|//////////|////",
+        "|.......H//////////|////",
+        "|.|LLLLL|//////////|////",
+        "|.|-----|//////////|////",
+        "|.D....L|//////////|////",
+        "---------HHHHHHHHHH|////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "m": "t_floor",
+        "f": "t_floor",
+        "S": "t_floor",
+        "a": "t_floor",
+        "]": "t_floor",
+        "L": "t_floor",
+        "A": "t_floor",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "G": "t_door_glass_c",
+        "D": "t_door_metal_c",
+        "H": "t_reinforced_glass_shutter_open",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "f": "f_fridge",
+        "S": "f_sink",
+        "a": "f_table",
+        "L": "f_locker",
+        "]": "f_bookcase",
+        "m": "f_sofa"
+      },
+      "monster": {
+        "A": {"monster": "mon_secubot"}
+      },
+      "place_loot": [
+        {"group": "fridge"         , "chance": 100, "x":  4, "y":  6, "repeat": [10,20]},
+        {"group": "fridge"         , "chance": 100, "x":  5, "y":  6, "repeat": [10,20]},
+        {"group": "manuals"        , "chance":  30, "x":  3, "y": 10, "repeat": [ 2, 5]},
+        {"group": "textbooks"      , "chance":  30, "x":  4, "y": 10, "repeat": [ 2, 5]},
+        {"group": "mansion_books"  , "chance":  30, "x":  5, "y": 10, "repeat": [ 2, 5]},
+        {"group": "novels"         , "chance":  30, "x":  6, "y": 10, "repeat": [ 2, 5]},
+        {"group": "homebooks"      , "chance":  30, "x":  7, "y": 10, "repeat": [ 2, 5]},
+        {"group": "manuals"        , "chance":  30, "x":  3, "y": 12, "repeat": [ 2, 5]},
+        {"group": "textbooks"      , "chance":  30, "x":  4, "y": 12, "repeat": [ 2, 5]},
+        {"group": "mansion_books"  , "chance":  30, "x":  5, "y": 12, "repeat": [ 2, 5]},
+        {"group": "textbooks"      , "chance":  30, "x":  6, "y": 12, "repeat": [ 2, 5]},
+        {"group": "mansion_books"  , "chance":  30, "x":  7, "y": 12, "repeat": [ 2, 5]},
+        {"item" : "manual_ninjutsu", "chance": 100, "x":  7, "y": 12, "repeat": [ 1, 1]},
+        {"group": "office_mess"    , "chance":  20, "x":  3, "y": 14, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  4, "y": 14, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  5, "y": 14, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  6, "y": 14, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  7, "y": 14, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  3, "y": 16, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  4, "y": 16, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  5, "y": 16, "repeat": [ 2, 3]},
+        {"group": "office_mess"    , "chance":  20, "x":  6, "y": 16, "repeat": [ 2, 3]},
+        {"group": "file_room"      , "chance":  20, "x":  7, "y": 16, "repeat": [ 2, 3]},
+        {"group": "cleaning"       , "chance":  30, "x":  7, "y": 18, "repeat": [ 4, 5]},
+        {"item" : "bucket"         , "chance": 100, "x":  7, "y": 18, "repeat": [ 1, 2]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "3F NW",
+    "om_terrain" : ["ninja_tower_9"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////|-------------------",
+        "////|B[...r..r_.D Z Zwww",
+        "////|_.^..^.....|w Z Zww",
+        "////|.^+__+^.!.B|w  ZZ w",
+        "////|.^._....B..|www Z Z",
+        "////|r.._.[.^..r| Z ww Z",
+        "////|^.+..+..+._|ZwwZ wZ",
+        "////|^.r...^^.._|w wwZw ",
+        "////|^.....^..._|Uw www ",
+        "////|B.+..+..+._|wZZ wZ ",
+        "////|B.._...r.._| wZwZw ",
+        "////|^..[..^^..B|w ww   ",
+        "////|._+..+..+.B|wZw wZ ",
+        "////|....r.._[..| wZwww ",
+        "////|.^.........|wZw wZw",
+        "////|r.+..+..+[[|wwwwww ",
+        "////|B..........|       ",
+        "////|-D--HHH------------",
+        "////|T...mmm1|<R>|EEE|..",
+        "////|.......2|.R.|EEED.."
+      ],
+      "traps": {
+        "^": "tr_caltrops",
+        "[": "tr_shotgun_2",
+        "_": "tr_spike_pit",
+        "B": "tr_blade"
+      },
+      "monster": {
+        "r": {"monster": "mon_ninja_spring_floor"   },
+        "Z": {"monster": "mon_irradiated_wanderer_3"}
+      },
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        "+": "t_wall_metal",
+        ".": "t_floor",
+        "/": "t_open_air",
+        "w": "t_shrub",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "<": "t_stairs_up",
+        ">": "t_stairs_down",
+        "H": "t_reinforced_glass_shutter",
+        "^": "t_floor",
+        "T": "t_floor",
+        "!": "t_ninja_secret_door_metal_c",
+        "[": "t_floor",
+        "_": "t_floor",
+        "B": "t_floor",
+        "r": "t_floor",
+        "1": "t_floor",
+        "2": "t_floor",
+        "Z": "t_dirt",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "m": "f_sofa",
+        "1": "f_vending_c",
+        "2": "f_vending_reinforced"
+      },
+      "signs": {
+        "T": { "snippet": "ninja_snippet_combatroom1" }
+      },
+      "place_loot": [
+        {"item" : "ninja_shuriken"     , "chance": 100, "x": 12, "y": 23, "repeat": [10,10]},
+        {"item" : "ninja_shuriken_star", "chance": 100, "x": 12, "y": 23, "repeat": [10,10]},
+        {"item" : "9mm"                , "chance": 100, "x": 12, "y": 23, "repeat": [ 2, 2]},
+        {"item" : "shot_00"            , "chance": 100, "x": 12, "y": 23, "repeat": [ 2, 2]},
+        {"item" : "ninja_ration"       , "chance": 100, "x": 12, "y": 23, "repeat": [ 3, 3]},
+        {"group": "vending_drink"      , "chance": 100, "x": 12, "y": 22, "repeat": [ 4,48]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "3F NE",
+    "om_terrain" : ["ninja_tower_10"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "---------%//|------|////",
+        "wZ wwww|.%//|.LLLL.|////",
+        "  Z  ww|.%//|......|////",
+        "      w|.%//|.LLLL.|////",
+        " w  Z  |.%//|......|////",
+        "Z   w w|.%//|--DD--|////",
+        "    Z Z|.%//|......|////",
+        "Z w ZZ |.%//|%%%%%%|////",
+        " Z    w|.%//////////////",
+        " Z w  w|.%//////////////",
+        "    Z w|.%%%%%...%..////",
+        "Z wZZ w|......T.....////",
+        "      w|.......r....////",
+        "Z w  ww|--------D--%////",
+        "  ww  wD...........%////",
+        "Z  Z   |---------|.%////",
+        "    w w|.C.......|..////",
+        "----------|..C...|-|////",
+        "..|xEE|.R>|........|////",
+        "..DEEE|.R.|.....C..|////"
+      ],
+      "monster": {
+        "r": {"monster": "mon_ninja_spring_floor"   },
+        "C": {"monster": "mon_chickenbot"           },
+        "Z": {"monster": "mon_irradiated_wanderer_3"}
+      },
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "/": "t_open_air",
+        "w": "t_shrub",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        ">": "t_stairs_down",
+        "x": "t_console_broken",
+        "+": "t_door_c",
+        "H": "t_reinforced_glass_shutter_open",
+        "%": "t_chainfence_h",
+        "T": "t_floor",
+        "L": "t_floor",
+        "r": "t_floor",
+        "C": "t_floor",
+        "Z": "t_dirt",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "L": "f_locker"
+      },
+      "signs": {
+        "T": {"snippet": "ninja_snippet_const_warn"}
+      },
+      "place_loot": [
+        {"item" : "wire"              , "chance": 100, "x": 15, "y": 14, "repeat": [20,30]},
+        {"item" : "scrap"             , "chance": 100, "x": 14, "y": 14, "repeat": [20,30]},
+        {"item" : "2x4"               , "chance": 100, "x": 16, "y": 14, "repeat": [10,15]},
+        {"item" : "toolbox"           , "chance": 100, "x": 17, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "duct_tape"         , "chance": 100, "x": 18, "y": 15, "repeat": [ 2, 5]},
+        {"group": "ninja_rare_enagy"  , "chance": 100, "x": 14, "y":  5, "repeat": [ 8,10]},
+        {"group": "ninja_rare_special", "chance": 100, "x": 15, "y":  5, "repeat": [ 3, 5]},
+        {"group": "ninja_rare_ammo"   , "chance": 100, "x": 16, "y":  5, "repeat": [ 4, 6]},
+        {"group": "ninja_rare_gunmod" , "chance": 100, "x": 17, "y":  5, "repeat": [ 2, 4]},
+        {"group": "ammo_rare"         , "chance": 100, "x": 17, "y":  5, "repeat": [ 5,10]},
+        {"group": "guns_rare"         , "chance": 100, "x": 17, "y":  5, "repeat": [ 2, 3]},
+        {"group": "ninja_rare_chem"   , "chance": 100, "x": 14, "y":  7, "repeat": [ 5, 8]},
+        {"group": "ammo_swat"         , "chance": 100, "x": 15, "y":  7, "repeat": [ 3, 4]},
+        {"group": "bots"              , "chance": 100, "x": 16, "y":  7, "repeat": [ 4, 6]},
+        {"group": "ninja_rare_cbm"    , "chance": 100, "x": 17, "y":  7, "repeat": [ 2, 3]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "3F SW",
+    "om_terrain" : ["ninja_tower_11"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "////|.....---|...|EEED..",
+        "////|.....D_t|...|EEx|..",
+        "////|-D------|-D-|---|..",
+        "////HU.Y................",
+        "////H...................",
+        "////|-GG----------------",
+        "////H....M.M.M.T..e.e.e.",
+        "////H...................",
+        "////H....$.$.$....e.e.e.",
+        "////|...................",
+        "////|.......?======?....",
+        "////H..m.b.@=555555=@.b.",
+        "////Hn.m.b..=555555=..b.",
+        "////HV.m.b..=555555=..b.",
+        "////|V......=555555=....",
+        "////|..m.b..=555555=..b.",
+        "////H..m.b.@=555555=@.b.",
+        "////H..m.b..?======?..b.",
+        "////HU..................",
+        "////|HHH--HHH--HHH--HHH-",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "x": "t_console_broken",
+        "H": "t_reinforced_glass_shutter_open",
+        "?": "t_chainfence_posts",
+        "=": "t_fence_rope",
+        "$": "t_floor",
+        "e": "t_floor",
+        "b": "t_floor",
+        "M": "t_floor",
+        "5": "t_floor",
+        "V": "t_floor",
+        "Y": "t_floor",
+        "T": "t_floor",
+        "n": "t_floor",
+        "t": "t_linoleum_white",
+        "_": "t_linoleum_white",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "m": "f_sofa",
+        "e": "f_exercise",
+        "b": "f_bench",
+        "M": "f_bigmirror",
+        "5": "f_canvas_floor",
+        "n": "f_trashcan",
+        "V": "f_vending_c",
+        "$": "f_floor_canvas"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "signs": {
+        "Y": {"snippet": "ninja_snippet_combatroom2"},
+        "T": {"snippet": "ninja_snippet_dojo"}
+      },
+      "place_loot": [
+        {"group": "vending_drink", "chance": 100, "x": [ 5, 5], "y": [13,14], "repeat": [ 4,12]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "3F SE",
+    "om_terrain" : ["ninja_tower_12"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "..DEEE|...|........|////",
+        "..|EEE|...|........|////",
+        "..|---|-D-|--------|////",
+        "...................|////",
+        "...................|////",
+        "-----------D-------|////",
+        "...|...............|////",
+        "...|...............|////",
+        "...|.Y..........Y..|////",
+        "...|...&######&...#|////",
+        "...|...#@####@#...#|////",
+        "...|...########....|////",
+        "...|...########...#|////",
+        "...|...########...#|////",
+        "...|...########....|////",
+        "...|...#@####@#...#|////",
+        "...|...&######&...#|////",
+        "...|.Y..........Y..|////",
+        "...|...............|////",
+        "-HH----------------|////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "D": "t_door_metal_c",
+        "H": "t_reinforced_glass_shutter_open",
+        ".": "t_floor",
+        "@": "t_floor"
+      },
+      "furniture": {
+        "#": "f_tatami",
+        "&": "f_tatami",
+        "@": "f_tatami"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "fields": {
+        "Y": {"field": "fd_fire", "age": 1, "density": 1 },
+        "&": {"field": "fd_fire", "age": 1, "density": 1 }
+      },
+      "traps": {
+        "Y": "tr_brazier",
+        "&": "tr_brazier"
+      },
+      "place_loot": [
+        {"item": "2x4", "chance": 100, "x":  5, "y":  8, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x": 16, "y":  8, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x":  5, "y": 17, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x": 16, "y": 17, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x":  7, "y":  9, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x": 14, "y":  9, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x":  7, "y": 16, "repeat": [ 3, 5]},
+        {"item": "2x4", "chance": 100, "x": 14, "y": 16, "repeat": [ 3, 5]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "4F NW",
+    "om_terrain" : ["ninja_tower_13"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_pavement",
+      "rows": [
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////%%%%%%%%%%%%%%%%%%%%",
+        "////%U                  ",
+        "////%                   ",
+        "////%       ,,,,,       ",
+        "////%      ,     ,      ",
+        "////%     ,       ,     ",
+        "////%    ,  ,   ,  ,    ",
+        "////%    ,  ,   ,  ,    ",
+        "////%    ,  ,,,,,  ,    ",
+        "////%    ,  ,   ,  ,    ",
+        "////%    ,  ,   ,  ,    ",
+        "////%     ,       ,     ",
+        "////%      ,     ,      ",
+        "////%       ,,,,,       ",
+        "////%                   ",
+        "////%                   ",
+        "////%                   ",
+        "////%        |---|---|..",
+        "////%        |>R.|EEE|..",
+        "////%        |.R.|EEED.."
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "/": "t_open_air",
+        "%": "t_chainfence_h",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        ">": "t_stairs_down",
+        ",": "t_pavement_y",
+        "U": "t_utility_light"
+      }
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "3F NE",
+    "om_terrain" : ["ninja_tower_14"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "-----%%%%%-----%%%%%////",
+        "?w444wwwww44444ww U%////",
+        "?44ww     wwwww    %////",
+        "?4ww  ~~~  www     %////",
+        "64w  ~~~~~  w      %////",
+        "|w  ~~~~~~~        %////",
+        "|   ~~~~~~~~~      %////",
+        "|w   ~~~~~~~~      %////",
+        "|4w                %////",
+        "|=.......=.......= %////",
+        "|=###############= %////",
+        "|=#&#####@#####&#= %////",
+        "|=###############= %////",
+        "|=#&#####@#####&#= %////",
+        "|=###############= %////",
+        "|=...............= %////",
+        "|................. %////",
+        "|.^             4  %////",
+        "|.^            P  w%////",
+        "|.^              ww%////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "#": "t_floor",
+        "@": "t_floor",
+        "&": "t_floor",
+        "^": "t_floor",
+        "/": "t_open_air",
+        "%": "t_chainfence_h",
+        "w": "t_shrub",
+        "4": "t_tree_pine",
+        "~": "t_water_sh",
+        "=": "t_wall_wood",
+        "P": "t_water_pump",
+        "6": "t_ninja_secret_gate_control_metal",
+        "?": "t_ninja_secret_wall_metal",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "#": "f_tatami",
+        "@": "f_tatami",
+        "&": "f_tatami"
+      },
+      "fields": {
+        "&": {"field": "fd_fire", "age": 1, "density": 1 }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_high_ninja" }
+      },
+      "traps": {
+        "&": "tr_brazier",
+        "^": "tr_caltrops"
+      },
+      "place_loot": [
+        {"item": "2x4", "chance": 100, "x":  3, "y": 15, "repeat": [20,30]},
+        {"item": "2x4", "chance": 100, "x":  3, "y": 17, "repeat": [20,30]},
+        {"item": "2x4", "chance": 100, "x": 15, "y": 15, "repeat": [20,30]},
+        {"item": "2x4", "chance": 100, "x": 15, "y": 17, "repeat": [20,30]},
+
+        {"group": "ninja_rare_special", "chance": 100, "x":  1, "y":  5, "repeat": [ 1, 1]}
+      ],
+      "place_monster": [
+        {"monster": "mon_fish_carp", "x":[ 5, 9], "y":[ 8,11], "repeat": [ 3, 8]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "4F SW",
+    "om_terrain" : ["ninja_tower_15"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_pavement",
+      "rows": [
+        "////%        |...|EEED..",
+        "////%        |...|EEx|..",
+        "////%        |-D-|---|..",
+        "////%        |..........",
+        "////%        |U.........",
+        "////% |-HGGH------------",
+        "////% |......mmmmm.^^^^G",
+        "////% H.............^^^G",
+        "////% H.hhh..@...@...^^|",
+        "////% |.aaa..........|-|",
+        "////% |.aaa..@...@...D__",
+        "////% H.hhh..........|__",
+        "////% H........U...LL|_t",
+        "////% |-------D-D-------",
+        "////% |........|........",
+        "////% H.B.B.B..|..B.B.B.",
+        "////% H.B.B.B..|..B.B.B.",
+        "////% |--HH---------HH--",
+        "////%U                  ",
+        "////%%%%%%%%%%%%%%%%%%%%",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "%": "t_chainfence_h",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "x": "t_console_broken",
+        "H": "t_reinforced_glass_shutter_open",
+        "t": "t_linoleum_white",
+        "_": "t_linoleum_white",
+        "h": "t_floor",
+        "a": "t_floor",
+        "B": "t_floor",
+        "m": "t_floor",
+        "@": "t_floor",
+        "L": "t_floor",
+        "^": "t_floor",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "h": "f_chair",
+        "a": "f_table",
+        "L": "f_locker",
+        "B": "f_bed",
+        "m": "f_sofa"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "npcs": {
+        "@": {"class": "ninja_npc_ninja" }
+      },
+      "traps": {
+        "^": "tr_caltrops",
+        "t": "tr_shotgun_2"
+      },
+      "place_loot": [
+        {"group": "waitingroom"     , "chance":  60, "x": 20, "y": 12, "repeat": [ 2, 4]},
+        {"group": "office_breakroom", "chance":  60, "x": 19, "y": 12, "repeat": [ 2, 4]},
+        {"item" : "pillow"          , "chance": 100, "x":  8, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "pillow"          , "chance": 100, "x": 10, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "pillow"          , "chance": 100, "x": 12, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "pillow"          , "chance": 100, "x": 18, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "pillow"          , "chance": 100, "x": 20, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "pillow"          , "chance": 100, "x": 22, "y": 15, "repeat": [ 1, 1]},
+        {"item" : "blanket"         , "chance": 100, "x":  8, "y": 16, "repeat": [ 1, 1]},
+        {"item" : "blanket"         , "chance": 100, "x": 10, "y": 16, "repeat": [ 1, 1]},
+        {"item" : "blanket"         , "chance": 100, "x": 12, "y": 16, "repeat": [ 1, 1]},
+        {"item" : "blanket"         , "chance": 100, "x": 18, "y": 16, "repeat": [ 1, 1]},
+        {"item" : "blanket"         , "chance": 100, "x": 20, "y": 16, "repeat": [ 1, 1]},
+        {"item" : "blanket"         , "chance": 100, "x": 22, "y": 16, "repeat": [ 1, 1]}
+      ]
+    }
+  },{
+    "type" : "mapgen",
+    "//" : "4F SE",
+    "om_terrain" : ["ninja_tower_16"],
+    "method": "json",
+    "weight": 150,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "|???---------------|////",
+        "|..6^.|..a....F..mUH////",
+        "|..|..|.........vm.H////",
+        "...|..|.....mmmmmm.H////",
+        "...D..|............H////",
+        "-.U|..|..|---------H////",
+        "...|..|..|[[]]...BBH////",
+        "...|.....D.......BBH////",
+        "...|^....|.........H////",
+        "|--|---.|----------|////",
+        "|LL|__D.D____G__WWWH////",
+        "|v.|t_|.|e_bb|S_WWWH////",
+        "|D-----.-----------|////",
+        "|.gPkfc...........^H////",
+        "|....vc...h.h.h....H////",
+        "|.ccccc...aaaaa....H////",
+        "|.........aaaaa....H////",
+        "|.........h.h.h....H////",
+        "|^................U|////",
+        "--HHHHHHHHHHHHHHHH-|////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////",
+        "////////////////////////"
+      ],
+      "terrain": {
+        "-": "t_wall_metal",
+        "|": "t_wall_metal",
+        ".": "t_floor",
+        "s": "t_sidewalk",
+        "/": "t_open_air",
+        "E": "t_elevator",
+        "R": "t_railing_v",
+        "D": "t_door_metal_c",
+        "G": "t_door_glass_c",
+        "<": "t_stairs_up",
+        ">": "t_stairs_down",
+        "x": "t_console_broken",
+        "+": "t_door_c",
+        "6": "t_ninja_secret_gate_control_metal",
+        "?": "t_ninja_secret_wall_metal",
+        "H": "t_reinforced_glass_shutter_open",
+        "e": "t_linoleum_white",
+        "W": "t_linoleum_white",
+        "S": "t_linoleum_white",
+        "t": "t_linoleum_white",
+        "_": "t_linoleum_white",
+        "b": "t_linoleum_white",
+        "P": "t_water_pump",
+        "c": "t_floor",
+        "h": "t_floor",
+        "l": "t_floor",
+        "^": "t_floor",
+        "f": "t_floor",
+        "g": "t_floor",
+        "k": "t_floor",
+        "B": "t_floor",
+        "]": "t_floor",
+        "[": "t_floor",
+        "F": "t_floor",
+        "m": "t_floor",
+        "v": "t_floor",
+        "U": "t_utility_light"
+      },
+      "furniture": {
+        "e": "f_exercise",
+        "W": "f_bathtub",
+        "S": "f_shower",
+        "b": "f_bench",
+        "c": "f_counter",
+        "h": "f_chair",
+        "L": "f_locker",
+        "f": "f_fridge",
+        "g": "f_oven",
+        "k": "f_sink",
+        "a": "f_table",
+        "B": "f_bed",
+        "]": "f_bookcase",
+        "[": "f_dresser",
+        "m": "f_sofa",
+        "F": "f_fireplace",
+        "^": "f_indoor_plant"
+      },
+      "toilets": {
+        "t": { }
+      },
+      "traps": {
+        "v": "tr_shotgun_2"
+      },
+      "place_loot": [
+        {"item" : "pillow"    , "chance": 100, "x": 17, "y":  6, "repeat": [ 1, 1]},
+        {"item" : "pillow"    , "chance": 100, "x": 18, "y":  6, "repeat": [ 1, 1]},
+        {"item" : "blanket"   , "chance": 100, "x": 17, "y":  7, "repeat": [ 1, 1]},
+        {"item" : "blanket"   , "chance": 100, "x": 18, "y":  7, "repeat": [ 1, 1]},
+        {"item" : "television", "chance": 100, "x":  9, "y":  1, "repeat": [ 1, 1]},
+        {"group": "homebooks" , "chance": 100, "x": 12, "y":  6, "repeat": [ 1, 2]},
+        {"group": "livingroom", "chance": 100, "x": 17, "y":  2, "repeat": [ 1, 2]},
+        {"group": "novels"    , "chance": 100, "x": 13, "y":  6, "repeat": [ 3, 5]},
+        {"group": "fridge"    , "chance": 100, "x":  5, "y": 13, "repeat": [10,20]},
+        {"group": "cannedfood", "chance": 100, "x":  1, "y": 10, "repeat": [ 5,10]},
+        {"group": "cannedfood", "chance": 100, "x":  2, "y": 10, "repeat": [ 5,10]}
+      ]
+    }
+  }
+]
