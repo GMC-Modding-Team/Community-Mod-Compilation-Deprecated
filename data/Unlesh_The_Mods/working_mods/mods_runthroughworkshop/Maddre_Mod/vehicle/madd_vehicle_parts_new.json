@@ -2,7 +2,7 @@
   {
     "type": "vehicle_part",
     "id": "madd_internal_tank_small",
-    "name": "internal tank (100L)",
+    "name": { "str": "internal tank (100L)" },
     "symbol": "O",
     "color": "light_gray",
     "broken_symbol": "Q",
@@ -19,14 +19,14 @@
     "id": "madd_internal_tank",
     "copy-from": "madd_internal_tank_small",
     "type": "vehicle_part",
-    "name": "internal tank (200L)",
+    "name": { "str": "internal tank (200L)" },
     "item": "55gal_drum",
     "size": 200000
   },
   {
     "type": "vehicle_part",
     "id": "madd_concrete_mixer",
-    "name": "concrete mixer",
+    "name": { "str": "concrete mixer" },
     "symbol": "$",
     "color": "dark_gray",
     "broken_symbol": "$",

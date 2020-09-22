@@ -2,7 +2,7 @@
   {
     "id": "summon_target",
     "type": "SPELL",
-    "name": "Mark Target",
+    "name": { "str": "Mark Target" },
     "description": "Blaze your path, burn this place.",
     "valid_targets": [ "ground" ],
     "min_damage": 1,
@@ -31,7 +31,7 @@
   {
     "id": "mon_target",
     "type": "MONSTER",
-    "name": "marked target",
+    "name": { "str": "marked target" },
     "description": "You marked it, you shoot it.",
     "default_faction": "factionless",
     "species": [ "UNKNOWN" ],
@@ -52,7 +52,7 @@
   {
     "id": "bookofaim",
     "type": "GENERIC",
-    "name": "You Point, I Shoot.",
+    "name": { "str": "You Point, I Shoot." },
     "description": "A turret's autobiography involving a dom commander who points out targets. Weird.",
     "weight": "1 g",
     "volume": "1 ml",

@@ -2,7 +2,7 @@
   {
     "id": "mon_mirror_image",
     "type": "MONSTER",
-    "name": "hologram",
+    "name": { "str": "hologram" },
     "description": "An image made from light, nearly identical to the real deal.",
     "looks-like": "player",
     "default_faction": "factionless",
@@ -26,7 +26,7 @@
   {
     "id": "mon_animated_blade",
     "type": "MONSTER",
-    "name": "animated blade",
+    "name": { "str": "animated blade" },
     "description": "A conjured glowing longsword that darts and dodges around, slicing and cutting your foes into small pieces.",
     "looks-like": "longsword",
     "default_faction": "player",

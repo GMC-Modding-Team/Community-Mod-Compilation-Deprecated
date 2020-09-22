@@ -3,7 +3,7 @@
     "note": "Portal's health is their lifetime, in turns.",
     "id": "mon_dmbb_spawner_zed1",
     "type": "MONSTER",
-    "name": "portal",
+    "name": { "str": "portal" },
     "description": "An interdimensional rift leading horrors through.",
     "default_faction": "zombie",
     "species": [ "UNKNOWN" ],
@@ -52,7 +52,7 @@
   {
     "id": "mon_dmbb_spawner_zed2",
     "type": "MONSTER",
-    "name": "portal",
+    "name": { "str": "portal" },
     "description": "An interdimensional rift leading horrors through.",
     "default_faction": "zombie",
     "species": [ "UNKNOWN" ],
@@ -101,7 +101,7 @@
   {
     "id": "mon_dmbb_spawner_survival1_zed",
     "type": "MONSTER",
-    "name": "portal",
+    "name": { "str": "portal" },
     "description": "An interdimensional rift leading horrors through. It has a solid outline, and a prominent magenta hue that shifts and distorts.",
     "default_faction": "zombie",
     "species": [ "UNKNOWN" ],

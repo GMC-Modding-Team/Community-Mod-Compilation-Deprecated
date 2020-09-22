@@ -3,7 +3,7 @@
     "id": "iv_mutagen_tortoise",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "tortoise serum",
+    "name": { "str": "tortoise serum" },
     "color": "light_green",
     "flags": "MUTAGEN_TORTOISE"
   },
@@ -11,7 +11,7 @@
     "id": "mutagen_tortoise",
     "copy-from": "mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "tortoise mutagen",
+    "name": { "str": "tortoise mutagen" },
     "flags": [ "MUTAGEN_TORTOISE" ]
   }
 ]
