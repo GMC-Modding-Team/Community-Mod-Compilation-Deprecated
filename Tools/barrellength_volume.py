@@ -3,7 +3,7 @@
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
 # For Windows:
-# Using command prompt type "python weight_update.py"
+# Using command prompt type "python barrellength_volume.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -26,16 +26,23 @@ def gen_new(path):
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            # And only if they have weight
-            if not jo.get('weight'):
-                continue
-            # Mapgen uses the wrong type of weight, so we exclude it.
-            elif jo.get('type') in ['mapgen', 'overmap_terrain', 'mod_tileset']:
-                continue
-            # We're only looking for integers.
-            elif isinstance(jo.get('weight'), int):
-                weight = jo['weight']
-                jo['weight'] = str(weight) + ' g'
+            if type(jo.get('volume')) != str and jo.get('volume') \
+                    and jo.get('type') != 'sound_effect':
+                volume = jo['volume']
+                volume *= 250
+                if volume > 10000 and volume % 1000 == 0:
+                    jo['volume'] = str(int(volume/1000)) + ' L'
+                else:
+                    jo['volume'] = str(volume) + ' ml'
+                change = True
+            if jo.get('barrel_length'):
+                if type(jo['barrel_length']) == int:
+                    barrel_length = jo['barrel_length']
+                    barrel_length *= 250
+                    jo['barrel_volume'] = str(barrel_length) + ' ml'
+                elif type(jo['barrel_length']) == str:
+                    jo['barrel_volume'] = jo['barrel_length']
+                del jo['barrel_length']
                 change = True
 
     return json_data if change else None
