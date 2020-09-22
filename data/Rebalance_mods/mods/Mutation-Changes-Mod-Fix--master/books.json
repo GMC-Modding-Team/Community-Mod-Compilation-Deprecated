@@ -40,7 +40,7 @@
   {
     "type": "BOOK",
     "id": "recipe_maiar",
-    "name": "lab journal-x-|xp",
+    "name": { "str": "lab journal-x-|xp" },
     "str_pl": "lab journals-x-|xp",
     "description": "This damaged team logbook lacks (deliberately?) any identifying information, but still contains useful information on several types of mutagen and their development.",
     "weight": "1700 g",
@@ -145,7 +145,7 @@
     "intelligence": 10,
     "symbol": "?",
     "material": [ "paper", "plastic" ],
-    "volume": 7,
+    "volume": "1750 ml",
     "bashing": 5,
     "time": 35,
     "fun": -2,

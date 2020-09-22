@@ -136,7 +136,7 @@
   {
     "id": "sp_mana_siphon",
     "type": "SPELL",
-    "name": "Mana Siphon",
+    "name": { "str": "Mana Siphon" },
     "description": "This is the spell portion of the mana siphon series of mutations.  If you have this spell you probably debugged it in.",
     "valid_targets": [ "self" ],
     "min_damage": 5,
@@ -212,7 +212,7 @@
   {
     "type": "mutation",
     "id": "MANA_REGEN_MANATOUCHED",
-    "name": "Manatouched Mana Regeneration",
+    "name": { "str": "Manatouched Mana Regeneration" },
     "points": 10,
     "description": "Your natural mana regeneration is much faster than normal.",
     "prereqs": [ "MANA_REGEN2" ],
@@ -225,7 +225,7 @@
   {
     "type": "mutation",
     "id": "MANA_MULT_MANATOUCHED",
-    "name": "Manatouched Mana Sensitivity",
+    "name": { "str": "Manatouched Mana Sensitivity" },
     "points": 10,
     "description": "You can sense the mana in your body much better than normal, allowing you to tap into more of your reserves.",
     "cancels": [ "BAD_MANA_MULT1", "BAD_MANA_MULT2", "BAD_MANA_MULT3" ],
