@@ -2,7 +2,7 @@
   {
     "id": "DMBB_ORB_clear_barrier",
     "type": "SPELL",
-    "name": "Remove Barrier",
+    "name": { "str": "Remove Barrier" },
     "description": "\"Mhmm, me sad no shield.\"",
     "message": "",
     "flags": [ "SILENT", "IGNORE_WALLS" ],
@@ -15,7 +15,7 @@
   {
     "id": "DMBB_ORB_atk_oof",
     "type": "SPELL",
-    "name": "Attacked",
+    "name": { "str": "Attacked" },
     "description": "\"pls help\"",
     "message": "",
     "flags": [ "SILENT", "IGNORE_WALLS" ],
@@ -28,7 +28,7 @@
   {
     "id": "DMBB_ORB_atk_oofed",
     "type": "SPELL",
-    "name": "Was Attacked",
+    "name": { "str": "Was Attacked" },
     "description": "\"am okay.\"",
     "message": "",
     "flags": [ "SILENT", "IGNORE_WALLS" ],
@@ -41,7 +41,7 @@
   {
     "id": "DMBB_ORB_atk",
     "type": "SPELL",
-    "name": "Lightray",
+    "name": { "str": "Lightray" },
     "description": "\"You shall bath in light!\"",
     "message": "",
     "flags": [ "LOUD", "RANDOM_TARGET" ],
@@ -61,7 +61,7 @@
   {
     "id": "DMBB_ORB_atk_self",
     "type": "SPELL",
-    "name": "Touched",
+    "name": { "str": "Touched" },
     "description": "\"Oof!\"",
     "message": "",
     "flags": [ "LOUD" ],
@@ -79,7 +79,7 @@
   {
     "type": "SPELL",
     "id": "DMBB_ORB_penitence_holylight",
-    "name": "Holy Light",
+    "name": { "str": "Holy Light" },
     "description": "Causes the monster to transform into a divine shade.",
     "flags": [ "SILENT", "FRIENDLY_POLY" ],
     "valid_targets": [ "ally", "hostile" ],
@@ -93,7 +93,7 @@
   {
     "id": "DMBB_ORB_cleanse_portal",
     "type": "SPELL",
-    "name": "Cleanse",
+    "name": { "str": "Cleanse" },
     "description": "\"Chill!\"",
     "message": "",
     "flags": [ "LOUD", "RANDOM_TARGET" ],
@@ -111,7 +111,7 @@
   {
     "id": "DMBB_ORB_cleanse_portal_target",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets hostile.",
     "valid_targets": [ "hostile" ],
     "min_range": 69,
@@ -123,7 +123,7 @@
   {
     "id": "DMBB_ORB_check",
     "type": "SPELL",
-    "name": "Check",
+    "name": { "str": "Check" },
     "description": "\"They trespass?! Not gonna happen!\"",
     "message": "",
     "valid_targets": [ "self" ],
@@ -134,7 +134,7 @@
   {
     "id": "DMBB_ORB_check_target1",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Then hostiles.",
     "valid_targets": [ "hostile" ],
     "extra_effects": [ { "id": "DMBB_ORB_check", "hit_self": true } ],
@@ -374,7 +374,7 @@
   {
     "id": "DMBB_ORB_check_target2",
     "type": "SPELL",
-    "name": "Target",
+    "name": { "str": "Target" },
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_check_target1" } ],
@@ -383,7 +383,7 @@
   {
     "id": "DMBB_ORB_PC_hevpro_blight",
     "type": "SPELL",
-    "name": "Blight",
+    "name": { "str": "Blight" },
     "description": "\"You shall bath in light! Just a little!\"",
     "message": "",
     "flags": [ "LOUD", "RANDOM_DURATION" ],
@@ -397,7 +397,7 @@
   {
     "id": "DMBB_ORB_PC_consecrate_c",
     "type": "SPELL",
-    "name": "Consecrate",
+    "name": { "str": "Consecrate" },
     "description": "\"Burn!!!\"",
     "message": "",
     "flags": [ "LOUD" ],

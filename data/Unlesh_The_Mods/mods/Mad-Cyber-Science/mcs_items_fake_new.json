@@ -3,7 +3,7 @@
     "id": "fake_tool_light",
     "copy-from": "fake_item",
     "type": "TOOL",
-    "name": "bionic toolset",
+    "name": { "str": "bionic toolset" },
     "qualities": [
       [ "CUT", 2 ],
       [ "CUT_FINE", 2 ],
@@ -28,7 +28,7 @@
     "id": "fake_tool_heavy",
     "copy-from": "fake_item",
     "type": "TOOL",
-    "name": "bionic rescue tool",
+    "name": { "str": "bionic rescue tool" },
     "qualities": [
       [ "CUT", 1 ],
       [ "SAW_W", 2 ],

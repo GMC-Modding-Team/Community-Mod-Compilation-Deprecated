@@ -2,7 +2,7 @@
   {
     "id": "DMBB_ORB_death",
     "type": "SPELL",
-    "name": "Death",
+    "name": { "str": "Death" },
     "description": "I die, you die.",
     "message": "<color_light_red>Your body starts to fade out from existence after failing to defend the orb...</color>",
     "flags": [ "SILENT", "RANDOM_TARGET" ],
@@ -15,7 +15,7 @@
   {
     "id": "DMBB_ORB_act_blindingflash_stun",
     "type": "SPELL",
-    "name": "Blinding Flash",
+    "name": { "str": "Blinding Flash" },
     "description": "Taste the light.",
     "message": "<color_light_green>The orb radiates blinding rays in all direction!</color>",
     "extra_effects": [ { "id": "DMBB_ORB_act_blindingflash_blind", "hit_self": true } ],
@@ -130,7 +130,7 @@
   {
     "id": "DMBB_ORB_act_blindingflash_blind",
     "type": "SPELL",
-    "name": "Blinding Flash",
+    "name": { "str": "Blinding Flash" },
     "description": "Taste the light.",
     "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DURATION" ],
     "valid_targets": [ "hostile" ],
@@ -238,7 +238,7 @@
   {
     "id": "DMBB_ORB_act_shockstorm_zap",
     "type": "SPELL",
-    "name": "Shockstorm",
+    "name": { "str": "Shockstorm" },
     "description": "Taste the shock.",
     "message": "<color_light_green>The orb calls forth thunderstrikes!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS", "RANDOM_DURATION" ],
@@ -358,7 +358,7 @@
   {
     "id": "DMBB_ORB_act_inferno_fire",
     "type": "SPELL",
-    "name": "Inferno",
+    "name": { "str": "Inferno" },
     "description": "Taste the flames.",
     "message": "<color_light_green>The orb blasts an infernal explosion!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS", "RANDOM_DURATION" ],
@@ -472,7 +472,7 @@
   {
     "id": "DMBB_ORB_act_blizzard_ice",
     "type": "SPELL",
-    "name": "Blizzard",
+    "name": { "str": "Blizzard" },
     "description": "Taste the frost.",
     "message": "<color_light_green>The orb created a hail of ice!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS", "RANDOM_DURATION" ],
@@ -585,7 +585,7 @@
   {
     "id": "DMBB_ORB_act_judgement_judge",
     "type": "SPELL",
-    "name": "Judgment",
+    "name": { "str": "Judgment" },
     "description": "Taste the divine light.",
     "message": "<color_yellow>The orb channels itself...</color>\n<color_light_green>Moments after, all monsters were struck by divine light!</color>",
     "flags": [ "LOUD", "IGNORE_WALLS" ],

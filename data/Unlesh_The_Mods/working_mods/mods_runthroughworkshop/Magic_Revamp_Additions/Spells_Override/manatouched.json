@@ -2,7 +2,7 @@
   {
     "id": "manatouched_crystal",
     "type": "SPELL",
-    "name": "Crystallize Mana",
+    "name": { "str": "Crystallize Mana" },
     "description": "Crystallizes mana into solid form.  Your physiological changes have made this spell much more efficient and easier to cast.",
     "valid_targets": [ "self" ],
     "spell_class": "MANA_CRYST_MANA",
@@ -24,7 +24,7 @@
   {
     "id": "manatouched_seeker_bolts",
     "type": "SPELL",
-    "name": "Seeker Bolts",
+    "name": { "str": "Seeker Bolts" },
     "effect": "projectile_attack",
     "description": "Fires bolts of mana from your fingertips that home in on randomly selected targets in range.",
     "valid_targets": [ "hostile" ],
