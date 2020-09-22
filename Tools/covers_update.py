@@ -55,6 +55,8 @@ def gen_new(path):
                     joc.append("mouth")
                 elif bodypart == "TORSO":
                     joc.append("torso")
+                else:
+                    joc.append(bodypart)
             jo["covers"] = joc
             change = True
 
