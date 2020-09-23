@@ -35,7 +35,7 @@
     "id": "flash",
     "cooldown": 5,
     "move_cost": 20,
-    "damage_max_instance": [ { "damage_type": "true", "amount": 3 } ],
+    "damage_max_instance": [ { "damage_type": "pure", "amount": 3 } ],
     "effects": [ { "id": "blind", "duration": 2 }, { "id": "darkness", "duration": 10 } ],
     "body_parts": [ [ "eyes", 4 ] ],
     "hit_dmg_u": "The %1$s flashes you!",
