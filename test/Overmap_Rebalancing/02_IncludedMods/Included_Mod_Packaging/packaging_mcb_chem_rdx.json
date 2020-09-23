@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_chem_rdx",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (rdx)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 75 units of rdx.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 7500,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_chem_rdx",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "chem_rdx", 75 ] ] ]
+  }
+]

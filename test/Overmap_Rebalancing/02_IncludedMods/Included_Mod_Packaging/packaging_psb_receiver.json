@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_portable_storage_box_with_receiver",
+    "symbol": "]",
+    "color": "light_gray",
+    "name": "storage box (signal receivers)",
+    "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 signal receivers.",
+    "price": 10000,
+    "material": [ "wood", "steel" ],
+    "weight": 9410,
+    "volume": 50
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_portable_storage_box_with_receiver",
+    "time": 10000,
+    "components": [ [ [ "packaging_portable_storage_box", 1 ] ], [ [ "receiver", 65 ] ] ]
+  }
+]

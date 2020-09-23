@@ -1,0 +1,325 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_40mm_deluxe",
+    "entries": [ { "item": "40mm_frag", "count": 5 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_m4_deluxe_vest",
+    "entries": [
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 },
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 },
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 },
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_m4_deluxe_rig",
+    "entries": [
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 },
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 },
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 },
+      { "item": "stanag30", "ammo-item": "556", "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_m4_deluxe_leg",
+    "entries": [ { "item": "stanag30", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30 } ]
+  },
+  {
+    "type": "profession",
+    "ident": "priest_armed",
+    "name": "Armed Priest",
+    "description": "When the apocalypse struck, you did everything you could to protect your parish faithful, but it appears that prayers were not enough.  Now that they are all dead, equip your gun and stride forth to bring the word of God to the heathen damned, by word, by blade, or by bullet if so required...",
+    "points": 0,
+    "skills": [
+      { "level": 50, "name": "speech" },
+      { "level": 25, "name": "pistol" },
+      { "level": 35, "name": "dodge" },
+      { "level": 50, "name": "barter" },
+      { "level": 35, "name": "gun" },
+      { "level": 25, "name": "cutting" },
+      { "level": 25, "name": "cooking" },
+      { "level": 25, "name": "stabbing" },
+      { "level": 25, "name": "melee" },
+      { "level": 20, "name": "firstaid" },
+      { "level": 35, "name": "shotgun" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants",
+          "longshirt",
+          "cassock",
+          "survivor_rucksack",
+          "socks_wool",
+          "holster",
+          "bandages",
+          "bandages",
+          "kevlar",
+          "dress_shoes",
+          "holy_symbol",
+          "crackpipe",
+          "holybook_bible1",
+          "crack",
+          "ref_lighter"
+        ],
+        "entries": [
+          { "item": "longsword", "container-item": "baldric" },
+          {
+            "item": "mossberg_500",
+            "ammo-item": "shot_00",
+            "charges": 8,
+            "contents-item": [
+              "shoulder_strap",
+              "brass_catcher",
+              "barrel_small",
+              "light_grip",
+              "tuned_mechanism",
+              "waterproof_gunmod",
+              "match_trigger",
+              "rail_laser_sight",
+              "holo_sight",
+              "folding_stock",
+              "sword_bayonet"
+            ]
+          },
+          { "item": "shot_00", "charges": 300 }
+        ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
+    "addictions": [ { "intensity": 20, "type": "crack" } ],
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "infantry_plus",
+    "name": "Unlucky Infantry",
+    "description": "An Army Veteran who bit off more than he can chew...",
+    "points": 3,
+    "skills": [
+      { "level": 10, "name": "mechanics" },
+      { "level": 25, "name": "firstaid" },
+      { "level": 10, "name": "melee" },
+      { "level": 10, "name": "stabbing" },
+      { "level": 10, "name": "unarmed" },
+      { "level": 20, "name": "dodge" },
+      { "level": 10, "name": "barter" },
+      { "level": 25, "name": "gun" },
+      { "level": 25, "name": "rifle" },
+      { "level": 10, "name": "shotgun" },
+      { "level": 10, "name": "pistol" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "gloves_tactical",
+          "heavy_flashlight",
+          "pants_army",
+          "legrig",
+          "legrig",
+          "boots_combat",
+          "glasses_bal",
+          "helmet_liner",
+          "helmet_army",
+          "army_top",
+          "rucksack",
+          "chestrig",
+          "jacket_army",
+          "socks_wool",
+          "holster",
+          "balclava",
+          "bandages",
+          "bandages",
+          "gloves_liner",
+          "wearable_light",
+          "id_military",
+          "rad_monitor",
+          "elbow_pads",
+          "knee_pads",
+          "goggles_nv",
+          "battery",
+          "mask_gas",
+          "mask_filter",
+          "mask_filter",
+          "dump_pouch",
+          "binoculars",
+          "mil_mess_kit",
+          "pur_tablets",
+          "militarymap",
+          "two_way_radio"
+        ],
+        "entries": [
+          { "item": "legpouch_large", "contents-group": "army_mags_40mm_deluxe" },
+          { "item": "legpouch_large", "contents-group": "army_mags_m4_deluxe_leg" },
+          { "item": "modularvestceramic", "contents-group": "army_mags_m4_deluxe_vest" },
+          { "item": "chestrig", "contents-group": "army_mags_m4_deluxe_rig" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          {
+            "item": "m4a1",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "shoulder_strap",
+              "suppressor",
+              "brass_catcher",
+              "barrel_small",
+              "light_grip",
+              "tuned_mechanism",
+              "waterproof_gunmod",
+              "match_trigger",
+              "rail_laser_sight",
+              "holo_sight",
+              "folding_stock",
+              "m203"
+            ]
+          },
+          { "item": "556", "charges": 200 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "convict_plus",
+    "name": "Unlucky Convict",
+    "description": "The cataclysm gave you a chance to escape, but freedom comes with a steep price.",
+    "points": 0,
+    "skills": [ { "level": 1, "name": "melee" } ],
+    "items": {
+      "both": [ "crackpipe", "crack", "striped_shirt", "striped_pants", "glass_shiv", "ref_lighter" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
+    "addictions": [ { "intensity": 50, "type": "crack" } ],
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "idiot_armed",
+    "name": "Church Militia",
+    "description": "Deus Vult!",
+    "points": -2,
+    "skills": [
+      { "level": 7, "name": "speech" },
+      { "level": 15, "name": "rifle" },
+      { "level": 15, "name": "archery" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "barter" },
+      { "level": 3, "name": "gun" },
+      { "level": 5, "name": "cutting" },
+      { "level": 15, "name": "cooking" },
+      { "level": 5, "name": "stabbing" },
+      { "level": 5, "name": "firstaid" },
+      { "level": 5, "name": "mechanics" },
+      { "level": 5, "name": "melee" },
+      { "level": 5, "name": "unarmed" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "holy_symbol_wood",
+          "gloves_tactical",
+          "balclava",
+          "legrig",
+          "legrig",
+          "vambrace_larmor",
+          "dump_pouch",
+          "cuirass_lightplate",
+          "survivor_belt_notools",
+          "tank_top",
+          "boots_combat",
+          "survivor_duffel_bag",
+          "survivor_duffel_bag",
+          "socks_wool",
+          "trenchcoat_survivor",
+          "hood_lsurvivor",
+          "pants_cargo",
+          "bandages",
+          "bandages",
+          "bandages",
+          "PR24-retracted",
+          "small_repairkit",
+          "canteen",
+          "tent_kit",
+          "binoculars",
+          "mil_mess_kit",
+          "knife_swissarmy"
+        ],
+        "entries": [
+          { "item": "longsword", "container-item": "baldric" },
+          {
+            "item": "compcrossbow",
+            "ammo-item": "bolt_steel_target",
+            "charges": 1,
+            "contents-item": [
+              "shoulder_strap",
+              "light_grip",
+              "tuned_mechanism",
+              "match_trigger",
+              "bow_silencer",
+              "rail_laser_sight",
+              "holo_sight",
+              "adjustable_stock",
+              "sword_bayonet"
+            ]
+          },
+          { "item": "bolt_steel_target", "charges": 60, "container-item": "quiver_large" }
+        ]
+      }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "squire",
+    "name": "Squire",
+    "description": "You had just ridden the horse to the king's joust, where you were to ascend to knighthood upon the victory of your liege, when you somehow ended up in this shithole. You might as well get comfy, since you feel you will be here a while...",
+    "points": 8,
+    "skills": [
+      { "level": 20, "name": "gun" },
+      { "level": 20, "name": "archery" },
+      { "level": 30, "name": "dodge" },
+      { "level": 30, "name": "barter" },
+      { "level": 30, "name": "melee" },
+      { "level": 30, "name": "stabbing" },
+      { "level": 30, "name": "unarmed" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "holy_symbol_wood",
+          "gauntlets_larmor",
+          "chainmail_hood",
+          "longbow",
+          "cuirass_lightplate",
+          "leather_belt",
+          "gambeson",
+          "chainmail_suit",
+          "boots_larmor",
+          "leather_pouch",
+          "picklocks"
+        ],
+        "entries": [
+          { "item": "longsword", "container-item": "baldric" },
+          { "item": "arrow_metal", "charges": 60, "container-item": "quiver_large" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "State Park",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "statepark_0_0_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "statepark_1_0_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "statepark_0_1_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "statepark_1_1_north" }
+    ],
+    "connections": [ { "point": [ 1, -1, 0 ], "terrain": "road", "existing": true } ],
+    "locations": [ "land" ],
+    "city_distance": [ -1, 4 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 1 ],
+    "rotate": true
+  },
+  {
+    "type": "overmap_special",
+    "id": "Fishing Pond",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "fishingpond_0_0_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "fishingpond_1_0_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "fishingpond_0_1_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "fishingpond_1_1_north" }
+    ],
+    "connections": [ { "point": [ 1, -1, 0 ], "terrain": "road", "existing": true } ],
+    "locations": [ "land" ],
+    "city_distance": [ -1, 4 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 1 ],
+    "rotate": true
+  },
+  {
+    "type": "overmap_special",
+    "id": "Derelict Property",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "derelict_property_north" } ],
+    "locations": [ "land" ],
+    "city_distance": [ 2, 20 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 2 ],
+    "rotate": true
+  },
+  {
+    "type": "overmap_special",
+    "id": "Hunting Blind",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "huntingblind_north" } ],
+    "locations": [ "land" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 1 ],
+    "rotate": true
+  }
+]

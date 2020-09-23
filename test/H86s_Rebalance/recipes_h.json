@@ -1,0 +1,27 @@
+[
+  {
+    "result": "armor_plate",
+    "type": "recipe",
+    "override": true,
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 20000,
+    "reversible": true,
+    "book_learn": [ [ "textbook_armwest", 3 ] ],
+    "components": [ [ [ "armor_lightplate", 1 ] ], [ [ "helmet_plate", 1 ] ], [ [ "gloves_plate", 1 ] ], [ [ "boots_plate", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cs_lajatang_off",
+    "override": true,
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 15000,
+    "autolearn": true,
+    "components": [ [ [ "q_staff", 1 ] ], [ [ "duct_tape", 200 ] ], [ [ "circsaw_off", 2 ] ] ]
+  }
+]

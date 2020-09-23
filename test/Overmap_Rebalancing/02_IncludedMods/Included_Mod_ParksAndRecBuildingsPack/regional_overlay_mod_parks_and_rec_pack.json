@@ -1,0 +1,27 @@
+[
+  {
+    "type": "region_overlay",
+    "id": "omrb_parks_and_rec_pack_overlay",
+    "regions": [ "all" ],
+    "city": {
+      "parks": {
+        "//": "weighted list for park overmap terrains",
+        "park": 4,
+        "pool": 1,
+        "skatepark": 1,
+        "smallwoodedtrail": 2,
+        "pavilion": 2,
+        "cemetary": 2
+      },
+      "shops": {
+        "//": "weighted list of oterrains for commercial zoning",
+        "derelict_property": 3,
+        "orchard": 2,
+        "dispensary": 1,
+        "smalloffice": 2,
+        "artgallery": 1,
+        "smallstorageunits": 1
+      }
+    }
+  }
+]

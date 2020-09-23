@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_medical_gauze",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (medical gauze)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 60 units of medical gauze.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 5800,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_medical_gauze",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "medical_gauze", 60 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_roasted_coffee_bean",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (roasted coffee beans)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 600 units roasted coffee beans.",
+    "volume": 12,
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 1000
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_roasted_coffee_bean",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "roasted_coffee_bean", 600 ] ] ]
+  }
+]

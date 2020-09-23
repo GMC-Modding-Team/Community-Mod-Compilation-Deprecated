@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_wire",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (wire)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 8 pieces of wires.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 1608,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_wire",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "wire", 8 ] ] ]
+  }
+]

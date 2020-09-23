@@ -1,0 +1,121 @@
+[
+    {
+     "type" : "ammunition_type",
+     "id" : "444",
+     "name" : ".444",
+     "default" : "444"
+    },  
+	{
+     "id": "444_casing",
+     "copy-from": "casing",
+     "type": "GENERIC",
+     "name": ".444 casing",
+     "description": "An empty casing from a .444 round.",
+     "weight": 7,
+     "volume": "14ml"
+	},
+	{
+     "id": "444",
+     "type": "AMMO",
+     "name": ".444 cartridge",
+     "description": ".444 360gr jacketed soft point bullets.  The .444 is an exceedingly powerful cartridge with high stopping power, accuracy and range.  Unfortunately, it also has severe recoil and noise.",
+     "weight": 18,
+     "volume": 1,
+     "price": 2600,
+     "material": [ "brass", "powder" ],
+     "symbol": "=",
+     "color": "light_gray",
+     "count": 20,
+     "stack_size": 12,
+     "ammo_type": "444",
+     "casing": "444_casing",
+     "range": 24,
+     "damage": 52,
+     "pierce": 16,
+     "dispersion": 12,
+     "recoil": 2700,
+     "effects": [ "COOKOFF" ]
+	},
+	{
+     "id": "444_reloaded",
+     "copy-from": "444",
+     "type": "AMMO",
+     "name": "reloaded .444 cartridge",
+     "description": ".444 360gr jacketed hollow point bullets.  These have been reloaded, but will still ruin anything's day.",
+     "proportional": { "price": 0.7, "damage": 0.9, "dispersion": 1.1 },
+     "extend": { "effects": [ "RECYCLED" ] },
+     "delete": { "effects": [ "NEVER_MISFIRES" ] }
+	},
+	{
+     "result": "444_reloaded",
+     "type": "recipe",
+     "category": "CC_AMMO",
+     "subcategory": "CSC_AMMO_PISTOL",
+     "skill_used": "fabrication",
+     "difficulty": 7,
+     "skills_required": [ "gun", 7 ],
+     "time": 5000,
+     "batch_time_factors": [ 50, 10 ],
+     "book_learn": [ [ "recipe_bullets", 6 ], [ "manual_pistol", 7 ] ],
+     "charges": 1,
+     "using": [ [ "bullet_forming", 6 ], [ "ammo_bullet", 6 ] ],
+     "components": [
+       [ [ "444_casing", 1 ] ],
+       [ [ "smrifle_primer", 1 ] ],
+       [ [ "gunpowder", 12 ] ],
+       [ [ "copper", 3 ] ]
+     ]
+	},
+	{
+	 "id": "bk_444",
+	 "copy-from": "pistol_revolver",
+	 "type": "GUN",
+	 "name": "BK .444",
+	 "name_plural": "BK .444",
+	 "description": "A large, heavy four-shot revolver chambered for the frankly excessive .444 round.  This weapon suffers heavy recoil and noise, but is very accurate in skilled hands.",
+	 "weight": 2105,
+	 "volume": 3,
+	 "price": 72400,
+	 "to_hit": -2,
+	 "bashing": 12,
+	 "material": [ "steel", "wood" ],
+	 "symbol": "(",
+	 "color": "light_gray",
+	 "ammo": "444",
+	 "dispersion": 175,
+	 "durability": 9,
+	 "clip_size": 4,
+	 "valid_mod_locations": [ [ "accessories", 2 ] ]
+	},
+	{
+     "type": "item_group",
+     "id": "ammo_pistol_obscure",
+     "//": "Imported or otherwise very obscure pistol ammo.",
+     "items": [
+       [ "444", 100 ]
+     ]
+	},
+	{
+     "type": "item_group",
+     "id": "ammo_pistol_reloaded",
+     "//": "Reloaded pistol ammo balanced according to rarity.",
+     "items": [
+       [ "444_reloaded", 5 ]
+     ]
+	},
+	{
+     "type": "item_group",
+     "id": "guns_pistol_obscure",
+     "//": "Imported or otherwise very obscure pistols.",
+     "items": [
+       [ "bk_444", 100 ]
+	 ]
+	},
+	{
+     "id": "ammo_casings",
+     "type": "item_group",
+     "items": [
+      { "item": "444_casing", "prob": 60, "count": 5 }
+     ]
+	}
+]

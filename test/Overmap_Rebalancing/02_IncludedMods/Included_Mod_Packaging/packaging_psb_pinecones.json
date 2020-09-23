@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_portable_storage_box_with_pinecones",
+    "symbol": "]",
+    "color": "light_gray",
+    "name": "storage box (pinecones)",
+    "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 65 pinecones.",
+    "price": 10000,
+    "material": [ "wood", "steel" ],
+    "weight": 7850,
+    "volume": 50
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_portable_storage_box_with_pinecones",
+    "time": 10000,
+    "components": [ [ [ "packaging_portable_storage_box", 1 ] ], [ [ "pinecone", 65 ] ] ]
+  }
+]
