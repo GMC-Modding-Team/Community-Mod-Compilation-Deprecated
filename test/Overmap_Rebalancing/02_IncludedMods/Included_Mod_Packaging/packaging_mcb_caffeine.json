@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_caffeine",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (caffeine pills)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 3000 units of caffeine pills.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 3400,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_caffeine",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "caffeine", 3000 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_material_sand",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (sand)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 750 units of sand.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 7900,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_material_sand",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "material_sand", 750 ] ] ]
+  }
+]

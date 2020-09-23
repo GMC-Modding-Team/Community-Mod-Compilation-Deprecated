@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_RAM",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (RAM modules)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 RAM modules.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 850,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_RAM",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "RAM", 15 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+-- MOD Useful_Goods.
+game.add_item_to_group("hardware"             , "ug_garage_jack"       ,  10)
+game.add_item_to_group("car_kit"              , "ug_garage_jack"       ,  18)
+game.add_item_to_group("fireman_gear"         , "ug_garage_jack"       ,   5)
+game.add_item_to_group("tools_mechanic"       , "ug_garage_jack"       ,  80)
+game.add_item_to_group("NC_JUNK_SHOPKEEP_misc", "ug_garage_jack"       ,  10)
+
+game.add_item_to_group("cop_evidence"         , "ug_cashcard_reader"   ,   3)
+game.add_item_to_group("electronics"          , "ug_cashcard_reader"   ,   3)
+game.add_item_to_group("science"              , "ug_cashcard_reader"   ,   3)
+game.add_item_to_group("npc_hacker"           , "ug_cashcard_reader"   ,   3)
+game.add_item_to_group("rare"                 , "ug_cashcard_reader"   ,  15)
+
+game.add_item_to_group("bedroom"              , "ug_g_shock"           ,   1)
+game.add_item_to_group("sports"               , "ug_g_shock"           ,   8)
+game.add_item_to_group("survivorzed_extra"    , "ug_g_shock"           ,   5)
+game.add_item_to_group("college_lake"         , "ug_g_shock"           ,   1)
+game.add_item_to_group("military"             , "ug_g_shock"           ,   5)
+game.add_item_to_group("pawn"                 , "ug_g_shock"           ,   5)
+game.add_item_to_group("electronics"          , "ug_g_shock"           ,   3)

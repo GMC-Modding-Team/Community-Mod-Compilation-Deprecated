@@ -1,0 +1,108 @@
+[
+  {
+    "id": "NC_BS_GUNSMITH",
+    "type": "npc_class",
+    "name": "Gunsmith",
+    "job_description": "Class III dealer in firearms.",
+    "common": false,
+    "bonus_dex": { "rng": [ 1, 3 ] },
+    "bonus_per": { "rng": [ 1, 3 ] },
+    "skills": [
+      { "skill": "mechanics", "level": { "sum": [ { "constant": 5 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "fabrication", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "gun", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "pistol", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "rifle", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "smg", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "shotgun", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } },
+      { "skill": "launcher", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 5 ] } ] } }
+    ],
+    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
+    "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!"
+  },
+  {
+    "id": "bs_npc_gunsmith",
+    "type": "npc",
+    "name+": ", GUNSMITH",
+    "class": "NC_BS_GUNSMITH",
+    "attitude": 1,
+    "//": "NPCATT_TALK",
+    "mission": 7,
+    "//": "NPC_MISSION_GUARD",
+    "chat": "TALK_STRANGER_NEUTRAL",
+    "mission_offered": "MISSION_GET_FLAG",
+    "faction": "bs_lone_survivors"
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_misc",
+    "items": [
+      { "item": "large_repairkit", "prob": 30 },
+      { "item": "large_repairkit", "prob": 60 },
+      { "item": "puller", "prob": 100 },
+      { "item": "press", "prob": 100 },
+      { "item": "screwdriver_set", "prob": 50 },
+      { "group": "NC_EVAC_SHOPKEEP_misc", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_pants_male",
+    "items": [ { "item": "pants_cargo", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_pants_female",
+    "items": [ { "item": "pants_cargo", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_shoes",
+    "items": [ { "item": "boots_steel", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_gloves",
+    "items": [ { "item": "gloves_work", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_masks",
+    "items": [ { "item": "bandana", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_extra",
+    "items": [ { "item": "rucksack", "prob": 90 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_eyes",
+    "items": [ { "item": "fitover_sunglasses", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_bashing",
+    "items": [ { "item": "hammer", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_pistol",
+    "items": [ { "group": "guns_pistol_common", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_smg",
+    "items": [ { "group": "guns_smg_common", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_rifle",
+    "items": [ { "group": "guns_rifle_common", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_shotgun",
+    "items": [ { "group": "guns_shotgun_common", "prob": 100 } ]
+  }
+]

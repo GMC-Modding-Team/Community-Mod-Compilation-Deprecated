@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_fertilizer_commercial",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (commercial fertilizer)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 120 units of commercial fertilizer.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 42400,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_fertilizer_commercial",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "fertilizer_commercial", 120 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_ceramic_shards",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (ceramic shards)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 ceramic shards.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 11650,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_ceramic_shards",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "ceramic_shard", 15 ] ] ]
+  }
+]

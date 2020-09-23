@@ -1,0 +1,21 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_OMRB_BANDITS",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_bandit_melee", "freq": 20, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_bandit_glock", "freq": 15, "cost_multiplier": 7, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_bandit_raider", "freq": 10, "cost_multiplier": 10, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_bandit_m1911", "freq": 10, "cost_multiplier": 12, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_bandit_shotgun", "freq": 12, "cost_multiplier": 10, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_bandit_rifle", "freq": 12, "cost_multiplier": 12, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_bandit_looter", "freq": 20, "cost_multiplier": 7, "pack_size": [ 1, 4 ] },
+      { "monster": "mon_bandit_scrapper", "freq": 18, "cost_multiplier": 14, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_bandit_smg", "freq": 8, "cost_multiplier": 14, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_bandit_alpha", "freq": 4, "cost_multiplier": 18, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_bandit_super_psycho", "freq": 2, "cost_multiplier": 20, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_bandit_super_snipe", "freq": 1, "cost_multiplier": 24, "pack_size": [ 1, 2 ] }
+    ]
+  }
+]

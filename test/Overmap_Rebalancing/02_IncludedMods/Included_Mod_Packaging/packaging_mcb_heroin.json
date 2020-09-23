@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_heroin",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (heroin)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 1500 units of heroin.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 1900,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_heroin",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "heroin", 1500 ] ] ]
+  }
+]
