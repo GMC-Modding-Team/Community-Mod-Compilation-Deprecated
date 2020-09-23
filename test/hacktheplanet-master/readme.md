@@ -1,5 +1,5 @@
 ~~~~
-"ident": "hacking.json",  
+"id": "hacking.json",  
 "category": "vintage cyberpunk gear",
 "description": "A magazine written by and for hackers - the best, and by far the longest running hacker zine.  
 This annual volume is packed with blueprints and circuit schematics.",
