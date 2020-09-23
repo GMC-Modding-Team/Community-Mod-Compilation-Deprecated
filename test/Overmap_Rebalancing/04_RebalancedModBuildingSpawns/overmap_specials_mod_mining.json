@@ -1,0 +1,66 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "vein_forest_shallow",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "forest_vein" },
+      { "point": [ 0, 0, -1 ], "overmap": "vein_rock" },
+      { "point": [ 0, 0, -2 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -3 ], "overmap": "vein_maybe" }
+    ],
+    "locations": [ "forest" ],
+    "occurrences": [ 1, 2 ],
+    "flags": [ "CLASSIC" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "vein_field_shallow",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "field_shallow" },
+      { "point": [ 0, 0, -1 ], "overmap": "vein_rock" },
+      { "point": [ 0, 0, -2 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -3 ], "overmap": "vein_maybe" }
+    ],
+    "locations": [ "field" ],
+    "occurrences": [ 1, 2 ],
+    "flags": [ "CLASSIC" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "vein_forest_deep",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "forest_vein" },
+      { "point": [ 0, 0, -1 ], "overmap": "empty_rock" },
+      { "point": [ 0, 0, -2 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -3 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -4 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -5 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -6 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -7 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -8 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -9 ], "overmap": "vein_maybe" }
+    ],
+    "locations": [ "forest" ],
+    "occurrences": [ 1, 2 ],
+    "flags": [ "CLASSIC" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "vein_field_deep",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "field_shallow" },
+      { "point": [ 0, 0, -1 ], "overmap": "empty_rock" },
+      { "point": [ 0, 0, -2 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -3 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -4 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -5 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -6 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -7 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -8 ], "overmap": "vein_maybe" },
+      { "point": [ 0, 0, -9 ], "overmap": "vein_maybe" }
+    ],
+    "locations": [ "field" ],
+    "occurrences": [ 1, 2 ],
+    "flags": [ "CLASSIC" ]
+  }
+]

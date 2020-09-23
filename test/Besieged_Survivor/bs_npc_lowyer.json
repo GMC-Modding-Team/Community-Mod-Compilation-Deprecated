@@ -1,0 +1,89 @@
+[
+  {
+    "id": "NC_BS_LOWYER",
+    "type": "npc_class",
+    "name": "Lowyer",
+    "job_description": "I'll innocence any your crimes!(1 million dollars per case.)",
+    "common": false,
+    "skills": [
+      { "skill": "speech", "level": { "sum": [ { "constant": 9 }, { "rng": [ 1, 6 ] } ] } },
+      { "skill": "barter", "level": { "sum": [ { "constant": 9 }, { "rng": [ 1, 6 ] } ] } },
+      { "skill": "gun", "level": 0 },
+      { "skill": "pistol", "level": 0 },
+      { "skill": "rifle", "level": 0 },
+      { "skill": "shotgun", "level": 0 },
+      { "skill": "smg", "level": 0 },
+      { "skill": "archery", "level": 0 },
+      { "skill": "throw", "level": 0 }
+    ],
+    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
+    "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!",
+    "traits": [ [ "ANIMALDISCORD", 100 ] ]
+  },
+  {
+    "id": "bs_npc_lowyer",
+    "type": "npc",
+    "name+": ", LOWYER",
+    "class": "NC_BS_LOWYER",
+    "attitude": 1,
+    "//": "NPCATT_TALK",
+    "mission": 7,
+    "//": "NPC_MISSION_GUARD",
+    "chat": "TALK_STRANGER_NEUTRAL",
+    "mission_offered": "MISSION_GET_ANTIBIOTICS",
+    "faction": "bs_lone_survivors"
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_misc",
+    "items": [
+      { "item": "cash_card", "prob": 80 },
+      { "item": "cash_card", "prob": 80 },
+      { "item": "money_bundle", "prob": 80 },
+      { "item": "sf_watch", "prob": 80 },
+      { "item": "gold_bracelet", "prob": 80 },
+      { "item": "skinny_tie", "prob": 80 },
+      { "item": "tieclip", "prob": 80 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_pants_male",
+    "items": [ { "item": "briefs", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_pants_female",
+    "items": [ { "item": "panties", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_shirt_male",
+    "items": [ { "item": "dress_shirt", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_shirt_female",
+    "items": [ { "item": "dress_shirt", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_coat",
+    "items": [ { "item": "suit", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_shoes",
+    "items": [ { "item": "dress_shoes", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_extra",
+    "items": [ { "item": "briefcase", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_LOWYER_hat",
+    "items": [ { "item": "panties_on", "prob": 50 } ]
+  }
+]

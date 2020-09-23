@@ -1,0 +1,93 @@
+[
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_BARREL",
+    "items": [ { "item": "barrel_big", "prob": 50 }, { "item": "barrel_rifled", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_GRIP",
+    "items": [ { "item": "light_grip", "prob": 50 }, { "item": "pistol_grip", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_MEC",
+    "items": [
+      { "item": "autofire", "prob": 20 },
+      { "item": "blowback", "prob": 20 },
+      { "item": "match_trigger", "prob": 20 },
+      { "item": "tuned_mechanism", "prob": 20 },
+      { "item": "waterproof_gunmod", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_MUZ",
+    "items": [
+      { "item": "barrel_ported", "prob": 20 },
+      { "item": "muzzle_brake", "prob": 20 },
+      { "item": "shot_suppressor", "prob": 20 },
+      { "item": "suppressor", "prob": 20 },
+      { "item": "suppressor_compact", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_RAIL",
+    "items": [
+      { "item": "offset_sights", "prob": 30 },
+      { "item": "rail_laser_sight", "prob": 30 },
+      { "item": "stabilizer", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_SIGHT",
+    "items": [
+      { "item": "holo_sight", "prob": 20 },
+      { "item": "improve_sights", "prob": 20 },
+      { "item": "pistol_scope", "prob": 20 },
+      { "item": "red_dot_sight", "prob": 20 },
+      { "item": "rifle_scope", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_STOCK",
+    "items": [
+      { "item": "adjustable_stock", "prob": 25 },
+      { "item": "folding_stock", "prob": 25 },
+      { "item": "pistol_stock", "prob": 25 },
+      { "item": "recoil_stock", "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_UBARREL",
+    "items": [
+      { "item": "aux_flamer", "prob": 10 },
+      { "item": "bipod", "prob": 10 },
+      { "item": "combination_gun_shotgun", "prob": 5 },
+      { "item": "combination_gun_shotgun_pipe", "prob": 5 },
+      { "item": "grip", "prob": 20 },
+      { "item": "laser_sight", "prob": 20 },
+      { "item": "lemat_revolver_shotgun", "prob": 10 },
+      { "item": "masterkey", "prob": 10 },
+      { "item": "u_shotgun", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_GUNSMITH_MODS_ALL",
+    "items": [
+      { "group": "NC_BS_GUNSMITH_MODS_BARREL", "prob": 10 },
+      { "group": "NC_BS_GUNSMITH_MODS_GRIP", "prob": 10 },
+      { "group": "NC_BS_GUNSMITH_MODS_MEC", "prob": 10 },
+      { "group": "NC_BS_GUNSMITH_MODS_MUZ", "prob": 10 },
+      { "group": "NC_BS_GUNSMITH_MODS_RAIL", "prob": 10 },
+      { "group": "NC_BS_GUNSMITH_MODS_SIGHT", "prob": 30 },
+      { "group": "NC_BS_GUNSMITH_MODS_STOCK", "prob": 10 },
+      { "group": "NC_BS_GUNSMITH_MODS_UBARREL", "prob": 10 }
+    ]
+  }
+]

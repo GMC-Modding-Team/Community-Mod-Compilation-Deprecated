@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_cigar",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (cigars)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 75 cigars.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 625,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_cigar",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "cigar", 75 ] ] ]
+  }
+]

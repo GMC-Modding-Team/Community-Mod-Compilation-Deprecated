@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_pretzels",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (pretzels)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 45 units of pretzels.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 8725,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_pretzels",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "pretzels", 45 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_portable_storage_box_with_mre_chicken_box",
+    "symbol": "]",
+    "color": "brown",
+    "name": "storage box (MREs, Chicken)",
+    "description": "A makeshift storage box for reduction in volume and easy transport. This one is filled with 22 MRE boxes (chicken).",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 21800,
+    "volume": 50
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_portable_storage_box_with_mre_chicken_box",
+    "time": 4000,
+    "components": [ [ [ "packaging_portable_storage_box", 1 ] ], [ [ "mre_chicken_box", 22 ] ] ]
+  }
+]

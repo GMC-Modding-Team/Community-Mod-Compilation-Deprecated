@@ -1,0 +1,46 @@
+[
+  {
+    "type": "recipe",
+    "result": "10mm_dread",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "gun", 2 ],
+    "difficulty": 3,
+    "time": 10000,
+    "book_learn": [ [ "recipe_bullets", 2 ] ],
+    "tools": [ [ [ "forge", 50 ], [ "oxy_torch", 10 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ] ] ],
+    "components": [
+      [
+        [ "lead", 200 ],
+        [ "gold_small", 200 ],
+        [ "silver_small", 200 ],
+        [ "scrap", 10 ],
+        [ "bismuth", 200 ],
+        [ "solder_wire", 200 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "dread_pack",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "gun", 2 ],
+    "difficulty": 3,
+    "time": 10000,
+    "book_learn": [ [ "recipe_bullets", 2 ] ],
+    "tools": [ [ [ "forge", 50 ], [ "oxy_torch", 10 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ] ] ],
+    "components": [
+      [
+        [ "lead", 300 ],
+        [ "gold_small", 300 ],
+        [ "silver_small", 300 ],
+        [ "scrap", 15 ],
+        [ "bismuth", 300 ],
+        [ "solder_wire", 300 ]
+      ]
+    ]
+  }
+]

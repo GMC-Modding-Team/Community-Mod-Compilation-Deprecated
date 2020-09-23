@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_mre_veggy_box",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (MREs, Vegetarian)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 5 MRE boxes (vegetarian).",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 4900,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_mre_veggy_box",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "mre_veggy_box", 5 ] ] ]
+  }
+]

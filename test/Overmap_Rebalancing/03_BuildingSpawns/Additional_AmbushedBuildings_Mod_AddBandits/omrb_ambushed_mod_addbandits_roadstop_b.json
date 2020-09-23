@@ -1,0 +1,82 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [ "roadstop_b" ],
+    "method": "json",
+    "weight": 333,
+    "object": {
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "......o........oo.......",
+        ".....##############.....",
+        ".t.t.#877A7i779995#.t.t.",
+        ".....3           5#.....",
+        ".t.t.#89977777  75#.t.t.",
+        ".....########777###.....",
+        ".....| 4    4    4|.....",
+        ".....|464  464  46|.....",
+        ".....| 4  4 4 4  4|.....",
+        ".....|8  464 464 8|.....",
+        ".....|SSSSSSSSSSSS|.....",
+        ".2222222222222222222222.",
+        ".2222222222222222222222.",
+        ".2222222222222222222222.",
+        ".,,,,,222222222222,,,,,.",
+        ".2222222222222222222222.",
+        ".2222222222222222222222.",
+        ".2222222222222222222222.",
+        ".,,,,,2222....2222,,,,,."
+      ],
+      "place_monsters": [ { "monster": "GROUP_OMRB_BANDITS", "chance": 2, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] } ],
+      "terrain": {
+        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+        "#": "t_wall",
+        "2": "t_pavement",
+        "i": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+        "3": [
+          "t_door_c",
+          "t_door_boarded",
+          "t_door_c",
+          "t_palisade",
+          "t_door_c",
+          "t_wall_wood",
+          "t_door_c",
+          "t_wall_wood_chipped",
+          "t_door_c",
+          "t_wall_log",
+          "t_door_c",
+          "t_wall_log_chipped"
+        ],
+        " ": "t_floor",
+        "4": "t_floor",
+        "5": "t_floor",
+        "6": "t_floor",
+        "7": "t_floor",
+        "8": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+        "9": "t_floor",
+        "A": "t_floor",
+        "t": [ "t_tree", "t_tree", "t_tree", "t_tree_young", "t_tree_dead" ],
+        "S": "t_sidewalk",
+        "|": "t_sidewalk",
+        ",": "t_pavement_y",
+        "o": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ]
+      },
+      "furniture": {
+        "4": [ "f_chair", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_chair", "f_rubble", "f_chair" ],
+        "6": [ "f_table", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_table", "f_rubble", "f_table" ],
+        "7": [ "f_counter", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_counter", "f_rubble", "f_counter" ],
+        "9": [ "f_fridge", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_fridge", "f_wreckage", "f_fridge" ],
+        "A": [ "f_sink", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_sink", "f_rubble", "f_sink" ],
+        "o": [ "f_crate_c", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_crate_c", "f_rubble", "f_crate_c" ],
+        "i": [ "f_oven", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_oven", "f_wreckage", "f_oven" ],
+        "5": [ "f_rack", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rack", "f_rubble", "f_rack" ],
+        "8": [ "f_trashcan", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_trashcan", "f_rubble", "f_trashcan" ]
+      },
+      "rotation": 2
+    }
+  }
+]

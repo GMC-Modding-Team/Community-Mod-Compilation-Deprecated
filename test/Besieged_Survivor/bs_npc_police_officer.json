@@ -1,0 +1,101 @@
+[
+  {
+    "id": "NC_BS_POLICE_OFFICER",
+    "type": "npc_class",
+    "name": "Police Officer",
+    "job_description": "Welcome! to the blue oyster!",
+    "common": false,
+    "bonus_str": { "rng": [ 1, 2 ] },
+    "skills": [
+      { "skill": "melee", "level": { "sum": [ { "constant": 2 }, { "rng": [ 1, 4 ] } ] } },
+      { "skill": "gun", "level": { "sum": [ { "constant": 4 }, { "rng": [ 1, 2 ] } ] } },
+      { "skill": "pistol", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 3 ] } ] } },
+      { "skill": "shotgun", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 3 ] } ] } }
+    ],
+    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
+    "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!"
+  },
+  {
+    "id": "bs_npc_police_officer",
+    "type": "npc",
+    "name+": ", COP",
+    "class": "NC_BS_POLICE_OFFICER",
+    "attitude": 1,
+    "//": "NPCATT_TALK",
+    "mission": 7,
+    "//": "NPC_MISSION_GUARD",
+    "chat": "TALK_STRANGER_NEUTRAL",
+    "mission_offered": "MISSION_GET_FLAG",
+    "faction": "bs_lone_survivors"
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_misc",
+    "items": [ { "item": "powered_earmuffs", "prob": 30 }, { "group": "cop_gear", "prob": 80 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_shirt_male",
+    "items": [ { "item": "sheriffshirt", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_shirt_female",
+    "items": [ { "item": "sheriffshirt", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_pants_male",
+    "items": [ { "item": "jeans", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_pants_female",
+    "items": [ { "item": "jeans", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_shoes",
+    "items": [ { "group": "cop_shoes", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_coat",
+    "items": [ { "item": "jacket_light", "prob": 60 }, { "item": "kevlar", "prob": 40 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_gloves",
+    "items": [ { "group": "cop_gloves", "prob": 80 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_eyes",
+    "items": [ { "group": "clothing_glasses", "prob": 30 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_hat",
+    "items": [ { "group": "cop_helmet", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_pistol",
+    "items": [ { "group": "guns_pistol_common", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_smg",
+    "items": [ { "group": "guns_smg_common", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_rifle",
+    "items": [ { "group": "guns_rifle_common", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BS_POLICE_OFFICER_shotgun",
+    "items": [ { "group": "guns_shotgun_common", "prob": 100 } ]
+  }
+]

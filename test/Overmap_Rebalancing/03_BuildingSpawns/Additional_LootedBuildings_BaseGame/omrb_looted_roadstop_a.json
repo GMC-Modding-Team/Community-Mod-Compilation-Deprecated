@@ -1,0 +1,91 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [ "roadstop_a" ],
+    "method": "json",
+    "weight": 333,
+    "object": {
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "......o........oo.......",
+        ".....##############.....",
+        ".t.t.#A  37##73  A#.t.t.",
+        ".....#A  ######  A#.....",
+        ".t.t.#A  39##73  A#.t.t.",
+        ".....#A  ######  A#.....",
+        ".t.t.#   37##93   #.t.t.",
+        ".....# ########## #.....",
+        ".t.t.#    ####    #.t.t.",
+        ".....####3#88#3####.....",
+        "......SSSSSSSSSSSS......",
+        "........22222222........",
+        ".......2222222222.......",
+        "......222222222222......",
+        "......222222222222......",
+        "......2222....2222......",
+        "......2222#ii#2222......",
+        "......2222....2222......",
+        "......2222....2222......"
+      ],
+      "terrain": {
+        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+        "#": "t_wall_log",
+        "2": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+        "i": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+        "3": [
+          "t_door_c",
+          "t_door_c",
+          "t_door_b",
+          "t_door_c",
+          "t_door_c",
+          "t_door_frame",
+          "t_door_c",
+          "t_door_c",
+          "t_wall_wood",
+          "t_door_c",
+          "t_door_c",
+          "t_wall_wood_chipped",
+          "t_door_c",
+          "t_door_c",
+          "t_wall_wood_broken",
+          "t_door_o",
+          "t_door_o",
+          "t_wall_log",
+          "t_door_o",
+          "t_door_o",
+          "t_wall_log_chipped",
+          "t_door_o",
+          "t_door_o",
+          "t_wall_log_broken"
+        ],
+        " ": "t_floor",
+        "6": "t_floor",
+        "7": "t_floor",
+        "8": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+        "9": "t_floor",
+        "A": "t_floor",
+        "t": [ "t_tree", "t_tree", "t_tree", "t_tree_young", "t_tree_dead" ],
+        "S": "t_sidewalk",
+        "o": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ]
+      },
+      "signage": {
+        "i": "This was once a infromation map for the <city> area, but it has long since been eroded beyond usefullness. There are small holders for tourist maps attached."
+      },
+      "furniture": {
+        "6": [ "f_table", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_table", "f_rubble", "f_table" ],
+        "7": [ "f_toilet", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_toilet", "f_rubble", "f_toilet" ],
+        "9": [ "f_toilet", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_toilet", "f_rubble", "f_toilet" ],
+        "A": [ "f_sink", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_sink", "f_rubble", "f_sink" ],
+        "i": "f_sign",
+        "o": [ "f_crate_c", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_crate_c", "f_rubble", "f_crate_c" ],
+        "8": [ "f_trashcan", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_trashcan", "f_rubble", "f_trashcan" ]
+      },
+      "toilets": { "7": {  }, "9": { "amount": 500 } },
+      "rotation": 2
+    }
+  }
+]

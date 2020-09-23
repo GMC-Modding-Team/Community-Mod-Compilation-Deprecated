@@ -1,0 +1,100 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "auth_bankchip",
+    "symbol": ",",
+    "color": "dark_gray",
+    "name": "bank authorization chip",
+    "category": "spare_parts",
+    "description": "The authorization control an ATM uses to connect to the bank network.  This chip could be used to make a portable cashcard reader.",
+    "price": 13500,
+    "material": [ "steel", "plastic" ],
+    "weight": 317,
+    "volume": 10,
+    "to_hit": -1,
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "burnt_out_bankchip",
+    "copy-from": "auth_bankchip",
+    "name": "burnt out authorization chip",
+    "description": "The authorization control an ATM uses to connect to the bank network.  This object has been destroyed by excessive electric current and is now useless."
+  },
+  {
+    "type": "recipe",
+    "result": "cashcard_reader",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 4 ],
+    "difficulty": 8,
+    "time": 97500,
+    "reversible": false,
+    "book_learn": [ [ "hacker_manifesto", 6 ], [ "recipe_lab_elec", 4 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 }, { "id": "HAMMER", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "soldering_iron", 40 ], [ "toolset", 40 ] ], [ [ "software_hacking", -1 ] ], [ [ "laptop", 50 ] ] ],
+    "components": [
+      [ [ "auth_bankchip", 1 ] ],
+      [ [ "cashcard_encoder", 1 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "e_scrap", 1 ] ],
+      [ [ "circuit", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "plastic_chunk", 3 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "solar_cell", 1 ] ]
+    ]
+  },
+  {
+    "id": "cashcard_reader",
+    "type": "TOOL",
+    "symbol": ",",
+    "color": "gray",
+    "name": "portable cashcard reader",
+    "description": "This device can read a cashcard and transfer the balance to another card.  Before the cataclysm, possession of this would have landed you straight in jail.  It is solar powered, and barely uses any charge.",
+    "price": 100000,
+    "material": [ "steel", "plastic" ],
+    "weight": 400,
+    "volume": 1,
+    "bashing": 1,
+    "category": "tools",
+    "use_action": "iuse_cashcard_transfer"
+  },
+  {
+    "type": "item_action",
+    "id": "iuse_cashcard_transfer",
+    "name": "load cards into reader"
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "atm_authcard",
+    "entries": [ { "item": "auth_bankchip", "prob": 20 }, { "item": "burnt_out_bankchip", "prob": 80 } ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_atm",
+    "name": "ATM",
+    "symbol": "&",
+    "color": "magenta",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "NOITEM", "ALARMED", "REDUCE_SCENT", "PERMEABLE" ],
+    "examine_action": "atm",
+    "bash": {
+      "str_min": 40,
+      "str_max": 210,
+      "explosive": 5,
+      "sound": "Critical failure imminent, self destruct activated.  Have a nice day!",
+      "sound_fail": "clang!",
+      "ter_set": "t_floor",
+      "items": [
+        { "item": "steel_chunk", "count": [ 1, 3 ] },
+        { "item": "scrap", "count": [ 4, 8 ] },
+        { "group": "atm_authcard", "prob": 100 }
+      ]
+    }
+  }
+]

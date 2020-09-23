@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_spaghetti_raw",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (raw spaghetti)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 5 units of raw spaghetti.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 2665,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_spaghetti_raw",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "spaghetti_raw", 5 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_1st_aid",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (first aid kits)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 30 first aid kits.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 7600,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_1st_aid",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "1st_aid", 30 ] ] ]
+  }
+]

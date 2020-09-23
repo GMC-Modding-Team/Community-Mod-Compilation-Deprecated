@@ -1,0 +1,87 @@
+[
+  {
+    "type": "trait_group",
+    "id": "starting_trait_n_rolls",
+    "subtype": "collection",
+    "traits": [
+      { "group": "color_hair", "prob": 100 },
+      { "group": "color_eyes", "prob": 100 },
+      { "group": "color_skin", "prob": 100 }
+    ]
+  },
+  {
+    "type": "trait_group",
+    "id": "trait_mutant_npc_common",
+    "subtype": "collection",
+    "traits": [
+      { "group": "color_hair", "prob": 100 },
+      { "group": "color_eyes", "prob": 100 },
+      { "group": "color_skin", "prob": 100 }
+    ]
+  },
+  {
+    "type": "trait_group",
+    "id": "color_eyes",
+    "subtype": "distribution",
+    "traits": [
+      { "trait": "EYE_BLUE", "prob": 100 },
+      { "trait": "EYE_BROWN", "prob": 100 },
+      { "trait": "EYE_GRAY", "prob": 100 },
+      { "trait": "EYE_RED", "prob": 100 },
+      { "trait": "EYE_GREEN", "prob": 100 },
+      { "trait": "EYE_YELLOW", "prob": 100 }
+    ]
+  },
+  {
+    "type": "trait_group",
+    "id": "color_hair",
+    "subtype": "distribution",
+    "traits": [
+      { "trait": "HAIR_BLONDE", "prob": 100 },
+      { "trait": "HAIR_RED", "prob": 100 },
+      { "trait": "HAIR_BROWN", "prob": 100 },
+      { "trait": "HAIR_BLACK", "prob": 100 },
+      { "trait": "HAIR_WHITE", "prob": 100 },
+      { "trait": "HAIR_PINK", "prob": 100 },
+      { "trait": "HAIR_GRAY", "prob": 100 },
+      { "trait": "HAIR_BALD", "prob": 10 }
+    ]
+  },
+  {
+    "type": "trait_group",
+    "id": "color_skin",
+    "subtype": "distribution",
+    "traits": [
+      { "trait": "SKIN_PINK", "prob": 100 },
+      { "trait": "SKIN_TAN", "prob": 100 },
+      { "trait": "SKIN_DARK", "prob": 100 },
+      {
+        "collection": [
+          { "trait": "SKIN_MEDIUM", "prob": 100 },
+          {
+            "distribution": [ { "trait": "LIGHT_FRECKLES", "prob": 50 }, { "trait": "DENSE_FRECKLES", "prob": 0 } ],
+            "prob": 25
+          }
+        ]
+      },
+      {
+        "collection": [
+          { "trait": "SKIN_LIGHT", "prob": 100 },
+          {
+            "distribution": [ { "trait": "LIGHT_FRECKLES", "prob": 50 }, { "trait": "DENSE_FRECKLES", "prob": 10 } ],
+            "prob": 50
+          }
+        ]
+      },
+      {
+        "collection": [
+          { "trait": "PALE", "prob": 100 },
+          {
+            "distribution": [ { "trait": "LIGHT_FRECKLES", "prob": 10 }, { "trait": "DENSE_FRECKLES", "prob": 50 } ],
+            "prob": 75
+          }
+        ]
+      }
+    ]
+  }
+]

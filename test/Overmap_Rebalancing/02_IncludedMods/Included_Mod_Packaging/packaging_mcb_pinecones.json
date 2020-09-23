@@ -1,0 +1,20 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "packaging_medium_cardboard_box_with_pinecones",
+    "symbol": "]",
+    "color": "brown",
+    "name": "larger cardboard box (pinecones)",
+    "description": "A medium sized cardboard box, used for reduction in volume. This one is filled with 15 pinecones.",
+    "price": 200,
+    "material": [ "paper" ],
+    "weight": 1750,
+    "volume": 12
+  },
+  {
+    "type": "uncraft",
+    "result": "packaging_medium_cardboard_box_with_pinecones",
+    "time": 500,
+    "components": [ [ [ "packaging_medium_cardboard_box", 1 ] ], [ [ "pinecone", 15 ] ] ]
+  }
+]
