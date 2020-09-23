@@ -12,7 +12,7 @@
     "count": 200,
     "recoil": 200,
     "loudness": 64,
-    "proportional": { "damage": { "damage_type": "bullet", "amount": 1.75, "pierce": 0.2 }, "range": 0.75, "dispersion": 0.8 },
+    "proportional": { "damage": { "damage_type": "bullet", "amount": 1.75, "armor_penetration": 0.2 }, "range": 0.75, "dispersion": 0.8 },
     "looks-like": "22_cb",
     "extend": { "effects": [ "NOGIB" ] }
   },
@@ -22,7 +22,7 @@
     "type": "AMMO",
     "name": ".22 ETC HP",
     "description": ".22 Electrothermal-chemical ammunition with 33gr hollow point bullets. Higher muzzle velocity than .22 LR and great stopping power for such a small round. It becomes relatively 'silent' when fired from specialized guns.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": 4, "pierce": -10 }, "range": -2, "recoil": -20, "dispersion": 10 },
+    "relative": { "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": -10 }, "range": -2, "recoil": -20, "dispersion": 10 },
     "//": "530 m/s. 300J. Damage increased by 2.",
     "looks-like": "22_lr"
   },
@@ -42,9 +42,8 @@
     "ammo_type": "22etc",
     "casing": "22_casing",
     "range": 16,
-    "damage": { "damage_type": "bullet", "amount": 8 },
+    "damage": { "damage_type": "bullet", "amount": 8, "armor_penetration": 14 },
     "//": "15 - 7 dmg transferred to weapons for loudness modifier. 518 m/s muzzle velocity. 365J muzzle energy . Damage reduced by 4.",
-    "pierce": 14,
     "dispersion": 40,
     "recoil": 240,
     "looks-like": "22_fmj",
@@ -59,7 +58,7 @@
     "description": "A .22 Electrothermal-chemical cartridge loaded with tiny tungsten flechettes contained within a fragmenting plastic capsule. Short range, very low stopping power but it can hit targets and penetrate armor with greater ease.",
     "count": 100,
     "dispersion": 0,
-    "proportional": { "damage": { "damage_type": "bullet", "amount": 0.125 }, "range": 0.6, "recoil": 0.5, "pierce": 2.5 },
+    "proportional": { "damage": { "damage_type": "bullet", "amount": 0.125 }, "range": 0.6, "recoil": 0.5, "armor_penetration": 2.5 },
     "looks-like": "22_ratshot",
     "extend": { "effects": [ "SHOT", "NOGIB" ] }
   },
