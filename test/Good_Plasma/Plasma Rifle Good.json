@@ -13,7 +13,7 @@
     "flags": [ "MODE_BURST", "NEVER_JAMS", "NO_RELOAD", "NO_UNLOAD" ],
     "ammo_effects": [ "PLASMA", "INCENDIARY" ],
     "skill": "rifle",
-    "ammo": "plasma",
+    "ammo": [ "plasma" ],
     "ups_charges": 30,
     "clip_size": 18,
     "weight": "4535 g",
@@ -67,7 +67,7 @@
     "volume": 15,
     "bashing": 12,
     "to_hit": -1,
-    "ammo": "plasma",
+    "ammo": [ "plasma" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
