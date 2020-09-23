@@ -2,7 +2,7 @@
   {
     "id": "satchel_leather",
     "type": "ARMOR",
-    "name": "leather satchel",
+    "name": { "str": "leather satchel" },
     "description": "Worn from years of following marks across the wastelands.",
     "weight": 500,
     "volume": 2,
@@ -22,7 +22,7 @@
   {
     "id": "bandolier_holster",
     "type": "ARMOR",
-    "name": "bandolier holster",
+    "name": { "str": "bandolier holster" },
     "description": "An oversized pistol holster made for a gunslinger, capable of storing ammunition close to hand.",
     "weight": 350,
     "volume": 1,
@@ -45,8 +45,7 @@
     "id": "boots_gunslinger",
     "copy-from": "boots_western",
     "type": "ARMOR",
-    "name": "pair of worn leather boots",
-    "name_plural": "pairs of worn leather boots",
+    "name": { "str": "pair of worn leather boots", "str_pl": "pairs of worn leather boots" },,
     "description": "Worn and dusty leather boots, tooled with intricate patterning.  One boot has a sheath made to conceal a small knife.",
     "coverage": 95,
     "extend": { "flags": [ "TRADER_AVOID" ] },

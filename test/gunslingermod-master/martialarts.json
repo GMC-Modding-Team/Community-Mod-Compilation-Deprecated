@@ -2,21 +2,21 @@
   {
     "type": "martial_art",
     "id": "style_gunslinger",
-    "name": "Gunslinger of Eld",
+    "name": { "str": "Gunslinger of Eld" },
     "description": "The last of the order of gunslingers, the highest authority in All-World.",
     "arm_block": 99,
     "leg_block": 99,
     "static_buffs": [
       {
         "id": "gunslinger_staticbuff1",
-        "name": "I aim with my eye",
+        "name": { "str": "I aim with my eye" },
         "description": "I do not aim with my hand. He who aims with his hand has forgotten the face of his father.",
         "max_stacks": 1,
         "flat_bonuses": [ [ "hit", 1.5 ] ]
       },
       {
         "id": "gunslinger_staticbuff2",
-        "name": "I shoot with my mind",
+        "name": { "str": "I shoot with my mind" },
         "description": "I do not shoot with my hand. He who shoots with his hand has forgotten the face of his father.",
         "min_gun": 4,
         "max_stacks": 1,
@@ -24,7 +24,7 @@
       },
       {
         "id": "gunslinger_staticbuff3",
-        "name": "I kill with my heart",
+        "name": { "str": "I kill with my heart" },
         "description": "I do not kill with my weapon. He who kills with his weapon has forgotten the face of his father.",
         "min_pistol": 8,
         "max_stacks": 1,
@@ -34,7 +34,7 @@
     "ondodge_buffs": [
       {
         "id": "gunslinger_dodgebuff",
-        "name": "Swift like a bullet",
+        "name": { "str": "Swift like a bullet" },
         "description": "",
         "min_gun": 4,
         "buff_duration": 2,
@@ -46,7 +46,7 @@
     "onmove_buffs": [
       {
         "id": "gunslinger_movebuff",
-        "name": "Perfectly coiled mechanism",
+        "name": { "str": "Perfectly coiled mechanism" },
         "description": "Extra dodge chance when on the move.",
         "min_pistol": 4,
         "buff_duration": 2,
