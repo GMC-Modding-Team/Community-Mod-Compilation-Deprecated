@@ -5,15 +5,14 @@
     "type": "GENERIC",
     "name": { "str": "The Drawing of the Three" },
     "name_plural": "The Drawing of the Three",
-    "description": "missing description - don't know if i want this in?"
+    "description": "missing description - dont know if i want this in?"
   },
   {
     "id": "recipe_gunslinger",
     "type": "BOOK",
     "//": "Wind through Keyholes",
-    "name": { "str": "gunslinger's journal" },
-    "name_plural": "gunslinger's journals",
-    "description": "This thick volume documents the construction of a gunslinger's gear and weapons, though not their use.",
+    "name": { "str": "gunslingers journal", "str_pl": "gunslingers journals" },
+    "description": "This thick volume documents the construction of a gunslingers gear and weapons, though not their use.",
     "weight": "2200 g",
     "volume": "500 ml",
     "price": 50000,
@@ -24,6 +23,6 @@
     "required_level": 0,
     "max_level": 1,
     "time": 60,
-    "fun": +2
+    "fun": 2
   }
 ]
