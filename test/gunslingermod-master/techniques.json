@@ -2,7 +2,7 @@
   {
     "type": "technique",
     "id": "tec_gunslinger_crit",
-    "name": "Truest Aim",
+    "name": { "str": "Truest Aim" },
     "min_pistol": 3,
     "crit_tec": true,
     "flat_bonuses": [ [ "arpen", "cut", 10 ] ],
@@ -12,7 +12,7 @@
   {
     "type": "technique",
     "id": "tec_gunslinger_feint",
-    "name": "Reflex Shot",
+    "name": { "str": "Reflex Shot" },
     "min_pistol": 4,
     "defensive": true,
     "miss_recovery": true,
@@ -22,7 +22,7 @@
   {
     "type": "technique",
     "id": "tec_gunslinger_fast",
-    "name": "Swiftly Shot",
+    "name": { "str": "Swiftly Shot" },
     "min_pistol": 5,
     "req_buffs": [ "gunslinger_dodgebuff" ],
     "mult_bonuses": [ [ "movecost", 0.5 ] ],
@@ -32,7 +32,7 @@
   {
     "type": "technique",
     "id": "tec_gunslinger_blast",
-    "name": "Piercing Blast",
+    "name": { "str": "Piercing Blast" },
     "min_pistol": 10,
     "crit_tec": true,
     "flat_bonuses": [ [ "arpen", "cut", 25 ] ],
