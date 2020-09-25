@@ -5,7 +5,7 @@
     "id": "sporeos",
     "name": { "str_sp": "SpOreos" },
     "color": "dark_gray",
-    "spoils_in": "0 hours",
+    "spoils_in": 0,
     "symbol": "%",
     "quench": 25,
     "calories": 217,
@@ -19,6 +19,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "fake",
     "result": "sporeos",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SNACK",

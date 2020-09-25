@@ -32,7 +32,7 @@
     "coverage": 1,
     "encumbrance": 0,
     "material_thickness": 1,
-    "use_action": { "type": "bandolier", "capacity": 9999999, "ammo": [ "osrs_gp" ], "draw_cost": 0 },
+    "pocket_data": [ { "ammo_restriction": { "osrs_gp": 9999999 }, "moves": 0 } ],
     "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
   },
   {
@@ -53,7 +53,7 @@
     "coverage": 1,
     "encumbrance": 0,
     "material_thickness": 1,
-    "use_action": { "type": "bandolier", "capacity": 250, "ammo": [ "osrs_bolt" ], "draw_cost": 50 },
+    "pocket_data": [ { "ammo_restriction": { "osrs_bolt": 250 }, "moves": 50 } ],
     "flags": [ "WAIST", "OVERSIZE" ]
   },
   {

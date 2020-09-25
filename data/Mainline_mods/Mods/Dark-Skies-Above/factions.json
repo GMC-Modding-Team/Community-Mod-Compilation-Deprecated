@@ -3,13 +3,13 @@
     "type": "MONSTER_FACTION",
     "name": "neworder",
     "neutral": [ "small_animal", "fish", "animal" ],
-    "friendly": [ "neworder_bot", "stray", "zombie", "zombie_aquatic" ]
+    "friendly": [ "neworder_bot" ]
   },
   {
     "type": "MONSTER_FACTION",
     "name": "neworder_bot",
     "base_faction": "neworder",
-    "neutral": [ "stray", "zombie", "zombie_aquatic" ],
+    "neutral": [ "stray" ],
     "friendly": [ "neworder" ]
   },
   {
@@ -27,7 +27,6 @@
     "type": "MONSTER_FACTION",
     "name": "stray",
     "//": "largely neutral to animals and things that don't live",
-    "neutral": [ "small_animal", "fish", "animal", "fox", "cat", "dog" ],
-    "friendly": [ "neworder_bot", "neworder", "zombie", "zombie_aquatic" ]
+    "neutral": [ "small_animal", "fish", "animal", "fox", "cat", "dog", "neworder_bot" ]
   }
 ]

@@ -30,7 +30,7 @@
         { "item": "motor_tiny", "prob": 25 }
       ]
     },
-    "looks-like": "f_fridge"
+    "looks_like": "f_fridge"
   },
   {
     "type": "furniture",
@@ -63,7 +63,7 @@
         { "item": "motor_tiny", "prob": 25 }
       ]
     },
-    "looks-like": "f_fridge"
+    "looks_like": "f_fridge"
   },
   {
     "type": "furniture",
@@ -114,6 +114,7 @@
     "symbol": "&",
     "color": "light_red",
     "copy-from": "f_autodoc",
+    "description": "A commercial surgical robot often found within licensed clinics and corporate hospitals.  Its various AI routines assist during surgery, but they are no replacement for the actual operator's skill.",
     "flags": [ "TRANSPARENT", "AUTODOC" ],
     "examine_action": "autodoc",
     "surgery_skill_multiplier": 1.6,
@@ -198,7 +199,7 @@
     "comfort": 8,
     "floor_bedding_warmth": 1000,
     "required_str": -1,
-    "looks-like": "f_bed_frame",
+    "looks_like": "f_bed_frame",
     "flags": [ "TRANSPARENT", "PLACE_ITEM", "MOUNTABLE", "CAN_SIT" ],
     "bash": {
       "str_min": 18,
@@ -225,7 +226,7 @@
     "comfort": 2,
     "floor_bedding_warmth": 500,
     "required_str": -1,
-    "looks-like": "f_bed_frame",
+    "looks_like": "f_bed_frame",
     "flags": [ "TRANSPARENT", "PLACE_ITEM", "MOUNTABLE", "CAN_SIT" ],
     "bash": {
       "str_min": 18,
@@ -249,7 +250,7 @@
     "symbol": "&",
     "description": "A boxy looking device of arms, droppers and pipettes.  It was used pre-Cataclysm to do expirements in gene editing.",
     "color": "light_cyan",
-    "looks-like": "f_robotic_arm",
+    "looks_like": "f_robotic_arm",
     "move_cost_mod": -1,
     "coverage": 35,
     "required_str": -1,
@@ -294,7 +295,7 @@
     "symbol": "?",
     "description": "This box was used for rapid prototyping of products and for general entertainment purposes in the masses.",
     "color": "light_cyan",
-    "looks-like": "f_robotic_arm",
+    "looks_like": "f_robotic_arm",
     "move_cost_mod": -1,
     "coverage": 35,
     "required_str": -1,
@@ -338,7 +339,7 @@
     "type": "furniture",
     "id": "f_neuralnet_inserter",
     "name": "neural net inserter",
-    "looks-like": "f_drill_press",
+    "looks_like": "f_drill_press",
     "description": "This device looks like a cross between some kind of nightmare dentistry equipment and socketing tool mounted on a slide that lets it drop precisely down.  Useful for those project that require putting delicate items into hard to reach spaces.",
     "symbol": "7",
     "color": "yellow_red",
@@ -375,7 +376,7 @@
     "type": "furniture",
     "id": "f_monomolecularsaw",
     "name": "monomolecular saw",
-    "looks-like": "f_bandsaw",
+    "looks_like": "f_bandsaw",
     "description": "A wire the size of a cheescutter runs in a single direction in this tool, allowing atomically precise cuts at almost any angle.  Even unpowered it gives off a visual distortion for several inches around it to prevent you from losing a hand.  It is impossible to deconstruct this device without the wire self destructing.",
     "symbol": "7",
     "color": "yellow_cyan",

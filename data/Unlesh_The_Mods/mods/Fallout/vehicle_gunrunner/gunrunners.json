@@ -50,7 +50,8 @@
           "hdframe_nw",
           "hdhalfboard_nw",
           "headlight_reinforced",
-          [ "wheel_mount_medium_steerable", "wheel_wide" ],
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
           "plating_steel"
         ]
       },
@@ -61,7 +62,8 @@
           "hdframe_ne",
           "hdhalfboard_ne",
           "headlight_reinforced",
-          [ "wheel_mount_medium_steerable", "wheel_wide" ],
+          "wheel_mount_medium_steerable",
+          "wheel_wide",
           "plating_steel"
         ]
       },
@@ -95,12 +97,12 @@
       {
         "x": -5,
         "y": -1,
-        "parts": [ "hdframe_sw", "hdboard_sw", [ "wheel_mount_medium", "wheel_wide" ], "hdroof", "plating_steel" ]
+        "parts": [ "hdframe_sw", "hdboard_sw", "wheel_mount_medium", "wheel_wide", "hdroof", "plating_steel" ]
       },
       {
         "x": -5,
         "y": 3,
-        "parts": [ "hdframe_se", "hdboard_se", [ "wheel_mount_medium", "wheel_wide" ], "hdroof", "plating_steel" ]
+        "parts": [ "hdframe_se", "hdboard_se", "wheel_mount_medium", "wheel_wide", "hdroof", "plating_steel" ]
       }
     ],
     "items": [
@@ -195,12 +197,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", [ "wheel_mount_medium_steerable", "wheel" ], "spring_plate", "headlight" ]
+        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel", "spring_plate", "headlight" ]
       },
       {
         "x": 2,
         "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", [ "wheel_mount_medium_steerable", "wheel" ], "spring_plate", "headlight" ]
+        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel", "spring_plate", "headlight" ]
       },
       { "x": 3, "y": 0, "parts": [ "ram_spiked" ] },
       { "x": 3, "y": 1, "parts": [ "ram_spiked" ] },
@@ -213,14 +215,14 @@
       {
         "x": -3,
         "y": -1,
-        "parts": [ "frame_horizontal", "halfboard_sw", [ "wheel_mount_medium", "wheel" ], "spring_plate" ]
+        "parts": [ "frame_horizontal", "halfboard_sw", "wheel_mount_medium", "wheel", "spring_plate" ]
       },
       { "x": -3, "y": 0, "parts": [ "frame_horizontal", "trunk" ] },
       { "x": -3, "y": 1, "parts": [ "frame_horizontal", "aisle_vertical" ] },
       {
         "x": -3,
         "y": 2,
-        "parts": [ "frame_horizontal", "halfboard_se", [ "wheel_mount_medium", "wheel" ], "spring_plate" ]
+        "parts": [ "frame_horizontal", "halfboard_se", "wheel_mount_medium", "wheel", "spring_plate" ]
       }
     ],
     "items": [
@@ -306,12 +308,12 @@
       {
         "x": -3,
         "y": -1,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", [ "wheel_mount_medium", "wheel_wide" ], "roof_cloth" ]
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
       },
       {
         "x": -3,
         "y": 3,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", [ "wheel_mount_medium", "wheel_wide" ], "roof_cloth" ]
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
       },
       {
         "x": 2,
@@ -323,12 +325,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_nw", [ "wheel_mount_medium_steerable", "wheel_wide" ] ]
+        "parts": [ "hdframe_horizontal", "hdhalfboard_nw", "wheel_mount_medium_steerable", "wheel_wide" ]
       },
       {
         "x": 2,
         "y": 3,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_ne", [ "wheel_mount_medium_steerable", "wheel_wide" ] ]
+        "parts": [ "hdframe_horizontal", "hdhalfboard_ne", "wheel_mount_medium_steerable", "wheel_wide" ]
       },
       { "x": -4, "y": 1, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
       { "x": -4, "y": 0, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
@@ -336,12 +338,12 @@
       {
         "x": -4,
         "y": -1,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", [ "wheel_mount_medium", "wheel_wide" ], "roof_cloth" ]
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
       },
       {
         "x": -4,
         "y": 3,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", [ "wheel_mount_medium", "wheel_wide" ], "roof_cloth" ]
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
       },
       { "x": 3, "y": 1, "parts": [ "frame_horizontal_2" ] },
       { "x": 3, "y": 0, "parts": [ "frame_horizontal_2" ] },
