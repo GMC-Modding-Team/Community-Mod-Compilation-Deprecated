@@ -10,7 +10,7 @@
     "material": [ "steel" ],
     "symbol": "=",
     "color": "dark_gray",
-    "looks-like": "welder",
+    "looks_like": "welder",
     "ammo": [ "battery" ],
     "max_charges": 200,
     "charges_per_use": 5,
@@ -36,7 +36,7 @@
     "material": [ "glass", "myomer_on" ],
     "symbol": "=",
     "color": "dark_gray",
-    "looks-like": "flask_glass",
+    "looks_like": "flask_glass",
     "use_action": {
       "target": "cbma_myomer_fiber_dupe_done",
       "msg": "It seems that the culture of myomer fibers is complete.",
@@ -57,14 +57,14 @@
     "material": [ "glass", "myomer_on" ],
     "symbol": "=",
     "color": "dark_gray",
-    "looks-like": "flask_glass"
+    "looks_like": "flask_glass"
   },
   {
     "type": "GENERIC",
     "id": "cbma_myomer_fiber",
     "symbol": ",",
     "color": "brown",
-    "looks-like": "sinew",
+    "looks_like": "sinew",
     "name": { "str": "myomer fiber", "str_pl": "myomer fibers" },
     "description": "A bundle of refined myomer fibers. It can be used for making and repairing.",
     "price": 0,
