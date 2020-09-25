@@ -22,7 +22,7 @@
     "built_in_mods": "ad_capacitor",
     "default_mods": "pistol_scope",
     "clip_size": 4,
-    "looks-like": "raging_bull",
+    "looks_like": "raging_bull",
     "magazines": [ [ "556etc", [ "556etc_speedloader" ] ] ]
   },
   {
@@ -58,7 +58,7 @@
       [ "sights", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "looks-like": "h&k416a5",
+    "looks_like": "h&k416a5",
     "magazines": [ [ "556etc", [ "ocg556e_30", "ocg556e_14", "ocg556e_50", "ocg556e_24", "ocg556e_60", "ocg556e_100" ] ] ]
   },
   {
@@ -82,7 +82,7 @@
     "relative": { "weight": "300 g" },
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2, [ "SIMULTANEOUS" ] ], [ "AUTO", "auto", 10 ] ],
     "built_in_mods": [ "ocg_er555_carbarrel", "ocg_recoil_stock", "grip" ],
-    "looks-like": "h&k416a5"
+    "looks_like": "h&k416a5"
   },
   {
     "id": "etc_er555_cqb",
@@ -94,7 +94,7 @@
     "relative": { "weight": "50 g", "bashing": 4 },
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2, [ "SIMULTANEOUS" ] ], [ "AUTO", "auto", 6 ] ],
     "built_in_mods": [ "ocg_er555_cqbbarrel", "ocg_recoil_stock", "int_rm42i_bayonet", "laser_sight" ],
-    "looks-like": "h&k416a5",
+    "looks_like": "h&k416a5",
     "flags": [ "DURABLE_MELEE" ]
   },
   {
@@ -108,7 +108,7 @@
     "relative": { "weight": "1100 g" },
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2, [ "SIMULTANEOUS" ] ], [ "AUTO", "auto", 18 ] ],
     "built_in_mods": [ "ocg_er555_lmgbarrel", "ocg_grippod_fg", "ocg_grippod_bipod", "ocg_recoil_stock", "barrel_ported", "ocg_stabilizer" ],
-    "looks-like": "m249",
+    "looks_like": "m249",
     "magazines": [ [ "556etc", [ "belt556etc", "ocg556e_30", "ocg556e_14", "ocg556e_50", "ocg556e_24", "ocg556e_60", "ocg556e_100" ] ] ]
   },
   {
@@ -134,7 +134,7 @@
       [ "underbarrel", 1 ]
     ],
     "built_in_mods": [ "ocg_er555_barrel", "ocg_grippod_fg", "ocg_grippod_bipod", "ocg_stabilizer", "cheek_pad" ],
-    "looks-like": "m16a4"
+    "looks_like": "m16a4"
   },
   {
     "id": "etc_er555_udd",
@@ -146,6 +146,6 @@
     "relative": { "weight": "350 g", "damage": { "damage_type": "bullet", "amount": 6, "armor_penetration": 15 }, "recoil": 1080 },
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2, [ "SIMULTANEOUS" ] ], [ "AUTO", "auto", 18 ] ],
     "built_in_mods": [ "ad_capacitor", "ocg_er555_cqbbarrel", "ocg_recoil_stock", "barrel_ported", "ocg_stabilizer" ],
-    "looks-like": "h&k416a5"
+    "looks_like": "h&k416a5"
   }
 ]

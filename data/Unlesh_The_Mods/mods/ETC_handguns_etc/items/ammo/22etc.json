@@ -13,7 +13,7 @@
     "recoil": 200,
     "loudness": 64,
     "proportional": { "damage": { "damage_type": "bullet", "amount": 1.75, "armor_penetration": 0.2 }, "range": 0.75, "dispersion": 0.8 },
-    "looks-like": "22_cb",
+    "looks_like": "22_cb",
     "extend": { "effects": [ "NOGIB" ] }
   },
   {
@@ -24,7 +24,7 @@
     "description": ".22 Electrothermal-chemical ammunition with 33gr hollow point bullets. Higher muzzle velocity than .22 LR and great stopping power for such a small round. It becomes relatively 'silent' when fired from specialized guns.",
     "relative": { "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": -10 }, "range": -2, "recoil": -20, "dispersion": 10 },
     "//": "530 m/s. 300J. Damage increased by 2.",
-    "looks-like": "22_lr"
+    "looks_like": "22_lr"
   },
   {
     "id": "22etc_match",
@@ -46,7 +46,7 @@
     "//": "15 - 7 dmg transferred to weapons for loudness modifier. 518 m/s muzzle velocity. 365J muzzle energy . Damage reduced by 4.",
     "dispersion": 40,
     "recoil": 240,
-    "looks-like": "22_fmj",
+    "looks_like": "22_fmj",
     "effects": [ "COOKOFF" ]
   },
   {
@@ -59,7 +59,7 @@
     "count": 100,
     "dispersion": 0,
     "proportional": { "damage": { "damage_type": "bullet", "amount": 0.125 }, "range": 0.6, "recoil": 0.5, "armor_penetration": 2.5 },
-    "looks-like": "22_ratshot",
+    "looks_like": "22_ratshot",
     "extend": { "effects": [ "SHOT", "NOGIB" ] }
   },
   {
@@ -68,7 +68,7 @@
     "type": "AMMO",
     "name": "handloaded .22 ETC HP",
     "proportional": { "damage": { "damage_type": "bullet", "amount": 0.9 }, "price": 0.7, "dispersion": 1.1 },
-    "looks-like": "reloaded_22_lr",
+    "looks_like": "reloaded_22_lr",
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
@@ -78,7 +78,7 @@
     "type": "AMMO",
     "name": "handloaded .22 ETC APM",
     "proportional": { "damage": { "damage_type": "bullet", "amount": 0.9 }, "price": 0.7, "dispersion": 1.1 },
-    "looks-like": "reloaded_22_fmj",
+    "looks_like": "reloaded_22_fmj",
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }

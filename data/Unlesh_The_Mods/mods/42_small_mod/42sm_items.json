@@ -7,7 +7,7 @@
     "description": "A Kevlar armored custom full-length duster, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
     "copy-from": "duster_survivor",
     "symbol": "[",
-    "looks-like": "duster_survivor",
+    "looks_like": "duster_survivor",
     "color": "brown",
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
     "pocket_data": [
@@ -56,7 +56,7 @@
     "description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
     "copy-from": "sleeveless_duster_survivor",
     "symbol": "[",
-    "looks-like": "sleeveless_duster_survivor",
+    "looks_like": "sleeveless_duster_survivor",
     "color": "brown",
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
     "pocket_data": [
@@ -105,7 +105,7 @@
     "description": "A Kevlar armored custom trenchcoat, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
     "copy-from": "trenchcoat_survivor",
     "symbol": "[",
-    "looks-like": "trenchcoat_survivor",
+    "looks_like": "trenchcoat_survivor",
     "color": "brown",
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
     "pocket_data": [
@@ -154,7 +154,7 @@
     "description": "A custom Kevlar armored trenchcoat without sleeves, covered with pouches and pockets, including four pouches capable of carrying magazines.  Comfortable, durable, and great for storage.",
     "copy-from": "sleeveless_trenchcoat_survivor",
     "symbol": "[",
-    "looks-like": "sleeveless_trenchcoat_survivor",
+    "looks_like": "sleeveless_trenchcoat_survivor",
     "color": "brown",
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
     "pocket_data": [
@@ -203,7 +203,7 @@
     "description": "A pair of customized, Kevlar armored cloth gloves for those with natural attacks, modified to be easy to wear while providing maximum protection under extreme conditions.",
     "copy-from": "gloves_lsurvivor",
     "symbol": "[",
-    "looks-like": "gloves_lsurvivor",
+    "looks_like": "gloves_lsurvivor",
     "color": "green",
     "extend": { "flags": [ "ALLOWS_NATURAL_ATTACKS" ] }
   },
@@ -213,7 +213,7 @@
     "name": { "str": "atomic headlight" },
     "description": "A custom vehicle headlight powered by the magic of nuclear decay, focused to light up the way.",
     "symbol": ",",
-    "looks-like": "car_headlight",
+    "looks_like": "car_headlight",
     "material": [ "plastic" ],
     "category": "veh_parts",
     "weight": "2 kg",
@@ -226,7 +226,7 @@
     "name": { "str": "wide-angle atomic headlight" },
     "description": "A custom wide-angle vehicle headlight powered by the magic of nuclear decay, focused to light up the way.",
     "symbol": ",",
-    "looks-like": "car_headlight",
+    "looks_like": "car_headlight",
     "weight": "3 kg",
     "volume": "3 L",
     "price": 8000,
