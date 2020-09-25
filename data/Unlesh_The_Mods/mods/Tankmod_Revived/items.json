@@ -102,7 +102,7 @@
   {
     "type": "AMMO",
     "id": "105mm_heat",
-    "looks-like": "120mm_usable_heat",
+    "looks_like": "120mm_usable_heat",
     "price": 100000,
     "price_postapoc": 2000,
     "name": { "str": "M456 105mm HEAT" },
@@ -127,7 +127,7 @@
   {
     "type": "AMMO",
     "id": "105mm_ap",
-    "looks-like": "120mm_usable_ap",
+    "looks_like": "120mm_usable_ap",
     "price": 120000,
     "price_postapoc": 2400,
     "name": { "str": "M833 105mm APFSDS" },
@@ -380,7 +380,7 @@
     "type": "GENERIC",
     "id": "105mm_casing",
     "copy-from": "artillery_casing",
-    "looks-like": "120mm_casing",
+    "looks_like": "120mm_casing",
     "name": { "str": "105mm canister" },
     "color": "dark_gray",
     "description": "A canister from a spent 105mm shell, now an expensive paperweight.",
@@ -506,7 +506,7 @@
   },
   {
     "id": "tank_gun_manual_105mm",
-    "looks-like": "tank_gun_manual",
+    "looks_like": "tank_gun_manual",
     "type": "GUN",
     "symbol": "(",
     "color": "green",
@@ -559,7 +559,7 @@
   {
     "id": "atgm_turret",
     "copy-from": "gun_base",
-    "looks-like": "atgm_launcher",
+    "looks_like": "atgm_launcher",
     "type": "GUN",
     "name": { "str_sp": "BGM-71F TOW Under Armor" },
     "description": "A twin-tube launcher for anti-tank guided missiles, specifically designed for vehicle use.  While fairly accurate, it isn't fire-and-forget.  Obviously it needs to be mounted on a vehicle to fire.",

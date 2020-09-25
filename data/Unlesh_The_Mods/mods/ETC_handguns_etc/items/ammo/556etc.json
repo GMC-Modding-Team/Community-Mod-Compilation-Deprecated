@@ -19,7 +19,7 @@
     "damage": { "damage_type": "bullet", "amount": 39, "armor_penetration": 51 },
     "dispersion": 15,
     "recoil": 2700,
-    "looks-like": "556",
+    "looks_like": "556",
     "effects": [ "COOKOFF" ]
   },
   {
@@ -38,7 +38,7 @@
       "recoil": 0.92
     },
     "loudness": 35,
-    "looks-like": "556",
+    "looks_like": "556",
     "effects": [ "COOKOFF" ]
   },
   {
@@ -58,7 +58,7 @@
       "recoil": 0.25
     },
     "loudness": 68,
-    "looks-like": "223",
+    "looks_like": "223",
     "effects": [ "COOKOFF" ]
   },
   {
@@ -67,7 +67,7 @@
     "type": "AMMO",
     "name": "5.56 DK tracer",
     "description": "This ammunition is a one-in-five mix of tracer rounds to help keep the weapon they are fired from on target.",
-    "looks-like": "556_incendiary",
+    "looks_like": "556_incendiary",
     "extend": { "effects": [ "INCENDIARY" ] }
   },
   {
@@ -77,7 +77,7 @@
     "name": "reloaded 5.56 DK",
     "proportional": { "damage": { "damage_type": "bullet", "amount": 0.9 }, "price": 0.7, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] },
-    "looks-like": "reloaded_556",
+    "looks_like": "reloaded_556",
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
@@ -87,7 +87,7 @@
     "name": "reloaded 5.56 DK tracer",
     "proportional": { "damage": { "damage_type": "bullet", "amount": 0.9 }, "price": 0.7, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] },
-    "looks-like": "reloaded_556_incendiary",
+    "looks_like": "reloaded_556_incendiary",
     "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }
 ]
