@@ -22,7 +22,12 @@
     "type": "AMMO",
     "name": ".22 ETC HP",
     "description": ".22 Electrothermal-chemical ammunition with 33gr hollow point bullets. Higher muzzle velocity than .22 LR and great stopping power for such a small round. It becomes relatively 'silent' when fired from specialized guns.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": -10 }, "range": -2, "recoil": -20, "dispersion": 10 },
+    "relative": {
+      "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": -10 },
+      "range": -2,
+      "recoil": -20,
+      "dispersion": 10
+    },
     "//": "530 m/s. 300J. Damage increased by 2.",
     "looks_like": "22_lr"
   },
