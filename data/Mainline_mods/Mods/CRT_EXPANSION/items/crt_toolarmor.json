@@ -195,7 +195,7 @@
     "warmth": 20,
     "max_charges": 100,
     "initial_charges": 100,
-    "ammo": [ "battery" ],
+    "ammo": "battery",
     "use_action": {
       "type": "transform",
       "msg": "You turn the %s on.",
@@ -234,14 +234,14 @@
     "initial_charges": 0,
     "charges_per_use": 1,
     "turns_per_charge": 120,
-    "ammo": [ "battery" ],
+    "ammo": "battery",
     "use_action": { "type": "transform", "msg": "You turn the %s off.", "target": "crt_helmet" }
   },
   {
     "id": "crt_canteen",
     "copy-from": "canteen",
     "type": "ARMOR",
-    "name": { "str": "CRIT canteen" },
+    "name": "CRIT canteen",
     "description": "A durable steel canteen that can heat up food with built in atomic heating elements.",
     "color": "dark_gray",
     "material": [ "hardsteel" ],
@@ -252,7 +252,7 @@
   {
     "id": "bandana_wet",
     "type": "TOOL_ARMOR",
-    "name": { "str": "wet bandana" },
+    "name": "wet bandana",
     "description": "A dampened cotton bandana, worn over the mouth for a extra protection from dust and other contaminants.",
     "weight": "42 g",
     "volume": "250 ml",

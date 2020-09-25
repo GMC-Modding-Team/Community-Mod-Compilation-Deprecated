@@ -2,7 +2,7 @@
   {
     "id": "crystallize_mana",
     "type": "SPELL",
-    "name": { "str": "Crystallize Mana" },
+    "name": "Crystallize Mana",
     "description": "Crystallizes mana into solid form",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
@@ -23,7 +23,7 @@
   {
     "id": "mana_fatigue",
     "type": "SPELL",
-    "name": { "str": "Mana Fatigue" },
+    "name": "Mana Fatigue",
     "description": "Secondary effect of Crystallize Mana",
     "valid_targets": [ "self" ],
     "effect": "target_attack",
@@ -36,7 +36,7 @@
   {
     "id": "dark_sight",
     "type": "SPELL",
-    "name": { "str": "Dark Sight" },
+    "name": "Dark Sight",
     "description": "Gives you the power to see in the dark",
     "message": "Your eyes glow green for a moment.  Now your sight can pierce the darkest shadows.",
     "valid_targets": [ "self" ],
@@ -56,7 +56,7 @@
   {
     "id": "megablast",
     "type": "SPELL",
-    "name": { "str": "Megablast" },
+    "name": "Megablast",
     "description": "You always wanted to fire energy beams like in the animes you watched as a kid.  Now you can!",
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "line_attack",
@@ -81,7 +81,7 @@
   {
     "id": "create_atomic_light",
     "type": "SPELL",
-    "name": { "str": "Magical Light" },
+    "name": "Magical Light",
     "description": "Creates a magical light.",
     "valid_targets": [ "none" ],
     "min_range": 0,
@@ -107,7 +107,7 @@
     "description": "Blind enemies for a short time with a sudden, dazzling light.  Higher levels deal slightly higher damage.",
     "effect": "target_attack",
     "effect_str": "blind",
-    "affected_body_parts": [ "EYES" ],
+    "affected_body_parts": [ "eyes" ],
     "valid_targets": [ "hostile" ],
     "max_level": 20,
     "min_damage": 1,
@@ -133,11 +133,11 @@
   {
     "id": "ethereal_grasp",
     "type": "SPELL",
-    "name": { "str": "Ethereal Grasp" },
+    "name": "Ethereal Grasp",
     "description": "A mass of spectral hands emerge from the ground, slowing everything in range.  Higher levels allow a bigger AoE, and longer effect.",
     "effect": "target_attack",
     "effect_str": "effect_ethereal_grasp",
-    "affected_body_parts": [ "FOOT_L", "FOOT_R" ],
+    "affected_body_parts": [ "foot_l", "foot_r" ],
     "valid_targets": [ "hostile" ],
     "max_level": 20,
     "min_damage": 10,
@@ -163,7 +163,7 @@
   {
     "id": "obfuscated_body",
     "type": "SPELL",
-    "name": { "str": "Obfuscated Body" },
+    "name": "Obfuscated Body",
     "description": "A magical aura distorts light around your body, increasing the amount of attacks you might dodge in a given turn.",
     "valid_targets": [ "self" ],
     "effect": "spawn_item",
@@ -200,7 +200,7 @@
   {
     "id": "translocate_self",
     "type": "SPELL",
-    "name": { "str": "Translocate Self" },
+    "name": "Translocate Self",
     "description": "Translocates the user to an attuned gate.",
     "valid_targets": [ "self" ],
     "effect": "translocate",
@@ -238,7 +238,7 @@
   {
     "id": "acid_resistance_greater",
     "type": "SPELL",
-    "name": { "str": "Greater Acid Resistance" },
+    "name": "Greater Acid Resistance",
     "description": "Protects the user from acid.",
     "valid_targets": [ "none" ],
     "min_range": 0,

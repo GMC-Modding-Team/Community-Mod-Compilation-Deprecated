@@ -2,7 +2,7 @@
   {
     "type": "martial_art",
     "id": "style_spearfighting",
-    "name": { "str": "Spearfighting" },
+    "name": "Spearfighting",
     "description": "The art of pointy sticks. Based on Piercing Weapons skill, most effective against groups of enemies.",
     "initiate": [ "You prepare to skewer your enemies.", "%s gets ready to make shish kebabs." ],
     "autolearn": [ [ "stabbing", "1" ] ],
@@ -15,8 +15,8 @@
         "description": "You keep your enemies at bay with the point of your spear. Gives block and dodge bonuses.\n\n +2 Dodge attempts, Blocked damage reduced by 50%% of strength",
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "mult_bonuses": [ [ "dodge", "dex", 3 ] ],
-        "flat_bonuses": [ [ "block", "str", 0.5 ] ]
+        "mult_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 3 } ],
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.5 } ]
       },
       {
         "id": "buff_speartraininglv1_static",
@@ -25,7 +25,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv2_static",
@@ -34,7 +34,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv3_static",
@@ -43,7 +43,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv4_static",
@@ -52,7 +52,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv5_static",
@@ -61,7 +61,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv6_static",
@@ -70,7 +70,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv7_static",
@@ -79,7 +79,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv8_static",
@@ -88,7 +88,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv9_static",
@@ -97,7 +97,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv10_static",
@@ -106,7 +106,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv11_static",
@@ -115,7 +115,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "stab", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "damage", "type": "stab", "scale": 1.1 } ]
       },
       {
         "id": "buff_speartraininglv12_static",
@@ -124,7 +124,7 @@
         "skill_requirements": [ { "name": "stabbing", "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.5 ], [ "damage", "stab", 2.0 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 }, { "stat": "damage", "type": "stab", "scale": 2.0 } ]
       }
     ],
     "onhit_buffs": [
@@ -136,11 +136,11 @@
         "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
-          [ "damage", "bash", 0.01 ],
-          [ "damage", "cut", 0.01 ],
-          [ "damage", "stab", 0.01 ],
-          [ "dodge", 0.05 ],
-          [ "hit", 0.05 ]
+          { "stat": "damage", "type": "bash", "scale": 0.01 },
+          { "stat": "damage", "type": "cut", "scale": 0.01 },
+          { "stat": "damage", "type": "stab", "scale": 0.01 },
+          { "stat": "dodge", "scale": 0.05 },
+          { "stat": "hit", "scale": 0.05 }
         ]
       }
     ],
@@ -151,7 +151,7 @@
         "description": "You charge at the enemy!",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "mult_bonuses": [ [ "damage", "stab", 5 ], [ "movecost", 0.5 ] ],
+        "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 5 }, { "stat": "movecost", "scale": 0.5 } ],
         "buff_duration": 1
       }
     ],
@@ -162,7 +162,11 @@
         "description": "Every kill makes you more badass.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "flat_bonuses": [ [ "hit", 1 ], [ "damage", "stab", 1 ], [ "arpen", "stab", 1 ] ],
+        "flat_bonuses": [
+          { "stat": "hit", "scale": 1 },
+          { "stat": "damage", "type": "stab", "scale": 1 },
+          { "stat": "arpen", "type": "stab", "scale": 1 }
+        ],
         "max_stacks": 99999
       }
     ],
@@ -172,8 +176,8 @@
         "name": "You Fight Like A Dairy Farmer",
         "description": "You fight like a dairy farmer!",
         "unarmed_allowed": true,
-        "mult_bonuses": [ [ "movecost", 0.0 ] ],
-        "flat_bonuses": [ [ "damage", "stab", 1.5 ] ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ],
+        "flat_bonuses": [ { "stat": "damage", "type": "stab", "scale": 1.5 } ],
         "bonus_dodges": 1,
         "buff_duration": 2
       }
@@ -215,7 +219,7 @@
     "name": "You Fight Like A Cow",
     "melee_allowed": true,
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "mult_bonuses": [ [ "hit", 1.2 ] ],
+    "mult_bonuses": [ { "stat": "hit", "scale": 1.2 } ],
     "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
     "description": "Miss recovery"
   },
@@ -225,7 +229,7 @@
     "name": "Every Enemy Ive Met Ive Annihilated",
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "skill_requirements": [ { "name": "stabbing", "level": 10 } ],
-    "mult_bonuses": [ [ "damage", "stab", 99 ], [ "hit", 99 ] ],
+    "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 99 }, { "stat": "hit", "scale": 99 } ],
     "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
     "description": "High-level miss recovery - One Hit Kill"
   },
@@ -235,7 +239,7 @@
     "name": "Charge Attack",
     "melee_allowed": true,
     "req_buffs": [ "buff_charge_onmove" ],
-    "mult_bonuses": [ [ "arpen", "stab", 5 ], [ "damage", "stab", 2 ] ],
+    "mult_bonuses": [ { "stat": "arpen", "type": "stab", "scale": 5 }, { "stat": "damage", "type": "stab", "scale": 2 } ],
     "messages": [ "You charge at %s and skewer them", "<npcname> charges %s." ],
     "description": "Charge attack"
   },
@@ -245,7 +249,7 @@
     "name": "Shish Kebab",
     "melee_allowed": true,
     "req_buffs": [ "buff_charge_onmove" ],
-    "mult_bonuses": [ [ "arpen", "stab", 5 ], [ "damage", "stab", 2 ] ],
+    "mult_bonuses": [ { "stat": "arpen", "type": "stab", "scale": 5 }, { "stat": "damage", "type": "stab", "scale": 2 } ],
     "aoe": "impale",
     "messages": [
       "You charge at %s, and skewer them and the enemies behind them.",
@@ -259,7 +263,7 @@
     "name": "Clothesline",
     "melee_allowed": true,
     "req_buffs": [ "buff_charge_onmove" ],
-    "mult_bonuses": [ [ "arpen", "bash", 5 ], [ "damage", "bash", 2 ] ],
+    "mult_bonuses": [ { "stat": "arpen", "type": "bash", "scale": 5 }, { "stat": "damage", "type": "bash", "scale": 2 } ],
     "aoe": "spin",
     "down_dur": 2,
     "messages": [
@@ -273,7 +277,7 @@
     "id": "abspear_block",
     "name": "Block",
     "dummy": true,
-    "mult_bonuses": [ [ "movecost", 0.0 ] ],
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ],
     "messages": [ "You block %s", "<npcname> blocks %s" ],
     "description": "Medium blocking ability"
   },
@@ -284,7 +288,7 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 1 } ],
-    "mult_bonuses": [ [ "damage", "stab", 0.8 ], [ "hit", 0.8 ] ],
+    "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 0.8 }, { "stat": "hit", "scale": 0.8 } ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "aoe": "spin",
     "description": "AoE spin attack, reduced damage and accuracy"
@@ -296,7 +300,7 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
-    "mult_bonuses": [ [ "damage", "stab", 1.1 ], [ "hit", 1.1 ] ],
+    "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "knockback_dist": 2,
     "aoe": "spin",
@@ -309,7 +313,11 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 5 } ],
-    "mult_bonuses": [ [ "damage", "stab", 1.5 ], [ "hit", 1.5 ], [ "arpen", "stab", 1.5 ] ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "stab", "scale": 1.5 },
+      { "stat": "hit", "scale": 1.5 },
+      { "stat": "arpen", "type": "stab", "scale": 1.5 }
+    ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "knockback_dist": 2,
     "aoe": "spin",
@@ -322,7 +330,11 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 7 } ],
-    "mult_bonuses": [ [ "damage", "stab", 2 ], [ "hit", 2 ], [ "arpen", "stab", 2 ] ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "stab", "scale": 2 },
+      { "stat": "hit", "scale": 2 },
+      { "stat": "arpen", "type": "stab", "scale": 2 }
+    ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "knockback_dist": 2,
     "stun_dur": 1,
@@ -336,7 +348,11 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 9 } ],
-    "mult_bonuses": [ [ "damage", "stab", 2.5 ], [ "hit", 2.5 ], [ "arpen", "stab", 2.5 ] ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "stab", "scale": 2.5 },
+      { "stat": "hit", "scale": 2.5 },
+      { "stat": "arpen", "type": "stab", "scale": 2.5 }
+    ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "knockback_dist": 2,
     "stun_dur": 2,
@@ -350,7 +366,12 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 11 } ],
-    "mult_bonuses": [ [ "movecost", 0.1 ], [ "damage", "stab", 10 ], [ "hit", 10 ], [ "arpen", "stab", 10 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.1 },
+      { "stat": "damage", "type": "stab", "scale": 10 },
+      { "stat": "hit", "scale": 10 },
+      { "stat": "arpen", "type": "stab", "scale": 10 }
+    ],
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "knockback_dist": 2,
     "stun_dur": 2,
@@ -364,7 +385,11 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 1 } ],
-    "mult_bonuses": [ [ "movecost", 0.5 ], [ "damage", "stab", 0.1 ], [ "hit", 10 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.5 },
+      { "stat": "damage", "type": "stab", "scale": 0.1 },
+      { "stat": "hit", "scale": 10 }
+    ],
     "messages": [ "You push %s and nearby enemies to the ground", "<npcname> knocks down nearby enemies" ],
     "knockback_dist": 2,
     "stun_dur": 2,
@@ -390,7 +415,7 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 5 } ],
-    "mult_bonuses": [ [ "damage", "stab", 2.5 ], [ "arpen", "stab", 2.5 ] ],
+    "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 2.5 }, { "stat": "arpen", "type": "stab", "scale": 2.5 } ],
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
@@ -404,7 +429,11 @@
     "name": "Critical Strike",
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "mult_bonuses": [ [ "damage", "stab", 99 ], [ "arpen", "stab", 99 ], [ "hit", 99 ] ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "stab", "scale": 99 },
+      { "stat": "arpen", "type": "stab", "scale": 99 },
+      { "stat": "hit", "scale": 99 }
+    ],
     "crit_tec": true,
     "weighting": -250,
     "messages": [ "You slice %s through the heart", "<npcname> slices through %s" ],
@@ -449,7 +478,7 @@
     "unarmed_allowed": true,
     "weighting": 2,
     "down_dur": 1,
-    "mult_bonuses": [ [ "movecost", 0.75 ] ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.75 } ]
   },
   {
     "type": "technique",
@@ -459,7 +488,11 @@
     "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
     "melee_allowed": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "movecost", 0.8 ], [ "damage", "stab", 1.2 ], [ "dodge", 1.2 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "damage", "type": "stab", "scale": 1.2 },
+      { "stat": "dodge", "scale": 1.2 }
+    ]
   },
   {
     "type": "technique",
@@ -469,7 +502,11 @@
     "skill_requirements": [ { "name": "stabbing", "level": 1 } ],
     "melee_allowed": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "movecost", 0.6 ], [ "damage", "stab", 0.9 ], [ "dodge", 2 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.6 },
+      { "stat": "damage", "type": "stab", "scale": 0.9 },
+      { "stat": "dodge", "scale": 2 }
+    ]
   },
   {
     "type": "technique",
@@ -479,7 +516,12 @@
     "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
     "melee_allowed": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "movecost", 0.8 ], [ "damage", "stab", 1.5 ], [ "arpen", "stab", 1.5 ], [ "dodge", 1.2 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "damage", "type": "stab", "scale": 1.5 },
+      { "stat": "arpen", "type": "stab", "scale": 1.5 },
+      { "stat": "dodge", "scale": 1.2 }
+    ]
   },
   {
     "type": "technique",
@@ -490,7 +532,12 @@
     "melee_allowed": true,
     "crit_ok": true,
     "knockback_dist": 2,
-    "mult_bonuses": [ [ "movecost", 0.8 ], [ "damage", "stab", 0.25 ], [ "arpen", "stab", 1.5 ], [ "dodge", 1.2 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "damage", "type": "stab", "scale": 0.25 },
+      { "stat": "arpen", "type": "stab", "scale": 1.5 },
+      { "stat": "dodge", "scale": 1.2 }
+    ]
   },
   {
     "type": "technique",
@@ -502,7 +549,12 @@
     "block_counter": true,
     "crit_ok": true,
     "stun_dur": 1,
-    "mult_bonuses": [ [ "movecost", 0.0 ], [ "damage", "bash", 1.2 ], [ "damage", "cut", 1.2 ], [ "damage", "stab", 1.2 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "bash", "scale": 1.2 },
+      { "stat": "damage", "type": "cut", "scale": 1.2 },
+      { "stat": "damage", "type": "stab", "scale": 1.2 }
+    ]
   },
   {
     "type": "technique",
@@ -514,7 +566,11 @@
     "crit_ok": true,
     "dodge_counter": true,
     "down_dur": 1,
-    "mult_bonuses": [ [ "movecost", 0.0 ], [ "damage", "cut", 0 ], [ "damage", "stab", 0 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "cut", "scale": 0 },
+      { "stat": "damage", "type": "stab", "scale": 0 }
+    ]
   },
   {
     "type": "technique",
@@ -524,7 +580,7 @@
     "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
-    "mult_bonuses": [ [ "movecost", 0.5 ] ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 } ]
   },
   {
     "type": "technique",
@@ -534,6 +590,10 @@
     "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "movecost", 0.0 ], [ "damage", "stab", 5 ], [ "hit", 0.5 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "stab", "scale": 5 },
+      { "stat": "hit", "scale": 0.5 }
+    ]
   }
 ]

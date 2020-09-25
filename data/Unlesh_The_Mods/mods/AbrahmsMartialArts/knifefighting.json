@@ -2,7 +2,7 @@
   {
     "type": "martial_art",
     "id": "style_knifefighting",
-    "name": { "str": "Knifefighting" },
+    "name": "Knifefighting",
     "description": "You pull out a knife and prepare to butcher your enemy.\n\n Based on Piercing Weapons skill, focuses on fast attacks, dodging, and armor penetration. Weaknesses of the style are stamina cost and low damage per hit, and greater dependence on stats, primarily dex. A classic thief/rogue/assassin style. ",
     "initiate": [ "You hold your knife out in front of you.", "%s gets ready to make em bleed." ],
     "autolearn": [ [ "stabbing", "1" ] ],
@@ -15,8 +15,17 @@
         "description": "You stay loose and ready to strike.\n\n +2 Dodge Attempts, bonuses to speed, dodge, armor penetration.",
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.25 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "arpen", "stab", 1.5 ], [ "arpen", "cut", 1.5 ], [ "dodge", 2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "arpen", "type": "stab", "scale": 1.5 },
+          { "stat": "arpen", "type": "cut", "scale": 1.5 },
+          { "stat": "dodge", "scale": 2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv1_static",
@@ -25,8 +34,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.25 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv2_static",
@@ -35,8 +53,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.5 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv3_static",
@@ -45,8 +72,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.75 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.75 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv4_static",
@@ -55,8 +91,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 1 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 1 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv5_static",
@@ -65,8 +110,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 1.25 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 1.25 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv6_static",
@@ -75,8 +129,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 1.5 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 1.5 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv7_static",
@@ -85,8 +148,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 1.75 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 1.75 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv8_static",
@@ -95,8 +167,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 2 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv9_static",
@@ -105,8 +186,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 2.25 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 2.25 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv10_static",
@@ -115,8 +205,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 2.5 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 2.5 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv11_static",
@@ -125,8 +224,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 2,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 2.75 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 1.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 2.75 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       },
       {
         "id": "buff_knifetraininglv12_static",
@@ -135,8 +243,17 @@
         "skill_requirements": [ { "name": "stabbing", "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 3,
-        "flat_bonuses": [ [ "dodge", 5 ], [ "dodge", "dex", 5 ], [ "arpen", "stab", "dex", 5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.8 ], [ "dodge", 2.5 ], [ "damage", "cut", 1.05 ], [ "arpen", "cut", 1.2 ] ]
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 5 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 5 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 5 }
+        ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.8 },
+          { "stat": "dodge", "scale": 2.5 },
+          { "stat": "damage", "type": "cut", "scale": 1.05 },
+          { "stat": "arpen", "type": "cut", "scale": 1.2 }
+        ]
       }
     ],
     "onattack_buffs": [
@@ -147,14 +264,20 @@
         "melee_allowed": true,
         "bonus_dodges": 3,
         "flat_bonuses": [
-          [ "dodge", 1 ],
-          [ "dodge", "dex", 0.25 ],
-          [ "hit", 1 ],
-          [ "hit", "dex", 0.25 ],
-          [ "movecost", -0.1 ],
-          [ "arpen", "stab", "dex", 0.5 ]
+          { "stat": "dodge", "scale": 1 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.25 },
+          { "stat": "hit", "scale": 1 },
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.25 },
+          { "stat": "movecost", "scale": -0.1 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
         ],
-        "mult_bonuses": [ [ "dodge", 1.5 ], [ "dodge", "dex", 0.2 ], [ "arpen", "cut", 1.25 ], [ "arpen", "stab", 1.25 ], [ "movecost", 0.95 ] ],
+        "mult_bonuses": [
+          { "stat": "dodge", "scale": 1.5 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 },
+          { "stat": "arpen", "type": "cut", "scale": 1.25 },
+          { "stat": "arpen", "type": "stab", "scale": 1.25 },
+          { "stat": "movecost", "scale": 0.95 }
+        ],
         "max_stacks": 99,
         "buff_duration": 99
       }
@@ -169,14 +292,14 @@
         "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
-          [ "arpen", "bash", 0.01 ],
-          [ "arpen", "cut", 0.01 ],
-          [ "arpen", "stab", 0.01 ],
-          [ "dodge", 0.01 ],
-          [ "dodge", "dex", 0.1 ],
-          [ "hit", 0.01 ],
-          [ "hit", "dex", 0.1 ],
-          [ "movecost", -0.1 ]
+          { "stat": "arpen", "type": "bash", "scale": 0.01 },
+          { "stat": "arpen", "type": "cut", "scale": 0.01 },
+          { "stat": "arpen", "type": "stab", "scale": 0.01 },
+          { "stat": "dodge", "scale": 0.01 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.1 },
+          { "stat": "hit", "scale": 0.01 },
+          { "stat": "hit", "scaling-stat": "dex", "scale": 0.1 },
+          { "stat": "movecost", "scale": -0.1 }
         ]
       },
       {
@@ -187,8 +310,8 @@
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
         "bonus_dodges": 3,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "dodge", 2 ] ],
+        "flat_bonuses": [ { "stat": "dodge", "scale": 2 }, { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 } ],
+        "mult_bonuses": [ { "stat": "dodge", "scale": 2 } ],
         "max_stacks": 10,
         "buff_duration": 15
       }
@@ -202,8 +325,12 @@
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
         "bonus_dodges": 3,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.5 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "dodge", 2 ] ],
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [ { "stat": "dodge", "scale": 2 } ],
         "max_stacks": 5,
         "buff_duration": 10
       }
@@ -217,8 +344,12 @@
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
         "bonus_dodges": 3,
-        "flat_bonuses": [ [ "dodge", 2 ], [ "dodge", "dex", 0.5 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "dodge", 2 ] ],
+        "flat_bonuses": [
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "mult_bonuses": [ { "stat": "dodge", "scale": 2 } ],
         "max_stacks": 5,
         "buff_duration": 10
       }
@@ -231,8 +362,8 @@
         "unarmed_allowed": true,
         "melee_allowed": true,
         "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
-        "flat_bonuses": [ [ "dodge", 99 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "mult_bonuses": [ [ "movecost", 0.0 ], [ "dodge", 99 ] ],
+        "flat_bonuses": [ { "stat": "dodge", "scale": 99 }, { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 } ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "dodge", "scale": 99 } ],
         "bonus_dodges": 2,
         "buff_duration": 1
       }
@@ -244,7 +375,11 @@
         "description": "Every kill makes you more badass.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "flat_bonuses": [ [ "hit", 1 ], [ "damage", "stab", 1 ], [ "arpen", "stab", 1 ] ],
+        "flat_bonuses": [
+          { "stat": "hit", "scale": 1 },
+          { "stat": "damage", "type": "stab", "scale": 1 },
+          { "stat": "arpen", "type": "stab", "scale": 1 }
+        ],
         "max_stacks": 99999
       }
     ],
@@ -254,8 +389,12 @@
         "name": "You Fight Like A Dairy Farmer",
         "description": "You fight like a dairy farmer!",
         "unarmed_allowed": true,
-        "mult_bonuses": [ [ "movecost", 0.0 ], [ "dodge", 2 ], [ "arpen", "stab", "dex", 0.5 ] ],
-        "flat_bonuses": [ [ "damage", "cut", 5 ], [ "damage", "stab", 5 ] ],
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.0 },
+          { "stat": "dodge", "scale": 2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 }
+        ],
+        "flat_bonuses": [ { "stat": "damage", "type": "cut", "scale": 5 }, { "stat": "damage", "type": "stab", "scale": 5 } ],
         "bonus_dodges": 2,
         "buff_duration": 2
       }
@@ -293,8 +432,11 @@
     "name": "You Fight Like A Cow",
     "melee_allowed": true,
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "flat_bonuses": [ [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
-    "mult_bonuses": [ [ "hit", 1.2 ] ],
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
+    "mult_bonuses": [ { "stat": "hit", "scale": 1.2 } ],
     "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
     "description": "Miss recovery"
   },
@@ -304,8 +446,17 @@
     "name": "Every Enemy Ive Met Ive Annihilated",
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "skill_requirements": [ { "name": "stabbing", "level": 10 } ],
-    "flat_bonuses": [ [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
-    "mult_bonuses": [ [ "damage", "cut", 99 ], [ "damage", "stab", 99 ], [ "arpen", "cut", 99 ], [ "arpen", "stab", 99 ], [ "hit", 99 ] ],
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 99 },
+      { "stat": "damage", "type": "stab", "scale": 99 },
+      { "stat": "arpen", "type": "cut", "scale": 99 },
+      { "stat": "arpen", "type": "stab", "scale": 99 },
+      { "stat": "hit", "scale": 99 }
+    ],
     "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
     "description": "High-level miss recovery - One Hit Kill"
   },
@@ -316,7 +467,10 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 5 } ],
-    "flat_bonuses": [ [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 1,
@@ -329,8 +483,11 @@
     "name": "Critical Strike",
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "flat_bonuses": [ [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
-    "mult_bonuses": [ [ "damage", "stab", 99 ], [ "damage", "cut", 99 ] ],
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
+    "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 99 }, { "stat": "damage", "type": "cut", "scale": 99 } ],
     "crit_tec": true,
     "weighting": -250,
     "messages": [ "You slice %s through the heart", "<npcname> slices through %s" ],
@@ -342,20 +499,20 @@
     "name": "Finishing Move",
     "melee_allowed": true,
     "mult_bonuses": [
-      [ "damage", "stab", 10 ],
-      [ "damage", "cut", 10 ],
-      [ "damage", "stab", "str", 10 ],
-      [ "damage", "cut", "str", 10 ],
-      [ "arpen", "stab", "dex", 10 ],
-      [ "arpen", "cut", "dex", 10 ]
+      { "stat": "damage", "type": "stab", "scale": 10 },
+      { "stat": "damage", "type": "cut", "scale": 10 },
+      { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 10 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 10 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 10 },
+      { "stat": "arpen", "type": "cut", "scaling-stat": "dex", "scale": 10 }
     ],
     "flat_bonuses": [
-      [ "damage", "stab", 50 ],
-      [ "damage", "cut", 50 ],
-      [ "damage", "stab", "str", 20 ],
-      [ "damage", "cut", "str", 20 ],
-      [ "arpen", "stab", "dex", 0.5 ],
-      [ "dodge", "dex", 0.5 ]
+      { "stat": "damage", "type": "stab", "scale": 50 },
+      { "stat": "damage", "type": "cut", "scale": 50 },
+      { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 20 },
+      { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 20 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
     ],
     "crit_tec": true,
     "downed_target": true,
@@ -366,8 +523,16 @@
     "id": "abknife_slash",
     "name": "Slash",
     "melee_allowed": true,
-    "mult_bonuses": [ [ "movecost", 0.6 ], [ "hit", 1.2 ], [ "arpen", "cut", 1.5 ] ],
-    "flat_bonuses": [ [ "damage", "cut", 15 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.6 },
+      { "stat": "hit", "scale": 1.2 },
+      { "stat": "arpen", "type": "cut", "scale": 1.5 }
+    ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 15 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "messages": [ "You slash %s", "<npcname> slashes %s." ],
     "description": "Basic attack"
   },
@@ -377,8 +542,16 @@
     "name": "Stab",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
-    "mult_bonuses": [ [ "movecost", 0.8 ], [ "hit", 1.2 ], [ "arpen", "stab", 1.5 ] ],
-    "flat_bonuses": [ [ "damage", "stab", 20 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "hit", "scale": 1.2 },
+      { "stat": "arpen", "type": "stab", "scale": 1.5 }
+    ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "stab", "scale": 20 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "messages": [ "You stab %s", "<npcname> stabs %s." ],
     "description": "Level 2 attack"
   },
@@ -388,8 +561,16 @@
     "name": "Underhand Stab",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 3 } ],
-    "mult_bonuses": [ [ "movecost", 0.7 ], [ "hit", 1.5 ], [ "arpen", "stab", 2.5 ] ],
-    "flat_bonuses": [ [ "damage", "stab", 25 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.7 },
+      { "stat": "hit", "scale": 1.5 },
+      { "stat": "arpen", "type": "stab", "scale": 2.5 }
+    ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "stab", "scale": 25 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "messages": [ "You grab %s and stab them in the gut or physiologically equivalent anatomy", "<npcname> guts %s." ],
     "description": "Level 3 attack"
   },
@@ -399,8 +580,18 @@
     "name": "Fan Slash",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 4 } ],
-    "mult_bonuses": [ [ "movecost", 0.4 ], [ "hit", 1.3 ], [ "arpen", "cut", 2.0 ], [ "arpen", "stab", 1.2 ] ],
-    "flat_bonuses": [ [ "damage", "cut", 50 ], [ "damage", "stab", 50 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.4 },
+      { "stat": "hit", "scale": 1.3 },
+      { "stat": "arpen", "type": "cut", "scale": 2.0 },
+      { "stat": "arpen", "type": "stab", "scale": 1.2 }
+    ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 50 },
+      { "stat": "damage", "type": "stab", "scale": 50 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "messages": [ "You hit %s with several quick slashes", "<npcname> slashes %s multiple times." ],
     "description": "Level 4 attack"
   },
@@ -410,8 +601,17 @@
     "name": "Throat Slash",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 5 } ],
-    "mult_bonuses": [ [ "movecost", 0.2 ], [ "hit", 1.6 ], [ "arpen", "cut", 3.0 ] ],
-    "flat_bonuses": [ [ "damage", "cut", 40 ], [ "damage", "stab", 40 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "hit", "scale": 1.6 },
+      { "stat": "arpen", "type": "cut", "scale": 3.0 }
+    ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 40 },
+      { "stat": "damage", "type": "stab", "scale": 40 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "messages": [ "You slash %s across the throat or anatomical equivalent", "<npcname> slashes %s across the throat." ],
     "description": "Level 5 attack"
   },
@@ -421,8 +621,18 @@
     "name": "Eye Slash",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 6 } ],
-    "mult_bonuses": [ [ "movecost", 0.2 ], [ "hit", 0.9 ], [ "arpen", "cut", 4.0 ], [ "arpen", "stab", 4 ] ],
-    "flat_bonuses": [ [ "damage", "cut", 20 ], [ "damage", "stab", 20 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "hit", "scale": 0.9 },
+      { "stat": "arpen", "type": "cut", "scale": 4.0 },
+      { "stat": "arpen", "type": "stab", "scale": 4 }
+    ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 20 },
+      { "stat": "damage", "type": "stab", "scale": 20 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
     "stun_dur": 3,
     "messages": [ "You slash %s across the eyes, taking them out of action", "<npcname> slashes %s in the eyes." ],
     "description": "Level 6 attack"
@@ -433,8 +643,16 @@
     "name": "Throat Stab",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "stabbing", "level": 7 } ],
-    "flat_bonuses": [ [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
-    "mult_bonuses": [ [ "movecost", 0.2 ], [ "hit", 1.6 ], [ "damage", "stab", 20 ], [ "arpen", "stab", 5.0 ] ],
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "hit", "scale": 1.6 },
+      { "stat": "damage", "type": "stab", "scale": 20 },
+      { "stat": "arpen", "type": "stab", "scale": 5.0 }
+    ],
     "messages": [ "You stab %s in the throat", "<npcname> stabs %s in the throat." ],
     "description": "Level 7 attack"
   },
@@ -447,7 +665,7 @@
     "melee_allowed": true,
     "defensive": true,
     "miss_recovery": true,
-    "flat_bonuses": [ [ "dodge", "dex", 0.5 ] ],
+    "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 } ],
     "messages": [ "You feint at %s.", "<npcname> feints at %s." ]
   },
   {
@@ -458,7 +676,7 @@
     "melee_allowed": true,
     "defensive": true,
     "grab_break": true,
-    "flat_bonuses": [ [ "dodge", "dex", 0.5 ] ],
+    "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 } ],
     "messages": [ "The %s tries to grab you, but you break its grab!", "The %s tries to grab <npcname>, but they break its grab!" ]
   },
   {
@@ -470,8 +688,8 @@
     "unarmed_allowed": true,
     "weighting": 2,
     "down_dur": 1,
-    "flat_bonuses": [ [ "dodge", "dex", 0.5 ] ],
-    "mult_bonuses": [ [ "movecost", 0.75 ] ]
+    "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 } ],
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.75 } ]
   },
   {
     "type": "technique",
@@ -481,8 +699,15 @@
     "skill_requirements": [ { "name": "stabbing", "level": 2 } ],
     "melee_allowed": true,
     "crit_ok": true,
-    "flat_bonuses": [ [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ],
-    "mult_bonuses": [ [ "movecost", 0.8 ], [ "damage", "stab", 5 ], [ "arpen", "stab", 2 ] ]
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "damage", "type": "stab", "scale": 5 },
+      { "stat": "arpen", "type": "stab", "scale": 2 }
+    ]
   },
   {
     "type": "technique",
@@ -492,7 +717,7 @@
     "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
-    "mult_bonuses": [ [ "movecost", 0.5 ] ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 } ]
   },
   {
     "type": "technique",
@@ -502,7 +727,11 @@
     "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "movecost", 0.0 ], [ "hit", 0.9 ] ],
-    "flat_bonuses": [ [ "damage", "cut", 10 ], [ "arpen", "stab", "dex", 0.5 ], [ "dodge", "dex", 0.5 ] ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 }, { "stat": "hit", "scale": 0.9 } ],
+    "flat_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 10 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "dex", "scale": 0.5 },
+      { "stat": "dodge", "scaling-stat": "dex", "scale": 0.5 }
+    ]
   }
 ]

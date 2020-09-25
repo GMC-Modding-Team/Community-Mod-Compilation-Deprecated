@@ -2,7 +2,7 @@
   {
     "type": "martial_art",
     "id": "style_gunslinging",
-    "name": { "str": "Gunslinging" },
+    "name": "Gunslinging",
     "description": "You have a gun in your hand. You point it at enemies, the gun goes bang and enemies go poof.\n\n Not sure if it's even possible to make a ranged martial art. Ranged attacks aren't affected by combat buffs or bonuses. It's entirely possible that the skills do nothing, but the buffs should be generally useful.",
     "initiate": [ "You point your gun at the enemy.", "%s gets ready to shoot." ],
     "autolearn": [ [ "gun", "1" ] ],
@@ -15,13 +15,13 @@
         "description": "Well, do you, punk?\n\n Big dodge bonus, strength and dexterity based bonuses to speed and accuracy.",
         "melee_allowed": true,
         "bonus_dodges": 3,
-        "flat_bonuses": [ [ "dodge", 5 ] ],
+        "flat_bonuses": [ { "stat": "dodge", "scale": 5 } ],
         "mult_bonuses": [
-          [ "dodge", "dex", 4 ],
-          [ "movecost", "str", -2.5 ],
-          [ "movecost", "dex", -2.5 ],
-          [ "hit", "str", 2.5 ],
-          [ "hit", "dex", 2.5 ]
+          { "stat": "dodge", "scaling-stat": "dex", "scale": 4 },
+          { "stat": "movecost", "scaling-stat": "str", "scale": -2.5 },
+          { "stat": "movecost", "scaling-stat": "dex", "scale": -2.5 },
+          { "stat": "hit", "scaling-stat": "str", "scale": 2.5 },
+          { "stat": "hit", "scaling-stat": "dex", "scale": 2.5 }
         ]
       },
       {
@@ -31,7 +31,7 @@
         "skill_requirements": [ { "name": "gun", "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv2_static",
@@ -40,7 +40,7 @@
         "skill_requirements": [ { "name": "gun", "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv3_static",
@@ -49,7 +49,7 @@
         "skill_requirements": [ { "name": "gun", "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv4_static",
@@ -58,7 +58,7 @@
         "skill_requirements": [ { "name": "gun", "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv5_static",
@@ -67,7 +67,7 @@
         "skill_requirements": [ { "name": "gun", "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv6_static",
@@ -76,7 +76,7 @@
         "skill_requirements": [ { "name": "gun", "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv7_static",
@@ -85,7 +85,7 @@
         "skill_requirements": [ { "name": "gun", "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv8_static",
@@ -94,7 +94,7 @@
         "skill_requirements": [ { "name": "gun", "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv9_static",
@@ -103,7 +103,7 @@
         "skill_requirements": [ { "name": "gun", "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv10_static",
@@ -112,7 +112,7 @@
         "skill_requirements": [ { "name": "gun", "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv11_static",
@@ -121,7 +121,7 @@
         "skill_requirements": [ { "name": "gun", "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "dodge", 1.1 ], [ "hit", 1.1 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 }, { "stat": "dodge", "scale": 1.1 }, { "stat": "hit", "scale": 1.1 } ]
       },
       {
         "id": "buff_guntraininglv12_static",
@@ -130,7 +130,7 @@
         "skill_requirements": [ { "name": "gun", "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.5 ], [ "dodge", 2 ], [ "hit", 2 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 }, { "stat": "dodge", "scale": 2 }, { "stat": "hit", "scale": 2 } ]
       }
     ],
     "onhit_buffs": [
@@ -141,8 +141,12 @@
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "gun", "level": 3 } ],
         "max_stacks": 99999,
-        "flat_bonuses": [ [ "damage", "cut", 0.01 ], [ "dodge", 0.05 ], [ "hit", 0.05 ] ],
-        "mult_bonuses": [ [ "movecost", 0.99 ] ]
+        "flat_bonuses": [
+          { "stat": "damage", "type": "cut", "scale": 0.01 },
+          { "stat": "dodge", "scale": 0.05 },
+          { "stat": "hit", "scale": 0.05 }
+        ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.99 } ]
       }
     ],
     "onmiss_buffs": [
@@ -151,8 +155,8 @@
         "name": "You Fight Like A Dairy Farmer",
         "description": "You fight like a dairy farmer!",
         "unarmed_allowed": true,
-        "mult_bonuses": [ [ "movecost", 0.0 ] ],
-        "flat_bonuses": [ [ "damage", "cut", 1.5 ] ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ],
+        "flat_bonuses": [ { "stat": "damage", "type": "cut", "scale": 1.5 } ],
         "bonus_dodges": 1,
         "buff_duration": 2
       }
@@ -162,7 +166,7 @@
         "id": "buff_runandgun_onmove",
         "name": "Run and Gun",
         "description": "Allows you to shoot on the move",
-        "mult_bonuses": [ [ "movecost", 0.1 ], [ "dodge", 1.5 ], [ "hit", 1.5 ] ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.1 }, { "stat": "dodge", "scale": 1.5 }, { "stat": "hit", "scale": 1.5 } ],
         "bonus_dodges": 1,
         "max_stacks": 2,
         "buff_duration": 2
@@ -173,7 +177,7 @@
         "id": "buff_reloading_onpause",
         "name": "Reloading!",
         "description": "Allows you to quickly reload and line up your next shot.",
-        "mult_bonuses": [ [ "movecost", 0.1 ], [ "dodge", 10 ], [ "hit", 5 ] ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.1 }, { "stat": "dodge", "scale": 10 }, { "stat": "hit", "scale": 5 } ],
         "bonus_dodges": 10,
         "max_stacks": 10,
         "buff_duration": 3
@@ -184,7 +188,7 @@
         "id": "buff_gunslinger_onkill",
         "name": "Roland Deschain, son of Steven, of Giliad",
         "description": "Allows you to reload (and do everything else) faster after every kill.",
-        "mult_bonuses": [ [ "movecost", 0.95 ] ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.95 } ]
       }
     ],
     "ondodge_buffs": [
@@ -193,8 +197,8 @@
         "name": "Get the ____ outta Dodge",
         "description": "Dodging helps you dodge more. This is probably temporary, for trying to fix a bug, because if it works, it's extremely op.",
         "max_stacks": 99,
-        "flat_bonuses": [ [ "dodge", 99 ] ],
-        "mult_bonuses": [ [ "dodge", 99 ] ],
+        "flat_bonuses": [ { "stat": "dodge", "scale": 99 } ],
+        "mult_bonuses": [ { "stat": "dodge", "scale": 99 } ],
         "bonus_dodges": 99,
         "buff_duration": 99
       }
@@ -217,7 +221,7 @@
     "name": "You Fight Like A Cow",
     "melee_allowed": true,
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "mult_bonuses": [ [ "hit", 1.2 ] ],
+    "mult_bonuses": [ { "stat": "hit", "scale": 1.2 } ],
     "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
     "description": "Miss recovery"
   },
@@ -229,7 +233,12 @@
     "skill_requirements": [ { "name": "gun", "level": 10 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "mult_bonuses": [ [ "damage", "cut", 99 ], [ "damage", "bash", 99 ], [ "hit", 99 ], [ "dodge", 99 ] ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "cut", "scale": 99 },
+      { "stat": "damage", "type": "bash", "scale": 99 },
+      { "stat": "hit", "scale": 99 },
+      { "stat": "dodge", "scale": 99 }
+    ],
     "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
     "description": "High-level miss recovery - One Hit Kill"
   },
@@ -264,7 +273,11 @@
     "name": "Double Tap",
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "mult_bonuses": [ [ "dodge", 99 ], [ "damage", "cut", 99 ], [ "damage", "bash", 99 ] ],
+    "mult_bonuses": [
+      { "stat": "dodge", "scale": 99 },
+      { "stat": "damage", "type": "cut", "scale": 99 },
+      { "stat": "damage", "type": "bash", "scale": 99 }
+    ],
     "crit_tec": true,
     "weighting": -250,
     "messages": [ "You quickly put 2 rounds through %s brain", "<npcname> double-taps %s" ],
@@ -290,7 +303,12 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "dodge", 5 ], [ "movecost", 0.5 ], [ "arpen", "cut", 5 ], [ "arpen", "bash", 5 ] ]
+    "mult_bonuses": [
+      { "stat": "dodge", "scale": 5 },
+      { "stat": "movecost", "scale": 0.5 },
+      { "stat": "arpen", "type": "cut", "scale": 5 },
+      { "stat": "arpen", "type": "bash", "scale": 5 }
+    ]
   },
   {
     "type": "technique",
@@ -304,7 +322,13 @@
     "dodge_counter": true,
     "down_dur": 1,
     "knockback_dist": 2,
-    "mult_bonuses": [ [ "dodge", 2 ], [ "movecost", 0.1 ], [ "damage", "cut", 2 ], [ "damage", "stab", 2 ], [ "damage", "bash", 2 ] ]
+    "mult_bonuses": [
+      { "stat": "dodge", "scale": 2 },
+      { "stat": "movecost", "scale": 0.1 },
+      { "stat": "damage", "type": "cut", "scale": 2 },
+      { "stat": "damage", "type": "stab", "scale": 2 },
+      { "stat": "damage", "type": "bash", "scale": 2 }
+    ]
   },
   {
     "type": "technique",
@@ -316,13 +340,13 @@
     "dodge_counter": true,
     "crit_ok": true,
     "mult_bonuses": [
-      [ "dodge", 5 ],
-      [ "movecost", 0.1 ],
-      [ "damage", "cut", 5 ],
-      [ "damage", "bash", 5 ],
-      [ "hit", 2 ],
-      [ "arpen", "cut", 99 ],
-      [ "arpen", "bash", 99 ]
+      { "stat": "dodge", "scale": 5 },
+      { "stat": "movecost", "scale": 0.1 },
+      { "stat": "damage", "type": "cut", "scale": 5 },
+      { "stat": "damage", "type": "bash", "scale": 5 },
+      { "stat": "hit", "scale": 2 },
+      { "stat": "arpen", "type": "cut", "scale": 99 },
+      { "stat": "arpen", "type": "bash", "scale": 99 }
     ]
   }
 ]
