@@ -289,6 +289,7 @@
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "auto", "auto", 10 ] ],
     "clip_size": 100,
+    "reload": 6000,
     "loudness": 20,
     "valid_mod_locations": [
       [ "accessories", 3 ],
@@ -358,6 +359,7 @@
     "dispersion": 150,
     "recoil": 15,
     "durability": 6,
+    "reload": 0,
     "loudness": 16,
     "use_action": "HAND_CRANK",
     "pocket_data": [
@@ -420,6 +422,7 @@
     "dispersion": 120,
     "recoil": 10,
     "durability": 5,
+    "reload": 300,
     "loudness": 12,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
@@ -455,6 +458,7 @@
     "dispersion": 100,
     "recoil": 30,
     "durability": 5,
+    "reload": 600,
     "loudness": 14,
     "valid_mod_locations": [
       [ "accessories", 3 ],
@@ -488,6 +492,7 @@
     "min_cycle_recoil": 1000,
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
+    "reload": 100,
     "loudness": 50,
     "pocket_data": [
       {
@@ -538,6 +543,7 @@
     "min_cycle_recoil": 25,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 8 ] ],
+    "reload": 100,
     "loudness": 60,
     "pocket_data": [
       {
@@ -584,6 +590,7 @@
     "min_cycle_recoil": 300,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 8 ] ],
+    "reload": 100,
     "loudness": 60,
     "pocket_data": [
       {
@@ -630,6 +637,7 @@
     "min_cycle_recoil": 400,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 8 ] ],
+    "reload": 100,
     "loudness": 60,
     "pocket_data": [
       {
@@ -676,6 +684,7 @@
     "min_cycle_recoil": 2000,
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
+    "reload": 100,
     "loudness": 50,
     "pocket_data": [
       {
@@ -726,6 +735,7 @@
     "min_cycle_recoil": 1500,
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
+    "reload": 100,
     "loudness": 50,
     "pocket_data": [
       {
@@ -777,6 +787,7 @@
     "min_cycle_recoil": 2000,
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
+    "reload": 100,
     "loudness": 80,
     "pocket_data": [
       {
@@ -827,6 +838,7 @@
     "min_cycle_recoil": 1500,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
+    "reload": 100,
     "loudness": 160,
     "pocket_data": [
       {
@@ -876,6 +888,7 @@
     "min_cycle_recoil": 2500,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
+    "reload": 100,
     "loudness": 80,
     "pocket_data": [
       {
@@ -927,6 +940,7 @@
     "min_cycle_recoil": 2000,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
+    "reload": 100,
     "loudness": 80,
     "pocket_data": [
       {
@@ -978,6 +992,7 @@
     "min_cycle_recoil": 1250,
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
+    "reload": 100,
     "loudness": 80,
     "pocket_data": [
       {
@@ -1028,6 +1043,7 @@
     "blackpowder_tolerance": 20,
     "min_cycle_recoil": 2500,
     "durability": 6,
+    "reload": 100,
     "loudness": 100,
     "pocket_data": [
       {
@@ -1109,6 +1125,7 @@
     "blackpowder_tolerance": 80,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "flintlock": 1 } } ],
+    "reload": 600,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "sling", 1 ],
@@ -1147,6 +1164,7 @@
     "recoil": 5,
     "loudness": 8,
     "durability": 10,
+    "reload": 150,
     "built_in_mods": [ "laser_sight" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -1227,6 +1245,7 @@
     "loudness": 8,
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
+    "reload": 200,
     "default_mods": [ "rail_laser_sight", "pistol_grip" ],
     "built_in_mods": [ "grip" ],
     "valid_mod_locations": [
@@ -1313,6 +1332,7 @@
     "loudness": 14,
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
+    "reload": 200,
     "default_mods": [ "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -1399,6 +1419,7 @@
     "loudness": 14,
     "durability": 8,
     "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
+    "reload": 500,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1477,6 +1498,7 @@
     "recoil": 15,
     "loudness": 20,
     "durability": 10,
+    "reload": 300,
     "default_mods": [ "bipod" ],
     "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
@@ -1564,6 +1586,7 @@
     "durability": 8,
     "default_mods": [ "rail_laser_sight", "pistol_grip" ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
+    "reload": 250,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1650,6 +1673,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ] ],
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bolt": 12 } } ],
+    "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1687,6 +1711,7 @@
     "durability": 10,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plasma": 1 } } ],
+    "reload": 1000,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
   {
@@ -1718,6 +1743,7 @@
         "ammo_restriction": { "diesel": 1500, "gasoline": 1500, "flammable": 1500, "lamp_oil": 1500, "motor_oil": 1500, "jp8": 1500, "avgas": 1500 }
       }
     ],
+    "reload": 2000,
     "valid_mod_locations": [
       [ "accessories", 1 ],
       [ "grip", 1 ],
