@@ -98,7 +98,7 @@
       {
         "attack_text_u": "You RIP and TEAR into %s",
         "attack_text_npc": "%1$s RIPS and TEARS into %2$s",
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 35,
         "base_damage": { "damage_type": "stab", "amount": 35 }
       }
@@ -139,7 +139,7 @@
     "attacks": {
       "attack_text_u": "You plunge your insectile stinger deep within %s ",
       "attack_text_npc": "%1$s stabs at %2$s with their insectile stinger",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 20 }
     }
@@ -160,7 +160,7 @@
     "attacks": {
       "attack_text_u": "You plunge your insectile stinger deep within %s ",
       "attack_text_npc": "%1$s stabs at %2$s with their insectile stinger",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 30,
       "base_damage": { "damage_type": "acid", "amount": 10 }
     }
@@ -299,12 +299,12 @@
     "types": [ "MUZZLE" ],
     "prereqs": [ "MUZZLE" ],
     "category": [ "BEAST" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You chomp %s",
       "attack_text_npc": "%1$s chomps %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     }
@@ -436,7 +436,7 @@
     "attacks": {
       "attack_text_u": "You plunge your insectile stinger deep within %s ",
       "attack_text_npc": "%1$s stabs at %2$s with their insectile stinger",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 20 }
     }
@@ -457,7 +457,7 @@
     "attacks": {
       "attack_text_u": "You plunge your insectile stinger deep within %s ",
       "attack_text_npc": "%1$s stabs at %2$s with their insectile stinger",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 30,
       "base_damage": { "damage_type": "acid", "amount": 10 }
     }
@@ -481,7 +481,7 @@
       "attack_text_u": "You chomp down on %s",
       "attack_text_npc": "%1$s chomps down on %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
