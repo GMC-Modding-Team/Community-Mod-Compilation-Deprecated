@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "apex_module",
+    "id": "apex_module",
     "name": { "str": "APEX suit module" },
     "type": "ARMOR",
     "description": "abstract part for APEX module - if you see this, it's a bug",
@@ -14,21 +14,21 @@
     "flags": [ "TRADER_AVOID", "ONLY_ONE", "SEMITANGIBLE", "ALLOWS_NATURAL_ATTACKS", "ZERO_WEIGHT" ]
   },
   {
-    "abstract": "apex_module_system",
+    "id": "apex_module_system",
     "name": { "str": "APEX suit module (system)" },
     "type": "ARMOR",
     "copy-from": "apex_module",
     "covers": [ "torso" ]
   },
   {
-    "abstract": "apex_module_cortex",
+    "id": "apex_module_cortex",
     "name": { "str": "APEX suit module (cortex)" },
     "type": "ARMOR",
     "copy-from": "apex_module",
     "covers": [ "head" ]
   },
   {
-    "abstract": "apex_module_mobility",
+    "id": "apex_module_mobility",
     "name": { "str": "APEX suit module (mobility)" },
     "type": "ARMOR",
     "copy-from": "apex_module",

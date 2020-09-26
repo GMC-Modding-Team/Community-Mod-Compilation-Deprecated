@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "bot_turret_base",
+    "id": "bot_turret_base",
     "type": "TOOL",
     "name": { "str": "inactive turret" },
     "weight": "1507 g",
@@ -274,7 +274,7 @@
     "use_action": { "type": "place_monster", "monster_id": "mon_autoarmor_light", "moves": 100 }
   },
   {
-    "abstract": "bot_hack_base",
+    "id": "bot_hack_base",
     "type": "TOOL",
     "name": { "str": "inactive hack" },
     "description": "This is an inactive manhack.  Manhacks are fist-sized robots that fly through the air.  They are covered with whirring blades and attack by throwing themselves against their target.  Use this item to reprogram and activate the manhack.  Electronics and computer skill determines if the targeting matrix is reprogrammed successfully.",
@@ -387,7 +387,7 @@
     }
   },
   {
-    "abstract": "bot_eyebot_base",
+    "id": "bot_eyebot_base",
     "type": "TOOL",
     "name": { "str": "inactive eyebot" },
     "looks_like": "broken_eyebot",
@@ -452,7 +452,7 @@
     }
   },
   {
-    "abstract": "bot_utilibot_base",
+    "id": "bot_utilibot_base",
     "type": "TOOL",
     "name": { "str": "inactive utilibot" },
     "looks_like": "mon_cleanerbot",
@@ -532,7 +532,7 @@
     }
   },
   {
-    "abstract": "bot_medibot_base",
+    "id": "bot_medibot_base",
     "type": "TOOL",
     "looks_like": "mon_tripod",
     "name": { "str": "inactive medibot" },
@@ -597,7 +597,7 @@
     }
   },
   {
-    "abstract": "bot_skitterbot_base",
+    "id": "bot_skitterbot_base",
     "type": "TOOL",
     "name": { "str": "inactive skitterbot" },
     "looks_like": "broken_skitterbot",
@@ -661,7 +661,7 @@
     }
   },
   {
-    "abstract": "bot_cyborg_base",
+    "id": "bot_cyborg_base",
     "type": "TOOL",
     "name": { "str": "inactive cyborg" },
     "material": [ "steel", "plastic" ],
@@ -692,7 +692,7 @@
     }
   },
   {
-    "abstract": "bot_defbot_base",
+    "id": "bot_defbot_base",
     "type": "TOOL",
     "name": { "str": "inactive defense robot" },
     "looks_like": "mon_riotbot",
@@ -756,7 +756,7 @@
     }
   },
   {
-    "abstract": "bot_milbot_base",
+    "id": "bot_milbot_base",
     "type": "TOOL",
     "name": { "str": "inactive military robot" },
     "looks_like": "mon_secubot",
@@ -853,7 +853,7 @@
     }
   },
   {
-    "abstract": "bot_advbot_base",
+    "id": "bot_advbot_base",
     "type": "TOOL",
     "name": { "str": "inactive advanced robot" },
     "looks_like": "mon_copbot",
@@ -900,7 +900,7 @@
     }
   },
   {
-    "abstract": "bot_ckickenbot_base",
+    "id": "bot_ckickenbot_base",
     "type": "TOOL",
     "name": { "str": "inactive chickenwalker" },
     "looks_like": "mon_chickenbot",
@@ -964,7 +964,7 @@
     }
   },
   {
-    "abstract": "bot_tankbot_base",
+    "id": "bot_tankbot_base",
     "type": "TOOL",
     "name": { "str": "inactive tankbot" },
     "looks_like": "mon_tankbot",

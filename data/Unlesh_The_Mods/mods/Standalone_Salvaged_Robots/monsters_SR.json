@@ -1,6 +1,6 @@
 [
   {
-    "abstract": "base_turret",
+    "id": "base_turret",
     "type": "MONSTER",
     "name": "automated turret",
     "default_faction": "defense_bot",
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "abstract": "mon_milbot_base",
+    "id": "mon_milbot_base",
     "type": "MONSTER",
     "looks_like": "mon_secubot",
     "name": "military robot",
@@ -1023,7 +1023,7 @@
     ]
   },
   {
-    "abstract": "mon_advbot_base",
+    "id": "mon_advbot_base",
     "type": "MONSTER",
     "copy-from": "mon_defbot_base",
     "looks_like": "mon_copbot",
@@ -1458,7 +1458,7 @@
     "death_function": [ "BROKEN" ]
   },
   {
-    "abstract": "mon_chickenbot_base",
+    "id": "mon_chickenbot_base",
     "comment": "remove-special-attack doesn't work, so add this def without guns.",
     "type": "MONSTER",
     "name": "chicken walker",
@@ -1555,7 +1555,7 @@
     "death_function": [ "BROKEN", "EXPLODE" ]
   },
   {
-    "abstract": "mon_tankbot_base",
+    "id": "mon_tankbot_base",
     "comment": "remove-special-attack doesn't work, so add this def without gun attack.",
     "type": "MONSTER",
     "name": "Beagle Mini-Tank UGV",
