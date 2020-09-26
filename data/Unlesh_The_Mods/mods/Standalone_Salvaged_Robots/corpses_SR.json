@@ -32,7 +32,7 @@
     ]
   },
   {
-    "abstract": "broken_turret_base",
+    "id": "broken_turret_base",
     "type": "GENERIC",
     "override": true,
     "symbol": ",",
@@ -51,7 +51,7 @@
     "flags": [ "TRADER_AVOID" ]
   },
   {
-    "abstract": "broken_hack_base",
+    "id": "broken_hack_base",
     "type": "GENERIC",
     "override": true,
     "symbol": ",",
@@ -72,7 +72,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot",
+    "id": "broken_utilibot",
     "symbol": ",",
     "color": "light_gray",
     "looks_like": "broken_cleanerbot",
@@ -89,7 +89,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_autoarmor_light",
+    "id": "broken_autoarmor_light",
     "symbol": ",",
     "color": "light_gray",
     "looks_like": "power_armor_light",
@@ -106,7 +106,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_autoarmor_basic",
+    "id": "broken_autoarmor_basic",
     "copy-from": "broken_autoarmor_light",
     "looks_like": "power_armor_basic",
     "name": "broken basic auto armor",
@@ -117,7 +117,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_autoarmor_heavy",
+    "id": "broken_autoarmor_heavy",
     "copy-from": "broken_autoarmor_light",
     "name": "broken heavy auto armor",
     "category": "other",
@@ -129,7 +129,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_craftbuddy",
+    "id": "broken_craftbuddy",
     "symbol": ",",
     "color": "light_gray",
     "looks_like": "broken_tribot",
@@ -146,7 +146,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_light_hack",
+    "id": "broken_light_hack",
     "copy-from": "broken_hack_base",
     "color": "white",
     "name": "broken floating lantern",
@@ -155,7 +155,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_arson_hack",
+    "id": "broken_arson_hack",
     "copy-from": "broken_hack_base",
     "color": "white",
     "name": "broken floating lantern",
@@ -164,7 +164,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_distract_hack",
+    "id": "broken_distract_hack",
     "copy-from": "broken_hack_base",
     "color": "white",
     "name": "broken floating lantern",
@@ -173,7 +173,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_spore_hack",
+    "id": "broken_spore_hack",
     "copy-from": "broken_hack_base",
     "color": "dark_gray",
     "name": "broken spore hack",
@@ -181,7 +181,7 @@
     "weight": "4700 g"
   },
   {
-    "abstract": "broken_turret_water",
+    "id": "broken_turret_water",
     "type": "GENERIC",
     "copy-from": "broken_turret_base",
     "color": "light_blue",
@@ -190,7 +190,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_eyebot_heater",
+    "id": "broken_eyebot_heater",
     "copy-from": "broken_eyebot",
     "color": "pink",
     "name": "broken floating heater",
@@ -198,7 +198,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_eyebot_furnace",
+    "id": "broken_eyebot_furnace",
     "copy-from": "broken_eyebot",
     "color": "red",
     "name": "broken floating furnace",
@@ -206,7 +206,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_eyebot_burn",
+    "id": "broken_eyebot_burn",
     "copy-from": "broken_eyebot",
     "color": "red",
     "name": "broken burning eye",
@@ -214,7 +214,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_butler",
+    "id": "broken_utilibot_butler",
     "copy-from": "broken_utilibot",
     "color": "dark_gray",
     "name": "broken butler-bot",
@@ -222,7 +222,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_const",
+    "id": "broken_utilibot_const",
     "copy-from": "broken_utilibot",
     "color": "dark_gray",
     "name": "broken construction robot",
@@ -230,7 +230,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_fire",
+    "id": "broken_utilibot_fire",
     "copy-from": "broken_utilibot",
     "color": "yellow",
     "name": "broken firefighter robot",
@@ -238,7 +238,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_blob",
+    "id": "broken_utilibot_blob",
     "copy-from": "broken_utilibot",
     "color": "light_green",
     "name": "broken blob breeder",
@@ -246,7 +246,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_slimespring",
+    "id": "broken_utilibot_slimespring",
     "copy-from": "broken_utilibot",
     "color": "light_green",
     "name": "broken slime breeder",
@@ -254,7 +254,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_digester",
+    "id": "broken_utilibot_digester",
     "copy-from": "broken_utilibot",
     "color": "light_green",
     "name": "broken digestron",
@@ -262,7 +262,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_utilibot_beehive",
+    "id": "broken_utilibot_beehive",
     "copy-from": "broken_utilibot",
     "color": "yellow",
     "name": "broken bee-bot",
@@ -270,7 +270,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_medibot",
+    "id": "broken_medibot",
     "symbol": ",",
     "color": "white",
     "looks_like": "broken_tribot",
@@ -289,14 +289,14 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_medibot_disarmed",
+    "id": "broken_medibot_disarmed",
     "name": "broken disarmed medical robot",
     "copy-from": "broken_medibot",
     "description": "A broken medical robot.  Its onboard pharma-crafter and integral surgical tools have been removed.  Could be gutted for parts or crafted into a salvaged robot."
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_medibot_assassin",
+    "id": "broken_medibot_assassin",
     "name": "broken assassin robot",
     "copy-from": "broken_medibot",
     "color": "dark_gray",
@@ -304,7 +304,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_medibot_elixir",
+    "id": "broken_medibot_elixir",
     "copy-from": "broken_medibot",
     "color": "light_green",
     "name": "broken elixirator",
@@ -312,7 +312,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_medibot_party",
+    "id": "broken_medibot_party",
     "copy-from": "broken_medibot",
     "color": "yellow",
     "name": "broken party bot",
@@ -320,7 +320,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_broken_cyborg",
+    "id": "broken_broken_cyborg",
     "symbol": ",",
     "color": "light_gray",
     "name": "broken insane cyborg",
@@ -336,7 +336,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_cyborg_necro",
+    "id": "broken_cyborg_necro",
     "symbol": ",",
     "color": "light_gray",
     "name": "broken necrotic cyborg",
@@ -352,7 +352,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_skitterbot_rat",
+    "id": "broken_skitterbot_rat",
     "copy-from": "broken_skitterbot",
     "color": "light_gray",
     "name": "broken rat snatcher",
@@ -360,7 +360,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_skitterbot_grab",
+    "id": "broken_skitterbot_grab",
     "copy-from": "broken_skitterbot",
     "color": "light_gray",
     "name": "broken grab-bot",
@@ -368,7 +368,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_skitterbot_hunter",
+    "id": "broken_skitterbot_hunter",
     "copy-from": "broken_skitterbot",
     "color": "light_gray",
     "name": "broken pest hunter",
@@ -376,7 +376,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_defbot_9mm",
+    "id": "broken_defbot_9mm",
     "copy-from": "broken_defbot_disarmed",
     "color": "light_gray",
     "name": "broken security robot",
@@ -384,7 +384,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_defbot_shot",
+    "id": "broken_defbot_shot",
     "copy-from": "broken_defbot_disarmed",
     "color": "light_gray",
     "name": "broken defense bot",
@@ -392,7 +392,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_defbot_riotcontrol",
+    "id": "broken_defbot_riotcontrol",
     "copy-from": "broken_defbot_disarmed",
     "color": "light_gray",
     "name": "broken riotcontrol robot",
@@ -400,7 +400,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_defbot_cowboy",
+    "id": "broken_defbot_cowboy",
     "copy-from": "broken_defbot_disarmed",
     "color": "brown",
     "name": "broken junkyard cowboy",
@@ -408,7 +408,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_defbot_samurai",
+    "id": "broken_defbot_samurai",
     "copy-from": "broken_defbot_disarmed",
     "color": "cyan",
     "name": "broken shortcircuit samurai",
@@ -416,7 +416,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_defbot_paladin",
+    "id": "broken_defbot_paladin",
     "copy-from": "broken_defbot_disarmed",
     "color": "red",
     "name": "broken slapdash paladin",
@@ -424,7 +424,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_disarmed",
+    "id": "broken_milbot_disarmed",
     "symbol": ",",
     "color": "green",
     "looks_like": "broken_secubot",
@@ -443,7 +443,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_trainer",
+    "id": "broken_milbot_trainer",
     "copy-from": "broken_milbot_disarmed",
     "color": "light_gray",
     "name": "broken military trainer robot",
@@ -451,7 +451,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_556",
+    "id": "broken_milbot_556",
     "copy-from": "broken_milbot_disarmed",
     "color": "light_gray",
     "name": "broken military robot",
@@ -459,7 +459,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_308",
+    "id": "broken_milbot_308",
     "copy-from": "broken_milbot_disarmed",
     "color": "light_gray",
     "name": "broken military robot",
@@ -467,7 +467,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_50bmg",
+    "id": "broken_milbot_50bmg",
     "copy-from": "broken_milbot_disarmed",
     "color": "light_gray",
     "name": "broken military robot",
@@ -475,7 +475,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_8x40mm",
+    "id": "broken_milbot_8x40mm",
     "copy-from": "broken_milbot_disarmed",
     "color": "light_gray",
     "name": "broken military robot",
@@ -483,7 +483,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_needle",
+    "id": "broken_milbot_needle",
     "copy-from": "broken_milbot_disarmed",
     "color": "light_gray",
     "name": "broken military robot",
@@ -491,7 +491,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_40mm",
+    "id": "broken_milbot_40mm",
     "copy-from": "broken_milbot_disarmed",
     "color": "red",
     "name": "broken military robot",
@@ -499,7 +499,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_flame",
+    "id": "broken_milbot_flame",
     "copy-from": "broken_milbot_disarmed",
     "color": "red",
     "name": "broken military flame robot",
@@ -507,7 +507,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_gaurdian",
+    "id": "broken_milbot_gaurdian",
     "copy-from": "broken_milbot_disarmed",
     "color": "white",
     "name": "broken robo-guardian",
@@ -515,7 +515,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_deluxe",
+    "id": "broken_milbot_deluxe",
     "copy-from": "broken_milbot_disarmed",
     "color": "yellow",
     "name": "broken robote deluxe",
@@ -523,7 +523,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_protector",
+    "id": "broken_milbot_protector",
     "copy-from": "broken_milbot_disarmed",
     "color": "green",
     "name": "broken robo-protector",
@@ -531,7 +531,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_milbot_defender",
+    "id": "broken_milbot_defender",
     "copy-from": "broken_milbot_disarmed",
     "color": "red",
     "name": "broken robo-defender",
@@ -539,7 +539,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_disarmed",
+    "id": "broken_advbot_disarmed",
     "symbol": ",",
     "color": "white",
     "looks_like": "broken_copbot",
@@ -558,7 +558,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_laser",
+    "id": "broken_advbot_laser",
     "copy-from": "broken_advbot_disarmed",
     "color": "yellow",
     "name": "broken advanced robot",
@@ -566,7 +566,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_plasma",
+    "id": "broken_advbot_plasma",
     "copy-from": "broken_advbot_disarmed",
     "color": "magenta",
     "name": "broken advanced robot",
@@ -574,7 +574,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_rail",
+    "id": "broken_advbot_rail",
     "copy-from": "broken_advbot_disarmed",
     "color": "magenta",
     "name": "broken advanced robot",
@@ -582,7 +582,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_lightning",
+    "id": "broken_advbot_lightning",
     "copy-from": "broken_advbot_disarmed",
     "color": "light_blue",
     "name": "broken advanced robot",
@@ -590,7 +590,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_emp",
+    "id": "broken_advbot_emp",
     "copy-from": "broken_advbot_disarmed",
     "color": "light_blue",
     "name": "broken advanced robot",
@@ -598,7 +598,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_glitter",
+    "id": "broken_advbot_glitter",
     "copy-from": "broken_advbot_disarmed",
     "color": "yellow",
     "name": "broken glittering lady",
@@ -606,7 +606,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_advbot_bitter",
+    "id": "broken_advbot_bitter",
     "copy-from": "broken_advbot_disarmed",
     "color": "light_green",
     "name": "broken bitter spinster",
@@ -614,7 +614,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_chickenbot_horror",
+    "id": "broken_chickenbot_horror",
     "copy-from": "broken_chickenbot_disarmed",
     "color": "red",
     "name": "broken chainsaw horror",
@@ -622,7 +622,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_chickenbot_terror",
+    "id": "broken_chickenbot_terror",
     "copy-from": "broken_chickenbot_disarmed",
     "color": "red",
     "name": "broken screeching terror",
@@ -630,7 +630,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_chickenbot_nightmare",
+    "id": "broken_chickenbot_nightmare",
     "copy-from": "broken_chickenbot_disarmed",
     "color": "red",
     "name": "broken hooked nightmare",
@@ -638,7 +638,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_tankbot_king",
+    "id": "broken_tankbot_king",
     "copy-from": "broken_tankbot_disarmed",
     "color": "pink",
     "name": "broken fist king",
@@ -646,7 +646,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_tankbot_sultan",
+    "id": "broken_tankbot_sultan",
     "copy-from": "broken_tankbot_disarmed",
     "color": "magenta",
     "name": "broken atomic sultan",
@@ -654,7 +654,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_molebot",
+    "id": "broken_molebot",
     "symbol": ",",
     "color": "green",
     "name": "broken miner bot",
@@ -672,7 +672,7 @@
   },
   {
     "type": "GENERIC",
-    "abstract": "broken_tripod",
+    "id": "broken_tripod",
     "symbol": ",",
     "color": "green",
     "name": "broken tribot",
