@@ -15,7 +15,7 @@
     "color": "yellow",
     "explode_in_fire": true,
     "explosion": { "power": 150, "shrapnel": { "count": 40, "mass": 1, "recovery": 30, "drop": "chitin_piece" } },
-    "use_action": { "type": "countdown", "name": { "str": "Arm sulfnade" }, "message": "You light the fuse on the %s." },
+    "use_action": { "type": "countdown", "name": "Arm sulfnade", "message": "You light the fuse on the %s." },
     "countdown_interval": 7,
     "countdown_destroy": true,
     "countdown_action": {
