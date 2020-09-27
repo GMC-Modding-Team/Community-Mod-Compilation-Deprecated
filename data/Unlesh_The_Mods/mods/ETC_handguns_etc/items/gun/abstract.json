@@ -4,6 +4,9 @@
     "copy-from": "pistol_base",
     "type": "GUN",
     "name": { "str": "base ETC pistol", "str_pl": "base ETC pistols" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -23,6 +26,9 @@
     "copy-from": "pistol_revolver",
     "type": "GUN",
     "name": { "str": "EC ammo ETC revolver", "str_pl": "EC ammo ETC revolvers" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
@@ -30,6 +36,7 @@
     "copy-from": "etc_pistol_revolver",
     "type": "GUN",
     "name": { "str": "ETC revolver", "str_pl": "ETC revolvers" },
+    "description": "The base item for other guns. This is a placeholder.",
     "ups_charges": 1
   },
   {
@@ -37,6 +44,7 @@
     "copy-from": "etc_pistol_revolver",
     "type": "GUN",
     "name": { "str": "2 charges ETC revolver", "str_pl": "2 charges ETC revolvers" },
+    "description": "The base item for other guns. This is a placeholder.",
     "ups_charges": 2
   },
   {
@@ -44,7 +52,10 @@
     "copy-from": "rifle_base",
     "type": "GUN",
     "name": { "str": "EC ammo ETC rifle", "str_pl": "EC ammo ETC rifles" },
+    "description": "The base item for other guns. This is a placeholder.",
     "//": "No bore mods. These cannot be just converted to different calibers",
+    "weight": "100 g",
+    "volume": "500 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -63,6 +74,9 @@
     "copy-from": "etc_rifle_base",
     "type": "GUN",
     "name": { "str": "base ETC rifle", "str_pl": "base ETC rifles" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "ups_charges": 1
   },
   {
@@ -70,6 +84,9 @@
     "copy-from": "etc_rifle_base",
     "type": "GUN",
     "name": { "str": "2 charges ETC rifle", "str_pl": "2 charges ETC rifles" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "ups_charges": 2
   },
   {
@@ -77,7 +94,10 @@
     "copy-from": "rifle_manual",
     "type": "GUN",
     "name": { "str": "EC ammo ETC rifle with manual actions", "str_pl": "EC ammo ETC rifles with manual actions" },
+    "description": "The base item for other guns. This is a placeholder.",
     "//": "No magazine or bore mods",
+    "weight": "100 g",
+    "volume": "500 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -95,6 +115,9 @@
     "copy-from": "etc_rifle_manual",
     "type": "GUN",
     "name": { "str": "ETC rifle with manual actions", "str_pl": "ETC rifles with manual actions" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "ups_charges": 1
   },
   {
@@ -102,6 +125,9 @@
     "copy-from": "etc_rifle_manual",
     "type": "GUN",
     "name": { "str": "2 charges ETC rifle with manual actions", "str_pl": "2 charges ETC rifle with manual actions" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "ups_charges": 2
   },
   {
@@ -109,6 +135,9 @@
     "copy-from": "smg_base",
     "type": "GUN",
     "name": { "str": "base ETC SMG", "str_pl": "base ETC SMGs" },
+    "description": "The base item for other guns. This is a placeholder.",
+    "weight": "100 g",
+    "volume": "500 ml",
     "ups_charges": 1
   }
 ]
