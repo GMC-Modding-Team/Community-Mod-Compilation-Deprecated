@@ -2,7 +2,7 @@
   {
     "id": "crt_laser_pistol",
     "type": "GUN",
-    "name": { "str": "CRIT .5 LP" },
+    "name": "CRIT .5 LP",
     "description": "Experimental low power sidearm under development in C.R.I.T R&D, the .5 LP is a relatively weak but accurate laser pistol.  The double-barrel design compensates for the lack of raw power and yet the gun manages to be relatively easy to aim and lightweight due to the superalloy construction.",
     "weight": "650 g",
     "volume": "750 ml",
@@ -19,6 +19,7 @@
     "durability": 9,
     "loudness": 14,
     "ups_charges": 11,
+    "reload": 220,
     "modes": [ [ "DEFAULT", "double", 2 ] ],
     "valid_mod_locations": [
       [ "accessories", 1 ],
@@ -36,7 +37,7 @@
   {
     "id": "crt_laser_gatling",
     "type": "GUN",
-    "name": { "str": "CRIT Chain Laser" },
+    "name": "CRIT Chain Laser",
     "description": "A tried and true favorite from the bowels of R&D hell.  Based off of a researcher's video on three taped-together .5 LPs on a hand held power drill, this gun is a relatively light weapon for the amount of UPS it eats and destruction it can cause.",
     "weight": "2650 g",
     "volume": "2500 ml",
@@ -53,6 +54,7 @@
     "durability": 9,
     "loudness": 28,
     "ups_charges": 10,
+    "reload": 220,
     "modes": [ [ "DEFAULT", "burst", 12 ] ],
     "valid_mod_locations": [ [ "accessories", 1 ], [ "emitter", 1 ], [ "grip", 1 ], [ "lens", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
@@ -61,7 +63,7 @@
   {
     "id": "crt_laser_carbine",
     "type": "GUN",
-    "name": { "str": "CRIT Laser Carbine" },
+    "name": "CRIT Laser Carbine",
     "description": "A short-barrel lightweight laser gun developed by C.R.I.T R&D.  Mainly developed to test out a new breakthrough in laser weapons.",
     "weight": "2150 g",
     "volume": "2 L",
@@ -79,6 +81,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "loudness": 12,
     "ups_charges": 20,
+    "reload": 0,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -95,7 +98,7 @@
   {
     "id": "crt_energy_rifle",
     "type": "GUN",
-    "name": { "str": "CRIT Energy Rifle" },
+    "name": "CRIT Energy Rifle",
     "description": "A heavy energy gun developed by C.R.I.T R&D.  Mainly developed to test out a new breakthrough in hybrid weaponry.",
     "weight": "5150 g",
     "volume": "2500 ml",
@@ -113,6 +116,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "loudness": 20,
     "ups_charges": 30,
+    "reload": 0,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -129,7 +133,7 @@
   {
     "id": "crt_cqb_si",
     "type": "GUN",
-    "name": { "str": "CRIT CQB Standard Issue" },
+    "name": "CRIT CQB Standard Issue",
     "description": "A simple combination gun.  This military-grade semi-auto carbine couples the mid-range versatility of the 9mm with the power of the 12 gauge shotgun.  To further compliment the CQB aspect, the stock is built to amplify the user's force and the rugged construction with tonfa-like grip can handle bashing in enemy heads.",
     "weight": "1650 g",
     "volume": "750 ml",
@@ -147,6 +151,7 @@
     "loudness": 30,
     "ammo": [ "9mm" ],
     "clip_size": 30,
+    "reload": 150,
     "built_in_mods": [ "crt_cqb_si_shotgun" ],
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "underbarrel", 1 ] ],
     "flags": [ "NEVER_JAMS", "FIRE_TWOHAND" ],
@@ -155,7 +160,7 @@
   {
     "id": "crt_fire_glove",
     "type": "GUN",
-    "name": { "str": "CRIT Fire Glove" },
+    "name": "CRIT Fire Glove",
     "description": "Experimental CQB weapon system under development in C.R.I.T R&D.",
     "weight": "650 g",
     "volume": "750 ml",
@@ -192,7 +197,7 @@
     "reload_noise_volume": 7,
     "symbol": "(",
     "color": "light_gray",
-    "name": { "str": "pellet gun" },
+    "name": "pellet gun",
     "description": "A surprisingly powerful airgun that can reliably hunt small game.  The small lead or alloy pellets that can be chambered provide it decent power in every shot.  It's fairly accurate and can be somewhat as damaging as a .22 short, but the break action charging system requires some arm strength to load a pellet.",
     "price": 9900,
     "//": "You can get a decent Ruger .177 at walmart for $99",
@@ -210,6 +215,7 @@
     "durability": 8,
     "loudness": 18,
     "clip_size": 1,
+    "reload": 300,
     "modes": [ [ "DEFAULT", "single", 1 ] ],
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "pellets": 1 } } ]
@@ -217,7 +223,7 @@
   {
     "id": "ds_plasma_cutter",
     "type": "GUN",
-    "name": { "str": "Plasma Cutter" },
+    "name": "Plasma Cutter",
     "description": "Experimental cutting tool under development in C.R.I.T R&D.  It fires an extremely hot wave of plasma that slices into materials.",
     "weight": "1650 g",
     "volume": "750 ml",
@@ -236,6 +242,7 @@
     "ups_charges": 40,
     "ammo": [ "plasma" ],
     "clip_size": 12,
+    "reload": 170,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "sights", 1 ] ],
     "ammo_effects": [ "PLASMA", "INCENDIARY", "DRAW_LASER_BEAM" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING" ],
@@ -244,7 +251,7 @@
   {
     "id": "ds_rivet_gun",
     "type": "GUN",
-    "name": { "str": "Rivet Driver" },
+    "name": "Rivet Driver",
     "description": "Experimental double purpose tool under development in C.R.I.T R&D.  It takes a regular nail and then enlongates it within a fraction of a second before firing it out, upon reaching a target, the fragile stake explodes into shards inside the target.",
     "weight": "1650 g",
     "volume": "750 ml",
@@ -262,6 +269,7 @@
     "loudness": 12,
     "ammo": [ "nail" ],
     "clip_size": 25,
+    "reload": 200,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "sights", 1 ] ],
     "flags": [ "NEVER_JAMS" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "nail": 25 } } ]
@@ -269,7 +277,7 @@
   {
     "id": "ds_line_gun",
     "type": "GUN",
-    "name": { "str": "Line Gun" },
+    "name": "Line Gun",
     "description": "Experimental high power cutting tool under development in C.R.I.T R&D.  It fires plasma in a wide line for slicing into dense materials.",
     "weight": "2650 g",
     "volume": "1500 ml",
@@ -288,6 +296,7 @@
     "ups_charges": 100,
     "ammo": [ "plasma" ],
     "clip_size": 5,
+    "reload": 320,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "sights", 1 ] ],
     "ammo_effects": [ "WIDE", "LASER" ],
@@ -297,7 +306,7 @@
   {
     "id": "ds_pulse_rifle",
     "type": "GUN",
-    "name": { "str": "Pulse Rifle" },
+    "name": "Pulse Rifle",
     "description": "Experimental tri-barrel sub-sonic rifle under development in C.R.I.T R&D.  Great for enclosed spaces and mobs of enemies.  Shoots alloy rounds which instantly mushroom out upon impact.",
     "weight": "2250 g",
     "volume": "1 L",
@@ -315,6 +324,7 @@
     "loudness": 10,
     "ammo": [ "pulsesb" ],
     "clip_size": 175,
+    "reload": 15,
     "modes": [ [ "BURST", "3 rd.", 3 ] ],
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "ammo_effects": [ "NOGIB", "BEANBAG", "NON-FOULING" ],
@@ -324,7 +334,7 @@
   {
     "id": "ds_ripper",
     "type": "GUN",
-    "name": { "str": "Ripper" },
+    "name": "Ripper",
     "description": "Experimental EM saw under development in C.R.I.T R&D.  Great for distance cutting of material.",
     "weight": "2250 g",
     "volume": "1 L",
@@ -343,6 +353,7 @@
     "ups_charges": 10,
     "ammo": [ "pulsesb" ],
     "clip_size": 8,
+    "reload": 450,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "REACH", "em field saw", 5, [ "MELEE", "REACH_ATTACK" ] ] ],
     "ammo_effects": [ "LIGHTNING", "MESSY" ],
     "flags": [ "NEVER_JAMS", "NON-FOULING" ],

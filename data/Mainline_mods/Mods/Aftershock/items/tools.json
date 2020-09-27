@@ -9,7 +9,7 @@
     "price": 200000,
     "price_postapoc": 2500,
     "material": [ "plastic", "aluminum" ],
-    "looks-like": "cell_phone",
+    "looks_like": "cell_phone",
     "symbol": ";",
     "color": "light_green",
     "use_action": [
@@ -101,7 +101,7 @@
     "price": 30000,
     "price_postapoc": 5000,
     "material": [ "steel", "plastic" ],
-    "looks-like": "pot",
+    "looks_like": "pot",
     "symbol": ")",
     "color": "light_green",
     "use_action": [ "HOTPLATE" ],
@@ -123,7 +123,7 @@
     "color": "light_gray",
     "qualities": [ [ "WRENCH", 2 ] ],
     "flags": [ "BELT_CLIP" ],
-    "looks-like": "wrench"
+    "looks_like": "wrench"
   },
   {
     "id": "afs_power_cutter",
@@ -139,7 +139,7 @@
     "cutting": 3,
     "material": [ "steel", "plastic", "diamond" ],
     "symbol": "/",
-    "looks-like": "circsaw_off",
+    "looks_like": "circsaw_off",
     "color": "light_red",
     "ammo": [ "gasoline" ],
     "max_charges": 500,
@@ -174,7 +174,7 @@
     "cutting": 3,
     "material": [ "steel", "plastic", "diamond" ],
     "symbol": "/",
-    "looks-like": "circsaw_off",
+    "looks_like": "circsaw_off",
     "color": "yellow",
     "ammo": [ "gasoline" ],
     "max_charges": 500,
@@ -212,7 +212,7 @@
     "charges_per_use": 1,
     "use_action": { "type": "firestarter", "moves": 150 },
     "flags": [ "FIRESTARTER" ],
-    "looks-like": "rope_30"
+    "looks_like": "rope_30"
   },
   {
     "id": "UPS_off",
@@ -261,7 +261,7 @@
     "copy-from": "mod_battery",
     "type": "TOOLMOD",
     "category": "spare_parts",
-    "name": { "str": "cybernetic power port mod" },
+    "name": "cybernetic power port mod",
     "description": "This device replaces standard power connections and battery ports for electronic devices with a carefully-shaped port that hooks into bionic implants.  When applied, it will convert an item to run directly off of bionic power.",
     "ammo_modifier": "battery",
     "flags": [ "USES_BIONIC_POWER", "NO_UNLOAD", "NO_RELOAD" ]

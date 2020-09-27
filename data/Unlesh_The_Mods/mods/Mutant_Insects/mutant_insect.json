@@ -30,7 +30,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS" ]
   },
   {
-    "abstract": "mon_large_bug",
+    "id": "mon_large_bug",
     "type": "MONSTER",
     "name": { "str": "large bug" },
     "description": "A gross bug the size of a dog.",
@@ -64,7 +64,7 @@
     "flags": [ "SEES", "HEARS", "SMELLS" ]
   },
   {
-    "abstract": "mon_giant_bug",
+    "id": "mon_giant_bug",
     "type": "MONSTER",
     "name": { "str": "giant bug" },
     "description": "A gigantic bug the size of a dog.",
@@ -98,7 +98,7 @@
     "flags": [ "SEES", "SMELLS", "HEARS" ]
   },
   {
-    "abstract": "mon_mega_bug",
+    "id": "mon_mega_bug",
     "type": "MONSTER",
     "name": { "str": "giant bug" },
     "description": "An enormous bug the size of a cow or horse.",
@@ -132,7 +132,7 @@
     "flags": [ "SEES", "SMELLS", "HEARS" ]
   },
   {
-    "abstract": "mon_small_larva",
+    "id": "mon_small_larva",
     "type": "MONSTER",
     "name": { "str": "small larva" },
     "description": "A gross worm the size of rat.",
@@ -159,7 +159,7 @@
     "flags": [ "SMELLS", "LARVA", "PET_WONT_FOLLOW" ]
   },
   {
-    "abstract": "mon_large_larva",
+    "id": "mon_large_larva",
     "type": "MONSTER",
     "name": { "str": "large larva" },
     "description": "A gross worm the size of a dog.",
@@ -260,7 +260,7 @@
     "type": "MONSTER",
     "copy-from": "mon_mega_bug",
     "name": { "str": "mega acid ant" },
-    "looks-like": "mon_ant_acid_queen",
+    "looks_like": "mon_ant_acid_queen",
     "description": "A monstrous woolly brown ant the size of a water buffalo.  Glistening liquid periodically drips from its swollen abdomen and it bears a pair of scythe like mandibles.",
     "default_faction": "acid_ant",
     "symbol": "A",
@@ -368,7 +368,7 @@
     "type": "MONSTER",
     "copy-from": "mon_mega_bug",
     "name": { "str": "mega ant" },
-    "looks-like": "mon_ant_queen",
+    "looks_like": "mon_ant_queen",
     "description": "A monstrous red ant the size of a bison.   Bulging pincers extend from its jaws.",
     "default_faction": "ant",
     "symbol": "A",
@@ -435,7 +435,7 @@
     "description": "A colossal bee the size of a cow.  It moves slowly and deliberately, tending to nearby eggs and continually laying more.",
     "bodytype": "flying insect",
     "default_faction": "bee",
-    "looks-like": "ant_queen",
+    "looks_like": "ant_queen",
     "speed": 50,
     "attack_cost": 25,
     "symbol": "B",
