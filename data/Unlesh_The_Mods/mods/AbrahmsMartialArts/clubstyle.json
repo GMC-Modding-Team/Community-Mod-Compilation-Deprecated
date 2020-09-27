@@ -2,7 +2,7 @@
   {
     "type": "martial_art",
     "id": "style_clubbing",
-    "name": { "str": "Clubbing" },
+    "name": "Clubbing",
     "description": "You can't go wrong with hitting things with a stick.\n\n Based on Bashing Weapons skill. Focuses on strong targeted attacks that nullify armor.",
     "initiate": [
       "You brandish your stick.",
@@ -18,7 +18,7 @@
         "description": "Wielding your stick like a sword and smashing anything that gets close keeps enemies at bay. Gives block and dodge bonuses.\n\n +1 Dodge attempts, Blocked damage reduced by 50%%",
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "block", 0.5 ] ]
+        "mult_bonuses": [ { "stat": "block", "scale": 0.5 } ]
       },
       {
         "id": "buff_cudgeltraininglv1_static",
@@ -27,7 +27,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 1 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv2_static",
@@ -36,7 +40,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 2 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv3_static",
@@ -45,7 +53,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 3 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv4_static",
@@ -54,7 +66,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 4 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv5_static",
@@ -63,7 +79,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 5 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv6_static",
@@ -72,7 +92,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 6 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv7_static",
@@ -81,7 +105,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 7 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv8_static",
@@ -90,7 +118,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 8 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv9_static",
@@ -99,7 +131,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 9 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv10_static",
@@ -108,7 +144,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 10 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv11_static",
@@ -117,7 +157,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 11 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.9 ], [ "damage", "bash", 1.1 ], [ "arpen", "bash", 1.1 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.9 },
+          { "stat": "damage", "type": "bash", "scale": 1.1 },
+          { "stat": "arpen", "type": "bash", "scale": 1.1 }
+        ]
       },
       {
         "id": "buff_cudgeltraininglv12_static",
@@ -126,7 +170,11 @@
         "skill_requirements": [ { "name": "bashing", "level": 12 } ],
         "melee_allowed": true,
         "bonus_dodges": 1,
-        "mult_bonuses": [ [ "movecost", 0.5 ], [ "damage", "bash", 2 ], [ "arpen", "bash", 2 ] ]
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 0.5 },
+          { "stat": "damage", "type": "bash", "scale": 2 },
+          { "stat": "arpen", "type": "bash", "scale": 2 }
+        ]
       }
     ],
     "onhit_buffs": [
@@ -138,12 +186,12 @@
         "skill_requirements": [ { "name": "bashing", "level": 3 } ],
         "max_stacks": 99999,
         "flat_bonuses": [
-          [ "damage", "bash", 0.01 ],
-          [ "damage", "cut", 0.01 ],
-          [ "damage", "stab", 0.01 ],
-          [ "dodge", 0.01 ],
-          [ "hit", 0.01 ],
-          [ "arpen", "bash", 0.1 ]
+          { "stat": "damage", "type": "bash", "scale": 0.01 },
+          { "stat": "damage", "type": "cut", "scale": 0.01 },
+          { "stat": "damage", "type": "stab", "scale": 0.01 },
+          { "stat": "dodge", "scale": 0.01 },
+          { "stat": "hit", "scale": 0.01 },
+          { "stat": "arpen", "type": "bash", "scale": 0.1 }
         ]
       }
     ],
@@ -154,7 +202,11 @@
         "description": "Every kill makes you more badass.",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "flat_bonuses": [ [ "hit", 1 ], [ "damage", "bash", 1 ], [ "arpen", "bash", 1 ] ],
+        "flat_bonuses": [
+          { "stat": "hit", "scale": 1 },
+          { "stat": "damage", "type": "bash", "scale": 1 },
+          { "stat": "arpen", "type": "bash", "scale": 1 }
+        ],
         "max_stacks": 99999
       }
     ],
@@ -164,8 +216,8 @@
         "name": "You Fight Like A Dairy Farmer",
         "description": "You fight like a dairy farmer!",
         "unarmed_allowed": true,
-        "mult_bonuses": [ [ "movecost", 0.0 ] ],
-        "flat_bonuses": [ [ "damage", "bash", 1.5 ] ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ],
+        "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.5 } ],
         "bonus_dodges": 1,
         "buff_duration": 2
       }
@@ -192,7 +244,7 @@
     "name": "You Fight Like A Cow",
     "melee_allowed": true,
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
-    "mult_bonuses": [ [ "hit", 1.2 ], [ "arpen", "bash", 1.2 ] ],
+    "mult_bonuses": [ { "stat": "hit", "scale": 1.2 }, { "stat": "arpen", "type": "bash", "scale": 1.2 } ],
     "messages": [ "How appropriate, you fight like a cow!", "%s fights like a cow." ],
     "description": "Miss recovery"
   },
@@ -202,7 +254,11 @@
     "name": "Every Enemy Ive Met Ive Annihilated",
     "req_buffs": [ "buff_dairyfarmer_onmiss" ],
     "skill_requirements": [ { "name": "bashing", "level": 10 } ],
-    "mult_bonuses": [ [ "damage", "bash", 99 ], [ "hit", 99 ], [ "arpen", "bash", 99 ] ],
+    "mult_bonuses": [
+      { "stat": "damage", "type": "bash", "scale": 99 },
+      { "stat": "hit", "scale": 99 },
+      { "stat": "arpen", "type": "bash", "scale": 99 }
+    ],
     "messages": [ "With your breath, they probably suffocated!", "%s has bad breath" ],
     "description": "High-level miss recovery - One Hit Kill"
   },
@@ -211,7 +267,7 @@
     "id": "abclub_block",
     "name": "Block",
     "dummy": true,
-    "mult_bonuses": [ [ "movecost", 0.0 ] ],
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ],
     "messages": [ "You block %s", "<npcname> blocks %s" ],
     "description": "Medium blocking ability"
   },
@@ -223,7 +279,7 @@
     "melee_allowed": true,
     "skill_requirements": [ { "name": "bashing", "level": 5 } ],
     "crit_tec": true,
-    "mult_bonuses": [ [ "damage", "bash", 5 ], [ "arpen", "bash", 5 ] ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 5 }, { "stat": "arpen", "type": "bash", "scale": 5 } ],
     "stun_dur": 1,
     "knockback_dist": 1,
     "messages": [ "You knock %s down with a brutal blow to the face.", "<npcname> knocks %s down" ],
@@ -235,7 +291,7 @@
     "name": "Critical Strike",
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 99 ] ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 99 } ],
     "crit_tec": true,
     "weighting": -250,
     "messages": [ "You smash %s to pieces", "<npcname> smashes %s" ],
@@ -247,7 +303,12 @@
     "name": "Jab",
     "skill_requirements": [ { "name": "bashing", "level": 3 } ],
     "melee_allowed": true,
-    "mult_bonuses": [ [ "movecost", 0.5 ], [ "hit", 1.2 ], [ "arpen", "bash", 1.5 ], [ "damage", "bash", 0.8 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.5 },
+      { "stat": "hit", "scale": 1.2 },
+      { "stat": "arpen", "type": "bash", "scale": 1.5 },
+      { "stat": "damage", "type": "bash", "scale": 0.8 }
+    ],
     "messages": [ "You jab %s with your stick!", "<npcname> jabs %s with a weak hit." ],
     "description": "Fast weak hit"
   },
@@ -257,7 +318,12 @@
     "name": "Smash",
     "skill_requirements": [ { "name": "bashing", "level": 2 } ],
     "melee_allowed": true,
-    "mult_bonuses": [ [ "movecost", 0.8 ], [ "hit", 1.5 ], [ "arpen", "bash", 3 ], [ "damage", "bash", 4 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.8 },
+      { "stat": "hit", "scale": 1.5 },
+      { "stat": "arpen", "type": "bash", "scale": 3 },
+      { "stat": "damage", "type": "bash", "scale": 4 }
+    ],
     "messages": [ "You smash %s hard!", "<npcname> smashes %s with a hard hit." ],
     "description": "Strong hit"
   },
@@ -267,7 +333,12 @@
     "name": "Pummel",
     "skill_requirements": [ { "name": "bashing", "level": 1 } ],
     "melee_allowed": true,
-    "mult_bonuses": [ [ "movecost", 0.2 ], [ "hit", 0.8 ], [ "arpen", "bash", 2 ], [ "damage", "bash", 2 ] ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.2 },
+      { "stat": "hit", "scale": 0.8 },
+      { "stat": "arpen", "type": "bash", "scale": 2 },
+      { "stat": "damage", "type": "bash", "scale": 2 }
+    ],
     "messages": [ "You whack %s with a lightning fast hit!", "<npcname> hits %s with a quick slap." ],
     "description": "Fast hit, moderate damage"
   },
@@ -304,7 +375,12 @@
     "block_counter": true,
     "crit_ok": true,
     "stun_dur": 1,
-    "mult_bonuses": [ [ "movecost", 0.0 ], [ "damage", "bash", 1.2 ], [ "damage", "cut", 1.2 ], [ "damage", "stab", 1.2 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "bash", "scale": 1.2 },
+      { "stat": "damage", "type": "cut", "scale": 1.2 },
+      { "stat": "damage", "type": "stab", "scale": 1.2 }
+    ]
   },
   {
     "type": "technique",
@@ -314,7 +390,7 @@
     "skill_requirements": [ { "name": "unarmed", "level": 1 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
-    "mult_bonuses": [ [ "movecost", 0.5 ] ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 } ]
   },
   {
     "type": "technique",
@@ -324,6 +400,10 @@
     "unarmed_allowed": true,
     "dodge_counter": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "movecost", 0.0 ], [ "damage", "bash", 5 ], [ "hit", 0.5 ] ]
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "bash", "scale": 5 },
+      { "stat": "hit", "scale": 0.5 }
+    ]
   }
 ]
