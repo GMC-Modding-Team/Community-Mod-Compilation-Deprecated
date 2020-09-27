@@ -40,7 +40,7 @@
     "type": "vehicle",
     "name": "Kraken",
     "parts": [
-      { "x": -6, "y": 4, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -6, "y": 4, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
       { "x": -6, "y": 3, "parts": [ "frame_vertical_2", "roof", "trunk_floor", "muffler", "solar_panel_v2" ] },
       {
         "x": -6,
@@ -57,8 +57,8 @@
         ]
       },
       { "x": -6, "y": 1, "parts": [ "frame_vertical_2", "roof", "trunk_floor", "muffler", "solar_panel_v2" ] },
-      { "x": -6, "y": 0, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
-      { "x": -6, "y": 5, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -6, "y": 0, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -6, "y": 5, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
       { "x": -7, "y": 5, "parts": [ "frame_se", "board_se", "plating_military", "bike_rack" ] },
       {
         "x": -7,
@@ -86,9 +86,9 @@
         "parts": [ "frame_horizontal", "reinforced_windshield", "plating_military", "aisle_curtain", "solar_panel_v2", "door_motor" ]
       },
       { "x": -7, "y": -1, "parts": [ "frame_sw", "board_sw", "plating_military" ] },
-      { "x": -6, "y": -1, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
-      { "x": -5, "y": -1, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
-      { "x": -5, "y": 0, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -6, "y": -1, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -5, "y": -1, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -5, "y": 0, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
       { "x": -5, "y": 1, "parts": [ "frame_horizontal", "roof", "aisle_vertical", "solar_panel_v2" ] },
       {
         "x": -5,
@@ -96,7 +96,7 @@
         "parts": [ "frame_horizontal", "roof", "reclining_seat", "seatbelt_heavyduty", "solar_panel_v2", "large_storage_battery" ]
       },
       { "x": -5, "y": 3, "parts": [ "frame_horizontal", "roof", "aisle_vertical", "solar_panel_v2" ] },
-      { "x": -5, "y": 4, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -5, "y": 4, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
       {
         "x": -4,
         "y": 4,
@@ -184,7 +184,7 @@
         "y": 0,
         "parts": [ "frame_cross", "roof", "bed", "solar_panel_v2", "cam_control", "controls_electronic", "vehicle_clock" ]
       },
-      { "x": -5, "y": 5, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -5, "y": 5, "parts": [ "frame_vertical_2", "wheel_mount_medium", "wheel_wide_or" ] },
       {
         "x": 1,
         "y": 4,
@@ -225,7 +225,7 @@
       { "x": -1, "y": 5, "parts": [ "frame_vertical", "board_vertical", "plating_military" ] },
       { "x": -2, "y": 5, "parts": [ "frame_vertical", "board_vertical", "plating_military" ] },
       { "x": -3, "y": 5, "parts": [ "frame_vertical", "board_vertical", "plating_military" ] },
-      { "x": 2, "y": 0, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
+      { "x": 2, "y": 0, "parts": [ "frame_vertical_2", "wheel_mount_medium_steerable", "wheel_wide_or" ] },
       {
         "x": 2,
         "y": 1,
@@ -265,9 +265,17 @@
         "y": 3,
         "parts": [ "frame_vertical_2", "reclining_seat", "roof", "seatbelt_heavyduty", "spring_plate", "light_blue" ]
       },
-      { "x": 2, "y": 4, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
-      { "x": 2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or", "door_motor" ] },
-      { "x": 2, "y": 5, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or", "door_motor" ] },
+      { "x": 2, "y": 4, "parts": [ "frame_vertical_2", "wheel_mount_medium_steerable", "wheel_wide_or" ] },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [ "frame_vertical_2", "wheel_mount_medium_steerable", "wheel_wide_or", "door_motor" ]
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "parts": [ "frame_vertical_2", "wheel_mount_medium_steerable", "wheel_wide_or", "door_motor" ]
+      },
       {
         "x": 3,
         "y": 0,
