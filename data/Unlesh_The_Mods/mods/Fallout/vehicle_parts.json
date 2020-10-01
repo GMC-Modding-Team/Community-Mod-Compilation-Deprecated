@@ -194,13 +194,15 @@
     "breaks_into": "ig_vp_device"
   },
   {
-    "id": "nuka_engine",
-    "copy-from": "engine_combustion",
+    "abstract": "nuka_engine",
+    "copy-from": "diesel_engine",
     "type": "vehicle_part",
+    "item": "engine_nuka",
     "fuel_type": "diesel",
-    "fuel_options": [ "cola_nuka", "cola_newka", "cola_nuka_quantum" ],
+    "fuel_options": [ "cola_nuka_f", "cola_newka_f", "cola_nuka_quantum_f" ],
     "cold_affects_start": true,
     "m2c": 65,
+    "durability": 60,
     "//": "40% energy efficiency",
     "extend": { "flags": [ "E_COLD_START" ] },
     "description": "An engine powered by Nuka Cola. How strange."
