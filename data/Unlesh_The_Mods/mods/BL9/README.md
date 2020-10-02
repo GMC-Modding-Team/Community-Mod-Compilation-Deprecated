@@ -1,5 +1,5 @@
 # BL9
-A huge content mod for Cataclysm Dark Days Ahead greatly inspired by Resid Evil 4 by Capcom
+A huge content mod for Cataclysm Dark Days Ahead greatly inspired by Resident Evil 4 by Capcom
 
 ## Prerequisites 
 **None, but playing with BIG content mods (Magiclysm, Aftershock, Secronom, Cata++, Arcana, Fallout New England, PK rebalancing, Blazemod) is STRONGLY ADVISED because the content of this mod is QUITE MID-GAME to END-GAME so weapons, armor and balance changes from other mods will come in handy**
@@ -12,7 +12,7 @@ A huge content mod for Cataclysm Dark Days Ahead greatly inspired by Resid Evil 
 
 **2) New guns (30 ranged weapons - 3 tiers of them with 2 tiers of sleek and unique craftable ammo - BALLISTICS TOO), unique craftable melee weapons (using all kinds of vanilla martial arts) and armor (2 tiers of well-made strong BL9-infused survivor armor)**
 
-**3) Dangerous monsters and bosses to fight - from cultist and heavily armed military roaming patrols to heavily mutated creatures and tough bosses inspired greatly by Resid Evil by Capcom creatures**
+**3) Dangerous monsters and bosses to fight - from cultist and heavily armed military roaming patrols to heavily mutated creatures and tough bosses inspired greatly by Resident Evil by Capcom creatures**
 
 **4) Carefully and well-made linear balance system - you'll be slowly going from mid-game structures and monsters to end-game truly DANGEROUS locations and bosses with lots of valuable stuff to collect and craft**
 
