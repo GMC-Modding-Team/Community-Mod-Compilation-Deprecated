@@ -1,6 +1,6 @@
 [
   {
-    "id": "mon_dog_mutant",
+    "abstract": "mon_dog_mutant",
     "type": "MONSTER",
     "name": { "str": "mutant dog" },
     "description": "A mutating canine.",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "id": "mon_dog_mutant_pup",
+    "abstract": "mon_dog_mutant_pup",
     "type": "MONSTER",
     "copy-from": "mon_dog_mutant",
     "name": { "str": "mutant whelp" },
