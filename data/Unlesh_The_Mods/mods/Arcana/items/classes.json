@@ -1,6 +1,6 @@
 [
   {
-    "id": "arcana_note_base",
+    "abstract": "arcana_note_base",
     "type": "GENERIC",
     "category": "books",
     "name": { "str": "arcana note base" },
@@ -13,7 +13,7 @@
     "flags": [ "NO_SALVAGE" ]
   },
   {
-    "id": "spell_base",
+    "abstract": "spell_base",
     "type": "TOOL",
     "name": { "str": "magic sign base" },
     "material": [ "essencemat" ],
@@ -22,7 +22,7 @@
     "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
   },
   {
-    "id": "scroll_magic_base",
+    "abstract": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "scroll base" },
     "weight": "415 g",
@@ -35,7 +35,7 @@
     "flags": [ "NO_SALVAGE" ]
   },
   {
-    "id": "totem_base",
+    "abstract": "totem_base",
     "type": "TOOL",
     "name": { "str": "magic seal base" },
     "description": "A hidden item. If you see this, then it's a bug.",
