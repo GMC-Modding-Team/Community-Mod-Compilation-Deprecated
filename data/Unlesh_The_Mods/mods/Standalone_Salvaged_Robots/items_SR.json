@@ -1,6 +1,6 @@
 [
   {
-    "id": "bot_turret_base",
+    "abstract": "bot_turret_base",
     "type": "TOOL",
     "name": { "str": "inactive turret" },
     "description": "An inactive turret",
@@ -275,7 +275,7 @@
     "use_action": { "type": "place_monster", "monster_id": "mon_autoarmor_light", "moves": 100 }
   },
   {
-    "id": "bot_hack_base",
+    "abstract": "bot_hack_base",
     "type": "TOOL",
     "name": { "str": "inactive hack" },
     "description": "This is an inactive manhack.  Manhacks are fist-sized robots that fly through the air.  They are covered with whirring blades and attack by throwing themselves against their target.  Use this item to reprogram and activate the manhack.  Electronics and computer skill determines if the targeting matrix is reprogrammed successfully.",
@@ -388,7 +388,7 @@
     }
   },
   {
-    "id": "bot_eyebot_base",
+    "abstract": "bot_eyebot_base",
     "type": "TOOL",
     "name": { "str": "inactive eyebot" },
     "description": "An inactive eyebot",
@@ -454,7 +454,7 @@
     }
   },
   {
-    "id": "bot_utilibot_base",
+    "abstract": "bot_utilibot_base",
     "type": "TOOL",
     "name": { "str": "inactive utilibot" },
     "description": "An inactive utilibot",
@@ -535,7 +535,7 @@
     }
   },
   {
-    "id": "bot_medibot_base",
+    "abstract": "bot_medibot_base",
     "type": "TOOL",
     "looks_like": "mon_tripod",
     "name": { "str": "inactive medibot" },
@@ -601,7 +601,7 @@
     }
   },
   {
-    "id": "bot_skitterbot_base",
+    "abstract": "bot_skitterbot_base",
     "type": "TOOL",
     "name": { "str": "inactive skitterbot" },
     "description": "An inactive skitterbot",
@@ -666,7 +666,7 @@
     }
   },
   {
-    "id": "bot_cyborg_base",
+    "abstract": "bot_cyborg_base",
     "type": "TOOL",
     "name": { "str": "inactive cyborg" },
     "description": "An inactive cyborg",
@@ -698,7 +698,7 @@
     }
   },
   {
-    "id": "bot_defbot_base",
+    "abstract": "bot_defbot_base",
     "type": "TOOL",
     "name": { "str": "inactive defense robot" },
     "description": "An inactive defense robot",
@@ -763,7 +763,7 @@
     }
   },
   {
-    "id": "bot_milbot_base",
+    "abstract": "bot_milbot_base",
     "type": "TOOL",
     "name": { "str": "inactive military robot" },
     "description": "An inactive military robot",
@@ -861,7 +861,7 @@
     }
   },
   {
-    "id": "bot_advbot_base",
+    "abstract": "bot_advbot_base",
     "type": "TOOL",
     "name": { "str": "inactive advanced robot" },
     "description": "An inactive advanced robot",
@@ -909,7 +909,7 @@
     }
   },
   {
-    "id": "bot_ckickenbot_base",
+    "abstract": "bot_ckickenbot_base",
     "type": "TOOL",
     "name": { "str": "inactive chickenwalker" },
     "description": "An inactive chickenwalker",
@@ -974,7 +974,7 @@
     }
   },
   {
-    "id": "bot_tankbot_base",
+    "abstract": "bot_tankbot_base",
     "type": "TOOL",
     "name": { "str": "inactive tankbot" },
     "description": "An inactive tankbot",

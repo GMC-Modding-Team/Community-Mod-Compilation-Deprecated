@@ -1,6 +1,6 @@
 [
   {
-    "id": "etc_pistol_base",
+    "abstract": "etc_pistol_base",
     "copy-from": "pistol_base",
     "type": "GUN",
     "name": { "str": "base ETC pistol", "str_pl": "base ETC pistols" },
@@ -48,7 +48,7 @@
     "ups_charges": 2
   },
   {
-    "id": "etc_rifle_base",
+    "abstract": "etc_rifle_base",
     "copy-from": "rifle_base",
     "type": "GUN",
     "name": { "str": "EC ammo ETC rifle", "str_pl": "EC ammo ETC rifles" },
@@ -131,7 +131,7 @@
     "ups_charges": 2
   },
   {
-    "id": "etc_smg_base",
+    "abstract": "etc_smg_base",
     "copy-from": "smg_base",
     "type": "GUN",
     "name": { "str": "base ETC SMG", "str_pl": "base ETC SMGs" },
