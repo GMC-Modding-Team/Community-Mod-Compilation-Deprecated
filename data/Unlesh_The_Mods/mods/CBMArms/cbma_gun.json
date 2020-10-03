@@ -23,6 +23,7 @@
     "durability": 8,
     "barrel_volume": "1250 ml",
     "clip_size": 8,
+    "reload": 120,
     "reload_noise_volume": 10,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
@@ -50,6 +51,7 @@
     "dispersion": 90,
     "durability": 8,
     "barrel_volume": "750 ml",
+    "reload": 100,
     "reload_noise_volume": 10,
     "burst": 4,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
@@ -87,6 +89,8 @@
     "dispersion": 0,
     "sight_dispersion": 0,
     "durability": 8,
+    "aim_speed": 10,
+    "reload": 100,
     "reload_noise_volume": 10,
     "clip_size": 6,
     "flags": [ "NEVER_JAMS", "RELOAD_ONE", "FIRE_TWOHAND", "ALWAYS_TWOHAND", "UNBREAKABLE_MELEE" ]
@@ -113,6 +117,8 @@
     "dispersion": 0,
     "sight_dispersion": 0,
     "durability": 8,
+    "aim_speed": 10,
+    "reload": 0,
     "recoil": 4900,
     "loudness": 75,
     "ammo_effects": [ "EMP", "WIDE" ],
