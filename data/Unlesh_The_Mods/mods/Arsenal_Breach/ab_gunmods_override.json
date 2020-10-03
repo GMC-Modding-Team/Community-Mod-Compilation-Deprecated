@@ -5,6 +5,7 @@
     "type": "GUNMOD",
     "name": { "str": "beam scatterer" },
     "description": "A set of optics made to fit on laser weapons, which will diffract the laser beam into several lower powered beams.  This increases point-blank damage, but reduces range.",
+    "install_time": "15 m",
     "range_modifier": -12,
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "mod_targets": [ "rifle", "pistol", "smg", "shotgun" ]
@@ -51,6 +52,7 @@
       "loudness": 12,
       "ups_charges": 22,
       "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 15 },
+      "reload": 300,
       "ammo_effects": [ "LASER", "INCENDIARY" ]
     },
     "dispersion_modifier": 15,
