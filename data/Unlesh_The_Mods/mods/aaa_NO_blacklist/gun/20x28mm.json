@@ -14,14 +14,21 @@
     "color": [ "light_gray" ],
     "ammo": [ "20x28mm" ],
     "skill": "launcher",
+    "range": 15,
     "dispersion": 130,
     "durability": 5,
+    "reload": 600,
+    "reload_noise_volume": 10,
+    "loudness": 200,
+    "modes": [ [ "DEFAULT", "single shot", 1 ],
     "barrel_volume": "250 ml",
     "built_in_mods": [ "oicwscope" ],
+    "valid_mod_locations": [ [ "sling", 1 ], [ "rail mount", 1 ], [ "sights mount", 1 ], [ "underbarrel mount", 1 ] ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
+        "magazine_well": "250 ml",
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
         "item_restriction": [ "xm29_launchermag" ]
