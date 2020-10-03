@@ -56,7 +56,7 @@
     "flags": [ "GUILT", "SEES", "HEARS", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
   {
-    "id": "mon_autoarmor_base",
+    "abstract": "mon_autoarmor_base",
     "type": "MONSTER",
     "name": "automated armor",
     "description": "A suit of power armor temporarily controlled by an attached AI-core.  Originally intended as a way to retrieve dead or wounded operators from combat, it was more commonly used for transporting the suit itself. The AI is limited, and makes a poor combatant.",
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "id": "mon_milbot_base",
+    "abstract": "mon_milbot_base",
     "type": "MONSTER",
     "looks_like": "mon_secubot",
     "name": "military robot",
@@ -1023,7 +1023,7 @@
     ]
   },
   {
-    "id": "mon_advbot_base",
+    "abstract": "mon_advbot_base",
     "type": "MONSTER",
     "copy-from": "mon_defbot_base",
     "looks_like": "mon_copbot",
@@ -1458,7 +1458,7 @@
     "death_function": [ "BROKEN" ]
   },
   {
-    "id": "mon_chickenbot_base",
+    "abstract": "mon_chickenbot_base",
     "comment": "remove-special-attack doesn't work, so add this def without guns.",
     "type": "MONSTER",
     "name": "chicken walker",
@@ -1555,7 +1555,7 @@
     "death_function": [ "BROKEN", "EXPLODE" ]
   },
   {
-    "id": "mon_tankbot_base",
+    "abstract": "mon_tankbot_base",
     "comment": "remove-special-attack doesn't work, so add this def without gun attack.",
     "type": "MONSTER",
     "name": "Beagle Mini-Tank UGV",
