@@ -1,0 +1,24 @@
+[
+  {
+    "type": "vehicle",
+    "id": "makeshift_raft",
+    "blueprint": [ "o#o" ],
+    "name": "Makeshift raft",
+    "parts": [
+      { "y": 0, "x": 1, "parts": [ "frame_wood_cross", "boat_board" ] },
+      { "y": 0, "x": 0, "parts": [ "frame_wood_cross", "seat_wood", "boat_board", "hand_paddles" ] },
+      { "y": 0, "x": -1, "parts": [ "frame_wood_cross", "boat_board" ] }
+    ]
+  },
+  {
+    "type": "vehicle",
+    "id": "makeshift_canoe",
+    "blueprint": [ "o#o" ],
+    "name": "Primitive canoe",
+    "parts": [
+      { "y": 0, "x": 1, "parts": [ "frame_wood_cross", "wood box", "boat_board" ] },
+      { "y": 0, "x": 0, "parts": [ "frame_wood_cross", "seat_wood", "boat_board", "hand_paddles" ] },
+      { "y": 0, "x": -1, "parts": [ "frame_wood_cross", "wood box", "boat_board" ] }
+    ]
+  }
+]
