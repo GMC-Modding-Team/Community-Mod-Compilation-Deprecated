@@ -39,7 +39,9 @@
     "id": "SUS_chemistry_bookcase",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [ { "item": "book_potioncraft", "prob": 5 } ]
+    "entries": [
+      { "item": "book_potioncraft", "prob": 5 }
+    ]
   },
   {
     "id": "SUS_book_nonf_hard_spirit",
@@ -53,7 +55,9 @@
   {
     "id": "SUS_book_nonf_soft_occult",
     "type": "item_group",
-    "entries": [ { "group": "magic_books", "prob": 1 } ]
+    "entries": [
+      { "group": "magic_books", "prob": 1 }
+    ]
   },
   {
     "id": "mansion_safe",
@@ -172,12 +176,7 @@
   {
     "id": "science",
     "type": "item_group",
-    "items": [
-      { "group": "lab_misc_anomalous_items", "prob": 5 },
-      { "group": "arcana_hunt_random", "prob": 10 },
-      [ "tindalos_whistle", 1 ],
-      [ "spatial_displacer", 1 ]
-    ]
+    "items": [ { "group": "lab_misc_anomalous_items", "prob": 5 }, { "group": "arcana_hunt_random", "prob": 10 }, [ "tindalos_whistle", 1 ], [ "spatial_displacer", 1 ] ]
   },
   {
     "id": "teleport",
@@ -214,12 +213,19 @@
   {
     "id": "guns_energy",
     "type": "item_group",
-    "items": [ [ "electrothermal_arc_cannon", 3 ], [ "rift_focus_cannon", 2 ] ]
+    "items": [
+      [ "electrothermal_arc_cannon", 3 ],
+      [ "rift_focus_cannon", 2 ]
+    ]
   },
   {
     "id": "gunmod_energy",
     "type": "item_group",
-    "items": [ [ "arcane_accelerator_railgun", 5 ], [ "arcane_accelerator_plasma", 3 ], [ "arcane_accelerator_nuke", 2 ] ]
+    "items": [
+      [ "arcane_accelerator_railgun", 5 ],
+      [ "arcane_accelerator_plasma", 3 ],
+      [ "arcane_accelerator_nuke", 2 ]
+    ]
   },
   {
     "id": "bionics",
@@ -255,6 +261,9 @@
   {
     "type": "item_group",
     "id": "roof_holdout",
-    "items": [ { "group": "magic_books", "prob": 5 }, { "group": "arcana_hunt_random", "prob": 15 } ]
+    "items": [
+      { "group": "magic_books", "prob": 5 },
+      { "group": "arcana_hunt_random", "prob": 15 }
+    ]
   }
 ]
