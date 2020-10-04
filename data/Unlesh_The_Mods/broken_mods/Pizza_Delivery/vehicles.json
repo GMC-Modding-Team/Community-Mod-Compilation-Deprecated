@@ -1,0 +1,51 @@
+[
+  {
+    "id": "pizza_drone",
+    "type": "vehicle",
+    "name": "Pizza Drone",
+    "blueprint": [
+      [ "o--o" ],
+      [ "'&'|" ],
+      [ "'o'|" ],
+      [ "o+-o" ]
+    ],
+    "items": [ { "y": 1, "x": 0, "chance": 50, "item_groups": [ "pizza_delivery" ] } ],
+    "parts": [
+      { "y": 1, "x": 0, "parts": [ "frame_vertical_2", "insulated_box", "roof" ] },
+      { "y": 2, "x": 1, "parts": [ "frame_vertical", "halfboard_vertical", "drone_interface" ] },
+      { "y": 1, "x": -1, "parts": [ "frame_horizontal", "windshield" ] },
+      { "y": 0, "x": 0, "parts": [ "frame_vertical_2", "robot_controls", "chimes", "roof" ] },
+      { "y": 0, "x": -1, "parts": [ "frame_horizontal", "windshield", "muffler" ] },
+      {
+        "y": -1,
+        "x": 2,
+        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel", "headlight" ]
+      },
+      { "y": -1, "x": -1, "parts": [ "frame_horizontal", "halfboard_sw", "wheel_mount_medium", "wheel" ] },
+      { "y": 1, "x": 2, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
+      { "y": 1, "x": 1, "parts": [ "frame_horizontal", "windshield" ] },
+      {
+        "y": 0,
+        "x": 2,
+        "parts": [
+          "frame_horizontal",
+          "halfboard_horizontal",
+          "engine_electric_large",
+          "storage_battery_mount",
+          "storage_battery_removable",
+          "omnicam"
+        ]
+      },
+      { "y": 2, "x": -1, "parts": [ "frame_horizontal", "halfboard_se", "wheel_mount_medium", "wheel" ] },
+      {
+        "y": 2,
+        "x": 2,
+        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel", "headlight" ]
+      },
+      { "y": -1, "x": 0, "parts": [ "frame_vertical", "windshield" ] },
+      { "y": 0, "x": 1, "parts": [ "frame_horizontal", "windshield" ] },
+      { "y": -1, "x": 1, "parts": [ "frame_vertical", "windshield" ] },
+      { "y": 2, "x": 0, "parts": [ "frame_vertical", "door" ] }
+    ]
+  }
+]
