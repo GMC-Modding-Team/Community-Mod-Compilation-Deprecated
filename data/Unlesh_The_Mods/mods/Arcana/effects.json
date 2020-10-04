@@ -238,7 +238,9 @@
     "type": "effect_type",
     "id": "heat_ward_dragonblood",
     "name": [ "Elemental Affinity" ],
-    "desc": [ "No longer slowed down by heat exhaustion.  You are still vulnerable to the other side effects of heatstroke, and may blister in extreme temperatures." ],
+    "desc": [
+      "No longer slowed down by heat exhaustion.  You are still vulnerable to the other side effects of heatstroke, and may blister in extreme temperatures."
+    ],
     "removes_effects": [ "hot_speed" ]
   },
   {
@@ -488,20 +490,43 @@
     "type": "effect_type",
     "id": "talisman_pet_buff",
     "name": [ "Warded" ],
-    "removes_effects": [ "bleed", "infected", "bite", "stunned", "downed", "poison", "badpoison", "smoke", "boomered", "glowing", "taint", "visuals" ],
-    "blocks_effects": [ "bleed", "infected", "bite", "stunned", "downed", "poison", "badpoison", "smoke", "boomered", "glowing", "taint", "visuals" ],
-    "flags": [
-      "EFFECT_ELECTRIC_IMMUNE",
-      "EFFECT_ACID_IMMUNE",
-      "EFFECT_COLD_IMMUNE",
-      "EFFECT_BIO_IMMUNE"
-    ]
+    "removes_effects": [
+      "bleed",
+      "infected",
+      "bite",
+      "stunned",
+      "downed",
+      "poison",
+      "badpoison",
+      "smoke",
+      "boomered",
+      "glowing",
+      "taint",
+      "visuals"
+    ],
+    "blocks_effects": [
+      "bleed",
+      "infected",
+      "bite",
+      "stunned",
+      "downed",
+      "poison",
+      "badpoison",
+      "smoke",
+      "boomered",
+      "glowing",
+      "taint",
+      "visuals"
+    ],
+    "flags": [ "EFFECT_ELECTRIC_IMMUNE", "EFFECT_ACID_IMMUNE", "EFFECT_COLD_IMMUNE", "EFFECT_BIO_IMMUNE" ]
   },
   {
     "type": "effect_type",
     "id": "dragonblood_clarity",
     "name": [ "Revenant Blood" ],
-    "desc": [ "Immunity to food poisoning, parasites, and fungus.  Increased hunger and thirst gain, with positive metabolic effects." ],
+    "desc": [
+      "Immunity to food poisoning, parasites, and fungus.  Increased hunger and thirst gain, with positive metabolic effects."
+    ],
     "resist_effect": "talisman_warding",
     "remove_message": "The protective effect of your sanguine mark fades, leaving a momentary itch in your veins.",
     "removes_effects": [
@@ -538,9 +563,7 @@
     "type": "effect_type",
     "id": "dragonbreath_side_effects",
     "max_duration": "1 s",
-    "base_mods": {
-      "hunger_min": [ 30 ]
-    }
+    "base_mods": { "hunger_min": [ 30 ] }
   },
   {
     "type": "effect_type",
@@ -576,7 +599,14 @@
     "type": "effect_type",
     "id": "arcane_healing_side_effects",
     "resist_effect": "talisman_warding",
-    "name": [ "Healing Fatigue", "Healing Overexertion", "Healing Overexertion", "Healing Overexertion", "Healing Overexertion", "Healing Overexertion" ],
+    "name": [
+      "Healing Fatigue",
+      "Healing Overexertion",
+      "Healing Overexertion",
+      "Healing Overexertion",
+      "Healing Overexertion",
+      "Healing Overexertion"
+    ],
     "desc": [
       "Drawing upon power from Beyond to heal the body can overtax body and mind.  The effects don't feel very severe now, but it might be best to recover unless it's an emergency.",
       "Drawing upon power from Beyond to heal the body is slowing your natural healing, and making exertion more difficult.",
@@ -587,17 +617,8 @@
     ],
     "max_intensity": 6,
     "int_dur_factor": "12 h",
-    "base_mods": {
-      "health_min": [ -1 ],
-      "health_tick": [ 1800, 2000 ],
-      "stamina_min": [ -5 ],
-      "stamina_tick": [ 10, 12 ]
-    },
-    "scaling_mods": {
-      "health_min": [ -1, -0.8 ],
-      "stamina_min": [ -5 ],
-      "stamina_tick": [ -1, -0.8 ]
-    }
+    "base_mods": { "health_min": [ -1 ], "health_tick": [ 1800, 2000 ], "stamina_min": [ -5 ], "stamina_tick": [ 10, 12 ] },
+    "scaling_mods": { "health_min": [ -1, -0.8 ], "stamina_min": [ -5 ], "stamina_tick": [ -1, -0.8 ] }
   },
   {
     "type": "effect_type",
@@ -605,21 +626,13 @@
     "//": "Proper Chosen are more acclimated to channeling He From Beyond The Veil's blessings.",
     "resist_traits": [ "PROF_CHALICE" ],
     "name": [ "Wave of Destruction Burnout" ],
-    "desc": [ "Human minds and bodies were not made to be a conduit for such destructive energy.  Overuse won't kill you, but will make it harder to focus on spellcasting." ],
+    "desc": [
+      "Human minds and bodies were not made to be a conduit for such destructive energy.  Overuse won't kill you, but will make it harder to focus on spellcasting."
+    ],
     "max_intensity": 6,
     "int_dur_factor": "12 h",
-    "base_mods": {
-      "int_mod": [ -1 ],
-      "vomit_chance": [ 2000, 2400 ],
-      "pain_min": [ 5, 3 ],
-      "pain_chance": [ 1000, 1200 ]
-    },
-    "scaling_mods": {
-      "int_mod": [ -1.25, -1 ],
-      "vomit_chance": [ -200, -240 ],
-      "stamina_min": [ -5 ],
-      "pain_chance": [ 100, 120 ]
-    }
+    "base_mods": { "int_mod": [ -1 ], "vomit_chance": [ 2000, 2400 ], "pain_min": [ 5, 3 ], "pain_chance": [ 1000, 1200 ] },
+    "scaling_mods": { "int_mod": [ -1.25, -1 ], "vomit_chance": [ -200, -240 ], "stamina_min": [ -5 ], "pain_chance": [ 100, 120 ] }
   },
   {
     "type": "effect_type",
@@ -705,19 +718,9 @@
     "type": "effect_type",
     "id": "arcana_invis_lesser",
     "name": [ "Lesser Illusion Cloak" ],
-    "desc": [
-      "Light seems to warp around you in an unnatural manner, rendering you invisible."
-    ],
+    "desc": [ "Light seems to warp around you in an unnatural manner, rendering you invisible." ],
     "remove_message": "The shroud of illusion magic around you fades.",
-    "removes_effects": [
-      "glowy_led",
-      "laserlocked",
-      "was_laserlocked",
-      "glowing",
-      "attention",
-      "haslight",
-      "taint"
-    ],
+    "removes_effects": [ "glowy_led", "laserlocked", "was_laserlocked", "glowing", "attention", "haslight", "taint" ],
     "decay_messages": [ [ "The illusions enveloping you are starting to fade.", "bad" ] ],
     "rating": "good",
     "max_intensity": 5,
@@ -886,7 +889,19 @@
     "id": "arcana_scroll_nature_effect",
     "//": "Explicitly punish Mycus players who will be immune to mutation, that's what you get for channeling a rival interloper's nature magic.",
     "resist_traits": [ "THRESH_MARLOSS", "THRESH_MYCUS" ],
-    "blocks_effects": [ "blind", "deaf", "infected", "bite", "bleed", "poison", "badpoison", "spores", "fungus", "redcells_anemia", "hypovolemia" ],
+    "blocks_effects": [
+      "blind",
+      "deaf",
+      "infected",
+      "bite",
+      "bleed",
+      "poison",
+      "badpoison",
+      "spores",
+      "fungus",
+      "redcells_anemia",
+      "hypovolemia"
+    ],
     "rating": "good",
     "base_mods": {
       "rad_min": [ -25, 25 ],
@@ -924,9 +939,7 @@
     "type": "effect_type",
     "id": "arcana_moonstone_touch",
     "max_duration": "4 s",
-    "base_mods": {
-      "health_min": [ 1 ]
-    }
+    "base_mods": { "health_min": [ 1 ] }
   },
   {
     "type": "effect_type",

@@ -188,7 +188,15 @@
         "type": "transform"
       }
     ],
-    "relative": { "weight": 616, "volume": -1, "price": 16000, "coverage": 5, "encumbrance": -5, "max_encumbrance": -5, "material_thickness": 1 },
+    "relative": {
+      "weight": 616,
+      "volume": -1,
+      "price": 16000,
+      "coverage": 5,
+      "encumbrance": -5,
+      "max_encumbrance": -5,
+      "material_thickness": 1
+    },
     "extend": { "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] }
   },
   {
@@ -207,7 +215,7 @@
       {
         "target": "robe_shadow",
         "msg": "The robe's fabric returns to its normal gray color, dispelling the illusion.",
-      "menu_text": "Turn off",
+        "menu_text": "Turn off",
         "type": "transform"
       }
     ]
