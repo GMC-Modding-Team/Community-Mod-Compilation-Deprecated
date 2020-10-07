@@ -1,3 +1,5 @@
+![JSON Validation](https://github.com/TheGoatGod/Goats-Mod-Compilation/workflows/JSON%20Validation/badge.svg?branch=Experimental-Mod-Pack)
+
 # TheGoatGod's Mod Compilation
 Welcome to TheGoatGod's Mod Compilation. Currently contains over 275 mods, 5 tilesets, 40 NO Mods, and several soundpacks. It is currently, at 0.08, not entirely bug free, but it is undergoing constant improvements, and should soon be bug free. Many changes are planned for the future, consolidating mods to reduce the amount of excess, and cleaning up the code (even more!).
 
