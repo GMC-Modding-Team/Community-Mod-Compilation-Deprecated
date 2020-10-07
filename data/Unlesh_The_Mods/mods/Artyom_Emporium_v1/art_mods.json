@@ -35,7 +35,7 @@
     "bashing": 3,
     "recoil_modifier": -5,
     "price": 48000,
-    "install_time": "5 m",
+    "install_time": "1 m",
     "loudness_modifier": -130
   },
   {
@@ -54,7 +54,7 @@
     "mod_targets": [ "rifle", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 6
   },
   {
@@ -73,7 +73,7 @@
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -92,7 +92,7 @@
     "mod_targets": [ "rifle", "shotgun", "pistol", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -111,7 +111,7 @@
     "mod_targets": [ "rifle", "shotgun", "pistol", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -149,7 +149,7 @@
     "mod_targets": [ "rifle", "shotgun", "pistol", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -168,7 +168,7 @@
     "mod_targets": [ "rifle", "shotgun", "pistol", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -187,7 +187,7 @@
     "mod_targets": [ "rifle", "shotgun", "pistol", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -206,7 +206,7 @@
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -225,7 +225,7 @@
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -244,7 +244,7 @@
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -263,7 +263,7 @@
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -282,7 +282,7 @@
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "volume": "500 ml",
     "price": 68000,
-    "install_time": "20 m",
+    "install_time": "30 m",
     "skill_required": 5
   },
   {
@@ -294,6 +294,7 @@
     "volume": "250 ml",
     "integral_volume": 0,
     "price": 48000,
+    "install_time": "20 m",
     "material": [ "steel" ],
     "symbol": ":",
     "color": "green",
@@ -301,7 +302,6 @@
     "mod_targets": [ "pistol" ],
     "acceptable_ammo": [ "45" ],
     "min_skills": [ [ "gun", 3 ], [ "mechanics", 2 ] ],
-    "install_time": "1 m",
     "dispersion_modifier": 30,
     "recoil_modifier": 2,
     "ammo_modifier": ".460",
@@ -493,7 +493,7 @@
   {
     "id": "pedersen_device",
     "type": "GUNMOD",
-    "name": { "str": "Pedersen Device" },
+    "name": { "str": "Pedersen Device Kit" },
     "description": "Replacing several key parts of a .30-06, .308, 7.62x54R, .303, or 7.62x39mm  firearm converting it into a shorter range, semi-automatic carbine. Much more accurate and controllable than the original rifle, it was supposed to be the Wonder Weapon of WWI for the Allies... in 1919. The originals are incredibly rare, however this reproduction includes the kit, chambered in .32 ACP and ready for use in seconds with all major WWI weapons. Score!",
     "weight": "114 g",
     "volume": "250 ml",
@@ -505,7 +505,7 @@
     "location": "bore",
     "mod_targets": [ "rifle" ],
     "acceptable_ammo": [ "308", ".303", "3006", "762R", "762" ],
-    "install_time": "1 m",
+    "install_time": "20 m",
     "recoil_modifier": -5,
     "dispersion_modifier": 15,
     "gun_data": {
@@ -536,7 +536,7 @@
     "location": "bore",
     "mod_targets": [ "rifle" ],
     "acceptable_ammo": [ "762", "308", "3006", ".303", "762R" ],
-    "install_time": "1 m",
+    "install_time": "20 m",
     "dispersion_modifier": 30,
     "ammo_modifier": "7.92mm",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 2 ] ],
