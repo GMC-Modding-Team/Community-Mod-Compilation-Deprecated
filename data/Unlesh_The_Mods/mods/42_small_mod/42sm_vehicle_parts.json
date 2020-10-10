@@ -12,7 +12,7 @@
     "description": "A bright light that illuminates a narrow cone outside the vehicle when turned on, self-powered by an atomic decay reaction that never stops.  During installation, you can choose what direction to point the light, so multiple headlights can illuminate the sides or rear, as well as the front.",
     "bonus": 8000,
     "damage_modifier": 10,
-    "folded_volume": 2,
+    "folded_volume": "500 ml",
     "breaks_into": [ { "item": "cable", "charges": [ 1, 4 ] }, { "item": "scrap", "count": [ 2, 4 ] } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "200 s", "using": [ [ "vehicle_screw", 1 ] ] },
