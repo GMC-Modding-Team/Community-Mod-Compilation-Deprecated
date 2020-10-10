@@ -23,7 +23,7 @@
     "broken_color": "dark_gray",
     "durability": 30,
     "damage_modifier": 10,
-    "folded_volume": 1,
+    "folded_volume": "250 ml",
     "breaks_into": [ { "item": "glass_shard", "count": [ 0, 2 ] } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": 10000, "qualities": [ { "id": "SCREW", "level": 1 } ] },
@@ -46,7 +46,7 @@
     "epower": -75,
     "bonus": 24,
     "damage_modifier": 10,
-    "folded_volume": 8,
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "e_scrap", "count": [ 4, 16 ] }, { "item": "plastic_chunk", "count": [ 2, 8 ] } ],
     "flags": [ "VISION", "CAMERA", "TOOL_SCREWDRIVER", "ENABLED_DRAINS_EPOWER" ]
   }

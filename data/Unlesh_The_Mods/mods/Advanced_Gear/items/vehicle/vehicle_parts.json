@@ -24,7 +24,7 @@
     "name": { "str": "nanotech vehicle part (foldable)" },
     "description": "Seeing this is a bug - nanovp_fold",
     "copy-from": "nanovp",
-    "folded_volume": 8
+    "folded_volume": "2 L"
   },
   {
     "type": "vehicle_part",
@@ -413,7 +413,7 @@
     "description": "A mass of nanites programmed to locate mechanical power systems and interface with them to provide mechanical power.",
     "noise_factor": 0,
     "damage_modifier": 80,
-    "folded_volume": 8,
+    "folded_volume": "2 L",
     "requirements": {
       "install": { "skills": [ [ "computer", 0 ] ], "qualities": [ { "id": "NANO_PRO", "level": 1 } ] },
       "removal": { "skills": [ [ "computer", 0 ] ], "qualities": [ { "id": "NANO_PRO", "level": 1 } ] },
