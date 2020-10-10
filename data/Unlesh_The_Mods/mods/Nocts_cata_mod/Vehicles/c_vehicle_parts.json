@@ -9,7 +9,7 @@
     "broken_color": "yellow",
     "item": "ups_rifle",
     "difficulty": 6,
-    "folded_volume": 8,
+    "folded_volume": "2 L",
     "//": "Haven't figured out the breaks_into...",
     "breaks_into": [ { "item": "ups_rifle", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] }
@@ -24,7 +24,7 @@
     "broken_color": "dark_gray",
     "item": "sur_pnu_lmg",
     "difficulty": 4,
-    "folded_volume": 8,
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] }
   },
@@ -317,7 +317,7 @@
     "epower": 370,
     "//": "30.8A @12VDC ~ 1HP drain @ 49% efficiency.  Based more on a sane value relative to motorbike alternators than a straight translation of the motor's efficiency.  Even Mark's rate of 65% would make this blow motorbike alternators out of the water.",
     "damage_modifier": 80,
-    "folded_volume": 1,
+    "folded_volume": "250 ml",
     "breaks_into": [
       { "item": "plastic_chunk", "count": [ 1, 2 ] },
       { "item": "scrap", "count": [ 1, 2 ] },
@@ -338,7 +338,7 @@
     "epower": 5300,
     "//": "440A @12VDC ~ 10HP drain @ 71% efficiency.  Based on Mark's recommended efficiency for small motors.",
     "damage_modifier": 80,
-    "folded_volume": 1,
+    "folded_volume": "250 ml",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 1, 2 ] },
       { "item": "steel_chunk", "count": [ 1, 2 ] },
