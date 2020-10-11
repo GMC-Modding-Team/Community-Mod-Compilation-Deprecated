@@ -290,13 +290,18 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 ```
 
 
-#effect
+# Effect
 The current JSON standards for `key` `effect` look like this:
-"effect": "attack",
-"shape": "line",
+change any
+
+"effect": "all_attack"
+
+into
+
+"effect": "attack"
 
 
-#shape
+# Shape
 The current JSON standards for `key` `shape` look like this:
 "shape": "line",
 
