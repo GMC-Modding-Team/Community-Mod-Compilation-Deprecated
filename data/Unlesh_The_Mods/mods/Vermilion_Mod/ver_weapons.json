@@ -111,9 +111,8 @@
     "dispersion": 95,
     "durability": 7,
     "barrel_volume": "1250 ml",
-    "magazine_well": 1,
     "clip_size": 4,
-    "magazines": [  ],
+    "magazines": [ "abso_mag", "abso1_mag" ],
     "valid_mod_locations": [ [ "mechanism", 4 ], [ "muzzle", 1 ], [ "bore", 1 ] ],
     "flags": [ "NEVER_JAMS", "RELOAD_EJECT", "MESSY", "RELOAD_ONE" ],
     "use_action": { "type": "transform", "msg": "Reaper has come, sinner!", "target": "absolute_reaper" }
