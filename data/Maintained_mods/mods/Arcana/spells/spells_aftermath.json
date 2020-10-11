@@ -8,6 +8,7 @@
     "message": "",
     "flags": [ "SILENT" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "min_damage": -400,
     "max_damage": -400
   },
@@ -69,7 +70,8 @@
     "max_range": 15,
     "range_increment": 1,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_conjure_flame_bash",
@@ -80,7 +82,8 @@
     "valid_targets": [ "ground" ],
     "message": "",
     "effect": "bash",
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "shape": "blast",
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "max_level": 10,
     "min_damage": 10,
     "max_damage": 40,
@@ -99,6 +102,7 @@
     "description": "Dirty hack to work around bugs in magic code.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "flags": [ "SILENT" ],
     "message": "",
     "effect_str": "arcana_pulse",
@@ -154,7 +158,8 @@
     "max_range": 24,
     "range_increment": 1.2,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_conjure_miasma_fungicide",
@@ -163,7 +168,7 @@
     "description": "This adds a decent chance of spawning fungicidal gas as well.",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
     "min_range": 6,
@@ -190,7 +195,7 @@
     "description": "This adds a small chance of spawning radioactive gas as well.",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
     "min_range": 6,
@@ -217,7 +222,7 @@
     "description": "This adds a chance of spawning tear gas as well.",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "message": "",
     "valid_targets": [ "hostile", "ground" ],
     "min_range": 6,
@@ -256,7 +261,8 @@
     "max_range": 24,
     "range_increment": 0.9,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_conjure_shadow_field_blindness",
@@ -267,7 +273,7 @@
     "effect": "attack",
     "shape": "blast",
     "valid_targets": [ "hostile" ],
-    "flags": [ "IGNORE_WALLS", "SILENT" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "SILENT" ],
     "effect_str": "blind",
     "min_range": 6,
     "max_range": 24,
@@ -311,7 +317,7 @@
       "mon_shadow_snake_summoned_fake",
       "mon_seraphic_shade_fake"
     ],
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "effect_str": "dazed",
@@ -414,7 +420,7 @@
       "mon_dracolich",
       "mon_seraphic_shade"
     ],
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "effect_str": "dazed",
@@ -509,7 +515,7 @@
       "mon_shadow_snake_summoned_fake",
       "mon_seraphic_shade_fake"
     ],
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "effect_str": "dazed",
@@ -537,7 +543,7 @@
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "SILENT" ],
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "effect_str": "dazed",
     "max_level": 10,
     "min_range": 1,
@@ -564,7 +570,7 @@
     "valid_targets": [ "hostile", "ally", "ground" ],
     "flags": [ "SILENT" ],
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "effect_str": "downed",
     "damage_type": "cut",
     "max_level": 5,
@@ -593,9 +599,9 @@
     "description": "This jolts surrounding areas for spikes of additional damage.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_TARGET" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_TARGET" ],
     "min_damage": 10,
     "max_damage": 80,
     "damage_increment": 3.5,
@@ -633,7 +639,8 @@
     "max_damage": 160,
     "damage_increment": 7,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_destructive_absorption_side_effects",
@@ -675,6 +682,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "timed_event",
+    "shape": "blast",
     "effect_str": "dim",
     "max_level": 10,
     "min_duration": 540000,
@@ -707,6 +715,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "halo_drainlife",
     "max_level": 10,
     "min_duration": 180000,
@@ -721,6 +730,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "none",
+    "shape": "blast",
     "flags": [ "WONDER", "SILENT", "RANDOM_DAMAGE" ],
     "min_damage": 1,
     "max_damage": 5,
@@ -742,6 +752,7 @@
     "message": "",
     "flags": [ "PERMANENT", "RANDOM_TARGET", "HOSTILE_SUMMON" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_gracke",
     "min_damage": 1,
     "max_damage": 1,
@@ -759,6 +770,7 @@
     "message": "",
     "flags": [ "PERMANENT", "RANDOM_TARGET", "HOSTILE_SUMMON" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_gelatin",
     "min_damage": 1,
     "max_damage": 1,
@@ -776,6 +788,7 @@
     "message": "",
     "flags": [ "PERMANENT", "RANDOM_TARGET", "HOSTILE_SUMMON" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_kreck",
     "min_damage": 1,
     "max_damage": 1,
@@ -793,6 +806,7 @@
     "message": "",
     "flags": [ "PERMANENT", "RANDOM_TARGET", "HOSTILE_SUMMON" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_mi_go",
     "min_damage": 1,
     "max_damage": 1,
@@ -810,6 +824,7 @@
     "message": "",
     "flags": [ "PERMANENT", "RANDOM_TARGET", "HOSTILE_SUMMON" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_flaming_eye",
     "min_damage": 1,
     "max_damage": 1,
@@ -827,6 +842,7 @@
     "message": "",
     "flags": [ "PERMANENT", "RANDOM_TARGET", "HOSTILE_SUMMON" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_flying_polyp",
     "min_damage": 1,
     "max_damage": 1,
@@ -842,7 +858,7 @@
     "description": "This splits the damage to make it harder to murder every single thing caught in the AoE.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "ally", "hostile", "ground" ],
     "flags": [ "SILENT" ],
     "min_damage": 21,
@@ -863,7 +879,7 @@
     "description": "This chooses which set of side effects to use.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "extra_effects": [
       { "id": "arcana_aftermath_elemental_burst_water", "hit_self": false, "max_level": 10 },
       { "id": "arcana_aftermath_elemental_burst_fire", "hit_self": false, "max_level": 10 },
@@ -889,7 +905,7 @@
     "description": "Creates fog and slows down victims.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "hostile", "ground" ],
     "extra_effects": [ { "id": "arcana_aftermath_elemental_noise_water", "hit_self": false, "max_level": 10 } ],
     "flags": [ "SILENT" ],
@@ -918,7 +934,7 @@
     "description": "Creates fire, horrible burning because no longer directly using heat damage.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "hostile", "ground" ],
     "extra_effects": [ { "id": "arcana_aftermath_elemental_noise_fire", "hit_self": false, "max_level": 10 } ],
     "flags": [ "SILENT" ],
@@ -947,7 +963,7 @@
     "description": "Creates lightning and zaps victims.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "hostile", "ground" ],
     "extra_effects": [ { "id": "arcana_aftermath_elemental_noise_wind", "hit_self": false, "max_level": 10 } ],
     "flags": [ "SILENT" ],
@@ -976,7 +992,7 @@
     "description": "Creates acid and corrodes victims.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "hostile", "ground" ],
     "extra_effects": [ { "id": "arcana_aftermath_elemental_noise_earth", "hit_self": false, "max_level": 10 } ],
     "flags": [ "SILENT" ],
@@ -1014,7 +1030,8 @@
     "max_damage": 266,
     "damage_increment": 22.4,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -1032,7 +1049,8 @@
     "max_damage": 266,
     "damage_increment": 22.4,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -1050,7 +1068,8 @@
     "max_damage": 266,
     "damage_increment": 22.4,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -1068,7 +1087,8 @@
     "max_damage": 266,
     "damage_increment": 22.4,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_elemental_coldness",
@@ -1095,6 +1115,7 @@
     "name": { "str": "Elemental Sign Stun" },
     "description": "This exists to give Elemental Sign freeze enemies briefly.",
     "effect": "mod_moves",
+    "shape": "blast",
     "message": "",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
@@ -1133,7 +1154,7 @@
     "effect": "attack",
     "shape": "blast",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "effect_str": "downed",
     "min_damage": 10,
     "max_damage": 80,
@@ -1169,7 +1190,8 @@
     "max_range": 30,
     "range_increment": 1.1,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_infernal_flame_corruption",
@@ -1178,6 +1200,7 @@
     "description": "This exists only to add destruction of natural terrain to Infernal Flame.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "message": "",
     "effect_str": "arcana_fire_dragonblood3",
     "max_level": 5,
@@ -1227,7 +1250,8 @@
     "max_damage": 72,
     "damage_increment": 11.6,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_infernal_flame_side_effects",
@@ -1286,9 +1310,9 @@
     "description": "This adds a narrow of lightning to Radiant Burst.",
     "message": "",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "min_damage": 15,
     "max_damage": 120,
     "damage_increment": 5.25,
@@ -1325,7 +1349,8 @@
     "max_damage": 240,
     "damage_increment": 10.5,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_shockstorm_line",
@@ -1366,7 +1391,8 @@
     "max_damage": 120,
     "damage_increment": 5.25,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_aftermath_sundering_quake_boulders",
@@ -1376,6 +1402,7 @@
     "valid_targets": [ "ground" ],
     "message": "",
     "effect": "ter_transform",
+    "shape": "blast",
     "effect_str": "arcana_sundering_quake",
     "max_level": 10,
     "min_damage": 4,
@@ -1395,6 +1422,7 @@
     "description": "Dirty hack to work around bugs in magic code.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "flags": [ "SILENT" ],
     "message": "",
     "effect_str": "arcana_pulse",
@@ -1434,6 +1462,7 @@
     "message": "",
     "flags": [ "SILENT" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "max_level": 20,
     "min_damage": 200,
     "max_damage": 2000,
@@ -1451,6 +1480,7 @@
     "extra_effects": [ { "id": "arcana_aftermath_wave_destruction_pulse_extra", "hit_self": false, "max_level": 10 } ],
     "message": "",
     "effect": "bash",
+    "shape": "blast",
     "max_level": 20,
     "min_damage": 30,
     "max_damage": 60,
@@ -1466,6 +1496,7 @@
     "description": "Dirty hack to work around bugs in magic code.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "flags": [ "SILENT" ],
     "message": "",
     "effect_str": "arcana_pulse",
@@ -1501,7 +1532,7 @@
     "effect": "attack",
     "shape": "blast",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE" ],
     "effect_str": "blind",
     "min_damage": 25,
     "max_damage": 200,
@@ -1531,6 +1562,7 @@
     "max_damage": 400,
     "damage_increment": 17.5,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   }
 ]
