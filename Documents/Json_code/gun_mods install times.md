@@ -1,4 +1,13 @@
-[vanilla locations]-
+# Updating gun mods with install times
+
+Use the `home` key to get to the top.
+
+- [Vanilla Locations](#vanilla locations)
+- [Modded locations and new times](#Modded locations and new times)
+- [Others](#Install times worth noting)
+
+
+# Vanilla locations]-
 
 "location": "barrel", - all barrel mods - "install_time": "0 m",
 "location": "underbarrel", - integrated, bayonet - "install_time": "0 m",
@@ -33,7 +42,7 @@
 "location": "bore", - kits - "install_time": "20 m",
 "location": "brass catcher", - all brass catcher mods - "install_time": "5 m",
 
-[modded locations and new times]-
+# Modded locations and new times
 
 "location": "barrel", - canisters -"install_time": "10 m",
 "location": "receiver", - all - "install_time": "10 m",
@@ -43,6 +52,7 @@
 "location": "cams", - - "install_time": "10 m",
 "location": "battery", - "install_time": "25 m",
 
+# Install times worth noting
 remove mods - half the time to install if applicable
 Kits - "install_time": "20 m",
 launchers - "install_time": "15 m",
