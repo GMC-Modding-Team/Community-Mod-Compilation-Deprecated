@@ -5,6 +5,7 @@
     "type": "GUNMOD",
     "name": "underbarrel launcher",
     "description": "A stubby single shot launcher with a large bore barrel, suitable for launching grenades or flares.  This launcher can be attached to a rifle or other suitable platform, and includes its own set of sights.  In more recent years, variants were sold commercially to ostensibly launch flares.  With the right cartridges, this would be devastating against hard or soft targets.  The launcher can be detached and its sights reattached to the could be disassembled and attached to a suitable rifle, if so desired.",
+    "install_time": "30 m",
     "gun_data": { "ammo": "ammo_grenade", "skill": "launcher", "dispersion": 270, "durability": 10, "clip_size": 1 },
     "use_action": {
       "menu_text": "Deploy as stand-alone",
@@ -20,6 +21,7 @@
     "type": "GUNMOD",
     "name": { "str_sp": "underbarrel launcher (modified)" },
     "description": "A stubby single shot launcher for launching grenades or flares.  This launcher can be attached to a rifle or other suitable platform, and includes its own set of sights.  In more recent years, variants were sold commercially to ostensibly launch flares.  With the right cartridges, this would be devastating against hard or soft targets.  A crude homemade bracket has been attached, allowing a wider variety of hosts.",
+    "install_time": "30 m",
     "gun_data": { "ammo": "ammo_grenade", "skill": "launcher", "dispersion": 270, "durability": 10, "clip_size": 1 },
     "mod_targets": [ "smg", "rifle", "shotgun", "launcher", "crossbow" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ammo_grenade": 1 } } ]
@@ -29,6 +31,8 @@
     "copy-from": "masterkey",
     "type": "GUNMOD",
     "name": "underbarrel shotgun",
+    "install_time": "30 m",
+    "location": "underbarrel",
     "gun_data": { "ammo": "ammo_shot", "skill": "shotgun", "dispersion": 330, "durability": 10, "clip_size": 4 },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ammo_shot": 4 } } ]
   },
@@ -37,6 +41,8 @@
     "copy-from": "masterkey_mod",
     "type": "GUNMOD",
     "name": { "str": "modified underbarrel shotgun" },
+    "install_time": "30 m",
+    "location": "underbarrel",
     "gun_data": { "ammo": "ammo_shot", "skill": "shotgun", "dispersion": 330, "durability": 10, "clip_size": 4 },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ammo_shot": 4 } } ]
   },
@@ -46,6 +52,7 @@
     "type": "GUNMOD",
     "name": "speedloader chute",
     "description": "A metal ramp that is installed near a shotgun's feeding port to index speedloader tubes.",
+    "install_time": "8 m",
     "location": "loading port",
     "acceptable_ammo": [ "ammo_shot" ],
     "magazine_adaptor": [ [ "ammo_shot", [ "shot_speedloader" ] ] ]
