@@ -22,7 +22,8 @@
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": -2,
     "max_damage": -2,
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "extra_effects": [ { "id": "min_water_item_stun", "hit_self": true } ],
     "min_duration": 1,
     "max_duration": 1

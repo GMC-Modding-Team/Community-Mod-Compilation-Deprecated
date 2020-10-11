@@ -19,7 +19,8 @@
     "name": { "str": "CBM Induction Heat" },
     "description": "Vented waste heat.",
     "valid_targets": [ "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "field_id": "fd_hot_air3",
     "min_field_intensity": 2,
     "max_field_intensity": 2,
@@ -32,7 +33,8 @@
     "description": "Radiation!",
     "valid_targets": [ "self" ],
     "flags": [ "RANDOM_DURATION" ],
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "rtg_induction_radiation",
     "min_duration": 500,
     "max_duration": 1000
@@ -47,7 +49,8 @@
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "min_duration": 18500,
     "max_duration": 19500,
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "adrenaline_bioweapon"
   },
   {
@@ -82,7 +85,8 @@
     "flags": [ "RANDOM_DURATION", "SILENT" ],
     "min_duration": 90000,
     "max_duration": 180000,
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "adrenaline",
     "extra_effects": [ { "id": "c_biostim_side_effects", "hit_self": true }, { "id": "c_biostim_pain", "hit_self": true } ]
   },
@@ -96,7 +100,8 @@
     "flags": [ "SILENT" ],
     "min_duration": 360000,
     "max_duration": 360000,
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "biostim_side_effects"
   },
   {
@@ -135,7 +140,8 @@
     "message": "",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT" ],
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "min_damage": 10,
     "max_damage": 10,
     "damage_type": "pure"
@@ -163,7 +169,8 @@
     "message": "",
     "min_range": 1,
     "max_range": 1,
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "flags": [ "SILENT" ],
     "extra_effects": [ { "id": "c_lifedrain_2", "hit_self": true } ]
   },
@@ -174,7 +181,8 @@
     "description": "This creates the effect that heals the caster.",
     "message": "",
     "valid_targets": [ "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "min_damage": -2,
     "max_damage": -5,
     "flags": [ "RANDOM_DAMAGE", "SILENT" ]
