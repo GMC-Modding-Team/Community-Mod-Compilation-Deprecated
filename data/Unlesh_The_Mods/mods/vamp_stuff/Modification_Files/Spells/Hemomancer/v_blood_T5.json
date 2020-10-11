@@ -29,7 +29,7 @@
     "min_damage": 0,
     "max_damage": 0,
     "damage_increment": 3,
-    "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS", "WONDER" ],
+    "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS", "WONDER", "NO_PROJECTILE" ],
     "base_casting_time": 500
   },
   {
@@ -52,7 +52,7 @@
     "damage_increment": 125,
     "min_range": 1,
     "max_range": 1,
-    "flags": [ "SOMATIC", "NO_LEGS" ],
+    "flags": [ "SOMATIC", "NO_LEGS", "NO_PROJECTILE" ],
     "base_casting_time": 125,
     "damage_type": "biological"
   }

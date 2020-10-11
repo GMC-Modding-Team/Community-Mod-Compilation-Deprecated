@@ -6,7 +6,7 @@
     "name": { "str": "a spell" },
     "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
     "extra_effects": [ { "id": "mon_ether_shadow_spell" } ],
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "valid_targets": [ "ground", "hostile" ],
     "effect": "attack",
     "shape": "blast",
@@ -34,7 +34,7 @@
     ],
     "min_damage": 1,
     "max_damage": 1,
-    "flags": [ "WONDER" ]
+    "flags": [ "WONDER", "NO_PROJECTILE" ]
   },
   {
     "id": "mon_ether_shadow_spell_bolt",
@@ -96,7 +96,7 @@
     "name": { "str": "a spell" },
     "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
     "extra_effects": [ { "id": "mon_idol_vex_spell" } ],
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "valid_targets": [ "ground", "hostile" ],
     "effect": "attack",
     "shape": "blast",
@@ -122,7 +122,7 @@
     ],
     "min_damage": 1,
     "max_damage": 1,
-    "flags": [ "WONDER" ]
+    "flags": [ "WONDER", "NO_PROJECTILE" ]
   },
   {
     "id": "mon_idol_vex_calamity_combo",
@@ -130,6 +130,7 @@
     "name": { "str": "Calamity Combo" },
     "description": "Combines all essential spells.",
     "valid_targets": [ "none" ],
+    "flags": [ "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "message": "The Vex casts Calamity!\nExplosions of profane magic errupts from beneath the earth!",
@@ -200,6 +201,7 @@
     "name": { "str": "Ethereal Shockwave Combo" },
     "description": "Combines all essential spells.",
     "valid_targets": [ "none" ],
+    "flags": [ "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "message": "The Vex casts Ethereal Shockwave!",
@@ -228,7 +230,7 @@
     "description": "Resonating wave of pure damage.",
     "valid_targets": [ "ground", "hostile" ],
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "min_damage": 30,
     "max_damage": 60,
     "min_range": 13,
@@ -244,6 +246,7 @@
     "name": { "str": "Ethereal Harbringer Combo" },
     "description": "Combines all essential spells.",
     "valid_targets": [ "none" ],
+    "flags": [ "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "message": "The Vex casts Ethereal Harbringer!",
@@ -254,7 +257,7 @@
     "id": "mon_idol_vex_etherealharbringer",
     "name": { "str": "Ethereal Harbinger" },
     "description": "Summons 2-5 ethereal harbringers.",
-    "flags": [ "SILENT", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
+    "flags": [ "SILENT", "RANDOM_DAMAGE", "RANDOM_TARGET", "NO_PROJECTILE" ],
     "valid_targets": [ "hostile", "ground" ],
     "min_damage": 2,
     "max_damage": 5,
@@ -263,6 +266,7 @@
     "min_aoe": 5,
     "max_aoe": 5,
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_idol_vex_etherhar",
     "min_duration": 2500,
     "max_duration": 2500
@@ -272,7 +276,7 @@
     "id": "mon_idol_vex_spell_car",
     "name": { "str": "Cast-and-Run" },
     "description": "Imitates hit-and-run. Lasts for until their spell ceases from cooling down.",
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "valid_targets": [ "self" ],
     "effect": "attack",
     "shape": "blast",
@@ -286,7 +290,7 @@
     "name": { "str": "a spell" },
     "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
     "extra_effects": [ { "id": "mon_idol_vex_etherhar_spell" } ],
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "valid_targets": [ "ground", "hostile" ],
     "effect": "attack",
     "shape": "blast",
@@ -307,7 +311,7 @@
     "extra_effects": [ { "id": "mon_idol_vex_etherhar_scatterbeam_combo" }, { "id": "mon_idol_vex_etherhar_implosion_combo" } ],
     "min_damage": 1,
     "max_damage": 1,
-    "flags": [ "WONDER" ]
+    "flags": [ "WONDER", "NO_PROJECTILE" ]
   },
   {
     "id": "mon_idol_vex_etherhar_scatterbeam_combo",
@@ -332,7 +336,7 @@
     ],
     "min_damage": 5,
     "max_damage": 5,
-    "flags": [ "WONDER" ]
+    "flags": [ "WONDER", "NO_PROJECTILE" ]
   },
   {
     "id": "mon_idol_vex_etherhar_scatterbeam",
@@ -357,6 +361,7 @@
     "name": { "str": "Implosion Combo" },
     "description": "Combines all essential spells.",
     "valid_targets": [ "none" ],
+    "flags": [ "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "message": "The ethereal harbringer implodes!",
@@ -391,8 +396,9 @@
     "name": { "str": "Implosion Pull" },
     "description": "3 waves of pulling nearby foes.",
     "effect": "area_pull",
+    "shape": "blast",
     "effect_filter": [ "hostile" ],
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "valid_targets": [ "self", "ally", "hostile", "ground" ],
     "min_aoe": 6,
     "max_aoe": 6
