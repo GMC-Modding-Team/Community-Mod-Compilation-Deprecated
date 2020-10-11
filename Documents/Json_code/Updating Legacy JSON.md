@@ -315,11 +315,11 @@ if you want to do this quickly with regex use the following example
 
 # Shape
 The current JSON standards for `key` `shape` look like this:
-```
+```JSON
 "shape": "blast"
 ```
 all shapes -
-```
+```JSON
 "line"
 "cone"
 "blast"
