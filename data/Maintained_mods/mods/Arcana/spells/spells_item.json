@@ -80,6 +80,7 @@
     "min_damage": -10000,
     "max_damage": -10000,
     "effect": "recover_energy",
+    "shape": "blast",
     "effect_str": "STAMINA"
   },
   {
@@ -110,6 +111,7 @@
       { "id": "arcana_item_coalescent_conversion_wonder", "hit_self": false }
     ],
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "essence_pure",
     "min_duration": 1,
     "max_duration": 1
@@ -128,7 +130,8 @@
     "min_damage": 80,
     "max_damage": 80,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -137,6 +140,7 @@
     "description": "Aside from it doing fuck-all to NPCs, this works decently enough.",
     "valid_targets": [ "hostile", "ground", "self" ],
     "effect": "flashbang",
+    "shape": "blast",
     "message": "",
     "min_range": 40,
     "max_range": 40
@@ -168,6 +172,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "none",
+    "shape": "blast",
     "flags": [ "WONDER", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": 1,
     "max_damage": 1,
@@ -240,7 +245,8 @@
     "message": "",
     "flags": [ "PERMANENT", "NO_HANDS", "NO_LEGS" ],
     "effect_str": "essence_blood",
-    "effect": "spawn_item"
+    "effect": "spawn_item",
+    "shape": "blast"
   },
   {
     "id": "arcana_item_gilded_aegis_healing",
@@ -270,6 +276,7 @@
     "min_damage": -12,
     "max_damage": -12,
     "effect": "recover_energy",
+    "shape": "blast",
     "effect_str": "PAIN"
   },
   {
@@ -284,6 +291,7 @@
       { "id": "arcana_item_hammerzeit_dazzle", "hit_self": false }
     ],
     "effect": "flashbang",
+    "shape": "blast",
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "min_damage": 40,
     "max_damage": 40,
@@ -373,6 +381,7 @@
     "min_damage": -6,
     "max_damage": -6,
     "effect": "recover_energy",
+    "shape": "blast",
     "effect_str": "PAIN"
   },
   {
@@ -404,7 +413,7 @@
       { "id": "arcana_item_meteoric_verge_buff", "hit_self": true }
     ],
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "IGNORE_WALLS", "RANDOM_DAMAGE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DAMAGE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS", "SILENT" ],
     "effect_str": "blind",
     "min_damage": 44,
     "max_damage": 76,
@@ -429,7 +438,7 @@
     "effect": "attack",
     "shape": "blast",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "IGNORE_WALLS", "RANDOM_DAMAGE", "SILENT" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DAMAGE", "SILENT" ],
     "min_damage": 44,
     "max_damage": 76,
     "damage_type": "electric",
@@ -445,8 +454,9 @@
     "description": "This adds the terrain damage.",
     "valid_targets": [ "self", "ally", "hostile", "ground" ],
     "message": "",
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
     "effect": "bash",
+    "shape": "blast",
     "extra_effects": [ { "id": "arcana_item_meteoric_verge_pulse_extra", "hit_self": false } ],
     "min_damage": 40,
     "max_damage": 50,
@@ -462,6 +472,7 @@
     "description": "Dirty hack to work around bugs in magic code.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "flags": [ "SILENT" ],
     "message": "",
     "effect_str": "arcana_pulse",
@@ -488,7 +499,8 @@
     "min_range": 50,
     "max_range": 50,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_item_meteoric_verge_buff",
@@ -500,7 +512,7 @@
     "shape": "blast",
     "effect_str": "lightning_ward_true",
     "valid_targets": [ "self", "ally" ],
-    "flags": [ "IGNORE_WALLS", "RANDOM_DURATION", "SILENT" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DURATION", "SILENT" ],
     "min_duration": 500,
     "max_duration": 1000
   },
@@ -510,6 +522,7 @@
     "name": { "str": "Gaze Into Greater Horizons" },
     "description": "Knowledge is power, but power comes at a price...",
     "effect": "map",
+    "shape": "blast",
     "valid_targets": [ "self" ],
     "extra_effects": [
       { "id": "arcana_item_orb_veil_revelation", "hit_self": false },
@@ -559,6 +572,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "none",
+    "shape": "blast",
     "flags": [ "WONDER", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": 1,
     "max_damage": 1,
@@ -694,6 +708,7 @@
     "valid_targets": [ "self" ],
     "message": "For some reason, the visions in the orb seem a lot more real than they should...",
     "effect": "none",
+    "shape": "blast",
     "flags": [ "WONDER", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": 1,
     "max_damage": 1,
@@ -714,6 +729,7 @@
     "message": "",
     "flags": [ "RANDOM_DAMAGE", "RANDOM_TARGET", "HOSTILE_50", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_kreck_summoned",
     "min_damage": 1,
     "max_damage": 3,
@@ -733,6 +749,7 @@
     "message": "",
     "flags": [ "RANDOM_TARGET", "HOSTILE_50", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_zombie_fiend_summoned",
     "min_damage": 1,
     "max_damage": 1,
@@ -752,6 +769,7 @@
     "message": "",
     "flags": [ "RANDOM_DAMAGE", "RANDOM_TARGET", "HOSTILE_50", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_shadow_summoned",
     "min_damage": 1,
     "max_damage": 3,
@@ -771,6 +789,7 @@
     "message": "",
     "flags": [ "RANDOM_TARGET", "HOSTILE_50", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_flesh_angel_summoned",
     "min_damage": 1,
     "max_damage": 1,
@@ -790,6 +809,7 @@
     "message": "",
     "flags": [ "RANDOM_DAMAGE", "RANDOM_TARGET", "HOSTILE_50", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_vortex_summoned",
     "min_damage": 1,
     "max_damage": 3,
@@ -810,6 +830,7 @@
     "valid_targets": [ "ground" ],
     "flags": [ "RANDOM_DAMAGE", "RANDOM_DURATION", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_centipede_giant_summoned",
     "min_damage": 1,
     "max_damage": 3,
@@ -826,6 +847,7 @@
     "valid_targets": [ "ground" ],
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "message": "",
     "effect_str": "arcana_pestilence",
     "min_damage": 4,
@@ -839,6 +861,7 @@
     "name": { "str": "Call to Order" },
     "description": "Attempts to pacify monsters for a moderate duration, paralyzes user and inflicts pain.",
     "effect": "charm_monster",
+    "shape": "blast",
     "message": "\"By order, we ascend beyond that of animals.\"  A wave of energy radiates outwards, fragments of otherworldly perspectives flooding your mind in the process!",
     "extra_effects": [
       { "id": "arcana_item_scroll_artifice_pain", "hit_self": true },
@@ -862,6 +885,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "recover_energy",
+    "shape": "blast",
     "effect_str": "PAIN",
     "flags": [ "RANDOM_DAMAGE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": -15,
@@ -876,6 +900,7 @@
     "message": "",
     "flags": [ "SILENT", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "min_damage": -200,
     "max_damage": -300
   },
@@ -896,7 +921,7 @@
       { "id": "arcana_item_scroll_leftover", "hit_self": false }
     ],
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DAMAGE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DAMAGE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
     "effect_str": "dazed",
     "min_damage": 44,
     "max_damage": 132,
@@ -919,7 +944,7 @@
     "effect": "attack",
     "shape": "blast",
     "valid_targets": [ "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DAMAGE" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DAMAGE" ],
     "min_damage": 44,
     "max_damage": 132,
     "effect_str": "downed",
@@ -943,7 +968,8 @@
     "min_damage": 220,
     "max_damage": 220,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   },
   {
     "id": "arcana_item_scroll_destruction_attention",
@@ -967,7 +993,7 @@
     "effect": "attack",
     "shape": "blast",
     "message": "",
-    "flags": [ "SILENT", "IGNORE_WALLS", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "NO_HANDS", "NO_LEGS" ],
     "valid_targets": [ "self", "ally", "hostile", "ground" ],
     "min_aoe": 24,
     "max_aoe": 24,
@@ -984,8 +1010,9 @@
     "valid_targets": [ "self", "ally", "hostile", "ground" ],
     "extra_effects": [ { "id": "arcana_item_scroll_destruction_pulse_extra", "hit_self": false } ],
     "message": "",
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
     "effect": "bash",
+    "shape": "blast",
     "min_damage": 25,
     "max_damage": 75,
     "min_aoe": 24,
@@ -998,6 +1025,7 @@
     "description": "Dirty hack to work around bugs in magic code.",
     "valid_targets": [ "ground" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "flags": [ "SILENT" ],
     "message": "",
     "effect_str": "arcana_pulse",
@@ -1016,6 +1044,7 @@
     "message": "",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "scroll_blank",
     "min_duration": 1,
     "max_duration": 1
@@ -1026,7 +1055,7 @@
     "name": { "str": "Sightless Sanctuary" },
     "description": "Overwhelming darkness, both in field and event form, blinds monsters.",
     "message": "\"Do not fear the unknown.\"  A shadowy mist spreads out in all directions, wisps of living dark trailing upwards to blot out everything in its wake!",
-    "flags": [ "SILENT", "IGNORE_WALLS", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "NO_HANDS", "NO_LEGS" ],
     "valid_targets": [ "self", "ally", "hostile", "ground" ],
     "extra_effects": [
       { "id": "arcana_item_scroll_moon_blind", "hit_self": false },
@@ -1053,7 +1082,7 @@
     "shape": "blast",
     "message": "",
     "valid_targets": [ "hostile" ],
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
     "effect_str": "blind",
     "min_aoe": 24,
     "max_aoe": 24,
@@ -1069,6 +1098,7 @@
     "valid_targets": [ "self" ],
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "effect": "timed_event",
+    "shape": "blast",
     "effect_str": "dim",
     "min_duration": 180000,
     "max_duration": 180000
@@ -1101,8 +1131,9 @@
     "description": "Basically just a beefier version of Overgrowth.",
     "message": "",
     "valid_targets": [ "ground" ],
-    "flags": [ "IGNORE_WALLS", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "effect_str": "arcana_plants",
     "min_damage": 3,
     "max_damage": 3,
@@ -1117,6 +1148,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "none",
+    "shape": "blast",
     "flags": [ "WONDER", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": 1,
     "max_damage": 1,
@@ -1127,6 +1159,7 @@
     "id": "arcana_item_scroll_nature_mutate_dragonblood",
     "name": { "str": "Divine Scroll: Nature Mutation 1" },
     "effect": "mutate",
+    "shape": "blast",
     "effect_str": "DRAGONBLOOD",
     "description": "Comparable to Artifact Mutate, except mimics effect of blood effigy.",
     "message": "",
@@ -1140,6 +1173,7 @@
     "id": "arcana_item_scroll_nature_mutate_plant",
     "name": { "str": "Divine Scroll: Nature Mutation 2" },
     "effect": "mutate",
+    "shape": "blast",
     "effect_str": "PLANT",
     "description": "Comparable to Artifact Mutate, except focused on Plant category.",
     "message": "",
@@ -1163,7 +1197,7 @@
       { "id": "arcana_item_scroll_leftover", "hit_self": false }
     ],
     "valid_targets": [ "self", "ally", "hostile", "ground" ],
-    "flags": [ "SILENT", "IGNORE_WALLS", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
     "effect_str": "archon_gaze_effect",
     "min_aoe": 5,
     "max_aoe": 5,
@@ -1182,6 +1216,7 @@
     "message": "",
     "valid_targets": [ "ground" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_shadow_summoned",
     "min_damage": 4,
     "max_damage": 8,
@@ -1198,6 +1233,7 @@
     "description": "Yeets you rather far away.  The one benefit is it's a safe teleport.  Effect is last to hopefully ensure you leave the other side effects behind.",
     "message": "",
     "effect": "teleport_random",
+    "shape": "blast",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_range": 20,
@@ -1209,7 +1245,7 @@
     "name": { "str": "Solar Blessing" },
     "description": "Massive wave of light, sunlight event, adrenaline and morale.",
     "message": "\"Let purity guide your hand and your heart.\"  A brilliant radiance envelops your surroundings, piercing the heavens as a surge of power flows through your body!",
-    "flags": [ "SILENT", "IGNORE_WALLS", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "SILENT", "IGNORE_WALLS", "NO_PROJECTILE", "NO_HANDS", "NO_LEGS" ],
     "valid_targets": [ "ground" ],
     "extra_effects": [
       { "id": "arcana_item_scroll_sun_event", "hit_self": false },
@@ -1251,6 +1287,7 @@
     "message": "",
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "timed_event",
+    "shape": "blast",
     "effect_str": "artifact_light",
     "min_duration": 180000,
     "max_duration": 180000
@@ -1264,6 +1301,7 @@
     "message": "",
     "flags": [ "SILENT", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "min_damage": 400,
     "max_damage": 1600
   },
@@ -1276,6 +1314,7 @@
     "message": "The mask briefly contorts into a fearsome visage, the eyeholes seeming to glow as a strange perception replaces your natural vision.",
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "halo_insight",
     "min_duration": 40000,
     "max_duration": 40000
@@ -1287,12 +1326,13 @@
     "description": "Controlled teleport, with some risk of side effects.",
     "message": "You feel yanked in a non-existent direction!",
     "effect": "ter_transform",
+    "shape": "blast",
     "extra_effects": [
       { "id": "arcana_item_spatial_displacement_wonder", "hit_self": true },
       { "id": "arcana_item_spatial_displacement_summon", "hit_self": false }
     ],
     "valid_targets": [ "ground" ],
-    "flags": [ "IGNORE_WALLS", "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "NO_HANDS", "NO_LEGS", "SILENT" ],
     "effect_str": "arcana_pulse",
     "min_damage": 1,
     "max_damage": 1,
@@ -1307,6 +1347,7 @@
     "valid_targets": [ "self" ],
     "message": "",
     "effect": "none",
+    "shape": "blast",
     "flags": [ "WONDER", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": 1,
     "max_damage": 1,
@@ -1384,6 +1425,7 @@
     "message": "You're left reeling for a moment as you emerge from the teleport!",
     "flags": [ "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "min_damage": -250,
     "max_damage": -500
   },
@@ -1394,9 +1436,10 @@
     "description": "This summons a critter afterward, enabling SWAP_POS hijinks.",
     "message": "",
     "effect": "summon",
+    "shape": "blast",
     "extra_effects": [ { "id": "arcana_item_spatial_displacement_swap", "hit_self": false } ],
     "valid_targets": [ "ground" ],
-    "flags": [ "IGNORE_WALLS", "NO_HANDS", "NO_LEGS", "SILENT", "RANDOM_DURATION" ],
+    "flags": [ "IGNORE_WALLS", "NO_PROJECTILE", "NO_HANDS", "NO_LEGS", "SILENT", "RANDOM_DURATION" ],
     "effect_str": "mon_shadow_summoned_fake",
     "min_damage": 1,
     "max_damage": 1,
@@ -1414,7 +1457,7 @@
     "effect": "attack",
     "shape": "blast",
     "valid_targets": [ "ground" ],
-    "flags": [ "SWAP_POS", "IGNORE_WALLS", "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "flags": [ "SWAP_POS", "IGNORE_WALLS", "NO_PROJECTILE", "NO_HANDS", "NO_LEGS", "SILENT" ],
     "effect_str": "stunned",
     "min_range": 50,
     "max_range": 50,
@@ -1559,7 +1602,8 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE", "NO_HANDS", "NO_LEGS" ],
     "min_damage": -6,
     "max_damage": -10,
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "arcana_item_wyrmskin_acid",
@@ -1568,7 +1612,7 @@
     "description": "A low-level acid spell, with greater focus on ground effect.",
     "message": "Flowing venom slithers over the surface of your armor, until an acrid spray lashes out and soaks the ground!",
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "extra_effects": [ { "id": "arcana_item_wyrmskin_acid_noise", "hit_self": false } ],
     "valid_targets": [ "ally", "hostile", "ground" ],
     "sound_description": "splash",
@@ -1602,6 +1646,7 @@
     "min_damage": 33,
     "max_damage": 33,
     "valid_targets": [ "ground" ],
-    "effect": "noise"
+    "effect": "noise",
+    "shape": "blast"
   }
 ]
