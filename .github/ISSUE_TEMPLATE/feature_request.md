@@ -7,10 +7,8 @@ assignees: ''
 
 ---
 
-**Name the mod you have added**
-Put the name of the mod(s) here that you have added. in a numbering style.
-1. ``
-1. ``
+**Name the mod**
+Put the name of the mod(s) that you would like to be improved here.
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
