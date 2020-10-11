@@ -57,7 +57,8 @@
     "name": { "str": "Sonic Spike" },
     "description": "This splits of the AoE into beefy and stupid beefy depending on distance.",
     "message": "",
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "valid_targets": [ "ground" ],
     "flags": [ "SILENT", "IGNORE_WALLS" ],
     "effect_str": "blind",
@@ -78,7 +79,8 @@
     "name": { "str": "Sonic Demolition" },
     "description": "Sonic Demolition\nUsing this spell will unleash a devastating, destructive blast of sonic force, causing a massive earthquake and shattering everything in it's distance.  Anything close enough will take double damage.",
     "message": "You tremble in terror as you cast this spell but manage to fully control it and unleash the full force of sonic energy",
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "extra_effects": [
       { "id": "sonic_spike", "hit_self": false, "max_level": 20 },
       { "id": "sonic_demolition_pulse", "hit_self": false, "max_level": 20 }
@@ -113,7 +115,8 @@
     "name": { "str": "Sonic Blast" },
     "description": "Sonic Blast\nUsing this spell will unleash a quite strong, destructive blast of sonic force, shattering everything in it's distance.  Anything close enough will take double damage.",
     "message": "You manage to fully control the power of the blast and unleash the force of sonic energy",
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "extra_effects": [
       { "id": "sonic_spike", "hit_self": false, "max_level": 20 },
       { "id": "sonic_blast_pulse", "hit_self": false, "max_level": 20 }
