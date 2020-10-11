@@ -1,9 +1,10 @@
 <!---
-name: Feature request
+name: pull request
 about: Suggest an idea for a mod or the project
 title: ''
 labels: ''
-assignees: 'TheGoatGod'
+milestones: 'Experimental Compilation 0.F Release'
+Reviewers: 'TheGoatGod'
 
 --->
 
