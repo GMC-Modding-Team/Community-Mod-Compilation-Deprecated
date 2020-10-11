@@ -9,7 +9,7 @@ Use the `home` key to get to the top.
 
 # Vanilla locations
 
-"location": "barrel", - all barrel mods - "install_time": "0 m",
+"location": "barrel", - all barrel mods - "install_time": "0 m",\r\n
 "location": "underbarrel", - integrated, bayonet - "install_time": "0 m",
 "location": "underbarrel", - bipod, grip, laser_sight, system and anything else - "install_time": "30 m",
 "location": "accessories", - belt_clips, mounts - "install_time": "10 s",
