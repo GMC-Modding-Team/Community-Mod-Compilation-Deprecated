@@ -2,12 +2,12 @@
 
 Use the `home` key to get to the top.
 
-- [Vanilla Locations](#vanilla locations)
-- [Modded locations and new times](#Modded locations and new times)
-- [Others](#Install times worth noting)
+- [Vanilla Locations](#vanilla-locations)
+- [Modded locations and new times](#Modded-locations-and-new-times)
+- [Others](#Install-times-worth-noting)
 
 
-# Vanilla locations]-
+# Vanilla locations
 
 "location": "barrel", - all barrel mods - "install_time": "0 m",
 "location": "underbarrel", - integrated, bayonet - "install_time": "0 m",
