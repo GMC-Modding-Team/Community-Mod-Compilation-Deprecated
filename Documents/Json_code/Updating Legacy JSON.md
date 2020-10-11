@@ -307,7 +307,6 @@ into
 ```
 
 if you want to do this quickly with regex use the following example
-
 ```regex
 "effect": "([a -zA -Z]+)",
 
