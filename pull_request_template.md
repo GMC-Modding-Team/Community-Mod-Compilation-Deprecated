@@ -1,11 +1,11 @@
-[---
+<!---
 name: Feature request
 about: Suggest an idea for a mod or the project
 title: ''
 labels: ''
-assignees: ''
+assignees: 'TheGoatGod'
 
----
+--->
 
 **Name the mod added to the compilation**
 Put the name of the mod(s) that you have added here.
@@ -28,5 +28,4 @@ b. [what did you tweak]
 c. [what did you tweak]
 
 **for other updates**
-cant think of anything else atm
-
+cant think of anything else ATM
