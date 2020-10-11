@@ -100,7 +100,8 @@
     "min_duration": 60000,
     "max_duration": 60000,
     "sound_type": "speech",
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "visuals",
     "extra_effects": [ { "id": "arcana_trap_archon_hallu2" } ]
   },
@@ -114,7 +115,8 @@
     "sound_description": "",
     "min_duration": 60000,
     "max_duration": 60000,
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "hallu"
   },
   {
@@ -126,7 +128,8 @@
     "flags": [ "RANDOM_DURATION", "LOUD" ],
     "sound_description": "\"You do not belong here...\"",
     "sound_type": "speech",
-    "effect": "target_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "darkness",
     "min_aoe": 2,
     "max_aoe": 2,
