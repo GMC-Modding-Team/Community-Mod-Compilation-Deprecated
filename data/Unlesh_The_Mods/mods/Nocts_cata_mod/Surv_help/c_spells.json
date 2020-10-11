@@ -10,6 +10,7 @@
     "max_damage": 50,
     "base_casting_time": 200,
     "effect": "recover_energy",
+    "shape": "blast",
     "effect_str": "BIONIC",
     "extra_effects": [ { "id": "c_cbm_rtg_induction_2", "hit_self": true }, { "id": "c_cbm_rtg_induction_3", "hit_self": true } ]
   },
@@ -61,12 +62,14 @@
     "valid_targets": [ "self" ],
     "flags": [ "SILENT" ],
     "message": "",
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
     "id": "c_topographical_scan",
     "effect": "map",
+    "shape": "blast",
     "name": { "str": "Topographical Scan" },
     "description": "Reveals an area around you on the overmap.",
     "valid_targets": [ "self" ],
@@ -111,6 +114,7 @@
     "description": "Similar to AEA_PAIN except message is suppressed.",
     "valid_targets": [ "self" ],
     "effect": "recover_energy",
+    "shape": "blast",
     "effect_str": "PAIN",
     "flags": [ "RANDOM_DAMAGE", "SILENT" ],
     "min_damage": -5,
@@ -126,6 +130,7 @@
     "message": "",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "mutagenic_ampoule",
     "//": "Reuses the pain effect Biostim calls for.",
     "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
@@ -155,6 +160,7 @@
     "message": "",
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "purified_ampoule",
     "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
     "min_duration": 1,
