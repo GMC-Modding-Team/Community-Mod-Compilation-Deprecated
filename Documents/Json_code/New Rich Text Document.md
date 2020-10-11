@@ -6,4 +6,4 @@
 "effect": "cone_attack",
 "effect": "line_attack",
     "effect": "attack",
-    "shape": "line",
+    "shape": "line", "cone"
