@@ -25,7 +25,8 @@ Use the `home` key to get to the top.
 - [`type: CONTAINER`](#type-container)
 - [Volume](#volume)
 - [Weight](#weight)
-
+- [Effect](#effect)
+- [Shape](#shape)
 
 # Introduction
 Welcome to Updating Legacy JSON.md. This document aims to guide you through the process of replacing obsolete code with modern JSON.
@@ -287,3 +288,19 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 "weight": "$1 g",
 ```
+
+
+#effect
+The current JSON standards for `key` `effect` look like this:
+"effect": "attack",
+"shape": "line",
+
+
+#shape
+The current JSON standards for `key` `shape` look like this:
+"shape": "line",
+
+all shapes -
+"line"
+"cone"
+"blast"
