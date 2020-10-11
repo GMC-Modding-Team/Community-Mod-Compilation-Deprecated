@@ -8,7 +8,7 @@ Use the `home` key to get to the top.
 
 
 # Vanilla locations
-
+```
 "location": "barrel", - all barrel mods - "install_time": "0 m",
 
 "location": "underbarrel", - integrated, bayonet - "install_time": "0 m",
@@ -49,7 +49,7 @@ Use the `home` key to get to the top.
 
 "location": "grip mount", - side_mount, sights_mount, launcher_sights, pistol_sights, underbarrel_mount - "install_time": "5 m",
 
-"location": "grip mount", - kits, stock mounts, - "install_time": "20 m",
+"location": "grip mount", - stock mounts - "install_time": "20 m",
 
 "location": "mechanism", - semi auto conversion - "install_time": "5 m",
 
@@ -69,30 +69,31 @@ Use the `home` key to get to the top.
 
 "location": "bore", - all bore mods - "install_time": "1 m",
 
-"location": "bore", - kits - "install_time": "20 m",
+"location": "bore", - "install_time": "20 m",
 
-"location": "brass catcher", - all brass catcher mods - "install_time": "5 m",
-
+"location": "brass catcher", - "install_time": "5 m",
+```
 # Modded locations and new times
+```
+"location": "barrel", -"install_time": "10 m",
 
-"location": "barrel", - canisters -"install_time": "10 m",
+"location": "receiver", - "install_time": "10 m",
 
-"location": "receiver", - all - "install_time": "10 m",
+"location": "limbs", - "install_time": "10 m",
 
-"location": "limbs", - - "install_time": "10 m",
+"location": "string", - "install_time": "1 m",
 
-"location": "string", - - "install_time": "1 m",
+"location": "riser", - "install_time": "10 m",
 
-"location": "riser", - - "install_time": "10 m",
-
-"location": "cams", - - "install_time": "10 m",
+"location": "cams", - "install_time": "10 m",
 
 "location": "battery", - "install_time": "25 m",
-
+```
 # Install times worth noting
-
+```
 remove mods - half the time to install if applicable
 
 Kits - "install_time": "20 m",
 
-launchers - "install_time": "15 m",
+launchers - "install_time": "15 m",`
+```
