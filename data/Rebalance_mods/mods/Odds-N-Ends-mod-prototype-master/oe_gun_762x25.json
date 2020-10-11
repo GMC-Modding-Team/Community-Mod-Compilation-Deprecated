@@ -16,7 +16,16 @@
     "dispersion": 200,
     "durability": 9,
     "burst": 12,
-    "magazines": [ [ "762x25", [ "c96modmag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "c96modmag" ]
+      }
+    ]
   },
   {
     "id": "type64smg",
@@ -47,6 +56,15 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "762x25", [ "type64mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "type64mag" ]
+      }
+    ]
   }
 ]

@@ -20,7 +20,16 @@
     "sight_dispersion": 150,
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "magazines": [ [ "bolt", [ "bolt_hopper" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "bolt_hopper" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
   {
@@ -46,6 +55,16 @@
     "ups_charges": 9,
     "valid_mod_locations": [  ],
     "magazines": [ [ "nail", [ "nailmag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nailmag" ]
+      }
+    ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
@@ -70,7 +89,16 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "valid_mod_locations": [  ],
-    "magazines": [ [ "nail", [ "nailmag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nailmag" ]
+      }
+    ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS" ]
   },
   {
@@ -148,7 +176,16 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 25 ] ],
     "ups_charges": 1,
     "valid_mod_locations": [  ],
-    "magazines": [ [ "BB", [ "bb_hopper" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "bb_hopper" ]
+      }
+    ],
     "flags": [ "BURST_ONLY", "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
@@ -172,7 +209,16 @@
     "sight_dispersion": 150,
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
-    "magazines": [ [ "pebble", [ "pebble_hopper" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "pebble_hopper" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   }
 ]
