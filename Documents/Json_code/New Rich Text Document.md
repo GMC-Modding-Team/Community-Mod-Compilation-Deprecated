@@ -7,7 +7,3 @@
 "effect": "line_attack",
     "effect": "attack",
     "shape": "line",
-
-
-
-"shape": "cone",
