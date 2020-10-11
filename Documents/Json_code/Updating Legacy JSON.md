@@ -300,6 +300,12 @@ into
 "effect": "attack"
 ```
 
+```regex
+"effect": "([a -zA -Z]+)",
+
+"effect": "$1",
+```
+
 # Shape
 The current JSON standards for `key` `shape` look like this:
 "shape": "line",
