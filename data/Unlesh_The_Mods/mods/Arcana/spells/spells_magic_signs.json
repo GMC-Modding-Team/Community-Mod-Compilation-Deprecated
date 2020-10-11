@@ -356,7 +356,8 @@
     "name": { "str": "Sign: Elemental Burst" },
     "description": "Magic Sign\nUsing this spell will blast a cone-shaped area with elemental force, leaving random side effects in its wake.  Creatures caught in the center line will take double damage.  Beware the risk of friendly fire!",
     "message": "\"I am that which resides in all living things, the order hidden within chaos...\"  You cast %s!",
-    "effect": "cone_attack",
+    "effect": "attack",
+    "shape": "line",
     "extra_effects": [
       { "id": "arcana_magic_elemental_burst_line", "hit_self": false, "max_level": 10 },
       { "id": "arcana_magic_elemental_burst_wonder", "hit_self": false, "max_level": 10 }
