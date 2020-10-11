@@ -292,15 +292,22 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 # Effect
 The current JSON standards for `key` `effect` look like this:
+```JSON
+"effect": "attack"
 ```
-"effect": "example_attack"
+With the obsolete json looking like this
+```JSON
+"effect": "target_attack"
 ```
+with the fix being simple
+```JSON
+"effect": "target_attack"
 into
-```
 "effect": "attack"
 ```
 
 if you want to do this quickly with regex use the following example
+
 ```regex
 "effect": "([a -zA -Z]+)",
 
