@@ -19,7 +19,7 @@
     "max_level": 30,
     "min_range": 6,
     "max_range": 16,
-    "flags": [ "SOMATIC", "VERBAL", "NO_LEGS", "RANDOM_DURATION" ],
+    "flags": [ "SOMATIC", "VERBAL", "NO_LEGS", "RANDOM_DURATION", "NO_PROJECTILE" ],
     "base_casting_time": 125,
     "min_duration": 250,
     "max_duration": 1000,
@@ -72,6 +72,6 @@
     "min_duration": 75,
     "max_duration": 75,
     "base_casting_time": 150,
-    "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS" ]
+    "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS", "NO_PROJECTILE" ]
   }
 ]

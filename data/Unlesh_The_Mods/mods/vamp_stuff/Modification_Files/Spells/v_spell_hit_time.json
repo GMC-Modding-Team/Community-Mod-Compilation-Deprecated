@@ -6,9 +6,10 @@
     "name": { "str": "null" },
     "description": "null... just ignore this.",
     "valid_targets": [ "none" ],
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "message": "",
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -19,7 +20,7 @@
     "message": "",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "WONDER", "SILENT" ],
+    "flags": [ "WONDER", "SILENT", "NO_PROJECTILE" ],
     "min_damage": 1,
     "max_damage": 1,
     "extra_effects": [
@@ -45,7 +46,7 @@
     "message": "The leech's whip strikes a wide arc!",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "min_damage": 1,
     "max_damage": 1,
     "extra_effects": [ { "id": "v_hemo_whip_spell_ss" } ]
@@ -57,7 +58,7 @@
     "description": "Swipes through an arc, dealing 16 cutting damage.",
     "valid_targets": [ "hostile", "ground" ],
     "effect": "attack",
-    "shape": "line",
+    "shape": "cone",
     "flags": [ "SILENT" ],
     "min_damage": 16,
     "max_damage": 16,
@@ -84,7 +85,7 @@
     ],
     "min_damage": 1,
     "max_damage": 1,
-    "flags": [ "SILENT", "WONDER" ]
+    "flags": [ "SILENT", "WONDER", "NO_PROJECTILE" ]
   },
   {
     "type": "SPELL",
@@ -95,7 +96,7 @@
     "message": "The leech's whip absorbs the life force from a nearby creature!",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "extra_effects": [ { "id": "v_hemo_whip_spell_d_dmg" }, { "id": "v_hemo_whip_spell_d_heal", "hit_self": true } ]
   },
   {
@@ -110,7 +111,7 @@
     "max_damage": 2,
     "min_range": 1,
     "max_range": 1,
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "damage_type": "pure"
   },
   {
@@ -122,7 +123,7 @@
     "effect": "attack",
     "shape": "blast",
     "min_damage": -1,
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "max_damage": -1,
     "damage_type": "pure"
   },
@@ -142,7 +143,7 @@
     ],
     "min_damage": 1,
     "max_damage": 1,
-    "flags": [ "SILENT", "WONDER" ]
+    "flags": [ "SILENT", "WONDER", "NO_PROJECTILE" ]
   },
   {
     "type": "SPELL",
@@ -153,7 +154,7 @@
     "message": "The crimson coat retaliates to the attack!",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "extra_effects": [ { "id": "v_hemo_crimsoncoat_coat_pr" } ]
   },
   {
@@ -162,7 +163,7 @@
     "name": { "str": "Piercing Retaliation" },
     "description": "Deals 12 stab damage and stuns for 1-3 turns.",
     "valid_targets": [ "hostile" ],
-    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "flags": [ "SILENT", "RANDOM_DURATION", "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
     "effect_str": "stunned",
@@ -178,9 +179,10 @@
     "id": "v_hemo_orusform_bloodling",
     "type": "SPELL",
     "name": { "str": "Orus: Rise! Bloodling!" },
-    "description": "Summons a bloodling at a random blood field in range.",
-    "valid_targets": [ "fd_blood" ],
+    "description": "Summons a bloodling at a random field in range.",
+    "valid_targets": [ "field" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_orus_bloodling",
     "spell_class": "VAMP_BLOOD_spellcaster",
     "min_damage": 1,
@@ -191,7 +193,7 @@
     "max_range": 10,
     "min_duration": 10000,
     "max_duration": 30000,
-    "flags": [ "RANDOM_DURATION", "RANDOM_TARGET" ]
+    "flags": [ "RANDOM_DURATION", "RANDOM_TARGET", "NO_PROJECTILE" ]
   },
   {
     "type": "SPELL",
@@ -202,7 +204,7 @@
     "message": "",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "WONDER", "SILENT" ],
+    "flags": [ "WONDER", "SILENT", "NO_PROJECTILE" ],
     "min_damage": 1,
     "max_damage": 1,
     "extra_effects": [
@@ -237,7 +239,7 @@
     "message": "An etherean silhouette emerges from your weapon!",
     "effect": "attack",
     "shape": "blast",
-    "flags": [ "SILENT" ],
+    "flags": [ "SILENT", "NO_PROJECTILE" ],
     "min_damage": 1,
     "max_damage": 1,
     "extra_effects": [ { "id": "v_war_etherealenchant_ss", "hit_self": true } ]
@@ -249,8 +251,9 @@
     "description": "Summons an etherean silhouette.",
     "valid_targets": [ "self", "ground" ],
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "mon_ether_shadow",
-    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "flags": [ "SILENT", "RANDOM_DURATION", "NO_PROJECTILE" ],
     "min_damage": 1,
     "max_damage": 1,
     "min_aoe": 2,
