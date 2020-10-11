@@ -22,6 +22,8 @@ Use the `home` key to get to the top.
 - [Name](#name)
 - [picklock](#picklock)
 - [Pocket Data](#pocket-data)
+  + [Gun Pocket data](#gun-Pocket-data)
+  + [Magazine Pocket data](#magazine-Pocket-data)
 - [`type: CONTAINER`](#type-container)
 - [Volume](#volume)
 - [Weight](#weight)
@@ -232,7 +234,26 @@ This has to be done manually due to the possible presence of other text in the `
 In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), there is pocket_mags.py that should be able to handle some of the work.
 
 
-# `type: CONTAINER`
+## Gun Pocket data
+legacy code just delete These
+```JSON
+"magazines": [ [ "Example_ammo", [ "Example_magazine1", "Example_magazine2" ] ] ]
+"magazine_well": 1
+```
+new code for handling "magazines" and "magazine_well"
+```JSON
+"pocket_data": [
+  {
+    "magazine_well": "250 ml",
+    "pocket_type": "MAGAZINE_WELL",
+    "holster": true,
+    "max_contains_volume": "20 L",
+    "max_contains_weight": "20 kg",
+    "item_restriction": [ "Example_magazine1", "Example_magazine2" ]
+  }
+]
+```
+# type: CONTAINER
 `type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
 ```regex
 "type": "CONTAINER"
