@@ -170,7 +170,8 @@
     "description": "Swaps position.",
     "flags": [ "SILENT", "SWAP_POS" ],
     "valid_targets": [ "hostile" ],
-    "effect": "projectile_attack",
+    "effect": "attack",
+    "shape": "blast",
     "min_range": 1
   }
 ]

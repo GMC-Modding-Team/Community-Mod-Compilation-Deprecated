@@ -6,7 +6,8 @@
     "description": "Magical mineral water puts you in a state of trance!",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
-    "effect": "projectile_attack",
+    "effect": "attack",
+    "shape": "blast",
     "effect_str": "min_water_stun",
     "min_duration": 6375,
     "max_duration": 6375
