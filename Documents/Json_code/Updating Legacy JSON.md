@@ -292,7 +292,6 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 # Effect
 The current JSON standards for `key` `effect` look like this:
-change any
 ```
 "effect": "example_attack"
 ```
