@@ -20,7 +20,16 @@
     "blackpowder_tolerance": 48,
     "min_cycle_recoil": 380,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
-    "magazines": [ [ "9mm", [ "ak_glockmag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ak_glockmag" ]
+      }
+    ]
   },
   {
     "id": "ak_sw_610",
@@ -44,7 +53,16 @@
     "blackpowder_tolerance": 56,
     "clip_size": 12,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
-    "magazines": [ [ "40", [ "ak_40_speedloader" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ak_40_speedloader" ]
+      }
+    ]
   },
   {
     "id": "ak_tec9",
@@ -68,7 +86,17 @@
     "min_cycle_recoil": 450,
     "modes": [ [ "DEFAULT", "burst", 4 ], [ "BURST", "Twin-Burst", 8 ] ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "9mm", [ "ak_tec9mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ak_tec9mag" ]
+      }
+    ]
+
   },
   {
     "id": "ak_deagle",
@@ -93,7 +121,16 @@
     "min_cycle_recoil": 2000,
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
-    "magazines": [ [ "44", [ "ak_deaglemag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ak_deaglemag" ]
+      }
+    ]
   },
   {
     "id": "ak_1911",
@@ -116,6 +153,15 @@
     "min_cycle_recoil": 540,
     "blackpowder_tolerance": 48,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
-    "magazines": [ [ "45", [ "ak_1911mag", "ak_1911bigmag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ak_1911mag", "ak_1911bigmag" ]
+      }
+    ]
   }
 ]
