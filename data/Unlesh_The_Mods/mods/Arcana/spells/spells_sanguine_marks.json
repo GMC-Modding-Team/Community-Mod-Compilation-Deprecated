@@ -124,7 +124,8 @@
     "name": { "str": "Mark: Infernal Breath" },
     "description": "Sanguine Mark\nUsing this spell will channel your inner fire into a devastating blast, inflicting horrific burns and leaving a permanent scar upon the land.  Be careful using it around allies, and note that this will consume calories as with firing mundane dragonfire, and risks damaging the fabric of reality.",
     "message": "A bolt of flame leaps from your mouth, shaped into unholy fire with a wave of the hand.  %s!",
-    "effect": "line_attack",
+    "effect": "attack",
+    "shape": "line",
     "valid_targets": [ "ally", "hostile", "ground" ],
     "flags": [ "SILENT", "SOMATIC", "NO_HANDS", "NO_FAIL" ],
     "extra_effects": [
