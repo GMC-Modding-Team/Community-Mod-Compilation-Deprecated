@@ -1,5 +1,6 @@
 [
-  { "id":"lighter",
+  {
+    "id": "lighter",
     "type": "TOOL",
     "symbol": ",",
     "color": "blue",
@@ -7,7 +8,7 @@
     "description": "A lighter must be carried to use various drugs, like cigarettes, or to light things like molotov cocktails.  You can also use a lighter to light nearby items on fire.",
     "rarity": 60,
     "price": 35,
-    "material": ["plastic","iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 0,
     "volume": 0,
     "bashing": 0,
@@ -17,11 +18,10 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LIGHTER"
   },
-
   {
     "id": "matches",
     "type": "TOOL",
@@ -41,11 +41,10 @@
     "initial_charges": 20,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LIGHTER"
   },
-
   {
     "id": "fire_drill",
     "type": "TOOL",
@@ -65,11 +64,10 @@
     "initial_charges": 20,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PRIMITIVE_FIRE"
   },
-
   {
     "id": "sewing_kit",
     "type": "TOOL",
@@ -79,7 +77,7 @@
     "description": "Use a sewing kit on an article of clothing to attempt to repair or reinforce that clothing. This uses your tailoring skill.",
     "rarity": 30,
     "price": 120,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 0,
     "volume": 2,
     "bashing": -3,
@@ -89,11 +87,10 @@
     "initial_charges": 50,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "thread",
+    "ammo": "THREAD",
     "revert_to": "null",
     "use_action": "SEW"
   },
-
   {
     "id": "scissors",
     "type": "TOOL",
@@ -103,7 +100,7 @@
     "description": "Use scissors to cut items made from cotton (mostly clothing) into rags.",
     "rarity": 50,
     "price": 45,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "flags": "SPEAR",
     "weight": 1,
     "volume": 1,
@@ -114,11 +111,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SCISSORS"
   },
-
   {
     "id": "hammer",
     "type": "TOOL",
@@ -128,7 +124,7 @@
     "description": "Use a hammer, with nails and two by fours in your inventory, to board up adjacent doors and windows.",
     "rarity": 35,
     "price": 70,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "weight": 5,
     "volume": 2,
     "bashing": 17,
@@ -138,11 +134,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "HAMMER"
   },
-
   {
     "id": "extinguisher",
     "type": "TOOL",
@@ -162,11 +157,10 @@
     "initial_charges": 80,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "EXTINGUISHER"
   },
-
   {
     "id": "battery_compartment",
     "type": "TOOL",
@@ -176,7 +170,7 @@
     "description": "With enough electronics skill, you could attach this to your devices to increase their battery capacity.",
     "rarity": 0,
     "price": 500,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 1,
     "volume": 1,
     "bashing": 0,
@@ -186,11 +180,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "EXTRA_BATTERY"
   },
-
   {
     "id": "gasoline_lantern",
     "type": "TOOL",
@@ -200,7 +193,7 @@
     "description": "A small gasoline powered lantern. It does not provide much light, but it lasts a long time. Use it to turn it on.",
     "rarity": 5,
     "price": 600,
-    "material": ["glass", "iron"],
+    "material": [ "glass", "iron" ],
     "weight": 2,
     "volume": 3,
     "bashing": 1,
@@ -214,7 +207,6 @@
     "revert_to": "null",
     "use_action": "GASOLINE_LANTERN_OFF"
   },
-
   {
     "id": "gasoline_lantern_on",
     "type": "TOOL",
@@ -224,7 +216,7 @@
     "description": "A small gasoline powered lantern. It does not provide much light, but it lasts a long time. It is turned on. Use it to turn it off.",
     "rarity": 0,
     "price": 600,
-    "material": ["glass", "iron"],
+    "material": [ "glass", "iron" ],
     "flags": "LIGHT_4",
     "weight": 2,
     "volume": 3,
@@ -239,7 +231,6 @@
     "revert_to": "gasoline_lantern",
     "use_action": "GASOLINE_LANTERN_ON"
   },
-
   {
     "id": "flashlight",
     "type": "TOOL",
@@ -249,7 +240,7 @@
     "description": "Using this flashlight will turn it on, assuming it is charged with batteries. A turned-on flashlight will provide light during the night or while underground.",
     "rarity": 40,
     "price": 380,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 2,
     "volume": 3,
     "bashing": 1,
@@ -263,7 +254,6 @@
     "revert_to": "null",
     "use_action": "LIGHT_OFF"
   },
-
   {
     "id": "flashlight_on",
     "type": "TOOL",
@@ -273,7 +263,7 @@
     "description": "This flashlight is turned on, and continually draining its batteries. It provides light during the night or while underground. Use it to turn it off.",
     "rarity": 0,
     "price": 380,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "flags": "LIGHT_20",
     "weight": 2,
     "volume": 3,
@@ -288,7 +278,6 @@
     "revert_to": "flashlight",
     "use_action": "LIGHT_ON"
   },
-
   {
     "id": "lightstrip_dead",
     "type": "TOOL",
@@ -298,7 +287,7 @@
     "description": "A burnt-out lightstrip. You could disassemble this to recover the amplifier circuit.",
     "rarity": 0,
     "price": 200,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 1,
     "volume": 1,
     "bashing": 1,
@@ -308,11 +297,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "lightstrip_inactive",
     "type": "TOOL",
@@ -322,7 +310,7 @@
     "description": "A light-emitting circuit wired directly to some batteries. Once activated, provides 25 hours of light per 3 (battery) charges. When the batteries die, you'll need to scrap it to recover the components that are reusable.",
     "rarity": 0,
     "price": 200,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 1,
     "volume": 1,
     "bashing": 1,
@@ -332,11 +320,10 @@
     "initial_charges": 12000,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LIGHTSTRIP"
   },
-
   {
     "id": "lightstrip",
     "type": "TOOL",
@@ -346,7 +333,7 @@
     "description": "A light-emitting circuit wired directly to some batteries. Provides a weak light, lasting 25 hours per 3 (battery) charges. When the batteries die, you'll need to scrap it to recover the components that are reusable.",
     "rarity": 0,
     "price": 200,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "flags": "LIGHT_1",
     "weight": 1,
     "volume": 1,
@@ -357,11 +344,10 @@
     "initial_charges": 12000,
     "charges_per_use": 0,
     "turns_per_charge": 150,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "lightstrip_dead",
     "use_action": "LIGHTSTRIP_ACTIVE"
   },
-
   {
     "id": "glowstick",
     "type": "TOOL",
@@ -381,11 +367,10 @@
     "initial_charges": 1200,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "GLOWSTICK"
   },
-
   {
     "id": "glowstick_lit",
     "type": "TOOL",
@@ -406,11 +391,10 @@
     "initial_charges": 1200,
     "charges_per_use": 0,
     "turns_per_charge": 2,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "glowstick_dead",
     "use_action": "GLOWSTICK_ACTIVE"
   },
-  
   {
     "id": "glowstick_dead",
     "type": "TOOL",
@@ -430,11 +414,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
-  },  
-
+  },
   {
     "id": "hotplate",
     "type": "TOOL",
@@ -444,7 +427,7 @@
     "description": "A small heating element. Indispensable for cooking and chemistry. Try not to burn yourself.",
     "rarity": 10,
     "price": 250,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 6,
     "volume": 5,
     "bashing": 8,
@@ -458,7 +441,6 @@
     "revert_to": "null",
     "use_action": "CAUTERIZE_ELEC"
   },
-
   {
     "id": "soldering_iron",
     "type": "TOOL",
@@ -483,7 +465,6 @@
     "revert_to": "null",
     "use_action": "SOLDER_WELD"
   },
-
   {
     "id": "water_purifier",
     "type": "TOOL",
@@ -493,7 +474,7 @@
     "description": "Using this item on a container full of water will purify the water. Water taken from uncertain sources like a river may be dirty.",
     "rarity": 5,
     "price": 1200,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 20,
     "volume": 12,
     "bashing": 2,
@@ -507,7 +488,6 @@
     "revert_to": "null",
     "use_action": "WATER_PURIFIER"
   },
-
   {
     "id": "two_way_radio",
     "type": "TOOL",
@@ -517,7 +497,7 @@
     "description": "Using this allows you to send out a signal; either a general SOS, or if you are in contact with a faction, to send a direct call to them.",
     "rarity": 10,
     "price": 800,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 3,
     "volume": 2,
     "bashing": 10,
@@ -531,7 +511,6 @@
     "revert_to": "null",
     "use_action": "TWO_WAY_RADIO"
   },
-
   {
     "id": "radio",
     "type": "TOOL",
@@ -541,7 +520,7 @@
     "description": "Using this radio turns it on. It will pick up any nearby signals being broadcast and play them audibly.",
     "rarity": 20,
     "price": 420,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 2,
     "volume": 4,
     "bashing": 4,
@@ -555,7 +534,6 @@
     "revert_to": "null",
     "use_action": "RADIO_OFF"
   },
-
   {
     "id": "radio_on",
     "type": "TOOL",
@@ -565,7 +543,7 @@
     "description": "This radio is turned on, and continually draining its batteries. It is playing the broadcast being sent from any nearby radio towers.",
     "rarity": 0,
     "price": 420,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 2,
     "volume": 4,
     "bashing": 4,
@@ -579,7 +557,6 @@
     "revert_to": "radio",
     "use_action": "RADIO_ON"
   },
-
   {
     "id": "directional_antenna",
     "type": "TOOL",
@@ -599,11 +576,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DIRECTIONAL_ANTENNA"
   },
-  
   {
     "id": "black_box",
     "type": "TOOL",
@@ -623,11 +599,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-  
   {
     "id": "sarcophagus_access_code",
     "type": "TOOL",
@@ -637,7 +612,7 @@
     "description": "A string of numbers to access the elevator in the hazardous waste sarcophagus.",
     "rarity": 0,
     "price": 800,
-    "material": "PAPER",
+    "material": "paper",
     "weight": 0,
     "volume": 0,
     "bashing": 1,
@@ -647,11 +622,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-  
   {
     "id": "noise_emitter",
     "type": "TOOL",
@@ -661,7 +635,7 @@
     "description": "This device was constructed by 'enhancing' a radio with some amplifier circuits. It's completely lost its ability to pick up a station, but it's nice and loud now. Could be useful to distract zombies.",
     "rarity": 0,
     "price": 600,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 3,
     "volume": 4,
     "bashing": 6,
@@ -675,7 +649,6 @@
     "revert_to": "null",
     "use_action": "NOISE_EMITTER_OFF"
   },
-
   {
     "id": "noise_emitter_on",
     "type": "TOOL",
@@ -685,7 +658,7 @@
     "description": "This device has been turned on and is emitting horrible sounds of radio static. Quick, get away from it before it draws zombies to you!",
     "rarity": 0,
     "price": 600,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 3,
     "volume": 4,
     "bashing": 6,
@@ -699,7 +672,6 @@
     "revert_to": "noise_emitter",
     "use_action": "NOISE_EMITTER_ON"
   },
-
   {
     "id": "roadmap",
     "type": "TOOL",
@@ -719,11 +691,10 @@
     "initial_charges": 1,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "ROADMAP"
   },
-
   {
     "id": "crowbar",
     "type": "TOOL",
@@ -743,11 +714,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "CROWBAR"
   },
-
   {
     "id": "hoe",
     "type": "TOOL",
@@ -757,7 +727,7 @@
     "description": "A farming implement. Use it to turn tillable land into a slow-to-cross pile of dirt.",
     "rarity": 30,
     "price": 90,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "weight": 14,
     "volume": 14,
     "bashing": 12,
@@ -767,11 +737,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "MAKEMOUND"
   },
-
   {
     "id": "shovel",
     "type": "TOOL",
@@ -781,7 +750,7 @@
     "description": "A digging tool. Use it to dig pits adjacent to your location.",
     "rarity": 40,
     "price": 100,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "weight": 18,
     "volume": 16,
     "bashing": 15,
@@ -791,37 +760,34 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DIG"
   },
-
-
-    {
-        "id" : "hose",
-        "type": "TOOL",
-        "name" : "rubber hose",
-        "description" : "A flexible rubber hose. Can be used for crafting, or siphoning fuel from a vehicle.",
-        "weight" : 2,
-        "to_hit" : 3,
-        "color" : "green",
-        "symbol" : ",",
-        "material" : ["plastic", "null"],
-        "volume" : 3,
-        "bashing" : 4,
-        "cutting" : 0,
-        "flags" : ["WRAP"],
-        "rarity" : 15,
-        "price" : 80,
-        "max_charges": 0,
-        "initial_charges": 0,
-        "charges_per_use": 0,
-        "turns_per_charge": 0,
-        "ammo": "none",
-        "revert_to": "null",
-        "use_action": "SIPHON"
-    },
-
+  {
+    "id": "hose",
+    "type": "TOOL",
+    "name": "rubber hose",
+    "description": "A flexible rubber hose. Can be used for crafting, or siphoning fuel from a vehicle.",
+    "weight": 2,
+    "to_hit": 3,
+    "color": "green",
+    "symbol": ",",
+    "material": [ "plastic", "null" ],
+    "volume": 3,
+    "bashing": 4,
+    "cutting": 0,
+    "flags": [ "WRAP" ],
+    "rarity": 15,
+    "price": 80,
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action": "SIPHON"
+  },
   {
     "id": "chainsaw_off",
     "type": "TOOL",
@@ -831,7 +797,7 @@
     "description": "Using this item will, if loaded with gas, cause it to turn on, making a very powerful, but slow, unwieldy, and noisy, melee weapon.",
     "rarity": 7,
     "price": 350,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "techniques": "SWEEP",
     "weight": 40,
     "volume": 12,
@@ -846,7 +812,6 @@
     "revert_to": "null",
     "use_action": "CHAINSAW_OFF"
   },
-
   {
     "id": "chainsaw_on",
     "type": "TOOL",
@@ -856,13 +821,13 @@
     "description": "This chainsaw is on, and is continuously draining gasoline. Use it to turn it off.",
     "rarity": 0,
     "price": 350,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "techniques": "SWEEP",
     "weight": 40,
     "volume": 12,
     "bashing": 4,
     "cutting": 70,
-    "flags" : ["CHOP", "MESSY"],
+    "flags": [ "CHOP", "MESSY" ],
     "to_hit": -5,
     "max_charges": 400,
     "initial_charges": 0,
@@ -872,7 +837,6 @@
     "revert_to": "chainsaw_off",
     "use_action": "CHAINSAW_ON"
   },
-
   {
     "id": "jackhammer",
     "type": "TOOL",
@@ -887,7 +851,7 @@
     "volume": 26,
     "bashing": 20,
     "cutting": 6,
-    "flags" : ["STAB"],
+    "flags": [ "STAB" ],
     "to_hit": -4,
     "max_charges": 120,
     "initial_charges": 0,
@@ -897,7 +861,6 @@
     "revert_to": "null",
     "use_action": "JACKHAMMER"
   },
-
   {
     "id": "jacqueshammer",
     "type": "TOOL",
@@ -912,7 +875,7 @@
     "volume": 26,
     "bashing": 20,
     "cutting": 6,
-    "flags" : ["STAB"],
+    "flags": [ "STAB" ],
     "to_hit": -4,
     "max_charges": 120,
     "initial_charges": 0,
@@ -922,7 +885,6 @@
     "revert_to": "null",
     "use_action": "JACQUESHAMMER"
   },
-
   {
     "id": "bubblewrap",
     "type": "TOOL",
@@ -942,11 +904,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "beartrap",
     "type": "TOOL",
@@ -966,11 +927,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "board_trap",
     "type": "TOOL",
@@ -990,11 +950,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "tripwire",
     "type": "TOOL",
@@ -1014,11 +973,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "crossbow_trap",
     "type": "TOOL",
@@ -1028,7 +986,7 @@
     "description": "A simple tripwire is attached to the trigger of a loaded crossbow. When pulled, the crossbow fires. Only a single round can be used, after which the trap is disabled.",
     "rarity": 0,
     "price": 600,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "weight": 10,
     "volume": 7,
     "bashing": 4,
@@ -1038,11 +996,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "shotgun_trap",
     "type": "TOOL",
@@ -1052,7 +1009,7 @@
     "description": "A simple tripwire is attached to the trigger of a loaded sawn-off shotgun. When pulled, the shotgun fires. Two rounds are used; the first time the trigger is pulled, one or two may be used.",
     "rarity": 0,
     "price": 450,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "weight": 11,
     "volume": 7,
     "bashing": 12,
@@ -1062,11 +1019,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "blade_trap",
     "type": "TOOL",
@@ -1086,11 +1042,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "light_snare_kit",
     "type": "TOOL",
@@ -1110,11 +1065,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "heavy_snare_kit",
     "type": "TOOL",
@@ -1134,11 +1088,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "landmine",
     "type": "TOOL",
@@ -1158,11 +1111,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "geiger_off",
     "type": "TOOL",
@@ -1172,7 +1124,7 @@
     "description": "A tool for measuring radiation. Using it will prompt you to choose whether to scan yourself or the terrain, or to turn it on, which will provide continuous feedback on ambient radiation.",
     "rarity": 8,
     "price": 300,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "weight": 2,
     "volume": 2,
     "bashing": 2,
@@ -1186,7 +1138,6 @@
     "revert_to": "null",
     "use_action": "GEIGER"
   },
-
   {
     "id": "geiger_on",
     "type": "TOOL",
@@ -1196,7 +1147,7 @@
     "description": "A tool for measuring radiation. It is in continuous scan mode, and will produce quiet clicking sounds in the presence of ambient radiation. Using it allows you to turn it off, or scan yourself or the ground.",
     "rarity": 0,
     "price": 300,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "weight": 2,
     "volume": 2,
     "bashing": 2,
@@ -1210,7 +1161,6 @@
     "revert_to": "geiger_off",
     "use_action": "GEIGER"
   },
-
   {
     "id": "teleporter",
     "type": "TOOL",
@@ -1220,7 +1170,7 @@
     "description": "An arcane device, powered by plutonium fuel cells. Using it will cause you to teleport a short distance away.",
     "rarity": 10,
     "price": 6000,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "weight": 12,
     "volume": 3,
     "bashing": 4,
@@ -1234,7 +1184,6 @@
     "revert_to": "null",
     "use_action": "TELEPORT"
   },
-
   {
     "id": "canister_goo",
     "type": "TOOL",
@@ -1254,11 +1203,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "CAN_GOO"
   },
-
   {
     "id": "pipebomb",
     "type": "TOOL",
@@ -1278,11 +1226,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PIPEBOMB"
   },
-
   {
     "id": "pipebomb_act",
     "type": "TOOL",
@@ -1302,11 +1249,10 @@
     "initial_charges": 3,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PIPEBOMB_ACT"
   },
-
   {
     "id": "grenade",
     "type": "TOOL",
@@ -1316,7 +1262,7 @@
     "description": "Use this item to pull the pin, turning it into an active grenade. You will then have five turns before it explodes; throwing it would be a good idea.",
     "rarity": 3,
     "price": 400,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 10,
@@ -1326,11 +1272,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "GRENADE"
   },
-
   {
     "id": "grenade_act",
     "type": "TOOL",
@@ -1340,7 +1285,7 @@
     "description": "This grenade is active, and will explode any second now. Better throw it!",
     "rarity": 0,
     "price": 0,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 10,
@@ -1350,11 +1295,10 @@
     "initial_charges": 5,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "GRENADE_ACT"
   },
-
   {
     "id": "flashbang",
     "type": "TOOL",
@@ -1364,7 +1308,7 @@
     "description": "Use this item to pull the pin, turning it into an active flashbang. You will then have five turns before it detonates with intense light and sound, blinding, deafening and disorienting anyone nearby.",
     "rarity": 3,
     "price": 380,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 8,
@@ -1374,11 +1318,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "FLASHBANG"
   },
-
   {
     "id": "flashbang_act",
     "type": "TOOL",
@@ -1388,7 +1331,7 @@
     "description": "This flashbang is active, and will soon detonate with intense light and sound, blinding, deafening and disorienting anyone nearby.",
     "rarity": 0,
     "price": 0,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 8,
@@ -1398,11 +1341,10 @@
     "initial_charges": 5,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "FLASHBANG_ACT"
   },
-
   {
     "id": "EMPbomb",
     "type": "TOOL",
@@ -1412,7 +1354,7 @@
     "description": "Use this item to pull the pin, turning it into an active EMP grenade. You will then have three turns before it detonates, creating an EMP field that damages robots and drains bionic energy.",
     "rarity": 2,
     "price": 600,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 8,
@@ -1422,11 +1364,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "EMPBOMB"
   },
-
   {
     "id": "EMPbomb_act",
     "type": "TOOL",
@@ -1436,7 +1377,7 @@
     "description": "This EMP grenade is active, and will shortly detonate, creating a large EMP field that damages robots and drains bionic energy.",
     "rarity": 0,
     "price": 0,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 8,
@@ -1446,11 +1387,10 @@
     "initial_charges": 3,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "EMPBOMB_ACT"
   },
-
   {
     "id": "scrambler",
     "type": "TOOL",
@@ -1460,7 +1400,7 @@
     "description": "This is a highly modified EMP grenade, designed to scramble robots' control chips, rather than destroy them. This converts the robot to your side for a  short time, before the backup systems kick in.",
     "rarity": 2,
     "price": 600,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 8,
@@ -1470,11 +1410,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SCRAMBLER"
   },
-
   {
     "id": "scrambler_act",
     "type": "TOOL",
@@ -1484,7 +1423,7 @@
     "description": "This scrambler grenade is active, and will soon detonate, releasing a control wave that temporarily converts robots to your side.",
     "rarity": 0,
     "price": 0,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 8,
@@ -1494,11 +1433,10 @@
     "initial_charges": 3,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SCRAMBLER_ACT"
   },
-
   {
     "id": "gasbomb",
     "type": "TOOL",
@@ -1518,11 +1456,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "GASBOMB"
   },
-
   {
     "id": "gasbomb_act",
     "type": "TOOL",
@@ -1542,11 +1479,10 @@
     "initial_charges": 5,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "GASBOMB_ACT"
   },
-
   {
     "id": "smokebomb",
     "type": "TOOL",
@@ -1566,11 +1502,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SMOKEBOMB"
   },
-
   {
     "id": "smokebomb_act",
     "type": "TOOL",
@@ -1590,34 +1525,33 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SMOKEBOMB_ACT"
   },
-
-  {   "id" : "flamable_arrow",
-      "type" : "TOOL",
-      "symbol" : "=",
-      "color" : "green",
-      "description" : "This arrow has a rag soaked in a flammable liquid wrapped around the shaft near the head. You need to light it before shooting.",
-      "rarity" : 5,
-      "price" : 350,
-      "material" : "wood",
-      "name" : "flamable arrow",
-      "volume" : 2,
-      "weight" : 40,
-      "bashing" : 2,
-      "cutting" : 0,
-      "to_hit" : 0,
-      "max_charges": 5,
-      "initial_charges": 5,
-      "charges_per_use": 0,
-      "turns_per_charge": 0,
-      "ammo": "none",
-      "revert_to": "null",
-      "use_action": "ARROW_FLAMABLE"
-   },
-
+  {
+    "id": "flamable_arrow",
+    "type": "TOOL",
+    "symbol": "=",
+    "color": "green",
+    "description": "This arrow has a rag soaked in a flammable liquid wrapped around the shaft near the head. You need to light it before shooting.",
+    "rarity": 5,
+    "price": 350,
+    "material": "wood",
+    "name": "flamable arrow",
+    "volume": 2,
+    "weight": 40,
+    "bashing": 2,
+    "cutting": 0,
+    "to_hit": 0,
+    "max_charges": 5,
+    "initial_charges": 5,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action": "ARROW_FLAMABLE"
+  },
   {
     "id": "molotov",
     "type": "TOOL",
@@ -1627,7 +1561,7 @@
     "description": "A bottle of flammable liquid with a rag inserted. Use this item to light the rag; you will, of course, need a lighter in your inventory to do this. After lighting it, throw it to cause fires.",
     "rarity": 0,
     "price": 200,
-    "material": ["glass", "cotton"],
+    "material": [ "glass", "cotton" ],
     "weight": 2,
     "volume": 2,
     "bashing": 8,
@@ -1637,11 +1571,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "MOLOTOV"
   },
-
   {
     "id": "molotov_lit",
     "type": "TOOL",
@@ -1651,7 +1584,7 @@
     "description": "A bottle of flammable liquid with a flaming rag inserted. Throwing it will cause the bottle to break, spreading fire. The flame may go out shortly if you do not throw it. Dropping it while lit is not safe.",
     "rarity": 0,
     "price": 0,
-    "material": ["glass", "cotton"],
+    "material": [ "glass", "cotton" ],
     "weight": 2,
     "volume": 2,
     "bashing": 8,
@@ -1661,11 +1594,10 @@
     "initial_charges": 1,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "molotov",
     "use_action": "MOLOTOV_LIT"
   },
-
   {
     "id": "acidbomb",
     "type": "TOOL",
@@ -1685,11 +1617,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "ACIDBOMB"
   },
-
   {
     "id": "acidbomb_act",
     "type": "TOOL",
@@ -1709,11 +1640,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "ACIDBOMB_ACT"
   },
-
   {
     "id": "dynamite",
     "type": "TOOL",
@@ -1733,11 +1663,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DYNAMITE"
   },
-
   {
     "id": "dynamite_act",
     "type": "TOOL",
@@ -1757,11 +1686,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DYNAMITE_ACT"
   },
-
   {
     "id": "firecracker_pack",
     "type": "TOOL",
@@ -1781,11 +1709,10 @@
     "initial_charges": 25,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "FIRECRACKER_PACK"
   },
-
   {
     "id": "firecracker_pack_act",
     "type": "TOOL",
@@ -1805,11 +1732,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "FIRECRACKER_PACK_ACT"
   },
-
   {
     "id": "firecracker",
     "type": "TOOL",
@@ -1829,11 +1755,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "FIRECRACKER"
   },
-
   {
     "id": "firecracker_act",
     "type": "TOOL",
@@ -1853,11 +1778,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "FIRECRACKER_ACT"
   },
-
   {
     "id": "mininuke",
     "type": "TOOL",
@@ -1867,7 +1791,7 @@
     "description": "An extremely powerful weapon--essentially a hand-held nuclear bomb. Use it to activate the timer. Ten turns later it will explode, leaving behind a radioactive crater. The explosion is large enough to take out a house.",
     "rarity": 1,
     "price": 1800,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 4,
     "volume": 3,
     "bashing": 8,
@@ -1877,11 +1801,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "MININUKE"
   },
-
   {
     "id": "mininuke_act",
     "type": "TOOL",
@@ -1891,7 +1814,7 @@
     "description": "This miniature nuclear bomb has a light blinking on the side, showing that it will soon explode. You should probably get far away from it.",
     "rarity": 0,
     "price": 0,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 4,
     "volume": 3,
     "bashing": 8,
@@ -1901,11 +1824,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "MININUKE_ACT"
   },
-
   {
     "id": "pheromone",
     "type": "TOOL",
@@ -1915,7 +1837,7 @@
     "description": "This is some kind of disgusting ball of rotting meat. Squeezing it causes a small cloud of pheromones to spray into the air, causing nearby zombies to become friendly for a short period of time.",
     "rarity": 1,
     "price": 400,
-    "material": ["flesh", "plastic"],
+    "material": [ "flesh", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": -5,
@@ -1925,11 +1847,10 @@
     "initial_charges": 3,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PHEROMONE"
   },
-
   {
     "id": "portal",
     "type": "TOOL",
@@ -1939,7 +1860,7 @@
     "description": "A rare and arcane device, covered in alien markings.",
     "rarity": 2,
     "price": 6600,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 10,
     "volume": 2,
     "bashing": 6,
@@ -1949,11 +1870,10 @@
     "initial_charges": 10,
     "charges_per_use": 5,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PORTAL"
   },
-
   {
     "id": "bot_manhack",
     "type": "TOOL",
@@ -1963,7 +1883,7 @@
     "description": "An inactive manhack. Manhacks are fist-sized robots that fly through the air. They are covered with whirring blades and attack by throwing themselves against their target. Use this item to activate the manhack.",
     "rarity": 1,
     "price": 600,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 3,
     "volume": 1,
     "bashing": 6,
@@ -1973,11 +1893,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "MANHACK"
   },
-
   {
     "id": "bot_turret",
     "type": "TOOL",
@@ -1987,7 +1906,7 @@
     "description": "An inactive turret. Using this item involves turning it on and placing it on the ground, where it will attach itself. The turret will then identify you as a friendly, and attack all enemies with an SMG.",
     "rarity": 1,
     "price": 4000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 12,
     "volume": 12,
     "bashing": 8,
@@ -1997,11 +1916,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "TURRET"
   },
-
   {
     "id": "UPS_off",
     "type": "TOOL",
@@ -2011,7 +1929,7 @@
     "description": "A unified power supply, or UPS, is a device developed jointly by military and scientific interests for use in combat and the field. The UPS is designed to power armor and some guns, but drains batteries quickly.",
     "rarity": 5,
     "price": 2800,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 6,
     "volume": 12,
     "bashing": 10,
@@ -2025,7 +1943,6 @@
     "revert_to": "null",
     "use_action": "UPS_OFF"
   },
-
   {
     "id": "UPS_on",
     "type": "TOOL",
@@ -2035,7 +1952,7 @@
     "description": "A unified power supply, or UPS, is a device developed jointly by military and scientific interests for use in combat and the field. The UPS is designed to power armor and some guns, but drains batteries quickly.",
     "rarity": 0,
     "price": 2800,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 6,
     "volume": 12,
     "bashing": 10,
@@ -2049,7 +1966,52 @@
     "revert_to": "UPS_off",
     "use_action": "UPS_ON"
   },
-
+  {
+    "id": "adv_UPS_off",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "light_green",
+    "name": "advanced UPS (off)",
+    "description": "An advanced version of the unified power supply, or UPS. This device has been significantly redesigned to provide better effeciency as well as to consume plutonium fuel cells rather than batteries.",
+    "rarity": 3,
+    "price": 5600,
+    "material": [ "steel", "plastic" ],
+    "weight": 4,
+    "volume": 8,
+    "bashing": 10,
+    "cutting": 0,
+    "to_hit": -1,
+    "max_charges": 2500,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "plutonium",
+    "revert_to": "null",
+    "use_action": "adv_UPS_OFF"
+  },
+  {
+    "id": "adv_UPS_on",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "light_green",
+    "name": "advanced UPS (on)",
+    "description": "An advanced version of the unified power supply, or UPS. This device has been significantly redesigned to provide better effeciency as well as to consume plutonium fuel cells rather than batteries.",
+    "rarity": 0,
+    "price": 5600,
+    "material": [ "steel", "plastic" ],
+    "weight": 4,
+    "volume": 8,
+    "bashing": 10,
+    "cutting": 0,
+    "to_hit": -1,
+    "max_charges": 2500,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 50,
+    "ammo": "plutonium",
+    "revert_to": "adv_UPS_off",
+    "use_action": "adv_UPS_ON"
+  },
   {
     "id": "tazer",
     "type": "TOOL",
@@ -2059,7 +2021,7 @@
     "description": "A high-powered stun gun. Use this item to attempt to electrocute an adjacent enemy, damaging and temporarily paralyzing them. Because the shock can actually jump through the air, it is difficult to miss.",
     "rarity": 3,
     "price": 1400,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 3,
     "volume": 1,
     "bashing": 6,
@@ -2073,7 +2035,6 @@
     "revert_to": "null",
     "use_action": "TAZER"
   },
-
   {
     "id": "mp3",
     "type": "TOOL",
@@ -2083,7 +2044,7 @@
     "description": "This battery-devouring device is loaded up with someone's music collection. Fortunately, there's lots of songs you like, and listening to it will raise your morale slightly. Use it to turn it on.",
     "rarity": 18,
     "price": 800,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 0,
@@ -2097,7 +2058,6 @@
     "revert_to": "null",
     "use_action": "MP3"
   },
-
   {
     "id": "mp3_on",
     "type": "TOOL",
@@ -2107,7 +2067,7 @@
     "description": "This mp3 player is turned on and playing some great tunes, raising your morale steadily while on your person. It runs through batteries quickly; you can turn it off by using it. It also obscures your hearing.",
     "rarity": 0,
     "price": 800,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 1,
     "volume": 1,
     "bashing": 0,
@@ -2121,7 +2081,6 @@
     "revert_to": "mp3",
     "use_action": "MP3_ON"
   },
-
   {
     "id": "vortex_stone",
     "type": "TOOL",
@@ -2141,12 +2100,11 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "VORTEX"
   },
-
-   {
+  {
     "id": "etched_skull",
     "type": "TOOL",
     "symbol": ";",
@@ -2155,7 +2113,7 @@
     "description": "A human skull with strange etchings covering it.",
     "rarity": 0,
     "price": 3000,
-    "material": "FLESH",
+    "material": "flesh",
     "weight": 2,
     "volume": 2,
     "bashing": 6,
@@ -2165,11 +2123,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "dogfood",
     "type": "TOOL",
@@ -2189,11 +2146,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DOGFOOD"
   },
-
   {
     "id": "boobytrap",
     "type": "TOOL",
@@ -2203,7 +2159,7 @@
     "description": "A crude explosive device triggered by a piece of string.",
     "rarity": 0,
     "price": 500,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 2,
     "volume": 3,
     "bashing": 0,
@@ -2213,11 +2169,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "c4",
     "type": "TOOL",
@@ -2227,7 +2182,7 @@
     "description": "Highly explosive, use with caution! Armed with a small timer.",
     "rarity": 5,
     "price": 6000,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "weight": 2,
     "volume": 6,
     "bashing": 0,
@@ -2237,11 +2192,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "C4"
   },
-
   {
     "id": "c4armed",
     "type": "TOOL",
@@ -2251,7 +2205,7 @@
     "description": "Highly explosive, use with caution. Comes with a small timer. It's armed and ticking!",
     "rarity": 0,
     "price": 6000,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "weight": 2,
     "volume": 6,
     "bashing": 0,
@@ -2261,11 +2215,10 @@
     "initial_charges": 9,
     "charges_per_use": 0,
     "turns_per_charge": 1,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "C4ARMED"
   },
-
   {
     "id": "dog_whistle",
     "type": "TOOL",
@@ -2285,11 +2238,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DOG_WHISTLE"
   },
-
   {
     "id": "vacutainer",
     "type": "TOOL",
@@ -2310,11 +2262,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "VACUTAINER"
   },
-
   {
     "id": "welder",
     "type": "TOOL",
@@ -2338,7 +2289,6 @@
     "revert_to": "null",
     "use_action": "SOLDER_WELD"
   },
-
   {
     "id": "cot",
     "type": "TOOL",
@@ -2348,7 +2298,7 @@
     "description": "A military style fold up cot, not quite as comfortable as a bed but much better than slumming it on the ground.",
     "rarity": 40,
     "price": 1000,
-    "material": ["iron", "cotton"],
+    "material": [ "iron", "cotton" ],
     "weight": 10,
     "volume": 8,
     "bashing": 6,
@@ -2358,11 +2308,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "rollmat",
     "type": "TOOL",
@@ -2382,11 +2331,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "xacto",
     "type": "TOOL",
@@ -2396,7 +2344,7 @@
     "description": "A small, very sharp knife.  Causes decent damage but is difficult to hit with. Its small tip allows for a precision strike in the hands of the skilled. It is too small to butcher corpses with.",
     "rarity": 10,
     "price": 40,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "flags": "SPEAR",
     "techniques": "PRECISE",
     "weight": 0,
@@ -2408,11 +2356,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "scalpel",
     "type": "TOOL",
@@ -2434,11 +2381,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "machete",
     "type": "TOOL",
@@ -2454,17 +2400,16 @@
     "volume": 8,
     "bashing": 6,
     "cutting": 28,
-    "flags" : ["CHOP"],
+    "flags": [ "CHOP" ],
     "to_hit": 2,
     "max_charges": 0,
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "katana",
     "type": "TOOL",
@@ -2476,7 +2421,7 @@
     "price": 980,
     "material": "steel",
     "flags": "SLICE",
-    "techniques": ["RAPID", "WBLOCK_2"],
+    "techniques": [ "RAPID", "WBLOCK_2" ],
     "weight": 16,
     "volume": 16,
     "bashing": 4,
@@ -2486,11 +2431,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "spear_knife",
     "type": "TOOL",
@@ -2500,9 +2444,9 @@
     "description": "A simple wood pole made deadlier by the blade tied to it.",
     "rarity": 5,
     "price": 140,
-    "material": ["wood", "steel"],
+    "material": [ "wood", "steel" ],
     "flags": "SPEAR",
-    "techniques": ["WBLOCK_1", "RAPID"],
+    "techniques": [ "WBLOCK_1", "RAPID" ],
     "weight": 6,
     "volume": 6,
     "bashing": 2,
@@ -2512,11 +2456,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "rapier",
     "type": "TOOL",
@@ -2528,7 +2471,7 @@
     "price": 980,
     "material": "steel",
     "flags": "STAB",
-    "techniques": ["RAPID", "WBLOCK_1", "PRECISE"],
+    "techniques": [ "RAPID", "WBLOCK_1", "PRECISE" ],
     "weight": 9,
     "volume": 6,
     "bashing": 5,
@@ -2538,11 +2481,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "pike",
     "type": "TOOL",
@@ -2552,7 +2494,7 @@
     "description": "A medieval weapon consisting of a wood shaft, tipped with an iron spike. Though large and heavy compared to other spears, its accuracy and damage are unparalled.",
     "rarity": 5,
     "price": 2000,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "flags": "SPEAR",
     "weight": 18,
     "volume": 14,
@@ -2563,11 +2505,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "broadsword",
     "type": "TOOL",
@@ -2589,11 +2530,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "makeshift_machete",
     "type": "TOOL",
@@ -2614,11 +2554,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "makeshift_halberd",
     "type": "TOOL",
@@ -2640,11 +2579,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "knife_steak",
     "type": "TOOL",
@@ -2665,11 +2603,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "knife_butcher",
     "type": "TOOL",
@@ -2684,17 +2621,16 @@
     "volume": 3,
     "bashing": 4,
     "cutting": 18,
-    "flags" : ["CHOP"],
+    "flags": [ "CHOP" ],
     "to_hit": -3,
     "max_charges": 0,
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "knife_combat",
     "type": "TOOL",
@@ -2704,7 +2640,7 @@
     "description": "Designed for combat, and deadly in the right hands. Can be used to butcher corpses.",
     "rarity": 14,
     "price": 100,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "STAB",
     "weight": 2,
     "volume": 2,
@@ -2715,11 +2651,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "saw",
     "type": "TOOL",
@@ -2729,7 +2664,7 @@
     "description": "A flimsy saw, useful for cutting through wood objects.",
     "rarity": 15,
     "price": 40,
-    "material": ["iron", "wood"],
+    "material": [ "iron", "wood" ],
     "weight": 3,
     "volume": 7,
     "bashing": -6,
@@ -2739,11 +2674,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LUMBER"
   },
-
   {
     "id": "ax",
     "type": "TOOL",
@@ -2753,22 +2687,21 @@
     "description": "A large two-handed axe. Makes a good melee weapon, but is a bit slow.",
     "rarity": 8,
     "price": 105,
-    "material": ["wood", "iron"],
+    "material": [ "wood", "iron" ],
     "weight": 15,
     "volume": 17,
     "bashing": 24,
     "cutting": 18,
-    "flags" : ["CHOP"],
+    "flags": [ "CHOP" ],
     "to_hit": 1,
     "max_charges": 0,
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LUMBER"
   },
-
   {
     "id": "hacksaw",
     "type": "TOOL",
@@ -2788,11 +2721,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "HACKSAW"
   },
-
   {
     "id": "tent_kit",
     "type": "TOOL",
@@ -2812,11 +2744,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "TENT"
   },
-
   {
     "id": "torch",
     "type": "TOOL",
@@ -2836,11 +2767,10 @@
     "initial_charges": 25,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "TORCH"
   },
-
   {
     "id": "torch_lit",
     "type": "TOOL",
@@ -2851,6 +2781,7 @@
     "rarity": 95,
     "price": 0,
     "material": "wood",
+    "techniques": "FLAMING",
     "flags": "FIRE",
     "weight": 10,
     "volume": 6,
@@ -2861,11 +2792,10 @@
     "initial_charges": 75,
     "charges_per_use": 1,
     "turns_per_charge": 20,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "torch_done",
     "use_action": "TORCH_LIT"
   },
-
   {
     "id": "candle",
     "type": "TOOL",
@@ -2885,11 +2815,10 @@
     "initial_charges": 100,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "can_food",
     "use_action": "CANDLE"
   },
-
   {
     "id": "candle_lit",
     "type": "TOOL",
@@ -2910,11 +2839,10 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 50,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "CANDLE_LIT"
   },
-
   {
     "id": "brazier",
     "type": "TOOL",
@@ -2934,11 +2862,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "funnel",
     "type": "TOOL",
@@ -2958,11 +2885,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SET_TRAP"
   },
-
   {
     "id": "puller",
     "type": "TOOL",
@@ -2972,7 +2898,7 @@
     "description": "A tool used for disassembling firearm ammunition.",
     "rarity": 5,
     "price": 100,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 4,
     "volume": 2,
     "bashing": 10,
@@ -2982,11 +2908,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "BULLET_PULLER"
   },
-
   {
     "id": "press",
     "type": "TOOL",
@@ -2996,7 +2921,7 @@
     "description": "A small hand press for hand loading firearm ammunition. Comes with everything  you need to start hand loading.",
     "rarity": 5,
     "price": 100,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 4,
     "volume": 2,
     "bashing": 8,
@@ -3010,7 +2935,6 @@
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "screwdriver",
     "type": "TOOL",
@@ -3020,7 +2944,7 @@
     "description": "A Philips-head screwdriver, important for almost all electronics crafting and most mechanics crafting.",
     "rarity": 40,
     "price": 65,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "flags": "SPEAR",
     "weight": 1,
     "volume": 1,
@@ -3031,11 +2955,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "wrench",
     "type": "TOOL",
@@ -3055,11 +2978,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "snare_trigger",
     "type": "TOOL",
@@ -3079,11 +3001,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "boltcutters",
     "type": "TOOL",
@@ -3093,7 +3014,7 @@
     "description": "A large pair of bolt cutters, you could use them to cut padlocks or heavy gauge wire.",
     "rarity": 5,
     "price": 100,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 4,
     "volume": 5,
     "bashing": 10,
@@ -3103,11 +3024,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "BOLTCUTTERS"
   },
-
   {
     "id": "mop",
     "type": "TOOL",
@@ -3128,19 +3048,18 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "MOP"
   },
-
   {
     "id": "picklocks",
     "type": "TOOL",
     "symbol": ";",
     "color": "blue",
     "name": "picklock kit",
-    "description": "A set of sturdy steel picklocks, essential for silently opening locks.",
-    "rarity": 20,
+    "description": "A Locksmith's set of sturdy steel picklocks, essential for silently and quickly opening locks.",
+    "rarity": 10,
     "price": 0,
     "material": "steel",
     "weight": 0,
@@ -3152,11 +3071,33 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PICKLOCK"
   },
-
+  {
+    "id": "crude_picklock",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "blue",
+    "name": "improvised picklock",
+    "description": "An improvised easy breaking picklock made from scrap metal, needs MacGyver like skills to open locks, it's light material lessens chances of alarms being set off.",
+    "rarity": 20,
+    "price": 0,
+    "material": "iron",
+    "weight": 0,
+    "volume": 0,
+    "bashing": 0,
+    "cutting": 0,
+    "to_hit": 0,
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action": "PICKLOCK"
+  },
   {
     "id": "safe_box",
     "type": "TOOL",
@@ -3166,7 +3107,7 @@
     "description": "A combination lock box, breaking inside would destroy anything of value.",
     "rarity": 0,
     "price": 800,
-    "material": "STEEL",
+    "material": "steel",
     "weight": 20,
     "volume": 15,
     "bashing": 10,
@@ -3176,11 +3117,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "pickaxe",
     "type": "TOOL",
@@ -3200,11 +3140,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PICKAXE"
   },
-
   {
     "id": "spray_can",
     "type": "TOOL",
@@ -3224,11 +3163,10 @@
     "initial_charges": 10,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SPRAY_CAN"
   },
-
   {
     "id": "permanent_marker",
     "type": "TOOL",
@@ -3248,11 +3186,10 @@
     "initial_charges": 500,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SPRAY_CAN"
   },
-
   {
     "id": "rag",
     "type": "TOOL",
@@ -3272,11 +3209,11 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "RAG"
   },
-   {
+  {
     "id": "plastic_chunk",
     "type": "TOOL",
     "symbol": ",",
@@ -3295,11 +3232,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-  
   {
     "id": "kevlar_plate",
     "type": "TOOL",
@@ -3319,11 +3255,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "pda",
     "type": "TOOL",
@@ -3333,7 +3268,7 @@
     "description": "A small multipurpose electronic device. Can be loaded with a variety of apps, providing all kinds of functionality.",
     "rarity": 60,
     "price": 35,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 1,
     "volume": 1,
     "bashing": 0,
@@ -3343,11 +3278,10 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PDA"
   },
-
   {
     "id": "pda_flashlight",
     "type": "TOOL",
@@ -3357,7 +3291,7 @@
     "description": "A small multipurpose electronic device. This PDA has its flashlight app on, and is providing light.",
     "rarity": 60,
     "price": 35,
-    "material": ["plastic", "iron"],
+    "material": [ "plastic", "iron" ],
     "weight": 1,
     "volume": 1,
     "bashing": 0,
@@ -3367,11 +3301,10 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "PDA_FLASHLIGHT"
   },
-
   {
     "id": "pockknife",
     "type": "TOOL",
@@ -3381,7 +3314,7 @@
     "description": "A small pocket knife, not great for combat, but better than nothing.",
     "rarity": 14,
     "price": 100,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "STAB",
     "weight": 2,
     "volume": 0,
@@ -3392,11 +3325,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "KNIFE"
   },
-
   {
     "id": "needle_bone",
     "type": "TOOL",
@@ -3417,11 +3349,10 @@
     "initial_charges": 0,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "thread",
+    "ammo": "THREAD",
     "revert_to": "null",
     "use_action": "SEW"
   },
-
   {
     "id": "primitive_hammer",
     "type": "TOOL",
@@ -3431,7 +3362,7 @@
     "description": "A rock affixed to a stick, functions adequately as a hammer, but really can't compare to a proper hammer.",
     "rarity": 35,
     "price": 70,
-    "material": ["stone", "wood"],
+    "material": [ "stone", "wood" ],
     "weight": 8,
     "volume": 2,
     "bashing": 12,
@@ -3441,11 +3372,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "HAMMER"
   },
-
   {
     "id": "primitive_axe",
     "type": "TOOL",
@@ -3455,22 +3385,21 @@
     "description": "A sharpened stone affixed to a stick, works passably well as an axe but really can't compare to a proper axe..",
     "rarity": 8,
     "price": 105,
-    "material": ["wood", "stone"],
+    "material": [ "wood", "stone" ],
     "weight": 19,
     "volume": 17,
     "bashing": 15,
     "cutting": 18,
-    "flags" : ["CHOP"],
+    "flags": [ "CHOP" ],
     "to_hit": 0,
     "max_charges": 0,
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LUMBER"
   },
-
   {
     "id": "primitive_shovel",
     "type": "TOOL",
@@ -3480,7 +3409,7 @@
     "description": "A flattened stone affixed to a stick, works passably well as a shovel but really can't compare to a real shovel.",
     "rarity": 40,
     "price": 100,
-    "material": ["stone", "wood"],
+    "material": [ "stone", "wood" ],
     "weight": 21,
     "volume": 16,
     "bashing": 15,
@@ -3490,11 +3419,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DIG"
   },
-
   {
     "id": "digging_stick",
     "type": "TOOL",
@@ -3514,11 +3442,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DIG"
   },
-
   {
     "id": "shelter_kit",
     "type": "TOOL",
@@ -3528,7 +3455,7 @@
     "description": "A small shelter, made of sticks and skins. (a)ctivate it to place.",
     "rarity": 17,
     "price": 65,
-    "material": ["wood", "leather"],
+    "material": [ "wood", "leather" ],
     "weight": 20,
     "volume": 40,
     "bashing": 4,
@@ -3538,11 +3465,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "SHELTER"
   },
-
   {
     "id": "damaged_shelter_kit",
     "type": "TOOL",
@@ -3552,7 +3478,7 @@
     "description": "A small shelter, made of sticks and skins. (a)ctivate it to place. This shelter has been damaged, and needs repairs.",
     "rarity": 17,
     "price": 65,
-    "material": ["wood", "leather"],
+    "material": [ "wood", "leather" ],
     "weight": 20,
     "volume": 40,
     "bashing": 4,
@@ -3562,11 +3488,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "heatpack",
     "type": "TOOL",
@@ -3586,11 +3511,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "HEATPACK"
   },
-
   {
     "id": "heatpack_used",
     "type": "TOOL",
@@ -3610,11 +3534,10 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "LAW_Packed",
     "type": "TOOL",
@@ -3634,11 +3557,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "LAW"
   },
-
   {
     "id": "jar_meat_canned",
     "type": "TOOL",
@@ -3648,7 +3570,7 @@
     "description": "A sealed glass jar containing some meat.  Activate to open and enjoy.",
     "rarity": 50,
     "price": 75,
-    "material": ["glass", "flesh"],
+    "material": [ "glass", "flesh" ],
     "weight": 3,
     "volume": 2,
     "bashing": 8,
@@ -3658,11 +3580,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEJAR"
   },
-
   {
     "id": "jar_human_canned",
     "type": "TOOL",
@@ -3672,7 +3593,7 @@
     "description": "A sealed glass jar containing human meat.  Activate to open and enjoy.",
     "rarity": 50,
     "price": 75,
-    "material": ["glass", "flesh"],
+    "material": [ "glass", "flesh" ],
     "weight": 3,
     "volume": 2,
     "bashing": 8,
@@ -3682,11 +3603,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEJAR"
   },
-
   {
     "id": "jar_veggy_canned",
     "type": "TOOL",
@@ -3696,7 +3616,7 @@
     "description": "A sealed glass jar containing veggy.  Activate to open and enjoy.",
     "rarity": 50,
     "price": 65,
-    "material": ["glass", "veggy"],
+    "material": [ "glass", "veggy" ],
     "weight": 3,
     "volume": 2,
     "bashing": 8,
@@ -3706,11 +3626,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEJAR"
   },
-
   {
     "id": "jar_apple_canned",
     "type": "TOOL",
@@ -3720,7 +3639,7 @@
     "description": "A sealed glass jar containing a sliced apple.  Activate to open and enjoy.",
     "rarity": 50,
     "price": 50,
-    "material": ["glass", "veggy"],
+    "material": [ "glass", "veggy" ],
     "weight": 3,
     "volume": 2,
     "bashing": 8,
@@ -3730,11 +3649,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEJAR"
   },
-
   {
     "id": "cordless_drill",
     "type": "TOOL",
@@ -3744,7 +3662,7 @@
     "description": "A cordless drill with a selection of drill bits. The charger base contains a battery draining attachment so the drill can be charged in lieu of mains power.",
     "rarity": 70,
     "price": 200,
-    "material": ["plastic", "steel"],
+    "material": [ "plastic", "steel" ],
     "flags": "NO_UNLOAD",
     "weight": 4,
     "volume": 5,
@@ -3759,7 +3677,6 @@
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "vac_sealer",
     "type": "TOOL",
@@ -3769,7 +3686,7 @@
     "description": "A portable heat sealer unit with an air pump, for vacuum packing of food.",
     "rarity": 10,
     "price": 250,
-    "material": ["iron", "plastic"],
+    "material": [ "iron", "plastic" ],
     "weight": 6,
     "volume": 5,
     "bashing": 8,
@@ -3783,7 +3700,6 @@
     "revert_to": "null",
     "use_action": "NONE"
   },
-
   {
     "id": "bag_meat_vac",
     "type": "TOOL",
@@ -3793,7 +3709,7 @@
     "description": "Vacuum packed meat slices in plastic packaging.  Activate to open and enjoy.",
     "rarity": 50,
     "price": 75,
-    "material": ["plastic", "flesh"],
+    "material": [ "plastic", "flesh" ],
     "weight": 2,
     "volume": 1,
     "bashing": 8,
@@ -3803,11 +3719,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEVAC"
   },
-
   {
     "id": "bag_veggy_vac",
     "type": "TOOL",
@@ -3817,7 +3732,7 @@
     "description": "Vacuum packed veggy chunks in plastic packaging.  Activate to open and enjoy.",
     "rarity": 50,
     "price": 65,
-    "material": ["plastic", "veggy"],
+    "material": [ "plastic", "veggy" ],
     "weight": 2,
     "volume": 1,
     "bashing": 8,
@@ -3827,11 +3742,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEVAC"
   },
-  
   {
     "id": "bag_apple_vac",
     "type": "TOOL",
@@ -3841,7 +3755,7 @@
     "description": "Vacuum packed apple slices in plastic packaging..  Activate to open and enjoy.",
     "rarity": 50,
     "price": 50,
-    "material": ["plastic", "veggy"],
+    "material": [ "plastic", "veggy" ],
     "weight": 2,
     "volume": 1,
     "bashing": 8,
@@ -3851,37 +3765,10 @@
     "initial_charges": 1,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "DEVAC"
   },
-
-  {
-    "id": "captiveboltgun",
-    "type": "TOOL",
-    "symbol": "/",
-    "color": "red",
-    "name": "Captive Bolt Gun",
-    "description": "A hose connected to an oxygen canister. You wonder what the thing at the end of the hose does, friendo.",
-    "rarity": 0,
-    "price": 350,
-    "material": ["iron", "plastic"],
-    "techniques": "PRECISE",
-    "weight": 40,
-    "volume": 12,
-    "bashing": 40,
-    "cutting": 70,
-    "flags" : ["RAPID", "SPEAR"],
-    "to_hit": 5,
-    "max_charges": 400,
-    "initial_charges": 0,
-    "charges_per_use": 10,
-    "turns_per_charge": 1,
-    "ammo": "gasoline",
-    "revert_to": "null",
-    "use_action": "TAZER"
-  },
-  
   {
     "id": "medical_gauze",
     "type": "TOOL",
@@ -3901,8 +3788,102 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "none",
+    "ammo": "NULL",
     "revert_to": "null",
     "use_action": "RAG"
+  },
+  {
+    "id": "talking_doll",
+    "type": "TOOL",
+    "symbol": "|",
+    "color": "brown",
+    "name": "talking doll",
+    "description": "A talking doll for children, luckily it still works.",
+    "rarity": 70,
+    "price": 20,
+    "material": "plastic",
+    "weight": 0,
+    "volume": 4,
+    "bashing": -3,
+    "cutting": 0,
+    "to_hit": -1,
+    "max_charges": 100,
+    "initial_charges": 20,
+    "charges_per_use": 1,
+    "turns_per_charge": 20,
+    "ammo": "battery",
+    "revert_to": "null",
+    "use_action": "NONE"
+  },
+  {
+    "id": "towel",
+    "type": "TOOL",
+    "symbol": ",",
+    "color": "cyan",
+    "name": "towel",
+    "description": "A fluffy towel, can be used to dry yourself.",
+    "rarity": 50,
+    "price": 45,
+    "material": "cotton",
+    "weight": 1,
+    "volume": 2,
+    "bashing": 0,
+    "cutting": 8,
+    "to_hit": -1,
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "none",
+    "revert_to": "null",
+    "use_action": "ABSORBENT"
+  },
+  {
+    "id": "folding_bicycle",
+    "type": "TOOL",
+    "symbol": "0",
+    "color": "white",
+    "name": "folding bicycle",
+    "description": "A bicycle folded into a relatively portable package.",
+    "rarity": 2,
+    "price": 3500,
+    "material": "steel",
+    "weight": 88,
+    "volume": 86,
+    "bashing": 10,
+    "cutting": 0,
+    "to_hit": -5,
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "none",
+    "revert_to": "null",
+    "use_action": "UNFOLD_BICYCLE"
+  },
+  {
+    "id": "captiveboltgun",
+    "type": "TOOL",
+    "symbol": "/",
+    "color": "red",
+    "name": "Captive Bolt Gun",
+    "description": "A hose connected to an oxygen canister. You wonder what the thing at the end of the hose does, friendo.",
+    "rarity": 0,
+    "price": 350,
+    "material": [ "iron", "plastic" ],
+    "techniques": "PRECISE",
+    "weight": 40,
+    "volume": 12,
+    "bashing": 40,
+    "cutting": 70,
+    "flags": [ "RAPID", "SPEAR" ],
+    "to_hit": 5,
+    "max_charges": 400,
+    "initial_charges": 0,
+    "charges_per_use": 10,
+    "turns_per_charge": 1,
+    "ammo": "gasoline",
+    "revert_to": "null",
+    "use_action": "TAZER"
   }
 ]
