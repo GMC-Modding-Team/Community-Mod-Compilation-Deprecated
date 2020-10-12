@@ -134,6 +134,7 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "min_damage": -100,
     "max_damage": -200,
     "min_range": 1
@@ -149,6 +150,7 @@
     "min_duration": 300,
     "max_duration": 300,
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "dmbb_rune_chronostasis_item",
     "sound_type": "combat",
     "sound_ambient": true,
@@ -166,6 +168,7 @@
     "min_duration": 300,
     "max_duration": 700,
     "effect": "spawn_item",
+    "shape": "blast",
     "effect_str": "dmbb_rune_etherealphase_item",
     "sound_type": "combat",
     "sound_ambient": true,
