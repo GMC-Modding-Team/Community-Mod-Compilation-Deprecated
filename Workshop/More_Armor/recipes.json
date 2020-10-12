@@ -27,12 +27,7 @@
     "time": 12000,
     "reversible": true,
     "autolearn": true,
-    "components": [
-      [ [ "chainmail_suit", 1 ] ],
-      [ [ "gloves_plate", 1 ] ],
-      [ [ "boots_plate", 1 ] ],
-      [ [ "cable", 50 ] ]
-    ]
+    "components": [ [ [ "chainmail_suit", 1 ] ], [ [ "gloves_plate", 1 ] ], [ [ "boots_plate", 1 ] ], [ [ "cable", 50 ] ] ]
   },
   {
     "result": "jumpsuit_leather",
@@ -69,10 +64,7 @@
     "time": 38000,
     "book_learn": [ [ "textbook_tailor", 4 ], [ "manual_tailor", 5 ], [ "tailor_portfolio", 4 ] ],
     "using": [ [ "sewing_standard", 20 ] ],
-    "components": [
-      [ [ "jumpsuit_leather", 1 ] ],
-      [ [ "leather", 10 ] ]
-    ]
+    "components": [ [ [ "jumpsuit_leather", 1 ] ], [ [ "leather", 10 ] ] ]
   },
   {
     "result": "jumpsuit_leather_mod",
@@ -85,10 +77,7 @@
     "time": 28000,
     "book_learn": [ [ "textbook_tailor", 5 ], [ "manual_tailor", 6 ], [ "tailor_portfolio", 5 ] ],
     "using": [ [ "sewing_standard", 26 ] ],
-    "components": [
-      [ [ "steel_chunk", 6 ], [ "scrap", 18 ] ],
-      [ [ "jumpsuit_leather", 1 ] ]
-    ]
+    "components": [ [ [ "steel_chunk", 6 ], [ "scrap", 18 ] ], [ [ "jumpsuit_leather", 1 ] ] ]
   },
   {
     "result": "jumpsuit_xlleather_mod",
@@ -101,10 +90,7 @@
     "time": 50000,
     "book_learn": [ [ "textbook_tailor", 5 ], [ "manual_tailor", 6 ], [ "tailor_portfolio", 5 ] ],
     "using": [ [ "sewing_standard", 47 ] ],
-    "components": [
-      [ [ "steel_chunk", 11 ], [ "scrap", 32 ] ],
-      [ [ "jumpsuit_xlleather", 1 ] ]
-    ]
+    "components": [ [ [ "steel_chunk", 11 ], [ "scrap", 32 ] ], [ [ "jumpsuit_xlleather", 1 ] ] ]
   },
   {
     "result": "armguard_xllarmor",
@@ -210,29 +196,20 @@
     "difficulty": 4,
     "time": 63000,
     "autolearn": true,
-    "components": [
-      [ [ "string_36", 2 ], [ "string_6", 8 ] ],
-      [ [ "chitin_piece", 8 ] ]
-    ]
+    "components": [ [ [ "string_36", 2 ], [ "string_6", 8 ] ], [ [ "chitin_piece", 8 ] ] ]
   },
-    {
+  {
     "result": "gauntlets_xlacidchitin",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
     "difficulty": 5,
-    "skills_required": [[ "survival", 4 ], [ "firstaid", 2 ]],
+    "skills_required": [ [ "survival", 4 ], [ "firstaid", 2 ] ],
     "time": 126000,
     "autolearn": true,
-    "qualities": [
-      { "id": "CUT_FINE", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
-    "components": [
-      [ [ "string_36", 2 ], [ "string_6", 8 ] ],
-      [ [ "acidchitin_piece", 13 ] ]
-    ]
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "string_36", 2 ], [ "string_6", 8 ] ], [ [ "acidchitin_piece", 13 ] ] ]
   },
   {
     "result": "helmet_xlchitin",
@@ -243,10 +220,7 @@
     "difficulty": 6,
     "time": 129000,
     "autolearn": true,
-    "components": [
-      [ [ "string_36", 2 ], [ "string_6", 11 ] ],
-      [ [ "chitin_piece", 11 ] ]
-    ]
+    "components": [ [ [ "string_36", 2 ], [ "string_6", 11 ] ], [ [ "chitin_piece", 11 ] ] ]
   },
   {
     "result": "helmet_xlacidchitin",
@@ -255,17 +229,11 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "tailor",
     "difficulty": 7,
-    "skills_required": [[ "survival", 4 ], [ "firstaid", 2 ]],
+    "skills_required": [ [ "survival", 4 ], [ "firstaid", 2 ] ],
     "time": 258000,
     "autolearn": true,
-    "qualities": [
-      { "id": "CUT_FINE", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
-    "components": [
-      [ [ "string_36", 2 ], [ "string_6", 11 ] ],
-      [ [ "acidchitin_piece", 17 ] ]
-    ]
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "string_36", 2 ], [ "string_6", 11 ] ], [ [ "acidchitin_piece", 17 ] ] ]
   },
   {
     "result": "armguard_xlchitin",
@@ -276,10 +244,7 @@
     "difficulty": 5,
     "time": 54000,
     "autolearn": true,
-    "components": [
-      [ [ "string_36", 2 ], [ "string_6", 7 ] ],
-      [ [ "chitin_piece", 7 ] ]
-    ]
+    "components": [ [ [ "string_36", 2 ], [ "string_6", 7 ] ], [ [ "chitin_piece", 7 ] ] ]
   },
   {
     "result": "armguard_xlacidchitin",
@@ -288,17 +253,11 @@
     "subcategory": "CSC_ARMOR_ARMS",
     "skill_used": "tailor",
     "difficulty": 6,
-    "skills_required": [[ "survival", 4 ], [ "firstaid", 2 ]],
+    "skills_required": [ [ "survival", 4 ], [ "firstaid", 2 ] ],
     "time": 108000,
     "autolearn": true,
-    "qualities": [
-      { "id": "CUT_FINE", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
-    "components": [
-      [ [ "string_36", 2 ], [ "string_6", 7 ] ],
-      [ [ "acidchitin_piece", 11 ] ]
-    ]
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "string_36", 2 ], [ "string_6", 7 ] ], [ [ "acidchitin_piece", 11 ] ] ]
   },
   {
     "result": "armor_xlchitin",
@@ -320,14 +279,11 @@
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
     "difficulty": 8,
-    "skills_required": [[ "survival", 4 ], [ "firstaid", 2 ]],
+    "skills_required": [ [ "survival", 4 ], [ "firstaid", 2 ] ],
     "time": 360000,
     "autolearn": true,
     "using": [ [ "cordage", 4 ] ],
-    "qualities": [
-      { "id": "CUT_FINE", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [ [ [ "acidchitin_piece", 27 ] ] ]
   },
   {
@@ -578,11 +534,7 @@
     "difficulty": 8,
     "time": 1008000,
     "book_learn": [ [ "textbook_armwest", 7 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [
       [ [ "tongs", -1 ] ],
       [ [ "swage", -1 ] ],
@@ -604,11 +556,7 @@
     "difficulty": 3,
     "time": 20000,
     "reversible": true,
-    "components": [
-      [ [ "cuirass_xllightplate", 1 ] ],
-      [ [ "armguard_xllightplate", 1 ] ],
-      [ [ "legguard_xllightplate", 1 ] ]
-    ]
+    "components": [ [ [ "cuirass_xllightplate", 1 ] ], [ [ "armguard_xllightplate", 1 ] ], [ [ "legguard_xllightplate", 1 ] ] ]
   },
   {
     "result": "gloves_xlplate",
@@ -620,11 +568,7 @@
     "time": 882000,
     "book_learn": [ [ "textbook_armwest", 5 ] ],
     "using": [ [ "forging_standard", 31 ], [ "steel_standard", 13 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [
       [ [ "tongs", -1 ] ],
       [ [ "swage", -1 ] ],
@@ -643,15 +587,8 @@
     "time": 1160000,
     "book_learn": [ [ "textbook_armwest", 5 ] ],
     "using": [ [ "forging_standard", 32 ], [ "steel_standard", 22 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "fur", 7 ], [ "leather", 7 ] ] ]
   },
   {
@@ -664,11 +601,7 @@
     "time": 1160000,
     "book_learn": [ [ "textbook_armwest", 6 ] ],
     "using": [ [ "forging_standard", 39 ], [ "steel_standard", 30 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [
       [ [ "tongs", -1 ] ],
       [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ],
@@ -686,11 +619,7 @@
     "difficulty": 9,
     "time": 1010000,
     "book_learn": [ [ "textbook_armeast", 8 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [
       [ [ "tongs", -1 ] ],
       [ [ "swage", -1 ] ],
@@ -713,19 +642,9 @@
     "time": 1290000,
     "book_learn": [ [ "textbook_armeast", 8 ] ],
     "using": [ [ "forging_standard", 49 ], [ "steel_standard", 26 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
-    ],
-    "components": [
-      [ [ "fur", 30 ], [ "tanned_pelt", 4 ], [ "leather", 30 ], [ "tanned_hide", 4 ] ],
-      [ [ "rag", 9 ] ]
-    ]
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "components": [ [ [ "fur", 30 ], [ "tanned_pelt", 4 ], [ "leather", 30 ], [ "tanned_hide", 4 ] ], [ [ "rag", 9 ] ] ]
   },
   {
     "result": "armor_xllightplate_faraday",
@@ -754,16 +673,8 @@
     "difficulty": 7,
     "time": 324000,
     "book_learn": [ [ "textbook_armwest", 6 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "forge", 180 ], [ "oxy_torch", 36 ] ]
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 180 ], [ "oxy_torch", 36 ] ] ],
     "components": [
       [ [ "steel_lump", 11 ], [ "steel_chunk", 43 ] ],
       [ [ "fur", 11 ], [ "tanned_pelt", 2 ], [ "leather", 11 ], [ "tanned_hide", 2 ] ]
@@ -778,16 +689,8 @@
     "difficulty": 8,
     "time": 342000,
     "book_learn": [ [ "textbook_armwest", 7 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "forge", 270 ], [ "oxy_torch", 50 ] ]
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 270 ], [ "oxy_torch", 50 ] ] ],
     "components": [
       [ [ "steel_lump", 14 ], [ "steel_chunk", 58 ] ],
       [ [ "fur", 11 ], [ "tanned_pelt", 2 ], [ "leather", 11 ], [ "tanned_hide", 2 ] ]
@@ -802,16 +705,8 @@
     "difficulty": 7,
     "time": 342000,
     "book_learn": [ [ "textbook_armwest", 6 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "forge", 270 ], [ "oxy_torch", 50 ] ]
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 270 ], [ "oxy_torch", 50 ] ] ],
     "components": [
       [ [ "steel_lump", 13 ], [ "steel_chunk", 50 ] ],
       [ [ "fur", 11 ], [ "tanned_pelt", 2 ], [ "leather", 11 ], [ "tanned_hide", 2 ] ]
@@ -827,12 +722,7 @@
     "time": 24000,
     "reversible": true,
     "autolearn": true,
-    "components": [
-      [ [ "chainmail_xlsuit", 1 ] ],
-      [ [ "gloves_xlplate", 1 ] ],
-      [ [ "boots_xlplate", 1 ] ],
-      [ [ "cable", 100 ] ]
-    ]
+    "components": [ [ [ "chainmail_xlsuit", 1 ] ], [ [ "gloves_xlplate", 1 ] ], [ [ "boots_xlplate", 1 ] ], [ [ "cable", 100 ] ] ]
   },
   {
     "result": "chainmail_xlsuit",
@@ -859,7 +749,7 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "time": 54000,
-    "book_learn": [ [ "textbook_armwest", 6 ] , [ "textbook_fabrication", 6 ] , [ "recipe_melee", 6 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "textbook_fabrication", 6 ], [ "recipe_melee", 6 ] ],
     "using": [ [ "chainmail_standard", 5 ] ],
     "components": [
       [ [ "link_sheet", 5 ] ],
@@ -876,14 +766,9 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "time": 43000,
-    "book_learn": [ [ "textbook_armwest", 6 ] , [ "textbook_fabrication", 6 ] , [ "recipe_melee", 6 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "textbook_fabrication", 6 ], [ "recipe_melee", 6 ] ],
     "using": [ [ "chainmail_standard", 4 ] ],
-    "components": [
-      [ [ "link_sheet", 4 ] ],
-      [ [ "chain_link", 110 ] ],
-      [ [ "wire", 2 ] ],
-      [ [ "fur", 9 ], [ "leather", 9 ] ]
-    ]
+    "components": [ [ [ "link_sheet", 4 ] ], [ [ "chain_link", 110 ] ], [ [ "wire", 2 ] ], [ [ "fur", 9 ], [ "leather", 9 ] ] ]
   },
   {
     "result": "chainmail_xllegs",
@@ -893,7 +778,7 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "time": 72000,
-    "book_learn": [ [ "textbook_armwest", 6 ] , [ "textbook_fabrication", 6 ] , [ "recipe_melee", 6 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "textbook_fabrication", 6 ], [ "recipe_melee", 6 ] ],
     "using": [ [ "chainmail_standard", 7 ] ],
     "components": [
       [ [ "link_sheet", 7 ] ],
@@ -910,7 +795,7 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "time": 126000,
-    "book_learn": [ [ "textbook_armwest", 6 ] , [ "textbook_fabrication", 6 ] , [ "recipe_melee", 6 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "textbook_fabrication", 6 ], [ "recipe_melee", 6 ] ],
     "using": [ [ "chainmail_standard", 13 ] ],
     "components": [
       [ [ "link_sheet", 13 ] ],
@@ -952,16 +837,8 @@
     "difficulty": 5,
     "time": 890000,
     "book_learn": [ [ "textbook_armwest", 4 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "forge", 460 ], [ "oxy_torch", 90 ] ]
-    ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 460 ], [ "oxy_torch", 90 ] ] ],
     "components": [
       [ [ "steel_lump", 15 ], [ "steel_chunk", 60 ], [ "scrap", 180 ] ],
       [ [ "fur", 30 ], [ "tanned_pelt", 5 ], [ "leather", 30 ], [ "tanned_hide", 5 ] ]
@@ -977,10 +854,7 @@
     "time": 74000,
     "autolearn": true,
     "using": [ [ "cordage", 2 ] ],
-    "components": [
-      [ [ "chitin_piece", 15 ] ],
-      [ [ "leather", 7 ], [ "fur", 7 ], [ "rag", 7 ] ]
-    ]
+    "components": [ [ [ "chitin_piece", 15 ] ], [ [ "leather", 7 ], [ "fur", 7 ], [ "rag", 7 ] ] ]
   },
   {
     "result": "boots_acidchitin",
@@ -989,18 +863,12 @@
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
     "difficulty": 5,
-    "skills_required": [[ "survival", 4 ], [ "firstaid", 2 ]],
+    "skills_required": [ [ "survival", 4 ], [ "firstaid", 2 ] ],
     "time": 150000,
     "autolearn": true,
     "using": [ [ "cordage", 2 ] ],
-    "qualities": [
-      { "id": "CUT_FINE", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
-    "components": [
-      [ [ "acidchitin_piece", 22 ] ],
-      [ [ "leather", 7 ], [ "fur", 7 ], [ "rag", 7 ] ]
-    ]
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "acidchitin_piece", 22 ] ], [ [ "leather", 7 ], [ "fur", 7 ], [ "rag", 7 ] ] ]
   },
   {
     "result": "backpack_xl",
@@ -1024,10 +892,7 @@
     "time": 90000,
     "autolearn": true,
     "using": [ [ "sewing_standard", 36 ] ],
-    "components": [
-      [ [ "leather", 36 ], [ "tanned_hide", 5 ] ],
-      [ [ "scrap", 11 ] ]
-    ]
+    "components": [ [ [ "leather", 36 ], [ "tanned_hide", 5 ] ], [ [ "scrap", 11 ] ] ]
   },
   {
     "result": "duffelbag_xl",
@@ -1051,10 +916,7 @@
     "time": 29000,
     "autolearn": true,
     "using": [ [ "sewing_standard", 14 ] ],
-    "components": [
-      [ [ "leather", 11 ], [ "tanned_hide", 2 ], [ "leather_belt", 2 ] ],
-      [ [ "leather_pouch", 6 ] ]
-    ]
+    "components": [ [ [ "leather", 11 ], [ "tanned_hide", 2 ], [ "leather_belt", 2 ] ], [ [ "leather_pouch", 6 ] ] ]
   },
   {
     "result": "chestrig_xl",
@@ -1067,10 +929,7 @@
     "time": 54000,
     "autolearn": true,
     "using": [ [ "sewing_standard", 45 ] ],
-    "tools": [
-      [ [ "surface_heat", 9, "LIST" ] ],
-      [ [ "mold_plastic", -1 ] ]
-    ],
+    "tools": [ [ [ "surface_heat", 9, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
     "components": [
       [ [ "rag", 36 ] ],
       [ [ "ragpouch", 3 ], [ "leather_pouch", 3 ] ],
@@ -1089,14 +948,8 @@
     "time": 36000,
     "autolearn": true,
     "using": [ [ "sewing_standard", 27 ] ],
-    "tools": [
-      [ [ "surface_heat", 9, "LIST" ] ],
-      [ [ "mold_plastic", -1 ] ]
-    ],
-    "components": [
-      [ [ "rag", 18 ] ],
-      [ [ "plastic_chunk", 4 ] ]
-    ]
+    "tools": [ [ [ "surface_heat", 9, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
+    "components": [ [ [ "rag", 18 ] ], [ [ "plastic_chunk", 4 ] ] ]
   },
   {
     "result": "armor_tire",
@@ -1137,9 +990,6 @@
     "book_learn": [ [ "textbook_tailor", 3 ], [ "manual_tailor", 4 ], [ "tailor_portfolio", 3 ] ],
     "using": [ [ "sewing_standard", 25 ] ],
     "tools": [ [ [ "soldering_iron", 15 ], [ "welder", 15 ], [ "hotplate", 15 ], [ "toolset", 15 ] ] ],
-    "components": [
-      [ [ "neoprene", 6 ] ],
-      [ [ "plastic_chunk", 8 ] ]
-    ]
+    "components": [ [ [ "neoprene", 6 ] ], [ [ "plastic_chunk", 8 ] ] ]
   }
 ]
