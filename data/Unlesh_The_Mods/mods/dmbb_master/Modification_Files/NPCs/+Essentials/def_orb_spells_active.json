@@ -38,6 +38,7 @@
     "min_damage": 10000,
     "max_damage": 10000,
     "effect": "mutate",
+    "shape": "blast",
     "effect_str": "DMBB_ORB_BARD_interrupt",
     "flags": [ "SILENT", "RANDOM_TARGET", "MUTATE_TRAIT" ]
   },
@@ -65,6 +66,7 @@
     "min_damage": 10000,
     "max_damage": 10000,
     "effect": "mutate",
+    "shape": "blast",
     "effect_str": "DMBB_ORB_BARD_battletrance",
     "flags": [ "SILENT", "RANDOM_TARGET", "MUTATE_TRAIT" ]
   },
@@ -93,6 +95,7 @@
     "min_damage": 10000,
     "max_damage": 10000,
     "effect": "mutate",
+    "shape": "blast",
     "effect_str": "DMBB_ORB_BARD_allegro",
     "flags": [ "SILENT", "RANDOM_TARGET", "MUTATE_TRAIT" ]
   },
@@ -121,6 +124,7 @@
     "min_damage": 10000,
     "max_damage": 10000,
     "effect": "mutate",
+    "shape": "blast",
     "effect_str": "DMBB_ORB_BARD_adagio",
     "flags": [ "SILENT", "RANDOM_TARGET", "MUTATE_TRAIT" ]
   },
@@ -406,7 +410,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_manabeam_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_manaburst",
@@ -676,7 +681,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_manaburst_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_stunlock",
@@ -1174,7 +1180,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_stunlock_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_battle_megamagic",
@@ -1673,7 +1680,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_megamagic_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus",
@@ -2174,7 +2182,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_manabeam_plus_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus",
@@ -2675,7 +2684,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_battle_manaburst_plus_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_necro_spawn",
@@ -3176,7 +3186,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_necro_spawn_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_mage_necro_vamp_heal",
@@ -3311,7 +3322,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_mage_necro_vamp_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_cleric_heal",
@@ -3580,7 +3592,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_heal_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_cleric_buff",
@@ -3849,7 +3862,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_buff_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_cleric_debuff",
@@ -4347,7 +4361,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_cleric_debuff_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_priest_heal",
@@ -4616,7 +4631,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_heal_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_priest_qheal",
@@ -4885,7 +4901,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_qheal_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_MERC_priest_pure",
@@ -5154,6 +5171,7 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_MERC_priest_pure_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   }
 ]
