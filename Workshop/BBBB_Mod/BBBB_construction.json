@@ -1,0 +1,69 @@
+[
+    {
+        "type" : "construction",
+        "description" : "Build Steel Drum Push Cart",
+        "difficulty" : 3,
+        "time" : 30,
+        "tools" : [
+            [ "hose"],
+            [ "hammer", "primitive_hammer", "hatchet", "hammer_sledge", "toolset"  ],
+            [ "wrench", "toolset" ]
+        ],
+        "components" : [
+            [ [ "55gal_drum", 1 ] ],
+            [ [ "water_faucet", 1 ] ],
+            [ [ "wheel_caster", 1 ] ]
+        ],
+        "pre_special" : "check_empty",
+        "post_terrain" : "f_explosive_barrel"
+    },{
+        "type" : "construction",
+        "description" : "Build Wooden Barrel Push Cart",
+        "difficulty" : 3,
+        "time" : 30,
+        "tools" : [
+            [ "hose"],
+            [ "hammer", "primitive_hammer", "hatchet", "hammer_sledge", "toolset"  ],
+            [ "wrench", "toolset" ]
+        ],
+        "components" : [
+            [ [ "wooden_barrel", 1 ] ],
+            [ [ "water_faucet", 1 ] ],
+            [ [ "wheel_caster", 1 ] ]
+        ],
+        "pre_special" : "check_empty",
+        "post_terrain" : "f_wooden_barrel"
+    },{
+        "type" : "construction",
+        "description" : "Build Explosive Barrel",
+        "difficulty" : 3,
+        "time" : 10,
+        "tools" : [
+            [ "hose"]
+        ],
+        "components" : [
+            [ [ "55gal_drum", 1 ] , [ "30gal_barrel", 1 ] , [ "wooden_barrel", 1 ] ],
+            [ [ "gasoline", 5000 ] ]
+        ],
+        "pre_special" : "check_empty",
+        "post_terrain" : "f_boom_barrel"
+    },{
+        "type" : "construction",
+        "description" : "Build Plastic Barrel Push Cart",
+        "difficulty" : 3,
+        "time" : 30,
+        "tools" : [
+            [ "hose"],
+            [ "hammer", "primitive_hammer", "hatchet", "hammer_sledge", "toolset"  ],
+            [ "wrench", "toolset" ]
+        ],
+        "components" : [
+            [ [ "30gal_barrel", 1 ] ],
+            [ [ "water_faucet", 1 ] ],
+            [ [ "wheel_caster", 1 ] ]
+        ],
+        "pre_special" : "check_empty",
+        "post_terrain" : "f_liquid_barrel"
+    }
+
+]

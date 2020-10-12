@@ -1,0 +1,57 @@
+[
+
+{
+  "type" : "item_group",
+  "id" : "forage_winter",
+  "override": true,
+  "subtype": "distribution",
+  "entries" : [
+    { "item": "withered", "prob": 100, "count-min": 1, "count-max": 2 }
+  ]
+},{
+   "type" : "COMESTIBLE",
+   "id" : "seed_dry_beans",
+   "category": "other",
+   "price" : 120,
+   "name" : "sprouted beans",
+   "name_plural" : "sprouted beans",
+   "spoils_in" : 60,
+   "comestible_type": "FOOD",
+   "tool" : "null",
+   "addiction_type": "none",
+   "symbol" : ".",
+   "color" : "red",
+   "description" : "Some beans, hydrated and happily sprouting.  You could probably plant these.",
+   "material" : "veggy",
+   "volume" : 1,
+   "weight" : 1,
+   "bashing" : 0,
+   "cutting" : 0,
+   "to_hit" : 0,
+   "phase": "solid",
+   "charges" : 2,
+   "stack_size" : 100,
+   "grow" : 91,
+   "flags": ["SEED"]
+},{
+  "type" : "recipe",
+  "result": "seed_dry_beans",
+  "category": "CC_FOOD",
+  "subcategory": "CSC_FOOD_OTHER",
+  "skill_used": "cooking",
+  "skills_required": [ "survival", 1 ],
+  "difficulty": 0,
+  "time": 5000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities" : [
+    {"id":"CUT","level":1,"amount":1}
+  ],
+  "components": [
+    [
+      [ "dry_beans", 8 ]
+    ]
+  ]
+}
+
+]

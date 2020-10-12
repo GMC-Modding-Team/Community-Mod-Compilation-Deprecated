@@ -1,0 +1,203 @@
+[
+
+
+{
+  "type" : "recipe",
+  "result": "plant_fibre",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "survival",
+  "difficulty": 1,
+  "time": 3000,
+  "reversible": false,
+  "autolearn": true,
+  "components": [
+    [ [ "dogsbane", 2 ] ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "wild_herbs",
+  "id_suffix": "from_thyme",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "cooking",
+  "difficulty": 1,
+  "time": 3000,
+  "reversible": false,
+  "autolearn": true,
+  "tools": [
+    [ ["mortar_pestle", -1] ]
+  ],  
+  "components": [
+    [ [ "thyme", 2 ] ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "cooking_oil",
+  "id_suffix": "from_canola",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "cooking",
+  "skills_required": [ "survival", 3 ],
+  "difficulty": 4,
+  "time": 30000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities":[
+    {"id":"HAMMER","level":2,"amount":1},
+    {"id":"CUT","level":1,"amount":1}
+  ], 
+  "tools": [
+    [ [ "hotplate", 10 ],
+      [ "char_smoker", 1 ],
+      [ "toolset", 10 ],
+      [ "fire", -1 ]
+    ],
+    [ ["mortar_pestle", -1] ]
+  ],  
+  "components": [
+    [ [ "seed_canola", 4 ] ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "thyme_oil",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "cooking",
+  "skills_required": [ "survival", 4 ],
+  "difficulty": 4,
+  "time": 60000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities":[
+    {"id":"HAMMER","level":2,"amount":1},
+    {"id":"CUT","level":1,"amount":1}
+  ], 
+  "tools": [
+    [ [ "hotplate", 10 ],
+      [ "char_smoker", 1 ],
+      [ "toolset", 10 ],
+      [ "fire", -1 ]
+    ],
+    [ ["mortar_pestle", -1] ]
+  ], 
+  "components": [
+    [ [ "cooking_oil", 2 ] ],
+    [ [ "thyme", 2 ] ]
+  ]
+},{   
+  "type" : "COMESTIBLE",
+  "id" : "thyme_oil",
+  "name" : "thyme oil",
+  "description" : "Some essential oil made from thyme, which can act as a mildly irritating disinfectant.",
+  "material" : "null",
+  "comestible_type" : "MED",
+  "use_action" : "DISINFECTANT",
+  "container" : "null",
+  "addiction_type" : "none",
+  "spoils_in" : 672,
+  "quench" : 0,
+  "nutrition" : 0,
+  "fun" : -5,
+  "tool" : "null",
+  "phase" : "liquid",
+  "healthy" : 0,
+  "weight" : 40,
+  "to_hit" : -3,
+  "color" : "yellow",
+  "symbol" : "~",
+  "volume" : 1,
+  "bashing" : -8,
+  "cutting" : 0,
+  "charges" : 1,
+  "price" : 0
+},{
+  "type" : "recipe",
+  "result": "mugwort_oil",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "cooking",
+  "skills_required": [ "survival", 4 ],
+  "difficulty": 4,
+  "time": 60000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities":[
+    {"id":"HAMMER","level":2,"amount":1},
+    {"id":"CUT","level":1,"amount":1}
+  ], 
+  "tools": [
+    [ [ "hotplate", 10 ],
+      [ "char_smoker", 1 ],
+      [ "toolset", 10 ],
+      [ "fire", -1 ]
+    ],
+    [ ["mortar_pestle", -1] ]
+  ], 
+  "components": [
+    [ [ "cooking_oil", 2 ] ],
+    [ [ "mugwort", 2 ] ]
+  ]
+},{   
+  "type" : "COMESTIBLE",
+  "id" : "mugwort_oil",
+  "name" : "mugwort oil",
+  "description" : "Some essential oil made from mugwort, which may kill parasites when ingested.  Consume it with water!",
+  "material" : "null",
+  "comestible_type" : "MED",
+  "use_action" : "ANTIPARASITIC",
+  "container" : "null",
+  "addiction_type" : "none",
+  "spoils_in" : 672,
+  "quench" : -50,
+  "nutrition" : 0,
+  "fun" : -5,
+  "tool" : "null",
+  "phase" : "liquid",
+  "healthy" : 0,
+  "weight" : 40,
+  "to_hit" : -3,
+  "color" : "yellow",
+  "symbol" : "~",
+  "volume" : 1,
+  "bashing" : -8,
+  "cutting" : 0,
+  "charges" : 1,
+  "price" : 0
+},{
+  "type" : "COMESTIBLE",
+  "id" : "bee_balm_tea",
+  "name" : "bee balm tea",
+  "name_plural" : "bee balm tea",
+  "weight" : 256,
+  "color" : "green",
+  "addiction_type" : "none",
+  "use_action" : "FLUMED",
+  "spoils_in" : 240,
+  "stim" : 1,
+  "container" : "bottle_plastic",
+  "to_hit" : 0,
+  "comestible_type" : "DRINK",
+  "symbol" : "~",
+  "quench" : 34,
+  "healthy" : 1,
+  "addiction_potential" : 0,
+  "nutrition" : 2,
+  "description" : "A healthy beverage made from bee balm steeped in boiling water.",
+  "price" : 100,
+  "material" : "null",
+  "tool" : "null",
+  "volume" : 1,
+  "cutting" : 0,
+  "phase" : "liquid",
+  "charges" : 1,
+  "bashing" : 0,
+  "flags" : ["EATEN_HOT"],
+  "fun" : 1
+
+}
+
+
+
+]
+
