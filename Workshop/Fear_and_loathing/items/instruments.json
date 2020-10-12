@@ -1,9 +1,10 @@
 [
-  { "id":"GUITAR",
+  {
+    "id": "GUITAR",
     "symbol": "$",
     "color": "red",
-    "name":"Guitar",
-    "description":"An acoustic six-string guitar. A bit out of tune, but in good shape otherwise.",
+    "name": "Guitar",
+    "description": "An acoustic six-string guitar. A bit out of tune, but in good shape otherwise.",
     "rarity": 60,
     "material": "wood",
     "weight": 13,
@@ -11,19 +12,16 @@
     "damage": 14,
     "to_hit": 1,
     "use": "PLAY_GUITAR",
-    "variations": [
-      { "odds" : 200,
-        "name" : "Specific Variation"
-      }
-    ]
-  }, 
-  { "id":"DRUM",
+    "variations": [ { "odds": 200, "name": "Specific Variation" } ]
+  },
+  {
+    "id": "DRUM",
     "symbol": "o",
     "color": "green",
-    "name":"Bongo",
+    "name": "Bongo",
     "description": "A handheld drum. Suitable for making loud noises into all hours of the night.",
     "rarity": 60,
-    "material": ["wood", "steel"],
+    "material": [ "wood", "steel" ],
     "weight": 10,
     "volume": 10,
     "damage": 11,
