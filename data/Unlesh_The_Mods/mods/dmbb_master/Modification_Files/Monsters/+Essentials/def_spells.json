@@ -23,6 +23,7 @@
     "min_range": 4,
     "max_range": 4,
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "GROUP_ZOMBIE",
     "sound_type": "combat",
     "sound_ambient": true,
@@ -41,6 +42,7 @@
     "min_range": 4,
     "max_range": 4,
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "GROUP_ZOMBIE_UPGRADE",
     "sound_type": "combat",
     "sound_ambient": true,
@@ -650,6 +652,7 @@
     "min_damage": 69420,
     "max_damage": 69420,
     "effect": "targeted_polymorph",
+    "shape": "blast",
     "effect_str": "mon_mtc_worg"
   },
   {
@@ -664,6 +667,7 @@
     "min_range": 2,
     "max_range": 2,
     "effect": "summon",
+    "shape": "blast",
     "effect_str": "GROUP_DMBB_GOBLIN_DISMOUNT"
   },
   {
@@ -883,6 +887,7 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
     "effect": "mod_moves",
+    "shape": "blast",
     "min_damage": -500,
     "max_damage": -1000,
     "min_range": 12,
