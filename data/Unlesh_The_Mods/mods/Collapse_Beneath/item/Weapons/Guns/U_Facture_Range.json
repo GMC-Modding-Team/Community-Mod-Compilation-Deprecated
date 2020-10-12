@@ -26,6 +26,15 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "308", [ "m14mag", "m14smallmag" ] ], [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m14mag", "m14smallmag" ]
+      }
+    ]
   }
 ]

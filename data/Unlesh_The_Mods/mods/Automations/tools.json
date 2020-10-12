@@ -10,6 +10,15 @@
     "initial_charges": 500,
     "max_charges": 500,
     "flags": [ "RECHARGE", "IS_UPS", "NO_RELOAD", "NO_UNLOAD" ],
-    "magazines": [  ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "heavy_plus_battery_cell", "heavy_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+      }
+    ]
   }
 ]

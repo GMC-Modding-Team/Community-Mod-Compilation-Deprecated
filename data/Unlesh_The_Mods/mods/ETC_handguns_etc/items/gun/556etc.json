@@ -23,7 +23,16 @@
     "default_mods": "pistol_scope",
     "clip_size": 4,
     "looks_like": "raging_bull",
-    "magazines": [ [ "556etc", [ "556etc_speedloader" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "556etc_speedloader" ]
+      }
+    ]
   },
   {
     "id": "etc_er555",
@@ -59,7 +68,16 @@
       [ "underbarrel", 1 ]
     ],
     "looks_like": "h&k416a5",
-    "magazines": [ [ "556etc", [ "ocg556e_30", "ocg556e_14", "ocg556e_50", "ocg556e_24", "ocg556e_60", "ocg556e_100" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ocg556e_30", "ocg556e_14", "ocg556e_50", "ocg556e_24", "ocg556e_60", "ocg556e_100" ]
+      }
+    ]
   },
   {
     "id": "etc_er555_ads",
@@ -109,7 +127,16 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2, [ "SIMULTANEOUS" ] ], [ "AUTO", "auto", 18 ] ],
     "built_in_mods": [ "ocg_er555_lmgbarrel", "ocg_grippod_fg", "ocg_grippod_bipod", "ocg_recoil_stock", "barrel_ported", "ocg_stabilizer" ],
     "looks_like": "m249",
-    "magazines": [ [ "556etc", [ "belt556etc", "ocg556e_30", "ocg556e_14", "ocg556e_50", "ocg556e_24", "ocg556e_60", "ocg556e_100" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt556etc", "ocg556e_30", "ocg556e_14", "ocg556e_50", "ocg556e_24", "ocg556e_60", "ocg556e_100" ]
+      }
+    ]
   },
   {
     "id": "etc_er555_sr",

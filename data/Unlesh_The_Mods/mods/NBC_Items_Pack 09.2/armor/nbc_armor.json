@@ -27,8 +27,6 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "ammo": [ "filter_open_1" ],
-    "magazines": [ [ "filter_open_1", [ "sm_filter_1a" ] ] ],
-    "magazine_well": 0,
     "revert_to": "mask_gp5_act",
     "use_action": {
       "type": "transform",
@@ -44,7 +42,17 @@
     "environmental_protection": 3,
     "encumbrance": 2,
     "coverage": 100,
-    "material_thickness": 1
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "sm_filter_1a" ]
+      }
+    ]
   },
   {
     "id": "mask_gp5_act",
@@ -107,8 +115,6 @@
     "turns_per_charge": 0,
     "default_mods": [ "heavy_filter_mod_b", 1 ],
     "ammo": [ "filter_open_1" ],
-    "magazines": [ [ "filter_open_1", [ "sm_filter_1a" ] ] ],
-    "magazine_well": 0,
     "revert_to": "mask_hosed",
     "use_action": {
       "type": "transform",
@@ -124,7 +130,17 @@
     "environmental_protection": 3,
     "encumbrance": 3,
     "coverage": 100,
-    "material_thickness": 1
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "sm_filter_1a" ]
+      }
+    ]
   },
   {
     "id": "mask_hosed_act",
@@ -183,7 +199,6 @@
     "turns_per_charge": 0,
     "ammo": [ "filter_open_1" ],
     "revert_to": "mask_pbf_act",
-    "magazines": [ [ "filter_open_1", [ "cheek_filter" ] ] ],
     "use_action": {
       "type": "transform",
       "msg": "You insert active filters into the cheek pockets.",
@@ -198,7 +213,17 @@
     "environmental_protection": 5,
     "encumbrance": 2,
     "coverage": 100,
-    "material_thickness": 2
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cheek_filter" ]
+      }
+    ]
   },
   {
     "id": "mask_pbf_act",
@@ -280,8 +305,6 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "ammo": [ "filter_open_2" ],
-    "magazines": [ [ "filter_open_2", [ "sm_filter_1b" ] ] ],
-    "magazine_well": 0,
     "revert_to": "mask_4a_act",
     "use_action": {
       "type": "transform",
@@ -297,7 +320,17 @@
     "environmental_protection": 5,
     "encumbrance": 2,
     "coverage": 100,
-    "material_thickness": 2
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "sm_filter_1b" ]
+      }
+    ]
   },
   {
     "id": "mask_4a_act",
@@ -355,8 +388,6 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "ammo": [ "filter_open_2" ],
-    "magazines": [ [ "filter_open_2", [ "sm_filter_1b" ] ] ],
-    "magazine_well": 0,
     "revert_to": "mask_m40_act",
     "use_action": {
       "type": "transform",
@@ -372,7 +403,17 @@
     "environmental_protection": 10,
     "encumbrance": 2,
     "coverage": 100,
-    "material_thickness": 2
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "sm_filter_1b" ]
+      }
+    ]
   },
   {
     "id": "mask_m40_act",
