@@ -234,13 +234,13 @@ This has to be done manually due to the possible presence of other text in the `
 In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), there is pocket_mags.py that should be able to handle some of the work.
 
 
-## Gun Pocket data
-legacy code just delete These
+## Gun Pocket Data
+legacy code just delete These **needs updating**
 ```JSON
 "magazines": [ [ "Example_ammo", [ "Example_magazine1", "Example_magazine2" ] ] ]
 "magazine_well": 1
 ```
-new code for handling "magazines" and "magazine_well"
+new code for guns with magazines
 ```JSON
 "pocket_data": [
   {
@@ -253,6 +253,33 @@ new code for handling "magazines" and "magazine_well"
   }
 ]
 ```
+new code for guns without magazines
+```JSON
+"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "Ammo_example": 100 } } ]
+```
+
+## Magazine Pocket Data
+add these to "type": `Magazine` **needs updating**
+```JSON
+"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "Ammo_example": 100 } } ]
+```
+
+
+## Container Pocket data
+This is more complicated **needs updating**
+```JSON
+"pocket_data": [
+  {
+    "pocket_type": "CONTAINER",
+    "rigid": true,
+    "max_contains_volume": "4 L",
+    "max_contains_weight": "30 kg",
+    "moves": 200
+  }
+],
+```
+
+
 # type: CONTAINER
 `type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
 ```regex
@@ -312,7 +339,7 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 
 # Effect
-The current JSON standards for `key` `effect` look like this:
+The current JSON standards for `key` `effect` look like this: **needs updating**
 ```JSON
 "effect": "attack"
 ```
@@ -335,7 +362,7 @@ if you want to do this quickly with regex use the following example
 ```
 
 # Shape
-The current JSON standards for `key` `shape` look like this:
+The current JSON standards for `key` `shape` look like this: **needs updating**
 ```JSON
 "shape": "blast"
 ```
