@@ -8,7 +8,7 @@
     "skills": [ { "level": 2, "name": "speech" }, { "level": 2, "name": "barter" } ],
     "items": {
       "both": [ "suit", "dress_shoes", "socks", "money_bundle", "water_clean", "water_clean", "mag_barter" ],
-      "male": [ "briefs", "skinny_tie" ],
+      "male": [ "briefs", "tie_skinny" ],
       "female": [ "bra", "panties" ]
     }
   },
@@ -70,7 +70,7 @@
     "name": "Factory Worker",
     "description": "You worked in the factories before the Cataclysm.",
     "points": 1,
-    "skills": [ { "level": 2, "name": "carpentry" }, { "level": 1, "name": "fabrication" }, { "level": 3, "name": "mechanics" } ],
+    "skills": [ { "level": 2, "name": "fabrication" }, { "level": 1, "name": "fabrication" }, { "level": 3, "name": "mechanics" } ],
     "items": {
       "both": [ "jeans", "socks", "sneakers", "tank_top", "wrench", "glasses_safety", "welder", "goggles_welding" ],
       "male": [ "briefs" ],
@@ -124,7 +124,7 @@
     "points": 2,
     "skills": [
       { "level": 1, "name": "computer" },
-      { "level": 2, "name": "carpentry" },
+      { "level": 2, "name": "fabrication" },
       { "level": 1, "name": "driving" },
       { "level": 2, "name": "fabrication" },
       { "level": 2, "name": "firstaid" },
@@ -237,7 +237,7 @@
     "name": "Power Plant Worker",
     "description": "You worked at the power plants before the Cataclysm, and your skills may come in handy later, assuming you survive first...",
     "points": 2,
-    "skills": [ { "level": 3, "name": "mechanics" }, { "level": 1, "name": "carpentry" } ],
+    "skills": [ { "level": 3, "name": "mechanics" }, { "level": 1, "name": "fabrication" } ],
     "items": {
       "both": [ "jumpsuit", "hat_hard", "socks", "boots_rubber", "gloves_rubber", "wrench" ],
       "male": [ "briefs" ],
@@ -262,7 +262,7 @@
     "points": 2,
     "skills": [ { "level": 2, "name": "speech" }, { "level": 2, "name": "smg" } ],
     "items": {
-      "both": [ "army_top", "beret", "jacket_leather", "pants", "socks", "boots", "pda", "uzi", "pockknife" ],
+      "both": [ "army_top", "beret", "jacket_leather", "pants", "socks", "boots", "cell_phone", "uzi", "pockknife" ],
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "boy_shorts" ]
     }
@@ -273,9 +273,9 @@
     "name": "Improviser",
     "description": "You could always find a new application for something, a skill that will no doubt serve you well.",
     "points": 2,
-    "skills": [ { "level": 2, "name": "carpentry" }, { "level": 2, "name": "fabrication" }, { "level": 2, "name": "mechanics" } ],
+    "skills": [ { "level": 2, "name": "fabrication" }, { "level": 2, "name": "fabrication" }, { "level": 2, "name": "mechanics" } ],
     "items": {
-      "both": [ "tshirt", "pants", "socks", "sneakers", "nailrifle", "bayonet", "crude_picklock", "makeshift_knife" ],
+      "both": [ "tshirt", "pants", "socks", "sneakers", "nailrifle", "knife_combat", "crude_picklock", "makeshift_knife" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     }
@@ -335,7 +335,7 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     },
-    "CBMs": [ "bio_power_storage", "bio_eyes" ]
+    "CBMs": [ "bio_power_storage", "bio_eye_optic" ]
   },
   {
     "type": "profession",
@@ -367,7 +367,7 @@
     "points": 1,
     "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [ "sword_forged", "tshirt", "pants_cargo", "socks", "sneakers" ],
+      "both": [ "broadsword", "tshirt", "pants_cargo", "socks", "sneakers" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     }
@@ -491,7 +491,7 @@
     "points": -1,
     "skills": [ { "level": 4, "name": "speech" } ],
     "items": {
-      "both": [ "suit", "skinny_tie", "pants", "socks", "dress_shoes" ],
+      "both": [ "suit", "tie_skinny", "pants", "socks", "dress_shoes" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     }
@@ -522,13 +522,13 @@
         "hat_cotton",
         "shortbow",
         "mbag",
-        "arrow_fire_hardened",
-        "arrow_fire_hardened",
-        "arrow_fire_hardened",
-        "arrow_fire_hardened",
-        "arrow_fire_hardened",
-        "arrow_fire_hardened",
-        "arrow_fire_hardened"
+        "arrow_fire_hardened_fletched",
+        "arrow_fire_hardened_fletched",
+        "arrow_fire_hardened_fletched",
+        "arrow_fire_hardened_fletched",
+        "arrow_fire_hardened_fletched",
+        "arrow_fire_hardened_fletched",
+        "arrow_fire_hardened_fletched"
       ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
@@ -564,7 +564,7 @@
     "points": 1,
     "skills": [ { "level": 3, "name": "cutting" }, { "level": 1, "name": "archery" } ],
     "items": {
-      "both": [ "sword_forged", "boots_plate", "gloves_plate", "armor_lightplate", "helmet_barbute" ],
+      "both": [ "broadsword", "boots_plate", "gloves_plate", "armor_lightplate", "helmet_barbute" ],
       "female": [ "bra", "panties" ]
     }
   },
@@ -607,7 +607,7 @@
     "name": "Average Joe",
     "description": "What chance could some normal guy have in this hellhole of a world? Luckily for you, you managed to grab some household items as you fled.",
     "points": 2,
-    "skills": [ { "level": 1, "name": "carpentry" }, { "level": 1, "name": "melee" }, { "level": 1, "name": "gun" } ],
+    "skills": [ { "level": 1, "name": "fabrication" }, { "level": 1, "name": "melee" }, { "level": 1, "name": "gun" } ],
     "items": {
       "both": [ "bat", "water_clean", "jeans", "tshirt", "jacket_light" ],
       "male": [ "briefs" ],
