@@ -17,7 +17,16 @@
     "dispersion": 560,
     "durability": 9,
     "looks_like": "makarov",
-    "magazines": [ [ "9etc", [ "deelmag", "ocg9emag", "ocg9emagbig", "ocg9emagdrum" ] ], [ "9mm", [ "beelmag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "deelmag", "ocg9emag", "ocg9emagbig", "ocg9emagdrum" ]
+      }
+    ],
     "flags": [ "WATERPROOF_GUN" ]
   },
   {
@@ -37,9 +46,17 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 2, "armor_penetration": 8 },
     "dispersion": 290,
     "durability": 10,
-    "magazine_well": 2,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2 ], [ "AUTO", "auto", 8 ] ],
-    "magazines": [ [ "9etc", [ "ocg9emag", "ocg9emagbig", "ocg9emagdrum", "deelmag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ocg9emag", "ocg9emagbig", "ocg9emagdrum", "deelmag" ]
+      }
+    ],
     "looks_like": "mac_10",
     "flags": [ "WATERPROOF_GUN", "DURABLE_MELEE" ]
   },
@@ -116,7 +133,16 @@
     "dispersion": 360,
     "durability": 9,
     "clip_size": 8,
-    "magazines": [ [ "9etc", [ "9etc_speedloader" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "9etc_speedloader" ]
+      }
+    ],
     "looks_like": "sw_619"
   },
   {
@@ -140,7 +166,16 @@
     "delay_percent": 100,
     "clip_size": 8,
     "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2, [ "SIMULTANEOUS" ] ] ],
-    "magazines": [ [ "9etc", [ "9etc_speedloader" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "9etc_speedloader" ]
+      }
+    ],
     "looks_like": "sw_619"
   },
   {
@@ -165,7 +200,16 @@
     "durability": 10,
     "built_in_mods": "minisniper_capacitor",
     "default_mods": "rifle_scope",
-    "magazines": [ [ "9etc", [ "deelmag", "ocg9emag", "ocg9emagbig", "ocg9emagdrum" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "deelmag", "ocg9emag", "ocg9emagbig", "ocg9emagdrum" ]
+      }
+    ],
     "looks_like": "M24"
   },
   {
@@ -218,9 +262,17 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazine_well": 2,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ], [ "AUTO", "auto", 12 ] ],
-    "magazines": [ [ "9etc", [ "belt9etc", "ocg9emag", "ocg9emagbig", "ocg9emagdrum", "deelmag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt9etc", "ocg9emag", "ocg9emagbig", "ocg9emagdrum", "deelmag" ]
+      }
+    ],
     "looks_like": "needlegun",
     "flags": [ "WATERPROOF_GUN", "DURABLE_MELEE" ]
   }

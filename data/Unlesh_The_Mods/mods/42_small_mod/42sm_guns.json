@@ -38,7 +38,6 @@
     "durability": 8,
     "blackpowder_tolerance": 56,
     "clip_size": 5,
-    "magazines": [ [ "223", [ "223_speedloader5" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -52,6 +51,16 @@
       [ "underbarrel", 1 ]
     ],
     "flags": [ "RELOAD_ONE", "RELOAD_EJECT", "NEVER_JAMS" ],
-    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ]
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "223_speedloader5" ]
+      }
+    ]
   }
 ]

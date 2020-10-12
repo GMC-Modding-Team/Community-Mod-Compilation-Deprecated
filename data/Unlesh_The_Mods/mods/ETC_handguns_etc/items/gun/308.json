@@ -23,6 +23,15 @@
     "built_in_mods": [ "ocg_stabilizer", "match_trigger" ],
     "default_mods": "pistol_grip",
     "looks_like": "rm103a_pistol",
-    "magazines": [ [ "308", [ "m14smallmag", "m14mag" ] ], [ "300", [ "m2010mag", "smc300mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m14smallmag", "m14mag" ]
+      }
+    ]
   }
 ]
