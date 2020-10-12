@@ -13,9 +13,18 @@
     "symbol": ";",
     "color": "light_green",
     "ammo": [ "battery" ],
-    "magazines": [ [ "battery", [ "omni_battery_mag" ] ] ],
     "max_charges": 99999999,
-    "flags": [ "IS_UPS", "NO_UNLOAD", "RECHARGE" ]
+    "flags": [ "IS_UPS", "NO_UNLOAD", "RECHARGE" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "omni_battery_mag" ]
+      }
+    ]
   },
   {
     "id": "omni_tool",

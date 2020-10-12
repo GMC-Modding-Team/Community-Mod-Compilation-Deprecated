@@ -9,7 +9,16 @@
     "relative": { "bashing": -2, "ranged_damage": { "damage_type": "bullet", "amount": -6 }, "durability": -4, "dispersion": 100 },
     "proportional": { "weight": 0.75 },
     "blackpowder_tolerance": 24,
-    "magazines": [ [ "223", [ "stanag30", "stanag50", "survivor223mag", "stanag_polymer" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag50", "survivor223mag", "stanag_polymer" ]
+      }
+    ]
   },
   {
     "type": "GUN",

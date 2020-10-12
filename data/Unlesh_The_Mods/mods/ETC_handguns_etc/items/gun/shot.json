@@ -29,9 +29,17 @@
     "delay_percent": 100,
     "modes": [ [ "DEFAULT", "double", 2, "SIMULTANEOUS" ], [ "AUTO", "auto", 8 ] ],
     "built_in_mods": [ "ocg_grippod_fg", "ocg_grippod_bipod", "ocg_stabilizer", "ocg_recoil_stock", "barrel_ported" ],
-    "magazine_well": 2,
-    "magazines": [ [ "shot", [ "excidia20mags12", "excidia40mag" ] ] ],
-    "looks_like": "saiga_12"
+    "looks_like": "saiga_12",
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "excidia20mags12", "excidia40mag" ]
+      }
+    ]
   },
   {
     "id": "ocg12s_scuta",

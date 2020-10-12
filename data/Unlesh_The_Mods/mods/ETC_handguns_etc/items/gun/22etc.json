@@ -29,11 +29,17 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [
-      [ "22etc", [ "nanogun_240_mag", "nanogun_480_mag", "belt22etc" ] ],
-      [ "9etc", [ "belt9etc", "ocgchaingun_mag", "ocg9emag", "ocg9emagbig", "ocg9emagdrum", "deelmag" ] ]
-    ],
-    "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ]
+    "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "nanogun_240_mag", "nanogun_480_mag", "belt22etc" ]
+      }
+    ]
   },
   {
     "id": "etc_nanogunsd",
@@ -86,10 +92,18 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazine_well": 2,
     "looks_like": "fn_p90",
-    "magazines": [ [ "22etc", [ "o2038_100_mag" ] ], [ "9etc", [ "o2038h_56_mag" ] ] ],
-    "flags": [ "WATERPROOF_GUN" ]
+    "flags": [ "WATERPROOF_GUN" ],
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "o2038_100_mag" ]
+      }
+    ]
   },
   {
     "id": "etc_o2038sd",
@@ -154,8 +168,17 @@
     "delay_percent": 100,
     "clip_size": 12,
     "looks_like": "sw_619",
-    "magazines": [ [ "22etc", [ "22etc_speedloader" ] ] ],
-    "modes": [ [ "DEFAULT", "double", 2, [ "SIMULTANEOUS" ] ] ]
+    "modes": [ [ "DEFAULT", "double", 2, [ "SIMULTANEOUS" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "22etc_speedloader" ]
+      }
+    ]
   },
   {
     "id": "etc_ocg_smp",
@@ -175,7 +198,6 @@
     "dispersion": 300,
     "durability": 9,
     "looks_like": "glock_17",
-    "magazines": [ [ "22etc", [ "smp_30_mag", "smp_60_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -189,7 +211,17 @@
     ],
     "built_in_mods": [ "smp_suppressor" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ], [ "AUTO", "auto", 6 ] ],
-    "flags": [ "WATERPROOF_GUN" ]
+    "flags": [ "WATERPROOF_GUN" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "smp_30_mag", "smp_60_mag" ]
+      }
+    ]
   },
   {
     "id": "etc_ocg_spistol",
@@ -210,7 +242,6 @@
     "dispersion": 580,
     "durability": 7,
     "looks_like": "sig_mosquito",
-    "magazines": [ [ "22etc", [ "spistol_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -223,6 +254,16 @@
       [ "underbarrel", 1 ]
     ],
     "built_in_mods": [ "spistol_suppressor" ],
-    "flags": [ "WATERPROOF_GUN" ]
+    "flags": [ "WATERPROOF_GUN" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "spistol_mag" ]
+      }
+    ]
   }
 ]

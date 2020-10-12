@@ -15,7 +15,16 @@
     "dispersion": 150,
     "durability": 9,
     "built_in_mods": [ "integral_suppressor" ],
-    "magazines": [ [ "45", [ "m86a1mag", "usp45mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m86a1mag", "usp45mag" ]
+      }
+    ],
     "flags": [ "NEVER_JAMS" ]
   },
   {

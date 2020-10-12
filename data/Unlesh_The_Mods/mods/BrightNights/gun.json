@@ -21,7 +21,16 @@
     "loudness": 8,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "LASER", "DRAW_AS_LINE" ],
-    "magazines": [ [ "battery", [ "hd_battery", "rechargeable_battery" ] ] ],
-    "flags": [ "NEVER_JAMS", "FIRE_20" ]
+    "flags": [ "NEVER_JAMS", "FIRE_20" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "hd_battery", "rechargeable_battery" ]
+      }
+    ]
   }
 ]

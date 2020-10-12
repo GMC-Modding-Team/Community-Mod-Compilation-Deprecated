@@ -29,7 +29,16 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "magazines": [ [ "32", [ "32survmag", "32survmagxl" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "32survmag", "32survmagxl" ]
+      }
+    ]
   },
   {
     "id": ".22double_pistol",
@@ -337,7 +346,16 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "32", [ "32survmag", "32survmagxl" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "32survmag", "32survmagxl" ]
+      }
+    ]
   },
   {
     "id": "45single_pistol",
@@ -395,6 +413,15 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "9mm", [ "survivor9mm_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "survivor9mm_mag" ]
+      }
+    ]
   }
 ]

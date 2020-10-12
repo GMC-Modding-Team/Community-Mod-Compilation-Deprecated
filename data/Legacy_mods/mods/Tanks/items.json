@@ -358,7 +358,16 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "loudness": 175,
-    "magazines": [ [ "30mm", [ "belt30mm" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "belt30mm" ]
+      }
+    ]
   },
   {
     "id": "tank_gun_manual",
