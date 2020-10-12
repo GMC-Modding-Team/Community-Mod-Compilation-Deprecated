@@ -8,6 +8,7 @@
     "flags": [ "SILENT", "IGNORE_WALLS" ],
     "valid_targets": [ "ground", "self" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "effect_str": "dmbb_clear_barrier",
     "min_aoe": 10,
     "max_aoe": 10
@@ -21,6 +22,7 @@
     "flags": [ "SILENT", "IGNORE_WALLS" ],
     "valid_targets": [ "ground", "self" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "effect_str": "dmbb_change_colors_atked",
     "min_aoe": 10,
     "max_aoe": 10
@@ -34,6 +36,7 @@
     "flags": [ "SILENT", "IGNORE_WALLS" ],
     "valid_targets": [ "ground", "self" ],
     "effect": "ter_transform",
+    "shape": "blast",
     "effect_str": "dmbb_change_colors_defed",
     "min_aoe": 10,
     "max_aoe": 10
@@ -90,6 +93,7 @@
     "min_range": 1,
     "max_range": 1,
     "effect": "targeted_polymorph",
+    "shape": "blast",
     "effect_str": "mon_dmbb_divineshade"
   },
   {
@@ -384,7 +388,8 @@
     "description": "Targets self.",
     "valid_targets": [ "self" ],
     "extra_effects": [ { "id": "DMBB_ORB_check_target1" } ],
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "id": "DMBB_ORB_PC_hevpro_blight",
