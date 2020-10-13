@@ -11,7 +11,7 @@
     "move_cost_mod": -1,
     "coverage": 35,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "AUTODOC", "EASY_DECONSTRUCT" ],
+    "flags": [ "AUTODOC", "EASY_DECONSTRUCT" ],
     "examine_action": "autodoc",
     "deconstruct": { "items": [ { "item": "portable_autodoc", "count": 1 } ] }
   },
@@ -30,7 +30,7 @@
     "floor_bedding_warmth": 500,
     "required_str": 10,
     "deconstruct": { "items": [ { "item": "portable_autodoc_couch", "count": 1 } ] },
-    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "ORGANIC", "BLOCKSDOOR", "MOUNTABLE", "AUTODOC_COUCH", "EASY_DECONSTRUCT" ]
+    "flags": [ "FLAMMABLE_ASH", "ORGANIC", "BLOCKSDOOR", "MOUNTABLE", "AUTODOC_COUCH", "EASY_DECONSTRUCT" ]
   },
   {
     "type": "furniture",
@@ -43,7 +43,7 @@
     "move_cost_mod": 2,
     "coverage": 35,
     "required_str": 8,
-    "flags": [ "TRANSPARENT", "AUTODOC", "AUTODOC_COUCH", "EASY_DECONSTRUCT" ],
+    "flags": [ "AUTODOC", "AUTODOC_COUCH", "EASY_DECONSTRUCT" ],
     "examine_action": "autodoc",
     "surgery_skill_multiplier": 1.0,
     "deconstruct": { "items": [ { "item": "portable_autodoc_mk2", "count": 1 } ] },

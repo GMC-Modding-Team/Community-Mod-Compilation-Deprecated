@@ -10,7 +10,7 @@
     "description": "A makeshift fence",
     "color": "brown",
     "move_cost": 3,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAMMABLE_ASH", "NOITEM", "PERMEABLEW", "SHORT", "AUTO_WALL_SYMBOL" ],
+    "flags": [ "DIGGABLE", "FLAMMABLE_ASH", "NOITEM", "PERMEABLEW", "SHORT", "AUTO_WALL_SYMBOL" ],
     "connects_to": "WOODFENCE",
     "deconstruct": { "items": [ { "item": "2x4", "amount": 8, "minamount": 8 } ] },
     "bash": {
@@ -49,7 +49,7 @@
     "description": "A fence made from simple fence posts and branches woven between the posts.",
     "color": "brown",
     "move_cost": 3,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAMMABLE_ASH", "NOITEM", "PERMEABLE", "MOUNTABLE", "AUTO_WALL_SYMBOL" ],
+    "flags": [ "DIGGABLE", "FLAMMABLE_ASH", "NOITEM", "PERMEABLE", "MOUNTABLE", "AUTO_WALL_SYMBOL" ],
     "connects_to": "WOODFENCE",
     "deconstruct": { "items": [ { "item": "stick", "amount": 8, "minamount": 8 } ] },
     "bash": {

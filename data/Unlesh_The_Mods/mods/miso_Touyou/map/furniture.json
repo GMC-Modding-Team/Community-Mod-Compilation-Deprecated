@@ -8,7 +8,7 @@
     "description": "It is a small fire that will never disappear. Although it is not enough for lighting, it is possible to go through cooking using fire. You can also use it with a fire like a regular fireplace.",
     "move_cost_mod": 2,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "CONTAINER", "FIRE_CONTAINER", "SUPPRESS_SMOKE", "INDOORS", "PLACE_ITEM" ],
+    "flags": [ "CONTAINER", "FIRE_CONTAINER", "SUPPRESS_SMOKE", "INDOORS", "PLACE_ITEM" ],
     "crafting_pseudo_item": "fire",
     "bash": {
       "str_min": 18,
@@ -27,7 +27,7 @@
     "bgcolor": "light_gray",
     "move_cost_mod": 2,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "CONTAINER", "FIRE_CONTAINER", "SUPPRESS_SMOKE", "INDOORS", "PLACE_ITEM" ],
+    "flags": [ "CONTAINER", "FIRE_CONTAINER", "SUPPRESS_SMOKE", "INDOORS", "PLACE_ITEM" ],
     "bash": {
       "str_min": 6,
       "str_max": 21,
@@ -49,6 +49,6 @@
     "deconstruct": { "items": [ { "item": "tatami_mat", "count": 1 }, { "item": "straw_pile", "count": [ 1, 2 ] } ] },
     "symbol": "#",
     "color": [ "brown" ],
-    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "ORGANIC", "EASY_DECONSTRUCT" ]
+    "flags": [ "FLAMMABLE_ASH", "ORGANIC", "EASY_DECONSTRUCT" ]
   }
 ]

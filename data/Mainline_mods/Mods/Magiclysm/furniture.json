@@ -62,7 +62,7 @@
     "move_cost_mod": 2,
     "coverage": 60,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "PLACE_ITEM", "MOUNTABLE", "FLAT_SURF" ],
+    "flags": [ "PLACE_ITEM", "MOUNTABLE", "FLAT_SURF" ],
     "deconstruct": {
       "items": [
         { "item": "pipe", "count": [ 6, 12 ] },
@@ -104,7 +104,7 @@
     "coverage": 40,
     "required_str": -1,
     "crafting_pseudo_item": "still_lab",
-    "flags": [ "TRANSPARENT", "NOITEM" ],
+    "flags": [ "NOITEM" ],
     "deconstruct": {
       "items": [
         { "item": "pot_copper", "count": 1 },
@@ -138,7 +138,7 @@
     "move_cost_mod": -1,
     "coverage": 40,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "NOITEM" ],
+    "flags": [ "NOITEM" ],
     "deconstruct": {
       "items": [
         { "item": "clockworks", "count": [ 10, 30 ] },
@@ -172,7 +172,7 @@
     "coverage": 75,
     "required_str": -1,
     "looks_like": "f_boulder_large",
-    "flags": [ "TRANSPARENT", "EMITTER" ],
+    "flags": [ "EMITTER" ],
     "emissions": [ "emit_glimmer" ],
     "light_emitted": 12,
     "bash": {
@@ -238,7 +238,7 @@
     "move_cost_mod": -1,
     "required_str": 12,
     "light_emitted": 40,
-    "flags": [ "TRANSPARENT", "BASHABLE" ],
+    "flags": [ "BASHABLE" ],
     "bash": {
       "sound": "SMASH!",
       "str_min": 20,
