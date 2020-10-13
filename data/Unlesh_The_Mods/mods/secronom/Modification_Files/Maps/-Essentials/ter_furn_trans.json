@@ -44,7 +44,7 @@
       {
         "note": "Similar thing to prevent bugs.",
         "result": "f_null",
-        "valid_flags": [ "MINEABLE", "MOUNTABLE", "BLOCKSDOOR", "FLAT_SURF" ],
+        "valid_flags": [ "MINEABLE", "MOUNTABLE", "BLOCKSDOOR", "TRANSPARENT", "FLAT_SURF" ],
         "message": "The furnitures here has collapsed."
       }
     ]
@@ -69,7 +69,7 @@
     "furniture": [
       {
         "result": "f_secro_sack_hatch",
-        "valid_flags": [ "S_FLESH" ],
+        "valid_flags": [ "TRANSPARENT", "S_FLESH" ],
         "valid_furniture": [ "f_null" ],
         "message": "The flesh sack hatches."
       }

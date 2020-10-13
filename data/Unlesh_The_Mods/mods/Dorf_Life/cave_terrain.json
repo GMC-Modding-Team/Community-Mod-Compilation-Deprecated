@@ -9,7 +9,7 @@
     "color": "cyan",
     "move_cost": 2,
     "roof": "t_flat_roof",
-    "flags": [ "INDOORS", "FLAT" ],
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -21,7 +21,7 @@
     "symbol": "#",
     "color": "magenta_green",
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
     "transforms_into": "t_shrub_helmet_plump_harvested",
     "examine_action": "harvest_ter",
     "harvest_by_season": [
@@ -51,7 +51,7 @@
     "symbol": "#",
     "color": "light_red_green",
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
     "transforms_into": "t_shrub_helmet_plump",
     "examine_action": "harvested_plant",
     "bash": {
@@ -72,7 +72,7 @@
     "symbol": "#",
     "color": [ "red_green", "red_green", "brown_green", "brown_green" ],
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
     "transforms_into": "t_shrub_pod_sweet_harvested",
     "examine_action": "harvest_ter",
     "harvest_by_season": [
@@ -102,7 +102,7 @@
     "symbol": "#",
     "color": "green",
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
     "transforms_into": "t_shrub_pod_sweet",
     "examine_action": "harvested_plant",
     "bash": {
@@ -123,7 +123,7 @@
     "symbol": "#",
     "color": [ "brown_green", "white_green", "white_green", "brown_green" ],
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
     "transforms_into": "t_shrub_wheat_cave_harvested",
     "examine_action": "harvest_ter",
     "harvest_by_season": [
@@ -153,7 +153,7 @@
     "symbol": "#",
     "color": "green",
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
     "transforms_into": "t_shrub_wheat_cave",
     "examine_action": "harvested_plant",
     "bash": {
@@ -174,7 +174,7 @@
     "symbol": "#",
     "color": [ "green", "light_green", "light_green", "green" ],
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT" ],
     "transforms_into": "t_shrub_tails_pig_harvested",
     "examine_action": "harvest_ter",
     "harvest_by_season": [
@@ -204,7 +204,7 @@
     "symbol": "#",
     "color": "green",
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED" ],
     "transforms_into": "t_shrub_tails_pig",
     "examine_action": "harvested_plant",
     "bash": {
@@ -225,7 +225,7 @@
     "symbol": "#",
     "color": [ "green", "green", "green", "brown" ],
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "SHARP" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "SHARP" ],
     "transforms_into": "t_shrub_bush_quarry_harvested",
     "examine_action": "harvest_ter",
     "harvest_by_season": [
@@ -257,7 +257,7 @@
     "symbol": "#",
     "color": "brown",
     "move_cost": 2,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED", "SHARP" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "SHRUB", "SHORT", "HARVESTED", "SHARP" ],
     "transforms_into": "t_shrub_bush_quarry",
     "examine_action": "harvested_plant",
     "bash": {
@@ -300,7 +300,7 @@
     "color": "light_gray",
     "move_cost": 2,
     "roof": "t_flat_roof",
-    "flags": [ "INDOORS", "COLLAPSES", "SUPPORTS_ROOF", "FLAT", "ROAD" ],
+    "flags": [ "TRANSPARENT", "INDOORS", "COLLAPSES", "SUPPORTS_ROOF", "FLAT", "ROAD" ],
     "bash": {
       "str_min": 120,
       "str_max": 400,
@@ -352,7 +352,7 @@
     "symbol": ".",
     "color": "cyan",
     "move_cost": 2,
-    "flags": [ "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
     "close": "t_breach_concrete_fake_c",
     "bash": {
       "str_min": 120,

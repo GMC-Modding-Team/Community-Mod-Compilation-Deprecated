@@ -12,7 +12,18 @@
     "move_cost": 1,
     "roof": "t_hole",
     "light_emitted": 375,
-    "flags": [ "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD", "MINEABLE", "MOUNTABLE", "PLACE_ITEM" ],
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE_ASH",
+      "SUPPORTS_ROOF",
+      "COLLAPSES",
+      "INDOORS",
+      "FLAT",
+      "ROAD",
+      "MINEABLE",
+      "MOUNTABLE",
+      "PLACE_ITEM"
+    ],
     "bash": {
       "sound": "SMASH!",
       "ter_set": "t_null",
@@ -34,7 +45,7 @@
     "move_cost": 2,
     "roof": "t_flat_roof",
     "light_emitted": 0,
-    "flags": [ "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD", "MINEABLE" ],
     "bash": {
       "sound": "CLANG!",
       "ter_set": "t_null",
@@ -57,7 +68,18 @@
     "move_cost": 1,
     "roof": "t_hole",
     "light_emitted": 375,
-    "flags": [ "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD", "MINEABLE", "MOUNTABLE", "PLACE_ITEM" ],
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE_ASH",
+      "SUPPORTS_ROOF",
+      "COLLAPSES",
+      "INDOORS",
+      "FLAT",
+      "ROAD",
+      "MINEABLE",
+      "MOUNTABLE",
+      "PLACE_ITEM"
+    ],
     "bash": {
       "ter_set": "t_null",
       "str_min": 2,
@@ -80,7 +102,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_gud_lava" ],
-    "flags": [ "EMITTER" ]
+    "flags": [ "TRANSPARENT", "EMITTER" ]
   },
   {
     "type": "furniture",
@@ -93,7 +115,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_gud_lava" ],
-    "flags": [ "EMITTER" ]
+    "flags": [ "TRANSPARENT", "EMITTER" ]
   },
   {
     "type": "furniture",
@@ -120,7 +142,7 @@
     "coverage": 10,
     "light_emitted": 215,
     "required_str": -1,
-    "flags": [  ],
+    "flags": [ "TRANSPARENT" ],
     "bash": {
       "str_min": 8,
       "str_max": 20,

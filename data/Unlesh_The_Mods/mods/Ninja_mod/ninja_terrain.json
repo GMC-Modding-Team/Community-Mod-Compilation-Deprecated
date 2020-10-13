@@ -45,6 +45,7 @@
       ]
     },
     "flags": [
+      "TRANSPARENT",
       "FLAMMABLE_ASH",
       "NOITEM",
       "SUPPORTS_ROOF",
@@ -84,7 +85,7 @@
         { "item": "nail", "prob": 30, "count": 10 }
       ]
     },
-    "flags": [ "FLAMMABLE_ASH", "SUPPORTS_ROOF", "FLAT", "BARRICADABLE_DOOR", "CONNECT_TO_WALL", "ROAD" ]
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "SUPPORTS_ROOF", "FLAT", "BARRICADABLE_DOOR", "CONNECT_TO_WALL", "ROAD" ]
   },
   {
     "id": "t_ninja_secret_door_metal_c",
@@ -132,6 +133,7 @@
       ]
     },
     "flags": [
+      "TRANSPARENT",
       "FLAMMABLE_ASH",
       "NOITEM",
       "SUPPORTS_ROOF",
@@ -171,7 +173,7 @@
         { "item": "scrap", "count": [ 9, 36 ] }
       ]
     },
-    "flags": [ "FLAMMABLE_ASH", "FLAT", "SUPPORTS_ROOF", "BARRICADABLE_DOOR", "CONNECT_TO_WALL", "ROAD" ]
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "FLAT", "SUPPORTS_ROOF", "BARRICADABLE_DOOR", "CONNECT_TO_WALL", "ROAD" ]
   },
   {
     "id": "t_ninja_secret_gate_control",
@@ -230,7 +232,7 @@
     "move_cost": 2,
     "roof": "t_flat_roof",
     "bash": { "str_min": 75, "str_max": 400, "str_min_supported": 100, "ter_set": "t_null", "bash_below": true },
-    "flags": [ "INDOORS", "FLAT", "SUPPORTS_ROOF", "ROAD" ]
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "SUPPORTS_ROOF", "ROAD" ]
   },
   {
     "id": "t_ninja_secret_gate_control_metal",
@@ -289,7 +291,7 @@
     "move_cost": 2,
     "roof": "t_flat_roof",
     "bash": { "str_min": 75, "str_max": 400, "str_min_supported": 100, "ter_set": "t_null", "bash_below": true },
-    "flags": [ "INDOORS", "FLAT", "SUPPORTS_ROOF", "ROAD" ]
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "SUPPORTS_ROOF", "ROAD" ]
   },
   {
     "id": "t_ninja_secret_gate_control_air",
@@ -302,7 +304,7 @@
     "roof": "t_flat_roof",
     "examine_action": "controls_gate",
     "bash": { "str_min": 75, "str_max": 400, "str_min_supported": 100, "ter_set": "t_null", "bash_below": true },
-    "flags": [ "INDOORS", "FLAT", "SUPPORTS_ROOF", "ROAD" ]
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "SUPPORTS_ROOF", "ROAD" ]
   },
   {
     "id": "t_ninja_secret_gate_control_water",

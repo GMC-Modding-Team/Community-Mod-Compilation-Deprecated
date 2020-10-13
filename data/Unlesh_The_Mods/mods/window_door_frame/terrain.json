@@ -7,7 +7,7 @@
     "symbol": "0",
     "color": "yellow",
     "move_cost": 8,
-    "flags": [ "NOITEM", "MOUNTABLE", "CONNECT_TO_WALL" ],
+    "flags": [ "TRANSPARENT", "NOITEM", "MOUNTABLE", "CONNECT_TO_WALL" ],
     "deconstruct": { "ter_set": "t_floor", "items": [ { "item": "2x4", "count": 15 }, { "item": "nail", "charges": [ 15, 30 ] } ] },
     "bash": {
       "str_min": 10,

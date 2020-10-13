@@ -7,7 +7,7 @@
     "symbol": "#",
     "color": "dark_gray",
     "move_cost": 8,
-    "flags": [ "FLAMMABLE_ASH", "SHRUB", "FUNGUS", "SHORT" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "SHRUB", "FUNGUS", "SHORT" ],
     "bash": { "str_min": 4, "str_max": 60, "sound": "crunch.", "sound_fail": "poof!", "ter_set": "t_fungus" }
   },
   {
@@ -18,7 +18,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 3,
-    "flags": [ "FLAMMABLE_ASH", "DIGGABLE", "FUNGUS", "NOCOLLIDE" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "DIGGABLE", "FUNGUS", "NOCOLLIDE" ],
     "bash": {
       "sound": "smash",
       "//": "muffled because fungus",
@@ -37,7 +37,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "FUNGUS" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "FUNGUS" ],
     "bash": { "sound": "smash", "ter_set": "t_null", "str_min": 20, "str_max": 400, "str_min_supported": 50 }
   },
   {
@@ -49,7 +49,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAMMABLE_ASH", "SUPPORTS_ROOF", "FLAT", "FUNGUS" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "SUPPORTS_ROOF", "FLAT", "FUNGUS" ],
     "bash": { "sound": "smash", "ter_set": "t_null", "str_min": 20, "str_max": 400, "str_min_supported": 50 }
   },
   {
@@ -61,7 +61,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAMMABLE_ASH", "FLAT", "FUNGUS" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "FLAT", "FUNGUS" ],
     "bash": { "sound": "SMASH!", "ter_set": "t_null", "str_min": 20, "str_max": 400, "str_min_supported": 50 }
   },
   {
@@ -97,7 +97,7 @@
     "symbol": "#",
     "color": "light_gray",
     "move_cost": 4,
-    "flags": [ "THIN_OBSTACLE", "FLAMMABLE_ASH", "FUNGUS", "MOUNTABLE" ],
+    "flags": [ "TRANSPARENT", "THIN_OBSTACLE", "FLAMMABLE_ASH", "FUNGUS", "MOUNTABLE" ],
     "bash": { "str_min": 10, "str_max": 70, "sound": "crunch!", "sound_fail": "poof!", "ter_set": "t_fungus" }
   },
   {
@@ -109,7 +109,7 @@
     "color": "dark_gray",
     "move_cost": 8,
     "coverage": 40,
-    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB", "FUNGUS", "SHORT" ],
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB", "FUNGUS", "SHORT" ],
     "bash": { "str_min": 4, "str_max": 60, "sound": "crunch.", "sound_fail": "poof!", "ter_set": "t_fungus" }
   },
   {
@@ -132,7 +132,7 @@
     "symbol": "1",
     "color": "dark_gray",
     "move_cost": 4,
-    "flags": [ "FLAMMABLE_ASH", "NOITEM", "FUNGUS", "YOUNG", "REDUCE_SCENT" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "NOITEM", "FUNGUS", "YOUNG", "REDUCE_SCENT" ],
     "bash": { "str_min": 4, "str_max": 50, "sound": "crunch!", "sound_fail": "poof!", "ter_set": "t_fungus" }
   },
   {
