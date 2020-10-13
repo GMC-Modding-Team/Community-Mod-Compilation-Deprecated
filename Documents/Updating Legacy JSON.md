@@ -29,8 +29,10 @@ Use the `home` key to get to the top.
 - [Weight](#weight)
 - [Effect](#effect)
 - [Shape](#shape)
-- [Construction group](#Construction-group)
+- [Construction group](#construction-group)
   + [Group](#group)
+- [Activity level](#activity-level)
+
 
 # Introduction
 Welcome to Updating Legacy JSON.md. This document aims to guide you through the process of replacing obsolete code with modern JSON.
@@ -90,6 +92,7 @@ When I provide regex it will always be in the format find entry, empty line, rep
 # Ammo Type
 It is possible to specify the `key: value` pair `ammo: string` under both `type: GUN`, and `type: AMMO`. However, under `type: GUN`, the `key: value` pair should actually be `ammo: [ string ]`.
 For reference, here is what it should look like under `type: GUN`:
+
 ```JSON
 "ammo": [ "300blk" ]
 ```
@@ -112,6 +115,7 @@ Artifacts are currently undergoing a massive change. Nothing too important has c
 
 # barrel_length
 Very recently, the `barrel_length` `key` for `type: GUN` has been replaced by `barrel_volume`. Fortunately this is a rather easy fix:
+
 ```regex
 "barrel_length":
 
@@ -119,6 +123,7 @@ Very recently, the `barrel_length` `key` for `type: GUN` has been replaced by `b
 ```
 
 Less recently, at some point, `barrel_length` switched `value` from a `number` to a `string`. The modern JSON looks like this:
+
 ```JSON
 "barrel_volume": "750 ml"
 ```
@@ -147,6 +152,7 @@ If you've been directed here from the linting section, it is because you have th
 
 # bullet_resist
 `bullet_resist` is a new mandatory `key: value` pair for `type: material`. If it does not contain `bullet_resist`, it will cause the game to be unable to run. The only way to fix this is to manually add:
+
 ```JSON
 "bullet_resist": number,
 ```
@@ -157,6 +163,7 @@ Color has gone through updates and there are many variants of ...
 
 # copy-from and looks_like
 These are both simple type errors. They should look like:
+
 ```JSON
 "copy-from": "example_item"
 "looks_like": "example_item"
@@ -177,6 +184,7 @@ It is also possible to use the JSON formatter that comes with CDDA, see the [JSO
 
 # Materials
 Many items specify a `material: value` pair, which should have an `array` first, like this:
+
 ```JSON
 "material": [ "plastic" ],
 "material": [ "plastic", "steel" ]
@@ -195,6 +203,7 @@ This is easily fixed with a regex search:
 
 # Name
 Almost everything that can be seen by characters has a `name: string` `key: value` pair. However, a small subset of these should be specified as:
+
 ```JSON
 "name": { "str": "pair of socks", "str_pl": "pairs of socks" }
 "name": { "str_sp": "irradiated celery" } //use this if the item should not pluralise at all.
@@ -222,6 +231,7 @@ Afterwards, manually join the fields together. Trust me, it'll still save time.
 
 # picklock
 It is very possible that you will see the `use_action` `picklock`. This has been rendered obsolete by the addition of the `quality` `LOCKPICK`. You may see:
+
 ```JSON
 "use_action": { "type": "picklock", "pick_quality": 5 }
 ```
@@ -232,12 +242,14 @@ Which should be:
 
 This has to be done manually due to the possible presence of other text in the `use_action` and a pre-existing `qualities` key.
 
+
 # Pocket Data
 In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), there is pocket_mags.py that should be able to handle some of the work.
 
 
 ## Gun Pocket Data
 legacy code just delete These **needs updating**
+
 ```JSON
 "magazines": [ [ "Example_ammo", [ "Example_magazine1", "Example_magazine2" ] ] ]
 "magazine_well": 1
@@ -284,6 +296,7 @@ This is more complicated **needs updating**
 
 # type: CONTAINER
 `type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
+
 ```regex
 "type": "CONTAINER"
 
@@ -292,6 +305,7 @@ This is more complicated **needs updating**
 
 # Volume
 The current JSON standards for the `key` `"volume"` look like this:
+
 ```JSON
 "volume": "250 ml"
 ```
@@ -319,6 +333,7 @@ Note: There is, in [JSON tools](https://github.com/CleverRaven/Cataclysm-DDA/tre
 
 # Weight
 The current JSON standards for `key` `"weight"` look like this:
+
 ```JSON
 "weight": "100 g"
 ```
@@ -342,6 +357,7 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 # Effect
 The current JSON standards for `key` `"effect"` look like this: **needs updating**
+
 ```JSON
 "effect": "attack"
 ```
@@ -366,6 +382,7 @@ if you want to do this quickly with regex use the following example
 
 # Shape
 The current JSON standards for `key` `"shape"` look like this: **needs updating**
+
 ```JSON
 "shape": "blast"
 ```
@@ -379,16 +396,32 @@ all shapes -
 
 # Construction group
 The current JSON standards for `type` `"construction_group"` look like this:
-```Json
+
+```Json C++
 "type": "construction_group",
 "id": "Example",
 "name": "Remove Example"
 ```
 
-## group
+
+## Group
 The current JSON standards for `key` `"group"` look like this:
+
 ```JSON
 "type": "construction",
 "id": "constr_example",
 "group": "Example",
+```
+
+
+# Activity level
+The current JSON standards for `key` `"activity_level"` look like this:
+
+```JSON
+"activity_level": "EXTRA_EXERCISE",
+"activity_level": "ACTIVE_EXERCISE",
+"activity_level": "BRISK_EXERCISE",
+"activity_level": "MODERATE_EXERCISE",
+"activity_level": "LIGHT_EXERCISE",
+"activity_level": "NO_EXERCISE",
 ```
