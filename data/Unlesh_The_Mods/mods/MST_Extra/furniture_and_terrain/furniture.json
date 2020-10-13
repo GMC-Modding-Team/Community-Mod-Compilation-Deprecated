@@ -125,7 +125,7 @@
       "ter_set": "t_dirt",
       "items": [ { "item": "pointy_stick", "count": 4 }, { "item": "withered", "count": 8 }, { "item": "leather_tarp", "count": 1 } ]
     },
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "THIN_OBSTACLE", "INDOORS", "MOUNTABLE", "EASY_DECONSTRUCT" ]
+    "flags": [ "TRANSPARENT", "THIN_OBSTACLE", "INDOORS", "MOUNTABLE", "EASY_DECONSTRUCT" ]
   },
   {
     "type": "furniture",
@@ -138,7 +138,7 @@
     "move_cost_mod": -1,
     "coverage": 70,
     "required_str": 8,
-    "flags": [ "FLAMMABLE", "PLACE_ITEM", "ORGANIC", "BLOCKSDOOR", "EASY_DECONSTRUCT" ],
+    "flags": [ "PLACE_ITEM", "ORGANIC", "BLOCKSDOOR", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "2x4", "count": 12 } ] },
     "max_volume": "6000 L",
     "bash": {
@@ -160,7 +160,7 @@
     "move_cost_mod": 2,
     "coverage": 60,
     "required_str": 11,
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF", "EASY_DECONSTRUCT" ],
+    "flags": [ "TRANSPARENT", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "2x4", "count": 6 } ] },
     "max_volume": "4000 L",
     "bash": {
@@ -185,7 +185,7 @@
     "coverage": 50,
     "required_str": 6,
     "max_volume": "4000 L",
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF", "EASY_DECONSTRUCT" ],
+    "flags": [ "TRANSPARENT", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "2x4", "count": 6 } ] },
     "bash": {
       "str_min": 12,
