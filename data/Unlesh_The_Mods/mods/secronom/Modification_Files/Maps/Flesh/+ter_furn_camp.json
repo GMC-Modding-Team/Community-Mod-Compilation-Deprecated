@@ -9,7 +9,7 @@
     "symbol": ".",
     "color": "light_red",
     "move_cost": 5,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_dirt", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -21,7 +21,7 @@
     "symbol": ".",
     "color": "red",
     "move_cost": 5,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -33,7 +33,7 @@
     "symbol": ",",
     "color": "red",
     "move_cost": 6,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass_long", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -46,7 +46,7 @@
     "color": "red",
     "move_cost": 8,
     "coverage": 50,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass_tall", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
