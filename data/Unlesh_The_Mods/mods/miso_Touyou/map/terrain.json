@@ -53,7 +53,7 @@
     "color": [ "yellow_white", "green_yellow", "green_yellow", "green_yellow" ],
     "//": "一年を通じて竹を入手できます。さらに春にはたけのこを入手できます。",
     "move_cost": 0,
-    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT" ],
     "transforms_into": "t_tree_take_harvested",
     "examine_action": "harvest_ter",
     "harvest_by_season": [
@@ -87,7 +87,7 @@
     "color": [ "light_green", "light_green", "light_green", "brown" ],
     "//": "Amazing child growing after one season",
     "move_cost": 3,
-    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "NOITEM", "YOUNG", "REDUCE_SCENT", "FLAT", "HARVESTED" ],
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "YOUNG", "REDUCE_SCENT", "FLAT", "HARVESTED" ],
     "examine_action": "harvested_plant",
     "transforms_into": "t_tree_take",
     "bash": {
@@ -107,7 +107,7 @@
     "symbol": "LINE_OXOX",
     "color": "brown",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "NOITEM", "THIN_OBSTACLE", "MOUNTABLE", "SHORT", "AUTO_WALL_SYMBOL" ],
+    "flags": [ "NOITEM", "THIN_OBSTACLE", "MOUNTABLE", "SHORT", "AUTO_WALL_SYMBOL" ],
     "connects_to": "WOODFENCE",
     "bash": {
       "str_min": 40,

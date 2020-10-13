@@ -7,7 +7,7 @@
     "symbol": ".",
     "color": "magenta",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "FLAT" ]
+    "flags": [ "FLAT" ]
   },
   {
     "type": "terrain",
@@ -17,7 +17,7 @@
     "symbol": "LINE_OXOX",
     "color": "cyan",
     "move_cost": 40,
-    "flags": [ "TRANSPARENT", "AUTO_WALL_SYMBOL" ],
+    "flags": [ "AUTO_WALL_SYMBOL" ],
     "connects_to": "CHAINFENCE"
   },
   {
@@ -30,7 +30,7 @@
     "move_cost": 2,
     "light_emitted": 1,
     "roof": "t_flat_roof",
-    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "NOITEM" ]
+    "flags": [ "SUPPORTS_ROOF", "INDOORS", "NOITEM" ]
   },
   {
     "type": "terrain",

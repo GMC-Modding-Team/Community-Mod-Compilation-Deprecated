@@ -9,7 +9,7 @@
     "symbol": ".",
     "color": "light_red",
     "move_cost": 5,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_dirt", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -21,7 +21,7 @@
     "symbol": ".",
     "color": "red",
     "move_cost": 5,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -33,7 +33,7 @@
     "symbol": ",",
     "color": "red",
     "move_cost": 6,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass_long", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -46,7 +46,7 @@
     "color": "red",
     "move_cost": 8,
     "coverage": 50,
-    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass_tall", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -59,7 +59,7 @@
     "color": "red",
     "move_cost": 8,
     "coverage": 40,
-    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB", "SHORT", "S_FLESH" ],
+    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB", "SHORT", "S_FLESH" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash.", "sound_fail": "splat.", "ter_set": "t_shrub" }
   },
   {
@@ -71,7 +71,7 @@
     "symbol": "1",
     "color": [ "red", "light_red", "red", "red" ],
     "move_cost": 7,
-    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "NOITEM", "YOUNG", "REDUCE_SCENT", "S_FLESH" ],
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "YOUNG", "REDUCE_SCENT", "S_FLESH" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_tree_young" }
   },
   {
@@ -99,7 +99,7 @@
     "coverage": 30,
     "required_str": 10,
     "crafting_pseudo_item": "boulder_anvil",
-    "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "S_FLESH", "UNSTABLE", "MOUNTABLE", "TINY" ],
+    "flags": [ "FLAMMABLE_HARD", "S_FLESH", "UNSTABLE", "MOUNTABLE", "TINY" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat.", "ter_set": "f_boulder_small" }
   },
   {
@@ -114,7 +114,7 @@
     "coverage": 45,
     "required_str": 16,
     "crafting_pseudo_item": "boulder_anvil",
-    "flags": [ "FLAMMABLE_HARD", "NOITEM", "TRANSPARENT", "S_FLESH", "UNSTABLE", "MOUNTABLE", "SHORT", "BASHABLE" ],
+    "flags": [ "FLAMMABLE_HARD", "NOITEM", "S_FLESH", "UNSTABLE", "MOUNTABLE", "SHORT", "BASHABLE" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat.", "ter_set": "f_boulder_medium" }
   },
   {
@@ -140,7 +140,7 @@
     "symbol": ".",
     "color": "red",
     "move_cost": 5,
-    "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH" ]
+    "flags": [ "FLAMMABLE_HARD", "FLAT", "S_FLESH" ]
   },
   {
     "type": "terrain",
@@ -151,7 +151,7 @@
     "symbol": ".",
     "color": "light_red",
     "move_cost": 2,
-    "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH" ]
+    "flags": [ "FLAMMABLE_HARD", "FLAT", "S_FLESH" ]
   },
   {
     "type": "terrain",
@@ -175,7 +175,7 @@
     "symbol": ".",
     "color": "light_red",
     "move_cost": 1,
-    "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH" ]
+    "flags": [ "FLAMMABLE_HARD", "FLAT", "S_FLESH" ]
   },
   {
     "type": "terrain",
@@ -208,7 +208,7 @@
     "comfort": 4,
     "floor_bedding_warmth": 700,
     "required_str": -1,
-    "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "PLACE_ITEM", "MOUNTABLE", "CAN_SIT", "S_FLESH" ],
+    "flags": [ "FLAMMABLE_HARD", "PLACE_ITEM", "MOUNTABLE", "CAN_SIT", "S_FLESH" ],
     "bash": {
       "str_min": 15,
       "str_max": 50,
@@ -227,7 +227,7 @@
     "move_cost_mod": 3,
     "coverage": 10,
     "required_str": -1,
-    "flags": [ "CONTAINER", "PLACE_ITEM", "TRANSPARENT", "FLAMMABLE_HARD", "MOUNTABLE", "S_FLESH" ],
+    "flags": [ "CONTAINER", "PLACE_ITEM", "FLAMMABLE_HARD", "MOUNTABLE", "S_FLESH" ],
     "max_volume": "2500 L",
     "bash": {
       "str_min": 20,
@@ -247,7 +247,7 @@
     "move_cost_mod": -1,
     "coverage": 10,
     "required_str": -1,
-    "flags": [ "CONTAINER", "PLACE_ITEM", "TRANSPARENT", "FLAMMABLE_HARD", "S_FLESH" ],
+    "flags": [ "CONTAINER", "PLACE_ITEM", "FLAMMABLE_HARD", "S_FLESH" ],
     "max_volume": "10000 L",
     "bash": {
       "str_min": 20,
@@ -267,7 +267,7 @@
     "move_cost_mod": -1,
     "coverage": 10,
     "required_str": -1,
-    "flags": [ "CONTAINER", "PLACE_ITEM", "TRANSPARENT", "FLAMMABLE_HARD", "S_FLESH" ],
+    "flags": [ "CONTAINER", "PLACE_ITEM", "FLAMMABLE_HARD", "S_FLESH" ],
     "max_volume": "1500 L",
     "bash": {
       "str_min": 10,
@@ -287,7 +287,7 @@
     "move_cost_mod": -1,
     "coverage": 90,
     "required_str": -1,
-    "flags": [ "CONTAINER", "LIQUIDCONT", "NOITEM", "SEALED", "TRANSPARENT", "S_FLESH" ],
+    "flags": [ "CONTAINER", "LIQUIDCONT", "NOITEM", "SEALED", "S_FLESH" ],
     "examine_action": "keg",
     "keg_capacity": 750,
     "bash": {
@@ -309,7 +309,7 @@
     "coverage": 5,
     "required_str": -1,
     "light_emitted": 3,
-    "flags": [ "TRANSPARENT" ],
+    "flags": [  ],
     "bash": { "str_min": 6, "str_max": 9, "sound": "splook!", "sound_fail": "splat!", "items": [ { "item": "secro_flesh" } ] }
   }
 ]

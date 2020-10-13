@@ -7,7 +7,7 @@
     "symbol": "#",
     "color": "green",
     "move_cost": 8,
-    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "NOCOLLIDE", "SHRUB", "SHORT" ]
+    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "NOCOLLIDE", "SHRUB", "SHORT" ]
   },
   {
     "type": "terrain",
@@ -18,17 +18,7 @@
     "symbol": "#",
     "color": "light_green",
     "move_cost": 6,
-    "flags": [
-      "TRANSPARENT",
-      "DIGGABLE",
-      "CONTAINER",
-      "FLAMMABLE_ASH",
-      "THIN_OBSTACLE",
-      "PLACE_ITEM",
-      "NOCOLLIDE",
-      "SHRUB",
-      "SHORT"
-    ],
+    "flags": [ "DIGGABLE", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "NOCOLLIDE", "SHRUB", "SHORT" ],
     "examine_action": "shrub_wildveggies",
     "bash": {
       "str_min": 4,

@@ -7,7 +7,7 @@
     "symbol": ".",
     "color": "yellow",
     "move_cost": 4,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
+    "flags": [ "DIGGABLE", "FLAT" ],
     "//": "Missing feature to produce whistling noise when walked on.",
     "bash": {
       "str_min": 50,
@@ -61,7 +61,7 @@
     "symbol": ".",
     "color": "dark_gray",
     "move_cost": 2,
-    "flags": [ "DIGGABLE", "FLAT", "ROUGH", "TRANSPARENT" ],
+    "flags": [ "DIGGABLE", "FLAT", "ROUGH" ],
     "bash": {
       "str_min": 50,
       "str_max": 100,
@@ -81,7 +81,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
+    "flags": [ "DIGGABLE", "FLAT" ],
     "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -94,7 +94,7 @@
     "move_cost": 8,
     "coverage": 40,
     "looks_like": "f_mutcactus_test",
-    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHARP" ],
+    "flags": [ "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHARP" ],
     "examine_action": "harvest_ter_nectar",
     "harvest_by_season": [ { "seasons": [ "spring" ], "entries": [ { "drop": "cholla_bud", "base_num": [ 2, 5 ] } ] } ],
     "bash": {

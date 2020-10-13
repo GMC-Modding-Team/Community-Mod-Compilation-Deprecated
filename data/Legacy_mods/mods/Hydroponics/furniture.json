@@ -10,7 +10,7 @@
     "light_emitted": 10,
     "required_str": 12,
     "looks_like": "f_planter",
-    "flags": [ "TRANSPARENT", "PLANTABLE", "FLAT", "MOUNTABLE" ],
+    "flags": [ "PLANTABLE", "FLAT", "MOUNTABLE" ],
     "deconstruct": { "items": [ { "group": "hydrop_deconstruct_results" } ] },
     "bash": {
       "str_min": 6,
@@ -30,7 +30,7 @@
     "symbol": "^",
     "color": "brown",
     "looks_like": "f_plant_seed",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED" ],
+    "flags": [ "PLANT", "SEALED", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEED" ],
     "examine_action": "aggie_plant",
     "copy-from": "f_hydroponics",
     "plant_data": { "transform": "f_hydroponics_seedling", "base": "f_hydroponics" }
@@ -43,7 +43,7 @@
     "symbol": "^",
     "color": "green",
     "looks_like": "f_plant_seedling",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING" ],
+    "flags": [ "PLANT", "SEALED", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_SEEDLING" ],
     "examine_action": "aggie_plant",
     "copy-from": "f_hydroponics_seed",
     "plant_data": { "transform": "f_hydroponics_mature", "base": "f_hydroponics" }
@@ -57,7 +57,7 @@
     "color": "green",
     "looks_like": "f_plant_mature",
     "move_cost_mod": 0,
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE" ],
+    "flags": [ "PLANT", "SEALED", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_MATURE" ],
     "examine_action": "aggie_plant",
     "copy-from": "f_hydroponics_seed",
     "plant_data": { "transform": "f_hydroponics_harvest", "base": "f_hydroponics" }
@@ -70,7 +70,7 @@
     "symbol": "#",
     "color": "light_green",
     "looks_like": "f_plant_harvest",
-    "flags": [ "PLANT", "SEALED", "TRANSPARENT", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST" ],
+    "flags": [ "PLANT", "SEALED", "CONTAINER", "NOITEM", "TINY", "DONT_REMOVE_ROTTEN", "GROWTH_HARVEST" ],
     "examine_action": "aggie_plant",
     "copy-from": "f_hydroponics_mature",
     "plant_data": { "transform": "f_hydroponics", "base": "f_hydroponics", "harvest_multiplier": 2.5 }
@@ -85,7 +85,7 @@
     "move_cost_mod": 1,
     "required_str": 12,
     "looks_like": "mountable_heater",
-    "flags": [ "TRANSPARENT", "FLAT", "MOUNTABLE", "EMITTER" ],
+    "flags": [ "FLAT", "MOUNTABLE", "EMITTER" ],
     "emissions": [ "emit_hot_air2_blast" ],
     "deconstruct": {
       "items": [
