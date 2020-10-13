@@ -28,7 +28,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND", "S_FLESH" ],
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND", "S_FLESH" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_wall" }
   },
   {
@@ -40,7 +40,7 @@
     "color": "light_red",
     "move_cost": 0,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "REDUCE_SCENT", "BARRICADABLE_WINDOW", "CONNECT_TO_WALL", "BLOCK_WIND", "S_FLESH" ],
+    "flags": [ "NOITEM", "REDUCE_SCENT", "BARRICADABLE_WINDOW", "CONNECT_TO_WALL", "BLOCK_WIND", "S_FLESH" ],
     "bash": {
       "str_min": 8,
       "str_max": 16,
@@ -72,7 +72,7 @@
       "ter_set": "t_window_empty",
       "items": [ { "item": "glass_shard", "count": [ 6, 10 ] } ]
     },
-    "flags": [ "TRANSPARENT", "SHARP", "FLAMMABLE", "NOITEM", "MOUNTABLE", "CONNECT_TO_WALL", "SMALL_PASSAGE", "S_FLESH" ]
+    "flags": [ "TRANSPARENT", "SHARP", "NOITEM", "MOUNTABLE", "CONNECT_TO_WALL", "SMALL_PASSAGE", "S_FLESH" ]
   },
   {
     "type": "terrain",
@@ -165,7 +165,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_fleshknot_gas_terrains" ],
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "NOCOLLIDE", "S_FLESH", "EMITTER" ]
+    "flags": [ "TRANSPARENT", "NOCOLLIDE", "S_FLESH", "EMITTER" ]
   },
   {
     "note": "Starting here are the furnitures and terrains seen in flesh forest.",
@@ -176,7 +176,7 @@
     "symbol": ".",
     "color": "light_red",
     "move_cost": 5,
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_dirt", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -187,7 +187,7 @@
     "symbol": ".",
     "color": "red",
     "move_cost": 5,
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -198,7 +198,7 @@
     "symbol": ",",
     "color": "red",
     "move_cost": 6,
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass_long", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -210,7 +210,7 @@
     "color": "red",
     "move_cost": 8,
     "coverage": 50,
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "FLAT", "S_FLESH" ],
+    "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": { "sound": "splash", "ter_set": "t_grass_tall", "str_min": 8, "str_max": 16, "bash_below": true }
   },
   {
@@ -392,7 +392,7 @@
     "required_str": -1,
     "coverage": 20,
     "emissions": [ "emit_flesh_sack_hatch" ],
-    "flags": [ "FLAMMABLE", "S_FLESH", "EMITTER" ],
+    "flags": [ "S_FLESH", "EMITTER" ],
     "bash": { "str_min": 12, "str_max": 24, "sound": "splook!", "sound_fail": "splat!", "ter_set": "f_null" }
   },
   {
@@ -406,7 +406,7 @@
     "required_str": -1,
     "coverage": 5,
     "emissions": [ "emit_flesh_tentclus" ],
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "EMITTER" ],
+    "flags": [ "TRANSPARENT", "S_FLESH", "EMITTER" ],
     "bash": { "str_min": 15, "str_max": 30, "sound": "splook!", "sound_fail": "splat!", "ter_set": "f_null" }
   },
   {
@@ -439,7 +439,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_flesh_bones" ],
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "ROUGH", "EMITTER", "FF_BIOHAZARD" ],
+    "flags": [ "TRANSPARENT", "S_FLESH", "ROUGH", "EMITTER", "FF_BIOHAZARD" ],
     "bash": { "str_min": 10, "str_max": 20, "sound": "splash!", "sound_fail": "splook!", "ter_set": "f_null" }
   },
   {
@@ -452,7 +452,7 @@
     "move_cost_mod": 2,
     "required_str": -1,
     "emissions": [ "emit_flesh_tendrils" ],
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "EMITTER", "FF_BIOHAZARD" ],
+    "flags": [ "TRANSPARENT", "S_FLESH", "EMITTER", "FF_BIOHAZARD" ],
     "bash": { "str_min": 7, "str_max": 14, "sound": "splook!", "sound_fail": "splat!", "ter_set": "t_secro_flesh" }
   },
   {
@@ -466,7 +466,7 @@
     "color": "red",
     "move_cost_mod": 1,
     "required_str": -1,
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "FF_BIOHAZARD" ]
+    "flags": [ "TRANSPARENT", "S_FLESH", "FF_BIOHAZARD" ]
   },
   {
     "looks_like": "t_secro_flesh_wall",
@@ -527,7 +527,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_flesh_biome" ],
-    "flags": [ "TRANSPARENT", "FLAMMABLE", "S_FLESH", "EMITTER" ]
+    "flags": [ "TRANSPARENT", "S_FLESH", "EMITTER" ]
   },
   {
     "type": "terrain",
@@ -564,7 +564,7 @@
     "required_str": -1,
     "coverage": 10,
     "emissions": [ "emit_veinstalk_spawn" ],
-    "flags": [ "FLAMMABLE", "S_FLESH", "EMITTER" ],
+    "flags": [ "S_FLESH", "EMITTER" ],
     "bash": { "str_min": 12, "str_max": 22, "sound": "splook!", "sound_fail": "splat!", "ter_set": "f_null" }
   },
   {
@@ -577,7 +577,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_wall_w" }
   },
   {
@@ -590,7 +590,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_wall_g" }
   },
   {
@@ -603,7 +603,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_wall_r" }
   },
   {
@@ -616,7 +616,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_wall_b" }
   },
   {
@@ -1086,7 +1086,7 @@
     "move_cost": 0,
     "coverage": 100,
     "roof": "t_secro_flat_roof_flesh",
-    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "CHIP", "S_FLESH", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_wall_p" }
   },
   {
