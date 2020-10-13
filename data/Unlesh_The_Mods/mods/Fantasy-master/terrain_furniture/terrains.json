@@ -8,7 +8,7 @@
     "symbol": "~",
     "color": "light_blue",
     "move_cost": 11,
-    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FISHABLE", "DEEP_WATER" ],
+    "flags": [ "LIQUID", "NO_SCENT", "SWIMMABLE", "FISHABLE", "DEEP_WATER" ],
     "connects_to": "WATER",
     "examine_action": "water_source"
   },
@@ -23,18 +23,7 @@
     "move_cost": 2,
     "roof": "t_flat_roof",
     "light_emitted": 150,
-    "flags": [
-      "TRANSPARENT",
-      "FLAMMABLE_ASH",
-      "SUPPORTS_ROOF",
-      "COLLAPSES",
-      "INDOORS",
-      "FLAT",
-      "ROAD",
-      "MINEABLE",
-      "MOUNTABLE",
-      "PLACE_ITEM"
-    ],
+    "flags": [ "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD", "MINEABLE", "MOUNTABLE", "PLACE_ITEM" ],
     "bash": {
       "sound": "SMASH!",
       "ter_set": "t_null",
