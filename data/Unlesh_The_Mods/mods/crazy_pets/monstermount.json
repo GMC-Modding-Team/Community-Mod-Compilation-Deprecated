@@ -62,8 +62,20 @@
     "special_attacks": [ [ "MULTI_ROBOT", 3 ] ],
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "BASHES", "DESTROYS", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS", "PET_MOUNTABLE" ]
-  },{
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "NOHEAD",
+      "BASHES",
+      "DESTROYS",
+      "NO_BREATHE",
+      "ELECTRONIC",
+      "PRIORITIZE_TARGETS",
+      "PET_MOUNTABLE"
+    ]
+  },
+  {
     "id": "mon_shoggoth",
     "type": "MONSTER",
     "name": "shoggoth",
@@ -88,7 +100,7 @@
     "armor_cut": 30,
     "harvest": "exempt",
     "path_settings": { "max_dist": 5 },
-    "special_attacks": [ [ "PARROT", 40 ], [ "GENERATOR", 50] ],
+    "special_attacks": [ [ "PARROT", 40 ], [ "GENERATOR", 50 ] ],
     "death_function": [ "MELT" ],
     "flags": [
       "SEES",

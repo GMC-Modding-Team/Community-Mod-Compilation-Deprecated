@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "kantele",
     "type": "TOOL",
     "category": "tools",
@@ -27,11 +27,10 @@
         "You play a little tune on your kantele.",
         "You play a haunting, forlorn tune with your kantele.",
         "You play a kantele rendition of Säkkijärven Polkka."
-		]
+      ]
     }
-	},
-	
-	{
+  },
+  {
     "id": "egg_vibrator",
     "type": "TOOL",
     "name": "egg vibrator",
@@ -49,40 +48,40 @@
     "use_action": "VIBE"
   },
   {
-        "id": "mre_vintage",
-        "type": "GENERIC",
-        "symbol": ")",
-        "color": "brown",
-        "name": "vintage MRE",
-        "name_plural": "vintage MREs",
-        "category": "food",
-        "description": "A 'Meal Ready to Eat' that was once fresh and just what any soldier needed. It comes with various food things and accessories. Nowadays, it's not looking as hot, but the contents should still be nice! Disassemble to unpack.",
-        "price": 0,
-        "weight": 800,
-        "volume": 3,
-        "material": [ "plastic" ],
-		"use_action": "DISASSEMBLE"
+    "id": "mre_vintage",
+    "type": "GENERIC",
+    "symbol": ")",
+    "color": "brown",
+    "name": "vintage MRE",
+    "name_plural": "vintage MREs",
+    "category": "food",
+    "description": "A 'Meal Ready to Eat' that was once fresh and just what any soldier needed. It comes with various food things and accessories. Nowadays, it's not looking as hot, but the contents should still be nice! Disassemble to unpack.",
+    "price": 0,
+    "weight": 800,
+    "volume": 3,
+    "material": [ "plastic" ],
+    "use_action": "DISASSEMBLE"
   },
   {
-        "type" : "COMESTIBLE",
-        "id" : "mre_beef_vintage",
-        "name" : "vintage beef course",
-        "weight" : 130,
-        "color" : "brown",
-        "spoils_in" : 20,
-        "comestible_type" : "FOOD",
-        "symbol" : "%",
-        "healthy" : -3,
-        "nutrition" : 30,
-        "description" : "The now unsealed main course of a vintage MRE. It's not looking incredibly appetizing, but it should still be good eating.",
-        "price" : 0,
-        "material" : [ "flesh" ],
-        "volume" : 1,
-        "charges" : 4,
-        "flags" : ["EATEN_HOT"],
-        "fun" : -3
+    "type": "COMESTIBLE",
+    "id": "mre_beef_vintage",
+    "name": "vintage beef course",
+    "weight": 130,
+    "color": "brown",
+    "spoils_in": 20,
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "healthy": -3,
+    "nutrition": 30,
+    "description": "The now unsealed main course of a vintage MRE. It's not looking incredibly appetizing, but it should still be good eating.",
+    "price": 0,
+    "material": [ "flesh" ],
+    "volume": 1,
+    "charges": 4,
+    "flags": [ "EATEN_HOT" ],
+    "fun": -3
   },
-  	{
+  {
     "id": "canine_dildo",
     "type": "TOOL",
     "name": "canine dildo",
@@ -91,8 +90,8 @@
     "weight": 500,
     "volume": 7,
     "price": 4000,
-	"to_hit": -1,
-	"bashing": 3,
+    "to_hit": -1,
+    "bashing": 3,
     "material": [ "plastic" ],
     "symbol": ";",
     "color": "dark_gray",
@@ -107,11 +106,11 @@
     "weight": 600,
     "volume": 13,
     "price": 7000,
-	"to_hit": -2,
-	"bashing": 7,
+    "to_hit": -2,
+    "bashing": 7,
     "material": [ "plastic" ],
     "symbol": ";",
     "color": "dark_gray",
     "use_action": "VIBE"
-	}
-  ]
+  }
+]

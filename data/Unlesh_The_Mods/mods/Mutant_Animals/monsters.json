@@ -90,11 +90,7 @@
     "dodge": 8,
     "armor_bash": 4,
     "vision_night": 20,
-    "special_attacks": [ 
-      { "type": "leap", "cooldown": 5, "max_range": 5, "allow_no_target": true },
-      [ "EAT_CROP", 30 ],
-      [ "SMASH", 50 ]
-    ],
+    "special_attacks": [ { "type": "leap", "cooldown": 5, "max_range": 5, "allow_no_target": true }, [ "EAT_CROP", 30 ], [ "SMASH", 50 ] ],
     "fear_triggers": [ "PLAYER_CLOSE", "HURT", "SOUND", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "harvest": "mammal_fur",
@@ -144,6 +140,6 @@
     "anger_triggers": [ "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SMELLS", "HEARS", "SEES", "SWIMS", "FLIES", "GRABS", "STUMBLES", "PATH_AVOID_DANGER_2", "ACIDPROOF", "DOGFOOD"]
+    "flags": [ "SMELLS", "HEARS", "SEES", "SWIMS", "FLIES", "GRABS", "STUMBLES", "PATH_AVOID_DANGER_2", "ACIDPROOF", "DOGFOOD" ]
   }
 ]

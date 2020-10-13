@@ -6,7 +6,8 @@
     "cooldown": 25,
     "move_cost": 150,
     "damage_max_instance": [ { "damage_type": "stab", "amount": 5, "armor_penetration": 20, "armor_multiplier": 0.5 } ],
-    "body_parts": [ [ "TORSO", 1 ],
+    "body_parts": [
+      [ "TORSO", 1 ],
       [ "FOOT_L", 2 ],
       [ "FOOT_R", 2 ],
       [ "LEG_L", 3 ],
@@ -93,7 +94,7 @@
     "dispersion": 45,
     "ranged_damage": [ { "damage_type": "heat", "amount": 3 }, { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 } ]
   },
-{
+  {
     "id": "napalm_gob",
     "type": "GUN",
     "copy-from": "fake_item",
@@ -108,7 +109,7 @@
     "dispersion": 60,
     "ranged_damage": [ { "damage_type": "heat", "amount": 3 }, { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 } ]
   },
-{
+  {
     "id": "napalm_bomb",
     "type": "GUN",
     "copy-from": "fake_item",

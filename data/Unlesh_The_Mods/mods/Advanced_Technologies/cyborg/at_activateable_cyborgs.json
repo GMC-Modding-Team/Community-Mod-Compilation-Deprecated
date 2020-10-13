@@ -7,7 +7,7 @@
     "name": "hibernating cyborg",
     "description": "This is an inactive cyborg, composed of a previously dead human, several bionic upgrades, and some limiters and control systems.",
     "price": 1600000,
-    "material": ["hflesh", "steel"],
+    "material": [ "hflesh", "steel" ],
     "weight": 87500,
     "volume": 85,
     "bashing": 6,
@@ -18,15 +18,15 @@
     "charges_per_use": 0,
     "turns_per_charge": 0,
     "use_action": {
-        "type": "place_monster",
-        "monster_id": "mon_cyborg",
-        "difficulty": 4,
-        "skill1": "electronics",
-        "skill2": "mechanics",
-        "hostile_msg": "You've activate the cyborg improperly, and it attacks!",
-        "friendly_msg": "The cyborg activates, and raises to it's feet.",
-        "place_randomly": false,
-        "moves": 230
+      "type": "place_monster",
+      "monster_id": "mon_cyborg",
+      "difficulty": 4,
+      "skill1": "electronics",
+      "skill2": "mechanics",
+      "hostile_msg": "You've activate the cyborg improperly, and it attacks!",
+      "friendly_msg": "The cyborg activates, and raises to it's feet.",
+      "place_randomly": false,
+      "moves": 230
     }
   },
   {
@@ -37,7 +37,7 @@
     "name": "hibernating heavy cyborg",
     "description": "This is an inactive cyborg, sturdy in it's construction, with many pieces of extra hardware attached, and a thick steel skin, covering it's advanced electronics and life sustaining systems. It it's current state, this cyborg is probably less man than machine.",
     "price": 1950000,
-    "material": ["hardsteel", "hflesh"],
+    "material": [ "hardsteel", "hflesh" ],
     "weight": 100000,
     "volume": 88,
     "bashing": 8,
@@ -47,16 +47,16 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-	"use_action": {
-        "type": "place_monster",
-        "monster_id": "mon_cyborg_heavy",
-        "difficulty": 5,
-        "skill1": "electronics",
-        "skill2": "mechanics",
-        "hostile_msg": "You've activate the cyborg improperly, and it attacks!",
-        "friendly_msg": "The cyborg activates, and raises to it's feet.",
-        "place_randomly": false,
-        "moves": 250
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_cyborg_heavy",
+      "difficulty": 5,
+      "skill1": "electronics",
+      "skill2": "mechanics",
+      "hostile_msg": "You've activate the cyborg improperly, and it attacks!",
+      "friendly_msg": "The cyborg activates, and raises to it's feet.",
+      "place_randomly": false,
+      "moves": 250
     }
   },
   {
@@ -67,7 +67,7 @@
     "name": "hibernating advanced cyborg",
     "description": "A sturdy mechanical body, with little in the way of organic matter visible. It has what appears to be segments of power armor grafted to its skin and steel frame, with cybernetic augmentations protruding.",
     "price": 2500000,
-    "material": ["hardsteel", "hflesh"],
+    "material": [ "hardsteel", "hflesh" ],
     "weight": 125000,
     "volume": 98,
     "bashing": 12,
@@ -77,16 +77,16 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-	"use_action": {
-        "type": "place_monster",
-        "monster_id": "mon_cyborg_advanced",
-        "difficulty": 7,
-        "skill1": "electronics",
-        "skill2": "mechanics",
-        "hostile_msg": "You've activate the cyborg improperly, and it attacks!",
-        "friendly_msg": "The cyborg activates, and raises to it's feet.",
-        "place_randomly": false,
-        "moves": 270
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_cyborg_advanced",
+      "difficulty": 7,
+      "skill1": "electronics",
+      "skill2": "mechanics",
+      "hostile_msg": "You've activate the cyborg improperly, and it attacks!",
+      "friendly_msg": "The cyborg activates, and raises to it's feet.",
+      "place_randomly": false,
+      "moves": 270
     }
   }
 ]

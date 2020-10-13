@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "55645",
     "type": "AMMO",
     "name": "5.56x45mm",
@@ -19,17 +19,17 @@
     "pierce": 10,
     "dispersion": 50,
     "recoil": 300,
-    "effects": ["FRAG"]
-    },
-    {
+    "effects": [ "FRAG" ]
+  },
+  {
     "id": "bp_55645",
     "copy-from": "55645",
     "type": "AMMO",
     "name": "5.56x45mm black powder",
     "proportional": { "price": 0.3, "damage": 0.76, "recoil": 0.76, "pierce": 0.5, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-    },
-    {
+  },
+  {
     "type": "GENERIC",
     "id": "55645_casing",
     "copy-from": "casing",
@@ -38,5 +38,5 @@
     "material": "brass",
     "volume": "100ml",
     "weight": "1 g"
-    }
-    ]
+  }
+]

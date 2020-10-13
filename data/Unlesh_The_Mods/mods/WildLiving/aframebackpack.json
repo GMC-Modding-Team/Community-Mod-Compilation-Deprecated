@@ -27,9 +27,7 @@
     "difficulty": 2,
     "time": 120000,
     "autolearn": true,
-    "components": [
-      [ [ "cordage", 15, "LIST" ], [ "rope_natural", 1, "LIST" ] ]
-    ]
+    "components": [ [ [ "cordage", 15, "LIST" ], [ "rope_natural", 1, "LIST" ] ] ]
   },
   {
     "id": "birchbark_pouch",
@@ -59,11 +57,7 @@
     "time": 60000,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ],
-      [ [ "bone", 1 ] ],
-      [ [ "birchbark", 16 ] ]
-    ]
+    "components": [ [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ], [ [ "bone", 1 ] ], [ [ "birchbark", 16 ] ] ]
   },
   {
     "id": "backpack_aframe",
@@ -93,10 +87,7 @@
     "time": 60000,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ],
-      [ [ "stick", 4 ] ]
-    ]
+    "components": [ [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ], [ [ "stick", 4 ] ] ]
   },
   {
     "id": "backpack_aframe_birchbark",
@@ -137,10 +128,7 @@
     "time": 15000,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "backpack_aframe",1 ] ],
-      [ [ "birchbark_pouch", 1 ] ]
-    ]
+    "components": [ [ [ "backpack_aframe", 1 ] ], [ [ "birchbark_pouch", 1 ] ] ]
   },
   {
     "id": "backpack_aframe_cordage",
@@ -181,9 +169,6 @@
     "time": 15000,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "backpack_aframe",1 ] ],
-      [ [ "cordage_pouch", 1 ] ]
-    ]
+    "components": [ [ [ "backpack_aframe", 1 ] ], [ [ "cordage_pouch", 1 ] ] ]
   }
 ]

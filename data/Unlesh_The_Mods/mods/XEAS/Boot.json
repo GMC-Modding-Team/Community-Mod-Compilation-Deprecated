@@ -1,4 +1,4 @@
-[ 
+[
   {
     "id": "XEAS_boots",
     "type": "ARMOR",
@@ -22,7 +22,7 @@
     "material_thickness": 8,
     "environmental_protection": 8,
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
-  },  
+  },
   {
     "result": "XEAS_boots",
     "type": "recipe",
@@ -32,8 +32,14 @@
     "difficulty": 8,
     "skills_required": [ "fabrication", 8 ],
     "time": "6 h",
-	"book_learn": [ [ "recipe_maiar", 7 ] ],  
-    "qualities": [ { "id": "SAW_M", "level": 2 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 },  { "id": "GLARE", "level": 3 }, { "id": "ANVIL", "level": 3 } ],	
+    "book_learn": [ [ "recipe_maiar", 7 ] ],
+    "qualities": [
+      { "id": "SAW_M", "level": 2 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "GLARE", "level": 3 },
+      { "id": "ANVIL", "level": 3 }
+    ],
     "using": [ [ "adhesive", 1 ], [ "sewing_standard", 200 ] ],
     "tools": [
       [
@@ -45,13 +51,13 @@
         [ "large_repairkit", 45 ]
       ]
     ],
-    "components": [	  
-	  [ [ "alloy_sheet", 2 ] ],
-      [ [ "nomex", 32 ] ],	  
-	  [ [ "rag", 32 ] ],
+    "components": [
+      [ [ "alloy_sheet", 2 ] ],
+      [ [ "nomex", 32 ] ],
+      [ [ "rag", 32 ] ],
       [ [ "slime_scrap", 70 ] ],
       [ [ "acidchitin_piece", 80 ] ],
-	  [ [ "iv_mutagen_insect", 1 ] ]
+      [ [ "iv_mutagen_insect", 1 ] ]
     ]
-  }  
+  }
 ]

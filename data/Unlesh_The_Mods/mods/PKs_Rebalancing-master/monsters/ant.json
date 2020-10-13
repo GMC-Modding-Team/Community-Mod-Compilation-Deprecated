@@ -131,7 +131,6 @@
     "extend": { "upgrades": { "into_group": "GROUP_DRONE", "half_life": 5 } },
     "delete": { "upgrades": { "age_grow": 14, "into": "mon_ant_soldier" } }
   },
-
   {
     "id": "mon_ant_soldier",
     "type": "MONSTER",
@@ -162,8 +161,6 @@
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS" ]
   },
-
-
   {
     "id": "mon_ant_soldier",
     "type": "MONSTER",
@@ -530,7 +527,10 @@
       }
     ],
     "extend": { "anger_triggers": [ "FIRE" ], "upgrades": { "into_group": "GROUP_ANT_ACID_UPGRADE", "half_life": 5 } },
-    "delete": { "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ], "upgrades": { "age_grow": 14, "into": "mon_ant_acid_soldier" } }
+    "delete": {
+      "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
+      "upgrades": { "age_grow": 14, "into": "mon_ant_acid_soldier" }
+    }
   },
   {
     "id": "mon_ant_acid_terminal",

@@ -1,6 +1,6 @@
 [
   {
-   	"id": "birch_water_jug",
+    "id": "birch_water_jug",
     "type": "CONTAINER",
     "category": "other",
     "name": "birch water jug",
@@ -17,8 +17,8 @@
     "contains": 6,
     "seals": true,
     "watertight": true
-	},
-	{
+  },
+  {
     "id": "birch_funnel",
     "type": "TOOL",
     "name": "birch funnel",
@@ -40,47 +40,39 @@
     }
   },
   {
-    "type" : "trap",
+    "type": "trap",
     "id": "tr_birch_funnel",
-    "name" : "birchbark funnel",
-    "color" : "yellow",
-    "symbol" : "v",
-    "visibility" : -1,
-    "avoidance" : 0,
-    "difficulty" : 0,
-    "action" : "none",
-    "drops" : ["birch_funnel"],
-    "benign" : true,
+    "name": "birchbark funnel",
+    "color": "yellow",
+    "symbol": "v",
+    "visibility": -1,
+    "avoidance": 0,
+    "difficulty": 0,
+    "action": "none",
+    "drops": [ "birch_funnel" ],
+    "benign": true,
     "funnel_radius": 200
   },
-	{
-	  "type": "recipe",
-	  "result": "birch_water_jug",
-	  "category": "CC_OTHER",
-	  "subcategory": "CSC_OTHER_CONTAINERS",
-	  "skill_used": "survival",
-	  "difficulty": 2,
-	  "time": 30000,
-  	"autolearn": true,
-  	"components": [
-    	[ [ "birchbark", 4 ] ],
-	    [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ],
-	    [ [ "pine_bough", 1 ] ]
-  	]
-	},
-	{
-	  "type": "recipe",
-	  "result": "birch_funnel",
-	  "category": "CC_OTHER",
-	  "subcategory": "CSC_OTHER_CONTAINERS",
-	  "skill_used": "survival",
-	  "difficulty": 2,
-	  "time": 30000,
-  	"autolearn": true,
-  	"components": [
-    	[ [ "birchbark", 2 ] ],
-	    [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ],
-	    [ [ "pine_bough", 1 ] ]
-  	]
-	}
+  {
+    "type": "recipe",
+    "result": "birch_water_jug",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": 30000,
+    "autolearn": true,
+    "components": [ [ [ "birchbark", 4 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ], [ [ "pine_bough", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "birch_funnel",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": 30000,
+    "autolearn": true,
+    "components": [ [ [ "birchbark", 2 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ], [ [ "pine_bough", 1 ] ] ]
+  }
 ]

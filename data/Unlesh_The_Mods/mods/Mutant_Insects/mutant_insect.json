@@ -204,7 +204,7 @@
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "ACID", "NORMAL" ],
     "harvest": "arachnid_acid",
-    "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_ant_acid_queen",
@@ -253,7 +253,7 @@
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "ACID", "NORMAL" ],
     "harvest": "arachnid_acid",
-    "flags": [ "ACIDPROOF", "SHORTACIDTRAIL", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "ACIDPROOF", "SHORTACIDTRAIL", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_mega_acid_ant",
@@ -276,7 +276,7 @@
     "biosignature": { "biosig_item": "acid_free", "biosig_timer": 10 },
     "death_function": [ "ACID", "NORMAL" ],
     "harvest": "arachnid_acid",
-    "flags": [ "ACIDPROOF", "SHORTACIDTRAIL", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "ACIDPROOF", "SHORTACIDTRAIL", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_ant_acid_larva",
@@ -319,7 +319,7 @@
     "special_attacks": [ [ "EAT_FOOD", 30 ] ],
     "biosignature": { "biosig_item": "feces_roach", "biosig_timer": 99 },
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
-    "flags": [ "CLIMBS", "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "CLIMBS", "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_ant_queen",
@@ -362,7 +362,7 @@
     "biosignature": { "biosig_item": "feces_roach", "biosig_timer": 99 },
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "ACID", "NORMAL" ],
-    "flags": [ "CLIMBS", "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "CLIMBS", "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_mega_ant",
@@ -381,7 +381,7 @@
     "armor_cut": 16,
     "attack_effs": [ { "id": "bleed", "chance": 20, "duration": 3 } ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
-    "flags": [ "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_ant_larva",
@@ -426,7 +426,7 @@
     "biosignature": { "biosig_item": "honeycomb", "biosig_timer": 10 },
     "harvest": "arachnid_stinger",
     "attack_effs": [ { "id": "poison", "chance": 30, "duration": 20 } ],
-    "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE", "PLAYER_CLOSE"],
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE", "PLAYER_CLOSE" ],
     "flags": [ "SEES", "SMELLS", "FLIES", "SWARMS", "GROUP_MORALE", "PET_WONT_FOLLOW" ]
   },
   {
@@ -449,7 +449,8 @@
     "reproduction": { "baby_egg": "egg_bee", "baby_count": 5, "baby_timer": 1 },
     "biosignature": { "biosig_item": "egg_bee", "biosig_timer": 10 },
     "harvest": "arachnid_stinger",
-    "attack_effs": [ { "id": "poison", "chance": 30, "duration": 20 } ],    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
+    "attack_effs": [ { "id": "poison", "chance": 30, "duration": 20 } ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "flags": [ "HEARS", "SEES", "SMELLS" ]
   },
   {
@@ -502,7 +503,7 @@
     "special_attacks": [ [ "EAT_FOOD", 100 ] ],
     "anger_triggers": [ "HURT" ],
     "placate_triggers": [ "MEAT" ],
-    "flags": [ "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_mega_beetle",
@@ -523,7 +524,7 @@
     "special_attacks": [ [ "EAT_FOOD", 50 ] ],
     "anger_triggers": [ "HURT" ],
     "placate_triggers": [ "MEAT" ],
-    "flags": [ "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE"  ]
+    "flags": [ "HEARS", "SEES", "SMELLS", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_large_beetle_larva",
@@ -820,7 +821,7 @@
     "dodge": 9,
     "upgrades": { "age_grow": 10, "into": "mon_large_dragonfly" },
     "vision_day": 30,
-    "fear_triggers": [ "SOUND", "FIRE"],
+    "fear_triggers": [ "SOUND", "FIRE" ],
     "flags": [ "CLIMBS", "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "HIT_AND_RUN", "HARDTOSHOOT" ]
   },
   {
@@ -852,7 +853,7 @@
     "reproduction": { "baby_egg": "egg_dragonfly", "baby_count": 1, "baby_timer": 91 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "vision_day": 30,
-    "fear_triggers": [ "FIRE"],
+    "fear_triggers": [ "FIRE" ],
     "anger_triggers": [ "HURT", "PLAYER_WEAK" ],
     "flags": [ "CLIMBS", "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "HIT_AND_RUN", "HARDTOSHOOT" ]
   },
@@ -875,9 +876,9 @@
     "reproduction": { "baby_egg": "egg_dragonfly", "baby_count": 2, "baby_timer": 91 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "vision_day": 30,
-    "fear_triggers": [ "FIRE"],
+    "fear_triggers": [ "FIRE" ],
     "anger_triggers": [ "HURT", "PLAYER_WEAK" ],
-    "flags": [ "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "HIT_AND_RUN", "PET_MOUNTABLE"  ]
+    "flags": [ "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "HIT_AND_RUN", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_mega_dragonfly",
@@ -956,7 +957,7 @@
     "reproduction": { "baby_egg": "egg_fly", "baby_count": 2, "baby_timer": 30 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "fear_triggers": [ "FIRE", "PLAYER_CLOSE", "HURT" ],
-    "flags": [ "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "HIT_AND_RUN", "PET_MOUNTABLE"  ]
+    "flags": [ "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "HIT_AND_RUN", "PET_MOUNTABLE" ]
   },
   {
     "id": "mon_mega_fly",
@@ -1071,7 +1072,7 @@
     "color": "red",
     "melee_cut": 4,
     "dodge": 8,
-    "fear_triggers": [ "HURT"],
+    "fear_triggers": [ "HURT" ],
     "reproduction": { "baby_egg": "egg_mosquito", "baby_count": 1, "baby_timer": 30 },
     "baby_flags": [ "SPRING", "SUMMER" ],
     "flags": [ "BLEED", "CLIMBS", "HEARS", "STUMBLES", "FLIES", "SEES", "SMELLS", "SWARMS", "HARDTOSHOOT" ]
@@ -1088,7 +1089,7 @@
     "speed": 50,
     "color": "yellow",
     "melee_cut": 4,
-    "fear_triggers": [ "HURT"],
+    "fear_triggers": [ "HURT" ],
     "upgrades": { "age_grow": 10, "into": "mon_mosquito" },
     "flags": [ "AQUATIC", "SWIMS", "STUMBLES", "SEES", "FISHABLE" ]
   },
@@ -1112,7 +1113,7 @@
     "reproduction": { "baby_egg": "egg_wasp", "baby_count": 1, "baby_timer": 30 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "harvest": "arachnid_stinger",
-    "attack_effs": [ { "id": "poison", "chance": 50, "duration": 20 },{ "id": "paralyzepoison", "chance": 50, "duration": 10 }  ],
+    "attack_effs": [ { "id": "poison", "chance": 50, "duration": 20 }, { "id": "paralyzepoison", "chance": 50, "duration": 10 } ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ],
     "flags": [ "SEES", "SMELLS", "FLIES", "SWARMS", "GROUP_MORALE" ]
   },
@@ -1136,7 +1137,7 @@
     "reproduction": { "baby_egg": "egg_wasp", "baby_count": 3, "baby_timer": 30 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "harvest": "arachnid_stinger",
-    "attack_effs": [ { "id": "poison", "chance": 50, "duration": 20 },{ "id": "paralyzepoison", "chance": 50, "duration": 10 }  ],
+    "attack_effs": [ { "id": "poison", "chance": 50, "duration": 20 }, { "id": "paralyzepoison", "chance": 50, "duration": 10 } ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ],
     "flags": [ "SEES", "SMELLS", "FLIES", "SWARMS", "GROUP_MORALE" ]
   },

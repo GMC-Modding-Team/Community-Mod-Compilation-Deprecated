@@ -14,13 +14,7 @@
     "book_learn": [ [ "textbook_electronics", 2 ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [
-      [ [ "laptop",        1 ] ],
-      [
-        [ "plastic_chunk", 1 ],
-        [ "scrap",         2 ]
-      ]
-    ]
+    "components": [ [ [ "laptop", 1 ] ], [ [ "plastic_chunk", 1 ], [ "scrap", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -37,15 +31,12 @@
     "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [
-      [ [ "processor",        1 ] ],
-      [ [ "RAM",              1 ] ],
-      [ [ "cable",            6 ] ],
-      [ [ "amplifier",        1 ] ],
-      [ [ "plastic_chunk",    6 ] ],
-      [
-        [ "plastic_chunk",    1 ],
-        [ "scrap",            2 ]
-      ],
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "cable", 6 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "plastic_chunk", 1 ], [ "scrap", 2 ] ],
       [ [ "small_lcd_screen", 1 ] ]
     ]
   },
@@ -59,15 +50,8 @@
     "time": "10 m",
     "reversible": false,
     "autolearn": true,
-    "qualities": [
-      { "id": "COOK", "level":  3 }
-    ],
-    "tools": [
-      [ [ "surface_heat",       7, "LIST" ] ]
-    ],
-    "components": [
-      [ [ "plastic_chunk",      1 ] ],
-      [ [ "nanopowder_rubber", 20 ] ]
-    ]
+    "qualities": [ { "id": "COOK", "level": 3 } ],
+    "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
+    "components": [ [ [ "plastic_chunk", 1 ] ], [ [ "nanopowder_rubber", 20 ] ] ]
   }
 ]

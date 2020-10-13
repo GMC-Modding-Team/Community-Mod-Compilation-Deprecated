@@ -2,17 +2,20 @@
   {
     "id": "ninja_rare_enagy",
     "type": "item_group",
-    "items": [
-      { "item": "plasma", "prob": 20 },
-      { "item": "plut_cell", "prob": 80 }
-    ]
+    "items": [ { "item": "plasma", "prob": 20 }, { "item": "plut_cell", "prob": 80 } ]
   },
   {
     "id": "ninja_rare_chem",
     "type": "item_group",
     "items": [
       { "item": "napalm", "prob": 20, "container-item": "jug_plastic", "charges-min": 3750, "charges-max": 3750 },
-      { "item": "gas_chloramine", "prob": 20, "container-item": "jug_plastic", "charges-min": 1500, "charges-max": 1500 },
+      {
+        "item": "gas_chloramine",
+        "prob": 20,
+        "container-item": "jug_plastic",
+        "charges-min": 1500,
+        "charges-max": 1500
+      },
       { "item": "chem_rocket_fuel", "prob": 60 }
     ]
   },

@@ -23,7 +23,7 @@
   {
     "type": "recipe",
     "result": "brain_slurry",
-    "id": "brain_emulsification", 
+    "id": "brain_emulsification",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
@@ -38,10 +38,7 @@
       { "id": "CONTAIN", "level": 1 }
     ],
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 2 ], [ "water", 2 ] ],
-      [ [ "brain", 1 ] ]
-    ]
+    "components": [ [ [ "water_clean", 2 ], [ "water", 2 ] ], [ [ "brain", 1 ] ] ]
   },
   {
     "type": "recipe",

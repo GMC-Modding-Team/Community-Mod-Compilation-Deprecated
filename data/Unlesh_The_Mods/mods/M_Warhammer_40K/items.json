@@ -1,37 +1,37 @@
 [
-	{
-	"type" : "GENERIC",
-	"id" : "promethium_puck",
-	"name" : "Promethium puck",
-	"name_plural" : "Promethium pucks",
-	"price" : 25000,
-	"weight" : 300,
-	"symbol" : "*",
-	"color" : "red",
-	"description" : "A small box containing a foul-smelling puck.",
-	"volume" : 2,
-	"count" : 100,
-	"stack" : 100,
-	"bashing" : 1,
-	"container" : "box_small"
-	},
-	{
-	"type" : "GENERIC",
-	"id" : "promethium_slurry",
-	"name" : "Promethium slurry",
-	"name_plural" : "Promethium Slurry",
-	"description" : "A thickly bubbling mixture that reeks of chemicals you can't even describe.",
-	"price" : 250000,
-	"weight" : 1,
-	"volume" : 1,
-	"count" : 250,
-	"stack_size" : 250,
-	"container" : "pro_slurry_canister",
-	"symbol" : "&",
-	"color" : "light_red",
-	"bashing" : 1
-	},
-	{
+  {
+    "type": "GENERIC",
+    "id": "promethium_puck",
+    "name": "Promethium puck",
+    "name_plural": "Promethium pucks",
+    "price": 25000,
+    "weight": 300,
+    "symbol": "*",
+    "color": "red",
+    "description": "A small box containing a foul-smelling puck.",
+    "volume": 2,
+    "count": 100,
+    "stack": 100,
+    "bashing": 1,
+    "container": "box_small"
+  },
+  {
+    "type": "GENERIC",
+    "id": "promethium_slurry",
+    "name": "Promethium slurry",
+    "name_plural": "Promethium Slurry",
+    "description": "A thickly bubbling mixture that reeks of chemicals you can't even describe.",
+    "price": 250000,
+    "weight": 1,
+    "volume": 1,
+    "count": 250,
+    "stack_size": 250,
+    "container": "pro_slurry_canister",
+    "symbol": "&",
+    "color": "light_red",
+    "bashing": 1
+  },
+  {
     "id": "pro_slurry_canister",
     "type": "CONTAINER",
     "category": "other",
@@ -48,5 +48,5 @@
     "contains": 250,
     "seals": true,
     "watertight": true
-	}
+  }
 ]

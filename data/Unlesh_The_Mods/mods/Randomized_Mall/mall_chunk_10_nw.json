@@ -19,7 +19,7 @@
         "          "
       ],
       "palettes": [ "mall_base", "mall_wood", "mall_store", "mall_jewel" ],
-      "terrain":{ "@": "t_thconc_floor" }
+      "terrain": { "@": "t_thconc_floor" }
     }
   },
   {
@@ -107,7 +107,7 @@
         "TTTT..|@@g",
         "-gg-GG-ggg"
       ],
-      "palettes": [ "mall_base", "mall_store", "mall_toy" , "mall_carpet_green" ]
+      "palettes": [ "mall_base", "mall_store", "mall_toy", "mall_carpet_green" ]
     }
   },
   {
@@ -218,9 +218,7 @@
         "          "
       ],
       "palettes": [ "mall_base", "mall_with_bathroom" ],
-      "terrain": {"t": "t_linoleum_white"}
-
-
+      "terrain": { "t": "t_linoleum_white" }
     }
   },
   {
@@ -264,7 +262,7 @@
         "..@.@.@.@|",
         "-gggggggg-"
       ],
-      "palettes": [ "mall_base", "mall_store", "mall_shoe", "mall_carpet_purple"  ]
+      "palettes": [ "mall_base", "mall_store", "mall_shoe", "mall_carpet_purple" ]
     }
   },
   {
@@ -289,7 +287,7 @@
       "palettes": [ "mall_base" ]
     }
   },
- {
+  {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "mall_chunk_10_nw",
@@ -331,7 +329,7 @@
         "----------"
       ],
       "palettes": [ "mall_base", "mall_with_bathroom" ],
-      "terrain": {"t": "t_linoleum_white"}
+      "terrain": { "t": "t_linoleum_white" }
     }
   },
   {
@@ -442,7 +440,7 @@
         "          "
       ],
       "palettes": [ "mall_base" ],
-      "vendingmachines": { 
+      "vendingmachines": {
         "V": { "item_group": "vending_drink", "amount": [ 5, 10 ] },
         "v": { "item_group": "vending_food", "amount": [ 2, 10 ] }
       }

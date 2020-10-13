@@ -1,6 +1,6 @@
 [
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "nano_storage",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -10,23 +10,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":3,"amount":1},
-      {"id":"NANOTECH","level":3,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 800]
-      ],
-      [
-        [ "ai_core_blank", 1]
-      ],
-      [
-        [ "nanite_power_cell", 12]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 3, "amount": 1 }, { "id": "NANOTECH", "level": 3, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 800 ] ], [ [ "ai_core_blank", 1 ] ], [ [ "nanite_power_cell", 12 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_holster",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -34,25 +22,13 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 400]
-      ],
-      [
-        [ "ai_core_blank", 1]
-      ],
-      [
-        [ "nanite_power_cell", 6]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 400 ] ], [ [ "ai_core_blank", 1 ] ], [ [ "nanite_power_cell", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_blade",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -60,11 +36,9 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
+    "qualities": [ { "id": "NANOTECH", "level": 1, "amount": 1 } ],
     "tools": [
       [
         [ "control_laptop", 25 ],
@@ -75,13 +49,10 @@
         [ "nanofactory_4", -1 ]
       ]
     ],
-    "components": [
-      [
-        [ "nanite_cluster", 50]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "components": [ [ [ "nanite_cluster", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_dagger",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -89,11 +60,9 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
+    "qualities": [ { "id": "NANOTECH", "level": 1, "amount": 1 } ],
     "tools": [
       [
         [ "control_laptop", 25 ],
@@ -104,13 +73,10 @@
         [ "nanofactory_4", -1 ]
       ]
     ],
-    "components": [
-      [
-        [ "nanite_cluster", 25]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "components": [ [ [ "nanite_cluster", 25 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_spear",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -118,22 +84,13 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 300]
-      ],
-      [
-        [ "nanite_power_cell", 2]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 300 ] ], [ [ "nanite_power_cell", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_shield",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -141,22 +98,13 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 300]
-      ],
-      [
-        [ "ai_core_blank", 1]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 300 ] ], [ [ "ai_core_blank", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_sheath",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -164,25 +112,13 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 400]
-      ],
-      [
-        [ "ai_core_blank", 1]
-      ],
-      [
-        [ "nanite_power_cell", 6]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 400 ] ], [ [ "ai_core_blank", 1 ] ], [ [ "nanite_power_cell", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_mag_holder",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -190,25 +126,13 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": true,
-    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 400]
-      ],
-      [
-        [ "ai_core_blank", 1]
-      ],
-      [
-        [ "nanite_power_cell", 6]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 400 ] ], [ [ "ai_core_blank", 1 ] ], [ [ "nanite_power_cell", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nanosuit",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -218,23 +142,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":3,"amount":1},
-      {"id":"NANOTECH","level":3,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 1800]
-      ],
-      [
-        [ "ai_core_blank", 4]
-      ],
-      [
-        [ "nanite_power_cell", 40]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 3, "amount": 1 }, { "id": "NANOTECH", "level": 3, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 1800 ] ], [ [ "ai_core_blank", 4 ] ], [ [ "nanite_power_cell", 40 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_container",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",
@@ -244,23 +156,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":3,"amount":1},
-      {"id":"NANOTECH","level":3,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 600]
-      ],
-      [
-        [ "ai_core_blank", 1]
-      ],
-      [
-        [ "nanite_power_cell", 12]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 3, "amount": 1 }, { "id": "NANOTECH", "level": 3, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 600 ] ], [ [ "ai_core_blank", 1 ] ], [ [ "nanite_power_cell", 12 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_shredder",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -270,20 +170,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 800]
-      ],
-      [
-        [ "nanite_power_cell", 6]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 800 ] ], [ [ "nanite_power_cell", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_pistol",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -293,20 +184,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":1,"amount":1},
-      {"id":"NANOTECH","level":2,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 400]
-      ],
-      [
-        [ "nanite_power_cell", 4]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 1, "amount": 1 }, { "id": "NANOTECH", "level": 2, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 400 ] ], [ [ "nanite_power_cell", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_smg",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -316,20 +198,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":2,"amount":1},
-      {"id":"NANOTECH","level":3,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 600]
-      ],
-      [
-        [ "nanite_power_cell", 8]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 3, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 600 ] ], [ [ "nanite_power_cell", 8 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_rifle",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -339,20 +212,11 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":2,"amount":1},
-      {"id":"NANOTECH","level":3,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 800]
-      ],
-      [
-        [ "nanite_power_cell", 6]
-      ]
-    ]
-  },{
-    "type" : "recipe",
+    "qualities": [ { "id": "NANO_PRO", "level": 2, "amount": 1 }, { "id": "NANOTECH", "level": 3, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 800 ] ], [ [ "nanite_power_cell", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "nano_launcher",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WIELD",
@@ -362,17 +226,7 @@
     "reversible": true,
     "book_learn": [ [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_PRO","level":3,"amount":1},
-      {"id":"NANOTECH","level":4,"amount":1}
-    ],
-    "components": [
-      [
-        [ "nanite_cluster", 800]
-      ],
-      [
-        [ "nanite_power_cell", 8]
-      ]
-    ]
+    "qualities": [ { "id": "NANO_PRO", "level": 3, "amount": 1 }, { "id": "NANOTECH", "level": 4, "amount": 1 } ],
+    "components": [ [ [ "nanite_cluster", 800 ] ], [ [ "nanite_power_cell", 8 ] ] ]
   }
 ]

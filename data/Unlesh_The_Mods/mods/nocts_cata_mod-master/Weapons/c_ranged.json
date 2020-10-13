@@ -70,13 +70,14 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] }
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_smg",
@@ -105,14 +106,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_rifle",
@@ -141,14 +143,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_lmg",
@@ -177,14 +180,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_shotgun",
@@ -195,7 +199,18 @@
     "description": "A double barreled shotgun made out of fleshy material enclosed by metal that seems to run off UPS charges.  It's hard to tell what this thing even fires, but it appears to have a powerful stunning and incendiary effect on targets.   Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "TANGLE", "LARGE_BEANBAG", "STREAM_BIG", "WIDE" ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "INCENDIARY",
+      "MUZZLE_SMOKE",
+      "PLASMA",
+      "BLINDS_EYES",
+      "FLAME",
+      "TANGLE",
+      "LARGE_BEANBAG",
+      "STREAM_BIG",
+      "WIDE"
+    ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "shotgun",
     "weight": "3850 g",
@@ -213,14 +228,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "sur_pnu_lmg",
@@ -320,14 +336,7 @@
     "loudness": 16,
     "use_action": "HAND_CRANK",
     "magazine_well": "150 ml",
-    "magazines": [
-      [
-        "battery",
-        [
-          "rifle_crank_battery_cell"
-        ]
-      ]
-    ],
+    "magazines": [ [ "battery", [ "rifle_crank_battery_cell" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],

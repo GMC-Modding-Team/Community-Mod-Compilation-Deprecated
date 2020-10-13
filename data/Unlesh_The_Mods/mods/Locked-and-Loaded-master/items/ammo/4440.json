@@ -19,17 +19,17 @@
     "pierce": 3,
     "dispersion": 120,
     "recoil": 200
-    },
-    {
+  },
+  {
     "id": "bp_4440",
     "copy-from": "4440",
     "type": "AMMO",
     "name": ".44-40 black powder",
     "proportional": { "price": 0.3, "damage": 0.76, "recoil": 0.76, "pierce": 0.5, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
-   "type": "GENERIC",
+  },
+  {
+    "type": "GENERIC",
     "id": "4440_casing",
     "copy-from": "casing",
     "name": ".44-40 casing",
@@ -37,5 +37,5 @@
     "material": "brass",
     "volume": "100 ml",
     "weight": 1
-    }
-   ]
+  }
+]

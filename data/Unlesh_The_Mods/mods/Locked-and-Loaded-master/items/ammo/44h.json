@@ -19,17 +19,17 @@
     "pierce": 3,
     "dispersion": 300,
     "recoil": 100
-    },
-    {
+  },
+  {
     "id": "bp_44h",
     "copy-from": "44h",
     "type": "AMMO",
     "name": ".44 Hanry black powder",
     "proportional": { "price": 0.3, "damage": 0.76, "recoil": 0.76, "pierce": 0.5, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
-   "type": "GENERIC",
+  },
+  {
+    "type": "GENERIC",
     "id": "44h_casing",
     "copy-from": "casing",
     "name": ".44 Henry Casing",
@@ -37,5 +37,5 @@
     "material": "brass",
     "volume": "40ml",
     "weight": "1 g"
-    }
-   ]
+  }
+]

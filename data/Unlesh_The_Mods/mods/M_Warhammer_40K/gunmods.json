@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "ork_22",
     "type": "GUNMOD",
     "name": ".22 calibre Orky conversion kit",
@@ -19,8 +19,8 @@
     "ammo_modifier": "22",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
-	},
-	{
+  },
+  {
     "id": "ork_223",
     "type": "GUNMOD",
     "name": "223 calibre Orky conversion kit",
@@ -40,23 +40,23 @@
     "ammo_modifier": "22",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
-	},
-	{
-	"id": "purity_seal",
-	"type": "GUNMOD",
-	"name": "Purity seal",
-	"description": "A large wax seal with a strip of paper, covered in holy texts, hainging from it.",
-	"weight": 120,
-	"price": 25000,
-	"material": [ "paper" ],
-	"symbol": ";",
-	"color": "red",
-	"location": "accessories",
-	"mod_targets": [ "smg", "rifle", "pistol", "shotgun", "launcher" ],
-	"install_time": 6000,
-	"dispersion_modifier": -25,
-	"loudness_modifier": -2,
-	"min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ], [ "gun", 1 ] ],
-	"flags": [ "NEVER_JAMS", "RAPIDFIRE" ]
-	}
+  },
+  {
+    "id": "purity_seal",
+    "type": "GUNMOD",
+    "name": "Purity seal",
+    "description": "A large wax seal with a strip of paper, covered in holy texts, hainging from it.",
+    "weight": 120,
+    "price": 25000,
+    "material": [ "paper" ],
+    "symbol": ";",
+    "color": "red",
+    "location": "accessories",
+    "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "launcher" ],
+    "install_time": 6000,
+    "dispersion_modifier": -25,
+    "loudness_modifier": -2,
+    "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ], [ "gun", 1 ] ],
+    "flags": [ "NEVER_JAMS", "RAPIDFIRE" ]
+  }
 ]

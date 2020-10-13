@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "thrown_flashlight",
     "copy-from": "flashlight",
     "type": "TOOL",
@@ -8,12 +8,12 @@
     "description": "A flashlight you can throw. It's no more aerodynamic than a regular flashlight, but an internal trigger will turn it on when it lands.",
     "extend": { "flags": [ "RADIO_MODABLE", "ACT_ON_RANGED_HIT" ] },
     "use_action": {
-        "type": "transform",
-        "msg": "The flashlight turns on.",
-        "target": "thrown_flashlight_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The flashlight's batteries are dead."
+      "type": "transform",
+      "msg": "The flashlight turns on.",
+      "target": "thrown_flashlight_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The flashlight's batteries are dead."
     }
   },
   {
@@ -25,11 +25,6 @@
     "description": "A flashlight you can throw. It's no more aerodynamic than a regular flashlight, but an internal trigger will turn it on when it lands.",
     "extend": { "flags": [ "RADIO_MODABLE", "ACT_ON_RANGED_HIT" ] },
     "revert_to": "flashlight",
-    "use_action": {
-        "menu_text": "Turn off",
-        "type": "transform",
-        "msg": "The flashlight turns off.",
-        "target": "thrown_flashlight"
-    }
+    "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "The flashlight turns off.", "target": "thrown_flashlight" }
   }
 ]

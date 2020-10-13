@@ -23,7 +23,7 @@
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "PARTIAL_DEAF" ]
   },
-    {
+  {
     "result": "XEAS_helmet",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -31,9 +31,15 @@
     "skill_used": "tailor",
     "difficulty": 8,
     "skills_required": [ "fabrication", 8 ],
-    "time": "4 h",  
-    "book_learn": [ [ "recipe_maiar", 7 ] ], 
-    "qualities": [ { "id": "SAW_M", "level": 2 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 },  { "id": "GLARE", "level": 3 }, { "id": "ANVIL", "level": 3 } ],	
+    "time": "4 h",
+    "book_learn": [ [ "recipe_maiar", 7 ] ],
+    "qualities": [
+      { "id": "SAW_M", "level": 2 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "GLARE", "level": 3 },
+      { "id": "ANVIL", "level": 3 }
+    ],
     "using": [ [ "adhesive", 1 ], [ "sewing_standard", 80 ] ],
     "tools": [
       [
@@ -45,13 +51,13 @@
         [ "large_repairkit", 30 ]
       ]
     ],
-    "components": [	  
-	  [ [ "alloy_sheet", 3 ] ],
-      [ [ "nomex", 18 ] ],	  
-	  [ [ "rag", 18 ] ],
+    "components": [
+      [ [ "alloy_sheet", 3 ] ],
+      [ [ "nomex", 18 ] ],
+      [ [ "rag", 18 ] ],
       [ [ "slime_scrap", 60 ] ],
       [ [ "acidchitin_piece", 60 ] ],
-	  [ [ "iv_mutagen_insect", 1 ] ]
+      [ [ "iv_mutagen_insect", 1 ] ]
     ]
   }
 ]

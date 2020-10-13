@@ -3,10 +3,7 @@
     "type": "TOOL",
     "id": "laptop_working",
     "copy-from": "laptop",
-    "name": {
-      "str": "laptop computer (working)",
-      "str_pl": "laptop computers (working)"
-    },
+    "name": { "str": "laptop computer (working)", "str_pl": "laptop computers (working)" },
     "description": "Working portable computer. Internal battery has been somewhat-crudely replaced to ensure as much. Requires an operating system installed to be useful.",
     "symbol": ",",
     "color": "light_gray",
@@ -15,12 +12,7 @@
     "magazines": [
       [
         "battery",
-        [
-          "medium_battery_cell",
-          "medium_plus_battery_cell",
-          "medium_disposable_cell",
-          "medium_atomic_battery_cell"
-        ]
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_disposable_cell", "medium_atomic_battery_cell" ]
       ]
     ],
     "magazine_well": 1
@@ -29,10 +21,7 @@
     "type": "TOOL",
     "abstract": "laptop_working_os",
     "copy-from": "laptop_working",
-    "name": {
-      "str": "laptop computer with OS",
-      "str_pl": "laptop computers with OS"
-    },
+    "name": { "str": "laptop computer with OS", "str_pl": "laptop computers with OS" },
     "flags": [ "WATCH", "ALARMCLOCK" ],
     "qualities": [ [ "COMPUTATION", 1 ] ]
   },
@@ -41,10 +30,7 @@
     "type": "TOOL",
     "id": "laptop_working_ubuntu",
     "copy-from": "laptop_working_os",
-    "name": {
-      "str": "laptop computer with Ubuntu",
-      "str_pl": "laptop computers with Ubuntu"
-    },
+    "name": { "str": "laptop computer with Ubuntu", "str_pl": "laptop computers with Ubuntu" },
     "description": "Working portable computer. Internal battery has been somewhat-crudely replaced to ensure as much. This one has Ubuntu - a distribution of Linux - installed."
   }
 ]

@@ -1,24 +1,20 @@
 [
   {
-    "type" : "recipe",
-    "result" : "arrow_lumin",
-    "category" : "CC_AMMO",
+    "type": "recipe",
+    "result": "arrow_lumin",
+    "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_ARROWS",
-    "skill_used" : "fabrication",
+    "skill_used": "fabrication",
     "skills_required": [ "survival", 2 ],
-    "difficulty" : 3,
-    "time" : 14000,
-    "autolearn" : true,
-    "book_learn" : [[ "recipe_arrows", 2 ] , [ "book_archery", 2]],
-    "qualities":[ {"id":"CUT","level":1} ],
-    "components" : [
+    "difficulty": 3,
+    "time": 14000,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_arrows", 2 ], [ "book_archery", 2 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
       [ [ "glowstick", 1 ] ],
       [ [ "adhesive", 1, "LIST" ], [ "filament", 10, "LIST" ] ],
-      [
-        [ "stick", 1 ],
-        [ "2x4", 1 ],
-        [ "bee_sting", 1 ]
-      ],
+      [ [ "stick", 1 ], [ "2x4", 1 ], [ "bee_sting", 1 ] ],
       [ [ "fletching", 1, "LIST" ] ]
     ]
   },
@@ -36,14 +32,14 @@
     "charges": 1,
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "CUT_FINE", "level": 1 } ],
     "using": [ [ "ammo_shot", 1 ] ],
-    "components": [ 
-      [ [ "gunpowder", 6 ], [ "chem_black_powder", 6 ] ] ,
+    "components": [
+      [ [ "gunpowder", 6 ], [ "chem_black_powder", 6 ] ],
       [ [ "plastic_chunk", 1 ] ],
       [ [ "lightstrip_inactive", 1 ] ],
       [ [ "e_scrap", 1 ] ],
       [ [ "battery", 5 ] ]
     ]
-  }, 
+  },
   {
     "result": "40mm_lumin",
     "type": "recipe",
@@ -59,7 +55,19 @@
     "charges": 1,
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "CUT_FINE", "level": 1 } ],
     "components": [
-      [ [ "40mm_lumin_casing", 1 ], [ "40x46mm_m1006", 1 ], [ "40x46mm_m433", 1 ], [ "40x46mm_m576", 1 ], [ "40x46mm_m651", 1 ], [ "40x46mm_buckshot_m118", 1 ], [ "40x46mm_buckshot_m199", 1 ], [ "40x46mm_slug_m118", 1 ], [ "40x46mm_slug_m199", 1 ], [ "40x46mm_flechette_m118", 1 ], [ "40x46mm_flechette_m199", 1 ]  ],	
+      [
+        [ "40mm_lumin_casing", 1 ],
+        [ "40x46mm_m1006", 1 ],
+        [ "40x46mm_m433", 1 ],
+        [ "40x46mm_m576", 1 ],
+        [ "40x46mm_m651", 1 ],
+        [ "40x46mm_buckshot_m118", 1 ],
+        [ "40x46mm_buckshot_m199", 1 ],
+        [ "40x46mm_slug_m118", 1 ],
+        [ "40x46mm_slug_m199", 1 ],
+        [ "40x46mm_flechette_m118", 1 ],
+        [ "40x46mm_flechette_m199", 1 ]
+      ],
       [ [ "gunpowder", 20 ] ],
       [ [ "plastic_chunk", 1 ] ],
       [ [ "lightstrip_inactive", 1 ] ],
@@ -78,9 +86,6 @@
     "reversible": true,
     "auto_learn": true,
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ 
-      [ [ "flashlight", 1 ] ],
-      [ [ "e_scrap", 1 ] ]
-    ]
+    "components": [ [ [ "flashlight", 1 ] ], [ [ "e_scrap", 1 ] ] ]
   }
 ]

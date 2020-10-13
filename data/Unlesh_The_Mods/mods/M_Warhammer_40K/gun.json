@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "Godwin_Bolter",
     "type": "GUN",
     "name": "Godwin Pattern Bolter",
@@ -15,19 +15,24 @@
     "color": "light_gray",
     "ammo": "75bolt",
     "skill": "rifle",
-	"burst" : 3,
+    "burst": 3,
     "ranged_damage": 8,
     "dispersion": 8,
     "durability": 10,
     "loudness": 130,
     "reload": 180,
     "barrel_length": 1,
-    "magazines": [ [ "75bolt" , [ "BolterSickleMag_30", "BolterSickleMag_25", "BolterSickleMag_20", "BolterDrumMag_40" , "BolterDrumMag_60" ] ] ]
-	},
-	{
-	"id" : "ceres_pistol",
-	"type" : "GUN",
-	"name": "Ceres-Pattern Bolt Pistol",
+    "magazines": [
+      [
+        "75bolt",
+        [ "BolterSickleMag_30", "BolterSickleMag_25", "BolterSickleMag_20", "BolterDrumMag_40", "BolterDrumMag_60" ]
+      ]
+    ]
+  },
+  {
+    "id": "ceres_pistol",
+    "type": "GUN",
+    "name": "Ceres-Pattern Bolt Pistol",
     "name_plural": "Ceres-Pattern Bolt Pistol",
     "description": "Considered a snub-nosed semi-auto machine gun by most sane indeviduals.",
     "weight": 1200,
@@ -46,64 +51,58 @@
     "loudness": 130,
     "reload": 180,
     "barrel_length": 0,
-    "magazines": [ [ "75bolt" , [ "BoltPistolMag_9" ] ] ]
-	},
-	{
-	"id" : "MK3storm_bolter",
-	"type" : "GUN", 
-	"name" : "MKIII-Pattern Storm Bolter",
-	"name_plural" : "MKIII-Pattern-Pattern Storm Bolters",
-	"description" : "A twin-barreled bolter with a blisteringly fast cyclic speed. You should probaly not use this outside of Power Armor.",
-	"weight" : 1400,
-	"price" : 650000000,
-	"to_hit" : -3,
-	"bashing" : 14,
-	"material" : "steel",
-	"symbol" : "(",
-	"color" : "light_gray",
-	"ammo" : "75bolt",
-	"skill" : "rifle",
-	"ranged_damage" : 8,
-	"dispersion" : 10,
-	"durability" : 10,
-	"loudness" : 130,
-	"reload" : 200,
-	"modes" : [
-		[ "DEFAULT", "AUTO", 10 ]
-		],
-	"barrel_length" : 0,
-	"magazines" : [
-		[ "75bolt" , [ "StormBolterMag_100" ] ]
-		]
-	},
-	{
-	"id" : "mk3a_flamer",
-	"name" : "MK.IIIa 'Heretic' Pattern Flamer",
-	"type" : "GUN",
-	"name_plural" : "MK.IIIa 'Heretic' Pattern Flamer",
-	"description" : "A common flamer pattern used by the Astarties and Astra Militarum, alike.",
-	"weight" : 1200,
-	"price" : 12000000,
-	"to_hit" : -4,
-	"bashing" : 8,
-	"material" : "steel",
-	"symbol" : "(",
-	"color" : "light_gray",
-	"skill" : "rifle",
-	"ranged_damage" : 10,
-	"dispersion" : 8,
-	"durability" : 10,
-	"loudness" : 5,
-	"reload" : 120,
-	"ammo" : "promethium",
-	"magazines" : [
-		[ "promethium", [ "flame_tank"] ]
-		]
-	},
-		{
- 	"id" : "lasgun",
-	"type" : "GUN",
-	"name": "Imperial Lasgun",
+    "magazines": [ [ "75bolt", [ "BoltPistolMag_9" ] ] ]
+  },
+  {
+    "id": "MK3storm_bolter",
+    "type": "GUN",
+    "name": "MKIII-Pattern Storm Bolter",
+    "name_plural": "MKIII-Pattern-Pattern Storm Bolters",
+    "description": "A twin-barreled bolter with a blisteringly fast cyclic speed. You should probaly not use this outside of Power Armor.",
+    "weight": 1400,
+    "price": 650000000,
+    "to_hit": -3,
+    "bashing": 14,
+    "material": "steel",
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": "75bolt",
+    "skill": "rifle",
+    "ranged_damage": 8,
+    "dispersion": 10,
+    "durability": 10,
+    "loudness": 130,
+    "reload": 200,
+    "modes": [ [ "DEFAULT", "AUTO", 10 ] ],
+    "barrel_length": 0,
+    "magazines": [ [ "75bolt", [ "StormBolterMag_100" ] ] ]
+  },
+  {
+    "id": "mk3a_flamer",
+    "name": "MK.IIIa 'Heretic' Pattern Flamer",
+    "type": "GUN",
+    "name_plural": "MK.IIIa 'Heretic' Pattern Flamer",
+    "description": "A common flamer pattern used by the Astarties and Astra Militarum, alike.",
+    "weight": 1200,
+    "price": 12000000,
+    "to_hit": -4,
+    "bashing": 8,
+    "material": "steel",
+    "symbol": "(",
+    "color": "light_gray",
+    "skill": "rifle",
+    "ranged_damage": 10,
+    "dispersion": 8,
+    "durability": 10,
+    "loudness": 5,
+    "reload": 120,
+    "ammo": "promethium",
+    "magazines": [ [ "promethium", [ "flame_tank" ] ] ]
+  },
+  {
+    "id": "lasgun",
+    "type": "GUN",
+    "name": "Imperial Lasgun",
     "name_plural": "Imperial Lasguns",
     "description": "An Imperial Lasgun, the bacis weapon of guardsmen and heritics alike. Easily modifyable and insainly relyable.",
     "weight": 1200,
@@ -116,16 +115,16 @@
     "color": "light_gray",
     "ammo": "las",
     "skill": "rifle",
-	"range" : 50,
+    "range": 50,
     "ranged_damage": 8,
     "dispersion": 2,
     "durability": 10,
     "loudness": 20,
     "reload": 80,
     "barrel_length": 3,
-    "magazines": [ [ "las" , [ "laspistol_40", "lasgun_80", "lasgun_140" ] ] ]
-	},
-	{
+    "magazines": [ [ "las", [ "laspistol_40", "lasgun_80", "lasgun_140" ] ] ]
+  },
+  {
     "id": "M35_lasgun",
     "type": "GUN",
     "name": "M35 M-Galaxy Short pattern lasgun",
@@ -149,9 +148,9 @@
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "las" , [ "laspistol_40", "lasgun_80", "lasgun_140" ] ] ]
-	},
-	{
+    "magazines": [ [ "las", [ "laspistol_40", "lasgun_80", "lasgun_140" ] ] ]
+  },
+  {
     "id": "def_laspistol",
     "type": "GUN",
     "name": "Kantrael MG 'Defender' pattern Laspistol",
@@ -175,9 +174,9 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "sights", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "las" , [ "laspistol_40" ] ] ]
-	},
-	{
+    "magazines": [ [ "las", [ "laspistol_40" ] ] ]
+  },
+  {
     "id": "shoota",
     "type": "GUN",
     "name": "Shoota",
@@ -192,24 +191,18 @@
     "symbol": "(",
     "color": "light_gray",
     "ammo": "ork_dakka",
-    "skill" : "rifle",
-	"modes" : [
-		[ "DEFAULT" , "Single DAKKA", 1],
-		[ "BURST" , "Tripple DAKKA", 3],
-		[ "AUTO" , "DAKKADAKKADAKKA", 5]
-	],
+    "skill": "rifle",
+    "modes": [ [ "DEFAULT", "Single DAKKA", 1 ], [ "BURST", "Tripple DAKKA", 3 ], [ "AUTO", "DAKKADAKKADAKKA", 5 ] ],
     "ranged_damage": -5,
     "dispersion": 30,
     "durability": 6,
     "loudness": 40,
     "reload": 200,
     "barrel_length": 2,
-	"valid_mod_locations" : [ [ "bore", 1] ],
-    "magazines": [
-		[ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ]
-		]
-	},
-	{
+    "valid_mod_locations": [ [ "bore", 1 ] ],
+    "magazines": [ [ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ] ]
+  },
+  {
     "id": "ork_shoota_red",
     "copy-from": "shoota",
     "type": "TOOL",
@@ -221,13 +214,10 @@
     "dispersion": 100,
     "reload": 200,
     "//": "Ohgod make the dakka stahp plz.",
-    "modes": [
-      [ "DEFAULT", "moar dakka", 15 ],
-      [ "AUTO", "MOAR ZOGGIN' DAKKA!", 30 ]
-    ],
+    "modes": [ [ "DEFAULT", "moar dakka", 15 ], [ "AUTO", "MOAR ZOGGIN' DAKKA!", 30 ] ],
     "techniques": [ "RAPID" ]
-	},
-	{
+  },
+  {
     "id": "big_shoota",
     "type": "GUN",
     "name": "Big Shoota",
@@ -242,20 +232,15 @@
     "symbol": "(",
     "color": "light_gray",
     "ammo": "ork_dakka",
-    "skill" : "rifle",
-	"modes" : [
-		[ "DEFAULT" , "Small DAKKA", 2],
-		[ "AUTO" , "DAKKADAKKADAKKA", 5]
-	],
+    "skill": "rifle",
+    "modes": [ [ "DEFAULT", "Small DAKKA", 2 ], [ "AUTO", "DAKKADAKKADAKKA", 5 ] ],
     "ranged_damage": 2,
     "dispersion": 20,
     "durability": 6,
     "loudness": 50,
     "reload": 300,
     "barrel_length": 2,
-	"valid_mod_locations" : [ [ "bore", 1] ],
-    "magazines": [
-		[ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ]
-		]
-	}
+    "valid_mod_locations": [ [ "bore", 1 ] ],
+    "magazines": [ [ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ] ]
+  }
 ]

@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "mon_giant_cockroach_nymph",
     "type": "MONSTER",
     "name": { "str": "giant cockroach nymph" },
@@ -29,7 +29,7 @@
     "special_attacks": [ [ "EAT_FOOD", 120 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "LARVA", "CLIMBS", "PATH_AVOID_FIRE" ]
   },
-   {
+  {
     "id": "mon_dermatik_larva",
     "type": "MONSTER",
     "name": { "str": "dermatik larva", "str_pl": "dermatik larvae" },
@@ -86,7 +86,7 @@
     "special_attacks": [ { "type": "leap", "cooldown": 4, "max_range": 4, "allow_no_target": true }, [ "EAT_CROP", 120 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "LARVA", "STUMBLES", "PATH_AVOID_FIRE" ]
   },
-    {
+  {
     "id": "mon_rattlesnake",
     "type": "MONSTER",
     "name": { "str": "rattlesnake" },

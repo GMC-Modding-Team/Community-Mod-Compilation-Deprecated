@@ -1,4 +1,4 @@
-[  
+[
   {
     "id": "XEAS_mask",
     "type": "TOOL_ARMOR",
@@ -36,7 +36,13 @@
     "skills_required": [ "fabrication", 7 ],
     "time": "6 h",
     "book_learn": [ [ "recipe_maiar", 8 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 2 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 },  { "id": "GLARE", "level": 3 }, { "id": "ANVIL", "level": 3 } ],	
+    "qualities": [
+      { "id": "SAW_M", "level": 2 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "GLARE", "level": 3 },
+      { "id": "ANVIL", "level": 3 }
+    ],
     "using": [ [ "adhesive", 1 ], [ "sewing_standard", 200 ] ],
     "tools": [
       [
@@ -50,14 +56,14 @@
     ],
     "components": [
       [ [ "mask_filter", 2 ], [ "mask_gas", 1 ], [ "mask_bunker", 1 ] ],
-      [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],	  
-	  [ [ "alloy_sheet", 1 ] ],
+      [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],
+      [ [ "alloy_sheet", 1 ] ],
       [ [ "diamond", 2 ] ],
-      [ [ "nomex", 20 ] ],	  
-	  [ [ "rag", 20 ] ],
+      [ [ "nomex", 20 ] ],
+      [ [ "rag", 20 ] ],
       [ [ "slime_scrap", 40 ] ],
       [ [ "acidchitin_piece", 50 ] ],
-	  [ [ "iv_mutagen_insect", 1 ] ]
+      [ [ "iv_mutagen_insect", 1 ] ]
     ]
-  } 
+  }
 ]

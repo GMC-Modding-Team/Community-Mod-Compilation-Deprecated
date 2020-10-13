@@ -166,12 +166,22 @@
       {
         "distribution": [
           {
-            "collection": [ { "group": "male_underwear", "damage": [ 1, 4 ] }, { "item": "dress_shirt", "damage": [ 1, 4 ] }, { "item": "pants", "damage": [ 1, 4 ] }, { "item": "dress_shoes", "damage": [ 1, 4 ] } ],
+            "collection": [
+              { "group": "male_underwear", "damage": [ 1, 4 ] },
+              { "item": "dress_shirt", "damage": [ 1, 4 ] },
+              { "item": "pants", "damage": [ 1, 4 ] },
+              { "item": "dress_shoes", "damage": [ 1, 4 ] }
+            ],
             "prob": 50
           },
           {
-            "collection": [ { "group": "female_underwear", "damage": [ 1, 4 ] }, { "item": "dress_shirt", "damage": [ 1, 4 ] }, { "item": "skirt", "damage": [ 1, 4 ] }, { "item": "dress_shoes", "damage": [ 1, 4 ] } ],
-            "prob": 50 
+            "collection": [
+              { "group": "female_underwear", "damage": [ 1, 4 ] },
+              { "item": "dress_shirt", "damage": [ 1, 4 ] },
+              { "item": "skirt", "damage": [ 1, 4 ] },
+              { "item": "dress_shoes", "damage": [ 1, 4 ] }
+            ],
+            "prob": 50
           }
         ]
       },

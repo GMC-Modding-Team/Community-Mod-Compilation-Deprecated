@@ -88,7 +88,7 @@
     "armor_acid": 3,
     "armor_electric": 4,
     "vision_day": 16,
-	"regenerates": 10,
+    "regenerates": 10,
     "revert_to_itype": "bot_golyat",
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
@@ -125,7 +125,7 @@
     "armor_fire": 20,
     "vision_day": 16,
     "vision_night": 16,
-	"regenerates": 10,
+    "regenerates": 10,
     "revert_to_itype": "bot_golyat2",
     "special_attacks": [
       {
@@ -140,16 +140,7 @@
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
-    "flags": [
-      "SEES",
-      "FLIES",
-      "ELECTRONIC",
-      "PATH_AVOID_DANGER_2",
-      "NO_BREATHE",
-      "INTERIOR_AMMO",
-      "HARDTOSHOOT",
-      "SWARMS"
-    ]
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "PATH_AVOID_DANGER_2", "NO_BREATHE", "INTERIOR_AMMO", "HARDTOSHOOT", "SWARMS" ]
   },
   {
     "id": "mon_golyat2l",
@@ -181,7 +172,7 @@
     "armor_fire": 20,
     "vision_day": 50,
     "vision_night": 50,
-	"regenerates": 10,
+    "regenerates": 10,
     "revert_to_itype": "bot_golyat2l",
     "special_attacks": [
       {
@@ -196,15 +187,6 @@
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED" ],
-    "flags": [
-      "SEES",
-      "FLIES",
-      "ELECTRONIC",
-      "PATH_AVOID_DANGER_2",
-      "NO_BREATHE",
-      "INTERIOR_AMMO",
-      "HARDTOSHOOT",
-      "SWARMS"
-    ]
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "PATH_AVOID_DANGER_2", "NO_BREATHE", "INTERIOR_AMMO", "HARDTOSHOOT", "SWARMS" ]
   }
 ]

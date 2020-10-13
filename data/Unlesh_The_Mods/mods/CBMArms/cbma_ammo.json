@@ -20,7 +20,7 @@
     "pierce": 0,
     "dispersion": 0,
     "recoil": 19800,
-    "loudness" : 325,
+    "loudness": 325,
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "MUZZLE_SMOKE", "WIDE" ]
   },
   {
@@ -44,7 +44,7 @@
     "pierce": 10,
     "dispersion": 30,
     "recoil": 0,
-    "loudness" : 25,
+    "loudness": 25,
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
@@ -55,12 +55,7 @@
     "name_plural": "steel electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of steel. It is a standard projectile with stable performance.",
     "material": [ "steel" ],
-    "relative": {
-      "damage": 15,
-      "pierce": 5,
-      "range": 5,
-      "dispersion": -15
-    }
+    "relative": { "damage": 15, "pierce": 5, "range": 5, "dispersion": -15 }
   },
   {
     "id": "cbma_em_rail_alloy",
@@ -70,12 +65,7 @@
     "name_plural": "superalloy electromagnetic projectiles",
     "description": "A rod for electromagnetic projectile guns made of superalloy. It is a projectile with high performance due to its excellent electrical and chemical properties.",
     "material": [ "superalloy" ],
-    "relative": {
-      "damage": 55,
-      "pierce": 30,
-      "range": 15,
-      "dispersion": -30
-    }
+    "relative": { "damage": 55, "pierce": 30, "range": 15, "dispersion": -30 }
   },
   {
     "id": "cbma_em_railmag",

@@ -28,13 +28,16 @@
     "type": "technique",
     "id": "mss_tec_sledge_gutbuster",
     "name": "Gutbuster",
-    "messages": [ "You slam the end of your weapon into %s and drive them back", "<npcname> slams the end of their weapon into %s and drives them back" ],
+    "messages": [
+      "You slam the end of your weapon into %s and drive them back",
+      "<npcname> slams the end of their weapon into %s and drives them back"
+    ],
     "min_melee": 1,
     "weighting": 4,
     "melee_allowed": true,
     "crit_tec": true,
     "stun_dur": 2,
-	"knockback_dist": 1,
+    "knockback_dist": 1,
     "knockback_follow": true
   },
   {
@@ -64,7 +67,7 @@
     "crit_ok": true,
     "weighting": 8,
     "stun_dur": 3,
-	"knockback_dist": 3,
+    "knockback_dist": 3,
     "mult_bonuses": [
       { "stat": "damage", "type": "bash", "scale": 0.5 },
       { "stat": "damage", "type": "cut", "scale": 0 },
@@ -82,7 +85,7 @@
     "crit_ok": true,
     "weighting": 2,
     "stun_dur": 3,
-	"knockback_dist": 2,
+    "knockback_dist": 2,
     "mult_bonuses": [
       { "stat": "damage", "type": "bash", "scale": 0.5 },
       { "stat": "damage", "type": "cut", "scale": 0 },
@@ -93,42 +96,48 @@
     "type": "technique",
     "id": "mss_tec_sledge_deathblow",
     "name": "Flying Blow",
-    "messages": [ "You swing directly into %s, making them soar through the air", "<npcname> swings directly into %s, making them soar through the air" ],
+    "messages": [
+      "You swing directly into %s, making them soar through the air",
+      "<npcname> swings directly into %s, making them soar through the air"
+    ],
     "min_melee": 5,
     "melee_allowed": true,
     "req_buffs": "mss_buff_sledge_onmiss",
     "crit_tec": true,
     "weighting": 10,
     "stun_dur": 2,
-	"down_dur": 2,
-	"knockback_dist": 5,
-	"knockback_spread": 1,
+    "down_dur": 2,
+    "knockback_dist": 5,
+    "knockback_spread": 1,
     "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.8 } ]
   },
   {
     "type": "technique",
     "id": "mss_tec_sledge_deathblowstun",
     "name": "Flying Blow",
-    "messages": [ "You swing directly into %s, making them soar through the air", "<npcname> swings directly into %s, making them soar through the air" ],
+    "messages": [
+      "You swing directly into %s, making them soar through the air",
+      "<npcname> swings directly into %s, making them soar through the air"
+    ],
     "min_melee": 4,
     "melee_allowed": true,
     "stunned_target": true,
     "crit_tec": true,
     "weighting": 10,
     "stun_dur": 2,
-	"down_dur": 2,
-	"knockback_dist": 5,
-	"knockback_spread": 1,
-    "mult_bonuses": [
-      { "stat": "movecost", "scale": 1.3 },
-      { "stat": "damage", "type": "bash", "scale": 1.8 }
-    ]
+    "down_dur": 2,
+    "knockback_dist": 5,
+    "knockback_spread": 1,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.3 }, { "stat": "damage", "type": "bash", "scale": 1.8 } ]
   },
   {
     "type": "technique",
     "id": "mss_tec_sledge_break",
     "name": "Grab Break",
-    "messages": [ "The %s tries to grab you, but you shove their grasp away!", "The %s tries to grab <npcname>, but they shove their grasp away!" ],
+    "messages": [
+      "The %s tries to grab you, but you shove their grasp away!",
+      "The %s tries to grab <npcname>, but they shove their grasp away!"
+    ],
     "min_melee": 3,
     "melee_allowed": true,
     "defensive": true,

@@ -12,10 +12,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "time": 28000,
     "autolearn": true,
-    "components": [
-      [ [ "waterproof_rag", 4 ] ],
-      [ [ "foldframe", 2 ], [ "pipe", 8 ] ]
-    ]
+    "components": [ [ [ "waterproof_rag", 4 ] ], [ [ "foldframe", 2 ], [ "pipe", 8 ] ] ]
   },
   {
     "type": "recipe",
@@ -27,15 +24,10 @@
     "difficulty": 2,
     "book_learn": [ [ "fun_survival", 1 ], [ "manual_survival", 1 ], [ "textbook_survival", 1 ] ],
     "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "tools": [
-      [ [ "soldering_iron", 5 ], [ "toolset", 5 ] ]
-    ],
+    "tools": [ [ [ "soldering_iron", 5 ], [ "toolset", 5 ] ] ],
     "time": 10000,
     "autolearn": true,
-    "components": [
-      [ [ "rag", 10 ] ],
-      [ [ "plastic_chunk", 5 ] ]
-    ]
+    "components": [ [ [ "rag", 10 ] ], [ [ "plastic_chunk", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -47,8 +39,6 @@
     "time": 5000,
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SCREW", "level": 1 } ],
-    "components": [
-      [ [ "scrap", 2 ] ]
-    ]
+    "components": [ [ [ "scrap", 2 ] ] ]
   }
 ]

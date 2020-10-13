@@ -120,7 +120,7 @@
       { "x": 0, "y": 1, "part": "plating_military" },
       { "x": 1, "y": 1, "part": "hdframe_vertical_2" },
       { "x": 1, "y": 1, "part": "hdhalfboard_ne" },
-	  {
+      {
         "x": 1,
         "y": 1,
         "parts": [ "turret_mount", { "part": "mounted_browning", "ammo": 60, "ammo_qty": [ 10, 100 ] } ]
@@ -1524,10 +1524,18 @@
       { "x": -4, "y": 1, "part": "hdroof" },
       { "x": -3, "y": 1, "part": "hdframe_vertical_2" },
       { "x": -3, "y": 1, "part": "hdboard_vertical" },
-	  {
+      {
         "x": -3,
         "y": 1,
-        "parts": [ "turret_mount", { "ammo_types": [ "120mm_usable_heat", "120mm_usable_ap" ], "part": "mounted_tank_rws", "ammo": 60, "ammo_qty": [ 1, 5 ] } ]
+        "parts": [
+          "turret_mount",
+          {
+            "ammo_types": [ "120mm_usable_heat", "120mm_usable_ap" ],
+            "part": "mounted_tank_rws",
+            "ammo": 60,
+            "ammo_qty": [ 1, 5 ]
+          }
+        ]
       },
       { "x": -3, "y": 1, "part": "hdroof" },
       { "x": -2, "y": 1, "part": "hdframe_vertical_2" },
@@ -2070,11 +2078,7 @@
       { "x": 0, "y": -2, "part": "hdframe_vertical_2" },
       { "x": 0, "y": -2, "part": "seat" },
       { "x": 0, "y": -2, "part": "seatbelt_heavyduty" },
-	  {
-        "x": 0,
-        "y": -2,
-        "parts": [ "turret_mount", { "part": "tow_turret", "ammo": 60, "ammo_qty": [ 1, 2 ] } ]
-      },
+      { "x": 0, "y": -2, "parts": [ "turret_mount", { "part": "tow_turret", "ammo": 60, "ammo_qty": [ 1, 2 ] } ] },
       { "x": 0, "y": -2, "part": "controls" },
       { "x": 0, "y": -2, "part": "dashboard" },
       { "x": 0, "y": -2, "part": "cam_control" },

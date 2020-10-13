@@ -20,16 +20,16 @@
     "dispersion": 300,
     "//": "It's said that the .950 JDS produces 277 foot pounds of recoil energy and said to feel like shooting ten 30-06 rounds at once, leaving a dinner plate sized bruise.",
     "recoil": 38000
-    },
-    {  
+  },
+  {
     "id": "bp_950",
     "copy-from": "950",
     "type": "AMMO",
     "name": ".950 black powder",
     "proportional": { "price": 0.3, "damage": 0.76, "recoil": 0.76, "pierce": 0.5, "dispersion": 1.2 },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
-},
-{
+  },
+  {
     "type": "GENERIC",
     "id": "950_casing",
     "copy-from": "casing",
@@ -38,5 +38,5 @@
     "material": "steel",
     "volume": "4000 ml",
     "weight": "200 g"
-    }
-    ]
+  }
+]

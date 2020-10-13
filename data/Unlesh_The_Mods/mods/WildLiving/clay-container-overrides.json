@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "clay_watercont",
     "type": "CONTAINER",
     "category": "container",
@@ -29,11 +29,7 @@
     "time": "20 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 1 ], [ "glazing", 1 ], [ "earthenware_firing", 40 ] ],
-    "components": [ 
-    	[ [ "water", 1 ], [ "water_clean", 1 ] ],
-    	[ [ "clay_lump", 4 ] ], 
-    	[ [ "cordage_short", 2, "LIST" ] ]
-    ]
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 4 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -47,11 +43,7 @@
     "time": "30 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 1 ], [ "glazing", 1 ], [ "earthenware_firing", 60 ] ],
-    "components": [ 
-    	[ [ "water", 1 ], [ "water_clean", 1 ] ], 
-    	[ [ "clay_lump", 2 ] ], 
-    	[ [ "cordage_short", 2, "LIST" ] ]
-    ]
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 2 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -65,11 +57,7 @@
     "time": "45 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 5 ], [ "earthenware_firing", 120 ] ],
-    "components": [ 
-    	[ [ "water", 2 ], [ "water_clean", 2 ] ], 
-    	[ [ "clay_lump", 10 ] ], 
-    	[ [ "cordage_short", 2, "LIST" ] ]
-    ]
+    "components": [ [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "clay_lump", 10 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -83,12 +71,12 @@
     "time": "80 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 5 ], [ "earthenware_firing", 160 ] ],
-    "components": [ 
-    	[ [ "water", 3 ], [ "water_clean", 3 ] ], 
-    	[ [ "clay_lump", 20 ] ], 
-    	[ [ "cordage_short", 2, "LIST" ] ],
-        [ [ "leather", 3 ], [ "fur", 3 ], [ "birchbark", 3 ] ],
-        [ [ "adhesive", 2, "LIST" ] ]
+    "components": [
+      [ [ "water", 3 ], [ "water_clean", 3 ] ],
+      [ [ "clay_lump", 20 ] ],
+      [ [ "cordage_short", 2, "LIST" ] ],
+      [ [ "leather", 3 ], [ "fur", 3 ], [ "birchbark", 3 ] ],
+      [ [ "adhesive", 2, "LIST" ] ]
     ]
   },
   {
@@ -103,10 +91,6 @@
     "time": "25 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 3 ], [ "earthenware_firing", 50 ] ],
-    "components": [ 
-    	[ [ "water", 1 ], [ "water_clean", 1 ] ], 
-    	[ [ "clay_lump", 6 ] ],
-    	[ [ "cordage_short", 2, "LIST" ] ]
-    ]
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 6 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
   }
 ]

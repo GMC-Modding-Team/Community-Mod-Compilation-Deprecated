@@ -53,7 +53,7 @@
         "buff_duration": 2,
         "max_stacks": 3,
         "bonus_blocks": 1,
-		"mult_bonuses": [ { "stat": "movecost", "scale": 1.15 } ]
+        "mult_bonuses": [ { "stat": "movecost", "scale": 1.15 } ]
       }
     ],
     "onblock_buffs": [
@@ -80,17 +80,18 @@
         "flat_bonuses": [ { "stat": "dodge", "scale": -3.0 } ]
       }
     ],
-    "techniques": [ "mss_tec_sledge_counter",
-	"mss_tec_sledge_shove",
-	"mss_tec_sledge_feint",
-	"mss_tec_sledge_deathblow",
-	"mss_tec_sledge_deathblowstun",
-	"mss_tec_sledge_break",
-	"mss_tec_sledge_jab",
-	"mss_tec_sledge_gutbuster",
-	"mss_tec_sledge_tap",
-	"mss_tec_sledge_shoveonmiss"
-	],
+    "techniques": [
+      "mss_tec_sledge_counter",
+      "mss_tec_sledge_shove",
+      "mss_tec_sledge_feint",
+      "mss_tec_sledge_deathblow",
+      "mss_tec_sledge_deathblowstun",
+      "mss_tec_sledge_break",
+      "mss_tec_sledge_jab",
+      "mss_tec_sledge_gutbuster",
+      "mss_tec_sledge_tap",
+      "mss_tec_sledge_shoveonmiss"
+    ],
     "weapons": [
       "ax",
       "battleaxe",
@@ -101,16 +102,16 @@
       "halberd",
       "halberd_fake",
       "hammer_sledge",
-	  "hammer_sledge_short",
-	  "hammer_sledge_engineer",
-	  "hammer_sledge_heavy",
+      "hammer_sledge_short",
+      "hammer_sledge_engineer",
+      "hammer_sledge_heavy",
       "lobotomizer",
       "lucern_hammer",
       "lucern_hammerfake",
       "makeshift_halberd",
       "pickaxe",
-	  "homewrecker",
-	  "mss_survivor_sledge"
+      "homewrecker",
+      "mss_survivor_sledge"
     ]
   }
 ]

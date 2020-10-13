@@ -20,7 +20,8 @@
     "material_thickness": 6,
     "environmental_protection": 9,
     "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_armor",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -45,14 +46,15 @@
     "environmental_protection": 15,
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID", "NO_UNLOAD" ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_armor_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_armor_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_enhanced_armor_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -76,15 +78,10 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID", "NO_UNLOAD" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_armor"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_STR_UP" ]
-    }
-  },{
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_armor" },
+    "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] }
+  },
+  {
     "id": "cbma_bionic_helmet",
     "type": "ARMOR",
     "category": "armor",
@@ -106,7 +103,8 @@
     "material_thickness": 6,
     "environmental_protection": 9,
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "RAINPROOF", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_bionic_mask",
     "type": "ARMOR",
     "category": "armor",
@@ -128,7 +126,8 @@
     "material_thickness": 6,
     "environmental_protection": 22,
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "RAINPROOF", "OVERSIZE", "GAS_PROOF", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_helmet",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -152,17 +151,29 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 24,
-    "qualities" : [ [ "GLARE", 2 ] ],
+    "qualities": [ [ "GLARE", 2 ] ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_helmet_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_helmet_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "RAINPROOF", "OVERSIZE", "SUN_GLASSES", "GAS_PROOF", "TRADER_AVOID", "NO_UNLOAD" ]
-  },{
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "RAINPROOF",
+      "OVERSIZE",
+      "SUN_GLASSES",
+      "GAS_PROOF",
+      "TRADER_AVOID",
+      "NO_UNLOAD"
+    ]
+  },
+  {
     "id": "cbma_enhanced_helmet_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -186,17 +197,27 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 24,
-    "qualities" : [ [ "GLARE", 2 ] ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_helmet"
-    },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "RAINPROOF", "OVERSIZE", "SUN_GLASSES", "PARTIAL_DEAF", "REBREATHER", "SWIM_GOGGLES", "FLASH_PROTECTION", "GAS_PROOF", "TRADER_AVOID", "NO_UNLOAD" ],
-    "artifact_data" : {
-        "effects_worn": [ "AEP_PER_UP" ]
-    }
-  },{
+    "qualities": [ [ "GLARE", 2 ] ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_helmet" },
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "RAINPROOF",
+      "OVERSIZE",
+      "SUN_GLASSES",
+      "PARTIAL_DEAF",
+      "REBREATHER",
+      "SWIM_GOGGLES",
+      "FLASH_PROTECTION",
+      "GAS_PROOF",
+      "TRADER_AVOID",
+      "NO_UNLOAD"
+    ],
+    "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
+  },
+  {
     "id": "cbma_bionic_gloves",
     "type": "ARMOR",
     "category": "armor",
@@ -217,7 +238,8 @@
     "material_thickness": 6,
     "environmental_protection": 9,
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_gloves",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -241,15 +263,16 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_gloves_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_gloves_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     },
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_gloves_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -272,13 +295,10 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_gloves"
-    },
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_gloves" },
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_bionic_boots",
     "type": "ARMOR",
     "category": "armor",
@@ -300,7 +320,8 @@
     "material_thickness": 6,
     "environmental_protection": 9,
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_boots",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -326,14 +347,15 @@
     "environmental_protection": 15,
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_boots_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_boots_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_enhanced_boots_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -358,15 +380,10 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_boots"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_DEX_UP" ]
-    }
-  },{
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_boots" },
+    "artifact_data": { "effects_worn": [ "AEP_DEX_UP" ] }
+  },
+  {
     "id": "cbma_bionic_duster",
     "type": "ARMOR",
     "category": "armor",
@@ -388,7 +405,8 @@
     "material_thickness": 7,
     "environmental_protection": 3,
     "flags": [ "VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_duster",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -412,16 +430,29 @@
     "warmth": 0,
     "material_thickness": 5,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "HOOD",
+      "COLLAR",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "OUTER",
+      "OVERSIZE",
+      "TRADER_AVOID"
+    ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_duster_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_duster_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_enhanced_duster_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -445,16 +476,23 @@
     "warmth": 0,
     "material_thickness": 5,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_duster"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_RESIST_ELECTRICITY" ]
-    }
-  },{
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "HOOD",
+      "COLLAR",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "OUTER",
+      "OVERSIZE",
+      "TRADER_AVOID"
+    ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_duster" },
+    "artifact_data": { "effects_worn": [ "AEP_RESIST_ELECTRICITY" ] }
+  },
+  {
     "id": "cbma_carry_frame",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -479,17 +517,16 @@
     "material_thickness": 7,
     "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_carry_frame_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_carry_frame_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_STR_DOWN", "AEP_DEX_DOWN", "AEP_SPEED_DOWN" ]
-    }
-  },{
+    "artifact_data": { "effects_worn": [ "AEP_STR_DOWN", "AEP_DEX_DOWN", "AEP_SPEED_DOWN" ] }
+  },
+  {
     "id": "cbma_carry_frame_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -513,15 +550,10 @@
     "warmth": 0,
     "material_thickness": 7,
     "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_carry_frame"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_CARRY_MORE", "AEP_MOVEMENT_NOISE" ]
-    }
-  },{
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_carry_frame" },
+    "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE", "AEP_MOVEMENT_NOISE" ] }
+  },
+  {
     "id": "cbma_inner_suite",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -546,14 +578,15 @@
     "material_thickness": 1,
     "flags": [ "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_RESIST" ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_inner_suite_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_inner_suite_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_inner_suite_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -577,16 +610,21 @@
     "warmth": 0,
     "material_thickness": 1,
     "environmental_protection": 20,
-    "flags": [ "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_PROOF", "CLIMATE_CONTROL", "STURDY" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_inner_suite"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ]
-    }
-  },{
+    "flags": [
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "SKINTIGHT",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "RAD_PROOF",
+      "CLIMATE_CONTROL",
+      "STURDY"
+    ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_inner_suite" },
+    "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ] }
+  },
+  {
     "id": "cbma_enhanced_armor_ups",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -610,16 +648,28 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID", "NO_UNLOAD", "USE_UPS", "NO_RELOAD" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "USE_UPS",
+      "NO_RELOAD"
+    ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_armor_ups_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_armor_ups_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_enhanced_armor_ups_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -643,16 +693,22 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_armor_ups",
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID", "NO_UNLOAD", "USE_UPS", "NO_RELOAD" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_armor_ups"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_STR_UP" ]
-    }
-  },{
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "USE_UPS",
+      "NO_RELOAD"
+    ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_armor_ups" },
+    "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] }
+  },
+  {
     "id": "cbma_enhanced_helmet_ups",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -678,17 +734,31 @@
     "material_thickness": 6,
     "environmental_protection": 24,
     "techniques": [ "WBLOCK_1" ],
-    "qualities" : [ [ "GLARE", 2 ] ],
+    "qualities": [ [ "GLARE", 2 ] ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_helmet_ups_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_helmet_ups_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "RAINPROOF", "OVERSIZE", "SUN_GLASSES", "GAS_PROOF", "TRADER_AVOID", "NO_UNLOAD", "USE_UPS", "NO_RELOAD" ]
-  },{
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "RAINPROOF",
+      "OVERSIZE",
+      "SUN_GLASSES",
+      "GAS_PROOF",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "USE_UPS",
+      "NO_RELOAD"
+    ]
+  },
+  {
     "id": "cbma_enhanced_helmet_ups_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -714,17 +784,29 @@
     "environmental_protection": 24,
     "revert_to": "cbma_enhanced_helmet_ups",
     "techniques": [ "WBLOCK_1" ],
-    "qualities" : [ [ "GLARE", 2 ] ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_helmet_ups"
-    },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "RAINPROOF", "OVERSIZE", "SUN_GLASSES", "PARTIAL_DEAF", "REBREATHER", "SWIM_GOGGLES", "FLASH_PROTECTION", "GAS_PROOF", "TRADER_AVOID", "NO_UNLOAD", "USE_UPS", "NO_RELOAD" ],
-    "artifact_data" : {
-        "effects_worn": [ "AEP_PER_UP" ]
-    }
-  },{
+    "qualities": [ [ "GLARE", 2 ] ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_helmet_ups" },
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "RAINPROOF",
+      "OVERSIZE",
+      "SUN_GLASSES",
+      "PARTIAL_DEAF",
+      "REBREATHER",
+      "SWIM_GOGGLES",
+      "FLASH_PROTECTION",
+      "GAS_PROOF",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "USE_UPS",
+      "NO_RELOAD"
+    ],
+    "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
+  },
+  {
     "id": "cbma_enhanced_gloves_ups",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -749,15 +831,16 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_gloves_ups_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_gloves_ups_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     },
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_gloves_ups_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -781,13 +864,10 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_gloves_ups",
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_gloves_ups"
-    },
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_gloves_ups" },
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
-  },{
+  },
+  {
     "id": "cbma_enhanced_boots_ups",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -814,14 +894,15 @@
     "environmental_protection": 15,
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_boots_ups_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_boots_ups_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_enhanced_boots_ups_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -847,15 +928,10 @@
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_boots_ups",
     "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_boots_ups"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_DEX_UP" ]
-    }
-  },{
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_boots_ups" },
+    "artifact_data": { "effects_worn": [ "AEP_DEX_UP" ] }
+  },
+  {
     "id": "cbma_enhanced_duster_ups",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -880,16 +956,32 @@
     "warmth": 0,
     "material_thickness": 5,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "HOOD",
+      "COLLAR",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "OUTER",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD"
+    ],
     "use_action": {
-        "type": "transform",
-        "msg": "You activate your %s.",
-        "target": "cbma_enhanced_duster_ups_on",
-        "active": true,
-        "need_charges": 1,
-        "need_charges_msg": "The system started for a moment... and then went silent."
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "cbma_enhanced_duster_ups_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The system started for a moment... and then went silent."
     }
-  },{
+  },
+  {
     "id": "cbma_enhanced_duster_ups_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -914,16 +1006,26 @@
     "material_thickness": 5,
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_duster_ups",
-    "flags": [ "VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_enhanced_duster_ups"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_RESIST_ELECTRICITY" ]
-    }
-  },{
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "HOOD",
+      "COLLAR",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "OUTER",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD"
+    ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_duster_ups" },
+    "artifact_data": { "effects_worn": [ "AEP_RESIST_ELECTRICITY" ] }
+  },
+  {
     "id": "cbma_inner_suite_ups",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -947,7 +1049,17 @@
     "storage": 0,
     "warmth": 0,
     "material_thickness": 1,
-    "flags": [ "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_RESIST", "USE_UPS", "NO_RELOAD" ],
+    "flags": [
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "SKINTIGHT",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "RAD_RESIST",
+      "USE_UPS",
+      "NO_RELOAD"
+    ],
     "use_action": [
       {
         "type": "transform",
@@ -958,7 +1070,8 @@
         "need_charges_msg": "The system started for a moment... and then went silent."
       }
     ]
-  },{
+  },
+  {
     "id": "cbma_inner_suite_ups_on",
     "type": "TOOL_ARMOR",
     "category": "armor",
@@ -983,14 +1096,20 @@
     "material_thickness": 1,
     "environmental_protection": 20,
     "revert_to": "cbma_inner_suite_ups",
-    "flags": [ "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_PROOF", "CLIMATE_CONTROL", "USE_UPS", "NO_RELOAD", "STURDY" ],
-    "use_action": {
-        "type": "transform",
-        "msg": "Your %s deactivates.",
-        "target": "cbma_inner_suite_ups"
-    },
-    "artifact_data" : {
-        "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ]
-    }
+    "flags": [
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "SKINTIGHT",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "RAD_PROOF",
+      "CLIMATE_CONTROL",
+      "USE_UPS",
+      "NO_RELOAD",
+      "STURDY"
+    ],
+    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_inner_suite_ups" },
+    "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ] }
   }
 ]

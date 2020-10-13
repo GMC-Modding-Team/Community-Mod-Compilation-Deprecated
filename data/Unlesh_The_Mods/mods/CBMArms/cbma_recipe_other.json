@@ -8,11 +8,9 @@
     "difficulty": 5,
     "autolearn": true,
     "time": 50000,
-    "reversible" : true,
+    "reversible": true,
     "using": [ [ "welding_standard", 10 ] ],
-    "components": [ 
-      [ [ "alloy_sheet", 4 ] ]
-    ]
+    "components": [ [ [ "alloy_sheet", 4 ] ] ]
   },
   {
     "result": "cbma_myomer_repair_tool",
@@ -23,14 +21,9 @@
     "difficulty": 5,
     "autolearn": true,
     "time": 90000,
-    "reversible" : true,
+    "reversible": true,
     "using": [ [ "welding_standard", 10 ] ],
-    "components": [ 
-      [ [ "scalpel", 1 ] ],
-      [ [ "tailors_kit", 1 ] ],
-      [ [ "soldering_iron", 1 ] ],
-      [ [ "welder", 1 ] ]
-    ]
+    "components": [ [ [ "scalpel", 1 ] ], [ [ "tailors_kit", 1 ] ], [ [ "soldering_iron", 1 ] ], [ [ "welder", 1 ] ] ]
   },
   {
     "result": "cbma_myomer_fiber_dupe",
@@ -43,12 +36,8 @@
     "book_learn": [ [ "recipe_mil_augs", 6 ] ],
     "time": 20000,
     "autolearn": true,
-    "byproducts": [
-      [ "cbma_myomer_fiber", 1 ]
-    ],
-    "tools": [
-      [ [ "food_processor", 50 ] ]
-    ],
+    "byproducts": [ [ "cbma_myomer_fiber", 1 ] ],
+    "tools": [ [ [ "food_processor", 50 ] ] ],
     "components": [
       [ [ "cbma_myomer_fiber", 1 ] ],
       [ [ "meat", 2 ] ],
@@ -56,4 +45,5 @@
       [ [ "flask_glass", 1 ] ],
       [ [ "water_clean", 1 ] ]
     ]
-  }]
+  }
+]

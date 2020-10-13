@@ -1,4 +1,4 @@
- [
+[
   {
     "id": "ggp",
     "type": "AMMO",
@@ -20,12 +20,12 @@
     "damage": 50,
     "dispersion": 30,
     "recoil": 250,
-    "effects": [ "EXPLOSIVE"]
-    },
-    {
+    "effects": [ "EXPLOSIVE" ]
+  },
+  {
     "id": "gs",
     "copy-from": "ggp",
-     "type": "AMMO",
+    "type": "AMMO",
     "name": "Gewehr-Sprenggranate",
     "description": "The Gewehr-Sprenggranate is launched from a Schiessbecher. It is similar to the Gross Gewehr-Panzergranate in design but it is smaller, has more explosive force and has little to no piercing capabilitie due to the tip being blunt.",
     "weight": "260 g",
@@ -44,9 +44,9 @@
     "damage": 30,
     "dispersion": 30,
     "recoil": 250,
-    "effects": [ "EXPLOSIVE"]
-    },
-    {
+    "effects": [ "EXPLOSIVE" ]
+  },
+  {
     "type": "GENERIC",
     "id": "gewehr_casing",
     "copy-from": "casing",
@@ -55,5 +55,5 @@
     "material": "steel",
     "volume": "120 ml",
     "weight": "200 g"
-    }
-    ]
+  }
+]

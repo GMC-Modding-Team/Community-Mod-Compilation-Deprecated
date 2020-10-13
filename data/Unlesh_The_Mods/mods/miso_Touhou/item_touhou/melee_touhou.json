@@ -313,7 +313,7 @@
     "color": "light_gray",
     "techniques": [ "RAPID", "WBLOCK_1", "WBLOCK_2", "DEF_DISARM" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 13 ] ],
-	"looks_like": "halberd",
+    "looks_like": "halberd",
     "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_SWORD" ]
   },
   {
@@ -527,13 +527,7 @@
     "turns_per_charge": 150,
     "revert_to": "dowsing_rod",
     "artifact_data": { "charge_type": "ARTC_TIME", "effects_carried": [ "AEP_SPEED_DOWN", "AEP_CLAIRVOYANCE" ] },
-    "use_action": {
-      "type": "transform",
-      "target": "dowsing_rod",
-      "msg": "You stopped dowsing.",
-      "active": false,
-      "need_charges": 0
-    }
+    "use_action": { "type": "transform", "target": "dowsing_rod", "msg": "You stopped dowsing.", "active": false, "need_charges": 0 }
   },
   {
     "id": "t_rinnosuke_shovel",

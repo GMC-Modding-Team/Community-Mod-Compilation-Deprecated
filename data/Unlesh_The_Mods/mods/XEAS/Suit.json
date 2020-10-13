@@ -33,8 +33,14 @@
     "skills_required": [ "fabrication", 8 ],
     "time": "12 h",
     "book_learn": [ [ "recipe_maiar", 7 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 2 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 },  { "id": "GLARE", "level": 3 }, { "id": "ANVIL", "level": 3 } ],
-	"using": [ [ "adhesive", 1 ], [ "sewing_standard", 400 ] ],
+    "qualities": [
+      { "id": "SAW_M", "level": 2 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "GLARE", "level": 3 },
+      { "id": "ANVIL", "level": 3 }
+    ],
+    "using": [ [ "adhesive", 1 ], [ "sewing_standard", 400 ] ],
     "tools": [
       [
         [ "oxy_torch", 20 ],
@@ -46,12 +52,12 @@
       ]
     ],
     "components": [
-	  [ [ "alloy_sheet", 8 ] ],
+      [ [ "alloy_sheet", 8 ] ],
       [ [ "nomex", 50 ] ],
-	  [ [ "rag", 50 ] ],	  	  
+      [ [ "rag", 50 ] ],
       [ [ "slime_scrap", 130 ] ],
       [ [ "acidchitin_piece", 200 ] ],
-	  [ [ "iv_mutagen_insect", 1 ] ]
-    ] 
+      [ [ "iv_mutagen_insect", 1 ] ]
+    ]
   }
 ]

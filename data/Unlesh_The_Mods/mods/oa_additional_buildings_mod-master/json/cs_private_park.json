@@ -1,8 +1,8 @@
 [
   {
-  "type": "mapgen",
+    "type": "mapgen",
     "method": "json",
-    "om_terrain": ["cs_private_park"],
+    "om_terrain": [ "cs_private_park" ],
     "weight": 1000,
     "object": {
       "rows": [
@@ -48,7 +48,6 @@
         "W": "t_brick_wall",
         "X": "t_chaingate_l",
         "Y": "t_tree_young",
-
         "~": "t_grass",
         "@": "t_grass",
         "d": "t_grass",
@@ -56,7 +55,6 @@
         "o": "t_grass",
         "p": "t_grass",
         "s": "t_grass",
-
         "1": "t_floor",
         "2": "t_floor",
         "a": "t_floor",
@@ -75,7 +73,6 @@
         "o": "f_datura",
         "p": "f_mutpoppy",
         "s": "f_bulletin",
-
         "1": "f_desk",
         "2": "f_chair",
         "a": "f_sink",
@@ -86,32 +83,25 @@
         "L": "f_locker",
         "S": "f_woodstove"
       },
-      "toilets": {
-        "t": {}
-      },
-      "place_vehicles": [
-        {"vehicle": "bicycle", "x": 3, "y": 2, "rotation":0, "chance": 50}
-      ],
+      "toilets": { "t": {  } },
+      "place_vehicles": [ { "vehicle": "bicycle", "x": 3, "y": 2, "rotation": 0, "chance": 50 } ],
       "place_items": [
-        {"item": "trash_forest", "chance": 50, "x": [17,19], "y": [19,21]},
-        {"item": "trash", "chance": 50, "x": [4,5], "y": [8,11]},
-        {"item": "trash", "chance": 50, "x": [6,15], "y": [10,15]},
-        {"item": "trash_forest", "chance": 50, "x": [17,19], "y": [19,21]},
-        {"item": "trash", "chance": 50, "x": [4,5], "y": [8,11]},
-        {"item": "trash", "chance": 50, "x": [6,15], "y": [10,15]},
-        
-        {"item": "trash_forest", "chance": 50, "x": 9, "y": 21},
-        {"item": "trash_forest", "chance": 50, "x": 10, "y": 21},
-        {"item": "trash", "chance": 50, "x": 9, "y": 21},
-        {"item": "trash", "chance": 50, "x": 10, "y": 21},
-        {"item": "trash_forest", "chance": 50, "x": 9, "y": 21},
-        {"item": "trash_forest", "chance": 50, "x": 10, "y": 21},
-        {"item": "trash", "chance": 50, "x": 10, "y": 21},
-        {"item": "trash", "chance": 50, "x": 11, "y": 21}
+        { "item": "trash_forest", "chance": 50, "x": [ 17, 19 ], "y": [ 19, 21 ] },
+        { "item": "trash", "chance": 50, "x": [ 4, 5 ], "y": [ 8, 11 ] },
+        { "item": "trash", "chance": 50, "x": [ 6, 15 ], "y": [ 10, 15 ] },
+        { "item": "trash_forest", "chance": 50, "x": [ 17, 19 ], "y": [ 19, 21 ] },
+        { "item": "trash", "chance": 50, "x": [ 4, 5 ], "y": [ 8, 11 ] },
+        { "item": "trash", "chance": 50, "x": [ 6, 15 ], "y": [ 10, 15 ] },
+        { "item": "trash_forest", "chance": 50, "x": 9, "y": 21 },
+        { "item": "trash_forest", "chance": 50, "x": 10, "y": 21 },
+        { "item": "trash", "chance": 50, "x": 9, "y": 21 },
+        { "item": "trash", "chance": 50, "x": 10, "y": 21 },
+        { "item": "trash_forest", "chance": 50, "x": 9, "y": 21 },
+        { "item": "trash_forest", "chance": 50, "x": 10, "y": 21 },
+        { "item": "trash", "chance": 50, "x": 10, "y": 21 },
+        { "item": "trash", "chance": 50, "x": 11, "y": 21 }
       ],
-      "place_signs": [
-        {"signage": "Private Property: No Trespassing", "x": 8, "y": 0}
-      ]
+      "place_signs": [ { "signage": "Private Property: No Trespassing", "x": 8, "y": 0 } ]
     }
   }
 ]

@@ -8,9 +8,7 @@
     "effect": "target_attack",
     "valid_targets": [ "ally", "hostile" ],
     "flags": [ "SILENT", "SOMATIC", "NO_HANDS" ],
-    "extra_effects": [
-      { "id": "arcana_aftermath_destructive_absorption_side_effects", "hit_self": true, "max_level": 5 }
-    ],
+    "extra_effects": [ { "id": "arcana_aftermath_destructive_absorption_side_effects", "hit_self": true, "max_level": 5 } ],
     "min_damage": 70,
     "max_damage": 360,
     "damage_increment": 58,
@@ -66,7 +64,10 @@
     "message": "With a gesture, your inner fire flares up.  %s!",
     "valid_targets": [ "self" ],
     "flags": [ "SOMATIC", "NO_HANDS" ],
-    "extra_effects": [ { "id": "arcana_aftermath_elemental_coldness", "hit_self": false, "max_level": 5 }, { "id": "arcana_aftermath_elemental_stun", "hit_self": false, "max_level": 5 } ],
+    "extra_effects": [
+      { "id": "arcana_aftermath_elemental_coldness", "hit_self": false, "max_level": 5 },
+      { "id": "arcana_aftermath_elemental_stun", "hit_self": false, "max_level": 5 }
+    ],
     "effect": "target_attack",
     "effect_str": "heat_ward_true",
     "energy_source": "HP",
@@ -138,9 +139,7 @@
     "effect": "mod_moves",
     "valid_targets": [ "hostile" ],
     "flags": [ "SILENT", "SOMATIC", "NO_HANDS" ],
-    "extra_effects": [
-      { "id": "arcana_aftermath_malevolent_gaze_slowdown", "hit_self": false, "max_level": 5 }
-    ],
+    "extra_effects": [ { "id": "arcana_aftermath_malevolent_gaze_slowdown", "hit_self": false, "max_level": 5 } ],
     "min_damage": -1500,
     "max_damage": -3000,
     "damage_increment": -300,

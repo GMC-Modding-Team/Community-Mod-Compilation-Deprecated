@@ -86,12 +86,7 @@
     "vision_night": 5,
     "luminance": 0,
     "special_attacks": [ [ "SMASH", 10 ] ],
-    "death_drops": {
-      "groups": [
-        [ "robots", 4 ],
-        [ "secubot", 1 ]
-      ]
-    },
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "secubot", 1 ] ] },
     "death_function": [ "EXPLODE" ],
     "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE", "NIGHT_INVISIBILITY" ],
     "//": "cool down 10."

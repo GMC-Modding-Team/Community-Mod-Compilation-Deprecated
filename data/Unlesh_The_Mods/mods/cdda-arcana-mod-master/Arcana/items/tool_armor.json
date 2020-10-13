@@ -91,9 +91,7 @@
       { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 80 },
       { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 80 }
     ],
-    "use_action": [
-      { "type": "cast_spell", "spell_id": "arcana_item_wyrmskin_acid", "no_fail": true, "level": 0, "need_worn": true }
-    ],
+    "use_action": [ { "type": "cast_spell", "spell_id": "arcana_item_wyrmskin_acid", "no_fail": true, "level": 0, "need_worn": true } ],
     "relative": { "weight": "722 g", "volume": "1500 ml", "price": 80000 },
     "extend": { "flags": [ "OVERSIZE", "NO_SALVAGE", "ALLOWS_NATURAL_ATTACKS", "FANCY" ] },
     "delete": { "flags": [ "VARSIZE" ] }
@@ -228,7 +226,13 @@
         "menu_text": "Project barrier",
         "type": "transform"
       },
-      { "type": "cast_spell", "spell_id": "arcana_item_jade_hauberk_healing", "no_fail": true, "level": 0, "need_worn": true }
+      {
+        "type": "cast_spell",
+        "spell_id": "arcana_item_jade_hauberk_healing",
+        "no_fail": true,
+        "level": 0,
+        "need_worn": true
+      }
     ],
     "relative": { "weight": 3020, "price": 55000, "material_thickness": 1 },
     "extend": { "flags": [ "NO_SALVAGE", "USE_PLAYER_ENERGY", "ELECTRIC_IMMUNE", "RAINPROOF" ] }
@@ -243,13 +247,11 @@
     "environmental_protection": 10,
     "turns_per_charge": 10,
     "revert_to": "hauberk_jade",
-    "use_action": {
-      "target": "hauberk_jade",
-      "msg": "The glow emanating from your jade hauberk fades.",
-      "type": "transform"
-    },
+    "use_action": { "target": "hauberk_jade", "msg": "The glow emanating from your jade hauberk fades.", "type": "transform" },
     "qualities": [ [ "GLARE", 1 ] ],
-    "extend": { "flags": [ "GAS_PROOF", "RAD_PROOF", "SUN_GLASSES", "BULLET_IMMUNE", "STAB_IMMUNE", "HEAT_IMMUNE", "CLIMATE_CONTROL" ] }
+    "extend": {
+      "flags": [ "GAS_PROOF", "RAD_PROOF", "SUN_GLASSES", "BULLET_IMMUNE", "STAB_IMMUNE", "HEAT_IMMUNE", "CLIMATE_CONTROL" ]
+    }
   },
   {
     "id": "jade_wreath",
