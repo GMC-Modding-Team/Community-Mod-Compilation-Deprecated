@@ -1,6 +1,6 @@
 [
   {
-    "id": "robogun_base",
+    "abstract": "robogun_base",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "base robogun" },
@@ -13,7 +13,6 @@
     "volume": "2500 ml",
     "price": 0,
     "durability": 10,
-    "reload": 100,
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
   },
   {
