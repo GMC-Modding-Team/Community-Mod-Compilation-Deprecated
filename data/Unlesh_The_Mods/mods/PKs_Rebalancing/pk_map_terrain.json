@@ -25,7 +25,7 @@
     "symbol": "Q",
     "color": "brown",
     "move_cost": 10,
-    "flags": [ "INDOORS", "REDUCE_SCENT", "CONTAINER", "FLAMMABLE_ASH", "TINY", "MOUNTABLE", "DIGGABLE" ],
+    "flags": [ "TRANSPARENT", "INDOORS", "REDUCE_SCENT", "CONTAINER", "FLAMMABLE_ASH", "TINY", "MOUNTABLE", "DIGGABLE" ],
     "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -36,7 +36,7 @@
     "symbol": "~",
     "color": "light_green",
     "move_cost": 6,
-    "flags": [ "SWIMMABLE", "LIQUID", "FISHABLE", "REDUCE_SCENT" ],
+    "flags": [ "TRANSPARENT", "SWIMMABLE", "LIQUID", "FISHABLE", "REDUCE_SCENT" ],
     "examine_action": "water_source"
   },
   {
@@ -47,7 +47,7 @@
     "symbol": "#",
     "color": "light_gray",
     "move_cost": 3,
-    "flags": [ "NOITEM", "MOUNTABLE", "SHORT", "THINOBSTACLE", "ROAD" ],
+    "flags": [ "TRANSPARENT", "NOITEM", "MOUNTABLE", "SHORT", "THINOBSTACLE", "ROAD" ],
     "bash": {
       "str_min": 8,
       "str_max": 150,
@@ -66,7 +66,7 @@
     "symbol": "\"",
     "color": "light_gray",
     "move_cost": 0,
-    "flags": [ "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
+    "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
     "bash": {
       "str_min": 60,
       "str_max": 250,
@@ -89,7 +89,7 @@
     "symbol": "+",
     "color": "cyan",
     "move_cost": 0,
-    "flags": [ "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
+    "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
     "open": "t_door_bar_o",
     "close": "t_door_bar_locked",
     "bash": {
@@ -115,7 +115,7 @@
     "symbol": "'",
     "color": "cyan",
     "move_cost": 2,
-    "flags": [ "FLAT", "CONNECT_TO_WALL", "ROAD" ],
+    "flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
     "close": "t_door_bar_c",
     "bash": {
       "str_min": 20,
@@ -141,7 +141,7 @@
     "symbol": "+",
     "color": "cyan",
     "move_cost": 0,
-    "flags": [ "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
+    "flags": [ "TRANSPARENT", "NOITEM", "PERMEABLE", "CONNECT_TO_WALL" ],
     "bash": {
       "str_min": 30,
       "str_max": 210,
@@ -165,7 +165,17 @@
     "symbol": "LINE_OXOX",
     "color": "dark_gray",
     "move_cost": 0,
-    "flags": [ "NOITEM", "THIN_OBSTACLE", "SUPPORTS_ROOF", "PERMEABLE", "UNSTABLE", "CLIMBABLE", "AUTO_WALL_SYMBOL", "SHARP" ],
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "THIN_OBSTACLE",
+      "SUPPORTS_ROOF",
+      "PERMEABLE",
+      "UNSTABLE",
+      "CLIMBABLE",
+      "AUTO_WALL_SYMBOL",
+      "SHARP"
+    ],
     "connects_to": "CHAINFENCE",
     "examine_action": "chainfence",
     "bash": {
@@ -185,7 +195,7 @@
     "symbol": "=",
     "color": "dark_gray",
     "move_cost": 0,
-    "flags": [ "DOOR", "PERMEABLE" ],
+    "flags": [ "TRANSPARENT", "DOOR", "PERMEABLE" ],
     "connects_to": "CHAINFENCE",
     "open": "t_iron_gate_o",
     "bash": {
@@ -207,7 +217,7 @@
     "symbol": ".",
     "color": "dark_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD" ],
     "connects_to": "CHAINFENCE",
     "close": "t_iron_gate_c",
     "bash": {
@@ -227,7 +237,7 @@
     "symbol": "=",
     "color": "dark_gray",
     "move_cost": 0,
-    "flags": [ "PERMEABLE" ],
+    "flags": [ "TRANSPARENT", "PERMEABLE" ],
     "connects_to": "CHAINFENCE",
     "bash": {
       "str_min": 90,
@@ -252,7 +262,7 @@
     "symbol": "#",
     "color": "light_gray",
     "move_cost": 3,
-    "flags": [ "PERMEABLE", "THIN_OBSTACLE", "UNSTABLE", "ROUGH", "SHORT" ],
+    "flags": [ "TRANSPARENT", "PERMEABLE", "THIN_OBSTACLE", "UNSTABLE", "ROUGH", "SHORT" ],
     "bash": {
       "str_min": 70,
       "str_max": 140,
@@ -292,7 +302,7 @@
     "color": "white",
     "move_cost": 0,
     "roof": "t_paper_floor",
-    "flags": [ "PERMEABLE", "FLAMMABLE_ASH" ],
+    "flags": [ "TRANSPARENT", "PERMEABLE", "FLAMMABLE_ASH" ],
     "bash": {
       "str_min": 4,
       "str_max": 12,
@@ -312,7 +322,7 @@
     "symbol": "~",
     "color": "dark_gray",
     "move_cost": 8,
-    "flags": [ "CONTAINER", "PLACE_ITEM", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM", "SWIMMABLE" ]
   },
   {
     "type": "terrain",
@@ -322,6 +332,6 @@
     "symbol": "~",
     "color": "light_gray",
     "move_cost": 6,
-    "flags": [ "CONTAINER", "FLAMMABLE_HARD", "PLACE_ITEM", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_HARD", "PLACE_ITEM", "SWIMMABLE" ]
   }
 ]

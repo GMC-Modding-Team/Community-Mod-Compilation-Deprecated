@@ -7,7 +7,7 @@
     "symbol": ".",
     "color": "brown",
     "move_cost": 2,
-    "flags": [ "DIGGABLE", "FLAT", "PLOWABLE" ],
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
     "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -18,7 +18,7 @@
     "symbol": ".",
     "color": "brown",
     "move_cost": 2,
-    "flags": [ "DIGGABLE", "FLAT", "PLOWABLE" ],
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
     "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -29,7 +29,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -40,7 +40,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -51,7 +51,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -62,7 +62,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -73,7 +73,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -84,7 +84,7 @@
     "symbol": ".",
     "color": "light_gray",
     "move_cost": 2,
-    "flags": [ "FLAT", "ROAD", "MINEABLE" ],
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
     "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
   },
   {
@@ -96,7 +96,7 @@
     "color": "light_gray",
     "move_cost": 0,
     "coverage": 60,
-    "flags": [ "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
+    "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
     "examine_action": "chainfence",
     "connects_to": "WALL",
     "bash": {
@@ -117,7 +117,7 @@
     "color": "light_gray",
     "move_cost": 0,
     "coverage": 60,
-    "flags": [ "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
+    "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
     "examine_action": "chainfence",
     "connects_to": "WALL",
     "bash": {
@@ -138,7 +138,7 @@
     "color": "light_gray",
     "move_cost": 0,
     "coverage": 60,
-    "flags": [ "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
+    "flags": [ "TRANSPARENT", "REDUCE_SCENT", "MINEABLE", "CLIMBABLE", "WALL", "CLIMB_SIMPLE", "MOUNTABLE" ],
     "examine_action": "chainfence",
     "connects_to": "WALL",
     "bash": {

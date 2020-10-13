@@ -57,7 +57,7 @@
     "symbol": ".",
     "color": "brown",
     "move_cost": 2,
-    "flags": [ "DIGGABLE", "FLAT" ],
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
     "looks_like": "t_dirt",
     "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
   },
@@ -72,7 +72,7 @@
     "color": "light_cyan",
     "move_cost": 0,
     "roof": "t_flat_roof",
-    "flags": [ "ALARMED", "NOITEM", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
+    "flags": [ "TRANSPARENT", "ALARMED", "NOITEM", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
     "bash": {
       "str_min": 200,
       "str_max": 600,
@@ -94,7 +94,7 @@
     "move_cost": 2,
     "light_emitted": 90,
     "roof": "t_flat_roof",
-    "flags": [ "SUPPORTS_ROOF", "INDOORS", "FLAT", "ROAD" ],
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT", "ROAD" ],
     "bash": {
       "str_min": 4,
       "str_max": 12,

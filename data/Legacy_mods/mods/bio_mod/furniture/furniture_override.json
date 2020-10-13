@@ -9,7 +9,7 @@
     "looks_like": "f_robotic_arm",
     "move_cost_mod": -1,
     "required_str": -1,
-    "flags": [ "AUTODOC" ],
+    "flags": [ "TRANSPARENT", "AUTODOC" ],
     "examine_action": "autodoc",
     "deconstruct": {
       "items": [
@@ -55,7 +55,7 @@
     "bgcolor": "yellow",
     "move_cost_mod": 3,
     "required_str": 18,
-    "flags": [ "MOUNTABLE" ],
+    "flags": [ "TRANSPARENT", "MOUNTABLE" ],
     "deconstruct": {
       "items": [
         { "item": "processor", "prob": 75 },

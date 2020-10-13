@@ -11,7 +11,7 @@
       "ter_set": "t_water_dp",
       "items": [ { "item": "rope_makeshift_6", "count": [ 3, 4 ] }, { "item": "2x4", "count": 8 } ]
     },
-    "flags": [ "FLAT", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "FLAT", "SWIMMABLE" ]
   },
   {
     "id": "t_pavement_bg_dp",
@@ -29,7 +29,7 @@
       "sound_fail": "whump!",
       "items": [ { "item": "rock", "count": [ 4, 20 ] }, { "item": "rebar", "count": [ 10, 20 ] } ]
     },
-    "flags": [ "FLAT", "ROAD", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "SWIMMABLE" ]
   },
   {
     "id": "t_pavement_y_bg_dp",
@@ -47,7 +47,7 @@
       "sound_fail": "whump!",
       "items": [ { "item": "rock", "count": [ 4, 20 ] }, { "item": "rebar", "count": [ 10, 20 ] } ]
     },
-    "flags": [ "FLAT", "ROAD", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "SWIMMABLE" ]
   },
   {
     "id": "t_sidewalk_bg_dp",
@@ -65,7 +65,7 @@
       "sound_fail": "whump!",
       "items": [ { "item": "rock", "count": [ 4, 20 ] }, { "item": "rebar", "count": [ 10, 20 ] } ]
     },
-    "flags": [ "FLAT", "ROAD", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "SWIMMABLE" ]
   },
   {
     "id": "t_guardrail_bg_dp",
@@ -83,7 +83,7 @@
       "sound_fail": "clang!",
       "items": [ { "item": "scrap", "count": [ 3, 6 ] } ]
     },
-    "flags": [ "NOITEM", "REDUCE_SCENT", "MOUNTABLE", "SHORT", "THIN_OBSTACLE", "ROAD", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "NOITEM", "REDUCE_SCENT", "MOUNTABLE", "SHORT", "THIN_OBSTACLE", "ROAD", "SWIMMABLE" ]
   },
   {
     "id": "t_dock",
@@ -102,6 +102,6 @@
       "items": [ { "item": "2x4", "prob": 25, "count": 2 }, { "item": "splinter", "count": [ 2, 4 ] } ]
     },
     "deconstruct": { "ter_set": "t_water_sh", "items": [ { "item": "nail", "charges": [ 6, 12 ] }, { "item": "2x4", "count": 8 } ] },
-    "flags": [ "FLAT", "SWIMMABLE" ]
+    "flags": [ "TRANSPARENT", "FLAT", "SWIMMABLE" ]
   }
 ]
