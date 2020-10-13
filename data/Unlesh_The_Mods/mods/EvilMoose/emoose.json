@@ -91,20 +91,7 @@
     "special_attacks": [ [ "RESURRECT", 4 ], [ "SHOCKSTORM", 25 ], [ "ACID", 20 ] ],
     "special_when_hit": [ "ZAPBACK", 100 ],
     "description": "One of the Great Lord's generals. Is it a mage moose, a soldier moose? You don't really know. But it looks colosally dangerous.",
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "WARM",
-      "FUR",
-
-      "BONES",
-      "FAT",
-      "HIT_AND_RUN",
-      "ACIDPROOF",
-      "ELECTRIC"
-    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "WARM", "FUR", "BONES", "FAT", "HIT_AND_RUN", "ACIDPROOF", "ELECTRIC" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "categories": [ "EVILMOOSE" ]
