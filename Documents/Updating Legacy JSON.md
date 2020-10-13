@@ -29,6 +29,8 @@ Use the `home` key to get to the top.
 - [Weight](#weight)
 - [Effect](#effect)
 - [Shape](#shape)
+- [Construction group](#Construction-group)
+  + [Group](#group)
 
 # Introduction
 Welcome to Updating Legacy JSON.md. This document aims to guide you through the process of replacing obsolete code with modern JSON.
@@ -289,7 +291,7 @@ This is more complicated **needs updating**
 ```
 
 # Volume
-The current JSON standards for the `key` `volume` look like this:
+The current JSON standards for the `key` `"volume"` look like this:
 ```JSON
 "volume": "250 ml"
 ```
@@ -316,7 +318,7 @@ Note: There is, in [JSON tools](https://github.com/CleverRaven/Cataclysm-DDA/tre
 
 
 # Weight
-The current JSON standards for `key` `weight` look like this:
+The current JSON standards for `key` `"weight"` look like this:
 ```JSON
 "weight": "100 g"
 ```
@@ -339,7 +341,7 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 
 # Effect
-The current JSON standards for `key` `effect` look like this: **needs updating**
+The current JSON standards for `key` `"effect"` look like this: **needs updating**
 ```JSON
 "effect": "attack"
 ```
@@ -361,8 +363,9 @@ if you want to do this quickly with regex use the following example
 "effect": "attack",
 ```
 
+
 # Shape
-The current JSON standards for `key` `shape` look like this: **needs updating**
+The current JSON standards for `key` `"shape"` look like this: **needs updating**
 ```JSON
 "shape": "blast"
 ```
@@ -371,4 +374,21 @@ all shapes -
 "line"
 "cone"
 "blast"
+```
+
+
+# Construction group
+The current JSON standards for `type` `"construction_group"` look like this:
+```Json
+"type": "construction_group",
+"id": "Example",
+"name": "Remove Example"
+```
+
+## "group"
+The current JSON standards for `key` `"group"` look like this:
+```JSON
+"type": "construction",
+"id": "constr_example",
+"group": "Example",
 ```
