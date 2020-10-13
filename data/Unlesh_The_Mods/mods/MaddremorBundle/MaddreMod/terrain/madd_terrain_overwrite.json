@@ -8,7 +8,7 @@
     "color": "green",
     "move_cost": 0,
     "max_volume": 8000,
-    "flags": [ "REDUCE_SCENT", "PERMEABLE" ],
+    "flags": [ "TRANSPARENT", "REDUCE_SCENT", "PERMEABLE" ],
     "examine_action": "recycle_compactor",
     "deconstruct": { "ter_set": "t_rock_floor", "items": [ { "item": "madd_recycler", "count": 1 } ] },
     "bash": {

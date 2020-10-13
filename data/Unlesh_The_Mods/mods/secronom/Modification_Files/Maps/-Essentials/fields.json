@@ -24,7 +24,7 @@
       },
       {
         "color": "light_red",
-        
+        "transparent": false,
         "monster_spawn_chance": 10,
         "monster_spawn_count": 3,
         "monster_spawn_radius": 4,
@@ -106,7 +106,7 @@
       { "translucency": 2, "name": "vector haze" },
       {
         "name": "thick vector haze",
-
+        "transparent": false,
         "color": "light_blue",
         "light_emitted": 2,
         "translucency": 3,
@@ -135,7 +135,7 @@
         "sym": "~",
         "color": "light_blue",
         "dangerous": true,
-
+        "transparent": false,
         "translucency": 5,
         "effects": [ { "effect_id": "vector_infect", "body_part": "torso", "min_duration": "15 seconds", "max_duration": "30 seconds" } ]
       },
@@ -422,7 +422,7 @@
       {
         "name": "neurotoxic gas",
         "color": "light_green",
-
+        "transparent": false,
         "translucency": 10,
         "effects": [
           { "effect_id": "secro_necros_para", "body_part": "torso", "min_duration": "6 seconds", "max_duration": "10 seconds" }
@@ -509,7 +509,7 @@
       },
       {
         "name": "thick flesh webs",
-
+        "transparent": false,
         "color": "red",
         "effects": [ { "effect_id": "secro_mawy_web", "body_part": "torso", "min_duration": "20 seconds", "max_duration": "40 seconds" } ]
       }
@@ -535,7 +535,7 @@
     "priority": -1,
     "half_life": "1 seconds",
     "phase": "gas",
-    "display_items"
+    "display_items": false,
     "display_field": false
   },
   {

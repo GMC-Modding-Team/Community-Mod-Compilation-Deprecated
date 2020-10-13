@@ -16,7 +16,7 @@
       "ter_set": "t_null",
       "items": [ { "item": "slime_scrap", "prob": 95, "count": [ 15, 23, 37, 43 ] } ]
     },
-    "flags": [ "NOITEM", "REDUCE_SCENT", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL" ]
+    "flags": [ "TRANSPARENT", "NOITEM", "REDUCE_SCENT", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL" ]
   },
   {
     "id": "t_gel_wall_half",
@@ -35,6 +35,6 @@
       "items": [ { "item": "slime_scrap", "prob": 95, "count": [ 12, 15, 23 ] } ]
     },
     "deconstruct": { "ter_set": "t_null", "items": [ { "item": "slime_scrap", "count": [ 30, 28, 15 ] } ] },
-    "flags": [ "NOITEM", "REDUCE_SCENT", "SUPPORTS_ROOF", "MOUNTABLE" ]
+    "flags": [ "TRANSPARENT", "NOITEM", "REDUCE_SCENT", "SUPPORTS_ROOF", "MOUNTABLE" ]
   }
 ]
