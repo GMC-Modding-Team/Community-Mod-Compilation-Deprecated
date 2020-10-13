@@ -385,7 +385,7 @@ The current JSON standards for `type` `"construction_group"` look like this:
 "name": "Remove Example"
 ```
 
-## "group"
+## group
 The current JSON standards for `key` `"group"` look like this:
 ```JSON
 "type": "construction",
