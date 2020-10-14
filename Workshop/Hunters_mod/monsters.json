@@ -2,7 +2,7 @@
   {
     "id": "debug_mon",
     "type": "MONSTER",
-    "name": "debug monster",
+    "name": { "str": "debug monster" },
     "description": "This monster exists only for testing purposes.",
     "default_faction": "",
     "species": [ "ZOMBIE" ],
@@ -23,7 +23,7 @@
   {
     "id": "mon_albino_penguin",
     "type": "MONSTER",
-    "name": "albino penguin",
+    "name": { "str": "albino penguin" },
     "description": "Eight-feet-tall ghastly white penguins.  Placid unless otherwise provoked.",
     "default_faction": "nether",
     "categories": [ "WILDLIFE" ],
@@ -67,7 +67,7 @@
   {
     "id": "mon_alpha_razorclaw",
     "type": "MONSTER",
-    "name": "alpha razorclaw",
+    "name": { "str": "alpha razorclaw" },
     "description": "A blood red, gigantic razorclaw.  Its sword like pincers serve as the keepers of the nest.",
     "default_faction": "razorclaw",
     "species": [ "MUTANT" ],
@@ -98,7 +98,7 @@
   {
     "id": "mon_ant",
     "type": "MONSTER",
-    "name": "giant ant",
+    "name": { "str": "giant ant" },
     "description": "An enormous red ant covered in chitinous plates.  It possesses a pair of wriggling antennae and vicious-looking mandibles.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -126,7 +126,7 @@
   {
     "id": "mon_ant_fungus",
     "type": "MONSTER",
-    "name": "fungal ant",
+    "name": { "str": "fungal ant" },
     "description": "Pale, sickly gray in color, this giant ant's cracked exoskeleton is barely held together by coils of fungus erupting from every joint in its body.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -155,7 +155,7 @@
   {
     "id": "mon_ant_larva",
     "type": "MONSTER",
-    "name": "ant larva",
+    "name": { "str": "ant larva" },
     "description": "A pulsating sausage of glistening white flesh, the size of a large cat.  On one end is a set of squirming mouth parts.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -177,7 +177,7 @@
   {
     "id": "mon_ant_queen",
     "type": "MONSTER",
-    "name": "queen ant",
+    "name": { "str": "queen ant" },
     "description": "A colossal red ant with a bulging, bloated thorax.  It moves slowly and deliberately, tending to nearby eggs and continually laying more.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -204,7 +204,7 @@
   {
     "id": "mon_ant_soldier",
     "type": "MONSTER",
-    "name": "soldier ant",
+    "name": { "str": "soldier ant" },
     "description": "A huge and hairy red ant almost twice the size of other giant ants.  Bulging pincers extend from its jaws.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -233,7 +233,7 @@
   {
     "id": "mon_bat",
     "type": "MONSTER",
-    "name": "bat",
+    "name": { "str": "bat" },
     "description": "One of the vesper bats, a family of winged insect-eating mammals.  It roosts in caves and other hollows, and uses a form of echolocation to aerially navigate through tricky terrain at rapid speeds.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -262,7 +262,7 @@
   {
     "id": "mon_bear",
     "type": "MONSTER",
-    "name": "bear",
+    "name": { "str": "bear" },
     "description": "The American black bear.  A large omnivorous scavenger, it has powerful claws and jaws, and is an effective ambush hunter.  It can pose a considerable threat, although most individuals are shy around humans.",
     "default_faction": "bear",
     "categories": [ "WILDLIFE" ],
@@ -307,7 +307,7 @@
   {
     "id": "mon_beaver",
     "type": "MONSTER",
-    "name": "beaver",
+    "name": { "str": "beaver" },
     "description": "The North American beaver, the continent's largest rodent.  Its paddle-shaped tail helps ferry it through the water, and its prominent teeth can chew through wood, which it uses to build dam-like nests in lakes and streams.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -332,7 +332,7 @@
   {
     "id": "mon_bee",
     "type": "MONSTER",
-    "name": "giant bee",
+    "name": { "str": "giant bee" },
     "description": "With a stinger the size of a kitchen knife, this dog-sized insect's black and yellow markings warn you to leave it undisturbed.",
     "default_faction": "bee",
     "species": [ "INSECT" ],
@@ -362,7 +362,7 @@
   {
     "id": "mon_beekeeper",
     "type": "MONSTER",
-    "name": "scarred zombie",
+    "name": { "str": "scarred zombie" },
     "description": "A deformed human body, its skin has been transformed into one thick, calloused envelope of scar tissue.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -406,7 +406,7 @@
   {
     "id": "mon_biollante",
     "type": "MONSTER",
-    "name": "biollante",
+    "name": { "str": "biollante" },
     "description": "A drooped, quivering plant with a thick stalk adorned by a purple flower.  Its petals are closed, and pulsate ominously.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -428,7 +428,7 @@
   {
     "id": "mon_black_rat",
     "type": "MONSTER",
-    "name": "black rat",
+    "name": { "str": "black rat" },
     "description": "The black rat, an omnivorous rodent with sheer black fur and a long, rough tail.  Harbinger of pestilence, famine, and mange, it will sometimes swarm over the dead or dying.",
     "default_faction": "rat",
     "categories": [ "WILDLIFE" ],
@@ -458,8 +458,7 @@
   {
     "id": "mon_blank",
     "type": "MONSTER",
-    "name": "blank body",
-    "name_plural": "blank bodies",
+    "name": { "str": "blank body", "str_pl": "blank bodies" },,
     "description": "This looks like a human body, but its flesh is snow-white, and its face is featureless save for a perfectly round mouth.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -483,7 +482,7 @@
   {
     "id": "mon_blob",
     "type": "MONSTER",
-    "name": "blob",
+    "name": { "str": "blob" },
     "description": "A black blob of viscous goo, oozing across the ground like a glob of living oil.",
     "default_faction": "blob",
     "species": [ "NETHER", "BLOB" ],
@@ -510,7 +509,7 @@
   {
     "id": "mon_blob_brain",
     "type": "MONSTER",
-    "name": "brain blob",
+    "name": { "str": "brain blob" },
     "description": "A gigantic black blob of viscous goo, oozing across the ground like a glob of living oil.  Other blobs seem to swarm around it.",
     "default_faction": "blob",
     "species": [ "NETHER", "BLOB" ],
@@ -535,7 +534,7 @@
   {
     "id": "mon_blob_large",
     "type": "MONSTER",
-    "name": "big blob",
+    "name": { "str": "big blob" },
     "description": "A large black blob of viscous goo, oozing across the ground like a glob of living oil.",
     "default_faction": "blob",
     "species": [ "NETHER", "BLOB" ],
@@ -563,7 +562,7 @@
   {
     "id": "mon_blob_small",
     "type": "MONSTER",
-    "name": "small blob",
+    "name": { "str": "small blob" },
     "description": "A small black blob of viscous goo, oozing across the ground like a glob of living oil.",
     "default_faction": "blob",
     "species": [ "NETHER", "BLOB" ],
@@ -589,7 +588,7 @@
   {
     "id": "mon_blood_sacrifice",
     "type": "MONSTER",
-    "name": "blood sacrifice",
+    "name": { "str": "blood sacrifice" },
     "description": "A defiled human body, once living.  Tortured to death long ago, it remains chained to the altar, the putrescent flays of its peeled skin quivering like so much flotsam upon a murky pond.",
     "default_faction": "cult",
     "species": [ "ZOMBIE" ],
@@ -612,7 +611,7 @@
   {
     "id": "mon_bobcat",
     "type": "MONSTER",
-    "name": "bobcat",
+    "name": { "str": "bobcat" },
     "description": "A spotted wild cat living across much of North America.  It is not a serious threat to humans, but it can be aggressive if not left alone.",
     "default_faction": "cat",
     "categories": [ "WILDLIFE" ],
@@ -651,7 +650,7 @@
   {
     "id": "mon_broken_cyborg",
     "type": "MONSTER",
-    "name": "broken cyborg",
+    "name": { "str": "broken cyborg" },
     "description": "A robot body with the head of a human.  All kinds of electronic wires and devices are implanted in its head.  Patches of skin look diseased or rotting.  This cyborg moves erratically and has a confused and deranged look in its eyes.",
     "default_faction": "science",
     "species": [ "ROBOT" ],
@@ -693,7 +692,7 @@
   {
     "id": "mon_cat",
     "type": "MONSTER",
-    "name": "cat",
+    "name": { "str": "cat" },
     "description": "A small domesticated predator gone feral in the absence of human stewardship.  Harried by the elements and the rigors of survival, it is scruffy and skittish.",
     "default_faction": "cat",
     "categories": [ "WILDLIFE" ],
@@ -733,7 +732,7 @@
   {
     "id": "mon_centipede_giant",
     "type": "MONSTER",
-    "name": "giant centipede",
+    "name": { "str": "giant centipede" },
     "description": "A meter-long centipede with a menacing pair of pincers, moving swiftly on dozens of spindly legs.",
     "default_faction": "centipede",
     "species": [ "INSECT" ],
@@ -761,7 +760,7 @@
   {
     "id": "mon_charred_nightmare",
     "type": "MONSTER",
-    "name": "charred nightmare",
+    "name": { "str": "charred nightmare" },
     "description": "Intense radiation has spurred a unique form of necrosis and regeneration, it is impossible to tell if this creature was ever human.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
@@ -791,7 +790,7 @@
   {
     "id": "mon_chicken",
     "type": "MONSTER",
-    "name": "chicken",
+    "name": { "str": "chicken" },
     "description": "A domesticated descendant of junglefowl, it may still be the most numerous bird in the world.  Before the Cataclysm, it was raised by humans as a source of meat, eggs, and early morning wakeup calls.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -816,7 +815,7 @@
   {
     "id": "mon_chipmunk",
     "type": "MONSTER",
-    "name": "chipmunk",
+    "name": { "str": "chipmunk" },
     "description": "The eastern chipmunk, a tiny omnivorous rodent with a characteristic striped coat.  It spends much of the day patrolling its elaborate burrow and the precious stores of foraged food within.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -842,7 +841,7 @@
   {
     "id": "mon_chud",
     "type": "MONSTER",
-    "name": "C.H.U.D.",
+    "name": { "str": "C.H.U.D." },
     "description": "The C.H.U.D.  or Cannibalistic Humanoid Underground Dweller.  A human being turned pale and mad from years of underground isolation.",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],
@@ -872,7 +871,7 @@
   {
     "id": "mon_copbot",
     "type": "MONSTER",
-    "name": "police bot",
+    "name": { "str": "police bot" },
     "description": "One of the many models of armored law enforcement robots employed shortly before the collapse of civilization.  Solar powered like many other robots, it maintains its programmed pursuit of law and order, propelled on a trio of omni wheels.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
@@ -902,7 +901,7 @@
   {
     "id": "mon_cougar",
     "type": "MONSTER",
-    "name": "cougar",
+    "name": { "str": "cougar" },
     "description": "The Eastern cougar, a large feline predator.  Once thought extinct in this region, conservation efforts were successful in restoring a thriving population.",
     "default_faction": "big_cat",
     "categories": [ "WILDLIFE" ],
@@ -947,7 +946,7 @@
   {
     "id": "mon_cow",
     "type": "MONSTER",
-    "name": "cow",
+    "name": { "str": "cow" },
     "description": "The domestic cow, a baleful, ruminating farm animal.  It is quite muscular, and the males can have a violent streak to accompany their nasty-looking horns.",
     "default_faction": "herbivore",
     "categories": [ "WILDLIFE" ],
@@ -978,7 +977,7 @@
   {
     "id": "mon_coyote",
     "type": "MONSTER",
-    "name": "coyote",
+    "name": { "str": "coyote" },
     "description": "The Eastern coyote, also called the tweed wolf, is a territorial canine descended from the offspring of gray wolves and true coyotes.  It is intimidated by humans and other predators, but will fight if threatened.",
     "default_faction": "dog",
     "categories": [ "WILDLIFE" ],
@@ -1019,7 +1018,7 @@
   {
     "id": "mon_coyote_wolf",
     "type": "MONSTER",
-    "name": "coyote",
+    "name": { "str": "coyote" },
     "description": "The Northeastern coyote, a widespread canine pack hunter.  More timid than a wolf, it is an opportunistic feeder and prefers to hunt smaller and weaker prey.",
     "default_faction": "dog",
     "categories": [ "WILDLIFE" ],
@@ -1048,7 +1047,7 @@
   {
     "id": "mon_crawler",
     "type": "MONSTER",
-    "name": "crawler",
+    "name": { "str": "crawler" },
     "description": "A conglomeration of human parts fused together in a horrible mishmash of function, slowly dragging its eldritch body across the ground.",
     "default_faction": "mutant",
     "species": [ "ABERRATION" ],
@@ -1074,7 +1073,7 @@
   {
     "id": "mon_creeper_hub",
     "type": "MONSTER",
-    "name": "creeper hub",
+    "name": { "str": "creeper hub" },
     "description": "A thick stalk, rooted to the ground.  It rapidly sprouts thorny vines in all directions.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -1096,7 +1095,7 @@
   {
     "id": "mon_creeper_vine",
     "type": "MONSTER",
-    "name": "creeper vine",
+    "name": { "str": "creeper vine" },
     "description": "A thorny vine, twisting wildly as it grows with incredible speed.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -1118,7 +1117,7 @@
   {
     "id": "mon_crow",
     "type": "MONSTER",
-    "name": "crow",
+    "name": { "str": "crow" },
     "description": "A small, elegant black bird, famous for its distinctive call.  An intelligent bird, there is a glitter of mischief behind its eyes.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -1143,7 +1142,7 @@
   {
     "id": "mon_dark_wyrm",
     "type": "MONSTER",
-    "name": "dark wyrm",
+    "name": { "str": "dark wyrm" },
     "description": "A huge mutated worm found deep underground.  It has a gaping round mouth lined with dagger-like teeth, and its flesh is slick with bubbling blue slime.",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],
@@ -1168,7 +1167,7 @@
   {
     "id": "mon_deer",
     "type": "MONSTER",
-    "name": "deer",
+    "name": { "str": "deer" },
     "description": "The northern woodland white-tailed deer, a quick and strong grazing animal.  Favored prey of coyotes, wolves, and giant spider mutants.",
     "default_faction": "herbivore",
     "categories": [ "WILDLIFE" ],
@@ -1196,7 +1195,7 @@
   {
     "id": "mon_dermatik",
     "type": "MONSTER",
-    "name": "dermatik",
+    "name": { "str": "dermatik" },
     "description": "A mutated wasp nearly the size of a cat, with a barbed ovipositor extruding from the abdomen.",
     "default_faction": "dermatik",
     "species": [ "INSECT" ],
@@ -1223,7 +1222,7 @@
   {
     "id": "mon_dermatik_larva",
     "type": "MONSTER",
-    "name": "dermatik larva",
+    "name": { "str": "dermatik larva" },
     "description": "A fat white grub as big as a squirrel, with a pair of large, spadelike mandibles.",
     "default_faction": "dermatik",
     "species": [ "INSECT" ],
@@ -1248,7 +1247,7 @@
   {
     "id": "mon_dog",
     "type": "MONSTER",
-    "name": "dog",
+    "name": { "str": "dog" },
     "description": "With mangy fur and hungry eyes, it's clear that this once domesticated dog has gone feral.",
     "default_faction": "dog",
     "categories": [ "WILDLIFE" ],
@@ -1290,7 +1289,7 @@
   {
     "id": "mon_dog_zombie_rot",
     "type": "MONSTER",
-    "name": "rot-weiler",
+    "name": { "str": "rot-weiler" },
     "description": "Acrid smell accompanies this corpse of canine.  Its whole body is covered in chains of pulsing cysts and slime dribbling ulcers.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -1317,8 +1316,7 @@
   {
     "id": "mon_dragonfly_giant",
     "type": "MONSTER",
-    "name": "giant dragonfly",
-    "name_plural": "giant dragonflies",
+    "name": { "str": "giant dragonfly", "str_pl": "giant dragonflies" },,
     "description": "A ferocious mutant dragonfly as big as a cat, darting through the air with a cluster of fangs for a mouth.",
     "default_faction": "dragonfly",
     "species": [ "INSECT" ],
@@ -1347,7 +1345,7 @@
   {
     "id": "mon_duck",
     "type": "MONSTER",
-    "name": "duck",
+    "name": { "str": "duck" },
     "description": "A mallard duck, often seen around rivers and other bodies of water.  It feeds primarily on insects, seeds, roots, and, pre-cataclysm, bread scraps.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -1372,8 +1370,7 @@
   {
     "id": "mon_fly",
     "type": "MONSTER",
-    "name": "giant fly",
-    "name_plural": "giant flies",
+    "name": { "str": "giant fly", "str_pl": "giant flies" },,
     "description": "A tremendous housefly the size of a small dog, predictably accompanied by a loud, incessant buzzing sound.",
     "default_faction": "small_animal",
     "species": [ "INSECT" ],
@@ -1400,7 +1397,7 @@
   {
     "id": "mon_flying_polyp",
     "type": "MONSTER",
-    "name": "flying polyp",
+    "name": { "str": "flying polyp" },
     "description": "An amorphous mound of twisting black flesh that flits through the air at incredible speeds.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -1437,8 +1434,7 @@
   {
     "id": "mon_fox_gray",
     "type": "MONSTER",
-    "name": "fox",
-    "name_plural": "foxes",
+    "name": { "str": "fox", "str_pl": "foxes" },,
     "description": "A small omnivorous canine with an almost cat-like manner.  It is a solitary hunter, and one of the only canids able to climb trees.",
     "default_faction": "fox",
     "categories": [ "WILDLIFE" ],
@@ -1479,8 +1475,7 @@
   {
     "id": "mon_fox_red",
     "type": "MONSTER",
-    "name": "fox",
-    "name_plural": "foxes",
+    "name": { "str": "fox", "str_pl": "foxes" },,
     "description": "The red fox, an omnivorous canine and largest of the true foxes, it is a wily hunter with a combative, suspicious temperament.",
     "default_faction": "fox",
     "categories": [ "WILDLIFE" ],
@@ -1522,7 +1517,7 @@
   {
     "id": "mon_frog_giant",
     "type": "MONSTER",
-    "name": "giant frog",
+    "name": { "str": "giant frog" },
     "description": "A mutated bullfrog taller than you are.  It stares with amber eyes as it considers the easiest way to swallow you whole.",
     "default_faction": "frog",
     "species": [ "AMPHIBIAN" ],
@@ -1550,7 +1545,7 @@
   {
     "id": "mon_fungal_blossom",
     "type": "MONSTER",
-    "name": "fungal blossom",
+    "name": { "str": "fungal blossom" },
     "description": "A broad fungus, looking much like a glowing blue sunflower.  It appears to emit finer spores than the typical fungal emission.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1574,7 +1569,7 @@
   {
     "id": "mon_fungal_fighter",
     "type": "MONSTER",
-    "name": "fungal fighter",
+    "name": { "str": "fungal fighter" },
     "description": "A stout woody plant that can dig through the ground and flick spines from its branches.  The thorns carry a fungicidal compound with paralytic effects.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -1606,7 +1601,7 @@
   {
     "id": "mon_fungal_hedgerow",
     "type": "MONSTER",
-    "name": "fungal hedgerow",
+    "name": { "str": "fungal hedgerow" },
     "description": "Looking at first glance like a dull gray privet, this \"hedge\" is really a mass of barbed fungal tendrils, defending the fungal tower.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1632,7 +1627,7 @@
   {
     "id": "mon_fungal_tendril",
     "type": "MONSTER",
-    "name": "fungal tendril",
+    "name": { "str": "fungal tendril" },
     "description": "A long and delicate-looking tendril with a sharp tip.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1659,7 +1654,7 @@
   {
     "id": "mon_fungal_wall",
     "type": "MONSTER",
-    "name": "fungal wall",
+    "name": { "str": "fungal wall" },
     "description": "A veritable wall of fungus, grown as a natural defense by the fungal spire.  New spores erupt from the surface every few seconds.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1683,7 +1678,7 @@
     "id": "mon_fungaloid",
     "alias": "mon_fungaloid_dormant",
     "type": "MONSTER",
-    "name": "fungaloid",
+    "name": { "str": "fungaloid" },
     "description": "A pale white fungus, one meaty gray stalk supporting a bloom at the top.  Spores are periodically expelled from its gills, and a few tendrils extend from the base, allowing mobility and some basic means of defense.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1708,7 +1703,7 @@
   {
     "id": "mon_fungaloid_queen",
     "type": "MONSTER",
-    "name": "fungal spire",
+    "name": { "str": "fungal spire" },
     "description": "An enormous fungal spire, towering over the ground.  It pulsates slowly, continuously growing new defenses.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1731,7 +1726,7 @@
   {
     "id": "mon_fungaloid_seeder",
     "type": "MONSTER",
-    "name": "giant fungal blossom",
+    "name": { "str": "giant fungal blossom" },
     "description": "An immense fungal blossom, towering over its surroundings.  It pulses with a soft blue glow, continuously pumping its spores into the air.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1755,7 +1750,7 @@
   {
     "id": "mon_fungaloid_tower",
     "type": "MONSTER",
-    "name": "fungal tower",
+    "name": { "str": "fungal tower" },
     "description": "An enormous fungal tower.  On closer inspection, its cap is supported by LOTS of fungal tendrils of various thicknesses, emerging from yet more bristling tendrils at ground level.  Between this redundancy and their noticeable movement creating frequent gaps, it's tough to get a solid shot on the thing.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1783,7 +1778,7 @@
   {
     "id": "mon_fungaloid_young",
     "type": "MONSTER",
-    "name": "fungal sporeling",
+    "name": { "str": "fungal sporeling" },
     "description": "A fungal stalk several feet in height.  Two vicious looking tendrils extend from its thorned and leathery exterior, and it moves about faster than the larger fungaloids.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -1810,7 +1805,7 @@
   {
     "id": "mon_gator",
     "type": "MONSTER",
-    "name": "sewer gator",
+    "name": { "str": "sewer gator" },
     "description": "In the late 20th century there was an urban legend about pet alligators getting flushed down the toilet and growing to adulthood in sewers.  This large specimen doesn't look like it is used to humans as anything other than a meal.",
     "default_faction": "gator",
     "categories": [ "WILDLIFE" ],
@@ -1869,7 +1864,7 @@
   {
     "id": "mon_giant_crayfish",
     "type": "MONSTER",
-    "name": "giant crayfish",
+    "name": { "str": "giant crayfish" },
     "description": "A mutant, terrestrial variety of the signal crayfish, this massive crustacean resembles a humongous lobster.",
     "default_faction": "crayfish",
     "species": [ "MUTANT" ],
@@ -1895,7 +1890,7 @@
   {
     "id": "mon_hare",
     "type": "MONSTER",
-    "name": "jackrabbit",
+    "name": { "str": "jackrabbit" },
     "description": "The snowshoe hare, a small grass-eater with a brown fur coat that changes to white in the wintertime.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -1917,7 +1912,7 @@
   {
     "id": "mon_hazmatbot",
     "type": "MONSTER",
-    "name": "cleaner bot",
+    "name": { "str": "cleaner bot" },
     "description": "The Ford Sanitron, a utility robot designed for cleaning up waste material in hazardous conditions.",
     "default_faction": "utility_bot",
     "species": [ "ROBOT" ],
@@ -1940,7 +1935,7 @@
   {
     "id": "mon_headless_dog_thing",
     "type": "MONSTER",
-    "name": "tentacle dog",
+    "name": { "str": "tentacle dog" },
     "description": "A dog's body with a mass of ropey, black tentacles reaching out from its head.",
     "default_faction": "mutant",
     "species": [ "NETHER" ],
@@ -1965,8 +1960,7 @@
   {
     "id": "mon_homunculus",
     "type": "MONSTER",
-    "name": "homunculus",
-    "name_plural": "homunculuses",
+    "name": { "str": "homunculus", "str_pl": "homunculuses" },,
     "description": "A pale hairless man with an impressive athletic physique.  Its lidless eyes are totally black, and seeping with blood.",
     "default_faction": "cult",
     "species": [ "ZOMBIE" ],
@@ -1992,7 +1986,7 @@
   {
     "id": "mon_horse",
     "type": "MONSTER",
-    "name": "horse",
+    "name": { "str": "horse" },
     "description": "A hooved grazing mammal with a mane of hair, a sweeping tail, and powerful-looking muscles.",
     "default_faction": "herbivore",
     "categories": [ "WILDLIFE" ],
@@ -2020,7 +2014,7 @@
   {
     "id": "mon_hunting_horror",
     "type": "MONSTER",
-    "name": "hunting horror",
+    "name": { "str": "hunting horror" },
     "description": "A man-sized worm-like creature that swoops around on bat-like wings.  Its form dramatically shifts and changes from moment to moment, although its gigantic eyes and teeth are always prominent.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -2056,7 +2050,7 @@
   {
     "id": "mon_irradiated_wanderer_1",
     "type": "MONSTER",
-    "name": "irradiated wanderer",
+    "name": { "str": "irradiated wanderer" },
     "description": "This rotting corpse seeps a glowing ooze from its lesions.  A strange tattered jumpsuit marks it as an oddity across the wasteland.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
@@ -2086,7 +2080,7 @@
   {
     "id": "mon_irradiated_wanderer_2",
     "type": "MONSTER",
-    "name": "irradiated wanderer",
+    "name": { "str": "irradiated wanderer" },
     "description": "This rotting corpse seeps a glowing ooze from its lesions.  A strange tattered jumpsuit marks it as an oddity across the wasteland.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
@@ -2117,7 +2111,7 @@
   {
     "id": "mon_irradiated_wanderer_3",
     "type": "MONSTER",
-    "name": "irradiated wanderer",
+    "name": { "str": "irradiated wanderer" },
     "description": "This rotting corpse seeps a glowing ooze from its lesions.  A strange tattered jumpsuit marks it as an oddity across the wasteland.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
@@ -2148,7 +2142,7 @@
   {
     "id": "mon_irradiated_wanderer_4",
     "type": "MONSTER",
-    "name": "irradiated wanderer",
+    "name": { "str": "irradiated wanderer" },
     "description": "This rotting corpse seeps a glowing ooze from its lesions.  A strange tattered jumpsuit marks it as an oddity across the wasteland.",
     "default_faction": "zombie",
     "species": [ "ABERRATION" ],
@@ -2179,7 +2173,7 @@
   {
     "id": "mon_jabberwock",
     "type": "MONSTER",
-    "name": "jabberwock",
+    "name": { "str": "jabberwock" },
     "description": "A putrid amalgamation of body parts from humans and other creatures have fused together in this aberration of flesh.  The eyes of all the heads dart about rapidly and the mouths form a chorus of groaning screams.",
     "default_faction": "jabberwock",
     "species": [ "ABERRATION" ],
@@ -2222,7 +2216,7 @@
   {
     "id": "mon_kreck",
     "type": "MONSTER",
-    "name": "kreck",
+    "name": { "str": "kreck" },
     "description": "A fat humanoid the size of a dog, with twisted red flesh and a distended neck.  It scampers around, panting and grunting.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -2249,7 +2243,7 @@
   {
     "id": "mon_lemming",
     "type": "MONSTER",
-    "name": "lemming",
+    "name": { "str": "lemming" },
     "description": "The Northern bog lemming, a small, predominantly vegetarian rodent that spends its life in the murk of swamps and other wetlands.  Contrary to popular belief, these creatures are not particularly hapless or suicidal, but they can eat themselves into scarcity within a few generations.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2273,7 +2267,7 @@
   {
     "id": "mon_mi_go",
     "type": "MONSTER",
-    "name": "mi-go",
+    "name": { "str": "mi-go" },
     "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -2317,7 +2311,7 @@
   {
     "id": "mon_mink",
     "type": "MONSTER",
-    "name": "mink",
+    "name": { "str": "mink" },
     "description": "The American mink, a partially-aquatic weasel, once factory-farmed for its fur.  It is a capable fisher, but the presence of otters in these parts makes it rely more on food from the land.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2358,7 +2352,7 @@
   {
     "id": "mon_molebot",
     "type": "MONSTER",
-    "name": "miner bot",
+    "name": { "str": "miner bot" },
     "description": "A snake-like, segmented robot built to tunnel into the ground and detonate landmines.",
     "default_faction": "utility_bot",
     "species": [ "ROBOT" ],
@@ -2383,7 +2377,7 @@
   {
     "id": "mon_moose",
     "type": "MONSTER",
-    "name": "moose",
+    "name": { "str": "moose" },
     "description": "The Eastern moose, the largest living species of deer.  The bulls are quite ill-tempered, especially in the rutting season.",
     "default_faction": "herbivore",
     "categories": [ "WILDLIFE" ],
@@ -2415,7 +2409,7 @@
   {
     "id": "mon_mosquito_giant",
     "type": "MONSTER",
-    "name": "giant mosquito",
+    "name": { "str": "giant mosquito" },
     "description": "An enormous mutant mosquito, fluttering erratically.  Its face is dominated by a long, spear-tipped proboscis.",
     "default_faction": "mosquito",
     "species": [ "INSECT" ],
@@ -2441,7 +2435,7 @@
   {
     "id": "mon_muskrat",
     "type": "MONSTER",
-    "name": "muskrat",
+    "name": { "str": "muskrat" },
     "description": "A large omnivorous rodent with a thick furry pelt, found in wetlands across the northern hemisphere.  It marks its territory with a musky odor for which it is named.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2467,7 +2461,7 @@
   {
     "id": "mon_one_eye",
     "type": "MONSTER",
-    "name": "cyclopean",
+    "name": { "str": "cyclopean" },
     "description": "A relatively humanoid mutant with purple hair and a grapefruit-sized bloodshot eye.",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],
@@ -2495,7 +2489,7 @@
   {
     "id": "mon_opossum",
     "type": "MONSTER",
-    "name": "opossum",
+    "name": { "str": "opossum" },
     "description": "The Virginia opossum, a small omnivorous marsupial native to North America.  About the size of a cat, it is hardy and adaptive, and a fairly common sight in urban areas.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2522,7 +2516,7 @@
   {
     "id": "mon_otter",
     "type": "MONSTER",
-    "name": "otter",
+    "name": { "str": "otter" },
     "description": "The North American river otter is a shy water dwelling relative of the weasel living in large families along the banks of streams.  It is an excellent fisher and a resourceful survivor, using the abandoned dens of beavers and other animals to raise its own young.",
     "default_faction": "otter",
     "categories": [ "WILDLIFE" ],
@@ -2546,7 +2540,7 @@
   {
     "id": "mon_pig",
     "type": "MONSTER",
-    "name": "pig",
+    "name": { "str": "pig" },
     "description": "A domesticated omnivore descended from the wild boar, intelligent and inquisitive.  Left to its own devices, it has gone feral.",
     "default_faction": "pig",
     "categories": [ "WILDLIFE" ],
@@ -2575,7 +2569,7 @@
   {
     "id": "mon_player_blob",
     "type": "MONSTER",
-    "name": "slimespring",
+    "name": { "str": "slimespring" },
     "description": "A familiar-looking blob of goo.  It sprouts the occasional eyestalk.",
     "default_faction": "player",
     "species": [ "MUTANT" ],
@@ -2602,7 +2596,7 @@
   {
     "id": "mon_pregnant_giant_cockroach",
     "type": "MONSTER",
-    "name": "pregnant giant cockroach",
+    "name": { "str": "pregnant giant cockroach" },
     "description": "A mutant cockroach the size of a small dog.  It's abdomen is heavily swollen.",
     "default_faction": "roach",
     "species": [ "INSECT" ],
@@ -2630,7 +2624,7 @@
   {
     "id": "mon_rabbit",
     "type": "MONSTER",
-    "name": "rabbit",
+    "name": { "str": "rabbit" },
     "description": "A small mammal with a cute wiggling nose, cotton tail, and made of delicious flesh.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2652,7 +2646,7 @@
   {
     "id": "mon_raccoon",
     "type": "MONSTER",
-    "name": "raccoon",
+    "name": { "str": "raccoon" },
     "description": "A small mammal native to North America, distinctive for its dexterous paws and facial markings.  It is resourceful and agile enough to open sealed containers with its paws.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2679,7 +2673,7 @@
   {
     "id": "mon_rat_king",
     "type": "MONSTER",
-    "name": "rat king",
+    "name": { "str": "rat king" },
     "description": "A towering swarm of mutated rats, their tails knotted together in a filthy mass.  A fetid stench flows from its filthy presence.",
     "default_faction": "rat",
     "species": [ "MAMMAL" ],
@@ -2702,7 +2696,7 @@
   {
     "id": "mon_rattlesnake",
     "type": "MONSTER",
-    "name": "rattlesnake",
+    "name": { "str": "rattlesnake" },
     "description": "The timber rattlesnake is the most venomous viper native to New England.  Climatic changes have extended its range far into the north.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2733,7 +2727,7 @@
   {
     "id": "mon_rattlesnake_giant",
     "type": "MONSTER",
-    "name": "giant rattlesnake",
+    "name": { "str": "giant rattlesnake" },
     "description": "A mutated timber rattlesnake, about three times as large as the norm.  While it isn't big enough to regard humans as potential prey, it is more aggresive and dangerous compared to a normal rattler.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -2772,7 +2766,7 @@
   {
     "id": "mon_razorclaw",
     "type": "MONSTER",
-    "name": "razorclaw",
+    "name": { "str": "razorclaw" },
     "description": "A man-sized crustacean clad in an iron-like chitin, capable of emitting the most horrible of shrieks.  Often spotted near shipwrecks or other dark damp places, which it uses as nesting grounds.",
     "default_faction": "razorclaw",
     "species": [ "MUTANT" ],
@@ -2804,7 +2798,7 @@
   {
     "id": "mon_riotbot",
     "type": "MONSTER",
-    "name": "riot control bot",
+    "name": { "str": "riot control bot" },
     "description": "Nonviolent riot-control bot.  Designed to suppress riots and make mass arrests of those participating.  Though its relaxation gas is by far its best-known weapon, it carries a blinding flash and a low-powered stungun for self-defense--in addition to its supply of electronic handcuffs.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
@@ -2832,7 +2826,7 @@
   {
     "id": "mon_sewer_fish",
     "type": "MONSTER",
-    "name": "seweranha",
+    "name": { "str": "seweranha" },
     "description": "A large mutant variety of carp.  It has shimmering green scales and a mouth lined with three jagged rows of razor-sharp teeth.",
     "default_faction": "mutant",
     "species": [ "FISH" ],
@@ -2859,7 +2853,7 @@
   {
     "id": "mon_sewer_rat",
     "type": "MONSTER",
-    "name": "sewer rat",
+    "name": { "str": "sewer rat" },
     "description": "A worm-tailed rodent with long whiskers and beady eyes.  The way it squeaks makes it sound...  hungry.",
     "default_faction": "rat",
     "categories": [ "WILDLIFE" ],
@@ -2888,7 +2882,7 @@
   {
     "id": "mon_sewer_snake",
     "type": "MONSTER",
-    "name": "sewer snake",
+    "name": { "str": "sewer snake" },
     "description": "An aggressive mutant variety of the worm snake, turned pale yellow from its underground life.  It swarms beneath the ground and is named for its habit of infesting sewer lines.",
     "default_faction": "mutant",
     "species": [ "REPTILE" ],
@@ -2915,7 +2909,7 @@
   {
     "id": "mon_shadow",
     "type": "MONSTER",
-    "name": "shadow",
+    "name": { "str": "shadow" },
     "description": "A strange moving darkness, bringing with it the softest of whispers.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -2958,7 +2952,7 @@
   {
     "id": "mon_shadow_snake",
     "type": "MONSTER",
-    "name": "shadow snake",
+    "name": { "str": "shadow snake" },
     "description": "A translucent black snake, long and fearsome looking.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -2983,8 +2977,7 @@
   {
     "id": "mon_sheep",
     "type": "MONSTER",
-    "name": "sheep",
-    "name_plural": "sheep",
+    "name": { "str": "sheep", "str_pl": "sheep" },,
     "description": "A timid, hooved grazing mammal, and one of the first animals ever domesticated, its body is covered in a thick layer of wool, and the males have long, spiralling horns.",
     "default_faction": "herbivore",
     "categories": [ "WILDLIFE" ],
@@ -3010,7 +3003,7 @@
   {
     "id": "mon_skitterbot",
     "type": "MONSTER",
-    "name": "skitterbot",
+    "name": { "str": "skitterbot" },
     "description": "A insectoid robot the size of a small dog, designed for home security.  Armed with two close-range tazers, it can skate across the ground with great speed.",
     "default_faction": "defense_bot",
     "species": [ "ROBOT" ],
@@ -3036,7 +3029,7 @@
   {
     "id": "mon_sludge_crawler",
     "type": "MONSTER",
-    "name": "sludge crawler",
+    "name": { "str": "sludge crawler" },
     "description": "A sluglike creature, eight feet long and the width of a refrigerator.  Its black body glistens as it oozes its way along the ground.  Eye stalks occasionally push their way out of the oily mass and look around.",
     "default_faction": "mutant",
     "species": [ "MUTANT" ],
@@ -3075,7 +3068,7 @@
   {
     "id": "mon_slug_giant",
     "type": "MONSTER",
-    "name": "giant slug",
+    "name": { "str": "giant slug" },
     "description": "A mutated leopard slug, as wide as a golf cart.  Venom dripping from its fanged maw, it slithers ahead slowly, leaving a trail of glistening slime.",
     "default_faction": "slug",
     "species": [ "MOLLUSK" ],
@@ -3103,7 +3096,7 @@
   {
     "id": "mon_spider_cellar_giant",
     "type": "MONSTER",
-    "name": "giant cellar spider",
+    "name": { "str": "giant cellar spider" },
     "description": "A twitchy mutant brown spider, with a relatively small body and spindly long legs.  Its smaller brethren are known for being agile, and for preying upon other spiders.",
     "default_faction": "spider_cellar",
     "species": [ "SPIDER" ],
@@ -3134,7 +3127,7 @@
   {
     "id": "mon_spider_cellar_giant_s",
     "type": "MONSTER",
-    "name": "immature giant cellar spider",
+    "name": { "str": "immature giant cellar spider" },
     "description": "A newly-hatched giant cellar spider.  Too small to possess much venom, but still quick and agile like an adult.",
     "default_faction": "spider_cellar",
     "species": [ "SPIDER" ],
@@ -3164,7 +3157,7 @@
   {
     "id": "mon_spider_jumping_giant",
     "type": "MONSTER",
-    "name": "giant jumping spider",
+    "name": { "str": "giant jumping spider" },
     "description": "A giant spider with big forelegs and two pairs of inquisitive-looking eyes.  It can leap quite quickly, even into the treetops.",
     "default_faction": "spider_jumping",
     "species": [ "SPIDER" ],
@@ -3193,7 +3186,7 @@
   {
     "id": "mon_spider_trapdoor_giant",
     "type": "MONSTER",
-    "name": "giant trapdoor spider",
+    "name": { "str": "giant trapdoor spider" },
     "description": "A gigantic spider with a bulbous thorax.  It digs a deep underground burrow that serves as a pit to trap unwary prey.",
     "default_faction": "spider_trapdoor",
     "species": [ "SPIDER" ],
@@ -3221,7 +3214,7 @@
   {
     "id": "mon_spider_web",
     "type": "MONSTER",
-    "name": "giant web spider",
+    "name": { "str": "giant web spider" },
     "description": "A giant mutated grass spider, it waits for prey to become ensnared in the vast webs that it weaves between the trees.",
     "default_faction": "spider_web",
     "species": [ "SPIDER" ],
@@ -3249,7 +3242,7 @@
   {
     "id": "mon_spider_web_s",
     "type": "MONSTER",
-    "name": "immature giant web spider",
+    "name": { "str": "immature giant web spider" },
     "description": "A still immature giant grass spider.  Too young to be venomous, or to walk proficiently for that matter",
     "default_faction": "spider_web",
     "species": [ "SPIDER" ],
@@ -3277,7 +3270,7 @@
   {
     "id": "mon_spider_widow_giant",
     "type": "MONSTER",
-    "name": "giant black widow",
+    "name": { "str": "giant black widow" },
     "description": "A giant mutated black widow spider.  A highly venomous nightmare come to life.",
     "default_faction": "spider_widow",
     "species": [ "SPIDER" ],
@@ -3306,7 +3299,7 @@
   {
     "id": "mon_spider_widow_giant_s",
     "type": "MONSTER",
-    "name": "giant black widow spiderling",
+    "name": { "str": "giant black widow spiderling" },
     "description": "The horrid spawn of a giant black widow spider.  Even as a newborn, this foul creature knows only how to kill.",
     "default_faction": "spider_widow",
     "species": [ "SPIDER" ],
@@ -3335,7 +3328,7 @@
   {
     "id": "mon_spider_wolf_giant",
     "type": "MONSTER",
-    "name": "giant wolf spider",
+    "name": { "str": "giant wolf spider" },
     "description": "A wolf spider mutated to about thirty times its normal size, it moves quickly and aggressively to catch and consume prey.",
     "default_faction": "spider_wolf",
     "species": [ "SPIDER" ],
@@ -3364,7 +3357,7 @@
   {
     "id": "mon_spore",
     "type": "MONSTER",
-    "name": "spore cloud",
+    "name": { "str": "spore cloud" },
     "description": "A mass of spores the size of a balled fist, wafting around in the air.",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
@@ -3387,7 +3380,7 @@
   {
     "id": "mon_squirrel",
     "type": "MONSTER",
-    "name": "squirrel",
+    "name": { "str": "squirrel" },
     "description": "A small granivorous rodent with a long bushy tail, often seen darting amid the branches of trees.  A skittish varmint with an expression of unwavering austerity, it is the mortal enemy of cat and dog alike.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -3411,7 +3404,7 @@
   {
     "id": "mon_squirrel_red",
     "type": "MONSTER",
-    "name": "squirrel",
+    "name": { "str": "squirrel" },
     "description": "A tiny opportunistic rodent with a long bushy tail.  The pine squirrel is clever and cute, and hunted by nearly everything in the woods with a taste for meat.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -3434,7 +3427,7 @@
   {
     "id": "mon_tankbot",
     "type": "MONSTER",
-    "name": "tank drone",
+    "name": { "str": "tank drone" },
     "description": "The Northrup Emancipator is the first and only automated tank ever produced, made shortly after the split-up of Northrup Grumman.  Clad in depleted uranium plating, and armed with advanced munitions and a 120-mm gun, it is capable of delivering extraordinary firepower.",
     "default_faction": "military",
     "species": [ "ROBOT" ],
@@ -3464,7 +3457,7 @@
   {
     "id": "mon_triffid",
     "type": "MONSTER",
-    "name": "triffid",
+    "name": { "str": "triffid" },
     "description": "A creeping animate plant, growing as tall as a moose.  It has a single bark-covered stalk supporting a flowery head with a paralyzing sting concealed within.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -3489,7 +3482,7 @@
   {
     "id": "mon_triffid_heart",
     "type": "MONSTER",
-    "name": "triffid heart",
+    "name": { "str": "triffid heart" },
     "description": "A knot of tubular roots, flowing with sap and beating like a heart.  Strands of vascular tissue reach out to the surrounding root walls.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -3512,7 +3505,7 @@
   {
     "id": "mon_triffid_queen",
     "type": "MONSTER",
-    "name": "triffid queen",
+    "name": { "str": "triffid queen" },
     "description": "A ponderous and particularly arborescent triffid.  It has enormous red petals surrounded by a haze of spores, and two thick barbed vines stick out from the stems like wary harpoons.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -3538,7 +3531,7 @@
   {
     "id": "mon_triffid_young",
     "type": "MONSTER",
-    "name": "triffid sprout",
+    "name": { "str": "triffid sprout" },
     "description": "A small triffid, only a few feet tall.  It has not yet developed bark, but its sting is still sharp and deadly.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
@@ -3561,7 +3554,7 @@
   {
     "id": "mon_tripod",
     "type": "MONSTER",
-    "name": "tribot",
+    "name": { "str": "tribot" },
     "description": "The Honda Regnal, a tall robot walking on three spidery legs.  For weapons, it has a trio of spiked retractable cables and a flamethrower mounted on its head.",
     "default_faction": "military",
     "species": [ "ROBOT" ],
@@ -3589,7 +3582,7 @@
   {
     "id": "mon_turkey",
     "type": "MONSTER",
-    "name": "turkey",
+    "name": { "str": "turkey" },
     "description": "A large and colorful game bird native to the forests of North America.  Its head and beak are covered in fleshy protuberances.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -3615,7 +3608,7 @@
   {
     "id": "mon_turret_searchlight",
     "type": "MONSTER",
-    "name": "milspec searchlight",
+    "name": { "str": "milspec searchlight" },
     "description": "Three high-powered searchlights with automated search AI and mounting, continually seeking targets.",
     "default_faction": "military",
     "species": [ "ROBOT" ],
@@ -3640,8 +3633,7 @@
   {
     "id": "mon_twisted_body",
     "type": "MONSTER",
-    "name": "twisted body",
-    "name_plural": "twisted bodies",
+    "name": { "str": "twisted body", "str_pl": "twisted bodies" },,
     "description": "A human body, but with its limbs, neck, and hair impossibly twisted.  It clambers around swiftly, making awful screeching sounds.",
     "default_faction": "mutant",
     "species": [ "HORROR" ],
@@ -3665,8 +3657,7 @@
   {
     "id": "mon_vortex",
     "type": "MONSTER",
-    "name": "vortex",
-    "name_plural": "vortexes",
+    "name": { "str": "vortex", "str_pl": "vortexes" },,
     "description": "A twisting spot in the air, with some kind of morphing mass at its center.",
     "default_faction": "vortex",
     "species": [ "UNKNOWN" ],
@@ -3686,7 +3677,7 @@
   {
     "id": "mon_wasp",
     "type": "MONSTER",
-    "name": "giant wasp",
+    "name": { "str": "giant wasp" },
     "description": "A gigantic slender-bodied wasp with an evil-looking stinger protruding from its abdomen.  Its exoskeleton glowers with ominous red markings.",
     "default_faction": "wasp",
     "species": [ "INSECT" ],
@@ -3716,7 +3707,7 @@
   {
     "id": "mon_weasel",
     "type": "MONSTER",
-    "name": "weasel",
+    "name": { "str": "weasel" },
     "description": "The long-tailed weasel, a small but ubiquitous predator whose range extends across the continent.  It forms its den in small burrows, preferring to occupy the nesting holes of its prey.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
@@ -3740,8 +3731,7 @@
   {
     "id": "mon_wolf",
     "type": "MONSTER",
-    "name": "wolf",
-    "name_plural": "wolves",
+    "name": { "str": "wolf", "str_pl": "wolves" },,
     "description": "A cunning pack predator, once extinct in the New England area, the wolf was successfully reintroduced and their numbers reached record highs in the decade before the cataclysm.  Lucky you.",
     "default_faction": "wolf",
     "categories": [ "WILDLIFE" ],
@@ -3770,7 +3760,7 @@
   {
     "id": "mon_worm",
     "type": "MONSTER",
-    "name": "giant worm",
+    "name": { "str": "giant worm" },
     "description": "An enormous, mutated creature that might once have been a nightcrawler.  It possesses a large fanged mouth and a long slender body that comes up to your shoulder, with even more surely hiding underground.",
     "default_faction": "worm",
     "species": [ "WORM" ],
@@ -3794,7 +3784,7 @@
   {
     "id": "mon_yugg",
     "type": "MONSTER",
-    "name": "yugg",
+    "name": { "str": "yugg" },
     "description": "An enormous white flatworm that burrows beneath the earth.  Its mouth is lined with pointed teeth, and it is covered in fine hairs which can be shed and fired like darts.",
     "default_faction": "nether",
     "species": [ "NETHER" ],
@@ -3820,7 +3810,7 @@
   {
     "id": "mon_zolf",
     "type": "MONSTER",
-    "name": "grim howler",
+    "name": { "str": "grim howler" },
     "description": "A zombified wolf.  Its mouth oozes with a black substance, coating the vicious-looking white fangs.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -3861,7 +3851,7 @@
   {
     "id": "mon_zombear",
     "type": "MONSTER",
-    "name": "zombear",
+    "name": { "str": "zombear" },
     "description": "This black bear's eyes ooze with black fluid, and its flesh is torn and scarred.  It shuffles as it walks.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -3905,7 +3895,7 @@
   {
     "id": "mon_zombie",
     "type": "MONSTER",
-    "name": "hunter",
+    "name": { "str": "hunter" },
     "description": "A human body, an unstoppable rage is visible in its oily black eyes.",
     "default_faction": "zombie",
     "categories": [ "WILDLIFE" ],
@@ -3950,7 +3940,7 @@
     "id": "mon_zombie_dog",
     "alias": "mon_zombie_fast",
     "type": "MONSTER",
-    "name": "zombie dog",
+    "name": { "str": "zombie dog" },
     "description": "The deformed, animated corpse of a canine, a sinewy beast which can easily outpace its two-legged friends.",
     "default_faction": "zombie",
     "categories": [ "WILDLIFE" ],
@@ -3977,7 +3967,7 @@
   {
     "id": "mon_zombie_shady",
     "type": "MONSTER",
-    "name": "shady zombie",
+    "name": { "str": "shady zombie" },
     "description": "An uncanny shadow envelops this creature, as if light itself were too repulsed to touch it.  All you can make out is its shambling, human shaped outline.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],
@@ -4021,7 +4011,7 @@
   {
     "id": "mon_zoose",
     "type": "MONSTER",
-    "name": "antlered horror",
+    "name": { "str": "antlered horror" },
     "description": "This formerly-majestic moose has succumbed to the infection which is killing the world.  Shiny green blowflies swarm the vast suppurated patches of purulent flesh where its skin has sloughed away, and its remaining fur is black and matted with necrotic discharge.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -4050,7 +4040,7 @@
   {
     "id": "mon_zougar",
     "type": "MONSTER",
-    "name": "decayed pouncer",
+    "name": { "str": "decayed pouncer" },
     "description": "An otherwise normal-looking cougar, except that its hind legs are swollen, and its eyes bulge with black goo.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
