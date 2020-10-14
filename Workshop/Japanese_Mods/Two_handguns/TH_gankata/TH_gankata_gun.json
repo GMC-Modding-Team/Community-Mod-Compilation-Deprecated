@@ -5,26 +5,15 @@
     "type": "GUN",
     "name": "Twin hand gun (9 mm / cleric)",
     "description": "Based on Beretta M9, it is a model that has undergone various modifications such as protrusions for proximity fighting and full auto shooting function. If you are a first-class cleric you will be able to opponent the majority.",
-    "bashing" : 20,
-    "cutting" : 6,
-    "to_hit" : 1,
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": 2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "burst", 6 ],
-      [ "DOUBLE", "Auto", 14 ],
-      [ "AUTO", "semi-auto", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "price": 2, 
-      "dispersion": 0.5,
-      "recoil": 0.8
-    },
-    "extend": { "flags": [ "STAB","WBLOCK_2","DURABLE_MELEE"  ] }
+    "bashing": 20,
+    "cutting": 6,
+    "to_hit": 1,
+    "//": "Fixed value number correction",
+    "relative": { "range": 2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "burst", 6 ], [ "DOUBLE", "Auto", 14 ], [ "AUTO", "semi-auto", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "price": 2, "dispersion": 0.5, "recoil": 0.8 },
+    "extend": { "flags": [ "STAB", "WBLOCK_2", "DURABLE_MELEE" ] }
   }
- 
 ]

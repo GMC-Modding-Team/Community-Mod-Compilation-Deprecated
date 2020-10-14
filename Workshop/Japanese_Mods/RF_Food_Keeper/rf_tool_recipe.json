@@ -1,5 +1,5 @@
 {
-  "type" : "recipe",
+  "type": "recipe",
   "result": "rf_food_keeper",
   "category": "CC_ELECTRONIC",
   "subcategory": "CSC_ELECTRONIC_TOOLS",
@@ -8,27 +8,26 @@
   "time": 300000,
   "reversible": true,
   "autolearn": false,
-  "book_learn": [[ "recipe_caseless", 6 ]],
-  "qualities" : [
-    {"id":"SCREW","level":1,"amount":1},
-    {"id":"SAW_M","level":1,"amount":1},
-    {"id":"HAMMER","level":2,"amount":1}
+  "book_learn": [
+    [ "recipe_caseless", 6 ]
+  ],
+  "qualities": [
+    { "id": "SCREW", "level": 1, "amount": 1 },
+    { "id": "SAW_M", "level": 1, "amount": 1 },
+    { "id": "HAMMER", "level": 2, "amount": 1 }
   ],
   "tools": [
-    [
-      [ "soldering_iron", 20 ],
-      [ "toolset", 20 ]
-    ]
+    [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ]
   ],
   "components": [
-    [ [ "plastic_chunk", 40  ]],
-   [ [     "lead", 500 ]],
-     [[ "superglue", 5  ]],
-     [[ "power_supply", 10  ]],
-     [[ "amplifier", 5  ]],
-     [[ "circuit", 3 ]],
-     [[ "cable", 50 ]],
-     [[ "alloy_sheet", 8 ]],
-     [[ "plut_cell", 6 ]] 
+    [ [ "plastic_chunk", 40 ] ],
+    [ [ "lead", 500 ] ],
+    [ [ "superglue", 5 ] ],
+    [ [ "power_supply", 10 ] ],
+    [ [ "amplifier", 5 ] ],
+    [ [ "circuit", 3 ] ],
+    [ [ "cable", 50 ] ],
+    [ [ "alloy_sheet", 8 ] ],
+    [ [ "plut_cell", 6 ] ]
   ]
 }

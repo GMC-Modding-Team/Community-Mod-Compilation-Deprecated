@@ -5,23 +5,12 @@
     "type": "GUN",
     "name": "Twin hand gun (9 mm / glock 19)",
     "description": "It is both hand-held glock 19.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
     "magazines": [
       [ "9mm", [ "TH_glockmag", "TH_glockbigmag" ] ],
@@ -29,7 +18,7 @@
       [ "45", [ "TH_m1911mag", "TH_m1911bigmag" ] ],
       [ "46", [ "TH_hk46mag", "TH_hk46bigmag" ] ],
       [ "57", [ "TH_fn57mag" ] ]
-     ]
+    ]
   },
   {
     "id": "TH_l_lookout_9mm",
@@ -38,24 +27,12 @@
     "name": "Twin hand gun (9 mm / L 2032 lookout)",
     "name_plural": "L2032 Lookout",
     "description": "Both hand held L2032 lookout.",
-    "relative": {
-      "range": -2
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "clip_size": 2,
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
-    "//":"Simultaneous firing count",
+    "relative": { "range": -2 },
+    "//": "Change by magnification",
+    "proportional": { "clip_size": 2, "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
+    "//": "Simultaneous firing count",
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
-    "modes": [
-      [ "DEFAULT", "revolver", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ]
+    "modes": [ [ "DEFAULT", "revolver", 1 ], [ "DOUBLE", "double", 2 ] ]
   },
   {
     "id": "TH_l_mp_9mm",
@@ -64,24 +41,12 @@
     "name": "Twin hand gun(9mm/L39B)",
     "//": "The M93R can go through up to 110 rounds in six seconds, FWIW.",
     "description": "It is both hand-held L39B.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "burst": 2,
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "burst": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
-    "magazines": [
-      [ "9mm", [ "TH_lw21mag" ] ],
-      [ "45", [ "lw12mag" ] ]
-    ]  
+    "magazines": [ [ "9mm", [ "TH_lw21mag" ] ], [ "45", [ "lw12mag" ] ] ]
   },
   {
     "id": "TH_l_sp_9mm",
@@ -90,28 +55,14 @@
     "name": "Twin hand gun(9mm/L39)",
     "//": "L39s are based off the Robocop Auto-9, in turn a dolled-up Beretta 93R.",
     "description": "It is both hand-held L39.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
-    "magazines": [
-      [ "9mm", [ "TH_lw21mag" ] ],
-      [ "45", [ "lw12mag" ] ]
-    ]
+    "magazines": [ [ "9mm", [ "TH_lw21mag" ] ], [ "45", [ "lw12mag" ] ] ]
   },
   {
     "id": "TH_m9",
@@ -119,25 +70,14 @@
     "type": "GUN",
     "name": "Twin hand gun (9 mm / Beretta M 9)",
     "description": "It is both hand held Beretta M9.",
-    "bashing" : 20,
-    "to_hit" : 1,
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
-    "extend": { "flags": [ "FIRE_TWOHAND" ,"WBLOCK_2","DURABLE_MELEE"  ] },
+    "bashing": 20,
+    "to_hit": 1,
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
+    "extend": { "flags": [ "FIRE_TWOHAND", "WBLOCK_2", "DURABLE_MELEE" ] },
     "magazines": [
       [ "9mm", [ "TH_m9mag", "TH_m9bigmag" ] ],
       [ "22", [ "TH_ruger1022bigmag", "TH_ruger1022mag" ] ],
@@ -146,29 +86,17 @@
       [ "57", [ "TH_fn57mag" ] ]
     ]
   },
-  
   {
     "id": "TH_usp_9mm",
     "copy-from": "usp_9mm",
     "type": "GUN",
     "name": "Twin hand gun(9mm/USP)",
     "description": "It is a two-handed USP.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
     "magazines": [
       [ "9mm", [ "TH_usp9mag" ] ],
@@ -178,5 +106,4 @@
       [ "57", [ "TH_fn57mag" ] ]
     ]
   }
- 
 ]

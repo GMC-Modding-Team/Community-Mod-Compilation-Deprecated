@@ -1,5 +1,4 @@
 [
-
   {
     "id": "TH_hk46bigmag",
     "copy-from": "hk46bigmag",
@@ -7,38 +6,21 @@
     "name": "Dual mag(4.6ｘ30mm/H&K/Expansion)",
     "name_plural": "Dual mag(4.6ｘ30mm/H&K/Expansion)",
     "description": "An extended 40-round magazine for use with H&K's proprietary 4.6x30mm round.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reliability": -1
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "capacity": 2,
-      "reload_time": 1.5
-    }
+    "//": "Fixed value number correction",
+    "relative": { "reliability": -1 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "capacity": 2, "reload_time": 1.5 }
   },
-    {
+  {
     "id": "TH_hk46mag",
     "copy-from": "hk46mag",
     "type": "MAGAZINE",
     "name": "Dual mag(4.6ｘ30mm/H&K)",
     "name_plural": "Dual mag(4.6ｘ30mm/H&K)",
     "description": "A standard capacity 20-round magazine for use with H&K's proprietary 4.6x30mm round.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reliability": -1
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "capacity": 2,
-      "reload_time": 1.5
-    }
+    "//": "Fixed value number correction",
+    "relative": { "reliability": -1 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "capacity": 2, "reload_time": 1.5 }
   }
-
 ]

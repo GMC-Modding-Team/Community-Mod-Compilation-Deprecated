@@ -42,26 +42,19 @@
         "]": "t_sewage_pipe",
         "p": "t_sewage_pump"
       },
-      "furniture": {
-        "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ]
-      },
+      "furniture": { "r": "f_rack", "K": [ "f_crate_c", "f_crate_o" ] },
       "items": {
         "r": { "item": "tool_common_stack", "chance": 100 },
         "K": { "item": "crate_stack", "chance": 100 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 17, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 17, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_e2d"},
-            { "point":[0,0,1], "overmap": "mansion_e2"},
-            { "point":[0,0,2], "overmap": "mansion_e2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_e2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_e2" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_e2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -98,22 +91,13 @@
       ],
       "terrain": {
         "X": "t_wall",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         ",": "t_sidewalk",
         "#": "t_pavement",
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         ">": "t_stairs_down",
         "<": "t_stairs_up"
       },
@@ -121,9 +105,7 @@
         "z": "f_dresser",
         "t": "f_table",
         "m": "f_locker",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "5": "f_indoor_plant",
         "a": "f_armchair"
       },
@@ -135,15 +117,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_e2d"},
-            { "point":[0,0,0], "overmap": "mansion_e2"},
-            { "point":[0,0,1], "overmap": "mansion_e2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_e2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_e2" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_e2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -205,15 +185,13 @@
         "{": { "item": "suit_of_armor", "chance": 100 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 17, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 17, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_e1d"},
-            { "point":[0,0,-1], "overmap": "mansion_e1"},
-            { "point":[0,0,0], "overmap": "mansion_e1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_e1d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_e1" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_e1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -277,15 +255,13 @@
         "m": { "item": "cleaning", "chance": 45 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 14, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 14, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_e2d"},
-            { "point":[0,0,1], "overmap": "mansion_e2"},
-            { "point":[0,0,2], "overmap": "mansion_e2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_e2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_e2" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_e2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -323,47 +299,30 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         ",": "t_sidewalk",
         "#": "t_thconc_floor",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         ">": "t_stairs_down",
         "<": "t_stairs_up"
       },
-      "furniture": {
-        "t": "f_table",
-        "@": "f_statue",
-        "5": "f_indoor_plant",
-        "s": "f_sofa",
-        "a": "f_armchair"
-      },
+      "furniture": { "t": "f_table", "@": "f_statue", "5": "f_indoor_plant", "s": "f_sofa", "a": "f_armchair" },
       "items": {
         "{": { "item": "suit_of_armor", "chance": 100 },
         "t": { "item": "table_foyer", "chance": 40 },
         ":": { "item": "clutter_yard", "chance": 1 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_e2d"},
-            { "point":[0,0,0], "overmap": "mansion_e2"},
-            { "point":[0,0,1], "overmap": "mansion_e2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_e2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_e2" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_e2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -412,25 +371,18 @@
         "S": "t_carpet_red",
         "A": "t_carpet_red"
       },
-      "furniture": {
-        "t": "f_table",
-        "5": "f_indoor_plant",
-        "8": "f_indoor_plant_y",
-        "T": "f_table",
-        "S": "f_sofa",
-        "A": "f_armchair"
-      },
+      "furniture": { "t": "f_table", "5": "f_indoor_plant", "8": "f_indoor_plant_y", "T": "f_table", "S": "f_sofa", "A": "f_armchair" },
       "items": {
         "t": { "item": "table_foyer", "chance": 40 },
         "T": { "item": "table_foyer", "chance": 40 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       }
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_e2d"},
-            { "point":[0,0,-1], "overmap": "mansion_e2"},
-            { "point":[0,0,0], "overmap": "mansion_e2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_e2d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_e2" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_e2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -465,28 +417,19 @@
         "#######XXXXXXXXXX#######",
         "########################"
       ],
-      "terrain": {
-        "X": "t_brick_wall",
-        "#": "t_rock"
-      },
-      "furniture": {
-        "m": "f_locker",
-        "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ]
-      },
+      "terrain": { "X": "t_brick_wall", "#": "t_rock" },
+      "furniture": { "m": "f_locker", "r": "f_rack", "K": [ "f_crate_c", "f_crate_o" ] },
       "items": {
         "r": { "item": "cleaning", "chance": 45 },
         "K": { "item": "crate_stack", "chance": 100 },
         "m": { "item": "cleaning", "chance": 45 }
       }
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t1d"},
-            { "point":[0,0,1], "overmap": "mansion_t1"},
-            { "point":[0,0,2], "overmap": "mansion_t1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t1d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t1" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -523,34 +466,18 @@
       ],
       "terrain": {
         "X": "t_wall",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         ",": "t_sidewalk",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "|": "t_chainfence_v",
         "!": "t_concrete",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "/": "t_grass",
         "4": "t_concrete",
         "~": "t_water_dp",
         "[": "t_chaingate_c"
       },
-      "furniture": {
-        "c": "f_counter",
-        "?": "f_fireplace",
-        "a": "f_armchair",
-        "!": "f_dive_block",
-        "4": "f_chair",
-        "/": "f_bench"
-      },
+      "furniture": { "c": "f_counter", "?": "f_fireplace", "a": "f_armchair", "!": "f_dive_block", "4": "f_chair", "/": "f_bench" },
       "items": {
         "/": { "item": "pool_side", "chance": 30 },
         "c": { "item": "wetbar_counter", "chance": 20 },
@@ -558,15 +485,13 @@
         ",": { "item": "clutter_yard", "chance": 1 },
         ":": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t1d"},
-            { "point":[0,0,0], "overmap": "mansion_t1"},
-            { "point":[0,0,1], "overmap": "mansion_t1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t1d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t1" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -601,22 +526,14 @@
         "*******''''''''''*******",
         "************************"
       ],
-      "terrain": {
-        "X": "t_wall",
-        "*": "t_open_air",
-        ",": "t_concrete",
-        "'": "t_flat_roof",
-        "|": "t_railing_v"
-      },
-      "place_loot": [
-        { "item": "lawn_dart", "x": [ 7, 16 ], "y": [ 18, 22 ], "chance": 40, "repeat": [ 1, 2 ] }
-      ]
+      "terrain": { "X": "t_wall", "*": "t_open_air", ",": "t_concrete", "'": "t_flat_roof", "|": "t_railing_v" },
+      "place_loot": [ { "item": "lawn_dart", "x": [ 7, 16 ], "y": [ 18, 22 ], "chance": 40, "repeat": [ 1, 2 ] } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t1d"},
-            { "point":[0,0,-1], "overmap": "mansion_t1"},
-            { "point":[0,0,0], "overmap": "mansion_t1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t1d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t1" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -673,12 +590,8 @@
         "c": "f_counter",
         "m": "f_locker",
         "r": "f_rack",
-        "$": [
-          "f_shackle", "f_null"
-        ],
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "$": [ "f_shackle", "f_null" ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "@": "f_mannequin",
         "g": "f_dryer",
         "w": "f_washer",
@@ -703,15 +616,13 @@
         "K": { "item": "crate_stack", "chance": 100 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t2d"},
-            { "point":[0,0,1], "overmap": "mansion_t2"},
-            { "point":[0,0,2], "overmap": "mansion_t2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t2" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -749,20 +660,11 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "&": "t_console_broken",
         "B": "t_carpet_red",
@@ -787,9 +689,7 @@
         "J": "f_bathtub",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 40 },
         "B": { "item": "bed", "chance": 40 },
@@ -805,15 +705,13 @@
         ".": { "item": "clutter_bedroom", "chance": 2 },
         ":": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t2d"},
-            { "point":[0,0,0], "overmap": "mansion_t2"},
-            { "point":[0,0,1], "overmap": "mansion_t2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t2" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -880,9 +778,7 @@
         "J": "f_bathtub",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 40 },
         "B": { "item": "bed", "chance": 40 },
@@ -897,15 +793,13 @@
         "-": { "item": "clutter_bedroom", "chance": 2 },
         ".": { "item": "clutter_bedroom", "chance": 2 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 11 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 11 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t2d"},
-            { "point":[0,0,-1], "overmap": "mansion_t2"},
-            { "point":[0,0,0], "overmap": "mansion_t2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t2d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t2" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -955,9 +849,7 @@
         "m": "f_locker",
         "r": "f_rack",
         "n": "f_cupboard",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "@": "f_statue",
         "s": "f_sofa",
         "/": "f_bench",
@@ -978,15 +870,13 @@
         "(": { "item": "trash_cart", "chance": 40 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t2d"},
-            { "point":[0,0,1], "overmap": "mansion_t2"},
-            { "point":[0,0,2], "overmap": "mansion_t2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t2" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1025,21 +915,12 @@
         "X": "t_wall",
         "-": "t_carpet_red",
         ",": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "%": "t_door_metal_locked",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "&": "t_console_broken",
         "B": "t_carpet_red",
@@ -1067,9 +948,7 @@
         "Y": "f_sink",
         "J": "f_bathtub"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "l": { "item": "mansion_bookcase", "chance": 100 },
         "b": { "item": "bed", "chance": 40 },
@@ -1090,18 +969,14 @@
         ".": { "item": "clutter_bedroom", "chance": 2 },
         ":": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_loot": [
-        { "group": "corpse_mansion", "x": [ 10, 12 ], "y": [ 5, 7 ], "chance": 50, "repeat": [ 0, 2 ] }
-      ],
-      "place_monsters": [
-        { "monster": "GROUP_PANICROOM", "x": 11, "y": 6, "chance": 100 }
-      ]
+      "place_loot": [ { "group": "corpse_mansion", "x": [ 10, 12 ], "y": [ 5, 7 ], "chance": 50, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_PANICROOM", "x": 11, "y": 6, "chance": 100 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t2d" },
-            { "point":[0,0,0], "overmap": "mansion_t2" },
-            { "point":[0,0,1], "overmap": "mansion_t2u" }
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t2" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1167,9 +1042,7 @@
         "J": "f_bathtub",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 40 },
         "l": { "item": "mansion_bookcase", "chance": 100 },
@@ -1183,15 +1056,13 @@
         "J": { "item": "clutter_bathroom", "chance": 15 },
         ".": { "item": "clutter_bedroom", "chance": 2 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 11 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 11 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t2d"},
-            { "point":[0,0,-1], "overmap": "mansion_t2"},
-            { "point":[0,0,0], "overmap": "mansion_t2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t2d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t2" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1241,12 +1112,8 @@
         "m": "f_locker",
         "r": "f_rack",
         "f": "f_fridge",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
-        "L": [
-          "f_crate_c", "f_crate_o"
-        ]
+        "K": [ "f_crate_c", "f_crate_o" ],
+        "L": [ "f_crate_c", "f_crate_o" ]
       },
       "items": {
         "t": { "item": "table_wine", "chance": 45 },
@@ -1262,15 +1129,13 @@
         { "liquid": "wine_cabernet", "x": [ 0, 11 ], "y": [ 8, 12 ], "repeat": [ 4, 12 ] },
         { "liquid": "wine_chardonnay", "x": [ 0, 11 ], "y": [ 8, 12 ], "repeat": [ 2, 6 ] }
       ],
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t4d"},
-            { "point":[0,0,1], "overmap": "mansion_t4"},
-            { "point":[0,0,2], "overmap": "mansion_t4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t4d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t4" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1308,23 +1173,14 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         "T": "t_carpet_red",
         "C": "t_linoleum_gray",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         ")": "t_linoleum_gray",
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "2": "t_carpet_red",
         "R": "t_linoleum_gray",
@@ -1366,15 +1222,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t4d"},
-            { "point":[0,0,0], "overmap": "mansion_t4"},
-            { "point":[0,0,1], "overmap": "mansion_t4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t4d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t4" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1434,9 +1288,7 @@
         "Y": "f_sink",
         "J": "f_bathtub"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "z": { "item": "dresser_stack", "chance": 100 },
@@ -1450,11 +1302,11 @@
         ".": { "item": "clutter_bedroom", "chance": 2 }
       }
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t4d"},
-            { "point":[0,0,-1], "overmap": "mansion_t4"},
-            { "point":[0,0,0], "overmap": "mansion_t4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t4d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t4" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1521,9 +1373,7 @@
         "Y": "f_sink",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "t": { "item": "voyer", "chance": 40 },
         "r": { "item": "cleaning", "chance": 40 },
@@ -1533,15 +1383,13 @@
         "=": { "item": "clutter_gym", "chance": 2 },
         "-": { "item": "clutter_gym", "chance": 6 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 14 ], "y": [ 2, 9 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 14 ], "y": [ 2, 9 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t5d"},
-            { "point":[0,0,1], "overmap": "mansion_t5"},
-            { "point":[0,0,2], "overmap": "mansion_t5u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t5d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t5" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t5u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1579,24 +1427,13 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
         "%": "t_door_locked_interior",
-        "0": [
-          "t_tree", "t_tree", "t_tree", "t_grass", "t_dirt"
-        ],
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        "0": [ "t_tree", "t_tree", "t_tree", "t_grass", "t_dirt" ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         ">": "t_stairs_down",
         "<": "t_stairs_up",
         "&": "t_console_broken",
@@ -1609,9 +1446,7 @@
         "c": "f_counter",
         "m": "f_locker",
         "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "5": "f_indoor_plant",
         "s": "f_sofa",
         "1": "f_chair",
@@ -1632,15 +1467,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t5d"},
-            { "point":[0,0,0], "overmap": "mansion_t5"},
-            { "point":[0,0,1], "overmap": "mansion_t5u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t5d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t5" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t5u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1711,9 +1544,7 @@
         "Y": "f_sink",
         "J": "f_bathtub"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "z": { "item": "dresser_stack", "chance": 100 },
@@ -1731,15 +1562,13 @@
         "J": { "item": "clutter_bathroom", "chance": 15 },
         ".": { "item": "clutter_bedroom", "chance": 2 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 4, 21 ], "y": [ 2, 9 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 4, 21 ], "y": [ 2, 9 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t5d"},
-            { "point":[0,0,-1], "overmap": "mansion_t5"},
-            { "point":[0,0,0], "overmap": "mansion_t5u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t5d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t5" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t5u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1802,9 +1631,7 @@
         "t": "f_table",
         "m": "f_locker",
         "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "s": "f_sofa",
         "1": "f_chair",
         "h": "f_treadmill",
@@ -1836,18 +1663,14 @@
         "=": { "item": "clutter_basement", "chance": 1 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_vehicles": [
-        { "vehicle": "laundry_cart", "x": [ 14, 15 ], "y": [ 0, 6 ], "chance": 50 }
-      ],
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 }
-      ]
+      "place_vehicles": [ { "vehicle": "laundry_cart", "x": [ 14, 15 ], "y": [ 0, 6 ], "chance": 50 } ],
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t6d"},
-            { "point":[0,0,1], "overmap": "mansion_t6"},
-            { "point":[0,0,2], "overmap": "mansion_t6u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t6d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t6" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t6u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -1885,21 +1708,12 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         "C": "t_linoleum_gray",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "B": "t_carpet_red",
         "D": "t_carpet_red",
@@ -1932,9 +1746,7 @@
         "J": "f_bathtub",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "z": { "item": "dresser_stack", "chance": 100 },
@@ -1953,15 +1765,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t6d"},
-            { "point":[0,0,0], "overmap": "mansion_t6"},
-            { "point":[0,0,1], "overmap": "mansion_t6u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t6d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t6" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t6u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2043,9 +1853,7 @@
         "J": "f_bathtub",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "z": { "item": "dresser_servant", "chance": 45 },
@@ -2065,15 +1873,13 @@
         "-": { "item": "clutter_bedroom", "chance": 3 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 7 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 7 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t6d"},
-            { "point":[0,0,-1], "overmap": "mansion_t6"},
-            { "point":[0,0,0], "overmap": "mansion_t6u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t6d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t6" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t6u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2125,9 +1931,7 @@
         "d": "f_desk",
         "t": "f_table",
         "q": "f_oven",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "@": "f_statue",
         "/": "f_bench",
         "1": "f_chair",
@@ -2151,15 +1955,13 @@
         "-": { "item": "clutter_mansion", "chance": 1 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 12 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_t7d"},
-            { "point":[0,0,1], "overmap": "mansion_t7"},
-            { "point":[0,0,2], "overmap": "mansion_t7u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t7d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t7" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_t7u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2197,24 +1999,13 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         "T": "t_carpet_red",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        "0": [
-          "t_tree", "t_tree", "t_tree", "t_grass", "t_dirt"
-        ],
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        "0": [ "t_tree", "t_tree", "t_tree", "t_grass", "t_dirt" ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         ">": "t_stairs_down",
         "<": "t_stairs_up",
         "S": "t_carpet_red"
@@ -2234,9 +2025,7 @@
         "T": "f_table",
         "S": "f_sofa"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "l": { "item": "mansion_bookcase", "chance": 100 },
         "d": { "item": "office", "chance": 35 },
@@ -2251,15 +2040,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_t7d"},
-            { "point":[0,0,0], "overmap": "mansion_t7"},
-            { "point":[0,0,1], "overmap": "mansion_t7u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t7d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t7" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_t7u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2337,15 +2124,13 @@
         "-": { "item": "clutter_mansion", "chance": 3 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 8 ], "y": [ 2, 11 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 8 ], "y": [ 2, 11 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_t7d"},
-            { "point":[0,0,-1], "overmap": "mansion_t7"},
-            { "point":[0,0,0], "overmap": "mansion_t7u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_t7d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_t7" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_t7u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2380,26 +2165,19 @@
         "X#########X..X#########X",
         "XXXXXXXXXXX++XXXXXXXXXXX"
       ],
-      "terrain": {
-        "X": "t_brick_wall",
-        "#": "t_rock",
-        "+": "t_door_c"
-      },
-      "furniture": {
-        "m": "f_locker",
-        "r": "f_rack"
-      },
+      "terrain": { "X": "t_brick_wall", "#": "t_rock", "+": "t_door_c" },
+      "furniture": { "m": "f_locker", "r": "f_rack" },
       "items": {
         "m": { "item": "cleaning", "chance": 35 },
         "r": { "item": "tool_common_stack", "chance": 100 },
         ".": { "item": "clutter_basement", "chance": 1 }
       }
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_+1d"},
-            { "point":[0,0,1], "overmap": "mansion_+1"},
-            { "point":[0,0,2], "overmap": "mansion_+1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+1d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+1" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_+1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2440,13 +2218,8 @@
         ",": "t_sidewalk",
         "O": "t_window_domestic",
         "+": "t_door_c",
-        "0": [
-          "t_tree", "t_tree", "t_tree", "t_grass", "t_dirt"
-        ],
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        "0": [ "t_tree", "t_tree", "t_tree", "t_grass", "t_dirt" ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "@": "t_grass",
         "/": "t_grass",
         "~": "t_water_sh"
@@ -2454,9 +2227,7 @@
       "furniture": {
         "t": "f_table",
         "n": "f_cupboard",
-        "@": [
-          "f_statue", "f_statue", "f_statue", "f_null", "f_null"
-        ],
+        "@": [ "f_statue", "f_statue", "f_statue", "f_null", "f_null" ],
         "5": "f_indoor_plant",
         "8": "f_indoor_plant_y",
         "/": "f_bench",
@@ -2469,15 +2240,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_+1d"},
-            { "point":[0,0,0], "overmap": "mansion_+1"},
-            { "point":[0,0,1], "overmap": "mansion_+1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+1d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+1" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2522,19 +2291,14 @@
         "4": "t_concrete",
         "7": "t_concrete"
       },
-      "furniture": {
-        "4": "f_chair",
-        "7": "f_indoor_plant"
-      },
-      "items": {
-        ",": { "item": "clutter_mansion", "chance": 1 }
-      }
+      "furniture": { "4": "f_chair", "7": "f_indoor_plant" },
+      "items": { ",": { "item": "clutter_mansion", "chance": 1 } }
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_+1d"},
-            { "point":[0,0,-1], "overmap": "mansion_+1"},
-            { "point":[0,0,0], "overmap": "mansion_+1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_+1d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+1" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2596,12 +2360,8 @@
         "q": "f_oven",
         "n": "f_cupboard",
         "$": "f_safe_l",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
-        "k": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
+        "k": [ "f_crate_c", "f_crate_o" ],
         "@": "f_statue",
         "g": "f_dryer",
         "w": "f_washer",
@@ -2639,15 +2399,13 @@
         "$": { "item": "mansion_safe", "chance": 100 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_+2d"},
-            { "point":[0,0,1], "overmap": "mansion_+2"},
-            { "point":[0,0,2], "overmap": "mansion_+2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+2" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_+2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2696,9 +2454,7 @@
         "c": "f_table",
         "t": "f_table",
         "m": "f_locker",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "@": "f_statue",
         "1": "f_chair",
         "T": "f_table",
@@ -2706,9 +2462,7 @@
         "7": "f_indoor_plant",
         "Y": "f_sink"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "t": { "item": "table_ballroom", "chance": 35 },
         "1": { "item": "clutter_ballroom", "chance": 20 },
@@ -2718,15 +2472,13 @@
         "=": { "item": "clutter_ballroom", "chance": 3 },
         ".": { "item": "clutter_ballroom", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_+2d"},
-            { "point":[0,0,0], "overmap": "mansion_+2"},
-            { "point":[0,0,1], "overmap": "mansion_+2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+2" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2769,22 +2521,14 @@
         "+": "t_door_c",
         "[": "t_chaingate_c"
       },
-      "furniture": {
-        "t": "f_table",
-        "5": "f_indoor_plant",
-        "s": "f_sofa",
-        "a": "f_armchair"
-      },
-      "items": {
-        "t": { "item": "wetbar_counter", "chance": 35 },
-        ".": { "item": "clutter_mansion", "chance": 1 }
-      }
+      "furniture": { "t": "f_table", "5": "f_indoor_plant", "s": "f_sofa", "a": "f_armchair" },
+      "items": { "t": { "item": "wetbar_counter", "chance": 35 }, ".": { "item": "clutter_mansion", "chance": 1 } }
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_+2d"},
-            { "point":[0,0,-1], "overmap": "mansion_+2"},
-            { "point":[0,0,0], "overmap": "mansion_+2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_+2d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+2" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2840,12 +2584,8 @@
         "R": "f_rack",
         "n": "f_cupboard",
         "$": "f_gunsafe_ml",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
-        "k": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
+        "k": [ "f_crate_c", "f_crate_o" ],
         "s": "f_sofa",
         "@": "f_statue",
         "a": "f_armchair",
@@ -2868,15 +2608,13 @@
         "$": { "item": "mansion_gunsafe", "chance": 100 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_+2d"},
-            { "point":[0,0,1], "overmap": "mansion_+3"},
-            { "point":[0,0,2], "overmap": "mansion_+3u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+3" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_+3u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -2933,9 +2671,7 @@
         "m": "f_locker",
         "r": "f_rack",
         "f": "f_fridge",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "/": "f_bench",
         "h": "f_treadmill",
         "i": "f_ergometer",
@@ -2948,9 +2684,7 @@
         "Y": "f_sink",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "m": { "item": "cleaning", "chance": 35 },
         "r": { "item": "sports", "chance": 35 },
@@ -2966,18 +2700,14 @@
         "#": { "item": "clutter_gym", "chance": 1 },
         ".": { "item": "clutter_gym", "chance": 1 }
       },
-      "place_liquids": [
-        { "liquid": "water", "x": [ 20, 21 ], "y": [ 15, 17 ], "repeat": [ 2, 4 ] }
-      ],
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_liquids": [ { "liquid": "water", "x": [ 20, 21 ], "y": [ 15, 17 ], "repeat": [ 2, 4 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_+2d"},
-            { "point":[0,0,0], "overmap": "mansion_+3"},
-            { "point":[0,0,1], "overmap": "mansion_+3u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+3" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+3u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3012,26 +2742,15 @@
         "X*********|............X",
         "XXXXXOOXXXX++XXXXXXXXXXX"
       ],
-      "terrain": {
-        "X": "t_wall",
-        "*": "t_open_air_rooved",
-        "|": "t_railing_v",
-        "O": "t_window_domestic",
-        "+": "t_door_c"
-      },
-      "furniture": {
-        "/": "f_bench"
-      },
-      "items": {
-        "/": { "item": "snacks_fancy", "chance": 20 },
-        ".": { "item": "clutter_mansion", "chance": 1 }
-      }
+      "terrain": { "X": "t_wall", "*": "t_open_air_rooved", "|": "t_railing_v", "O": "t_window_domestic", "+": "t_door_c" },
+      "furniture": { "/": "f_bench" },
+      "items": { "/": { "item": "snacks_fancy", "chance": 20 }, ".": { "item": "clutter_mansion", "chance": 1 } }
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_+2d"},
-            { "point":[0,0,-1], "overmap": "mansion_+3"},
-            { "point":[0,0,0], "overmap": "mansion_+3u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_+2d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+3" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+3u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3084,18 +2803,14 @@
       },
       "furniture": {
         "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "D": "f_desk",
         ")": "f_trashcan",
         "N": "f_cupboard",
         "F": "f_fridge",
         "Y": "f_sink"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "r": { "item": "crate_stack", "chance": 100 },
         "K": { "item": "crate_stack", "chance": 100 },
@@ -3106,15 +2821,13 @@
         "Y": { "item": "softdrugs", "chance": 20 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 8 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 8 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_+4d"},
-            { "point":[0,0,1], "overmap": "mansion_+4"},
-            { "point":[0,0,2], "overmap": "mansion_+4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+4d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+4" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_+4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3159,10 +2872,7 @@
         ")": "t_carpet_red",
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "D": "t_carpet_red",
         "S": "t_carpet_red",
         "2": "t_carpet_red",
@@ -3197,15 +2907,13 @@
         "-": { "item": "clutter_mansion", "chance": 1 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_+4d"},
-            { "point":[0,0,0], "overmap": "mansion_+4"},
-            { "point":[0,0,1], "overmap": "mansion_+4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+4d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+4" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_+4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3250,28 +2958,20 @@
         "+": "t_door_c",
         "S": "t_carpet_red"
       },
-      "furniture": {
-        "t": "f_table",
-        "5": "f_indoor_plant",
-        "s": "f_sofa",
-        "a": "f_armchair",
-        "S": "f_sofa"
-      },
+      "furniture": { "t": "f_table", "5": "f_indoor_plant", "s": "f_sofa", "a": "f_armchair", "S": "f_sofa" },
       "items": {
         "t": { "item": "table_livingroom", "chance": 40 },
         ",": { "item": "clutter_mansion", "chance": 1 },
         "-": { "item": "clutter_mansion", "chance": 1 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 7 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 7 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_+4d"},
-            { "point":[0,0,-1], "overmap": "mansion_+4"},
-            { "point":[0,0,0], "overmap": "mansion_+4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_+4d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_+4" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_+4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3316,13 +3016,7 @@
         "p": "t_sewage_pump",
         "*": "t_machinery_old"
       },
-      "furniture": {
-        "m": "f_locker",
-        "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ]
-      },
+      "furniture": { "m": "f_locker", "r": "f_rack", "K": [ "f_crate_c", "f_crate_o" ] },
       "items": {
         "m": { "item": "plumber_gear", "chance": 40 },
         "r": { "item": "pantry", "chance": 25 },
@@ -3330,11 +3024,11 @@
         ".": { "item": "clutter_basement", "chance": 1 }
       }
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_c1d"},
-            { "point":[0,0,1], "overmap": "mansion_c1"},
-            { "point":[0,0,2], "overmap": "mansion_c1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c1d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c1" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_c1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3371,22 +3065,13 @@
       ],
       "terrain": {
         "X": "t_wall",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         "C": "t_linoleum_gray",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "!": "t_linoleum_gray",
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "x": "t_wall_glass",
         "@": "t_linoleum_gray",
@@ -3409,9 +3094,7 @@
         "Y": "f_sink",
         "j": "f_shower"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "C": { "item": "softdrugs", "chance": 30 },
         "/": { "item": "pool_side", "chance": 30 },
@@ -3419,15 +3102,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_c1d"},
-            { "point":[0,0,0], "overmap": "mansion_c1"},
-            { "point":[0,0,1], "overmap": "mansion_c1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c1d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c1" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3497,18 +3178,14 @@
         "E": { "item": "pool_table", "chance": 40 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_loot": [
-        { "item": "lawn_dart", "x": [ 11, 14 ], "y": [ 4, 6 ], "chance": 40, "repeat": [ 1, 2 ] }
-      ],
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 9, 21 ], "y": [ 17, 21 ], "density": 0.08 }
-      ]
+      "place_loot": [ { "item": "lawn_dart", "x": [ 11, 14 ], "y": [ 4, 6 ], "chance": 40, "repeat": [ 1, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 9, 21 ], "y": [ 17, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_c1d"},
-            { "point":[0,0,-1], "overmap": "mansion_c1"},
-            { "point":[0,0,0], "overmap": "mansion_c1u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_c1d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c1" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c1u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3557,9 +3234,7 @@
         "t": "f_table",
         "r": "f_rack",
         "q": "f_oven",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "g": "f_dryer",
         "w": "f_washer",
         "(": "f_trashcan",
@@ -3576,15 +3251,13 @@
         "(": { "item": "trash_cart", "chance": 30 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 8, 21 ], "y": [ 8, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 8, 21 ], "y": [ 8, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_c2d"},
-            { "point":[0,0,1], "overmap": "mansion_c2"},
-            { "point":[0,0,2], "overmap": "mansion_c2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c2d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c2" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_c2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3621,20 +3294,11 @@
       ],
       "terrain": {
         "X": "t_wall",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "N": "t_linoleum_gray",
         "Y": "t_linoleum_gray",
@@ -3660,9 +3324,7 @@
         "N": "f_cupboard",
         "Y": "f_sink"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "v": { "item": "a_television", "chance": 100 },
         "t": { "item": "table_livingroom", "chance": 30 },
@@ -3676,15 +3338,13 @@
         "'": { "item": "clutter_yard", "chance": 1 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_c2d"},
-            { "point":[0,0,0], "overmap": "mansion_c2"},
-            { "point":[0,0,1], "overmap": "mansion_c2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c2d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c2" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3754,9 +3414,7 @@
         "Y": "f_sink",
         "J": "f_bathtub"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "B": { "item": "bed", "chance": 30 },
@@ -3772,15 +3430,13 @@
         "-": { "item": "clutter_bedroom", "chance": 2 },
         ".": { "item": "clutter_bedroom", "chance": 2 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 9, 21 ], "y": [ 9, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 9, 21 ], "y": [ 9, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_c2d"},
-            { "point":[0,0,-1], "overmap": "mansion_c2"},
-            { "point":[0,0,0], "overmap": "mansion_c2u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_c2d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c2" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c2u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3815,17 +3471,11 @@
         "#######X.......X.....KKX",
         "#######XXXXXXXXXX++XXXXX"
       ],
-      "terrain": {
-        "X": "t_brick_wall",
-        "#": "t_rock",
-        "+": "t_door_c"
-      },
+      "terrain": { "X": "t_brick_wall", "#": "t_rock", "+": "t_door_c" },
       "furniture": {
         "d": "f_desk",
         "t": "f_table",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "@": "f_statue",
         "s": "f_sofa",
         "1": "f_chair",
@@ -3838,15 +3488,13 @@
         "v": { "item": "a_television", "chance": 100 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 8, 21 ], "y": [ 8, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 8, 21 ], "y": [ 8, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_c3d"},
-            { "point":[0,0,1], "overmap": "mansion_c3"},
-            { "point":[0,0,2], "overmap": "mansion_c3u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c3d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c3" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_c3u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -3884,20 +3532,11 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "D": "t_carpet_red",
         "2": "t_carpet_red",
@@ -3916,9 +3555,7 @@
         "2": "f_chair",
         "Y": "f_sink"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "l": { "item": "mansion_bookcase", "chance": 100 },
         "D": { "item": "office", "chance": 35 },
@@ -3929,15 +3566,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_c3d"},
-            { "point":[0,0,0], "overmap": "mansion_c3"},
-            { "point":[0,0,1], "overmap": "mansion_c3u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c3d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c3" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c3u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4003,15 +3638,13 @@
         "c": { "item": "snacks_fancy", "chance": 20 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 15, 21 ], "y": [ 9, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 15, 21 ], "y": [ 9, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_c3d"},
-            { "point":[0,0,-1], "overmap": "mansion_c3"},
-            { "point":[0,0,0], "overmap": "mansion_c3u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_c3d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c3" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c3u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4065,9 +3698,7 @@
       "furniture": {
         "m": "f_locker",
         "r": "f_rack",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ],
+        "K": [ "f_crate_c", "f_crate_o" ],
         "T": "f_table",
         "3": "f_chair",
         "G": "f_dryer",
@@ -4085,18 +3716,14 @@
         "=": { "item": "clutter_basement", "chance": 1 },
         ".": { "item": "clutter_basement", "chance": 1 }
       },
-      "place_vehicles": [
-        { "vehicle": "laundry_cart", "x": [ 13, 18 ], "y": [ 8, 9 ], "chance": 50 }
-      ],
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 13, 21 ], "y": [ 7, 21 ], "density": 0.08 }
-      ]
+      "place_vehicles": [ { "vehicle": "laundry_cart", "x": [ 13, 18 ], "y": [ 8, 9 ], "chance": 50 } ],
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 13, 21 ], "y": [ 7, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_c4d"},
-            { "point":[0,0,1], "overmap": "mansion_c4"},
-            { "point":[0,0,2], "overmap": "mansion_c4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c4d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c4" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_c4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4134,21 +3761,12 @@
       "terrain": {
         "X": "t_wall",
         "-": "t_carpet_red",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         "C": "t_linoleum_gray",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         "B": "t_carpet_red",
         "2": "t_carpet_red",
@@ -4176,9 +3794,7 @@
         "Y": "f_sink",
         "J": "f_bathtub"
       },
-      "toilets": {
-        "P": { }
-      },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "l": { "item": "mansion_bookcase", "chance": 100 },
@@ -4196,15 +3812,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_c4d"},
-            { "point":[0,0,0], "overmap": "mansion_c4"},
-            { "point":[0,0,1], "overmap": "mansion_c4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c4d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c4" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4253,17 +3867,8 @@
         "P": "t_linoleum_gray",
         "j": "t_linoleum_gray"
       },
-      "furniture": {
-        "b": "f_bed",
-        "z": "f_dresser",
-        "1": "f_chair",
-        "N": "f_cupboard",
-        "Y": "f_sink",
-        "j": "f_shower"
-      },
-      "toilets": {
-        "P": { }
-      },
+      "furniture": { "b": "f_bed", "z": "f_dresser", "1": "f_chair", "N": "f_cupboard", "Y": "f_sink", "j": "f_shower" },
+      "toilets": { "P": {  } },
       "items": {
         "b": { "item": "bed", "chance": 30 },
         "z": { "item": "dresser_servant", "chance": 45 },
@@ -4271,15 +3876,13 @@
         "N": { "item": "softdrugs", "chance": 40 },
         ".": { "item": "clutter_mansion", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 18, 21 ], "y": [ 8, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 18, 21 ], "y": [ 8, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_c4d"},
-            { "point":[0,0,-1], "overmap": "mansion_c4"},
-            { "point":[0,0,0], "overmap": "mansion_c4u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_c4d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c4" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c4u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4323,14 +3926,7 @@
         "]": "t_sewage_pipe",
         "p": "t_sewage_pump"
       },
-      "furniture": {
-        "r": "f_rack",
-        "t": "f_table",
-        "f": "f_fridge",
-        "K": [
-          "f_crate_c", "f_crate_o"
-        ]
-      },
+      "furniture": { "r": "f_rack", "t": "f_table", "f": "f_fridge", "K": [ "f_crate_c", "f_crate_o" ] },
       "items": {
         "t": { "item": "table_wine", "chance": 35 },
         "r": { "item": "pantry", "chance": 35 },
@@ -4343,15 +3939,13 @@
         { "liquid": "wine_cabernet", "x": [ 14, 22 ], "y": [ 8, 13 ], "repeat": [ 4, 12 ] },
         { "liquid": "wine_chardonnay", "x": [ 17, 22 ], "y": [ 8, 15 ], "repeat": [ 2, 6 ] }
       ],
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 11, 21 ], "y": [ 8, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 11, 21 ], "y": [ 8, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,0], "overmap": "mansion_c5d"},
-            { "point":[0,0,1], "overmap": "mansion_c5"},
-            { "point":[0,0,2], "overmap": "mansion_c5u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c5d" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c5" },
+      { "point": [ 0, 0, 2 ], "overmap": "mansion_c5u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4388,22 +3982,13 @@
       ],
       "terrain": {
         "X": "t_wall",
-        "*": [
-          "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub",
-          "t_grass"
-        ],
+        "*": [ "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_shrub", "t_grass" ],
         "C": "t_linoleum_gray",
-        "'": [
-          "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub",
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass"
-        ],
+        "'": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_shrub", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass" ],
         ")": "t_linoleum_gray",
         "O": "t_window_domestic",
         "+": "t_door_c",
-        ":": [
-          "t_grass", "t_grass", "t_grass", "t_grass", "t_grass",
-          "t_grass", "t_grass", "t_dirt"
-        ],
+        ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "=": "t_linoleum_gray",
         ">": "t_stairs_down",
         "R": "t_linoleum_gray",
@@ -4441,15 +4026,13 @@
         ":": { "item": "clutter_yard", "chance": 1 },
         "'": { "item": "clutter_yard", "chance": 1 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-1], "overmap": "mansion_c5d"},
-            { "point":[0,0,0], "overmap": "mansion_c5"},
-            { "point":[0,0,1], "overmap": "mansion_c5u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c5d" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c5" },
+      { "point": [ 0, 0, 1 ], "overmap": "mansion_c5u" }
+    ]
   },
   {
     "type": "mapgen",
@@ -4516,15 +4099,13 @@
         "-": { "item": "clutter_mansion", "chance": 2 },
         ".": { "item": "clutter_bedroom", "chance": 2 }
       },
-      "place_monsters": [
-        { "monster": "GROUP_MANSION", "x": [ 8, 21 ], "y": [ 12, 21 ], "density": 0.08 }
-      ]
+      "place_monsters": [ { "monster": "GROUP_MANSION", "x": [ 8, 21 ], "y": [ 12, 21 ], "density": 0.08 } ]
     },
-    "new_overmaps" : [
-            { "point":[0,0,-2], "overmap": "mansion_c5d"},
-            { "point":[0,0,-1], "overmap": "mansion_c5"},
-            { "point":[0,0,0], "overmap": "mansion_c5u"}
-        ]
+    "new_overmaps": [
+      { "point": [ 0, 0, -2 ], "overmap": "mansion_c5d" },
+      { "point": [ 0, 0, -1 ], "overmap": "mansion_c5" },
+      { "point": [ 0, 0, 0 ], "overmap": "mansion_c5u" }
+    ]
   },
   {
     "name": "GROUP_PANICROOM",

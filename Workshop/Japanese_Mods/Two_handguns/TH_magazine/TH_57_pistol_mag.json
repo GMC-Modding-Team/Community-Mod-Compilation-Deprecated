@@ -1,5 +1,4 @@
 [
-
   {
     "id": "TH_fn57mag",
     "copy-from": "fn57mag",
@@ -7,17 +6,9 @@
     "name": "Dual mag(5.7x28mm/FN Five Seven)",
     "name_plural": "Dual mag(5.7x28mm/FN Five Seven)",
     "description": "A standard capacity magazine for use with the FN Five-Seven.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reliability": -1
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "capacity": 2,
-      "reload_time": 1.5
-    }
+    "//": "Fixed value number correction",
+    "relative": { "reliability": -1 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "capacity": 2, "reload_time": 1.5 }
   }
 ]

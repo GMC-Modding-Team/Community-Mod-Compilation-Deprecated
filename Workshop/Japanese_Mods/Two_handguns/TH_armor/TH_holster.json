@@ -12,16 +12,11 @@
     "material": "leather",
     "symbol": "[",
     "color": "ltgray",
-    "covers": ["LEGS"],
+    "covers": [ "LEGS" ],
     "coverage": 10,
     "encumbrance": 2,
     "material_thickness": 1,
-    "use_action": {
-      "type": "holster",
-      "min_volume": 2,
-      "max_volume": 8,
-      "skills": ["pistol"]
-    },
-    "flags": ["WAIST", "OVERSIZE"]
+    "use_action": { "type": "holster", "min_volume": 2, "max_volume": 8, "skills": [ "pistol" ] },
+    "flags": [ "WAIST", "OVERSIZE" ]
   }
 ]

@@ -23,25 +23,26 @@
     "armor_cut": 6,
     "vision_day": 35,
     "vision_night": 3,
-    "starting_ammo": { "bot_flashbang_hack": 1},
-    "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 5,
-        "min_mul": 0.8
-      }
-    ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [
-        [ "mon_zombie_soldier_death_drops", 100 ],
-        [ "mon_zombie_grenadier", 100 ]
-      ]
-    },
+    "starting_ammo": { "bot_flashbang_hack": 1 },
+    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "mon_zombie_soldier_death_drops", 100 ], [ "mon_zombie_grenadier", 100 ] ] },
     "death_function": [ "DETONATE" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
-  },  
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "BLEED",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
+  },
   {
     "id": "mon_zombie_grenadier_elite",
     "type": "MONSTER",
@@ -67,24 +68,28 @@
     "armor_cut": 12,
     "vision_day": 35,
     "vision_night": 3,
-    "starting_ammo": { "bot_grenade_hack": 1},
-    "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 5,
-        "min_mul": 0.8
-      }
-    ],
+    "starting_ammo": { "bot_grenade_hack": 1 },
+    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.8 } ],
     "death_drops": {
       "subtype": "collection",
-      "groups": [
-        [ "mon_zombie_soldier_death_drops", 100 ],
-        [ "mon_zombie_grenadier_elite", 100 ]
-      ]
+      "groups": [ [ "mon_zombie_soldier_death_drops", 100 ], [ "mon_zombie_grenadier_elite", 100 ] ]
     },
     "death_function": [ "DETONATE" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "BLEED",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_spitter",
@@ -111,11 +116,23 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "ACID", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "upgrades": {
-      "half_life": 28,
-      "into": "mon_zombie_corrosive"
-    },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "ACID_BLOOD", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "upgrades": { "half_life": 28, "into": "mon_zombie_corrosive" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "ACIDPROOF",
+      "ACID_BLOOD",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_corrosive",
@@ -142,14 +159,27 @@
     "armor_stab": 12,
     "vision_night": 3,
     "luminance": 0,
-    "special_attacks": [
-      [ "ACID_BARF", 5 ]
-    ],
+    "special_attacks": [ [ "ACID_BARF", 5 ] ],
     "special_when_hit": [ "ACIDSPLASH", 100 ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "ACID", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "ACID_BLOOD", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "ACIDPROOF",
+      "ACID_BLOOD",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_smoker",
@@ -175,15 +205,23 @@
     "armor_fire": 5,
     "vision_day": 50,
     "vision_night": 3,
-    "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 5
-      },
-      [ "scratch", 15 ]
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 15 ] ],
     "death_function": [ "SMOKEBURST" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "HARDTOSHOOT", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "HARDTOSHOOT",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_bear_smoky",
@@ -210,16 +248,27 @@
     "armor_cut": 4,
     "vision_day": 30,
     "vision_night": 10,
-    "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 5
-      }
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5 } ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "SMOKEBURST" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "BLEED", "BASHES", "ATTACKMON", "BONES", "FAT", "FIREPROOF", "NO_BREATHE", "POISON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ANIMAL",
+      "PATH_AVOID_DANGER_1",
+      "WARM",
+      "FUR",
+      "BLEED",
+      "BASHES",
+      "ATTACKMON",
+      "BONES",
+      "FAT",
+      "FIREPROOF",
+      "NO_BREATHE",
+      "POISON"
+    ]
   },
   {
     "id": "mon_zombie_electric",
@@ -241,32 +290,31 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 0,
-	"special_attacks": [
-      {
-        "id": "scratch",
-        "damage_max_instance": [
-          {
-            "damage_type": "electric",
-            "amount": 8
-          }
-        ]
-      },
-      {
-        "type": "bite",
-        "damage_max_instance": [
-          {
-            "damage_type": "electric",
-            "amount": 12
-          }
-        ]
-      }
+    "special_attacks": [
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "electric", "amount": 8 } ] },
+      { "type": "bite", "damage_max_instance": [ { "damage_type": "electric", "amount": 12 } ] }
     ],
     "dodge": 2,
     "luminance": 8,
     "special_when_hit": [ "ZAPBACK", 50 ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "CBM_CIV", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "ELECTRIC",
+      "CBM_CIV",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_brute_shocker",
@@ -291,32 +339,30 @@
     "armor_bash": 4,
     "armor_cut": 6,
     "special_attacks": [
-	[ "SMASH", 30 ],
-      {
-        "id": "scratch",
-        "damage_max_instance": [
-          {
-            "damage_type": "electric",
-            "amount": 12
-          }
-        ]
-      },
-      {
-        "type": "bite",
-        "damage_max_instance": [
-          {
-            "damage_type": "electric",
-            "amount": 12
-          }
-        ]
-      }
+      [ "SMASH", 30 ],
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "electric", "amount": 12 } ] },
+      { "type": "bite", "damage_max_instance": [ { "damage_type": "electric", "amount": 12 } ] }
     ],
     "vision_night": 3,
     "luminance": 16,
     "special_when_hit": [ "ZAPBACK", 40 ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "CBM_SUBS", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "ELECTRIC",
+      "CBM_SUBS",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
   },
   {
     "id": "mon_zombie_shady",
@@ -341,18 +387,25 @@
     "melee_cut": 0,
     "vision_day": 20,
     "vision_night": 10,
-    "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 5
-      },
-      [ "GRAB", 7 ],
-      [ "scratch", 20 ]
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "BLEED",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_brute_ninja",
@@ -379,15 +432,24 @@
     "armor_cut": 5,
     "vision_day": 20,
     "vision_night": 10,
-    "special_attacks": [
-      [ "SMASH", 40 ],
-      [ "STRETCH_ATTACK", 20 ],
-      [ "LONGSWIPE", 20 ]
-    ],
+    "special_attacks": [ [ "SMASH", 40 ], [ "STRETCH_ATTACK", 20 ], [ "LONGSWIPE", 20 ] ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_necro",
@@ -411,22 +473,26 @@
     "melee_dice_sides": 3,
     "melee_cut": 0,
     "vision_night": 3,
-    "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 5
-      },
-      [ "GRAB", 7 ],
-      [ "scratch", 20 ]
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "upgrades": {
-      "half_life": 28,
-      "into_group": "GROUP_ZOMBIE_UPGRADE"
-    },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "upgrades": { "half_life": 28, "into_group": "GROUP_ZOMBIE_UPGRADE" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "BLEED",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_boomer",
@@ -451,16 +517,27 @@
     "armor_bash": 5,
     "armor_cut": 3,
     "vision_night": 3,
-    "special_attacks": [
-      [ "scratch", 20 ]
-    ],
+    "special_attacks": [ [ "scratch", 20 ] ],
     "death_drops": "default_zombie_items",
     "death_function": [ "NORMAL" ],
-    "upgrades": {
-      "half_life": 14,
-      "into": "mon_boomer_huge"
-    },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BILE_BLOOD", "BONES", "FAT", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
+    "upgrades": { "half_life": 14, "into": "mon_boomer_huge" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BILE_BLOOD",
+      "BONES",
+      "FAT",
+      "PUSH_MON",
+      "PATH_AVOID_DANGER_1"
+    ]
   },
   {
     "id": "mon_boomer_huge",
@@ -485,12 +562,26 @@
     "armor_bash": 5,
     "armor_cut": 5,
     "vision_night": 3,
-    "special_attacks": [
-      [ "scratch", 20 ]
-    ],
+    "special_attacks": [ [ "scratch", 20 ] ],
     "death_drops": "default_zombie_items",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "GOODHEARING", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BILE_BLOOD", "BONES", "FAT", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
+    "flags": [
+      "SEES",
+      "GOODHEARING",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BILE_BLOOD",
+      "BONES",
+      "FAT",
+      "PUSH_MON",
+      "PATH_AVOID_DANGER_1"
+    ]
   },
   {
     "id": "mon_zombie_gasbag",
@@ -513,10 +604,7 @@
     "melee_dice_sides": 4,
     "melee_cut": 0,
     "vision_night": 3,
-    "special_attacks": [
-      [ "SUICIDE", 20 ],
-      [ "scratch", 15 ]
-    ],
+    "special_attacks": [ [ "SUICIDE", 20 ], [ "scratch", 15 ] ],
     "death_drops": "default_zombie_items",
     "death_function": [ "GAS" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]

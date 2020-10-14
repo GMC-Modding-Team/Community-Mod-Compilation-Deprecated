@@ -5,9 +5,9 @@
     "name": "Zombie Queen",
     "description": "It looks like a beautiful girl, but is actually the queen of the undead who leads countless undead.",
     "species": "ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Q",
-    "color":"dkgray",
+    "default_faction": "zombie",
+    "symbol": "Q",
+    "color": "dkgray",
     "size": "MEDIUM",
     "diff": 40,
     "hp": 300,
@@ -26,33 +26,36 @@
     "dodge": 2,
     "vision_night": 6,
     "path_settings": { "max_dist": 10 },
-    "special_attacks": [ 
-        [ "RESURRECT", 5 ],
-        [ "UPGRADE", 5 ],
-        [ "TENTACLE", 3 ],
-        [ "PARROT", 3 ]
-     ],
+    "special_attacks": [ [ "RESURRECT", 5 ], [ "UPGRADE", 5 ], [ "TENTACLE", 3 ], [ "PARROT", 3 ] ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [
-        [ "default_ZQ_death_drops", 100 ],
-        [ "default_ZQrare_death_drops", 100 ]
-      ]
-    },
+    "death_drops": { "subtype": "collection", "groups": [ [ "default_ZQ_death_drops", 100 ], [ "default_ZQrare_death_drops", 100 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ,"REGENERATES_10"]
- },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PATH_AVOID_DANGER_2",
+      "PRIORITIZE_TARGETS",
+      "REGENERATES_10"
+    ]
+  },
   {
     "id": "mon_nec_ZQ_chang",
     "type": "MONSTER",
     "name": "Zombie Queen chang",
     "description": "It looks like a beautiful girl, but is really...?",
     "species": "ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Q",
-    "color":"dkgray",
+    "default_faction": "zombie",
+    "symbol": "Q",
+    "color": "dkgray",
     "size": "MEDIUM",
     "diff": 20,
     "hp": 200,
@@ -69,22 +72,33 @@
     "dodge": 1,
     "vision_night": 6,
     "path_settings": { "max_dist": 10 },
-    "special_attacks": [ 
-        [ "PARROT", 2 ]
-     ],
+    "special_attacks": [ [ "PARROT", 2 ] ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "death_drops": "default_ZQ_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ]
- },
- {
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PATH_AVOID_DANGER_2",
+      "PRIORITIZE_TARGETS"
+    ]
+  },
+  {
     "id": "mon_nec_banshee",
     "type": "MONSTER",
     "name": "Banshee",
     "description": "Originally it looked like a girl, but now her ego collapsed she's gone mad.",
     "species": [ "ZOMBIE" ],
-    "default_faction":"zombie",
+    "default_faction": "zombie",
     "diff": 3,
     "size": "SMALL",
     "hp": 60,
@@ -99,21 +113,13 @@
     "melee_dice_sides": 3,
     "melee_cut": 3,
     "vision_night": 10,
-    "special_attacks": [
-     [ "SHRIEK_ALERT", 10 ],
-      [ "SHRIEK_STUN", 5 ]
-    ],
-    "death_drops": {
-      "groups": [
-        [ "default_zombie_clothes", 100 ],
-        [ "child_items", 65 ]
-      ]
-    },
+    "special_attacks": [ [ "SHRIEK_ALERT", 10 ], [ "SHRIEK_STUN", 5 ] ],
+    "death_drops": { "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES",  "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
   },
-   {
+  {
     "id": "mon_nec_nemesis",
     "type": "MONSTER",
     "name": "Nemesis",
@@ -137,16 +143,27 @@
     "armor_cut": 3,
     "vision_night": 10,
     "dodge": 2,
-    "special_attacks": [
-      [ "BRANDISH", 10 ],
-      { "id": "impale" }
-    ],
+    "special_attacks": [ [ "BRANDISH", 10 ], { "id": "impale" } ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "BLEED", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
-  }
-   ,{
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "BLEED",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
+  },
+  {
     "id": "mon_nec_valkyrie",
     "type": "MONSTER",
     "name": "Valkyrie",
@@ -171,21 +188,26 @@
     "armor_stab": 12,
     "vision_night": 20,
     "luminance": 20,
-    "special_attacks": [
-      [ "TAZER", 10 ],
-      [ "SHOCKSTORM", 20 ]
-    ],
-    "death_drops": {
-      "groups": [
-        [ "robots", 4 ],
-        [ "default_zombie_death_drops", 100 ]
-      ]
-    },
+    "special_attacks": [ [ "TAZER", 10 ], [ "SHOCKSTORM", 20 ] ],
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "default_zombie_death_drops", 100 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "SEES", "HEARS", "SMELLS","BASHES", "CBM_SUBS", "CBM_OP","FLIES","POISON", "NO_BREATHE",  "BONES", "PUSH_MON","ELECTRONIC" ]
-  }
-   ,{
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "BASHES",
+      "CBM_SUBS",
+      "CBM_OP",
+      "FLIES",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "PUSH_MON",
+      "ELECTRONIC"
+    ]
+  },
+  {
     "id": "mon_nec_hiruko",
     "type": "MONSTER",
     "name": "Hiruko",
@@ -207,13 +229,10 @@
     "melee_cut": 3,
     "vision_night": 20,
     "luminance": 20,
-    "special_attacks": [
-     [ "scratch", 5 ]
-    ],
+    "special_attacks": [ [ "scratch", 5 ] ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "HEARS", "SMELLS","BASHES",  "REGENERATES_10","FLIES","POISON", "NO_BREATHE",  "BONES", "PUSH_MON"]
+    "flags": [ "HEARS", "SMELLS", "BASHES", "REGENERATES_10", "FLIES", "POISON", "NO_BREATHE", "BONES", "PUSH_MON" ]
   }
 ]
-

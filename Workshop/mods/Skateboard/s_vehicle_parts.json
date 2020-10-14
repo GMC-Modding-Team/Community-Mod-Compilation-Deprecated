@@ -1,63 +1,59 @@
 [
-	{
-        "type" : "vehicle_part",
-        "id" : "skate_board",
-        "name" : "skate board",
-        "symbol" : "#",
-        "color" : "red",
-        "broken_symbol" : "*",
-        "broken_color" : "red",
-        "damage_modifier" : 20,
-        "durability" : 80,
-        "folded_volume": 20,
-        "item" : "skate_board",
-		"fuel_type" : "muscle",
-		"power" : 55,
-        "difficulty" : 1,
-        "location" : "center",
-        "flags" : [
-            "ENGINE", "BOARDABLE", "FOLDABLE", "CONTROLS", "AISLE"
-        ],
-        "breaks_into" : [
-            {"item": "plastic_chunk", "min": 0, "max": 1}
-        ]
-    },{
-        "type" : "vehicle_part",
-        "id" : "skateframe",
-        "name" : "skateboard trucks",
-        "symbol" : "|",
-        "color" : "light_gray",
-        "broken_symbol" : "#",
-        "broken_color" : "light_gray",
-        "durability" : 175,
-		"folded_volume" : 6,
-        "item" : "skateframe",
-        "difficulty" : 1,
-        "location" : "structure",
-        "flags" : ["MOUNTABLE", "FOLDABLE"],
-        "breaks_into" : [
-            {"item": "pipe", "min": 0, "max": 4},
-            {"item": "scrap", "min": 2, "max": 4}
-        ]
-    },{
-        "type" : "vehicle_part",
-        "id" : "wheel_skateboard",
-        "name" : "skateboard wheels",
-        "symbol" : "o",
-        "color" : "dark_gray",
-        "broken_symbol" : "x",
-        "broken_color" : "light_gray",
-        "damage_modifier" : 50,
-        "durability" : 70,
-        "folded_volume": 4,
-        "wheel_width" : 7,
-        "item" : "wheel_skateboard",
-        "difficulty" : 1,
-        "location" : "under",
-        "flags" : ["WHEEL", "STABLE", "VARIABLE_SIZE", "FOLDABLE", "TOOL_WRENCH"],
-        "breaks_into" : [
-            {"item": "steel_lump", "min": 0, "max": 1},
-            {"item": "steel_chunk", "min": 1, "max": 2},
-            {"item": "scrap", "min": 1, "max": 2}]
-    }
+  {
+    "type": "vehicle_part",
+    "id": "skate_board",
+    "name": "skate board",
+    "symbol": "#",
+    "color": "red",
+    "broken_symbol": "*",
+    "broken_color": "red",
+    "damage_modifier": 20,
+    "durability": 80,
+    "folded_volume": 20,
+    "item": "skate_board",
+    "fuel_type": "muscle",
+    "power": 55,
+    "difficulty": 1,
+    "location": "center",
+    "flags": [ "ENGINE", "BOARDABLE", "FOLDABLE", "CONTROLS", "AISLE" ],
+    "breaks_into": [ { "item": "plastic_chunk", "min": 0, "max": 1 } ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "skateframe",
+    "name": "skateboard trucks",
+    "symbol": "|",
+    "color": "light_gray",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "durability": 175,
+    "folded_volume": 6,
+    "item": "skateframe",
+    "difficulty": 1,
+    "location": "structure",
+    "flags": [ "MOUNTABLE", "FOLDABLE" ],
+    "breaks_into": [ { "item": "pipe", "min": 0, "max": 4 }, { "item": "scrap", "min": 2, "max": 4 } ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "wheel_skateboard",
+    "name": "skateboard wheels",
+    "symbol": "o",
+    "color": "dark_gray",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 70,
+    "folded_volume": 4,
+    "wheel_width": 7,
+    "item": "wheel_skateboard",
+    "difficulty": 1,
+    "location": "under",
+    "flags": [ "WHEEL", "STABLE", "VARIABLE_SIZE", "FOLDABLE", "TOOL_WRENCH" ],
+    "breaks_into": [
+      { "item": "steel_lump", "min": 0, "max": 1 },
+      { "item": "steel_chunk", "min": 1, "max": 2 },
+      { "item": "scrap", "min": 1, "max": 2 }
+    ]
+  }
 ]

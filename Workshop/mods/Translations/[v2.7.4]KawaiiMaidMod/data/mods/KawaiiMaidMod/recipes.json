@@ -1,39 +1,35 @@
 [
   {
-   "type" : "recipe",
-   "result": "kawaii_maid_dress",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "skills_required": [ "tailor", 2 ],
-   "time": 50000,
-   "autolearn": true,
-   "components": [
-     [
-       ["maid_dress" , 1], [ "rag" , 24 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_dress",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "skills_required": [ "tailor", 2 ],
+    "time": 50000,
+    "autolearn": true,
+    "components": [ [ [ "maid_dress", 1 ], [ "rag", 24 ] ] ]
   },
-   {
-   "type" : "recipe",
-   "result": "kawaii_maid_dress_ex",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 4,
-   "skills_required": [ "tailor", 4 ],
-   "time": 50000,
-   "autolearn": true,
-   "using": [ [ "filament", 200 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [ [ "kawaii_maid_dress" , 1] ],
-     [ [ "rag" , 20 ] ],
-     [ [ "thread", 30 ] ],
-     [ [ "plastic_chunk" , 6 ] ],
-     [ [ "leather" , 12 ] ]
-   ]
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_dress_ex",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": [ "tailor", 4 ],
+    "time": 50000,
+    "autolearn": true,
+    "using": [ [ "filament", 200 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [
+      [ [ "kawaii_maid_dress", 1 ] ],
+      [ [ "rag", 20 ] ],
+      [ [ "thread", 30 ] ],
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "leather", 12 ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -42,14 +38,11 @@
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
     "difficulty": 9,
-    "skills_required": [[ "tailor", 9 ], ["electronics", 6 ]],
+    "skills_required": [ [ "tailor", 9 ], [ "electronics", 6 ] ],
     "time": 180000,
     "autolearn": true,
     "using": [ [ "filament", 200 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
     "components": [
       [ [ "rag", 30 ] ],
@@ -61,261 +54,203 @@
     ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_wedding_dress",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [
-       [ "rag", 10 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_wedding_dress",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "rag", 10 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_sister_dress",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [
-       [ "rag", 10 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_sister_dress",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "rag", 10 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_raincoat",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [ [ "plastic_chunk" , 6 ] ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_raincoat",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "plastic_chunk", 6 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_sailor_fuku",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [ [ "rag", 10 ] ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_sailor_fuku",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "rag", 10 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_sukumizu_kon",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [ [ "rag", 10 ] ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_sukumizu_kon",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "rag", 10 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_sukumizu_siro",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [ [ "rag", 10 ] ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_sukumizu_siro",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "rag", 10 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_nurse",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_SUIT",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [ [ "rag", 10 ] ]
-   ]
-  }, 
-  {
-   "type" : "recipe",
-   "result": "kawaii_maid_panties",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_LEGS",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "time": 20000,
-   "autolearn": true,
-   "using": [ [ "filament", 15 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [
-       ["panties" , 1], [ "rag", 3 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_nurse",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "rag", 10 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_maid_bra",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_TORSO",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "time": 20000,
-   "autolearn": true,
-   "using": [ [ "filament", 20 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [
-       ["bra" , 1], [ "rag", 4 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_panties",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": 20000,
+    "autolearn": true,
+    "using": [ [ "filament", 15 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "panties", 1 ], [ "rag", 3 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_maid_simapan_pink",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_LEGS",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "time": 20000,
-   "autolearn": true,
-   "using": [ [ "filament", 15 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [
-       ["panties" , 1], [ "rag", 3 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_bra",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": 20000,
+    "autolearn": true,
+    "using": [ [ "filament", 20 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "bra", 1 ], [ "rag", 4 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_maid_simabura_pink",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_TORSO",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "time": 20000,
-   "autolearn": true,
-   "using": [ [ "filament", 20 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [
-       ["bra" , 1], [ "rag", 4 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_simapan_pink",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": 20000,
+    "autolearn": true,
+    "using": [ [ "filament", 15 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "panties", 1 ], [ "rag", 3 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_maid_simapan_green",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_LEGS",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "time": 20000,
-   "autolearn": true,
-   "using": [ [ "filament", 15 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [
-       ["panties" , 1], [ "rag", 3 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_simabura_pink",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": 20000,
+    "autolearn": true,
+    "using": [ [ "filament", 20 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "bra", 1 ], [ "rag", 4 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_maid_simabura_green",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_TORSO",
-   "skill_used": "tailor",
-   "difficulty": 2,
-   "time": 20000,
-   "autolearn": true,
-   "using": [ [ "filament", 20 ] ],
-   "qualities": [ { "id": "SEW", "level": 1 } ],
-   "components": [
-     [
-       ["bra" , 1], [ "rag", 4 ]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_simapan_green",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": 20000,
+    "autolearn": true,
+    "using": [ [ "filament", 15 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "panties", 1 ], [ "rag", 3 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_bikini_bottom_black",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_LEGS",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [
-       ["bikini_bottom" , 1]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_maid_simabura_green",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": 20000,
+    "autolearn": true,
+    "using": [ [ "filament", 20 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "bra", 1 ], [ "rag", 4 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_bikini_top_black",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_TORSO",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [
-       ["bikini_top" , 1]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_bikini_bottom_black",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "bikini_bottom", 1 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_tailskirt_mini",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_LEGS",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [
-       ["nanoskirt" , 1]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_bikini_top_black",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "bikini_top", 1 ] ] ]
   },
   {
-   "type" : "recipe",
-   "result": "kawaii_vest",
-   "category": "CC_ARMOR",
-   "subcategory": "CSC_ARMOR_TORSO",
-   "skill_used": "tailor",
-   "difficulty": 0,
-   "time": 100,
-   "autolearn": true,
-   "components": [
-     [
-       ["vest" , 1]
-     ]
-   ]
+    "type": "recipe",
+    "result": "kawaii_tailskirt_mini",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "nanoskirt", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_vest",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": 100,
+    "autolearn": true,
+    "components": [ [ [ "vest", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_hat",
@@ -326,11 +261,7 @@
     "difficulty": 0,
     "time": 10000,
     "autolearn": true,
-    "components": [
-     [
-       ["maid_hat" , 1], [ "rag" , 14 ]
-     ]
-   ]
+    "components": [ [ [ "maid_hat", 1 ], [ "rag", 14 ] ] ]
   },
   {
     "result": "kawaii_maid_hat_thermal_off",
@@ -343,15 +274,8 @@
     "time": 120000,
     "autolearn": true,
     "using": [ [ "filament", 24 ], [ "soldering_standard", 100 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
-    "components": [
-      [ [ "rag", 10 ] ],
-      [ [ "element", 4 ] ],
-      [ [ "cable", 12 ] ]
-    ]
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "rag", 10 ] ], [ [ "element", 4 ] ], [ [ "cable", 12 ] ] ]
   },
   {
     "type": "recipe",
@@ -360,14 +284,11 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "tailor",
     "difficulty": 5,
-    "skills_required": [[ "tailor", 6 ], ["electronics", 3 ]],
+    "skills_required": [ [ "tailor", 6 ], [ "electronics", 3 ] ],
     "time": 180000,
     "autolearn": true,
     "using": [ [ "filament", 200 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
     "components": [
       [ [ "kawaii_maid_hat_thermal_off", 1 ] ],
@@ -383,16 +304,12 @@
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "electronics",
-    "skills_required": ["electronics", 8 ],
+    "skills_required": [ "electronics", 8 ],
     "difficulty": 8,
     "time": 100000,
     "autolearn": true,
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [
-       [ [ "goggles_ir" , 1 ] ],
-       [ [ "goggles_nv" , 1 ] ],
-       [ [ "kawaii_maid_megane_01" , 1 ] ]
-   ]
+    "components": [ [ [ "goggles_ir", 1 ] ], [ [ "goggles_nv", 1 ] ], [ [ "kawaii_maid_megane_01", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_01",
@@ -403,13 +320,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_03",
@@ -420,13 +331,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_05",
@@ -437,13 +342,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_06",
@@ -454,13 +353,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_07",
@@ -471,13 +364,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_08",
@@ -488,13 +375,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_megane_09",
@@ -505,13 +386,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       ["glasses_eye" , 1],
-       ["glasses_bifocal" , 1],
-       ["glasses_reading" , 1]
-     ]
-   ]
+    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
   },
   {
     "result": "kawaii_hat_cotton",
@@ -547,11 +422,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 5 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 5 ] ] ]
   },
   {
     "result": "kawaii_nurse_cap",
@@ -562,11 +433,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 5 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 5 ] ] ]
   },
   {
     "result": "kawaii_wedding_veil_b",
@@ -577,11 +444,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 5 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 5 ] ] ]
   },
   {
     "result": "kawaii_sister_veil",
@@ -592,11 +455,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 5 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 5 ] ] ]
   },
   {
     "result": "kawaii_wig_01",
@@ -607,11 +466,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_acc_hobeni",
@@ -622,11 +477,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_acc_eye_light",
@@ -637,11 +488,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_02",
@@ -652,11 +499,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_acc_darkface",
@@ -667,11 +510,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_acc_headset",
@@ -682,11 +521,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_03",
@@ -697,11 +532,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_04",
@@ -712,11 +543,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_05",
@@ -727,11 +554,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_06",
@@ -742,11 +565,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_07",
@@ -757,11 +576,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_08",
@@ -772,11 +587,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_09",
@@ -787,11 +598,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_10",
@@ -802,11 +609,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_11",
@@ -817,11 +620,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_12",
@@ -832,11 +631,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_13",
@@ -847,11 +642,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_14",
@@ -862,11 +653,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_15",
@@ -877,11 +664,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_16",
@@ -892,11 +675,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_17",
@@ -907,11 +686,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_wig_18",
@@ -922,11 +697,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_eff_heart",
@@ -937,11 +708,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_eff_hatena",
@@ -952,11 +719,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_eff_bikkuri",
@@ -967,11 +730,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_eff_ase",
@@ -982,11 +741,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_eff_tere",
@@ -997,11 +752,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_acc_angelring",
@@ -1012,11 +763,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "rag", 1 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 1 ] ] ]
   },
   {
     "result": "kawaii_maid_hardcase",
@@ -1083,11 +830,7 @@
     "autolearn": true,
     "using": [ [ "filament", 10 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-     [
-       [ "rag", 24 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 24 ] ] ]
   },
   {
     "result": "kawaii_maid_niso_thick",
@@ -1100,11 +843,7 @@
     "autolearn": true,
     "using": [ [ "filament", 10 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-     [
-       [ "rag", 18 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 18 ] ] ]
   },
   {
     "result": "kawaii_maid_niso_thin",
@@ -1117,11 +856,7 @@
     "autolearn": true,
     "using": [ [ "filament", 10 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-     [
-       [ "rag", 12 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 12 ] ] ]
   },
   {
     "result": "kawaii_socks_white",
@@ -1133,11 +868,7 @@
     "time": 1000,
     "autolearn": true,
     "using": [ [ "filament", 10 ] ],
-    "components": [
-     [
-       [ "rag", 6 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 6 ] ] ]
   },
   {
     "result": "kawaii_tights_black",
@@ -1150,11 +881,7 @@
     "autolearn": true,
     "using": [ [ "filament", 20 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-     [
-       [ "rag", 18 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 18 ] ] ]
   },
   {
     "result": "kawaii_tights_white",
@@ -1167,11 +894,7 @@
     "autolearn": true,
     "using": [ [ "filament", 20 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-     [
-       [ "rag", 18 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 18 ] ] ]
   },
   {
     "result": "kawaii_maid_garter",
@@ -1184,11 +907,7 @@
     "autolearn": true,
     "using": [ [ "filament", 30 ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-     [
-       [ "rag", 8 ]
-     ]
-   ]
+    "components": [ [ [ "rag", 8 ] ] ]
   },
   {
     "result": "kawaii_dress_shoes",
@@ -1199,11 +918,7 @@
     "difficulty": 0,
     "time": 100,
     "autolearn": true,
-    "components": [
-     [
-       [ "leather", 4 ]
-     ]
-   ]
+    "components": [ [ [ "leather", 4 ] ] ]
   },
   {
     "result": "kawaii_loafer",
@@ -1215,11 +930,7 @@
     "time": 100,
     "autolearn": true,
     "using": [ [ "filament", 10 ] ],
-    "components": [
-     [
-       [ "leather", 4 ]
-     ]
-   ]
+    "components": [ [ [ "leather", 4 ] ] ]
   },
   {
     "result": "kawaii_boots",
@@ -1231,11 +942,7 @@
     "time": 100,
     "autolearn": true,
     "using": [ [ "filament", 10 ] ],
-    "components": [
-     [
-       [ "leather", 6 ]
-     ]
-   ]
+    "components": [ [ [ "leather", 6 ] ] ]
   },
   {
     "result": "kawaii_boots_hi",
@@ -1248,10 +955,7 @@
     "time": 180000,
     "autolearn": true,
     "using": [ [ "filament", 100 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
     "components": [
       [ [ "nomex", 22 ] ],
@@ -1272,10 +976,7 @@
     "time": 180000,
     "autolearn": true,
     "using": [ [ "filament", 100 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
     "components": [
       [ [ "nomex", 22 ] ],

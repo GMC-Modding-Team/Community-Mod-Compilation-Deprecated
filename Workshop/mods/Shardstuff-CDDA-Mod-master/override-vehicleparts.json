@@ -1,7 +1,7 @@
 [
   {
-    "type" : "vehicle_part",
-    "id" : "v_curtain",
+    "type": "vehicle_part",
+    "id": "v_curtain",
     "name": "curtain",
     "symbol": "\"",
     "color": "dark_gray",
@@ -14,27 +14,17 @@
     "item": "sheet",
     "location": "on_windshield",
     "requirements": {
-      "install": {
-        "time": 30000,
-        "skills": [ [ "mechanics", 1 ] ],
-        "qualities": [ { "id": "SCREW", "level": 1 } ]
-      },
-      "repair": {
-        "skills": [ [ "mechanics", 1 ] ],
-        "time": 2000,
-        "using": [ [ "adhesive", 1 ] ]
-      },
-      "removal": {
-        "skills": [ [ "mechanics", 1 ] ],
-        "qualities": [ { "id": "SCREW", "level": 1 } ]
-      }
+      "install": { "time": 30000, "skills": [ [ "mechanics", 1 ] ], "qualities": [ { "id": "SCREW", "level": 1 } ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": 2000, "using": [ [ "adhesive", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "qualities": [ { "id": "SCREW", "level": 1 } ] }
     },
-    "flags": ["OPENABLE", "OPENCLOSE_INSIDE", "OPAQUE", "CURTAIN", "MULTISQUARE"],
-    "breaks_into": []
-  },{
-    "type" : "vehicle_part",
-    "id"   : "aisle_curtain",
-    "name" : "aisle curtain",
+    "flags": [ "OPENABLE", "OPENCLOSE_INSIDE", "OPAQUE", "CURTAIN", "MULTISQUARE" ],
+    "breaks_into": [  ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "aisle_curtain",
+    "name": "aisle curtain",
     "symbol": "\"",
     "color": "dark_gray",
     "broken_symbol": "0",
@@ -52,19 +42,13 @@
         "using": [ [ "rope_natural_short", 1 ] ],
         "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "CUT", "level": 1 } ]
       },
-      "repair": {
-        "skills": [ [ "mechanics", 1 ] ],
-        "time": 2000,
-        "using": [ [ "adhesive", 1 ] ]
-      },
-      "removal": {
-        "skills": [ [ "mechanics", 1 ] ],
-        "qualities": [ { "id": "SCREW", "level": 1 } ]
-      }
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": 2000, "using": [ [ "adhesive", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "qualities": [ { "id": "SCREW", "level": 1 } ] }
     },
-    "flags": ["OPENABLE", "OPAQUE", "OPENCLOSE_INSIDE", "MULTISQUARE"],
-    "breaks_into": []
-  },{
+    "flags": [ "OPENABLE", "OPAQUE", "OPENCLOSE_INSIDE", "MULTISQUARE" ],
+    "breaks_into": [  ]
+  },
+  {
     "id": "crane_medium",
     "type": "vehicle_part",
     "name": "boom crane",

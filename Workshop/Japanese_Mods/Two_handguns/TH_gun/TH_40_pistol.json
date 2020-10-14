@@ -6,23 +6,12 @@
     "name": "Twin hand gun(.40 caliber / glock 22)",
     "description": "It is both hand-held glock 22.",
     "reload": 150,
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
     "magazines": [
       [ "40", [ "TH_glock40mag", "TH_glock40bigmag" ] ],
@@ -30,30 +19,20 @@
       [ "45", [ "TH_m1911mag", "TH_m1911bigmag" ] ],
       [ "9mm", [ "TH_glockmag", "TH_glockbigmag" ] ]
     ]
-  },  {
+  },
+  {
     "id": "TH_sig_40",
     "copy-from": "sig_40",
     "type": "GUN",
     "name": "Twin hand gun(.40 caliber / SIG Pro)",
     "description": "It is both hand-held SIG Pro.",
     "reload": 150,
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
     "magazines": [
       [ "40", [ "TH_sig40mag" ] ],
@@ -61,61 +40,34 @@
       [ "45", [ "TH_m1911mag", "TH_m1911bigmag" ] ],
       [ "9mm", [ "TH_glockmag", "TH_glockbigmag" ] ]
     ]
-  }, 
-   {
+  },
+  {
     "id": "TH_surv_six_shooter",
     "copy-from": "surv_six_shooter",
     "type": "GUN",
     "name": "Twin hand gun(.40 caliber / survivor 6 shooter)",
     "description": "It is a handheld survivor 6 shooter.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reload": 1.5,
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "revolver", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "clip_size": 2,
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "reload": 1.5, "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "revolver", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "clip_size": 2, "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] }
-
-  }, 
-   {
+  },
+  {
     "id": "TH_sw_610",
     "copy-from": "sw_610",
     "type": "GUN",
     "name": "Twin hand gun(.40 caliber/S&W 610)",
     "description": "It is both hand held S & W 610.",
     "reload": 150,
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "revolver", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "clip_size": 2,
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "revolver", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "clip_size": 2, "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] }
-
   }
 ]

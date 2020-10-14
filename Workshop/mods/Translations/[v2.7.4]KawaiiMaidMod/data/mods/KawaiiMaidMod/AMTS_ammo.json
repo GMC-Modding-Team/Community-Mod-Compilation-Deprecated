@@ -1,30 +1,30 @@
 [
- {
-	"type" : "ammunition_type",
-	"id" :"kawaii_308AM",
-	"name" : ".308 AM",
-	"default" : "kawaii_308AM"
- },
- {
-	"id": "kawaii_308AM",
-	"type": "AMMO",
-	"name": "弾薬(.308口径/A&M専用設計)",
-	"description": "A&M製品専用設計の.308口径弾です。",
-	"weight": 0,
-	"volume": 0,
-	"price": 0,
-	"material": [ "kawaii_amsteel", "powder" ],
-	"symbol": "=",
-	"color": "yellow",
-	"count": 20,
-	"stack_size": 20,
-	"ammo_type": "kawaii_308AM",
-	"range": 50,
-	"damage": { "damage_type": "bullet", "amount": 45 },
-	"pierce": 20,
-	"dispersion": 20,
-	"recoil": 500,
-	"effects": [ "COOKOFF" ],
-	"flags" : [ "UNRECOVERABLE", "NO_SALVAGE" ]
- }
+  {
+    "type": "ammunition_type",
+    "id": "kawaii_308AM",
+    "name": ".308 AM",
+    "default": "kawaii_308AM"
+  },
+  {
+    "id": "kawaii_308AM",
+    "type": "AMMO",
+    "name": "弾薬(.308口径/A&M専用設計)",
+    "description": "A&M製品専用設計の.308口径弾です。",
+    "weight": 0,
+    "volume": 0,
+    "price": 0,
+    "material": [ "kawaii_amsteel", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 20,
+    "stack_size": 20,
+    "ammo_type": "kawaii_308AM",
+    "range": 50,
+    "damage": { "damage_type": "bullet", "amount": 45 },
+    "pierce": 20,
+    "dispersion": 20,
+    "recoil": 500,
+    "effects": [ "COOKOFF" ],
+    "flags": [ "UNRECOVERABLE", "NO_SALVAGE" ]
+  }
 ]

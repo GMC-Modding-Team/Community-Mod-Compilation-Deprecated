@@ -1,67 +1,53 @@
 [
-	{
-		"abstract": "robot_base",
-        "type": "profession",
-		"name": "robot template",
-		"description": "Robot Template",
-		"points": 0,
-		"CBMs":[
-			"bio_power_storage_mkII",
-			"bio_power_storage_mkII",
-			"bio_power_storage_mkII",
-			"bio_power_storage_mkII",
-			"bio_ads",
-			"bio_batteries",
-			"bio_adrenaline",
-			"bio_armor_eyes",
-			"bio_armor_arms",
-			"bio_armor_head",
-			"bio_armor_legs",
-			"bio_armor_torso",
-			"bio_blade",
-			"bio_climate",
-			"bio_ears",
-			"bio_eye_enhancer",
-			"bio_night_vision",
-			"bio_nanobots",
-			"bio_cloak",
-			"bio_cqb",
-			"bio_eye_optic",
-			"bio_gills",
-			"bio_heatsink",
-			"bio_hydraulics",
-			"bio_fingerhack",
-			"bio_lockpick",
-			"bio_metabolics",
-			"bio_power_armor_interface_mkII",
-			"bio_sunglasses",
-			"bio_targeting",
-			"bio_tools",
-			"bio_torsionratchet"
-		]
-    },
-	{
-		"type": "profession",
-		"copy-from": "robot_base",
-		"ident": "roboprisoner",
-		"name": "Robotic Prisoner",
-		"description": "After many experiments against you, you turned more machine than human. This sent you on a rampage that had you kill 5 innocent people which promptly put you in prison.",
-		"points": 3,
-		"traits": [
-            "PARKOUR"
-        ],
-        "items": {
-            "both": [
-				"tank_top",
-				"striped_pants"
-            ],
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boy_shorts"
-            ]
-        }
-	}
+  {
+    "abstract": "robot_base",
+    "type": "profession",
+    "name": "robot template",
+    "description": "Robot Template",
+    "points": 0,
+    "CBMs": [
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_ads",
+      "bio_batteries",
+      "bio_adrenaline",
+      "bio_armor_eyes",
+      "bio_armor_arms",
+      "bio_armor_head",
+      "bio_armor_legs",
+      "bio_armor_torso",
+      "bio_blade",
+      "bio_climate",
+      "bio_ears",
+      "bio_eye_enhancer",
+      "bio_night_vision",
+      "bio_nanobots",
+      "bio_cloak",
+      "bio_cqb",
+      "bio_eye_optic",
+      "bio_gills",
+      "bio_heatsink",
+      "bio_hydraulics",
+      "bio_fingerhack",
+      "bio_lockpick",
+      "bio_metabolics",
+      "bio_power_armor_interface_mkII",
+      "bio_sunglasses",
+      "bio_targeting",
+      "bio_tools",
+      "bio_torsionratchet"
+    ]
+  },
+  {
+    "type": "profession",
+    "copy-from": "robot_base",
+    "ident": "roboprisoner",
+    "name": "Robotic Prisoner",
+    "description": "After many experiments against you, you turned more machine than human. This sent you on a rampage that had you kill 5 innocent people which promptly put you in prison.",
+    "points": 3,
+    "traits": [ "PARKOUR" ],
+    "items": { "both": [ "tank_top", "striped_pants" ], "male": [ "boxer_shorts" ], "female": [ "sports_bra", "boy_shorts" ] }
+  }
 ]

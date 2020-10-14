@@ -19,10 +19,8 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "multitool",
-    
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_scissors",
     "type": "TOOL",
@@ -46,7 +44,6 @@
     "qualities": [ [ "CUT", 1 ] ],
     "flags": [ "SPEAR" ]
   },
-  
   {
     "id": "multitool_hammer",
     "type": "TOOL",
@@ -68,9 +65,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_hammer",
     "use_action": "HAMMER",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_crowbar",
     "type": "TOOL",
@@ -92,9 +88,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_crowbar",
     "use_action": "CROWBAR",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_scalpel",
     "type": "TOOL",
@@ -119,7 +114,6 @@
     "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ] ],
     "flags": [ "SPEAR" ]
   },
-  
   {
     "id": "multitool_saw",
     "type": "TOOL",
@@ -141,9 +135,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_saw",
     "use_action": "LUMBER",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_hacksaw",
     "type": "TOOL",
@@ -165,9 +158,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_hacksaw",
     "use_action": "HACKSAW",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_puller",
     "sub": "puller",
@@ -189,10 +181,8 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "multitool_puller",
-    
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_boltcutters",
     "type": "TOOL",
@@ -214,9 +204,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_boltcutters",
     "use_action": "BOLTCUTTERS",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_picklocks",
     "type": "TOOL",
@@ -237,12 +226,8 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "multitool",
-    "use_action": {
-      "type": "picklock",
-      "pick_quality": 5
-    }
+    "use_action": { "type": "picklock", "pick_quality": 5 }
   },
-  
   {
     "id": "multitool_pickaxe",
     "type": "TOOL",
@@ -264,9 +249,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_pickaxe",
     "use_action": "PICKAXE",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_shovel",
     "type": "TOOL",
@@ -288,9 +272,8 @@
     "ammo": "NULL",
     "revert_to": "multitool_shovel",
     "use_action": "DIG",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_injector",
     "type": "TOOL",
@@ -312,9 +295,8 @@
     "ammo": "ampoule",
     "revert_to": "multitool_injector",
     "use_action": "JET_INJECTOR",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
     "id": "multitool_hoe",
     "type": "TOOL",
@@ -336,11 +318,10 @@
     "ammo": "NULL",
     "revert_to": "multitool_hoe",
     "use_action": "MAKEMOUND",
-    "qualities": [["CUT", 1]]
+    "qualities": [ [ "CUT", 1 ] ]
   },
-  
   {
-    "id":"zp_lighter",
+    "id": "zp_lighter",
     "type": "TOOL",
     "symbol": ",",
     "color": "blue",
@@ -359,12 +340,8 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "null",
-    "use_action": {
-            "type": "firestarter",
-            "moves_cost": 15
-    }
+    "use_action": { "type": "firestarter", "moves_cost": 15 }
   },
-  
   {
     "id": "zp_irradiator",
     "type": "TOOL",
@@ -385,9 +362,7 @@
     "turns_per_charge": 0,
     "ammo": "plutonium",
     "revert_to": "null"
-    
   },
-  
   {
     "id": "zp_3D_printer",
     "type": "TOOL",
@@ -408,9 +383,8 @@
     "turns_per_charge": 0,
     "ammo": "3d_resin",
     "revert_to": "null",
-    "qualities": [["ZP_FABRICATOR", 1]]
+    "qualities": [ [ "ZP_FABRICATOR", 1 ] ]
   },
-  
   {
     "id": "airdrop_tank_gasoline",
     "type": "TOOL",
@@ -431,9 +405,7 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "null"
-    
   },
-  
   {
     "id": "zp_token",
     "type": "TOOL",
@@ -454,9 +426,7 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "null"
-    
   },
-  
   {
     "id": "zp_chem_set",
     "type": "TOOL",
@@ -477,7 +447,6 @@
     "turns_per_charge": 0,
     "ammo": "NULL",
     "revert_to": "null",
-    
-    "qualities": [["CHEM", 5]]
+    "qualities": [ [ "CHEM", 5 ] ]
   }
 ]

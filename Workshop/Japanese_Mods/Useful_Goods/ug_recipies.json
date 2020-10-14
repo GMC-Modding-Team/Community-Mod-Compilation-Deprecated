@@ -1,42 +1,30 @@
 [
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "ug_cashcard_reader",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_TOOLS",
     "skill_used": "electronics",
-    "skills_required": ["fabrication", 4],
+    "skills_required": [ "fabrication", 4 ],
     "difficulty": 6,
     "time": 97500,
     "reversible": false,
-    "book_learn": [
-      ["textbook_electronics",  5],
-      ["advanced_electronics",  5],
-      ["recipe_lab_elec"     ,  5],
-      ["radio_book"          ,  5]
-    ],
-    "qualities": [
-      {"id": "SCREW_FINE", "level": 1 ,"amount": 1},
-      {"id": "HAMMER"    , "level": 1, "amount": 1}
-    ],
-    "tools": [
-      [["soldering_iron"  , 40] ,
-       ["toolset"         , 40]],
-      [["software_hacking", -1]]
-    ],
+    "book_learn": [ [ "textbook_electronics", 5 ], [ "advanced_electronics", 5 ], [ "recipe_lab_elec", 5 ], [ "radio_book", 5 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 }, { "id": "HAMMER", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "soldering_iron", 40 ], [ "toolset", 40 ] ], [ [ "software_hacking", -1 ] ] ],
     "components": [
-      [["processor"       ,  1]],
-      [["RAM"             ,  1]],
-      [["small_lcd_screen",  1]],
-      [["e_scrap"         ,  1]],
-      [["circuit"         ,  1]],
-      [["power_supply"    ,  1]],
-      [["plastic_chunk"   ,  3]],
-      [["scrap"           ,  1]],
-      [["solar_cell"      ,  1]]
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "e_scrap", 1 ] ],
+      [ [ "circuit", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "plastic_chunk", 3 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "solar_cell", 1 ] ]
     ]
-
-  },{
+  },
+  {
     "result": "ug_garage_jack",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -45,33 +33,18 @@
     "difficulty": 5,
     "skills_required": [ "mechanics", 4 ],
     "time": 50000,
-    "book_learn": [
-      ["manual_mechanics"    , 3],
-      ["manual_fabrication"  , 5],
-      ["textbook_fabrication", 5]
-    ],
+    "book_learn": [ [ "manual_mechanics", 3 ], [ "manual_fabrication", 5 ], [ "textbook_fabrication", 5 ] ],
     "qualities": [
-      [{"id": "HAMMER", "level": 2}],
-      [{"id": "SCREW" , "level": 1}],
-      [{"id": "WRENCH", "level": 1}],
-      [{"id": "GLARE" , "level": 2}]
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "SCREW", "level": 1 } ],
+      [ { "id": "WRENCH", "level": 1 } ],
+      [ { "id": "GLARE", "level": 2 } ]
     ],
-    "tools": [
-      [["welder"        ,  50],
-       ["soldering_iron", 100],
-       ["toolset"       ,  50],
-       ["oxy_torch"     ,  50]]
-    ],
-    "components": [
-      [["jack"        ,  1]],
-      [["scrap"       ,  5]],
-      [["spring"      ,  1]],
-      [["pipe"        ,  1]],
-      [["wheel_caster",  1]]
-    ]
-
-  },{
-    "type" : "recipe",
+    "tools": [ [ [ "welder", 50 ], [ "soldering_iron", 100 ], [ "toolset", 50 ], [ "oxy_torch", 50 ] ] ],
+    "components": [ [ [ "jack", 1 ] ], [ [ "scrap", 5 ] ], [ [ "spring", 1 ] ], [ [ "pipe", 1 ] ], [ [ "wheel_caster", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "ug_shooting_target",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
@@ -79,18 +52,11 @@
     "difficulty": 1,
     "time": 20000,
     "reversible": false,
-    "book_learn": [
-      ["mag_guns"       , 1],
-      ["mag_rifle"      , 1],
-      ["mag_pistol"     , 1]
-    ],
-    "components": [
-      [["rag", 2]],
-      [["2x4", 2]]
-    ]
-
-  },{
-    "type" : "recipe",
+    "book_learn": [ [ "mag_guns", 1 ], [ "mag_rifle", 1 ], [ "mag_pistol", 1 ] ],
+    "components": [ [ [ "rag", 2 ] ], [ [ "2x4", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "ug_dart_board",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
@@ -98,14 +64,7 @@
     "difficulty": 1,
     "time": 15000,
     "reversible": false,
-    "book_learn": [
-      ["mag_fabrication", 1],
-      ["recipe_arrows"  , 1],
-      ["recipe_bows"    , 1]
-    ],
-    "components": [
-      [["rag", 1]],
-      [["2x4", 1]]
-    ]
+    "book_learn": [ [ "mag_fabrication", 1 ], [ "recipe_arrows", 1 ], [ "recipe_bows", 1 ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "2x4", 1 ] ] ]
   }
 ]

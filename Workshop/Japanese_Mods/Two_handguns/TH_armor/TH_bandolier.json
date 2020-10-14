@@ -3,7 +3,7 @@
     "id": "bandolier_hair_ornament",
     "type": "ARMOR",
     "name": "hair ornaments",
-    "description" : "The feeling I saw is two ordinary cone-shaped hair ornaments, but in reality there is space to store bullets. It is -Hello-.",
+    "description": "The feeling I saw is two ordinary cone-shaped hair ornaments, but in reality there is space to store bullets. It is -Hello-.",
     "weight": 20,
     "volume": 0,
     "price": 100,
@@ -14,11 +14,7 @@
     "coverage": 2,
     "encumbrance": 0,
     "material_thickness": 1,
-    "use_action": {
-        "type": "bandolier",
-        "capacity": 2,
-        "ammo": [ "32", "762x25", "38", "40", "44", "45", "9x18", "9mm", "454", "500" ]
-    },
-    "flags": [ "WATER_FRIENDLY",  "OVERSIZE", "FANCY" ]
+    "use_action": { "type": "bandolier", "capacity": 2, "ammo": [ "32", "762x25", "38", "40", "44", "45", "9x18", "9mm", "454", "500" ] },
+    "flags": [ "WATER_FRIENDLY", "OVERSIZE", "FANCY" ]
   }
 ]

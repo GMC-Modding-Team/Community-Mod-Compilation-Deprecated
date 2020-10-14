@@ -1,74 +1,69 @@
 [
-   {
-    "type" : "item_group",
-    "id" : "ant_gun",
-    "items" : [
-        ["wgarand", 25],
-        ["wspring", 25],
-        ["wm16", 30],
-	["wcolt", 35],
-	["w1917", 30],
-	["wp38" , 35],
-	["w1873", 25],
-	["w1886", 25],
-	["wcarbine", 25],
-	["wt38", 20],
-	["lc_sword", 35]
-        ]
-    },
-    {
-    "type" : "item_group",
-    "id" : "ant_ammo",
-    "items" : [
-        ["357m", 30],
-	["65a", 30],
-	["45_acp", 35],
-	["30c", 25]
-        ]
-    },
-    {
-        "type": "overmap_terrain",
-        "id" : "antique",
-        "name" : "antique weapon store",
-        "rotate" : true,
-        "sym" : [94, 62, 118, 60],
-        "color" : "brown",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 2,
-        "sidewalk" : true,
-        "mapgen": [
-            {
-            "method": "json",
-            "weight": 10000,
-            "object": {
-            "rows": [
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",,,,,,,,,,__,,,,,,,,,,,,",
-        ",-----OO--++--OO------|,",
-        ",|.#....??..??.......^|,",
-        ",|.#..................|,",
-        ",|.#..................|,",
-        ",|.#.....##....##.....|,",
-        ",|.#.....##....##.....|,",
-        ",|.#........^Y.......?|,",
-        ",O.#.....##.Y^.##.....O,",
-        ",O.#.....##....##.....O,",
-        ",|.#.................?|,",
-        ",|.#..................|,",
-        ",|.#............------|,",
-        ",|.#............|ltS^F|,",
-        ",|.#########....|.....|,",
-        ",|..............L..ccc|,",
-        ",-----------OOOO------|,",
-        ",,,,,,,,,,,,,,,,,,,,,,,,"
-            ],
-            "terrain": {
+  {
+    "type": "item_group",
+    "id": "ant_gun",
+    "items": [
+      [ "wgarand", 25 ],
+      [ "wspring", 25 ],
+      [ "wm16", 30 ],
+      [ "wcolt", 35 ],
+      [ "w1917", 30 ],
+      [ "wp38", 35 ],
+      [ "w1873", 25 ],
+      [ "w1886", 25 ],
+      [ "wcarbine", 25 ],
+      [ "wt38", 20 ],
+      [ "lc_sword", 35 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "ant_ammo",
+    "items": [ [ "357m", 30 ], [ "65a", 30 ], [ "45_acp", 35 ], [ "30c", 25 ] ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "antique",
+    "name": "antique weapon store",
+    "rotate": true,
+    "sym": [ 94, 62, 118, 60 ],
+    "color": "brown",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "sidewalk": true,
+    "mapgen": [
+      {
+        "method": "json",
+        "weight": 10000,
+        "object": {
+          "rows": [
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",,,,,,,,,,__,,,,,,,,,,,,",
+            ",-----OO--++--OO------|,",
+            ",|.#....??..??.......^|,",
+            ",|.#..................|,",
+            ",|.#..................|,",
+            ",|.#.....##....##.....|,",
+            ",|.#.....##....##.....|,",
+            ",|.#........^Y.......?|,",
+            ",O.#.....##.Y^.##.....O,",
+            ",O.#.....##....##.....O,",
+            ",|.#.................?|,",
+            ",|.#..................|,",
+            ",|.#............------|,",
+            ",|.#............|ltS^F|,",
+            ",|.#########....|.....|,",
+            ",|..............L..ccc|,",
+            ",-----------OOOO------|,",
+            ",,,,,,,,,,,,,,,,,,,,,,,,"
+          ],
+          "terrain": {
             ".": "t_floor",
             ",": "t_pavement",
             "_": "t_pavement_y",
@@ -92,11 +87,11 @@
             "T": "t_floor",
             "l": "t_floor",
             "S": "t_floor",
-	    "Y": "t_floor",
-	    "?": "t_floor",
+            "Y": "t_floor",
+            "?": "t_floor",
             "G": "t_floor"
-            },
-            "furniture": {
+          },
+          "furniture": {
             ".": "f_null",
             "_": "f_null",
             ",": "f_null",
@@ -113,7 +108,7 @@
             "#": "f_counter",
             "r": "f_rack",
             "^": "f_indoor_plant",
-	    "Y": "f_indoor_plant_y",
+            "Y": "f_indoor_plant_y",
             "t": "f_table",
             "F": "f_fridge",
             "@": "f_bed",
@@ -121,30 +116,26 @@
             "T": "f_toilet",
             "l": "f_locker",
             "S": "f_sink",
-	    "?": "f_statue",
+            "?": "f_statue",
             "G": "f_oven"
-            },
-                "place_specials": [
-                    
-                ],
-                "comment": "randomly picked from a group ---v",
-                "place_groups": [
-		    { "item": "fridgesnacks", "chance": 90, "x": 21, "y": 19 },
-		    { "item": "ant_gun", "chance": 50, "x": 17, "y": 19 },
-                    { "item": "ant_gun", "chance": 70, "x": 3, "y": [8,15] },
-		    { "item": "ant_gun", "chance": 65, "x": 3, "y": [8,15] },
-		    { "item": "ant_gun", "chance": 70, "x": 3, "y": [8,15] },
-		    { "item": "ant_gun", "chance": 70, "x": 3, "y": [8,15] },
-
-		    
-		    { "item": "ammo", "chance": 80, "x": [3,8], "y": 20 },
-		    { "item": "ammo", "chance": 80, "x": [3,8], "y": 20 },
-		    { "item": "ant_ammo", "chance": 75, "x": [3,8], "y": 20 }                 
-                ],
-            "comment": "end of mapgen json definition ---v"
+          },
+          "place_specials": [  ],
+          "comment": "randomly picked from a group ---v",
+          "place_groups": [
+            { "item": "fridgesnacks", "chance": 90, "x": 21, "y": 19 },
+            { "item": "ant_gun", "chance": 50, "x": 17, "y": 19 },
+            { "item": "ant_gun", "chance": 70, "x": 3, "y": [ 8, 15 ] },
+            { "item": "ant_gun", "chance": 65, "x": 3, "y": [ 8, 15 ] },
+            { "item": "ant_gun", "chance": 70, "x": 3, "y": [ 8, 15 ] },
+            { "item": "ant_gun", "chance": 70, "x": 3, "y": [ 8, 15 ] },
+            { "item": "ammo", "chance": 80, "x": [ 3, 8 ], "y": 20 },
+            { "item": "ammo", "chance": 80, "x": [ 3, 8 ], "y": 20 },
+            { "item": "ant_ammo", "chance": 75, "x": [ 3, 8 ], "y": 20 }
+          ],
+          "comment": "end of mapgen json definition ---v"
         },
         "comment": "end of mapgen entry ---v"
-    }
+      }
     ]
-    }
+  }
 ]

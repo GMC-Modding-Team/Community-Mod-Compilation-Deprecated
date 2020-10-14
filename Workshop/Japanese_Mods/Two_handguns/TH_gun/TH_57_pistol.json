@@ -6,27 +6,13 @@
     "name": "Twin hand gun(5.7x28mm/FN Five Seven)",
     "name_plural": "Twin hand gun(5.7x28mm/FN Five Seven)",
     "description": "It is both handheld FN Five Seven.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "semi-auto", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 1.5,
-      "recoil": 1.5
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] },
-    "magazines": [
-      [ "57", [ "TH_fn57mag" ] ],
-      [ "22", [ "TH_ruger1022bigmag", "TH_ruger1022mag" ] ]
-    ]
+    "magazines": [ [ "57", [ "TH_fn57mag" ] ], [ "22", [ "TH_ruger1022bigmag", "TH_ruger1022mag" ] ] ]
   }
 ]

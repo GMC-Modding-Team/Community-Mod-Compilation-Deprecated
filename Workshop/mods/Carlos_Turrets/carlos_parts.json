@@ -1,23 +1,21 @@
 [
-	{
-        "type" : "vehicle_part",
-        "id" : "25mm_rws",
-        "name" : "mounted 25mm Autocannon RWS",
-        "symbol" : "t",
-        "color" : "green",
-        "broken_symbol" : "#",
-        "broken_color" : "green",
-        "damage_modifier" : 80,
-        "durability" : 800,
-        "range" : 20,
-        "fuel_type" : "25mm",
-        "item" : "t_25ac",
-        "size" : 120,
-        "difficulty" : 12,
-        "location" : "on_roof",
-        "flags" : ["TURRET", "CARGO"],
-        "breaks_into" : [
-            {"item": "t_25ac", "min": 0, "max": 1}
-        ]
-    }
+  {
+    "type": "vehicle_part",
+    "id": "25mm_rws",
+    "name": "mounted 25mm Autocannon RWS",
+    "symbol": "t",
+    "color": "green",
+    "broken_symbol": "#",
+    "broken_color": "green",
+    "damage_modifier": 80,
+    "durability": 800,
+    "range": 20,
+    "fuel_type": "25mm",
+    "item": "t_25ac",
+    "size": 120,
+    "difficulty": 12,
+    "location": "on_roof",
+    "flags": [ "TURRET", "CARGO" ],
+    "breaks_into": [ { "item": "t_25ac", "min": 0, "max": 1 } ]
+  }
 ]

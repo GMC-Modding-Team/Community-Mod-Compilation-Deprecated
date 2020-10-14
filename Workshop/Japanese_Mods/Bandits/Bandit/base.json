@@ -1,95 +1,77 @@
 [
-    {
-        "type": "mapgen",
-        "om_terrain": [
-            "basement"
-        ],
-        "method": "json",
-        "weight": 250,
-        "comment": "<--- these fields ignored --->", "author": "",
-        "comment": "actual mapgen json definition begins below ---v",
-        "object": {
-            "rows": [
-                "########################",
-                "#c..CCCCCCCCCCCCCCCC..c#",
-                "#c....................c#",
-                "#c....CCCCCCCCCCCC....c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c.&&&..&&&..&&&..&&&.c#",
-                "#c.&&&..&&&..&&&..&&&.c#",
-                "#c.&&&..&&&..&&&..&&&.c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c....................c#",
-                "#c........#++#........c#",
-                "#c........#..#........c#",
-                "#c........#<<#........c#",
-                "########################"
-            ],
-            "terrain": {
-                "#": "t_rock",
-                ".": "t_rock_floor",
-                "&": "t_dirtmound",
-                "C": "t_rock_floor",
-                "c": "t_rock_floor",
-                "+": "t_door_c",
-                "<": "t_stairs_up"
-            },
-            "furniture": {
-                "c": "f_counter",
-                "C": "f_counter",
-                "K": "f_sink"
-            },
-        "add": [
-                { "item": "atomic_light", "x": 11, "y": 19 },
-                { "item": "atomic_light", "x": 12, "y": 19 }
-            ],
-        "place_vehicles": [
-            {
-                "chance": 100,
-                "fuel": 50,
-                "rotation": 180,
-                "status": 1,
-                "vehicle": "banlamp",
-                "x": 12,
-                "y": 10
-            }
-        ],
-            "place_npcs": [
-                { "class": "thug_bn2", "x": [3,20], "y": [8,10], "repeat": [1,2] },
-                { "class": "bandit_bn2", "x": [3,20], "y": [5,7], "repeat": [0,1]  },
-                { "class": "bandit_bn", "x": [3,20], "y": [5,7] }
-            ],
-            "set": [
-                { "point": "trap", "id": "tr_nailboard", "x": [ 3, 20 ], "y": [ 17, 21 ], "repeat": [ 10, 20 ] },
-                { "point": "trap", "id": "tr_light_snare", "x": [ 3, 20 ], "y": [ 17, 21 ], "repeat": [ 10, 20 ] },
-                { "point": "trap", "id": "tr_rollmat", "x": [3,20], "y": [5,10], "repeat": [ 3, 5 ]}
-            ],
-            "comment": "randomly picked items from a group ---v",
-            "place_items": [
-                { "item": "livingroom", "chance": 80, "x": [3,20], "y": [5,10], "repeat": [ 5, 15 ] },
-                { "item": "farming_tools", "chance": 35, "x": 1, "y": [1,22], "repeat": [ 4, 8 ] },
-                { "item": "farming_seeds", "chance": 50, "x": 1, "y": [1,22], "repeat": [ 4, 8 ] },
-                { "item": "hydro", "chance": 35, "x": [3,5], "y": [13,15], "repeat": [ 3, 9 ] },
-                { "item": "hydro", "chance": 35, "x": [8,10], "y": [13,15], "repeat": [ 3, 9 ] },
-                { "item": "hydro", "chance": 35, "x": [13,15], "y": [13,15], "repeat": [ 3, 9 ] },
-                { "item": "hydro", "chance": 35, "x": [18,20], "y": [13,15], "repeat": [ 3, 9 ] },
-                { "item": "jewelry_back", "chance": 50, "x": [6,17], "y": 3, "repeat": [ 3, 6 ] },
-                { "item": "softdrugs", "chance": 35, "x": [4,19], "y": 1, "repeat": [ 4, 8 ] },
-                { "item": "tools_common", "chance": 35, "x": 22, "y": [1,22], "repeat": [ 4, 8 ] },
-                { "item": "camping", "chance": 35, "x": 22, "y": [1,22], "repeat": [ 4, 8 ] }
-            ],
-            "comment": "end of mapgen json definition ---v"
-        },
-        "comment": "end of mapgen entry ---v"
-    }
+  {
+    "type": "mapgen",
+    "om_terrain": [ "basement" ],
+    "method": "json",
+    "weight": 250,
+    "comment": "<--- these fields ignored --->",
+    "author": "",
+    "comment": "actual mapgen json definition begins below ---v",
+    "object": {
+      "rows": [
+        "########################",
+        "#c..CCCCCCCCCCCCCCCC..c#",
+        "#c....................c#",
+        "#c....CCCCCCCCCCCC....c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c.&&&..&&&..&&&..&&&.c#",
+        "#c.&&&..&&&..&&&..&&&.c#",
+        "#c.&&&..&&&..&&&..&&&.c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c....................c#",
+        "#c........#++#........c#",
+        "#c........#..#........c#",
+        "#c........#<<#........c#",
+        "########################"
+      ],
+      "terrain": {
+        "#": "t_rock",
+        ".": "t_rock_floor",
+        "&": "t_dirtmound",
+        "C": "t_rock_floor",
+        "c": "t_rock_floor",
+        "+": "t_door_c",
+        "<": "t_stairs_up"
+      },
+      "furniture": { "c": "f_counter", "C": "f_counter", "K": "f_sink" },
+      "add": [ { "item": "atomic_light", "x": 11, "y": 19 }, { "item": "atomic_light", "x": 12, "y": 19 } ],
+      "place_vehicles": [ { "chance": 100, "fuel": 50, "rotation": 180, "status": 1, "vehicle": "banlamp", "x": 12, "y": 10 } ],
+      "place_npcs": [
+        { "class": "thug_bn2", "x": [ 3, 20 ], "y": [ 8, 10 ], "repeat": [ 1, 2 ] },
+        { "class": "bandit_bn2", "x": [ 3, 20 ], "y": [ 5, 7 ], "repeat": [ 0, 1 ] },
+        { "class": "bandit_bn", "x": [ 3, 20 ], "y": [ 5, 7 ] }
+      ],
+      "set": [
+        { "point": "trap", "id": "tr_nailboard", "x": [ 3, 20 ], "y": [ 17, 21 ], "repeat": [ 10, 20 ] },
+        { "point": "trap", "id": "tr_light_snare", "x": [ 3, 20 ], "y": [ 17, 21 ], "repeat": [ 10, 20 ] },
+        { "point": "trap", "id": "tr_rollmat", "x": [ 3, 20 ], "y": [ 5, 10 ], "repeat": [ 3, 5 ] }
+      ],
+      "comment": "randomly picked items from a group ---v",
+      "place_items": [
+        { "item": "livingroom", "chance": 80, "x": [ 3, 20 ], "y": [ 5, 10 ], "repeat": [ 5, 15 ] },
+        { "item": "farming_tools", "chance": 35, "x": 1, "y": [ 1, 22 ], "repeat": [ 4, 8 ] },
+        { "item": "farming_seeds", "chance": 50, "x": 1, "y": [ 1, 22 ], "repeat": [ 4, 8 ] },
+        { "item": "hydro", "chance": 35, "x": [ 3, 5 ], "y": [ 13, 15 ], "repeat": [ 3, 9 ] },
+        { "item": "hydro", "chance": 35, "x": [ 8, 10 ], "y": [ 13, 15 ], "repeat": [ 3, 9 ] },
+        { "item": "hydro", "chance": 35, "x": [ 13, 15 ], "y": [ 13, 15 ], "repeat": [ 3, 9 ] },
+        { "item": "hydro", "chance": 35, "x": [ 18, 20 ], "y": [ 13, 15 ], "repeat": [ 3, 9 ] },
+        { "item": "jewelry_back", "chance": 50, "x": [ 6, 17 ], "y": 3, "repeat": [ 3, 6 ] },
+        { "item": "softdrugs", "chance": 35, "x": [ 4, 19 ], "y": 1, "repeat": [ 4, 8 ] },
+        { "item": "tools_common", "chance": 35, "x": 22, "y": [ 1, 22 ], "repeat": [ 4, 8 ] },
+        { "item": "camping", "chance": 35, "x": 22, "y": [ 1, 22 ], "repeat": [ 4, 8 ] }
+      ],
+      "comment": "end of mapgen json definition ---v"
+    },
+    "comment": "end of mapgen entry ---v"
+  }
 ]

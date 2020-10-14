@@ -5,7 +5,8 @@
     "copy-from": "spear_knife",
     "type": "TOOL",
     "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ]
-  },{
+  },
+  {
     "id": "pike_fake",
     "name": "awl pike",
     "type": "GENERIC",
@@ -14,7 +15,8 @@
     "to_hit": 2,
     "bashing": 10,
     "cutting": 15
-  },{
+  },
+  {
     "id": "pike_inferior",
     "name": "awl pike",
     "type": "GENERIC",
@@ -24,7 +26,8 @@
     "to_hit": 2,
     "bashing": 12,
     "cutting": 25
-  },{
+  },
+  {
     "id": "pike",
     "name": "awl pike",
     "type": "GENERIC",
@@ -34,11 +37,12 @@
     "to_hit": 2,
     "bashing": 15,
     "cutting": 45
-  },{
-    "type":"GENERIC",
-    "id" : "spear_forked",
-    "name" : "forked spear",
+  },
+  {
+    "type": "GENERIC",
+    "id": "spear_forked",
+    "name": "forked spear",
     "copy-from": "spear_forked",
-    "flags" : ["SPEAR", "REACH_ATTACK", "NONCONDUCTIVE"]
+    "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ]
   }
 ]

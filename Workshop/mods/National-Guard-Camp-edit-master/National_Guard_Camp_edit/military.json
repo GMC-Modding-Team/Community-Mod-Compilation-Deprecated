@@ -23,24 +23,24 @@
     "armor_cut": 25,
     "vision_night": 5,
     "starting_ammo": { "762_51": 220 },
-	"special_attacks": [
-     {
-       "type": "gun",
-       "cooldown": 2,
-       "gun_type": "scar_h",
-       "ammo_type": "762_51",
-       "fake_skills": [ [ "gun", 2 ], [ "rifle", 2 ] ],
-       "fake_dex": 8,
-       "ranges": [ [ 5, 18, "DEFAULT" ], [ 0, 5, "AUTO" ] ],
-       "require_targeting_npc": true,
-       "require_targeting_monster": false,
-       "laser_lock": true,
-       "targeting_cost": 200,
-       "targeting_timeout_extend": -10,
-       "targeting_sound": "\"HOSTILE DETECTED.\"",
-       "targeting_volume": 20,
-       "no_ammo_sound": "a chk!"
-     }
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 2,
+        "gun_type": "scar_h",
+        "ammo_type": "762_51",
+        "fake_skills": [ [ "gun", 2 ], [ "rifle", 2 ] ],
+        "fake_dex": 8,
+        "ranges": [ [ 5, 18, "DEFAULT" ], [ 0, 5, "AUTO" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": false,
+        "laser_lock": true,
+        "targeting_cost": 200,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "\"HOSTILE DETECTED.\"",
+        "targeting_volume": 20,
+        "no_ammo_sound": "a chk!"
+      }
     ],
     "death_drops": { "groups": [ [ "rifle_bot", 30 ] ] },
     "death_function": [ "DISINTEGRATE" ],
@@ -55,23 +55,23 @@
     "color": "green",
     "vision_night": 10,
     "special_attacks": [
-     {
-       "type": "gun",
-       "cooldown": 2,
-       "gun_type": "m14ebr",
-       "ammo_type": "762_51",
-       "fake_skills": [ [ "gun", 3 ], [ "rifle", 4 ] ],
-       "fake_dex": 8,
-       "ranges": [ [ 0, 26, "DEFAULT" ] ],
-       "require_targeting_npc": true,
-       "require_targeting_monster": false,
-       "laser_lock": true,
-       "targeting_cost": 200,
-       "targeting_timeout_extend": -10,
-       "targeting_sound": "\"HOSTILE DETECTED.\"",
-       "targeting_volume": 20,
-       "no_ammo_sound": "a chk!"
-     }
+      {
+        "type": "gun",
+        "cooldown": 2,
+        "gun_type": "m14ebr",
+        "ammo_type": "762_51",
+        "fake_skills": [ [ "gun", 3 ], [ "rifle", 4 ] ],
+        "fake_dex": 8,
+        "ranges": [ [ 0, 26, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": false,
+        "laser_lock": true,
+        "targeting_cost": 200,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "\"HOSTILE DETECTED.\"",
+        "targeting_volume": 20,
+        "no_ammo_sound": "a chk!"
+      }
     ],
     "death_drops": { "groups": [ [ "sniper_bot", 30 ] ] }
   },
@@ -84,22 +84,22 @@
     "starting_ammo": { "napalm": 120 },
     "special_attacks": [
       {
-       "type": "gun",
-       "cooldown": 2,
-       "gun_type": "flamethrower",
-       "ammo_type": "napalm",
-       "fake_skills": [ [ "gun", 1 ], [ "launcher", 1 ] ],
-       "fake_dex": 8,
-       "ranges": [ [ 0, 8, "DEFAULT" ] ],
-       "require_targeting_npc": true,
-       "require_targeting_monster": false,
-       "laser_lock": true,
-       "targeting_cost": 200,
-       "targeting_timeout_extend": -10,
-       "targeting_sound": "\"HOSTILE DETECTED.\"",
-       "targeting_volume": 20,
-       "no_ammo_sound": "a chk!"
-     }
+        "type": "gun",
+        "cooldown": 2,
+        "gun_type": "flamethrower",
+        "ammo_type": "napalm",
+        "fake_skills": [ [ "gun", 1 ], [ "launcher", 1 ] ],
+        "fake_dex": 8,
+        "ranges": [ [ 0, 8, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": false,
+        "laser_lock": true,
+        "targeting_cost": 200,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "\"HOSTILE DETECTED.\"",
+        "targeting_volume": 20,
+        "no_ammo_sound": "a chk!"
+      }
     ],
     "death_drops": { "groups": [ [ "flamer_bot", 30 ] ] }
   },
@@ -112,22 +112,22 @@
     "starting_ammo": { "40mm_incendiary": 8 },
     "special_attacks": [
       {
-       "type": "gun",
-       "cooldown": 2,
-       "gun_type": "m320",
-       "ammo_type": "40mm_incendiary",
-       "fake_skills": [ [ "gun", 1 ], [ "launcher", 1 ] ],
-       "fake_dex": 8,
-       "ranges": [ [ 5, 20, "DEFAULT" ] ],
-       "require_targeting_npc": true,
-       "require_targeting_monster": false,
-       "laser_lock": true,
-       "targeting_cost": 200,
-       "targeting_timeout_extend": -10,
-       "targeting_sound": "\"HOSTILE DETECTED.\"",
-       "targeting_volume": 20,
-       "no_ammo_sound": "a chk!"
-     }
+        "type": "gun",
+        "cooldown": 2,
+        "gun_type": "m320",
+        "ammo_type": "40mm_incendiary",
+        "fake_skills": [ [ "gun", 1 ], [ "launcher", 1 ] ],
+        "fake_dex": 8,
+        "ranges": [ [ 5, 20, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": false,
+        "laser_lock": true,
+        "targeting_cost": 200,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "\"HOSTILE DETECTED.\"",
+        "targeting_volume": 20,
+        "no_ammo_sound": "a chk!"
+      }
     ],
     "death_drops": { "groups": [ [ "grenade_bot", 30 ] ] }
   },
@@ -145,24 +145,24 @@
     "armor_bash": 10,
     "armor_cut": 10,
     "starting_ammo": { "223": 220 },
-	"special_attacks": [
-     {
-       "type": "gun",
-       "cooldown": 2,
-       "gun_type": "scar_l",
-       "ammo_type": "556",
-       "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
-       "fake_dex": 6,
-       "ranges": [ [ 5, 18, "DEFAULT" ], [ 0, 5, "AUTO" ] ],
-       "require_targeting_npc": true,
-       "require_targeting_monster": false,
-       "laser_lock": true,
-       "targeting_cost": 200,
-       "targeting_timeout_extend": -10,
-       "targeting_sound": "\"HOSTILE DETECTED.\"",
-       "targeting_volume": 20,
-       "no_ammo_sound": "a chk!"
-     }
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 2,
+        "gun_type": "scar_l",
+        "ammo_type": "556",
+        "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
+        "fake_dex": 6,
+        "ranges": [ [ 5, 18, "DEFAULT" ], [ 0, 5, "AUTO" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": false,
+        "laser_lock": true,
+        "targeting_cost": 200,
+        "targeting_timeout_extend": -10,
+        "targeting_sound": "\"HOSTILE DETECTED.\"",
+        "targeting_volume": 20,
+        "no_ammo_sound": "a chk!"
+      }
     ],
     "death_drops": { "groups": [ [ "light_rifle_bot", 30 ] ] }
   }

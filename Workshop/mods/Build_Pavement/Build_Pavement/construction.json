@@ -1,28 +1,24 @@
 [
-	{
-		"type" : "construction",
-		"description" : "Build pavement", "//": "Build pavement",
-		"category" : "CONSTRUCT",
-		"difficulty" : 4,
-		"time" : 60,
-		"components" : 
-		[
-			[ [ "rock", 10] ],
-			[ [ "rebar", 4] ]
-		],
-		"pre_special" : "check_empty",
-		"post_terrain" : "t_pavement"
-    },{
-		"type" : "construction",
-		"description" : "Build sidewalk", "//": "Build sidewalk",
-		"category" : "CONSTRUCT",
-		"difficulty" : 4,
-		"time" : 60,
-		"components" : 
-		[
-			[ [ "rock", 10] ]
-		],
-		"pre_special" : "check_empty",
-		"post_terrain" : "t_sidewalk"
-    }
-  ]
+  {
+    "type": "construction",
+    "description": "Build pavement",
+    "//": "Build pavement",
+    "category": "CONSTRUCT",
+    "difficulty": 4,
+    "time": 60,
+    "components": [ [ [ "rock", 10 ] ], [ [ "rebar", 4 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "t_pavement"
+  },
+  {
+    "type": "construction",
+    "description": "Build sidewalk",
+    "//": "Build sidewalk",
+    "category": "CONSTRUCT",
+    "difficulty": 4,
+    "time": 60,
+    "components": [ [ [ "rock", 10 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "t_sidewalk"
+  }
+]

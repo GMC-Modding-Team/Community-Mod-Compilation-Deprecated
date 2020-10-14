@@ -1,39 +1,27 @@
 [
-{
-  "type" : "recipe",
-  "result": "rock",
-  "id_suffix": "DD_mod",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_OTHER",
-  "difficulty": 0,
-  "time": 1000,
-  "reversible": true,
-  "autolearn": true,
-  "components": [
-    [
-      [ "pebble", 2]
-    ]
-  ]
-},{
-  "type" : "recipe",
-  "result": "zp_chem_set",
-  "id_suffix": "my_mod_cheat",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_OTHER",
-  "difficulty": 0,
-  "time": 1000,
-  "reversible": true,
-  "autolearn": true,
-  "tools": [
-    [
-      [ "zp_3D_printer", -1]
-    ]
-  ],
-  "components":
-    [
-     [
-     [ "3d_resin", 100 ]
-     ]
-    ]
-}
+  {
+    "type": "recipe",
+    "result": "rock",
+    "id_suffix": "DD_mod",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "pebble", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "zp_chem_set",
+    "id_suffix": "my_mod_cheat",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "tools": [ [ [ "zp_3D_printer", -1 ] ] ],
+    "components": [ [ [ "3d_resin", 100 ] ] ]
+  }
 ]

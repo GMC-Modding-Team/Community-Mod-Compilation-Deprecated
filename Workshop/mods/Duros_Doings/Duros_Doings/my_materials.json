@@ -1,41 +1,32 @@
 [
-    {
-        "type" : "material",
-        "ident" : "zp_matter",
-        "name" : "Zero-Point-Matter",
-        "bash_resist" : 10000,
-        "cut_resist" : 10000,
-        "bash_dmg_verb" : "scuffed",
-        "cut_dmg_verb" : "marked",
-        "dmg_adj" : [
-			"80% integrity",
-			"60% integrity",
-			"40% integrity",
-            "20% integrity"
-        ],
-        "acid_resist" : 10000,
-        "elec_resist" : 10000,
-        "fire_resist" : 10000,
-        "chip_resist" : 10000,
-        "density" : 10000
-    },{
-        "type" : "material",
-        "ident" : "zp_fluid",
-        "name" : "Zero-Point-Fluid",
-        "bash_resist" : 10000,
-        "cut_resist" : 10000,
-        "bash_dmg_verb" : "scuffed",
-        "cut_dmg_verb" : "marked",
-        "dmg_adj" : [
-			"80% integrity",
-			"60% integrity",
-			"40% integrity",
-            "20% integrity"
-        ],
-        "acid_resist" : 10000,
-        "elec_resist" : 10000,
-        "fire_resist" : 10000,
-        "chip_resist" : 10000,
-        "density" : 10000
-    }
+  {
+    "type": "material",
+    "ident": "zp_matter",
+    "name": "Zero-Point-Matter",
+    "bash_resist": 10000,
+    "cut_resist": 10000,
+    "bash_dmg_verb": "scuffed",
+    "cut_dmg_verb": "marked",
+    "dmg_adj": [ "80% integrity", "60% integrity", "40% integrity", "20% integrity" ],
+    "acid_resist": 10000,
+    "elec_resist": 10000,
+    "fire_resist": 10000,
+    "chip_resist": 10000,
+    "density": 10000
+  },
+  {
+    "type": "material",
+    "ident": "zp_fluid",
+    "name": "Zero-Point-Fluid",
+    "bash_resist": 10000,
+    "cut_resist": 10000,
+    "bash_dmg_verb": "scuffed",
+    "cut_dmg_verb": "marked",
+    "dmg_adj": [ "80% integrity", "60% integrity", "40% integrity", "20% integrity" ],
+    "acid_resist": 10000,
+    "elec_resist": 10000,
+    "fire_resist": 10000,
+    "chip_resist": 10000,
+    "density": 10000
+  }
 ]

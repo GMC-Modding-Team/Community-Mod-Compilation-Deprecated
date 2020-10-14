@@ -7,14 +7,14 @@
     "name": "Mobile Skimming Equipment",
     "description": "It is a device that can read the cash card and change the balance to another card. If it is before the big change, it is only a few decades to go to jail just to find possession of this. A small solar panel is included and power supply is unnecessary.",
     "price": 100000,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "weight": 400,
     "volume": 1,
     "bashing": 1,
     "category": "tools",
     "use_action": "IUSE_CASHCARD_TRANSFER"
-
-  },{
+  },
+  {
     "id": "ug_garage_jack",
     "type": "TOOL",
     "name": "Garage jack",
@@ -27,9 +27,9 @@
     "price": 24000,
     "bashing": 8,
     "to_hit": -2,
-    "qualities": [["JACK", 40]]
-
-  },{
+    "qualities": [ [ "JACK", 40 ] ]
+  },
+  {
     "id": "ug_g_shock",
     "type": "ARMOR",
     "copy-from": "diving_watch",
@@ -39,10 +39,10 @@
     "price": 24000,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
-    "use_action": ["WEATHER_TOOL", "IUSE_SEASON_INFO"],
+    "use_action": [ "WEATHER_TOOL", "IUSE_SEASON_INFO" ],
     "flags": [ "WATCH", "WATER_FRIENDLY", "THERMOMETER", "HYGROMETER", "BAROMETER", "BELTED", "ALLOWS_NATURAL_ATTACKS", "FANCY" ]
-  
-  },{
+  },
+  {
     "id": "ug_shooting_target",
     "type": "TOOL",
     "symbol": "o",
@@ -50,7 +50,7 @@
     "name": "Target (for shooting practice)",
     "description": "It is a target for shooting practice. I imagine the upper half of a person, but the intrinsic itself is just a circle. Install and use it.",
     "price": 1200,
-    "material": ["wood", "cotton"],
+    "material": [ "wood", "cotton" ],
     "weight": 2700,
     "volume": 3,
     "bashing": 1,
@@ -64,8 +64,8 @@
       "moves": 60,
       "place_randomly": false
     }
-
-  },{
+  },
+  {
     "id": "ug_dart_board",
     "type": "TOOL",
     "symbol": "o",
@@ -73,7 +73,7 @@
     "name": "Dart board",
     "description": "It is basic to use for darts game. It is not a electric board that makes a loud electronic sound but a simple board that is ideal for interior.",
     "price": 1200,
-    "material": ["wood", "cotton"],
+    "material": [ "wood", "cotton" ],
     "weight": 1550,
     "volume": 2,
     "bashing": 1,
@@ -87,50 +87,38 @@
       "moves": 60,
       "place_randomly": false
     }
-
-  },{
+  },
+  {
     "id": "panties",
     "type": "ARMOR",
     "name": "panties",
     "copy-from": "panties",
-    "use_action": {
-      "type": "transform",
-      "target": "panties_on"
-    }
-
-  },{
+    "use_action": { "type": "transform", "target": "panties_on" }
+  },
+  {
     "id": "panties_on",
     "type": "ARMOR",
     "name": "Panty (on)",
     "name_plural": "Panty (on)",
     "description": "This is a policeman.",
     "copy-from": "panties",
-    "covers": ["HEAD", "MOUTH"],
+    "covers": [ "HEAD", "MOUTH" ],
     "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ],
-    "use_action": {
-      "type": "transform",
-      "msg": "Fight off the ball!",
-      "target": "panties_more_on"
-    }
-
-  },{
+    "use_action": { "type": "transform", "msg": "Fight off the ball!", "target": "panties_more_on" }
+  },
+  {
     "id": "panties_more_on",
     "type": "ARMOR",
     "name": "Panties (more on)",
     "name_plural": "Panties (More on)",
     "description": "Cross out! Feeling ecstasy!",
     "copy-from": "panties_on",
-    "covers": ["HEAD", "MOUTH"],
+    "covers": [ "HEAD", "MOUTH" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
     "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ],
-    "use_action": {
-      "type": "transform",
-      "target": "panties"
-    },
-    "artifact_data" : {
-      "effects_worn": ["AEP_PER_UP", "AEP_HUNGER"]
-    }
+    "use_action": { "type": "transform", "target": "panties" },
+    "artifact_data": { "effects_worn": [ "AEP_PER_UP", "AEP_HUNGER" ] }
   }
 ]

@@ -6,25 +6,12 @@
     "name": "Twin hand gun (shot / 12 gauge pistol)",
     "name_plural": "Twin hand gun (shot / 12 gauge pistol)",
     "description": "It is a handheld 12 gauge pistol. If you handle this with one hand you will have a shoulder blown!",
-    "//":"Fixed value number correction",
-    "relative": {
-      "range": -2
-    },
-    "//":"Simultaneous firing count",
-    "modes": [
-      [ "DEFAULT", "Manual", 1 ],
-      [ "DOUBLE", "double", 2 ]
-    ],
-    "//":"Change by magnification",
-    "proportional": { 
-      "reload": 1.2,
-      "clip_size": 2,
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "dispersion": 2,
-      "recoil": 2
-    },
+    "//": "Fixed value number correction",
+    "relative": { "range": -2 },
+    "//": "Simultaneous firing count",
+    "modes": [ [ "DEFAULT", "Manual", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "//": "Change by magnification",
+    "proportional": { "reload": 1.2, "clip_size": 2, "weight": 2, "volume": 2, "price": 2, "dispersion": 2, "recoil": 2 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] }
   }
 ]

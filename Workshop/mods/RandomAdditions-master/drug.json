@@ -1,26 +1,24 @@
-    {
-        "id" : "sugar_rush",
-        "type" : "COMESTIBLE",
-        "comestible_type" : "MED",
-        "name" : "sugar rush",
-        "description" : "A bright magenta tablet that is highly addictive but very effective. Will cause hallucinations.",
-        "weight" : 1,
-        "volume" : 1,
-        "price" : 10000,
-        "charges" : 5,
-        "stack_size" : 100,
-        "symbol" : "!",
-        "color" : "magenta",
-		"healthy" : -3,
-        "stim" : 30,
-        "fun" : 175,
-		"addiction_potential" : 13,
-        "addiction_type" : "opiate",
-        "use_action" : {
-            "type" : "consume_drug",
-            "activation_message" : "You eat the magenta tablet.",
-            "effects" : [ { "id" : "hallu", "duration" : 3600 }, 
-						{ "id" : "pkill3", "duration" : 100 },
-                        { "id" : "pkill2", "duration" : 350 } ]
-        }
-    }
+{
+  "id": "sugar_rush",
+  "type": "COMESTIBLE",
+  "comestible_type": "MED",
+  "name": "sugar rush",
+  "description": "A bright magenta tablet that is highly addictive but very effective. Will cause hallucinations.",
+  "weight": 1,
+  "volume": 1,
+  "price": 10000,
+  "charges": 5,
+  "stack_size": 100,
+  "symbol": "!",
+  "color": "magenta",
+  "healthy": -3,
+  "stim": 30,
+  "fun": 175,
+  "addiction_potential": 13,
+  "addiction_type": "opiate",
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You eat the magenta tablet.",
+    "effects": [ { "id": "hallu", "duration": 3600 }, { "id": "pkill3", "duration": 100 }, { "id": "pkill2", "duration": 350 } ]
+  }
+}

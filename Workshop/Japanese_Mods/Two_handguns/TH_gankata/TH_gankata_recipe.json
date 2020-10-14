@@ -1,37 +1,25 @@
 [
-{
-  "type" : "recipe",
-  "result": "TH_clericgun",
-  "category": "CC_WEAPON",
-  "subcategory": "CSC_WEAPON_RANGED",
-  "skill_used": "fabrication",
-  "difficulty": 6,
-  "decomp_learn": 4,
-  "skills_required": [[ "gun", 4 ],[ "pistol", 4 ]],
-  "time": 40000,
-  "reversible": false,
-  "book_learn": [[ "manual_fabrication", 3 ] , [ "manual_pistol", 3] , [ "manual_shotgun", 4] , [ "manual_smg", 4] , [ "manual_rifle", 4] , [ "manual_launcher", 4]],
-  "qualities":[
-    {"id":"HAMMER_FINE","level":1},
-    {"id":"SAW_M_FINE","level":1},
-    {"id":"SCREW_FINE","level":1}
-  ],
-  "tools": [
-    [
-      [ "soldering_iron", 10 ],
-      [ "toolset", 10 ],
-      [ "small_repairkit", 10 ],
-      [ "large_repairkit", 10 ]
-    ]
-  ],
-  "components": [
-    [ [ "TH_m9", 1 ] ],
-    [
-      [ "scrap", 6 ],
-      [ "steel_chunk", 2 ]
+  {
+    "type": "recipe",
+    "result": "TH_clericgun",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "decomp_learn": 4,
+    "skills_required": [ [ "gun", 4 ], [ "pistol", 4 ] ],
+    "time": 40000,
+    "reversible": false,
+    "book_learn": [
+      [ "manual_fabrication", 3 ],
+      [ "manual_pistol", 3 ],
+      [ "manual_shotgun", 4 ],
+      [ "manual_smg", 4 ],
+      [ "manual_rifle", 4 ],
+      [ "manual_launcher", 4 ]
     ],
-    [ ["plastic_chunk", 4 ] ],
-    [ ["power_supply", 2] ]
-   ]
-}
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ], [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "TH_m9", 1 ] ], [ [ "scrap", 6 ], [ "steel_chunk", 2 ] ], [ [ "plastic_chunk", 4 ] ], [ [ "power_supply", 2 ] ] ]
+  }
 ]

@@ -10,18 +10,18 @@
     "material": "steel",
     "symbol": "[",
     "color": "dark_gray",
-    "covers": ["ARMS"],
+    "covers": [ "ARMS" ],
     "coverage": 10,
     "encumbrance": 5,
     "material_thickness": 1,
     "use_action": {
-        "type": "holster",
-        "holster_prompt": "Stash ammo",
-        "holster_msg": "You stash your %s.",
-        "max_volume": 4,
-        "draw_cost": 1,
-        "flags": [ "MAG_COMPACT" ]
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "max_volume": 4,
+      "draw_cost": 1,
+      "flags": [ "MAG_COMPACT" ]
     },
-    "flags": ["WATER_FRIENDLY","BELTED"]
+    "flags": [ "WATER_FRIENDLY", "BELTED" ]
   }
 ]

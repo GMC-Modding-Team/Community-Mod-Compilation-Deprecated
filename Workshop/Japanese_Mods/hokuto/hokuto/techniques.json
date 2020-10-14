@@ -1,545 +1,345 @@
 [
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_ganzan",
-        "name" : "Both rocky slams",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Iwanama Both Sawanami to% s",
-            "<npcname>The rocky slope of both the% s"
-        ],
-        "down_dur" : 3,
-        "knockback_dist" : 1,
-        "mult_bonuses" : [
-            ["damage", "bash", 0.8],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_hokuto_kousyu",
-        "name" : "Refuge faced fist",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Intersection faced fists to% s",
-            "<npcname>On the% s of the incompetent fist fist"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 0.8],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_hokuto_gosiretudan",
-        "name" : "Five finger bullet",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Five finger raise to% s",
-            "<npcname>The 5 th finger ramp of% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 0.8],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_hokuto_juhazan",
-        "name" : "Hokuto Soft Breach",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto Soft Breach to% s",
-            "<npcname>Hokuto Soft Breach to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 0.8],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_hokuto_kuukyoku",
-        "name" : "Mukaikai Mai",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Air flow dance is% s",
-            "<npcname>Of the air flow in% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 0.8],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_hokuto_kaikotu",
-        "name" : "Hokuto Devast Fist",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto collapsible fist to% s",
-            "<npcname>Hokuto broke fist to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 0.8],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_sitisiseiten",
-        "name" : "Hokuto 7-death star point",
-        "min_unarmed" : 4,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto 7-death star points to% s",
-            "<npcname>Hokuto 7-death star points to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 1.50],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_sitisikiheidzan",
-        "name" : "Hokuto 7 Dead Cavalry",
-        "min_unarmed" : 4,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto 7 Death Cavalry Knights to% s",
-            "<npcname>Hokuto 7 Death Cavalry Knife to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 1.50],
-            ["damage", "bash", "str", 0.8]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_sitiseitensin",
-        "name" : "Big Dipper Dim Sum",
-        "min_unarmed" : 10,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto Shinki Okuyo Big Dipper Dim Sum to% s",
-            "<npcname>Hokuto Shinki Okuyoshi Big Dipper Dim Sum to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 2.50],
-            ["damage", "bash", "str", 1.0]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_tenha",
-        "name" : "Killing heaven",
-        "min_unarmed" : 8,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto Shinko mystery mystery breakdown to% s",
-            "<npcname>Hokuto Shinken no Kyoshi Tenshi killing to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 2.00],
-            ["damage", "bash", "str", 1.0]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_ujomosyo",
-        "name" : "Hokuto ended up trekking",
-        "min_unarmed" : 5,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto Isao Takeshi went to% s",
-            "<npcname>Hokuto Fudo Takeshi went to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 1.50],
-            ["damage", "bash", "str", 1.0]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_hokuto_hyaku",
-        "name" : "Hokuto Hyakkuben",
-        "min_unarmed" : 7,
-        "unarmed_allowed" : true,
-        "crit_tec" : true,
-        "messages" : [
-            "Hokuto Shinken Okuyoshi Hokuto 100 cleft fists to% s",
-            "<npcname>Hokuto Shinken Okuji Hokuto 100 cleft fists to% s"
-        ],
-        "stun_dur" : 2,
-        "mult_bonuses" : [
-            ["damage", "bash", 3.50],
-            ["damage", "bash", "str", 3.0]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_counter",
-        "name" : "Abandonment",
-        "min_unarmed" : 5,
-        "dodge_counter" : true,
-        "unarmed_allowed" : true,
-        "stun_dur" : 2,
-        "messages" : [
-            "I canceled the attack and returned a counterattack. To% s",
-            "<npcname>He took off the attack and returned a counterattack. To% s"
-        ],
-        "mult_bonuses" : [
-            ["movecost", 0.7]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_hokuto_musotensei",
-        "name" : "Innocence",
-        "min_unarmed" : 6,
-        "unarmed_allowed" : true,
-        "req_buffs" : ["hokuto_musotensei"],
-        "dodge_counter" : true,
-        "down_dur" : 3,
-        "knockback_dist" : 1,
-        "messages" : [
-            "Hokuto Shinko ultimate mystery mystery incarnation to% s",
-            "<npcname>Hokuto Shinko ultimate mystery mystery incarnation to% s"
-        ],
-        "mult_bonuses" : [
-            ["damage", "bash", 1.0],
-            ["damage", "bash","dex",0.8]
-        ]
-    },
-    
-    
-    
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_hien",
-        "name" : "Hai Yan Mai",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Hai Yan Mai dances to% s",
-            "<npcname>Hai Yan Mai dances to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_suzaku",
-        "name" : "Suzaku Exhibition",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Suzaku exhibition to% s",
-            "<npcname>Suzaku exhibition to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_danko",
-        "name" : "Absolute offset fist",
-        "min_unarmed" : 5,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Fortress offset fist to% s",
-            "<npcname>Fortress offset fist to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.9],
-                    ["damage", "cut", "dex", 0.7],
-                    ["dodge", -4.0]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_nanto_hisyo",
-        "name" : "Flying Shioli",
-        "min_unarmed" : 5,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nanjo Waterbird Fist Mystery Flight Shiophiles to% s",
-            "<npcname>Nanjo Waterbird Fist Mystery Flight Shiophiles to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 1.0],
-                    ["damage", "cut", "dex", 0.8],
-                    ["dodge", -2.0]
-        ]
-    },
-    
-    
-    
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_hiryu",
-        "name" : "Nan Doki Yongfeng",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nan Doki Yongfeng to% s",
-            "<npcname>Nan Doki Yongfeng to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_sensyu",
-        "name" : "Nanko Chiken Dragon Attack",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nanjo Chiken Dragon Attacks to% s",
-            "<npcname>Nanjo Chiken Dragon Attacks to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_hakuha",
-        "name" : "Minami Fuso bursting",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Namsei Imamura destroyed to% s",
-            "<npcname>Namsei Imamura destroyed to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_gokuto",
-        "name" : "Minami-do torpedoes",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nanjo solitary fellow Mystery Oshimi Minami-khei Kuromachi to% s",
-            "<npcname>Nanjo solitary fellow Mystery Oshimi Minami-khei Kuromachi to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 1.0],
-                    ["damage", "cut", "dex", 0.8]
-        ]
-    },
-    
-    
-    
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_densyo",
-        "name" : "Transmitted wave",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Transmitted crack wave to% s",
-            "<npcname>Transmitted crack wave to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_yousou",
-        "name" : "Minami Kotaka",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Minami Kota Knightreds to% s",
-            "<npcname>Minami Kota Knightreds to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    
-    
-    
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_syosyu",
-        "name" : "Nanko Xiang Woo slaughter legs",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nantou Xianghei slaughter to% s",
-            "<npcname>Nantou Xianghei slaughter to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_kesyo",
-        "name" : "Blood cosmetic",
-        "min_unarmed" : 6,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Minami Tokoro Tsurumu Oshimi Blood Cosmetic Bikes to% s",
-            "<npcname>Minami Tokoro Tsurumu Oshimi Blood Cosmetic Bikes to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 1.0],
-                    ["damage", "cut", "dex", 0.8]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_nanto_rekyaku",
-        "name" : "Dancing leg dancing",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Muscular dance Mai to% s",
-            "<npcname>Muscular dance Mai to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_nanto_zanjin",
-        "name" : "Shikajin",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Beginning of the battlefield to% s",
-            "<npcname>Beginning of the battlefield to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    
-    
-    
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_kyokusei",
-        "name" : "Polar Cross Cross Fist",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Polar Cross Fist in% s",
-            "<npcname>Polar Cross Fist in% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_juji",
-        "name" : "Polar Crucifix Blast",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Polaris star cross-shock wind is% s",
-            "<npcname>Polaris star cross-shock wind is% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_bakusei",
-        "name" : "Nankoo Bomb waves",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nanko Battle Waves to% s",
-            "<npcname>Nanko Battle Waves to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_nanto_housyou",
-        "name" : "Shuangcheong Feng",
-        "min_unarmed" : 3,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Shuangju Feng to% s",
-            "<npcname>Shuangju Feng to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 0.8],
-                    ["damage", "cut", "dex", 0.6]
-        ]
-    },
-        {
-        "type" : "technique",
-        "id" : "tec_nanto_tensyo",
-        "name" : "Tensho Cross Fen",
-        "min_unarmed" : 6,
-        "unarmed_allowed" : true,
-        "messages" : [
-            "Nanko Phoenix Fist Mystery Tensho Cross Feng to% s",
-            "<npcname>Nanko Phoenix Fist Mystery Tensho Cross Feng to% s"
-        ],
-        "mult_bonuses" : [
-                    ["damage", "bash", "str", 1.0],
-                    ["damage", "cut", "dex", 0.8],
-                    ["dodge", 5.0]
-        ]
-    }
+  {
+    "type": "technique",
+    "id": "tec_hokuto_ganzan",
+    "name": "Both rocky slams",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Iwanama Both Sawanami to% s", "<npcname>The rocky slope of both the% s" ],
+    "down_dur": 3,
+    "knockback_dist": 1,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_kousyu",
+    "name": "Refuge faced fist",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Intersection faced fists to% s", "<npcname>On the% s of the incompetent fist fist" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_gosiretudan",
+    "name": "Five finger bullet",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Five finger raise to% s", "<npcname>The 5 th finger ramp of% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_juhazan",
+    "name": "Hokuto Soft Breach",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto Soft Breach to% s", "<npcname>Hokuto Soft Breach to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_kuukyoku",
+    "name": "Mukaikai Mai",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Air flow dance is% s", "<npcname>Of the air flow in% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_kaikotu",
+    "name": "Hokuto Devast Fist",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto collapsible fist to% s", "<npcname>Hokuto broke fist to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_sitisiseiten",
+    "name": "Hokuto 7-death star point",
+    "min_unarmed": 4,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto 7-death star points to% s", "<npcname>Hokuto 7-death star points to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 1.5 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_sitisikiheidzan",
+    "name": "Hokuto 7 Dead Cavalry",
+    "min_unarmed": 4,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto 7 Death Cavalry Knights to% s", "<npcname>Hokuto 7 Death Cavalry Knife to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 1.5 ], [ "damage", "bash", "str", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_sitiseitensin",
+    "name": "Big Dipper Dim Sum",
+    "min_unarmed": 10,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto Shinki Okuyo Big Dipper Dim Sum to% s", "<npcname>Hokuto Shinki Okuyoshi Big Dipper Dim Sum to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 2.5 ], [ "damage", "bash", "str", 1.0 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_tenha",
+    "name": "Killing heaven",
+    "min_unarmed": 8,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto Shinko mystery mystery breakdown to% s", "<npcname>Hokuto Shinken no Kyoshi Tenshi killing to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 2.0 ], [ "damage", "bash", "str", 1.0 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_ujomosyo",
+    "name": "Hokuto ended up trekking",
+    "min_unarmed": 5,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto Isao Takeshi went to% s", "<npcname>Hokuto Fudo Takeshi went to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 1.5 ], [ "damage", "bash", "str", 1.0 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_hyaku",
+    "name": "Hokuto Hyakkuben",
+    "min_unarmed": 7,
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "messages": [ "Hokuto Shinken Okuyoshi Hokuto 100 cleft fists to% s", "<npcname>Hokuto Shinken Okuji Hokuto 100 cleft fists to% s" ],
+    "stun_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 3.5 ], [ "damage", "bash", "str", 3.0 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_counter",
+    "name": "Abandonment",
+    "min_unarmed": 5,
+    "dodge_counter": true,
+    "unarmed_allowed": true,
+    "stun_dur": 2,
+    "messages": [
+      "I canceled the attack and returned a counterattack. To% s",
+      "<npcname>He took off the attack and returned a counterattack. To% s"
+    ],
+    "mult_bonuses": [ [ "movecost", 0.7 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_hokuto_musotensei",
+    "name": "Innocence",
+    "min_unarmed": 6,
+    "unarmed_allowed": true,
+    "req_buffs": [ "hokuto_musotensei" ],
+    "dodge_counter": true,
+    "down_dur": 3,
+    "knockback_dist": 1,
+    "messages": [
+      "Hokuto Shinko ultimate mystery mystery incarnation to% s",
+      "<npcname>Hokuto Shinko ultimate mystery mystery incarnation to% s"
+    ],
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "bash", "dex", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_hien",
+    "name": "Hai Yan Mai",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Hai Yan Mai dances to% s", "<npcname>Hai Yan Mai dances to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_suzaku",
+    "name": "Suzaku Exhibition",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Suzaku exhibition to% s", "<npcname>Suzaku exhibition to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_danko",
+    "name": "Absolute offset fist",
+    "min_unarmed": 5,
+    "unarmed_allowed": true,
+    "messages": [ "Fortress offset fist to% s", "<npcname>Fortress offset fist to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.9 ], [ "damage", "cut", "dex", 0.7 ], [ "dodge", -4.0 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_hisyo",
+    "name": "Flying Shioli",
+    "min_unarmed": 5,
+    "unarmed_allowed": true,
+    "messages": [
+      "Nanjo Waterbird Fist Mystery Flight Shiophiles to% s",
+      "<npcname>Nanjo Waterbird Fist Mystery Flight Shiophiles to% s"
+    ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 1.0 ], [ "damage", "cut", "dex", 0.8 ], [ "dodge", -2.0 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_hiryu",
+    "name": "Nan Doki Yongfeng",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Nan Doki Yongfeng to% s", "<npcname>Nan Doki Yongfeng to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_sensyu",
+    "name": "Nanko Chiken Dragon Attack",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Nanjo Chiken Dragon Attacks to% s", "<npcname>Nanjo Chiken Dragon Attacks to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_hakuha",
+    "name": "Minami Fuso bursting",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Namsei Imamura destroyed to% s", "<npcname>Namsei Imamura destroyed to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_gokuto",
+    "name": "Minami-do torpedoes",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [
+      "Nanjo solitary fellow Mystery Oshimi Minami-khei Kuromachi to% s",
+      "<npcname>Nanjo solitary fellow Mystery Oshimi Minami-khei Kuromachi to% s"
+    ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 1.0 ], [ "damage", "cut", "dex", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_densyo",
+    "name": "Transmitted wave",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Transmitted crack wave to% s", "<npcname>Transmitted crack wave to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_yousou",
+    "name": "Minami Kotaka",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Minami Kota Knightreds to% s", "<npcname>Minami Kota Knightreds to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_syosyu",
+    "name": "Nanko Xiang Woo slaughter legs",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Nantou Xianghei slaughter to% s", "<npcname>Nantou Xianghei slaughter to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_kesyo",
+    "name": "Blood cosmetic",
+    "min_unarmed": 6,
+    "unarmed_allowed": true,
+    "messages": [
+      "Minami Tokoro Tsurumu Oshimi Blood Cosmetic Bikes to% s",
+      "<npcname>Minami Tokoro Tsurumu Oshimi Blood Cosmetic Bikes to% s"
+    ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 1.0 ], [ "damage", "cut", "dex", 0.8 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_rekyaku",
+    "name": "Dancing leg dancing",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Muscular dance Mai to% s", "<npcname>Muscular dance Mai to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_zanjin",
+    "name": "Shikajin",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Beginning of the battlefield to% s", "<npcname>Beginning of the battlefield to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_kyokusei",
+    "name": "Polar Cross Cross Fist",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Polar Cross Fist in% s", "<npcname>Polar Cross Fist in% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_juji",
+    "name": "Polar Crucifix Blast",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Polaris star cross-shock wind is% s", "<npcname>Polaris star cross-shock wind is% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_bakusei",
+    "name": "Nankoo Bomb waves",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Nanko Battle Waves to% s", "<npcname>Nanko Battle Waves to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_housyou",
+    "name": "Shuangcheong Feng",
+    "min_unarmed": 3,
+    "unarmed_allowed": true,
+    "messages": [ "Shuangju Feng to% s", "<npcname>Shuangju Feng to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 0.8 ], [ "damage", "cut", "dex", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nanto_tensyo",
+    "name": "Tensho Cross Fen",
+    "min_unarmed": 6,
+    "unarmed_allowed": true,
+    "messages": [ "Nanko Phoenix Fist Mystery Tensho Cross Feng to% s", "<npcname>Nanko Phoenix Fist Mystery Tensho Cross Feng to% s" ],
+    "mult_bonuses": [ [ "damage", "bash", "str", 1.0 ], [ "damage", "cut", "dex", 0.8 ], [ "dodge", 5.0 ] ]
+  }
 ]

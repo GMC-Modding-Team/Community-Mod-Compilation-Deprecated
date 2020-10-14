@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "nec_alloy_trunk",
     "type": "ARMOR",
     "name": "Alloy Trunk",
@@ -9,7 +9,7 @@
     "price": 30000,
     "to_hit": -1,
     "bashing": 28,
-    "material" : ["steel"],
+    "material": [ "steel" ],
     "symbol": "[",
     "color": "white",
     "covers": [ "ARM_EITHER", "HAND_EITHER" ],
@@ -18,9 +18,9 @@
     "storage": 40,
     "material_thickness": 2,
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "WATER_FRIENDLY", "STURDY","OVERSIZE", "BELTED", "RESTRICT_HANDS","DURABLE_MELEE" ]
-  }
-  ,{
+    "flags": [ "WATER_FRIENDLY", "STURDY", "OVERSIZE", "BELTED", "RESTRICT_HANDS", "DURABLE_MELEE" ]
+  },
+  {
     "id": "nec_coffin",
     "type": "ARMOR",
     "name": "Coffin",
@@ -30,7 +30,7 @@
     "price": 80000,
     "to_hit": -3,
     "bashing": 40,
-    "material" : ["steel", "wood"],
+    "material": [ "steel", "wood" ],
     "symbol": "[",
     "color": "black",
     "covers": [ "TORSO" ],
@@ -39,9 +39,9 @@
     "storage": 140,
     "material_thickness": 3,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE","DURABLE_MELEE"  ]
-  }
-  ,{
+    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE", "DURABLE_MELEE" ]
+  },
+  {
     "id": "nec_ribbon",
     "type": "ARMOR",
     "name": "Ribbon",
@@ -54,8 +54,8 @@
     "symbol": "[",
     "color": "white",
     "flags": [ "FANCY" ]
-  }
-  ,{
+  },
+  {
     "id": "nec_teddy",
     "type": "ARMOR",
     "name": "Teddy",
@@ -64,15 +64,15 @@
     "weight": 50,
     "volume": 1,
     "price": 1000,
-    "material": [ "cotton","plastic" ],
+    "material": [ "cotton", "plastic" ],
     "symbol": "[",
     "color": "brown",
     "covers": [ "TORSO" ],
     "coverage": 5,
     "encumbrance": 0,
     "flags": [ "BELTED" ]
-  }
-  ,{
+  },
+  {
     "id": "nec_gothic_dress",
     "type": "ARMOR",
     "name": "Gothic Dress",
@@ -84,14 +84,14 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEGS", "TORSO","ARMS" ],
+    "covers": [ "LEGS", "TORSO", "ARMS" ],
     "coverage": 90,
     "encumbrance": 20,
     "warmth": 20,
     "material_thickness": 3,
     "flags": [ "VARSIZE", "SUPER_FANCY" ]
-  }
-  ,{
+  },
+  {
     "id": "nec_gothic_headdress",
     "type": "ARMOR",
     "name": "Gothic Headdress",
@@ -102,56 +102,51 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": ["HEAD"],
+    "covers": [ "HEAD" ],
     "coverage": 20,
     "encumbrance": 5,
     "warmth": 5,
     "material_thickness": 1,
-    "flags": ["FANCY" ]
-  }
-  ,{
+    "flags": [ "FANCY" ]
+  },
+  {
     "id": "nec_sgothic_dress",
     "type": "ARMOR",
-    "category" : "armor",
+    "category": "armor",
     "name": "Survivor Gothic Dress",
     "description": "This is a Gothic dress whose surface was ruffled or laced as it is, and the inner surface was greatly modified to modern survival specifications. In addition to being fitted with pockets here and there, it has high defense power by Kevlar reinforcement, and a large skirt has space to store medium size firearms. Speaking of shortcomings, yes, in some people the chest became cramped.",
     "weight": 5500,
     "volume": 34,
     "price": 100000,
-    "material": [ "kevlar","cotton" ],
+    "material": [ "kevlar", "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEGS", "TORSO","ARMS" ],
-    "storage" : 20,
-    "environmental_protection" : 1,
+    "covers": [ "LEGS", "TORSO", "ARMS" ],
+    "storage": 20,
+    "environmental_protection": 1,
     "coverage": 95,
     "encumbrance": 18,
     "warmth": 25,
     "material_thickness": 4,
-    "use_action" : {
-      "type": "holster",
-      "max_volume": 10,
-      "draw_cost": 150,
-      "skills": ["smg", "shotgun", "rifle", "launcher"]
-    },
-    "flags": [ "VARSIZE", "SUPER_FANCY","OVERSIZE","WATERPROOF","RAINPROOF","STURDY","POCKETS" ]
-  }
-  ,{
-    "type" : "ARMOR",
-    "category" : "clothing",
-    "id" : "nec_panier",
-    "name" : "Pannier",
-    "weight" : 200,
-    "color" : "white",
-    "symbol" : "[",
-    "description" : "This is a kind of underwear to wear under the long skirt to make the dress bulge. Because it comes with wire, it will not collapse.",
-    "price" : 500,
-    "material" : ["cotton"],
-    "covers": [ "LEGS"],
+    "use_action": { "type": "holster", "max_volume": 10, "draw_cost": 150, "skills": [ "smg", "shotgun", "rifle", "launcher" ] },
+    "flags": [ "VARSIZE", "SUPER_FANCY", "OVERSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "POCKETS" ]
+  },
+  {
+    "type": "ARMOR",
+    "category": "clothing",
+    "id": "nec_panier",
+    "name": "Pannier",
+    "weight": 200,
+    "color": "white",
+    "symbol": "[",
+    "description": "This is a kind of underwear to wear under the long skirt to make the dress bulge. Because it comes with wire, it will not collapse.",
+    "price": 500,
+    "material": [ "cotton" ],
+    "covers": [ "LEGS" ],
     "warmth": 5,
     "encumbrance": 5,
-    "volume" : 1,
-    "flags" : ["OVERSIZE"],
-    "material_thickness" : 1
+    "volume": 1,
+    "flags": [ "OVERSIZE" ],
+    "material_thickness": 1
   }
 ]

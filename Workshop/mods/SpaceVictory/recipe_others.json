@@ -1,226 +1,125 @@
 [
   {
-   "type" : "recipe",
-   "result": "x64_combustion",
-   "category": "CC_OTHER",
-   "subcategory": "CSC_OTHER_MATERIALS",
-   "skill_used": "mechanics",
-   "difficulty": 8,
-   "time": 60000,
-   "reversible": false,
-   "autolearn": true,
-   "qualities": [
-     {"id":"SAW_M","level":1,"amount":1},
-     {"id":"WRENCH","level":1,"amount":1}
+    "type": "recipe",
+    "result": "x64_combustion",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "mechanics",
+    "difficulty": 8,
+    "time": 60000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 1, "amount": 1 }, { "id": "WRENCH", "level": 1, "amount": 1 } ],
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 200 ], [ "welder_crude", 250 ], [ "toolset", 250 ], [ "oxy_torch", 20 ], [ "duct_tape", 400 ] ]
     ],
-   "tools": [
-     [
-       [ "goggles_welding", -1 ]
-     ],
-     [
-       [ "welder", 200 ],
-       [ "welder_crude", 250 ],
-       [ "toolset", 250 ],
-       [ "oxy_torch", 20],
-       [ "duct_tape", 400 ]
-     ]
-   ],
-   "components": [
-     [
-       [ "v6_combustion", 11 ],
-       [ "v8_combustion", 8 ],
-       [ "v12_combustion", 6 ]
-     ]
-   ]
- },{
-   "type" : "recipe",
-   "result": "x128_combustion",
-   "category": "CC_OTHER",
-   "subcategory": "CSC_OTHER_MATERIALS",
-   "skill_used": "mechanics",
-   "difficulty": 10,
-   "time": 10000,
-   "reversible": false,
-   "autolearn": true,
-   "qualities": [
-     {"id":"SAW_M","level":1,"amount":1},
-     {"id":"WRENCH_FINE","level":1,"amount":1}
+    "components": [ [ [ "v6_combustion", 11 ], [ "v8_combustion", 8 ], [ "v12_combustion", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "x128_combustion",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "mechanics",
+    "difficulty": 10,
+    "time": 10000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 1, "amount": 1 }, { "id": "WRENCH_FINE", "level": 1, "amount": 1 } ],
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ], [ "oxy_torch", 30 ], [ "duct_tape", 600 ] ]
     ],
-   "tools": [
-     [
-       [ "goggles_welding", -1 ]
-     ],
-     [
-       [ "welder", 300 ],
-       [ "welder_crude", 450 ],
-       [ "toolset", 450 ],
-       [ "oxy_torch", 30],
-       [ "duct_tape", 600 ]
-     ]
-   ],
-   "components": [
-     [
-       [ "v8_combustion", 14 ],
-       [ "v12_combustion", 11 ],
-       [ "x64_combustion", 2 ]
-     ]
-   ]
- },{
-   "type" : "recipe",
-   "result": "256_combustion",
-   "category": "CC_OTHER",
-   "subcategory": "CSC_OTHER_MATERIALS",
-   "skill_used": "mechanics",
-   "difficulty": 10,
-   "time": 20000,
-   "reversible": false,
-   "autolearn": true,
-   "qualities": [
-     {"id":"SAW_M_FINE","level":1,"amount":1},
-     {"id":"WRENCH_FINE","level":1,"amount":1}
+    "components": [ [ [ "v8_combustion", 14 ], [ "v12_combustion", 11 ], [ "x64_combustion", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "256_combustion",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "mechanics",
+    "difficulty": 10,
+    "time": 20000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1, "amount": 1 }, { "id": "WRENCH_FINE", "level": 1, "amount": 1 } ],
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 400 ], [ "welder_crude", 500 ], [ "toolset", 500 ], [ "oxy_torch", 50 ], [ "duct_tape", 800 ] ]
     ],
-   "tools": [
-     [
-       [ "goggles_welding", -1 ]
-     ],
-     [
-       [ "welder", 400 ],
-       [ "welder_crude", 500 ],
-       [ "toolset", 500 ],
-       [ "oxy_torch", 50],
-       [ "duct_tape", 800 ]
-     ]
-   ],
-   "components": [
-     [
-       [ "x64_combustion", 4 ],
-       [ "x128_combustion", 2 ]
-     ]
-   ]
- },{
-   "type" : "recipe",
-   "result": "improbability_drive",
-   "category": "CC_OTHER",
-   "subcategory": "CSC_OTHER_MATERIALS",
-   "skill_used": "fabrication",
-   "skills_required": [ "electronics", 42 ],
-   "difficulty": 1,
-   "time": 5000,
-   "reversible": false,
-   "autolearn": true,
-   "qualities": [
-     {"id":"SCREW","level":1,"amount":1}
+    "components": [ [ [ "x64_combustion", 4 ], [ "x128_combustion", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "improbability_drive",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 42 ],
+    "difficulty": 1,
+    "time": 5000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW", "level": 1, "amount": 1 } ],
+    "tools": [
+      [ [ "mold_plastic", -1 ] ],
+      [ [ "hotplate", 10 ], [ "toolset", 10 ], [ "fire", -1 ] ],
+      [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ]
     ],
-   "tools": [
-     [
-      ["mold_plastic", -1]
-     ],
-     [
-      ["hotplate", 10],
-      ["toolset", 10],
-      ["fire", -1]
-     ],
-     [
-      [ "soldering_iron", 10 ],
-      [ "toolset", 10 ]
-     ]
-   ],
-   "components": [
-     [
-      ["plastic_chunk", 6]
-     ],
-     [
-      ["processor", 2],
-      ["RAM", 2],
-      ["burnt_out_bionic", 2]
-     ],
-     [
-      ["teleporter", 1],
-      ["bio_teleport", 1]
-     ],
-     [
-      [ "circuit", 2 ],
-      [ "amplifier", 2 ],
-      [ "power_supply", 1 ]
-     ],
-     [
-      [ "cable", 10 ],
-      [ "wire", 16 ],
-      [ "lead", 50 ]
-     ],
-     [
-      [ "hotplate", 1 ],
-      [ "coffeemaker", 1 ],
-      [ "element", 20 ]
-     ],
-     [
-      [ "teapot", 1 ]
-     ],
-     [
-      [ "tea", 1 ],
-      [ "milk_tea", 1 ],
-      [ "herbal_tea", 2 ],
-      [ "dandelion_tea", 2 ],
-      [ "coffee", 2 ],
-      [ "atomic_coffee", 2 ]
-     ]
-   ]
- },{
-   "type" : "recipe",
-   "result": "buttered_cat_generator",
-   "category": "CC_OTHER",
-   "subcategory": "CSC_OTHER_MATERIALS",
-   "skill_used": "fabrication",
-   "skills_required": [ "electronics", 10 ],
-   "difficulty": 3,
-   "time": 8000,
-   "reversible": true,
-   "autolearn": true,
-   "qualities": [
-     {"id":"SAW_M","level":1,"amount":1},
-     {"id":"SCREW","level":1,"amount":1},
-     {"id":"HAMMER","level":2,"amount":1}
+    "components": [
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "processor", 2 ], [ "RAM", 2 ], [ "burnt_out_bionic", 2 ] ],
+      [ [ "teleporter", 1 ], [ "bio_teleport", 1 ] ],
+      [ [ "circuit", 2 ], [ "amplifier", 2 ], [ "power_supply", 1 ] ],
+      [ [ "cable", 10 ], [ "wire", 16 ], [ "lead", 50 ] ],
+      [ [ "hotplate", 1 ], [ "coffeemaker", 1 ], [ "element", 20 ] ],
+      [ [ "teapot", 1 ] ],
+      [
+        [ "tea", 1 ],
+        [ "milk_tea", 1 ],
+        [ "herbal_tea", 2 ],
+        [ "dandelion_tea", 2 ],
+        [ "coffee", 2 ],
+        [ "atomic_coffee", 2 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "buttered_cat_generator",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 10 ],
+    "difficulty": 3,
+    "time": 8000,
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [
+      { "id": "SAW_M", "level": 1, "amount": 1 },
+      { "id": "SCREW", "level": 1, "amount": 1 },
+      { "id": "HAMMER", "level": 2, "amount": 1 }
     ],
-   "tools": [
-     [
-       [ "goggles_welding", -1 ]
-     ],
-     [
-       [ "welder", 50 ],
-       [ "welder_crude", 100 ],
-       [ "toolset", 100 ],
-       [ "oxy_torch", 5],
-       [ "duct_tape", 100 ]
-     ],
-     [
-       [ "knife_butter", -1 ]
-     ]
-   ],
-   "components": [
-     [
-       [ "steel_chunk", 3 ],
-       [ "scrap", 8 ]
-     ],
-     [
-       [ "catfood", 1 ]
-     ],
-     [
-       [ "peanutbutter", 1 ],
-       [ "jam_blueberries", 1 ],
-       [ "jam_strawberries", 1 ],
-       [ "jam_fruit", 1 ],
-       [ "honeycomb", 1 ],
-       [ "honey_bottled", 1 ],
-       [ "honey_glassed", 1 ]
-     ],
-     [
-       [ "bread", 1],
-       [ "hardtack", 2]
-     ],
-     [
-       [ "duct_tape", 5 ],
-       [ "superglue", 1 ]
-     ]
-   ]
- }
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 50 ], [ "welder_crude", 100 ], [ "toolset", 100 ], [ "oxy_torch", 5 ], [ "duct_tape", 100 ] ],
+      [ [ "knife_butter", -1 ] ]
+    ],
+    "components": [
+      [ [ "steel_chunk", 3 ], [ "scrap", 8 ] ],
+      [ [ "catfood", 1 ] ],
+      [
+        [ "peanutbutter", 1 ],
+        [ "jam_blueberries", 1 ],
+        [ "jam_strawberries", 1 ],
+        [ "jam_fruit", 1 ],
+        [ "honeycomb", 1 ],
+        [ "honey_bottled", 1 ],
+        [ "honey_glassed", 1 ]
+      ],
+      [ [ "bread", 1 ], [ "hardtack", 2 ] ],
+      [ [ "duct_tape", 5 ], [ "superglue", 1 ] ]
+    ]
+  }
 ]

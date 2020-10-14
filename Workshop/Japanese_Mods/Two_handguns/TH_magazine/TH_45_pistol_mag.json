@@ -1,5 +1,4 @@
 [
-
   {
     "id": "TH_m1911bigmag",
     "copy-from": "m1911bigmag",
@@ -7,56 +6,33 @@
     "name": "Dual mag(.45 caliber/M1911/Expansion)",
     "name_plural": "Dual mag(.45 caliber/M1911/Expansion)",
     "description": "An extended 10-round magazine for use with the M1911 handgun.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reliability": -1
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "capacity": 2,
-      "reload_time": 1.5
-    }
-  },  {
+    "//": "Fixed value number correction",
+    "relative": { "reliability": -1 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "capacity": 2, "reload_time": 1.5 }
+  },
+  {
     "id": "TH_m1911mag",
     "copy-from": "m1911mag",
     "type": "MAGAZINE",
     "name": "Dual mag(.45 caliber/M1911)",
     "name_plural": "Dual mag(.45 caliber/M1911)",
     "description": "A military issue 7-round magazine for use with the M1911 handgun.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reliability": -1
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "capacity": 2,
-      "reload_time": 1.5
-    }
-  },  {
+    "//": "Fixed value number correction",
+    "relative": { "reliability": -1 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "capacity": 2, "reload_time": 1.5 }
+  },
+  {
     "id": "TH_usp45mag",
     "copy-from": "usp45mag",
     "type": "MAGAZINE",
     "name": "Dual mag(.45 caliber/USP)",
     "name_plural": "Dual mag(.45 caliber/USP)",
     "description": "A standard capacity magazine for use with the H&K USP handgun.",
-    "//":"Fixed value number correction",
-    "relative": {
-      "reliability": -1
-    },
-    "//":"Change by magnification",
-    "proportional": { 
-      "weight": 2,
-      "volume": 2,
-      "price": 2, 
-      "capacity": 2,
-      "reload_time": 1.5
-    }
+    "//": "Fixed value number correction",
+    "relative": { "reliability": -1 },
+    "//": "Change by magnification",
+    "proportional": { "weight": 2, "volume": 2, "price": 2, "capacity": 2, "reload_time": 1.5 }
   }
-
 ]

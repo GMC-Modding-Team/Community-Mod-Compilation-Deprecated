@@ -1,6 +1,6 @@
 [
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "npctw_ma_lerning_machine",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_TOOLS",
@@ -18,12 +18,8 @@
       [ [ "e_scrap", 4 ] ],
       [ [ "amplifier", 2 ] ]
     ],
-    "qualities": [
-      { "level": 1, "id":"SCREW" } 
-    ],
-    "using": [
-      [ "soldering_standard", 20 ]
-    ]
+    "qualities": [ { "level": 1, "id": "SCREW" } ],
+    "using": [ [ "soldering_standard", 20 ] ]
   },
   {
     "type": "recipe",
@@ -35,13 +31,8 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "qualities": [
-      { "level": 1, "id":"CUT" } 
-    ],
-    "components": [
-      [ [ "string_6", 1 ] ],
-      [ [ "plastic_chunk", 1 ] ]
-    ]
+    "qualities": [ { "level": 1, "id": "CUT" } ],
+    "components": [ [ [ "string_6", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -53,11 +44,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "qualities": [
-      { "level": 1, "id":"CUT" } 
-    ],
-    "components": [
-      [ [ "2x4", 1 ], [ "stick_long", 1 ] ]
-    ]
+    "qualities": [ { "level": 1, "id": "CUT" } ],
+    "components": [ [ [ "2x4", 1 ], [ "stick_long", 1 ] ] ]
   }
 ]

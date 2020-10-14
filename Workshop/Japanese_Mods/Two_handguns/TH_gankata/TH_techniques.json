@@ -1,35 +1,22 @@
 [
-
-    {
-        "type" : "technique",
-        "id" : "tec_TH_tetsuzanko",
-        "name" : "Physical shock",
-        "min_melee" : 3,
-        "crit_tec" : true,
-        "knockback_dist" : 2,
-        "messages" : [
-            "Instantaneous blowing blown% s",
-            "<npcname>I blew out% s per body"
-        ],
-        "mult_bonuses" : [
-            ["damage", "bash", 1.2],
-            ["movecost", 0.6]
-        ]
-    },
-    {
-        "type" : "technique",
-        "id" : "tec_TH_dispose",
-        "name" : "Handling",
-        "min_unarmed" : 1,
-        "defensive" : true,
-        "grab_break" : true,
-        "mult_bonuses" : [
-            ["movecost", 0.6]
-        ],
-        "messages" : [
-            "I quickly handled enemy attacks",
-            "<npcname> He handled the attack"
-        ]
-    }
-    
+  {
+    "type": "technique",
+    "id": "tec_TH_tetsuzanko",
+    "name": "Physical shock",
+    "min_melee": 3,
+    "crit_tec": true,
+    "knockback_dist": 2,
+    "messages": [ "Instantaneous blowing blown% s", "<npcname>I blew out% s per body" ],
+    "mult_bonuses": [ [ "damage", "bash", 1.2 ], [ "movecost", 0.6 ] ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_TH_dispose",
+    "name": "Handling",
+    "min_unarmed": 1,
+    "defensive": true,
+    "grab_break": true,
+    "mult_bonuses": [ [ "movecost", 0.6 ] ],
+    "messages": [ "I quickly handled enemy attacks", "<npcname> He handled the attack" ]
+  }
 ]
