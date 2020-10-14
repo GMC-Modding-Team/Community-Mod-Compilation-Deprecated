@@ -1,8 +1,8 @@
 [
   {
     "type": "profession",
-    "ident": "traveling_hobo",
-    "name": "Traveling Hobo",
+    "id": "traveling_hobo",
+    "name": { "str": "Traveling Hobo" },
     "description": "Having nowhere to turn but the road, you set out on a journey, and possibly find some alcohol.",
     "points": 0,
     "items": {
@@ -13,9 +13,9 @@
   },
   {
     "type": "profession",
-    "ident": "altered_hobo",
-    "name": "Altered Hobo",
-    "description": "You got a little too drunk one day, and found yourself in the back of a van. After days of fading in and out of reality, you woke up in an alley, feeling strange and wanting some alcohol.",
+    "id": "altered_hobo",
+    "name": { "str": "Altered Hobo" },
+    "description": "You got a little too drunk one day, and found yourself in the back of a van.  After days of fading in and out of reality, you woke up in an alley, feeling strange and wanting some alcohol.",
     "points": 0,
     "CBMs": [ "bio_ethanol", "bio_ankles", "bio_thumbs", "bio_power_storage" ],
     "traits": [ "ALCMET" ],
