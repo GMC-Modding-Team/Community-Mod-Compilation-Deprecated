@@ -1,7 +1,7 @@
 [
   {
-    "ident": "null",
-    "name": "Null",
+    "id": "null",
+    "name": { "str": "Null" },
     "bash_resist": 0,
     "cut_resist": 0,
     "bash_dmg_verb": "damaged",
@@ -13,8 +13,8 @@
     "density": 1
   },
   {
-    "ident": "veggy",
-    "name": "Plant Matter",
+    "id": "veggy",
+    "name": { "str": "Plant Matter" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "ripped",
@@ -26,8 +26,8 @@
     "density": 4
   },
   {
-    "ident": "flesh",
-    "name": "Flesh",
+    "id": "flesh",
+    "name": { "str": "Flesh" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "bruised",
@@ -39,8 +39,8 @@
     "density": 5
   },
   {
-    "ident": "powder",
-    "name": "Powder",
+    "id": "powder",
+    "name": { "str": "Powder" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "damaged",
@@ -52,8 +52,8 @@
     "density": 1
   },
   {
-    "ident": "hflesh",
-    "name": "Human Flesh",
+    "id": "hflesh",
+    "name": { "str": "Human Flesh" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "bruised",
@@ -65,8 +65,8 @@
     "density": 5
   },
   {
-    "ident": "cotton",
-    "name": "Cotton",
+    "id": "cotton",
+    "name": { "str": "Cotton" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "ripped",
@@ -78,8 +78,8 @@
     "density": 3
   },
   {
-    "ident": "wool",
-    "name": "Wool",
+    "id": "wool",
+    "name": { "str": "Wool" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "torn",
@@ -91,8 +91,8 @@
     "density": 9
   },
   {
-    "ident": "leather",
-    "name": "Leather",
+    "id": "leather",
+    "name": { "str": "Leather" },
     "bash_resist": 2,
     "cut_resist": 2,
     "bash_dmg_verb": "ripped",
@@ -104,8 +104,8 @@
     "density": 6
   },
   {
-    "ident": "kevlar",
-    "name": "Kevlar",
+    "id": "kevlar",
+    "name": { "str": "Kevlar" },
     "bash_resist": 2,
     "cut_resist": 4,
     "bash_dmg_verb": "ripped",
@@ -117,8 +117,8 @@
     "density": 10
   },
   {
-    "ident": "fur",
-    "name": "Fur",
+    "id": "fur",
+    "name": { "str": "Fur" },
     "bash_resist": 2,
     "cut_resist": 2,
     "bash_dmg_verb": "ripped",
@@ -130,8 +130,8 @@
     "density": 9
   },
   {
-    "ident": "chitin",
-    "name": "Chitin",
+    "id": "chitin",
+    "name": { "str": "Chitin" },
     "bash_resist": 3,
     "cut_resist": 4,
     "bash_dmg_verb": "cracked",
@@ -143,8 +143,8 @@
     "density": 10
   },
   {
-    "ident": "bone",
-    "name": "Bone",
+    "id": "bone",
+    "name": { "str": "Bone" },
     "bash_resist": 2,
     "cut_resist": 3,
     "bash_dmg_verb": "cracked",
@@ -156,8 +156,8 @@
     "density": 7
   },
   {
-    "ident": "stone",
-    "name": "Stone",
+    "id": "stone",
+    "name": { "str": "Stone" },
     "bash_resist": 6,
     "cut_resist": 6,
     "bash_dmg_verb": "cracked",
@@ -169,8 +169,8 @@
     "density": 17
   },
   {
-    "ident": "paper",
-    "name": "Paper",
+    "id": "paper",
+    "name": { "str": "Paper" },
     "bash_resist": 1,
     "cut_resist": 1,
     "bash_dmg_verb": "ripped",
@@ -182,8 +182,8 @@
     "density": 4
   },
   {
-    "ident": "wood",
-    "name": "Wood",
+    "id": "wood",
+    "name": { "str": "Wood" },
     "bash_resist": 3,
     "cut_resist": 2,
     "bash_dmg_verb": "splintered",
@@ -195,8 +195,8 @@
     "density": 4
   },
   {
-    "ident": "plastic",
-    "name": "Plastic",
+    "id": "plastic",
+    "name": { "str": "Plastic" },
     "bash_resist": 2,
     "cut_resist": 2,
     "bash_dmg_verb": "dented",
@@ -208,8 +208,8 @@
     "density": 8
   },
   {
-    "ident": "glass",
-    "name": "Glass",
+    "id": "glass",
+    "name": { "str": "Glass" },
     "bash_resist": 3,
     "cut_resist": 4,
     "bash_dmg_verb": "cracked",
@@ -221,8 +221,8 @@
     "density": 14
   },
   {
-    "ident": "iron",
-    "name": "Iron",
+    "id": "iron",
+    "name": { "str": "Iron" },
     "bash_resist": 4,
     "cut_resist": 4,
     "bash_dmg_verb": "dented",
@@ -234,8 +234,8 @@
     "density": 52
   },
   {
-    "ident": "steel",
-    "name": "Steel",
+    "id": "steel",
+    "name": { "str": "Steel" },
     "bash_resist": 6,
     "cut_resist": 6,
     "bash_dmg_verb": "dented",
@@ -247,8 +247,8 @@
     "density": 52
   },
   {
-    "ident": "silver",
-    "name": "Silver",
+    "id": "silver",
+    "name": { "str": "Silver" },
     "bash_resist": 2,
     "cut_resist": 3,
     "bash_dmg_verb": "dented",
