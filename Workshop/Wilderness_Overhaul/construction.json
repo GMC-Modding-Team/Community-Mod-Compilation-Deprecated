@@ -12,7 +12,7 @@
   {
     "type": "furniture",
     "id": "f_forge_rock",
-    "name": "forge",
+    "name": { "str": "forge" },
     "symbol": "^",
     "color": "ltred",
     "move_cost_mod": -1,
@@ -54,7 +54,7 @@
   {
     "type": "furniture",
     "id": "f_firepit",
-    "name": "fire pit",
+    "name": { "str": "fire pit" },
     "symbol": "0",
     "bgcolor": "brown",
     "move_cost_mod": 0,
@@ -66,7 +66,7 @@
   {
     "type": "furniture",
     "id": "f_cookfirepit",
-    "name": "cooking pit",
+    "name": { "str": "cooking pit" },
     "symbol": "0",
     "bgcolor": "brown",
     "move_cost_mod": 2,
@@ -85,7 +85,7 @@
   {
     "type": "furniture",
     "id": "f_makeshiftfence",
-    "name": "makeshift fence",
+    "name": { "str": "makeshift fence" },
     "symbol": "=",
     "bgcolor": "h_brown",
     "move_cost_mod": 2,
@@ -135,7 +135,7 @@
   {
     "type": "furniture",
     "id": "f_smoking_rack",
-    "name": "smoking rack",
+    "name": { "str": "smoking rack" },
     "symbol": "=",
     "bgcolor": "brown",
     "move_cost_mod": 2,
@@ -165,7 +165,7 @@
   {
     "type": "furniture",
     "id": "f_clay_kiln",
-    "name": "clay kiln",
+    "name": { "str": "clay kiln" },
     "symbol": "^",
     "color": "ltred",
     "move_cost_mod": -1,
@@ -187,11 +187,11 @@
     "type": "TOOL",
     "symbol": ";",
     "color": "dark_gray",
-    "name": "clay kiln",
+    "name": { "str": "clay kiln" },
     "description": "This is an internal use only item for the clay kiln construction.",
     "price": 100000,
     "material": "steel",
-    "weight": 14000,
+    "weight": "14000 g",
     "volume": 8,
     "bashing": 10,
     "cutting": 0,
@@ -200,7 +200,7 @@
     "initial_charges": 0,
     "charges_per_use": 0,
     "turns_per_charge": 0,
-    "ammo": "charcoal",
+    "ammo": [ "charcoal" ],
     "revert_to": "null"
   }
 ]
