@@ -149,8 +149,7 @@
     "volume": "500 ml",
     "weight": "80 g",
     "ammo_type": "bomblet",
-    "damage": 5,
-    "pierce": 100,
+    "damage": { "damage_type": "bullet", "amount": 5, "pierce": 100 },
     "range": 25,
     "count": 4,
     "effects": ["BEANBAG", "WIDE", "BOUNCE", "LIGHTNING", "NEVER_MISFIRES", "COOKOFF"]
