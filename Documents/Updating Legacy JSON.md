@@ -8,6 +8,7 @@ Use the `home` key to get to the top.
   + [What is JSON?](#what-is-json)
   + [Terminology in this Document](#terminology-in-this-document)
 - [abstract, ident, and id](#abstract-ident-and-id)
+- [Ammo](#ammo)
 - [Ammo Type](#ammo-type)
 - [Artifacts](#artifacts)
 - [barrel_length](#barrel_length)
@@ -89,7 +90,33 @@ When I provide regex it will always be in the format find entry, empty line, rep
 `id` can (and perhaps should) be used anywhere `abstract` can be. It is used almost anywhere and doesn't need updating. Check out [JSON Info](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_INFO.md) for more information on where to use `id`.
 
 
-# Ammo Type
+# Ammo
+The current JSON standards for `type` `"construction_group"` look like this:
+```JSON
+  "id": "template_ammo",
+  "type": "AMMO",
+  "name": { "str": "Template_ammo" },
+  "description": "Template description.",
+  "weight": "10 g",
+  "volume": "125 ml",
+  "price": 150,
+  "price_postapoc": 1000,
+  "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+  "material": [ "brass", "powder" ],
+  "symbol": "=",
+  "color": "yellow",
+  "count": 50,
+  "stack_size": 50,
+  "ammo_type": "Template_type",
+  "casing": "Template_casing",
+  "range": 14,
+  "damage": { "damage_type": "bullet", "amount": 0 },
+  "dispersion": 60,
+  "recoil": 500,
+  "effects": [ "COOKOFF" ]
+```
+
+## Ammo Type
 It is possible to specify the `key: value` pair `ammo: string` under both `type: GUN`, and `type: AMMO`. However, under `type: GUN`, the `key: value` pair should actually be `ammo: [ string ]`.
 For reference, here is what it should look like under `type: GUN`:
 
@@ -109,6 +136,33 @@ It is practically impossible to replace all at once, due to the similarities bet
 ```
 
 
+## damage
+The current JSON standards for `key` `"damage"` look like this:
+And what it should look like under `type: AMMO`:
+```JSON
+"damage": { "damage_type": "bullet", "amount": 0 },
+```
+what it can be
+```JSON
+"damage": { "damage_type": "bullet", "amount": 0, "pierce": 0 },
+"damage": { "damage_type": "bullet", "amount": 0, "armor_penetration": 0 },
+```
+
+find:
+```REGEX
+"damage": ([0-9]+)
+or
+"damage": ([0-9]+),[\n\r]+    "pierce": ([0-9]+),
+```
+
+replace:
+```REGEX
+"damage": { "damage_type": "bullet", "amount": $1 },
+or
+"damage": { "damage_type": "bullet", "amount": $1, "pierce": $2 },
+```
+
+
 # Artifacts
 Artifacts are currently undergoing a massive change. Nothing too important has changed yet, so this is simply a placeholder section.
 
@@ -116,7 +170,7 @@ Artifacts are currently undergoing a massive change. Nothing too important has c
 # barrel_length
 Very recently, the `barrel_length` `key` for `type: GUN` has been replaced by `barrel_volume`. Fortunately this is a rather easy fix:
 
-```regex
+```REGEX
 "barrel_length":
 
 "barrel_volume":
@@ -397,7 +451,7 @@ all shapes -
 # Construction group
 The current JSON standards for `type` `"construction_group"` look like this:
 
-```Json C++
+```Json
 "type": "construction_group",
 "id": "Example",
 "name": "Remove Example"
