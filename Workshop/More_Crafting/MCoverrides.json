@@ -19,15 +19,15 @@
     "override": true,
     "symbol": ",",
     "color": "light_gray",
-    "name": "electric firestarter",
+    "name": { "str": "electric firestarter" },
     "description": "This is little more than some wires that can generate a spark from batteries.  Extremely inefficient.",
     "price": 100,
     "material": "steel",
-    "weight": 14,
+    "weight": "14 g",
     "volume": 1,
     "max_charges": 60,
     "charges_per_use": 10,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "use_action": { "type": "extended_firestarter" }
   },
   {
