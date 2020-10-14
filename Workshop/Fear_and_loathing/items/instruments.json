@@ -9,7 +9,7 @@
     "material": "wood",
     "weight": "13 g",
     "volume": 24,
-    "damage": 14,
+    "damage": { "damage_type": "bullet", "amount": 14 },
     "to_hit": 1,
     "use": "PLAY_GUITAR",
     "variations": [ { "odds": 200, "name": "Specific Variation" } ]
@@ -24,7 +24,7 @@
     "material": [ "wood", "steel" ],
     "weight": "10 g",
     "volume": 10,
-    "damage": 11,
+    "damage": { "damage_type": "bullet", "amount": 11 },
     "to_hit": 1,
     "use": "PLAY_DRUM"
   }
