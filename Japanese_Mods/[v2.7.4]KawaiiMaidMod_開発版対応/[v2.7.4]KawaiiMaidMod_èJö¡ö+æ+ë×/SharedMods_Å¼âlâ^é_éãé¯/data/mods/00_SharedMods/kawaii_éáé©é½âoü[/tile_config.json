@@ -1,0 +1,22 @@
+{
+  "type": "mod_tileset",
+  "compatibility": [ "MSX++DEAD_PEOPLE" ],
+  "tile_info": [
+    {
+      "height": 32,
+      "width": 32
+    }
+  ],
+  "tiles-new": [
+	{
+	"file": "kawaii_あずきバー/azuki_stick.png",
+	"sprite_offset_x":-12,
+	"sprite_offset_y":-9,
+	"tiles":
+	[
+		{ "id": "kawaii_sm_azukibar",					"fg": 0, "rotates": false },
+		{ "id": "overlay_wielded_kawaii_sm_azukibar",	"fg": 0, "rotates": false }
+	]
+	}
+  ]
+}

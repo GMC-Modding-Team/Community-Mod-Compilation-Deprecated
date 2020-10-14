@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Graphite Ammo Press
+description: Graphite rounds are slower to fire, but pack a bigger punch.
+health: 150
+requirements: [
+  copper/25
+  graphite/5
+]
+consumes: {
+  items: {
+  items: [
+  graphite/2
+  bullet-casing/1
+  ]
+  }
+  power: {
+  usage: 0.333333
+  capacity: 1
+  }
+}
+outputItem: graphite-bullet/1
+craftTime: 1
+category: crafting
+research: tech-v2

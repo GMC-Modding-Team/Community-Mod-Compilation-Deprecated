@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: Casing Stamp
+description: Turns brass into bullet casing.
+health: 150
+size: 2
+requirements: [
+  copper/15
+  lead/10
+]
+consumes: {
+  items: {
+  items: [
+  brass/1
+  ]
+  }
+}
+outputItem: bullet-casing/3
+craftTime: 1
+alwaysUnlocked: true
+category: crafting
+research: brass-foundry

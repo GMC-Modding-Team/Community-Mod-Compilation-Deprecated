@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "No_Hulks",
+    "name": "No Hulks",
+    "description": "Removes all zombie hulks from the game.",
+    "category": "monster_exclude",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+"mon_zombie_hulk"
+
+    ]
+  }
+]
+

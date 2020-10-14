@@ -1,0 +1,51 @@
+[
+  {
+    "type": "recipe",
+    "result": "hotdogs_frozen",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 60000,
+    "reversible": false,
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "qualities": [
+      {
+        "id": "CUT",
+        "level": 1,
+        "amount": 1
+      },
+      {
+        "id": "COOK",
+        "level": 1,
+        "amount": 1
+      }
+    ],
+    "tools": [
+      [
+        [ "char_smoker", 2 ]
+      ]
+    ],
+    "components": [
+      [
+        [ "meat", 3 ],
+        [ "rehydrated_meat", 6 ],
+        [ "meat_canned", 6 ]
+      ],
+      [
+        [ "fat", 3 ],
+        [ "tallow", 3 ],
+        [ "lard", 3 ]
+      ],
+      [
+        [ "salt", 1 ],
+        [ "soysauce", 1 ],
+        [ "seasoning_italian", 10 ],
+        [ "wild_herbs", 10 ],
+        [ "seasoning_salt", 10 ],
+        [ "pepper", 10 ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "type" : "item_group",
+        "id" : "hdiner_food",
+        "items" : [
+            ["cheeseburgerhuman", 26],
+            ["bobburger", 28],
+            ["manwich", 50],
+            ["chilidogs_human", 28],
+            ["human_cooked", 50],
+            ["human_smoked", 25],
+            ["hfleshbologna" , 22],
+            ["soup_human", 26],
+            ["mannwurst", 26],
+            ["nachoshf", 30],
+            ["nachoshc", 26],
+            ["hflesh_aspic", 26],
+            ["sandwich_human", 29],
+            ["hobo_helper", 28],
+            ["pie_human", 28],
+            ["pizza_human", 28],
+            ["human_canned", 28],
+            ["spaghetti_human", 50],
+            ["luigilasagne", 50],
+            ["tiotaco", 28],
+            ["human_pickled", 28],
+            ["rehydrated_hflesh", 28],
+            ["chili_human", 26]
+        ]
+    },
+    {
+        "type" : "item_group",
+        "id" : "hdiner_back",
+        "items" : [
+            ["fetus", 30],
+            ["arm", 30],
+            ["leg", 30],
+            ["broth_human", 50],
+            ["blood", 50],
+            ["human_flesh", 50],
+            ["bone_human", 50]
+        ]
+    },
+    {
+        "type": "mapgen",
+        "om_terrain": [
+            "s_restaurant"
+        ],
+        "method": "json",
+        "weight": 300,
+        "object": {
+        "fill_ter": "t_linoleum_white",
+        "rows": [
+            "____,____,____,____,____",
+            "____,____,____,____,____",
+            "____,____,____,____,____",
+            "____,____,____,____,____",
+            "____,____,____,____,____",
+            "========================",
+            "=|OOOOOOOOOOOOOOO--+--|=",
+            "=|HtHHtHHtHHtHHtHlblbl|=",
+            "=|HtHHtHHtHHtHHtHblblb|=",
+            "=|blblblblblblblblblbl|=",
+            "=|cbcbcbcbcbcbcbcbcblb|=",
+            "=|#################lbl|=",
+            "=|lblblblblblblblb#blb|=",
+            "=|blblblblblblblblblbl|=",
+            "=|lb####ffGGGG####lblb|=",
+            "=|bl-------------|--+-|=",
+            "=|lb###fffffff###|llll|=",
+            "=|blblblblblblblb|llll|=",
+            "=|lblblblblblblbl|lSTl|=",
+            "=|---------------|----|=",
+            "========================",
+            "........................",
+            "........................",
+            "........................"
+            ],
+            "terrain": {
+            ".": "t_grass",
+            "_": "t_pavement",
+            ",": "t_pavement_y",
+            "-": "t_wall",
+            "|": "t_wall",
+            "O": "t_window",
+            "+": "t_door_c",
+            "c": "t_linoleum_white",
+            "#": "t_linoleum_gray",
+            "t": "t_linoleum_gray",
+            "T": "t_linoleum_white",
+            "=": "t_sidewalk",
+            "G": "t_linoleum_gray",
+            "f": "t_linoleum_white",
+            "S": "t_linoleum_white",
+            "H": "t_linoleum_white",
+            "l": "t_linoleum_white",
+            "b": "t_linoleum_gray"
+            },
+            "furniture": {
+            "#": "f_counter",
+            "t": "f_table",
+            "S": "f_sink",
+            "G": "f_oven",
+            "f": "f_fridge",
+            "H": "f_sofa"
+            },
+            "fields" : {
+                "#": [{ "field": "fd_blood" },{ "field": "fd_gibs_flesh" }],
+                "f": { "field": "fd_blood" },
+                "t": { "field": "fd_gibs_flesh" }
+            },
+        "place_items": [
+                { "item": "hdiner_food", "chance": 75, "x": [ 4,17 ], "y": [ 14,14 ] },
+                { "item": "hdiner_back", "chance": 95, "x": [ 4,16 ], "y": [ 16,16 ] }
+        ],
+        "toilets": {
+            "T": { }
+        }
+        }
+    }
+]

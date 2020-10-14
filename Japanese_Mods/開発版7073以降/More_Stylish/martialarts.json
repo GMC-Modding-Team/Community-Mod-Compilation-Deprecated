@@ -1,0 +1,90 @@
+[
+    {
+        "type" : "martial_art",
+        "id" : "style_fencing",
+	    "copy-from": "style_fencing",
+        "ondodge_buffs" : [
+            {
+                "id" : "fencing_dodge_buff",
+                "name" : "Retreat",
+                "description" : "front leg pushes body weight backwards smoothly into 'en garde' stance.",
+                "min_melee" : 3,
+                "buff_duration" : 2,
+                "max_stacks" : 1,
+                "bonus_dodges" : -1,
+                "bonus_blocks" : 1,
+                "hit_dex" : 0.15,
+                "hit_per" : 0.15,
+                "dodge_dex" : -0.25,
+                "dodge_per" : -0.25,
+                "block_dex" : 0.15,
+                "block_per" : 0.15
+           }
+        ]
+  },{
+        "type" : "martial_art",
+        "id" : "style_aikido",
+	    "copy-from": "style_aikido",
+        "force_unarmed" : true,
+        "name" : "Aikido"
+    },{
+        "type" : "martial_art",
+        "id" : "style_krav_maga",
+        "name" : "Krav Maga",
+        "description" : "Originating in Israel, Krav Maga is based on taking down an enemy quickly and effectively.  It focuses on applicable attacks rather than showy or complex moves.  Popular among police and armed forces everywhere.",
+        "arm_block" : 2,
+        "leg_block" : 4,
+        "static_buffs" : [
+            {
+                "id" : "krav_maga_static",
+                "name" : "Krav Maga Hand-to-Hand",
+                "unarmed_allowed" : true,
+                "min_unarmed" : 0,
+                "flat_bonuses" : [["damage", "bash", "str", 0.2]],
+                "description" : "Increased unarmed power"
+            },{
+                "id" : "krav_maga_static_edged",
+                "name" : "Krav Maga Edged",
+                "melee_allowed" : true,
+                "min_unarmed" : 0,
+                "mult_bonuses" : [["damage", "stab", 1.2]],
+                "description" : "Increased cutting damage"
+            }
+        ],
+        "techniques" : [
+            "tec_krav_maga_rapid",
+            "tec_krav_maga_feint",
+            "tec_krav_maga_precise",
+            "tec_krav_maga_disarm",
+            "tec_krav_maga_grab"
+        ]
+    },{
+        "type" : "martial_art",
+        "id" : "style_judo",
+        "copy-from" : "style_judo",
+        "name" : "Judo",
+        "static_buffs" : [
+            {
+                "id" : "judo_recovery",
+                "name" : "Judo",
+                "unarmed_allowed" : true,
+		        "melee_allowed" : true,
+                "min_unarmed" : 0,
+                "buff_duration" : 2,
+                "throw_immune" : true,
+                "description" : "Immune to throws and knockdowns"
+            }
+        ]
+    },{
+        "type" : "martial_art",
+	    "copy-from": "style_brawling",
+        "id" : "style_brawling",
+        "techniques" : [
+            "tec_brawl_feint",
+            "tec_brawl_power",
+            "tec_brawl_trip",
+            "tec_brawl_counter",
+			"tec_brawl_wide"
+        ]
+    }
+]

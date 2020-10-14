@@ -1,0 +1,54 @@
+[
+  {
+        "type" : "mutation",
+        "id" : "STYLISH",
+        "name" : "Stylish",
+        "points" : 2,
+        "description" : "実用性よりも品位を保つ事が最も重要です。意欲は流行に乗った魅力的な服を身に着けることで改善します。そうでない衣服でもぶかぶかな物や奇妙な形状以外は華麗に着こなすことができます。",
+        "starting_trait" : true,
+        "valid" : false,
+        "encumbrance_covered" : [
+            [ "TORSO", -2 ],
+            [ "HEAD", -2 ],
+            [ "EYES", -2 ],
+            [ "MOUTH", -2 ],
+            [ "ARM_L", -2 ],
+            [ "ARM_R", -2 ],
+            [ "HAND_L", -2 ],
+            [ "HAND_R", -2 ],
+            [ "LEG_L", -2 ],
+            [ "LEG_R", -2 ],
+            [ "FOOT_L", -2 ],
+            [ "FOOT_R", -2 ]
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "AMORPHOUS",
+        "name" : "Amorphous Body",
+        "points" : -2,
+        "visibility" : 10,
+        "ugliness" : 10,
+        "description" : "Your flesh is a pleasing gel-like consistency.  Your bodily functions seem to be moving around, and your leg-equivalents flow comfortably.",
+        "purifiable" : false,
+        "leads_to" : ["INT_SLIME", "PER_SLIME"],
+        "prereqs" : ["VISCOUS"],
+        "prereqs2" : ["BENDY2", "SLIME_HANDS"],
+        "threshreq" : ["THRESH_SLIME"],
+        "category" : ["MUTCAT_SLIME"],
+        "armor" : [ { "parts" : "ALL", "bash" : 4 } ],
+        "encumbrance_covered" : [
+            [ "TORSO", -2 ],
+            [ "HEAD", -2 ],
+            [ "EYES", -2 ],
+            [ "MOUTH", -2 ],
+            [ "ARM_L", -2 ],
+            [ "ARM_R", -2 ],
+            [ "HAND_L", -2 ],
+            [ "HAND_R", -2 ],
+            [ "LEG_L", -2 ],
+            [ "LEG_R", -2 ],
+            [ "FOOT_L", -2 ],
+            [ "FOOT_R", -2 ]
+        ]
+	}
+]

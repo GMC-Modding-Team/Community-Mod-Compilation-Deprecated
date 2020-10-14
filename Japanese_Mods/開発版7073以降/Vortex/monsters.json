@@ -1,0 +1,24 @@
+[
+    {
+    "type" : "MONSTER",
+    "id" : "mon_vortex",
+    "copy-from": "mon_vortex",
+    "aggression":5,
+    "morale":100,
+    "speed":75,
+    "melee_skill":0,
+    "melee_dice":5,
+    "melee_dice_sides":7,
+    "melee_cut":0,
+    "dodge":50,
+    "vision_day":30,
+    "vision_night":30,
+    "hp":100,
+    "emit_fields": [ "emit_smoke_stream" ],
+    "special_attacks":[["SMASH", 0]],
+    "death_function":"MELT",
+    "anger_triggers":["SOUND"],
+    "fear_triggers":["PLAYER_CLOSE","PLAYER_WEAK","HURT"],
+    "flags":["REGENERATES_10", "HEARS", "GOODHEARING", "FIREY", "SEES", "BASHES", "GROUP_BASH", "DESTROYS", "STUMBLES", "NOHEAD", "HARDTOSHOOT", "HIT_AND_RUN", "FLIES", "PLASTIC", "NO_BREATHE", "NOGIB", "ATTACKMON", "SUNDEATH", "ACIDPROOF", "FIREPROOF", "FLAMMABLE"]
+}
+]

@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Meta Flak Press
+description: Uses metaglass to produce Meta Flak, fragmenting anti-air ammunition.
+health: 150
+requirements: [
+  lead/25
+  metaglass/5
+]
+consumes: {
+  items: {
+  items: [
+  metaglass/2
+  bullet-casing/1
+  ]
+  }
+  power: {
+  usage: 0.333333
+  capacity: 1
+  }
+}
+outputItem: meta-flak/1
+craftTime: 1
+category: crafting
+research: tech-a2

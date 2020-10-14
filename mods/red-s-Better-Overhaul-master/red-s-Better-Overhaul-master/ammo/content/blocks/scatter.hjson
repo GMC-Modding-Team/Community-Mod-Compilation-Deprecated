@@ -1,0 +1,41 @@
+name: Scatter
+description: NOTE: This turret is forced in the incorrect location and has been made useless to ensure players go for the new research tree branch.
+health: 1
+requirements: [
+  copper/85
+  lead/45
+]
+size: 2
+reload: 18
+range: 170
+burstSpacing: 5
+targetGround: false
+inaccuracy: 17
+rotatespeed: 15
+shots: 2
+shootCone: 35
+recoil: 2
+shootSound: shootSnap
+ammo: {
+  scrap-flak: {
+    speed: 1
+    damage: 1
+    bulletWidth: 1
+    bulletHeight: 1
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.1
+  }
+  lead-flak: {
+  speed: 1
+  damage: 1
+  reloadMultiplier: 0.1
+  bulletWidth: 1
+  bulletHeight: 1
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+}
+category: turret

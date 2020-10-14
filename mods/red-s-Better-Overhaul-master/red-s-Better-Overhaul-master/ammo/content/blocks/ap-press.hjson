@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: AP Ammo Press
+description: Uses titanium to produce AP Rounds, fairly good damage and can go through a single enemy.
+health: 150
+requirements: [
+  copper/25
+  titanium/25
+]
+consumes: {
+  items: {
+  items: [
+  titanium/3
+  bullet-casing/1
+  ]
+  }
+  power: {
+  usage: 0.333333
+  capacity: 1
+  }
+}
+outputItem: ap-bullet/1
+craftTime: 1
+category: crafting
+research: home-press

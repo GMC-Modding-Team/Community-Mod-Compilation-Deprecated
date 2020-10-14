@@ -1,0 +1,189 @@
+[
+	{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_fireman",
+    "copy-from": "mon_zombie_fireman",
+    "aggression":0,
+    "morale":90,
+    "speed":35,
+    "vision_day":1,
+    "vision_night":1,
+    "luminance":15,
+    "hp":50,
+    "special_attacks":[["GRAB", 7], ["FLAMETHROWER", 30]],
+    "flags":["SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "ACIDPROOF", "NO_BREATHE", "REVIVES", "BONES", "FLAMMABLE", "FIREY", "FIREPROOF", "PUSH_MON"],
+    "anger_triggers":["HURT", "FIRE"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_cop",
+    "copy-from": "mon_zombie_cop",
+    "armor_bash":8,
+    "armor_cut":12,
+    "vision_day":50,
+    "vision_night":15,
+    "luminance":200
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_scorched",
+    "copy-from": "mon_zombie_scorched",
+    "emit_fields": [ "emit_hot_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_irradiated_wanderer_3",
+    "copy-from": "mon_irradiated_wanderer_3",
+    "emit_fields": [ "emit_nuke_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_irradiated_wanderer_4",
+    "copy-from": "mon_irradiated_wanderer_4",
+    "emit_fields": [ "emit_nuke2_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_charred_nightmare",
+    "copy-from": "mon_charred_nightmare",
+    "emit_fields": [ "emit_nuke2_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_chud",
+    "copy-from": "mon_chud",
+    "emit_fields": [ "emit_nuke2_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_crawler",
+    "copy-from": "mon_zombie_crawler",
+    "emit_fields": [ "emit_blood_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_hazmat",
+    "copy-from": "mon_zombie_hazmat",
+    "emit_fields": [ "emit_nuke_hm" ]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_soldier",
+    "copy-from": "mon_zombie_soldier",
+    "armor_bash":12,
+    "armor_cut":18,
+    "vision_day":60,
+    "vision_night":10
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_armored",
+    "copy-from": "mon_zombie_armored",
+    "vision_day":60,
+    "vision_night":20,
+    "special_attacks":[["SEARCHLIGHT", 1]],
+    "flags":["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_necro",
+    "copy-from": "mon_zombie_necro",
+    "flags":["SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY"],
+    "special_attacks":[["RESURRECT", 20]]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_master",
+    "copy-from": "mon_zombie_master",
+    "flags":["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY"],
+    "special_attacks":[["UPGRADE", 20]]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_brute_shocker",
+    "copy-from": "mon_zombie_brute_shocker",
+    "emit_fields": [ "emit_electro_hm" ],
+    "flags":["SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "CBM_SUBS", "NO_BREATHE", "REVIVES", "BONES", "HARDTOSHOOT"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_hollow",
+    "copy-from": "mon_zombie_hollow",
+    "death_function":"BLOBSPLIT",
+    "special_attacks":[["STRETCH_BITE", 5], ["STRETCH_ATTACK", 3],["FORMBLOB", 120]]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_grappler",
+    "copy-from": "mon_zombie_grappler",
+    "melee_skill":8,
+    "special_attacks":[["RANGED_PULL", 2], ["GRAB_DRAG", 3],
+        {
+            "type" : "bite",
+            "cooldown" : 5
+        }]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombie_survivor",
+    "copy-from": "mon_zombie_survivor",
+    "melee_cut":6,
+    "armor_bash":16,
+    "armor_cut":16
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_ant",
+    "copy-from": "mon_ant",
+    "flags":["SEES", "HEARS", "SMELLS", "CHITIN", "DESTROYS", "CLIMBS"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_ant_soldier",
+    "copy-from": "mon_ant_soldier",
+    "flags":["SEES", "HEARS", "SMELLS", "CHITIN", "DESTROYS",  "CLIMBS"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_ant_fungus",
+    "copy-from": "mon_ant_fungus",
+    "special_attacks":[["FUNGUS", 200]],
+    "flags":["SEES", "SMELLS", "POISON", "DESTROYS",  "CLIMBS"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_mi_go",
+    "copy-from": "mon_mi_go",
+    "hp":210,
+    "death_function":"MELT",
+    "special_attacks": [["PARROT", 0],{
+        "type": "gun",
+        "cooldown": 6,
+        "gun_type": "laser_cannon_mi-go",
+        "fake_skills": [ [ "gun", 4 ], [ "rifle", 4 ] ],
+        "range" : 9,
+        "ranges": [
+          [ 0, 30, "DEFAULT" ]
+        ]
+    } ],
+    "flags":["SEES", "SMELLS", "HEARS", "WARM", "BASHES", "POISON", "NO_BREATHE", "ARTHROPOD_BLOOD", "FAT", "HIT_AND_RUN"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_moose",
+    "copy-from": "mon_moose",
+    "melee_dice":4,
+    "melee_dice_sides":6,
+    "vision_night":7,
+    "hp":240,
+    "special_attacks":[["SMASH", 30]],
+    "flags":["SEES", "HEARS", "SMELLS", "ANIMAL", "BASHES", "WARM", "FUR","DESTROYS",  "BLEED", "ATTACKMON", "BONES", "FAT"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zoose",
+    "copy-from": "mon_zoose",
+    "melee_dice":4,
+    "melee_dice_sides":6,
+    "vision_night":7,
+    "hp":210,
+    "special_attacks":[["SMASH", 25]],
+    "flags":["SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES", "FAT"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_bear",
+    "copy-from": "mon_bear",
+    "melee_cut":6,
+    "special_attacks":[["FLESH_GOLEM", 15]],
+    "hp":200
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_zombear",
+    "copy-from": "mon_zombear",
+    "melee_cut":6,
+    "vision_night":7,
+    "special_attacks":[["FLESH_GOLEM", 5]],
+    "hp":180,
+    "flags":["SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES", "FAT", "PUSH_MON"]
+}
+]
+
+

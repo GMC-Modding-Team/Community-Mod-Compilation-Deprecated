@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: Basic Ammo Press
+description: Uses copper to produce Basic Rounds, weak but cheap munitions for fighting both air and ground units.
+health: 150
+requirements: [
+  copper/25
+]
+consumes: {
+  items: {
+  items: [
+  copper/2
+  bullet-casing/1
+  ]
+  }
+}
+outputItem: basic-bullet/1
+craftTime: 1
+alwaysUnlocked: true
+category: crafting
+research: casing-stamp

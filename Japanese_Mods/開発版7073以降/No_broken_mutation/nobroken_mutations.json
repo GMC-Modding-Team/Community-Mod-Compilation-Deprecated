@@ -1,0 +1,433 @@
+[
+    {
+        "type" : "mutation",
+        "id" : "CHITIN3",
+        "name" : "Chitinous Plate",
+        "points" : 2,
+        "visibility" : 8,
+        "ugliness" : 5,
+        "description" : "You've grown a chitin exoskeleton made of thick, stiff plates.  It provides excellent physical protection, but reduces your dexterity by 1 and encumbers all body parts but your eyes and mouth.  Greatly reduces wet effects.",
+        "threshreq" : ["THRESH_SPIDER"],
+        "wet_protection" : [
+            { "part" : "HEAD", "ignored" : 4 },
+            { "part" : "LEG_L", "ignored" : 14 },
+            { "part" : "LEG_R", "ignored" : 14 },
+            { "part" : "FOOT_L", "ignored" : 4 },
+            { "part" : "FOOT_R", "ignored" : 4 },
+            { "part" : "ARM_L", "ignored" : 12 },
+            { "part" : "ARM_R", "ignored" : 12 },
+            { "part" : "HAND_L", "ignored" : 3 },
+            { "part" : "HAND_R", "ignored" : 3 },
+            { "part" : "TORSO", "ignored" : 26 }
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "FANGS",
+        "name" : "Fangs",
+        "points" : 2,
+        "visibility" : 2,
+        "ugliness" : 2,
+        "description" : "Your teeth have grown into two-inch-long fangs, allowing you to make an extra attack when conditions favor it.",
+        "threshreq" : ["THRESH_LIZARD", "THRESH_FISH", "THRESH_LUPINE", "THRESH_FELINE", "THRESH_CHIMERA"]
+    },{
+        "type" : "mutation",
+        "id" : "NAILS",
+        "name" : "Long Fingernails",
+        "points" : 1,
+        "visibility" : 1,
+        "description" : "Your fingernails are long and sharp.  If you aren't wearing gloves, your unarmed attacks deal a minor amount of cutting damage.",
+        "threshreq" : ["THRESH_RAPTOR"]
+    },{
+        "type" : "mutation",
+        "id" : "RAP_TALONS",
+        "name" : "Toe Talons",
+        "points" : -1,
+        "visibility" : 4,
+        "ugliness" : 2,
+        "mixed_effect" : true,
+        "description" : "You have grown large, curved, and wickedly sharp talons in place of your big toes.  Fortunately, they don't get in the way of your walking.  Unfortunately, they do prevent you from wearing footgear.",
+        "valid" : false,
+        "threshreq" : ["THRESH_RAPTOR"]
+    },{
+        "type" : "mutation",
+        "id" : "HOOVES",
+        "name" : "Hooves",
+        "points" : -4,
+        "visibility" : 2,
+        "ugliness" : 2,
+        "mixed_effect" : true,
+        "description" : "Your feet have fused into hooves.  This allows kicking attacks to do much more damage, provides natural armor, and removes the need to wear shoes; however, you can not wear shoes of any kind.  Somewhat reduces wet effects.",
+        "threshreq" : ["THRESH_CATTLE", "THRESH_CHIMERA"],
+        "wet_protection":[
+         { "part" : "FOOT_L", "ignored" : 6 },
+         { "part" : "FOOT_R", "ignored" : 6 }
+      ]
+    },{
+        "type" : "mutation",
+        "id" : "HORNS",
+        "name" : "Horns",
+        "points" : 2,
+        "visibility" : 3,
+        "ugliness" : 1,
+        "description" : "You have a pair of small horns on your head.  They allow you to make a weak piercing headbutt attack.",
+        "threshreq" : ["THRESH_CATTLE"]
+    },{
+        "type" : "mutation",
+        "id" : "HORNS_CURLED",
+        "name" : "Curled Horns",
+        "points" : -3,
+        "visibility" : 8,
+        "ugliness" : 2,
+        "mixed_effect" : true,
+        "description" : "You have a pair of large curled horns, like those of a ram.  They allow you to make a strong bashing headbutt attack, but prevent you from wearing any headwear.",
+        "threshreq" : ["THRESH_CHIMERA"],
+        "restricts_gear" : [ "HEAD" ],
+        "attacks" : {
+            "attack_text_u" : "You headbutt %s with your curled horns",
+            "attack_text_npc" : "%1$s headbutts %2$s with their curled horns",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "bash", "amount" : 14 }
+        }
+    },{
+        "type" : "mutation",
+        "id" : "HORNS_POINTED",
+        "name" : "Pointed Horns",
+        "points" : 1,
+        "visibility" : 8,
+        "ugliness" : 2,
+        "mixed_effect" : true,
+        "description" : "You have a pair of long, pointed horns, like those of an antelope.  They allow you to make a strong piercing headbutt attack, but prevent you from wearing any headwear the is not made of fabric.",
+        "threshreq" : ["THRESH_CHIMERA","THRESH_CATTLE"],
+        "restricts_gear" : [ "HEAD" ],
+        "allow_soft_gear" : true,
+        "attacks" : {
+            "attack_text_u" : "You stab %s with your pointed horns",
+            "attack_text_npc" : "%1$s stabs %2$s with their pointed horns",
+            "chance" : 22,
+            "base_damage" : { "damage_type" : "bash", "amount" : 24 }
+        }
+    },{
+        "type" : "mutation",
+        "id" : "ANTLERS",
+        "name" : "Antlers",
+        "points" : -2,
+        "visibility" : 10,
+        "ugliness" : 3,
+        "mixed_effect" : true,
+        "description" : "You have a huge rack of antlers, like those of a moose.  They prevent you from hearing headwear that is not made of fabric, but provide a weak headbutt attack.",
+        "threshreq" : ["THRESH_CHIMERA","THRESH_BEAST"],
+        "restricts_gear" : [ "HEAD" ],
+        "allow_soft_gear" : true,
+        "attacks" : {
+            "attack_text_u" : "You butt %s with your antlers",
+            "attack_text_npc" : "%1$s butts %2$s with their antlers",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "bash", "amount" : 4 }
+        }
+    },{
+        "type" : "mutation",
+        "id" : "ANTENNAE",
+        "name" : "Antennae",
+        "points" : 1,
+        "visibility" : 9,
+        "ugliness" : 4,
+        "description" : "You have a pair of antennae.  They allow you to detect the presence of monsters up to a few tiles away, even if you can't see or hear them, but prevent you from wearing headwear that is not made of fabric.",
+        "threshreq" : ["THRESH_INSECT"]
+    },{
+        "type" : "mutation",
+        "id" : "MANDIBLES",
+        "name" : "Mandibles",
+        "points" : 1,
+        "visibility" : 8,
+        "ugliness" : 6,
+        "mixed_effect" : true,
+        "description" : "A set of insect-like mandibles have grown around your mouth.  They allow you to eat faster and provide a slicing unarmed attack, but prevent you from wearing mouthwear.  Slightly reduces wet effects.",
+        "threshreq" : ["THRESH_INSECT", "THRESH_SPIDER"],
+        "wet_protection" : [
+            { "part" : "MOUTH", "ignored" : 1 }
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "HUGE",
+        "name" : "Freakishly Huge",
+        "points" : -2,
+        "visibility" : 4,
+        "ugliness" : 4,
+        "mixed_effect" : true,
+        "description" : "You have grown even more massive, to the point where you cannot usefully fit into human-sized clothing or vehicles.  Much of it is powerful muscle mass (Strength +4), but it's a real pain to haul around.",
+        "threshreq" : ["THRESH_URSINE", "THRESH_CATTLE"],
+        "passive_mods" : {
+            "str_mod" : 5
+        }
+    },{
+        "type" : "mutation",
+        "id" : "MINOTAUR",
+        "name" : "Bovine Snout",
+        "points" : -4,
+        "visibility" : 5,
+        "ugliness" : 6,
+        "mixed_effect" : true,
+        "description" : "Your face resembles that of a bull, with a significant snout.  It looks fearsome but prevents you from wearing mouthgear.",
+        "threshreq" : ["THRESH_CATTLE"]
+    },{
+        "type" : "mutation",
+        "id" : "MUZZLE",
+        "name" : "Lupine Muzzle",
+        "points" : -2,
+        "visibility" : 5,
+        "ugliness" : 4,
+        "mixed_effect" : true,
+        "description" : "Your jaw and nose have extended into a wolfish muzzle.  It lends itself to biting in combat and looks impressive, but prevents you from wearing mouthgear.",
+        "threshreq" : ["THRESH_BEAST", "THRESH_LUPINE"]
+    },{
+        "type" : "mutation",
+        "id" : "MUZZLE_BEAR",
+        "name" : "Ursine Muzzle",
+        "points" : -2,
+        "visibility" : 5,
+        "ugliness" : 4,
+        "mixed_effect" : true,
+        "description" : "Your jaw and nose have extended into a bearish muzzle.  You could bite with it, and it looks impressive, but it prevents you from wearing mouthgear.",
+        "threshreq" : ["THRESH_URSINE"]
+    },{
+        "type" : "mutation",
+        "id" : "MUZZLE_RAT",
+        "name" : "Ratlike Muzzle",
+        "points" : -2,
+        "visibility" : 6,
+        "ugliness" : 4,
+        "description" : "Your face and jaw have extended, giving you an alert and attentive appearance.",
+        "threshreq" : ["THRESH_RAT"]
+    },{
+        "type" : "mutation",
+        "id" : "MUZZLE_LONG",
+        "name" : "Reptilian Muzzle",
+        "points" : -3,
+        "visibility" : 8,
+        "ugliness" : 8,
+        "mixed_effect" : true,
+        "description" : "Your face and jaws are a shorter version of those found on alligators.  They look NASTY-as do the bite wounds they can inflict-but prevent you from wearing mouthgear.",
+        "threshreq" : ["THRESH_LIZARD"]
+    },{
+        "type" : "mutation",
+        "id" : "TALONS",
+        "name" : "Large Talons",
+        "points" : 2,
+        "visibility" : 4,
+        "ugliness" : 3,
+        "mixed_effect" : true,
+        "restricts_gear" : [ "HAND_L", "HAND_R" ],
+        "destroys_gear" : true,
+        "description" : "Your index fingers have grown into huge talons.  After a bit of practice, you find that this does not affect your dexterity, but allows for a deadly unarmed attack.  They also prevent you from wearing gloves.",
+        "threshreq" : ["THRESH_LIZARD", "THRESH_BIRD", "THRESH_CHIMERA"]
+    },{
+        "type" : "mutation",
+        "id" : "WEBBED",
+        "name" : "Webbed Hands",
+        "points" : -2,
+        "visibility" : 3,
+        "ugliness" : 2,
+        "description" : "Your hands and feet are heavily webbed, reducing your dexterity by 1 and preventing you from wearing gloves.  However, you can swim much faster.  Slightly decreases wet penalties.",
+        "threshreq" : ["THRESH_LIZARD", "THRESH_FISH", "THRESH_SLIME"],
+        "wet_protection" : [
+            { "part" : "HAND_L", "good" : 3 },
+            { "part" : "HAND_R", "good" : 3 }
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "BEAK",
+        "name" : "Beak",
+        "points" : -3,
+        "visibility" : 8,
+        "ugliness" : 4,
+        "mixed_effect" : true,
+        "description" : "You have a beak for a mouth.  You can occasionally use it to peck at your enemies, but it is impossible for you to wear mouth gear.  Slightly reduces wet effects.",
+        "threshreq" : ["THRESH_BIRD", "THRESH_CEPHALOPOD"],
+        "wet_protection" : [
+            { "part" : "MOUTH", "ignored" : 1 }
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "ARM_TENTACLES",
+        "name" : "Tentacle Arms",
+        "points" : -5,
+        "visibility" : 7,
+        "ugliness" : 4,
+        "mixed_effect" : true,
+        "description" : "Your arms have transformed into tentacles, resulting in a bonus of 1 to dexterity, permanent hand encumbrance of 30, and inability to wear gloves.  Somewhat decreases wet penalties.",
+        "threshreq" : ["THRESH_CEPHALOPOD"],
+        "wet_protection" : [
+            { "part" : "ARM_L", "neutral" : 19 },
+            { "part" : "ARM_R", "neutral" : 19 },
+            { "part" : "HAND_L", "neutral" : 5 },
+            { "part" : "HAND_R", "neutral" : 5 }
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "SHELL",
+        "name" : "Shell",
+        "points" : -5,
+        "visibility" : 8,
+        "ugliness" : 3,
+        "description" : "You have grown a thick shell over your torso, providing excellent armor.  You find you can use the empty space as 16 storage space, but cannot wear anything on your torso.  Somewhat reduces wet effects.",
+        "threshreq" : ["THRESH_CEPHALOPOD"],
+        "wet_protection" : [
+            { "part" : "TORSO", "ignored" : 26 }
+        ]
+    },{
+        "type" : "mutation",
+        "id" : "LEG_TENTACLES",
+        "name" : "Leg Tentacles",
+        "points" : -3,
+        "visibility" : 8,
+        "ugliness" : 4,
+        "mixed_effect" : true,
+        "description" : "Your legs have transformed into six tentacles.  This decreases your speed on land by 20%, makes your movement silent, increases your swimming speed, and reduces wet penalties.",
+        "threshreq" : ["THRESH_CEPHALOPOD"],
+        "wet_protection" : [
+            { "part" : "LEG_L", "neutral" : 21 },
+            { "part" : "LEG_R", "neutral" : 21 },
+            { "part" : "FOOT_L", "neutral" : 6 },
+            { "part" : "FOOT_R", "neutral" : 6 }
+        ]
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_STUB",
+    "name": "Stubby Tail",
+    "points": 0,
+    "visibility": 1,
+    "ugliness": 2,
+    "description": "You have a short, stubby tail, like a rabbit's.  It serves no purpose.",
+    "threshreq" : ["THRESH_URSINE"]
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_FIN",
+    "name": "Tail Fin",
+    "points": -1,
+    "visibility": 4,
+    "ugliness": 2,
+    "description": "You have a fin-like tail.  It allows you to swim more quickly, but prevents wearing non-fabric pants.  Slightly increases wet benefits.",
+    "threshreq" : ["THRESH_FISH"],
+    "wet_protection":[
+            { "part": "LEG_L", "good": 3 },
+            { "part": "LEG_R", "good": 3 }
+        ],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_LONG",
+    "name": "Long Tail",
+    "points": 0,
+    "visibility": 6,
+    "ugliness": 2,
+    "description": "You have a long, graceful tail, like that of a big cat.  It improves your balance, making your ability to dodge higher, but prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_FELINE"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_CATTLE",
+    "name": "Cattle Tail",
+    "points": -1,
+    "visibility": 6,
+    "ugliness": 2,
+    "description": "You have a long tail with a tuft on the end.  You find yourself instinctively swatting away flies with it, though it's not as effective at balancing you as you'd like.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_CATTLE"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_RAT",
+    "name": "Rat Tail",
+    "points": 1,
+    "visibility": 6,
+    "ugliness": 4,
+    "description": "You have a long but hairless tail.  It's a pretty effective balancing aid, but does look, uh, ratty.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_RAT"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_THICK",
+    "name": "Thick Tail",
+    "points": 1,
+    "visibility": 8,
+    "ugliness": 2,
+    "description": "You have a long, thick, lizardlike tail.  It helps you balance a bit but also makes a serviceable whip.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_LIZARD"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true,
+    "attacks": {
+        "attack_text_u": "You whap %s with your tail",
+        "attack_text_npc": "%1$s whaps %2$s with their tail",
+        "chance": 20,
+        "base_damage": { "damage_type": "stab", "amount": 8 }
+        }
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_RAPTOR",
+    "name": "Raptor Tail",
+    "points": 1,
+    "visibility": 8,
+    "ugliness": 2,
+    "description": "You have a long and semi-stiff lizardlike tail.  You can't effectively lash it in combat, but it significantly improves your balance.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_RAPTOR"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_FLUFFY",
+    "name": "Fluffy Tail",
+    "points": 1,
+    "visibility": 7,
+    "description": "You have a long, fluffy-furred tail.  It greatly improves your balance, making your ability to dodge much higher.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_BEAST", "THRESH_LUPINE"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_STING",
+    "name": "Spiked Tail",
+    "points": 0,
+    "visibility": 6,
+    "ugliness": 3,
+    "description": "You have a long tail that ends in a vicious stinger, like that of a scorpion.  It does not improve your balance at all, but allows for a powerful piercing attack.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_INSECT", "THRESH_CHIMERA"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true,
+    "attacks": {
+        "attack_text_u": "You sting %s with your tail",
+        "attack_text_npc": "%1$s stings %2$s with their tail",
+        "chance": 20,
+        "base_damage": { "damage_type": "stab", "amount": 20 }
+        }
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_CLUB",
+    "name": "Club Tail",
+    "points": 0,
+    "visibility": 7,
+    "ugliness": 2,
+    "description": "You have a long tail that ends in a heavy, bony club.  It does not improve your balance at all, but allows for a powerful bashing attack.  Prevents wearing non-fabric pants.",
+    "threshreq" : ["THRESH_CHIMERA"],
+    "restricts_gear": [ "LEG_L", "LEG_R" ],
+    "allow_soft_gear": true,
+    "attacks": {
+        "attack_text_u": "You club %s with your tail",
+        "attack_text_npc": "%1$s clubs %2$s with their tail",
+        "chance": 20,
+        "base_damage": { "damage_type": "stab", "amount": 18 }
+        }
+    }
+]

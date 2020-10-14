@@ -1,0 +1,83 @@
+type: BurstTurret
+name: Pincer
+description: A very fast shooting turret. While each individual bullet may not deal much damage, it's immense firing speed and ammo capacity makes up for that.
+health: 500
+requirements: [
+  copper/55
+  steel/35
+]
+size: 2
+reload: 20
+range: 120
+ammoUseEffect: shellEjectSmall
+inaccuracy: 8
+rotatespeed: 15
+shots: 4
+shootCone: 20
+maxAmmo: 200
+recoil: 2
+ammo: {
+  basic-bullet: {
+    speed: 6
+    damage: 4
+    bulletWidth: 3
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 8
+  }
+  hefty-bullet: {
+  speed: 5
+  damage: 6
+  reloadMultiplier: 0.9
+  bulletWidth: 3
+  bulletHeight: 4
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 8
+  }
+  graphite-bullet: {
+    speed: 5
+    damage: 8
+    reloadMultiplier: 0.8
+    bulletWidth: 3
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+  }
+  fire-bullet: {
+    speed: 6
+    damage: 6
+    bulletWidth: 3
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 8
+    incendAmount: 1
+    incendChance: 1
+  }
+  home-bullet: {
+    speed: 7
+    damage: 6
+    bulletWidth: 3
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 9
+    homingPower: 1
+    homingRange: 24
+  }
+  ap-bullet: {
+    speed: 6
+    damage: 7
+    bulletWidth: 3
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 8
+    pierce: true
+  }
+}
+category: turret
+research: steel-foundry

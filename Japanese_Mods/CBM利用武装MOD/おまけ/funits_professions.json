@@ -1,0 +1,46 @@
+[
+    {
+        "type": "profession",
+        "ident": "funit_test_prof",
+        "name": "[FUnitMOD]テスト用職業",
+        "description": "アイテム性能の確認・テスト用職業です。",
+        "points": 8,
+        "items": {
+            "both" : {
+                "items": [
+                    "jeans",
+                    "longshirt",
+                    "socks",
+                    "coat_winter",
+                    "boots_winter",
+                    "wristwatch",
+                    "knit_scarf",
+                    "pockknife",
+                    "backpack",
+                    "water_clean"
+                ],
+                "entries": [
+                    { "item": "FUNIT_ITEM_GET_TRAIT" },
+                    { "item": "FUNIT_ITEM_PROT_BASH" },
+                    { "item": "FUNIT_ITEM_PROT_CUT" },
+                    { "item": "FUNIT_ITEM_PROT_ALL" },
+                    { "item": "FUNIT_ITEM_ATK_BASH" },
+                    { "item": "FUNIT_ITEM_ATK_CUT" },
+                    { "item": "FUNIT_ITEM_ATK_ALL" },
+                    { "item": "FUNIT_ITEM_HEAL" },
+                    { "item": "FUNIT_ITEM_SHOCK" },
+                    { "item": "FUNIT_ITEM_VATS" },
+                    { "item": "FUNIT_ITEM_TEMP" },
+                    { "item": "plut_cell", "charges": 20 }
+                ]
+            },
+            "male": [
+                "briefs"
+            ],
+            "female": [
+                "bra",
+                "panties"
+            ]
+        }
+    }
+]

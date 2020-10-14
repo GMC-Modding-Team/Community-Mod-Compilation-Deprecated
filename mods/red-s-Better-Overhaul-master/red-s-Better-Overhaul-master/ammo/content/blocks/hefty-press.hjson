@@ -1,0 +1,19 @@
+type: GenericCrafter
+name: Hefty Ammo Press
+description: Uses extra copper to produce more condensed Hefty Rounds, slower, but deals more damage for just a little more copper.
+health: 150
+requirements: [
+  copper/35
+]
+consumes: {
+  items: {
+  items: [
+  copper/4
+  bullet-casing/1
+  ]
+  }
+}
+outputItem: hefty-bullet/1
+craftTime: 2
+category: crafting
+research: basic-press

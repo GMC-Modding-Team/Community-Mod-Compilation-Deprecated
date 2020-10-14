@@ -1,0 +1,159 @@
+[
+    {
+        "type" : "ARMOR",
+        "id" : "shield_bal_vo",
+        "name" : "バリスティックシールド(大)",
+        "name_plural" : "バリスティックシールド(大)",
+        "description" : "ケブラー製の大盾です。全身を覆えるほどの大きさと高い防弾性能を持ち、各国の治安維持組織に採用されています。",
+        "weight" : 9535,
+        "color" : "light_gray",
+        "covers" : ["ARM_EITHER", "HAND_EITHER"],
+        "price" : 500000,
+        "material" : ["kevlar", "steel"],
+        "volume" : 22,
+        "to_hit" : -1,
+        "encumbrance" : 28,
+        "bashing" : 10,
+        "symbol" : "[",
+        "flags" : ["OVERSIZE", "STURDY", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN"],
+        "techniques" : ["WBLOCK_3"],
+        "coverage" : 90,
+        "material_thickness" : 4
+    },{
+        "type" : "ARMOR",
+        "id" : "shield_bal_mid_vo",
+        "name" : "バリスティックシールド(中)",
+        "name_plural" : "バリスティックシールド(中)",
+        "description" : "ケブラー製の盾です。携行性と最低限の防護範囲を両立させており、主に特殊部隊で使用されています。",
+        "weight" : 3535,
+        "color" : "light_gray",
+        "covers" : ["ARM_EITHER", "HAND_EITHER"],
+        "price" : 500000,
+        "material" : ["kevlar", "steel"],
+        "volume" : 14,
+        "encumbrance" : 12,
+        "bashing" : 14,
+        "symbol" : "[",
+        "flags" : ["OVERSIZE", "STURDY", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN"],
+        "techniques" : ["WBLOCK_2"],
+        "coverage" : 40,
+        "material_thickness" : 3
+    },{
+        "type" : "ARMOR",
+        "id" : "shield_riot_vo",
+        "name" : "ライオットシールド",
+        "name_plural" : "ライオットシールド",
+        "description" : "強化樹脂製の透明な盾です。大きさの割に軽量で、広い防護範囲と高い視認性を持ちます。",
+        "weight" : 3200,
+        "color" : "light_gray",
+        "covers" : ["ARM_EITHER", "HAND_EITHER"],
+        "price" : 500000,
+        "material" : ["plastic"],
+        "volume" : 20,
+        "to_hit" : -1,
+        "encumbrance" : 24,
+        "bashing" : 10,
+        "symbol" : "[",
+        "flags" : ["OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN"],
+        "techniques" : ["WBLOCK_3"],
+        "coverage" : 80,
+        "material_thickness" : 5
+    },{
+        "type" : "ARMOR",
+        "id" : "shield_pot_vo",
+        "name" : "ポットシールド",
+        "name_plural" : "ポットシールド",
+        "description" : "お鍋の蓋です。手を傷めないよう、取っ手に布を巻きつけてあります。形だけ見れば盾と言い張れなくも無いでしょう。",
+        "weight" : 440,
+        "color" : "light_gray",
+        "covers" : ["ARM_EITHER", "HAND_EITHER"],
+        "price" : 0,
+        "material" : ["iron"],
+        "volume" : 4,
+        "to_hit" : -2,
+        "encumbrance" : 8,
+        "bashing" : 6,
+        "symbol" : "[",
+        "flags" : ["OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "FRAGILE"],
+        "techniques" : ["WBLOCK_1"],
+        "coverage" : 20,
+        "material_thickness" : 2
+    },{
+        "type" : "ARMOR",
+        "id" : "shield_briefcase_vo",
+        "name" : "防弾ブリーフケース",
+        "description" : "このブリーフケースの内側にはケブラー板が埋め込まれています。その分積載容量は減っていますが、荷物と共に命も守ってくれるでしょう。",
+        "weight" : 4200,
+        "color" : "light_gray",
+        "covers" : ["ARM_EITHER", "HAND_EITHER"],
+        "price" : 240000,
+        "material" : ["kevlar", "plastic"],
+        "volume" : 6,
+        "encumbrance" : 30,
+        "to_hit" : -2,
+        "storage" : 16,
+        "bashing" : 8,
+        "symbol" : "[",
+        "flags" : ["FANCY", "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN"],
+        "techniques" : ["WBLOCK_1"],
+        "coverage" : 30,
+        "material_thickness" : 3
+  },{
+        "type" : "ARMOR",
+        "id" : "superalloy_briefcase_vo",
+        "name" : "超合金ブリーフケース",
+        "description" : "超合金で作られた軽量で頑丈なブリーフケースです。荷物と共に命も守ってくれるでしょう。",
+        "weight" : 1800,
+        "color" : "light_gray",
+        "covers" : ["ARM_EITHER", "HAND_EITHER"],
+        "price" : 240000,
+        "material" : ["superalloy","steel"],
+        "volume" : 6,
+        "encumbrance" : 30,
+        "to_hit" : -2,
+        "storage" : 24,
+        "bashing" : 8,
+        "symbol" : "[",
+        "flags" : ["FANCY", "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "STURDY"],
+        "techniques" : ["WBLOCK_1"],
+        "coverage" : 30,
+        "material_thickness" : 2
+  },{
+    "type" : "item_group",
+    "id" : "helicopter",
+    "items":[
+      ["shield_bal_mid_vo", 10],
+      ["shield_bal_vo", 5]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "military",
+    "items":[
+      ["shield_bal_mid_vo", 8],
+      ["shield_bal_vo", 8],
+      [ "shield_riot_vo", 5 ]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "swat_gear",
+    "subtype": "distribution",
+    "items":[
+      [ "shield_riot_vo", 5 ],
+      [ "shield_bal_mid_vo", 5 ],
+      ["shield_bal_vo", 8]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "cop_gear",
+    "items":[
+      [ "shield_briefcase_vo", 5 ],
+      [ "shield_riot_vo", 10 ]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "survivorzed_gloves",
+    "items":[
+      ["shield_pot_vo", 22]
+    ]
+  }
+]

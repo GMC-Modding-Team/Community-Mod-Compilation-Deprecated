@@ -1,0 +1,20 @@
+type: GenericSmelter
+name: Zinc Centrifuge
+description: Extracts small amounts of Zinc from water, for cases where there is little to no available.
+health: 150
+size: 2
+requirements: [
+  copper/25
+  lead/25
+]
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.55
+  }
+}
+outputItem: zinc/1
+craftTime: 35
+alwaysUnlocked: true
+category: crafting
+research: casing-stamp

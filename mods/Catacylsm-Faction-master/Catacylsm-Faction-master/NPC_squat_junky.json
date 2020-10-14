@@ -1,0 +1,38 @@
+[
+  {
+    "type": "npc",
+    "id": "squat_junky",
+    "//": "Random Squatter.",
+    "name_suffix": "Musician",
+    "name_unique": "Thomas Burroughs",
+    "class": "NC_THUG",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_SQUAT_MUSICIAN",
+    "faction": "outsiders",
+    "mission_offered": "MISSION_FIND_OPIATES"
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_MUSICIAN",
+    "dynamic_line": { "u_is_wearing": "badge_marshal", "yes": "Get out, copper..", "no": "Heh, stranger, how's it goin'?" },
+    "responses": [
+      {
+        "text": "Hi, What brings you to the Refugee Centre?",
+        "topic": "TALK_SQUAT_MUSICIAN_REFCENT",
+        "condition": { "not": { "u_has_var": "squatters_Missions_junky_home", "type": "mission", "context": "flag", "value": "yes" } }
+      },
+      { "text": "Anything I can help with?", "topic": "TALK_MISSION_LIST" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_MUSICIAN_REFCENT",
+    "dynamic_line": "I came all the way here to try to gather some ..medicine.. but these money-grubbing assholes were unwelcoming to say the least.. on top of that they didn't even have what I needed and I kind of got into an altercation with some guy claiming to be part of the leftovers of The State, calling himself the 'Old Guard'.. Now they say I'm not allowed back in. Pathetic Right? ",
+    "responses": [
+      { "text": "Your trying to find some medication?", "topic": "TALK_MISSION_LIST" },
+      { "text": "The Old Guard? Who are they?", "topic": "TALK_SQUAT_MUSICIAN_OLDGUARD" }
+    ]
+  }
+]

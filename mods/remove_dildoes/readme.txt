@@ -1,0 +1,1 @@
+Installation instructions: Drop the remove_dildoes folder into data/mods before you generate your world. In world-gen, enable the (dil)Don'ts of Game Design mod. Enjoy your bloat-free apocalypse.

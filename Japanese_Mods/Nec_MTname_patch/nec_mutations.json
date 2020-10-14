@@ -1,0 +1,290 @@
+[
+    {
+        "//" : "New addition start characteristic girls who have also daughters of men are also perfect with this",
+        "type" : "mutation",
+        "id" : "NEC_OTOKONOKO",
+        "name" : "おとこのこ",
+        "points" : 0,
+        "description" : "Your body is a young girl, but I also have male features. Although it is rare, it will not be useful any longer now.",
+        "starting_trait" : true,
+        "valid" : false
+    }
+    ,{
+        "//" : "Undead threshold",
+        "type" : "mutation",
+        "id" : "THRESH_NECROMANCY",
+        "name" : "Undead",
+        "points" : 1,
+        "description" : "I keep patting my broken body. Even if it breaks, there is no problem if you reconnect new ones.",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    }
+    ,{
+        "//" : "----------------Additional change to existing mutation----------------",
+        "//" : "Name change, intelligence - 1 addition, deletion from starting characteristics as a masochist mashed. I am sorry for the person who chose it by the start feature.",
+        "type" : "mutation",
+        "id" : "MASOCHIST",
+        "name" : "It feels good medicine",
+        "points" : 0,
+        "description" : "When you get hurt, medicine of pleasure flows out in your head. You forget the bad things. intelligence-1",
+        "valid" : false,
+        "passive_mods" : {
+            "int_mod" : -1
+        },
+        "category" : ["MUTCAT_NECROMANCY"],
+        "changes_to" : ["MASOCHIST_MED", "CENOBITE"]
+    }
+    ,{
+        "id": "morale_perm_masochist",
+        "type": "morale_type",
+        "text": "It feels good medicine"
+    }
+    ,{
+        "//" : "Added food preference as undead's threshold variance, and there is no effect on selection by start attribute. Itching",
+        "type" : "mutation",
+        "id" : "CANNIBAL",
+        "name" : "Cannibal",
+        "points" : 1,
+        "description" : "For your whole life you've been forbidden from indulging in your peculiar tastes.  Now the world's ended, and you'll be damned if anyone is going to tell you that you can't eat people.",
+        "starting_trait" : true,
+        "valid" : false,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "cancels" : ["VEGETARIAN"],
+        "flags" : ["CANNIBAL"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "SLIMY",
+        "name" : "Mucus",
+        "points" : 2,
+        "visibility" : 7,
+        "ugliness" : 6,
+        "description" : "Your body is coated with a fine slime.  Protects from long term effects of acid, though not short term ones.  Greatly increases wet benefits.",
+        "leads_to" : ["SLIME_HANDS"],
+        "changes_to" : ["VISCOUS"],
+        "category" : ["MUTCAT_FISH", "MUTCAT_SLIME", "MUTCAT_TROGLOBITE", "MUTCAT_CEPHALOPOD","MUTCAT_NECROMANCY"],
+        "wet_protection" : [
+            { "part" : "HEAD", "neutral" : 3, "good" : 4 },
+            { "part" : "LEG_L", "neutral" : 7, "good" : 14 },
+            { "part" : "LEG_R", "neutral" : 7, "good" : 14 },
+            { "part" : "FOOT_L", "neutral" : 2, "good" : 4 },
+            { "part" : "FOOT_R", "neutral" : 2, "good" : 4 },
+            { "part" : "ARM_L", "neutral" : 7, "good" : 12 },
+            { "part" : "ARM_R", "neutral" : 7, "good" : 12 },
+            { "part" : "HAND_L", "neutral" : 2, "good" : 3 },
+            { "part" : "HAND_R", "neutral" : 2, "good" : 3 },
+            { "part" : "TORSO", "neutral" : 14, "good" : 26 }
+        ]
+    }
+   ,{
+        "//" : "----------------Below undead exclusive mutation----------------",
+        "type" : "mutation",
+        "id" : "NEC_ADD_EYE",
+        "name" : "The third eye",
+        "points" : 1,
+        "visibility" : 2,
+        "ugliness" : 7,
+        "description" : "A new eye came out of your body. The field of view broadens, but the appearance is disgusting. sense+2",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "valid" : false,
+        "passive_mods" : {
+            "per_mod" : 2
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_ADD_ARM",
+        "name" : "Additional arm",
+        "points" : 3,
+        "visibility" : 8,
+        "ugliness" : 5,
+        "description" : "Your arms are not two. There are additional arms on the shoulder. It is hard to master it, but the range of tactics may expand. Dexterity+2",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "valid" : false,
+        "passive_mods" : {
+            "dex_mod" : 2
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_OOANA",
+        "name" : "Large hole",
+        "points" : 0,
+        "visibility" : 3,
+        "ugliness" : 2,
+        "description" : "There is a big deficit in your body. However, there is no hindrance to battle, and the person who saw it is a little surprised.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "valid" : false
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_HORNS",
+        "name" : "Large horn",
+        "points" : -2,
+        "visibility" : 5,
+        "ugliness" : 3,
+        "mixed_effect" : true,
+        "description" : "Large protuberances are growing from your body. It will be enough to pierce and hook at close range.",
+        "prereqs" : ["HEADBUMPS","NAILS"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "attacks" : {
+            "attack_text_u" : "You stabbed% s because it's an old one",
+            "attack_text_npc" : "% 1 $ s stuck% 2 $ s at the corner",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "stab", "amount" : 8 }
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_TONGUE",
+        "name" : "Sip tongue",
+        "points" : 0,
+        "visibility" : 1,
+        "ugliness" : 1,
+        "changes_to" : ["NEC_TONGUE2"],
+        "description" : "The tongue is long tubular. It is not particularly effective.",
+        "category" : ["MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_TONGUE2",
+        "name" : "Saliva",
+        "points" : 2,
+        "visibility" : 4,
+        "ugliness" : 4,
+        "prereqs" : ["NEC_TONGUE"],
+        "cancels" : ["BEAK", "BEAK_HUM", "BEAK_PECK", "PROBOSCIS", "MANDIBLES", "MUZZLE_LONG", "MUZZLE", "MINOTAUR"],
+        "description" : "Tongue has runaway a mushy and drool. I can not equip anything in my mouth, but that tongue will be a kind of surprise attack.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "restricts_gear" : [ "MOUTH" ],
+        "attacks" : {
+            "attack_text_u" : "Your long tongue hit% s.",
+            "attack_text_npc" : "The long tongue of% 1 $ s hit% 2 $ s.",
+            "body_part" : "MOUTH",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "stab", "amount" : 15 },
+            "strength_damage" : { "damage_type" : "stab", "amount" : 0.5 }
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_FAILED",
+        "name" : "失敗作",
+        "points" : -2,
+        "visibility" : 4,
+        "ugliness" : 4,
+        "changes_to" : ["NEC_RUPTURE"],
+        "description" : "I tried tweaking the body here and there but it did not go well. The motion restriction of the whole body increases slightly, and the defense power drops.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "encumbrance_always" : [
+            [ "TORSO", 3 ],
+            [ "HEAD", 3 ],
+            [ "ARM_L", 3 ],
+            [ "ARM_R", 3],
+            [ "HAND_L", 3 ],
+            [ "HAND_R", 3 ],
+            [ "LEG_L", 3 ],
+            [ "LEG_R", 3 ],
+            [ "FOOT_L", 3 ],
+            [ "FOOT_R", 3 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "bash" : -5, "cut" : -5 } ],
+        "valid" : false
+    }
+    ,{
+        "//" : "----------------Below undead * threshold * mutation----------------",
+        "type" : "mutation",
+        "id" : "NEC_WINGS",
+        "name" : "Tear coating",
+        "points" : 5,
+        "visibility" : 12,
+        "ugliness" : 6,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "description" : "The film of deadly flesh, the wing of the dead angel. Although the sky can not fly, the wing which protects like wrapping the body will pass away most of the attack on you.",
+        "prereqs" : ["WINGS_STUB"],
+        "cancels" : ["WINGS_BIRD", "WINGS_INSECT", "WINGS_BUTTERFLY"], 
+        "category" : ["MUTCAT_NECROMANCY"],
+        "wet_protection" : [
+            { "part" : "ARM_L", "neutral" : 5, "good" : 10 },
+            { "part" : "ARM_R", "neutral" : 5, "good" : 10 },
+            { "part" : "TORSO", "neutral" : 10, "good" : 20 }
+        ],
+        "encumbrance_always" : [
+            [ "TORSO", 10 ]
+        ],
+        "armor" : [ { "parts" : [ "TORSO","ARM_L", "ARM_R" ], "bash" : 14 ,"cut" : 8  } ]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_ADD_HEAD",
+        "name" : "Second head",
+        "points" : 7,
+        "visibility" : 15,
+        "ugliness" : 10,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "description" : "There is another head on the shoulder. I am doing well with the other one. I can not see the other side of the face directly, but I can understand what I saw over there. Intelligence + 5, sensation + 3",
+        "encumbrance_always" : [
+            [ "HEAD", 5 ]
+        ],
+        "passive_mods" : {
+            "int_mod" : 5,
+            "per_mod" : 3
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_RUPTURE",
+        "name" : "Semi-rupture",
+        "points" : -5,
+        "visibility" : 6,
+        "ugliness" : 8,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "description" : "My body is about to collapse because of a fool of me. The motion restriction of the whole body further increases, and the defense power drops.",
+        "changes_to" : ["NEC_PATCH"],
+        "prereqs" : ["NEC_FAILED"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "encumbrance_always" : [
+            [ "TORSO", 9 ],
+            [ "HEAD", 5 ],
+            [ "ARM_L", 5 ],
+            [ "ARM_R", 7],
+            [ "HAND_L", 8 ],
+            [ "HAND_R", 5 ],
+            [ "LEG_L", 5 ],
+            [ "LEG_R", 6 ],
+            [ "FOOT_L", 5 ],
+            [ "FOOT_R", 5 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "bash" : -6, "cut" : -6 } ],
+        "valid" : false
+    }    ,{
+        "type" : "mutation",
+        "id" : "NEC_PATCH",
+        "name" : "つぎはぎ",
+        "points" : 7,
+        "visibility" : 8,
+        "ugliness" : 5,
+        "description" : "You can conveniently change the body. Although it will be slightly weaker against attacks, the overall motion restriction is relaxed considerably.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "prereqs" : ["NEC_RUPTURE"],
+        "encumbrance_always" : [
+            [ "TORSO", -10 ],
+            [ "HEAD", -10 ],
+            [ "ARM_L", -10 ],
+            [ "ARM_R", -10 ],
+            [ "HAND_L", -10 ],
+            [ "HAND_R", -10 ],
+            [ "LEG_L", -10 ],
+            [ "LEG_R", -10 ],
+            [ "FOOT_L", -10 ],
+            [ "FOOT_R", -10 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "bash" : -2, "cut" : -4 } ],
+        "valid" : false
+    }
+
+]

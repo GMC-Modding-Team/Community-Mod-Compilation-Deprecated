@@ -1,0 +1,160 @@
+[ {
+    "type": "MONSTER",
+    "id": "Alien_worker_drone_D-type",
+    "name": "Alien worker drone D-type",
+    "species": "Alien",
+    "default_faction": "Aliens",
+    "symbol": "A",
+    "color": "White",
+    "size": "TINY",
+    "material": ["flesh", "steel"],
+    "diff": 20,
+    "aggression": 100,
+    "morale": 100,
+    "speed": 110,
+    "melee_skill": 5,
+    "melee_dice": 8,
+    "melee_dice_sides": 8,
+    "melee_cut": 5,
+    "dodge": 2,
+    "armor_bash": 10,
+    "armor_cut": 10,
+    "armor_acid": 10,
+    "armor_fire": 10,
+    "vision_day": 25,
+    "vision_night": 25,
+    "death_drops": "robots",
+    "luminance": 5,
+    "hp": 80,
+    "death_function": [
+      "ACID",
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [ "PARROT", 30 ],
+      {
+        "type": "gun",
+        "cooldown": 60,
+        "gun_type": "Alien_worker_drone_blaster_D-C_type_fake",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 5,
+        "fake_dex": 5,
+        "fake_per": 5,
+        "fake_skills": [
+          [
+            "gun",
+            5
+          ],
+          [
+            "rifle",
+            4
+          ]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 150,
+        "ranges": [
+          [2, 30, "DEFAULT"]
+        ],
+        "description": "Drone transforms his upper left wing structure into pipe like blaster and aims",
+        "targeting_sound": "Beeeeeeeeep... bleeeep... psch!!!",
+        "targeting_volume": 40,
+        "no_ammo_sound": "pf...."
+      }
+
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 1000
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      75
+    ],
+    "description": "Small structure with 3 long red segments and 6 compact vibrating black wings. Several black pipes are pulsating at its black segment. It serves as all purpose bot amongst aliens be it scouting, cleaning, construction, or even small scale combat. Bots i have seen cant be compared with this masterpiece of advanced technology. This Alien-type has rank D, the lowest rank among his kind",
+    "flags": [
+      "SEES",
+      "ELECTRIC",
+      "GRABS",
+      "CBM_POWER",
+      "BONES"
+    ]
+  },{
+    "type": "MONSTER",
+    "id": "Alien_worker_drone_C-type",
+    "name": "Alien worker drone C-type",
+    "species": "Alien",
+    "default_faction": "Aliens",
+    "symbol": "A",
+    "color": "yellow",
+    "size": "TINY",
+    "material": ["flesh", "steel"],
+    "diff": 20,
+    "aggression": 20,
+    "morale": 100,
+    "speed": 130,
+    "melee_skill": 7,
+    "melee_dice": 8,
+    "melee_dice_sides": 8,
+    "melee_cut": 6,
+    "dodge": 3,
+    "armor_bash": 12,
+    "armor_cut": 12,
+    "armor_acid": 12,
+    "armor_fire": 12,
+    "vision_day": 28,
+    "vision_night": 28,
+    "death_drops": "robots",
+    "luminance": 15,
+    "hp": 105,
+    "death_function": [
+      "ACID",
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [ "PARROT", 30 ],
+      {
+        "type": "gun",
+        "cooldown": 30,
+        "gun_type": "Alien_worker_drone_blaster_D-C_type_fake",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 7,
+        "fake_dex": 7,
+        "fake_per": 7,
+        "fake_skills": [
+          [
+            "gun",
+            7
+          ],
+          [
+            "rifle",
+            6
+          ]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 140,
+        "ranges": [
+          [2, 32, "DEFAULT"]
+        ],
+        "description": "Drone transforms his upper left wing structure into dual pipe like blaster and aims",
+        "targeting_sound": "Beeeeeeeeep... bleeeep... psch psch!!!",
+        "targeting_volume": 40,
+        "no_ammo_sound": "pf...."
+      }
+
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 1000
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      100
+    ],
+    "description": "Small structure with 4 long yellow segments and 6 compact fast vibrating black wings. It moves lightning fast. It have some kind of protection field around itself. Several yellow pipes are pulsating at its back segment. It serves as all purpose bot amongst aliens be it scouting, cleaning, construction, or even small scale combat. Bots i have seen cant be compared with this masterpiece of advanced technology. This Alien-type has rank C, better not to engage this thing alone",
+    "flags": [
+      "SEES",
+      "ELECTRIC",
+      "CBM_POWER",
+      "BONES"
+    ]
+  } ]

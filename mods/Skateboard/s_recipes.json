@@ -1,0 +1,124 @@
+[
+	{
+  "type" : "recipe",
+  "result": "skateframe",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_PARTS",
+  "skill_used": "fabrication",
+  "difficulty": 5,
+  "time": 120000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities": [
+    {"id":"HAMMER","level":2,"amount":1}
+  ],"tools": [
+      [
+      ["tongs", -1]
+      ],
+      [
+      ["chisel", -1]
+      ],
+      [
+      ["anvil", -1]
+      ],
+      [
+      ["swage", -1]
+      ],
+      [
+      [ "forge", 250],
+      [ "char_forge", 50],
+      [ "oxy_torch", 50]
+      ]
+      ], "components": [
+     [
+		[ "steel_lump", 1 ],
+		[ "steel_chunk", 4 ],
+		[ "scrap", 12 ]
+     ]
+     ]
+},{
+  "type" : "recipe",
+  "result": "skate_board",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_PARTS",
+  "skill_used": "fabrication",
+  "difficulty": 2,
+  "time": 5000,
+  "reversible": false,
+  "autolearn": true,
+  "components": [
+     [
+		[ "2x4", 2 ]
+     ],
+	 [
+		[ "duct_tape", 200 ]
+	 ]
+    ]
+},{
+  "type" : "recipe",
+  "result": "wheel_skateboard",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_PARTS",
+  "skill_used": "fabrication",
+  "difficulty": 5,
+  "time": 20000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities": [
+    {"id":"HAMMER","level":2,"amount":1}
+  ],"tools": [
+      [
+      ["tongs", -1]
+      ],
+      [
+      ["chisel", -1]
+      ],
+      [
+      ["anvil", -1]
+      ],
+      [
+      ["swage", -1]
+      ],
+      [
+      [ "forge", 50],
+      [ "char_forge", 20],
+      [ "oxy_torch", 20]
+      ],
+	  [ ["hotplate", 10], ["toolset", 10], ["fire", -1] ],
+	  [ ["mold_plastic", -1] ]
+      ], "components": [
+     [
+		[ "steel_lump", 1 ],
+		[ "steel_chunk", 4 ],
+		[ "scrap", 12 ]
+	 ],
+	 [
+		[ "plastic_chunk", 4] 
+     ]
+    ]
+},{
+  "type" : "recipe",
+  "result": "skateboard",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_OTHER",
+  "skill_used": "fabrication",
+  "difficulty": 1,
+  "time": 5000,
+  "reversible": false,
+  "autolearn": true,
+  "qualities": [
+  {"id":"WRENCH","level":1,"amount":1}
+  ],
+  "components": [
+     [
+		[ "wheel_skateboard", 1 ]
+     ],
+	 [
+		[ "skate_board", 1 ]
+	 ],
+	 [
+		[ "skateframe", 1 ]
+	 ]
+    ]
+}
+]

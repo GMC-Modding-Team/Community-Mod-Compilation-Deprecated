@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: Lead Flak Press
+description: Uses lead to produce Lead Flak, cheap and useful against air units, but not particularly strong.
+health: 150
+requirements: [
+  lead/25
+]
+consumes: {
+  items: {
+  items: [
+  lead/2
+  bullet-casing/1
+  ]
+  }
+}
+outputItem: lead-flak/1
+craftTime: 1
+alwaysUnlocked: true
+category: crafting
+research: scrap-press

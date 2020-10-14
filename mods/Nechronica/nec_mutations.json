@@ -1,0 +1,503 @@
+[
+    {
+        "//" : "New addition start characteristic girls who have also daughters of men are also perfect with this",
+        "type" : "mutation",
+        "id" : "NEC_OTOKONOKO",
+        "name" : "Boy",
+        "points" : 0,
+        "description" : "Your body is a young girl, but you also have male features. Although it is rare, it will not be useful any longer.",
+        "starting_trait" : true,
+        "valid" : false
+    }
+    ,{
+        "//" : "Undead threshold",
+        "type" : "mutation",
+        "id" : "THRESH_NECROMANCY",
+        "name" : "Undead",
+        "points" : 1,
+        "description" : "The collapsed body is broken and patchy. Even if it breaks, you can simply reattach the parts.",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    }
+    ,{
+        "//" : "----------------Additional change to existing mutation----------------",
+        "//" : "Name change, intelligence - 1 addition, deletion from starting characteristics as a masochist mashed. I am sorry for the person who chose it by the start feature.",
+        "type" : "mutation",
+        "id" : "MASOCHIST",
+        "name" : "Feel good medicine",
+        "points" : 0,
+        "description" : "When you get hurt, medicine of pleasure flows out in your head. You forget the bad things. Intelligence - 1",
+        "valid" : false,
+        "passive_mods" : {
+            "int_mod" : -1
+        },
+        "category" : ["MUTCAT_NECROMANCY"],
+        "changes_to" : ["MASOCHIST_MED", "CENOBITE"]
+    }
+    ,{
+        "id": "morale_perm_masochist",
+        "type": "morale_type",
+        "text": "It feels good medicine"
+    }
+    ,{
+        "//" : "Added food preference as undead's threshold variance, and there is no effect on selection by start attribute. Itching",
+        "type" : "mutation",
+        "id" : "CANNIBAL",
+        "name" : "Cannibal",
+        "points" : 1,
+        "description" : "For your whole life you've been forbidden from indulging in your peculiar tastes.  Now the world's ended, and you'll be damned if anyone is going to tell you that you can't eat people.",
+        "starting_trait" : true,
+        "valid" : false,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "cancels" : ["VEGETARIAN"],
+        "flags" : ["CANNIBAL"]
+    }
+    ,{
+        "//" : "Name change of mucous, added as an undead normal mutation",
+        "type" : "mutation",
+        "id" : "SLIMY",
+        "name" : "Slimy",
+        "points" : 2,
+        "visibility" : 7,
+        "ugliness" : 6,
+        "description" : "Your body is coated with a fine slime.  Protects from long term effects of acid, though not short term ones.  Greatly increases wet benefits.",
+        "leads_to" : ["SLIME_HANDS"],
+        "changes_to" : ["VISCOUS"],
+        "category" : ["MUTCAT_FISH", "MUTCAT_SLIME", "MUTCAT_TROGLOBITE", "MUTCAT_CEPHALOPOD","MUTCAT_NECROMANCY"],
+        "wet_protection" : [
+            { "part" : "HEAD", "neutral" : 3, "good" : 4 },
+            { "part" : "LEG_L", "neutral" : 7, "good" : 14 },
+            { "part" : "LEG_R", "neutral" : 7, "good" : 14 },
+            { "part" : "FOOT_L", "neutral" : 2, "good" : 4 },
+            { "part" : "FOOT_R", "neutral" : 2, "good" : 4 },
+            { "part" : "ARM_L", "neutral" : 7, "good" : 12 },
+            { "part" : "ARM_R", "neutral" : 7, "good" : 12 },
+            { "part" : "HAND_L", "neutral" : 2, "good" : 3 },
+            { "part" : "HAND_R", "neutral" : 2, "good" : 3 },
+            { "part" : "TORSO", "neutral" : 14, "good" : 26 }
+        ]
+    }
+    ,{
+        "//" : "Route to undead mutation Routine addition wing-like protrusion → collapse finer etc.",
+        "type" : "mutation",
+        "id" : "WINGS_STUB",
+        "name" : "Wing Stubs",
+        "points" : 0,
+        "visibility" : 2,
+        "ugliness" : 2,
+        "description" : "You have a pair of stubby little wings projecting from your shoulderblades.  They can be wiggled at will, but are useless.",
+        "changes_to" : ["WINGS_BIRD", "WINGS_BAT", "WINGS_INSECT", "WINGS_BUTTERFLY","NEC_WINGS"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "HEADBUMPS",
+        "name" : "Head Bumps",
+        "points" : 0,
+        "visibility" : 3,
+        "ugliness" : 3,
+        "description" : "You have a pair of bumps on your skull.",
+        "changes_to" : ["HORNS", "ANTENNAE","NEC_HORNS"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NAILS",
+        "name" : "Long Fingernails",
+        "points" : 1,
+        "visibility" : 1,
+        "description" : "Your fingernails are long and sharp.  If you aren't wearing gloves, your unarmed attacks deal a minor amount of cutting damage.",
+        "changes_to" : ["CLAWS", "TALONS","NEC_HORNS"],
+        "cancels" : ["ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8"],
+        "category" : ["MUTCAT_RAPTOR"]
+    }
+    ,{
+        "//" : "Below we write what mutates with undead mutation",
+        "type" : "mutation",
+        "id" : "HUNGER2",
+        "name" : "Very Fast Metabolism",
+        "points" : -3,
+        "description" : "You find yourself hungry.  A lot.  You need about twice as much food as the average human.",
+        "prereqs" : ["HUNGER"],
+        "changes_to" :["HUNGER3"],
+        "cancels" : ["LIGHTEATER", "COLDBLOOD", "COLDBLOOD2", "COLDBLOOD3", "COLDBLOOD4"],
+        "category" : ["MUTCAT_BEAST", "MUTCAT_SLIME", "MUTCAT_RAPTOR","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "HUNGER3",
+        "name" : "Extreme Metabolism",
+        "points" : -6,
+        "description" : "You burn calories like gasoline-soaked tinder.  You consume three times as much food as the average human.",
+        "trans_note" : "The simile there is intended for a Really Quick Burn--BAM burned.",
+        "prereqs" : ["HUNGER2"],
+        "leads_to" : ["EATHEALTH"],
+        "cancels" : ["LIGHTEATER", "COLDBLOOD", "COLDBLOOD2", "COLDBLOOD3", "COLDBLOOD4"],
+        "category" : ["MUTCAT_CHIMERA","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "EATHEALTH",
+        "name" : "Hyper-Metabolism",
+        "points" : 15,
+        "description" : "You metabolize nutrients so rapidly that you can convert food directly into useful tissue.  Excess nutrition will convert to HP, rather than being wasted.  Activate to skip prompt for overeating.",
+        "prereqs" : ["HUNGER3"],
+        "cancels" : ["LIGHTEATER", "COLDBLOOD", "COLDBLOOD2", "COLDBLOOD3", "COLDBLOOD4"],
+        "threshreq" : ["THRESH_CHIMERA","THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_CHIMERA","MUTCAT_NECROMANCY"],
+        "valid" : false,
+        "active" : true
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "CLAWS",
+        "name" : "Claws",
+        "points" : 2,
+        "visibility" : 3,
+        "ugliness" : 2,
+        "description" : "You have claws on the ends of your fingers.  If you aren't wearing gloves, your unarmed attacks deal a minor amount of cutting damage.",
+        "prereqs" : ["NAILS"],
+        "changes_to" : ["CLAWS_RETRACT", "CLAWS_RAT"],
+        "cancels" : ["TALONS", "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8"],
+        "category" : ["MUTCAT_BEAST", "MUTCAT_RAT", "MUTCAT_URSINE","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "ACIDPROOF",
+        "name" : "Acidproof",
+        "points" : 3,
+        "description" : "Your mutated flesh is immune to the damaging effects of acid.",
+        "threshreq" : ["THRESH_INSECT", "THRESH_CHIMERA", "THRESH_MEDICAL", "THRESH_SLIME","THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_INSECT", "MUTCAT_CHIMERA", "MUTCAT_MEDICAL", "MUTCAT_SLIME","MUTCAT_NECROMANCY"]
+    },{
+        "type" : "mutation",
+        "id" : "ACIDBLOOD",
+        "name" : "Acid Blood",
+        "points" : 4,
+        "description" : "Your body has developed a wonderful defense mechanism.  Instead of normal blood, you bleed a strong molecular acid which will damage any creature foolish enough to harm you.",
+        "prereqs" : ["ACIDPROOF"],
+        "threshreq" : ["THRESH_INSECT", "THRESH_CHIMERA", "THRESH_MEDICAL", "THRESH_SLIME","THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_INSECT", "MUTCAT_CHIMERA", "MUTCAT_MEDICAL", "MUTCAT_SLIME","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "VOMITOUS",
+        "name" : "Vomitous",
+        "points" : -3,
+        "description" : "You have a major digestive disorder.  Though it causes you to vomit frequently, you have found that you can trigger your vomit reflex on demand, too.",
+        "prereqs" : ["NAUSEA"],
+        "changes_to" : ["EATPOISON"],
+        "category" : ["MUTCAT_SLIME", "MUTCAT_RAT", "MUTCAT_MEDICAL", "MUTCAT_ELFA","MUTCAT_NECROMANCY"],
+        "active" : true
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "TROGLO2",
+        "name" : "Very Light Sensitive",
+        "points" : -3,
+        "description" : "Sunlight makes you very uncomfortable.  If you are outdoors during the day, you suffer -1 to all stats; -2 if the weather is Sunny.",
+        "cancels" : ["SUNLIGHT_DEPENDENT"],
+        "prereqs" : ["TROGLO"],
+        "changes_to" : ["TROGLO3"],
+        "category" : ["MUTCAT_RAT","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "SORES",
+        "name" : "Sores",
+        "points" : -2,
+        "visibility" : 5,
+        "ugliness" : 6,
+        "description" : "Your extremities are covered in painful sores.  The pain is worse when they are covered in clothing.",
+        "prereqs" : ["SPOTS"],
+        "category" : ["MUTCAT_SLIME","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "TAIL_THICK",
+        "name" : "Thick Tail",
+        "points" : 1,
+        "visibility" : 8,
+        "ugliness" : 2,
+        "description" : "You have a long, thick, lizardlike tail.  It helps you balance a bit but also makes a serviceable whip.  Prevents wearing non-fabric pants.",
+        "prereqs" : ["TAIL_STUB"],
+        "cancels" : ["TAIL_FIN", "TAIL_FLUFFY", "TAIL_STING", "TAIL_CLUB", "TAIL_RAPTOR", "TAIL_CATTLE", "TAIL_RAT"],
+        "changes_to" : ["TAIL_CLUB"],
+        "category" : ["MUTCAT_LIZARD","MUTCAT_NECROMANCY"],
+        "restricts_gear" : [ "LEG_L", "LEG_R" ],
+        "allow_soft_gear" : true,
+        "attacks" : {
+            "attack_text_u" : "You whap %s with your tail",
+            "attack_text_npc" : "%1$s whaps %2$s with their tail",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "stab", "amount" : 8 }
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "ANIMALDISCORD",
+        "name" : "Animal Discord",
+        "points" : -1,
+        "description" : "Most animals don't like you, and aggressive animals are more likely to attack you.  This only applies to natural animals such as woodland creatures.",
+        "starting_trait" : true,
+        "cancels" : ["ANIMALEMPATH"],
+        "category" : ["MUTCAT_LUPINE", "MUTCAT_BEAST", "MUTCAT_RAPTOR","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "SMELLY2",
+        "name" : "Smelly",
+        "points" : -2,
+        "visibility" : 4,
+        "ugliness" : 5,
+        "description" : "You smell awful.  Monsters that track scent will find you very easily, and humans will react poorly.",
+        "prereqs" : ["SMELLY"],
+        "leads_to" : ["PHEROMONE_INSECT", "PHEROMONE_MAMMAL"],
+        "category" : ["MUTCAT_FISH", "MUTCAT_BEAST", "MUTCAT_SLIME", "MUTCAT_CHIMERA", "MUTCAT_URSINE","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "REGEN",
+        "name" : "Regeneration",
+        "points" : 6,
+        "description" : "Your flesh regenerates from wounds incredibly quickly.",
+        "cancels" : ["ROT1", "ROT2", "ROT3"],
+        "prereqs" : ["FASTHEALER2"],
+        "category" : ["MUTCAT_SLIME", "MUTCAT_TROGLOBITE","MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "INSOMNIA",
+        "name" : "Insomniac",
+        "points" : -2,
+        "description" : "You have a hard time falling asleep, even under the best circumstances!",
+        "starting_trait" : true,
+        "valid" : false,
+        "category" : ["MUTCAT_MEDICAL","MUTCAT_NECROMANCY"],
+        "cancels" : ["EASYSLEEPER"]
+    }    ,{
+        "//" : "----------------Below undead exclusive mutation----------------",
+        "type" : "mutation",
+        "id" : "NEC_ADD_EYE",
+        "name" : "Extra eyes",
+        "points" : 1,
+        "visibility" : 2,
+        "ugliness" : 7,
+        "description" : "A new eye came out of your body. The field of view broadens, but the appearance is disgusting. Perception + 2",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "valid" : false,
+        "passive_mods" : {
+            "per_mod" : 2
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_ADD_ARM",
+        "name" : "Extra Arms",
+        "points" : 3,
+        "visibility" : 8,
+        "ugliness" : 5,
+        "description" : "You no longer have just two arms. There are additional arms on your shoulder. It is hard to master, but you may expand your range of tactics. Dex + 2",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "valid" : false,
+        "passive_mods" : {
+            "dex_mod" : 2
+        }
+    }
+    ,{
+        "//":" tried making it but I did not have the speed MOD and I could not differentiate it.",
+        "type" : "mutation",
+        "id" : "NEC_ADD_LEG",
+        "name" : "Add legs",
+        "points" : 3,
+        "visibility" : 4,
+        "ugliness" : 5,
+        "description" : "You now have more than two legs. Another pair of legs are growing from your waist. You will not be able to equip usual leg protection, but you can move fast.",
+        "restricts_gear" : [ "LEG_L", "LEG_R" ],
+        "passive_mods" : {
+            "dex_mod" : 2
+        },
+         "valid" : false
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_OOANA",
+        "name" : "Large Hole",
+        "points" : 0,
+        "visibility" : 3,
+        "ugliness" : 2,
+        "description" : "There is a big hole in your body. However, there is no hindrance to battle, and the person who saw it is a little surprised.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "valid" : false
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_HORNS",
+        "name" : "Horns",
+        "points" : -2,
+        "visibility" : 5,
+        "ugliness" : 3,
+        "mixed_effect" : true,
+        "description" : "Large protuberances are growing from your body. It will be enough to pierce and hook at close range.",
+        "prereqs" : ["HEADBUMPS","NAILS"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "attacks" : {
+            "attack_text_u" : "You stab %s with your horns.",
+            "attack_text_npc" : "%1$s stabs %2$s with their horns.",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "stab", "amount" : 8 }
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_TONGUE",
+        "name" : "Tongue",
+        "points" : 0,
+        "visibility" : 1,
+        "ugliness" : 1,
+        "changes_to" : ["NEC_TONGUE2"],
+        "description" : "Your tongue has become long and tubular. Not particularly effective.",
+        "category" : ["MUTCAT_NECROMANCY"]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_TONGUE2",
+        "name" : "Drooling",
+        "points" : 2,
+        "visibility" : 4,
+        "ugliness" : 4,
+        "prereqs" : ["NEC_TONGUE"],
+        "cancels" : ["BEAK", "BEAK_HUM", "BEAK_PECK", "PROBOSCIS", "MANDIBLES", "MUZZLE_LONG", "MUZZLE", "MINOTAUR"],
+        "description" : "Your tongue is dripping with drool. You can not equip anything on your mouth, but they will be surprised when you attack them with your tongue.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "restricts_gear" : [ "MOUTH" ],
+        "attacks" : {
+            "attack_text_u" : "You attack %s with your tongue.",
+            "attack_text_npc" : "%1$s attacks %2$s with their tongue.",
+            "body_part" : "MOUTH",
+            "chance" : 20,
+            "base_damage" : { "damage_type" : "stab", "amount" : 15 },
+            "strength_damage" : { "damage_type" : "stab", "amount" : 0.5 }
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_FAILED",
+        "name" : "Fail",
+        "points" : -2,
+        "visibility" : 4,
+        "ugliness" : 4,
+        "changes_to" : ["NEC_RUPTURE"],
+        "description" : "You tried tweaking the body here and there but it did not go well. The encumberance of the whole body increases slightly, and the defense power drops.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "encumbrance_always" : [
+            [ "TORSO", 3 ],
+            [ "HEAD", 3 ],
+            [ "ARM_L", 3 ],
+            [ "ARM_R", 3],
+            [ "HAND_L", 3 ],
+            [ "HAND_R", 3 ],
+            [ "LEG_L", 3 ],
+            [ "LEG_R", 3 ],
+            [ "FOOT_L", 3 ],
+            [ "FOOT_R", 3 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "bash" : -3, "cut" : -3 } ],
+        "valid" : false
+    }
+ 
+    ,{
+        "//" : "----------------Below undead * threshold * mutation----------------",
+        "type" : "mutation",
+        "id" : "NEC_WINGS",
+        "name" : "Torn Membrane",
+        "points" : 5,
+        "visibility" : 12,
+        "ugliness" : 6,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "description" : "A membrane of deadly flesh, the wing of the fallen angel. Although you can not fly, a wing protects your body from attacks.",
+        "prereqs" : ["WINGS_STUB"],
+        "cancels" : ["WINGS_BIRD", "WINGS_INSECT", "WINGS_BUTTERFLY"], 
+        "category" : ["MUTCAT_NECROMANCY"],
+        "wet_protection" : [
+            { "part" : "ARM_L", "neutral" : 5, "good" : 10 },
+            { "part" : "ARM_R", "neutral" : 5, "good" : 10 },
+            { "part" : "TORSO", "neutral" : 10, "good" : 20 }
+        ],
+        "encumbrance_always" : [
+            [ "TORSO", 10 ]
+        ],
+        "armor" : [ { "parts" : [ "TORSO","ARM_L", "ARM_R" ], "bash" : 14 ,"cut" : 8  } ]
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_ADD_HEAD",
+        "name" : "Add Head",
+        "points" : 7,
+        "visibility" : 15,
+        "ugliness" : 10,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "description" : "There is another head on your shoulders. And here you thought you were doing well with just one. You can not see the other side of the face directly, but you can understand what you see over there. Intelligence + 5, Perception + 3",
+        "encumbrance_always" : [
+            [ "HEAD", 5 ]
+        ],
+        "passive_mods" : {
+            "int_mod" : 5,
+            "per_mod" : 3
+        }
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_RUPTURE",
+        "name" : "Semi-rupture",
+        "points" : -5,
+        "visibility" : 6,
+        "ugliness" : 8,
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "description" : "Your body is crumbling due to too much tinkering. The encumbrance of the whole body further increases, and the defense power drops.",
+        "changes_to" : ["NEC_PATCH"],
+        "prereqs" : ["NEC_FAILED"],
+        "category" : ["MUTCAT_NECROMANCY"],
+        "encumbrance_always" : [
+            [ "TORSO", 9 ],
+            [ "HEAD", 5 ],
+            [ "ARM_L", 5 ],
+            [ "ARM_R", 7],
+            [ "HAND_L", 8 ],
+            [ "HAND_R", 5 ],
+            [ "LEG_L", 5 ],
+            [ "LEG_R", 6 ],
+            [ "FOOT_L", 5 ],
+            [ "FOOT_R", 5 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "bash" : -6, "cut" : -6 } ],
+        "valid" : false
+    }
+    ,{
+        "type" : "mutation",
+        "id" : "NEC_PATCH",
+        "name" : "Patch",
+        "points" : 7,
+        "visibility" : 8,
+        "ugliness" : 5,
+        "description" : "You can conveniently change your body. Although it will be slightly weaker against attacks, the overall encumbrance is relaxed considerably.",
+        "category" : ["MUTCAT_NECROMANCY"],
+        "threshreq" : ["THRESH_NECROMANCY"],
+        "prereqs" : ["NEC_RUPTURE"],
+        "encumbrance_always" : [
+            [ "TORSO", -10 ],
+            [ "HEAD", -10 ],
+            [ "ARM_L", -10 ],
+            [ "ARM_R", -10 ],
+            [ "HAND_L", -10 ],
+            [ "HAND_R", -10 ],
+            [ "LEG_L", -10 ],
+            [ "LEG_R", -10 ],
+            [ "FOOT_L", -10 ],
+            [ "FOOT_R", -10 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "bash" : -2, "cut" : -4 } ],
+        "valid" : false
+    }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type":"monstergroup",
+    "name" : "GROUP_MANSION",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_zombie", "freq" : 500, "cost_multiplier": 2, "pack_size": [ 2, 3 ] },
+      { "monster" : "mon_zombie_crawler", "freq" : 300, "cost_multiplier": 1 },
+      { "monster" : "mon_zombie_fat", "freq" : 100, "cost_multiplier": 1 },
+      { "monster" : "mon_zombie_child", "freq" : 20, "cost_multiplier" : 1 }
+    ]
+  },
+  {
+    "type":"monstergroup",
+    "name" : "GROUP_PANICROOM",
+    "default" : "mon_zombie_child",
+    "monsters" : [
+      { "monster" : "mon_zombie_child", "freq" : 100, "cost_multiplier" : 1 },
+      { "monster" : "mon_zombie_crawler", "freq" : 30, "cost_multiplier": 1 },
+      { "monster" : "mon_zombie", "freq" : 20, "cost_multiplier": 1 },
+      { "monster" : "mon_zombie_fat", "freq" : 10, "cost_multiplier": 1 }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Homing Ammo Press
+description: Creates Homing Rounds, not dealing a whole lot more damage than a Basic Round but is far more likely to hit.
+health: 150
+requirements: [
+  copper/25
+  silicon/5
+]
+consumes: {
+  items: {
+  items: [
+  silicon/2
+  bullet-casing/1
+  ]
+  }
+  power: {
+  usage: 0.333333
+  capacity: 1
+  }
+}
+outputItem: home-bullet/1
+craftTime: 2
+category: crafting
+research: graphite-bullet-press

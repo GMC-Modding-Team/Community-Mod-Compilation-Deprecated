@@ -1,0 +1,138 @@
+[
+  {
+    "id" : "aaf_atm_module",
+    "type": "TOOL",
+    "symbol": "&",
+    "color": "lt gray",
+    "name": "ATM端末",
+    "description": "自作のATM端末です。キャッシュカードの読み取り装置と、米国ATM網へのハッキング装置で構成されています。銀行の中枢システムは非常に厳重なセキュリティが敷かれているため引き出し放題というわけには行きませんが、口座に*正しく*出し入れすることは出来ます。使用するには適切な場所に設置してください。",
+    "price": 50000,
+    "material": ["steel", "plastic"],
+    "weight": 15000,
+    "volume": 20,
+    "bashing": 10,
+    "category": "tools"
+  },{
+    "type" : "recipe",
+    "result": "aaf_atm_module",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "electronics",
+    "skills_required": ["computer", 6],
+    "difficulty": 5,
+    "time": 72000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [
+      {"id":"HAMMER","level":3,"amount":1},
+      {"id":"SCREW_FINE","level":1,"amount":1}
+    ],
+    "tools": [
+      [["electrohack", 100]],
+      [["soldering_iron", 100],["toolset", 100]]
+    ],
+    "components": [
+       [["processor"       ,  1]]
+      ,[["RAM"             ,  1]]
+      ,[["cable"           , 10]]
+      ,[["small_lcd_screen",  1]]
+      ,[["e_scrap"         ,  2]]
+      ,[["circuit"         ,  2]]
+      ,[["power_supply"    ,  1]]
+      ,[["amplifier"       ,  2]]
+      ,[["plastic_chunk"   , 10]]
+      ,[["scrap"           , 10]]
+      ,[["solar_cell"      ,  1]]
+    ]
+  },{
+    "id" : "aaf_recycler",
+    "type": "TOOL",
+    "symbol": "&",
+    "color": "green",
+    "name": "リサイクルマシン",
+    "description": "自作のリサイクルマシンです。強力なモーターでシュレッダーとプレス機を動かし、廃材をリサイクルします。使用するには適切な場所に設置してください。",
+    "price": 75000,
+    "material": ["steel", "plastic"],
+    "weight": 40000,
+    "volume": 50,
+    "bashing": 10,
+    "category": "tools"
+  },{
+    "type" : "recipe",
+    "result": "aaf_recycler",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "mechanics",
+    "skills_required": ["electronics", 4],
+    "difficulty": 7,
+    "time": 72000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [
+      {"id":"HAMMER","level":3,"amount":1},
+      {"id":"SCREW_FINE","level":1,"amount":1}
+    ],
+    "tools": [
+      [[ "oxy_torch", 12 ],[ "welder", 60 ],[ "welder_crude", 90 ],[ "toolset", 100 ]]
+    ],
+    "components": [
+       [["cable"           , 10]]
+      ,[["circuit"         ,  1]]
+      ,[["power_supply"    ,  1]]
+      ,[["motor_enhanced"  ,  1]
+      , ["motor_large"     ,  2]
+      , ["motor"           ,  4]]
+      ,[["solar_cell"      ,  2]]
+      ,[["plastic_chunk"   , 10]]
+      ,[["scrap"           , 20]]
+      ,[["sheet_metal"     , 10]
+      , ["steel_plate"     ,  5]]
+      ,[["hdframe"         ,  4]]
+      ,[["circsaw_blade"   ,  2]]
+      ,[["jack"            ,  1]]
+    ]
+  },{
+    "id" : "aaf_cvd_module",
+    "type": "TOOL",
+    "symbol": "&",
+    "color": "lt gray",
+    "name": "CVD端末",
+    "description": "自作のCVD端末です。プラズマCVD方式で装置にセットした物体にダイヤモンド状炭素結晶をコーティングできます。操作パネルを含む装置が別途必要です。使用するには適切な場所に設置してください。",
+    "price": 800000,
+    "material": ["steel", "plastic"],
+    "weight": 12000,
+    "volume": 18,
+    "bashing": 10,
+    "category": "tools"
+  },{
+    "type" : "recipe",
+    "result": "aaf_cvd_module",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "electronics",
+    "skills_required": ["mechanics", 6],
+    "difficulty": 8,
+    "time": 120000,
+    "reversible": false,
+    "book_learn": [[ "recipe_lab_cvd", 9 ]],
+    "qualities": [
+      {"id":"HAMMER","level":3,"amount":1},
+      {"id":"SCREW_FINE","level":1,"amount":1}
+    ],
+    "tools": [
+      [["soldering_iron", 100],["toolset", 100]]
+    ],
+    "components": [
+       [["processor"       ,  1]]
+      ,[["RAM"             ,  1]]
+      ,[["cable"           ,  5]]
+      ,[["power_supply"    ,  1]]
+      ,[["amplifier"       ,  1]]
+      ,[["plastic_chunk"   , 10]]
+      ,[["scrap"           , 10]]
+      ,[["sheet_metal"     ,  2]
+      , ["steel_plate"     ,  1]]
+      ,[["bio_blaster"     ,  1]]
+    ]
+  }
+]

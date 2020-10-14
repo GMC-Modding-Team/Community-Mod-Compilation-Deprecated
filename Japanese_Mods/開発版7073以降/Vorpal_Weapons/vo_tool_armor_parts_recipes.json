@@ -1,0 +1,1260 @@
+[
+{
+  "type" : "recipe",
+  "result": "power_armor_speed_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 600000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+	  [ "bio_speed", 1 ]
+	],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "neoprene", 22 ]
+	],
+    [
+	  [ "alloy_sheet", 1 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_hydraulics_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+	  [ "bio_hydraulics", 1 ]
+	],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_plate", 2 ],[ "alloy_sheet", 8 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_hand_pulse_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "bio_resonator", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_hand_flashbang_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "bio_flashbang", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_hand_lightning_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "bio_chain_lightning", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_gill_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "bio_gills", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_auxiliary_brain_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 600000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "bio_memory", 1 ]
+    ],
+    [
+      [ "bio_int_enhancer", 1 ]
+    ],
+    [
+      [ "bio_magnet", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_shield_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_plate", 1 ],[ "alloy_sheet", 4 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_bandolier_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_armpouch_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_legrig_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_storage_arm_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 1 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_storage_foot_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 1 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_storage_leg_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_storage_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_plate", 1 ],[ "alloy_sheet", 4 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_camelbak_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_toolbox_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "bio_tools", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	],
+    [
+      [ "battery_ups", 1 ]
+    ]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_gunsmith_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 150],
+      ["oxy_torch", 30]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "large_repairkit", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_sheet", 2 ]
+	],
+    [
+      [ "battery_ups", 1 ]
+    ]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "power_armor_frame",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"HAMMER_FINE","level":1},
+    {"id":"CHISEL", "level": 3 },
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 30], ["welder", 150], ["welder_crude", 250], ["toolset", 250]
+    ],
+    [
+      ["tongs", -1]
+    ],
+    [
+      ["anvil", -1]
+    ],
+    [
+      ["swage", -1]
+    ],
+    [
+      ["forge", 250],
+      ["oxy_torch", 50]
+    ],
+    [
+      ["software_hacking", -1]
+    ],
+    [
+      ["control_laptop", 20],["eink_tablet_pc", 20]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "circuit", 1 ]
+    ],
+    [
+      [ "transponder", 1 ]
+    ],
+    [
+      [ "steel_chunk", 16],[ "steel_lump", 4 ]
+    ],
+    [
+	  [ "alloy_plate", 2 ],[ "alloy_sheet", 8 ]
+	]
+  ]
+}
+]

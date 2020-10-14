@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: Scrap Flak Press
+description: Uses scrap to produce Scrap Flak, useful in a pitch, but that's about it.
+health: 100
+requirements: [
+  lead/15
+]
+consumes: {
+  items: {
+  items: [
+  scrap/2
+  bullet-casing/1
+  ]
+  }
+}
+outputItem: scrap-flak/1
+craftTime: 1
+alwaysUnlocked: true
+category: crafting
+research: basic-press

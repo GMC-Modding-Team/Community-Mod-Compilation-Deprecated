@@ -1,0 +1,20 @@
+[
+  {
+    "id" : "NC_BS_NERD",
+    "type" : "npc_class",
+    "name" : "Nerd",
+    "job_description" : "He's the Angry Nintendo Nerd",
+    "common" : false,
+    "skills" : [
+      {"skill" : "computer", "level" : {"sum" : [{"constant": 9},{"rng": [ 1, 6]}]}}
+    ],
+		"traits" : [
+			{ "group":"m_trait_distribution" },
+			{ "group":"m_hair_distribution","prob": 90 },
+			{ "group":"m_ext_distribution","prob": 30 },
+			{ "group":"m_hige_distribution","prob": 30 },
+			{ "group":"m_eye_distribution","prob": 100 },
+			{ "group":"m_skin_distribution","prob": 100 }
+        ]
+  }
+]

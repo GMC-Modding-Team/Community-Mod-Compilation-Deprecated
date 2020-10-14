@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ups_atomic_vo",
+    "copy-from": "mod_battery",
+    "type": "TOOLMOD",
+    "category": "spare_parts",
+    "name": "UPS変換キット(原子力電池用)",
+    "description": "原子力電池を使用する機器と互換性のあるUPS変換キットです。通常の電源で賄うには大容量のバッテリーが必要になるため非常に重くなります。",
+    "weight": 142,
+    "volume": 5,
+    "material": [ "superalloy", "plastic" ],
+    "acceptable_ammo": [ "plutonium" ],
+    "ammo_modifier": "battery",
+    "flags": [ "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+    {
+        "id": "camelbak_evap_vo",
+	    "type": "TOOL_ARMOR",
+        "category" : "other",
+        "symbol": ")",
+        "color": "blue",
+        "name": "ウォーターパック(2L/液化装置)",
+        "description": "CBMを応用した水蒸気液化装置付きウォーターパックです。原子力電池とソーラーセルを内蔵し、時間経過で少しずつ水が溜まっていきます。その仕組み上、直に飲むことはできないので別途容器を用意するか、抜き出してお飲みください。",
+        "flags" : ["BELTED","WATERPROOF","OVERSIZE"],
+        "price": 400000,
+        "material": ["steel", "plastic"],
+        "weight" : 1820,
+        "volume": 13,
+        "bashing": 1,
+        "to_hit" : -1,
+        "max_charges": 8,
+	    "ammo": "water_clean_vo",
+        "covers" : ["TORSO"],
+	    "encumbrance" : 0,
+	    "coverage" : 15,
+	    "material_thickness" : 1,
+	    "use_action":[
+		    {
+	        "type": "transform",
+	        "msg": "スイッチを入れた。",
+	        "target": "camelbak_evap_vo_on",
+			"need_charges": 1,
+		    "need_charges_msg": "正常に動作させるためには、事前に少しだけ綺麗な水を入れておく必要があります。",
+	        "active": true
+	    	}
+	]
+    },
+    {
+        "id": "camelbak_evap_vo_on",
+	    "type": "TOOL_ARMOR",
+        "category" : "other",
+        "symbol": ")",
+        "color": "blue",
+        "name": "ウォーターパック(2L/液化装置稼働中)",
+        "description": "CBMを応用した水蒸気液化装置付きウォーターパックです。原子力電池とソーラーセルを内蔵し、時間経過で少しずつ水が溜まっていきます。その仕組み上、直に飲むことはできないので別途容器を用意するか、抜き出してお飲みください。現在稼働中です。",
+        "flags" : ["BELTED","WATERPROOF","OVERSIZE"],
+        "price": 400000,
+        "material": ["steel", "plastic"],
+        "weight" : 1820,
+        "volume": 13,
+        "bashing": 1,
+        "to_hit" : -1,
+        "max_charges": 8,
+	    "ammo": "water_clean_vo",
+        "covers" : ["TORSO"],
+	    "encumbrance" : 0,
+	    "coverage" : 15,
+	    "material_thickness" : 1,
+	    "use_action":[
+		    {
+	        "type": "transform",
+	        "msg": "装置を止めた。",
+	        "target": "camelbak_evap_vo"
+	    	}
+	],
+		"artifact_data" : {
+		    "charge_type": "ARTC_TIME"
+		}
+    },
+  {
+    "id": "unbio_resonator_vo",
+    "type": "TOOL",
+    "name": "改良型音波共鳴装置",
+    "description": "CBMの音波共鳴装置を強化し、単独で使用できるようにした装置です。莫大な電力を消費することで、強力な衝撃波が周囲2マスの構造物を破壊します。",
+    "weight": 8480,
+    "volume": 15,
+    "price": 0,
+    "bashing": 6,
+    "material": [ "plastic", "steel" ],
+    "symbol": "0",
+    "color": "yellow",
+    "ammo": "battery",
+    "max_charges": 500,
+    "charges_per_use": 150,
+    "use_action": ["ARTIFACT"],
+	"artifact_data" : {
+	    "charge_type": "ARTC_NULL",
+	    "effects_activated": ["AEA_PULSE"]
+	}
+  },
+  {
+    "id": "noise_emitter_on_vo",
+    "type": "TOOL",
+    "name": "超ノイズ発生器(オン)",
+    "description": "悪夢のようなノイズ音をさらに強化し、聴覚破壊兵器の域にまで高めました。埋め込まれたソーラーセルと原子力電池により半永久的に動作します。速やかに鼓膜と精神を消耗できるでしょう。オフにするスイッチはありません。こんなものは分解してしまいましょう。",
+    "weight": 1240,
+    "volume": 6,
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ";",
+    "color": "yellow",
+    "revert_to": "noise_emitter_vo",
+    "use_action": ["ARTIFACT"],
+	"artifact_data" : {
+	    "charge_type": "ARTC_NULL",
+	    "effects_activated": ["AEA_NOISE"]
+	},
+    "flags": [ "RADIO_MODABLE", "TRADER_AVOID" ]
+  },
+  {
+    "id": "noise_emitter_vo",
+    "type": "TOOL",
+    "name": "超ノイズ発生器(オフ)",
+    "description": "悪夢のようなノイズ音をさらに強化し、聴覚破壊兵器の域にまで高めました。起動に電池が必要ですが、その後は埋め込まれたソーラーセルと原子力電池により半永久的に動作します。これを使う意味？それは狂人にしかわかりません。",
+    "weight": 1240,
+    "volume": 6,
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ";",
+    "max_charges": 100,
+    "ammo": "battery",
+    "color": "yellow",
+    "use_action": [
+        {
+            "type": "fireweapon_off",
+            "target_id": "noise_emitter_on_vo",
+            "success_message": "起動させてしまった。",
+            "lacks_fuel_message": "エネルギーが足りないようだ。",
+            "noise": 600,
+            "moves": 10
+        }
+    ],
+    "flags": [ "RADIO_MODABLE" ]
+  },
+  {
+    "id": "noise_emitter_on_vo",
+    "type": "TOOL",
+    "name": "超ノイズ発生器(オン)",
+    "description": "悪夢のようなノイズ音をさらに強化し、聴覚破壊兵器の域にまで高めました。埋め込まれたソーラーセルと原子力電池により半永久的に動作します。速やかに鼓膜と精神を消耗できるでしょう。",
+    "weight": 1240,
+    "volume": 6,
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ";",
+    "max_charges": 100,
+    "ammo": "battery",
+    "color": "yellow",
+    "revert_to": "noise_emitter_vo",
+    "use_action": [
+        {
+            "type": "fireweapon_on",
+            "noise_message": "＄％＃＆｜！％＆”’！＃”￥＃！！",
+            "voluntary_extinguish_message": "音が止んだ。",
+            "charges_extinguish_message": "エネルギーが切れた。",
+            "water_extinguish_message": "防水加工を忘れていたようだ。",
+            "noise": 600,
+            "noise_chance": 100
+        }
+    ],
+    "flags": [ "RADIO_MODABLE", "TRADER_AVOID" ]
+  },
+  {
+    "id": "spider_bomb_vo",
+    "type": "TOOL",
+    "symbol": "*",
+    "color": "dark_gray",
+    "name": "とりもち爆弾",
+    "description": "手作りの白いねばねば物質を撒き散らします。",
+    "price": 500,
+    "material": "steel",
+    "weight": 1264,
+    "volume": 1,
+    "bashing": 6,
+    "to_hit": -1,
+    "flags": ["BOMB"],
+    "category": "weapons",
+    "use_action": {
+        "type": "transform",
+        "target": "spider_bomb_vo_act",
+        "target_charges": 3,
+        "active": true,
+        "msg": "とりもち爆弾を起動させた。"
+    }
+  },
+  {
+    "id": "spider_bomb_vo_act",
+    "type": "TOOL",
+    "symbol": "*",
+    "color": "dark_gray",
+    "name": "とりもち爆弾(起動)",
+    "description": "手作りの白いねばねば物質を撒き散らします。巻き込まれないうちに投げろ！",
+    "price": 0,
+    "material": "steel",
+    "flags": "TRADER_AVOID",
+    "weight": 1264,
+    "volume": 1,
+    "bashing": 6,
+    "to_hit": -1,
+    "max_charges": 3,
+    "initial_charges": 3,
+    "turns_per_charge": 1,
+    "revert_to": "canister_empty",
+    "category": "weapons",
+    "use_action": {
+        "type": "explosion",
+        "sound_volume": 0,
+        "sound_msg": "*ぷちゅ*.",
+        "no_deactivate_msg": "You've already armed the %s, try throwing it instead.",
+        "fields_radius": 1,
+        "fields_type": "fd_web",
+        "fields_min_density": 0,
+        "fields_max_density": 3
+    }
+  },
+  {
+    "id": "mop_vo",
+    "type": "TOOL",
+    "symbol": "/",
+    "color": "light_gray",
+    "name": "伸縮式モップ",
+    "description": "伸縮式のモップです。従来品の半分以下の大きさでも性能は変わりません。",
+    "price": 1000,
+    "material": ["iron","plastic"],
+    "weight": 529,
+    "volume": 3,
+    "bashing": 3,
+    "to_hit": -1,
+    "use_action": "MOP"
+  },
+  {
+    "id": "blood_transfusion_off_vo",
+    "type": "TOOL",
+    "symbol": "b",
+    "color": "red",
+    "name": "自己血輸血用キット(オフ)",
+    "description": "血液を輸血に用いるためのキットです。健康な時に溜めておき、必要になったら使いましょう。オンにすることで血を溜め始めます。",
+    "price": 80000,
+    "material": ["plastic"],
+    "weight": 500,
+    "volume": 2,
+    "bashing": 1,
+    "to_hit": 2,
+    "flags": ["NO_UNLOAD"],
+    "max_charges": 20,
+    "ammo": "blood_clearn_vo",
+    "revert_to": "null",
+    "use_action":[
+	    {
+        "type": "transform",
+        "msg": "採血器を身体に繋いだ。",
+        "target": "blood_transfusion_on_vo",
+        "active": true
+    	}
+	]
+  },
+  {
+    "id": "blood_transfusion_on_vo",
+    "type": "TOOL",
+    "symbol": "b",
+    "color": "red",
+    "name": "自己血輸血用キット(オン)",
+    "description": "血液を輸血に用いるためのキットです。血液が貯まっています・・・。貯まった血液はそのまま使うことができますし、製作から取り外すこともできます。満タンになったら抜きましょう。",
+    "price": 80000,
+    "material": ["plastic"],
+    "weight": 500,
+    "volume": 2,
+    "bashing": 1,
+    "to_hit": 2,
+    "flags": ["NO_UNLOAD"],
+    "max_charges": 20,
+    "charges_per_use": 2,
+    "ammo": "blood_clearn_vo",
+    "revert_to": "blood_transfusion_off_vo",
+    "use_action":[
+	    {
+        "type": "transform",
+        "msg": "採血器を抜いた。",
+        "target": "blood_transfusion_off_vo"
+    	}
+	],
+    "artifact_data" : {
+    "charge_type": "ARTC_HP"
+    }
+  },
+  {
+    "id": "brainwash_off_vo",
+    "type": "TOOL",
+    "symbol": "*",
+    "color": "white",
+    "name": "洗脳装置（オフ）",
+    "description": "太陽光を利用して相手の脳内に作用する電磁波兵器です。その性質上、日の当たっている間しか使えませんし、一度オンにしたら太陽が出ている限りオフにできません。頭にアルミホイルを巻くことで防御できます。",
+    "price": 80000,
+    "material": ["plastic"],
+    "weight": 500,
+    "volume": 2,
+    "max_charges": 1,
+    "initial_charges": 1,
+    "charges_per_use": 1,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action":[
+	    {
+        "type": "transform",
+        "msg": "頭痛がします・・・。",
+        "target": "brainwash_on_vo",
+        "active": true,
+        "need_charges": 1
+    	}
+	],
+    "artifact_data" : {
+    "charge_type": "ARTC_SOLAR"
+  }
+  },
+  {
+    "id": "brainwash_on_vo",
+    "type": "TOOL",
+    "symbol": "*",
+    "color": "white",
+    "name": "洗脳装置（オン）",
+    "description": "太陽光を利用して相手の脳内に作用する電磁波兵器です。その性質上、日の当たっている間しか使えませんし、一度オンにしたら太陽が出ている限りオフにできません。機械にも効くのはどうしてなのでしょうか？",
+    "price": 80000,
+    "material": ["plastic"],
+    "weight": 500,
+    "volume": 2,
+    "max_charges": 1,
+    "turns_per_charge": 201,
+    "ammo": "NULL",
+    "revert_to": "brainwash_off_vo",
+    "use_action": ["ARTIFACT"],
+    "artifact_data" : {
+    "charge_type": "ARTC_SOLAR",
+    "effects_activated": ["AEA_ENTRANCE"],
+    "effects_carried": ["AEP_SCHIZO"]
+    }
+  }
+]

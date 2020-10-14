@@ -1,0 +1,36 @@
+[
+  {
+    "type" : "start_location",
+    "ident" : "mansion_e2_s",
+    "name" : "Mansion Entrance",
+    "target" : "mansion_e2"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "mansion_+2_s",
+    "name" : "Mansion",
+    "target" : "mansion_+2"
+  },
+  {
+    "type": "scenario",
+    "ident": "kotc",
+    "name": "King of the Castle",
+    "points" : 1,
+    "description": "Being a trillionaire had it's perks before the world ended. You sit in your mansion and pour yourself another glass of scotch while watching the world burn.",
+    "allowed_locs" : ["mansion_e2_s", "mansion_+2_s"],
+    "start_name": "Mansion",
+    "professions" : ["bio_trillionaire", "trillionaire"]
+  },
+  {
+    "type" : "scenario",
+    "ident" : "roboprison",
+    "name" : "Robotic Prison",
+    "points" : -1,
+    "description" : "You were thrown into a augmented prison that specialized into those with augments. The crimes you committed were unimaginable, but the rest of the world is becoming just like you so it's time to get the hell out of dodge.",
+    "allowed_locs" : [ "prison" ],
+    "start_name" : "Prison",
+    "professions" : ["roboprisoner"],
+    "forced_traits": [ "PSYCHOPATH" ],
+    "flags" : ["CITY_START"]
+  }
+]

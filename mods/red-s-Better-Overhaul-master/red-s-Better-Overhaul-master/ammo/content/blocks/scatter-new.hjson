@@ -1,0 +1,56 @@
+type: BurstTurret
+name: Scatter
+description: The first Anti-Air turret. Far from the best, but will suffice for a while until you get something better.
+health: 200
+requirements: [
+  copper/85
+  lead/45
+]
+size: 2
+reload: 18
+range: 170
+burstSpacing: 5
+targetGround: false
+inaccuracy: 17
+rotatespeed: 15
+shots: 2
+shootCone: 35
+recoil: 2
+shootSound: shootSnap
+ammo: {
+  scrap-flak: {
+    speed: 4
+    damage: 3
+    splashDamageRadius: 16
+    splashDamage: 24
+    reloadMultiplier: 0.5
+    bulletWidth: 5
+    bulletHeight: 6
+    ammoMultiplier: 3
+  }
+  lead-flak: {
+  speed: 5
+  damage: 5
+  splashDamageRadius: 24
+  splashDamage: 29
+  reloadMultiplier: 0.8
+  bulletWidth: 5
+  bulletHeight: 6
+  ammoMultiplier: 4
+  }
+  meta-flak: {
+  speed: 6
+  damage: 6
+  splashDamageRadius: 26.4
+  splashDamage: 32
+  reloadMultiplier: 0.8
+  bulletWidth: 5
+  bulletHeight: 6
+  ammoMultiplier: 4
+  fragBullets: 10
+  fragVelocityMin: 0.3
+  fragVelocityMax: 1
+  }
+}
+category: turret
+research: flak-press

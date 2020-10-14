@@ -1,0 +1,128 @@
+[
+{
+  "type" : "recipe",
+  "result": "bot_noisemaker_vo",
+  "category": "CC_ELECTRONIC",
+  "subcategory": "CSC_ELECTRONIC_TOOLS",
+  "skill_used": "electronics",
+  "difficulty": 3,
+  "time": 30000,
+  "reversible": true,
+  "book_learn": [[ "textbook_anarch", 6 ],[ "recipe_lab_elec", 2 ]],
+  "qualities" : [ {"id":"SCREW","level":1} ],
+  "tools": [
+    [
+      [ "soldering_iron", 20 ],
+      [ "toolset", 20 ]
+    ]
+  ],
+  "components": [
+    [ [ "human_flesh", 6 ] ],
+    [ [ "bone_human", 4 ] ],
+    [ [ "plut_cell", 5 ] ],
+    [ [ "solar_cell", 4 ] ],
+    [ [ "amplifier", 10 ] ],
+    [ [ "antenna", 3 ] ],
+    [ [ "scrap", 5 ] ],
+    [ [ "cable", 7 ] ]
+  ]
+},
+  {
+    "id": "bot_noisemaker_vo",
+    "type": "TOOL",
+    "symbol": "@",
+    "color": "green",
+    "name": "騒音発生器(停止)",
+    "description": "騒音発生器です。使用することで設置できます。",
+    "price": 500000,
+    "material": ["steel", "plastic"],
+    "weight": 7000,
+    "volume": 3,
+    "bashing": 8,
+    "to_hit": -3,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_noisemaker_vo",
+        "difficulty": 100,
+        "moves": 100
+    }
+  },
+  {
+    "id": "mon_noisemaker_vo",
+    "type": "MONSTER",
+    "name": "騒音発生器",
+    "description": "騒音発生器です。まるで人間の頭部のように見えますが・・・",
+    "default_faction": "zombie",
+    "species": [ "ROBOT" ],
+    "diff": 4,
+    "size": "TINY",
+    "hp": 300,
+    "speed": 100,
+    "material": [ "steel" ],
+    "symbol": "@",
+    "color": "dkgray",
+    "aggression": 0,
+    "morale": 100,
+    "melee_skill": 2,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 0,
+    "dodge": 5,
+    "armor_bash": 64,
+    "armor_cut": 64,
+    "special_attacks": [ [ "PARROT", 0 ] ],
+    "death_function": [ "NORMAL" ],
+    "flags": [  "ELECTRONIC", "NO_BREATHE", "REVIVES", "NO_NECRO", "IMMOBILE" ]
+  },
+    {
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"WHY!  WHY, WHYYY!\"",
+        "volume" : 300
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "an electronic voice saying \"CONNECTION FAILED.  Abort, Retry, Fail?\"",
+        "volume" : 300
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"I was once a man.  A MAN!\"",
+        "volume" : 150
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"What have I become?\"",
+        "volume" : 150
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "an electronic voice saying \"KILL ALL HUMANS!\"",
+        "volume" : 300
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"Have you seen my children?\"",
+        "volume" : 150
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"What have I become?  Why can't I die?\"",
+        "volume" : 150
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"Please, kill me!\", followed by an electronic voice saying \"SELF PRESERVATION PROTOCOLS ACTIVATED\"",
+        "volume" : 300
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"Please, take me with you.\"",
+        "volume" : 150
+    },{
+        "type" : "speech",
+        "speaker" : "mon_noisemaker_vo",
+        "sound" : "\"Not that way!  Go left!\"",
+        "volume" : 150
+    }
+]

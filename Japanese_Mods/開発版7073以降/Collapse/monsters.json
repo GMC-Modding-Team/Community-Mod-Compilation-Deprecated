@@ -1,0 +1,24 @@
+[
+    {
+    "type" : "MONSTER",
+    "id" : "mon_homunculus",
+    "copy-from": "mon_homunculus",
+    "hp":360,
+    "special_attacks":[["SMASH", 30]],
+    "flags":["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "ATTACKMON", "SUNDEATH", "REVIVES", "CLIMBS", "REGENERATES_10"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_blood_sacrifice",
+    "copy-from": "mon_blood_sacrifice",
+    "special_attacks":[["FEAR_PARALYZE", 2]],
+    "flags":["SEES", "HEARS", "SMELLS", "WARM", "BLEED", "IMMOBILE", "GUILT", "SUNDEATH", "POISON", "REVIVES", "BONES","REGENERATES_10"]
+    },{
+    "type" : "MONSTER",
+    "id" : "mon_flesh_angel",
+    "copy-from": "mon_flesh_angel",
+    "hp":200,
+    "emit_fields": [ "emit_toxic_leak" ],
+    "special_attacks":[["FEAR_PARALYZE", 3]],
+    "flags":["SEES", "HEARS", "FLIES", "SMELLS", "WARM", "BLEED", "ATTACKMON", "SUNDEATH", "HUMAN", "POISON", "REVIVES", "BONES","REGENERATES_10"]
+    }
+]

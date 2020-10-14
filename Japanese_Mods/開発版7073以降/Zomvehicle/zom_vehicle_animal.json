@@ -1,0 +1,103 @@
+[
+    {
+        "type" : "vehicle",
+        "id" : "zv_dog",
+        "name" : "zombie dog",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie_dog"},
+            {"x": 0, "y": 0, "part": "tank_small", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_dog_cop",
+        "name" : "Z-9",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_dog_zombie_cop"},
+            {"x": 0, "y": 0, "part": "tank_small", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_zolf",
+        "name" : "zolf",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zolf"},
+            {"x": 0, "y": 0, "part": "tank_small", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_zougar",
+        "name" : "zougar",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zougar"},
+            {"x": 0, "y": 0, "part": "tank_small", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_zombie_pig",
+        "name" : "zombie pig",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie_pig"},
+            {"x": 0, "y": 0, "part": "tank_small", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_zombear",
+        "name" : "zombear",
+        "blueprint" : "##",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_zombear"},
+            {"x": -1, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": -1, "y": 0, "part": "zv_zombie_child"},
+            {"x": -1, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_zoose",
+        "name" : "zoose",
+        "blueprint" : "##",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_zoose"},
+            {"x": -1, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": -1, "y": 0, "part": "zv_zombie_child"},
+            {"x": -1, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_zoose2",
+        "name" : "santa car",
+        "blueprint" : "##",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_zoose"},
+            {"x": -1, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": -1, "y": 0, "part": "seat"},
+            {"x": -1, "y": 0, "part": "controls"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+            {"x": -2, "y": 0, "part": "xlframe_cross"},
+            {"x": -2, "y": 0, "part": "basketlg"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_bear_smoky",
+        "name" : "smoky bear",
+        "blueprint" : "##",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_bear_smoky"},
+            {"x": -1, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": -1, "y": 0, "part": "zv_zombie_child"},
+            {"x": -1, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"}
+        ]
+    }
+]

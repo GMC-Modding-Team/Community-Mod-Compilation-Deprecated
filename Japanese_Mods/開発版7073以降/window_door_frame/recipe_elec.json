@@ -1,0 +1,55 @@
+[
+{
+  "type" : "recipe",
+  "result": "crushing_machine_vo",
+  "category": "CC_ELECTRONIC",
+  "subcategory": "CSC_ELECTRONIC_TOOLS",
+  "skill_used": "fabrication",
+  "skills_required": [ [ "electronics", 3 ] ],
+  "difficulty": 7,
+  "time": 150000,
+  "reversible": true,
+  "autolearn": true,
+  "book_learn": [["textbook_fabrication", 7] , ["manual_fabrication", 7]],
+  "qualities":[
+    {"id":"HAMMER","level":3},
+    {"id":"SAW_M","level":1},
+    {"id":"SCREW","level":1},
+    {"id":"WRENCH","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      [ "welder", 200 ],
+      [ "welder_crude", 300 ],
+      [ "toolset", 300 ],
+      [ "oxy_torch", 40 ]
+    ],
+    [
+      [ "soldering_iron", 25 ],
+      [ "toolset", 25 ]
+    ] ],
+  "components":
+    [
+     [
+       [ "steel_lump", 3 ],
+       [ "steel_chunk", 9 ],
+       [ "scrap", 36 ]
+     ],
+     [
+       [ "metal_tank", 1 ]
+     ],
+     [
+       [ "pipe", 4 ]
+     ],
+     [
+       [ "motor_small", 1 ]
+     ],
+     [
+       [ "element", 3 ]
+     ],
+     [
+       [ "cable", 16 ]
+     ]
+  ]
+  }
+]

@@ -1,0 +1,94 @@
+[{
+    "type": "MONSTER",
+    "id": "Alien_Juggernaut_D-type",
+    "name": "Alien Juggernaut D-type",
+    "species": "Alien",
+    "default_faction": "Aliens",
+    "symbol": "8",
+    "color": "White",
+    "size": "HUGE",
+    "material": "flesh",
+    "diff": 75,
+    "aggression": 100,
+    "morale": 100,
+    "speed": 140,
+    "melee_skill": 15,
+    "melee_dice": 8,
+    "melee_dice_sides": 8,
+    "melee_cut": 15,
+    "dodge": 5,
+    "armor_bash": 30,
+    "armor_cut": 30,
+    "armor_acid": 30,
+    "armor_fire": 30,
+    "vision_day": 60,
+    "vision_night": 40,
+    "death_drops": "mon_zombie_soldier_death_drops",
+    "luminance": 30,
+    "hp": 1000,
+    "death_function": [
+      "ACID",
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [ "PARROT", 30 ],
+      [ "SMASH", 20 ],
+      [ "BIO_OP_TAKEDOWN", 10 ],
+      [ "FORMBLOB", 55 ],
+      {
+        "type": "gun",
+        "cooldown": 4,
+        "gun_type": "Alien_salvaged_blaster",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 15,
+        "fake_dex": 10,
+        "fake_per": 10,
+        "fake_skills": [
+          [
+            "gun",
+            10
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 50,
+        "ranges": [
+          [5, 30, "DEFAULT"]
+        ],
+        "description": "Juggernaut transforms his part into ???",
+        "targeting_sound": "Beeeeeeeeep... compusch...",
+        "targeting_volume": 40,
+        "no_ammo_sound": "pf...."
+      }
+
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 1000
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      75
+    ],
+    "description": "A big and very aggresive shape-shifting human-like figure with no signs of face, it wears a very advanced black armor with small green tubes to the sides of its arms and waist, his limbs look like some blue liquid taking any form creature wants. As i approach, it starts to vibrate and change his form chaotically. This Alien-type has rank D, the lowest rank among his kind",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "WARM",
+      "HUMAN",
+      "ATTACKMON",
+      "PUSH_MON",
+      "ELECTRIC",
+      "GRABS",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_POWER",
+      "BONES",
+      "DESTROYS"
+    ]
+  }]

@@ -1,0 +1,32 @@
+[
+  {
+    "id" : "NC_NINJA_HIGH",
+    "type" : "npc_class",
+    "name" : "High Ninja",
+    "job_description" : "I'm a master of martial arts.",
+    "bonus_str" : { "rng" : [ 4, 5 ] },
+    "bonus_dex" : { "rng" : [ 3, 5 ] },
+    "bonus_per" : { "rng" : [ 3, 5 ] },
+    "skills" : [
+       {"skill" : "dodge"   , "level" : {"sum" : [{"constant": 4},{"rng": [ 1, 3]}]}}
+      ,{"skill" : "melee"   , "level" : {"sum" : [{"constant": 4},{"rng": [ 1, 3]}]}}
+      ,{"skill" : "unarmed" , "level" : {"sum" : [{"constant": 2},{"rng": [ 1, 3]}]}}
+      ,{"skill" : "gun"     , "level" : {"sum" : [{"constant": 5},{"rng": [ 1, 4]}]}}
+      ,{"skill" : "pistol"  , "level" : {"sum" : [{"constant": 4},{"rng": [ 1, 5]}]}}
+      ,{"skill" : "rifle"   , "level" : {"sum" : [{"constant": 4},{"rng": [ 1, 5]}]}}
+      ,{"skill" : "shotgun" , "level" : {"sum" : [{"constant": 4},{"rng": [ 1, 5]}]}}
+      ,{"skill" : "smg"     , "level" : {"sum" : [{"constant": 4},{"rng": [ 1, 5]}]}}
+    ],
+		"traits" : [
+        { "trait":"NIGHTVISION", "prob": 100 },
+        { "trait":"PARKOUR"    , "prob": 100 },
+        { "trait":"PSYCHOPATH" , "prob": 100 },
+			{ "group":"m_trait_distribution" },
+			{ "group":"m_hair_distribution","prob": 90 },
+			{ "group":"m_ext_distribution","prob": 30 },
+			{ "group":"m_hige_distribution","prob": 30 },
+			{ "group":"m_eye_distribution","prob": 100 },
+			{ "group":"m_skin_distribution","prob": 100 }
+        ]
+  }
+]

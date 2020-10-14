@@ -1,0 +1,96 @@
+[
+    {
+        "type": "mapgen",
+        "om_terrain": [
+            "church"
+        ],
+        "method": "json",
+        "weight": 100,
+        "object": {
+            "rows":
+            [
+" $$    W        W    $$ ",
+" $$  WWWWGVBBVGWWWW  $$ ",
+"     W..h.cccc.h..W     ",
+" WWVWWR..........RWWBWW ",
+"WW#.#.R.F..cc..F.R.#.#WW",
+" G#.#.R..........R.#.#V ",
+" V#.#.Rrrrr..rrrrR.#.#B ",
+"WW#..................#WW",
+" WW+WW#####..#####WW+WW ",
+"ssss V............B ssss",
+"s   WW#####..#####WW   s",
+"s $ WW............WW $ s",
+"s $  G#####..#####V  $ s",
+"s $  B............G  $ s",
+"s $ WW#####..#####WW $ s",
+"s $ WW............WW $ s",
+"s    V####....####B    s",
+"s WWWW--|--gg-----WWWW s",
+"s WllWTS|.....lll.W..W s",
+"s W..+..+.........+..W s",
+"s W..WWWWWW++WWWWWW6.W s",
+"s W.CWW$$WWssWW$$WW..W s",
+"s WWWWW    ss    WWWWW s",
+"ssssssssssssssssssssssss"
+            ],
+            "terrain": {
+ " ":"t_dirt",
+ "C":"t_floor",
+ "V":"t_window_stained_red",
+ "G":"t_window_stained_green",
+ "B":"t_window_stained_blue",
+ "W":"t_rock",
+ "R":"t_railing_v",
+ "r":"t_railing_h",
+ "6":"t_console_broken",
+ "$":"t_shrub",
+ ".":"t_rock_floor",
+ "F":"t_rock_floor",
+ "-":"t_wall",
+ "|":"t_wall",
+ "#":"t_rock_floor",
+ "t":"t_rock_floor",
+ "+":"t_door_c",
+ "g":"t_door_glass_c",
+ "T":"t_rock_floor",
+ "S":"t_rock_floor",
+ "h":"t_rock_floor",
+ "c":"t_rock_floor",
+ "l":"t_rock_floor",
+ "s":"t_sidewalk"
+            },
+            "furniture": {
+ "C":"f_crate_c",
+ "#":"f_bench",
+ "t":"f_table",
+ "T":"f_toilet",
+ "S":"f_sink",
+ "h":"f_chair",
+ "c":"f_counter",
+ "l":"f_locker",
+ "F": "f_brazier"
+            },
+            "toilets" : {
+                "T" : { }
+            },
+            "place_monster": [
+                { "x": 9, "y": 2, "monster": "mon_blood_sacrifice" },
+                { "x": 14, "y": 2, "monster": "mon_blood_sacrifice" },
+                { "x": 11, "y": 3, "monster": "mon_flesh_angel" }
+            ],
+            "fields" : {
+                "F": { "field": "fd_fire" },
+                "#": { "field": "fd_gibs_flesh" },
+                ".": { "field": "fd_blood" }
+            },
+                "add": [
+                { "item": "2x4", "x": 8, "y": 4 },
+                { "item": "2x4", "x": 15, "y": 4 }
+            ],
+            "place_items": [
+                { "item":    "church",    "chance": 100, "x": [ 11,12 ],   "y": 4 }
+            ]
+        }
+    }
+]

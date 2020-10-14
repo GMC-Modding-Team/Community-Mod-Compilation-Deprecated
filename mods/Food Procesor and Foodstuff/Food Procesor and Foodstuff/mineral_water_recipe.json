@@ -1,0 +1,31 @@
+[
+  {
+    "type": "recipe",
+    "result": "water_mineral",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "skills_required": [ "cooking", 5 ],
+    "difficulty": 2,
+    "time": 5000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [[ "textbook_chemistry", 1]],
+    "tools": [
+      [ [ "chemistry_set", 5 ] ],
+      [
+        [ "rock_quern", -1 ],
+        [ "clay_quern", -1 ]
+      ]
+    ],
+    "components": [
+      [
+        [ "water", 1 ],
+        [ "water_clean", 1 ]
+      ],
+      [[ "salt", 1 ]],
+      [[ "rock", 1]]
+	]
+
+  }
+]

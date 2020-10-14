@@ -1,0 +1,75 @@
+[
+  {
+    "type": "npc",
+    "id": "squat_hacker",
+    "//": "Blackhat Hacker that lives in the Squat.",
+    "name_suffix": "hacker",
+    "class": "NC_HACKER",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_SQUAT_HACKER",
+    "faction": "outsiders"
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER",
+    "dynamic_line": { "u_is_wearing": "badge_marshal", "yes": "....", "no": "Howdy!" },
+    "responses": [
+      { "text": "Hey, What's your Story?", "topic": "TALK_SQUAT_HACKER_STORY" },
+      { "text": "What are you doing?", "topic": "TALK_SQUAT_HACKER_DOING" },
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER_STORY",
+    "dynamic_line": "Not That i want to sound rude or anything, but we have only just met..",
+    "responses": [ { "text": "That's Interesting...", "topic": "TALK_SQUAT_HACKER" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER_DOING",
+    "dynamic_line": "Currently? Trying to fix this laptop of mine.. I know we don't have the 'net anymore, but still.. I Don't feel right without a screen in front of me.",
+    "responses": [
+      { "text": "How Well is that going for you?", "topic": "TALK_SQUAT_HACKER_LAPTOP" },
+      { "text": "Need any help with that?", "topic": "TALK_MISSION_LIST" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER_LAPTOP",
+    "dynamic_line": "Not good, it's fubar.. When all that stuff went down something messed with all my electronics.. Seems like i need a new one.",
+    "responses": [ { "text": "Hmmm, maybe i could grab one for you in my travels..", "topic": "TALK_SQUAT_HACKER_NEWCOMP" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER_NEWCOMP",
+    "dynamic_line": "I appreciate the offer but they're hell to charge without the grid and you'd be hard pressed to find a working one anyway.. What you could do for me is find me a e-ink tablet PC, do that and i'll be super grateful to you.",
+    "speaker_effect": [ { "effect": { "u_add_var": "hacker_find_e-ink", "type": "general", "context": "conversation", "value": "asked" } } ],
+    "responses": [
+      { "text": "I'll keep an eye out for one.", "topic": "TALK_DONE" },
+      {
+        "text": "It just so happens I have a spare one, if you need!",
+        "condition": { "u_has_item": "eink_tablet_pc" },
+        "topic": "TALK_SQUAT_HACKER_NEWCOMP2"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER_NEWCOMP2",
+    "dynamic_line": "Amazing! I can't offer you much right now but i can give you some of my spare tools and i'll definetly owe you one!",
+    "responses": [
+      { "text": "Sounds good.", "topic": "TALK_SQUAT_HACKER_NEWCOMP3" },
+      { "text": "I dont think so, sorry.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SQUAT_HACKER_NEWCOMP3",
+    "dynamic_line": "Thanks!! I know it's not much, but here, take this screwdriver set, it cold come in useful and i have a spare.",
+    "effect": [ { "u_buy_item": "screwdriver_set" }, { "u_sell_item": "eink_tablet_pc" } ],
+    "opinion": { "trust": 5, "owed": 10, "favors": 10 },
+    "responses": [ { "text": "Pleasure to be of service.", "topic": "TALK_DONE" } ]
+  }
+]

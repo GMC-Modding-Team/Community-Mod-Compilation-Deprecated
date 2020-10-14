@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Steel Foundry
+description: Uses lead and coal to create steel, useful for missiles and as structural bracing.
+health: 150
+size: 2
+requirements: [
+  copper/50
+  lead/35
+  graphite/5
+]
+consumes: {
+  items: {
+  items: [
+  lead/4
+  coal/2
+  ]
+  }
+  power: {
+  usage: 0.333333
+  capacity: 1
+  }
+}
+outputItem: steel/1
+craftTime: 25
+category: crafting
+research: tech-f2

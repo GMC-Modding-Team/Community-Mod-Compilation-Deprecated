@@ -1,0 +1,29 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "kawaii_sm_azukibar",
+    "symbol": "/",
+    "color": "brown",
+    "name": "あずきバー[SM]",
+    "description": "世界一硬いアイスです。その硬さはもはや武器に適していると言えるでしょう。",
+    "material": "wood",
+    "weight": 100,
+    "volume": 1,
+    "bashing": 16
+  },
+  {
+   "type" : "recipe",
+   "result": "kawaii_sm_azukibar",
+   "category": "CC_WEAPON",
+   "subcategory": "CSC_WEAPON_BASHING",
+   "skill_used": "fabrication",
+   "difficulty": 0,
+   "time": 5000,
+   "autolearn": true,
+   "components": [
+     [
+       [ "stick" , 1 ]
+     ]
+   ]
+  }
+]

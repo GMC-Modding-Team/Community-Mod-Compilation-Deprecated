@@ -1,0 +1,149 @@
+[
+    {
+        "type" : "overmap_terrain",
+        "id" : "surv_bunk1",
+        "name" : "平野",
+        "sym" : 46,
+        "color" : "brown",
+        "see_cost" : 2,
+        "mondensity" : 2,
+        "flags" : [ "KNOWN_DOWN" ]
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "surv_bunk2",
+        "name" : "隠れ家",
+        "sym" : 94,
+        "color" : "light_green",
+        "see_cost" : 2,
+        "mondensity" : 2,
+        "flags" : [ "KNOWN_DOWN" ]
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "surv_bunk3",
+        "name" : "地下道",
+        "sym" : 4194414,
+        "color" : "green",
+        "see_cost" : 999,
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "surv_bunk4",
+        "name" : "隠れ家(地下)",
+        "sym" : 4194414,
+        "color" : "green",
+        "see_cost" : 999,
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "backst",
+        "name" : "路地裏",
+        "rotate" : true,
+        "sym" : 88,
+        "color" : "brown",
+        "see_cost" : 5,
+        "extras" : "build",
+        "mondensity" : 2,
+        "flags" : [ "SIDEWALK" ]
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "yamadojo",
+        "name" : "dojo",
+        "rotate" : true,
+        "sym" : 94,
+        "color" : "i_ltcyan",
+        "see_cost" : 5,
+        "extras" : "build",
+        "mondensity" : 2,
+        "flags" : [ "SIDEWALK" ]
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "houseold1",
+        "name" : "老人ホーム",
+        "rotate" : true,
+        "sym" : 35,
+        "color" : "light_gray",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "houseold2",
+        "name" : "老人ホーム",
+        "rotate" : true,
+        "sym" : 35,
+        "color" : "light_gray",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "houseold3",
+        "name" : "老人ホーム",
+        "rotate" : true,
+        "sym" : 35,
+        "color" : "light_gray",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "houseold4",
+        "name" : "老人ホーム",
+        "rotate" : true,
+        "sym" : 35,
+        "color" : "light_gray",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "glasses",
+        "name" : "眼鏡屋",
+        "rotate" : true,
+        "sym" : 94,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "vege",
+        "name" : "野菜専門店",
+        "rotate" : true,
+        "sym" : 94,
+        "color" : "yellow_green",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    },
+    {
+        "type" : "overmap_terrain",
+        "id" : "smith",
+        "name" : "鍛冶屋",
+        "rotate" : true,
+        "sym" : 94,
+        "color" : "i_red",
+        "extras" : "build",
+        "see_cost" : 5,
+        "flags" : [ "SIDEWALK" ],
+        "mondensity" : 2
+    }
+]
+

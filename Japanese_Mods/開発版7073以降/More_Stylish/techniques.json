@@ -1,0 +1,50 @@
+[
+    {
+        "type" : "technique",
+        "id" : "tec_aikido_dodgethrow",
+	    "copy-from": "tec_aikido_dodgethrow",
+        "name" : "dodge throw",
+        "melee_allowed" : true
+    },{
+        "type" : "technique",
+        "id" : "tec_aikido_disarm",
+	    "copy-from": "tec_aikido_disarm",
+        "name" : "disarm",
+        "melee_allowed" : true
+
+
+
+
+    },{
+        "type" : "technique",
+        "id" : "tec_krav_maga_feint",
+        "copy-from" : "tec_krav_maga_feint",
+        "name" : "feint at",
+        "melee_allowed" : true
+    },{
+        "type" : "technique",
+        "id" : "tec_krav_maga_disarm",
+        "copy-from" : "tec_krav_maga_disarm",
+        "name" : "disarm",
+        "melee_allowed" : true
+
+
+    },{
+        "type" : "technique",
+        "id" : "tec_brawl_wide",
+        "name" : "Wide Strike",
+        "melee_allowed" : true,
+		"strict_unarmed" : true,
+        "min_melee" : 5,
+        "crit_tec" : true,
+        "weighting" : 2,
+        "mult_bonuses" : [
+            ["movecost", 1.75]
+        ],
+        "messages" : [
+            "You swing in a wide arc through %s",
+            "<npcname> swings in a wide arc through %s"
+        ],
+        "aoe" : "wide"
+    }
+]

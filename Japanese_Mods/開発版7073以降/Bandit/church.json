@@ -1,0 +1,91 @@
+[
+    {
+        "type": "mapgen",
+        "om_terrain": [
+            "church"
+        ],
+        "method": "json",
+        "weight": 200,
+        "object": {
+            "rows":
+            [
+"      a  ^^^^^^  a      ",
+"  a  |---|--------| a   ",
+"aa  ||dh.|.6ooo.ll|| a  ",
+"    |l...+.........DSss ",
+"a ^^|--+-|------+--|^^S ",
+"  ^||..............||^S ",
+" a w.....b.tt.b.....w S ",
+" a |................| s ",
+"a ^w................w^s ",
+" a^|.######..######.|^s ",
+" a^w................w^s ",
+"  ^|.######..######.|^S ",
+" a w................w S ",
+"   |.######..######.| s ",
+"a ^w................w^s ",
+" a^|.######..######.|^s ",
+"  ^|................|^s ",
+"   |-w|----..----|w-| s ",
+" a  ^^|ll|....|AT|^^  S ",
+"  a  ^|.......+..|^   s ",
+"      |----==-|--| a  s ",
+"     a   O SS O       s ",
+"     ^^    sS  a ^^   s ",
+"     ^^    Ss    ^^   s "
+            ],
+            "terrain": {
+ " ":"t_dirt",
+ "a":"t_dirt",
+ "O":"t_column",
+ "6":"t_console_broken",
+ "^":"t_shrub",
+ ".":"t_floor",
+ "-":"t_wall",
+ "|":"t_wall",
+ "#":"t_floor",
+ "t":"t_floor",
+ "+":"t_door_c",
+ "=":"t_rdoor_boarded",
+ "D":"t_door_locked",
+ "w":"t_window_taped",
+ "T":"t_floor",
+ "A":"t_floor",
+ "e":"t_floor",
+ "o":"t_floor",
+ "h":"t_floor",
+ "c":"t_floor",
+ "d":"t_floor",
+ "l":"t_floor",
+ "s":"t_sidewalk",
+ "S":"t_sidewalk",
+ "b":"t_floor"
+            },
+            "furniture": {
+ "#":"f_bench",
+ "t":"f_table",
+ "T":"f_toilet",
+ "A":"f_sink",
+ "e":"f_fridge",
+ "o":"f_bookcase",
+ "h":"f_chair",
+ "c":"f_counter",
+ "d":"f_desk",
+ "l":"f_locker",
+ "b": "f_brazier"
+            },
+            "toilets" : {
+                "T" : { }
+            },
+            "fields" : {
+                "a": [{ "field": "fd_blood" },{ "field": "fd_gibs_flesh" }],
+                "S": [{ "field": "fd_blood" },{ "field": "fd_gibs_flesh" }]
+            },
+            "place_items": [
+                { "item":    "church",    "chance": 100, "x": [ 11,12 ],   "y": 6 },
+                { "item":    "cannedfood",    "chance": 50, "x": [ 6,17 ],   "y": 5 , "repeat": [ 5, 10 ]},
+                { "item":    "softdrugs",     "chance": 50, "x": 6,   "y": 2 }
+            ]
+        }
+    }
+]

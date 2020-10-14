@@ -1,0 +1,213 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "triffid_orchard",
+    "items":[
+      ["plant_sac", 50],
+      ["veggy", 40]
+    ]
+  },{
+    "method": "json",
+    "object": {
+        "furniture": {
+            "#": "f_counter",
+            "&": "f_sink",
+            "+": "f_null",
+            "-": "f_null",
+            ".": "f_null",
+            "6": "f_null",
+            "D": "f_null",
+            "X": "f_crate_c",
+            "_": "f_null",
+            "c": "f_null",
+            "d": "f_null",
+            "l": "f_null",
+            "{": "f_locker",
+            "|": "f_null"
+        },
+        "place_toilets": [
+            {
+                "x": 14,
+                "y": 0
+            },
+            {
+                "x": 16,
+                "y": 0
+            },
+            {
+                "x": 18,
+                "y": 0
+            },
+            {
+                "x": 14,
+                "y": 8
+            },
+            {
+                "x": 16,
+                "y": 8
+            },
+            {
+                "x": 18,
+                "y": 8
+            }
+        ],
+        "place_vehicles": [
+            {
+                "chance": 70,
+                "fuel": 5,
+                "rotation": 270,
+                "status": -1,
+                "vehicle": "flatbed_truck",
+                "x": 7,
+                "y": 6
+            },
+            {
+                "chance": 80,
+                "fuel": 0,
+                "rotation": 0,
+                "status": -1,
+                "vehicle": "handjack",
+                "x": 16,
+                "y": 19
+            },
+            {
+                "chance": 80,
+                "fuel": 0,
+                "rotation": 0,
+                "status": -1,
+                "vehicle": "handjack",
+                "x": 17,
+                "y": 19
+            },
+            {
+                "chance": 80,
+                "fuel": 0,
+                "rotation": 0,
+                "status": -1,
+                "vehicle": "handjack",
+                "x": 18,
+                "y": 19
+            }
+        ],
+        "place_items": [
+            {
+                "chance": 75,
+                "item": "triffid_orchard",
+                "x": [
+                    12,
+                    14
+                ],
+                "y": [
+                    18,
+                    19
+                ]
+            },
+            {
+                "chance": 75,
+                "item": "triffid_orchard",
+                "x": [
+                    8,
+                    10
+                ],
+                "y": [
+                    18,
+                    19
+                ]
+            },
+            {
+                "chance": 75,
+                "item": "triffid_orchard",
+                "x": [
+                    4,
+                    6
+                ],
+                "y": [
+                    18,
+                    19
+                ]
+            },
+            {
+                "chance": 75,
+                "item": "triffid_orchard",
+                "x": [
+                    12,
+                    13
+                ],
+                "y": [
+                    14,
+                    15
+                ]
+            },
+            {
+                "chance": 75,
+                "item": "triffid_orchard",
+                "x": [
+                    8,
+                    10
+                ],
+                "y": [
+                    14,
+                    15
+                ]
+            },
+            {
+                "chance": 75,
+                "item": "triffid_orchard",
+                "x": [
+                    4,
+                    6
+                ],
+                "y": [
+                    14,
+                    15
+                ]
+            }
+        ],
+        "rows": [
+            "__c|........6|l|l|l|...|",
+            "__c|.........|d|d|d|...|",
+            "__c|.........|lllll+...|",
+            "__c|.........|&#&#&|...|",
+            "__c|.........|||||||...|",
+            "__c|.........|&#&#&|...|",
+            "__c|.........|lllll+...|",
+            "__c|.........|d|d|d|...|",
+            "__c|.........|l|l|l|...|",
+            "__c|.........||||||||+||",
+            "__c|...............+...|",
+            "__c|...............+...|",
+            "__c|..............6|...|",
+            "__c|||||||||||DDDD||...|",
+            "__c|XXX.XXX.XX....6|...|",
+            "__c|XXX.XXX.XX.....+...|",
+            "__c|...............+...|",
+            "__c|...............||+||",
+            "__c|XXX.XXX.XXX....|...|",
+            "__c|XXX.XXX.XXX....|{{{|",
+            "__c|||||||||||||||||||||",
+            "__c---------------------",
+            "________________________",
+            "________________________"
+        ],
+        "terrain": {
+            "#": "t_linoleum_white",
+            "&": "t_linoleum_white",
+            "+": "t_door_metal_c",
+            "-": "t_chainfence_h",
+            ".": "t_thconc_floor",
+            "6": "t_gates_control_concrete",
+            "D": "t_door_metal_locked",
+            "X": "t_thconc_floor",
+            "_": "t_dirt",
+            "c": "t_chainfence_v",
+            "d": "t_door_c",
+            "l": "t_linoleum_white",
+            "{": "t_thconc_floor",
+            "|": "t_concrete_wall"
+        }
+    },
+    "om_terrain": "triffid_orchard3",
+    "type": "mapgen",
+    "weight": 100
+}
+]

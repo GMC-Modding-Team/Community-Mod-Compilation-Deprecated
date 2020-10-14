@@ -1,0 +1,104 @@
+{
+  "tile_info": [
+    { "height": 16, "width": 16 }
+  ],
+  "tiles-new": [
+    {
+      "file": "fallback.png",
+      "tiles": [
+        { "id": [ "player_female", "player_male" ], "fg": 64, "rotates": true },
+        { "id": [ "npc_male" ], "fg": 2 },
+		{ "id": [ "npc_female" ], "fg": 3 },
+		{ "id": [ "cursor" ], "fg": 15, "rotates": true },
+		{ "id": [ "highlight" ], "fg": 15 }
+      ]
+    },
+    {
+      "file": "fallback.png",
+      "tiles": [  ],
+      "ascii": [
+        {
+          "offset": 0,
+          "bold": false,
+          "color": "BLACK"
+        },
+        {
+          "offset": 256,
+          "bold": true,
+          "color": "WHITE"
+        },
+        {
+          "offset": 512,
+          "bold": false,
+          "color": "WHITE"
+        },
+        {
+          "offset": 768,
+          "bold": true,
+          "color": "BLACK"
+        },
+        {
+          "offset": 1024,
+          "bold": false,
+          "color": "RED"
+        },
+        {
+          "offset": 1280,
+          "bold": false,
+          "color": "GREEN"
+        },
+        {
+          "offset": 1536,
+          "bold": false,
+          "color": "BLUE"
+        },
+        {
+          "offset": 1792,
+          "bold": false,
+          "color": "CYAN"
+        },
+        {
+          "offset": 2048,
+          "bold": false,
+          "color": "MAGENTA"
+        },
+        {
+          "offset": 2304,
+          "bold": false,
+          "color": "YELLOW"
+        },
+        {
+          "offset": 2560,
+          "bold": true,
+          "color": "RED"
+        },
+        {
+          "offset": 2816,
+          "bold": true,
+          "color": "GREEN"
+        },
+        {
+          "offset": 3072,
+          "bold": true,
+          "color": "BLUE"
+        },
+        {
+          "offset": 3328,
+          "bold": true,
+          "color": "CYAN"
+        },
+        {
+          "offset": 3584,
+          "bold": true,
+          "color": "MAGENTA"
+        },
+        {
+          "offset": 3840,
+          "bold": true,
+          "color": "YELLOW"
+        }
+      ]
+    }
+  ]
+}
+

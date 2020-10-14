@@ -1,0 +1,61 @@
+[
+  {
+    "id": "dread_gun_infantry",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "black",
+    "name": "DREAD Heavy Rifle",
+    "name_plural": "DREAD Heavy Rifles",
+    "description": "Heavy rifle based on the DREAD MkIX, reduced in size, modified to accept conventional guns attachments and adapted to be handled as a bulky infantry weapon, it fires 10mm pellets at a high rate without flash or noise, needs UPS power to fire.",
+    "price": 60000000,
+    "material": ["steel", "plastic"],
+    "skill": "rifle",
+    "ammo": "10mm_dread",
+    "weight": 4000,
+    "volume": 12,
+    "bashing": 14,
+    "to_hit": -1,
+    "dispersion": 20,
+    "sight_dispersion": 40,
+    "durability": 9,
+	"ups_charges": 5,
+    "modes": [
+      [ "DEFAULT", "two rounds", 2 ],
+      [ "BURST", "8 rounds.", 8 ],
+      [ "AUTO", "auto",20  ]
+    ],
+    "clip_size": 60,
+    "reload": 20,
+    "valid_mod_locations": [[ "accessories", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ]]
+  },
+  {
+    "id": "dread_mincer",
+	"type": "GUN",
+	"reload_noise_volume": 10,
+	"symbol": "(",
+	"color": "black",
+	"name": "DREAD Scattergun",
+	"name_plural": "DREAD Scattergun",
+	"description": "Shotgun-like weapon based on the DREAD MkIX, reduced in size, modified to accept conventional guns attachments and adapted to be handled as a bulky infantry weapon, it fires special packs of bundled 2.5mm pellets without flash or noise, needs UPS power to fire.",
+	"price": 60000000,
+	"material": ["steel", "plastic"],
+	"skill": "shotgun",
+	"ammo": "dread_pack",
+	"weight": 3800,
+	"volume": 12,
+	"bashing": 12,
+	"to_hit": -1,
+	"dispersion": 0,
+	"sight_dispersion": 40,
+	"durability": 9,
+	"ups_charges": 15,
+	"modes": [
+	  [ "DEFAULT", "single shot", 1 ],
+	  [ "BURST", "4 shots", 4 ]
+	],
+	"clip_size": 12,
+	"reload": 15,
+	"valid_mod_locations": [[ "accessories", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ]]
+	}
+]

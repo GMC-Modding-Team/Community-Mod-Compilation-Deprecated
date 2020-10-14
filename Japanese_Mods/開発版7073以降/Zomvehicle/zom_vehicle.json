@@ -1,0 +1,391 @@
+[
+    {
+        "type" : "vehicle",
+        "id" : "zv_mikoshi_small",
+        "name" : "zombie mikoshi",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": 0, "part": "zv_zombie"},
+            {"x": 0, "y": 0, "part": "zv_zombie_shrieker"},
+            {"x": 0, "y": 0, "part": "zv_zombie_control_chip"},
+
+            {"x": 0, "y": 1, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": 1, "part": "zv_zombie_hunter"},
+
+            {"x": 0, "y": -1, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": -1, "part": "zv_zombie_hunter"},
+
+            {"x": 1, "y": 0, "part": "zv_zombie_brute"},
+
+            {"x": -1, "y": 0, "part": "zv_skeleton"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+            {"x": -1, "y": 0, "part": "zv_zombie_cop"},
+
+            {"x": -1, "y": 1, "part": "zv_zombie_crawler"},
+            {"x": -1, "y": 1, "part": "zv_zombie_runner"},
+
+            {"x": -1, "y": -1, "part": "zv_zombie_crawler"},
+            {"x": -1, "y": -1, "part": "zv_zombie_runner"}
+
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_mikoshi_small2",
+        "name" : "zombie mikoshi",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie_child"},
+            {"x": 0, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": 0, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+
+            {"x": 1, "y": 0, "part": "zv_zombie_brute"},
+
+            {"x": 0, "y": 1, "part": "zv_zombie_brute"},
+
+            {"x": 0, "y": -1, "part": "zv_zombie_brute"}
+
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_mikoshi_boat",
+        "name" : "zombie boat",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": 0, "part": "zv_zombie_fat"},
+            {"x": 0, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": 0, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+
+            {"x": 0, "y": 1, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": 1, "part": "zv_zombie_fat"},
+            {"x": 0, "y": 1, "part": "zv_zombie_child"},
+
+            {"x": 0, "y": -1, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": -1, "part": "zv_zombie_fat"},
+            {"x": 0, "y": -1, "part": "zv_zombie_child"},
+
+            {"x": 1, "y": 0, "part": "zv_zombie_swimmer"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_mikoshi",
+        "name" : "zombie mikoshi",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie"},
+            {"x": 0, "y": 0, "part": "zv_zombie_control_chip"},
+
+            {"x": -1, "y": 0, "part": "zv_skeleton"},
+            {"x": -1, "y": 0, "part": "zv_zombie"},
+            {"x": -1, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+
+            {"x": -2, "y": 0, "part": "zv_skeleton"},
+            {"x": -2, "y": 0, "part": "zv_zombie"},
+            {"x": -2, "y": 0, "part": "zv_zombie_control_chip"},
+
+            {"x": 0, "y": 1, "part": "zv_zombie_grabber"},
+            {"x": 0, "y": 1, "part": "zv_zombie_tough"},
+
+            {"x": -1, "y": 1, "part": "zv_zombie_grabber"},
+            {"x": -1, "y": 1, "part": "zv_zombie_tough"},
+
+            {"x": -2, "y": 1, "part": "zv_zombie_grabber"},
+            {"x": -2, "y": 1, "part": "zv_zombie_tough"},
+
+            {"x": 0, "y": -1, "part": "zv_zombie_grabber"},
+            {"x": 0, "y": -1, "part": "zv_zombie_tough"},
+
+            {"x": -1, "y": -1, "part": "zv_zombie_grabber"},
+            {"x": -1, "y": -1, "part": "zv_zombie_tough"},
+
+            {"x": -2, "y": -1, "part": "zv_zombie_grabber"},
+            {"x": -2, "y": -1, "part": "zv_zombie_tough"},
+
+            {"x": -3, "y": 1, "part": "zv_zombie_crawler"},
+            {"x": -3, "y": 1, "part": "zv_zombie_runner"},
+
+            {"x": -3, "y": -1, "part": "zv_zombie_crawler"},
+            {"x": -3, "y": -1, "part": "zv_zombie_runner"},
+
+            {"x": 1, "y": 0, "part": "zv_zombie_brute"},
+
+            {"x": 0, "y": 2, "part": "zv_zombie_brute"},
+
+            {"x": 0, "y": -2, "part": "zv_zombie_brute"},
+
+            {"x": -2, "y": 2, "part": "zv_zombie_brute"},
+
+            {"x": -2, "y": -2, "part": "zv_zombie_brute"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_mikoshi2",
+        "name" : "zombie mikoshi",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie"},
+            {"x": 0, "y": 0, "part": "zv_zombie_shrieker"},
+
+            {"x": -1, "y": 0, "part": "zv_skeleton"},
+            {"x": -1, "y": 0, "part": "zv_zombie_child"},
+            {"x": -1, "y": 0, "part": "zv_zombie_control_chip"},
+            {"x": -1, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+
+            {"x": -2, "y": 0, "part": "zv_skeleton"},
+            {"x": -2, "y": 0, "part": "zv_zombie"},
+            {"x": -2, "y": 0, "part": "zv_zombie_cop"},
+
+            {"x": -3, "y": 0, "part": "zv_dog_skeleton"},
+            {"x": -3, "y": 0, "part": "zv_dog_zombie_cop"},
+
+            {"x": 0, "y": 1, "part": "zv_zombie_grabber"},
+            {"x": 0, "y": 1, "part": "zv_zombie_tough"},
+            {"x": 0, "y": 1, "part": "zv_zombie_cop"},
+
+            {"x": -1, "y": 1, "part": "zv_zombie_grabber"},
+            {"x": -1, "y": 1, "part": "zv_zombie_hunter"},
+            {"x": -1, "y": 1, "part": "zv_zombie_cop"},
+
+            {"x": -2, "y": 1, "part": "zv_zombie_grabber"},
+            {"x": -2, "y": 1, "part": "zv_zombie_tough"},
+
+            {"x": 0, "y": -1, "part": "zv_zombie_grabber"},
+            {"x": 0, "y": -1, "part": "zv_zombie_hunter"},
+
+            {"x": -1, "y": -1, "part": "zv_zombie_grabber"},
+            {"x": -1, "y": -1, "part": "zv_zombie_runner"},
+            {"x": -1, "y": -1, "part": "zv_zombie_cop"},
+
+
+            {"x": -2, "y": -1, "part": "zv_skeleton"},
+
+            {"x": -3, "y": 1, "part": "zv_zombie_brute"},
+
+            {"x": -3, "y": -1, "part": "zv_zombie_brute"},
+
+            {"x": 1, "y": 0, "part": "zv_zombie_crawler"},
+            {"x": 1, "y": 0, "part": "zv_zombie_cop"},
+
+            {"x": 0, "y": 2, "part": "zv_zombie_crawler"},
+            {"x": 0, "y": 2, "part": "zv_zombie_cop"},
+
+            {"x": -1, "y": 2, "part": "zv_dog_skeleton"},
+            {"x": -1, "y": 2, "part": "zv_dog_zombie_cop"},
+
+            {"x": 0, "y": -2, "part": "zv_zombie_brute"},
+
+            {"x": -2, "y": 2, "part": "zv_zombie_brute"},
+
+            {"x": -2, "y": -2, "part": "zv_zombie_crawler"},
+            {"x": -2, "y": -2, "part": "zv_zombie_cop"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_mikoshi_big",
+        "name" : "*zombie matsuri*",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie"},
+            {"x": 0, "y": 0, "part": "zv_zombie_necro"},
+
+            {"x": 0, "y": 1, "part": "zv_skeleton"},
+            {"x": 0, "y": 1, "part": "zv_zombie_child"},
+            {"x": 0, "y": 2, "part": "zv_skeleton"},
+            {"x": 0, "y": 2, "part": "zv_zombie"},
+            {"x": 0, "y": -1, "part": "zv_skeleton"},
+            {"x": 0, "y": -1, "part": "zv_zombie"},
+            {"x": 0, "y": -2, "part": "zv_skeleton"},
+            {"x": 0, "y": -2, "part": "zv_zombie"},
+            {"x": 0, "y": -3, "part": "zv_zombie_hollow","fuel": "bfeedfuel"},
+
+            {"x": 1, "y": 0, "part": "zv_skeleton"},
+            {"x": 1, "y": 1, "part": "zv_skeleton"},
+            {"x": 1, "y": 1, "part": "zv_zombie"},
+            {"x": 1, "y": 2, "part": "zv_skeleton"},
+            {"x": 1, "y": 2, "part": "zv_zombie_cop"},
+            {"x": 1, "y": 3, "part": "zv_skeleton"},
+            {"x": 1, "y": 3, "part": "zv_zombie"},
+            {"x": 1, "y": -1, "part": "zv_skeleton"},
+            {"x": 1, "y": -1, "part": "zv_zombie"},
+            {"x": 1, "y": -2, "part": "zv_skeleton"},
+            {"x": 1, "y": -2, "part": "zv_zombie_shrieker"},
+            {"x": 2, "y": 0, "part": "zv_skeleton"},
+            {"x": 2, "y": 0, "part": "zv_zombie"},
+            {"x": 2, "y": 1, "part": "zv_skeleton"},
+            {"x": 2, "y": 1, "part": "zv_zombie_cop"},
+            {"x": 2, "y": 2, "part": "zv_skeleton"},
+            {"x": 2, "y": 2, "part": "zv_zombie_soldier"},
+            {"x": 2, "y": -1, "part": "zv_zombie_crawler"},
+            {"x": 2, "y": -1, "part": "zv_zombie_dog"},
+            {"x": 2, "y": -2, "part": "zv_zombie_crawler"},
+            {"x": 2, "y": -3, "part": "zv_zombie_hulk"},
+            {"x": 3, "y": 0, "part": "zv_zombie_crawler"},
+            {"x": 3, "y": 0, "part": "zv_zombie_hunter"},
+            {"x": 3, "y": 1, "part": "zv_zombie_crawler"},
+            {"x": 3, "y": 1, "part": "zv_zombie_gasbag"},
+            {"x": 3, "y": 2, "part": "zv_skeleton"},
+            {"x": 3, "y": 2, "part": "zv_zombie_shrieker"},
+            {"x": 3, "y": 3, "part": "zv_skeleton"},
+            {"x": 3, "y": 3, "part": "zv_zombie_cop"},
+            {"x": 3, "y": -1, "part": "zv_skeleton"},
+            {"x": 3, "y": -1, "part": "zv_zombie_survivor"},
+            {"x": 4, "y": 0, "part": "zv_boomer"},
+            {"x": -1, "y": 0, "part": "zv_zombie_crawler"},
+            {"x": -1, "y": 0, "part": "zv_zombie_runner"},
+            {"x": -1, "y": 1, "part": "zv_zombie_grappler"},
+            {"x": -1, "y": 2, "part": "zv_skeleton"},
+            {"x": -1, "y": 2, "part": "zv_zombie_cop"},
+            {"x": -1, "y": -1, "part": "zv_zombie_grappler"},
+            {"x": -1, "y": -1, "part": "zv_zombie_predator"},
+            {"x": -1, "y": -2, "part": "zv_skeleton"},
+            {"x": -1, "y": -2, "part": "zv_zombie"},
+            {"x": -1, "y": -3, "part": "zv_skeleton"},
+            {"x": -1, "y": -3, "part": "zv_zombie_survivor"},
+            {"x": -2, "y": 0, "part": "zv_zombie_crawler"},
+            {"x": -2, "y": 0, "part": "zv_zombie_dog"},
+            {"x": -2, "y": 1, "part": "zv_skeleton"},
+            {"x": -2, "y": 1, "part": "zv_zombie"},
+            {"x": -2, "y": 2, "part": "zv_skeleton"},
+            {"x": -2, "y": 2, "part": "zv_zombie_shrieker"},
+            {"x": -2, "y": 3, "part": "zv_skeleton"},
+            {"x": -2, "y": 3, "part": "zv_zombie"},
+            {"x": -2, "y": -1, "part": "zv_skeleton"},
+            {"x": -2, "y": -1, "part": "zv_zombie_shrieker"},
+            {"x": -2, "y": -2, "part": "zv_skeleton"},
+            {"x": -2, "y": -2, "part": "zv_zombie"},
+            {"x": -3, "y": 0, "part": "zv_zombie_grabber"},
+            {"x": -3, "y": 1, "part": "zv_skeleton"},
+            {"x": -3, "y": 2, "part": "zv_skeleton"},
+            {"x": -3, "y": 2, "part": "zv_zombie"},
+            {"x": -3, "y": 3, "part": "zv_zombie_brute"},
+            {"x": -3, "y": -1, "part": "zv_zombie_crawler"},
+            {"x": -3, "y": -1, "part": "zv_zombie_tough"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "zv_JACKSON",
+        "name" : "*JACKSON*",
+        "blueprint" : [
+            ["O O"],
+            ["=*>"],
+            ["O O"]
+        ],
+        "parts" : [
+            {"x": 0, "y": 0, "part": "zv_skeleton"},
+            {"x": 0, "y": 0, "part": "zv_zombie_jackson"},
+            {"x": 0, "y": 0, "part": "tank", "fuel": "bfeedfuel"},
+
+            {"x": 0, "y": 1, "part": "zv_skeleton"},
+            {"x": 0, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": 0, "y": 2, "part": "zv_skeleton"},
+            {"x": 0, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": 0, "y": -1, "part": "zv_skeleton"},
+            {"x": 0, "y": -1, "part": "zv_zombie_dancer"},
+            {"x": 0, "y": -2, "part": "zv_skeleton"},
+            {"x": 0, "y": -2, "part": "zv_zombie_dancer"},
+            {"x": 0, "y": -3, "part": "zv_skeleton"},
+            {"x": 0, "y": -3, "part": "zv_zombie_dancer"},
+
+            {"x": 1, "y": 0, "part": "zv_skeleton"},
+            {"x": 1, "y": 0, "part": "zv_zombie_dancer"},
+            {"x": 1, "y": 1, "part": "zv_skeleton"},
+            {"x": 1, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": 1, "y": 2, "part": "zv_skeleton"},
+            {"x": 1, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": 1, "y": 3, "part": "zv_skeleton"},
+            {"x": 1, "y": 3, "part": "zv_zombie_dancer"},
+            {"x": 1, "y": -1, "part": "zv_skeleton"},
+            {"x": 1, "y": -1, "part": "zv_zombie_dancer"},
+            {"x": 1, "y": -2, "part": "zv_skeleton"},
+            {"x": 1, "y": -2, "part": "zv_zombie_dancer"},
+            {"x": 2, "y": 0, "part": "zv_skeleton"},
+            {"x": 2, "y": 0, "part": "zv_zombie_dancer"},
+            {"x": 2, "y": 1, "part": "zv_skeleton"},
+            {"x": 2, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": 2, "y": 2, "part": "zv_skeleton"},
+            {"x": 2, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": 2, "y": -1, "part": "zv_skeleton"},
+            {"x": 2, "y": -1, "part": "zv_zombie_dancer"},
+            {"x": 2, "y": -2, "part": "zv_skeleton"},
+            {"x": 2, "y": -2, "part": "zv_zombie_dancer"},
+            {"x": 2, "y": -3, "part": "zv_skeleton"},
+            {"x": 2, "y": -3, "part": "zv_zombie_dancer"},
+            {"x": 3, "y": 0, "part": "zv_skeleton"},
+            {"x": 3, "y": 0, "part": "zv_zombie_dancer"},
+            {"x": 3, "y": 1, "part": "zv_skeleton"},
+            {"x": 3, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": 3, "y": 2, "part": "zv_skeleton"},
+            {"x": 3, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": 3, "y": 3, "part": "zv_skeleton"},
+            {"x": 3, "y": 3, "part": "zv_zombie_dancer"},
+            {"x": 3, "y": -1, "part": "zv_skeleton"},
+            {"x": 3, "y": -1, "part": "zv_zombie_dancer"},
+            {"x": 3, "y": -3, "part": "zv_skeleton"},
+            {"x": 3, "y": -3, "part": "zv_zombie_dancer"},
+            {"x": -1, "y": 0, "part": "zv_skeleton"},
+            {"x": -1, "y": 0, "part": "zv_zombie_dancer"},
+            {"x": -1, "y": 1, "part": "zv_skeleton"},
+            {"x": -1, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": -1, "y": 2, "part": "zv_skeleton"},
+            {"x": -1, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": -1, "y": -1, "part": "zv_skeleton"},
+            {"x": -1, "y": -1, "part": "zv_zombie_dancer"},
+            {"x": -1, "y": -2, "part": "zv_skeleton"},
+            {"x": -1, "y": -2, "part": "zv_zombie_dancer"},
+            {"x": -1, "y": -3, "part": "zv_skeleton"},
+            {"x": -1, "y": -3, "part": "zv_zombie_dancer"},
+            {"x": -2, "y": 0, "part": "zv_skeleton"},
+            {"x": -2, "y": 0, "part": "zv_zombie_dancer"},
+            {"x": -2, "y": 1, "part": "zv_skeleton"},
+            {"x": -2, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": -2, "y": 2, "part": "zv_skeleton"},
+            {"x": -2, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": -2, "y": 3, "part": "zv_skeleton"},
+            {"x": -2, "y": 3, "part": "zv_zombie_dancer"},
+            {"x": -2, "y": -1, "part": "zv_skeleton"},
+            {"x": -2, "y": -1, "part": "zv_zombie_dancer"},
+            {"x": -2, "y": -2, "part": "zv_skeleton"},
+            {"x": -2, "y": -2, "part": "zv_zombie_dancer"},
+            {"x": -3, "y": 0, "part": "zv_skeleton"},
+            {"x": -3, "y": 0, "part": "zv_zombie_dancer"},
+            {"x": -3, "y": 1, "part": "zv_skeleton"},
+            {"x": -3, "y": 1, "part": "zv_zombie_dancer"},
+            {"x": -3, "y": 2, "part": "zv_skeleton"},
+            {"x": -3, "y": 2, "part": "zv_zombie_dancer"},
+            {"x": -3, "y": 3, "part": "zv_skeleton"},
+            {"x": -3, "y": 3, "part": "zv_zombie_dancer"},
+            {"x": -3, "y": -1, "part": "zv_skeleton"},
+            {"x": -3, "y": -1, "part": "zv_zombie_dancer"}
+        ]
+    }
+]

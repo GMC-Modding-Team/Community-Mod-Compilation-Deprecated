@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "iv_mutagen_necromancy",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "Serum",
+        "description": "It is a concentrated mutagen. It is blackish, and sticky. Syringes are necessary if you plan to use them...",
+        "color" : "light_green",
+        "flags" : "MUTAGEN_NECROMANCY"
+    },
+    {
+        "id" : "mutagen_necromancy",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "Serum",
+        "flags" : [ "MUTAGEN_NECROMANCY" ]
+    }   
+]

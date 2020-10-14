@@ -1,0 +1,1074 @@
+[
+    {
+        "id": "null",
+        "name": "null part",
+        "symbol": "?",
+        "color": "red",
+        "broken_symbol": "?",
+        "broken_color": "red",
+        "durability": 100,
+        "item": "NULL",
+        "difficulty": 0,
+        "flags": []
+    },
+    {
+        "id": "seat",
+        "name": "seat",
+        "symbol": "#",
+        "color": "red",
+        "broken_symbol": "*",
+        "broken_color": "red",
+        "damage_modifier": 60,
+        "durability": 300,
+        "size": 400,
+        "item": "seat",
+        "difficulty": 1,
+        "flags": [
+            "OVER", "SEAT", "BOARDABLE", "CARGO", "NO_REINFORCE", "ANCHOR_POINT"
+        ]
+    },
+    {
+        "id": "saddle",
+        "name": "saddle",
+        "symbol": "#",
+        "color": "red",
+        "broken_symbol": "*",
+        "broken_color": "red",
+        "damage_modifier": 20,
+        "durability": 200,
+        "item": "saddle",
+        "difficulty": 1,
+        "flags": [
+            "OVER", "SEAT", "BOARDABLE", "NO_REINFORCE"
+        ]
+    },
+    {
+        "id": "bed",
+        "name": "bed",
+        "symbol": "#",
+        "color": "magenta",
+        "broken_symbol": "*",
+        "broken_color": "magenta",
+        "damage_modifier": 60,
+        "durability": 300,
+        "size": 400,
+        "item": "seat",
+        "difficulty": 1,
+        "flags": [
+            "OVER", "BED", "BOARDABLE", "CARGO", "NO_REINFORCE"
+        ]
+    },
+    {
+        "id": "frame_horizontal",
+        "name": "frame",
+        "symbol": "h",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_vertical",
+        "name": "frame",
+        "symbol": "j",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_cross",
+        "name": "frame",
+        "symbol": "c",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_nw",
+        "name": "frame",
+        "symbol": "y",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_ne",
+        "name": "frame",
+        "symbol": "u",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_se",
+        "name": "frame",
+        "symbol": "n",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_sw",
+        "name": "frame",
+        "symbol": "b",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_horizontal_2",
+        "name": "frame",
+        "symbol": "=",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_vertical_2",
+        "name": "frame",
+        "symbol": "H",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_cover",
+        "name": "frame",
+        "symbol": "^",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "frame_handle",
+        "name": "handle",
+        "symbol": "^",
+        "color": "light_cyan",
+        "broken_symbol": "#",
+        "broken_color": "light_cyan",
+        "durability": 300,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER"
+        ]
+    },
+    {
+        "id": "board_horizontal",
+        "name": "board",
+        "symbol": "h",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "OPAQUE", "OBSTACLE"
+        ]
+    },
+    {
+        "id": "board_vertical",
+        "name": "board",
+        "symbol": "j",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "OPAQUE", "OBSTACLE"
+        ]
+    },
+    {
+        "id": "board_nw",
+        "name": "board",
+        "symbol": "y",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "OPAQUE", "OBSTACLE"
+        ]
+    },
+    {
+        "id": "board_ne",
+        "name": "board",
+        "symbol": "u",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "OPAQUE", "OBSTACLE"
+        ]
+    },
+    {
+        "id": "board_se",
+        "name": "board",
+        "symbol": "n",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "OPAQUE", "OBSTACLE"
+        ]
+    },
+    {
+        "id": "board_sw",
+        "name": "board",
+        "symbol": "b",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "OPAQUE", "OBSTACLE"
+        ]
+    },
+    {
+        "id": "aisle_horizontal",
+        "name": "aisle",
+        "symbol": "=",
+        "color": "white",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "OVER", "NO_REINFORCE", "AISLE", "BOARDABLE"
+        ]
+    },
+    {
+        "id": "aisle_vertical",
+        "name": "aisle",
+        "symbol": "H",
+        "color": "white",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "OVER", "NO_REINFORCE", "AISLE", "BOARDABLE"
+        ]
+    },
+    {
+        "id": "trunk_floor",
+        "name": "floor trunk",
+        "symbol": "=",
+        "color": "white",
+        "broken_symbol": "#",
+        "broken_color": "light_gray",
+        "durability": 400,
+        "size": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "OVER", "NO_REINFORCE", "AISLE", "BOARDABLE", "CARGO"
+        ]
+    },
+    {
+        "id": "roof",
+        "name": "roof",
+        "symbol": "#",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "dark_gray",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "ROOF"
+        ]
+    },
+    {
+        "id": "door",
+        "name": "door",
+        "symbol": "+",
+        "color": "cyan",
+        "broken_symbol": "&",
+        "broken_color": "cyan",
+        "damage_modifier": 80,
+        "durability": 200,
+        "item": "frame",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "OBSTACLE", "OPENABLE", "BOARDABLE"
+        ]
+    },
+    {
+        "id": "door_opaque",
+        "name": "opaque door",
+        "symbol": "+",
+        "color": "cyan",
+        "broken_symbol": "&",
+        "broken_color": "cyan",
+        "damage_modifier": 80,
+        "durability": 200,
+        "item": "frame",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE"
+        ]
+    },
+    {
+        "id": "door_internal",
+        "name": "internal door",
+        "symbol": "+",
+        "color": "cyan",
+        "broken_symbol": "&",
+        "broken_color": "cyan",
+        "damage_modifier": 75,
+        "durability": 75,
+        "item": "frame",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "OBSTACLE", "OPAQUE", "OPENABLE", "ROOF", "NO_REINFORCE", "BOARDABLE"
+        ]
+    },
+    {
+        "id": "windshield",
+        "name": "windshield",
+        "symbol": "\"",
+        "color": "light_cyan",
+        "broken_symbol": "0",
+        "broken_color": "light_gray",
+        "damage_modifier": 70,
+        "durability": 50,
+        "item": "glass_sheet",
+        "difficulty": 1,
+        "flags": [
+            "OVER", "OBSTACLE", "NO_REINFORCE"
+        ]
+    },
+    {
+        "id": "blade_horizontal",
+        "name": "blade",
+        "symbol": "-",
+        "color": "white",
+        "broken_symbol": "x",
+        "broken_color": "white",
+        "damage_modifier": 250,
+        "durability": 100,
+        "item": "blade",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "UNMOUNT_ON_DAMAGE", "SHARP", "NO_REINFORCE"
+        ]
+    },
+    {
+        "id": "blade_vertical",
+        "name": "blade",
+        "symbol": "|",
+        "color": "white",
+        "broken_symbol": "x",
+        "broken_color": "white",
+        "damage_modifier": 250,
+        "durability": 100,
+        "item": "blade",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "UNMOUNT_ON_DAMAGE", "SHARP", "NO_REINFORCE"
+        ]
+    },
+    {
+        "id": "spike",
+        "name": "spike",
+        "symbol": ".",
+        "color": "white",
+        "broken_symbol": "x",
+        "broken_color": "white",
+        "damage_modifier": 300,
+        "durability": 100,
+        "item": "spike",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "UNMOUNT_ON_DAMAGE", "SHARP", "NO_REINFORCE"
+        ]
+    },
+    {
+        "id": "wheel",
+        "name": "wheel",
+        "symbol": "0",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 200,
+        "wheel_width": 9,
+        "item": "wheel",
+        "difficulty": 4,
+        "flags": [
+            "EXTERNAL", "MOUNT_OVER", "WHEEL", "MOUNT_POINT", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "wheel_wide",
+        "name": "wide wheel",
+        "symbol": "O",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 400,
+        "wheel_width": 14,
+        "item": "wheel_wide",
+        "difficulty": 5,
+        "flags": [
+            "EXTERNAL", "MOUNT_OVER", "WHEEL", "MOUNT_POINT", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "wheel_underbody",
+        "name": "wide wheel (underbody)",
+        "symbol": "H",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 400,
+        "wheel_width": 14,
+        "item": "wheel_wide",
+        "difficulty": 6,
+        "flags": [
+            "EXTERNAL", "MOUNT_INNER", "WHEEL", "MOUNT_POINT", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "wheel_bicycle",
+        "name": "bicycle wheel",
+        "symbol": "|",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 40,
+        "wheel_width": 2,
+        "item": "wheel_bicycle",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_OVER", "WHEEL", "MOUNT_POINT", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "wheel_motorbike",
+        "name": "motorbike wheel",
+        "symbol": "o",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 90,
+        "wheel_width": 4,
+        "item": "wheel_motorbike",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "MOUNT_OVER", "WHEEL", "MOUNT_POINT", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "wheel_small",
+        "name": "small wheel",
+        "symbol": "o",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 70,
+        "wheel_width": 6,
+        "item": "wheel_small",
+        "difficulty": 2,
+        "flags": [
+            "EXTERNAL", "MOUNT_OVER", "WHEEL", "MOUNT_POINT", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "wheel_caster",
+        "name": "casters",
+        "symbol": "o",
+        "color": "dark_gray",
+        "broken_symbol": "x",
+        "broken_color": "light_gray",
+        "damage_modifier": 50,
+        "durability": 70,
+        "wheel_width": 6,
+        "item": "wheel_caster",
+        "difficulty": 1,
+        "flags": [
+            "EXTERNAL", "MOUNT_POINT", "MOUNT_INNER", "WHEEL", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "engine_1cyl",
+        "name": "1-cylinder engine",
+        "symbol": "*",
+        "color": "light_red",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 150,
+        "power": 40,
+        "fuel_type": "gasoline",
+        "item": "1cyl_combustion",
+        "difficulty": 2,
+        "flags": [
+            "INTERNAL", "ENGINE", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "engine_vtwin",
+        "name": "V-twin engine",
+        "symbol": "*",
+        "color": "light_red",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 200,
+        "power": 120,
+        "fuel_type": "gasoline",
+        "item": "v2_combustion",
+        "difficulty": 2,
+        "flags": [
+            "INTERNAL", "ENGINE", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "engine_inline4",
+        "name": "Inline-4 engine",
+        "symbol": "*", "color": "light_red",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 300,
+        "power": 300,
+        "fuel_type": "gasoline",
+        "item": "i4_combustion",
+        "difficulty": 3,
+        "flags": [
+            "INTERNAL", "ENGINE", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "engine_v6",
+        "name": "V6 engine",
+        "symbol": "*",
+        "color": "light_red",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 400,
+        "power": 800,
+        "fuel_type": "gasoline",
+        "item": "v6_combustion",
+        "difficulty": 4,
+        "flags": [
+            "INTERNAL", "ENGINE", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "engine_v8",
+        "name": "V8 engine",
+        "symbol": "*",
+        "color": "light_red",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 400,
+        "power": 800,
+        "fuel_type": "gasoline",
+        "item": "v8_combustion",
+        "difficulty": 4,
+        "flags": [
+            "INTERNAL", "ENGINE", "VARIABLE_SIZE"
+        ]
+    },
+    {
+        "id": "engine_electric",
+        "name": "electric motor",
+        "symbol": "*",
+        "color": "yellow",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 200,
+        "power": 70,
+        "fuel_type": "battery",
+        "item": "motor",
+        "difficulty": 3,
+        "flags": [
+            "INTERNAL", "ENGINE"
+        ]
+    },
+    {
+        "id": "engine_electric_large",
+        "name": "large electric motor",
+        "symbol": "*",
+        "color": "yellow",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 400,
+        "power": 350,
+        "fuel_type": "battery",
+        "item": "motor_large",
+        "difficulty": 4,
+        "flags": [
+            "INTERNAL", "ENGINE"
+        ]
+    },
+    {
+        "id": "engine_plasma",
+        "name": "plasma engine",
+        "symbol": "*",
+        "color": "light_blue",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 250,
+        "power": 400,
+        "fuel_type": "plasma",
+        "item": "plasma_engine",
+        "difficulty": 6,
+        "flags": [
+            "INTERNAL", "ENGINE"
+        ]
+    },
+    {
+        "id": "foot_pedals",
+        "name": "Foot pedals",
+        "symbol": "*",
+        "color": "light_gray",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 50,
+        "durability": 50,
+        "power": 70,
+        "fuel_type": "muscle",
+        "item": "foot_crank",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "ENGINE"
+        ]
+    },
+    {
+        "id": "gas_tank",
+        "name": "gasoline tank",
+        "symbol": "O",
+        "color": "light_red",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 150,
+        "size": 3000,
+        "fuel_type": "gasoline",
+        "item": "metal_tank",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "FUEL_TANK"
+        ]
+    },
+    {
+        "id": "storage_battery",
+        "name": "storage battery",
+        "symbol": "O",
+        "color": "yellow",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 300,
+        "size": 100000,
+        "fuel_type": "battery",
+        "item": "storage_battery",
+        "difficulty": 2,
+        "flags": [
+            "INTERNAL", "FUEL_TANK"
+        ]
+    },
+    {
+        "id": "minireactor",
+        "name": "minireactor",
+        "symbol": "O",
+        "color": "light_green",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 700,
+        "size": 10000,
+        "fuel_type": "plutonium",
+        "item": "minireactor",
+        "difficulty": 7,
+        "flags": [
+            "INTERNAL", "FUEL_TANK"
+        ]
+    },
+    {
+        "id": "hydrogen_tank",
+        "name": "hydrogen tank",
+        "symbol": "O",
+        "color": "light_blue",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 150,
+        "size": 3000,
+        "fuel_type": "plasma",
+        "item": "metal_tank",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "FUEL_TANK"
+        ]
+    },
+    {
+        "id": "water_tank",
+        "name": "water tank",
+        "symbol": "O",
+        "color": "light_cyan",
+        "broken_symbol": "#",
+        "broken_color": "red",
+        "damage_modifier": 80,
+        "durability": 150,
+        "size": 400,
+        "fuel_type": "water",
+        "item": "metal_tank",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "FUEL_TANK"
+        ]
+    },
+    {
+        "id": "trunk",
+        "name": "trunk",
+        "symbol": "H",
+        "color": "brown",
+        "broken_symbol": "#",
+        "broken_color": "brown",
+        "damage_modifier": 80,
+        "durability": 300,
+        "size": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "OVER", "CARGO"
+        ]
+    },
+    {
+        "id": "box",
+        "name": "box",
+        "symbol": "o",
+        "color": "brown",
+        "broken_symbol": "#",
+        "broken_color": "brown",
+        "damage_modifier": 60,
+        "durability": 100,
+        "size": 400,
+        "item": "frame",
+        "difficulty": 1,
+        "flags": [
+            "OVER", "CARGO", "BOARDABLE"
+        ]
+    },
+    {
+        "id": "controls",
+        "name": "controls",
+        "symbol": "$",
+        "color": "light_gray",
+        "broken_symbol": "$",
+        "broken_color": "red",
+        "damage_modifier": 10,
+        "durability": 250,
+        "item": "vehicle_controls",
+        "difficulty": 3,
+        "flags": [
+            "INTERNAL", "CONTROLS"
+        ]
+    },
+    {
+        "id": "muffler",
+        "name": "muffler",
+        "symbol": "/",
+        "color": "light_gray",
+        "broken_symbol": "/",
+        "broken_color": "light_gray",
+        "damage_modifier": 10,
+        "durability": 150,
+        "bonus": 40,
+        "item": "muffler",
+        "difficulty": 2,
+        "flags": [
+            "INTERNAL", "MUFFLER"
+        ]
+    },
+    {
+        "id": "seatbelt",
+        "name": "seatbelt",
+        "symbol": ",",
+        "color": "light_gray",
+        "broken_symbol": ",",
+        "broken_color": "red",
+        "damage_modifier": 10,
+        "durability": 200,
+        "bonus": 25,
+        "item": "rope_6",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "SEATBELT"
+        ]
+    },
+    {
+        "id": "solar_panel",
+        "name": "solar panel",
+        "symbol": "#",
+        "color": "yellow",
+        "broken_symbol": "x",
+        "broken_color": "yellow",
+        "damage_modifier": 10,
+        "durability": 20,
+        "power": 30,
+        "item": "solar_panel",
+        "difficulty": 6,
+        "flags": [
+            "OVER", "SOLAR_PANEL"
+        ]
+    },
+    {
+        "id": "kitchen_unit",
+        "name": "kitchen unit",
+        "symbol": "&",
+        "color": "light_cyan",
+        "broken_symbol": "x",
+        "broken_color": "light_cyan",
+        "damage_modifier": 10,
+        "durability": 20,
+        "size": 400,
+        "item": "kitchen_unit",
+        "difficulty": 4,
+        "flags": [
+            "OVER", "CARGO", "NO_REINFORCE", "OBSTACLE", "KITCHEN"
+        ]
+    },
+    {
+        "id": "welding_rig",
+        "name": "welding rig",
+        "symbol": "&",
+        "color": "light_red",
+        "broken_symbol": "x",
+        "broken_color": "light_red",
+        "damage_modifier": 10,
+        "durability": 20,
+        "size": 400,
+        "item": "weldrig",
+        "difficulty": 4,
+        "flags": [
+            "OVER", "CARGO", "NO_REINFORCE", "OBSTACLE", "WELDRIG"
+        ]
+    },
+    {
+        "id": "m249",
+        "name": "mounted M249",
+        "symbol": "t",
+        "color": "cyan",
+        "broken_symbol": "#",
+        "broken_color": "cyan",
+        "damage_modifier": 80,
+        "durability": 400,
+        "fuel_type": "223",
+        "item": "m249",
+        "difficulty": 6,
+        "flags": [
+            "OVER", "TURRET", "CARGO"
+        ]
+    },
+    {
+        "id": "flamethrower",
+        "name": "mounted flamethrower",
+        "symbol": "t",
+        "color": "dark_gray",
+        "broken_symbol": "#",
+        "broken_color": "dark_gray",
+        "damage_modifier": 80,
+        "durability": 400,
+        "fuel_type": "gasoline",
+        "item": "flamethrower",
+        "difficulty": 7,
+        "flags": [
+            "OVER", "TURRET"
+        ]
+    },
+    {
+        "id": "plasma_gun",
+        "name": "mounted plasma gun",
+        "symbol": "t",
+        "color": "light_blue",
+        "broken_symbol": "#",
+        "broken_color": "light_blue",
+        "damage_modifier": 80,
+        "durability": 400,
+        "fuel_type": "plasma",
+        "item": "plasma_rifle",
+        "difficulty": 7,
+        "flags": [
+            "OVER", "TURRET"
+        ]
+    },
+    {
+        "id": "fusion_gun",
+        "name": "mounted fusion gun",
+        "symbol": "t",
+        "color": "magenta",
+        "broken_symbol": "#",
+        "broken_color": "magenta",
+        "damage_modifier": 80,
+        "durability": 400,
+        "fuel_type": "battery",
+        "item": "ftk93",
+        "difficulty": 7,
+        "flags": [
+            "OVER", "TURRET"
+        ]
+    },
+    {
+        "id": "plating_steel",
+        "name": "steel plating",
+        "symbol": ")",
+        "color": "light_cyan",
+        "broken_symbol": ")",
+        "broken_color": "light_cyan",
+        "durability": 1000,
+        "item": "steel_plate",
+        "difficulty": 3,
+        "flags": [
+            "INTERNAL", "ARMOR"
+        ]
+    },
+    {
+        "id": "plating_superalloy",
+        "name": "superalloy plating",
+        "symbol": ")",
+        "color": "dark_gray",
+        "broken_symbol": ")",
+        "broken_color": "dark_gray",
+        "durability": 900,
+        "item": "alloy_plate",
+        "difficulty": 4,
+        "flags": [
+            "INTERNAL", "ARMOR"
+        ]
+    },
+    {
+        "id": "plating_spiked",
+        "name": "spiked plating",
+        "symbol": ")",
+        "color": "red",
+        "broken_symbol": ")",
+        "broken_color": "red",
+        "damage_modifier": 150,
+        "durability": 900,
+        "item": "spiked_plate",
+        "difficulty": 3,
+        "flags": [
+            "INTERNAL", "ARMOR", "SHARP"
+        ]
+    },
+    {
+        "id": "plating_hard",
+        "name": "hard plating",
+        "symbol": ")",
+        "color": "cyan",
+        "broken_symbol": ")",
+        "broken_color": "cyan",
+        "durability": 2300,
+        "item": "hard_plate",
+        "difficulty": 4,
+        "flags": [
+            "INTERNAL", "ARMOR"
+        ]
+    },
+    {
+        "id": "headlight",
+        "name": "head light",
+        "symbol": "*",
+        "color": "white",
+        "broken_symbol": "*",
+        "broken_color": "white",
+        "damage_modifier": 10,
+        "durability": 20,
+        "par1": 480,
+        "item": "flashlight",
+        "difficulty": 1,
+        "flags": [
+            "INTERNAL", "LIGHT"
+        ]
+    }
+]

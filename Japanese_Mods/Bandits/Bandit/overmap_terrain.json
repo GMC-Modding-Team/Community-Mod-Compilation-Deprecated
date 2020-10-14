@@ -1,0 +1,279 @@
+[
+    {
+        "type" : "overmap_terrain",
+        "id" : "bandit_field_bm",
+        "name" : "field",
+        "sym" : 46,
+        "color" : "brown",
+        "see_cost" : 2,
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 80 }
+    },{
+        "type" : "overmap_terrain",
+        "id" : "hunter_tent_bm",
+        "name" : "forest",
+        "sym" : 70,
+        "color" : "green",
+        "see_cost" : 5,
+        "extras" : "field",
+        "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 80 }
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_cabin_bm",
+        "name" : "forest",
+        "sym" : 70,
+        "color" : "green",
+        "see_cost" : 5,
+        "extras" : "field"
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_1",
+        "name" : "road",
+        "sym" : 4194412,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_2",
+        "name" : "road",
+        "sym" : 4194417,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_3",
+        "name" : "road",
+        "sym" : 4194417,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_4",
+        "name" : "road",
+        "sym" : 4194417,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_5",
+        "name" : "road",
+        "sym" : 4194411,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_6",
+        "name" : "road",
+        "sym" : 4194424,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_7",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_8",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_9",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_10",
+        "name" : "road",
+        "sym" : 4194424,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_11",
+        "name" : "road",
+        "sym" : 4194424,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_12",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_13",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_14",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_15",
+        "name" : "road",
+        "sym" : 4194424,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_16",
+        "name" : "road",
+        "sym" : 4194424,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_17",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_18",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_19",
+        "name" : "refugee center",
+        "sym" : 4194414,
+        "color" : "white",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_20",
+        "name" : "road",
+        "sym" : 4194424,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_21",
+        "name" : "road",
+        "sym" : 4194413,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_22",
+        "name" : "road",
+        "sym" : 4194417,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_23",
+        "name" : "road",
+        "sym" : 4194423,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_24",
+        "name" : "road",
+        "sym" : 4194417,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "rotate" : true,
+        "see_cost" : 5,
+        "mondensity" : 2
+    },{
+        "type" : "overmap_terrain",
+        "id" : "bandit_center_25",
+        "name" : "road",
+        "rotate" : true,
+        "sym" : 4194410,
+        "color" : "dark_gray",
+        "extras" : "build",
+        "see_cost" : 5,
+        "mondensity" : 2
+    }
+]
+

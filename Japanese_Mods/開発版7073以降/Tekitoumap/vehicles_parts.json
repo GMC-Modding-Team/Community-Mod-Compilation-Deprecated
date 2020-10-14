@@ -1,0 +1,74 @@
+[
+    {
+        "type":"GENERIC",
+        "id" : "superalloy_frame_tm",
+        "name" : "超合金フレーム",
+        "description" : "超合金で作られた自転車用軽量フレームです。",
+        "weight" : 2400,
+        "to_hit" : -3,
+        "color" : "light_gray",
+        "symbol" : "]",
+        "material" : ["steel"],
+        "techniques" : ["DEF_DISARM"],
+        "volume" : 40,
+        "bashing" : 15,
+        "category" : "veh_parts",
+        "price" : 40000
+    },
+    {
+        "type" : "vehicle_part",
+        "id" : "superalloy_frame_tm",
+        "name" : "超合金フレーム",
+        "symbol" : "j",
+        "color" : "light_gray",
+        "broken_symbol" : "#",
+        "broken_color" : "light_gray",
+        "durability" : 250,
+        "item" : "superalloy_frame_tm",
+        "difficulty" : 4,
+        "location" : "structure",
+        "folded_volume": 10,
+        "flags" : ["MOUNTABLE","FOLDABLE"],
+        "breaks_into" : [
+            {"item": "steel_chunk", "count": [0, 2]},
+            {"item": "scrap", "count": [1, 2]}
+         ]
+    },{
+        "type": "ENGINE",
+        "id" : "foot_crank_tm",
+        "name" : "クランク(競技用)",
+        "description" : "多段変速機付きの競技用ペダルです。",
+        "weight" : 1016,
+        "to_hit" : -2,
+        "color" : "light_gray",
+        "symbol" : ":",
+        "material" : ["steel"],
+        "volume" : 2,
+        "bashing" : 8,
+        "cutting" : 2,
+        "category" : "veh_parts",
+        "price" : 15000,
+		"power": 350,
+		"flags": [ "MANUAL_ENGINE" ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "foot_pedals_tm",
+        "name" : "競技用ペダル",
+        "symbol" : "*",
+        "color" : "light_gray",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 35,
+        "durability" : 50,
+        "power" : 70,
+        "fuel_type" : "muscle",
+        "item" : "foot_crank_tm",
+        "difficulty" : 3,
+        "location" : "engine_block",
+        "flags" : ["ENGINE","CONTROLS", "TOOL_WRENCH" ],
+        "breaks_into" : [
+            {"item": "steel_chunk", "count": [1, 2]},
+            {"item": "scrap", "count": [0, 2]}
+        ]
+    }
+]

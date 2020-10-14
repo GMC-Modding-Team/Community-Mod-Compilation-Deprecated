@@ -1,0 +1,200 @@
+[
+    {
+        "type" : "construction",
+        "description" : "強化ガラスドアを設置する",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 8 ] ],
+        "time" : 150,
+        "qualities": [
+            [
+            { "id": "HAMMER", "level": 2 }
+            ],
+            [
+            { "id": "SAW_M", "level": 1 }
+            ]
+            ],
+        "components" : [
+            [["reinforced_glass_sheet", 1]]
+        ],
+        "pre_terrain" : "t_m_frame",
+        "post_terrain" : "t_reinforced_door_glass_c"
+    },
+    {
+        "type" : "construction",
+        "description" : "歩道を設置する",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 3 ] ],
+        "time" : 60,
+        "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+        "components" : [
+            [[ "rock", 10 ]]
+        ],
+        "pre_flags" : "DIGGABLE",
+        "post_terrain" : "t_sidewalk"
+    },{
+        "type" : "construction",
+        "description" : "床(岩石)を設置する",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 4 ] ],
+        "time" : 120,
+        "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ] ],
+        "components" : [
+            [[ "stick", 4 ], [ "2x4", 8 ]],
+            [[ "rock", 12 ]]
+        ],
+        "pre_note" : "Must be supported on at least two sides.",
+        "pre_special" : "check_support",
+        "post_terrain" : "t_rock_floor"
+    },{
+        "type" : "construction",
+        "description" : "床(岩石)を設置する",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 6 ] ],
+        "time" : 120,
+        "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ] ],
+        "components" : [
+            [[ "rock", 24 ]]
+        ],
+        "pre_note" : "Must be supported on at least two sides.",
+        "pre_special" : "check_support",
+        "post_terrain" : "t_rock_floor"
+    },{
+        "type" : "construction",
+        "description" : "足場を設置する",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 4 ] ],
+        "time" : 60,
+        "qualities": [ [ { "id": "HAMMER", "level": 2 }],[{ "id": "SAW_W", "level": 2 } ] ],
+        "components" : [
+            [ [ "2x4", 4 ] ],
+            [ [ "nail", 20 ] ]
+        ],
+        "pre_note" : "抉れた地形に足場を掛けることができます",
+        "pre_flags" : "NO_FLOOR",
+        "post_terrain" : "t_flat_roof"
+    },{
+        "type" : "construction",
+        "description" : "足場を設置する",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 4 ] ],
+        "time" : 60,
+        "qualities": [ [ { "id": "HAMMER", "level": 2 }],[{ "id": "SAW_W", "level": 2 } ] ],
+        "components" : [
+            [ [ "2x4", 4 ] ],
+            [ [ "nail", 20 ] ]
+        ],
+        "pre_terrain" : "t_hole",
+        "post_terrain" : "t_flat_roof"
+    },{
+        "type" : "construction",
+        "description" : "梯子を掛ける",
+        "category" : "CONSTRUCT",
+        "required_skills" : [ [ "fabrication", 5 ] ],
+        "time" : 180,
+        "qualities":  [[ { "id": "HAMMER", "level": 2 }],[{ "id": "SAW_W", "level": 2 }],[{ "id": "CHISEL", "level": 3 } ] ],
+        "components" : [
+            [ [ "2x4", 12 ] ],
+            [ [ "nail", 60 ] ]
+        ],
+        "pre_special" : "check_empty",
+        "post_terrain" : "f_ladder"
+    },{
+        "type" : "construction",
+        "description" : "地面に大穴を空ける",
+        "category" : "DIG",
+        "required_skills" : [ [ "survival", 5 ] ],
+        "time" : 210,
+        "qualities": [ [ { "id": "HAMMER", "level": 2 } ],
+                       [ { "id": "DIG", "level": 2 } ]
+                       ],
+        "tools" : [
+            [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ],
+            [ [ "stepladder", -1 ], [ "rope_30", -1 ], [ "rope_makeshift_30", -1 ], [ "grapnel", -1 ] ]
+        ],
+        "pre_note" : "地上2階以上の場所で出現した土地形を取り除きたい場合にお使いください。　1階で使っても基本的に無意味です。",
+        "pre_flags" : "DIGGABLE",
+        "post_terrain" : "t_open_air"
+    },{
+        "type" : "construction",
+        "description" : "堀を作る(浅)",
+        "category" : "DIG",
+        "difficulty" : 3,
+        "time" : 50,
+        "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+        "components" : [
+            [ [ "mortar_build", 1 ],[ "tarp", 1 ],[ "clay_lump", 3 ],[ "slime_scrap", 3 ] ],
+            [ [ "rock", 12 ] ],
+            [ [ "water", 2000 ], [ "water_clean", 2000] ]
+        ],
+        "pre_terrain" : "t_pit_shallow",
+        "post_terrain" : "t_water_sh"
+    },{
+        "type" : "construction",
+        "description" : "堀を作る(深)",
+        "category" : "DIG",
+        "difficulty" : 3,
+        "time" : 100,
+        "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+        "components" : [
+            [ [ "mortar_build", 1 ],[ "tarp", 1 ],[ "clay_lump", 6 ],[ "slime_scrap", 6 ] ],
+            [ [ "rock", 24 ] ],
+            [ [ "water", 4000 ], [ "water_clean", 4000] ]
+        ],
+        "pre_terrain" : "t_pit",
+        "post_terrain" : "t_water_dp"
+    },{
+        "type" : "construction",
+        "description" : "堀を埋める",
+        "category" : "DIG",
+        "difficulty" : 0,
+        "time" : 75,
+        "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+        "pre_terrain" : "t_water_dp",
+        "post_terrain" : "t_water_sh"
+    },{
+        "type" : "construction",
+        "description" : "堀を埋める",
+        "category" : "DIG",
+        "difficulty" : 0,
+        "time" : 75,
+        "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+        "pre_terrain" : "t_water_sh",
+        "post_terrain" : "t_dirt"
+    },{
+        "type" : "construction",
+        "description" : "床を剥がす",
+        "category" : "CONSTRUCT",
+        "difficulty" : 3,
+        "time" : 50,
+        "qualities": [
+                       [ { "id": "HAMMER", "level": 2 } ],
+                       [ { "id": "SAW_W", "level": 2 } ],
+                       [ { "id": "DIG", "level": 2 } ],
+                       [ { "id": "PRY", "level": 2 } ]
+                       ],
+        "pre_terrain" : "t_floor",
+        "post_terrain" : "t_dirtfloor"
+    },{
+        "type" : "construction",
+        "description" : "天井に穴をあける",
+        "category" : "CONSTRUCT",
+        "difficulty" : 5,
+        "time" : 100,
+        "qualities": [
+                       [ { "id": "HAMMER", "level": 2 } ],
+                       [ { "id": "SAW_W", "level": 2 } ],
+                       [ { "id": "PRY", "level": 2 } ]
+                       ],
+        "tools" : [
+            [ "miner_hat", "hat_hard", "firehelmet", "helmet_ball",
+            "helmet_army", "helmet_lobster", "helmet_riot", "tac_helmet",
+            "helmet_hsurvivor", "helmet_survivor", "helmet_xlsurvivor", "miner_hat_on"]
+        ],
+        "components" : [
+            [ [ "2x4", 4 ] ],
+            [ [ "nail", 16 ] ]
+        ],
+        "pre_terrain" : "t_dirtfloor",
+        "post_terrain" : "t_dirt"
+    }
+]

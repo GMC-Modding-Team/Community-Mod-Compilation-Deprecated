@@ -1,0 +1,35 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "kawaii_sm_stick1",
+    "symbol": "/",
+    "color": "brown",
+    "name": "重棒(リボン付き-赤)[SM]",
+    "description": "お気に入りの重棒にはリボンを付けて間違って素材にしない様にしておきましょう。",
+    "material": "wood",
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "TRADER_AVOID", "FIREWOOD" ],
+    "weight": 1700,
+    "volume": 5,
+    "bashing": 14,
+    "to_hit": -2
+  },
+  {
+   "type" : "recipe",
+   "result": "kawaii_sm_stick1",
+   "category": "CC_WEAPON",
+   "subcategory": "CSC_WEAPON_BASHING",
+   "skill_used": "fabrication",
+   "difficulty": 0,
+   "time": 5000,
+   "autolearn": true,
+   "components": [
+     [
+       [ "stick" , 1 ]
+     ],
+     [
+       [ "rag" , 2 ]
+     ]
+   ]
+  }
+]

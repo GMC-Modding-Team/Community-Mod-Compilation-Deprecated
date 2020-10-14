@@ -1,0 +1,83 @@
+[
+    {
+        "comment": "burned automated gas station",
+        "type": "mapgen",
+        "om_terrain": [
+            "s_gas"
+        ],
+        "method": "json",
+        "weight": 700,
+        "object": {
+            "rows": [
+                "........................",
+                "........................",
+                "........................",
+                ".-----..................",
+                ".|FFF|..........sss.....",
+                ".|FQF|...........&s.....",
+                ".|FFF|...........1s.....",
+                ".|...|P..........2s.....",
+                ".--+--..........sss.....",
+                "........................",
+                "...s9s...........s9s....",
+                "........................",
+                "....5.............5.....",
+                "........................",
+                "........................",
+                "........................",
+                "....5.............5.....",
+                "........................",
+                "........................",
+                "........................",
+                "....5.............5.....",
+                "........................",
+                "...s9s...........s9s....",
+                "........................"
+            ],
+            "terrain": {
+                ".": "t_pavement",
+
+                "Q": "t_pavement",
+                "F": "t_pavement",
+
+                "P": "t_pavement",
+
+                "-": "t_chainfence_h",
+                "|": "t_chainfence_v",
+                "+": "t_chaingate_l",
+
+                "&": "t_atm",
+                "1": "t_pavement",
+                "2": "t_pavement",
+
+                "5": "t_gas_pump",
+                "s": "t_little_column",
+
+
+                "9": "t_pavement"
+
+            },
+            "fields" : {
+                "Q": [{ "field": "fd_flame_burst" },{ "field": "fd_fire_vent" }],
+                "F": { "field": "fd_flame_burst" },
+                "5": { "field": "fd_fire" }
+            },
+            "furniture": {
+                "9": "f_aut_gas_console"
+            },
+            "vendingmachines" : {
+                "1": { "item_group": "vending_drink" },
+                "2": { "item_group": "vending_food" }
+            },
+            "signs": {
+                "P": { "signage": "Danger! Do not smoke! Risk of explosion!" }
+            },
+            "place_liquids": [
+                { "liquid": "gasoline", "x": 3, "y": 5, "repeat": [200, 1075] }
+            ],
+            "place_terrain": [
+                { "ter": "t_gas_tank", "x": 3, "y": 5}
+            ]
+        }
+    }
+]

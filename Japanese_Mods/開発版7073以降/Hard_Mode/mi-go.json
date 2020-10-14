@@ -1,0 +1,30 @@
+[
+  {
+	    "id": "laser_cannon_mi-go",
+	    "name": "電気銃",
+		"type":"GUN",
+		"color":"yellow",
+		"symbol":"(",
+		"description":" ",
+        "price":749000,
+        "material":["steel","wood"],
+        "weight":4964,
+        "volume":17,
+        "bashing":8,
+        "to_hit":-1,    
+		"ammo_effects": ["LASER"],
+        "flags":["NO_AMMO","NO_UNLOAD"],
+        "skill":"rifle",
+        "ranged_damage":10,
+        "pierce": 100,
+        "range":24,
+        "dispersion":90,
+        "sight_dispersion": 150,
+		"aim_speed" : 0,
+        "recoil":200,
+        "durability":8,
+		"reload":200
+  }
+]
+
+

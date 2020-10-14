@@ -1,0 +1,25 @@
+mshockxotto+ patch7 + jpmods(6600) 0.1にのみ対応しています
+(私が)管理しやすいようぴったり2000枠確保しています
+
+
+1. 当MOD群内にある"タイル用"フォルダを開きます
+
+2. cataclysm本体フォルダのgfxフォルダにある"mshockxotto+ patch7 + jpmods(6600) 0.1"フォルダ内に"tiles_bn.png"を移動
+
+3. "mshockxotto"内のtile_configを開いて"タイル用"フォルダ内のtile_config追記用ファイルを
+
+    {
+    "file": "tiles_jpmods.png",
+    "tiles":
+    [
+
+・・・
+
+    { "id": "XXX", "fg": 0, "rotates": false }
+    
+    ]
+    },
+
+の下にコピペ
+
+他MOD用のもありますので必要に応じてtile_configに追記してください

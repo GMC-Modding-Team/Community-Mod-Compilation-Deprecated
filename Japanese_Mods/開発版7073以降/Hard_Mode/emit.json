@@ -1,0 +1,48 @@
+[
+    {
+    "id": "emit_blood_hm",
+    "type": "emit",
+    "//": "crawler",
+    "field": "fd_blood"
+  },{
+    "id": "emit_fire_hm",
+    "type": "emit",
+    "//": "fireman",
+    "field": "fd_fire",
+    "chance": 1
+  },{
+    "id": "emit_nuke_hm",
+    "type": "emit",
+    "//": "haz",
+    "field": "fd_nuke_gas",
+    "chance": 1
+  },{
+    "id": "emit_nuke2_hm",
+    "type": "emit",
+    "//": "irradiated,charred,chud",
+    "field": "fd_nuke_gas",
+    "qty": 2,
+    "chance": 1
+  },{
+    "id": "emit_hot_hm",
+    "type": "emit",
+    "//": "scorched",
+    "field": "fd_hot_air4",
+    "density": 3,
+    "qty": 3
+  },{
+    "id": "emit_bee_hm",
+    "type": "emit",
+    "//": "beekeeper tuyosugimonndai",
+    "field": "fd_bees",
+    "chance": 1
+  },{
+    "id": "emit_electro_hm",
+    "type": "emit",
+    "//": "shockbrute",
+    "field": "fd_electricity",
+    "qty": 2,
+    "density": 2,
+    "chance": 15
+  }
+]

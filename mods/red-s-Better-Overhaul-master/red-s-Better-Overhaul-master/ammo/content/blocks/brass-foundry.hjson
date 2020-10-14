@@ -1,0 +1,22 @@
+type: GenericSmelter
+name: Brass Foundry
+description: Uses copper and zinc to create brass, which is then turned into bullet casing.
+health: 150
+size: 2
+requirements: [
+  copper/15
+  lead/10
+]
+consumes: {
+  items: {
+  items: [
+  copper/2
+  zinc/3
+  ]
+  }
+}
+outputItem: brass/1
+craftTime: 15
+alwaysUnlocked: true
+category: crafting
+research: tech-start

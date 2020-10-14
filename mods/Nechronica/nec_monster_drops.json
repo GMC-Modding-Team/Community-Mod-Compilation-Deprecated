@@ -1,0 +1,24 @@
+[
+    {
+        "type" : "item_group",
+        "subtype": "collection",
+        "id": "default_ZQ_death_drops",
+        "entries":
+        [
+            { "item": "dress_shoes","damage": [1, 2], "prob": 100},
+            { "item": "nec_gothic_headdress","damage": [1, 2], "prob": 100},
+            { "item": "nec_gothic_dress","damage": [1, 2], "prob": 100},
+            { "item": "nec_ribbon","damage": [1, 2], "prob": 100}
+        ]
+    },
+    {
+        "type" : "item_group",
+        "subtype": "collection",
+        "id": "default_ZQrare_death_drops",
+        "entries":
+        [
+            {"item": "iv_mutagen_necromancy","count": 1, "prob": 50},
+            {"item": "mutagen_necromancy","count": [1,2], "prob": 80}
+        ]
+    }
+]

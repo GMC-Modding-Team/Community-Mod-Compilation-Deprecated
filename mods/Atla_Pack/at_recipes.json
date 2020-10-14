@@ -1,0 +1,260 @@
+[
+  {
+        "type" : "recipe",
+  "result": "shakelight",
+  "category": "CC_ELECTRONIC",
+  "subcategory": "CSC_ELECTRONIC_LIGHTING",
+  "difficulty": 0,
+  "time": 500,
+  "reversible": false,
+  "decomp_learn": 0,
+  "autolearn": true,
+  "components": [
+    [
+      [ "shakelight", 1 ],
+      [ "shakelight_on", 1 ]
+    ]
+  ]
+  },
+  {
+          "type" : "recipe",
+  "result": "reloaded_40mm_frag",
+  "category": "CC_AMMO",
+  "subcategory": "CSC_AMMO_BULLETS",
+  "skill_used": "fabrication",
+  "difficulty": 7,
+  "time": 17000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "manual_launcher", 8 ]],
+  "qualities" : [
+    {"id":"SCREW","level":1,"amount":1}
+  ], "components": [
+    [
+      [ "40mm_casing", 4 ]
+    ],
+    [
+      [ "shotgun_primer", 4 ]
+    ],
+    [
+      [ "gunpowder", 160 ]
+    ],
+    [
+      [ "grenade", 4 ]
+    ]
+  ]
+  },
+  {
+          "type" : "recipe",
+  "result": "reloaded_40mm_incendiary",
+  "category": "CC_AMMO",
+  "subcategory": "CSC_AMMO_BULLETS",
+  "skill_used": "fabrication",
+  "difficulty": 8,
+  "time": 22000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "manual_launcher", 9 ]],
+  "qualities" : [
+    {"id":"SCREW","level":1,"amount":1}
+  ], "components": [
+    [
+      [ "40mm_casing", 4 ]
+    ],
+    [
+      [ "shotgun_primer", 4 ]
+    ],
+    [
+      [ "gunpowder", 160 ]
+    ],
+    [
+      [ "gasoline", 2400 ]
+    ],
+    [
+      [ "incendiary", 80 ]
+    ]
+  ]
+  },
+  {
+          "type" : "recipe",
+  "result": "reloaded_40mm_teargas",
+  "category": "CC_AMMO",
+  "subcategory": "CSC_AMMO_BULLETS",
+  "skill_used": "fabrication",
+  "difficulty": 6,
+  "time": 12000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "manual_launcher", 7 ]],
+  "qualities" : [
+    {"id":"SCREW","level":1,"amount":1}
+  ], "components": [
+    [
+      [ "40mm_casing", 4 ]
+    ],
+    [
+      [ "shotgun_primer", 4 ]
+    ],
+    [
+      [ "gunpowder", 160 ]
+    ],
+    [
+      [ "gasbomb", 4]
+    ]
+  ]
+  },
+  {
+          "type" : "recipe",
+  "result": "reloaded_40mm_smoke",
+  "category": "CC_AMMO",
+  "subcategory": "CSC_AMMO_BULLETS",
+  "skill_used": "fabrication",
+  "difficulty": 6,
+  "time": 12000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "manual_launcher", 7 ]],
+  "qualities" : [
+    {"id":"SCREW","level":1,"amount":1}
+  ], "components": [
+    [
+      [ "40mm_casing", 4 ]
+    ],
+    [
+      [ "shotgun_primer", 4 ]
+    ],
+    [
+      [ "gunpowder", 160 ]
+    ],
+    [
+      [ "smokebomb", 4 ]
+    ]
+  ]
+  },
+  {
+        "type" : "recipe",
+  "result": "pressure_bomb",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_EXPLOSIVE",
+  "skill_used": "fabrication",
+  "skills_required": [ "mechanics", 5 ],
+  "difficulty": 6,
+  "time": 20000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "textbook_anarch", 6 ]],
+  "qualities":[
+    {"id":"SAW_M","level":1,"amount":1}
+  ], "tools": [
+    [
+      [ "goggles_welding", -1 ]
+    ],
+    [
+      [ "welder", 50 ],
+      [ "welder_crude", 75 ],
+      [ "toolset", 3 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "pot", 2 ]
+    ],
+    [
+      [ "grenade", 3 ]
+    ],
+    [
+      [ "string_36", 1 ]
+    ],
+    [
+      [ "scrap", 2 ]
+    ]
+  ]
+  },
+
+  {
+        "type" : "recipe",
+  "result": "electrolytic_cell",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "electronics",
+  "skills_required": [ "fabrication", 4 ],
+  "difficulty": 6,
+  "time": 40000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_hydrogen", 11 ]],
+  "qualities":[
+    {"id":"SCREW","level":1,"amount":1}
+  ], "tools": [
+    [
+      [ "soldering_iron", 30 ],
+      [ "toolset", 2 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "jug_plastic", 1 ],
+      [ "bottle_glass", 5 ]
+    ],
+    [
+      [ "power_supply", 6 ]
+    ],
+    [
+      [ "amplifier", 2 ]
+    ],
+    [
+      [ "scrap", 4 ]
+    ],
+    [
+      [ "cable", 10 ]
+    ],
+    [
+      [ "lye_powder", 400 ]
+    ],
+    [
+      [ "water_clean", 10 ]
+    ]
+  ]
+  },
+
+  {
+        "type" : "recipe",
+  "result": "plasma",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "cooking",
+  "difficulty": 5,
+  "time": 15000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_hydrogen", 6 ]],
+  "tools": [
+    [
+      [ "electrolytic_cell", 300 ]
+    ],
+    [
+      [ "vac_sealer", 20 ]
+    ],
+    [
+      [ "soldering_iron", 10 ],
+      [ "toolset", 1 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "canister_empty", 1 ],
+      [ "can_drink", 1 ],
+      [ "can_food", 1 ]
+    ],
+    [
+      [ "scrap", 1 ]
+    ],
+    [
+      [ "superglue", 1 ]
+    ],
+    [
+      [ "water_clean", 5 ]
+    ]
+  ]
+  }
+]

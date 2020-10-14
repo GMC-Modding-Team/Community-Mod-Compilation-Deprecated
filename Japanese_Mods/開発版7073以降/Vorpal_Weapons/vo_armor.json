@@ -1,0 +1,139 @@
+[
+  {
+    "id": "armguard_superalloy_vo",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "アームガード(超合金)",
+    "description": "超合金を加工し、叩き上げたアームガードです。世紀末の戦士が身に付けるには最適な装備ですよ。",
+    "weight": 780,
+    "volume": 11,
+    "price": 300000,
+    "to_hit": 1,
+    "material": [ "superalloy", "steel" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "ARMS" ],
+    "coverage": 80,
+    "encumbrance": 10,
+    "material_thickness": 3,
+    "environmental_protection": 1,
+    "flags": [ "BELTED", "BLOCK_WHILE_WORN", "STURDY" ]
+  },
+  {
+    "id": "quiver_leg_vo",
+    "type": "ARMOR",
+    "name": "矢筒(脚)",
+    "description": "腰から吊るす小型の矢筒です。垂れ下がった矢筒は片脚に干渉します。10本入れることができます。",
+    "weight": 150,
+    "volume": 2,
+    "price": 6500,
+    "bashing": 2,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "LEG_EITHER" ],
+    "coverage": 5,
+    "encumbrance": 7,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 10,
+      "ammo": [ "arrow", "bolt" ],
+      "draw_cost": 10
+    },
+    "flags": [ "WAIST", "VARSIZE", "OVERSIZE" ]
+  },
+  {
+    "id": "pouch_pebble_leg_vo",
+    "type": "ARMOR",
+    "name": "弾薬ポーチ(脚/石つぶて類)",
+    "description": "ベアリングや石つぶて、釘などの弾薬として使える小型のものを収納できます。",
+    "weight": 100,
+    "volume": 1,
+    "price": 500,
+    "bashing": 2,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "LEG_EITHER" ],
+    "coverage": 5,
+    "encumbrance": 1,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 30,
+      "ammo": [ "pebble", "nail" ],
+      "draw_cost": 10
+    },
+    "flags": [ "BELTED", "OVERSIZE" ]
+  },
+    {
+        "id": "assist_armor_off_vo",
+        "type": "TOOL_ARMOR",
+        "category" : "armor",
+        "symbol": "[",
+        "color": "white",
+        "name": "パワーアシストスーツ（オフ）",
+        "description": "重いものを簡単に持ち上げられるようにする補助器具です。戦闘用ではないので耐久性はそれほどありません。",
+        "flags" : ["BELTED"],
+        "price": 3500000,
+        "material": ["steel", "plastic"],
+        "weight" : 9500,
+        "volume": 35,
+        "to_hit" : -3,
+        "max_charges": 1000,
+        "charges_per_use": 1,
+        "ammo": "battery",
+        "revert_to": "null",
+        "covers" : ["TORSO", "ARMS", "LEGS", "FEET"],
+        "warmth" : 0,
+        "environmental_protection" : 0,
+        "encumbrance" : 20,
+        "coverage" : 40,
+        "material_thickness" : 1,
+	    "use_action":[
+	    {
+        "type": "transform",
+        "msg": "アシスト機能をオンにした。",
+        "active": true,
+        "target": "assist_armor_on_vo"
+    	}
+	]
+    },
+    {
+        "id": "assist_armor_on_vo",
+        "type": "TOOL_ARMOR",
+        "category" : "armor",
+        "symbol": "[",
+        "color": "white",
+        "name": "パワーアシストスーツ（オン）",
+        "description": "重いものを簡単に持ち上げられるようにする補助器具です。戦闘用ではないので耐久性はそれほどありません。",
+        "flags" : ["BELTED"],
+        "price": 3500000,
+        "material": ["steel", "plastic"],
+        "weight" : 1900,
+        "volume": 35,
+        "to_hit" : -3,
+        "max_charges": 1000,
+        "turns_per_charge": 4,
+        "ammo": "battery",
+        "revert_to": "assist_armor_off_vo",
+        "covers" : ["TORSO", "ARMS", "LEGS", "FEET"],
+        "storage" : 0,
+        "warmth" : 0,
+        "environmental_protection" : 0,
+        "encumbrance" : 10,
+        "coverage" : 40,
+        "material_thickness" : 1,
+	    "use_action":[
+	    {
+        "type": "transform",
+        "msg": "アシスト機能をオフにした。",
+        "target": "assist_armor_off_vo"
+    	}
+	],
+    "artifact_data" : {
+    "effects_worn": ["AEP_CARRY_MORE"]
+    }
+    }
+]

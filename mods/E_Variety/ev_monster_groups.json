@@ -1,0 +1,92 @@
+[
+  {
+    "type":"monstergroup",
+    "name" : "GROUP_ZOMBIE",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_raider", "freq" : 2, "cost_multiplier": 7, "pack_size" : [2,4]},
+      { "monster" : "mon_thug", "freq" : 2, "cost_multiplier": 7, "pack_size" : [2,4]},
+      { "monster" : "mon_raider", "freq" : 10, "cost_multiplier": 7},
+      { "monster" : "mon_thug", "freq" : 25, "cost_multiplier": 7},
+      { "monster" : "mon_zombie_business", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_athlete", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_gentleman", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_mother", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_butcher", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_tesla", "freq" : 15, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_grenade", "freq" : 10, "cost_multiplier" : 2 },
+      { "monster" : "mon_zombie_commander", "freq" : 10, "cost_multiplier" : 1 },
+      { "monster" : "mon_zombie_fire", "freq" : 5, "cost_multiplier" : 2 },
+      { "monster" : "mon_zombie_titan", "freq" : 2, "cost_multiplier": 2}
+
+    ]
+  },{
+      "type":"monstergroup",
+    "name" : "GROUP_MAYBE_MIL", "_comment" : "50% chance military zombie",
+    "default" : "mon_null",
+    "monsters" : [
+      { "monster" : "mon_zombie_grenade", "freq" : 50, "cost_multiplier" : 1 },
+      { "monster" : "mon_zombie_commander", "freq" : 75, "cost_multiplier" : 1 }
+    ]
+    },{
+    "type":"monstergroup",
+    "name" : "GROUP_GROCERY", "_comment" : "+15% bommers",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_zombie_grocer", "freq" : 100, "cost_multiplier": 2}
+    ]
+  },{
+  "type":"monstergroup",
+    "name" : "GROUP_PHARM", "_comment" : "+15% fast",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_zombie_pharmacist", "freq" : 150, "cost_multiplier": 2}
+    ]
+    },{
+    "type":"monstergroup",
+    "name" : "GROUP_LAB",
+    "default" : "mon_zombie_scientist",
+    "monsters" : [
+    { "monster" : "mon_lobotomite", "freq" : 75, "cost_multiplier": 3, "pack_size" : [2,3] },
+        { "monster" : "mon_zombie_tesla", "freq" : 15, "cost_multiplier": 3}
+    ]
+  },{
+    "type":"monstergroup",
+    "name" : "GROUP_ICE_LAB",
+    "default" : "mon_zombie_scientist",
+    "monsters" : [
+{ "monster" : "mon_lobotomite", "freq" : 75, "cost_multiplier": 3, "pack_size" : [2,3] },
+    { "monster" : "mon_zombie_tesla", "freq" : 15, "cost_multiplier": 3}
+    ]
+},{
+    "type":"monstergroup",
+    "name" : "GROUP_VANILLA",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_zombie_business", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_athlete", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_gentleman", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_mother", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_mother", "freq" : 75, "cost_multiplier": 3},
+      { "monster" : "mon_raider", "freq" : 2, "cost_multiplier": 7, "pack_size" : [2,4]},
+      { "monster" : "mon_thug", "freq" : 2, "cost_multiplier": 7, "pack_size" : [2,4]},
+      { "monster" : "mon_raider", "freq" : 10, "cost_multiplier" : 7},
+      { "monster" : "mon_thug", "freq" : 10, "cost_multiplier": 7},
+      { "monster" : "mon_zombie_grenade", "freq" : 10, "cost_multiplier" : 2 },
+      { "monster" : "mon_zombie_commander", "freq" : 10, "cost_multiplier" : 1 }
+    ]
+  },{
+    "type":"monstergroup",
+    "name" : "GROUP_HOUSE", "_comment" : "+15% child",
+    "default" : "mon_zombie",
+    "monsters" : [
+      { "monster" : "mon_raider", "freq" : 10, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_business", "freq" : 10, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_athlete", "freq" : 10, "cost_multiplier": 3},
+      { "monster" : "mon_zombie_gentleman", "freq" : 10, "cost_multiplier": 3},
+      { "monster" : "mon_wandering_cyborg", "freq" : 25, "cost_multiplier": 3}
+
+    ]
+  }
+]
+

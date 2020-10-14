@@ -1,0 +1,164 @@
+[
+    {
+        "abstract" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "DRINK",
+        "name" : "身体用変異薬",
+        "description" : "A rare substance of uncertain origins.  Causes you to mutate.",
+        "category" : "mutagen",
+        "weight" : 250,
+        "volume" : 1,
+        "price" : 100000, "//" : "Not commercially traded, in case there was any question.",
+        "phase" : "liquid",
+        "container" : "flask_glass",
+        "symbol" : "~",
+        "color" : "light_green",
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "use_action" : "MUTAGEN",
+        "flags" : [ "MUTAGEN_STRONG" ]
+    },
+    {
+        "id" : "mutagen_eye",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "染色剤(瞳)",
+        "description" : "飲むとどういうわけか皮膚の色素に影響を及ぼす怪しい薬です。色はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_EYE" ]
+    }
+    ,{
+        "id" : "mutagen_skin",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "染色剤(皮膚)",
+        "description" : "飲むとどういうわけか皮膚の色素に影響を及ぼす怪しい薬です。色はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_SKIN" ]
+    }
+    ,{
+        "id" : "mutagen_hair_blonde",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/金)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_BLONDE" ]
+    }
+    ,{
+        "id" : "mutagen_hair_red",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/赤)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_RED" ]
+    }
+    ,{
+        "id" : "mutagen_hair_brown",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/茶)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_BROWN" ]
+    }
+    ,{
+        "id" : "mutagen_hair_black",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/黒)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_BLACK" ]
+    }
+    ,{
+        "id" : "mutagen_hair_white",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/白)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_WHITE" ]
+    }
+    ,{
+        "id" : "mutagen_hair_pink",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/桃)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_PINK" ]
+    }
+    ,{
+        "id" : "mutagen_hair_green",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/緑)",
+        "description" : "ものすごい勢いで髪が伸びる薬です。何がすごいって髪型まで変わるんだもの。髪型はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HAIR_GREEN" ]
+    }
+    ,{
+        "id" : "mutagen_nohair",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "除毛剤(髪)",
+        "description" : "ものすごい勢いで髪が抜ける悲しい薬です。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_NOHAIR" ]
+    }
+    ,{
+        "id" : "mutagen_hige",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髭/まつ毛)",
+        "description" : "ものすごい勢いで髭が生える薬です。色はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_HIGE" ]
+    }
+    ,{
+        "id" : "mutagen_nohige",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "除毛剤(髭/まつ毛)",
+        "description" : "ものすごい勢いで髭が抜ける薬です。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "MUTAGEN_BODYPARTS_NOHIGE" ]
+    }
+    ,{
+        "id" : "mutagen_hair_decoration",
+        "copy-from" : "mutagen_flavor_bodyparts",
+        "type" : "COMESTIBLE",
+        "name" : "奇跡の毛生え薬(髪/装飾)",
+        "description" : "ものすごい勢いで髪の一部が生える薬です。色はランダムに変化します。",
+        "price" : 5000,
+        "healthy" : 0,
+        "addiction_potential" : 0,
+        "flags" : [ "BODYPARTS_HAIR_DECORATION" ]
+    }
+]

@@ -1,0 +1,710 @@
+[
+{
+  "type" : "recipe",
+  "result": "syringe",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MEDICAL",
+  "skill_used": "fabrication",
+  "difficulty": 2,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "tools": [
+    [
+      [ "hotplate", 2 ],
+      [ "char_smoker", 1 ],
+      [ "toolset", 1 ],
+      [ "fire", -1 ]
+    ]
+	],
+  "components": [
+    [
+      [ "plastic_chunk", 1 ]
+    ],
+    [
+      [ "glass_shard", 1 ]
+    ],
+    [
+      [ "scrap", 1 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "zp_irradiator",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 1,
+  "time": 2000,
+  "reversible": true,
+  "autolearn": true,
+  "tools": [
+    [
+      [ "hammer", -1 ],
+      [ "toolset", -1 ]
+    ],
+	[
+      [ "soldering_iron", 20 ],
+      [ "toolset", -1 ]
+    ],
+	[
+      [ "screwdriver", -1 ],
+      [ "toolset", -1 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "steel_chunk", 10 ],
+      [ "scrap", 25 ]
+    ],
+    [
+      [ "Chemical", 200 ],
+	  [ "mininuke_mod", 1 ],
+	  [ "plut_cell", 2 ],
+	  [ "plasma", 3 ],
+	  [ "mininuke", 1 ]
+    ]
+  ]
+},{
+        "type" : "recipe",
+  "result": "vac_sealer",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "skills_required": [ "electronics", 3 ],
+  "difficulty": 1,
+  "time": 500,
+  "reversible": true,
+  "autolearn": true,
+  "tools": [
+    [
+      [ "soldering_iron", 10 ],
+      [ "toolset", 1 ]
+    ],
+    [
+      [ "screwdriver", -1 ],
+      [ "toolset", -1 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "scrap", 4 ]
+    ],
+    [
+      [ "element", 2 ]
+    ],
+    [
+      [ "hose", 1 ]
+    ],
+    [
+      [ "power_supply", 1 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "screwdriver",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 0,
+  "time": 2000,
+  "reversible": true,
+  "autolearn": true,
+  "tools": [
+    [
+      [ "rock", -1 ],
+      [ "primitive_hammer", -1 ],
+      [ "hammer", -1 ],
+      [ "hatchet", -1 ],
+      [ "toolset", -1 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "steel_chunk", 2 ],
+      [ "scrap", 6 ]
+    ],
+    [
+      [ "plastic_chunk", 2 ],
+	  [ "splinter", 1 ],
+	  [ "stick", 1 ],
+	  [ "2x4", 1 ],
+	  [ "rag", 2 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_pickaxe",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_picklocks",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_boltcutters",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_puller",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_hacksaw",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_saw",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_scalpel",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_crowbar",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_hammer",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_scissors",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+   "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_shovel",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+   "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_injector",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+   "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool_hoe",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+   "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "multitool",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skills_required": [ "fabrication", 0 ],
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+	  [ "multitool", 1],
+      [ "multitool_scissors", 1],
+	  [ "multitool_hammer", 1],
+	  [ "multitool_crowbar", 1],
+	  [ "multitool_scalpel", 1],
+	  [ "multitool_saw", 1],
+	  [ "multitool_hacksaw", 1],
+	  [ "multitool_puller", 1],
+	  [ "multitool_boltcutters", 1],
+	  [ "multitool_picklocks", 1],
+	  [ "multitool_shovel", 1],
+	  [ "multitool_injector", 1],
+	  [ "multitool_hoe", 1],
+	  [ "multitool_pickaxe", 1],
+	  [ "zp_token", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "zp_lighter",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 10,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [ "zp_token", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "fire_drill",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 2,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [ "splinter", 1],
+	  [ "skewer", 1],
+	  [ "stick", 1],
+	  [ "2x4", 1],
+	  [ "pointy_stick", 1]
+    ],
+	[
+      [ "splinter", 1],
+	  [ "skewer", 1],
+	  [ "stick", 1],
+	  [ "2x4", 1],
+	  [ "pointy_stick", 1]
+    ],
+    [
+      [ "string_6", 1 ]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "rx12_injector",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MEDICAL",
+  "skill_used": "fabrication",
+  "difficulty": 4,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "tools": [
+    [
+      [ "hammer", -1 ],
+      [ "toolset", -1 ]
+    ],
+	[
+      [ "soldering_iron", 20 ],
+      [ "toolset", -1 ]
+    ],
+	[
+      [ "screwdriver", -1 ],
+      [ "toolset", -1 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "scrap", 4],
+	  [ "steel_lump", 2],
+	  [ "steel_chunk", 8]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "airdrop_tank_gasoline",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "cooking",
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": false,
+    "components": [
+    [
+      [ "gasoline", 400]
+    ]
+]
+},{
+  "type" : "recipe",
+  "result": "handflare",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "cooking",
+  "difficulty": 1,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+    "components": [
+    [
+      [ "Chemical", 15],
+	  [ "gunpowder", 150]
+    ],
+	[
+      [ "paper", 1]
+    ]
+  ]
+},{
+  "type" : "recipe",
+  "result": "zp_3D_printer",
+  "id_suffix": "my_mod",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "cooking",
+  "difficulty": 1,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+    "components": [
+    [
+      [ "zp_token", 1]
+    ]
+]
+},{
+  "type" : "recipe",
+  "result": "zp_tool_box",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_OTHER",
+  "skill_used": "mechanics",
+  "difficulty": 0,
+  "time": 1000,
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+	[
+      [ "hammer", 1 ]
+    ],
+	[
+      [ "soldering_iron", 1 ]
+    ],
+	[
+      [ "screwdriver", 1 ]
+    ],
+	[
+      [ "wrench", 1 ]
+    ],
+	[
+      [ "welder", 1 ]
+    ],
+	[
+      [ "goggles_welding", 1 ]
+    ],
+	[
+      [ "hacksaw", 1 ]
+    ]
+  ]
+}
+]

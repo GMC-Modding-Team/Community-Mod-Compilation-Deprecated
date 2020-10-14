@@ -1,0 +1,1831 @@
+[
+  {
+    "type" : "vehicle_part",
+    "id" : "zv_zombie_fat",
+    "name" : "エアバッグ(肥満ゾンビ)",
+    "symbol" : "O",
+    "color" : "green",
+    "broken_symbol" : "#",
+    "broken_color" : "light_gray",
+    "durability" : 350,
+    "item" : "minion_dormant_fat",
+    "difficulty" : 1,
+    "location" : "under",
+    "flags" : ["NO_JACK", "FLOATS", "STEERABLE", "STABLE", "MOUNTABLE", "SEAT", "BOARDABLE", "BED","VARIABLE_SIZE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+    "type" : "vehicle_part",
+    "id" : "zv_zombie_swimmer",
+    "name" : "エンジン(水泳ゾンビ)",
+    "symbol" : "*",
+    "color" : "green",
+    "broken_symbol" : "x",
+    "broken_color" : "light_gray",
+    "durability" : 350,
+    "fuel_type" : "bfeedfuel",
+    "item" : "minion_dormant_swimmer",
+    "difficulty" : 1,
+    "location" : "structure",
+    "flags" : ["ENGINE","NO_JACK", "FLOATS", "STEERABLE", "STABLE", "MOUNTABLE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+    "type" : "vehicle_part",
+    "id" : "zv_zombie_mancroc",
+    "name" : "エンジン(噛付ゾンビ)",
+    "symbol" : "*",
+    "color" : "green",
+    "broken_symbol" : "x",
+    "broken_color" : "light_gray",
+    "damage_modifier" : 150,
+    "durability" : 500,
+    "fuel_type" : "bfeedfuel",
+    "item" : "minion_dormant_mancroc",
+    "difficulty" : 1,
+    "location" : "structure",
+    "flags" : ["ENGINE","NO_JACK","SHARP", "FLOATS", "STEERABLE", "STABLE", "MOUNTABLE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+    "type" : "vehicle_part",
+    "id" : "zv_zombie_dancer",
+    "name" : "エンジン(ダンサーゾンビ)",
+    "symbol" : "D",
+    "color" : "green",
+    "broken_symbol" : "d",
+    "broken_color" : "light_gray",
+    "damage_modifier" : 150,
+    "durability" : 10000,
+    "fuel_type" : "bfeedfuel",
+    "item" : "minion_dormant_dancer",
+    "difficulty" : 1,
+    "location" : "center",
+    "flags" : ["ENGINE","SHARP", "ARMOR","STEERABLE", "STABLE","TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_jackson",
+        "name" : "JACKSON",
+        "symbol" : "J",
+        "color" : "red",
+        "broken_symbol" : "j",
+        "broken_color" : "light_gray",
+        "durability" : 500,
+        "bonus" : 100,
+        "item" : "minion_dormant_jackson",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [ "STEREO", "CONTROLS", "SEAT" ,"BOARDABLE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie",
+        "name" : "ゾンビシート",
+        "symbol" : "#",
+        "color" : "red",
+        "broken_symbol" : "*",
+        "broken_color" : "red",
+        "durability" : 400,
+        "bonus" : 25,
+        "item" : "minion_dormant",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : ["SEAT", "BOARDABLE", "BED", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_child",
+        "name" : "ゾンビチャイルドシート",
+        "symbol" : "#",
+        "color" : "red",
+        "broken_symbol" : "*",
+        "broken_color" : "red",
+        "durability" : 200,
+        "item" : "minion_dormant_child",
+        "folded_volume": 5,
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "SEAT", "FOLDABLE", "BOARDABLE", "TOOL_NONE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+	},{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_runner",
+        "name" : "ホイール(フェラルランナー)",
+        "symbol" : "O",
+        "color" : "dark_gray",
+        "broken_symbol" : "x",
+        "broken_color" : "light_gray",
+        "durability" : 350,
+        "item" : "minion_dormant_runner",
+        "difficulty" : 1,
+        "location" : "under",
+        "flags" : ["NO_JACK", "WHEEL", "STEERABLE", "STABLE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_hunter",
+        "name" : "ホイール(フェラルハンター)",
+        "symbol" : "O",
+        "color" : "dark_gray",
+        "broken_symbol" : "x",
+        "broken_color" : "light_gray",
+        "durability" : 450,
+        "item" : "minion_dormant_hunter",
+        "difficulty" : 1,
+        "location" : "under",
+        "flags" : ["NO_JACK", "WHEEL", "STEERABLE", "STABLE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_predator",
+        "name" : "ホイール(フェラルプレデター)",
+        "symbol" : "O",
+        "color" : "dark_gray",
+        "broken_symbol" : "x",
+        "broken_color" : "light_gray",
+        "damage_modifier" : 150,
+        "durability" : 450,
+        "item" : "minion_dormant_predator",
+        "difficulty" : 1,
+        "location" : "under",
+        "flags" : ["NO_JACK", "SHARP", "WHEEL", "STEERABLE", "STABLE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_tough",
+        "name" : "ホイール(頑強ゾンビ)",
+        "symbol" : "O",
+        "color" : "dark_gray",
+        "broken_symbol" : "x",
+        "broken_color" : "light_gray",
+        "durability" : 500,
+        "item" : "minion_dormant_tough",
+        "difficulty" : 1,
+        "location" : "under",
+        "flags" : ["NO_JACK", "ARMOR", "WHEEL", "STEERABLE", "STABLE", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_brute",
+        "name" : "エンジン(凶暴ゾンビ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 200,
+        "durability" : 750,
+        "fuel_type" : "bfeedfuel",
+        "item" : "minion_dormant_brute",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["ENGINE","NO_JACK","SHARP","STEERABLE", "STABLE", "TOOL_NONE", "PROTRUSION"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_hulk",
+        "name" : "エンジン(巨体ゾンビ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 300,
+        "durability" : 1000,
+        "fuel_type" : "bfeedfuel",
+        "item" : "minion_dormant_hulk",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["ENGINE","NO_JACK", "SHARP",	"STEERABLE", "STABLE", "TOOL_NONE", "PROTRUSION"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_bio_op",
+        "name" : "エンジン(バイオオペ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 600,
+        "item" : "minion_dormant_bio_op",
+        "difficulty" : 1,
+        "fuel_type" : "bfeedfuel",
+        "epower" : 360,
+        "location" : "center",
+        "flags" : ["ENGINE","NO_JACK", "TOOL_NONE", "BATTERY_MOUNT", "ENABLED_DRAINS_EPOWER"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_dog_skeleton",
+        "name" : "フレーム(痩躯犬)",
+        "symbol" : "Z",
+        "color" : "light_gray",
+        "broken_symbol" : "z",
+        "broken_color" : "light_gray",
+        "durability" : 60,
+        "difficulty" : 1,
+        "folded_volume": 3,
+        "item" : "minion_dormant_dog_skeleton",
+        "location" : "structure",
+        "flags" : ["NO_JACK", "INITIAL_PART", "MOUNTABLE", "TOOL_NONE", "FOLDABLE","WHEEL", "STEERABLE", "STABLE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_skeleton",
+        "name" : "フレーム(スケルトン)",
+        "symbol" : "Z",
+        "color" : "light_gray",
+        "broken_symbol" : "z",
+        "broken_color" : "light_gray",
+        "durability" : 150,
+        "folded_volume": 6,
+        "difficulty" : 1,
+        "item" : "minion_dormant_skeleton",
+        "location" : "structure",
+        "flags" : ["NO_JACK", "INITIAL_PART", "MOUNTABLE", "TOOL_NONE", "FOLDABLE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_crawler",
+        "name" : "フレーム(爬行ゾンビ)",
+        "symbol" : "Z",
+        "color" : "light_gray",
+        "broken_symbol" : "z",
+        "broken_color" : "light_gray",
+        "durability" : 300,
+        "item" : "minion_dormant_crawler",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["INITIAL_PART", "TOOL_NONE", "MOUNTABLE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_grabber",
+        "name" : "フレーム(長腕ゾンビ)",
+        "symbol" : "Z",
+        "color" : "light_gray",
+        "broken_symbol" : "z",
+        "broken_color" : "light_gray",
+        "durability" : 450,
+        "item" : "minion_dormant_grabber",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["INITIAL_PART", "TOOL_NONE", "MOUNTABLE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+  },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_grappler",
+        "name" : "フレーム(長腕組手ゾンビ)",
+        "symbol" : "Z",
+        "color" : "light_gray",
+        "broken_symbol" : "z",
+        "broken_color" : "light_gray",
+        "durability" : 600,
+        "item" : "minion_dormant_grappler",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["INITIAL_PART", "TOOL_NONE", "MOUNTABLE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_rot",
+        "name" : "装甲(腐敗ゾンビ)",
+        "symbol" : "o",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 250,
+        "item" : "minion_dormant_rot",
+        "difficulty" : 1,
+        "location" : "armor",
+        "flags" : ["ARMOR", "TOOL_NONE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ],
+        "damage_reduction" : {
+            "all" : 5
+        }
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_soldier",
+        "name" : "装甲(兵士ゾンビ)",
+        "symbol" : "o",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 150,
+        "durability" : 750,
+        "item" : "minion_dormant_soldier",
+        "difficulty" : 1,
+        "location" : "armor",
+        "flags" : ["ARMOR", "TOOL_NONE", "SHARP" ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ],
+        "damage_reduction" : {
+            "all" : 10
+        }
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_armored",
+        "name" : "装甲(装甲ゾンビ)",
+        "symbol" : "o",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 150,
+        "durability" : 1500,
+        "item" : "minion_dormant_armored",
+        "difficulty" : 1,
+        "location" : "armor",
+        "flags" : ["TOOL_NONE", "ARMOR", "SHARP"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ],
+        "damage_reduction" : {
+            "all" : 15,
+            "cut" : 30,
+            "stab" : 50
+        }
+    },{
+        "type" : "vehicle_part",
+        "id"   : "zv_zombie_shady",
+        "name" : "車両用カーテン(冥暗ゾンビ)",
+        "symbol": "\"",
+        "color": "dark_gray",
+        "broken_symbol": "0",
+        "broken_color": "light_gray",
+        "damage_modifier": 1,
+        "durability": 200,
+        "bonus": 25,
+        "item": "minion_dormant_shady",
+        "location": "on_ceiling",
+        "difficulty": 1,
+        "flags": ["OPENABLE", "TOOL_NONE", "OPAQUE", "OPENCLOSE_INSIDE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_cop",
+        "name" : "ヘッドライト(警官ゾンビ)",
+        "symbol" : "*",
+        "color" : "white",
+        "broken_symbol" : "*",
+        "broken_color" : "white",
+        "durability" : 300,
+        "fuel_type" : "bfeedfuel",
+        "epower" : -47,
+        "bonus" : 2000,
+        "item" : "minion_dormant_cop",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : ["TOOL_NONE", "CIRCLE_LIGHT", "TRACK", "BATTERY_MOUNT", "ENABLED_DRAINS_EPOWER"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_shrieker",
+        "name" : "警笛(絶叫ゾンビ)",
+        "symbol" : "*",
+        "color" : "light_gray",
+        "broken_symbol" : "*",
+        "broken_color" : "red",
+        "damage_modifier" : 50,
+        "durability" : 300,
+        "bonus" : 100,
+        "item" : "minion_dormant_shrieker",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : ["TOOL_NONE", "HORN", "DIFFICULTY_REMOVE", "SECURITY"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_screecher",
+        "name" : "警笛(悲鳴ゾンビ)",
+        "symbol" : "*",
+        "color" : "light_gray",
+        "broken_symbol" : "*",
+        "broken_color" : "red",
+        "damage_modifier" : 50,
+        "durability" : 300,
+        "bonus" : 100,
+        "item" : "minion_dormant_screecher",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : ["TOOL_NONE", "CHIMES","DIFFICULTY_REMOVE", "SECURITY"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_hazmat",
+        "name" : "冷蔵庫(化学防護ゾンビ)",
+        "symbol" : "H",
+        "color" : "light_blue",
+        "broken_symbol" : "#",
+        "broken_color" : "light_blue",
+        "durability" : 300,
+        "fuel_type" : "bfeedfuel",
+        "epower" : -249,
+        "size" : 300,
+        "item" : "minion_dormant_hazmat",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : ["TOOL_NONE", "CARGO", "FRIDGE", "COVERED", "ENABLED_DRAINS_EPOWER"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_technician",
+        "name" : "万能ツール(技術者ゾンビ)",
+        "symbol" : "&",
+        "color" : "light_green",
+        "broken_symbol" : "x",
+        "broken_color" : "light_gray",
+        "durability" : 300,
+        "item" : "minion_dormant_technician",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : ["TOOL_NONE", "CRAFTRIG", "WELDRIG", "FORGE"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_scientist",
+        "name" : "化学実験器具(科学者ゾンビ)",
+        "symbol" : "&",
+        "color" : "light_green",
+        "broken_symbol" : "x",
+        "broken_color" : "light_gray",
+        "durability" : 300,
+        "item" : "minion_dormant_scientist",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : ["TOOL_NONE", "KITCHEN", "CHEMLAB"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_beekeeper",
+        "name" : "トランク(負傷ゾンビ)",
+        "symbol" : "H",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "durability" : 300,
+        "size" : 350,
+        "item" : "minion_dormant_beekeeper",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "TOOL_NONE", "CARGO", "COVERED","TRACK", "BATTERY_MOUNT", "SEAT", "BOARDABLE", "BED", "MOUNTABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_survivor",
+        "name" : "トランク(サバイバーゾンビ)",
+        "symbol" : "H",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "durability" : 600,
+        "size" : 650,
+        "item" : "minion_dormant_survivor",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "TOOL_NONE", "CARGO", "COVERED","TRACK", "BATTERY_MOUNT", "SEAT", "BOARDABLE", "BED", "MOUNTABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_gasbag",
+        "name" : "マフラー(膨張ゾンビ)",
+        "symbol" : "/",
+        "color" : "light_gray",
+        "broken_symbol" : "/",
+        "broken_color" : "light_gray",
+        "damage_modifier" : 10,
+        "durability" : 100,
+        "bonus" : 100,
+        "item" : "minion_dormant_gasbag",
+        "difficulty" : 1,
+        "flags" : ["TOOL_NONE", "MUFFLER"],
+        "location" : "under",
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_control_chip",
+        "name" : "制御装置(制御チップ)",
+        "symbol" : "$",
+        "color" : "light_gray",
+        "broken_symbol" : "$",
+        "broken_color" : "red",
+        "damage_modifier" : 10,
+        "durability" : 150,
+        "fuel_type" : "bfeedfuel",
+        "epower": -25,
+        "folded_volume": 1,
+        "item" : "control_chip",
+        "difficulty" : 6,
+        "flags" : ["CONTROLS", "FOLDABLE", "ENABLED_DRAINS_EPOWER"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_necro",
+        "name" : "制御装置(死霊術師ゾンビ)",
+        "symbol" : "$",
+        "color" : "light_gray",
+        "broken_symbol" : "$",
+        "broken_color" : "red",
+        "durability" : 300,
+        "item" : "minion_dormant_necro",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : ["CONTROLS", "TOOL_NONE", "REMOTE_CONTROLS"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_master",
+        "name" : "オルタネーター(マスターゾンビ)",
+        "symbol" : "*",
+        "color" : "yellow",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 300,
+        "fuel_type" : "bfeedfuel",
+        "epower" : 1492,
+        "location" : "on_roof",
+        "item" : "minion_dormant_master",
+        "difficulty" : 1,
+        "flags" : ["TOOL_NONE", "ALTERNATOR"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_hollow",
+        "name" : "タンク(ブロブ/空洞ゾンビ)",
+        "symbol" : "O",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 50,
+        "durability" : 500,
+        "difficulty" : 1,
+        "size" : 500,
+        "folded_volume": 12,
+        "item" : "minion_dormant_hollow",
+        "location" : "structure",
+        "flags" : ["SEAT",  "BOARDABLE", "TOOL_NONE", "FOLDABLE", "FUEL_TANK"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_boomer",
+        "name" : "貯水樽(ブーマー)",
+        "symbol" : "O",
+        "color" : "light_cyan",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 50,
+        "durability" : 200,
+        "size" : 450,
+        "item" : "minion_dormant_boomer",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["TOOL_NONE", "UNMOUNT_ON_DAMAGE", "FUEL_TANK", "PROTRUSION"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_boomer_huge",
+        "name" : "貯水樽(巨体ブーマー)",
+        "symbol" : "O",
+        "color" : "light_cyan",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 50,
+        "durability" : 400,
+        "range" : 9,
+        "size" : 825,
+        "item" : "minion_dormant_boomer_huge",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["TOOL_NONE", "TURRET", "UNMOUNT_ON_DAMAGE", "FUEL_TANK", "PROTRUSION"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_dog",
+        "name" : "エンジン(ゾンビ犬)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 150,
+        "fuel_type" : "bfeedfuel",
+        "folded_volume": 5,
+        "item" : "minion_dormant_dog",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE","SEAT", "BOARDABLE","STEERABLE", "STABLE",  "CONTROLS", "FOLDABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_dog_zombie_rot",
+        "name" : "エンジン(腐敗犬)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 100,
+        "fuel_type" : "bfeedfuel",
+        "folded_volume": 3,
+        "item" : "minion_dormant_dog_zombie_rot",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE","STEERABLE", "STABLE",  "CONTROLS", "FOLDABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_dog_zombie_cop",
+        "name" : "エンジン(警察犬ゾンビ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 180,
+        "fuel_type" : "bfeedfuel",
+        "folded_volume": 7,
+        "item" : "minion_dormant_dog_zombie_cop",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "TRACK", "REMOTE_CONTROLS", "CONTROLS", "MOUNTABLE", "FOLDABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zolf",
+        "name" : "エンジン(ゾンビ狼)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "durability" : 250,
+        "fuel_type" : "bfeedfuel",
+        "folded_volume": 15,
+        "item" : "minion_dormant_zolf",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "SHARP", "REMOTE_CONTROLS", "CONTROLS", "BED", "FOLDABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zougar",
+        "name" : "エンジン(ゾンビピューマ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 150,
+        "durability" : 210,
+        "fuel_type" : "bfeedfuel",
+        "folded_volume": 15,
+        "item" : "minion_dormant_zougar",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "SHARP", "TRACK", "CONTROLS", "BED", "FOLDABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_pig",
+        "name" : "エンジン(ゾンビ豚)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 200,
+        "durability" : 350,
+        "fuel_type" : "bfeedfuel",
+        "folded_volume": 20,
+        "item" : "minion_dormant_pig",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "MOUNTABLE", "SHARP", "CONTROLS", "BED", "FOLDABLE"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombear",
+        "name" : "エンジン(ゾンビ熊)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 300,
+        "durability" : 1000,
+        "fuel_type" : "bfeedfuel",
+        "item" : "minion_dormant_zombear",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "ARMOR", "SHARP", "CONTROLS", "BED"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zoose",
+        "name" : "エンジン(ゾンビヘラジカ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 500,
+        "durability" : 500,
+        "fuel_type" : "bfeedfuel",
+        "item" : "minion_dormant_zoose",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "MOUNTABLE", "SHARP", "CONTROLS", "BED"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_bear_smoky",
+        "name" : "エンジン(煙幕グマ)",
+        "symbol" : "*",
+        "color" : "light_red",
+        "broken_symbol" : "#",
+        "broken_color" : "red",
+        "damage_modifier" : 300,
+        "durability" : 750,
+        "fuel_type" : "bfeedfuel",
+        "range" : 15,
+        "wheel_width" : 50,
+        "item" : "minion_dormant_bear_smoky",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : [
+            "ENGINE","NO_JACK", "INITIAL_PART", "TOOL_NONE", "SEAT", "BOARDABLE", "STEERABLE", "STABLE", "ARMOR", "SHARP", "CONTROLS", "BED", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_fireman",
+        "name" : "水栓(消防士ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 10,
+        "durability" : 250,
+        "item" : "minion_dormant_fireman",
+        "difficulty" : 1,
+        "location" : "center",
+        "flags" : [
+            "TOOL_NONE", "FAUCET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_grenadier",
+        "name" : "タレット(擲弾ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 10,
+        "item" : "minion_dormant_grenadier",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : [
+            "TOOL_NONE", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_grenadier_elite",
+        "name" : "タレット(精鋭擲弾ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 10,
+        "item" : "minion_dormant_grenadier_elite",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : [
+            "TOOL_NONE", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_acidic",
+        "name" : "タレット(弱酸ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 4,
+        "item" : "minion_dormant_acidic",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : [
+            "TOOL_NONE", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_spitter",
+        "name" : "タレット(強酸ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 8,
+        "item" : "minion_dormant_spitter",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : [
+            "TOOL_NONE", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_corrosive",
+        "name" : "タレット(腐食ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 12,
+        "item" : "minion_dormant_corrosive",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : [
+            "TOOL_NONE", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_smoker",
+        "name" : "タレット(煙幕ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 15,
+        "item" : "minion_dormant_smoker",
+        "difficulty" : 1,
+        "location" : "on_roof",
+        "flags" : [
+            "TOOL_NONE", "TURRET"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_electric",
+        "name" : "タレット(放電ゾンビ)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 250,
+        "range" : 10,
+        "item" : "minion_dormant_electric",
+        "difficulty" : 1,
+        "epower" : -187,
+        "bonus" : 600,
+        "fuel_type" : "battery",
+        "flags" : [
+            "TOOL_NONE", "TURRET", "INTERNAL", "BATTERY_MOUNT", "RECHARGE", "ENABLED_DRAINS_EPOWER"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_brute_shocker",
+        "name" : "タレット(放電凶獣)",
+        "symbol" : "#",
+        "color" : "magenta",
+        "broken_symbol" : "*",
+        "broken_color" : "magenta",
+        "damage_modifier" : 60,
+        "durability" : 350,
+        "range" : 10,
+        "epower" : 2238,
+        "fuel_type" : "bfeedfuel",
+        "item" : "minion_dormant_brute_shocker",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : [
+            "TOOL_NONE", "SHARP", "BATTERY_MOUNT", "TURRET", "ALTERNATOR"
+        ],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_fiend",
+        "name" : "装甲(悪鬼)",
+        "symbol" : ".",
+        "color" : "white",
+        "broken_symbol" : "x",
+        "broken_color" : "white",
+        "damage_modifier" : 250,
+        "durability" : 300,
+        "item" : "minion_dormant_fiend",
+        "difficulty" : 1,
+        "location" : "armor",
+        "flags" : ["ARMOR","TOOL_NONE","SHARP"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_biter",
+        "name" : "スパイク(涎垂ゾンビ)",
+        "symbol" : ".",
+        "color" : "white",
+        "broken_symbol" : "x",
+        "broken_color" : "white",
+        "damage_modifier" : 300,
+        "durability" : 500,
+        "item" : "minion_dormant_biter",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["TOOL_NONE","SHARP", "PROTRUSION"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "zv_zombie_brute_grappler",
+        "name" : "スパイク(格闘ゾンビ)",
+        "symbol" : ".",
+        "color" : "white",
+        "broken_symbol" : "x",
+        "broken_color" : "white",
+        "damage_modifier" : 500,
+        "durability" : 750,
+        "item" : "minion_dormant_brute_grappler",
+        "difficulty" : 1,
+        "location" : "structure",
+        "flags" : ["TOOL_NONE","SHARP", "PROTRUSION"],
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+	    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ]
+    },{
+    "id" : "zv_zombie_brute_ninja",
+    "type": "vehicle_part",
+    "name": "クレーン(夜行ゾンビ)",
+    "item" : "minion_dormant_brute_ninja",
+    "location": "structure",
+    "symbol": "=",
+    "broken_symbol": "*",
+    "color": "light_gray",
+    "broken_color": "light_blue",
+    "difficulty": 1,
+    "durability": 750,
+     "requirements": {
+       "install": {
+         "skills": [ [ "electronics", 3 ] ],
+         "time": 1000
+       },
+       "removal": {
+         "skills": [ [ "electronics", 1 ] ]
+       },
+       "repair": {
+       "time": 15000,
+       "skills": [ [ "tailor", 1 ] ],
+       "using": [ [ "sewing_standard", 20 ], [ "zombie_material_zv", 1 ] ]
+       }
+	 },
+    "breaks_into" : [ {"item": "meat_tainted", "count": [2, 4]} ],
+    "qualities": [ [ "LIFT", 4 ], [ "JACK", 12 ] ],
+    "flags": [ "TOOL_NONE", "PROTRUSION", "OBSTACLE"]
+    }
+]

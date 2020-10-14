@@ -1,0 +1,103 @@
+[
+  {
+    "method": "json",
+    "object": {
+        "furniture": {
+            "#": "f_bench",
+            "&": "f_trashcan",
+            "+": "f_null",
+            "-": "f_null",
+            ".": "f_null",
+            "c": "f_null",
+            "w": "f_null",
+            "|": "f_null"
+        },
+        "fill_ter": "t_dirt",
+        "rows": [
+            "           ..           ",
+            " |---------cc---------| ",
+            " |www  |.......|  bdef| ",
+            " |wwuu |.......||     | ",
+            " |ww v||........|     | ",
+            " |wzv +.........+     | ",
+            " |z x |.........|ghijk| ",
+            " |yy ||..|-+-|..||    | ",
+            " | x |...|AAA|...|    | ",
+            " |---|...|A1A|...|    | ",
+            " |.......|AAA|...|   m| ",
+            " |.......|---|...|nlo | ",
+            " |&..............|----| ",
+            " |#...................| ",
+            " |#..|----|...........| ",
+            " |#..|pqrs|...........| ",
+            " |#..+   t|..|-+------| ",
+            " |#..|    |..|        | ",
+            " |#..|    |..| 456789 | ",
+            " |#..|----|..|   a23  | ",
+            " |...........|        | ",
+            " |...........|        | ",
+            " |--------------------| ",
+            "                        "
+        ],
+            "place_monster": [
+                { "monster": "mon_bear", "x": 11, "y": 9},
+                { "monster": "mon_moose", "x": 20, "y": 20}
+            ],
+        "terrain": {
+            "#": "t_dirt",
+            " ": "t_dirt",
+            "&": "t_dirt",
+            "+": "t_chaingate_l",
+            "-": "t_chainfence_h",
+            ".": "t_sidewalk",
+            "c": "t_chaingate_c",
+            "w": "t_water_dp",
+            "|": "t_chainfence_v"
+        },
+            "fields" : {
+            "A": [{ "field": "fd_blood" },{ "field": "fd_gibs_flesh" }],
+            "1": [{ "field": "fd_blood" },{ "field": "fd_gibs_flesh" }]
+            },
+        "monster": {
+            "2": [{"monster":"mon_deer"}],
+
+            "4": [{"monster":"mon_cougar"}],
+            "5": [{"monster":"mon_fox_gray"}],
+            "6": [{"monster":"mon_fox_red"}],
+            "7": [{"monster":"mon_wolf"}],
+            "8": [{"monster":"mon_coyote"}],
+            "9": [{"monster":"mon_coyote_wolf"}],
+            "a": [{"monster":"mon_bobcat"}],
+
+            "b": [{"monster":"mon_chipmunk"}],
+            "d": [{"monster":"mon_groundhog"}],
+            "e": [{"monster":"mon_deer_mouse"}],
+            "f": [{"monster":"mon_black_rat"}],
+            "g": [{"monster":"mon_shrew"}],
+            "h": [{"monster":"mon_squirrel"}],
+            "i": [{"monster":"mon_squirrel_red"}],
+            "j": [{"monster":"mon_weasel"}],
+            "k": [{"monster":"mon_hare"}],
+            "m": [{"monster":"mon_rabbit"}],
+            "n": [{"monster":"mon_turkey"}],
+            "l": [{"monster":"mon_raccoon"}],
+            "o": [{"monster":"mon_opossum"}],
+
+            "p": [{"monster":"mon_chicken"}],
+            "q": [{"monster":"mon_cow"}],
+            "r": [{"monster":"mon_horse"}],
+            "s": [{"monster":"mon_pig"}],
+            "t": [{"monster":"mon_sheep"}],
+
+            "u": [{"monster":"mon_beaver"}],
+            "v": [{"monster":"mon_mink"}],
+            "x": [{"monster":"mon_muskrat"}],
+            "y": [{"monster":"mon_duck"}],
+            "z": [{"monster":"mon_otter"}]
+        }
+    },
+    "om_terrain": "zoo",
+    "type": "mapgen",
+    "weight": 100
+}
+]

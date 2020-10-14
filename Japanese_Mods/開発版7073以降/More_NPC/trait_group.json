@@ -1,0 +1,401 @@
+[
+  {
+    "type" : "trait_group",
+    "id" : "m_trait_distribution",
+    "subtype": "collection",
+    "traits": [
+        { "distribution" : [
+            { "trait":"FLEET", "prob": 10 },
+            { "trait":"SLOWRUNNER", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"GOODHEARING", "prob": 10 },
+            { "trait":"BADHEARING", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"PARKOUR", "prob": 10 },
+            { "trait":"BADKNEES", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"GOODCARDIO", "prob": 10 },
+            { "trait":"BADCARDIO", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"OPTIMISTIC", "prob": 10 },
+            { "trait":"BADTEMPER", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"FASTHEALER", "prob": 10 },
+            { "trait":"SLOWHEALER", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"LIGHTEATER", "prob": 10 },
+            { "trait":"HUNGER", "prob": 10 },
+            { "trait":"COLDBLOOD", "prob": 5}
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"EASYSLEEPER", "prob": 15 },
+            { "trait":"INSOMNIA", "prob": 5 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"FASTREADER", "prob": 10 },
+            { "trait":"SLOWREADER", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"TOUGH", "prob": 10 },
+            { "trait":"FLIMSY", "prob": 3 },
+            { "trait":"FLIMSY2", "prob": 2 },
+            { "trait":"FLIMSY3", "prob": 1 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"THICKSKIN", "prob": 10 },
+            { "trait":"THINSKIN", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"PACKMULE", "prob": 15 },
+            { "trait":"DISORGANIZED", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"STRONGBACK", "prob": 15 },
+            { "trait":"BADBACK", "prob": 10 }
+        ], "prob": 10},
+        { "distribution" : [
+            { "trait":"FASTLEARNER", "prob": 10 },
+            { "trait":"SLOWLEARNER", "prob": 10 }
+        ], "prob": 5},
+        { "distribution" : [
+            { "trait":"STRONGSTOMACH", "prob": 10 },
+            { "trait":"WEAKSTOMACH", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"GOODMEMORY", "prob": 15 },
+            { "trait":"FORGETFUL", "prob": 10 }
+        ], "prob": 5},
+        { "distribution" : [
+            { "trait":"DRUNKEN", "prob": 10 },
+            { "trait":"LIGHTWEIGHT", "prob": 10 },
+            { "trait":"TOLERANCE", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"NONADDICTIVE", "prob": 15 },
+            { "trait":"ADDICTIVE", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"ANIMALEMPATH", "prob": 10 },
+            { "trait":"ANIMALDISCORD", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"WAKEFUL", "prob": 10 },
+            { "trait":"SLEEPY", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"LIGHTSTEP", "prob": 10 },
+            { "trait":"CLUMSY", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"EAGLEEYED", "prob": 15 },
+            { "trait":"MYOPIC", "prob": 5 },
+            { "trait":"HYPEROPIC", "prob": 5 },
+            { "group": "m_mut_eye_distribution", "prob": 5  }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"CANNIBAL", "prob": 15 },
+            { "trait":"VEGETARIAN", "prob": 5 },
+            { "trait":"MEATARIAN", "prob": 5 },
+            { "group": "m_mut_eat_distribution", "prob": 5  }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"WEAKSCENT", "prob": 10 },
+            { "trait":"SMELLY", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"LIAR", "prob": 10 },
+            { "trait":"TRUTHTELLER", "prob": 10 }
+        ], "prob": 15},
+        { "distribution" : [
+            { "trait":"PRETTY", "prob": 10 },
+            { "trait":"UGLY", "prob": 10 }
+        ], "prob": 15},
+
+            { "trait":"OUTDOORSMAN", "prob": 15 },
+            { "trait":"QUICK", "prob": 5 },
+            { "trait":"NIGHTVISION", "prob": 10 },
+            { "trait":"POISRESIST", "prob": 15 },
+            { "trait":"TOUGH_FEET", "prob": 15 },
+            { "trait":"DEFT", "prob": 15 },
+            { "trait":"SPIRITUAL", "prob": 15 },
+            { "trait":"GOURMAND", "prob": 10 },
+            { "trait":"TERRIFYING", "prob": 15 },
+            { "trait":"DISRESISTANT", "prob": 15 },
+            { "trait":"ADRENALINE", "prob": 15 },
+            { "trait":"SELFAWARE", "prob": 15 },
+            { "trait":"MASOCHIST", "prob": 15 },
+            { "trait":"STYLISH", "prob": 10 },
+            { "trait":"ROBUST", "prob": 5 },
+            { "trait":"PSYCHOPATH", "prob": 10 },
+            { "trait":"PAINRESIST", "prob": 10 },
+            { "trait":"INFRESIST", "prob": 10 },
+
+            { "trait":"HEAVYSLEEPER", "prob": 15 },
+            { "trait":"ASTHMA", "prob": 3 },
+            { "trait":"ILLITERATE", "prob": 1 },
+            { "trait":"ANTIFRUIT", "prob": 5 },
+            { "trait":"LACTOSE", "prob": 15 },
+            { "trait":"ANTIJUNK", "prob": 15 },
+            { "trait":"ANTIWHEAT", "prob": 10 },
+            { "trait":"GLASSJAW", "prob": 10 },
+            { "trait":"TRIGGERHAPPY", "prob": 15 },
+            { "trait":"CHEMIMBALANCE", "prob": 1 },
+            { "trait":"SCHIZOPHRENIC", "prob": 2 },
+            { "trait":"JITTERY", "prob": 5 },
+            { "trait":"HOARDER", "prob": 3 },
+            { "trait":"SAVANT", "prob": 3 },
+            { "trait":"PACIFIST", "prob": 3 },
+            { "trait":"MOODSWINGS", "prob": 15 },
+            { "trait":"WOOLALLERGY", "prob": 15 },
+            { "trait":"ALBINO", "prob": 3 },
+            { "trait":"THIRST", "prob": 5 },
+            { "trait":"SQUEAMISH", "prob": 15 },
+
+            { "trait":"GILLS", "prob": 2},
+            { "trait":"SPINES", "prob": 3},
+            { "trait":"RADIOGENIC", "prob": 1},
+            { "trait":"WHISKERS", "prob": 3},
+            { "trait":"SLIT_NOSTRILS", "prob": 2},
+            { "trait":"WEBBED", "prob": 2},
+            { "trait":"RADIOACTIVE1", "prob": 2},
+            { "trait":"PONDEROUS1", "prob": 1},
+            { "trait":"GROWL", "prob": 3},
+            { "trait":"ARM_FEATHERS", "prob": 2},
+            { "trait":"ALCMET", "prob": 2},
+            { "trait":"LIGHT_BONES", "prob": 2},
+
+            { "group": "m_mut_mouth_distribution", "prob": 2  },
+            { "group": "m_mut_skin_distribution", "prob": 2  },
+            { "group": "m_mut_hand_distribution", "prob": 2  },
+            { "group": "m_mut_foot_distribution", "prob": 2  },
+            { "group": "m_mut_ear_distribution", "prob": 3  },
+            { "group": "m_mut_tail_distribution", "prob": 3  },
+            { "group": "m_mut_gen_distribution", "prob": 1  },
+            { "group": "m_mut_sp_distribution", "prob": 2  },
+            { "group": "m_mut_sun_distribution", "prob": 1  }
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_hair_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"HAIR_WHITE_FLATTOP", "prob": 10 },
+            { "trait":"HAIR_BLACK_FLATTOP", "prob": 10 },
+            { "trait":"HAIR_RED_FLATTOP", "prob": 10 },
+            { "trait":"HAIR_BLONDE_FLATTOP", "prob": 10 },
+            { "trait":"HAIR_BROWN_FLATTOP", "prob": 10 },
+            { "trait":"HAIR_GRAY_FLATTOP", "prob": 10 },
+
+            { "trait":"HAIR_WHITE_LONG_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BLACK_LONG_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_GREEN_LONG_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_PINK_LONG_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_RED_LONG_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BLONDE_LONG_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BROWN_LONG_FOREHEAD", "prob": 10 },
+
+            { "trait":"HAIR_WHITE_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BLACK_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_GREEN_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_PINK_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_RED_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BLONDE_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BROWN_FOREHEAD", "prob": 10 },
+
+            { "trait":"HAIR_WHITE_SHORT_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BLACK_SHORT_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_GREEN_SHORT_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_PINK_SHORT_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_RED_SHORT_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BLONDE_SHORT_FOREHEAD", "prob": 10 },
+            { "trait":"HAIR_BROWN_SHORT_FOREHEAD", "prob": 10 },
+
+            { "trait":"HAIR_WHITE_LONG", "prob": 10 },
+            { "trait":"HAIR_BLACK_LONG", "prob": 10 },
+            { "trait":"HAIR_GREEN_LONG", "prob": 10 },
+            { "trait":"HAIR_PINK_LONG", "prob": 10 },
+            { "trait":"HAIR_RED_LONG", "prob": 10 },
+            { "trait":"HAIR_BLONDE_LONG", "prob": 10 },
+            { "trait":"HAIR_BROWN_LONG", "prob": 10 },
+
+            { "trait":"HAIR_WHITE", "prob": 10 },
+            { "trait":"HAIR_BLACK", "prob": 10 },
+            { "trait":"HAIR_GREEN", "prob": 10 },
+            { "trait":"HAIR_PINK", "prob": 10 },
+            { "trait":"HAIR_RED", "prob": 10 },
+            { "trait":"HAIR_BLONDE", "prob": 10 },
+            { "trait":"HAIR_BROWN", "prob": 10 },
+
+            { "trait":"HAIR_WHITE_SHORT", "prob": 10 },
+            { "trait":"HAIR_BLACK_SHORT", "prob": 10 },
+            { "trait":"HAIR_GREEN_SHORT", "prob": 10 },
+            { "trait":"HAIR_PINK_SHORT", "prob": 10 },
+            { "trait":"HAIR_RED_SHORT", "prob": 10 },
+            { "trait":"HAIR_BLONDE_SHORT", "prob": 10 },
+            { "trait":"HAIR_BROWN_SHORT", "prob": 10 }
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_ext_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"HAIR_GREEN_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_PINK_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_RED_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_BLONDE_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_BROWN_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_GRAY_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_WHITE_MOHICAN", "prob": 10 },
+            { "trait":"HAIR_BLACK_MOHICAN", "prob": 10 }
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_hige_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"HAIR_RED_HIGE", "prob": 10 },
+            { "trait":"HAIR_BLONDE_HIGE", "prob": 10 },
+            { "trait":"HAIR_BROWN_HIGE", "prob": 10 },
+            { "trait":"HAIR_BLACK_HIGE", "prob": 10 },
+            { "trait":"HAIR_GRAY_HIGE", "prob": 10 },
+            { "trait":"HAIR_WHITE_HIGE", "prob": 10 }
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_eye_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"EYE_RED", "prob": 10 },
+            { "trait":"EYE_GREEN", "prob": 10 },
+            { "trait":"EYE_YELLOW", "prob": 10 },
+            { "trait":"EYE_GRAY", "prob": 10 },
+            { "trait":"EYE_BLUE", "prob": 10 },
+            { "trait":"EYE_BROWN", "prob": 10 }
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_skin_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"SKIN_PINK", "prob": 10 },
+            { "trait":"SKIN_PALE", "prob": 10 },
+            { "trait":"SKIN_LIGHT", "prob": 10 },
+            { "trait":"SKIN_MEDIUM", "prob": 10 },
+            { "trait":"SKIN_DARK", "prob": 10 },
+            { "trait":"SKIN_TAN", "prob": 10 }
+    ]
+  },
+
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_eye_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"ELFAEYES", "prob": 15},
+            { "trait":"URSINE_EYE", "prob": 10}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_eat_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"HERBIVORE", "prob": 15},
+            { "trait":"CARNIVORE", "prob": 10}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_mouth_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"FANGS", "prob": 15},
+            { "trait":"BEAK", "prob": 10}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_skin_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"PLANTSKIN", "prob": 10},
+            { "trait":"CHITIN", "prob": 15}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_hand_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"NAILS", "prob": 15},
+            { "trait":"ARM_TENTACLES", "prob": 5}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_foot_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"PADDED_FEET", "prob": 15},
+            { "trait":"RAP_TALONS", "prob": 15},
+            { "trait":"HOOVES", "prob": 5},
+            { "trait":"LEG_TENTACLES", "prob": 5}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_ear_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"CANINE_EARS", "prob": 10},
+            { "trait":"FELINE_EARS", "prob": 10}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_tail_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"TAIL_FLUFFY", "prob": 10},
+            { "trait":"TAIL_LONG", "prob": 15}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_gen_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"UNSTABLE", "prob": 10},
+            { "trait":"CHAOTIC", "prob": 3}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_sp_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"WEB_WALKER", "prob": 15},
+            { "trait":"SLIMY", "prob": 10}
+    ]
+  },
+  {
+    "type" : "trait_group",
+    "id" : "m_mut_sun_distribution",
+    "subtype": "distribution",
+    "traits": [
+            { "trait":"SUNLIGHT_DEPENDENT", "prob": 5},
+            { "trait":"TROGLO", "prob": 10}
+    ]
+  }
+]

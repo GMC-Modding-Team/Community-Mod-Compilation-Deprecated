@@ -1,0 +1,269 @@
+[
+    {
+        "type": "profession",
+        "ident": "lost_dom",
+        "name": "Lost Dominant",
+        "description": "Early in the rush to safety, you were separated from your submissive by cruel fate.  Now you are on your own with nothing to your name but a suit of really kinky black leather.  Unfortunately, there's no safewords in the apocalypse.",
+        "points": -1,
+        "items": {
+            "both" : [
+                "bondage_suit",
+                "thigh_high_boots",
+                "leather_belt",
+				"bullwhip",
+				"backpack",
+				"vibrator"
+            ]
+        }
+    },
+    {
+        "type": "profession",
+        "ident": "fsoldier",
+        "name": "Foreign Soldier",
+        "description": "You are a foreign soldier escorting a foreign diplomat. Suddenly your convoy hit's a landmine in the road and you manage to get out unscathed. Unluckily for you and your companions, they don't. That means you're stuck in a foreign land with nothing but what was given to you before leaving the military base, and your companions look hungry for something other than the local cuisine.",
+        "points": 5,
+        "skills": [
+            {
+                "level": 3,
+                "name": "gun"
+            },
+            {
+                "level": 3,
+                "name": "smg"
+            },
+            {
+                "level": 2,
+                "name": "cutting"
+            },
+            {
+                "level": 1,
+                "name": "melee"
+            },
+            {
+                "level": 1,
+                "name": "dodge"
+            },
+            {
+                "level": 1,
+                "name": "firstaid"
+            },
+            {
+                "level": 1,
+                "name": "swimming"
+            },
+            {
+                "level": 2,
+                "name": "survival"
+            }
+        ],
+        "items": {
+            "both": {
+                "items": [
+                    "undershirt",
+                    "arm_warmers",
+                    "leg_warmers",
+                    "pants_army",
+                    "jacket_army",
+                    "balclava",
+                    "beret",
+                    "gloves_liner",
+                    "gloves_tactical",
+                    "socks",
+                    "boots_combat"
+                ],
+                "entries": [
+                    { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+                    { "item": "kukri", "container-item": "sheath" },
+                    { "item": "rm2000_smg", "ammo-item": "8mm_fmj", "charges": 25, "contents-item": [ "shoulder_strap", "suppressor" ] },
+                    { "item": "8mm_fmj", "charges": 55 }
+                ]
+            },
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boy_shorts"
+            ]
+        }
+    },
+	{
+        "type": "profession",
+        "ident": "trillionaire",
+        "name": "Trillionaire",
+        "description": "Before the apocolypse, you could've easily bank rolled a government by yourself. Now you're just another person needing to survive the hell that has consumed the world.",
+        "points": 3,
+		"skills": [
+            {
+                "level": 5,
+                "name": "speech"
+            },
+			{
+				"level": 5,
+				"name": "barter"
+			},
+			{
+				"level": 3,
+				"name": "gun"
+			},
+			{
+				"level": 2,
+				"name": "melee"
+			},
+			{
+				"level": 3,
+				"name": "pistol"
+			}
+		],
+        "items": {
+            "both":{ 
+				"items": [
+						"asuit",
+						"mbag",
+						"dress_shoes",
+						"socks",
+						"platinum_cash_card"
+					],
+			"entries": [
+                    { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+                    { "item": "sig_40", "ammo-item": "40sw", "charges": 12, "container-item": "holster" }
+                ]
+			},
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boy_shorts"
+            ]
+        }
+    },
+	{
+        "type": "profession",
+        "ident": "bio_trillionaire",
+        "name": "Bionic Trillionaire",
+        "description": "Before the apocolypse, you could've easily bank rolled a government by yourself. Now you're just another person needing to survive the hell that has consumed the world, luckily your past involved being integrated with bionics that will now help.",
+        "points": 7,
+		"CBMs":[
+            "bio_power_storage_mkII",
+			"bio_power_storage_mkII",
+			"bio_power_storage_mkII",
+			"bio_power_storage_mkII",
+			"bio_ads",
+			"bio_carbon",
+			"bio_batteries",
+			"bio_blood_anal",
+			"bio_climate",
+			"bio_ears",
+			"bio_eye_enhancer",
+			"bio_face_mask",
+			"bio_eye_optic",
+			"bio_int_enhancer",
+			"bio_metabolics",
+			"bio_nanobots",
+			"bio_night_vision",
+			"bio_recycler",
+			"bio_torsionratchet",
+			"bio_uncanny_dodge"
+        ],
+		"skills": [
+            {
+                "level": 5,
+                "name": "speech"
+            },
+			{
+				"level": 5,
+				"name": "barter"
+			},
+			{
+				"level": 3,
+				"name": "gun"
+			},
+			{
+				"level": 2,
+				"name": "melee"
+			},
+			{
+				"level": 3,
+				"name": "pistol"
+			}
+		],
+        "items": {
+            "both":{ 
+				"items": [
+						"asuit",
+						"mbag",
+						"dress_shoes",
+						"socks",
+						"platinum_cash_card"
+					],
+			"entries": [
+                    { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+                    { "item": "sig_40", "ammo-item": "40sw", "charges": 12, "container-item": "holster" }
+                ]
+			},
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boy_shorts"
+            ]
+        }
+    },
+	{
+        "type" : "profession",
+        "ident": "judgecop",
+        "name": "The Judge",
+        "description": "You are a Judge, the last line of defence used by the police before the outbreak. You were sent in when the robots couldn't do it, the SWAT team couldn't handle it, and the national guard was too much. You're possibly the last remaining Judge, make the most of it.",
+        "points": 6,
+        "CBMs":[
+            "bio_torsionratchet",
+			"bio_eye_optic",
+			"bio_eye_enhancer",
+            "bio_targeting",
+            "bio_infrared",
+            "bio_metabolics",
+            "bio_power_storage_mkII"
+        ],
+        "traits": [
+            "PROF_CYBERCOP",
+			"TERRIFYING"
+        ],
+        "skills": [
+            {
+                "level": 2,
+                "name": "gun"
+            },
+            {
+                "level": 2,
+                "name": "pistol"
+            }
+        ],
+        "items":{
+            "both": {
+                "ammo": 100,
+                "items": [
+                    "tac_fullhelmet",
+                    "chestrig",
+                    "pants_cargo",
+                    "under_armor",
+                    "socks",
+                    "boots",
+                    "badge_cybercop"
+                ],
+                "entries": [
+                    { "item": "judgerevolver", "ammo-item": "454_Casull", "container-item": "holster" },
+                    { "item": "454_Casull", "charges": 6 }
+                ]
+            },
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boxer_shorts"
+            ]
+        }
+    }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "MISSION_FIND_OPIATES",
+    "type": "mission_definition",
+    "name": "Find Junk",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 1,
+    "value": 20000,
+    "item": "heroin",
+    "count": 20,
+    "end": { "effect": [ { "u_add_var": "squatters_Missions_junk", "type": "mission", "context": "flag", "value": "yes" } ] },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_JUNKY_GO_HOME",
+    "dialogue": {
+      "describe": "Can you help a brother out..",
+      "offer": "Hey.... I've not been able to get a fix for a few days now, the crew want me to go out scavenging and earn my keep but i don't feel like i can when i'm this ill.  If you can get me some heroin to keep me ticking over for a few weeks that'd be a massive help.",
+      "accepted": "Thank you!  It's a sensitive issue and i kind of told my friends i was clean, so i'd appreciate it if you didn't tell anyone.",
+      "rejected": "Oh..Okay.",
+      "advice": "Maybe you could check out the pharmacies, they usually have the best stuff.",
+      "inquire": "How is it going? I don't mean to keep bothering you buy i feel like i'm dying here..",
+      "success": "You're Amazing! If there is anything i can do for you, just let me know!",
+      "success_lie": "You lying motherfucker!",
+      "failure": "..."
+    }
+  },
+  {
+    "id": "MISSION_JUNKY_GO_HOME",
+    "type": "mission_definition",
+    "name": "Get back to the warehouse",
+    "goal": "MGOAL_GO_TO",
+    "difficulty": 1,
+    "value": 20000,
+    "start": {
+      "effect": [ "follow_only" ],
+      "assign_mission_target": { "om_terrain": "warehouse_squat", "om_special": "Squatter Warehouse", "reveal_radius": 3 }
+    },
+    "end": {
+      "effect": [
+        "stop_following",
+        { "u_add_var": "squatters_Missions_junky_home", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_FIND_GUITAR",
+    "dialogue": {
+      "describe": "Can you help a brother out..",
+      "offer": "You really helped me out there mate, i honestly felt like i was gonna die. I tell you what, if you come back with me i'll introduce you to my friends, we have a safe space not far from the city. ",
+      "accepted": "You lead the way, I'll give you directions.",
+      "rejected": "Oh..Okay.",
+      "advice": "You got a vehicle, mucker? It should be much safer than doing the journey on foot..",
+      "inquire": "We're not quite there yet..",
+      "success": "Here we are! Home Sweet Home!",
+      "success_lie": "You lying motherfucker!",
+      "failure": "..."
+    }
+  },
+  {
+    "id": "MISSION_FIND_GUITAR",
+    "type": "mission_definition",
+    "name": "Find Acoustic Guitar",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 1,
+    "value": 20000,
+    "item": "acoustic_guitar",
+    "count": 1,
+    "end": { "effect": [ { "u_add_var": "Squat_Mission_Junky2", "type": "mission", "context": "flag", "value": "yes" } ] },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Keeping our spirits up.",
+      "offer": "Now that i feel well I've been thinking about what i can do too keep our spirits up in here, with all of us sharing this space it can get a little bit tense sometimes. If you could find me a guitar I could start writing some songs and keeping us entertained throughout the long evenings... Maybe further down the line we could even start to put a band together.",
+      "accepted": "Thanks. I don't need you to go out of your way or anything, but if you find one on your travels that'd be nice.",
+      "rejected": "No worries, it's not so important.",
+      "advice": "Maybe check out the pawn shops or a music shop, they should do it. .",
+      "inquire": "Any luck?.",
+      "success": "Wow! this is perfect, thank you!",
+      "success_lie": "And yet you have no guitar..",
+      "failure": "No worries man, like i said, it's not so important."
+    }
+  },
+  {
+    "id": "MISSION_SQUATTERS_CANNEDGOODS",
+    "type": "mission_definition",
+    "name": "Find 10 Canned Food",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 3,
+    "value": 400000,
+    "item": "can_spam",
+    "count": 20,
+    "end": { "effect": [ { "u_add_var": "Squatters_Missions_Chef1", "type": "mission", "context": "flag", "value": "yes" } ] },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_FIND_SCOTSBOOK",
+    "dialogue": {
+      "describe": "We need help...",
+      "offer": "We've got a bit of food around but we're still only a couple of bad days away from a serious problem. It would have to be made of something that would be long lasting though and adding to that I'm worried we're not getting enough meat in our systems. s Get us about Twenty cans of spam and we should be able to ride out anything that comes our way for a little while longer at least.",
+      "accepted": "It'll take a load off my shoulders if I can finally stop worrying about this.",
+      "rejected": "We'll hold for the moment, but I'll get an ulcer if I have to keep worrying. If you reconsider let me know.",
+      "advice": "Grocery stores, house kitchens, there's plenty of places to look.",
+      "inquire": "How is the search going?",
+      "success": "That's one less thing to worry about. Glad to have someone like you on our side.",
+      "success_lie": "What good does this do us?",
+      "failure": "It was a lost cause anyways..."
+    }
+  },
+  {
+    "id": "MISSION_FIND_SCOTSBOOK",
+    "type": "mission_definition",
+    "name": "Find Scots Beuk o Cuikery",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 1,
+    "value": 20000,
+    "item": "scots_cookbook",
+    "count": 1,
+    "end": { "effect": [ { "u_add_var": "Squatters_Missions_Chef2", "type": "mission", "context": "flag", "value": "yes" } ] },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "The Joys of Scottish Cuisine",
+      "offer": "Thomas has been going through a hard time lately, he's not been able to contact anyone in his home country and I think the stress of our new world, the not knowing how his loved ones have fared and kicking the junk have really been getting to him. I'd like to give him a taste of home but sadly I don't know how to cook Scottish, cuisine, If you could find me a Scotch cookbook that'd be grand.",
+      "accepted": "Thanks, there's a book that recently hit the best-sellers called Scots Beuk o Cuikery, if you can find me a copy Im sure he'd be real grateful.  I'd of course be cooking some for everybody and you're welcome to com,e eat with us.",
+      "rejected": "Oh..Okay.",
+      "advice": "Maybe you could go through the Libraries, I'm sure there will be much you would find useful yourself, too.",
+      "inquire": "Any word on that book yet?",
+      "success": "Thanks. Come back in a little and I'll have something tasty for you.",
+      "success_lie": "...",
+      "failure": "..."
+    }
+  }
+]

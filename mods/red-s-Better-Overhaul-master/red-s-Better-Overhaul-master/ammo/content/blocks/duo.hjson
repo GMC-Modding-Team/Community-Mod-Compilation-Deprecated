@@ -1,0 +1,69 @@
+name: Duo
+description: A small cheap turret. Better for ground units than air.
+health: 250
+requirements: [
+  copper/35
+]
+size: 1
+reload: 20
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 10
+shots: 2
+shootCone: 15
+reload: 20
+ammo: {
+  basic-bullet: {
+    speed: 5
+    damage: 10
+    bulletWidth: 5
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  hefty-bullet: {
+  speed: 3
+  damage: 14
+  reloadMultiplier: 0.7
+  bulletWidth: 7
+  bulletHeight: 8
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+  }
+  graphite-bullet: {
+    speed: 4
+    damage: 20
+    reloadMultiplier: 0.6
+    bulletWidth: 5
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+  }
+  fire-bullet: {
+    speed: 5
+    damage: 12
+    bulletWidth: 5
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    incendAmount: 1
+    incendChance: 1
+  }
+  home-bullet: {
+    speed: 6
+    damage: 12
+    bulletWidth: 5
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+    homingPower: 1
+    homingRange: 24
+  }
+}
+category: turret

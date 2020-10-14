@@ -1,0 +1,341 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_SUPER_SOLDIER",
+    "name": "Super Soldier",
+    "job_description": "I am guarding this place in exchange for food and shelter.",
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+        "traits": [
+			{ "group":"m_trait_distribution" },
+			{ "group":"m_hair_distribution","prob": 90 },
+			{ "group":"m_ext_distribution","prob": 30 },
+			{ "group":"m_hige_distribution","prob": 30 },
+			{ "group":"m_eye_distribution","prob": 100 },
+			{ "group":"m_skin_distribution","prob": 100 }
+        ],
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                3,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "skill": "melee",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "skill": "unarmed",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "cutting",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "skill": "stabbing",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_BIO_WEAPON",
+    "name": "Bio Weapon",
+    "job_description": "I am here to find answers...",
+    "bonus_str": {
+      "rng": [
+        2,
+        4
+      ]
+    },
+    "bonus_int": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        2,
+        4
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+        "traits": [
+			{ "group":"m_trait_distribution" },
+			{ "group":"m_hair_distribution","prob": 90 },
+			{ "group":"m_ext_distribution","prob": 30 },
+			{ "group":"m_hige_distribution","prob": 30 },
+			{ "group":"m_eye_distribution","prob": 100 },
+			{ "group":"m_skin_distribution","prob": 100 }
+        ],
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                6,
+                2
+              ]
+            },
+            {
+              "constant": -2
+            }
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "melee",
+        "bonus": {
+          "rng": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "unarmed",
+        "bonus": {
+          "rng": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            3,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "cutting",
+        "bonus": {
+          "rng": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "stabbing",
+        "bonus": {
+          "rng": [
+            2,
+            4
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SLAVE_FIGHTER",
+    "name": "Slave Fighter",
+    "job_description": "I am free...",
+    "bonus_str": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+		"traits" : [
+			{ "group":"m_trait_distribution" },
+			{ "group":"m_hair_distribution","prob": 90 },
+			{ "group":"m_ext_distribution","prob": 30 },
+			{ "group":"m_hige_distribution","prob": 30 },
+			{ "group":"m_eye_distribution","prob": 100 },
+			{ "group":"m_skin_distribution","prob": 100 }
+        ],
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                3,
+                2
+              ]
+            },
+            {
+              "constant": -2
+            }
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "melee",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "unarmed",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "cutting",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "stabbing",
+        "bonus": {
+          "rng": [
+            2,
+            3
+          ]
+        }
+      }
+    ]
+  }
+]

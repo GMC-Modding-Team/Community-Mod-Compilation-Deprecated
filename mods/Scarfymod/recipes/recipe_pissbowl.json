@@ -1,0 +1,21 @@
+[
+  {
+    "type": "recipe",
+    "result": "ammonia",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "chemistry",
+    "skills_required": [ "cooking", 2 ],
+    "difficulty": 5,
+    "time": "45 m",
+    "batch_time_factors": [ 60, 4 ],
+    "//": "Historically ammonia was produced by aging urine. Literally in a bowl. I refuse to believe that we can't accomplish that. I'll go ahead and make it more difficult to represent that we'll need higher quality. Feces used here as a stand-in for urine, though historically it was also used as a nitrogen source, so I can't imagine why it wouldn't work too.",
+    "book_learn": [ [ "adv_chemistry", 4 ], [ "textbook_chemistry", 4 ], [ "recipe_labchem", 4 ] ],
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "feces_cow", 1 ], [ "feces_roach", 1 ], [ "feces_manure", 1 ], [ "feces_bird", 1 ], [ "feces_dog", 1 ] ]
+    ]
+  }
+]

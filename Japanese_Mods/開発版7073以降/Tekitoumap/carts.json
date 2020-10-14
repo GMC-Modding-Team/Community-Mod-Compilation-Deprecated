@@ -1,0 +1,64 @@
+[
+    {
+        "type" : "vehicle",
+        "id" : "wheelchair_tmno",
+        "name" : "電動車椅子",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "xlframe_cross"},
+            {"x": 0, "y": 0, "part": "reclining_seat"},
+            {"x": 0, "y": 0, "part": "wheel_wheelchair"},
+            {"x": 0, "y": 0, "part": "storage_battery_mount"},
+            {"x": 0, "y": 0, "part": "storage_battery_removable"},
+            {"x": 0, "y": 0, "part": "engine_electric_small"},
+            {"x": 0, "y": 0, "part": "controls"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "wheelchair_tm",
+        "name" : "武装車椅子",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "superalloy_frame_tm"},
+            {"x": 0, "y": 0, "part": "folding_seat"},
+            {"x": 0, "y": 0, "part": "wheel_wheelchair"},
+            {"x": 0, "y": 0, "part": "hand_rims"},
+            {"x": 0, "y": 0, "part": "mounted_m1918"}
+        ]
+    },{
+        "type" : "vehicle",
+        "id" : "meatfridge_cart",
+        "name" : "冷蔵庫",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "xlframe_vertical_2"},
+            {"x": 0, "y": 0, "part": "wheel_caster"},
+            {"x": 0, "y": 0, "part": "storage_battery"},
+            {"x": 0, "y": 0, "part": "minifridge"},
+            {"x": 0, "y": 0, "part": "controls_electronic"}
+        ],
+        "items" : [
+            {"x": 0, "y": 0, "chance": 60, "item_groups": ["meat_cart"]},
+            {"x": 0, "y": 0, "chance": 60, "item_groups": ["meat_cart"]},
+            {"x": 0, "y": 0, "chance": 60, "item_groups": ["meat_cart"]}
+        ]
+    },
+    {
+        "type" : "vehicle",
+        "id" : "vegefridge_cart",
+        "name" : "冷蔵庫",
+        "blueprint" : "#",
+        "parts" : [
+            {"x": 0, "y": 0, "part": "xlframe_vertical_2"},
+            {"x": 0, "y": 0, "part": "wheel_caster"},
+            {"x": 0, "y": 0, "part": "storage_battery"},
+            {"x": 0, "y": 0, "part": "minifridge"},
+            {"x": 0, "y": 0, "part": "controls_electronic"}
+        ],
+        "items" : [
+            {"x": 0, "y": 0, "chance": 60, "item_groups": ["vege_cart"]},
+            {"x": 0, "y": 0, "chance": 60, "item_groups": ["vege_cart"]},
+            {"x": 0, "y": 0, "chance": 60, "item_groups": ["vege_cart"]}
+]
+}
+]

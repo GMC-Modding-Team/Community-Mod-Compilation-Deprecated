@@ -1,0 +1,170 @@
+[
+    {
+        "id": "unbio_gill_vo",
+        "type": "TOOL_ARMOR",
+        "category" : "clothing",
+        "symbol": "[",
+        "color": "dark_gray",
+        "name" : "酸素供給装置付きマスク",
+        "description": "リブリーザーマスクを改造して作られた酸素供給装置付きのマスクです。CBMの力によりただ電力を消費するだけで水中での呼吸を可能にします。他のものは一切必要ありません。",
+        "flags" : ["WATER_FRIENDLY","OVERSIZE"],
+        "price": 25000,
+        "material": ["plastic", "aluminum"],
+        "weight" : 1130,
+        "volume": 3,
+        "to_hit" : -3,
+        "max_charges": 100,
+        "charges_per_use": 1,
+        "use_action": {
+            "type": "transform",
+            "msg": "You activate your %s.",
+            "target": "unbio_gill_vo_on",
+            "active": true,
+            "need_charges": 1,
+            "need_charges_msg": "The %s's batteries are dead."
+        },
+        "covers" : ["MOUTH"],
+        "warmth" : 10,
+        "environmental_protection" : 1,
+        "encumbrance" : 30,
+        "coverage" : 100,
+        "material_thickness" : 1
+    },
+    {
+        "id": "unbio_gill_vo_on",
+        "type": "TOOL_ARMOR",
+        "category" : "clothing",
+        "symbol": "[",
+        "color": "dark_gray",
+        "name" : "酸素供給装置付きマスク(オン)",
+        "description": "リブリーザーマスクを改造して作られた酸素供給装置付きのマスクです。CBMの力によりただ電力を消費するだけで水中での呼吸を可能にします。他のものは一切必要ありません。現在起動中です。",
+        "flags" : ["WATER_FRIENDLY","OVERSIZE", "REBREATHER", "TRADER_AVOID"],
+        "price": 25000,
+        "material": ["plastic", "aluminum"],
+        "weight" : 1130,
+        "volume": 3,
+        "to_hit" : -3,
+        "max_charges": 100,
+        "revert_to": "unbio_gill_vo",
+        "turns_per_charge": 1,
+        "use_action": {
+            "type": "transform",
+            "menu_text": "Turn off",
+            "msg": "Your %s deactivates.",
+            "target": "unbio_gill_vo"
+        },
+        "covers" : ["MOUTH"],
+        "warmth" : 10,
+        "environmental_protection" : 15,
+        "encumbrance" : 0,
+        "coverage" : 100,
+        "material_thickness" : 1
+    },
+    {
+	    "id": "snorkel_mizu",
+	    "type": "ARMOR",
+	    "name": "シュノーケル",
+        "category" : "clothing",
+        "symbol": "[",
+        "color": "dark_gray",
+	    "description": "水中でも呼吸を行えるようにするための用具です。ただし慣れないうちは息苦しく感じるでしょう。",
+        "flags" : ["WATER_FRIENDLY", "REBREATHER", "TRADER_AVOID"],
+        "price": 500,
+        "material": ["plastic"],
+        "weight" : 150,
+        "volume": 4,
+        "to_hit" : -3,
+        "covers" : ["MOUTH"],
+        "encumbrance" : 40,
+        "coverage" : 75,
+        "material_thickness" : 1
+    },
+    {
+	    "id": "snorkel_makeshift_mizu",
+	    "type": "ARMOR",
+	    "name": "簡易シュノーケル",
+        "category" : "clothing",
+        "symbol": "[",
+        "color": "dark_gray",
+	    "description": "ダクトテープとゴムホースで作られたシュノーケルもどきです。なんとか息は吸えるようです・・・。",
+        "flags" : ["WATER_FRIENDLY", "REBREATHER", "TRADER_AVOID","FRAGILE"],
+        "price": 500,
+        "material": ["plastic"],
+        "weight" : 350,
+        "volume": 5,
+        "to_hit" : -3,
+        "covers" : ["MOUTH"],
+        "encumbrance" : 60,
+        "coverage" : 75,
+        "material_thickness" : 1
+    },
+  {
+    "result": "snorkel_makeshift_mizu",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": 5000,
+    "autolearn": true,
+    "components": [ [ [ "hose", 1 ] ],[[ "duct_tape", 50 ]] ]
+  },
+  {
+    "result": "shark_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 200000,
+    "book_learn": [ [ "manual_swimming", 3 ] ],
+    "tools": [
+      [ [ "boltcutters", -1 ],[ "hacksaw", -1 ] ],
+      [ [ "pliers", -1 ] ],
+      [ [ "pipe", -1 ] ]
+    ],
+    "components": [
+      [ [ "wire", 5 ] ],
+      [ [ "helmet_army", 1 ],[ "tac_helmet", 1 ],[ "helmet_lobster", 1 ] ],
+      [ [ "chainmail_hood", 1 ] ],
+      [ [ "chainmail_vest", 1 ] ],
+      [ [ "chainmail_arms", 1 ] ],
+      [ [ "chainmail_legs", 1 ] ],
+      [ [ "boots_combat", 1 ] ]
+    ]
+  },
+{
+  "type" : "recipe",
+  "result": "unbio_gill_vo",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_OTHER",
+  "skill_used": "electronics",
+  "skills_required": ["mechanics",10],
+  "difficulty": 10,
+  "time": 300000,
+  "reversible": false,
+  "autolearn": false,
+  "book_learn": [[ "recipe_mil_augs", 10 ]],
+  "qualities":[
+    {"id":"SAW_M_FINE","level":1},
+    {"id":"SCREW_FINE","level":1},
+    {"id":"WRENCH_FINE","level":1},
+    {"id":"GLARE","level":2}
+  ], "tools": [
+    [
+      ["oxy_torch", 20], ["welder", 100], ["welder_crude", 150], ["toolset", 150]
+    ]
+  ],
+  "components": [
+    [
+      [ "cable", 20 ]
+    ],
+    [
+      [ "bio_gills", 1 ]
+    ],
+    [
+      [ "rebreather", 1 ]
+    ]
+  ]
+}
+]

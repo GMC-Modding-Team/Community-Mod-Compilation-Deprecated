@@ -1,0 +1,129 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "warehouse_squat" ],
+    "weight": 500,
+    "object": {
+	"faction_owner": [
+       { "id": "outsiders", "x": [ 1, 23 ], "y": [ 2, 22 ] }
+       ],
+      "fill_ter": "t_floor",
+      "rows": [
+        "....S.SSSSSSSSSSSS......",
+        "zzzzSzSSSSSSSSSSSSzzzzzz",
+        ".---3-MMMMMMMMMMMM-----.",
+        ".|11 6            w111|.",
+        ".|1                 11|.",
+        ".|1                  1|.",
+        ".| 1                 1|.",
+        ".|                    |.",
+        ".|IIIIII              |.",
+        ".|8886RI              |.",
+        ".|     I              |.",
+        ".|9 6                 |.",
+        ".|9NN6                |.",
+        ".|9NN6                |.",
+        ".|9NN  I              |.",
+        ".|-  55-              |.",
+        ".|5    |@      I IIIII|.",
+        ".|5    |      II     B|.",
+        ".OS   5|c#    IR RI   |.",
+        ".|G   5|~##1  IR RI  B|.",
+        "z|5@555|~ #11 IPRRIB B|z",
+        "z---O------------------z",
+        "z^^zzzz^^zz^^zz^^zzzz^^z",
+        "zzzz..zzzzzzzzzzzz..zzzz"
+      ],
+      "place_zones": [
+        { "type": "NPC_INVESTIGATE_ONLY", "faction": "outsiders", "x": [ 1, 23 ], "y": [ 2, 22 ] }
+              ],
+      "set": [
+        { "point": "terrain", "id": "t_dirt", "x": 23, "y": [ 0, 23 ], "repeat": [ 5, 10 ] },
+        { "point": "terrain", "id": "t_dirt", "x": [ 0, 23 ], "y": 23, "repeat": [ 5, 8 ] },
+        { "point": "terrain", "id": "t_tree_pine", "x": [ 0, 5 ], "y": 0, "repeat": [ 0, 1 ] },
+        { "point": "terrain", "id": "t_tree_pine", "x": [ 18, 23 ], "y": 0, "repeat": [ 0, 1 ] },
+        { "point": "terrain", "id": "t_shrub", "x": 0, "y": [ 2, 19 ], "repeat": [ 1, 4 ] },
+        { "point": "terrain", "id": "t_shrub", "x": 23, "y": [ 2, 19 ], "repeat": [ 1, 4 ] },
+        { "point": "terrain", "id": "t_tree_pine", "x": 0, "y": [ 2, 19 ], "repeat": [ 0, 2 ] },
+        { "point": "terrain", "id": "t_tree_pine", "x": 23, "y": [ 2, 19 ], "repeat": [ 0, 2 ] },
+        { "point": "trap", "id": "tr_funnel", "x": 6, "y": 1 },
+        { "point": "trap", "id": "tr_cot", "x": 13, "y": 20 },
+        { "point": "trap", "id": "tr_rollmat", "x": 9, "y": 20 }
+      ],
+      "terrain": {
+        " ": "t_floor",
+        "-": "t_wall",
+        ".": "t_grass",
+        "1": "t_floor",
+        "2": "t_floor",
+        "3": "t_door_locked",
+        "4": "t_floor",
+        "5": "t_floor",
+        "6": "t_floor",
+        "7": "t_floor",
+        "8": "t_floor",
+        "9": "t_floor",
+        "B": "t_floor",
+        "#": "t_floor",
+        "@": "t_floor",
+        "M": "t_door_metal_locked",
+        "O": "t_window_boarded",
+        "S": "t_sidewalk",
+        "^": "t_tree_pine",
+        "w": "t_gates_mech_control",
+        "z": "t_shrub",
+        "|": "t_wall",
+        "~": "t_floor",
+        "c": "t_floor",
+        "o": "t_floor",
+        "I": "t_wall_wood"
+      },
+      "furniture": {
+        "1": "f_crate_c",
+        "2": "f_sink",
+        "5": "f_counter",
+        "6": "f_chair",
+        "7": "f_desk",
+        "8": "f_bookcase",
+        "9": "f_sofa",
+        "@": "f_trashcan",
+        "#": "f_canvas_wall",
+        "~": "f_groundsheet",
+        "c": [ "f_canvas_door", "f_canvas_door_o" ],        
+        "B": "f_makeshift_bed", 
+        "o": "f_bookcase",
+        "N": "f_table",
+        "P": "f_pillow_fort",
+        "R": "f_rack",
+        "G": "f_brazier",
+        "S": "f_sink"
+      },
+      "toilets": { "4": {  } },
+      "place_items": [
+        { "item": "home_hw", "x": [ 3, 20 ], "y": [ 3, 20 ], "chance": 4 },
+        { "item": "cannedfood", "x": [ 2 ], "y": [ 16 ], "chance": 100 },
+        { "item": "softdrugs", "x": [ 3 ], "y": [ 12 ], "chance": 100 },
+        { "item": "bed", "x": [ 9 ], "y": [ 20 ], "chance": 100 },
+        { "item": "bed", "x": [ 15 ], "y": [ 20 ], "chance": 100 },
+        { "item": "bed", "x": [ 19 ], "y": [ 20 ], "chance": 100 },
+        { "item": "bed", "x": [ 21 ], "y": [ 20 ], "chance": 100 },
+        { "item": "bed", "x": [ 21 ], "y": [ 19 ], "chance": 100 },
+        { "item": "bed", "x": [ 21 ], "y": [ 17 ], "chance": 100 }
+       ],
+      "place_loot" : [
+        { "group": "homebooks", "chance": 80, "repeat": [ 8 ], "x": [ 2 , 4 ], "y": [ 9 ] }
+		
+      ],
+      "place_npcs": [
+        { "class": "squat_chef", "x": 6, "y": 16 },
+        { "class": "squat_hacker", "x": 2, "y": 13 }
+
+      ],
+      "place_vehicles": [
+        { "vehicle": "bicycle", "x": 2, "y": 1, "chance": 100 },
+        { "vehicle": "squat_rv", "x": 20, "y": 13, "chance": 100, "rotation": 90 }
+      ]
+    }
+  }
+]

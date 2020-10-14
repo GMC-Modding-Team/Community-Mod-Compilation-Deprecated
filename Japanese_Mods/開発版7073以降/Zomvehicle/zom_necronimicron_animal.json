@@ -1,0 +1,205 @@
+[
+  {
+    "id" : "minion_dormant_dog_skeleton",
+    "type": "WHEEL",
+    "copy-from": "minion_dormant",
+    "name": "痩身犬(休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "diameter": 10,
+    "width": 3,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_dog_skeleton",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_dog_zombie_rot",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "腐敗犬(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 10,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_dog_zombie_rot",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_dog",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "ゾンビ犬(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 20,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_dog",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_dog_zombie_cop",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "警察犬ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 30,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_dog_zombie_cop",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_zombear",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "ゾンビ熊(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 30,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombear",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_bear_smoky",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "煙幕グマ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 60,
+    "category": "tools",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_50" ],
+	"gun_data" : {
+	    "ammo" : "bfeed",
+	    "skill": "launcher",
+	    "range": 1,
+	    "dispersion": 500,
+	    "sight_dispersion": 150,
+	    "durability": 5,
+	    "clip_size": 50,
+	    "ammo_effects": ["SMOKE_BIG","WIDE"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_bear_smoky",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_zoose",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "ヘラジカゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 120,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zoose",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_zolf",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "狼ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 45,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zolf",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_zougar",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "ピューマゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 45,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zougar",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_pig",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "豚ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 30,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_pig",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  }
+]

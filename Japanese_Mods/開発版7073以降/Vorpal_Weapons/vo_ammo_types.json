@@ -1,0 +1,145 @@
+[
+    {
+        "type" : "ammunition_type",
+        "id" : "dummy_vo",
+        "name" : "MOD",
+        "default" : "dummy_vo"
+    },
+    {   "type" : "AMMO",
+        "id" : "dummy_vo",
+        "name" : "ダミー弾",
+        "symbol" : "=",
+        "color" : "light_gray",
+        "description" : "ダミー用の目に見えない何かです。",
+        "material" : "stone",
+        "volume" : 0,
+        "weight" : 0,
+        "ammo_type" : "dummy_vo",
+        "damage" : 0,
+        "range" : 0,
+        "dispersion" : 0,
+        "loudness" : 0,
+        "count" : 1,
+        "effects" : ["NEVER_MISFIRES"]
+    },
+    {
+        "type" : "ammunition_type",
+        "id" : "water_clean_vo",
+        "name" : "綺麗な水",
+        "default" : "water_clean"
+    },
+  {
+    "id": "water_clean",
+    "copy-from": "water",
+    "type": "COMESTIBLE",
+    "name": "clean water",
+    "name_plural": "clean water",
+    "description": "Fresh, clean water.  Truly the best thing to quench your thirst.",
+    "ammo_data": { "ammo_type": [ "water", "water_clean_vo" ]},
+    "color": "light_cyan"
+  },
+    {
+        "type" : "ammunition_type",
+        "id" : "blood_clearn_vo",
+        "name" : "輸血用パック",
+        "default" : "blood_clearn_vo"
+    },
+    {
+        "type" : "AMMO",
+        "id" : "blood_clearn_vo",
+        "name" : "輸血用血液",
+        "name_plural" : "輸血用血液",
+        "color" : "red",
+        "symbol" : "~",
+        "description" : "清潔に保たれた血です。",
+        "price" : 40000,
+        "weight" : 50,
+        "volume" : 1,
+        "category" : "spare_parts",
+        "ammo_type" : "blood_clearn_vo",
+	    "phase" : "liquid",
+        "damage" : 0,
+        "range" : 0,
+        "dispersion" : 0,
+        "recoil" : 0,
+        "count" : 20,
+        "effects" : ["NEVER_MISFIRES"]
+    },
+    {
+    "type" : "TOOL",
+    "id": "blood_clean_off_vo",
+    "category" : "drugs",
+    "name": "輸血用パック（オフ）",
+    "name_plural": "輸血用パック（オフ）",
+    "description" : "清潔に保たれた輸血用パックです。そのまま使用できます。",
+    "weight": 30,
+    "symbol": "%",
+    "color": "red",
+    "addiction_type" : "none",
+    "flags": ["NO_UNLOAD"],
+    "price": 100,
+    "material": ["plastic"],
+    "tool" : "blood_transfusion_off_vo",
+    "volume" : 1,
+    "charges" : 10,
+    "max_charges": 10,
+    "initial_charges": 10,
+    "ammo": "blood_clearn_vo",
+    "revert_to": "null",
+    "use_action":[
+	    {
+        "type": "transform",
+        "msg": "輸血を始めた。",
+        "active": true,
+        "target": "blood_clean_on_vo",
+        "need_charges": 1
+    	}
+	]
+    },
+  {
+    "id": "blood_clean_on_vo",
+    "type": "TOOL",
+    "category" : "drugs",
+    "symbol": "%",
+    "color": "red",
+    "name": "輸血用パック（オン）",
+    "description" : "清潔に保たれた輸血用パックです。血が自分の中に入っていくのを見るのは変な感じですね。",
+    "price": 100,
+    "material": ["plastic"],
+    "weight": 30,
+    "volume": 1,
+    "flags": ["NO_UNLOAD"],
+    "max_charges": 10,
+    "turns_per_charge": 1,
+    "ammo": "blood_clearn_vo",
+    "revert_to": "blood_clean_empty_vo",
+    "use_action":[
+	    "ARTIFACT",{
+        "type": "transform",
+        "msg": "輸血を止めた。",
+        "target": "blood_clean_off_vo",
+        "need_charges": 0
+    	}
+	],
+    "artifact_data" : {
+    "effects_activated": ["AEA_HEAL"]
+    }
+  },
+  {
+    "id": "blood_clean_empty_vo",
+    "type": "TOOL",
+    "category" : "spare_parts",
+    "symbol": "%",
+    "color": "white",
+    "name": "輸血用パック（空）",
+    "name_plural": "輸血用パック（空）",
+    "description" : "空っぽの輸血用パックです。綺麗に洗えば再利用できます。たぶん大丈夫でしょう。",
+    "price": 100,
+    "material": ["plastic"],
+    "weight": 30,
+    "volume": 1,
+    "flags": ["NO_UNLOAD"],
+    "ammo": "blood_clearn_vo",
+    "revert_to": "null"
+  }
+]

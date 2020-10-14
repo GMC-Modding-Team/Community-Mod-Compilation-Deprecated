@@ -1,0 +1,168 @@
+[
+{
+  "type" : "recipe",
+  "result": "brick",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "fabrication",
+  "difficulty": 2,
+  "time": 40000,
+  "batch_time_factors":[80, 4],
+  "autolearn": true,
+  "tools": [
+    [ [ "brick_kiln", 60 ] ]
+    ],
+  "components":
+    [
+     [
+     [ "clay_lump", 1]
+     ],
+     [
+     [ "water", 1 ],
+     [ "water_clean", 1 ]
+     ]
+    ]
+},{
+  "type" : "recipe",
+  "result": "mortar_build",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_OTHER",
+  "skill_used": "fabrication",
+  "difficulty": 2,
+  "time": 30000,
+  "batch_time_factors":[80, 4],
+  "autolearn": true,
+  "tools": [
+[
+    ["con_mix", 50]
+    ]
+    ],
+  "components":
+    [
+     [
+    [ "material_cement", 50]
+     ],
+     [
+    [ "pebble", 20]
+     ]
+    ]
+},{
+  "type" : "recipe",
+  "result": "concrete",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_OTHER",
+  "skill_used": "fabrication",
+  "difficulty": 4,
+  "time": 30000,
+  "batch_time_factors":[80, 4],
+  "autolearn": true,
+  "tools": [
+    [
+    ["con_mix", 50]
+    ]
+    ],
+  "components":
+    [
+     [
+     [ "material_cement", 50]
+     ],
+     [
+     [ "material_sand", 25]
+     ],
+     [
+     [ "pebble", 20]
+     ],
+     [
+     [ "water_clean", 5],
+     [ "water", 5]
+     ]
+    ]
+  },{
+  "type" : "recipe",
+  "result": "material_quicklime",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "fabrication",
+  "skills_required": [ "cooking", 2 ],
+  "difficulty": 3,
+  "time": 90000,
+  "batch_time_factors":[80, 4],
+  "autolearn": true,
+  "tools": [
+    [
+    ["crucible", -1],
+    ["crucible_clay", -1]
+    ],
+    [
+    ["forge", 250], [ "oxy_torch", 50]
+    ]
+    ],
+  "components": [
+    [
+    [ "material_limestone", 50 ]
+    ]
+  ]
+ },{
+  "type" : "recipe",
+  "result": "material_cement",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_OTHER",
+  "skill_used": "fabrication",
+  "skills_required": [ "cooking", 3 ],
+  "difficulty": 4,
+  "time": 90000,
+  "batch_time_factors":[80, 4],
+  "autolearn": true,
+  "tools": [
+    [
+    ["crucible", -1],
+    ["crucible_clay", -1]
+    ],
+    [
+    ["forge", 250], [ "oxy_torch", 50]
+    ]
+    ],
+  "components": [
+    [
+    [ "material_quicklime", 50 ]
+    ],
+    [
+    [ "material_sand", 50 ]
+    ]
+  ]
+},
+  {
+    "result": "material_sand",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "survival",
+	"skills_required": ["fabrication",3],
+    "difficulty": 3,
+    "time": 30000,
+    "autolearn": true,
+    "tools": [
+		 [ [ "jackhammer", 100 ],[ "elec_jackhammer", 100 ] ],
+		 [ [ "hard_plate", -1 ] ]
+	],
+    "components": [ 
+  		[ [ "rock", 3 ] ]
+  	]
+  },
+  {
+    "result": "material_sand",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": 3000,
+    "autolearn": true,
+    "tools": [
+		 [ [ "crushing_machine_vo", 50 ] ]
+	],
+    "components": [ 
+  		[ [ "rock", 3 ] ]
+  	]
+  }
+]

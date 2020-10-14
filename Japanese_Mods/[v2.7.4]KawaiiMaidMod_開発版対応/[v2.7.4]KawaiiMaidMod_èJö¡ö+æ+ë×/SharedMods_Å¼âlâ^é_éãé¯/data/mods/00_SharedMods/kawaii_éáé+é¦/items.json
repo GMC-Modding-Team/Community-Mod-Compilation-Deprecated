@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kawaii_sm_ahoge",
+    "type": "ARMOR",
+    "name": "あほげ[SM]",
+    "description": "Kawaii向けあほげです。知能が下がりそうです。(下がりません)",
+    "weight": 10,
+    "volume": 1,
+    "price": 5000,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "white",
+    "covers": [ "HEAD" ],
+    "coverage": 70,
+    "encumbrance": 5,
+    "warmth": 15,
+    "material_thickness": 1,
+    "flags": [ "FANCY" ]
+  },
+  {
+    "result": "kawaii_sm_ahoge",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "difficulty": 0,
+    "time": 1000,
+    "autolearn": true,
+    "components": [
+      [ [ "rag", 1 ] ]
+    ]
+  }
+]

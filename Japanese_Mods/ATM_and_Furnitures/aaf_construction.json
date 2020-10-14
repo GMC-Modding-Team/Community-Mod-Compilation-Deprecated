@@ -1,0 +1,335 @@
+[
+  {
+    "type": "construction",
+    "description": "ATM To set up",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 150,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [ [ "aaf_atm_module", 1 ]]
+    ],
+    "post_terrain": "t_atm"
+  },{
+    "type": "construction",
+    "description": "Install a recycling machine",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 150,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [ [ "aaf_recycler", 1 ]]
+    ],
+    "post_terrain": "t_recycler"
+  },{
+    "type": "construction",
+    "description": "CVD Install the equipment",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 100,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [["processor"       ,  1]],
+      [["RAM"             ,  1]],
+      [["cable"           , 10]],
+      [["circuit"         ,  2]],
+      [["power_supply"    ,  1]],
+      [["amplifier"       ,  1]],
+      [["plastic_chunk"   ,  5]],
+      [["scrap"           ,  5]],
+      [["solar_cell"      ,  1]],
+      [["sheet_metal"     ,  2] ,
+       ["steel_plate"     ,  1]]
+    ],
+    "post_terrain": "t_cvdbody"
+  },{
+    "type": "construction",
+    "description": "CVD Install the operation panel",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 100,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [["aaf_cvd_module"  ,  1]],
+      [["processor"       ,  1]],
+      [["RAM"             ,  1]],
+      [["cable"           , 10]],
+      [["small_lcd_screen",  1]],
+      [["e_scrap"         ,  2]],
+      [["circuit"         ,  2]],
+      [["power_supply"    ,  1]],
+      [["amplifier"       ,  2]],
+      [["plastic_chunk"   ,  5]],
+      [["scrap"           ,  5]],
+      [["solar_cell"      ,  1]],
+      [["sheet_metal"     ,  2] ,
+       ["steel_plate"     ,  1]]
+    ],
+    "post_terrain": "t_cvdmachine"
+  },{
+    "type": "construction",
+    "description": "Make an oven",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}]
+    ],
+    "components": [
+      [["sheet_metal"  ,  2]],
+      [["scrap"        ,  6],
+       ["steel_chunk"  ,  3]],
+      [["nail"         ,  8]],
+      [["element"      ,  4]],
+      [["pilot_light"  ,  1]]
+    ],
+    "post_terrain": "f_oven"
+  },{
+    "type": "construction",
+    "description": "Make a sink",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}]
+    ],
+    "components": [
+      [["pipe"         ,  1]],
+      [["sheet_metal"  ,  2]],
+      [["nail"         ,  8]],
+      [["water_faucet" ,  1]],
+      [["ceramic_shard",  8]]
+    ],
+    "post_terrain": "f_sink"
+  },{
+    "type": "construction",
+    "description": "Making a bathtub",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}]
+    ],
+    "components": [
+      [["pipe"         ,  1]],
+      [["sheet_metal"  ,  2]],
+      [["nail"         ,  8]],
+      [["water_faucet" ,  1]],
+      [["ceramic_shard",  8]]
+    ],
+    "post_terrain": "f_bathtub"
+  },{
+    "type": "construction",
+    "description": "To make a toilet",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}]
+    ],
+    "components": [
+      [["pipe"         ,  1]],
+      [["sheet_metal"  ,  1]],
+      [["nail"         ,  8]],
+      [["ceramic_shard",  8]]
+    ],
+    "post_terrain": "f_toilet"
+  },{
+    "type": "construction",
+    "description": "Make a washing machine",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 200,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [["pipe"         ,  4]],
+      [["sheet_metal"  ,  6]],
+      [["plastic_chunk", 10]],
+      [["scrap"        , 10]],
+      [["power_supply" ,  1]],
+      [["amplifier"    ,  2]],
+      [["solar_cell"   ,  1]],
+      [["hose"         ,  2]],
+      [["water_faucet" ,  1]],
+      [["motor_small"  ,  2],
+       ["motor"        ,  1]]
+    ],
+    "post_terrain": "f_washer"
+  },{
+    "type": "construction",
+    "description": "Making a dryer",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 200,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [["pipe"         ,  4]],
+      [["sheet_metal"  ,  6]],
+      [["plastic_chunk", 10]],
+      [["scrap"        , 10]],
+      [["power_supply" ,  1]],
+      [["amplifier"    ,  2]],
+      [["solar_cell"   ,  2]],
+      [["hose"         ,  1]],
+      [["element"      ,  8]],
+      [["motor_small"  ,  2],
+       ["motor"        ,  1]]
+    ],
+    "post_terrain": "f_dryer"
+  },{
+    "type": "construction",
+    "description": "Make a shower room",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 200,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [["pipe"         , 12]],
+      [["sheet_metal"  ,  8]],
+      [["plastic_chunk", 20]],
+      [["scrap"        , 15]],
+      [["power_supply" ,  1]],
+      [["amplifier"    ,  2]],
+      [["solar_cell"   ,  2]],
+      [["hose"         ,  4]],
+      [["water_faucet" ,  1]],
+      [["element"      ,  4]],
+      [["motor_small"  ,  2],
+       ["motor"        ,  1]]
+    ],
+    "post_terrain": "f_shower"
+  },{
+    "type": "construction",
+    "description": "Make a billiard table",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 60,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "SAW_W" , "level": 2}]
+    ],
+    "components": [
+      [["2x4"          ,  4]],
+      [["rag"          ,  4]],
+      [["nail"         ,  8]]
+    ],
+    "post_terrain": "f_pool_table"
+  },{
+    "type": "construction",
+    "description": "Make a trash can",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["plastic_chunk",  2]]
+    ],
+    "post_terrain": "f_trashcan"
+  },{
+    "type": "construction",
+    "description": "Make a shutter and hoisting machine",
+    "category": "FURN",
+    "difficulty": 7,
+    "time": 300,
+    "tools": [
+      [["oxy_torch", 150],["welder", 150],["welder_crude", 150],["toolset", 150]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW" , "level": 1}],
+      [{"id": "WRENCH", "level": 1}]
+    ],
+    "components": [
+      [["pipe"         ,  8]],
+      [["sheet_metal"  , 16] ,
+       ["steel_plate"  ,  8]],
+      [["scrap"        ,  8]],
+      [["foot_crank"   ,  1]],
+      [["chain"        ,  2]]
+    ],
+    "post_terrain": "t_gates_mech_control"
+  },{
+    "type": "construction",
+    "description": "Burial corpses",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 60,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "DIG"   , "level": 1}]
+    ],
+    "components": [
+      [["rock"        , 5]],
+      [["corpse"      , 1] ,
+       ["bone_human"  , 1] ,
+       ["bone_tainted", 1] ,
+       ["bone"        , 1]]
+    ],
+    "post_terrain": "f_grave_head"
+  },{
+    "type": "construction",
+    "description": "Make a gravestone stone",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["rock", 5]]
+    ],
+    "post_terrain": "f_grave_stone"
+  }
+]

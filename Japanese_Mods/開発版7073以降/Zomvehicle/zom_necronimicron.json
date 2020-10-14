@@ -1,0 +1,2559 @@
+[
+  {
+    "id" : "minion_dormant_skeleton",
+    "copy-from": "minion_dormant",
+    "type": "TOOL",
+    "name": "スケルトン(フレーム/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_skeleton",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_beekeeper",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "負傷ゾンビ(トランク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_beekeeper",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_shrieker",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "絶叫ゾンビ(警笛/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_shrieker",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_screecher",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "悲鳴ゾンビ(警笛/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_screecher",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_swimmer",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "水泳ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 30,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_swimmer",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_mancroc",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "噛付ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 60,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_mancroc",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_child",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "子供ゾンビ(座席/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_child",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_fiend",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "悪鬼(装甲/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_fiend",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_crawler",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "爬行ゾンビ(フレーム/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "zombie_crawler",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_rot",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "腐敗ゾンビ(装甲/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_rot",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_fat",
+    "copy-from": "minion_dormant",
+    "type": "WHEEL",
+    "name": "肥満ゾンビ(浮輪/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "diameter": 30,
+    "width": 20,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_fat",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_survivor",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "サバイバーゾンビ(トランク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_survivor",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_biter",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "涎垂ゾンビ(スパイク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_biter",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_shady",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "冥暗ゾンビ(カーテン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_shady",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_cop",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "警官ゾンビ(ヘッドライト/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_cop",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_fireman",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "消防士ゾンビ(水栓/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_fireman",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_soldier",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "兵士ゾンビ(装甲/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_soldier",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_runner",
+    "copy-from": "minion_dormant",
+    "type": "WHEEL",
+    "name": "フェラルランナー(ホイール/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "diameter": 11,
+    "width": 4,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_runner",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_hunter",
+    "copy-from": "minion_dormant",
+    "type": "WHEEL",
+    "name": "フェラルハンター(ホイール/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "diameter": 17,
+    "width": 9,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_hunter",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_predator",
+    "copy-from": "minion_dormant",
+    "type": "WHEEL",
+    "name": "フェラルプレデター(ホイール/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "diameter": 24,
+    "width": 14,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_predator",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_grabber",
+    "copy-from": "minion_dormant",
+    "type": "TOOL",
+    "name": "長腕ゾンビ(フレーム/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_grabber",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_grappler",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "長腕組手ゾンビ(フレーム/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_grappler",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_hollow",
+    "type": "CONTAINER",
+    "copy-from": "minion_dormant",
+    "name": "空洞ゾンビ(タンク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "contains": 30,
+    "seals": true,
+    "watertight": true,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_hollow",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_tough",
+    "type": "WHEEL",
+    "copy-from": "minion_dormant",
+    "name": "頑強ゾンビ(ホイール/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "diameter": 32,
+    "width": 20,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_tough",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_brute",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "凶暴ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 60,
+    "category": "tools",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_brute",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_hulk",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "巨体ゾンビ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "category": "tools",
+    "displacement": 90,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_hulk",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_brute_grappler",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "格闘ゾンビ(スパイク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_brute_grappler",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_brute_ninja",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "夜行ゾンビ(クレーン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_brute_ninja",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_acidic",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "弱酸ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "ammo": "bfeed",
+	    "skill": "launcher",
+	    "ranged_damage": 0,
+	    "range": 3,
+	    "dispersion": 500,
+	    "sight_dispersion": 150,
+	    "durability": 10,
+	    "clip_size": 20,
+	    "ammo_effects": ["ACIDBOMB","JET","WIDE"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_acidic",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_spitter",
+    "copy-from": "minion_dormant",
+    "type": "TOOL",
+    "name": "強酸ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "ammo": "bfeed",
+	    "skill": "launcher",
+	    "ranged_damage": 0,
+	    "range": 9,
+	    "dispersion": 500,
+	    "sight_dispersion": 150,
+	    "durability": 10,
+	    "clip_size": 20,
+	    "ammo_effects": ["ACIDBOMB","JET","WIDE"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_spitter",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_corrosive",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "腐食ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "ammo": "bfeed",
+	    "skill": "launcher",
+	    "ranged_damage": 0,
+	    "range": 9,
+	    "dispersion": 500,
+	    "sight_dispersion": 150,
+	    "durability": 10,
+	    "clip_size": 20,
+	    "ammo_effects": ["ACIDBOMB","JET","WIDE","BEANBAG"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_corrosive",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_electric",
+    "copy-from": "minion_dormant",
+    "type": "TOOL",
+    "name": "放電ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "skill": "launcher",
+	    "ammo": "bfeed",
+	    "range": 8,
+	    "ranged_damage": 15,
+	    "pierce": 10,
+	    "durability": 8,
+	    "clip_size": 20,
+	    "ammo_effects": ["LIGHTNING","WIDE"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_electric",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_brute_shocker",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "放電凶獣(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_50" ],
+	"gun_data" : {
+	    "skill": "launcher",
+	    "ammo": "bfeed",
+	    "range": 8,
+	    "ranged_damage": 15,
+	    "pierce": 10,
+	    "durability": 8,
+	    "clip_size": 50,
+	    "ammo_effects": ["LIGHTNING","BOUNCE","WIDE"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_brute_shocker",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_smoker",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "煙幕ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "ammo" : "bfeed",
+	    "skill": "launcher",
+	    "range": 10,
+	    "dispersion": 500,
+	    "sight_dispersion": 150,
+	    "durability": 5,
+	    "clip_size": 20,
+	    "ammo_effects": ["SMOKE","TRAIL","JET"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_smoker",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_boomer",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "ブーマー(タンク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ],
+	"gun_data" : {
+	    "ammo": "water",
+	    "skill": "launcher",
+	    "range": 5,
+	    "dispersion": 450,
+	    "sight_dispersion": 250,
+	    "clip_size": 3,
+	    "durability": 10
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_boomer",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_boomer_huge",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "巨体ブーマー(タンク/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ],
+	"gun_data" : {
+	    "ammo": "water",
+	    "skill": "launcher",
+	    "range": 10,
+	    "dispersion": 450,
+	    "sight_dispersion": 150,
+	    "clip_size": 3,
+	    "durability": 10
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_boomer_huge",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_grenadier",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "榴弾ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "skill": "throw",
+	    "ammo": "bfeed",
+	    "ranged_damage": 10,
+	    "range": 10,
+	    "sight_dispersion": 150,
+	    "durability": 9,
+	    "clip_size": 20,
+	    "reload": 150,
+	    "ammo_effects": ["FLASHBANG"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_grenadier",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_grenadier_elite",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "精鋭榴弾ゾンビ(タレット/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "FIRE_20" ],
+	"gun_data" : {
+	    "skill": "throw",
+	    "ammo": "bfeed",
+	    "ranged_damage": 10,
+	    "range": 10,
+	    "sight_dispersion": 150,
+	    "durability": 9,
+	    "clip_size": 20,
+	    "reload": 150,
+	    "ammo_effects": ["NAPALM"]
+	},
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_grenadier_elite",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_necro",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "死霊術師ゾンビ(制御装置/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_necro",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_master",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "マスターゾンビ(オルタネーター/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_master",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_gasbag",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "膨張ゾンビ(マフラー/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_gasbag",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_hazmat",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "化学防護ゾンビ(冷蔵庫/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_hazmat",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_technician",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "技術者ゾンビ(工具/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_technician",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_scientist",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "科学者ゾンビ(実験器具/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_scientist",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_armored",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "装甲ゾンビ(装甲/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_armored",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_bio_op",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "バイオオペ(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 45,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_bio_op",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_dementia",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "デメンヂア(休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_dementia",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_blood_sacrifice",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "生贄ゾンビ(休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_blood_sacrifice",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_flesh_angel",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "肉天使(休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_flesh_angel",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_homunculus",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "ホムンクルス(休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_homunculus",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_jackson",
+    "type": "TOOL",
+    "copy-from": "minion_dormant",
+    "name": "ジャクソン(ステレオ/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_jackson",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "id" : "minion_dormant_dancer",
+    "type": "ENGINE",
+    "copy-from": "minion_dormant",
+    "name": "ダンサー(エンジン/休眠)",
+    "description": "Your very own undead servant.  The blob controlling its body is in a state of coma, awaiting your orders.  Use this item to wake up the minion.",
+    "displacement": 90,
+    "use_action": {
+        "type": "place_monster",
+        "monster_id": "mon_zombie_dancer",
+        "difficulty": 6,
+        "skill1": "firstaid",
+        "skill2": "electronics",
+        "hostile_msg": "Something has gone wrong; after getting up the zombie lumbers toward you menacingly!",
+        "friendly_msg": "The zombie climbs to its feet and shambles around.",
+        "place_randomly": true,
+        "moves": 60
+    }
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_beekeeper",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["honeycomb", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_dementia",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_biter",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_brute_grappler",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_brute_ninja",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_fiend",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_mancroc",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_screecher",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_shady",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_rot",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["lye_powder", 50] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_skeleton",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["bone_tainted", 8], ["bone_human", 8] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_swimmer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["swim_fins", 1] ],
+      [ ["goggles_swim", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_child",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 4], ["human_flesh", 4] ],
+      [ ["bone_tainted", 2], ["bone_human", 2] ],
+      [ ["cookies", 4], ["brownie_weed", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_fireman",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bio_lighter", 1] ],
+      [ ["firehelmet", 1], ["fireman_belt", 1], ["bunker_pants", 1] ],
+      [ ["fire_gauntlets", 1], ["boots_bunker", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_cop",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["badge_deputy", 1] ],
+      [ ["bio_flashlight", 1], ["handflare", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_shrieker",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["harmonica_holder", 1], ["flute", 1], ["bagpipes", 1], ["tuba", 1], ["saxophone", 1], ["clarinet", 1], ["trumpet", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_survivor",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["small_relic", -1] ]
+    ],
+    "components": [
+      [ ["human_flesh", 8] ],
+      [ ["bone_human", 4] ],
+      [ ["blood", 10] ],
+      [ ["holy_symbol", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_tough",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["protein_powder", 20] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_brute",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 50], ["needle_wood", 50], ["sewing_kit", 50], ["tailors_kit", 50] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 16], ["human_flesh", 16] ],
+      [ ["bone_tainted", 8], ["bone_human", 8] ],
+      [ ["protein_powder", 20] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_hulk",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 100], ["needle_wood", 100], ["sewing_kit", 100], ["tailors_kit", 100] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 48], ["human_flesh", 48] ],
+      [ ["bone_tainted", 16], ["bone_human", 16] ],
+      [ ["protein_powder", 60] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_crawler",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["sinew", 10] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_grabber",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["sinew", 20] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_grappler",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["sinew", 50] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_hollow",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_runner",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["roller_blades", 1], ["rollerskates", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_hunter",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["roller_blades", 1], ["rollerskates", 1] ],
+      [ ["spring", 2] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_predator",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["roller_blades", 1], ["rollerskates", 1] ],
+      [ ["spring", 2] ],
+      [ ["blob_dormant", 1] ],
+      [ ["bagh_nakha", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_acidic",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["boots_rubber", 1] ],
+      [ ["gloves_rubber", 1] ],
+      [ ["hose", 4] ],
+      [ ["stomach_sealed", 1] ],
+      [ ["chemistry_set", 1] ],
+      [ ["funnel", 1], ["leather_funnel", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_spitter",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["boots_rubber", 1] ],
+      [ ["gloves_rubber", 1] ],
+      [ ["large_stomach_sealed", 3] ],
+      [ ["watercannon", 1] ],
+      [ ["chemistry_set", 1] ],
+      [ ["funnel", 1], ["leather_funnel", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_corrosive",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["boots_rubber", 1] ],
+      [ ["gloves_rubber", 1] ],
+      [ ["large_stomach_sealed", 3] ],
+      [ ["watercannon", 1] ],
+      [ ["chemistry_set", 1] ],
+      [ ["funnel", 1], ["leather_funnel", 1] ],
+      [ ["plant_sac", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_electric",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bio_chain_lightning", 1] ],
+      [ ["bio_power_storage", 5], ["bio_power_storage_mkII", 2] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_brute_shocker",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bio_chain_lightning", 1] ],
+      [ ["bio_power_storage", 5], ["bio_power_storage_mkII", 2] ],
+      [ ["bio_hydraulics", 1], ["bio_adrenaline", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_smoker",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["charcoal", 100] ],
+      [ ["char_forge", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_gasbag",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["taint_tornado", 1] ],
+      [ ["pheromone", 1] ],
+      [ ["large_stomach_sealed", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_fat",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone", 4] ],
+      [ ["fat", 8], ["fat_tainted", 8] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_boomer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["fat", 8], ["fat_tainted", 8] ],
+      [ ["chem_acetic_acid", 3] ],
+      [ ["large_stomach_sealed", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_boomer_huge",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["fat", 12], ["fat_tainted", 12] ],
+      [ ["chem_acetic_acid", 3] ],
+      [ ["large_stomach_sealed", 5] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_soldier",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bio_night_vision", 1],["goggles_nv", 1] ],
+      [ ["kevlar", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_grenadier",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bot_grenade_hack", 5] ],
+      [ ["grenade", 5] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_grenadier_elite",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bot_mininuke_hack", 1] ],
+      [ ["mininuke", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_armored",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["power_armor_basic", 1], ["depowered_armor", 1] ],
+      [ ["power_armor_helmet_basic", 1], ["depowered_helmet", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_hazmat",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["rad_badge", 1] ],
+      [ ["hazmat_suit", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_technician",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bio_magnet", 1] ],
+      [ ["bio_tools", 1] ],
+      [ ["bio_torsionratchet", 1] ],
+      [ ["bio_power_storage", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_scientist",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["bot_manhack", 5] ],
+      [ ["chemistry_set", 1] ],
+      [ ["bio_torsionratchet", 1] ],
+      [ ["bio_power_storage", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_bio_op",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ]
+    ],
+    "components": [
+      [ ["minion_dormant_soldier", 1] ],
+      [ ["minion_dormant_hazmat", 1], ["minion_dormant_technician", 1], ["minion_dormant_scientist", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_necro",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["small_relic", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_master",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 8], ["human_flesh", 8] ],
+      [ ["bone_tainted", 4], ["bone_human", 4] ],
+      [ ["spiral_stone", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_blood_sacrifice",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["petrified_eye", -1] ]
+    ],
+    "components": [
+      [ ["human_flesh", 8] ],
+      [ ["bone_human", 4] ],
+      [ ["rag_bloody", 1] ],
+      [ ["etched_skull", 1] ],
+      [ ["spiral_stone", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_homunculus",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["human_flesh", 8] ],
+      [ ["bone_human", 4] ],
+      [ ["arm", 2] ],
+      [ ["leg", 2] ],
+      [ ["fetus", 1] ],
+      [ ["blood", 10] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_flesh_angel",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ]
+    ],
+    "components": [
+      [ ["minion_dormant_blood_sacrifice", 1] ],
+      [ ["minion_dormant_homunculus", 1] ],
+      [ ["vortex_stone", 1], ["spiral_stone", 10] ],
+      [ ["small_relic", 1] ],
+      [ ["petrified_eye", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_dog",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 4], ["meat", 4] ],
+      [ ["bone_tainted", 2], ["bone", 2] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_dog_zombie_cop",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 4], ["meat", 4] ],
+      [ ["bone_tainted", 2], ["bone", 2] ],
+      [ ["badge_deputy", 1] ],
+      [ ["kevlar_harness", 1] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_dog_zombie_rot",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["meat_tainted", 4], ["meat", 4] ],
+      [ ["bone_tainted", 2], ["bone", 2] ],
+      [ ["lye_powder", 20] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_dog_skeleton",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["bone_tainted", 4], ["bone", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_zoose",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["iv_mutagen_beast", 1] ],
+      [ ["meat_tainted", 16], ["meat", 16] ],
+      [ ["fat_tainted", 16], ["fat", 16] ],
+      [ ["bone_tainted", 8], ["bone", 8] ],
+      [ ["raw_fur", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_zolf",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["iv_mutagen_lupine", 1] ],
+      [ ["meat_tainted", 6], ["meat", 6] ],
+      [ ["bone_tainted", 3], ["bone", 3] ],
+      [ ["raw_fur", 2] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_zougar",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["iv_mutagen_feline", 1] ],
+      [ ["meat_tainted", 6], ["meat", 6] ],
+      [ ["bone_tainted", 3], ["bone", 3] ],
+      [ ["raw_fur", 2] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_pig",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["iv_mutagen_cattle", 1] ],
+      [ ["meat_tainted", 12], ["meat", 12] ],
+      [ ["fat_tainted", 12], ["fat", 12] ],
+      [ ["bone_tainted", 6], ["bone", 6] ],
+      [ ["raw_fur", 3] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_zombear",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["iv_mutagen_ursine", 1] ],
+      [ ["meat_tainted", 16], ["meat", 16] ],
+      [ ["fat_tainted", 16], ["fat", 16] ],
+      [ ["bone_tainted", 8], ["bone", 8] ],
+      [ ["raw_fur", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_jackson",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 3] ],
+      [ ["mag_dodge", 3] ],
+      [ ["manual_dodge", 3] ],
+      [ ["human_flesh", 8] ],
+      [ ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_dancer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ],
+      [ ["syringe", -1] ],
+      [ ["vacutainer", -1] ]
+    ],
+    "components": [
+      [ ["revival_serum", 1] ],
+      [ ["mag_dodge", 1] ],
+      [ ["manual_dodge", 1] ],
+      [ ["human_flesh", 8] ],
+      [ ["bone_human", 4] ],
+      [ ["blob_dormant", 1] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "minion_dormant_bear_smoky",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "firstaid",
+    "skills_required": [[ "tailor", 6], [ "electronics", 6]],
+    "difficulty": 7,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["abdul_necro", 6]],
+    "tools": [
+      [ ["needle_bone", 30], ["needle_wood", 30], ["sewing_kit", 30], ["tailors_kit", 30] ]
+    ],
+    "components": [
+      [ ["lighter", 1] ],
+      [ ["charcoal", 100] ],
+      [ ["char_forge", 1] ],
+      [ ["minion_dormant_zombear", 1] ]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "mut_lab",
+    "items":[
+      [ "abdul_necro", 2 ],
+      [ "control_chip", 6 ],
+      [ "revival_serum", 6 ]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "lab_dorm",
+    "items":[
+      [ "abdul_necro", 6 ]
+    ]
+  }
+]
