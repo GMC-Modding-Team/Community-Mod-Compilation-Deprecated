@@ -26,7 +26,7 @@ Use the `home` key to get to the top.
 - [Pocket Data](#pocket-data)
   + [Gun Pocket data](#gun-Pocket-data)
   + [Magazine Pocket data](#magazine-Pocket-data)
-- [`type: CONTAINER`](#type-container)
+- [type: CONTAINER](#type-container)
 - [Volume](#volume)
 - [Weight](#weight)
 - [Effect](#effect)
