@@ -6,7 +6,6 @@
     "name": { "str": "NM1001 watch" },
     "description": "A small device developed by Nimian Manufacture. When fixed near the eye, accurately shows time and temperature, and can provide more information on the weather upon activation.",
     "weight": "44 g",
-    "volume": "50 ml",
     "environmental_protection": 8,
     "color": "blue",
     "symbol": "[",
@@ -27,6 +26,7 @@
     "charges_per_use": 1,
     "turns_per_charge": 0,
     "ammo": [ "battery" ],
+    "revert_to": "nm_eye_watch",
     "use_action": "WEATHER_TOOL",
     "flags": [ "WATCH", "WATERPROOF", "STURDY", "THERMOMETER", "SUPER_FANCY", "SKINTIGHT", "OVERSIZE", "HYGROMETER", "BAROMETER" ]
   }
