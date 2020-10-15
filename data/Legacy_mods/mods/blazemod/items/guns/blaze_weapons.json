@@ -20,6 +20,7 @@
     "sight_dispersion": 150,
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "reload": 150,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -52,6 +53,7 @@
     "ranged_damage": { "damage_type": "stab", "amount": 60 },
     "sight_dispersion": 150,
     "durability": 8,
+    "reload": 750,
     "valid_mod_locations": [  ],
     "pocket_data": [
       {
@@ -88,6 +90,7 @@
     "loudness": 150,
     "clip_size": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "ripdisk": 5 } } ],
+    "reload": 1250,
     "valid_mod_locations": [  ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
@@ -114,6 +117,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "flintlock": 12 } } ],
+    "reload": 750,
     "valid_mod_locations": [  ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
@@ -211,6 +215,7 @@
     "sight_dispersion": 150,
     "durability": 5,
     "ups_charges": 9,
+    "reload": 150,
     "valid_mod_locations": [  ],
     "pocket_data": [
       {
@@ -245,6 +250,7 @@
     "sight_dispersion": 150,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "reload": 150,
     "valid_mod_locations": [  ],
     "pocket_data": [
       {
@@ -281,6 +287,7 @@
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "metal_rail": 1 } } ],
     "ups_charges": 249,
+    "reload": 200,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "FRAG", "TRAIL", "WIDE" ]
   },
@@ -307,6 +314,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "clip_size": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "ripdisk": 15 } } ],
+    "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
@@ -334,6 +342,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "harpoon": 12 } } ],
+    "reload": 2500,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
@@ -360,6 +369,7 @@
     "durability": 8,
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "hbolt": 12 } } ],
+    "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
@@ -387,6 +397,7 @@
     "durability": 5,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 25 ] ],
     "ups_charges": 1,
+    "reload": 150,
     "valid_mod_locations": [  ],
     "pocket_data": [
       {
@@ -398,7 +409,7 @@
         "item_restriction": [ "bb_hopper" ]
       }
     ],
-    "flags": [ "BURST_ONLY", "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
     "id": "slauncher",
@@ -423,6 +434,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 12,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "harpoon": 12 } } ],
+    "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
@@ -481,6 +493,7 @@
         "item_restriction": [ "pebble_hopper" ]
       }
     ],
+    "reload": 150,
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   }
 ]
