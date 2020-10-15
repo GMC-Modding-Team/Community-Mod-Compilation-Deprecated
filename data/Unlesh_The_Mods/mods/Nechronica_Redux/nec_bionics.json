@@ -15,7 +15,9 @@
     "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 15 },
     "dispersion": 50,
     "sight_dispersion": 100,
+    "aim_speed": 5,
     "durability": 10,
+    "reload": 500,
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
   },
   {
@@ -54,7 +56,9 @@
     "ranged_damage": { "damage_type": "stab", "amount": 70, "armor_penetration": 50 },
     "dispersion": 10,
     "sight_dispersion": 0,
+    "aim_speed": 3,
     "durability": 10,
+    "reload": 2000,
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ],
     "ammo_effects": [ "MUZZLE_SMOKE" ]
   },
@@ -93,7 +97,7 @@
     "bashing": 10,
     "cutting": 40,
     "qualities": [ [ "DRILL", 3 ], [ "DIG", 3 ] ],
-    "flags": [ "STAB", "NON_STUCK", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ]
+    "flags": [ "STAB", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ]
   },
   {
     "type": "bionic",
@@ -130,7 +134,7 @@
     "material": [ "superalloy" ],
     "cutting": 40,
     "techniques": [ "WBLOCK_2", "RAPID" ],
-    "flags": [ "LIGHT_50", "DURABLE_MELEE", "TRADER_AVOID", "NONCONDUCTIVE", "NON_STUCK", "NO_UNWIELD" ]
+    "flags": [ "LIGHT_50", "DURABLE_MELEE", "TRADER_AVOID", "NONCONDUCTIVE", "NO_UNWIELD" ]
   },
   {
     "id": "bio_lightsaber",
