@@ -32,14 +32,6 @@
     "spoils_in": "0 hours"
   },
   {
-    "id": "meat_smoked",
-    "copy-from": "meat_smoked",
-    "type": "COMESTIBLE",
-    "name": { "str": "smoked sucker" },
-    "description": "A heavily smoked portion of human flesh.  Lasts for a very long time and tastes pretty good, if you like that sort of thing.",
-    "spoils_in": "0 hours"
-  },
-  {
     "type": "COMESTIBLE",
     "id": "plant_sac",
     "copy-from": "plant_sac",
@@ -57,11 +49,39 @@
   },
   {
     "type": "COMESTIBLE",
+    "id": "mutant_tallow",
+    "name": "mutant tallow",
+    "copy-from": "mutant_tallow",
+    "spoils_in": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "mutant_human_tallow",
+    "name": "mutant humanoid tallow",
+    "copy-from": "mutant_human_tallow",
+    "spoils_in": 0
+  },
+  {
+    "type": "COMESTIBLE",
     "id": "lard",
     "name": { "str": "lard" },
     "copy-from": "tallow",
     "description": "A smooth white block of dry-rendered animal fat.  It will remain edible for a very long time, and can be used as an ingredient in many foods and projects.",
     "spoils_in": "0 hours"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "mutant_lard",
+    "name": "mutant lard",
+    "copy-from": "mutant_lard",
+    "spoils_in": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "mutant_human_lard",
+    "name": "mutant humanoid lard",
+    "copy-from": "mutant_human_lard",
+    "spoils_in": 0
   },
   {
     "type": "COMESTIBLE",
