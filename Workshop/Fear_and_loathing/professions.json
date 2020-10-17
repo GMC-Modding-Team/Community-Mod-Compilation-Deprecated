@@ -31,10 +31,10 @@
       "female": [ "bra", "panties" ]
     },
     "skills": [
-      { "name": { "str": "gun" }, "level": 2 },
-      { "name": { "str": "rifle" }, "level": 2 },
-      { "name": { "str": "smg" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 1 }
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 1, "name": "smg" },
+      { "level": 1, "name": "dodge" }
     ]
   },
   {
@@ -49,10 +49,10 @@
       "female": [ "bra", "panties" ]
     },
     "skills": [
-      { "name": { "str": "gun" }, "level": 2 },
-      { "name": { "str": "firstaid" }, "level": 2 },
-      { "name": { "str": "melee" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 1 }
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" }
     ]
   },
   {
@@ -90,7 +90,7 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     },
-    "skills": [ { "name": { "str": "melee" }, "level": 1 } ]
+    "skills": [ { "level": 1, "name": "melee" } ]
   },
   {
     "type": "profession",
@@ -115,7 +115,7 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     },
-    "skills": [ { "name": { "str": "computer" }, "level": 6 } ]
+    "skills": [ { "level": 6, "name": "computer" } ]
   },
   {
     "type": "profession",
@@ -155,10 +155,10 @@
       "female": [ "bra", "panties" ]
     },
     "skills": [
-      { "name": { "str": "gun" }, "level": 3 },
-      { "name": { "str": "firstaid" }, "level": 2 },
-      { "name": { "str": "melee" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 1 }
+      { "level": 3, "name": "gun" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" }
     ]
   },
   {
@@ -174,10 +174,10 @@
     },
     "addictions": [ { "type": "cocaine", "intensity": 10 }, { "type": "opiate", "intensity": 10 } ],
     "skills": [
-      { "name": { "str": "gun" }, "level": 2 },
-      { "name": { "str": "rifle" }, "level": 6 },
-      { "name": { "str": "melee" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 3 }
+      { "level": 2, "name": "gun" },
+      { "level": 6, "name": "rifle" },
+      { "level": 1, "name": "melee" },
+      { "level": 3, "name": "dodge" }
     ]
   },
   {
@@ -237,10 +237,10 @@
       "female": [ "bra", "panties" ]
     },
     "skills": [
-      { "name": { "str": "gun" }, "level": 2 },
-      { "name": { "str": "cutting" }, "level": 2 },
-      { "name": { "str": "melee" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 1 }
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "cutting" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" }
     ]
   },
   {
@@ -316,10 +316,10 @@
       "female": [ "bra", "panties" ]
     },
     "skills": [
-      { "name": { "str": "gun" }, "level": 2 },
-      { "name": { "str": "shotgun" }, "level": 2 },
-      { "name": { "str": "melee" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 1 }
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "shotgun" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "dodge" }
     ]
   },
   {
@@ -414,10 +414,10 @@
     },
     "addictions": [ { "type": "cocaine", "intensity": 10 }, { "type": "crack", "intensity": 10 } ],
     "skills": [
-      { "name": { "str": "melee" }, "level": 6 },
-      { "name": { "str": "speech" }, "level": 6 },
-      { "name": { "str": "cutting" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 3 }
+      { "level": 6, "name": "melee" },
+      { "level": 6, "name": "speech" },
+      { "level": 1, "name": "cutting" },
+      { "level": 3, "name": "dodge" }
     ]
   },
   {
@@ -453,7 +453,7 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     },
-    "skills": [ { "name": { "str": "cutting" }, "level": 6 } ]
+    "skills": [ { "level": 6, "name": "cutting" } ]
   },
   {
     "type": "profession",
@@ -488,10 +488,10 @@
     },
     "addictions": [ { "type": "amphetamine", "intensity": 10 }, { "type": "opiate", "intensity": 10 } ],
     "skills": [
-      { "name": { "str": "gun" }, "level": 2 },
-      { "name": { "str": "rifle" }, "level": 6 },
-      { "name": { "str": "melee" }, "level": 1 },
-      { "name": { "str": "dodge" }, "level": 3 }
+      { "level": 2, "name": "gun" },
+      { "level": 6, "name": "rifle" },
+      { "level": 1, "name": "melee" },
+      { "level": 3, "name": "dodge" }
     ]
   },
   {
