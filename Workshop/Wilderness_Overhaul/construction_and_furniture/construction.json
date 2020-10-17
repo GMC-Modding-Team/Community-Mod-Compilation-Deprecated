@@ -1,0 +1,76 @@
+[
+  {
+    "type": "construction",
+    "description": "Build Forge",
+    "category": "FURN",
+    "difficulty": 4,
+    "time": 40,
+    "components": [ [ [ "rock", 40 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_forge_rock"
+  },
+  {
+    "type": "construction",
+    "description": "Build Fire Pit",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 5,
+    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "components": [ [ [ "rock", 8 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_firepit"
+  },
+  {
+    "type": "construction",
+    "description": "Build Fire Pit",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 10,
+    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "components": [ [ [ "stick", 4 ] ], [ [ "rock_pot", 1 ] ] ],
+    "pre_terrain": "f_firepit",
+    "post_terrain": "f_cookfirepit"
+  },
+  {
+    "type": "construction",
+    "description": "Build Makeshift Fence",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 10,
+    "qualities": [
+      [ { "id": "DIG", "level": 2 } ],
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "SAW_W", "level": 1 } ],
+      [ { "id": "AXE", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 8 ], [ "stick", 8 ] ] ],
+    "pre_flags": "DIGGABLE",
+    "post_terrain": "f_makeshiftfence"
+  },
+  {
+    "type": "construction",
+    "description": "Build Smoking Rack",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 5,
+    "qualities": [
+      [ { "id": "DIG", "level": 1 } ],
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "stick", 16 ], [ "2x4", 16 ] ], [ [ "rock", 8 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_smoking_rack"
+  },
+  {
+    "type": "construction",
+    "description": "Build Clay Kiln",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 40,
+    "components": [ [ [ "rock", 40 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_clay_kiln"
+  }
+]
