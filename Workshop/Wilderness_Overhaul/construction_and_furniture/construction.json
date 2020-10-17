@@ -1,17 +1,6 @@
 [
   {
     "type": "construction",
-    "id": "constr_forge",
-    "group": "build_forge",
-    "category": "FURN",
-    "difficulty": 4,
-    "time": 40,
-    "components": [ [ [ "rock", 40 ] ] ],
-    "pre_special": "check_empty",
-    "post_terrain": "f_forge_rock"
-  },
-  {
-    "type": "construction",
     "id": "constr_fire_pit",
     "group": "build_fire_pit",
     "category": "FURN",
@@ -50,33 +39,5 @@
     "components": [ [ [ "2x4", 8 ], [ "stick", 8 ] ] ],
     "pre_flags": "DIGGABLE",
     "post_terrain": "f_makeshiftfence"
-  },
-  {
-    "type": "construction",
-    "id": "constr_smoking_rack",
-    "group": "build_smoking_rack",
-    "category": "FURN",
-    "difficulty": 3,
-    "time": 5,
-    "qualities": [
-      [ { "id": "DIG", "level": 1 } ],
-      [ { "id": "HAMMER", "level": 2 } ],
-      [ { "id": "CUT", "level": 1 } ],
-      [ { "id": "SAW_W", "level": 1 } ]
-    ],
-    "components": [ [ [ "stick", 16 ], [ "2x4", 16 ] ], [ [ "rock", 8 ] ] ],
-    "pre_special": "check_empty",
-    "post_terrain": "f_smoking_rack"
-  },
-  {
-    "type": "construction",
-    "id": "constr_clay_kiln",
-    "group": "build_clay_kiln",
-    "category": "FURN",
-    "difficulty": 3,
-    "time": 40,
-    "components": [ [ [ "rock", 40 ] ] ],
-    "pre_special": "check_empty",
-    "post_terrain": "f_clay_kiln"
   }
 ]
