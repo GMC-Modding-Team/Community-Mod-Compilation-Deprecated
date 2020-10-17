@@ -289,20 +289,7 @@
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "FUR",
-      "BLEED",
-      "BASHES",
-      "ATTACKMON",
-      "BONES",
-      "FAT"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "BASHES", "ATTACKMON", "BONES", "FAT" ]
   },
   {
     "id": "mon_beaver",
@@ -606,7 +593,7 @@
     "special_attacks": [ [ "FEAR_PARALYZE", 0 ], { "type": "bite", "cooldown": 5 } ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BLEED", "IMMOBILE", "GUILT", "POISON", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "IMMOBILE", "GUILT", "POISON", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_bobcat",
@@ -938,7 +925,6 @@
       "FUR",
       "HIT_AND_RUN",
       "KEENNOSE",
-      "BLEED",
       "BONES",
       "FAT"
     ]
@@ -1001,19 +987,7 @@
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "FUR",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "BLEED",
-      "BONES"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BONES" ]
   },
   {
     "id": "mon_coyote_wolf",
@@ -1042,7 +1016,7 @@
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_crawler",
@@ -1271,20 +1245,7 @@
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "FUR",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "BLEED",
-      "BONES",
-      "FAT"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_dog_zombie_rot",
@@ -1458,19 +1419,7 @@
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "FUR",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "BLEED",
-      "BONES"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BONES" ]
   },
   {
     "id": "mon_fox_red",
@@ -1499,20 +1448,7 @@
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "FUR",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "BLEED",
-      "BONES",
-      "FAT"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_frog_giant",
@@ -1854,7 +1790,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -1981,7 +1916,7 @@
     "armor_bash": 4,
     "armor_cut": 2,
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "REVIVES", "CLIMBS", "LEATHER", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "REVIVES", "CLIMBS", "LEATHER", "BONES" ]
   },
   {
     "id": "mon_horse",
@@ -2334,20 +2269,7 @@
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "ANIMAL",
-      "PATH_AVOID_DANGER_1",
-      "WARM",
-      "FUR",
-      "HIT_AND_RUN",
-      "KEENNOSE",
-      "BLEED",
-      "BONES",
-      "FAT"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_molebot",
@@ -2404,7 +2326,7 @@
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "BLEED", "ATTACKMON", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "ATTACKMON", "BONES", "FAT" ]
   },
   {
     "id": "mon_mosquito_giant",
@@ -2511,7 +2433,7 @@
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_otter",
@@ -2564,7 +2486,7 @@
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "BLEED", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_player_blob",
@@ -2668,7 +2590,7 @@
     "vision_night": 5,
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_rat_king",
@@ -3051,18 +2973,7 @@
     "vision_day": 10,
     "vision_night": 30,
     "death_function": [ "MELT" ],
-    "flags": [
-      "NOHEAD",
-      "SEES",
-      "POISON",
-      "HEARS",
-      "SMELLS",
-      "SLUDGEPROOF",
-      "SLUDGETRAIL",
-      "SWIMS",
-      "FLAMMABLE",
-      "NOGIB"
-    ]
+    "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "SMELLS", "SLUDGEPROOF", "SLUDGETRAIL", "SWIMS", "FLAMMABLE", "NOGIB" ]
   },
   {
     "id": "mon_slug_giant",
@@ -3754,7 +3665,7 @@
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BONES", "FAT" ]
   },
   {
     "id": "mon_worm",
@@ -3928,7 +3839,6 @@
       "BASHES",
       "GROUP_BASH",
       "POISON",
-      "BLEED",
       "NO_BREATHE",
       "REVIVES",
       "BONES",
@@ -3999,7 +3909,6 @@
       "BASHES",
       "GROUP_BASH",
       "POISON",
-      "BLEED",
       "NO_BREATHE",
       "REVIVES",
       "BONES",
