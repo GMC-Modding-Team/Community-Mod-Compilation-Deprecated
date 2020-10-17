@@ -329,8 +329,14 @@ new code for guns without magazines
 
 ## Magazine Pocket Data
 add these to "type": `Magazine` **needs updating**
+
 ```JSON
-"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "Ammo_example": 100 } } ]
+"pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "Ammo_example": 30 } } ]
+```
+or if you want to include ammo as well as magazines- maybe
+```JSON
+"magazines": [ [ "ammo_type", [ "ammo_id_1", "ammo_id_2", "ammo_id_3" ] ] ]
+"magazine_well": 1
 ```
 
 
