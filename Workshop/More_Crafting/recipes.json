@@ -1,20 +1,5 @@
 [
   {
-    "id": "bandages_imp",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "symbol": ",",
-    "color": "white",
-    "name": { "str": "improvised bandage" },
-    "description": "Improvised cloth bandages, with skewers to pin them tight and staunch bleeding.",
-    "price": 0,
-    "material": "cotton",
-    "weight": "80 g",
-    "volume": 1,
-    "flags": [ "NO_SALVAGE" ],
-    "use_action": { "type": "heal", "limb_power": 0, "head_power": 0, "torso_power": 0, "bleed": 0.95, "move_cost": 400 }
-  },
-  {
     "type": "recipe",
     "result": "bandages_imp",
     "category": "CC_OTHER",
@@ -25,43 +10,6 @@
     "reversible": false,
     "autolearn": true,
     "components": [ [ [ "rag", 1 ] ], [ [ "skewer_bone", 2 ], [ "skewer", 2 ] ] ]
-  },
-  {
-    "id": "irrigator",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "symbol": ",",
-    "color": "white",
-    "name": { "str": "wound irrigator" },
-    "description": "An improvised wound irrigator, able to effectively clean out deep wounds.",
-    "price": 0,
-    "material": "plastic",
-    "weight": "160 g",
-    "volume": 1,
-    "flags": [ "NO_SALVAGE" ],
-    "use_action": {
-      "type": "heal",
-      "limb_power": 0,
-      "head_power": 0,
-      "torso_power": 0,
-      "bite": 0.99,
-      "move_cost": 500,
-      "used_up_item": "irrigator_empty"
-    }
-  },
-  {
-    "id": "irrigator_empty",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "symbol": ",",
-    "color": "white",
-    "name": { "str": "empty wound irrigator" },
-    "description": "An empty improvised wound irrigator, refillable with saline solution.",
-    "price": 0,
-    "material": "plastic",
-    "weight": "80 g",
-    "volume": 1,
-    "flags": [ "NO_SALVAGE" ]
   },
   {
     "type": "recipe",
@@ -91,37 +39,6 @@
     "components": [ [ [ "syringe", 1 ] ], [ [ "bottle_plastic_small", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
-    "id": "first_aid",
-    "type": "TOOL",
-    "name": { "str": "first aid kit" },
-    "description": "A first aid kit, with some basic tools and plenty of space for first aid supplies.  Used for healing large amounts of damage.",
-    "weight": "360 g",
-    "volume": 2,
-    "price": 3000,
-    "material": "plastic",
-    "symbol": "!",
-    "color": "red",
-    "max_charges": 10,
-    "initial_charges": 0,
-    "charges_per_use": 1,
-    "ammo": [ "first_aid_supplies" ],
-    "use_action": {
-      "type": "heal",
-      "need_charges": 1,
-      "need_charges_msg": "You are out of medical supplies!",
-      "head_power": 8,
-      "limb_power": 11,
-      "torso_power": 14,
-      "bleed": 0.95,
-      "bite": 0.99,
-      "move_cost": 4000,
-      "long_action": true,
-      "effects": [ { "id": "pkill1", "duration": 120 } ]
-    },
-    "//": "healing is 20% lower than an old 1st aid kit",
-    "flags": [ "USE_ON_NPC" ]
-  },
-  {
     "result": "first_aid",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -136,28 +53,6 @@
       [ [ "scissors", 1 ] ],
       [ [ "thermometer", 1 ], [ "digital_thermometer", 1 ] ]
     ]
-  },
-  {
-    "type": "ammunition_type",
-    "id": "first_aid_supplies",
-    "name": { "str": "first_aid_supplies" },
-    "default": "first_aid_supplies"
-  },
-  {
-    "type": "AMMO",
-    "comestible_type": "MED",
-    "id": "first_aid_supplies",
-    "category": "spare_parts",
-    "price": 12000,
-    "name": { "str": "first aid supplies", "str_pl": "first aid supplies" },
-    "symbol": "=",
-    "color": "light_gray",
-    "description": "A useful set of medical supplies, with bandages, local anesthetics, and rapid healing agents.",
-    "material": "iron",
-    "volume": 1,
-    "weight": "1 g",
-    "ammo_type": "first_aid_supplies",
-    "count": 5
   },
   {
     "result": "first_aid_supplies",
@@ -178,37 +73,6 @@
     ]
   },
   {
-    "id": "doctor_bag",
-    "type": "TOOL",
-    "name": { "str": "doctor's bag" },
-    "description": "A doctor's bag, with the tools to deal with heavy trauma.  Used for healing large amounts of damage.",
-    "weight": "1080 g",
-    "volume": 6,
-    "price": 3000,
-    "material": "leather",
-    "symbol": "!",
-    "color": "brown",
-    "max_charges": 30,
-    "initial_charges": 0,
-    "charges_per_use": 1,
-    "ammo": [ "doctor_supplies" ],
-    "use_action": {
-      "type": "heal",
-      "need_charges": 1,
-      "need_charges_msg": "You are out of medical supplies!",
-      "head_power": 12,
-      "limb_power": 17,
-      "torso_power": 22,
-      "bleed": 0.99,
-      "bite": 0.99,
-      "move_cost": 8000,
-      "long_action": true,
-      "effects": [ { "id": "pkill2", "duration": 180 } ]
-    },
-    "//": "healing is 20% higher than an old 1st aid kit",
-    "flags": [ "USE_ON_NPC" ]
-  },
-  {
     "result": "doctor_bag",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -225,28 +89,6 @@
       [ [ "syringe", 1 ] ],
       [ [ "digital_thermometer", 1 ], [ "thermometer", 1 ] ]
     ]
-  },
-  {
-    "type": "ammunition_type",
-    "id": "doctor_supplies",
-    "name": { "str": "doctor_supplies" },
-    "default": "doctor_supplies"
-  },
-  {
-    "type": "AMMO",
-    "comestible_type": "MED",
-    "id": "doctor_supplies",
-    "category": "spare_parts",
-    "price": 12000,
-    "name": { "str": "doctor supplies", "str_pl": "doctor aid supplies" },
-    "symbol": "=",
-    "color": "light_gray",
-    "description": "A high quality set of medical supplies, with bandages, local anesthetics, and rapid healing agents.",
-    "material": "iron",
-    "volume": 1,
-    "weight": "1 g",
-    "ammo_type": "doctor_supplies",
-    "count": 5
   },
   {
     "result": "doctor_supplies",
@@ -355,43 +197,6 @@
     ]
   },
   {
-    "id": "kaolinite_jar",
-    "type": "GENERIC",
-    "symbol": "%",
-    "color": "white",
-    "name": { "str": "kaolinite jar" },
-    "description": "A sealed jar holding a solution that will crystallize into kaolinite after four days, a useful blood clotting agent.",
-    "price": 10,
-    "material": [ "glass", "powder" ],
-    "weight": "300 g",
-    "volume": 2,
-    "bashing": 4,
-    "category": "spare_parts",
-    "use_action": {
-      "type": "delayed_transform",
-      "transform_age": 57600,
-      "//": "4 days",
-      "not_ready_msg": "The kaolinite hasn't crystallized yet.",
-      "msg": "The jar looks done, you can disassemble it and harvest the hemostatic powder.",
-      "moves": 50,
-      "target": "kaolinite_jar_done"
-    }
-  },
-  {
-    "id": "kaolinite_jar_done",
-    "type": "GENERIC",
-    "symbol": "%",
-    "color": "white",
-    "name": { "str": "kaolinite jar" },
-    "description": "A sealed jar holding crystallized kaolinite, a useful blood clotting agent, ready for disassembling.",
-    "price": 10,
-    "material": [ "glass", "powder" ],
-    "weight": "300 g",
-    "volume": 2,
-    "bashing": 4,
-    "category": "spare_parts"
-  },
-  {
     "type": "recipe",
     "result": "kaolinite_jar_done",
     "category": "CC_OTHER",
@@ -402,5 +207,73 @@
     "reversible": true,
     "autolearn": false,
     "components": [ [ [ "jar_glass", 1 ] ], [ [ "quikclot", 6 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bomb_noisy",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 2 ],
+    "difficulty": 2,
+    "time": 3000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "nail_bomb", 1 ] ], [ [ "noise_emitter", 1 ] ], [ [ "amplifier", 1 ] ], [ [ "string_36", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "digital_thermometer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 2 ],
+    "difficulty": 3,
+    "time": 10000,
+    "reversible": false,
+    "autolearn": true,
+    "components": [
+      [ [ "circuit", 1 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "solar_cell", 1 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "wire", 1 ] ],
+      [ [ "battery", 100 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "electric_firestarter",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "time": 5000,
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "cable", 6 ] ], [ [ "amplifier", 1 ] ], [ [ "e_scrap", 2 ] ], [ [ "scrap", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "electric_firestarter_upgraded",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "time": 5000,
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
+    "components": [
+      [ [ "electric_firestarter", 1 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "e_scrap", 4 ] ],
+      [ [ "circuit", 1 ] ]
+    ]
   }
 ]
