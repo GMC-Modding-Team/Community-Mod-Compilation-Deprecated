@@ -122,19 +122,22 @@
     "id": "stealth_cloak_f",
     "copy-from": "acs_74_stealth_cloak_on",
     "type": "ARMOR",
-    "name": { "str": "obsolete stealth cloak" }
+    "name": { "str": "obsolete stealth cloak" },
+    "extend": { "flag": [ "ACTIVE_CLOAKING" ] }
   },
   {
     "id": "stealth_cloak",
     "copy-from": "acs_74_stealth_cloak_on",
     "type": "ARMOR",
-    "name": { "str": "obsolete stealth cloak (on)" }
+    "name": { "str": "obsolete stealth cloak (on)" },
+    "extend": { "flag": [ "ACTIVE_CLOAKING" ] }
   },
   {
     "id": "acs_74_stealth_cloak_off",
     "copy-from": "acs_74_stealth_cloak_on",
     "type": "ARMOR",
-    "name": { "str": "obsolete stealth cloak (on)" }
+    "name": { "str": "obsolete stealth cloak (on)" },
+    "extend": { "flag": [ "ACTIVE_CLOAKING" ] }
   },
   {
     "id": "flesh_blade_on",
