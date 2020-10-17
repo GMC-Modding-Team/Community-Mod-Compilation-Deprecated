@@ -419,7 +419,7 @@
     "description": "Some essential oil made from thyme, which can act as a mildly irritating disinfectant.",
     "material": "null",
     "comestible_type": "MED",
-    "use_action": "DISINFECTANT",
+    "use_action": { "type": "heal", "disinfectant_power": 4, "bite": 0.95, "move_cost": 100 },
     "container": "bottle_plastic_small",
     "addiction_type": "none",
     "spoils_in": "672 hours",
