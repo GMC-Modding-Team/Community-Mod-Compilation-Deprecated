@@ -215,25 +215,6 @@
     ]
   },
   {
-    "type": "terrain",
-    "id": "t_claymound",
-    "override": true,
-    "name": { "str": "mound of clay" },
-    "symbol": "#",
-    "color": "brown",
-    "move_cost": 5,
-    "flags": [ "TRANSPARENT" ],
-    "bash": {
-      "str_min": 2,
-      "str_max": 4,
-      "num_tests": 2,
-      "sound": "splosh!",
-      "sound_fail": "splosh!",
-      "ter_set": "t_water_sh",
-      "items": [ { "item": "clay_lump", "amount": 10, "minamount": 5 } ]
-    }
-  },
-  {
     "type": "recipe",
     "result": "crucible",
     "override": true,
@@ -246,23 +227,6 @@
     "autolearn": true,
     "tools": [ [ [ "clay_kiln", 96 ] ] ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ] ]
-  },
-  {
-    "type": "trap",
-    "id": "tr_funnel",
-    "override": true,
-    "idstring": "FUNNEL",
-    "legacy_id": 4,
-    "name": { "str": "funnel" },
-    "color": "yellow",
-    "symbol": "V",
-    "visibility": -1,
-    "avoidance": 0,
-    "difficulty": 0,
-    "action": "none",
-    "drops": [ "funnel" ],
-    "benign": true,
-    "funnel_radius": 125
   },
   {
     "type": "recipe",
