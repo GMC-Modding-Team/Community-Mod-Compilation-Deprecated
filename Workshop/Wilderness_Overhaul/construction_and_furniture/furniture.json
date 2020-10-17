@@ -1,28 +1,8 @@
 [
   {
     "type": "furniture",
-    "id": "f_forge_rock",
-    "name": { "str": "forge" },
-    "symbol": "^",
-    "color": "red",
-    "move_cost_mod": -1,
-    "required_str": -1,
-    "crafting_pseudo_item": "char_forge",
-    "flags": [ "SEALED", "CONTAINER", "NOITEM" ],
-    "deconstruct": { "items": [ { "item": "rock", "amount": 40 } ] },
-    "examine_action": "reload_furniture",
-    "bash": {
-      "str_min": 18,
-      "str_max": 50,
-      "sound": "crunch!",
-      "sound_fail": "whump.",
-      "items": [ { "item": "rock", "amount": 30, "minamount": 20 } ]
-    }
-  },
-  {
-    "type": "furniture",
     "id": "f_firepit",
-    "name": { "str": "fire pit" },
+    "name": "fire pit",
     "symbol": "0",
     "bgcolor": "brown",
     "move_cost_mod": 0,
@@ -34,7 +14,7 @@
   {
     "type": "furniture",
     "id": "f_cookfirepit",
-    "name": { "str": "cooking pit" },
+    "name": "cooking pit",
     "symbol": "0",
     "bgcolor": "brown",
     "move_cost_mod": 2,
@@ -53,7 +33,7 @@
   {
     "type": "furniture",
     "id": "f_makeshiftfence",
-    "name": { "str": "makeshift fence" },
+    "name": "makeshift fence",
     "symbol": "=",
     "bgcolor": "h_brown",
     "move_cost_mod": 2,
@@ -66,26 +46,6 @@
       "sound": "crack.",
       "sound_fail": "wham.",
       "items": [ { "item": "2x4", "amount": 6, "minamount": 2 } ]
-    }
-  },
-  {
-    "type": "furniture",
-    "id": "f_smoking_rack",
-    "name": { "str": "smoking rack" },
-    "symbol": "=",
-    "bgcolor": "brown",
-    "move_cost_mod": 2,
-    "required_str": -1,
-    "flags": [ "TRANSPARENT", "SEALED", "CONTAINER", "NOITEM" ],
-    "crafting_pseudo_item": "char_smoker",
-    "examine_action": "reload_furniture",
-    "deconstruct": { "items": [ { "item": "rock", "amount": 8 }, { "item": "stick", "amount": 16, "minamount": 16 } ] },
-    "bash": {
-      "str_min": 1,
-      "str_max": 1,
-      "sound": "crash!",
-      "sound_fail": "whump!",
-      "items": [ { "item": "rock", "amount": 8 }, { "item": "stick", "amount": 12, "minamount": 8 } ]
     }
   },
   {
