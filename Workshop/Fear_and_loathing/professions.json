@@ -1,5 +1,6 @@
 [
   {
+    "type": "profession",
     "id": "unemployed",
     "name": { "str": "Unemployed" },
     "description": "They say you don't have any 'useful skills', but at least your clothes fit\nwell.",
@@ -7,6 +8,7 @@
     "items": [ "jeans", "tshirt", "sneakers" ]
   },
   {
+    "type": "profession",
     "id": "tailor",
     "name": { "str": "Tailor" },
     "description": "You've made and adjusted clothing for some of the biggest names in town.\nNow, their undead bodies are trying to eat your brains.  At least you'll be\nable to keep your own clothing repaired.",
@@ -14,6 +16,7 @@
     "items": [ "polo_shirt", "blazer", "pants", "dress_shoes", "sewing_kit", "scissors", "manual_tailor" ]
   },
   {
+    "type": "profession",
     "id": "nazi",
     "name": { "str": "Nazi Soldier" },
     "description": "You came to serve the Fatherland.  Something has gone horribly wrong, however.  This is not Nazi Germany.",
@@ -27,6 +30,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "survivalist",
     "name": { "str": "Survivalist" },
     "description": "You are well-equipped to survive, which will undoubtedly prove invaluable.  \nNow you finally get in, and the whole world goes to shit.\nYou start out with some military gear.",
@@ -40,6 +44,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "labtech",
     "name": { "str": "Lab Technician" },
     "description": "It was your first day in the lab when the cataclysm hit.  You were evacuated\nwith all the civilians, but at least you kept your lab gear.",
@@ -47,6 +52,7 @@
     "items": [ "dress_shirt", "pants", "boots", "coat_lab", "gloves_rubber", "glasses_safety" ]
   },
   {
+    "type": "profession",
     "id": "mechanic",
     "name": { "str": "Wannabe Mechanic" },
     "description": "Although you never got your driver's license, you've always loved cars.\nYou start with a wrench, a toolbelt, and some car-related reading material.",
@@ -54,6 +60,7 @@
     "items": [ "tank_top", "jeans", "boots", "beltrig", "wrench", "mag_cars", "manual_mechanics" ]
   },
   {
+    "type": "profession",
     "id": "scoundrel",
     "name": { "str": "Scoundrel" },
     "description": "Your flexible outlook on law has ensured your survival, but now what?\nYou start with cargo pants, a hoodie, \"sundries\", and one additional level of melee.",
@@ -62,6 +69,7 @@
     "skills": [ { "name": { "str": "melee" }, "level": 1 } ]
   },
   {
+    "type": "profession",
     "id": "lowtax",
     "name": { "str": "Lowtax" },
     "description": "Founder of Something Awful...",
@@ -82,6 +90,7 @@
     "skills": [ { "name": { "str": "computer" }, "level": 6 } ]
   },
   {
+    "type": "profession",
     "id": "vincent",
     "name": { "str": "Vincent Vega" },
     "description": "When the bitch O.D.ed on heroin, you thought it could wait until Mr.  Wallace came back.  \n When Mrs.  Wallace came back to life, then you knew it was serious..",
@@ -90,6 +99,7 @@
     "addictions": [ { "type": "opiate", "intensity": 10 } ]
   },
   {
+    "type": "profession",
     "id": "chigurh",
     "name": { "str": "Chigurh" },
     "description": "Call it, Friendo.",
@@ -116,6 +126,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "montana",
     "name": { "str": "Drug Lord" },
     "description": "By the time the end happened, you were so coked up you didn't even notice.  .",
@@ -130,6 +141,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "elvis",
     "name": { "str": "Elvis Presley" },
     "description": "You're the King.  But the King has problems.  \n Drug problems.",
@@ -142,6 +154,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "belushi",
     "name": { "str": "Blues Brother" },
     "description": "Joliet Jake, with enough heroin and cocaine to pull a John Belushi.",
@@ -165,6 +178,7 @@
     "addictions": [ { "type": "cocaine", "intensity": 10 }, { "type": "opiate", "intensity": 10 } ]
   },
   {
+    "type": "profession",
     "id": "mansonite",
     "name": { "str": "Mansonite" },
     "description": "When Charlie told you to get the job done, you went and got it done.  \n But you didn't expect the corpse to rise from the dead when you killed them, did you?.",
@@ -178,6 +192,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "americanpsycho",
     "name": { "str": "American Psycho" },
     "description": "The others are all dead, but you're still alive.  Who's laughing now?\nYou start with meat, a suit, and \"a gram\".",
@@ -200,6 +215,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "buffalobill",
     "name": { "str": "Buffalo Bill" },
     "description": "Goodbye horses, I'm dying over you....",
@@ -217,6 +233,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "mac",
     "name": { "str": "Mac" },
     "description": "Which are worse? The things...  or the undead?",
@@ -242,6 +259,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "ojsimpson",
     "name": { "str": "OJ Simpson" },
     "description": "So you killed Nicole.  Bet you didn't expect her to get back up.",
@@ -262,6 +280,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "journalist",
     "name": { "str": "Raoul Duke" },
     "description": "We had two bags of grass, seventy five pellets of mescaline, five sheets of high powered blotter acid,\n a salt shaker half full of cocaine, a whole galaxy of uppers, downers, screamers and laughers.\n Also, a quart of tequila, a quart of rum, a case of beer, a pint of ether, and two dozen Amyls.",
@@ -298,6 +317,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "marionbarry",
     "name": { "str": "Marion Barry" },
     "description": "Mayor of New York.  Caught smoking crack on camera.",
@@ -306,6 +326,7 @@
     "addictions": [ { "type": "crack", "intensity": 10 } ]
   },
   {
+    "type": "profession",
     "id": "iketurner",
     "name": { "str": "Ike Turner" },
     "description": "Why the fuck you gonna do that?! BITCH! YOU DONE LOST YOUR MIND! Rocket 88, yall...",
@@ -320,6 +341,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "methhead",
     "name": { "str": "Meth Head" },
     "description": "Got any meth? Listen, man.  I can tell you do.  Don't you lie to me.  I'll cut you.  I swear to god.  \nYou start out with a strong amphetamine addiction, and a teenther of meth.",
@@ -328,6 +350,7 @@
     "addictions": [ { "type": "amphetamine", "intensity": 10 } ]
   },
   {
+    "type": "profession",
     "id": "fightclub",
     "name": { "str": "Fight Club" },
     "description": "I am Jack's smirking sense of self satisfaction.",
@@ -336,6 +359,7 @@
     "addictions": [ { "type": "sleeping pill", "intensity": 10 } ]
   },
   {
+    "type": "profession",
     "id": "normanbates",
     "name": { "str": "Norman Bates" },
     "description": "Just a normal, every day kind of guy...  We all go a little mad sometimes...",
@@ -344,6 +368,7 @@
     "skills": [ { "name": { "str": "cutting" }, "level": 6 } ]
   },
   {
+    "type": "profession",
     "id": "namvet",
     "name": { "str": "Vietnam Veteran" },
     "description": ".  .",
@@ -378,6 +403,7 @@
     ]
   },
   {
+    "type": "profession",
     "id": "smoker",
     "name": { "str": "Chain Smoker" },
     "description": "Everyone at work knew you as the person who always had a cigarette or two\nin hand.  Now, you're down to a single pack, and you hope you find more soon.\nYou start out with a strong nicotine addiction, and 10 cigarettes.",
