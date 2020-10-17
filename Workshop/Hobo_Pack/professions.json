@@ -20,5 +20,29 @@
     "CBMs": [ "bio_ethanol", "bio_ankles", "bio_thumbs", "bio_power_storage" ],
     "traits": [ "ALCMET" ],
     "items": { "both": [ "undershirt" ], "male": [ "boxer_shorts" ], "female": [ "bra", "panties" ] }
+  },
+  {
+    "type": "profession",
+    "id": "crazy_hobo",
+    "name": { "str": "Crazy Hobo" },
+    "description": "You warned them all! The grassmen, the aliens, the ghosts! Now it's too late!",
+    "points": -2,
+    "items": { "both": [ "tunic_rag", "flip_flops", "tinfoil_hat" ], "male": [ "boxer_shorts" ], "female": [ "bra", "panties" ] }
+  },
+  {
+    "type": "profession",
+    "id": "oldtimey_gentleman",
+    "name": { "str": "Oldtimey Gentleman" },
+    "description": "The world has gone savage! Looters murdering, the undead walking, governments collapsing, and all you want is some tea!",
+    "points": 2,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "cooking" },
+      { "level": 2, "name": "speaking" }
+    ],
+    "items": {
+      "both": { "items": [ "", "", "", "", "", "", "", "", "", "", "" ], "male": [ "boxer_shorts" ], "female": [ "boxer_shorts" ] }
+    }
   }
 ]
