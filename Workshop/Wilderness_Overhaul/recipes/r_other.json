@@ -1,0 +1,28 @@
+[
+  {
+    "type": "recipe",
+    "result": "plant_fibre",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": 3000,
+    "reversible": false,
+    "autolearn": true,
+    "components": [ [ [ "dogsbane", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "wild_herbs",
+    "id_suffix": "from_thyme",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": 3000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [ [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "thyme", 2 ] ] ]
+  }
+]

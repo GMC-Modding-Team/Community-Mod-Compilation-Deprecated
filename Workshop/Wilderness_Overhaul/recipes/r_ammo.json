@@ -1,0 +1,56 @@
+[
+  {
+    "type": "recipe",
+    "result": "atlatl",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "skills_required": [ "throw", 2 ],
+    "difficulty": 2,
+    "time": 15000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "atlatl_dart_crude",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "skills_required": [ "throw", 2 ],
+    "difficulty": 2,
+    "time": 10000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "fire", -1 ] ] ],
+    "components": [ [ [ "stick", 2 ], [ "2x4", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "atlatl_dart",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "skills_required": [ "throw", 3 ],
+    "difficulty": 2,
+    "time": 15000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "components": [
+      [
+        [ "superglue", 1 ],
+        [ "bone_glue", 1 ],
+        [ "thread", 2, "NO_RECOVER" ],
+        [ "sinew", 2, "NO_RECOVER" ],
+        [ "plant_fibre", 2, "NO_RECOVER" ]
+      ],
+      [ [ "stick", 2 ], [ "2x4", 2 ] ],
+      [ [ "arrowhead", 1 ] ],
+      [ [ "fletching", 2 ] ]
+    ]
+  }
+]
