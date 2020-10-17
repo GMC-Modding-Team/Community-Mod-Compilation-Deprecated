@@ -12,20 +12,20 @@
     "skill": "shotgun",
     "ammo": [ "nailshot" ],
     "weight": "5690 g",
-    "volume": 6,
+    "volume": "1500 ml",
     "bashing": 10,
     "cutting": 0,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 4 },
-    "range": 0,
+    "range": 15,
     "dispersion": 32,
     "sight_dispersion": 32,
     "recoil": 4,
     "aim_speed": 0,
     "durability": 4,
-    "burst": 0,
     "clip_size": 1,
     "reload": 175,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "stock", 1 ] ]
   },
   {
@@ -52,9 +52,10 @@
     "aim_speed": 0,
     "recoil": 1,
     "durability": 8,
-    "burst": 5,
     "clip_size": 50,
-    "reload": 300
+    "reload": 300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "5 rd.", 5 ] ],
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "stock", 1 ] ]
   },
   {
     "id": "interpol_9mm",
@@ -79,9 +80,9 @@
     "aim_speed": 0,
     "recoil": 3,
     "durability": 11,
-    "burst": 3,
     "clip_size": 12,
     "reload": 225,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "5 rd.", 3 ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
