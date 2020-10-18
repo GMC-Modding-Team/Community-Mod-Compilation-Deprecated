@@ -1,0 +1,82 @@
+{
+  "method": "json",
+  "object": {
+    "add": [
+      { "item": "Alien_salvaged_blaster", "repeat": 4, "x": 3, "y": 1 },
+      { "item": "broken_tankbot", "repeat": 1, "x": 2, "y": 3 },
+      { "item": "broken_mininuke_hack", "repeat": 1, "x": 9, "y": 9 },
+      { "item": "broken_molebot", "repeat": 1, "x": 19, "y": 10 },
+      { "item": "broken_tankbot", "repeat": 1, "x": 6, "y": 14 },
+      { "item": "broken_c4_hack", "repeat": 1, "x": 17, "y": 16 }
+    ],
+    "furniture": {
+      "#": "f_sandbag_half",
+      "-": "f_null",
+      ".": "f_null",
+      "4": "f_null",
+      "6": "f_null",
+      "<": "f_null",
+      "S": "f_null",
+      "_": "f_null",
+      "b": "f_null",
+      "c": "f_null",
+      "s": "f_null",
+      "|": "f_null"
+    },
+    "place_monster": [
+      { "monster": "Alien_Juggernaut_D-type", "x": 14, "y": 2 },
+      { "monster": "mon_twisted_body", "x": 3, "y": 6 },
+      { "monster": "mon_twisted_body", "x": 18, "y": 6 },
+      { "monster": "mon_zombie_bio_op", "x": 19, "y": 8 },
+      { "monster": "mon_zombie_bio_op", "x": 20, "y": 8 },
+      { "monster": "mon_zombie_bio_op", "x": 21, "y": 8 },
+      { "monster": "mon_twisted_body", "x": 15, "y": 9 },
+      { "monster": "mon_twisted_body", "x": 2, "y": 10 },
+      { "monster": "mon_twisted_body", "x": 21, "y": 10 }
+    ],
+    "place_traps": [ { "trap": "tr_portal", "x": 14, "y": 1 }, { "trap": "tr_portal", "x": 21, "y": 1 } ],
+    "rows": [
+      "||||||||||||||||||||||||",
+      "|......SS........b-_.._|",
+      "|.666...ssss.....b-....|",
+      "|_......ssss.....b-_.._|",
+      "|................b--.--|",
+      "|ssssssss...sssssb.b.bb|",
+      "|...........sssss....._|",
+      "|...sssss...sssss..ccc.|",
+      "|...sssss...sssss......|",
+      "|...sssss..............|",
+      "|..........sssss.......|",
+      "|.ssss..s..sssss.sssss.|",
+      "|_ssss..s..sssss.sssss_|",
+      "|.ssss..s..sssss.sssss.|",
+      "|................sssss.|",
+      "|.....ssssss...........|",
+      "|.s..................._|",
+      "|######################|",
+      "|######################|",
+      "|......................|",
+      "|_.....................|",
+      "||||................444|",
+      "|<..................444|",
+      "||||||||||||||||||||||||"
+    ],
+    "terrain": {
+      "#": "t_metal_floor",
+      "-": "t_reinforced_glass",
+      ".": "t_metal_floor",
+      "4": "t_plut_generator",
+      "6": "t_console_broken",
+      "<": "t_stairs_up",
+      "S": "t_sai_box_damaged",
+      "_": "t_utility_light",
+      "b": "t_bars",
+      "c": "t_console",
+      "s": "t_slime",
+      "|": "t_wall_metal"
+    }
+  },
+  "om_terrain": "SS RHQ basement",
+  "type": "mapgen",
+  "weight": 100
+}
