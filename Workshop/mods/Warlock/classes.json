@@ -2,16 +2,10 @@
   {
     "type": "profession",
     "ident": "warlock",
-    "name": {
-      "male": "Warlock",
-      "female": "Warlock"
-    },
+    "name": { "male": "Warlock", "female": "Warlock" },
     "description": "A powerful Warlock in the old world, you were a master of the arcane and occult arts alike, unlike rare but typical magic user, the warlock permentantly transmutes their own body instead of just their surroundings in a practical way gaining great fiendish constitution, strength and resilience, you'd originally went down this path as in the old world no matter how much destructive power you had, a stray bullet could've ended your ambition quickly, so you chose the resilient path of a warlock. You'd conquered much in your life with your power, striking fear into local gangs and forcing the government to ignore you, you were just to make your big move when perhaps someone else did first, far more powerful, and conquered the world... (probably a lich...) ",
     "points": 11,
-    "traits": [
-      "FIENDISHCONSTITUTION",
-      "SORCEROUS_KNOWLEDGE",
-    ],
+    "traits": [ "FIENDISHCONSTITUTION", "SORCEROUS_KNOWLEDGE" ],
     "CBMs": [
       "bio_furnace",
       "bio_flashlight",
@@ -25,20 +19,7 @@
       "bio_resonator",
       "bio_power_storage_mkII"
     ],
-    "skills": [
-      {
-        "level": 4,
-        "name": "unarmed"
-      },
-      {
-        "level": 4,
-        "name": "melee"
-      },
-      {
-        "level": 4,
-        "name": "gun"
-      }
-    ],
+    "skills": [ { "level": 4, "name": "unarmed" }, { "level": 4, "name": "melee" }, { "level": 4, "name": "gun" } ],
     "items": {
       "both": {
         "items": [
@@ -61,33 +42,11 @@
           "cigar",
           "cigar"
         ],
-        "entries": [
-          {
-            "item": "kris",
-            "container-item": "sheath"
-          },
-          {
-            "item": "lighter",
-            "charges": 100
-          }
-        ]
+        "entries": [ { "item": "kris", "container-item": "sheath" }, { "item": "lighter", "charges": 100 } ]
       },
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-        "addictions": [
-            {
-                "intensity": 10,
-                "type": "nicotine"
-            }
-        ]
-    }
-     ]
-    }
+    "addictions": [ { "intensity": 10, "type": "nicotine" } ]
   }
 ]
