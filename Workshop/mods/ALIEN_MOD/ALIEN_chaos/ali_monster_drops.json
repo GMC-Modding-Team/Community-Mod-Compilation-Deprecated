@@ -1,90 +1,70 @@
 [
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_rescue_signal",
-        "entries":
-        [
-            { "item": "ali_rescue_signal_1","count": [1, 1], "prob": 40},
-            { "group": "mon_zombie_soldier_death_drops" }
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_shadow_stalker_death_drops",
-        "entries":
-        [
-            { "item": "ali_dread","count": [1, 1], "prob": 60},
-            { "item": "ali_despair","count": [2, 2], "prob": 30},
-            { "item": "ali_hate","count": [1, 1], "prob": 10},
-            { "item": "ali_broken_war","count": [1, 1], "prob": 10}
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_st_beacon_drops",
-        "entries":
-        [
-            { "item": "ali_st_beacon","count": [1, 1], "prob": 100}
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_stalker_death_drops",
-        "entries":
-        [
-            { "item": "ali_dread","count": [1, 1], "prob": 60},
-            { "item": "ali_despair","count": [2, 2], "prob": 30},
-            { "item": "ali_hate","count": [1, 1], "prob": 10},
-            { "item": "ali_sh_st_beacon","count": [1, 1], "prob": 50}
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_nemesis_death_drops",
-        "entries":
-        [
-            { "item": "m134","count": [1, 1], "prob": 100},
-            { "item": "308","count": [20, 20], "prob": 100},
-            { "item": "UPS_off","count": [1, 1], "prob": 100},
-            { "item": "belt308","count": [1, 1], "prob": 100},
-            { "item": "ali_st_beacon","count": [1, 1], "prob": 100}
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_sadako_death_drops",
-        "entries":
-        [
-            { "item": "plut_cell","count": [1, 1], "prob": 10},
-            { "item": "panties","count": [1, 1], "prob": 100},
-            { "item": "ali_st_beacon","count": [1, 1], "prob": 100}
-            
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_sadako_hand_death_drops",
-        "entries":
-        [
-            { "item": "plut_cell","count": [1, 1], "prob": 100},
-            { "item": "ali_st_beacon","count": [1, 1], "prob": 10}
-        ]
-    },
-    {
-        "type" : "item_group",
-        "subtype": "collection",
-        "id": "default_flying_tomato_death_drops",
-        "entries":
-        [
-            { "item": "tomato","count": [1, 1], "prob": 100},
-            { "item": "ali_st_beacon","count": [1, 1], "prob": 10}
-        ]
-    }
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_rescue_signal",
+    "entries": [ { "item": "ali_rescue_signal_1", "count": [ 1, 1 ], "prob": 40 }, { "group": "mon_zombie_soldier_death_drops" } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_shadow_stalker_death_drops",
+    "entries": [
+      { "item": "ali_dread", "count": [ 1, 1 ], "prob": 60 },
+      { "item": "ali_despair", "count": [ 2, 2 ], "prob": 30 },
+      { "item": "ali_hate", "count": [ 1, 1 ], "prob": 10 },
+      { "item": "ali_broken_war", "count": [ 1, 1 ], "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_st_beacon_drops",
+    "entries": [ { "item": "ali_st_beacon", "count": [ 1, 1 ], "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_stalker_death_drops",
+    "entries": [
+      { "item": "ali_dread", "count": [ 1, 1 ], "prob": 60 },
+      { "item": "ali_despair", "count": [ 2, 2 ], "prob": 30 },
+      { "item": "ali_hate", "count": [ 1, 1 ], "prob": 10 },
+      { "item": "ali_sh_st_beacon", "count": [ 1, 1 ], "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_nemesis_death_drops",
+    "entries": [
+      { "item": "m134", "count": [ 1, 1 ], "prob": 100 },
+      { "item": "308", "count": [ 20, 20 ], "prob": 100 },
+      { "item": "UPS_off", "count": [ 1, 1 ], "prob": 100 },
+      { "item": "belt308", "count": [ 1, 1 ], "prob": 100 },
+      { "item": "ali_st_beacon", "count": [ 1, 1 ], "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_sadako_death_drops",
+    "entries": [
+      { "item": "plut_cell", "count": [ 1, 1 ], "prob": 10 },
+      { "item": "panties", "count": [ 1, 1 ], "prob": 100 },
+      { "item": "ali_st_beacon", "count": [ 1, 1 ], "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_sadako_hand_death_drops",
+    "entries": [ { "item": "plut_cell", "count": [ 1, 1 ], "prob": 100 }, { "item": "ali_st_beacon", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_flying_tomato_death_drops",
+    "entries": [ { "item": "tomato", "count": [ 1, 1 ], "prob": 100 }, { "item": "ali_st_beacon", "count": [ 1, 1 ], "prob": 10 } ]
+  }
 ]

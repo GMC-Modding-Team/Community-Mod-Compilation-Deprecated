@@ -1,5 +1,5 @@
-[  
-   {
+[
+  {
     "type": "recipe",
     "result": "ali_pilebunker1",
     "category": "CC_WEAPON",
@@ -10,11 +10,23 @@
     "time": 40000,
     "reversible": true,
     "autolearn": true,
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 }, { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ ["swage", -1] ], [ ["forge", 450], [ "oxy_torch", 90] ] ],
-    "components": [ [ [ "elec_jackhammer", 1 ] ], [ [ "rebar", 2 ], [ "steel_chunk", 4 ] ], [ [ "power_supply", 5 ] ], [ [ "amplifier", 10 ] ], [ [ "scrap", 80 ] ], [ [ "cable", 220 ] ] ]
-   },
-   {
+    "qualities": [
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "HAMMER", "level": 2 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "tools": [ [ [ "swage", -1 ] ], [ [ "forge", 450 ], [ "oxy_torch", 90 ] ] ],
+    "components": [
+      [ [ "elec_jackhammer", 1 ] ],
+      [ [ "rebar", 2 ], [ "steel_chunk", 4 ] ],
+      [ [ "power_supply", 5 ] ],
+      [ [ "amplifier", 10 ] ],
+      [ [ "scrap", 80 ] ],
+      [ [ "cable", 220 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_pilebunker_holster",
     "category": "CC_WEAPON",
@@ -26,10 +38,10 @@
     "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ ["swage", -1] ], [ ["forge", 450], [ "oxy_torch", 90] ] ],
+    "tools": [ [ [ "swage", -1 ] ], [ [ "forge", 450 ], [ "oxy_torch", 90 ] ] ],
     "components": [ [ [ "power_supply", 1 ] ], [ [ "amplifier", 1 ] ], [ [ "scrap", 15 ] ], [ [ "cable", 25 ] ] ]
-   },
-   {
+  },
+  {
     "type": "recipe",
     "result": "dualnailmag",
     "category": "CC_WEAPON",
@@ -40,8 +52,8 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "nailmag", 2 ] ] ]
-   },
-   {
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_custom",
     "category": "CC_WEAPON",
@@ -56,8 +68,8 @@
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
     "components": [ [ [ "nailgun", 1 ] ], [ [ "pipe", 1 ] ], [ [ "2x4", 2 ], [ "stick", 3 ] ] ]
-   },
-   {
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_custom2",
     "category": "CC_WEAPON",
@@ -70,9 +82,15 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_standard", 20, "LIST" ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
-    "components": [ [ [ "ali_nail_custom", 1 ] ], [ [ "power_supply", 1 ] ], [ [ "amplifier", 1 ] ], [ [ "scrap", 10 ] ], [ [ "cable", 20 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "ali_nail_custom", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "scrap", 10 ] ],
+      [ [ "cable", 20 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_tfcustom",
     "category": "CC_WEAPON",
@@ -85,9 +103,16 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "soldering_standard", 40, "LIST" ], [ "small_repairkit", 40 ], [ "large_repairkit", 20 ] ] ],
-    "components": [ [ [ "ali_nail_custom2", 1 ] ], [ [ "power_supply", 2 ] ], [ [ "amplifier", 2 ] ], [ [ "scrap", 20 ] ], [ [ "cable", 30 ] ], [ [ "spring", 2 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "ali_nail_custom2", 1 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "scrap", 20 ] ],
+      [ [ "cable", 30 ] ],
+      [ [ "spring", 2 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_dualcustom",
     "category": "CC_WEAPON",
@@ -98,8 +123,8 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "ali_nail_custom2", 2 ] ] ]
-   },
-   {
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_smg",
     "category": "CC_WEAPON",
@@ -112,9 +137,16 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_standard", 20, "LIST" ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
-    "components": [ [ [ "ali_nail_custom", 1 ] ], [ [ "pipe", 1 ] ], [ [ "power_supply", 3 ] ], [ [ "amplifier", 2 ] ], [ [ "scrap", 50 ] ], [ [ "cable", 40 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "ali_nail_custom", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "scrap", 50 ] ],
+      [ [ "cable", 40 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_smg2",
     "category": "CC_WEAPON",
@@ -127,9 +159,15 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "soldering_standard", 40, "LIST" ], [ "small_repairkit", 40 ], [ "large_repairkit", 20 ] ] ],
-    "components": [ [ [ "ali_nail_smg", 1 ] ], [ [ "power_supply", 3 ] ], [ [ "amplifier", 3 ] ], [ [ "scrap", 70 ] ], [ [ "cable", 60 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "ali_nail_smg", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "scrap", 70 ] ],
+      [ [ "cable", 60 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_ar",
     "category": "CC_WEAPON",
@@ -142,9 +180,16 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_standard", 20, "LIST" ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
-    "components": [ [ [ "nailrifle", 1 ] ], [ [ "pipe", 1 ] ], [ [ "power_supply", 3 ] ], [ [ "amplifier", 3 ] ], [ [ "scrap", 80 ] ], [ [ "cable", 70 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "nailrifle", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "scrap", 80 ] ],
+      [ [ "cable", 70 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_ar2",
     "category": "CC_WEAPON",
@@ -157,9 +202,16 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "soldering_standard", 40, "LIST" ], [ "small_repairkit", 40 ], [ "large_repairkit", 20 ] ] ],
-    "components": [ [ [ "ali_nail_ar", 1 ] ], [ [ "pipe", 2 ] ], [ [ "power_supply", 5 ] ], [ [ "amplifier", 5 ] ], [ [ "scrap", 85 ] ], [ [ "cable", 90 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "ali_nail_ar", 1 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "power_supply", 5 ] ],
+      [ [ "amplifier", 5 ] ],
+      [ [ "scrap", 85 ] ],
+      [ [ "cable", 90 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_sr",
     "category": "CC_WEAPON",
@@ -172,9 +224,16 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_standard", 20, "LIST" ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
-    "components": [ [ [ "nailrifle", 1 ] ], [ [ "pipe", 1 ] ], [ [ "power_supply", 4 ] ], [ [ "amplifier", 3 ] ], [ [ "scrap", 75 ] ], [ [ "cable", 75 ] ] ]
-   },
-   {
+    "components": [
+      [ [ "nailrifle", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "scrap", 75 ] ],
+      [ [ "cable", 75 ] ]
+    ]
+  },
+  {
     "type": "recipe",
     "result": "ali_nail_sr2",
     "category": "CC_WEAPON",
@@ -187,40 +246,27 @@
     "autolearn": true,
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "soldering_standard", 40, "LIST" ], [ "small_repairkit", 40 ], [ "large_repairkit", 20 ] ] ],
-    "components": [ [ [ "ali_nail_sr", 1 ] ], [ [ "pipe", 2 ] ], [ [ "power_supply", 4 ] ], [ [ "amplifier", 5 ] ], [ [ "scrap", 85 ] ], [ [ "cable", 90 ] ] ]
-   },
-   {
-  "type" : "recipe",
-  "result": "ali_war",
-  "category": "CC_WEAPON",
-  "subcategory": "CSC_WEAPON_CUTTING",
-  "skill_used": "fabrication",
-  "skills_required": [ "fabrication", 6 ],
-  "difficulty": 0,
-  "time": 480000,
-  "autolearn": true,
-  "qualities": [
-    { "id": "ANVIL", "level": 3 },
-    {"id":"HAMMER","level":3},
-    { "id": "CHISEL", "level": 3 }
-  ],
-  "tools": [
-      [
-      ["tongs", -1]
-      ],
-      [
-      ["swage", -1]
-      ],
-      [
-      ["forge", 450],
-      [ "oxy_torch", 90]
-      ]
-      ],
-  "components":
-    [
-     [
-     [ "ali_broken_war", 2 ]
-     ]
+    "components": [
+      [ [ "ali_nail_sr", 1 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "amplifier", 5 ] ],
+      [ [ "scrap", 85 ] ],
+      [ [ "cable", 90 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "ali_war",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "skills_required": [ "fabrication", 6 ],
+    "difficulty": 0,
+    "time": 480000,
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 450 ], [ "oxy_torch", 90 ] ] ],
+    "components": [ [ [ "ali_broken_war", 2 ] ] ]
   }
 ]
