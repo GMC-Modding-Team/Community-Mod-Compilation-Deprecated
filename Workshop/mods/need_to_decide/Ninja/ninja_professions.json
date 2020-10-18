@@ -1,26 +1,22 @@
 [
   {
-    "id" : "PROF_NINJA_MA_NINJA",
-    "type" : "mutation",
-    "name" : "忍術の継承者",
-    "points" : 1,
-    "description" : "祖父から忍術を継承しました。普段は一般市民と変わらない暮らしをしていましたが、密かに修行を積み、奥義を体得しています。あとはそれを運用する体力が必要です。",
-    "initial_ma_styles" : [ "style_ninjutsu" ],
+    "id": "PROF_NINJA_MA_NINJA",
+    "type": "mutation",
+    "name": "忍術の継承者",
+    "points": 1,
+    "description": "祖父から忍術を継承しました。普段は一般市民と変わらない暮らしをしていましたが、密かに修行を積み、奥義を体得しています。あとはそれを運用する体力が必要です。",
+    "initial_ma_styles": [ "style_ninjutsu" ],
     "valid": false,
     "purifiable": false,
     "profession": true
-  },{
+  },
+  {
     "ident": "ninja_successor",
     "type": "profession",
-    "name": {
-      "male"  : "忍者",
-      "female": "くノ一"
-    },
+    "name": { "male": "忍者", "female": "くノ一" },
     "description": "あなたは忍術の継承者です。忍者という職業はもはや現代には必要ありませんが、その技術と知識、そして精神は連綿と受け継がれて来ました。それは大異変が起ころうとも変わりません。さぁ、あなたの流派を存続させるために生き延びましょう！",
     "points": 0,
-    "traits": [
-      "PROF_NINJA_MA_NINJA"
-    ],
+    "traits": [ "PROF_NINJA_MA_NINJA" ],
     "items": {
       "both": {
         "items": [
@@ -41,25 +37,16 @@
           "manual_ninjutsu",
           "textbook_weapeast"
         ],
-        "entries": [
-          {"item": "lighter", "charges": 100}
-        ]
+        "entries": [ { "item": "lighter", "charges": 100 } ]
       },
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
     }
-  },{
+  },
+  {
     "ident": "ninja_cosplay",
     "type": "profession",
-    "name": {
-      "male"  : "忍者(コスプレ)",
-      "female": "くノ一(コスプレ)"
-    },
+    "name": { "male": "忍者(コスプレ)", "female": "くノ一(コスプレ)" },
     "description": "忍者になりたいと思っていました。何やら大変なことが起こったようですが、これはむしろチャンスです。あなたを縛る法律も白い目で見つめる隣人も今や存在しないのです。残念ながらコスプレパーティは中止のようですが。",
     "points": 0,
     "items": {
@@ -78,83 +65,53 @@
         "ninja_shuriken_paper",
         "ninja_map_cosplaypt"
       ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
     }
-  },{
-    "id" : "PROF_NINJA_NINJASLAYER",
-    "type" : "mutation",
-    "name" : "ニンジャスレイヤー",
-    "points" : 0,
-    "description" : "ニンジャみな殺すべし...慈悲は無い...",
+  },
+  {
+    "id": "PROF_NINJA_NINJASLAYER",
+    "type": "mutation",
+    "name": "ニンジャスレイヤー",
+    "points": 0,
+    "description": "ニンジャみな殺すべし...慈悲は無い...",
     "valid": true,
     "purifiable": false,
     "profession": true
-  },{
+  },
+  {
     "ident": "ninja_slayer",
     "type": "profession",
     "name": "ニンジャスレイヤー",
     "description": "愛する人をニンジャに殺され、自分も殺されかけ、臨死体験によって不思議な能力を手に入れ蘇った...という妄想に取り憑かれている困った人です。記憶こそ偽りですが、あなたに残されたニンジャへの復讐心は本物です。",
     "points": 0,
-    "traits": [
-      "PROF_NINJA_NINJASLAYER"
-    ],
+    "traits": [ "PROF_NINJA_NINJASLAYER" ],
     "items": {
-      "both": [
-        "jeans",
-        "longshirt",
-        "mbag",
-        "socks",
-        "sneakers",
-        "pockknife",
-        "water_clean",
-        "matches",
-        "photo_album",
-        "mag_comic"
-      ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "both": [ "jeans", "longshirt", "mbag", "socks", "sneakers", "pockknife", "water_clean", "matches", "photo_album", "mag_comic" ],
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
     }
-  },{
-    "id" : "PROF_NINJA_TATTOO",
-    "type" : "mutation",
-    "name" : "刺青",
-    "points" : 0,
+  },
+  {
+    "id": "PROF_NINJA_TATTOO",
+    "type": "mutation",
+    "name": "刺青",
+    "points": 0,
     "ugliness": 1,
-    "description" : "龍の絵が彫られています。プールや海水浴場などに入れなくなります。",
+    "description": "龍の絵が彫られています。プールや海水浴場などに入れなくなります。",
     "valid": true,
     "purifiable": false,
     "profession": true
-  },{
+  },
+  {
     "ident": "ninja_yakuza",
     "type": "profession",
-    "name": {
-      "male"  : "ヤクザ",
-      "female": "姐さん"
-    },
+    "name": { "male": "ヤクザ", "female": "姐さん" },
     "description": "ヤクザとは暴力団のことで、暴力を組織的に運用し犯罪で収益を得る集団です。厄災前、あなたを邪魔した数々の敵...警察、政治家、法律、他のヤクザ、親分、などはもういません。とうとうあなたの一家が天下を取る時代が来たのです。",
     "points": 0,
-    "traits": [
-      "PROF_NINJA_TATTOO"
-    ],
-    "CBMs":[
-      "bio_targeting",
-      "bio_armor_arms",
-      "bio_armor_legs"
-    ],
-    "skills": [
-      {"level": 2, "name": "pistol"}
-    ],
+    "traits": [ "PROF_NINJA_TATTOO" ],
+    "CBMs": [ "bio_targeting", "bio_armor_arms", "bio_armor_legs" ],
+    "skills": [ { "level": 2, "name": "pistol" } ],
     "items": {
       "both": [
         "suit",
@@ -164,23 +121,36 @@
         "briefcase",
         "water_clean",
         "ref_lighter",
-        "joint","joint","joint","joint","joint",
-        "molotov","molotov","molotov",
-        "ninja_gun_ay893","glockmag","glockbigmag",
-        "9mmP","9mmP","9mmP","9mmP","9mmP","9mmP",
-        "tanto","sheath",
+        "joint",
+        "joint",
+        "joint",
+        "joint",
+        "joint",
+        "molotov",
+        "molotov",
+        "molotov",
+        "ninja_gun_ay893",
+        "glockmag",
+        "glockbigmag",
+        "9mmP",
+        "9mmP",
+        "9mmP",
+        "9mmP",
+        "9mmP",
+        "9mmP",
+        "tanto",
+        "sheath",
         "gold_watch",
         "ninja_tengu_mask",
         "ninja_jetpack",
-        "chem_rocket_fuel","chem_rocket_fuel","chem_rocket_fuel","chem_rocket_fuel","chem_rocket_fuel"
+        "chem_rocket_fuel",
+        "chem_rocket_fuel",
+        "chem_rocket_fuel",
+        "chem_rocket_fuel",
+        "chem_rocket_fuel"
       ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
     }
   }
 ]

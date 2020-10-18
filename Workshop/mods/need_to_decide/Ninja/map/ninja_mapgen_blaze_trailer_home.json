@@ -1,9 +1,7 @@
 [
   {
     "type": "mapgen",
-    "om_terrain": [
-        "ninja_blaze_trailer_home"
-    ],
+    "om_terrain": [ "ninja_blaze_trailer_home" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -35,7 +33,7 @@
         "                    4w  "
       ],
       "terrain": {
-        " ": ["t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt"],
+        " ": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         ".": "t_dirt",
         "@": "t_dirt",
         "P": "t_water_pump",
@@ -43,18 +41,12 @@
         "4": "t_tree_willow",
         "w": "t_shrub"
       },
-      "traps": {
-        "=": "tr_beartrap"
-      },
-      "npcs": {
-        "@": {"class": "ninja_npc_high_ninja_blaze" }
-      },
-      "signs": {
-        "T": { "snippet": "ninja_snippet_blaze_home" }
-      },
+      "traps": { "=": "tr_beartrap" },
+      "npcs": { "@": { "class": "ninja_npc_high_ninja_blaze" } },
+      "signs": { "T": { "snippet": "ninja_snippet_blaze_home" } },
       "place_vehicles": [
-        {"vehicle": "ninja_vehicle_house_trailer"    , "x": 10, "y":  5, "rotation": 180, "chance": 100},
-        {"vehicle": "ninja_vehicle_ninja_ZX14_custom", "x":  4, "y": 15, "rotation":  90, "chance":  20}
+        { "vehicle": "ninja_vehicle_house_trailer", "x": 10, "y": 5, "rotation": 180, "chance": 100 },
+        { "vehicle": "ninja_vehicle_ninja_ZX14_custom", "x": 4, "y": 15, "rotation": 90, "chance": 20 }
       ]
     }
   }

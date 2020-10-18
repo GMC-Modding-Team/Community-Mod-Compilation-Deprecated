@@ -1,158 +1,92 @@
 {
-    "method": "json",
-    "object": {
-        "furniture": {
-            "#": "f_null",
-            "&": "f_trashcan",
-            "+": "f_null",
-            "-": "f_null",
-            ".": "f_null",
-            "C": "f_chair",
-            "D": "f_dumpster",
-            "O": "f_crate_o",
-            "T": "f_table",
-            "X": "f_crate_c",
-            "_": "f_null",
-            "a": "f_table",
-            "b": "f_bluebell",
-            "c": "f_null",
-            "d": "f_null",
-            "f": "f_null",
-            "s": "f_null",
-            "t": "f_table",
-            "{": "f_dumpster",
-            "|": "f_null"
-        },
-        "place_items": [
-            {
-                "chance": 35,
-                "item": "tools_carpentry",
-                "x": 18,
-                "y": 13
-            },
-            {
-                "chance": 35,
-                "item": "tools_carpentry",
-                "x": 14,
-                "y": 9
-            },
-            {
-                "chance": 35,
-                "item": "clothing_work_gloves",
-                "x": 8,
-                "y": 12
-            },
-            {
-                "chance": 50,
-                "item": "tools_construction",
-                "x": [
-                    8,
-                    9
-                ],
-                "y": 16
-            },
-            {
-                "chance": 50,
-                "item": "tools_construction",
-                "x": 9,
-                "y": 14
-            },
-            {
-                "chance": 50,
-                "item": "tools_construction",
-                "x": 3,
-                "y": 11
-            },
-            {
-                "chance": 35,
-                "item": "hand_tools",
-                "x": 8,
-                "y": 14
-            },
-            {
-                "chance": 25,
-                "item": "magazines",
-                "x": 18,
-                "y": 14
-            },
-            {
-                "chance": 35,
-                "item": "hardware_plumbing",
-                "x": 3,
-                "y": 8
-            },
-            {
-                "chance": 35,
-                "item": "paint",
-                "x": 6,
-                "y": 12
-            },
-            {
-                "chance": 25,
-                "item": "tools_earthworking",
-                "x": 19,
-                "y": 14
-            },
-            {
-                "chance": 35,
-                "item": "hardware_trash",
-                "x": [
-                    19,
-                    20
-                ],
-                "y": 17
-            }
-        ],
-        "rows": [
-            "_........ss.ss..........",
-            "..._.....ss_ss....._._..",
-            ".._.._.._ssbss......__..",
-            "._..__.._ss_ss.__.__.._.",
-            ".._____._ssbss_______...",
-            ".________ss_ss_______._.",
-            "._|---|__sssss_|---|__..",
-            "__|fff|__sssss_|fff|__..",
-            "__|fff|||-+|+-||fff|__..",
-            "._|ffff|fffffff|fff#__..",
-            "__|ffffdfffffff#ccc__...",
-            "__|ffff|ffffccccccc__...",
-            "._#ffff|ffffc|ccccc__...",
-            "._#cccc|fCffccc#cctT_&..",
-            ".__cc|c|aaffccc|cctT_...",
-            ".______||||__|_|_____._.",
-            "..______XX_____#____....",
-            ".._______________._{D...",
-            "._._.__.__O._..__.__....",
-            "......__._....__.__.._..",
-            "...._.._.__..__.._......",
-            "..._._.__.____..__._....",
-            "....._...__...___...._..",
-            "...._....._____........."
-        ],
-        "terrain": {
-            "#": "t_wall_half",
-            "&": "t_grass",
-            "+": "t_door_glass_c",
-            "-": "t_wall_glass",
-            ".": "t_grass",
-            "C": "t_floor",
-            "D": "t_dirt",
-            "O": "t_grass",
-            "T": "t_dirt",
-            "X": "t_dirt",
-            "_": "t_dirt",
-            "a": "t_floor",
-            "b": "t_dirt",
-            "c": "t_concrete",
-            "d": "t_door_o",
-            "f": "t_floor",
-            "s": "t_sidewalk",
-            "t": "t_concrete",
-            "{": "t_grass",
-            "|": "t_wall"
-        }
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_null",
+      "&": "f_trashcan",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "C": "f_chair",
+      "D": "f_dumpster",
+      "O": "f_crate_o",
+      "T": "f_table",
+      "X": "f_crate_c",
+      "_": "f_null",
+      "a": "f_table",
+      "b": "f_bluebell",
+      "c": "f_null",
+      "d": "f_null",
+      "f": "f_null",
+      "s": "f_null",
+      "t": "f_table",
+      "{": "f_dumpster",
+      "|": "f_null"
     },
-    "om_terrain": "construction_site",
-    "type": "mapgen",
-    "weight": 100
+    "place_items": [
+      { "chance": 35, "item": "tools_carpentry", "x": 18, "y": 13 },
+      { "chance": 35, "item": "tools_carpentry", "x": 14, "y": 9 },
+      { "chance": 35, "item": "clothing_work_gloves", "x": 8, "y": 12 },
+      { "chance": 50, "item": "tools_construction", "x": [ 8, 9 ], "y": 16 },
+      { "chance": 50, "item": "tools_construction", "x": 9, "y": 14 },
+      { "chance": 50, "item": "tools_construction", "x": 3, "y": 11 },
+      { "chance": 35, "item": "hand_tools", "x": 8, "y": 14 },
+      { "chance": 25, "item": "magazines", "x": 18, "y": 14 },
+      { "chance": 35, "item": "hardware_plumbing", "x": 3, "y": 8 },
+      { "chance": 35, "item": "paint", "x": 6, "y": 12 },
+      { "chance": 25, "item": "tools_earthworking", "x": 19, "y": 14 },
+      { "chance": 35, "item": "hardware_trash", "x": [ 19, 20 ], "y": 17 }
+    ],
+    "rows": [
+      "_........ss.ss..........",
+      "..._.....ss_ss....._._..",
+      ".._.._.._ssbss......__..",
+      "._..__.._ss_ss.__.__.._.",
+      ".._____._ssbss_______...",
+      ".________ss_ss_______._.",
+      "._|---|__sssss_|---|__..",
+      "__|fff|__sssss_|fff|__..",
+      "__|fff|||-+|+-||fff|__..",
+      "._|ffff|fffffff|fff#__..",
+      "__|ffffdfffffff#ccc__...",
+      "__|ffff|ffffccccccc__...",
+      "._#ffff|ffffc|ccccc__...",
+      "._#cccc|fCffccc#cctT_&..",
+      ".__cc|c|aaffccc|cctT_...",
+      ".______||||__|_|_____._.",
+      "..______XX_____#____....",
+      ".._______________._{D...",
+      "._._.__.__O._..__.__....",
+      "......__._....__.__.._..",
+      "...._.._.__..__.._......",
+      "..._._.__.____..__._....",
+      "....._...__...___...._..",
+      "...._....._____........."
+    ],
+    "terrain": {
+      "#": "t_wall_half",
+      "&": "t_grass",
+      "+": "t_door_glass_c",
+      "-": "t_wall_glass",
+      ".": "t_grass",
+      "C": "t_floor",
+      "D": "t_dirt",
+      "O": "t_grass",
+      "T": "t_dirt",
+      "X": "t_dirt",
+      "_": "t_dirt",
+      "a": "t_floor",
+      "b": "t_dirt",
+      "c": "t_concrete",
+      "d": "t_door_o",
+      "f": "t_floor",
+      "s": "t_sidewalk",
+      "t": "t_concrete",
+      "{": "t_grass",
+      "|": "t_wall"
+    }
+  },
+  "om_terrain": "construction_site",
+  "type": "mapgen",
+  "weight": 100
 }

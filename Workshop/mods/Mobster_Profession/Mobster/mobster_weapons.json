@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "broken_bottle",
     "type": "GENERIC",
     "symbol": ";",
@@ -8,8 +8,8 @@
     "name_plural": "Broken Bottles",
     "description": "A broken bottle of vodka, the name appears to be Absolut Cataclysm",
     "price": 0,
-    "material": ["plastic"],
-    "flags": ["STAB"],
+    "material": [ "plastic" ],
+    "flags": [ "STAB" ],
     "weight": 15,
     "volume": 2,
     "bashing": 2,
@@ -23,10 +23,9 @@
     "revert_to": "null",
     "category": "weapons",
     "use_action": "KNIFE",
-    "qualities": [["CUT", 2], ["BUTCHER", 4]]
-	},
-
-	{
+    "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 4 ] ]
+  },
+  {
     "id": "spas_12",
     "type": "GUN",
     "symbol": "(",
@@ -35,7 +34,7 @@
     "name_plural": "Mossberg 500",
     "description": "The SPAS-12 is a really cool looking shotgun. I will research it later.",
     "price": 53800,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "flags": "RELOAD_ONE",
     "skill": "shotgun",
     "ammo": "shot",
@@ -46,11 +45,23 @@
     "to_hit": -1,
     "dispersion": 85,
     "sight_dispersion": 90,
-    "aim_speed" : 3,
+    "aim_speed": 3,
     "recoil": -20,
     "durability": 8,
     "clip_size": 6,
     "reload": 80,
-    "valid_mod_locations": [[ "accessories", 4 ],[ "barrel", 1 ],[ "bore", 1 ],[ "conversion", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
-	}
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }
 ]

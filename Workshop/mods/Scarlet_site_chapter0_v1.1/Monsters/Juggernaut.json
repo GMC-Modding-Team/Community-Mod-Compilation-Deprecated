@@ -1,4 +1,5 @@
-[{
+[
+  {
     "type": "MONSTER",
     "id": "Alien_Juggernaut_D-type",
     "name": "Alien Juggernaut D-type",
@@ -26,10 +27,7 @@
     "death_drops": "mon_zombie_soldier_death_drops",
     "luminance": 30,
     "hp": 1000,
-    "death_function": [
-      "ACID",
-      "NORMAL"
-    ],
+    "death_function": [ "ACID", "NORMAL" ],
     "special_attacks": [
       [ "PARROT", 30 ],
       [ "SMASH", 20 ],
@@ -44,35 +42,18 @@
         "fake_str": 15,
         "fake_dex": 10,
         "fake_per": 10,
-        "fake_skills": [
-          [
-            "gun",
-            10
-          ],
-          [
-            "rifle",
-            8
-          ]
-        ],
+        "fake_skills": [ [ "gun", 10 ], [ "rifle", 8 ] ],
         "move_cost": 100,
         "targeting_cost": 50,
-        "ranges": [
-          [5, 30, "DEFAULT"]
-        ],
+        "ranges": [ [ 5, 30, "DEFAULT" ] ],
         "description": "Juggernaut transforms his part into ???",
         "targeting_sound": "Beeeeeeeeep... compusch...",
         "targeting_volume": 40,
         "no_ammo_sound": "pf...."
       }
-
     ],
-    "starting_ammo": {
-      "generic_no_ammo": 1000
-    },
-    "special_when_hit": [
-      "ZAPBACK",
-      75
-    ],
+    "starting_ammo": { "generic_no_ammo": 1000 },
+    "special_when_hit": [ "ZAPBACK", 75 ],
     "description": "A big and very aggresive shape-shifting human-like figure with no signs of face, it wears a very advanced black armor with small green tubes to the sides of its arms and waist, his limbs look like some blue liquid taking any form creature wants. As i approach, it starts to vibrate and change his form chaotically. This Alien-type has rank D, the lowest rank among his kind",
     "flags": [
       "SEES",
@@ -91,4 +72,5 @@
       "BONES",
       "DESTROYS"
     ]
-  }]
+  }
+]

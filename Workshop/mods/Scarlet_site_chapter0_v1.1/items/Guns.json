@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "Alien_salvaged_blaster",
     "type": "GUN",
     "symbol": "(",
@@ -6,19 +7,9 @@
     "name": "Alien salvaged blaster",
     "description": "Something is not right about this blaster, it looks like big plain pipe with a big hole at the beginning of its structure, it lightens up when you put your hand in. there is several wires coming from the sides of this blaster, when you plug that wires to the UPS blaster begins to vibrate.",
     "price": 200000,
-    "material": [
-      "Alienalloy"    ],
-    "ammo_effects": [
-      "LASER",
-      "INCENDIARY"
-    ],
-    "flags": [
-      "NO_AMMO",
-      "NEVER_JAMS",
-      "NO_UNLOAD",
-	 "MODE_BURST"
-
-    ],
+    "material": [ "Alienalloy" ],
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "MODE_BURST" ],
     "ups_charges": 750,
     "skill": "rifle",
     "weight": 250,
@@ -32,37 +23,17 @@
     "sight_dispersion": 60,
     "aim_speed": 10,
     "recoil": 0,
-	"loudness": 25,
+    "loudness": 25,
     "durability": 10,
     "reload": 100,
     "valid_mod_locations": [
-      [
-        "accessories",
-        6
-      ],
-      [
-        "grip",
-        2
-      ],
-      [
-        "rail",
-        1
-      ],
-      [
-        "sights",
-        1
-      ],
-      [
-        "stock",
-        1
-      ],
-      [
-        "underbarrel",
-        2
-      ],
-      [
-        "mechanism",
-        1
-      ]
+      [ "accessories", 6 ],
+      [ "grip", 2 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 2 ],
+      [ "mechanism", 1 ]
     ]
-  }]
+  }
+]

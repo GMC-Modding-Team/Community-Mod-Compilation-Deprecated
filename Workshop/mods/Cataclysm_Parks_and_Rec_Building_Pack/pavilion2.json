@@ -1,110 +1,79 @@
 {
-    "method": "json",
-    "object": {
-        "furniture": {
-            "#": "f_bench",
-            "-": "f_null",
-            ".": "f_null",
-            "1": "f_null",
-            "4": "f_null",
-            "7": "f_null",
-            "S": "f_null",
-            "U": "f_null",
-            "_": "f_null",
-            "a": "f_null",
-            "d": "f_null",
-            "p": "f_null",
-            "s": "f_null",
-            "t": "f_table",
-            "u": "f_null",
-            "w": "f_woodstove",
-            "|": "f_null"
-        },
-        "place_items": [
-            {
-                "chance": 25,
-                "item": "snacks",
-                "x": 5,
-                "y": 18
-            },
-            {
-                "chance": 25,
-                "item": "snacks",
-                "x": 15,
-                "y": 15
-            },
-            {
-                "chance": 30,
-                "item": "bar_trash",
-                "x": 14,
-                "y": 7
-            },
-            {
-                "chance": 30,
-                "item": "bar_trash",
-                "x": 6,
-                "y": 2
-            }
-        ],
-        "place_monster": [
-            {
-                "monster": "mon_crow",
-                "x": 3,
-                "y": 7
-            },
-            {
-                "monster": "mon_squirrel",
-                "x": 20,
-                "y": 8
-            }
-        ],
-        "rows": [
-            "ssssssssssssssssssssssss",
-            "......sss......sss......",
-            ".u....sss..pp..sss....u.",
-            "......sss.pddp.sss......",
-            "......ssspdUddpsss...S..",
-            ".4.u..ssspd7dUpsss1.....",
-            "......sssspUdpssss..u...",
-            "......sssssppsssss......",
-            ".u1...ssssssssssss......",
-            "....ssssssssssssssss.4.u",
-            "....ssssssssssssssss....",
-            "..||_|_____||_____|_||..",
-            ".a|__________________|..",
-            "..-___________________..",
-            "..-_#t#__#t#__#t#_____..",
-            "..-_#t#__#t#__#t#_____..",
-            "..-_#t#__#t#__#t#__w__..",
-            "..-_#t#__#t#__#t#_____..",
-            "..|_#t#__#t#__#t#____|..",
-            "..|_#t#__#t#__#t#____|..",
-            "u.|__________________|.u",
-            "..||||||||||||||||||||..",
-            "..................u.....",
-            "........u..............."
-        ],
-        "terrain": {
-            "#": "t_thconc_floor",
-            "-": "t_railing_h",
-            ".": "t_grass",
-            "1": "t_tree_young",
-            "4": "t_tree_pine",
-            "7": "t_tree_cherry_harvested",
-            "S": "t_shrub",
-            "U": "t_underbrush_harvested_autumn",
-            "_": "t_thconc_floor",
-            "a": "t_underbrush",
-            "d": "t_dirt",
-            "p": "t_pavement_y",
-            "s": "t_sidewalk",
-            "t": "t_thconc_floor",
-            "u": "t_underbrush_harvested_spring",
-            "w": "t_thconc_floor",
-            "|": "t_wall_log"
-        }
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_bench",
+      "-": "f_null",
+      ".": "f_null",
+      "1": "f_null",
+      "4": "f_null",
+      "7": "f_null",
+      "S": "f_null",
+      "U": "f_null",
+      "_": "f_null",
+      "a": "f_null",
+      "d": "f_null",
+      "p": "f_null",
+      "s": "f_null",
+      "t": "f_table",
+      "u": "f_null",
+      "w": "f_woodstove",
+      "|": "f_null"
     },
-    "om_terrain": "pavilion",
-    "type": "mapgen",
-    "weight": 100
+    "place_items": [
+      { "chance": 25, "item": "snacks", "x": 5, "y": 18 },
+      { "chance": 25, "item": "snacks", "x": 15, "y": 15 },
+      { "chance": 30, "item": "bar_trash", "x": 14, "y": 7 },
+      { "chance": 30, "item": "bar_trash", "x": 6, "y": 2 }
+    ],
+    "place_monster": [ { "monster": "mon_crow", "x": 3, "y": 7 }, { "monster": "mon_squirrel", "x": 20, "y": 8 } ],
+    "rows": [
+      "ssssssssssssssssssssssss",
+      "......sss......sss......",
+      ".u....sss..pp..sss....u.",
+      "......sss.pddp.sss......",
+      "......ssspdUddpsss...S..",
+      ".4.u..ssspd7dUpsss1.....",
+      "......sssspUdpssss..u...",
+      "......sssssppsssss......",
+      ".u1...ssssssssssss......",
+      "....ssssssssssssssss.4.u",
+      "....ssssssssssssssss....",
+      "..||_|_____||_____|_||..",
+      ".a|__________________|..",
+      "..-___________________..",
+      "..-_#t#__#t#__#t#_____..",
+      "..-_#t#__#t#__#t#_____..",
+      "..-_#t#__#t#__#t#__w__..",
+      "..-_#t#__#t#__#t#_____..",
+      "..|_#t#__#t#__#t#____|..",
+      "..|_#t#__#t#__#t#____|..",
+      "u.|__________________|.u",
+      "..||||||||||||||||||||..",
+      "..................u.....",
+      "........u..............."
+    ],
+    "terrain": {
+      "#": "t_thconc_floor",
+      "-": "t_railing_h",
+      ".": "t_grass",
+      "1": "t_tree_young",
+      "4": "t_tree_pine",
+      "7": "t_tree_cherry_harvested",
+      "S": "t_shrub",
+      "U": "t_underbrush_harvested_autumn",
+      "_": "t_thconc_floor",
+      "a": "t_underbrush",
+      "d": "t_dirt",
+      "p": "t_pavement_y",
+      "s": "t_sidewalk",
+      "t": "t_thconc_floor",
+      "u": "t_underbrush_harvested_spring",
+      "w": "t_thconc_floor",
+      "|": "t_wall_log"
+    }
+  },
+  "om_terrain": "pavilion",
+  "type": "mapgen",
+  "weight": 100
 }

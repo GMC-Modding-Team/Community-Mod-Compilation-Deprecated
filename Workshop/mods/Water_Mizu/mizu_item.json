@@ -4,7 +4,7 @@
     "type": "vehicle_part",
     "name": "A floating ring",
     "item": "inflatable_airbag",
-    "location" : "armor",
+    "location": "armor",
     "symbol": "O",
     "broken_symbol": "x",
     "color": "green",
@@ -16,46 +16,46 @@
     "breaks_into": [ { "item": "plastic_chunk", "count": [ 10, 20 ] } ],
     "flags": [ "FLOATS", "STABLE", "VARIABLE_SIZE", "FOLDABLE", "ARMOR" ]
   },
-    {
-	    "id": "snorkel_mizu",
-	    "type": "ARMOR",
-	    "name": "Snorkelling",
-        "name_plural": "Snorkelling",
-        "category" : "clothing",
-        "symbol": "[",
-        "color": "dark_gray",
-	    "description": "It is a tool to let you breathe even underwater. However, you will feel stuffy while you are not used to it.",
-        "flags" : ["WATER_FRIENDLY", "REBREATHER", "TRADER_AVOID"],
-        "price": 500,
-        "material": ["plastic"],
-        "weight" : 150,
-        "volume": 4,
-        "to_hit" : -3,
-        "covers" : ["MOUTH"],
-        "encumbrance" : 40,
-        "coverage" : 75,
-        "material_thickness" : 1
-    },
-    {
-	    "id": "snorkel_makeshift_mizu",
-	    "type": "ARMOR",
-	    "name": "Simple snorkel",
-        "name_plural": "Simple snorkel",
-        "category" : "clothing",
-        "symbol": "[",
-        "color": "dark_gray",
-	    "description": "A snorkel made of duct tape and rubber hose is coming. It seems that my breath will suck.",
-        "flags" : ["WATER_FRIENDLY", "REBREATHER", "TRADER_AVOID","FRAGILE"],
-        "price": 500,
-        "material": ["plastic"],
-        "weight" : 350,
-        "volume": 5,
-        "to_hit" : -3,
-        "covers" : ["MOUTH"],
-        "encumbrance" : 60,
-        "coverage" : 75,
-        "material_thickness" : 1
-    },
+  {
+    "id": "snorkel_mizu",
+    "type": "ARMOR",
+    "name": "Snorkelling",
+    "name_plural": "Snorkelling",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "dark_gray",
+    "description": "It is a tool to let you breathe even underwater. However, you will feel stuffy while you are not used to it.",
+    "flags": [ "WATER_FRIENDLY", "REBREATHER", "TRADER_AVOID" ],
+    "price": 500,
+    "material": [ "plastic" ],
+    "weight": 150,
+    "volume": 4,
+    "to_hit": -3,
+    "covers": [ "MOUTH" ],
+    "encumbrance": 40,
+    "coverage": 75,
+    "material_thickness": 1
+  },
+  {
+    "id": "snorkel_makeshift_mizu",
+    "type": "ARMOR",
+    "name": "Simple snorkel",
+    "name_plural": "Simple snorkel",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "dark_gray",
+    "description": "A snorkel made of duct tape and rubber hose is coming. It seems that my breath will suck.",
+    "flags": [ "WATER_FRIENDLY", "REBREATHER", "TRADER_AVOID", "FRAGILE" ],
+    "price": 500,
+    "material": [ "plastic" ],
+    "weight": 350,
+    "volume": 5,
+    "to_hit": -3,
+    "covers": [ "MOUTH" ],
+    "encumbrance": 60,
+    "coverage": 75,
+    "material_thickness": 1
+  },
   {
     "result": "snorkel_makeshift_mizu",
     "type": "recipe",
@@ -65,7 +65,7 @@
     "difficulty": 2,
     "time": 5000,
     "autolearn": true,
-    "components": [ [ [ "hose", 1 ] ],[[ "duct_tape", 50 ]] ]
+    "components": [ [ [ "hose", 1 ] ], [ [ "duct_tape", 50 ] ] ]
   },
   {
     "result": "chainmail_arms",
@@ -76,14 +76,8 @@
     "difficulty": 5,
     "time": 300000,
     "book_learn": [ [ "textbook_armwest", 3 ] ],
-    "tools": [
-      [ [ "boltcutters", -1 ],[ "hacksaw", -1 ] ],
-      [ [ "pliers", -1 ] ],
-      [ [ "pipe", -1 ] ]
-    ],
-    "components": [
-      [ [ "wire", 30 ] ]
-    ]
+    "tools": [ [ [ "boltcutters", -1 ], [ "hacksaw", -1 ] ], [ [ "pliers", -1 ] ], [ [ "pipe", -1 ] ] ],
+    "components": [ [ [ "wire", 30 ] ] ]
   },
   {
     "result": "chainmail_legs",
@@ -94,14 +88,8 @@
     "difficulty": 5,
     "time": 400000,
     "book_learn": [ [ "textbook_armwest", 3 ] ],
-    "tools": [
-      [ [ "boltcutters", -1 ],[ "hacksaw", -1 ] ],
-      [ [ "pliers", -1 ] ],
-      [ [ "pipe", -1 ] ]
-    ],
-    "components": [
-      [ [ "wire", 40 ] ]
-    ]
+    "tools": [ [ [ "boltcutters", -1 ], [ "hacksaw", -1 ] ], [ [ "pliers", -1 ] ], [ [ "pipe", -1 ] ] ],
+    "components": [ [ [ "wire", 40 ] ] ]
   },
   {
     "result": "chainmail_hood",
@@ -112,14 +100,8 @@
     "difficulty": 5,
     "time": 200000,
     "book_learn": [ [ "textbook_armwest", 3 ] ],
-    "tools": [
-      [ [ "boltcutters", -1 ],[ "hacksaw", -1 ] ],
-      [ [ "pliers", -1 ] ],
-      [ [ "pipe", -1 ] ]
-    ],
-    "components": [
-      [ [ "wire", 20 ] ]
-    ]
+    "tools": [ [ [ "boltcutters", -1 ], [ "hacksaw", -1 ] ], [ [ "pliers", -1 ] ], [ [ "pipe", -1 ] ] ],
+    "components": [ [ [ "wire", 20 ] ] ]
   },
   {
     "result": "chainmail_vest",
@@ -130,14 +112,8 @@
     "difficulty": 5,
     "time": 400000,
     "book_learn": [ [ "textbook_armwest", 3 ] ],
-    "tools": [
-      [ [ "boltcutters", -1 ],[ "hacksaw", -1 ] ],
-      [ [ "pliers", -1 ] ],
-      [ [ "pipe", -1 ] ]
-    ],
-    "components": [
-      [ [ "wire", 40 ] ]
-    ]
+    "tools": [ [ [ "boltcutters", -1 ], [ "hacksaw", -1 ] ], [ [ "pliers", -1 ] ], [ [ "pipe", -1 ] ] ],
+    "components": [ [ [ "wire", 40 ] ] ]
   },
   {
     "result": "shark_suit",
@@ -148,14 +124,10 @@
     "difficulty": 3,
     "time": 200000,
     "book_learn": [ [ "manual_swimming", 3 ] ],
-    "tools": [
-      [ [ "boltcutters", -1 ],[ "hacksaw", -1 ] ],
-      [ [ "pliers", -1 ] ],
-      [ [ "pipe", -1 ] ]
-    ],
+    "tools": [ [ [ "boltcutters", -1 ], [ "hacksaw", -1 ] ], [ [ "pliers", -1 ] ], [ [ "pipe", -1 ] ] ],
     "components": [
       [ [ "wire", 20 ] ],
-      [ [ "helmet_army", 1 ],[ "tac_helmet", 1 ],[ "helmet_lobster", 1 ] ],
+      [ [ "helmet_army", 1 ], [ "tac_helmet", 1 ], [ "helmet_lobster", 1 ] ],
       [ [ "chainmail_hood", 1 ] ],
       [ [ "chainmail_vest", 1 ] ],
       [ [ "chainmail_arms", 1 ] ],

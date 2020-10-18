@@ -9,7 +9,7 @@
     "symbol": "@",
     "color": "brown",
     "size": "MEDIUM",
-    "material": ["wood","cotton"],
+    "material": [ "wood", "cotton" ],
     "hp": 300,
     "aggression": 0,
     "diff": 10,
@@ -18,48 +18,48 @@
     "luminance": 0,
     "armor_bash": 1,
     "armor_cut": 1,
-    "death_drops": {
-      "groups": [["ninja_decoy",10]]
-    },
+    "death_drops": { "groups": [ [ "ninja_decoy", 10 ] ] },
     "death_function": "DISAPPEAR",
     "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE" ]
-  },{
+  },
+  {
     "id": "ninja_decoy",
-    "type" : "item_group",
+    "type": "item_group",
     "subtype": "collection",
-    "entries":
-    [
-      {"item": "2x4"      , "count": 4, "prob":  80},
-      {"item": "rag"      , "count": 4, "prob":  80},
-      {"item": "string_36", "count": 1, "prob":  80}
+    "entries": [
+      { "item": "2x4", "count": 4, "prob": 80 },
+      { "item": "rag", "count": 4, "prob": 80 },
+      { "item": "string_36", "count": 1, "prob": 80 }
     ]
-  },{
-    "id" : "mon_ninja_afterimage",
-    "type" : "MONSTER",
+  },
+  {
+    "id": "mon_ninja_afterimage",
+    "type": "MONSTER",
     "name": "残像",
-    "species":"ROBOT",
-    "default_faction":"player",
-    "symbol":"@",
-    "color":"gray",
-    "size":"MEDIUM",
-    "material":"powder",
-    "diff":0,
-    "aggression":0,
-    "morale":100,
-    "speed":100,
-    "melee_skill":0,
-    "melee_dice":0,
-    "melee_dice_sides":0,
-    "melee_cut":0,
-    "dodge":3,
-    "armor_bash":0,
-    "armor_cut":0,
-    "hp":1,
-    "death_function":"DISAPPEAR",
-    "special_attacks":[["DISAPPEAR", 80]],
+    "species": "ROBOT",
+    "default_faction": "player",
+    "symbol": "@",
+    "color": "gray",
+    "size": "MEDIUM",
+    "material": "powder",
+    "diff": 0,
+    "aggression": 0,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 0,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "melee_cut": 0,
+    "dodge": 3,
+    "armor_bash": 0,
+    "armor_cut": 0,
+    "hp": 1,
+    "death_function": "DISAPPEAR",
+    "special_attacks": [ [ "DISAPPEAR", 80 ] ],
     "description": "ゴシゴシ...。これは、残像...！",
-    "flags":["NO_BREATHE"]
-  },{
+    "flags": [ "NO_BREATHE" ]
+  },
+  {
     "id": "mon_ninja_spring_floor",
     "type": "MONSTER",
     "name": "スプリングフロア",
@@ -69,27 +69,26 @@
     "symbol": "r",
     "color": "blue",
     "size": "MEDIUM",
-    "material": ["steel"],
+    "material": [ "steel" ],
     "hp": 60,
     "aggression": 100,
-    "melee_skill":10,
-    "melee_dice":8,
-    "melee_dice_sides":3,
-    "melee_cut":0,
-    "dodge":0,
+    "melee_skill": 10,
+    "melee_dice": 8,
+    "melee_dice_sides": 3,
+    "melee_cut": 0,
+    "dodge": 0,
     "diff": 10,
     "speed": 100,
     "morale": 100,
     "luminance": 0,
     "armor_bash": 5,
     "armor_cut": 5,
-    "vision_day":5,
-    "vision_night":5,
-    "death_drops": {
-      "groups": [["robots", 4], ["secubot", 1]]
-    },
+    "vision_day": 5,
+    "vision_night": 5,
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "secubot", 1 ] ] },
     "death_function": "EXPLODE",
-    "special_attacks":[["SMASH", 10]], "//": "cool down 10.",
-    "flags": ["SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE", "NIGHT_INVISIBILITY"]
+    "special_attacks": [ [ "SMASH", 10 ] ],
+    "//": "cool down 10.",
+    "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE", "NIGHT_INVISIBILITY" ]
   }
 ]
