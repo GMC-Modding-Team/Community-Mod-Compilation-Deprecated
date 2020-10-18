@@ -10,37 +10,12 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "cookbook_italian", 2 ] ],
-    "qualities": [
-      {
-        "id": "COOK",
-        "level": 2,
-        "amount": 1
-      }
-    ],
-    "tools": [
-      [
-        [ "hotplate", 8 ],
-        [ "char_smoker", 1 ],
-        [ "toolset", 8 ],
-        [ "fire", -1 ]
-      ]
-    ],
+    "qualities": [ { "id": "COOK", "level": 2, "amount": 1 } ],
+    "tools": [ [ [ "hotplate", 8 ], [ "char_smoker", 1 ], [ "toolset", 8 ], [ "fire", -1 ] ] ],
     "components": [
-      [
-        [ "flour", 2 ]
-      ],
-      [
-        [ "meat", 1 ],
-        [ "meat_canned", 1 ],
-        [ "meat_vac", 1 ],
-        [ "rehydrated_meat", 1 ],
-        [ "dry_meat", 1 ]
-      ],
-      [
-        [ "sauce_red", 1 ],
-        [ "seasoning_italian", 5 ],
-        [ "wild_herbs", 10 ]
-      ],
+      [ [ "flour", 2 ] ],
+      [ [ "meat", 1 ], [ "meat_canned", 1 ], [ "meat_vac", 1 ], [ "rehydrated_meat", 1 ], [ "dry_meat", 1 ] ],
+      [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
       [
         [ "veggy", 1 ],
         [ "veggy_wild", 1 ],
@@ -56,15 +31,8 @@
         [ "rehydrated_veggy", 1 ],
         [ "dry_veggy", 1 ]
       ],
-      [
-        [ "cheese", 1 ],
-        [ "can_cheese", 1 ],
-        [ "cheese_hard", 1 ]
-      ],
-      [
-        [ "water", 1 ],
-        [ "water_clean", 1 ]
-      ]
+      [ [ "cheese", 1 ], [ "can_cheese", 1 ], [ "cheese_hard", 1 ] ],
+      [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
   }
 ]

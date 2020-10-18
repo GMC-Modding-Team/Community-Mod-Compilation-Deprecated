@@ -1,0 +1,20 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "No_Hulks_Or_Brutes",
+    "name": "No Hulks Or Brutes",
+    "description": "Removes all zombie hulks and brutes from the game.",
+    "category": "monster_exclude",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+      "mon_zombie_brute",
+      "mon_zombie_brute_grappler",
+      "mon_zombie_brute_ninja",
+      "mon_zombie_brute_shocker",
+      "mon_zombie_hulk"
+    ]
+  }
+]

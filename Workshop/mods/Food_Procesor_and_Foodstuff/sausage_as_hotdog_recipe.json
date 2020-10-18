@@ -10,34 +10,11 @@
     "reversible": false,
     "autolearn": true,
     "batch_time_factors": [ 83, 3 ],
-    "qualities": [
-      {
-        "id": "CUT",
-        "level": 1,
-        "amount": 1
-      },
-      {
-        "id": "COOK",
-        "level": 1,
-        "amount": 1
-      }
-    ],
-    "tools": [
-      [
-        [ "char_smoker", 2 ]
-      ]
-    ],
+    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "COOK", "level": 1, "amount": 1 } ],
+    "tools": [ [ [ "char_smoker", 2 ] ] ],
     "components": [
-      [
-        [ "meat", 3 ],
-        [ "rehydrated_meat", 6 ],
-        [ "meat_canned", 6 ]
-      ],
-      [
-        [ "fat", 3 ],
-        [ "tallow", 3 ],
-        [ "lard", 3 ]
-      ],
+      [ [ "meat", 3 ], [ "rehydrated_meat", 6 ], [ "meat_canned", 6 ] ],
+      [ [ "fat", 3 ], [ "tallow", 3 ], [ "lard", 3 ] ],
       [
         [ "salt", 1 ],
         [ "soysauce", 1 ],
