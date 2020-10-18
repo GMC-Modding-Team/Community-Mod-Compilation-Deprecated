@@ -49,6 +49,23 @@
       "sound": "crack.",
       "sound_fail": "wham.",
       "items": [ { "item": "2x4", "amount": 6, "minamount": 2 } ]
-    }
+    },
+    {
+      "type": "furniture",
+      "id": "f_makeshift+gate",
+      "name": "makeshift gate",
+      "description": "This is a makeshift gate",
+      "symbol": "=",
+      "bgcolor": "brown",
+      "move_cost_mod": 2,
+      "required_str": -1,
+      "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "NOITEM", "THIN_OBSTACLE", "REDUCE_SCENT", "MOUNTABLE", "SHORT" ],
+      "deconstruct": { "items": [ { "item": "2x4", "amount": 8, "minamount": 8 } ] },
+      "bash": {
+        "str_min": 4,
+        "str_max": 20,
+        "sound": "crack.",
+        "sound_fail": "wham.",
+        "items": [ { "item": "2x4", "amount": 6, "minamount": 2 } ]
   }
 ]
