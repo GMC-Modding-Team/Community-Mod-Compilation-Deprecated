@@ -37,8 +37,8 @@
       [ { "id": "AXE", "level": 1 } ]
     ],
     "components": [ [ [ "2x4", 8 ], [ "stick", 8 ] ] ],
-    "pre_flags": "DIGGABLE",
-    "post_terrain": "f_makeshiftfence"
+    "pre_flags": "check_empty",
+    "post_terrain": "f_makeshift_fence"
   },
   {
     "type": "construction",
