@@ -3,21 +3,35 @@
     "type": "scenario",
     "ident": "wilderness",
     "name": "Wilderness",
-    "points" : 0,
+    "points": 0,
     "description": "You find yourself amongst trees.  The screaming and the moaning is fainter this far from civilization, but you'd better know what you're doing out here.",
     "start_name": "Forest",
-    "professions" : ["unemployed", "survivalist", "trapper", "bionic_prepper", "guru", "backpacker", "naturalist", "bow_hunter", "lumberjack", "jr_survivalist", "fisher", "nanitestech"],
-    "allowed_locs" : ["forest"]
-  },{
+    "professions": [
+      "unemployed",
+      "survivalist",
+      "trapper",
+      "bionic_prepper",
+      "guru",
+      "backpacker",
+      "naturalist",
+      "bow_hunter",
+      "lumberjack",
+      "jr_survivalist",
+      "fisher",
+      "nanitestech"
+    ],
+    "allowed_locs": [ "forest" ]
+  },
+  {
     "type": "scenario",
     "ident": "heli_crash",
     "name": "Helicopter crash",
-    "points" : -2,
+    "points": -2,
     "description": "You've crashed your precious helicopter, it'll never fly again.  Monsters don't bother you, life without your Loach is worthless anyway.",
     "start_name": "Crash site",
-    "professions" : ["soldier", "national_guard", "specops", "bio_soldier", "bio_sniper", "nanitestech"],
-    "allowed_locs" : ["field"],
+    "professions": [ "soldier", "national_guard", "specops", "bio_soldier", "bio_sniper", "nanitestech" ],
+    "allowed_locs": [ "field" ],
     "map_special": "mx_helicopter",
-    "flags": ["HELI_CRASH"]
+    "flags": [ "HELI_CRASH" ]
   }
 ]
