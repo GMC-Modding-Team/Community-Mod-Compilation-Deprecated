@@ -1,0 +1,67 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_bench",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "6": "f_null",
+      "P": "f_sign",
+      "_": "f_null",
+      "d": "f_null",
+      "r": "f_null",
+      "u": "f_null",
+      "w": "f_null",
+      "|": "f_null"
+    },
+    "place_monster": [
+      { "monster": "mon_cia_security", "x": 10, "y": 10 },
+      { "monster": "mon_bloodworm", "x": 3, "y": 20 },
+      { "monster": "mon_lake_lurker", "x": 18, "y": 21 }
+    ],
+    "rows": [
+      "||||||||||||||||||||||||",
+      "u.....................u|",
+      ".......................|",
+      "......####..####..####.|",
+      "...#...................|",
+      "...#..####..####..####.|",
+      "...#...................|",
+      "......####..####..####.|",
+      "u.....................u|",
+      "||||d|----|-----|-----||",
+      "..u|......u.....u.....u|",
+      "...d...................|",
+      "..P|...................|",
+      "..u|...6.............6.|",
+      "||||+++||d||d|||+++++|||",
+      "..u|---|u.|...u|-----|u|",
+      "_.........|............|",
+      "___.......|............|",
+      "______....|rrr.rrrrrrrr|",
+      "________..|wwr.rwwwwwww|",
+      "_________.|wwrrrwwwwwww|",
+      "__________|wwwwwwwwwwww|",
+      "__________|wwwwwwwwwwww|",
+      "||||||||||||||||||||||||"
+    ],
+    "terrain": {
+      "#": "t_thconc_floor",
+      "+": "t_door_metal_locked",
+      "-": "t_reinforced_glass",
+      ".": "t_thconc_floor",
+      "6": "t_gates_control_metal",
+      "P": "t_thconc_floor",
+      "_": "t_dirtfloor",
+      "d": "t_door_metal_c",
+      "r": "t_railing",
+      "u": "t_utility_light",
+      "w": "t_water_sh",
+      "|": "t_wall_metal"
+    }
+  },
+  "om_terrain": "cia_base_b4_e",
+  "type": "mapgen",
+  "weight": 100
+}

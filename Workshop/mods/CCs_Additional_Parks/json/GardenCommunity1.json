@@ -1,0 +1,74 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_null",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "O": "f_standing_tank",
+      "P": "f_sign",
+      "_": "f_null",
+      "d": "f_null",
+      "t": "f_table",
+      "|": "f_null"
+    },
+    "items": { "D": { "item": "hydro", "chance": 15 } },
+    "place_items": [
+      { "chance": 35, "repeat": 2, "item": "supplies_farming", "x": 6, "y": 4 },
+      { "chance": 35, "repeat": 2, "item": "garden_shed", "x": 7, "y": 4 },
+      { "chance": 40, "repeat": 2, "item": "garden_shed", "x": 5, "y": 4 }
+    ],
+    "rows": [
+      "________________________",
+      "________________________",
+      "__|||||||||++P||||||||__",
+      "__|.-----O...........|__",
+      "__|.-ttt-O.......###.|__",
+      "__|.-.dd-........###.|__",
+      "__|..............##..|__",
+      "__|..................|__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__P.D.D.D.D..D.D.D.D.|__",
+      "__+..................+__",
+      "__+..................+__",
+      "__|.D.D.D.D..D.D.D.D.P__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__|..................|__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__|.D.D.D.D..D.D.D.D.|__",
+      "__|..................|__",
+      "__||||||||P++|||||||||__",
+      "________________________",
+      "________________________"
+    ],
+    "terrain": {
+      "#": "t_dirtmound",
+      "+": "t_fencegate_c",
+      "-": "t_wall_wood",
+      "D": "t_dirtmound",
+      ".": [ "t_grass", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt" ],
+      "O": "t_dirt",
+      "P": "t_fence",
+      "_": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "d": "t_dirtfloor",
+      "t": "t_dirtfloor",
+      "|": "t_fence"
+    },
+    "place_signs": [
+      { "signage": "<city> Community Garden", "x": 13, "y": 2 },
+      { "signage": "<city> Community Garden", "x": 2, "y": 10 },
+      { "signage": "<city> Community Garden", "x": 21, "y": 13 },
+      { "signage": "<city> Community Garden", "x": 10, "y": 21 }
+    ]
+  },
+  "om_terrain": "communitygarden",
+  "type": "mapgen",
+  "flags": [
+    "SIDEWALK"
+  ],
+  "weight": 100
+}

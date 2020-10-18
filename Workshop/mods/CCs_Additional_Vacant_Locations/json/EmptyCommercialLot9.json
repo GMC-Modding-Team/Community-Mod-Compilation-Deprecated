@@ -1,0 +1,81 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": { ".": "f_null", "_": "f_null", "d": "f_null", "p": "f_null", "|": "f_null" },
+    "place_items": [
+      { "chance": 35, "item": "trash", "x": 9, "y": 18 },
+      { "chance": 35, "item": "trash", "x": 17, "y": 15 },
+      { "chance": 35, "item": "trash", "x": 14, "y": 14 },
+      { "chance": 35, "item": "trash", "x": 11, "y": 13 },
+      { "chance": 35, "item": "trash", "x": 13, "y": 11 },
+      { "chance": 35, "item": "trash", "x": 7, "y": 10 }
+    ],
+    "rows": [
+      "________________________",
+      "________________________",
+      "__..d..d..d..d..d..d..__",
+      "__..d..d..d..d..d..d..__",
+      "__dddddddddddddddddddd__",
+      "__..d..d..d..d..d..d..__",
+      "__..d..d..d..d..d..d..__",
+      "__dddddddddddddddddddd__",
+      "__..d..d..d..d..d..d..__",
+      "__..d..d..d..d..d..d..__",
+      "__dddddddddddddddddddd__",
+      "__..d..d..d..d..d..d..__",
+      "__..d..d..d..d..d..d..__",
+      "__dddddddddddddddddddd__",
+      "__..d..d..d..d..d..d..__",
+      "__..d..d..d..d..d..d..__",
+      "__dddddddddddddddddddd__",
+      "__..d..d..d..d..d..d..__",
+      "__..d..d..d..d..d..d..__",
+      "__dddddddddddddddddddd__",
+      "__..d..d..d..d..d..d..__",
+      "__.||||||||||||||||||.__",
+      "________________________",
+      "________________________"
+    ],
+    "terrain": {
+      ".": [
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_dirt"
+      ],
+      "_": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "d": [
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_dirt"
+      ],
+      "|": "t_concrete_wall"
+    }
+  },
+  "om_terrain": "emptycommerciallot",
+  "type": "mapgen",
+  "flags": [
+    "SIDEWALK"
+  ],
+  "weight": 100
+}

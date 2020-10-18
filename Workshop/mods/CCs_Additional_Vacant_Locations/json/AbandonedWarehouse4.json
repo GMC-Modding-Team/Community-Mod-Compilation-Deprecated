@@ -1,0 +1,98 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_desk",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "D": "f_null",
+      "O": "f_standing_tank",
+      "X": "f_crate_c",
+      "^": "f_null",
+      "_": "f_null",
+      "a": "f_null",
+      "c": "f_chair",
+      "d": "f_null",
+      "w": "f_null",
+      "{": "f_dumpster",
+      "|": "f_null"
+    },
+    "items": {
+      "^": [
+        { "item": "trash", "chance": 25, "repeat": 2 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 1, "damage": [ 3, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "wheels", "chance": 1 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "misc_smoking", "chance": 1 }
+      ],
+      "{": { "item": "trash", "chance": 35, "repeat": 2 },
+      "X": { "item": "crate_parts", "chance": 30 }
+    },
+    "rows": [
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "..........dddddddddd....",
+      "..........ddd|w||w|d....",
+      "..........dddw__#_wd....",
+      "..........ddd+__#c|d....",
+      "..ddddddddddd|^___|d....",
+      "..d||||||||||||D|||d....",
+      "..d|_X^X_X_X______|d....",
+      "..d|_X_X_X_X___^__|dd...",
+      "..d|______________|{d...",
+      "..d|____________^_|{d...",
+      "..d|____-____-____|dd...",
+      "..d|_______^______|dd...",
+      "..d|__________^___add...",
+      "..d|_______^___^__|dd...",
+      "..d|__OO__________|dd...",
+      "..d||||||||||||||||dd...",
+      "..dddddddddddddddddd....",
+      "........................"
+    ],
+    "terrain": {
+      "#": "t_thconc_floor",
+      "+": "t_door_metal_locked",
+      "-": "t_support_l",
+      ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_shrub", "t_dirt" ],
+      "D": "t_door_c",
+      "O": "t_thconc_floor",
+      "X": "t_thconc_floor",
+      "^": "t_thconc_floor",
+      "_": [
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_thconc_floor",
+        "t_dirtfloor"
+      ],
+      "a": [ "t_door_metal_c", "t_door_metal_locked" ],
+      "c": "t_thconc_floor",
+      "d": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "w": "t_window",
+      "{": "t_dirt",
+      "|": "t_concrete_wall"
+    }
+  },
+  "om_terrain": "abandonedwarehouse",
+  "type": "mapgen",
+  "flags": [
+    "SIDEWALK"
+  ],
+  "weight": 100
+}

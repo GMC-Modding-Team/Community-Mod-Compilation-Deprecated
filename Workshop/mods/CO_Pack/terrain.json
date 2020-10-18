@@ -1,0 +1,20 @@
+[
+  {
+    "type": "terrain",
+    "id": "claymound",
+    "name": "mound of clay",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost": 0,
+    "flags": [ "TRANSPARENT", "BASHABLE" ],
+    "bash": {
+      "str_min": 2,
+      "str_max": 4,
+      "num_tests": 2,
+      "sound": "splosh!",
+      "sound_fail": "splosh!",
+      "ter_set": "t_water_sh",
+      "items": [ { "item": "clay_lump", "amount": 10, "minamount": 5 } ]
+    }
+  }
+]

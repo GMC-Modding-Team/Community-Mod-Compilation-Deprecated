@@ -1,0 +1,60 @@
+[
+  {
+    "type": "construction",
+    "description": "Build Vertical Wall",
+    "difficulty": 4,
+    "time": 20,
+    "tools": [ [ "saw", "toolset" ], [ "hammer", "primitive_hammer", "hatchet", "nailgun", "toolset" ], [ "g_shovel" ] ],
+    "components": [ [ [ "2x4", 8 ] ], [ [ "nail", 14 ], [ "superglue", 7 ] ], [ [ "brick", 40 ] ], [ [ "cement_mortar", 12 ] ] ],
+    "pre_terrain": "t_wall_half",
+    "post_terrain": "t_wall_v"
+  },
+  {
+    "type": "construction",
+    "description": "Build Horizontal Wall",
+    "difficulty": 4,
+    "time": 20,
+    "tools": [ [ "saw", "toolset" ], [ "hammer", "primitive_hammer", "hatchet", "nailgun", "toolset" ], [ "g_shovel" ] ],
+    "components": [ [ [ "2x4", 8 ] ], [ [ "nail", 14 ], [ "superglue", 7 ] ], [ [ "brick", 40 ] ], [ [ "cement_mortar", 12 ] ] ],
+    "pre_terrain": "t_wall_half",
+    "post_terrain": "t_wall_h"
+  },
+  {
+    "type": "construction",
+    "description": "Build Vertical Concrete Wall",
+    "difficulty": 5,
+    "time": 20,
+    "tools": [ [ "g_shovel" ] ],
+    "components": [ [ [ "brick", 40 ] ], [ [ "cement_mortar", 30 ] ] ],
+    "pre_terrain": "t_wall_half",
+    "post_terrain": "t_concrete_v"
+  },
+  {
+    "type": "construction",
+    "description": "Build Horizontal Concrete Wall",
+    "difficulty": 5,
+    "time": 20,
+    "tools": [ [ "g_shovel" ] ],
+    "components": [ [ [ "brick", 40 ] ], [ [ "cement_mortar", 30 ] ] ],
+    "pre_terrain": "t_wall_half",
+    "post_terrain": "t_concrete_h"
+  },
+  {
+    "type": "construction",
+    "description": "Remove Mound of Dirt",
+    "difficulty": 0,
+    "time": 8,
+    "tools": [ [ "shovel", "e_tool", "primitive_shovel", "digging_stick" ] ],
+    "pre_terrain": "t_dirtmound",
+    "post_terrain": "t_dirt"
+  },
+  {
+    "type": "construction",
+    "description": "Extract Mound of Clay",
+    "difficulty": 0,
+    "time": 25,
+    "tools": [ [ "shovel", "e_tool", "primitive_shovel", "digging_stick" ] ],
+    "pre_terrain": "t_water_sh",
+    "post_terrain": "claymound"
+  }
+]

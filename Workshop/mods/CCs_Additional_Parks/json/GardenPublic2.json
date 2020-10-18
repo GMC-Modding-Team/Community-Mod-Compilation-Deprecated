@@ -1,0 +1,70 @@
+{
+  "method": "json",
+  "object": {
+    "add": [ { "item": "lighter", "chance": 9, "x": 18, "y": 19 } ],
+    "furniture": {
+      "#": "f_null",
+      "*": "f_datura",
+      ".": "f_null",
+      "B": "f_bluebell",
+      "F": "f_flower_marloss",
+      "S": "f_statue",
+      "_": "f_null",
+      "b": "f_bench",
+      "f": "f_dahlia",
+      "w": "f_null",
+      "P": "f_sign",
+      "|": "f_null"
+    },
+    "place_items": [ { "chance": 7, "item": "homebooks", "x": 2, "y": 12 } ],
+    "rows": [
+      "...........__...........",
+      "...........__...........",
+      "..||||||P.____.|||||||..",
+      "..|#f#f#f._**_.f#f#f#|..",
+      "..|fbbbb.._##_..bbbbf|..",
+      "..|#b....._**_.....b#|..",
+      "..|fb..F.._##_..F..bf|..",
+      "..|#b.FSF._**_.FSF.b#|..",
+      "..|f...F..____..F...fP..",
+      ".........__..__.........",
+      "..________wwww________..",
+      "___*#*#*_.wBBw._*#*#*___",
+      "___*#*#*_.wBBw._*#*#*___",
+      "..________wwww________..",
+      ".........__..__.........",
+      "..Pf...F..____..F...f|..",
+      "..|#b.FSF._**_.FSF.b#|..",
+      "..|fb..F.._##_..F..bf|..",
+      "..|#b....._**_.....b#|..",
+      "..|fbbbb.._##_..bbbbf|..",
+      "..|#f#f#f._**_.f#f#f#|..",
+      "..|||||||.____.P||||||..",
+      "...........__...........",
+      "...........__..........."
+    ],
+    "terrain": {
+      "#": "t_shrub",
+      "*": "t_shrub",
+      ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "B": "t_shrub",
+      "F": "t_grass",
+      "S": "t_grass",
+      "_": "t_sidewalk",
+      "b": "t_grass",
+      "f": "t_shrub",
+      "w": "t_water_sh",
+      "P": "t_fence",
+      "|": "t_fence"
+    },
+    "place_signs": [
+      { "signage": "<city> Public Garden", "x": 8, "y": 2 },
+      { "signage": "<city> Public Garden", "x": 2, "y": 15 },
+      { "signage": "<city> Public Garden", "x": 21, "y": 8 },
+      { "signage": "<city> Public Garden", "x": 15, "y": 21 }
+    ]
+  },
+  "om_terrain": "publicgarden",
+  "type": "mapgen",
+  "weight": 100
+}

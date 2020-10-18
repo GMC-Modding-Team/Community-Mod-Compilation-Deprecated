@@ -1,0 +1,72 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_null",
+      "+": "f_null",
+      ".": "f_null",
+      "4": "f_null",
+      "7": "f_null",
+      "P": "f_sign",
+      "S": "f_statue",
+      "^": "f_grave_stone",
+      "_": "f_null",
+      "a": "f_statue",
+      "b": "f_bench",
+      "d": "f_null",
+      "g": "f_grave_stone",
+      "s": "f_null",
+      "|": "f_null"
+    },
+    "rows": [
+      ".d........ssss..........",
+      "..4.d4..4.ssss.4..4..4..",
+      "..........ssss...d......",
+      ".|||||||||P++P|||||||||.",
+      ".|...d.bbb.__.bbbd....|d",
+      ".|.S^.....d__..d...^S.|.",
+      ".|..d......__.....d...|.",
+      ".|.........__d........|.",
+      ".|.^^^.^g^.__.^^^.^^^.|.",
+      ".|d........__.........|.",
+      ".|.........__..d.d....|.",
+      ".|..g^^^...__...^^^^d.|.",
+      ".|.........__.........|.",
+      ".|...7.....__.....7...|.",
+      ".|......^..__d.^......|.",
+      "d|.^g..^a^.__.^S^.d^^.|.",
+      ".|.....###.__.###.....|d",
+      ".|.........__.........|.",
+      ".|...^d....__.....^.d.|.",
+      ".|..gS^..........gS^..|.",
+      ".|d.###.^g....^^.###..|.",
+      ".|....................|.",
+      "d||||||||||||||||||||||.",
+      ".......d.........d......"
+    ],
+    "terrain": {
+      "#": "t_shrub",
+      "+": "t_chaingate_c",
+      ".": "t_grass",
+      "4": "t_tree_willow",
+      "7": "t_tree_maple",
+      "P": "t_chainfence_v",
+      "S": "t_grass",
+      "^": "t_grass",
+      "_": "t_pavement",
+      "a": "t_dirt",
+      "b": "t_grass",
+      "d": "t_dirt",
+      "g": "t_dirt",
+      "s": "t_sidewalk",
+      "|": "t_chainfence_v"
+    },
+    "place_signs": [
+      { "signage": "<family_name> Family Cemetery", "x": 10, "y": 3 },
+      { "signage": "Please respect the cemetery", "x": 13, "y": 3 }
+    ]
+  },
+  "om_terrain": "cemetery_small",
+  "type": "mapgen",
+  "weight": 100
+}

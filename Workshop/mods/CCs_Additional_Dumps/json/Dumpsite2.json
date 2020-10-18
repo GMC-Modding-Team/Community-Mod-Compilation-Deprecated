@@ -1,0 +1,120 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      ".": "f_null",
+      "^": [ "f_rubble", "f_rubble", "f_rubble", "f_null", "f_null", "f_null", "f_null", "f_null", "f_rubble_rock", "f_wreckage" ],
+      "_": "f_null",
+      "r": "f_rubble",
+      "|": "f_null"
+    },
+    "items": {
+      "^": [
+        { "item": "trash", "chance": 25, "repeat": 2 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 2, "damage": [ 3, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "wheels", "chance": 2 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "misc_smoking", "chance": 2 }
+      ],
+      "q": [
+        { "item": "trash", "chance": 25, "repeat": 1 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 2, "damage": [ 3, 4 ] },
+        { "item": "barrels", "chance": 1 },
+        { "item": "stoner", "chance": 1 },
+        { "item": "wheels", "chance": 2 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "misc_smoking", "chance": 2 }
+      ]
+    },
+    "rows": [
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "........................",
+      "......q.................",
+      "........q^..............",
+      "..q...^q^.^q.^..........",
+      "...^^^.^^.^^^^^.q.......",
+      "..q^^q^^^^^^^^^^........",
+      ".q..^^q^.^^.^^^.q.......",
+      "...^q.^^^.^^^^^^^qq.....",
+      "...qq^..^^^q^^^^^.^.....",
+      "...^^.^^^^^^^^^^^.q.....",
+      "...q.|.r^r^^^^q.^.......",
+      "......^^._rrq.^.q.^.q...",
+      "...q.|_^_.^_qq..^.......",
+      ".....|.|.|.|.^.q........",
+      "........................",
+      ".................q......",
+      "........................",
+      "........................"
+    ],
+    "terrain": {
+      ".": [
+        "t_dirt",
+        "t_underbrush",
+        "t_underbrush",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_tree_young",
+        "t_tree_dead",
+        "t_tree_pine",
+        "t_tree_pine"
+      ],
+      "^": [
+        "t_dirt",
+        "t_dirt",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_tree_young",
+        "t_tree_young",
+        "t_tree_dead",
+        "t_tree_pine"
+      ],
+      "q": [
+        "t_dirt",
+        "t_dirt",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_tree_young",
+        "t_tree_young",
+        "t_tree_dead",
+        "t_tree_pine"
+      ],
+      "_": "t_concrete",
+      "r": "t_concrete",
+      "|": "t_concrete_wall"
+    }
+  },
+  "om_terrain": "dumpsite",
+  "type": "mapgen",
+  "weight": 100
+}

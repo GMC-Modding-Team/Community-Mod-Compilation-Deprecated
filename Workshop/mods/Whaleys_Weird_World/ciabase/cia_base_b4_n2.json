@@ -1,0 +1,80 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_bed",
+      "+": "f_null",
+      ".": "f_null",
+      ";": "f_skin_groundsheet",
+      "S": "f_statue",
+      "^": "f_indoor_plant",
+      "_": "f_null",
+      "c": "f_null",
+      "u": "f_null",
+      "|": "f_null"
+    },
+    "place_items": [
+      { "chance": 65, "item": "creepy", "x": 18, "y": 21 },
+      { "chance": 65, "item": "creepy", "x": 6, "y": 19 },
+      { "chance": 65, "item": "creepy", "x": 15, "y": 14 },
+      { "chance": 65, "item": "creepy", "x": 8, "y": 12 },
+      { "chance": 65, "item": "creepy", "x": 17, "y": 9 },
+      { "chance": 65, "item": "creepy", "x": 1, "y": 5 },
+      { "chance": 65, "item": "creepy", "x": 22, "y": 3 },
+      { "chance": 75, "item": "bed", "x": 16, "y": 6 },
+      { "chance": 75, "item": "bed", "x": 7, "y": 6 },
+      { "chance": 75, "item": "bed", "x": 15, "y": 5 },
+      { "chance": 75, "item": "bed", "x": 8, "y": 5 },
+      { "chance": 75, "item": "bed", "x": 16, "y": 2 },
+      { "chance": 75, "item": "bed", "x": 8, "y": 2 },
+      { "chance": 75, "item": "bed", "x": 15, "y": 1 },
+      { "chance": 75, "item": "bed", "x": 7, "y": 1 }
+    ],
+    "place_monster": [
+      { "monster": "mon_reptilian", "x": 10, "y": 3 },
+      { "monster": "mon_reptilian", "x": 5, "y": 14 },
+      { "monster": "mon_reptilian", "x": 18, "y": 14 }
+    ],
+    "rows": [
+      "||||||||||||||||||||||||",
+      "|u....|##______##|....u|",
+      "|.....|##______##|.....|",
+      "|.....|u__;;;;__u|.....|",
+      "|.....|u__;;;;__u|.....|",
+      "|.....|##______##|.....|",
+      "|.....|##______##|.....|",
+      "|.....|||||+||||||.....|",
+      "|..^^....ScccS.....^^..|",
+      "|..||.....ccc......||..|",
+      "|..||u....ccc.....u||..|",
+      "|..^^.....ccc.|....^^..|",
+      "|.........ccc.|........|",
+      "|.........ccc.|........|",
+      "|.........ccc.|........|",
+      "|.........ccc.|........|",
+      "|.........ccc.|........|",
+      "|..^^..............^^..|",
+      "|..||..............||..|",
+      "|..||..............||..|",
+      "|..^^....u...u.....^^..|",
+      "|........||+||.........|",
+      "|........|...|.........|",
+      "|u.S..S..|...|..S..S..u|"
+    ],
+    "terrain": {
+      "#": "t_metal_floor",
+      "+": "t_door_metal_c",
+      ".": "t_thconc_floor",
+      ";": "t_metal_floor",
+      "S": "t_thconc_floor",
+      "^": "t_thconc_floor",
+      "_": "t_metal_floor",
+      "c": "t_carpet_purple",
+      "u": "t_utility_light",
+      "|": "t_wall_metal"
+    }
+  },
+  "om_terrain": "cia_base_b4_n",
+  "type": "mapgen",
+  "weight": 100
+}

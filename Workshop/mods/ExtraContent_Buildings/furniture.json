@@ -1,0 +1,149 @@
+[
+  {
+    "id": "f_headstone",
+    "type": "furniture",
+    "name": "headstone",
+    "symbol": "R",
+    "color": [ "ltgray" ],
+    "move_cost_mod": 6,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "ROUGH", "MOUNTABLE" ]
+  },
+  {
+    "id": "f_file_cabinet",
+    "type": "furniture",
+    "name": "filing cabinet",
+    "symbol": "}",
+    "color": [ "dkgray" ],
+    "move_cost_mod": 2,
+    "max_volume": 4000,
+    "required_str": 8,
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 0, 6 ] },
+        { "item": "steel_chunk", "count": [ 0, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "scrap", "count": [ 2, 6 ] },
+        { "item": "steel_chunk", "count": [ 2, 3 ] }
+      ]
+    },
+    "flags": [ "PLACE_ITEM", "TRANSPARENT", "CONTAINER", "BLOCKSDOOR", "MOUNTABLE" ]
+  },
+  {
+    "id": "f_home_furnace",
+    "type": "furniture",
+    "name": "furnace",
+    "symbol": "0",
+    "bgcolor": [ "white" ],
+    "move_cost_mod": -1,
+    "max_volume": 4000,
+    "required_str": 16,
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 2, 7 ] },
+        { "item": "steel_chunk", "count": [ 0, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "cable", "charges": [ 1, 15 ] },
+        { "item": "hose", "count": [ 0, 2 ] },
+        { "item": "cu_pipe", "count": [ 1, 4 ] },
+        { "item": "scrap_copper", "count": [ 0, 2 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "pipe", "count": 1 },
+        { "item": "scrap", "count": [ 2, 6 ] },
+        { "item": "steel_chunk", "count": [ 1, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "cable", "charges": [ 1, 15 ] },
+        { "item": "cu_pipe", "count": [ 2, 5 ] }
+      ]
+    },
+    "flags": [ "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR" ]
+  },
+  {
+    "id": "f_air_conditioner",
+    "type": "furniture",
+    "name": "air conditioning unit",
+    "symbol": "{",
+    "bgcolor": [ "white" ],
+    "move_cost_mod": -1,
+    "max_volume": 4000,
+    "required_str": 16,
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 2, 7 ] },
+        { "item": "steel_chunk", "count": [ 0, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "cable", "charges": [ 1, 15 ] },
+        { "item": "hose", "count": [ 0, 2 ] },
+        { "item": "cu_pipe", "count": [ 1, 4 ] },
+        { "item": "scrap_copper", "count": [ 0, 2 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "pipe", "count": 1 },
+        { "item": "scrap", "count": [ 2, 6 ] },
+        { "item": "steel_chunk", "count": [ 1, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "cable", "charges": [ 1, 15 ] },
+        { "item": "cu_pipe", "count": [ 2, 5 ] }
+      ]
+    },
+    "flags": [ "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR" ]
+  },
+  {
+    "id": "f_water_heater",
+    "type": "furniture",
+    "name": "water heater",
+    "symbol": "0",
+    "bgcolor": [ "white" ],
+    "move_cost_mod": -1,
+    "max_volume": 4000,
+    "required_str": 16,
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 2, 7 ] },
+        { "item": "steel_chunk", "count": [ 0, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "cable", "charges": [ 1, 15 ] },
+        { "item": "hose", "count": [ 0, 2 ] },
+        { "item": "cu_pipe", "count": [ 1, 4 ] },
+        { "item": "scrap_copper", "count": [ 0, 2 ] }
+      ]
+    },
+    "deconstruct": {
+      "items": [
+        { "item": "pipe", "count": 1 },
+        { "item": "scrap", "count": [ 2, 6 ] },
+        { "item": "steel_chunk", "count": [ 1, 3 ] },
+        { "item": "sheet_metal", "count": [ 2, 6 ] },
+        { "item": "cable", "charges": [ 1, 15 ] },
+        { "item": "cu_pipe", "count": [ 2, 5 ] }
+      ]
+    },
+    "flags": [ "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR" ]
+  }
+]

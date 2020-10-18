@@ -1,0 +1,114 @@
+[
+  {
+    "id": "nec_combat_lawnmower_off",
+    "type": "TOOL",
+    "name": "combat Lawnmower (off)",
+    "name_plural": "Combat Lawnmowers (off)",
+    "description": "A modified lawn mower for mowing down zombies.  When turning on the switch, multiple blades start rotating like a screw.",
+    "weight": 6000,
+    "volume": 12,
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "symbol": "/",
+    "color": "red",
+    "ammo": "gasoline",
+    "max_charges": 750,
+    "use_action": {
+      "type": "transform",
+      "msg": "The rotors start quickly spinning with a terrifyingly loud sound.",
+      "target": "nec_combat_lawnmower_on",
+      "active": true,
+      "need_charges": 80,
+      "need_charges_msg": "You pull on the cord for a while... but nothing happens."
+    },
+    "flags": [ "MESSY", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "nec_combat_lawnmower_on",
+    "type": "TOOL",
+    "name": "Combat Lawnmower (on)",
+    "name_plural": "Combat Lawnmowers (on)",
+    "description": "Multiple blades are rotating like a screw. Anything it touches will be cut up immediately!",
+    "weight": 5000,
+    "volume": 12,
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 10,
+    "cutting": 75,
+    "material": [ "steel", "plastic" ],
+    "symbol": "/",
+    "color": "red",
+    "ammo": "gasoline",
+    "max_charges": 750,
+    "turns_per_charge": 2,
+    "revert_to": "nec_combat_lawnmower_off",
+    "use_action": { "type": "transform", "msg": "The blades slowly stop rotating.", "target": "nec_combat_lawnmower_off" },
+    "flags": [ "MESSY", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "type": "recipe",
+    "result": "nec_combat_lawnmower_off",
+    "id_suffix": "reforged",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "mechanics",
+    "difficulty": 5,
+    "time": 30000,
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [
+      [ "textbook_mechanics", 4 ],
+      [ "recipe_melee", 5 ],
+      [ "book_icef", 3 ],
+      [ "textbook_mechanics", 3 ],
+      [ "textbook_carpentry", 3 ]
+    ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 },
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ [ [ "oxy_torch", 20 ], [ "welder", 100 ], [ "welder_crude", 150 ], [ "toolset", 150 ] ] ],
+    "components": [ [ [ "lawnmower", 1 ] ], [ [ "plastic_chunk", 10 ] ], [ [ "cable", 10 ] ], [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "nec_combat_lawnmower_off",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "mechanics",
+    "difficulty": 5,
+    "time": 30000,
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [
+      [ "book_icef", 3 ],
+      [ "textbook_mechanics", 3 ],
+      [ "textbook_carpentry", 3 ],
+      [ "textbook_mechanics", 4 ],
+      [ "recipe_melee", 5 ]
+    ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 },
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ [ [ "oxy_torch", 40 ], [ "welder", 200 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ] ],
+    "components": [
+      [ [ "1cyl_combustion_small", 1 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "blade", 2 ] ],
+      [ [ "pipe", 3 ] ],
+      [ [ "spring", 3 ] ],
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "steel_chunk", 6 ], [ "scrap", 18 ] ]
+    ]
+  }
+]

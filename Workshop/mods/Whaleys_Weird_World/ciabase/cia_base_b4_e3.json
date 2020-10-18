@@ -1,0 +1,79 @@
+{
+  "method": "json",
+  "object": {
+    "add": [
+      { "item": "steel_chunk", "repeat": 1, "x": 11, "y": 12 },
+      { "item": "steel_chunk", "repeat": 1, "x": 8, "y": 13 },
+      { "item": "steel_chunk", "repeat": 1, "x": 14, "y": 13 },
+      { "item": "glass_shard", "repeat": 1, "x": 12, "y": 14 },
+      { "item": "glass_shard", "repeat": 1, "x": 10, "y": 15 },
+      { "item": "glass_shard", "repeat": 1, "x": 13, "y": 15 },
+      { "item": "glass_shard", "repeat": 1, "x": 11, "y": 16 },
+      { "item": "log", "repeat": 1, "x": 21, "y": 18 },
+      { "item": "splinter", "repeat": 1, "x": 20, "y": 19 },
+      { "item": "splinter", "repeat": 1, "x": 19, "y": 21 },
+      { "item": "splinter", "repeat": 1, "x": 12, "y": 22 },
+      { "item": "log", "repeat": 1, "x": 16, "y": 22 }
+    ],
+    "furniture": {
+      "#": "f_bench",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "6": "f_null",
+      "_": "f_null",
+      "d": "f_null",
+      "u": "f_null",
+      "w": "f_wreckage",
+      "|": "f_null"
+    },
+    "place_items": [
+      { "chance": 45, "item": "creepy", "x": 7, "y": 21 },
+      { "chance": 45, "item": "creepy", "x": 1, "y": 20 },
+      { "chance": 45, "item": "creepy", "x": 20, "y": 6 },
+      { "chance": 45, "item": "creepy", "x": 2, "y": 4 }
+    ],
+    "place_monster": [ { "monster": "mon_entomber", "x": 11, "y": 3 }, { "monster": "mon_man_spider", "x": 11, "y": 19 } ],
+    "rows": [
+      "||||||||||||||||||||||||",
+      "u.....................u|",
+      ".......................|",
+      ".......................|",
+      ".......................|",
+      ".......................|",
+      ".......................|",
+      "u.....|---------|.....u|",
+      "||||d||+++++++++||||||||",
+      "|||u..6..........###..u|",
+      "..|...................#|",
+      "............w.........#|",
+      "..|......w............#|",
+      "|||u..6...w..w...###..u|",
+      "||||d||++++..+++||||||||",
+      "u.....|---....--|.....u|",
+      ".....................__|",
+      "....................___|",
+      ".................._____|",
+      "................_______|",
+      ".............._________|",
+      "............___________|",
+      "u..........___________u|",
+      "||||||||||||||||||||||||"
+    ],
+    "terrain": {
+      "#": "t_thconc_floor",
+      "+": "t_door_metal_locked",
+      "-": "t_reinforced_glass",
+      ".": "t_thconc_floor",
+      "6": "t_gates_control_metal",
+      "_": "t_dirtfloor",
+      "d": "t_door_metal_c",
+      "u": "t_utility_light",
+      "w": "t_thconc_floor",
+      "|": "t_wall_metal"
+    }
+  },
+  "om_terrain": "cia_base_b4_e",
+  "type": "mapgen",
+  "weight": 100
+}

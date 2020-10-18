@@ -1,0 +1,78 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_null",
+      ".": "f_null",
+      "1": "f_null",
+      "4": "f_null",
+      "7": "f_null",
+      "P": "f_sign",
+      "S": "f_null",
+      "T": "f_null",
+      "_": "f_null",
+      "a": "f_null",
+      "b": "f_null",
+      "o": "f_boulder_small",
+      "s": "f_null",
+      "t": "f_null"
+    },
+    "place_items": [
+      { "chance": 1, "item": "creepy", "x": 10, "y": 16 },
+      { "chance": 15, "item": "forest", "x": 21, "y": 19 },
+      { "chance": 15, "item": "forest", "x": 4, "y": 19 },
+      { "chance": 10, "item": "trash", "x": 20, "y": 12 },
+      { "chance": 10, "item": "trash", "x": 4, "y": 8 },
+      { "chance": 8, "item": "forage_mushroom", "x": 16, "y": 21 }
+    ],
+    "rows": [
+      "..._......._..._..._....",
+      "............P........7..",
+      "#t..._..........1.......",
+      "...7......._............",
+      "#....._1_.....#.._.4_..b",
+      ".._.#......#........_...",
+      "1........_..7....1..#b._",
+      ".....1....t....#.7......",
+      "..t..._..7...#...._.1...",
+      ".7...4o........_.....t..",
+      "_..#.....t...t.s.1.._...",
+      "S.......1..T..........#.",
+      "...1.7..._..s..#._...1..",
+      ".t._...s...t._.....7..._",
+      "#.S..#....1.........7#..",
+      "....1.a..#..S.4..7.o....",
+      "7.......T.o..s._......1.",
+      "....#.7.....S..ts.s._..#",
+      "..s.t_..st._..s....#7#.t",
+      "1_#.....s.7..#...S..a..#",
+      "..oS.s.1._..7._S...s.7._",
+      "S..._..#.S...s.o....t...",
+      "t...#.a....s..s....#_..#",
+      "......_....#._.S..#...#."
+    ],
+    "terrain": {
+      "#": "t_underbrush",
+      ".": "t_grass",
+      "1": "t_tree_young",
+      "4": "t_tree_willow",
+      "7": "t_tree_maple",
+      "P": "t_grass",
+      "S": "t_shrub_strawberry",
+      "T": "t_tree_hickory",
+      "_": "t_dirt",
+      "a": "t_tree_plum",
+      "b": "t_tree_apple",
+      "o": "t_grass",
+      "s": "t_shrub_blueberry",
+      "t": "t_tree_dead"
+    },
+    "place_signs": [ { "signage": "Cheap lot for sale! Call <given_name> at 555-5151!", "x": 12, "y": 1 } ]
+  },
+  "om_terrain": "emptyresidentiallot",
+  "type": "mapgen",
+  "flags": [
+    "SIDEWALK"
+  ],
+  "weight": 100
+}

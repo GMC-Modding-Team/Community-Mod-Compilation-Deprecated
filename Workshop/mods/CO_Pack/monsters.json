@@ -1,0 +1,82 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ANT",
+    "default": "mon_ant",
+    "monsters": [
+      { "monster": "mon_ant_larva", "freq": 40, "cost_multiplier": 0 },
+      { "monster": "mon_ant_soldier", "freq": 90, "cost_multiplier": 5 },
+      { "monster": "mon_honeyant", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "mon_ant_queen", "freq": 0, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monitems",
+    "id": "mon_ant",
+    "item_groups": [ [ "honeyant_balls", 1 ] ]
+  },
+  {
+    "type": "monitems",
+    "id": "mon_honeyant",
+    "item_groups": [ [ "honeyant_balls", 1 ] ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_ant",
+    "name": "worker ant",
+    "species": "INSECT",
+    "symbol": "a",
+    "color": "brown",
+    "size": "MEDIUM",
+    "material": "iflesh",
+    "diff": 7,
+    "aggression": 0,
+    "morale": 60,
+    "speed": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "melee_cut": 6,
+    "dodge": 1,
+    "armor_bash": 5,
+    "armor_cut": 10,
+    "item_chance": -40,
+    "luminance": 0,
+    "hp": 40,
+    "special_freq": 0,
+    "death_function": "NORMAL",
+    "special_attack": "NONE",
+    "description": "An enormous red ant covered in chitinous plates. It possesses a pair of wriggling antennae and vicious-looking mandibles.",
+    "flags": [ "HEARS", "SMELLS", "CHITIN" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_honeyant",
+    "name": "larder ant",
+    "species": "INSECT",
+    "symbol": "a",
+    "color": "ltgreen_yellow",
+    "size": "MEDIUM",
+    "material": "iflesh",
+    "diff": 7,
+    "aggression": -100,
+    "morale": -100,
+    "speed": 10,
+    "melee_skill": 3,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "melee_cut": 3,
+    "dodge": 0,
+    "armor_bash": 5,
+    "armor_cut": 10,
+    "item_chance": 80,
+    "luminance": 0,
+    "hp": 30,
+    "special_freq": 0,
+    "death_function": [ "ACID", "NORMAL" ],
+    "special_attack": "NONE",
+    "description": "This enormous orange ant is bloated with liquid and honey balls to the point its abdomen has swollen enormously. Its only purpose seems to be eating food, process it into nutritious liquid and dispense them in droplet shaped balls.",
+    "flags": [ "HEARS", "SMELLS", "CHITIN" ]
+  }
+]

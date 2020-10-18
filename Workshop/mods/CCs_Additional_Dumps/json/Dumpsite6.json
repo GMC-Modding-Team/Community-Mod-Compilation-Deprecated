@@ -1,0 +1,143 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_hay",
+      ".": "f_null",
+      "^": [ "f_rubble", "f_rubble", "f_rubble", "f_null", "f_null", "f_null", "f_rubble_rock", "f_wreckage" ],
+      "_": "f_null",
+      "h": "f_hay",
+      "r": [ "f_rubble", "f_rubble", "f_null", "f_null", "f_null", "f_hay", "f_hay", "f_rubble_rock", "f_wreckage" ],
+      "s": "f_straw_bed"
+    },
+    "items": {
+      "^": [
+        { "item": "trash", "chance": 25, "repeat": 2 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 2, "damage": [ 3, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "wheels", "chance": 2 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "misc_smoking", "chance": 2 }
+      ],
+      "r": [
+        { "item": "trash", "chance": 25, "repeat": 2 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 2, "damage": [ 3, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "wheels", "chance": 2 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "misc_smoking", "chance": 2 }
+      ],
+      "_": [
+        { "item": "trash", "chance": 25, "repeat": 1 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 2, "damage": [ 3, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "wheels", "chance": 2 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "misc_smoking", "chance": 2 }
+      ]
+    },
+    "rows": [
+      "........................",
+      "........................",
+      "........................",
+      ".......^....^...........",
+      ".....^..._..^^.^........",
+      "......._r..rr_^.........",
+      "..._.^...r..rr^^........",
+      ".^.._.__.#____r.........",
+      "...^._rrrh#_.r..........",
+      ".._._.^rrrrs___r.^......",
+      "..._^^r^rrrr__..........",
+      "._..^^^r^rrrrr_r........",
+      "..._^^^^^^rrr__.........",
+      "....^^^_^_^^r_..........",
+      "....^^^^^^__^._^........",
+      "..._.^_^^_^^_...........",
+      "...._.^_^^^^.^.._.^.....",
+      ".....^.^^_._._..........",
+      "........._.^.._.........",
+      ".......^................",
+      "........................",
+      "........................",
+      "........................",
+      "........................"
+    ],
+    "terrain": {
+      "#": "t_grass",
+      ".": [
+        "t_dirt",
+        "t_underbrush",
+        "t_underbrush",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_tree_young",
+        "t_tree_dead",
+        "t_tree_pine",
+        "t_tree_pine"
+      ],
+      "^": [
+        "t_dirt",
+        "t_dirt",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass"
+      ],
+      "_": [
+        "t_dirt",
+        "t_dirt",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_tree_young",
+        "t_tree_young",
+        "t_tree_dead",
+        "t_tree_pine"
+      ],
+      "h": "t_grass",
+      "r": [
+        "t_dirt",
+        "t_dirt",
+        "t_underbrush",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_grass"
+      ],
+      "s": "t_grass"
+    }
+  },
+  "om_terrain": "dumpsite",
+  "type": "mapgen",
+  "weight": 100
+}

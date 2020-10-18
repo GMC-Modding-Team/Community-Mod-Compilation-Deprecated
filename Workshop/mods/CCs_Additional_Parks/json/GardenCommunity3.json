@@ -1,0 +1,85 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_null",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "0": "f_null",
+      "D": "f_null",
+      "O": "f_standing_tank",
+      "P": "f_sign",
+      "_": "f_null",
+      "a": "f_null",
+      "d": "f_null",
+      "s": "f_null",
+      "t": "f_table",
+      "w": "f_null",
+      "|": "f_null"
+    },
+    "place_liquids": [
+      { "liquid": "fertilizer_liquid", "chance": 1, "amount": [ 2, 3 ], "x": 4, "y": 4 },
+      { "liquid": "fertilizer_liquid", "chance": 1, "amount": [ 2, 3 ], "x": 4, "y": 5 },
+      { "liquid": "fertilizer_liquid", "chance": 1, "amount": [ 2, 3 ], "x": 5, "y": 4 },
+      { "liquid": "fertilizer_liquid", "chance": 1, "amount": [ 2, 3 ], "x": 5, "y": 5 }
+    ],
+    "items": { "D": { "item": "hydro", "chance": 15 }, "#": { "item": "hydro", "chance": 15 } },
+    "place_items": [
+      { "chance": 20, "item": "tools_earthworking", "x": 7, "y": 16 },
+      { "chance": 30, "repeat": 3, "item": "tools_earthworking", "x": 5, "y": 9 },
+      { "chance": 40, "repeat": 2, "item": "supplies_farming", "x": 4, "y": 8 },
+      { "chance": 35, "repeat": 2, "item": "supplies_farming", "x": 4, "y": 9 }
+    ],
+    "rows": [
+      "ssssssssssssssssssssssss",
+      "ssssssssssssssssssssssss",
+      "_P....................P_",
+      "_|...........DD.DD.DD.|_",
+      "_|..00................|_",
+      "_|..00.......DD.DD.DD.|_",
+      "_|...........DD.DD.DD.|_",
+      "_|.wwww...............|_",
+      "_|.wt.a......DD.DD.DD.|_",
+      "_|.wttw..OO..DD.DD.DD.|_",
+      "_|.wwww..OO..DD.DD.DD.|_",
+      "_|....................|_",
+      "_|....................|_",
+      "_|.------------------.|_",
+      "_|.-#d#d##d##d##d#d#-.|_",
+      "_|.-#d#d##d##d##d#d#-.|_",
+      "_|.+dddddddddddddddd+.|_",
+      "_|.+dddddddddddddddd+.|_",
+      "_|.-#d#d##d##d##d#d#-.|_",
+      "_|.-#d#d##d##d##d#d#-.|_",
+      "_|.------------------.|_",
+      "_|....................|_",
+      "_||||||||||||||||||||||_",
+      "________________________"
+    ],
+    "terrain": {
+      "#": "t_dirtmoundfloor",
+      "+": "t_reinforced_door_glass_c",
+      "-": "t_wall_glass",
+      ".": [ "t_grass", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt" ],
+      "0": "t_pit_shallow",
+      "D": "t_dirtmound",
+      "O": "t_dirt",
+      "P": "t_grass",
+      "_": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "a": [ "t_door_c", "t_door_o" ],
+      "d": "t_dirtfloor",
+      "s": "t_sidewalk",
+      "t": "t_dirt",
+      "w": "t_wall_wood",
+      "|": "t_fence"
+    },
+    "place_signs": [
+      { "signage": "<city> Community Garden, sign up for your own plot!", "x": 1, "y": 2 },
+      { "signage": "<city> Community Garden, grow your own vegtable!", "x": 22, "y": 2 }
+    ]
+  },
+  "om_terrain": "communitygarden",
+  "type": "mapgen",
+  "weight": 100
+}

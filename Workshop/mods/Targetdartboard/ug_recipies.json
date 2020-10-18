@@ -1,0 +1,26 @@
+[
+  {
+    "type": "recipe",
+    "result": "ug_shooting_target",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TRAPS",
+    "skill_used": "gun",
+    "difficulty": 1,
+    "time": 20000,
+    "reversible": false,
+    "book_learn": [ [ "mag_guns", 1 ], [ "mag_rifle", 1 ], [ "mag_pistol", 1 ] ],
+    "components": [ [ [ "rag", 2 ] ], [ [ "2x4", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "ug_dart_board",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TRAPS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": 15000,
+    "reversible": false,
+    "book_learn": [ [ "mag_fabrication", 1 ], [ "recipe_arrows", 1 ], [ "recipe_bows", 1 ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "2x4", 1 ] ] ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "method": "json",
+  "object": {
+    "add": [ { "item": "grey_handgun", "repeat": 1, "x": 10, "y": 9 }, { "item": "grey_ammo", "repeat": 1, "x": 11, "y": 9 } ],
+    "furniture": {
+      "#": "f_wreckage",
+      "+": "f_null",
+      "-": "f_null",
+      ".": "f_null",
+      "0": "f_null",
+      "^": "f_indoor_plant",
+      "_": "f_null",
+      "c": "f_counter",
+      "f": "f_fridge",
+      "t": "f_table",
+      "u": "f_null",
+      "v": "f_vending_c",
+      "{": "f_locker",
+      "|": "f_null"
+    },
+    "place_items": [
+      { "chance": 45, "item": "magazines", "x": 7, "y": 23 },
+      { "chance": 45, "item": "clothing_work_hat", "x": 3, "y": 23 },
+      { "chance": 45, "item": "clothing_work_hat", "x": 1, "y": 23 },
+      { "chance": 65, "item": "coffee_condiments", "x": 18, "y": 23 },
+      { "chance": 65, "item": "clothing_work_torso", "x": 4, "y": 23 },
+      { "chance": 65, "item": "clothing_work_torso", "x": 2, "y": 23 },
+      { "chance": 75, "item": "vending_drink_items", "x": 16, "y": 23 },
+      { "chance": 75, "item": "coffee_freezer", "x": 20, "y": 23 },
+      { "chance": 65, "item": "coffee_counter", "x": 18, "y": 22 },
+      { "chance": 75, "item": "vending_food_items", "x": 14, "y": 23 }
+    ],
+    "place_monster": [
+      { "monster": "mon_grey_grunt", "x": 15, "y": 6 },
+      { "monster": "mon_alien_turret", "x": 6, "y": 10 },
+      { "monster": "mon_alien_turret", "x": 15, "y": 10 },
+      { "monster": "mon_grey_grunt", "x": 13, "y": 13 },
+      { "monster": "mon_grey_grunt", "x": 16, "y": 16 },
+      { "monster": "mon_cia_security", "x": 5, "y": 17 },
+      { "monster": "mon_grey_grunt", "x": 3, "y": 20 }
+    ],
+    "place_vehicles": [
+      { "chance": 50, "fuel": 20, "rotation": 270, "status": 0, "vehicle": "welding_cart", "x": 20, "y": 8 },
+      { "chance": 75, "fuel": 0, "rotation": 270, "status": 0, "vehicle": "handjack", "x": 2, "y": 12 }
+    ],
+    "rows": [
+      "||||||||||||||||||||||||",
+      "|u.........u..........u|",
+      "|......................|",
+      "|...............#......|",
+      "|..||..............||..|",
+      "|..||..............||..|",
+      "|.......||||||.........|",
+      "|......||----||........|",
+      "|.....||______||.......|",
+      "|....||__0__0__||......|",
+      "|....|__||||||__|.#....|",
+      "|u...|____uu____|.....u|",
+      "|....|__________|...#..|",
+      "|....||________||..#...|",
+      "|.....||______||.......|",
+      "|......|||++|||........|",
+      "|......................|",
+      "|..||..............||..|",
+      "|..||..............||..|",
+      "|......................|",
+      "|........u...u.........|",
+      "|........||.||...|.....|",
+      "|......tt|...|...|c....|",
+      "|{{{{u.tt|...|v^v|ccf.u|"
+    ],
+    "terrain": {
+      "#": "t_thconc_floor",
+      "+": "t_door_metal_c",
+      "-": "t_vat",
+      ".": "t_thconc_floor",
+      "0": "t_plut_generator",
+      "^": "t_thconc_floor",
+      "_": "t_metal_floor",
+      "c": "t_thconc_floor",
+      "f": "t_thconc_floor",
+      "t": "t_thconc_floor",
+      "u": "t_utility_light",
+      "v": "t_thconc_floor",
+      "{": "t_thconc_floor",
+      "|": "t_wall_metal"
+    }
+  },
+  "om_terrain": "cia_base_b4_n",
+  "type": "mapgen",
+  "weight": 100
+}

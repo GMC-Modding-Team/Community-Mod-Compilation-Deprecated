@@ -1,0 +1,96 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "+": "f_null",
+      ".": "f_null",
+      "^": [ "f_rubble", "f_rubble", "f_rubble", "f_null", "f_null", "f_rubble_rock" ],
+      "_": "f_null",
+      "|": "f_null"
+    },
+    "items": {
+      "^": [
+        { "item": "trash", "chance": 25, "repeat": 2 },
+        { "item": "road", "chance": 2 },
+        { "item": "allclothes", "chance": 2, "damage": [ 1, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "oven", "chance": 1 },
+        { "item": "garden_shed", "chance": 1 },
+        { "item": "homebooks", "chance": 1 },
+        { "item": "electronics", "chance": 1 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "chem_home", "chance": 1 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "hardware", "chance": 1 },
+        { "item": "wheels", "chance": 1 },
+        { "item": "misc_smoking", "chance": 1 },
+        { "item": "tools_home", "chance": 1 }
+      ]
+    },
+    "rows": [
+      "________________________",
+      "________________________",
+      "__|||||||||++|||||||||__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|..................|__",
+      "__|.....^............|__",
+      "__|..^..^....^.......|__",
+      "__|.^^...^.^......^..|__",
+      "__|....^^^..^.^^.....|__",
+      "__|...^..^^^^^...^...|__",
+      "__|.....^^^..........|__",
+      "__|............^.....|__",
+      "__|||||||||||||||_||||__",
+      "________________________",
+      "________________________"
+    ],
+    "terrain": {
+      "+": "t_chaingate_c",
+      ".": [
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_grass",
+        "t_grass",
+        "t_dirt"
+      ],
+      "^": [
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_concrete",
+        "t_dirt"
+      ],
+      "_": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "|": "t_chainfence"
+    }
+  },
+  "om_terrain": "emptycommerciallot",
+  "type": "mapgen",
+  "flags": [
+    "SIDEWALK"
+  ],
+  "weight": 100
+}

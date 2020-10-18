@@ -1,0 +1,42 @@
+[
+  {
+    "id": "jacket_army",
+    "type": "ARMOR",
+    "name": "army jacket",
+    "name_plural": "army jacket",
+    "description": "A tough jacket with lots of pockets.  Favored by the military.",
+    "weight": "780 g",
+    "volume": "3 L",
+    "price": 3500,
+    "material": [ "cotton", "plastic" ],
+    "symbol": "[",
+    "color": "green",
+    "covers": [ "TORSO", "ARMS" ],
+    "coverage": 95,
+    "encumbrance": 15,
+    "storage": "3500 ml",
+    "warmth": 20,
+    "material_thickness": 2,
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "RAINPROOF" ]
+  },
+  {
+    "id": "winter_jacket_army",
+    "type": "ARMOR",
+    "name": "army winter jacket",
+    "name_plural": "army winter jackets",
+    "description": "A tough hooded jacket with lots of pockets, thickly padded for warmth.  Favored by the military.",
+    "weight": "1000 g",
+    "volume": "3 L",
+    "price": 4375,
+    "material": [ "cotton", "plastic" ],
+    "symbol": "[",
+    "color": "white",
+    "covers": [ "TORSO", "ARMS" ],
+    "coverage": 95,
+    "encumbrance": 20,
+    "storage": "3500 ml",
+    "warmth": 50,
+    "material_thickness": 3,
+    "flags": [ "VARSIZE", "POCKETS", "HOOD", "OUTER", "RAINPROOF" ]
+  }
+]

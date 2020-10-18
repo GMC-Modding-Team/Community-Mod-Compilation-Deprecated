@@ -1,0 +1,346 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "classified_doc",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": "classified document",
+    "name_plural": "classified documents",
+    "snippet_category": "class_doc",
+    "description": "A piece of paper with information on classified projects and locations.",
+    "price": 0,
+    "material": "paper",
+    "weight": 3,
+    "volume": 0
+  },
+  {
+    "id": "self_powered_flashlight_off",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "self powered flashlight (Off)",
+    "name_plural": "self powered flashlights (Off)",
+    "description": "This is a CIA issue self powered flashlight. You have no idea how it works besides the fact that switching it to ON makes it work.",
+    "weight": 2500,
+    "volume": 1,
+    "price": 55000,
+    "to_hit": -2,
+    "bashing": 4,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "target": "self_powered_flashlight",
+      "msg": "You flip on the flashlight.",
+      "menu_text": "Turn On",
+      "type": "transform"
+    },
+    "flags": [ "DURABLE_MELEE" ]
+  },
+  {
+    "id": "self_powered_flashlight",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "self powered flashlight",
+    "description": "This is a CIA issue self powered flashlight. You have no idea how it works besides the fact that switching it to ON makes it work.",
+    "weight": 2500,
+    "volume": 1,
+    "price": 55000,
+    "to_hit": -2,
+    "bashing": 4,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ",",
+    "color": "light_blue",
+    "use_action": {
+      "target": "self_powered_flashlight_off",
+      "msg": "You turn off the flashlight.",
+      "menu_text": "Turn Off",
+      "type": "transform"
+    },
+    "flags": [ "LIGHT_10", "DURABLE_MELEE" ]
+  },
+  {
+    "id": "grey_instrument",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "grey instrument",
+    "name_plural": "grey instruments",
+    "description": "A flutelike instrument.  Its clearly not made by humans, but you somehow intuitively know how to play it.",
+    "weight": 1000,
+    "volume": 4,
+    "price": 17500,
+    "to_hit": 2,
+    "emits": [ "emit_calm_small" ],
+    "bashing": 7,
+    "material": [ "steel", "iron" ],
+    "symbol": "|",
+    "color": "white",
+    "initial_charges": 1,
+    "max_charges": 1,
+    "use_action": {
+      "type": "musical_instrument",
+      "volume": 10,
+      "fun": -3,
+      "fun_bonus": 2,
+      "speed_penalty": 18,
+      "description_frequency": 20,
+      "player_descriptions": [
+        "Yourself play an alien sounding melody on your grey instrument.",
+        "Yourself make strange noises on your grey instrument.",
+        "Yourself play calming droning noise on your grey instrument."
+      ]
+    }
+  },
+  {
+    "id": "bone_violin",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "bone violin",
+    "name_plural": "bone violins",
+    "description": "A violin made of bloody bones, with skin strung across it. It feels sinister.",
+    "weight": 1500,
+    "volume": 6,
+    "price": 7500,
+    "to_hit": 2,
+    "emits": [ "emit_bloodtrail" ],
+    "bashing": 7,
+    "material": [ "steel", "iron" ],
+    "symbol": "|",
+    "color": "red",
+    "initial_charges": 1,
+    "max_charges": 1,
+    "use_action": {
+      "type": "musical_instrument",
+      "volume": 25,
+      "fun": -10,
+      "fun_bonus": 2,
+      "speed_penalty": 18,
+      "description_frequency": 20,
+      "player_descriptions": [
+        "yourself play an eerie sounding melody on your bone violin.",
+        "yourself make strange noises on your bone violin.",
+        "yourself play tense droning noises on your bone violin."
+      ]
+    },
+    "artifact_data": { "effects_carried": [ "AEP_BAD_WEATHER" ], "effects_wielded": [ "AEP_SCHIZO", "AEP_EVIL" ] }
+  },
+  {
+    "id": "golden_hand",
+    "type": "TOOL",
+    "name": "gold hand",
+    "description": "A gold statue of a hand.",
+    "weight": 3500,
+    "volume": 10,
+    "price": 20000,
+    "bashing": 1,
+    "material": [ "steel" ],
+    "symbol": ",",
+    "color": "yellow",
+    "artifact_data": { "charge_type": "ARTC_NULL", "effects_carried": [ "AEP_SAP_LIFE", "AEP_EVIL", "AEP_BAD_WEATHER", "AEP_INT_DOWN" ] }
+  },
+  {
+    "id": "crystal_eyeball",
+    "type": "TOOL",
+    "name": "crystal eye",
+    "description": "A crystal eyeball.",
+    "weight": 1500,
+    "volume": 2,
+    "price": 20000,
+    "bashing": 1,
+    "material": [ "glass" ],
+    "symbol": ",",
+    "color": "light_blue",
+    "artifact_data": { "charge_type": "ARTC_NULL", "effects_carried": [ "AEP_RADIOACTIVE", "AEP_GLOW", "AEP_CLAIRVOYANCE", "AEP_STR_DOWN" ] }
+  },
+  {
+    "id": "glowing_lighter",
+    "type": "TOOL",
+    "name": "lighter",
+    "description": "A seemingly regular lighter. It has snakes printed on it.",
+    "weight": 500,
+    "volume": 1,
+    "price": 20000,
+    "bashing": 0,
+    "material": [ "plastic" ],
+    "symbol": ",",
+    "color": "white",
+    "initial_charges": 50,
+    "max_charges": 50,
+    "charges_per_use": 1,
+    "use_action": { "type": "firestarter", "moves": 50 },
+    "artifact_data": { "charge_type": "ARTC_NULL", "effects_carried": [ "AEP_SNAKES", "AEP_GLOW", "AEP_DEX_DOWN", "AEP_SPEED_DOWN" ] }
+  },
+  {
+    "id": "bloody_chainsaw_off",
+    "type": "TOOL",
+    "name": "bloody chainsaw (off)",
+    "name_plural": "bloody chainsaws (off)",
+    "description": "A regular chainsaw, but its covered in blood. A tool, and a very powerful but unwieldy melee weapon.",
+    "weight": 6577,
+    "volume": 10,
+    "price": 8000,
+    "to_hit": -4,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "symbol": "/",
+    "color": "red",
+    "techniques": "SWEEP",
+    "use_action": {
+      "type": "transform",
+      "target": "bloody_chainsaw_on",
+      "active": true,
+      "msg": "You pull the cord on the bloody chainsaw.",
+      "need_fire": 0,
+      "need_charges": 0,
+      "moves": 500
+    },
+    "flags": [ "NONCONDUCTIVE" ],
+    "artifact_data": {
+      "charge_type": "ARTC_NULL",
+      "effects_carried": [ "AEP_STR_UP", "AEP_STR_UP", "AEP_SAP_LIFE", "AEP_SCHIZO", "AEP_EVIL", "AEP_INT_DOWN" ]
+    }
+  },
+  {
+    "id": "bloody_chainsaw_on",
+    "type": "TOOL",
+    "name": "bloody chainsaw (on)",
+    "name_plural": "bloody chainsaws (on)",
+    "description": "This bloody chainsaw is on but seems to be silent.  Use it to turn it off. But you don't want to turn it off.. Do you?",
+    "weight": 6577,
+    "volume": 10,
+    "price": 8000,
+    "to_hit": -5,
+    "bashing": 4,
+    "cutting": 70,
+    "emits": [ "emit_smokepuff" ],
+    "material": [ "steel", "plastic" ],
+    "symbol": "/",
+    "color": "red",
+    "revert_to": "chainsaw_off",
+    "techniques": "SWEEP",
+    "qualities": [ [ "AXE", 3 ] ],
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn Off",
+      "target": "bloody_chainsaw_off",
+      "active": true,
+      "msg": "You switch off the bloody chainsaw.. Don't you want to turn it back on?",
+      "need_fire": 0,
+      "need_charges": 0,
+      "moves": 500
+    },
+    "flags": [ "MESSY", "TRADER_AVOID", "NONCONDUCTIVE" ],
+    "artifact_data": {
+      "charge_type": "ARTC_NULL",
+      "effects_carried": [ "AEP_STR_UP", "AEP_STR_UP", "AEP_SAP_LIFE", "AEP_SCHIZO", "AEP_EVIL", "AEP_INT_DOWN" ]
+    }
+  },
+  {
+    "id": "glass_spider",
+    "type": "TOOL",
+    "name": "glass spider",
+    "description": "A glass spider figurine.",
+    "weight": 1000,
+    "volume": 1,
+    "price": 20000,
+    "bashing": 1,
+    "material": [ "glass" ],
+    "symbol": ",",
+    "color": "light_blue",
+    "artifact_data": {
+      "charge_type": "ARTC_NULL",
+      "effects_carried": [ "AEP_SPEED_UP", "AEP_DEX_UP", "AEP_MOVEMENT_NOISE", "AEP_PER_DOWN" ]
+    }
+  },
+  {
+    "id": "coat_lab_of_holding",
+    "type": "ARMOR",
+    "name": "lab coat of holding",
+    "description": "A long white coat with several large pockets. Extremely large pockets... you can't seem to find the bottom of them.",
+    "weight": 580,
+    "volume": 9,
+    "price": 2500,
+    "to_hit": -2,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "white",
+    "covers": [ "TORSO", "ARMS" ],
+    "coverage": 90,
+    "encumbrance": 5,
+    "storage": 2000,
+    "warmth": 15,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE", "POCKETS", "OUTER" ],
+    "artifact_data": {
+      "charge_type": "ARTC_NULL",
+      "effects_worn": [ "AEP_FORCE_TELEPORT", "AEP_CARRY_MORE" ],
+      "effects_carried": [ "AEP_RADIOACTIVE" ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "cia_docs",
+    "items": [ [ "classified_doc", 50 ], [ "paper", 15 ], [ "roadmap", 1 ], [ "file", 15 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "cia_artifacts",
+    "items": [
+      [ "grey_instrument", 15 ],
+      [ "bone_violin", 15 ],
+      [ "golden_hand", 15 ],
+      [ "crystal_eyeball", 15 ],
+      [ "glowing_lighter", 15 ],
+      [ "bloody_chainsaw_off", 15 ],
+      [ "coat_lab_of_holding", 15 ],
+      [ "glass_spider", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cia_pants",
+    "items": [ [ "technician_pants_gray", 15 ], [ "pants_army", 5 ], [ "jeans", 5 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "cia_shirts",
+    "items": [ [ "dress_shirt", 15 ], [ "longshirt", 5 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "cia_boots",
+    "items": [ [ "boots", 15 ], [ "boots_steel", 5 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "cia_hazmat",
+    "items": [ [ "cleansuit", 15 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "cia_weapons",
+    "items": [ [ "grey_handgun", 15 ] ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "cia_sec_drop",
+    "entries": [
+      { "group": "cia_pants", "damage": [ 1, 4 ] },
+      { "group": "cia_shirts", "damage": [ 1, 4 ] },
+      { "group": "cia_boots", "damage": [ 1, 4 ] },
+      { "group": "cia_weapons", "damage": [ 1, 4 ], "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "cia_hazmat_drop",
+    "entries": [
+      { "group": "cia_pants", "damage": [ 1, 4 ] },
+      { "group": "cia_shirts", "damage": [ 1, 4 ] },
+      { "group": "cia_boots", "damage": [ 1, 4 ] },
+      { "group": "cia_hazmat", "damage": [ 1, 4 ] }
+    ]
+  }
+]

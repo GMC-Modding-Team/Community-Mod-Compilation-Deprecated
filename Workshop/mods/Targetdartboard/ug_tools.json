@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ug_shooting_target",
+    "type": "TOOL",
+    "symbol": "o",
+    "color": "white",
+    "name": "Target (for shooting practice)",
+    "description": "It is a target for shooting practice. I imagine the upper half of a person, but the intrinsic itself is just a circle. Install and use it.",
+    "price": 1200,
+    "material": [ "wood", "cotton" ],
+    "weight": 2700,
+    "volume": 3,
+    "bashing": 1,
+    "category": "tools",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_ug_shooting_target",
+      "friendly_msg": "*Oops!*",
+      "hostile_msg": "We set up the target.",
+      "difficulty": 99,
+      "moves": 60,
+      "place_randomly": false
+    }
+  },
+  {
+    "id": "ug_dart_board",
+    "type": "TOOL",
+    "symbol": "o",
+    "color": "brown",
+    "name": "Dart board",
+    "description": "It is basic to use for darts game. It is not a electric board that makes a loud electronic sound but a simple board that is ideal for interior.",
+    "price": 1200,
+    "material": [ "wood", "cotton" ],
+    "weight": 1550,
+    "volume": 2,
+    "bashing": 1,
+    "category": "tools",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_ug_dart_board",
+      "friendly_msg": "*Oops!*",
+      "hostile_msg": "I installed a dartboard.",
+      "difficulty": 99,
+      "moves": 60,
+      "place_randomly": false
+    }
+  }
+]

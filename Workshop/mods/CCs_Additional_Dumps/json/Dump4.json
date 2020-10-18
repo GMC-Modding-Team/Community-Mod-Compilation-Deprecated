@@ -1,0 +1,104 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      ".": "f_null",
+      "7": "f_null",
+      "P": "f_sign",
+      "^": [ "f_rubble", "f_rubble", "f_rubble", "f_null", "f_rubble_rock", "f_wreckage" ],
+      "_": "f_null",
+      "r": [
+        "f_rubble",
+        "f_rubble",
+        "f_rubble",
+        "f_null",
+        "f_null",
+        "f_null",
+        "f_null",
+        "f_null",
+        "f_null",
+        "f_rubble_rock",
+        "f_wreckage"
+      ],
+      "|": "f_null"
+    },
+    "items": {
+      "^": [
+        { "item": "trash", "chance": 25, "repeat": 2 },
+        { "item": "road", "chance": 2 },
+        { "item": "allclothes", "chance": 3, "damage": [ 1, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "oven", "chance": 2 },
+        { "item": "garden_shed", "chance": 2 },
+        { "item": "homebooks", "chance": 2 },
+        { "item": "electronics", "chance": 2 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "chem_home", "chance": 1 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "hardware", "chance": 2 },
+        { "item": "wheels", "chance": 1 },
+        { "item": "misc_smoking", "chance": 1 },
+        { "item": "tools_home", "chance": 1 }
+      ],
+      "r": [
+        { "item": "trash", "chance": 35 },
+        { "item": "road", "chance": 1 },
+        { "item": "allclothes", "chance": 2, "damage": [ 1, 4 ] },
+        { "item": "stoner", "chance": 1 },
+        { "item": "oven", "chance": 1 },
+        { "item": "garden_shed", "chance": 1 },
+        { "item": "homebooks", "chance": 1 },
+        { "item": "wheels", "chance": 1 },
+        { "item": "electronics", "chance": 1 },
+        { "item": "creepy", "chance": 1 },
+        { "item": "barrels", "chance": 1 },
+        { "item": "chem_home", "chance": 1 },
+        { "item": "hardware", "chance": 1 },
+        { "item": "misc_smoking", "chance": 1 },
+        { "item": "tools_home", "chance": 1 }
+      ]
+    },
+    "rows": [
+      ".........______.........",
+      ".........______.........",
+      ".........______..P..7...",
+      "........________........",
+      "......_____________.....",
+      "....________________..7.",
+      "...__________________...",
+      "...__________________...",
+      "..____________________..",
+      "..____________________..",
+      ".._______rrrrrr_______..",
+      "..____rrrrrrrrrrrr____..",
+      "..__rrrrrrrrrrrrrrrr__..",
+      "..__rrrrrrr^^rrrrrrr__..",
+      ".._rrrr^^^^^^^^^^rrrr_..",
+      "..^^^^^^^^^^^^^^^^^^^^..",
+      "..^^^^^^^^^^^^^^^^^^^^..",
+      "..|^^^^^^^^^^^^^^^^^^|..",
+      "..|^^^^^^^^^^^^^^^^^^|..",
+      "..|^^^^^^^^^^^^^^^^^^|..",
+      "..|^^^^^^^^^^^^^^^^^^|..",
+      "..||||||||||||||||||||..",
+      "........................",
+      "........................"
+    ],
+    "terrain": {
+      ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
+      "7": "t_tree_birch",
+      "P": "t_grass",
+      "^": "t_dirt",
+      "_": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+      "r": "t_dirt",
+      "|": "t_concrete_wall"
+    },
+    "place_signs": [ { "signage": "<city> Area Dump", "x": 17, "y": 2 } ]
+  },
+  "om_terrain": "dump",
+  "type": "mapgen",
+  "flags": [
+    "SIDEWALK"
+  ],
+  "weight": 100
+}

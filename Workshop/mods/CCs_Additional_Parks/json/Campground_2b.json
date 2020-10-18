@@ -1,0 +1,91 @@
+{
+  "method": "json",
+  "object": {
+    "furniture": {
+      "#": "f_canvas_wall",
+      "&": "f_toilet",
+      "+": "f_null",
+      ".": "f_null",
+      ";": "f_groundsheet",
+      "B": "f_brazier",
+      "S": "f_sink",
+      "T": "f_null",
+      "_": "f_null",
+      "b": "f_bench",
+      "c": [ "f_canvas_door", "f_canvas_door_o" ],
+      "s": "f_null",
+      "t": "f_table",
+      "|": "f_null"
+    },
+    "place_items": [
+      { "chance": 50, "item": "camping", "x": 18, "y": 20 },
+      { "chance": 40, "repeat": [ 1, 4 ], "item": "cannedfood", "x": 17, "y": 20 },
+      { "chance": 20, "item": "barbecue", "x": 4, "y": 20 },
+      { "chance": 20, "item": "barbecue", "x": 16, "y": 8 },
+      { "chance": 50, "repeat": [ 2, 4 ], "item": "clothing_male", "x": 18, "y": 18 },
+      { "chance": 5, "item": "creepy", "x": 2, "y": 17 },
+      { "chance": 50, "repeat": [ 2, 4 ], "item": "clothing_female", "x": 18, "y": 18 }
+    ],
+    "place_toilets": [ { "x": 2, "y": 2 }, { "x": 2, "y": 4 } ],
+    "place_vehicles": [
+      { "chance": 60, "fuel": -1, "rotation": 0, "status": -1, "vehicle": "rv", "x": 20, "y": 3 },
+      { "chance": 55, "fuel": 15, "rotation": 90, "status": -1, "vehicle": "campground", "x": 11, "y": 19 }
+    ],
+    "rows": [
+      "TTS|s__......s__________",
+      "T|||s__......ss_________",
+      "T+&|s__...............__",
+      "T|||s__...............__",
+      "T+&|s__...............__",
+      "T|||s__...............__",
+      ".ssss__...............__",
+      ".s_____......ssssssss___",
+      ".s____s......sbttbsBs___",
+      ".s____......ssbttbsss___",
+      ".s___s......ssbttbs_____",
+      ".sss........_sbttbs_____",
+      "...........s_ssssss_____",
+      "...........s____________",
+      "............s___________",
+      ".............s__________",
+      "..............sssssss___",
+      "sssssss........s####s___",
+      "#ssbbbbs.......s#;;#s___",
+      "#ssttttss.....ssc;;#s___",
+      "#ssttttsss...sss#;;#s___",
+      "#ssbbbbssBssssss####s___",
+      "#ssssssssss____ssssss___",
+      "ss______________________"
+    ],
+    "terrain": {
+      "#": "t_grass",
+      "&": "t_thconc_floor",
+      "+": [ "t_door_c", "t_door_o" ],
+      ".": [ "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
+      ";": "t_grass",
+      "B": "t_grass",
+      "S": "t_thconc_floor",
+      "T": "t_thconc_floor",
+      "_": [
+        "t_grass",
+        "t_grass",
+        "t_grass",
+        "t_dirt",
+        "t_tree_pine",
+        "t_tree_pine",
+        "t_tree",
+        "t_tree_young",
+        "t_underbrush",
+        "t_underbrush"
+      ],
+      "b": "t_grass",
+      "c": "t_grass",
+      "s": "t_grass",
+      "t": "t_grass",
+      "|": "t_wall"
+    }
+  },
+  "om_terrain": "campground_2b",
+  "type": "mapgen",
+  "weight": 100
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "construction_site" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "________________________",
+        "||||_______________|||||",
+        "|__dd_d_d_d__dddddd_d__|",
+        "|_dddddd_dddddddddddd__|",
+        "|___##-0-ddddddd-0-0-d_|",
+        "|_dd....-dddddd&-...-d_|",
+        "|__d....-ddddddd-...-__|",
+        "|__d....-ddddddd-...-__|",
+        "|__d....---#dd#--...-__|",
+        "|_dd................#d_|",
+        "|__d................#d_|",
+        "|__d................d__|",
+        "|__d................d__|",
+        "|__d..#-----##......dd_|",
+        "|_dd...H..........t.d__|",
+        "|_d_.............ct.dd_|",
+        "|___................dd_|",
+        "|__d................d__|",
+        "|_dd................__{|",
+        "|__d................d_{|",
+        "|_dd__dd##---#ddddddd__|",
+        "|_______ddd_dd____d____|",
+        "||||||||||||||||||||||||",
+        "________________________"
+      ],
+      "terrain": {
+        "#": "t_wall_half",
+        "&": "t_dirt",
+        "-": "t_wall",
+        ".": "t_concrete",
+        "0": "t_window_frame",
+        "H": "t_concrete",
+        "_": "t_grass",
+        "c": "t_concrete",
+        "d": "t_dirt",
+        "t": "t_concrete",
+        "{": "t_grass",
+        "|": "t_chainfence_v"
+      },
+      "furniture": {
+        "#": "f_null",
+        "&": "f_trashcan",
+        "-": "f_null",
+        ".": "f_null",
+        "0": "f_null",
+        "H": "f_ladder",
+        "_": "f_null",
+        "c": "f_chair",
+        "d": "f_null",
+        "t": "f_table",
+        "{": "f_dumpster",
+        "|": "f_null"
+      },
+      "place_items": [
+        { "item": "tools_carpentry", "x": 6, "y": 14, "chance": 25 },
+        { "item": "tools_carpentry", "x": 19, "y": [ 7, 8 ], "chance": 25 },
+        { "item": "tools_carpentry", "x": 7, "y": 5, "chance": 25 },
+        { "item": "clothing_work_gloves", "x": 18, "y": 15, "chance": 25 },
+        { "item": "clothing_work_gloves", "x": 15, "y": 9, "chance": 25 },
+        { "item": "clothing_work_boots", "x": 18, "y": 14, "chance": 35 },
+        { "item": "clothing_work_boots", "x": 9, "y": 14, "chance": 35 },
+        { "item": "power_tools", "x": 11, "y": 19, "chance": 15 },
+        { "item": "tools_construction", "x": 12, "y": 19, "chance": 20 },
+        { "item": "tools_construction", "x": 12, "y": 14, "chance": 20 },
+        { "item": "tools_construction", "x": 11, "y": 12, "chance": 20 },
+        { "item": "hardware_trash", "x": 22, "y": [ 18, 19 ], "chance": 35 }
+      ]
+    }
+  }
+]

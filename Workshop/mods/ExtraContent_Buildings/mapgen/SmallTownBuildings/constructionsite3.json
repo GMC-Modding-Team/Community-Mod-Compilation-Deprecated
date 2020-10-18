@@ -1,0 +1,89 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "construction_site" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "________________ss______",
+        "_bbb____________ss__bbb_",
+        "________________ss______",
+        "____......._____ss______",
+        "___|||wwww|||___ss_|ww|_",
+        "___|ffffffff|...ss.|ff|_",
+        "__.|ffffffff|0||cc||ff|.",
+        "__.|ffffffffffffffffff|.",
+        "___|ffffffffffffffffff|.",
+        "__.#ccccccccffffffffff|_",
+        "__.ccccccccccccccccccc|_",
+        "__.ccccccccccccccccccc#.",
+        "___ccccccccccccccccccc#.",
+        "___......-tccccccc......",
+        "__.......-T.ccCcc.......",
+        "__.......--------.......",
+        "___#ccc..............c..",
+        "___#ccc.............ccc.",
+        "___|cccc...........cccc.",
+        "__.|cccc..........cccc#_",
+        "__.|cccc.........ccccc|.",
+        "__.|cccc.....{{.cccccc|.",
+        "___|||#.........##|||||_",
+        "_____...____...____..___"
+      ],
+      "terrain": {
+        "#": "t_brick_wall_halfway",
+        "-": "t_wall",
+        ".": "t_dirt",
+        "0": "t_window_empty",
+        "C": "t_concrete",
+        "T": "t_dirt",
+        "_": "t_grass",
+        "b": "t_grass",
+        "c": "t_concrete",
+        "f": "t_floor",
+        "s": "t_sidewalk",
+        "t": "t_concrete",
+        "w": "t_wall_glass",
+        "{": "t_dirt",
+        "|": "t_brick_wall"
+      },
+      "furniture": {
+        "#": "f_null",
+        "-": "f_null",
+        ".": "f_null",
+        "0": "f_null",
+        "C": "f_chair",
+        "T": "f_table",
+        "_": "f_null",
+        "b": "f_barricade_road",
+        "c": "f_null",
+        "f": "f_null",
+        "s": "f_null",
+        "t": "f_table",
+        "w": "f_null",
+        "{": "f_dumpster",
+        "|": "f_null"
+      },
+      "place_items": [
+        { "item": "tools_common", "x": 10, "y": 14, "chance": 35 },
+        { "item": "tools_common", "x": 4, "y": 8, "chance": 35 },
+        { "item": "tools_common", "x": 13, "y": 7, "chance": 35 },
+        { "item": "tools_earthworking", "x": 21, "y": 12, "chance": 45 },
+        { "item": "tools_construction", "x": 16, "y": 14, "chance": 75 },
+        { "item": "tools_carpentry", "x": 13, "y": 16, "chance": 35 },
+        { "item": "tools_carpentry", "x": 10, "y": 13, "chance": 35 },
+        { "item": "floor_trash", "x": 18, "y": 20, "chance": 35 },
+        { "item": "floor_trash", "x": 6, "y": 16, "chance": 35 },
+        { "item": "floor_trash", "x": 16, "y": 8, "chance": 35 },
+        { "item": "floor_trash", "x": 6, "y": 7, "chance": 35 },
+        { "item": "hardware_trash", "x": [ 13, 14 ], "y": 21, "chance": 35 }
+      ],
+      "add": [
+        { "item": "2x4", "x": 9, "y": 16, "repeat": 1 },
+        { "item": "2x4", "x": 10, "y": 16, "repeat": 1 },
+        { "item": "2x4", "x": 11, "y": 16, "repeat": 1 }
+      ]
+    }
+  }
+]
