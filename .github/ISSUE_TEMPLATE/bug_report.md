@@ -7,6 +7,13 @@ assignees: ''
 
 ---
 
+**Tags**
+[Experimental] - normal tags
+[GMC_E] - only for E Stable
+[BN] - only for Bright nights
+[SP] - Sound Packs
+[TS] - Tile Set
+
 **Name the mod**
 Put the name(s) of affected mod(s) here.
 
