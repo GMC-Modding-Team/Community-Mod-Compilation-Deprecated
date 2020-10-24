@@ -10,7 +10,14 @@
     "price_postapoc": 4500,
     "color": "light_cyan",
     "displacement": 280,
-    "faults": [ "fault_engine_starter", "fault_engine_filter_fuel", "fault_engine_belt_drive", "fault_engine_glow_plug", "fault_engine_filter_air", "fault_engine_immobiliser" ],
+    "faults": [
+      "fault_engine_starter",
+      "fault_engine_filter_fuel",
+      "fault_engine_belt_drive",
+      "fault_engine_glow_plug",
+      "fault_engine_filter_air",
+      "fault_engine_immobiliser"
+    ],
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -75,7 +82,7 @@
         "max_contains_weight": "50000 g",
         "watertight": true,
         "rigid": false,
-        "item_restriction": [ "diesel", "biodiesel"  ]
+        "item_restriction": [ "diesel", "biodiesel" ]
       }
     ]
   },

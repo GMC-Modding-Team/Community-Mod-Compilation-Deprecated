@@ -1,10 +1,10 @@
 [
   {
-  "//":"TODO maybe edit?",
+    "//": "TODO maybe edit?",
     "type": "effect_type",
     "id": "ub_mustang",
     "name": [ "Wasted" ],
-    "desc": ["You tried 'Uncle Ben's Mustang' moonshine. You feel like you died, ressurected and then died again."],
+    "desc": [ "You tried 'Uncle Ben's Mustang' moonshine. You feel like you died, ressurected and then died again." ],
     "apply_message": "You feel AWFUL.",
     "int_dur_factor": "100 m",
     "base_mods": {
@@ -23,13 +23,13 @@
     "id": "took_ub_mustang"
   },
   {
-  "//":"TODO change later or remove",
+    "//": "TODO change later or remove",
     "type": "effect_type",
     "id": "taught",
-    "name": ["Teach"],
+    "name": [ "Teach" ],
     "desc": [ "You are being taught!" ],
     "int_dur_factor": "360 m",
-    "base_mods": {"speed_mod": [ -100000 ]},
+    "base_mods": { "speed_mod": [ -100000 ] },
     "show_in_info": true
   }
 ]
