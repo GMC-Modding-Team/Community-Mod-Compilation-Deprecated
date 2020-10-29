@@ -16,10 +16,10 @@
 ---
 
 *Sub-Category's:*
-[How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)
-[How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)
-[Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)
-[How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")
+[How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)\
+[How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)\
+[Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)\
+[How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")\
 [How to Install the mods - Experimental](#how-to-install-the-mods---experimental)
 
 ---
@@ -30,7 +30,7 @@
 ---
 
 1. You can download from CDDA main website or go to 2.a
-* [Download 0.E-2 Ellison-2](https://cataclysmdda.org/releases/)
+* A. [Download 0.E-2 Ellison-2](https://cataclysmdda.org/releases/)
 2. CDDA Launcher you can download mods, tile sets and sound sets as well as CDDA's official and experimental releases
 * A. [Download the launcher](https://github.com/remyroy/CDDA-Game-Launcher/releases)
 * B. [Forum link](https://discourse.cataclysmdda.org/t/cdda-game-launcher-automatic-updates-and-more/11168)
@@ -42,7 +42,7 @@
 **Sub-Category -** [How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)
 ---
 
-1.  [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)
+1. [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)
 or\
 2. [GMC Latest updates - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/GMC-E)
 
