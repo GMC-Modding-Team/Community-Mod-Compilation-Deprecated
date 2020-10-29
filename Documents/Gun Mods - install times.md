@@ -10,7 +10,7 @@ Use the `home` key to get to the top.
 
 
 # Vanilla locations
-**Head-Category -** [Vanilla Locations](#vanilla-locations)
+### Head-Category - [Vanilla Locations](#vanilla-locations)
 
 
 ```JSON
@@ -81,7 +81,7 @@ Use the `home` key to get to the top.
 
 
 # Modded locations and new times
-**Head-Category -** [Modded locations and new times](#Modded-locations-and-new-times)
+### Head-Category - [Modded locations and new times](#Modded-locations-and-new-times)
 
 
 ```JSON
@@ -100,13 +100,13 @@ Use the `home` key to get to the top.
 "location": "battery", - "install_time": "25 m",
 ```
 # Install times worth noting
-**Head-Category -** [Others](#Install-times-worth-noting)
+### Head-Category - [Others](#Install-times-worth-noting)
 
 
 ```JSON
 remove mods - half the time to install if applicable
 
-"Kits" - "install_time": "20 m",
+Kits - "install_time": "20 m",
 
-"launchers" - "install_time": "15 m",`
+launchers - "install_time": "15 m",`
 ```
