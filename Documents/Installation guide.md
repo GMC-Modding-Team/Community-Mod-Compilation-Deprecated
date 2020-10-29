@@ -13,7 +13,14 @@
 
 # How to Install
 **Head-Category -** [How to Install](#how-to-install)
+---
 
+*Sub-Category's:*
+[How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)
+[How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)
+[Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)
+[How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")
+[How to Install the mods - Experimental](#how-to-install-the-mods---experimental)
 
 ---
 
