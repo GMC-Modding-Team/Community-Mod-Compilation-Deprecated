@@ -29,7 +29,6 @@ Use the `home` key to get to the top.
 ### Head-Category - [How to Install](#how-to-install)
 ### Sub-Category - [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
 ---
-
 1. You can download from CDDA main website or go to 2.a
 * A. [Download 0.E-2 Ellison-2](https://cataclysmdda.org/releases/)
 2. CDDA Launcher you can download mods, tile sets and sound sets as well as CDDA's official and experimental releases
@@ -42,7 +41,6 @@ Use the `home` key to get to the top.
 ### Head-Category - [How to Install](#how-to-install)
 ### Sub-Category - [How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0.e2-release-of-goats-mod-compilation)
 ---
-
 1. [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)
 or\
 2. [GMC Latest updates - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/GMC-E)
@@ -61,7 +59,6 @@ or\
 ### Head-Category - [How to Install](#how-to-install)
 ### Sub-Category - [How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable-"0.e-2-ellison-2")
 ---
-
 the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods folder
 
 1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`
@@ -85,7 +82,7 @@ the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folde
 
 # Short FAQ
 ### Head-Category - [Short FAQ](#short-faq)
-
+---
 **Q: I'm getting errors!**\
 **A:** `Report the error either on our discord or as an issue on github.`\
 \
