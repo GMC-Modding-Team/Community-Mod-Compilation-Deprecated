@@ -2,11 +2,11 @@
 
 
 + [How to Install](#how-to-install)
-  - [How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)
-  - [How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)
-  - [Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)
-  - [How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")
-  - [How to Install the mods - Experimental](#how-to-install-the-mods---experimental)
+  - [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
+  - [How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0.e2-release-of-goats-mod-compilation)
+  - [How to Install - Experimental Release of Goats Mod Compilation](#how-to-install---experimental-release-of-goats-mod-compilation)
+  - [How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable-"0.e-2-ellison-2")
+  - [How to Install - The mods - Experimental](#how-to-install---the-mods---experimental)
 + [Short FAQ](#short-faq)
 
 ---
@@ -16,17 +16,17 @@
 ---
 
 *Sub-Category's:*\
-[How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)\
-[How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)\
-[Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)\
-[How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")\
-[How to Install the mods - Experimental](#how-to-install-the-mods---experimental)
+[How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
+[How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0.e2-release-of-goats-mod-compilation)
+[How to Install - Experimental Release of Goats Mod Compilation](#how-to-install---experimental-release-of-goats-mod-compilation)
+[How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable-"0.e-2-ellison-2")
+[How to Install - The mods - Experimental](#how-to-install---the-mods---experimental)
 
 ---
 
-# How to get - CDDA and the launcher
+# How to Install - CDDA and the launcher
 **Head-Category -** [How to Install](#how-to-install)\
-**Sub-Category -** [How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)
+**Sub-Category -** [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
 ---
 
 1. You can download from CDDA main website or go to 2.a
@@ -37,9 +37,9 @@
 
 ---
 
-# How to get - 0.E2 Release of Goats Mod Compilation
+# How to Install - 0.E2 Release of Goats Mod Compilation
 **Head-Category -** [How to Install](#how-to-install)\
-**Sub-Category -** [How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)
+**Sub-Category -** [How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0.e2-release-of-goats-mod-compilation)
 ---
 
 1. [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)
@@ -48,17 +48,17 @@ or\
 
 ---
 
-# How to get - Experimental Release of Goats Mod Compilation
+# How to Install - Experimental Release of Goats Mod Compilation
 **Head-Category -** [How to Install](#how-to-install)\
-**Sub-Category -** [Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)
+**Sub-Category -** [How to Install - Experimental Release of Goats Mod Compilation](#how-to-install---experimental-release-of-goats-mod-compilation)
 ---
 1. [GMC Latest Experimental - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/Experimental-Mod-Pack)
 
 ---
 
-# How to Install the mods - Stable "0.E-2 Ellison-2"
+# How to Install - The mods - Stable "0.E-2 Ellison-2"
 **Head-Category -** [How to Install](#how-to-install)\
-**Sub-Category -** [How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")
+**Sub-Category -** [How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable-"0.e-2-ellison-2")
 ---
 
 the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods folder
@@ -68,9 +68,9 @@ the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods 
 3. place `Mainline_mods\"mods"` folder inside your `cdda\"data"`
 ---
 
-# How to Install the mods - Experimental
+# How to Install - The mods - Experimental
 **Head-Category -** [How to Install](#how-to-install)\
-**Sub-Category -** [How to Install the mods - Experimental](#how-to-install-the-mods---experimental)
+**Sub-Category -** [How to Install - The mods - Experimental](#how-to-install---the-mods---experimental)
 ---
 the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folder
 
