@@ -16,10 +16,10 @@
 ---
 
 *Sub-Category's:*\
-[How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
-[How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0.e2-release-of-goats-mod-compilation)
-[How to Install - Experimental Release of Goats Mod Compilation](#how-to-install---experimental-release-of-goats-mod-compilation)
-[How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable-"0.e-2-ellison-2")
+[How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)\
+[How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0.e2-release-of-goats-mod-compilation)\
+[How to Install - Experimental Release of Goats Mod Compilation](#how-to-install---experimental-release-of-goats-mod-compilation)\
+[How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable-"0.e-2-ellison-2")\
 [How to Install - The mods - Experimental](#how-to-install---the-mods---experimental)
 
 ---
