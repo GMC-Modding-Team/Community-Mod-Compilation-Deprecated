@@ -1,5 +1,6 @@
-# Category's
+# Installation Guide
 
+Use the `home` key to get to the top.
 
 + [How to Install](#how-to-install)
   - [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
