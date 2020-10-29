@@ -10,6 +10,8 @@
 **Head-Category -** [How to Install](#how-to-install)
 
 
+---
+
 **How to get - CDDA and the launcher**
 ---
 
