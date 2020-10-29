@@ -1,7 +1,6 @@
 # Learning Code
 
-
-# Category's
+Use the `home` key to get to the top.
 
 - [links](#links)
   + [C#](#c#)
