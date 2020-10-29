@@ -12,7 +12,7 @@
 ---
 
 # How to Install
-**Head-Category -** [How to Install](#how-to-install)
+### Head-Category - [How to Install](#how-to-install)
 ---
 
 *Sub-Category's:*\
