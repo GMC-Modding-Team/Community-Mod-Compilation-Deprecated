@@ -4,6 +4,7 @@
 + [How to Install](#how-to-install)
 + [Short FAQ](#short-faq)
 
+---
 
 # How to Install
 **Head-Category -** [How to Install](#how-to-install)
@@ -23,14 +24,15 @@
 **How to get - 0.E2 Release of Goats Mod Compilation**
 ---
 
-**1.**  [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)\
+1.  [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)
 or\
-**2.** [GMC Latest updates - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/GMC-E)
+2. [GMC Latest updates - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/GMC-E)
+
 ---
 
 **How to get - Experimental Release of Goats Mod Compilation**
 ---
-[GMC Latest Experimental - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/Experimental-Mod-Pack)
+1. [GMC Latest Experimental - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/Experimental-Mod-Pack)
 
 ---
 
@@ -39,8 +41,8 @@ or\
 
 the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods folder
 
-1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
-2. place `All_the_no_mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
+1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`
+2. place `All_the_no_mods\"mods"` folder inside your `cdda` or `cdda\"data"`
 3. place `Mainline_mods\"mods"` folder inside your `cdda\"data"`
 ---
 
@@ -49,10 +51,10 @@ the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods 
 
 the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folder
 
-1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
+1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`
 2. place `Rebalance_mods\"mods"` folder inside your `cdda` or `cdda\"data"`
-3. place `Mainline_mods\"mods"` folder inside your `cdda\"data"`\
-4. place `No_mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
+3. place `Mainline_mods\"mods"` folder inside your `cdda\"data"`
+4. place `No_mods\"mods"` folder inside your `cdda` or `cdda\"data"`
 5. place `Legacy_mods\"mods"` folder inside your `cdda` or `cdda\"data"`
 
 ---
@@ -60,15 +62,15 @@ the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folde
 # Short FAQ
 **Head-Category -** [Short FAQ](#short-faq)
 
-**Q:** `I'm getting errors!`\
+**Q: I'm getting errors!**\
 **A:** `Report the error either on our discord or as an issue on github.`\
 \
-**Q:** `What are all these folders for?`\
+**Q: What are all these folders for?**\
 **A:** `Mostly organisation. Mods in mainline_mods are already included in the base game while mods in legacy_mods are removed from the base game.
    No_mods contain exclusively blacklist mods and Unlesh_The_Mods/ and Rebalance_mods/ contain normal mods.`\
 \
-**Q:** `I don't see XXX mod in the mod-pack`\
+**Q: I don't see XXX mod in the mod-pack**\
 **A:** `Please make an issue or github with the mod included or send me it on discord.`\
 \
-**Q:** `What is your discord?`\
+**Q: What is your discord?**\
 **A:** [Goats Discord Channel](https://discord.gg/gG6qpjZ)
