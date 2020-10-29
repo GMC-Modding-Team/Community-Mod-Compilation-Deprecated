@@ -2,8 +2,6 @@
 
 Use the `home` key to get to the top.
 
-# Category's
-
 - [Vanilla Locations](#vanilla-locations)
 - [Modded locations and new times](#Modded-locations-and-new-times)
 - [Others](#Install-times-worth-noting)
