@@ -15,7 +15,7 @@
 **Head-Category -** [How to Install](#how-to-install)
 ---
 
-*Sub-Category's:*
+*Sub-Category's:*\
 [How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)\
 [How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)\
 [Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)\
