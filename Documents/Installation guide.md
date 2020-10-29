@@ -10,29 +10,33 @@
 
 
 **How to get - CDDA and the launcher**
-
 ---
-1. You can download from CDDA main website or go to 2.a\
-* [Download 0.E-2 Ellison-2](https://cataclysmdda.org/releases/)\
-2. CDDA Launcher you can download mods, tile sets and sound sets as well as CDDA's official and experimental releases\
-* A. [Download the launcher](https://github.com/remyroy/CDDA-Game-Launcher/releases)\
+
+1. You can download from CDDA main website or go to 2.a
+* [Download 0.E-2 Ellison-2](https://cataclysmdda.org/releases/)
+2. CDDA Launcher you can download mods, tile sets and sound sets as well as CDDA's official and experimental releases
+* A. [Download the launcher](https://github.com/remyroy/CDDA-Game-Launcher/releases)
 * B. [Forum link](https://discourse.cataclysmdda.org/t/cdda-game-launcher-automatic-updates-and-more/11168)
----
-**How to get - 0.E2 Release of Goats Mod Compilation**
 
 ---
+
+**How to get - 0.E2 Release of Goats Mod Compilation**
+---
+
 **1.**  [GMC 1.0 [0.E] - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/releases/tag/1.0c)\
 or\
-**2.** [GMC Latest updates - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/GMC-E)\
+**2.** [GMC Latest updates - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/GMC-E)
 ---
-**How to get - Experimental Release of Goats Mod Compilation**
 
+**How to get - Experimental Release of Goats Mod Compilation**
 ---
 [GMC Latest Experimental - Download link](https://github.com/TheGoatGod/Goats-Mod-Compilation/tree/Experimental-Mod-Pack)
+
 ---
 
 **How to Install the mods - Stable "0.E-2 Ellison-2"**
 ---
+
 the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods folder
 
 1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
@@ -42,6 +46,7 @@ the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods 
 
 **How to Install the mods - Experimental**
 ---
+
 the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folder
 
 1. place `Unlesh_The_Mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
@@ -50,6 +55,7 @@ the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folde
 4. place `No_mods\"mods"` folder inside your `cdda` or `cdda\"data"`\
 5. place `Legacy_mods\"mods"` folder inside your `cdda` or `cdda\"data"`
 
+---
 
 # Short FAQ
 **Head-Category -** [Short FAQ](#short-faq)
