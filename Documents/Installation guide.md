@@ -24,7 +24,7 @@
 
 ---
 
-## How to get - CDDA and the launcher
+# How to get - CDDA and the launcher
 **Head-Category -** [How to Install](#how-to-install)\
 **Sub-Category -** [How to get - CDDA and the launcher](#how-to-get---cdda-and-the-launcher)
 ---
@@ -37,7 +37,7 @@
 
 ---
 
-## How to get - 0.E2 Release of Goats Mod Compilation
+# How to get - 0.E2 Release of Goats Mod Compilation
 **Head-Category -** [How to Install](#how-to-install)\
 **Sub-Category -** [How to get - 0.E2 Release of Goats Mod Compilation](#how-to-get---0.e2-release-of-goats-mod-compilation)
 ---
@@ -48,7 +48,7 @@ or\
 
 ---
 
-## How to get - Experimental Release of Goats Mod Compilation
+# How to get - Experimental Release of Goats Mod Compilation
 **Head-Category -** [How to Install](#how-to-install)\
 **Sub-Category -** [Experimental Release of Goats Mod Compilation](#experimental-release-of-goats-mod-compilation)
 ---
@@ -56,7 +56,7 @@ or\
 
 ---
 
-## How to Install the mods - Stable "0.E-2 Ellison-2"
+# How to Install the mods - Stable "0.E-2 Ellison-2"
 **Head-Category -** [How to Install](#how-to-install)\
 **Sub-Category -** [How to Install the mods - Stable "0.E-2 Ellison-2"](#how-to-install-the-mods---stable-"0.e-2-ellison-2")
 ---
@@ -68,7 +68,7 @@ the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods 
 3. place `Mainline_mods\"mods"` folder inside your `cdda\"data"`
 ---
 
-## How to Install the mods - Experimental
+# How to Install the mods - Experimental
 **Head-Category -** [How to Install](#how-to-install)\
 **Sub-Category -** [How to Install the mods - Experimental](#how-to-install-the-mods---experimental)
 ---
