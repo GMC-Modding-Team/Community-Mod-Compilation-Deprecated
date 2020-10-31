@@ -306,7 +306,7 @@
     "time": 3000,
     "reversible": false,
     "autolearn": true,
-    "tools": [ [ [ "fire", -1 ], [ "hotplate", 3 ], [ "toolset", 1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ], [ "hotplate", 3 ], [ "toolset", 1 ] ] ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "rag_bloody", 1 ] ] ]
   },
   {
@@ -441,7 +441,7 @@
     "time": 5000,
     "reversible": false,
     "autolearn": true,
-    "tools": [ [ [ "lighter", 5 ], [ "fire", -1 ], [ "toolset", 1 ] ] ],
+    "tools": [ [ [ "lighter", 5 ], [ "surface_heat", 1, "LIST" ], [ "toolset", 1 ] ] ],
     "components": [ [ [ "can_food", -1 ] ], [ [ "wax", 2 ] ], [ [ "string_6", 1 ] ] ]
   },
   {
@@ -487,7 +487,7 @@
     "time": 12000,
     "reversible": false,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "bleach", 1 ], [ "ant_egg", 1 ] ] ]
   },
   {
@@ -826,7 +826,7 @@
     "time": 1200,
     "reversible": false,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 18 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 18 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "meat_tainted", 1 ] ], [ [ "ammonia", 1 ] ] ]
   },
   {
@@ -958,7 +958,7 @@
     "time": 10000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "fire", -1 ], [ "hotplate", 5 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ], [ "hotplate", 5 ] ] ],
     "components": [ [ [ "water", 1 ] ], [ [ "battery", 10 ] ] ]
   }
 ]
