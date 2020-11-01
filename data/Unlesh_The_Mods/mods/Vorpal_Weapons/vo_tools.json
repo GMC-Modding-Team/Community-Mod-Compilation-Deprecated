@@ -146,7 +146,7 @@
     "max_charges": 1,
     "turns_per_charge": 201,
     "revert_to": "brainwash_off_vo",
-    "use_action": [ "ARTIFACT" ],
+    "use_action": { "type": "artifact" },
     "artifact_data": { "charge_type": "ARTC_SOLAR", "effects_activated": [ "AEA_ENTRANCE" ], "effects_carried": [ "AEP_SCHIZO" ] }
   }
 ]
