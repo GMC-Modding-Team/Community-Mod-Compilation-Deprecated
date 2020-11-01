@@ -176,7 +176,7 @@
     "max_charges": 1,
     "charges_per_use": 1,
     "category": "weapons",
-    "use_action": "ARTIFACT",
+    "use_action": { "type": "artifact" },
     "artifact_data": {
       "charge_type": "ARTC_TIME",
       "effects_activated": [ "AEA_RADIATION", "AEA_MAP" ],
