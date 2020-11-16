@@ -95,3 +95,5 @@ the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folde
 \
 **Q: What is your discord?**\
 **A:** [Goats Discord Channel](https://discord.gg/gG6qpjZ)
+
+---
