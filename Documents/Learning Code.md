@@ -47,7 +47,7 @@ Use the `home` key to get to the top.
 ---
 # Java Script
 #### Head-Category - [links](#links)\
-#### Sub-Category - [Java Script](#java_script)
+#### Sub-Category - [Java Script](#java-script)
 
 [Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg)\
 [JavaScript Programming All-in-One Tutorial Series](https://www.youtube.com/watch?v=9M4XKi25I2M)
