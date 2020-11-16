@@ -20,9 +20,9 @@ Use the `home` key to get to the top.
 [Python](#Python)
 
 ---
-# C#
+# C
 #### Head-Category - [links](#links)\
-#### Sub-Category - [C#](#c#)
+#### Sub-Category - [C#](#c)
 
 [C# Complete Tutorial From Beginner To Advance](https://www.youtube.com/watch?v=FPeGkedZykA&ab_channel=FLDevelopers)\
 [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8&ab_channel=freeCodeCamp.org)
