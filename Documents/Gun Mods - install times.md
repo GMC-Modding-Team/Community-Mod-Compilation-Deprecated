@@ -8,7 +8,7 @@ Use the `home` key to get to the top.
 
 ---
 # Vanilla locations
-### Head-Category - [Vanilla Locations](#vanilla-locations)
+#### Head-Category - [Vanilla Locations](#vanilla-locations)
 
 
 ```JSON
@@ -79,7 +79,7 @@ Use the `home` key to get to the top.
 
 ---
 # Modded locations and new times
-### Head-Category - [Modded locations and new times](#Modded-locations-and-new-times)
+#### Head-Category - [Modded locations and new times](#Modded-locations-and-new-times)
 
 
 ```JSON
@@ -100,7 +100,7 @@ Use the `home` key to get to the top.
 
 ---
 # Install times worth noting
-### Head-Category - [Others](#Install-times-worth-noting)
+#### Head-Category - [Others](#Install-times-worth-noting)
 
 
 ```JSON
