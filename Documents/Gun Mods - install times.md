@@ -6,7 +6,7 @@ Use the `home` key to get to the top.
 - [Modded locations and new times](#Modded-locations-and-new-times)
 - [Others](#Install-times-worth-noting)
 
-
+---
 # Vanilla locations
 ### Head-Category - [Vanilla Locations](#vanilla-locations)
 
@@ -77,7 +77,7 @@ Use the `home` key to get to the top.
 "location": "brass catcher", - "install_time": "5 m",
 ```
 
-
+---
 # Modded locations and new times
 ### Head-Category - [Modded locations and new times](#Modded-locations-and-new-times)
 
@@ -97,6 +97,8 @@ Use the `home` key to get to the top.
 
 "location": "battery", - "install_time": "25 m",
 ```
+
+---
 # Install times worth noting
 ### Head-Category - [Others](#Install-times-worth-noting)
 
@@ -108,3 +110,5 @@ Kits - "install_time": "20 m",
 
 launchers - "install_time": "15 m",`
 ```
+
+---
