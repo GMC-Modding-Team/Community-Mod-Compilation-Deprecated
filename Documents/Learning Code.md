@@ -11,7 +11,7 @@ Use the `home` key to get to the top.
 ---
 
 # Links
-### Head-Category - [links](#links)
+## Head-Category - [links](#links)
 ---
 
 **Sub-Category's:**
@@ -22,8 +22,8 @@ Use the `home` key to get to the top.
 ---
 
 # C#
-### Head-Category - [links](#links)\
-### Sub-Category - [C#](#c#)
+#### Head-Category - [links](#links)\
+#### Sub-Category - [C#](#c#)
 ---
 
 [C# Complete Tutorial From Beginner To Advance](https://www.youtube.com/watch?v=FPeGkedZykA&ab_channel=FLDevelopers)\
