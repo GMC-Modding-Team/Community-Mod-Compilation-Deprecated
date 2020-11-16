@@ -4,9 +4,9 @@ Use the `home` key to get to the top.
 
 - [links](#links)
   + [C#](#c)
-  + [C++](#c++)
+  + [C++](c++)
   + [Python](#python)
-  + [Java Script](#java_script)
+  + [Java Script](#java-script)
 
 ---
 
@@ -45,7 +45,7 @@ Use the `home` key to get to the top.
 [Learn Python - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org)
 
 ---
-# Java script
+# Java Script
 #### Head-Category - [links](#links)\
 #### Sub-Category - [Java Script](#java_script)
 
