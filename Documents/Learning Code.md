@@ -3,10 +3,10 @@
 Use the `home` key to get to the top.
 
 - [links](#links)
-  + [C#](#c#)
-  + [C++](#C++)
-  + [Python](#Python)
-  + [Javascript](#javascript)
+  + [C#](#c)
+  + [C++](#c++)
+  + [Python](#python)
+  + [Java Script](#java_script)
 
 ---
 
@@ -31,7 +31,7 @@ Use the `home` key to get to the top.
 ---
 # C++
 #### Head-Category - [links](#links)\
-#### Sub-Category - [C++](#C++)
+#### Sub-Category - [C++](#c++)
 
 [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y&ab_channel=freeCodeCamp.org)\
 [C++ Programming All-in-One Tutorial Series](https://www.youtube.com/watch?v=_bYFu9mBnr4&ab_channel=CalebCurry)\
@@ -45,9 +45,9 @@ Use the `home` key to get to the top.
 [Learn Python - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org)
 
 ---
-# Javascript
+# Java script
 #### Head-Category - [links](#links)\
-#### Sub-Category - [Javascript](#javascript)
+#### Sub-Category - [Java Script](#java_script)
 
 [Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg)\
 [JavaScript Programming All-in-One Tutorial Series](https://www.youtube.com/watch?v=9M4XKi25I2M)
