@@ -35,21 +35,24 @@ Use the `home` key to get to the top.
   + [Group](#group)
 - [Activity level](#activity-level)
 
-
+---
 # Introduction
 Welcome to Updating Legacy JSON.md. This document aims to guide you through the process of replacing obsolete code with modern JSON.
 
 Before you go any further, I highly recommend you read the [Manual of Style](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/MANUAL_OF_STYLE.md), the [Guide to adding new content to CDDA for first time contributors](https://github.com/CleverRaven/Cataclysm-DDA/wiki/Guide-to-adding-new-content-to-CDDA-for-first-time-contributors), and the [JSON Style Guide](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_STYLE.md). These three documents provide necessary knowledge to understand CDDA's code.
 
+---
 ## Tools Required
 A lot of obsolete and legacy JSON requires the usage of find-and-replace to bring it up to date. To this end, I recommend that you have a text editor with regex capabilities such as [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/), or [atom](https://atom.io/). I personally find Sublime Text 3 the easiest to work with, but TheGoatGod advocates atom, and many others prefer Notepad++, so find what works best for you.
 
 It can also be useful to have a file searcher on hand if you're editing large quantities of files, or modifying file names. [Grepwin](https://tools.stefankueng.com/grepWin.html) is what I use, and TheGoatGod recommends [Ultrasearch](https://www.jam-software.com/ultrasearch). Again, and I cannot emphasise this enough, use whatever works best for you.
 -Goats Comment- I use both tools now, im going to end up with grepwin being my defualt.
 
+---
 ## Regex
 Regex, short for regular expressions, is a syntax language most commonly used in find-and-replace to find patterns and use complicated replaces. As you'll see later on, even simple regex can massively streamline the process of removing obsolete code. In each section below, I include the specific regex necessary for the task, and how to use it, so don't worry if you don't know what regex is. (For those of you interested in learning more, [Regex Quickstart Cheatsheet](https://www.rexegg.com/regex-quickstart.html) has the necessary information.).
 
+---
 ## What is JSON?
 JSON is short for Javascript Object Notation. It is a text format designed to be lightweight and easy for both humans and machines to read and write. JSON is made up of 5 key components: An `array`, an `object`, a `value`, a `number`, and a `string`.
 
@@ -65,6 +68,7 @@ All of JSON is made up of `key: value` pairs. A `key` is a `string`, while a `va
 ```
 Note that in the above examples, the single `key` does not contain multiple `value` - the `array` or `object` contains the extra `value`, the `key` `value` is an `array` or `object`.
 
+---
 ## Terminology in this Document
 Throughout this document, I refer to the previous JSON terminology. Any specific `key` will look like `this`, while a key value pair will look like `key: value`. The 5 previously mentioned JSON components will always looke like this: `array`, `value`, `string`, `number`, `object`. Any large block of code (such as the one above), will look like this,
 ```JSON
@@ -80,6 +84,7 @@ When I provide regex it will always be in the format find entry, empty line, rep
 "material": [ "$1" ]
 ```
 
+---
 # abstract, ident, and id
 `abstract` and `id`, are a specific type of `key` that tells the game the unique identifier of the item. Almost every top-level JSON `object` contains an an identifier and a `type`. `type` is an incredibly important `key` that tells the game how to handle the specific `key: value` pairs in the `object`.
 
@@ -90,7 +95,7 @@ When I provide regex it will always be in the format find entry, empty line, rep
 
 `id` can (and perhaps should) be used anywhere `abstract` can be. It is used almost anywhere and doesn't need updating. Check out [JSON Info](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_INFO.md) for more information on where to use `id`.
 
-
+---
 # Ammo
 The current JSON standards for `type` `"construction_group"` look like this:
 ```JSON
@@ -117,6 +122,7 @@ The current JSON standards for `type` `"construction_group"` look like this:
   "effects": [ "COOKOFF" ]
 ```
 
+---
 ## Ammo Type
 It is possible to specify the `key: value` pair `ammo: string` under both `type: GUN`, and `type: AMMO`. However, under `type: GUN`, the `key: value` pair should actually be `ammo: [ string ]`.
 For reference, here is what it should look like under `type: GUN`:
@@ -136,7 +142,7 @@ It is practically impossible to replace all at once, due to the similarities bet
 "ammo": [ "$1" ]
 ```
 
-
+---
 ## damage
 The current JSON standards for `key` `"damage"` look like this:
 And what it should look like under `type: AMMO`:
@@ -163,11 +169,11 @@ or
 "damage": { "damage_type": "bullet", "amount": $1, "pierce": $2 },
 ```
 
-
+---
 # Artifacts
 Artifacts are currently undergoing a massive change. Nothing too important has changed yet, so this is simply a placeholder section.
 
-
+---
 # barrel_length
 Very recently, the `barrel_length` `key` for `type: GUN` has been replaced by `barrel_volume`. Fortunately this is a rather easy fix:
 
@@ -193,18 +199,19 @@ The conversion from `number` to `string` is simple - just multiply by 250 and ad
 ```
 As the result is distinctly different, you will have to use manual find and replace for this part as specified in [volume](#volume).
 
+---
 # Bleeding
 I have no idea where to start with this. If you have any information, please feel free to comment.
 
-
+---
 # blob and slime
 It turns out that THE BLOB is not the same as the blobs you see around all the time. Check out [blobs are slimes](https://github.com/CleverRaven/Cataclysm-DDA/pull/42287) for more info. Mentions to blob may have to be updated to slime.
 
-
+---
 # blueprint
 If you've been directed here from the linting section, it is because you have the parameter "blueprint": "", when it should be "blueprint": [ " " ], - A blueprint must always be enclosed in an array. Since this doesn't actually effect the game in any way (blueprint is exclusively used in the code), adding it exclusively for the purpose of linting should be enough.
 
-
+---
 # bullet_resist
 `bullet_resist` is a new mandatory `key: value` pair for `type: material`. If it does not contain `bullet_resist`, it will cause the game to be unable to run. The only way to fix this is to manually add:
 
@@ -212,10 +219,11 @@ If you've been directed here from the linting section, it is because you have th
 "bullet_resist": number,
 ```
 
+---
 # Color
 Color has gone through updates and there are many variants of ...
 
-
+---
 # copy-from and looks_like
 These are both simple type errors. They should look like:
 
@@ -230,13 +238,13 @@ But can also be typed:
 ```
 Running a basic find and replace for each will clean the code of any errors caused by these.
 
-
+---
 # Linting
 Linting is a coding term for formatting to a certain style, and is a very important part of bringing JSON up to date. The simplest way to lint JSON is to paste it into the [JSON formatter](http://dev.narc.ro/cataclysm/format.html), click 'Lint', and then paste the resulting code back into the original file. If it doesn't work, use the debug steps at [JSONLint](https://jsonlint.com/), to check for errors in the code. If it comes up with the error 'Linter currently unavailable', see the [blueprint](#blueprint) section of this document.
 
 It is also possible to use the JSON formatter that comes with CDDA, see the [JSON Style Guide](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_STYLE.md) for information on how to use it.
 
-
+---
 # Materials
 Many items specify a `material: value` pair, which should have an `array` first, like this:
 
@@ -255,7 +263,7 @@ This is easily fixed with a regex search:
 "material": [ "$1" ]
 ```
 
-
+---
 # Name
 Almost everything that can be seen by characters has a `name: string` `key: value` pair. However, a small subset of these should be specified as:
 
@@ -284,6 +292,7 @@ Then,
 ```
 Afterwards, manually join the fields together. Trust me, it'll still save time.
 
+---
 # picklock
 It is very possible that you will see the `use_action` `picklock`. This has been rendered obsolete by the addition of the `quality` `LOCKPICK`. You may see:
 
@@ -297,11 +306,11 @@ Which should be:
 
 This has to be done manually due to the possible presence of other text in the `use_action` and a pre-existing `qualities` key.
 
-
+---
 # Pocket Data
 In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), there is pocket_mags.py that should be able to handle some of the work.
 
-
+---
 ## Gun Pocket Data
 legacy code just delete These **needs updating**
 
@@ -339,7 +348,7 @@ or if you want to include ammo as well as magazines- maybe
 "magazine_well": 1
 ```
 
-
+---
 ## Container Pocket data
 This is more complicated **needs updating**
 ```JSON
@@ -354,7 +363,7 @@ This is more complicated **needs updating**
 ],
 ```
 
-
+---
 # type: CONTAINER
 `type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
 
@@ -364,6 +373,7 @@ This is more complicated **needs updating**
 "type": "GENERIC"
 ```
 
+---
 # Volume
 The current JSON standards for the `key` `"volume"` look like this:
 
@@ -391,7 +401,7 @@ And repeat for every individual volume value.
 
 Note: There is, in [JSON tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), a specific file called CDDAUpdateJsonVolume.js that may be relevant to fixing this.
 
-
+---
 # Weight
 The current JSON standards for `key` `"weight"` look like this:
 
@@ -415,7 +425,7 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 "weight": "$1 g",
 ```
 
-
+---
 # Effect
 The current JSON standards for `key` `"effect"` look like this: **needs updating**
 
@@ -440,7 +450,7 @@ if you want to do this quickly with regex use the following example
 "effect": "attack",
 ```
 
-
+---
 # Shape
 The current JSON standards for `key` `"shape"` look like this: **needs updating**
 
@@ -454,7 +464,7 @@ all shapes -
 "blast"
 ```
 
-
+---
 # Construction group
 The current JSON standards for `type` `"construction_group"` look like this:
 
@@ -464,7 +474,7 @@ The current JSON standards for `type` `"construction_group"` look like this:
 "name": "Remove Example"
 ```
 
-
+---
 ## Group
 The current JSON standards for `key` `"group"` look like this:
 
@@ -474,7 +484,7 @@ The current JSON standards for `key` `"group"` look like this:
 "group": "Example",
 ```
 
-
+---
 # Activity level
 The current JSON standards for `key` `"activity_level"` look like this:
 
@@ -486,3 +496,5 @@ The current JSON standards for `key` `"activity_level"` look like this:
 "activity_level": "LIGHT_EXERCISE",
 "activity_level": "NO_EXERCISE",
 ```
+
+---
