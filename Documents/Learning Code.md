@@ -14,7 +14,8 @@ Use the `home` key to get to the top.
 #### Head-Category - [links](#links)
 
 
-**Sub-Category's:**\
+**Sub-Category's:**
+
 [C#](#c#)\
 [C++](#C++)\
 [Python](#Python)
