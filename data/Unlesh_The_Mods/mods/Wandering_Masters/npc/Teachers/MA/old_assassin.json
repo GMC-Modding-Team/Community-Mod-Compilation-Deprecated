@@ -14,11 +14,15 @@
   },
   {
     "type": "talk_topic",
-    "id":  "retired_assassin_1" ,
+    "id": "retired_assassin_1",
     "dynamic_line": "<greet>",
     "speaker_effect": { "sentinel": "met", "effect": { "add_mission": "MISSION_retired_assassin_0" } },
     "responses": [
-      { "text": "About that job…", "topic": "TALK_MISSION_INQUIRE", "condition": {"and":["mission_complete", "has_many_assigned_missions"]} },
+      {
+        "text": "About that job…",
+        "topic": "TALK_MISSION_INQUIRE",
+        "condition": { "and": [ "mission_complete", "has_many_assigned_missions" ] }
+      },
       { "text": "<BGSS_intro_question>", "topic": "retired_assassin_Background" },
       { "text": "Do you need any help?", "topic": "TALK_MISSION_LIST" },
       { "text": "Can you teach me something?", "topic": "retired_assassin_teach_check" },
@@ -104,7 +108,7 @@
         "om_terrain": "house",
         "om_terrain_replace": "field",
         "om_terrain_match_type": "PREFIX",
-		"z":-1,
+        "z": -1,
         "reveal_radius": 1,
         "search_range": 80,
         "min_distance": 5
@@ -141,9 +145,9 @@
         "reveal_radius": 1,
         "search_range": 100,
         "min_distance": 35,
-		"random":true
+        "random": true
       },
-      "update_mapgen": { "place_npcs": [ { "class": "oa_target_cyborg", "x": [5,20], "y": [5,20], "target": true } ] }
+      "update_mapgen": { "place_npcs": [ { "class": "oa_target_cyborg", "x": [ 5, 20 ], "y": [ 5, 20 ], "target": true } ] }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_retired_assassin_3",

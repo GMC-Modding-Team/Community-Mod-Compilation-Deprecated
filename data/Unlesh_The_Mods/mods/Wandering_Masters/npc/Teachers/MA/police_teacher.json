@@ -79,7 +79,11 @@
     },
     "speaker_effect": { "sentinel": "met", "effect": { "add_mission": "MISSION_police_teacher_0" } },
     "responses": [
-      { "text": "About that job…", "condition": {"and":["mission_complete", "has_many_assigned_missions"]}, "topic": "TALK_MISSION_INQUIRE" },
+      {
+        "text": "About that job…",
+        "condition": { "and": [ "mission_complete", "has_many_assigned_missions" ] },
+        "topic": "TALK_MISSION_INQUIRE"
+      },
       { "text": "<BGSS_intro_question>", "topic": "police_teacher_Background" },
       { "text": "Do you need any help?", "topic": "TALK_MISSION_LIST" },
       { "text": "Can you teach me something?", "topic": "police_teacher_teach_check" },
@@ -264,7 +268,7 @@
     "start": {
       "assign_mission_target": {
         "om_terrain": "police_1",
-		"om_special": "police_1",
+        "om_special": "police_1",
         "om_terrain_replace": "house",
         "om_terrain_match_type": "PREFIX",
         "reveal_radius": 1,
@@ -432,4 +436,3 @@
     "fail": { "effect": { "u_buy_item": "pt_head" } }
   }
 ]
-
