@@ -51,7 +51,7 @@
   },
   {
     "type": "talk_topic",
-    "id":  "boxer_johnny_1" ,
+    "id": "boxer_johnny_1",
     "dynamic_line": {
       "u_has_var": "bj_debt_repaid",
       "type": "flag",
@@ -62,7 +62,11 @@
     },
     "speaker_effect": { "sentinel": "met", "effect": { "add_mission": "MISSION_boxer_johnny_0" } },
     "responses": [
-      { "text": "About that job…", "topic": "TALK_MISSION_INQUIRE", "condition": {"and":["mission_complete", "has_many_assigned_missions"]} },
+      {
+        "text": "About that job…",
+        "topic": "TALK_MISSION_INQUIRE",
+        "condition": { "and": [ "mission_complete", "has_many_assigned_missions" ] }
+      },
       { "text": "<BGSS_intro_question>", "topic": "boxer_johnny_Background" },
       { "text": "Do you need any help?", "topic": "TALK_MISSION_LIST" },
       { "text": "Can you teach me something?", "topic": "boxer_johnny_teach_check" },
@@ -228,12 +232,12 @@
         { "u_lose_var": "bj_students", "type": "flag", "context": "meeting" }
       ]
     },
-	"fail":{
+    "fail": {
       "effect": [
         { "u_lose_var": "ally_transfer_bj", "type": "flag", "context": "transfer" },
         { "u_lose_var": "bj_students", "type": "flag", "context": "meeting" }
       ]
-	},
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "Boxer Johnny",
@@ -271,4 +275,3 @@
     "fail": { "effect": { "u_buy_item": "boxer_johnny_head" } }
   }
 ]
-

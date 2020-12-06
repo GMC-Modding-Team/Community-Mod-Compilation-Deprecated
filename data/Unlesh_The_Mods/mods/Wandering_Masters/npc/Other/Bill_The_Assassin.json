@@ -136,7 +136,12 @@
       {
         "text": "So, officer is dead.",
         "topic": "bill_the_assassin_truth",
-        "condition": {"and":[{ "u_has_var": "police_teacher_dead", "type": "general", "context": "meeting", "value": "yes" },{"u_has_item":"pt_head"}]}
+        "condition": {
+          "and": [
+            { "u_has_var": "police_teacher_dead", "type": "general", "context": "meeting", "value": "yes" },
+            { "u_has_item": "pt_head" }
+          ]
+        }
       }
     ]
   },
@@ -144,9 +149,6 @@
     "id": [ "bill_the_assassin_talk2" ],
     "type": "talk_topic",
     "dynamic_line": "Wow, cool. Actually, I lied about secret room. Take this book instead.",
-    "responses": [
-      { "text": "…", "topic": "TALK_DONE", "effect": [ "end_conversation", { "u_buy_item": "manual_centipede" } ] }
-    ]
+    "responses": [ { "text": "…", "topic": "TALK_DONE", "effect": [ "end_conversation", { "u_buy_item": "manual_centipede" } ] } ]
   }
 ]
-

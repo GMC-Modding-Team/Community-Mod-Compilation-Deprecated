@@ -21,7 +21,7 @@
     "bonus_dex": { "rng": [ 2, 4 ] },
     "bonus_int": { "rng": [ 1, 2 ] },
     "bonus_per": { "rng": [ 1, 2 ] },
-	"shopkeeper_item_group": "NC_BARTENDER_misc",
+    "shopkeeper_item_group": "NC_BARTENDER_misc",
     "traits": [
       { "group": "NPC_starting_traits" },
       { "group": "Appearance_demographics" },
@@ -31,7 +31,7 @@
     "skills": [ { "skill": "melee", "level": 6 }, { "skill": "unarmed", "level": 6 }, { "skill": "dodge", "level": 6 } ]
   },
   {
-    "id": "test_232" ,
+    "id": "test_232",
     "type": "talk_topic",
     "dynamic_line": "TEST ME!",
     "responses": [
@@ -48,7 +48,11 @@
           }
         ]
       },
-      { "text": "Test teach.", "topic": "TALK_DONE", "effect": [ { "u_add_effect": "sleep", "duration": "360 m" },{ "u_add_effect": "narcosis", "duration": "360 m" } ] },
+      {
+        "text": "Test teach.",
+        "topic": "TALK_DONE",
+        "effect": [ { "u_add_effect": "sleep", "duration": "360 m" }, { "u_add_effect": "narcosis", "duration": "360 m" } ]
+      },
       { "text": "Test follow.", "topic": "TALK_DONE", "effect": "follow" },
       { "text": "Test follow only.", "topic": "TALK_DONE", "effect": "follow_only" },
       {
@@ -61,15 +65,11 @@
         "topic": "TALK_DONE",
         "effect": [ { "mapgen_update": "22ch_robot_attack", "origin_npc": true, "offset_z": 1 } ]
       },
-      {
-        "text": "Test leave.",
-        "topic": "TALK_DONE",
-        "effect": "leave" 
-      },
+      { "text": "Test leave.", "topic": "TALK_DONE", "effect": "leave" },
       {
         "text": "Test assign_guard.",
         "topic": "TALK_DONE",
-        "effect": [ "assign_guard", {"npc_first_topic":"TALK_ML_GOON"} ]
+        "effect": [ "assign_guard", { "npc_first_topic": "TALK_ML_GOON" } ]
       },
       {
         "text": "Test Johnny's bandits.",
@@ -93,16 +93,16 @@
       {
         "text": "Test student transfer.",
         "topic": "TALK_DONE",
-		"effect": [
-			{ "u_add_var": "bbm_students", "type": "flag", "context": "meeting", "value": "0" },
-			{ "u_add_var": "ally_transfer_ip", "type": "flag", "context": "transfer", "value": "yes" },
-			{ "u_add_var": "fkl_students", "type": "flag", "context": "meeting", "value": "0" },
-			{ "u_add_var": "ally_transfer_fk", "type": "flag", "context": "transfer", "value": "yes" },
-			{ "u_add_var": "bj_students", "type": "flag", "context": "meeting", "value": "0" },
-			{ "u_add_var": "ally_transfer_bj", "type": "flag", "context": "transfer", "value": "yes" },
-			{ "u_add_var": "jerry_goons", "type": "flag", "context": "goons", "value": "0" },
-			{ "u_add_var": "ally_transfer_js", "type": "flag", "context": "transfer", "value": "yes" }
-		]
+        "effect": [
+          { "u_add_var": "bbm_students", "type": "flag", "context": "meeting", "value": "0" },
+          { "u_add_var": "ally_transfer_ip", "type": "flag", "context": "transfer", "value": "yes" },
+          { "u_add_var": "fkl_students", "type": "flag", "context": "meeting", "value": "0" },
+          { "u_add_var": "ally_transfer_fk", "type": "flag", "context": "transfer", "value": "yes" },
+          { "u_add_var": "bj_students", "type": "flag", "context": "meeting", "value": "0" },
+          { "u_add_var": "ally_transfer_bj", "type": "flag", "context": "transfer", "value": "yes" },
+          { "u_add_var": "jerry_goons", "type": "flag", "context": "goons", "value": "0" },
+          { "u_add_var": "ally_transfer_js", "type": "flag", "context": "transfer", "value": "yes" }
+        ]
       },
       {
         "text": "Test 22ch.",
@@ -125,9 +125,17 @@
     "dynamic_line": "???",
     "responses": [
       { "text": "Test mission cycle.", "topic": "test_232_mrs", "effect": [ "clear_mission", "assign_mission" ] },
-      { "text": "Test mission cycle with success.", "topic": "test_232_mrs", "effect": [ "mission_success", "assign_mission" ] },
-      { "text": "Test WORKING mission cycle.", "topic": "test_232_mrs", "effect": [ "mission_success", "clear_mission", "assign_mission" ] },
-      { "text": "Test mission assign.", "topic": "test_232_mrs", "effect": "assign_mission"  },
+      {
+        "text": "Test mission cycle with success.",
+        "topic": "test_232_mrs",
+        "effect": [ "mission_success", "assign_mission" ]
+      },
+      {
+        "text": "Test WORKING mission cycle.",
+        "topic": "test_232_mrs",
+        "effect": [ "mission_success", "clear_mission", "assign_mission" ]
+      },
+      { "text": "Test mission assign.", "topic": "test_232_mrs", "effect": "assign_mission" },
       { "text": "Test mission success.", "topic": "test_232_mrs", "effect": "mission_success" },
       { "text": "Test mission failure", "topic": "test_232_mrs", "effect": "mission_failure" },
       { "text": "Test mission clear", "topic": "test_232_mrs", "effect": "clear_mission" },
@@ -135,9 +143,9 @@
       { "text": "Test add mission2 ", "topic": "test_232_mrs", "effect": { "add_mission": "MISSION_test_232_2" } },
       { "text": "Test add mission 3", "topic": "test_232_mrs", "effect": { "add_mission": "MISSION_test_232_3" } },
       { "text": "Test add mission 7 ", "topic": "test_232_mrs", "effect": { "add_mission": "MISSION_test_232_7" } },
-	  { "text": "Back", "topic": "test_232" },
-	  { "text": "END", "topic": "TALK_DONE" }
-	]
+      { "text": "Back", "topic": "test_232" },
+      { "text": "END", "topic": "TALK_DONE" }
+    ]
   },
   {
     "id": "MISSION_test_232_0",
@@ -150,7 +158,7 @@
     "count": 20,
     "difficulty": 0,
     "value": 0,
-    "end": { "effect": { "u_buy_item":"feces_dog", "count":1 } },
+    "end": { "effect": { "u_buy_item": "feces_dog", "count": 1 } },
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_test_232_1",
     "dialogue": {
@@ -164,7 +172,7 @@
       "success_lie": "0",
       "failure": "0"
     },
-    "fail": { "effect": { "u_buy_item":"feces_dog" } }
+    "fail": { "effect": { "u_buy_item": "feces_dog" } }
   },
   {
     "id": "MISSION_test_232_1",
@@ -176,7 +184,7 @@
     "goal_condition": { "u_has_var": "test_232_test", "type": "general", "context": "meeting", "value": "yes" },
     "difficulty": 0,
     "value": 0,
-    "end": { "effect": { "u_buy_item":"feces_dog" } },
+    "end": { "effect": { "u_buy_item": "feces_dog" } },
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_test_232_2",
     "dialogue": {
@@ -190,7 +198,7 @@
       "success_lie": "1",
       "failure": "1"
     },
-    "fail": { "effect": { "u_buy_item":"feces_dog", "count":2 } }
+    "fail": { "effect": { "u_buy_item": "feces_dog", "count": 2 } }
   },
   {
     "id": "MISSION_test_232_2",
@@ -202,7 +210,7 @@
     "goal_condition": { "u_has_var": "test_232_test", "type": "general", "context": "meeting", "value": "yes" },
     "difficulty": 0,
     "value": 0,
-    "end": { "effect": { "u_buy_item":"feces_dog", "count":3 } },
+    "end": { "effect": { "u_buy_item": "feces_dog", "count": 3 } },
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_test_232_3",
     "dialogue": {
@@ -216,7 +224,7 @@
       "success_lie": "-",
       "failure": "-"
     },
-    "fail": { "effect": { "u_buy_item":"feces_dog" } }
+    "fail": { "effect": { "u_buy_item": "feces_dog" } }
   },
   {
     "id": "MISSION_test_232_3",
@@ -230,7 +238,7 @@
     "value": 0,
     "deadline_low": 3,
     "deadline_high": 3,
-    "end": { "effect": { "u_buy_item":"feces_dog", "count":4 } },
+    "end": { "effect": { "u_buy_item": "feces_dog", "count": 4 } },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "-",
@@ -252,11 +260,11 @@
     "name": { "str": "You met test person7" },
     "description": "He looks like a nice gal. Maybe you should not let him die?",
     "goal": "MGOAL_CONDITION",
-    "goal_condition": { "npc_has_var": "test_232_test_time", "type": "general", "context": "meeting", "op":">=", "value":"2 hours" },
+    "goal_condition": { "npc_has_var": "test_232_test_time", "type": "general", "context": "meeting", "op": ">=", "value": "2 hours" },
     "difficulty": 0,
     "value": 0,
-	"start":{"effect":{"npc_add_var": "test_232_test_time", "type": "general", "context": "meeting", "time":true}},
-    "end": { "effect": { "u_buy_item":"feces_dog", "count":7 } },
+    "start": { "effect": { "npc_add_var": "test_232_test_time", "type": "general", "context": "meeting", "time": true } },
+    "end": { "effect": { "u_buy_item": "feces_dog", "count": 7 } },
     "deadline_low": 1,
     "deadline_high": 1,
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -272,6 +280,6 @@
       "success_lie": "-",
       "failure": "-"
     },
-    "fail": { "effect": { "u_buy_item":"feces_dog" } }
+    "fail": { "effect": { "u_buy_item": "feces_dog" } }
   }
 ]
