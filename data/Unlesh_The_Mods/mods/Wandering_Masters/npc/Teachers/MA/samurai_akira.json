@@ -167,7 +167,13 @@
     "type": "talk_topic",
     "id": "samurai_akira_test3",
     "dynamic_line": "Yes, good, good. You look like a fine warrior in his armour and with his weapon. Prepare my student. Training will be hard, but I hope you succeed in it. And now, the training: fight to the death! BANZAI!",
-    "responses": [ { "text": "Wait, whaa…", "topic": "TALK_DONE", "effect": ["insult_combat",{ "add_mission": "MISSION_samurai_akira_0" }] } ]
+    "responses": [
+      {
+        "text": "Wait, whaa…",
+        "topic": "TALK_DONE",
+        "effect": [ "insult_combat", { "add_mission": "MISSION_samurai_akira_0" } ]
+      }
+    ]
   },
   {
     "type": "talk_topic",
@@ -344,4 +350,3 @@
     "fail": { "effect": { "u_buy_item": "manual_niten" } }
   }
 ]
-
