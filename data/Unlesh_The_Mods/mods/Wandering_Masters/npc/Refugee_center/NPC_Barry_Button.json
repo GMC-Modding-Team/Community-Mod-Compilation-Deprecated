@@ -143,9 +143,7 @@
           "type": "CONDITION",
           "condition": { "npc_has_var": "barry_button_teach", "type": "general", "context": "meeting", "value": "yes" }
         },
-        "success": {
-          "topic": "barry_button_teach_check1"
-        },
+        "success": { "topic": "barry_button_teach_check1" },
         "failure": { "topic": "barry_button_teach_done" }
       },
       { "text": "Sorry I don't want to.", "topic": "TALK_NONE" }
@@ -204,7 +202,13 @@
     "type": "talk_topic",
     "id": "barry_button_teach",
     "dynamic_line": "Good luck, student!",
-    "responses": [ { "text": "Thanks, Barry!", "topic": "TALK_DONE", "effect":  { "npc_lose_var": "barry_button_teach", "type": "general", "context": "meeting", "value": "yes" } } ]
+    "responses": [
+      {
+        "text": "Thanks, Barry!",
+        "topic": "TALK_DONE",
+        "effect": { "npc_lose_var": "barry_button_teach", "type": "general", "context": "meeting", "value": "yes" }
+      }
+    ]
   },
   {
     "type": "talk_topic",
@@ -249,4 +253,3 @@
     }
   }
 ]
-
