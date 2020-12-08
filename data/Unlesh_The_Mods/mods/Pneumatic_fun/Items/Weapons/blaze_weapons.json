@@ -27,7 +27,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "bolt_hopper" ]
+        "item_restriction": [ "bolt" ]
       }
     ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
@@ -139,6 +139,8 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
+    "//": "Originally had harpoons, but they don't exist.",
+    "ammo_type": "fishspear",
     "skill": "launcher",
     "range": 30,
     "ranged_damage": { "damage_type": "stab", "amount": 40 },
@@ -181,7 +183,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "bb_hopper" ]
+        "item_restriction": [ "bb" ]
       }
     ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
@@ -214,7 +216,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "pebble_hopper" ]
+        "item_restriction": [ "pebble" ]
       }
     ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
