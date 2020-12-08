@@ -88,7 +88,8 @@
     "count": 5,
     "effects": [ "BEANBAG" ],
     "qualities": [ [ "HAMMER", 1 ] ],
-    "flags": [ "UNARMED_WEAPON", "NEVER_MISFIRES", "NOGIB", "TRADER_AVOID", "NO_REPAIR" ]
+    "ammo_effects": [ "NEVER_MISFIRES" ],
+    "flags": [ "UNARMED_WEAPON", "NOGIB", "TRADER_AVOID", "NO_REPAIR" ]
   },
   {
     "id": "acidbomb_alc",
@@ -104,7 +105,6 @@
     "material": [ "glass" ],
     "symbol": "*",
     "color": "green",
-    "use_action": "acidbomb",
     "flags": [ "ACT_ON_RANGED_HIT", "TRADER_AVOID", "NO_REPAIR" ]
   },
   {

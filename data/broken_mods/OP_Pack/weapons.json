@@ -99,7 +99,7 @@
     "description": "The Omni Corp. Energy Rifle is standard issue to all Omni Corps. Personel deployed in dangerous areas.",
     "price": 0,
     "material": [ "omni_alloy" ],
-    "flags": [ "FIRE_TWOHAND", "NEVER_JAMS", "NO_BOOM", "WATERPROOF_GUN", "TRADER_AVOID" ],
+    "flags": [ "FIRE_TWOHAND", "NEVER_JAMS", "WATERPROOF_GUN", "TRADER_AVOID" ],
     "skill": "rifle",
     "ammo": [ "omni_ammo" ],
     "weight": "3 g",
@@ -136,7 +136,7 @@
     "description": "The Omni Corp. Energy Rifle is standard issue to all Omni Corps. Personel deployed in dangerous areas. The UPS connector is on.",
     "price": 0,
     "material": [ "omni_alloy" ],
-    "flags": [ "FIRE_TWOHAND", "NEVER_JAMS", "NO_BOOM", "WATERPROOF_GUN", "TRADER_AVOID", "NO_UNLOAD" ],
+    "flags": [ "FIRE_TWOHAND", "NEVER_JAMS", "WATERPROOF_GUN", "TRADER_AVOID", "NO_UNLOAD" ],
     "skill": "rifle",
     "weight": "3 g",
     "volume": "3 ml",
@@ -163,7 +163,7 @@
     "description": "The Omni Corp. Energy Pistol is standard issue to all Omni Corps. Personel deployed in dangerous areas.",
     "price": 0,
     "material": [ "omni_alloy" ],
-    "flags": [ "NEVER_JAMS", "NO_BOOM", "WATERPROOF_GUN", "TRADER_AVOID" ],
+    "flags": [ "NEVER_JAMS", "WATERPROOF_GUN", "TRADER_AVOID" ],
     "skill": "pistol",
     "ammo": [ "omni_ammo" ],
     "weight": "3 g",
@@ -200,7 +200,7 @@
     "description": "The Omni Corp. Energy Pistol is standard issue to all Omni Corps. Personel deployed in dangerous areas.  The UPS connector is on.",
     "price": 0,
     "material": [ "omni_alloy" ],
-    "flags": [ "NEVER_JAMS", "NO_BOOM", "WATERPROOF_GUN", "TRADER_AVOID", "NO_UNLOAD" ],
+    "flags": [ "NEVER_JAMS", "WATERPROOF_GUN", "TRADER_AVOID", "NO_UNLOAD" ],
     "skill": "pistol",
     "weight": "3 g",
     "volume": "3 ml",
@@ -299,7 +299,7 @@
     "material": [ "omni_alloy" ],
     "bashing": 100,
     "cutting": 200,
-    "flags": [ "UNBREAKABLE_MELEE", "REACH_ATTACK", "REACH2", "TRADER_AVOID" ],
+    "flags": [ "UNBREAKABLE_MELEE", "REACH_ATTACK", "REACH3", "TRADER_AVOID" ],
     "use_action": { "type": "transform", "msg": "You activate the blade.", "target": "omni_spear_on", "active": true }
   },
   {
@@ -316,7 +316,7 @@
     "material": [ "omni_alloy" ],
     "bashing": 150,
     "cutting": 300,
-    "flags": [ "UNBREAKABLE_MELEE", "REACH_ATTACK", "REACH2", "TRADER_AVOID" ],
+    "flags": [ "UNBREAKABLE_MELEE", "REACH_ATTACK", "REACH3", "TRADER_AVOID" ],
     "use_action": { "type": "transform", "msg": "You deactivate the blade.", "target": "omni_spear", "active": false }
   }
 ]
