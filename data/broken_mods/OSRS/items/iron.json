@@ -289,12 +289,12 @@
     "weight": "3 g",
     "ammo_type": "osrs_bolt",
     "bashing": 46,
-    "pierce": 1,
     "dispersion": 100,
     "loudness": 0,
     "count": 10,
     "show_stats": true,
-    "effects": [ "RECOVER_20" ]
+    "effects": [ "RECOVER_20" ],
+    "damage": { "damage_type": "stab" }
   },
   {
     "id": "osrs_pickaxe_iron",
@@ -344,13 +344,12 @@
     "weight": "3 g",
     "cutting": 10,
     "ammo_type": "arrow",
-    "prop_damage": 1.25,
-    "pierce": 1,
     "range": 3,
     "dispersion": 75,
     "loudness": 0,
     "count": 15,
-    "effects": [ "RECOVER_35" ]
+    "effects": [ "RECOVER_35" ],
+    "damage": { "damage_type": "stab" }
   },
   {
     "id": "osrs_helmet_full_iron",

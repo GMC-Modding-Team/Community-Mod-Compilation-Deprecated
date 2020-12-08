@@ -130,7 +130,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "rotary speargun" },
-    "description": "This pneumatic speargun features a revolving barrel behind its launcher, allowing projectiles to be rapidly loaded and fired.    However, the weight requires an external support measure.",
+    "description": "This pneumatic speargun features a revolving barrel behind its launcher, allowing projectiles to be rapidly loaded and fired.  However, the weight requires an external support measure.",
     "weight": "17308 g",
     "volume": "4500 ml",
     "price": 280000,
@@ -139,7 +139,6 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": [ "harpoon" ],
     "skill": "launcher",
     "range": 30,
     "ranged_damage": { "damage_type": "stab", "amount": 40 },
@@ -185,7 +184,7 @@
         "item_restriction": [ "bb_hopper" ]
       }
     ],
-    "flags": [ "BURST_ONLY", "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
     "id": "tiharturret",
