@@ -294,7 +294,7 @@
     "count": 10,
     "show_stats": true,
     "effects": [ "RECOVER_35" ],
-    "damage": { "damage_type": "stab" }
+    "damage": { "damage_type": "stab", "armor_penetration": 1 }
   },
   {
     "id": "osrs_pickaxe_mithril",
@@ -349,7 +349,7 @@
     "loudness": 0,
     "count": 15,
     "effects": [ "RECOVER_40" ],
-    "damage": { "damage_type": "stab" }
+    "damage": { "damage_type": "stab", "armor_penetration": 1, "constant_damage_multiplier": 1.25 }
   },
   {
     "id": "osrs_helmet_full_mithril",
