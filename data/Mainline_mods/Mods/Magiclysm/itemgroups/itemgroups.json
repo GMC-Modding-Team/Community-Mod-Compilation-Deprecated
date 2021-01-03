@@ -61,6 +61,21 @@
   },
   {
     "type": "item_group",
+    "id": "guns_rifle_common",
+    "items": [ { "item": "boreal_mosin", "prob": 3, "charges-min": 0, "charges-max": 5 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display",
+    "items": [ { "item": "boreal_mosin", "prob": 3, "charges-min": 0, "charges-max": 0 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rifle_rare",
+    "items": [ [ "borealmosin_clip", 5 ] ]
+  },
+  {
+    "type": "item_group",
     "id": "displays",
     "items": [
       [ "mana_potion_lesser", 50 ],
@@ -330,7 +345,6 @@
     "//": "all the tool tokens",
     "subtype": "collection",
     "items": [
-      { "item": "mtoken_toolbox", "prob": 5 },
       { "item": "mtoken_hammer", "prob": 20 },
       { "item": "mtoken_screwdriver_set", "prob": 30 },
       { "item": "mtoken_crowbar", "prob": 20 }
