@@ -51,7 +51,7 @@
     "reversible": false,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "coffeemaker", 3 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "coffeemaker", 3 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "coffeemaker", -1 ], [ "rock_pot", -1 ], [ "teapot", -1 ] ]
     ],
     "components": [ [ [ "water", 10 ] ], [ [ "Chemical", 3 ] ] ]
@@ -93,7 +93,7 @@
     "reversible": false,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ], [ "teapot", -1 ] ]
     ],
     "components": [ [ [ "blood", 10 ] ], [ [ "fat", 2 ], [ "tallow", 2 ] ] ]
@@ -123,7 +123,7 @@
     "reversible": false,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "coffeemaker", 2 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "coffeemaker", 2 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "coffeemaker", 1 ], [ "rock_pot", -1 ], [ "teapot", -1 ] ]
     ],
     "components": [ [ [ "salt_water", 1 ] ] ]
@@ -140,7 +140,7 @@
     "reversible": false,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "coffeemaker", 2 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "coffeemaker", 2 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ], [ "teapot", -1 ] ]
     ],
     "components": [ [ [ "salt_water", 8 ] ] ]
@@ -297,7 +297,7 @@
     "reversible": false,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 5 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 5 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [
         [ "pan", -1 ],
         [ "pot", -1 ],

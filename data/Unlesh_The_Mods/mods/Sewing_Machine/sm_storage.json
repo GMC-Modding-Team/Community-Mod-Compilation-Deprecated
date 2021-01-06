@@ -222,7 +222,7 @@
     "skills_required": [ "fabrication", 2 ],
     "subcategory": "CSC_ARMOR_STORAGE",
     "time": 15000,
-    "tools": [ [ [ "toolset", 5 ], [ "hotplate", 5 ], [ "fire", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
+    "tools": [ [ [ "toolset", 5 ], [ "hotplate", 5 ], [ "surface_heat", 1, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
     "type": "recipe",
     "using": [ [ "filament", 25 ] ]
   },
@@ -382,7 +382,7 @@
     "skills_required": [ "fabrication", 2 ],
     "subcategory": "CSC_ARMOR_STORAGE",
     "time": 10000,
-    "tools": [ [ [ "toolset", 5 ], [ "hotplate", 5 ], [ "fire", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
+    "tools": [ [ [ "toolset", 5 ], [ "hotplate", 5 ], [ "surface_heat", 1, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
     "type": "recipe",
     "using": [ [ "filament", 15 ] ]
   },

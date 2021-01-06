@@ -38,7 +38,7 @@
       [ "textbook_fabrication", 1 ],
       [ "textbook_anarch", 1 ]
     ],
-    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "fire", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "surface_heat", 1, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
     "//": "You can use a gallon jug, don't see the point. But you can do it.",
     "components": [
       [ [ "leather", 2 ] ],
@@ -67,7 +67,7 @@
     ],
     "difficulty": 3,
     "time": 30000,
-    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "fire", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "surface_heat", 1, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
     "components": [ [ [ "plastic_chunk", 16 ] ] ]
   }
 ]
