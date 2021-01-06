@@ -30,15 +30,6 @@
       [ "sling", 1 ]
     ],
     "flags": [ "RELOAD_ONE" ],
-    "pocket_data": [
-      {
-        "magazine_well": "250 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "792_clip" ]
-      }
-    ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "792": 5 }, "allowed_speedloaders": [ "792_clip" ] } ]
   }
 ]
