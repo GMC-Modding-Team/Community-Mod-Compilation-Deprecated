@@ -396,7 +396,7 @@
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
-    "flags": [ "FIRE_50", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
     "pocket_data": [
       {
@@ -1152,7 +1152,7 @@
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "FIRE_20", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "pistol",
     "ammo": [ "battery" ],
     "weight": "720 g",
@@ -1233,7 +1233,7 @@
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "FIRE_20", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
     "skill": "smg",
     "weight": "2680 g",
@@ -1320,7 +1320,7 @@
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "FIRE_50", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
     "skill": "rifle",
     "weight": "3120 g",
@@ -1405,7 +1405,7 @@
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "FIRE_50", "NON_FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
     "skill": "rifle",
     "weight": "5620 g",
@@ -1754,7 +1754,7 @@
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "extend": { "flags": [ "FIRE_50", "FIRE_TWOHAND", "STR_RELOAD", "NON_FOULING" ] },
+    "extend": { "flags": [ "FIRE_TWOHAND", "STR_RELOAD", "NON_FOULING" ] },
     "delete": { "flags": [ "FIRE_100" ] }
   }
 ]
