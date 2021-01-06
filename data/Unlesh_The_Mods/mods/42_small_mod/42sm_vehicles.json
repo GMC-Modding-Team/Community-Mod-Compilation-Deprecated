@@ -1,8 +1,5 @@
 [
   {
-    "id": "motorized_draisine_6seats",
-    "type": "vehicle",
-    "name": "Six-Seated Motorized Draisine",
     "blueprint": [
       [ "O----O" ],
       [ "|##|#|" ],
@@ -15,7 +12,7 @@
       { "y": 0, "x": -2, "parts": [ "xlframe_vertical_2", "seat" ] },
       { "y": -1, "x": -3, "parts": [ "xlframe_vertical" ] },
       { "y": 2, "x": -4, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal" ] },
-      { "y": 0, "x": 0, "parts": [ "xlframe_vertical_2", "seat", "controls" ] },
+      { "y": 2, "x": -1, "parts": [ "xlframe_horizontal" ] },
       { "y": 3, "x": -3, "parts": [ "xlframe_vertical" ] },
       { "y": 3, "x": 0, "parts": [ "xlframe_vertical" ] },
       { "y": -1, "x": 1, "parts": [ "xlframe_nw", "rail_wheel_steerable" ] },
@@ -26,8 +23,8 @@
       { "y": 2, "x": -3, "parts": [ "xlframe_vertical_2", "seat" ] },
       { "y": -1, "x": -2, "parts": [ "xlframe_vertical" ] },
       { "y": 1, "x": 1, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal" ] },
+      { "y": 0, "x": 0, "parts": [ "xlframe_vertical_2", "seat", "controls" ] },
       { "y": 2, "x": -2, "parts": [ "xlframe_vertical_2", "seat" ] },
-      { "y": 2, "x": -1, "parts": [ "xlframe_horizontal" ] },
       { "y": 1, "x": -1, "parts": [ "xlframe_horizontal" ] },
       { "y": 1, "x": -3, "parts": [ "xlframe_vertical_2" ] },
       { "y": 0, "x": -4, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal" ] },
@@ -51,6 +48,9 @@
       { "y": 1, "x": -4, "parts": [ "xlframe_horizontal", "xlhalfboard_horizontal" ] },
       { "y": -1, "x": 0, "parts": [ "xlframe_vertical" ] },
       { "y": 2, "x": 0, "parts": [ "xlframe_vertical_2", "seat" ] }
-    ]
+    ],
+    "type": "vehicle",
+    "id": "motorized_draisine_6seats",
+    "name": "Six-Seated Motorized Draisine"
   }
 ]

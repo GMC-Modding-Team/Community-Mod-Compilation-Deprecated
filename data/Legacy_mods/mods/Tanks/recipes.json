@@ -77,7 +77,11 @@
     "time": 27500,
     "book_learn": [ [ "textbook_launcher", 7 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 1, "LIST" ], [ "toolset", 10 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 1, "LIST" ], [ "toolset", 10 ] ],
+      [ [ "tongs", -1 ] ],
+      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
+    ],
     "components": [
       [ [ "120mm_casing", 1 ] ],
       [ [ "electric_primer_large", 1 ] ],
@@ -129,7 +133,11 @@
     "time": 33000,
     "book_learn": [ [ "textbook_launcher", 8 ] ],
     "qualities": [ { "id": "WRENCH", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 1, "LIST" ], [ "toolset", 20 ] ], [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 1, "LIST" ], [ "toolset", 20 ] ],
+      [ [ "tongs", -1 ] ],
+      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
+    ],
     "components": [
       [ [ "155mm_casing", 1 ] ],
       [ [ "electric_primer_large", 1 ] ],
