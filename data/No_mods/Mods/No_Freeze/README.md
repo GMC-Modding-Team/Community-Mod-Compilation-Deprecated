@@ -4,6 +4,13 @@ Whatcha see is whatcha get. No frills, no decor, no excess. All food items (incl
 
 Detailed Changelogs;
 
+# Version 1.6
+
+No-Freeze Additions
+
+	Complete overhaul of file hierarchy to reflect new system in base game, many new foods added.
+	Release courtesy of Chaosvolt!
+
 # Version 1.5
 
 No-Freeze Additions
