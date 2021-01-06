@@ -164,7 +164,7 @@
     "reversible": false,
     "autolearn": true,
     "using": [ [ "filament", 15 ], [ "cordage_short", 2 ] ],
-    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "hotplate", 30 ], [ "toolset", 30 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "hotplate", 30 ], [ "toolset", 30 ], [ "surface_heat", 1, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1, "amount": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [ [ [ "plastic_chunk", 16 ] ], [ [ "rag", 5 ] ] ]
   },
@@ -180,7 +180,7 @@
     "reversible": false,
     "using": [ [ "cordage_short", 1 ] ],
     "autolearn": true,
-    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 2 ] ], [ [ "rag", 1 ] ] ]
   },
   {

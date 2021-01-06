@@ -282,7 +282,7 @@
       { "id": "CUT", "level": 1 },
       { "id": "COOK", "level": 2 }
     ],
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "components": [
       [ [ "meat_tainted", 36 ], [ "dry_meat_tainted", 36 ], [ "corpse", 1 ] ],
       [ [ "meat_tainted", 36 ], [ "dry_meat_tainted", 36 ], [ "corpse", 1 ] ],
@@ -301,7 +301,7 @@
     "difficulty": 6,
     "time": 20000,
     "decomp_learn": 7,
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "components": [
       [ [ "eboshi", 1 ] ],
       [ [ "miko_siraginu", 1 ] ],

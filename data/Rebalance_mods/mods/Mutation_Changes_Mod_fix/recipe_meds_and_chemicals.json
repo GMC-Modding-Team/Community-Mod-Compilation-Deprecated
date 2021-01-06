@@ -12,7 +12,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_animal", 3 ] ],
     "qualities": [ { "id": "CHEM", "level": 2, "amount": 1 } ],
-    "tools": [ [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "mutagen", 1 ] ], [ [ "egg_reptile", 1 ], [ "meat", 2 ] ] ]
   },
   {
@@ -28,7 +28,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_serum", 3 ], [ "recipe_animal", 3 ] ],
     "qualities": [ { "id": "CHEM", "level": 2, "amount": 1 } ],
-    "tools": [ [ [ "hotplate", 37 ], [ "toolset", 37 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 37 ], [ "toolset", 37 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "mutagen_tortoise", 2 ] ] ]
   }
 ]
