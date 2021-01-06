@@ -9,7 +9,7 @@
     "book_learn": [ [ "black_magic_grimoire", 4 ], [ "alice_grimoire", 4 ], [ "patchouli_grimoire", 4 ] ],
     "difficulty": 5,
     "time": 60000,
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
     "components": [
       [ [ "rock", 1 ] ],
@@ -30,7 +30,7 @@
     "autolearn": false,
     "difficulty": 3,
     "time": 15000,
-    "tools": [ [ [ "fire", -1 ] ], [ [ "magic_barrage_energy", 2 ], [ "magical_power_converter", 5 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ], [ [ "magic_barrage_energy", 2 ], [ "magical_power_converter", 5 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
     "components": [ [ [ "rock", 1 ], [ "ceramic_shard", 1 ] ] ]
   }

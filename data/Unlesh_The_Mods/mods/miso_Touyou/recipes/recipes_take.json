@@ -22,7 +22,7 @@
     "time": 5000,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "take_tutu", 4 ], [ "take_log", 1 ] ] ]
   },
   {
@@ -38,7 +38,7 @@
     "decomp_learn": 1,
     "autolearn": false,
     "book_learn": [ [ "recipe_bows", 10 ], [ "textbook_weapeast", 8 ], [ "textbook_armeast", 10 ] ],
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "take_tutu", 8 ] ], [ [ "bone_glue", 3 ] ], [ [ "cordage", 2, "LIST" ], [ "filament", 200, "LIST" ] ] ]
   },
@@ -55,7 +55,7 @@
     "decomp_learn": 1,
     "autolearn": false,
     "book_learn": [ [ "recipe_bows", 9 ], [ "textbook_weapeast", 7 ], [ "textbook_armeast", 10 ] ],
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "take_tutu", 5 ] ], [ [ "bone_glue", 3 ] ], [ [ "cordage", 2, "LIST" ], [ "filament", 200, "LIST" ] ] ]
   },
@@ -72,7 +72,7 @@
     "decomp_learn": 1,
     "autolearn": false,
     "book_learn": [ [ "recipe_bows", 9 ], [ "textbook_weapeast", 7 ], [ "textbook_armeast", 10 ] ],
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "take_tutu", 6 ] ], [ [ "bone_glue", 3 ] ], [ [ "cordage", 2, "LIST" ], [ "filament", 200, "LIST" ] ] ]
   },
@@ -104,7 +104,7 @@
     "time": 35000,
     "autolearn": false,
     "book_learn": [ [ "recipe_arrows", 9 ], [ "textbook_weapeast", 7 ], [ "textbook_armeast", 10 ] ],
-    "tools": [ [ [ "fire", -1 ] ] ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],

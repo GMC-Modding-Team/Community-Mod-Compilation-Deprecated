@@ -25,7 +25,7 @@
     "reversible": true,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ] ]
     ],
     "components": [ [ [ "glass_shard", 1 ] ] ]
@@ -42,7 +42,7 @@
     "reversible": true,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ] ]
     ],
     "components": [ [ [ "glass_shard", 1 ] ] ]
@@ -59,7 +59,7 @@
     "reversible": true,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ] ]
     ],
     "components": [ [ [ "glass_shard", 3 ] ] ]
@@ -76,7 +76,7 @@
     "reversible": true,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 3 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 3 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ] ]
     ],
     "components": [ [ [ "glass_shard", 6 ] ] ]
@@ -93,7 +93,7 @@
     "reversible": true,
     "autolearn": true,
     "tools": [
-      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ],
+      [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ],
       [ [ "pan", -1 ], [ "pot", -1 ], [ "rock_pot", -1 ] ]
     ],
     "components": [ [ [ "scrap", 1 ] ] ]
@@ -109,7 +109,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "scrap", 1 ] ] ]
   },
   {
@@ -123,7 +123,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "scrap", 2 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -137,7 +137,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 4 ] ] ]
   },
   {
@@ -151,7 +151,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 30 ] ] ]
   },
   {
@@ -165,7 +165,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 16 ] ] ]
   },
   {
@@ -179,7 +179,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": false,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "scrap", 21 ] ], [ [ "plastic_chunk", 3 ] ] ]
   },
   {
@@ -206,7 +206,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 1 ] ] ]
   },
   {
@@ -220,7 +220,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 2 ] ] ]
   },
   {
@@ -234,7 +234,7 @@
     "time": 1000,
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 2 ], [ "char_smoker", 1 ], [ "toolset", 1 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 3 ] ] ]
   }
 ]

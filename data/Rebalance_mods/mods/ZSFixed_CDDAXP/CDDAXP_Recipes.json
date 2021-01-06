@@ -112,7 +112,7 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_weapeast", 5 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
-    "tools": [ [ [ "hotplate", 3 ], [ "char_smoker", 2 ], [ "toolset", 3 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 3 ], [ "char_smoker", 2 ], [ "toolset", 3 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [
       [ [ "cola", 1 ], [ "lemonlime", 1 ], [ "orangesoda", 1 ] ],
       [ [ "sugar", 1 ], [ "candy", 1 ], [ "candy3", 1 ], [ "marshmallow", 1 ], [ "powder_candy", 1 ] ],
@@ -193,7 +193,7 @@
     "autolearn": false,
     "book_learn": [ [ "adv_chemistry", 5 ], [ "recipe_labchem", 5 ] ],
     "qualities": [ { "id": "CHEM", "level": 1 } ],
-    "tools": [ [ [ "hotplate", 15 ], [ "char_smoker", 10 ], [ "toolset", 15 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 15 ], [ "char_smoker", 10 ], [ "toolset", 15 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [
       [ [ "meat_tainted", 1 ], [ "blood", 1 ], [ "human_flesh", 1 ] ],
       [ [ "purifier", 1 ], [ "royal_jelly", 1 ] ],
@@ -933,7 +933,7 @@
     "autolearn": false,
     "book_learn": [ [ "survival_book", 4 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "BOIL", "level": 1 } ],
-    "tools": [ [ [ "hotplate", 10 ], [ "char_smoker", 10 ], [ "toolset", 10 ], [ "fire", -1 ] ] ],
+    "tools": [ [ [ "hotplate", 10 ], [ "char_smoker", 10 ], [ "toolset", 10 ], [ "surface_heat", 1, "LIST" ] ] ],
     "components": [
       [ [ "cereal2", 2 ], [ "cereal3", 2 ] ],
       [ [ "vitamins", 4 ] ],
