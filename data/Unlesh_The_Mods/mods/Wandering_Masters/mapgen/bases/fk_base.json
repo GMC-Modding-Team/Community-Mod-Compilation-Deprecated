@@ -77,22 +77,22 @@
       },
       "place_item": [ { "item": "atomic_lamp", "x": 25, "y": 11 } ],
       "place_npcs": [
-        { "class": "flame_knuckle_apprentice", "x": 20, "y": 3 },
-        { "class": "flame_knuckle_master", "x": 23, "y": 9 },
-        { "class": "flame_knuckle_elite", "x": 11, "y": 10 },
-        { "class": "flame_knuckle_apprentice", "x": 8, "y": 11 },
-        { "class": "flame_knuckle_apprentice", "x": 11, "y": 11 },
-        { "class": "flame_knuckle_master", "x": 23, "y": 11 },
-        { "class": "flame_knuckle_apprentice_door", "x": 15, "y": 12 },
-        { "class": "flame_knuckle_apprentice", "x": 8, "y": 13 },
-        { "class": "flame_knuckle_apprentice", "x": 14, "y": 13 },
-        { "class": "flame_knuckle_apprentice", "x": 22, "y": 13 },
-        { "class": "flame_knuckle_apprentice", "x": 18, "y": 14 },
-        { "class": "flame_knuckle_elite", "x": 11, "y": 17 },
-        { "class": "flame_knuckle_apprentice", "x": 9, "y": 18 },
-        { "class": "flame_knuckle_apprentice", "x": 7, "y": 20 },
-        { "class": "flame_knuckle_elite", "x": 20, "y": 20 },
-        { "class": "flame_knuckle_apprentice", "x": 30, "y": 20 }
+        { "class": "NPC_flame_knuckle_apprentice", "x": 20, "y": 3 },
+        { "class": "NPC_flame_knuckle_master", "x": 23, "y": 9 },
+        { "class": "NPC_flame_knuckle_elite", "x": 11, "y": 10 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 8, "y": 11 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 11, "y": 11 },
+        { "class": "NPC_flame_knuckle_master", "x": 23, "y": 11 },
+        { "class": "NPC_flame_knuckle_apprentice_door", "x": 15, "y": 12 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 8, "y": 13 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 14, "y": 13 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 22, "y": 13 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 18, "y": 14 },
+        { "class": "NPC_flame_knuckle_elite", "x": 11, "y": 17 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 9, "y": 18 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 7, "y": 20 },
+        { "class": "NPC_flame_knuckle_elite", "x": 20, "y": 20 },
+        { "class": "NPC_flame_knuckle_apprentice", "x": 30, "y": 20 }
       ]
     }
   },
@@ -175,14 +175,14 @@
         "5": "f_utility_shelf",
         "6": "f_utility_shelf"
       },
-      "loot": {
-        "1": { "group": "survivorzed_suits", "chance": 75, "repeat": [ 2, 4 ] },
-        "2": { "group": "survivorzed_head", "chance": 75, "repeat": [ 2, 4 ] },
-        "3": { "group": "survivorzed_extra", "chance": 75, "repeat": [ 2, 4 ] },
-        "4": { "group": "survivorzed_tops", "chance": 75, "repeat": [ 2, 4 ] },
-        "5": { "group": "weapons", "chance": 75, "repeat": [ 2, 4 ] },
-        "6": { "group": "jewelry_front", "chance": 75, "repeat": [ 8, 16 ] }
-      }
+      "place_loot": [
+        { "group": "survivorzed_suits", "x": 2, "y": 1, "chance": 75, "repeat": [ 2, 4 ] },
+        { "group": "survivorzed_head", "x": 3, "y": 1, "chance": 75, "repeat": [ 2, 4 ] },
+        { "group": "survivorzed_extra", "x": 4, "y": 1, "chance": 75, "repeat": [ 2, 4 ] },
+        { "group": "survivorzed_tops", "x": 2, "y": 3, "chance": 75, "repeat": [ 2, 4 ] },
+        { "group": "weapons", "x": 3, "y": 3, "chance": 75, "repeat": [ 2, 4 ] },
+        { "group": "jewelry_front", "x": 4, "y": 3, "chance": 75, "repeat": [ 8, 16 ] }
+      ]
     }
   }
 ]
