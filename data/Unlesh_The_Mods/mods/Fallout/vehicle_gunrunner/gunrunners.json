@@ -1,8 +1,5 @@
 [
   {
-    "id": "security_van_gunrunners",
-    "type": "vehicle",
-    "name": "Gun Runners Transport Van",
     "blueprint": [
       [ "     o " ],
       [ "O----+-O" ],
@@ -12,40 +9,76 @@
       [ "O--+-+-O" ],
       [ "     o " ]
     ],
-    "parts": [
-      { "x": 0, "y": 1, "parts": [ "hdframe_vertical", "box", "hdroof" ] },
+    "name": "Gun Runners Transport Van",
+    "items": [
+      { "y": 1, "x": 0, "chance": 15, "item_groups": [ "car_misc" ] },
+      { "y": 1, "x": 0, "chance": 15, "item_groups": [ "car_misc" ] },
+      { "y": 1, "x": 0, "chance": 25, "items": [ "roadmap" ] },
+      { "chance": 100, "magazine": 100, "y": 1, "x": 0, "item_groups": [ "guns_smg_fallout_rare" ], "ammo": 50 },
       {
-        "x": 0,
         "y": 0,
+        "x": -2,
+        "chance": 100,
+        "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
+        "repeat": [ 1, 20 ]
+      },
+      {
+        "repeat": [ 1, 2 ],
+        "chance": 90,
+        "magazine": 100,
+        "y": 0,
+        "x": -2,
+        "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
+        "ammo": 50
+      },
+      {
+        "repeat": [ 1, 2 ],
+        "chance": 90,
+        "magazine": 100,
+        "y": 0,
+        "x": -3,
+        "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
+        "ammo": 50
+      },
+      {
+        "chance": 70,
+        "magazine": 100,
+        "y": 0,
+        "x": -4,
+        "item_groups": [ "guns_energy_fallout", "guns_heavy_fallout" ],
+        "ammo": 50
+      },
+      {
+        "chance": 50,
+        "magazine": 100,
+        "y": 0,
+        "x": -2,
+        "item_groups": [ "guns_pistol_fallout_rare", "guns_rifle_fallout_rare" ],
+        "ammo": 50
+      },
+      {
+        "chance": 50,
+        "magazine": 100,
+        "y": 0,
+        "x": -3,
+        "item_groups": [ "guns_shotgun_fallout_rare", "guns_smg_fallout_rare" ],
+        "ammo": 50
+      }
+    ],
+    "parts": [
+      { "y": 3, "x": 1, "parts": [ "hdframe_vertical", "reinforced_windshield", "plating_steel" ] },
+      { "y": 0, "x": -1, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_steel" ] },
+      { "y": -1, "x": -3, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
+      { "y": 1, "x": 2, "parts": [ "hdframe_cover", "hdhalfboard_horizontal_2", "plating_steel" ] },
+      { "y": 2, "x": -4, "parts": [ "hdframe_horizontal", "trunk", "hdroof" ] },
+      {
+        "y": 0,
+        "x": 0,
         "parts": [ "hdframe_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "horn_car", "hdroof" ]
       },
-      { "x": 0, "y": 2, "parts": [ "hdframe_vertical_2", "seat", "seatbelt", "hdroof" ] },
-      { "x": 0, "y": -1, "parts": [ "hdframe_vertical", "hddoor", "plating_steel" ] },
-      { "x": 0, "y": 3, "parts": [ "hdframe_vertical", "hddoor", "plating_steel" ] },
       {
-        "x": 1,
-        "y": 1,
-        "parts": [
-          "hdframe_horizontal",
-          "reinforced_windshield",
-          "plating_steel",
-          "diesel_engine_v6",
-          "alternator_truck",
-          "battery_car"
-        ]
-      },
-      { "x": 1, "y": 0, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_steel" ] },
-      { "x": 1, "y": 2, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_steel" ] },
-      { "x": 1, "y": -1, "parts": [ "hdframe_vertical", "reinforced_windshield", "plating_steel" ] },
-      { "x": 1, "y": -2, "parts": [ "wing_mirror" ] },
-      { "x": 1, "y": 3, "parts": [ "hdframe_vertical", "reinforced_windshield", "plating_steel" ] },
-      { "x": 1, "y": 4, "parts": [ "wing_mirror" ] },
-      { "x": 2, "y": 0, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal_2", "plating_steel" ] },
-      { "x": 2, "y": 1, "parts": [ "hdframe_cover", "hdhalfboard_horizontal_2", "plating_steel" ] },
-      { "x": 2, "y": 2, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal_2", "plating_steel" ] },
-      {
-        "x": 2,
         "y": -1,
+        "x": 2,
         "parts": [
           "hdframe_nw",
           "hdhalfboard_nw",
@@ -55,9 +88,45 @@
           "plating_steel"
         ]
       },
+      { "y": 3, "x": -3, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
+      { "y": 3, "x": 0, "parts": [ "hdframe_vertical", "hddoor", "plating_steel" ] },
+      { "y": -1, "x": 1, "parts": [ "hdframe_vertical", "reinforced_windshield", "plating_steel" ] },
+      { "y": 0, "x": -2, "parts": [ "hdframe_vertical", "trunk", "hdroof" ] },
+      { "y": 2, "x": 1, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_steel" ] },
+      { "y": 1, "x": -1, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_steel" ] },
+      { "y": 1, "x": -5, "parts": [ "hdframe_horizontal", "hddoor_opaque", "hdroof", "plating_steel" ] },
+      { "y": 0, "x": 2, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal_2", "plating_steel" ] },
+      { "y": -2, "x": 1, "parts": [ "wing_mirror" ] },
+      { "y": 3, "x": -4, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
+      { "y": 2, "x": -3, "parts": [ "hdframe_horizontal", "seat", "seatbelt", "hdroof" ] },
       {
-        "x": 2,
+        "y": -1,
+        "x": -5,
+        "parts": [ "hdframe_sw", "hdboard_sw", "wheel_mount_medium", "wheel_wide", "hdroof", "plating_steel" ]
+      },
+      { "y": -1, "x": -1, "parts": [ "hdframe_sw", "hdboard_sw", "plating_steel", "tank" ] },
+      {
+        "y": 1,
+        "x": 1,
+        "parts": [
+          "hdframe_horizontal",
+          "reinforced_windshield",
+          "plating_steel",
+          "diesel_engine_v6",
+          "alternator_truck",
+          "battery_car"
+        ]
+      },
+      { "y": 0, "x": -5, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "hdroof", "plating_steel" ] },
+      { "y": 2, "x": -1, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_steel" ] },
+      { "y": 2, "x": 2, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal_2", "plating_steel" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_vertical", "aisle_horizontal", "hdroof" ] },
+      { "y": 1, "x": -2, "parts": [ "hdframe_vertical", "aisle_horizontal", "hdroof" ] },
+      { "y": 4, "x": 1, "parts": [ "wing_mirror" ] },
+      { "y": 1, "x": -3, "parts": [ "hdframe_horizontal", "aisle_horizontal", "hdroof" ] },
+      {
         "y": 3,
+        "x": 2,
         "parts": [
           "hdframe_ne",
           "hdhalfboard_ne",
@@ -67,209 +136,137 @@
           "plating_steel"
         ]
       },
-      { "x": -1, "y": 0, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_steel" ] },
-      { "x": -1, "y": 1, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_steel" ] },
-      { "x": -1, "y": 2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_steel" ] },
-      { "x": -1, "y": -1, "parts": [ "hdframe_sw", "hdboard_sw", "plating_steel", "tank" ] },
-      { "x": -1, "y": 3, "parts": [ "hdframe_se", "hdboard_se", "tank", "plating_steel" ] },
-      { "x": -2, "y": 0, "parts": [ "hdframe_vertical", "trunk", "hdroof" ] },
-      { "x": -2, "y": 1, "parts": [ "hdframe_vertical", "aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": 2, "parts": [ "hdframe_vertical", "aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
-      { "x": -2, "y": 3, "parts": [ "hdframe_vertical", "hddoor_opaque", "hdroof", "plating_steel" ] },
-      { "x": -3, "y": 0, "parts": [ "hdframe_horizontal", "trunk", "hdroof" ] },
-      { "x": -3, "y": 1, "parts": [ "hdframe_horizontal", "aisle_horizontal", "hdroof" ] },
-      { "x": -3, "y": 2, "parts": [ "hdframe_horizontal", "seat", "seatbelt", "hdroof" ] },
-      { "x": -3, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
-      { "x": -3, "y": 3, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
-      { "x": -4, "y": 0, "parts": [ "hdframe_horizontal", "trunk", "hdroof" ] },
-      { "x": -4, "y": 1, "parts": [ "hdframe_horizontal", "aisle_horizontal", "hdroof" ] },
-      { "x": -4, "y": 2, "parts": [ "hdframe_horizontal", "trunk", "hdroof" ] },
-      { "x": -4, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
-      { "x": -4, "y": 3, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
-      { "x": -5, "y": 0, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "hdroof", "plating_steel" ] },
-      { "x": -5, "y": 1, "parts": [ "hdframe_horizontal", "hddoor_opaque", "hdroof", "plating_steel" ] },
+      { "y": 0, "x": -4, "parts": [ "hdframe_horizontal", "trunk", "hdroof" ] },
+      { "y": 0, "x": 1, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_steel" ] },
       {
+        "y": 3,
         "x": -5,
+        "parts": [ "hdframe_se", "hdboard_se", "wheel_mount_medium", "wheel_wide", "hdroof", "plating_steel" ]
+      },
+      { "y": 1, "x": 0, "parts": [ "hdframe_vertical", "box", "hdroof" ] },
+      { "y": -1, "x": -4, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
+      { "y": 3, "x": -2, "parts": [ "hdframe_vertical", "hddoor_opaque", "hdroof", "plating_steel" ] },
+      { "y": -1, "x": -2, "parts": [ "hdframe_vertical", "hdboard_vertical", "hdroof", "plating_steel" ] },
+      { "y": 0, "x": -3, "parts": [ "hdframe_horizontal", "trunk", "hdroof" ] },
+      { "y": 3, "x": -1, "parts": [ "hdframe_se", "hdboard_se", "tank", "plating_steel" ] },
+      { "y": 1, "x": -4, "parts": [ "hdframe_horizontal", "aisle_horizontal", "hdroof" ] },
+      { "y": -1, "x": 0, "parts": [ "hdframe_vertical", "hddoor", "plating_steel" ] },
+      {
         "y": 2,
+        "x": -5,
         "parts": [ "hdframe_horizontal", "hdboard_horizontal", "beeper", "hdroof", "plating_steel" ]
       },
-      {
-        "x": -5,
-        "y": -1,
-        "parts": [ "hdframe_sw", "hdboard_sw", "wheel_mount_medium", "wheel_wide", "hdroof", "plating_steel" ]
-      },
-      {
-        "x": -5,
-        "y": 3,
-        "parts": [ "hdframe_se", "hdboard_se", "wheel_mount_medium", "wheel_wide", "hdroof", "plating_steel" ]
-      }
+      { "y": 2, "x": 0, "parts": [ "hdframe_vertical_2", "seat", "seatbelt", "hdroof" ] }
     ],
-    "items": [
-      { "x": 0, "y": 1, "chance": 15, "item_groups": [ "car_misc" ] },
-      { "x": 0, "y": 1, "chance": 15, "item_groups": [ "car_misc" ] },
-      { "x": 0, "y": 1, "chance": 25, "items": [ "roadmap" ] },
-      { "x": 0, "y": 1, "chance": 100, "magazine": 100, "ammo": 50, "item_groups": [ "guns_smg_fallout_rare" ] },
-      {
-        "x": -2,
-        "y": 0,
-        "chance": 100,
-        "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
-        "repeat": [ 1, 20 ]
-      },
-      {
-        "x": -2,
-        "y": 0,
-        "chance": 90,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
-      },
-      {
-        "x": -3,
-        "y": 0,
-        "chance": 90,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
-      },
-      {
-        "x": -4,
-        "y": 0,
-        "chance": 70,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_energy_fallout", "guns_heavy_fallout" ]
-      },
-      {
-        "x": -2,
-        "y": 0,
-        "chance": 50,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_pistol_fallout_rare", "guns_rifle_fallout_rare" ]
-      },
-      {
-        "x": -3,
-        "y": 0,
-        "chance": 50,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_shotgun_fallout_rare", "guns_smg_fallout_rare" ]
-      }
-    ]
+    "type": "vehicle",
+    "id": "security_van_gunrunners"
   },
   {
-    "type": "vehicle",
-    "id": "Gunrunner_technical",
-    "name": "Gun Runners' Technical",
     "blueprint": [
       [ "o--+-ox" ],
       [ "=='#'|x" ],
       [ ".#'#'|x" ],
       [ "o--+-ox" ]
     ],
-    "parts": [
+    "name": "Gun Runners' Technical",
+    "items": [
+      { "y": 0, "x": 0, "chance": 15, "item_groups": "car_misc" },
+      { "y": 0, "x": 0, "chance": 10, "item_groups": "car_misc" },
+      { "y": 1, "x": 0, "chance": 10, "item_groups": "car_misc" },
+      { "y": 0, "x": -3, "chance": 10, "item_groups": "car_kit" },
+      { "y": 0, "x": -3, "chance": 8, "item_groups": "fuel_gasoline" },
+      { "chance": 100, "magazine": 100, "y": 1, "x": 0, "item_groups": [ "guns_smg_fallout_rare" ], "ammo": 50 },
       {
-        "x": 0,
         "y": 0,
-        "parts": [ "frame_vertical_2", "seat", "seatbelt", "controls", "dashboard", "stereo", "horn_car", "roof" ]
+        "x": -3,
+        "chance": 100,
+        "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
+        "repeat": [ 1, 20 ]
       },
-      { "x": 0, "y": 1, "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof" ] },
-      { "x": 0, "y": -1, "parts": [ "frame_vertical", "door" ] },
-      { "x": 0, "y": 2, "parts": [ "frame_vertical", "door" ] },
-      { "x": -1, "y": 0, "parts": [ "frame_vertical_2", "windshield", "rebar_plate", "roof" ] },
-      { "x": -1, "y": 1, "parts": [ "frame_vertical_2", "windshield", "rebar_plate", "roof" ] },
-      { "x": -1, "y": -1, "parts": [ "frame_vertical", "halfboard_vertical" ] },
-      { "x": -1, "y": 2, "parts": [ "frame_vertical", "halfboard_vertical" ] },
-      { "x": 1, "y": 0, "parts": [ "frame_horizontal", "windshield", "rebar_plate" ] },
-      { "x": 1, "y": 1, "parts": [ "frame_horizontal", "windshield", "rebar_plate" ] },
-      { "x": 1, "y": -1, "parts": [ "frame_vertical", "windshield", "rebar_plate" ] },
-      { "x": 1, "y": 2, "parts": [ "frame_vertical", "windshield", "rebar_plate" ] },
       {
-        "x": 2,
+        "repeat": [ 1, 2 ],
+        "chance": 90,
+        "magazine": 100,
         "y": 0,
-        "parts": [ "frame_horizontal", "halfboard_horizontal", "engine_v6", "alternator_car", "battery_car" ]
-      },
-      { "x": 2, "y": 1, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
-      {
-        "x": 2,
-        "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel", "spring_plate", "headlight" ]
-      },
-      {
-        "x": 2,
-        "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel", "spring_plate", "headlight" ]
-      },
-      { "x": 3, "y": 0, "parts": [ "ram_spiked" ] },
-      { "x": 3, "y": 1, "parts": [ "ram_spiked" ] },
-      { "x": 3, "y": -1, "parts": [ "ram_spiked" ] },
-      { "x": 3, "y": 2, "parts": [ "ram_spiked" ] },
-      { "x": -2, "y": 0, "parts": [ "frame_vertical", "trunk", "muffler", "roof" ] },
-      { "x": -2, "y": 1, "parts": [ "frame_vertical", "seat", "turret_mount", "mounted_vindicator", "roof" ] },
-      { "x": -2, "y": -1, "parts": [ "frame_vertical", "halfboard_vertical", "tank" ] },
-      { "x": -2, "y": 2, "parts": [ "frame_vertical", "halfboard_vertical", "tank" ] },
-      {
         "x": -3,
-        "y": -1,
-        "parts": [ "frame_horizontal", "halfboard_sw", "wheel_mount_medium", "wheel", "spring_plate" ]
+        "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
+        "ammo": 50
       },
-      { "x": -3, "y": 0, "parts": [ "frame_horizontal", "trunk" ] },
-      { "x": -3, "y": 1, "parts": [ "frame_horizontal", "aisle_vertical" ] },
       {
+        "repeat": [ 1, 2 ],
+        "chance": 90,
+        "magazine": 100,
+        "y": 0,
         "x": -3,
-        "y": 2,
-        "parts": [ "frame_horizontal", "halfboard_se", "wheel_mount_medium", "wheel", "spring_plate" ]
+        "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
+        "ammo": 50
+      },
+      {
+        "y": 0,
+        "x": -2,
+        "chance": 100,
+        "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
+        "repeat": [ 1, 20 ]
       }
     ],
-    "items": [
-      { "x": 0, "y": 0, "chance": 15, "item_groups": "car_misc" },
-      { "x": 0, "y": 0, "chance": 10, "item_groups": "car_misc" },
-      { "x": 0, "y": 1, "chance": 10, "item_groups": "car_misc" },
-      { "x": -3, "y": 0, "chance": 10, "item_groups": "car_kit" },
-      { "x": -3, "y": 0, "chance": 8, "item_groups": "fuel_gasoline" },
-      { "x": 0, "y": 1, "chance": 100, "magazine": 100, "ammo": 50, "item_groups": [ "guns_smg_fallout_rare" ] },
+    "parts": [
+      { "y": 0, "x": -1, "parts": [ "frame_vertical_2", "windshield", "rebar_plate", "roof" ] },
+      { "y": 0, "x": 3, "parts": [ "ram_spiked" ] },
+      { "y": 1, "x": 2, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
       {
-        "x": -3,
         "y": 0,
-        "chance": 100,
-        "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
-        "repeat": [ 1, 20 ]
+        "x": 0,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt", "controls", "dashboard", "stereo", "horn_car", "roof" ]
+      },
+      { "y": -1, "x": 3, "parts": [ "ram_spiked" ] },
+      { "y": 2, "x": -1, "parts": [ "frame_vertical", "halfboard_vertical" ] },
+      { "y": -1, "x": 1, "parts": [ "frame_vertical", "windshield", "rebar_plate" ] },
+      { "y": 0, "x": -2, "parts": [ "frame_vertical", "trunk", "muffler", "roof" ] },
+      { "y": 2, "x": 1, "parts": [ "frame_vertical", "windshield", "rebar_plate" ] },
+      { "y": 1, "x": -1, "parts": [ "frame_vertical_2", "windshield", "rebar_plate", "roof" ] },
+      {
+        "y": -1,
+        "x": -3,
+        "parts": [ "frame_horizontal", "halfboard_sw", "wheel_mount_medium", "wheel", "spring_plate" ]
       },
       {
+        "y": 2,
         "x": -3,
-        "y": 0,
-        "chance": 90,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "parts": [ "frame_horizontal", "halfboard_se", "wheel_mount_medium", "wheel", "spring_plate" ]
       },
+      { "y": -1, "x": -2, "parts": [ "frame_vertical", "halfboard_vertical", "tank" ] },
+      { "y": 1, "x": 1, "parts": [ "frame_horizontal", "windshield", "rebar_plate" ] },
+      { "y": 2, "x": 3, "parts": [ "ram_spiked" ] },
+      { "y": 2, "x": -2, "parts": [ "frame_vertical", "halfboard_vertical", "tank" ] },
+      { "y": -1, "x": -1, "parts": [ "frame_vertical", "halfboard_vertical" ] },
       {
-        "x": -3,
-        "y": 0,
-        "chance": 90,
-        "magazine": 100,
-        "ammo": 50,
-        "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "y": -1,
+        "x": 2,
+        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel", "spring_plate", "headlight" ]
       },
+      { "y": 1, "x": -2, "parts": [ "frame_vertical", "seat", "turret_mount", "mounted_vindicator", "roof" ] },
+      { "y": 1, "x": -3, "parts": [ "frame_horizontal", "aisle_vertical" ] },
+      { "y": 0, "x": 1, "parts": [ "frame_horizontal", "windshield", "rebar_plate" ] },
+      { "y": 1, "x": 0, "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof" ] },
+      { "y": 1, "x": 3, "parts": [ "ram_spiked" ] },
       {
-        "x": -2,
+        "y": 2,
+        "x": 2,
+        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel", "spring_plate", "headlight" ]
+      },
+      { "y": 0, "x": -3, "parts": [ "frame_horizontal", "trunk" ] },
+      {
         "y": 0,
-        "chance": 100,
-        "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
-        "repeat": [ 1, 20 ]
-      }
-    ]
+        "x": 2,
+        "parts": [ "frame_horizontal", "halfboard_horizontal", "engine_v6", "alternator_car", "battery_car" ]
+      },
+      { "y": -1, "x": 0, "parts": [ "frame_vertical", "door" ] },
+      { "y": 2, "x": 0, "parts": [ "frame_vertical", "door" ] }
+    ],
+    "type": "vehicle",
+    "id": "Gunrunner_technical"
   },
   {
-    "id": "gunrunner_deliverytruck",
-    "type": "vehicle",
-    "name": "Gun Runners' Heavy Duty Cargo Truck",
     "blueprint": [
       [ "-OO--+-O " ],
       [ "|+++'#'|>" ],
@@ -277,280 +274,283 @@
       [ "|+++'#'|>" ],
       [ "-OO--+-O " ]
     ],
-    "parts": [
-      { "x": -1, "y": 1, "parts": [ "hdframe_vertical_2", "windshield" ] },
-      { "x": -1, "y": 0, "parts": [ "hdframe_horizontal", "windshield" ] },
-      { "x": -1, "y": 2, "parts": [ "hdframe_horizontal", "windshield" ] },
-      { "x": -1, "y": -1, "parts": [ "hdframe_vertical", "hdhalfboard_sw", "muffler" ] },
-      { "x": -1, "y": 3, "parts": [ "hdframe_vertical", "hdhalfboard_se", "muffler" ] },
-      { "x": 0, "y": 1, "parts": [ "hdframe_vertical_2", "seat", "tank", "seatbelt", "hdroof" ] },
-      {
-        "x": 0,
-        "y": 0,
-        "parts": [ "hdframe_vertical_2", "seat", "tank", "seatbelt", "hdroof", "controls", "dashboard", "vehicle_clock", "horn_big" ]
-      },
-      { "x": 0, "y": 2, "parts": [ "hdframe_vertical_2", "seat", "tank", "seatbelt", "hdroof" ] },
-      { "x": 0, "y": -1, "parts": [ "hdframe_vertical", "hddoor" ] },
-      { "x": 0, "y": 3, "parts": [ "hdframe_vertical", "hddoor" ] },
-      { "x": -2, "y": 1, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
-      { "x": -2, "y": 0, "parts": [ "hdframe_vertical_2", "cargo_space", "roof_cloth" ] },
-      { "x": -2, "y": 2, "parts": [ "hdframe_vertical_2", "cargo_space", "roof_cloth" ] },
-      { "x": -2, "y": -1, "parts": [ "hdframe_vertical", "clothboard_vertical", "roof_cloth" ] },
-      { "x": -2, "y": 3, "parts": [ "hdframe_vertical", "clothboard_vertical", "roof_cloth" ] },
-      { "x": 1, "y": 1, "parts": [ "hdframe_horizontal", "windshield" ] },
-      { "x": 1, "y": 0, "parts": [ "hdframe_horizontal", "windshield" ] },
-      { "x": 1, "y": 2, "parts": [ "hdframe_horizontal", "windshield" ] },
-      { "x": 1, "y": -1, "parts": [ "hdframe_vertical", "windshield" ] },
-      { "x": 1, "y": 3, "parts": [ "hdframe_vertical", "windshield" ] },
-      { "x": -3, "y": 1, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
-      { "x": -3, "y": 0, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
-      { "x": -3, "y": 2, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
-      {
-        "x": -3,
-        "y": -1,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
-      },
-      {
-        "x": -3,
-        "y": 3,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
-      },
-      {
-        "x": 2,
-        "y": 1,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "diesel_engine_v12", "alternator_truck", "battery_car" ]
-      },
-      { "x": 2, "y": 0, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "headlight_reinforced" ] },
-      { "x": 2, "y": 2, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "headlight_reinforced" ] },
-      {
-        "x": 2,
-        "y": -1,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_nw", "wheel_mount_medium_steerable", "wheel_wide" ]
-      },
-      {
-        "x": 2,
-        "y": 3,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_ne", "wheel_mount_medium_steerable", "wheel_wide" ]
-      },
-      { "x": -4, "y": 1, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
-      { "x": -4, "y": 0, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
-      { "x": -4, "y": 2, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
-      {
-        "x": -4,
-        "y": -1,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
-      },
-      {
-        "x": -4,
-        "y": 3,
-        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
-      },
-      { "x": 3, "y": 1, "parts": [ "frame_horizontal_2" ] },
-      { "x": 3, "y": 0, "parts": [ "frame_horizontal_2" ] },
-      { "x": 3, "y": 2, "parts": [ "frame_horizontal_2" ] },
-      { "x": -5, "y": 1, "parts": [ "hdframe_horizontal", "door_shutter", "roof_cloth" ] },
-      { "x": -5, "y": 0, "parts": [ "hdframe_horizontal", "door_shutter", "roof_cloth" ] },
-      { "x": -5, "y": 2, "parts": [ "hdframe_horizontal", "door_shutter", "roof_cloth" ] },
-      { "x": -5, "y": -1, "parts": [ "hdframe_vertical", "clothboard_sw", "roof_cloth" ] },
-      { "x": -5, "y": 3, "parts": [ "hdframe_vertical", "clothboard_se", "roof_cloth" ] }
-    ],
+    "name": "Gun Runners' Heavy Duty Cargo Truck",
     "items": [
-      { "x": 0, "y": 0, "chance": 6, "items": [ "vodka" ] },
-      { "x": 0, "y": 1, "chance": 2, "items": [ "ax" ] },
-      { "x": 0, "y": 2, "chance": 2, "items": [ "jumper_cable" ] },
-      { "x": 0, "y": 0, "chance": 100, "magazine": 100, "ammo": 100, "item_groups": [ "guns_smg_fallout_rare" ] },
+      { "y": 0, "x": 0, "chance": 6, "items": [ "vodka" ] },
+      { "y": 1, "x": 0, "chance": 2, "items": [ "ax" ] },
+      { "y": 2, "x": 0, "chance": 2, "items": [ "jumper_cable" ] },
+      { "chance": 100, "magazine": 100, "y": 0, "x": 0, "item_groups": [ "guns_smg_fallout_rare" ], "ammo": 100 },
       {
-        "x": -2,
         "y": 2,
+        "x": -2,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -2,
-        "y": 2,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 2,
+        "x": -2,
         "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -2,
-        "y": 2,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 2,
+        "x": -2,
         "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -2,
         "y": 2,
+        "x": -2,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -2,
         "y": 0,
+        "x": -2,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -2,
-        "y": 0,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 0,
+        "x": -2,
         "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
+        "repeat": [ 1, 2 ],
+        "chance": 90,
+        "magazine": 100,
+        "y": 0,
         "x": -2,
-        "y": 0,
-        "chance": 90,
-        "magazine": 100,
-        "ammo": 50,
         "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
+        "y": 0,
         "x": -2,
-        "y": 0,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -3,
         "y": 2,
+        "x": -3,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -3,
-        "y": 2,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 2,
+        "x": -3,
         "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -3,
-        "y": 2,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 2,
+        "x": -3,
         "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -3,
         "y": 2,
+        "x": -3,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -3,
         "y": 0,
+        "x": -3,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -3,
-        "y": 0,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 0,
+        "x": -3,
         "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
+        "repeat": [ 1, 2 ],
+        "chance": 90,
+        "magazine": 100,
+        "y": 0,
         "x": -3,
-        "y": 0,
-        "chance": 90,
-        "magazine": 100,
-        "ammo": 50,
         "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
+        "y": 0,
         "x": -3,
-        "y": 0,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -4,
         "y": 2,
+        "x": -4,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -4,
-        "y": 2,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 2,
+        "x": -4,
         "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -4,
-        "y": 2,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 2,
+        "x": -4,
         "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -4,
         "y": 2,
+        "x": -4,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -4,
         "y": 0,
+        "x": -4,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       },
       {
-        "x": -4,
-        "y": 0,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 0,
+        "x": -4,
         "item_groups": [ "guns_pistol_fallout_common", "guns_rifle_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -4,
-        "y": 0,
+        "repeat": [ 1, 2 ],
         "chance": 90,
         "magazine": 100,
-        "ammo": 50,
+        "y": 0,
+        "x": -4,
         "item_groups": [ "guns_shotgun_fallout_common", "guns_smg_fallout_common" ],
-        "repeat": [ 1, 2 ]
+        "ammo": 50
       },
       {
-        "x": -4,
         "y": 0,
+        "x": -4,
         "chance": 100,
         "item_groups": [ "ammo_pistol_fallout_common", "ammo_shotgun_fallout", "ammo_rifle_fallout_common", "ammo_heavy_fallout" ],
         "repeat": [ 1, 20 ]
       }
-    ]
+    ],
+    "parts": [
+      { "y": 3, "x": 1, "parts": [ "hdframe_vertical", "windshield" ] },
+      { "y": 0, "x": -1, "parts": [ "hdframe_horizontal", "windshield" ] },
+      {
+        "y": -1,
+        "x": -3,
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
+      },
+      {
+        "y": 1,
+        "x": 2,
+        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "diesel_engine_v12", "alternator_truck", "battery_car" ]
+      },
+      { "y": 2, "x": -4, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
+      {
+        "y": 0,
+        "x": 0,
+        "parts": [ "hdframe_vertical_2", "seat", "tank", "seatbelt", "hdroof", "controls", "dashboard", "vehicle_clock", "horn_big" ]
+      },
+      { "y": 2, "x": -1, "parts": [ "hdframe_horizontal", "windshield" ] },
+      {
+        "y": 3,
+        "x": -3,
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
+      },
+      { "y": 3, "x": 0, "parts": [ "hdframe_vertical", "hddoor" ] },
+      { "y": -1, "x": 1, "parts": [ "hdframe_vertical", "windshield" ] },
+      { "y": 0, "x": -2, "parts": [ "hdframe_vertical_2", "cargo_space", "roof_cloth" ] },
+      { "y": 2, "x": 1, "parts": [ "hdframe_horizontal", "windshield" ] },
+      { "y": 3, "x": -2, "parts": [ "hdframe_vertical", "clothboard_vertical", "roof_cloth" ] },
+      { "y": 1, "x": -1, "parts": [ "hdframe_vertical_2", "windshield" ] },
+      { "y": 1, "x": -5, "parts": [ "hdframe_horizontal", "door_shutter", "roof_cloth" ] },
+      {
+        "y": 3,
+        "x": -4,
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
+      },
+      { "y": 0, "x": 3, "parts": [ "frame_horizontal_2" ] },
+      { "y": 2, "x": -3, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
+      { "y": -1, "x": -5, "parts": [ "hdframe_vertical", "clothboard_sw", "roof_cloth" ] },
+      { "y": -1, "x": -2, "parts": [ "hdframe_vertical", "clothboard_vertical", "roof_cloth" ] },
+      { "y": 1, "x": 1, "parts": [ "hdframe_horizontal", "windshield" ] },
+      { "y": 0, "x": -5, "parts": [ "hdframe_horizontal", "door_shutter", "roof_cloth" ] },
+      { "y": 2, "x": 3, "parts": [ "frame_horizontal_2" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_vertical_2", "cargo_space", "roof_cloth" ] },
+      { "y": -1, "x": -1, "parts": [ "hdframe_vertical", "hdhalfboard_sw", "muffler" ] },
+      {
+        "y": -1,
+        "x": 2,
+        "parts": [ "hdframe_horizontal", "hdhalfboard_nw", "wheel_mount_medium_steerable", "wheel_wide" ]
+      },
+      { "y": 1, "x": -2, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
+      { "y": 1, "x": -3, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
+      {
+        "y": 3,
+        "x": 2,
+        "parts": [ "hdframe_horizontal", "hdhalfboard_ne", "wheel_mount_medium_steerable", "wheel_wide" ]
+      },
+      { "y": 0, "x": -4, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
+      { "y": 0, "x": 1, "parts": [ "hdframe_horizontal", "windshield" ] },
+      { "y": 3, "x": -5, "parts": [ "hdframe_vertical", "clothboard_se", "roof_cloth" ] },
+      { "y": 1, "x": 0, "parts": [ "hdframe_vertical_2", "seat", "tank", "seatbelt", "hdroof" ] },
+      {
+        "y": -1,
+        "x": -4,
+        "parts": [ "hdframe_horizontal", "clothboard_vertical", "wheel_mount_medium", "wheel_wide", "roof_cloth" ]
+      },
+      { "y": 3, "x": -1, "parts": [ "hdframe_vertical", "hdhalfboard_se", "muffler" ] },
+      { "y": 1, "x": 3, "parts": [ "frame_horizontal_2" ] },
+      { "y": 2, "x": 2, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "headlight_reinforced" ] },
+      { "y": 0, "x": -3, "parts": [ "hdframe_horizontal", "cargo_space", "roof_cloth" ] },
+      { "y": 0, "x": 2, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "headlight_reinforced" ] },
+      { "y": 1, "x": -4, "parts": [ "hdframe_horizontal", "wooden_aisle_vertical", "roof_cloth" ] },
+      { "y": -1, "x": 0, "parts": [ "hdframe_vertical", "hddoor" ] },
+      { "y": 2, "x": -5, "parts": [ "hdframe_horizontal", "door_shutter", "roof_cloth" ] },
+      { "y": 2, "x": 0, "parts": [ "hdframe_vertical_2", "seat", "tank", "seatbelt", "hdroof" ] }
+    ],
+    "type": "vehicle",
+    "id": "gunrunner_deliverytruck"
   }
 ]

@@ -1,14 +1,12 @@
 [
   {
-    "id": "pizza_drone",
-    "type": "vehicle",
-    "name": "Pizza Drone",
     "blueprint": [
       [ "o--o" ],
       [ "'&'|" ],
       [ "'o'|" ],
       [ "o+-o" ]
     ],
+    "name": "Pizza Drone",
     "items": [ { "y": 1, "x": 0, "chance": 50, "item_groups": [ "pizza_delivery" ] } ],
     "parts": [
       { "y": 1, "x": 0, "parts": [ "frame_vertical_2", "insulated_box", "roof" ] },
@@ -46,6 +44,8 @@
       { "y": 0, "x": 1, "parts": [ "frame_horizontal", "windshield" ] },
       { "y": -1, "x": 1, "parts": [ "frame_vertical", "windshield" ] },
       { "y": 2, "x": 0, "parts": [ "frame_vertical", "door" ] }
-    ]
+    ],
+    "type": "vehicle",
+    "id": "pizza_drone"
   }
 ]
