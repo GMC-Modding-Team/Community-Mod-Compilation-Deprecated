@@ -17,7 +17,7 @@
       { "item": "essence_dull", "charges": [ 1, 95 ] }
     ],
     "requirements": {
-      ": { "skills": [ [ "mechanics", 5 ], [ "electronics", 3 ], [ "magic", 6 ] ] },
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 3 ], [ "magic", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ], [ "magic", 5 ] ] }
     },
     "description": "An experimental energy weapon that fires bolts of anomalous energy that leap from target to target, leaving burning plasma in its erratic wake.  Inefficient but highly destructive if used in a target-rich environment."
@@ -40,7 +40,7 @@
       { "item": "essence_dull", "charges": [ 1, 160 ] }
     ],
     "requirements": {
-      ": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ], [ "magic", 7 ] ] },
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ], [ "magic", 7 ] ] },
       "removal": { "skills": [ [ "mechanics", 5 ], [ "magic", 6 ] ] }
     },
     "description": "A heavy-duty experimental rifle, that exploits otherworldly energy to create highly-destructive beams of supernatural energy.  Powerful, but robots and some anomalous monsters are immune to its effects.  Requires crystallized essence and electricity to fire, and may tear holes in The Veil with each shot."
@@ -72,7 +72,7 @@
       { "item": "essence_dull", "count": [ 50, 100 ] }
     ],
     "requirements": {
-      ": {
+      "install": {
         "skills": [ [ "mechanics", 4 ], [ "electronics", 3 ], [ "magic", 5 ] ],
         "time": "60 m",
         "using": [ [ "vehicle_bolt", 1 ] ]
@@ -110,7 +110,7 @@
     "item": "essence_surge_generator_item",
     "location": "fuel_source",
     "requirements": {
-      ": {
+      "install": {
         "skills": [ [ "mechanics", 5 ], [ "electronics", 4 ], [ "magic", 6 ] ],
         "time": "60 m",
         "using": [ [ "welding_standard", 5 ] ]
