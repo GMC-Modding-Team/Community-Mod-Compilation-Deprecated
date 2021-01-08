@@ -2,7 +2,6 @@
   {
     "id": "arcana_item_athame_sanguine_art",
     "type": "SPELL",
-    "//": "Todo: add a difficulty of 1 and remove no-failure from the item's action, if it turns out that skill reasonably reduces an unleveled spell's failure rate to be feasible, when spell skill is no longer hardcoded.",
     "name": { "str": "Sanguine Art" },
     "description": "Prepares a ritual to turn part of your life force into a usable form of essence.  Doing so will take 5 minutes, inflicting blood loss and damage at the end, as well as potential consequences if overused...",
     "message": "You work a ritual to draw power from your own blood, instinct guiding your hand as you trace patterns across your skin with the dull blade.  As you work the last rune, the only one to actually break the skin, wounds open elsewhere on your body!",
@@ -16,8 +15,8 @@
     "effect_str": "bleed",
     "effect": "attack",
     "shape": "blast",
-    "base_casting_time": 60000,
-    "final_casting_time": 60000,
+    "base_casting"install_time": 60000,
+    "final_casting"install_time": 60000,
     "energy_source": "FATIGUE",
     "base_energy_cost": 20,
     "final_energy_cost": 20,
@@ -42,6 +41,35 @@
     "max_duration": 17280000
   },
   {
+    "type": "SPELL",
+    "id": "arcana_item_brooch_iridescent_empowered",
+    "name": { "str": "Guard And Guide" },
+    "description": "Grants the recovery effect to the user.",
+    "valid_targets": [ "self" ],
+    "message": "A burst of protective magic radiates from the brooch!",
+    "effect": "spawn_item",
+    "shape": "blast",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "effect_str": "halo_brooch_effect",
+    "extra_effects": [ { "id": "arcana_item_brooch_iridescent_empowered_fatigue", "hit_self": true } ],
+    "min_duration": 108000,
+    "max_duration": 108000
+  },
+  {
+    "id": "arcana_item_brooch_iridescent_empowered_fatigue",
+    "type": "SPELL",
+    "name": { "str": "Guard And Guide Fatigue" },
+    "description": "And this makes it cost as much fatigue as it would cost if this were a Magic Sign at SL 5.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": -88,
+    "max_damage": -88,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "FATIGUE"
+  },
+  {
     "id": "arcana_item_chalice_offering",
     "type": "SPELL",
     "//": "Todo: add a difficulty of 3 and remove no-failure from the item's action, if it turns out that skill reasonably reduces an unleveled spell's failure rate to be feasible, when spell skill is no longer hardcoded.",
@@ -63,8 +91,8 @@
     "min_damage": 8,
     "max_damage": 10,
     "damage_type": "pure",
-    "base_casting_time": 90000,
-    "final_casting_time": 90000,
+    "base_casting"install_time": 90000,
+    "final_casting"install_time": 90000,
     "energy_source": "FATIGUE",
     "base_energy_cost": 60,
     "final_energy_cost": 60
@@ -96,6 +124,72 @@
     "shape": "blast",
     "min_duration": 17280000,
     "max_duration": 17280000
+  },
+  {
+    "type": "SPELL",
+    "id": "arcana_item_charm_bone_empowered",
+    "name": { "str": "Stunning Blast" },
+    "description": "Blasts nearby targets for heavy damage.",
+    "valid_targets": [ "ally", "hostile" ],
+    "message": "A powerful blast of energy radiates from the charm!",
+    "extra_effects": [
+      { "id": "arcana_item_charm_bone_empowered_spike", "hit_self": false },
+      { "id": "arcana_item_charm_bone_empowered_paralyze", "hit_self": false },
+      { "id": "arcana_item_charm_bone_empowered_fatigue", "hit_self": true }
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "min_damage": 48,
+    "max_damage": 48,
+    "damage_type": "heat",
+    "min_aoe": 8,
+    "max_aoe": 8
+  },
+  {
+    "type": "SPELL",
+    "id": "arcana_item_charm_bone_empowered_spike",
+    "name": { "str": "Stunning Blast Spike" },
+    "description": "Doubles the damage for enemies that are close enough.",
+    "valid_targets": [ "ally", "hostile" ],
+    "message": "",
+    "effect": "attack",
+    "shape": "blast",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "min_damage": 48,
+    "max_damage": 48,
+    "damage_type": "heat",
+    "min_aoe": 2,
+    "max_aoe": 2
+  },
+  {
+    "id": "arcana_item_charm_bone_empowered_paralyze",
+    "type": "SPELL",
+    "name": { "str": "Stunning Blast Paralysis" },
+    "description": "This makes the enemies brain-zapped for once!",
+    "valid_targets": [ "ally", "hostile" ],
+    "message": "",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "effect": "mod_moves",
+    "shape": "blast",
+    "min_damage": -2200,
+    "max_damage": -2200,
+    "min_aoe": 8,
+    "max_aoe": 8
+  },
+  {
+    "id": "arcana_item_charm_bone_empowered_fatigue",
+    "type": "SPELL",
+    "name": { "str": "Stunning Blast Fatigue" },
+    "description": "And this makes it cost as much fatigue as it would cost if this were a Magic Sign at SL 5.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": -48,
+    "max_damage": -48,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_coalescent_conversion",
@@ -237,6 +331,35 @@
     "max_duration": 400
   },
   {
+    "type": "SPELL",
+    "id": "arcana_item_amulet_exotic_empowered",
+    "name": { "str": "Hidden Aura" },
+    "description": "Spawns the item needed to make the effects work.",
+    "valid_targets": [ "self" ],
+    "message": "A strange pulse from the amulet courses through your body!",
+    "effect": "spawn_item",
+    "shape": "blast",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "effect_str": "halo_amulet_effect",
+    "extra_effects": [ { "id": "arcana_item_amulet_exotic_empowered_fatigue", "hit_self": true } ],
+    "min_duration": 90000,
+    "max_duration": 90000
+  },
+  {
+    "id": "arcana_item_amulet_exotic_empowered_fatigue",
+    "type": "SPELL",
+    "name": { "str": "Hidden Aura Fatigue" },
+    "description": "And this makes it cost as much fatigue as it would cost if this were a Magic Sign at SL 5.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": -72,
+    "max_damage": -72,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "FATIGUE"
+  },
+  {
     "id": "arcana_item_generate_blood_essence",
     "type": "SPELL",
     "name": { "str": "Generate Blood Essence" },
@@ -319,7 +442,8 @@
       "mon_hunting_horror_summoned",
       "mon_shadow_summoned",
       "mon_shadow_summoned_fake",
-      "mon_shadow_snake_summoned"
+      "mon_shadow_snake_summoned",
+      "mon_shadow_snake_summoned_fake"
     ],
     "flags": [ "RANDOM_DAMAGE", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS", "SILENT" ],
     "effect_str": "dazed",
@@ -346,6 +470,28 @@
     "min_duration": 100,
     "max_duration": 300,
     "field_id": "fd_dazzling",
+    "field_chance": 1,
+    "min_field_intensity": 1,
+    "max_field_intensity": 1
+  },
+  {
+    "id": "arcana_item_immolate",
+    "type": "SPELL",
+    "name": { "str": "Immolate" },
+    "description": "Blast a nearby target with fire.",
+    "message": "The talisman burns away, loosing a bolt of flame!",
+    "effect": "attack",
+    "shape": "blast",
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "min_damage": 15,
+    "max_damage": 15,
+    "damage_type": "heat",
+    "min_range": 5,
+    "max_range": 5,
+    "base_casting"install_time": 5,
+    "final_casting"install_time": 5,
+    "field_id": "fd_fire",
     "field_chance": 1,
     "min_field_intensity": 1,
     "max_field_intensity": 1
@@ -383,6 +529,20 @@
     "effect": "recover_energy",
     "shape": "blast",
     "effect_str": "PAIN"
+  },
+  {
+    "id": "arcana_item_mana_potion",
+    "type": "SPELL",
+    "name": { "str": "Mana Boost" },
+    "description": "Restores 120 mana.",
+    "valid_targets": [ "self" ],
+    "message": "You drink the potion and feel magical energy flowing through you.",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": 1200,
+    "max_damage": 1200,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "MANA"
   },
   {
     "id": "arcana_item_mantle_shadow",
@@ -532,9 +692,9 @@
     ],
     "message": "You look deep into the orb, and see a vision of the surrounding area hidden among headache-inducing geometries.",
     "flags": [ "NO_HANDS", "NO_LEGS" ],
-    "min_aoe": 24,
-    "max_aoe": 24,
-    "base_casting_time": 100
+    "min_aoe": 30,
+    "max_aoe": 30,
+    "base_casting"install_time": 100
   },
   {
     "id": "arcana_item_orb_veil_revelation",
@@ -547,8 +707,8 @@
     "effect": "attack",
     "shape": "blast",
     "effect_str": "spell_revelation",
-    "min_duration": 30000,
-    "max_duration": 90000
+    "min_duration": 600000,
+    "max_duration": 600000
   },
   {
     "id": "arcana_item_orb_veil_attention",
@@ -828,7 +988,7 @@
     "message": "Vermin slither out from the earth at your feet, heeding your call.",
     "extra_effects": [ { "id": "arcana_item_pestilence_aftereffect", "hit_self": false } ],
     "valid_targets": [ "ground" ],
-    "flags": [ "RANDOM_DAMAGE", "RANDOM_DURATION", "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "flags": [ "RANDOM_DAMAGE", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "summon",
     "shape": "blast",
     "effect_str": "mon_centipede_giant_summoned",
@@ -836,8 +996,8 @@
     "max_damage": 3,
     "min_aoe": 3,
     "max_aoe": 3,
-    "min_duration": 900000,
-    "max_duration": 7200000
+    "min_duration": 1800000,
+    "max_duration": 1800000
   },
   {
     "id": "arcana_item_pestilence_aftereffect",
@@ -854,6 +1014,35 @@
     "max_damage": 4,
     "min_aoe": 6,
     "max_aoe": 6
+  },
+  {
+    "type": "SPELL",
+    "id": "arcana_item_triffid_garland_empowered",
+    "name": { "str": "Verdant Boost" },
+    "description": "Grants the recovery effect to the user.",
+    "valid_targets": [ "self" ],
+    "message": "A surge of energy flows through you from the garland!",
+    "effect": "attack",
+    "shape": "blast",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "effect_str": "triffid_garland_buff",
+    "extra_effects": [ { "id": "arcana_item_triffid_garland_empowered_fatigue", "hit_self": true } ],
+    "min_duration": 84000,
+    "max_duration": 84000
+  },
+  {
+    "id": "arcana_item_triffid_garland_empowered_fatigue",
+    "type": "SPELL",
+    "name": { "str": "Verdant Boost" },
+    "description": "And this makes it cost as much fatigue as it would cost if this were a Magic Sign at SL 5.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": -56,
+    "max_damage": -56,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "FATIGUE"
   },
   {
     "type": "SPELL",
@@ -1070,8 +1259,8 @@
     "field_chance": 1,
     "min_field_intensity": 1,
     "max_field_intensity": 1,
-    "min_duration": 450000,
-    "max_duration": 3600000
+    "min_duration": 600000,
+    "max_duration": 600000
   },
   {
     "id": "arcana_item_scroll_moon_blind",
@@ -1093,15 +1282,15 @@
     "type": "SPELL",
     "id": "arcana_item_scroll_moon_event",
     "name": { "str": "Divine Scroll: Moon Event" },
-    "description": "This adds 30 minutes of darkness.",
+    "description": "This adds 100 minutes of darkness.",
     "message": "",
     "valid_targets": [ "self" ],
     "flags": [ "NO_HANDS", "NO_LEGS" ],
     "effect": "timed_event",
     "shape": "blast",
     "effect_str": "dim",
-    "min_duration": 180000,
-    "max_duration": 180000
+    "min_duration": 600000,
+    "max_duration": 600000
   },
   {
     "id": "arcana_item_scroll_nature",
@@ -1222,8 +1411,8 @@
     "max_damage": 8,
     "min_aoe": 5,
     "max_aoe": 5,
-    "min_duration": 8640000,
-    "max_duration": 8640000,
+    "min_duration": 1500000,
+    "max_duration": 1500000,
     "flags": [ "RANDOM_DAMAGE", "HOSTILE_SUMMON", "PERMANENT", "SILENT", "NO_HANDS", "NO_LEGS" ]
   },
   {
@@ -1257,8 +1446,8 @@
     "shape": "blast",
     "min_aoe": 24,
     "max_aoe": 24,
-    "min_duration": 300000,
-    "max_duration": 2400000,
+    "min_duration": 600000,
+    "max_duration": 600000,
     "field_id": "fd_veil_light",
     "field_chance": 1,
     "min_field_intensity": 3,
@@ -1282,15 +1471,15 @@
     "type": "SPELL",
     "id": "arcana_item_scroll_sun_event",
     "name": { "str": "Divine Scroll: Sun Event" },
-    "description": "This adds 30 minutes of sunlight.",
+    "description": "This adds 100 minutes of sunlight.",
     "valid_targets": [ "self" ],
     "message": "",
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "timed_event",
     "shape": "blast",
     "effect_str": "artifact_light",
-    "min_duration": 180000,
-    "max_duration": 180000
+    "min_duration": 600000,
+    "max_duration": 600000
   },
   {
     "id": "arcana_item_scroll_sun_timewarp",
@@ -1304,20 +1493,6 @@
     "shape": "blast",
     "min_damage": 400,
     "max_damage": 1600
-  },
-  {
-    "id": "arcana_item_somen_clairvoyance",
-    "type": "SPELL",
-    "name": { "str": "Hunter's True Sight" },
-    "description": "This is needed to make it grant the proper effects of the mask of insight.",
-    "valid_targets": [ "self" ],
-    "message": "The mask briefly contorts into a fearsome visage, the eyeholes seeming to glow as a strange perception replaces your natural vision.",
-    "flags": [ "NO_HANDS", "NO_LEGS" ],
-    "effect": "spawn_item",
-    "shape": "blast",
-    "effect_str": "halo_insight",
-    "min_duration": 40000,
-    "max_duration": 40000
   },
   {
     "id": "arcana_item_spatial_displacement",
@@ -1384,7 +1559,7 @@
     "flags": [ "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
     "effect": "attack",
     "shape": "blast",
-    "effect_str": "taint",
+    "effect_str": "hallu",
     "min_duration": 12000,
     "max_duration": 24000
   },
@@ -1476,8 +1651,8 @@
     "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
     "min_range": 2,
     "max_range": 2,
-    "base_casting_time": 80,
-    "final_casting_time": 80,
+    "base_casting"install_time": 80,
+    "final_casting"install_time": 80,
     "energy_source": "FATIGUE",
     "base_energy_cost": 18,
     "final_energy_cost": 18,
@@ -1485,6 +1660,35 @@
     "field_chance": 1,
     "min_field_intensity": 1,
     "max_field_intensity": 1
+  },
+  {
+    "type": "SPELL",
+    "id": "arcana_item_stinger_flute_empowered",
+    "name": { "str": "Elusive Enhancement" },
+    "description": "Spawns the item needed to make the effects work.",
+    "valid_targets": [ "self" ],
+    "message": "A jolt of energy arcs through your body from the flute!",
+    "effect": "spawn_item",
+    "shape": "blast",
+    "flags": [ "NO_HANDS", "NO_LEGS", "SILENT" ],
+    "effect_str": "halo_flute_effect",
+    "extra_effects": [ { "id": "arcana_item_amulet_exotic_empowered_fatigue", "hit_self": true } ],
+    "min_duration": 96000,
+    "max_duration": 96000
+  },
+  {
+    "id": "arcana_item_stinger_flute_empowered_fatigue",
+    "type": "SPELL",
+    "name": { "str": "Elusive Enhancement Fatigue" },
+    "description": "And this makes it cost as much fatigue as it would cost if this were a Magic Sign at SL 5.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": -80,
+    "max_damage": -80,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_pet",
@@ -1521,8 +1725,8 @@
     "effect_str": "pet",
     "min_aoe": 5,
     "max_aoe": 5,
-    "base_casting_time": 5,
-    "final_casting_time": 5,
+    "base_casting"install_time": 5,
+    "final_casting"install_time": 5,
     "//": "200 days, since the permanent spell flag doesn't seem to actually work for this.",
     "min_duration": 1728000000,
     "max_duration": 1728000000
@@ -1561,8 +1765,8 @@
     "effect_str": "talisman_pet_buff",
     "min_aoe": 5,
     "max_aoe": 5,
-    "base_casting_time": 5,
-    "final_casting_time": 5,
+    "base_casting"install_time": 5,
+    "final_casting"install_time": 5,
     "min_duration": 8640000,
     "max_duration": 8640000
   },

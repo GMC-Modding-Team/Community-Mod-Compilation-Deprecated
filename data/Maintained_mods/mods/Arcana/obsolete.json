@@ -1,736 +1,1265 @@
 [
   {
-    "id": "veilblade_on",
-    "type": "TOOL",
-    "category": "weapons",
-    "//": "By necessity, can't copy from the base items that have built-in use actions from their qualities.",
-    "name": { "str": "restored ritual blade (on)", "str_pl": "restored ritual blades (on)" },
-    "description": "A two-handed sword richly engraved with exotic runes, all in scripts not of this world.  He From Beyond The Veil, accept this offering...",
-    "weight": "2858 g",
-    "volume": "3250 ml",
-    "longest_length": "1500 mm",
-    "price": 9000000,
-    "price_postapoc": 15000,
-    "to_hit": 2,
-    "bashing": 18,
-    "cutting": 100,
-    "material": [ "superalloy", "essencemat" ],
-    "symbol": "/",
-    "color": "light_gray",
-    "ammo": [ "essence_pure_type" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "essence_pure_type": 1 } } ],
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "revert_to": "veilblade",
-    "use_action": { "type": "mutagen_iv", "mutation_category": "VEIL" },
-    "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "REGEN_MANA", "multiply": 0.5 } ] } ]
-    },
-    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-    "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "MAGIC_FOCUS", "NONCONDUCTIVE" ]
+    "type": "mutation",
+    "id": "SPELL_AGILE_2",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility II" }
   },
   {
-    "id": "hexenhammer_active",
-    "type": "TOOL",
-    "category": "weapons",
-    "//": "Just in case hammering gets an inbuilt quality, no copy-from.",
-    "name": { "str": "glowing hammer of the hunter", "str_pl": "glowing hammers of the hunter" },
-    "description": "A warhammer inlaid with silver, engraved with religious invocations in an archaic form of Latin.  It is giving off a bright golden glow, soon to be brighter still.",
-    "weight": "1697 g",
-    "volume": "1250 ml",
-    "price": 80000,
-    "price_postapoc": 4500,
-    "to_hit": 1,
-    "bashing": 22,
-    "cutting": 20,
-    "material": [ "iron", "silver", "wood" ],
-    "symbol": "/",
-    "looks_like": "warhammer",
-    "color": "brown",
-    "ammo": [ "essence_dull_type" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "essence_dull_type": 1 } } ],
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "revert_to": "hexenhammer",
-    "techniques": [ "BRUTAL" ],
-    "use_action": { "type": "explosion", "do_flashbang": true, "no_deactivate_msg": "\"Du nicht kÃ¶nnen halt Hammerzeit.\"" },
-    "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "arcana_react_hammer_wonder" } ] } ]
-    },
-    "flags": [ "DURABLE_MELEE", "SPEAR", "NONCONDUCTIVE", "LIGHT_15", "NO_SALVAGE" ]
+    "type": "mutation",
+    "id": "SPELL_AGILE_3",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility III" }
   },
   {
-    "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_2" ],
-    "weight": 250,
-    "object": {
-      "rows": [
-        ",~~~~,,,,,,,,,,,,,,,,,,,",
-        "g~~~~~~~~~~~~~~,,,,,,,,,",
-        "g;;;~~~~~~~~~~~~~~,,,,,,",
-        "g;;;;;;;;;;;;;~~~~~,,,,,",
-        "g;;;;;;;;;;;;;;;;~~~,,,,",
-        "g;;;;;;;;;;;;;;;;;~~~,,,",
-        "g;;;;;;;;;;;;;;;;;;~~~,,",
-        "g;;;;;;;;;;;;;;;;;;;~~,,",
-        "g;;;;;;;;;;;;;;;;;;;~~,,",
-        "g;;;;;;;;;;;;;;;;;;;~~~,",
-        "g;;;;;;;;;;;;;;;;;;;;~~,",
-        "g;;;;;;;;;;;;;;;;;;;;~~,",
-        "g~~~~;;;;;;;;;;;;;;;;~~,",
-        ",~~~~;;;;;;;;;;;;;;;;~~,",
-        ",,,~~~;;;;;;;;;;;;;;;~~,",
-        "-|,~~~;;;;;;;;;;;;;;;~~,",
-        "_+,,~~~~;;;;;;;;;;;;;~~,",
-        "_||,~~~~;;;;;;;;;;;;;~~,",
-        "_d|,,,~~~~;;;;;;;;;;;~~,",
-        "_h|-|,~~~~~~;;;;;;;;;~~,",
-        "____|,,,~~~~;;;;;;;;;~~~",
-        "x-|_|-|,,,~~;;;;;;;;;;~~",
-        "__|_hd|+|,~~;;;;;;;;;;~~",
-        ">_x_____|,,gggggggggggg,"
-      ],
-      "palettes": [ "arcana_palette" ],
-      "mapping": { "h": { "furniture": "f_chair", "items": { "item": "sanguine_cult_casualties", "chance": 30 } } },
-      "place_monsters": [ { "monster": "GROUP_IMPACT", "x": [ 9, 23 ], "y": [ 0, 14 ], "density": 0.1 } ]
-    }
+    "type": "mutation",
+    "id": "SPELL_AGILE_4",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility IV" }
   },
   {
-    "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_3" ],
-    "weight": 250,
-    "object": {
-      "fill_ter": "t_dirt",
-      "rows": [
-        ",gggggggggggg,,|_____x.>",
-        "~~;;;;;;;;;;~~,|+|dh_|__",
-        "~~;;;;;;;;;;~~,,,|-|_|-x",
-        "~~;;;;;;;;;;~~~~,,,|____",
-        "~~~;;;;;;;;;~~~~~~,|-|h_",
-        ",~~;;;;;;;;;;;~~~~,,,|d_",
-        ",~~;;;;;;;;;;;;;~~~~,||_",
-        ",~~;;;;;;;;;;;;;~~~~,,+_",
-        ",~~;;;;;;;;;;;;;;;~~~,|-",
-        ",~~;;;;;;;;;;;;;;;~~~,,,",
-        ",~~;;;;;;;;;;;;;;;;~~~~,",
-        ",~~;;;;;;;;;;;;;;;;~~~~g",
-        ",~~;;;;;;;;;;;;;;;;;;;;g",
-        ",~~;;;;;;;;;;;;;;;;;;;;g",
-        ",~~~;;;;;;;;;;;;;;;;;;;g",
-        ",,~~;;;;;;;;;;;;;;;;;;;g",
-        ",,~~;;;;;;;;;;;;;;;;;;;g",
-        ",,~~~;;;;;;;;;;;;;;;;;;g",
-        ",,,~~~;;;;;;;;;;;;;;;;;g",
-        ",,,,~~~;;;;;;;;;;;;;;;;g",
-        ",,,,,~~~~~;;;;;;;;;;;;;g",
-        ",,,,,,~~~~~~~~~~~~~~;;;g",
-        ",,,,,,,,,~~~~~~~~~~~~~~g",
-        ",,,,,,,,,,,,,,,,,,,~~~~,"
-      ],
-      "palettes": [ "arcana_palette" ],
-      "mapping": { "h": { "furniture": "f_chair", "items": { "item": "sanguine_cult_casualties", "chance": 30 } } },
-      "place_monsters": [ { "monster": "GROUP_IMPACT", "x": [ 0, 14 ], "y": [ 9, 23 ], "density": 0.1 } ]
-    }
+    "type": "mutation",
+    "id": "SPELL_AGILE_5",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility V" }
   },
   {
-    "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_4" ],
-    "weight": 250,
-    "object": {
-      "rows": [
-        ">_x_____|,,gggggggggggg,",
-        "__|_hd|+|,~~;;;;;;;;;;~~",
-        "x-|_|-|,,,~~;;;;;;;;;;~~",
-        "____|,,,~~~~;;;;;;;;;;~~",
-        "_h|-|,~~~~~~;;;;;;;;;~~~",
-        "_d|,,,~~~~;;;;;;;;;;;~~,",
-        "_||,~~~~;;;;;;;;;;;;;~~,",
-        "_+,,~~~~;;;;;;;;;;;;;~~,",
-        "-|,~~~;;;;;;;;;;;;;;;~~,",
-        ",,,~~~;;;;;;;;;;;;;;;~~,",
-        ",~~~~;;;;;;;;;;;;;;;;~~,",
-        "g~~~~;;;;;;;;;;;;;;;;~~,",
-        "g;;;;;;;;;;;;;;;;;;;;~~,",
-        "g;;;;;;;;;;;;;;;;;;;;~~,",
-        "g;;;;;;;;;;;;;;;;;;;~~~,",
-        "g;;;;;;;;;;;;;;;;;;;~~,,",
-        "g;;;;;;;;;;;;;;;;;;;~~,,",
-        "g;;;;;;;;;;;;;;;;;;~~~,,",
-        "g;;;;;;;;;;;;;;;;;~~~,,,",
-        "g;;;;;;;;;;;;;;;;~~~,,,,",
-        "g;;;;;;;;;;;;;~~~~~,,,,,",
-        "g;;;~~~~~~~~~~~~~~,,,,,,",
-        "g~~~~~~~~~~~~~~,,,,,,,,,",
-        ",~~~~,,,,,,,,,,,,,,,,,,,"
-      ],
-      "palettes": [ "arcana_palette" ],
-      "mapping": { "h": { "furniture": "f_chair", "items": { "item": "sanguine_cult_casualties", "chance": 30 } } },
-      "place_monsters": [ { "monster": "GROUP_IMPACT", "x": [ 9, 23 ], "y": [ 9, 23 ], "density": 0.1 } ]
-    }
+    "type": "mutation",
+    "id": "SPELL_AGILE_6",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility VI" }
   },
   {
-    "id": "spell_lockpick_lesser",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "category": "tools",
-    "name": { "str": "mote of artifice", "str_pl": "motes of artifice" },
-    "description": "A small, ethereal pinprick of energy barely the size of a marble.  It seems to waver in and out of existence with a perfectly regular pattern.  Using it can manipulate any mundane lock, to silently open the way.",
+    "type": "mutation",
+    "id": "SPELL_AGILE_7",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_AGILE_8",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_AGILE_9",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_AGILE_10",
+    "copy-from": "SPELL_AGILE",
+    "name": { "str": "Magic Sign: Agility X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_2",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_3",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_4",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_5",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_6",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_7",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_8",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_9",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLAIRVOYANCE_10",
+    "copy-from": "SPELL_CLAIRVOYANCE",
+    "name": { "str": "Magic Sign: Clairvoyance X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_2",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_3",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_4",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_5",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_6",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_7",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_8",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_9",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLARITY_10",
+    "copy-from": "SPELL_CLARITY",
+    "name": { "str": "Magic Sign: Clarity of Blood X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_2",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_3",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_4",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_5",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_6",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_7",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_8",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_9",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONFUSE_10",
+    "copy-from": "SPELL_CONFUSE",
+    "name": { "str": "Magic Sign: Confuse Monster X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_2",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_3",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_4",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_5",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_6",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_7",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_8",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_9",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ACID_10",
+    "copy-from": "SPELL_ACID",
+    "name": { "str": "Magic Sign: Conjure Acid X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_2",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_3",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_4",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_5",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_6",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_7",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_8",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_9",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CONSECRATELESSER_10",
+    "copy-from": "SPELL_CONSECRATELESSER",
+    "name": { "str": "Magic Sign: Consecrate X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_2",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_3",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_4",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_5",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_6",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_7",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_8",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_9",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ECLIPSE_10",
+    "copy-from": "SPELL_ECLIPSE",
+    "name": { "str": "Magic Sign: Eclipse X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_2",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_3",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_4",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_5",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_6",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_7",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_8",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_9",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELEMENTALBURST_10",
+    "copy-from": "SPELL_ELEMENTALBURST",
+    "name": { "str": "Magic Sign: Elemental Burst X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_2",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_3",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_4",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_5",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_6",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_7",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_8",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_9",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FLAMEARMOR_10",
+    "copy-from": "SPELL_FLAMEARMOR",
+    "name": { "str": "Magic Sign: Heat Ward X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_2",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_3",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_4",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_5",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_6",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_7",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_8",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_9",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FROSTARMORLESSER_10",
+    "copy-from": "SPELL_FROSTARMORLESSER",
+    "name": { "str": "Magic Sign: Cold Ward X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_2",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_3",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_4",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_5",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_6",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_7",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_8",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_9",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_FREEACTION_10",
+    "copy-from": "SPELL_FREEACTION",
+    "name": { "str": "Magic Sign: Free Action X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_2",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_3",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_4",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_5",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_6",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_7",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_8",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_9",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_HEAL_10",
+    "copy-from": "SPELL_HEAL",
+    "name": { "str": "Magic Sign: Healing X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_2",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_3",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_4",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_5",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_6",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_7",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_8",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_9",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_INSIGHT_10",
+    "copy-from": "SPELL_INSIGHT",
+    "name": { "str": "Magic Sign: Insight X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_2",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_3",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_4",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_5",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_6",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_7",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_8",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_9",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_ELECRESIST_10",
+    "copy-from": "SPELL_ELECRESIST",
+    "name": { "str": "Magic Sign: Lightning Ward X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_2",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_3",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_4",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_5",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_6",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_7",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_8",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_9",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_STRENGTH_10",
+    "copy-from": "SPELL_STRENGTH",
+    "name": { "str": "Magic Sign: Might X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_2",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_3",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_4",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_5",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_6",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_7",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_8",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_9",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_PLANTS_10",
+    "copy-from": "SPELL_PLANTS",
+    "name": { "str": "Magic Sign: Overgrowth X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_2",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_3",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_4",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_5",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_6",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_7",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_8",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_9",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SHADOWSNAKES_10",
+    "copy-from": "SPELL_SHADOWSNAKES",
+    "name": { "str": "Magic Sign: Serpentine Shield X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_2",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_3",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_4",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_5",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_6",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_7",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_8",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_9",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_LIGHTNING_10",
+    "copy-from": "SPELL_LIGHTNING",
+    "name": { "str": "Magic Sign: Shockstorm X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_2",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_3",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_4",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_5",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_6",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_7",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_8",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_9",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_BUGSLESSER_10",
+    "copy-from": "SPELL_BUGSLESSER",
+    "name": { "str": "Magic Sign: Summon Centipedes X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_2",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_3",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_4",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_5",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_6",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_7",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_8",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_9",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_SUNDERINGQUAKE_10",
+    "copy-from": "SPELL_SUNDERINGQUAKE",
+    "name": { "str": "Magic Sign: Sundering Quake X" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_2",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil II" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_3",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil III" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_4",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil IV" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_5",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil V" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_6",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil VI" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_7",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil VII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_8",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil VIII" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_9",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil IX" }
+  },
+  {
+    "type": "mutation",
+    "id": "SPELL_CLERIC_10",
+    "copy-from": "SPELL_CLERIC",
+    "name": { "str": "Magic Sign: Ward Against Evil X" }
+  },
+  {
+    "type": "clothing_mod",
+    "id": "arcana_acidchitin_weave",
+    "flag": "arcana_acidchitin_weave",
+    "item": "acidchitin_piece",
+    "implement_prompt": "Weave with biosilicified chitin",
+    "destroy_prompt": "Dispel biosilicified chitin weave",
+    "mod_value": [
+      { "type": "bash", "value": 0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 0.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "acid", "value": 0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "arcana_bone_weave",
+    "flag": "arcana_bone_weave",
+    "item": "skewer_bone",
+    "implement_prompt": "Weave with bone",
+    "destroy_prompt": "Dispel bone weave",
+    "mod_value": [
+      { "type": "bash", "value": 0.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "encumbrance", "value": -0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "arcana_chitin_weave",
+    "flag": "arcana_chitin_weave",
+    "item": "chitin_piece",
+    "implement_prompt": "Weave with chitin",
+    "destroy_prompt": "Dispel chitin weave",
+    "mod_value": [
+      { "type": "bash", "value": 0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "//": "ID retained for save compatibility, this only had to be changed since rocks had to be changed, so I had to pick something retaining the theme.",
+    "id": "arcana_clay_weave",
+    "flag": "arcana_clay_weave",
+    "item": "pine_bough",
+    "implement_prompt": "Weave with pine boughs",
+    "destroy_prompt": "Dispel pine bough weave",
+    "mod_value": [
+      { "type": "bash", "value": 0.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "fire", "value": 0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "//": "ID retained for save compatibility, rocks didn't work because they count as ammo, had to think up something that doesn't stack but would be thematically fitting.",
+    "id": "arcana_stone_weave",
+    "flag": "arcana_stone_weave",
+    "item": "birchbark",
+    "implement_prompt": "Weave with birchbark",
+    "destroy_prompt": "Dispel birchbark weave",
+    "mod_value": [
+      { "type": "bash", "value": 0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 0.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "fire", "value": 0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "arcana_wood_weave",
+    "flag": "arcana_wood_weave",
+    "item": "splinter",
+    "implement_prompt": "Weave with wood",
+    "destroy_prompt": "Dispel wood weave",
+    "mod_value": [
+      { "type": "bash", "value": 0.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 0.25, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "encumbrance", "value": -0.75, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "id": "arcana_acidchitin_weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by druidic magic, increasing its <good>protection</good> as well as <good>acid resistance</good>."
+  },
+  {
+    "id": "arcana_bone_weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by druidic magic, increasing its <good>protection</good> as well as reducing its <good>encumbrance</good>."
+  },
+  {
+    "id": "arcana_chitin_weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by druidic magic, increasing its <good>protection</good>."
+  },
+  {
+    "id": "arcana_clay_weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by druidic magic, increasing its <good>protection</good> as well as its <good>fire resistance</good>."
+  },
+  {
+    "id": "arcana_stone_weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by druidic magic, increasing its <good>protection</good> as well as its <good>fire resistance</good>."
+  },
+  {
+    "id": "arcana_wood_weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by druidic magic, increasing its <good>protection</good> as well as reducing its <good>encumbrance</good>."
+  },
+  {
+    "id": "candle_warding_special",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "shimmering candle" },
+    "description": "A simple candle, burning endlessly with unearthly flame.  It gives off a faintly soothing sensation yet no warmth, casting an brilliant glow throughout the room.  It seems to be firmly fixed in place by some unknown force.",
+    "weight": "100 g",
+    "volume": "250 ml",
     "material": [ "essencemat" ],
     "symbol": ",",
-    "color": "light_gray",
-    "stack_size": 1,
-    "qualities": [ [ "LOCKPICK", 5 ] ],
-    "flags": [ "NO_SALVAGE", "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_INGEST", "ZERO_WEIGHT" ],
-    "use_action": "PICK_LOCK",
-    "drop_action": { "type": "emit_actor" }
-  },
-  {
-    "id": "spell_lockpick",
-    "//": "ID retained since it's still useful.",
-    "copy-from": "spell_lockpick_lesser",
-    "type": "COMESTIBLE",
-    "name": { "str": "mote of greater artifice", "str_pl": "motes of greater artifice" },
-    "qualities": [ [ "LOCKPICK", 99 ] ],
-    "extend": { "flags": [ "PERFECT_LOCKPICK" ] },
-    "use_action": "PICK_LOCK"
-  },
-  {
-    "type": "GENERIC",
-    "id": "ash_clump",
-    "symbol": ",",
-    "color": "dark_gray",
-    "name": { "str": "ash clump" },
-    "looks_like": "charcoal",
-    "category": "other",
-    "description": "A small lump of charred ash, all that's left of a magic seal after expending its energy.  Useful if you need a handful of ashes, at least.",
-    "material": [ "powder_nonflam" ],
-    "weight": "50 g",
-    "volume": "82 ml",
-    "use_action": [ "DISASSEMBLE" ]
-  },
-  {
-    "result": "ash_clump",
-    "type": "uncraft",
-    "difficulty": 0,
-    "time": "1 s",
-    "components": [ [ [ "ash", 50 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "id": "arcana_mark_suppression",
-    "type": "SPELL",
-    "name": { "str": "Mark: Suppression" },
-    "description": "Sanguine Mark\nUsing this spell will anoint you with an obsidian halo, striking blind all who attack you.   It will also dull the fire within you, slowing your metabolism.",
-    "message": "You raise your hand, and the odd warmth within your body seems to burn less intensely.  %s!",
-    "valid_targets": [ "self" ],
-    "flags": [ "SOMATIC", "NO_HANDS", "NO_FAIL" ],
-    "extra_effects": [ { "id": "arcana_aftermath_suppression_buff", "hit_self": true, "max_level": 5 } ],
-    "effect": "spawn_item",
-    "shape": "blast",
-    "effect_str": "halo_dampening",
-    "energy_source": "HP",
-    "difficulty": 20,
-    "skill": "magic",
-    "max_level": 5,
-    "base_casting_time": 105,
-    "final_casting_time": 96,
-    "casting_time_increment": -1.8,
-    "base_energy_cost": 12,
-    "final_energy_cost": 9,
-    "energy_increment": -0.6,
-    "min_duration": 36000,
-    "max_duration": 60000,
-    "duration_increment": 4800
-  },
-  {
-    "id": "halo_dampening",
-    "copy-from": "spell_base",
-    "type": "ARMOR",
-    "name": { "str": "coral halo" },
-    "description": "A strange radiance permeating your body, dulling the effects of flame and radiation.",
-    "color": "light_gray",
-    "extend": { "flags": [ "ONLY_ONE" ] }
-  },
-  {
-    "id": "meteoric_talisman_on",
-    "copy-from": "meteoric_talisman",
-    "type": "TOOL_ARMOR",
-    "name": { "str": "meteoric talisman (active)", "str_pl": "meteoric talismans (active)" },
-    "description": "An ornate necklace with a small charm resembling a round shield, made from a hard iridescent metal.  A strange electric tingle permeates the air around it, hinting at its protective magic.  It grants immunity to lightning.",
-    "turns_per_charge": 30,
-    "revert_to": "meteoric_talisman",
-    "use_action": {
-      "target": "meteoric_talisman",
-      "msg": "The glow fades from the meteoric talisman, its protective magic fading with it.",
-      "type": "transform"
-    }
-  },
-  {
-    "id": "scroll_sun_on",
-    "copy-from": "scroll_sun",
-    "type": "TOOL",
-    "name": { "str": "divine scroll of light (active)", "str_pl": "divine scrolls of light (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_scroll_sun", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_moon_on",
-    "copy-from": "scroll_moon",
-    "type": "TOOL",
-    "name": { "str": "divine scroll of darkness (active)", "str_pl": "divine scrolls of darkness (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_scroll_moon", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_artiface_on",
-    "copy-from": "scroll_artiface",
-    "type": "TOOL",
-    "name": { "str": "divine scroll of command (active)", "str_pl": "divine scrolls of command (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_scroll_artifice", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_nature_on",
-    "copy-from": "scroll_nature",
-    "type": "TOOL",
-    "name": { "str": "divine scroll of regrowth (active)", "str_pl": "divine scrolls of regrowth (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_scroll_nature", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_destruction_on",
-    "copy-from": "scroll_destruction",
-    "type": "TOOL",
-    "name": { "str": "divine scroll of sundering (active)", "str_pl": "divine scrolls of sundering (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_scroll_destruction", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_subversion_on",
-    "copy-from": "scroll_subversion",
-    "type": "TOOL",
-    "name": { "str": "divine scroll of discord (active)", "str_pl": "divine scrolls of discord (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_item_scroll_subversion", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_sun_on",
-    "copy-from": "scroll_spell_sun",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (consecrate)", "str_pl": "pattern scrolls (consecrate)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_consecrate", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_moon_on",
-    "copy-from": "scroll_spell_moon",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (ward against cold)", "str_pl": "active pattern scrolls (ward against cold)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_frost_armor", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_artiface_on",
-    "copy-from": "scroll_spell_artiface",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (sundering quake)", "str_pl": "active pattern scrolls (sundering quake)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_sundering_quake", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_nature_on",
-    "copy-from": "scroll_spell_nature",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (elemental burst)", "str_pl": "active pattern scrolls (elemental burst)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_elemental_burst", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_destruction_on",
-    "copy-from": "scroll_spell_destruction",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (summon centipedes)", "str_pl": "active pattern scrolls (summon centipedes)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_summon_giant_centipedes", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_subversion_on",
-    "copy-from": "scroll_spell_subversion",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (eclipse)", "str_pl": "active pattern scrolls (eclipse)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_eclipse", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "totem_elecresist_on",
-    "copy-from": "totem_elecresist",
-    "type": "TOOL",
-    "name": { "str": "Amber Seal: Lightning Ward (active)", "str_pl": "Amber Seals: Lightning Ward (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_lightning_ward", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_cleric_on",
-    "copy-from": "totem_cleric",
-    "type": "TOOL",
-    "name": { "str": "Angelic Seal: Ward Against Evil (active)", "str_pl": "Angelic Seals: Ward Against Evil (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_ward_against_evil", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_agile_on",
-    "copy-from": "totem_agile",
-    "type": "TOOL",
-    "name": { "str": "Bone Seal: Agility (active)", "str_pl": "Bone Seals: Agility (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_agility", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_confusion_on",
-    "copy-from": "totem_confusion",
-    "type": "TOOL",
-    "name": { "str": "Chitinous Seal: Confuse Monsters (active)", "str_pl": "Chitinous Seals: Confuse Monsters (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_confuse_monster", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_strength_on",
-    "copy-from": "totem_strength",
-    "type": "TOOL",
-    "name": { "str": "Dagger Seal: Might (active)", "str_pl": "Dagger Seals: Might (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_might", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_clairvoyance_on",
-    "copy-from": "totem_clairvoyance",
-    "type": "TOOL",
-    "name": { "str": "Eternity Seal: Clairvoyance (active)", "str_pl": "Eternity Seals: Clairvoyance (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_clairvoyance", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_free_action_on",
-    "copy-from": "totem_free_action",
-    "type": "TOOL",
-    "name": { "str": "Indigo Seal: Free Action (active)", "str_pl": "Indigo Seals: Free Action (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_free_action", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_invis_on",
-    "copy-from": "totem_invis",
-    "type": "TOOL",
-    "name": { "str": "Obsidian Seal: Shadowy Shield (active)", "str_pl": "Obsidian Seals: Shadowy Shield (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_serpentine_shield", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_plants_on",
-    "copy-from": "totem_plants",
-    "type": "TOOL",
-    "name": { "str": "Scarlet Seal: Overgrowth (active)", "str_pl": "Scarlet Seals: Overgrowth (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_overgrowth", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_flamearmor_on",
-    "copy-from": "totem_flamearmor",
-    "type": "TOOL",
-    "name": { "str": "Starstone Seal: Ward Against Heat (active)", "str_pl": "Starstone Seals: Ward Against Heat (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_heat_ward", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_insight_on",
-    "copy-from": "totem_insight",
-    "type": "TOOL",
-    "name": { "str": "Tear Seal: Insight (active)", "str_pl": "Tear Seals: Insight (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_insight", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_clarity_on",
-    "copy-from": "totem_clarity",
-    "type": "TOOL",
-    "name": { "str": "Thorn Seal: Clarity of Blood (active)", "str_pl": "Thorn Seals: Clarity of Blood (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_clarity_blood", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_lightning_on",
-    "copy-from": "totem_lightning",
-    "type": "TOOL",
-    "name": { "str": "Thunder Seal: Shockstorm (active)", "str_pl": "Thunder Seals: Shockstorm (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_shockstorm", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_heal_on",
-    "copy-from": "totem_heal",
-    "type": "TOOL",
-    "name": { "str": "Woven Seal: Healing (active)", "str_pl": "Woven Seals: Healing (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_healing", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "totem_acidspray_on",
-    "copy-from": "totem_acidspray",
-    "type": "TOOL",
-    "name": { "str": "Wyrm Seal: Acid Spray (active)", "str_pl": "Wyrm Seals: Acid Spray (active)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_magic_conjure_acid", "no_fail": true, "level": 5 }
-  },
-  {
-    "id": "scroll_spell_agile_on",
-    "copy-from": "scroll_spell_agile",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (agility)", "str_pl": "active pattern scrolls (agility)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_agility", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_clairvoyance_on",
-    "copy-from": "scroll_spell_clairvoyance",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (clairvoyance)", "str_pl": "active pattern scrolls (clairvoyance)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_clairvoyance", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_clarity_on",
-    "copy-from": "scroll_spell_clarity",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (clarity of blood)", "str_pl": "active pattern scrolls (clarity of blood)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_clarity_blood", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_confusion_on",
-    "copy-from": "scroll_spell_confusion",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (confuse monsters)", "str_pl": "active pattern scrolls (confuse monsters)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_confuse_monster", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_acidspray_on",
-    "copy-from": "scroll_spell_acidspray",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (conjure acid)", "str_pl": "active pattern scrolls (conjure acid)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_conjure_acid", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_flame_armor_on",
-    "copy-from": "scroll_spell_flame_armor",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (ward against heat)", "str_pl": "active pattern scrolls (ward against heat)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_flame_armor", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_free_action_on",
-    "copy-from": "scroll_spell_free_action",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (free action)", "str_pl": "active pattern scrolls (free action)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_free_action", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_heal_on",
-    "copy-from": "scroll_spell_heal",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (healing)", "str_pl": "active pattern scrolls (healing)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_healing", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_insight_on",
-    "copy-from": "scroll_spell_insight",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (insight)", "str_pl": "active pattern scrolls (insight)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_insight", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_elecresist_on",
-    "copy-from": "scroll_spell_elecresist",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (lightning ward)", "str_pl": "active pattern scrolls (lightning ward)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_lightning_ward", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_might_on",
-    "copy-from": "scroll_spell_might",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (might)", "str_pl": "active pattern scrolls (might)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_might", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_plants_on",
-    "copy-from": "scroll_spell_plants",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (overgrowth)", "str_pl": "active pattern scrolls (overgrowth)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_overgrowth", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_invis_on",
-    "copy-from": "scroll_spell_invis",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (shadowy shield)", "str_pl": "active pattern scrolls (shadowy shield)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_serpentine_shield", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_lightning_on",
-    "copy-from": "scroll_spell_lightning",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (shockstorm)", "str_pl": "active pattern scrolls (shockstorm)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_shockstorm", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "scroll_spell_cleric_on",
-    "copy-from": "scroll_spell_cleric",
-    "type": "TOOL",
-    "name": { "str": "active pattern scroll (ward against evil)", "str_pl": "pattern scrolls (ward against evil)" },
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "use_action": { "type": "cast_spell", "spell_id": "arcana_pattern_ward_against_evil", "no_fail": true, "level": 0 }
-  },
-  {
-    "id": "halo_insight",
-    "copy-from": "spell_base",
-    "type": "ARMOR",
-    "name": { "str": "shimmering glare" },
-    "description": "A strange aura of otherworldly insight, granting sight beyond sight in exchange for your natural vision.",
-    "color": "magenta",
-    "environmental_protection": 6,
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "mutations": [ "ARCANA_MASK_INSIGHT_EFFECT" ],
-          "values": [ { "value": "BONUS_DODGE", "add": 2 } ]
-        }
-      ]
-    },
-    "extend": { "flags": [ "ONLY_ONE", "SUN_GLASSES", "BLIND", "IR_EFFECT", "PARTIAL_DEAF", "AURA", "NO_TAKEOFF" ] },
-    "covers": [ "eyes" ]
-  },
-  {
-    "id": "halo_berserk",
-    "copy-from": "spell_base",
-    "type": "ARMOR",
-    "name": { "str": "malevolent aura" },
-    "description": "A lingering sense of ill omen pervading your very being, offering a surge of energy with every strike.",
-    "color": "magenta",
-    "environmental_protection": 6,
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "mutations": [ "ARCANA_BERSERK_EFFECT" ],
-          "values": [ { "value": "STRENGTH", "add": 4 }, { "value": "DEXTERITY", "add": 2 } ],
-          "hit_you_effect": [ { "id": "arcana_react_drain_life_improved" } ],
-          "//intermittent_activation": { "effects": [ { "frequency": "10 minutes", "spell_effects": [ { "id": "arcana_react_evil_mimic" } ] } ] }
-        }
-      ]
-    },
-    "extend": { "flags": [ "ONLY_ONE", "NO_TAKEOFF" ] }
+    "looks_like": "candle_warding_active",
+    "color": "white",
+    "flags": [ "NO_SALVAGE", "LIGHT_120" ]
   }
 ]

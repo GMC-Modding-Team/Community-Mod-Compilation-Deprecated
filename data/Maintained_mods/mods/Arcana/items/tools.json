@@ -93,6 +93,48 @@
     "use_action": "MEDITATE"
   },
   {
+    "id": "charm_bone_empowered",
+    "copy-from": "charm_bone",
+    "type": "TOOL",
+    "name": { "str": "sanctified bone charm" },
+    "description": "A small talisman made out of some form of otherworldly bone or ivory, carved with equally unearthly iconography.  Elemental magic has been woven into its structure, converting it into a primitive magic item.  Using it will heavily damage and paralyze any creatures within 8 tiles, including allies if you're not careful.  It will take a long time to recharge after each use, and activating it also fatigues the user.  It can hold up to 6 uses.",
+    "price_postapoc": 2000,
+    "max_charges": 600,
+    "charges_per_use": 100,
+    "ammo": "primitive_magic_item_ammo_type",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "primitive_magic_item_ammo_type": 600 } } ],
+    "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "arcana_item_charm_bone_empowered",
+      "no_fail": true,
+      "need_wielding": true,
+      "level": 0
+    }
+  },
+  {
+    "id": "stinger_flute_empowered",
+    "copy-from": "stinger_flute",
+    "type": "TOOL",
+    "name": { "str": "quickened stinger flute" },
+    "description": "A polished flute with five finger holes, carved from the stinger of some exotic monstrosity.  Elemental magic has been woven into its structure, converting it into a primitive magic item.  Using it will greatly reduce movecosts and enhance evasion.  Stamina and attack speed are unaffected, however.  It will take a long time to recharge after each use, and activating it also fatigues the user.  It can hold up to 6 uses.",
+    "price_postapoc": 2500,
+    "max_charges": 600,
+    "charges_per_use": 100,
+    "ammo": "primitive_magic_item_ammo_type",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "primitive_magic_item_ammo_type": 600 } } ],
+    "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "arcana_item_stinger_flute_empowered",
+      "no_fail": true,
+      "need_wielding": true,
+      "level": 0
+    }
+  },
+  {
     "id": "offering_chalice",
     "type": "TOOL",
     "name": { "str": "offering chalice" },
@@ -131,6 +173,7 @@
     "description": "An ornate silver dagger, seemingly made for ritual purposes.  It seems sharper than silver has any right to be.  It can be used to perform a ritual converting your life force into blood essence.  Doing so will take 5 minutes, inflicting blood loss and damage at the end, as well as potential consequences if overused...",
     "weight": "1302 g",
     "volume": "750 ml",
+    "longest_side": "50 cm",
     "price": 24000,
     "price_postapoc": 2000,
     "to_hit": 1,
@@ -162,6 +205,7 @@
     "description": "This is some manner of sword, decorated with a golden cross motif worked into the blade.  When powered by consecrated magical essence, it has the power to cut through darkness itself.",
     "weight": "1360 g",
     "volume": "2 L",
+    "longest_side": "95 cm",
     "price": 150000,
     "price_postapoc": 7500,
     "to_hit": 2,
@@ -173,7 +217,7 @@
     "color": "yellow",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 20 } } ],
     "max_charges": 20,
-    "ammo": [ "essence_dull_type" ],
+    "ammo": "essence_dull_type",
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ],
     "techniques": [ "WBLOCK_2" ],
     "use_action": [
@@ -222,9 +266,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 3 } } ],
     "max_charges": 3,
     "charges_per_use": 3,
-    "ammo": [ "essence_dull_type" ],
+    "ammo": "essence_dull_type",
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_hammerzeit", "no_fail": true, "need_wielding": true, "level": 0 },
-    "relative": { "weight": "360 g", "bashing": 2, "price": 12000 },
+    "relative": { "weight": "360 g", "bashing": 2 },
     "extend": { "flags": [ "NO_SALVAGE" ] }
   },
   {
@@ -240,7 +284,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 9 } } ],
     "max_charges": 9,
     "charges_per_use": 1,
-    "ammo": [ "essence_type" ],
+    "ammo": "essence_type",
     "relic_data": {
       "passive_effects": [
         {
@@ -378,7 +422,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -420,7 +464,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -462,7 +506,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -504,7 +548,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -546,7 +590,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -588,7 +632,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -629,7 +673,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -671,7 +715,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -713,7 +757,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -755,7 +799,7 @@
       "moves": 60,
       "place_randomly": true,
       "is_pet": true,
-      "skill1": "magic"
+      "skills": [ "magic" ]
     }
   },
   {
@@ -763,7 +807,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (consecrate)", "str_pl": "pattern scrolls (consecrate)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will drive off various signs of otherworldly corruption afflicting the land, and daze a handful of creatures from The Beyond.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will drive off various signs of otherworldly corruption afflicting the land, and daze a handful of creatures from The Beyond.\"",
     "//": "Pattern scrolls were extremely rare pre-cataclysm as spell development was in its infancy, but now they're all quite useful in various ways.  Divine pattern scrolls especially were almost non-existent.",
     "price_postapoc": 12000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -776,7 +820,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (ward against cold)", "str_pl": "pattern scrolls (ward against cold)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will protect against the cold, and all its side effects.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will protect against the cold, and all its side effects.\"",
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
     "countdown_interval": 1,
@@ -788,7 +832,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (sundering quake)", "str_pl": "pattern scrolls (sundering quake)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will bring down structures and bury them in rubble, though creatures will be left unharmed.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will bring down structures and bury them in rubble, though creatures will be left unharmed.\"",
     "price_postapoc": 10000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
     "countdown_interval": 1,
@@ -800,7 +844,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (elemental burst)", "str_pl": "pattern scrolls (elemental burst)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will blast a cone-shaped area with a random elemental effect, with double damage for enemies caught in the center.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will blast a cone-shaped area with a random elemental effect, with double damage for enemies caught in the center.\"",
     "price_postapoc": 10000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
     "countdown_interval": 1,
@@ -812,7 +856,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (summon centipedes)", "str_pl": "pattern scrolls (summon centipedes)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will summon mutated vermin, which will be loyal but not permanent.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will summon mutated vermin, which will be loyal but not permanent.\"",
     "price_postapoc": 8000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
     "countdown_interval": 1,
@@ -824,7 +868,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (eclipse)", "str_pl": "pattern scrolls (eclipse)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will bring forth monsters and darkness, in exchange for a temporary boost of raw power with which to stalk the night.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will bring forth monsters and darkness, in exchange for a temporary boost of raw power with which to stalk the night.\"",
     "price_postapoc": 12000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
     "countdown_interval": 1,
@@ -844,9 +888,11 @@
     "color": "brown",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 3 } } ],
     "max_charges": 3,
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
+    "weight": "707 g",
     "volume": "750 ml",
-    "relative": { "bashing": -2, "weight": "-200 g" },
+    "longest_side": "45 cm",
+    "relative": { "bashing": -2 },
     "use_action": [
       {
         "target": "bloodaxe_act",
@@ -870,6 +916,7 @@
     "description": "A modified hatchet, the axehead giving off a wicked red glow.  Throwing it might be a smart idea, as you'll have little time to evade its blast.",
     "weight": "707 g",
     "volume": "750 ml",
+    "longest_side": "45 cm",
     "price": 40000,
     "price_postapoc": 6000,
     "to_hit": 1,
@@ -883,14 +930,14 @@
     "max_charges": 3,
     "turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 3 } } ],
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
     "revert_to": "bloodaxe",
     "use_action": {
       "type": "explosion",
       "fields_type": "fd_blood",
       "fields_radius": 3,
-      "fields_min_density": 3,
-      "fields_max_density": 3,
+      "fields_min_intensity": 3,
+      "fields_max_intensity": 3,
       "sound_volume": 1,
       "sound_msg": "Drip.",
       "no_deactivate_msg": "You can't dispel the effect.  Might want to try throwing it instead.",
@@ -1100,7 +1147,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (agility)", "str_pl": "pattern scrolls (agility)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a temporary speed and agility-enhancing effect.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a temporary speed and agility-enhancing effect.\"",
     "//": "Unlike divine pattern scrolls, basic pattern scrolls were rare but at least existed pre-cataclysm.",
     "price": 300000,
     "price_postapoc": 11000,
@@ -1114,7 +1161,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (clairvoyance)", "str_pl": "pattern scrolls (clairvoyance)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will anoint you with an ivory halo, granting you sight beyond sight.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will anoint you with an ivory halo, granting you sight beyond sight.\"",
     "price": 300000,
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1127,7 +1174,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (clarity of blood)", "str_pl": "pattern scrolls (clarity of blood)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant protection against parasites and the Mycus.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant protection against parasites and the Mycus.\"",
     "price": 300000,
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1140,7 +1187,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (confuse monsters)", "str_pl": "pattern scrolls (confuse monsters)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will stun all hostiles in the area around you.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will stun all hostiles in the area around you.\"",
     "price": 300000,
     "price_postapoc": 7000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1153,7 +1200,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (conjure acid)", "str_pl": "pattern scrolls (conjure acid)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will conjure a splash of acid at the point targeted, with double damage for enemies caught in the center.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will conjure a splash of acid at the point targeted, with double damage for enemies caught in the center.\"",
     "price": 300000,
     "price_postapoc": 10000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1166,7 +1213,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (ward against heat)", "str_pl": "pattern scrolls (ward against heat)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant temporary resistance to heat and smoke, but not direct contact with fire.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant temporary resistance to heat and smoke, but not direct contact with fire.\"",
     "price": 300000,
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1179,7 +1226,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (free action)", "str_pl": "pattern scrolls (free action)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant protection against paralytic effects and other hindrances.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant protection against paralytic effects and other hindrances.\"",
     "price": 300000,
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1192,7 +1239,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (healing)", "str_pl": "pattern scrolls (healing)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will staunch bleeding and mend wounds, though overuse can be harmful in the long run.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will staunch bleeding and mend wounds, though overuse can be harmful in the long run.\"",
     "price": 300000,
     "price_postapoc": 12000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1205,7 +1252,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (insight)", "str_pl": "pattern scrolls (insight)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a temporary boost to perception.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a temporary boost to perception.\"",
     "price": 300000,
     "price_postapoc": 11000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1218,7 +1265,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (lightning ward)", "str_pl": "pattern scrolls (lightning ward)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant you immunity to lightning, at the cost of slowing you down.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant you immunity to lightning, at the cost of slowing you down.\"",
     "price": 300000,
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1231,7 +1278,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (might)", "str_pl": "pattern scrolls (might)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a temporary boost to strength.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a temporary boost to strength.\"",
     "price": 300000,
     "price_postapoc": 11000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1244,7 +1291,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (overgrowth)", "str_pl": "pattern scrolls (overgrowth)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will conjure an eruption of the living forest, at the location you target.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will conjure an eruption of the living forest, at the location you target.\"",
     "price": 300000,
     "price_postapoc": 8000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1258,7 +1305,7 @@
     "//": "ID retained to avoid breaking stuff.",
     "type": "TOOL",
     "name": { "str": "pattern scroll (shadowy shield)", "str_pl": "pattern scrolls (shadowy shield)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will anoint you with an obsidian halo, granting a temporary defensive effect that will strike your attackers blind.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will anoint you with an obsidian halo, granting a temporary defensive effect that will strike your attackers blind.\"",
     "price": 300000,
     "price_postapoc": 8000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1271,7 +1318,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (shockstorm)", "str_pl": "pattern scrolls (shockstorm)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will call forth lightning all around you, harming any hostiles that are close enough.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will call forth lightning all around you, harming any hostiles that are close enough.\"",
     "price": 300000,
     "price_postapoc": 10000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1284,7 +1331,7 @@
     "copy-from": "scroll_magic_base",
     "type": "TOOL",
     "name": { "str": "pattern scroll (ward against evil)", "str_pl": "pattern scrolls (ward against evil)" },
-    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  This has a chance of failure, but repeated use will steadily improve the associated Magic Sign, and make casting them less taxing.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a blessing that protects against certain anomalous threats.\"",
+    "description": "This is a scroll with ornate patterns written on the paper, depicting strange geometric designs with an unnatural order to them.  Activate it to explore its secrets.  (( Remember to bind the \"spellcasting\" key! ))\n\"This spell will grant a blessing that protects against certain anomalous threats.\"",
     "price": 300000,
     "price_postapoc": 9000,
     "use_action": { "type": "countdown", "name": "Unroll", "message": "You unroll the pattern scroll…" },
@@ -1382,13 +1429,13 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_pure_type": 1 } } ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "ammo": [ "essence_pure_type" ],
+    "ammo": "essence_pure_type",
     "relic_data": {
       "passive_effects": [
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "mutations": [ "ARCANA_CLAIRVOYANCE_LESSER" ],
+          "mutations": [ "ARCANA_CLAIRVOYANCE_LESSER", "SCHIZOPHRENIC" ],
           "values": [
             { "value": "INTELLIGENCE", "add": 4 },
             { "value": "PERCEPTION", "add": 2 },
@@ -1407,6 +1454,7 @@
     "description": "A short wooden staff decorated with engraved silver, depicting a mixture of exotic natural scenes and various holy symbols.  It is said to represent the instincts deep within the heart, tempered by restraint and reason.  Using it can repair and fortify items made of various plant or animal products and stone, but not more refined materials like metal or glass.",
     "weight": "1310 g",
     "volume": "2 L",
+    "longest_side": "60 cm",
     "price": 80000,
     "price_postapoc": 9000,
     "bashing": 12,
@@ -1417,7 +1465,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_dull_type": 300 } } ],
     "max_charges": 300,
     "charges_per_use": 1,
-    "ammo": [ "essence_dull_type" ],
+    "ammo": "essence_dull_type",
     "use_action": [
       {
         "type": "repair_item",
@@ -1431,15 +1479,8 @@
       {
         "type": "sew_advanced",
         "materials": [ "bone", "chitin", "acidchitin", "clay", "cotton", "fur", "leather", "gutskin", "stone", "wood", "wool" ],
-        "skill": "tailor",
-        "clothing_mods": [
-          "arcana_acidchitin_weave",
-          "arcana_bone_weave",
-          "arcana_chitin_weave",
-          "arcana_clay_weave",
-          "arcana_stone_weave",
-          "arcana_wood_weave"
-        ]
+        "skill": "magic",
+        "clothing_mods": [ "arcana_birchbark_weave", "arcana_tanbark_weave", "arcana_willowbark_weave" ]
       }
     ],
     "flags": [ "NO_SALVAGE", "MAGIC_FOCUS", "TRADER_KEEP_EQUIPPED" ]
@@ -1532,6 +1573,7 @@
     "weight": "3935 g",
     "to_hit": 1,
     "volume": "2500 ml",
+    "longest_side": "60 cm",
     "//": "Meteoric verge and moonstone scourge require items that did not exist pre-cataclysm.",
     "price_postapoc": 15000,
     "bashing": 16,
@@ -1543,7 +1585,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 10 } } ],
     "max_charges": 10,
     "charges_per_use": 2,
-    "ammo": [ "essence_type" ],
+    "ammo": "essence_type",
     "relic_data": {
       "passive_effects": [
         {
@@ -1577,7 +1619,7 @@
     "looks_like": "bullwhip_razor",
     "color": "dark_gray",
     "name": { "str": "moonstone scourge" },
-    "description": "A lash modified with razor-sharp slivers of opalescent stone, and silver decoration along the handle.  While relatively effective as a weapon, fueling it with blood essence make it much more deadly.",
+    "description": "A lash modified with razor-sharp slivers of opalescent stone, and silver decoration along the handle.  While relatively effective as a weapon, fueling it with blood essence will restore its life-draining properties, and make it a much more deadly weapon.",
     "weight": "3500 g",
     "volume": "2 L",
     "price_postapoc": 15000,
@@ -1588,7 +1630,10 @@
     "cutting": 21,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 24 } } ],
     "max_charges": 24,
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ACTIVE", "hit_you_effect": [ { "id": "arcana_react_drain_life", "once_in": 5 } ] } ]
+    },
     "use_action": [
       {
         "target": "scourge_moonstone_on",
@@ -1605,7 +1650,7 @@
     "id": "scourge_moonstone_on",
     "copy-from": "scourge_moonstone",
     "repairs_like": "scourge_moonstone",
-    "type": "GENERIC",
+    "type": "TOOL",
     "name": { "str": "moonstone scourge (on)", "str_pl": "moonstone scourges (on)" },
     "description": "A lash modified with razor-sharp slivers of opalescent stone, and silver decoration along the handle.  The stone blades reflect with an eerie red luster, and it seems far more nimble in the hand.",
     "//": "Turns out that modifying attack speed via relic data doesn't work right for transforming items, so weight-based hacks it is!",
@@ -1624,6 +1669,7 @@
     "description": "A short, curved spike made of a white opalescent gemstone, richly engraved with swirling serpentine imagery.  Wielding it grant a minor life-draining touch and potentially blind attackers with magic, but it will sicken body and mind.  Invoking it will harden the body against cold.",
     "weight": "160 g",
     "volume": "1500 ml",
+    "longest_side": "30 cm",
     "//": "And the third shrine item, also post-cata only.",
     "price_postapoc": 10000,
     "to_hit": 2,
@@ -1637,7 +1683,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 8 } } ],
     "max_charges": 8,
     "charges_per_use": 1,
-    "ammo": [ "essence_type" ],
+    "ammo": "essence_type",
     "techniques": [ "RAPID", "DEF_DISARM" ],
     "qualities": [ [ "BUTCHER", 6 ] ],
     "relic_data": {
@@ -1671,10 +1717,10 @@
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "restored ritual blade" },
-    "description": "A two-handed sword richly engraved with exotic runes, all in scripts not of this world.  Once corrupted and now restored, it can only serve a fragment of its original purpose.  Fueling it with crystalled essence will grant great gifts, but set you down a path you can't return from.",
-    "weight": "2858 g",
-    "volume": "3250 ml",
-    "longest_length": "1500 mm",
+    "description": "A two-handed sword richly engraved with exotic runes, all in scripts not of this world.  Once corrupted and now restored, it can only serve a fragment of its original purpose.  Fueling it with crystallized essence will grant great gifts, but set you down a path you can't return from.",
+    "weight": "2267 g",
+    "volume": "3 L",
+    "longest_side": "140 cm",
     "//": "Arguably it being restored instead of untainted means it should count as a post-cata item, but the original was pre-cata.",
     "price": 9000000,
     "price_postapoc": 15000,
@@ -1687,7 +1733,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_pure_type": 10 } } ],
     "max_charges": 10,
     "charges_per_use": 1,
-    "ammo": [ "essence_pure_type" ],
+    "ammo": "essence_pure_type",
     "use_action": { "type": "mutagen_iv", "mutation_category": "VEIL" },
     "relic_data": {
       "passive_effects": [
@@ -1699,15 +1745,7 @@
       ]
     },
     "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-    "flags": [
-      "UNBREAKABLE_MELEE",
-      "NO_SALVAGE",
-      "MAGIC_FOCUS",
-      "NONCONDUCTIVE",
-      "NO_UNLOAD",
-      "SHEATH_SWORD",
-      "TRADER_KEEP_EQUIPPED"
-    ]
+    "flags": [ "UNBREAKABLE_MELEE", "NO_SALVAGE", "MAGIC_FOCUS", "NONCONDUCTIVE", "SHEATH_SWORD", "TRADER_KEEP_EQUIPPED" ]
   },
   {
     "id": "draconic_heart_mutator",
@@ -1728,7 +1766,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 10 } } ],
     "max_charges": 10,
     "charges_per_use": 10,
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
     "use_action": { "type": "mutagen_iv", "mutation_category": "DRAGONBLOOD" }
   },
   {
@@ -1739,12 +1777,15 @@
     "description": "A two-handed sword made of a dark metal.  It is engraved with unfamiliar symbols, and a single phrase in a script you can actually read: \"neherit asheiri\"  Activating it will grant the wielder a burst of powerful, corruptive, addictive life-draining magic, but you'll be unable to let go of it until the effect wears off.",
     "material": [ "steel", "essencemat" ],
     "//": "In this case being cursed basically halves its pre-cataclysm value, as it's no longer useful for what the Keepers used it for, and the Sanguine Order's appropriation of it had a very specific focus.",
+    "weight": "2267 g",
+    "volume": "3 L",
+    "longest_side": "140 cm",
     "price": 4500000,
     "price_postapoc": 12000,
     "color": "dark_gray",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 9 } } ],
     "max_charges": 9,
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
     "relic_data": {
       "passive_effects": [
         {
@@ -1783,11 +1824,12 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 9 } } ],
     "max_charges": 9,
     "turns_per_charge": 800,
-    "ammo": [ "essence_blood_type" ],
+    "ammo": "essence_blood_type",
     "revert_to": "stormbringer",
     "revert_msg": "The malevolent energy fades from the cursed blade, returning it to normal.",
-    "weight": "3176 g",
-    "volume": "3250 ml",
+    "weight": "2267 g",
+    "volume": "3 L",
+    "longest_side": "140 cm",
     "price": 4500000,
     "price_postapoc": 12000,
     "to_hit": 1,
