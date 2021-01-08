@@ -228,9 +228,9 @@
     "//": "Having Killed MM, who is def an endgame mob, you deserve a badly damaged gun.",
     "items": [
       [ "m249", 12 ],
-      [ "m249", 7 ],
-      [ "stanag30", 2 ],
-      [ "stanag50", 1 ],
+      [ "l_lmg_223", 7 ],
+      [ "lw223mag", 2 ],
+      [ "lw223bigmag", 1 ],
       [ "stanag50", 1 ],
       [ "stanag30", 2 ],
       [ "belt223", 2 ],
@@ -291,7 +291,7 @@
       [ "stamina_vial", 18 ],
       [ "disinfectant", 18 ],
       [ "caffeine", 18 ],
-      { "group": "full_1st_aid", "prob": 18 },
+      [ "1st_aid", 18 ],
       [ "medikit", 18 ],
       [ "codeine", 18 ],
       [ "tramadol", 18 ],
@@ -464,13 +464,20 @@
     "type": "item_group",
     "id": "mon_biollante_death_drops",
     "subtype": "collection",
-    "entries": [ { "group": "biollante", "prob": 35 }, { "group": "biollante", "prob": 35 }, { "group": "biollante", "prob": 35 } ]
+    "entries": [
+      { "group": "biollante", "prob": 35 },
+      { "group": "biollante", "prob": 35 },
+      { "group": "biollante", "prob": 35 }
+    ]
   },
   {
     "type": "item_group",
     "id": "mon_triffid_death_drops",
     "subtype": "collection",
-    "entries": [ { "group": "fungal_sting", "prob": 10 }, { "group": "biollante", "prob": 10 } ]
+    "entries": [
+      { "group": "fungal_sting", "prob": 10 },
+      { "group": "biollante", "prob": 10 }
+    ]
   },
   {
     "type": "item_group",
@@ -480,155 +487,6 @@
       { "group": "fungal_sting", "prob": 100 },
       { "group": "fungal_fighter_sting", "prob": 75 },
       { "group": "fungal_fighter_sting", "prob": 75 }
-    ]
-  },
-  {
-    "id": "bees",
-    "type": "item_group",
-    "items": [
-      [ "mutant_meat", 75 ],
-      [ "sinew", 25 ],
-      [ "endochitin", 65 ],
-      [ "mutant_bug_hydrogen_sacs", 65 ],
-      [ "mutant_bug_lungs", 1 ],
-      [ "mutant_bug_organs", 5 ],
-      [ "bee_sting", 75 ],
-      [ "chitin_piece", 65 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "rack_smoke",
-    "items": [
-      [ "null", 15 ],
-      [ "dry_meat", 5 ],
-      [ "dry_fish", 5 ],
-      [ "dry_veggy", 5 ],
-      [ "dry_fruit", 5 ],
-      [ "meat_smoked", 10 ],
-      [ "fish_smoked", 10 ],
-      [ "salt", 5 ],
-      [ "pepper", 5 ],
-      [ "seasoning_salt", 5 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "beecenter",
-    "items": [ [ "honeycomb", 40 ], [ "royal_jelly", 10 ] ]
-  },
-  {
-    "type": "item_group",
-    "id": "wasp_center",
-    "items": [ [ "wasp_glue", 85 ], [ "egg_wasp", 15 ] ]
-  },
-  {
-    "type": "item_group",
-    "id": "kennel_dog",
-    "items": [ [ "blanket", 10 ], [ "dogfood", 10 ] ]
-  },
-  {
-    "type": "item_group",
-    "id": "strawpile",
-    "items": [ [ "straw_pile", 95 ], [ "saddle", 4 ], [ "needle_curved", 1 ] ]
-  },
-  {
-    "type": "item_group",
-    "id": "rack_smoke",
-    "items": [
-      [ "null", 15 ],
-      [ "dry_meat", 5 ],
-      [ "dry_fish", 5 ],
-      [ "dry_veggy", 5 ],
-      [ "dry_fruit", 5 ],
-      [ "meat_smoked", 10 ],
-      [ "fish_smoked", 10 ],
-      [ "salt", 5 ],
-      [ "pepper", 5 ],
-      [ "seasoning_salt", 5 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "seeds",
-    "items": [
-      [ "seed_wheat", 2 ],
-      [ "seed_tomato", 2 ],
-      [ "seed_blueberries", 2 ],
-      [ "seed_strawberries", 2 ],
-      [ "seed_blackberries", 2 ],
-      [ "seed_cranberries", 2 ],
-      [ "seed_raspberries", 2 ],
-      [ "seed_barley", 2 ],
-      [ "seed_sugar_beet", 2 ],
-      [ "seed_lettuce", 2 ],
-      [ "seed_cabbage", 2 ],
-      [ "seed_onion", 2 ],
-      [ "seed_carrot", 2 ],
-      [ "seed_pumpkin", 2 ],
-      [ "seed_corn", 2 ],
-      [ "seed_hops", 2 ],
-      [ "seed_garlic", 2 ],
-      [ "raw_beans", 1 ],
-      [ "seed_sunflower", 1 ],
-      [ "seed_weed", 1 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "auto_farm",
-    "items": [
-      [ "55gal_drum", 5 ],
-      [ "bucket", 10 ],
-      [ "chain", 20 ],
-      [ "char_smoker", 10 ],
-      [ "con_mix", 10 ],
-      [ "dehydrator", 20 ],
-      [ "duct_tape", 20 ],
-      [ "fungicide", 20 ],
-      [ "glass_sheet", 5 ],
-      [ "horn_big", 10 ],
-      [ "jerrycan", 10 ],
-      [ "jumper_cable", 10 ],
-      [ "motor", 5 ],
-      [ "muffler", 15 ],
-      [ "pipe", 20 ],
-      [ "rebar", 10 ],
-      [ "saddle", 30 ],
-      [ "superglue", 10 ],
-      [ "wheel", 15 ],
-      [ "wheel_wide", 15 ],
-      [ "wire_barbed", 25 ],
-      [ "alternator_truck", 10 ],
-      [ "1cyl_combustion", 5 ],
-      [ "v2_combustion", 5 ],
-      [ "v6_combustion", 10 ],
-      [ "news_regional", 2 ],
-      [ "many_years_old_newspaper", 10 ],
-      [ "one_year_old_newspaper", 10 ],
-      [ "months_old_newspaper", 5 ],
-      [ "weeks_old_newspaper", 4 ],
-      [ "newest_newspaper", 2 ],
-      [ "survnote", 1 ],
-      [ "pipe_solid", 5 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "coffin_human",
-    "items": [
-      [ "bone_human", 200 ],
-      [ "bone", 4 ],
-      [ "corpse", 1 ],
-      [ "withered", 5 ],
-      [ "jeans", 5 ],
-      [ "tshirt", 5 ],
-      [ "dress_shirt", 5 ],
-      [ "pants", 5 ],
-      [ "dress", 5 ],
-      [ "dress_shoes", 5 ],
-      [ "heels", 5 ],
-      [ "socks", 5 ]
     ]
   }
 ]
