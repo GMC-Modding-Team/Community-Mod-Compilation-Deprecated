@@ -5,7 +5,7 @@
     "type": "vehicle_part",
     "name": { "str": "swappable storage battery" },
     "item": "storage_battery",
-    "difficulty": 0,
+
     "requirements": { "install": { "time": 1000 } },
     "location": "on_battery_mount",
     "extend": { "flags": [ "TOOL_NONE", "NEEDS_BATTERY_MOUNT", "REVERSIBLE" ] }
@@ -19,7 +19,7 @@
     "symbol": "*",
     "broken_symbol": "*",
     "color": "white",
-    "difficulty": 0,
+
     "durability": 20,
     "epower": -40,
     "bonus": 30,
@@ -38,7 +38,7 @@
     "durability": 80,
     "folded_volume": 5,
     "item": "saddle",
-    "difficulty": 0,
+
     "location": "center",
     "flags": [ "SEAT", "BOARDABLE", "FOLDABLE", "TOOL_WRENCH", "REVERSIBLE" ],
     "breaks_into": [ { "item": "leather", "prob": 50 }, { "item": "scrap", "count": [ 1, 2 ] } ]
@@ -54,7 +54,7 @@
     "durability": 30,
     "folded_volume": 3,
     "item": "pipe",
-    "difficulty": 0,
+
     "location": "structure",
     "flags": [ "MOUNTABLE", "FOLDABLE", "REVERSIBLE" ],
     "breaks_into": [
@@ -74,7 +74,7 @@
     "durability": 15,
     "folded_volume": 15,
     "item": "sheet",
-    "difficulty": 0,
+
     "location": "roof",
     "flags": [ "ROOF", "FOLDABLE", "NAILABLE", "REVERSIBLE" ],
     "breaks_into": "ig_vp_cloth"
@@ -92,7 +92,7 @@
     "folded_volume": 1,
     "bonus": 15,
     "item": "horn_bicycle",
-    "difficulty": 1,
+
     "flags": [ "HORN", "FOLDABLE", "TOOL_SCREWDRIVER", "REVERSIBLE" ],
     "breaks_into": [ { "item": "scrap", "prob": 50 } ]
   },
@@ -110,7 +110,7 @@
     "epower": -25,
     "bonus": 600,
     "item": "recharge_station",
-    "difficulty": 5,
+
     "location": "on_cargo",
     "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE", "TOOL_SCREWDRIVER", "REVERSIBLE", "ENABLED_DRAINS_EPOWER" ],
     "folded_volume": 8,
@@ -132,7 +132,7 @@
     "durability": 20,
     "folded_volume": 2,
     "item": "mirror",
-    "difficulty": 0,
+
     "location": "structure",
     "flags": [ "VISION", "PROTRUSION", "UNMOUNT_ON_DAMAGE", "FOLDABLE", "TOOL_SCREWDRIVER", "REVERSIBLE" ],
     "breaks_into": [ { "item": "glass_shard", "count": [ 0, 2 ] } ]
@@ -149,7 +149,7 @@
     "color": "yellow",
     "broken_color": "dark_gray",
     "default_ammo": "battery",
-    "difficulty": 6,
+
     "durability": 250,
     "range": 5,
     "damage_modifier": 80,
@@ -189,7 +189,7 @@
     "epower": -75,
     "size": 750,
     "item": "fridge_cargo",
-    "difficulty": 4,
+
     "location": "center",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
