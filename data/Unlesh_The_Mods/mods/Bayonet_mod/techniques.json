@@ -3,7 +3,7 @@
     "type": "technique",
     "id": "tec_bayonet_gore",
     "name": "Twist",
-    "min_melee": 2,
+    "skill_requirements": [ { "name": "melee", "level": 2, } ],
     "stun_dur": 2,
     "melee_allowed": true,
     "req_buffs": [ "bayonet__stab" ],
