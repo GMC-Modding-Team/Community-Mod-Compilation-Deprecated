@@ -556,9 +556,32 @@
   },
   {
     "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_grenadier",
+    "entries": [
+      { "item": "swat_shield", "prob": 15, "damage": [ 0, 3 ] },
+      { "group": "bomblet_ammo", "prob": 10, "count": [ 1, 3 ] },
+      { "item": "bot_manhack_fire", "prob": 35, "damage": [ 0, 3 ] },
+      { "group": "bomblet_ammo", "prob": 35, "count": [ 1, 2 ] },
+      { "item": "bomblet_launcher_dualshot", "prob": 25 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "mon_zombie_grenadier_elite",
+    "entries": [
+      { "item": "swat_shield", "prob": 15, "damage": [ 0, 3 ] },
+      { "item": "bot_manhack_fire", "prob": 50, "damage": [ 0, 3 ], "count": [ 1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 40, "count": [ 1, 3 ] },
+      { "item": "bomblet_launcher_dualshot", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "vet_softdrug",
     "items": [
-      { "group": "used_1st_aid", "prob": 10 },
+      [ "1st_aid", 10 ],
       [ "pokeball", 3 ],
       [ "machete", 8 ],
       [ "pepto", 20 ],
@@ -584,7 +607,7 @@
     "type": "item_group",
     "id": "vet_hardrug",
     "items": [
-      { "group": "full_1st_aid", "prob": 5 },
+      [ "1st_aid", 5 ],
       [ "pokeball", 10 ],
       [ "machete", 5 ],
       [ "chloroform_rag", 10 ],
@@ -604,7 +627,7 @@
     "type": "item_group",
     "id": "science",
     "items": [
-      { "group": "full_1st_aid", "prob": 5 },
+      [ "1st_aid", 5 ],
       [ "antidote_posion", 10 ],
       [ "triffid_sap", 10 ],
       [ "iodine", 8 ],
@@ -685,7 +708,7 @@
     "id": "hardrugs",
     "items": [
       { "group": "prefab_chems", "prob": 1 },
-      { "group": "full_1st_aid", "prob": 15 },
+      [ "1st_aid", 15 ],
       [ "stamina_vial", 12 ],
       [ "antidote_posion", 10 ],
       [ "antidote_badpoison", 6 ],
@@ -702,7 +725,7 @@
     "id": "softdrugs",
     "items": [
       [ "stamina_vial", 15 ],
-      { "group": "full_1st_aid", "prob": 15 },
+      [ "1st_aid", 15 ],
       [ "weak_antibiotic", 10 ],
       [ "antidote_posion", 15 ],
       [ "antidote_badpoison", 5 ],
@@ -716,7 +739,7 @@
     "type": "item_group",
     "id": "sports",
     "items": [
-      { "group": "used_1st_aid", "prob": 15 },
+      [ "1st_aid", 15 ],
       [ "stamina_vial", 65 ],
       [ "medikit", 25 ],
       [ "berserker_drug", 4 ],
@@ -732,7 +755,7 @@
     "type": "item_group",
     "id": "allsporting",
     "items": [
-      { "group": "full_1st_aid", "prob": 15 },
+      [ "1st_aid", 15 ],
       [ "stamina_vial", 25 ],
       [ "medikit", 15 ],
       [ "pepto", 50 ],
@@ -756,7 +779,7 @@
   {
     "type": "item_group",
     "id": "drugs_analgesic",
-    "items": [ { "group": "used_1st_aid", "prob": 10 }, [ "stamina_vial", 30 ], [ "medikit", 20 ], [ "medical_gauze", 8 ] ]
+    "items": [ [ "1st_aid", 10 ], [ "stamina_vial", 30 ], [ "medikit", 20 ], [ "medical_gauze", 8 ] ]
   },
   {
     "type": "item_group",
@@ -790,7 +813,9 @@
     "type": "item_group",
     "id": "ammo_launcher_grenade",
     "//": "Factory specification grenade launcher ammo intended for military use",
-    "items": [ [ "bfg_shell", 40 ] ]
+    "items": [
+      [ "bfg_shell", 40 ]
+    ]
   },
   {
     "type": "item_group",
@@ -811,7 +836,7 @@
   {
     "type": "item_group",
     "id": "mischw",
-    "subtype": "collection",
+	"subtype": "collection",
     "items": [ [ "fertilizer_chelated", 10 ], [ "clay_lump", 8 ], [ "oxy_torch", 1 ] ]
   },
   {
@@ -919,7 +944,6 @@
     "id": "bedroom",
     "items": [ [ "candle_smoke", 2 ], [ "candle", 3 ], [ "medical_gauze", 1 ], [ "pepto", 3 ] ]
   },
-
   {
     "type": "item_group",
     "id": "fridgesnacks",
@@ -953,7 +977,7 @@
       [ "jacket_evac", 100 ],
       [ "emer_blanket", 100 ],
       [ "bandages", 50 ],
-      { "group": "full_1st_aid", "prob": 35 },
+      [ "1st_aid", 35 ],
       [ "quikclot", 35 ],
       [ "smoxygen_tank", 25 ],
       [ "mask_gas", 25 ],
