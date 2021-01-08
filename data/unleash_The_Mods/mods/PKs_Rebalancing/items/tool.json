@@ -32,7 +32,6 @@
     "color": "light_gray",
     "coverage": 1,
     "encumbrance": 0,
-    "storage": 0,
     "warmth": 0,
     "material_thickness": 1,
     "ammo": [ "gasoline" ],
@@ -324,7 +323,9 @@
     "turns_per_charge": 1,
     "revert_to": "soulcube_charging",
     "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "AEA_HEAL", "once_in": 3, "self": true } ] } ]
+      "passive_effects": [
+        { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "AEA_HEAL", "once_in": 3, "hit_self": true } ] }
+      ]
     }
   },
   {
@@ -372,7 +373,7 @@
       "hostile_msg": "Oh, it's hostile. That's probably not supposed to happen.  Probably.",
       "moves": 50,
       "place_randomly": true,
-      "skill1": "survival"
+      "skills": [ "survival" ]
     }
   },
   {

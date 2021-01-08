@@ -6,7 +6,6 @@
     "desc": [
       "You are experiencing hallucinations.  The resulting sense of surrealism is a real stressor, and gets the blood pumping."
     ],
-    "chance": 80,
     "max_duration": 3200,
     "base_mods": { "str_mod": [ 1 ] }
   },
@@ -45,7 +44,6 @@
   {
     "type": "effect_type",
     "id": "onfire",
-    "chance": 65,
     "name": [ "On Fire" ],
     "desc": [ "Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames." ],
     "remove_memorial_log": "Put out the fire.",
@@ -190,7 +188,6 @@
       "h_mod_tick": [ 30, 60 ],
       "h_mod_chance": [ 10 ],
       "pain_min": [ -1, -0.5 ],
-      "pain_min_val": [ -10, 5 ],
       "pain_chance": [ 10, 30 ],
       "stamina_min": [ -1, 0 ],
       "rad_min": [ 1 ],
@@ -200,7 +197,6 @@
       "dex_mod": [ -0.34, -0.17 ],
       "speed_mod": [ -3, -1 ],
       "pain_min": [ -0.1 ],
-      "pain_min_val": [ -5, -3 ],
       "stamina_min": [ -0.1 ],
       "rad_min": [ 0.1 ],
       "rad_chance": [ -4 ]
@@ -209,7 +205,6 @@
   {
     "type": "effect_type",
     "id": "poison",
-    "copy-from": "poison",
     "name": [ "Poisoned" ],
     "apply_message": "You feel poisoned!",
     "desc": [ "You have been poisoned!" ],
@@ -246,8 +241,7 @@
       "rad_max_val": [ 50 ],
       "h_mod_min": [ -1 ],
       "h_mod_tick": [ 60 ],
-      "h_mod_chance": [ 15 ],
-      "h_mod_min_value": [ -100 ]
+      "h_mod_chance": [ 15 ]
     },
     "scaling_mods": {
       "per_mod": [ -0.5, -0.25 ],
@@ -267,7 +261,6 @@
   {
     "type": "effect_type",
     "id": "badpoison",
-    "copy-from": "badpoison",
     "name": [ "Badly Poisoned" ],
     "apply_message": "You feel badly poisoned!",
     "desc": [ "You have been badly poisoned!" ],
@@ -305,8 +298,7 @@
       "rad_chance": [ 180, 360 ],
       "h_mod_min": [ -1 ],
       "h_mod_tick": [ 60 ],
-      "h_mod_chance": [ 10 ],
-      "h_mod_min_value": [ -100 ]
+      "h_mod_chance": [ 10 ]
     },
     "scaling_mods": {
       "per_mod": [ -1 ],
@@ -431,7 +423,6 @@
       "dex_mod": [ -0.6 ],
       "speed_mod": [ -6 ],
       "pain_min": [ -2 ],
-      "pain_min_val": [ -30 ],
       "pain_chance": [ 10 ],
       "pain_tick": [ 15 ],
       "hurt_min": [ 1 ],
