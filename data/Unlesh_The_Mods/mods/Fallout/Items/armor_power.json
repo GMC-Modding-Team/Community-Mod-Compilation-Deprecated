@@ -228,11 +228,10 @@
       "THERMOMETER",
       "SUN_GLASSES"
     ],
-    "power_draw": 15000,
+    "turns_per_charge": 2,
     "revert_to": "power_armor_helmet_x01",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "The %s flicks off.", "target": "power_armor_helmet_x01" },
     "covers": [ "head" ],
-    "techniques": [ "WBLOCK_1" ],
-    "magazine_well": 1
+    "techniques": [ "WBLOCK_1" ]
   }
 ]
