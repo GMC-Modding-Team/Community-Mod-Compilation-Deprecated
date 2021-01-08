@@ -44,7 +44,7 @@
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "fabrication",
     "skills_required": [ [ "mechanics", 4 ] ],
-    "difficulty": 4,
+
     "time": 150000,
     "autolearn": true,
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
@@ -63,7 +63,7 @@
     "location": "center",
     "symbol": "O",
     "broken_color": "red",
-    "difficulty": 1,
+
     "durability": 160,
     "description": "A large drum hooked into the fuel system.",
     "size": 100000,
@@ -98,7 +98,7 @@
     "description": "A huge rack with four shelves.",
     "size": 4000,
     "item": "storage_rack",
-    "difficulty": 1,
+
     "location": "center",
     "flags": [ "OBSTACLE", "CARGO", "COVERED" ],
     "breaks_into": [
@@ -130,7 +130,7 @@
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "fabrication",
     "skills_required": [ [ "mechanics", 5 ] ],
-    "difficulty": 4,
+
     "time": 150000,
     "autolearn": true,
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
@@ -151,7 +151,7 @@
     "symbol": "O",
     "color": "yellow",
     "broken_color": "red",
-    "difficulty": 6,
+
     "durability": 1200,
     "description": "An array of eight storage batteries hooked together for extreme power storage.",
     "damage_modifier": 80,
@@ -191,7 +191,7 @@
     "subcategory": "CSC_ELECTRONIC_PARTS",
     "skill_used": "fabrication",
     "skills_required": [ [ "mechanics", 5 ], [ "electronics", 5 ] ],
-    "difficulty": 8,
+
     "time": 150000,
     "book_learn": [ [ "textbook_electronics", 6 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
@@ -209,7 +209,7 @@
     "looks_like": "engine_electric_large",
     "item": "motor_massive",
     "proportional": { "energy_consumption": 3.5, "power": 2.5 },
-    "difficulty": 4,
+
     "durability": 600,
     "description": "A massive and incredibly powerful electric motor.",
     "damage_modifier": 80,
@@ -243,7 +243,7 @@
     "subcategory": "CSC_ELECTRONIC_PARTS",
     "skill_used": "fabrication",
     "skills_required": [ [ "mechanics", 5 ], [ "electronics", 5 ] ],
-    "difficulty": 8,
+
     "time": 150000,
     "book_learn": [ [ "textbook_mechanics", 6 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
