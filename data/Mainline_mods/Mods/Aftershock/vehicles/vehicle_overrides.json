@@ -23,7 +23,7 @@
         "x": 3,
         "parts": [ "hdframe_vertical_2", "hdroof", "afs_control_station", "dashboard", "seat", "seatbelt_heavyduty" ]
       },
-      { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
+      { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
       { "y": 1, "x": 5, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military" ] },
       {
         "y": -2,
@@ -42,12 +42,12 @@
         "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military", "wheel_mount_heavy", "wheel_armor" ]
       },
       { "y": 1, "x": -1, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
       {
         "y": -2,
         "x": 2,
         "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military", "wheel_mount_heavy", "wheel_armor" ]
       },
-      { "y": -1, "x": 2, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": -1, "x": 1, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": -2, "x": 4, "parts": [ "hdframe_nw", "hdboard_nw", "plating_military" ] },
       { "y": -2, "x": -3, "parts": [ { "fuel": "diesel", "part": "external_tank" } ] },
@@ -74,7 +74,7 @@
       { "y": 0, "x": 0, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
       { "y": -1, "x": -1, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": -2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
-      { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
+      { "y": -1, "x": 2, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": 1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
       { "y": -1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
       { "y": -1, "x": 0, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
@@ -145,7 +145,7 @@
         "x": 3,
         "parts": [ "hdframe_vertical_2", "hdroof", "afs_control_station", "dashboard", "seat", "seatbelt_heavyduty" ]
       },
-      { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
+      { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
       { "y": 1, "x": 5, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military" ] },
       {
         "y": -2,
@@ -164,12 +164,12 @@
         "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military", "wheel_mount_heavy", "wheel_armor" ]
       },
       { "y": 1, "x": -1, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
       {
         "y": -2,
         "x": 2,
         "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military", "wheel_mount_heavy", "wheel_armor" ]
       },
-      { "y": -1, "x": 2, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": -1, "x": 1, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": -2, "x": 4, "parts": [ "hdframe_nw", "hdboard_nw", "plating_military" ] },
       { "y": -2, "x": -3, "parts": [ { "fuel": "diesel", "part": "external_tank" } ] },
@@ -196,7 +196,7 @@
       { "y": 0, "x": 0, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
       { "y": -1, "x": -1, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": -2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
-      { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
+      { "y": -1, "x": 2, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
       { "y": 1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
       { "y": -1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
       { "y": -1, "x": 0, "parts": [ "hdframe_vertical_2", "seat", "hdroof" ] },
@@ -246,11 +246,20 @@
       { "y": -1, "x": 5, "parts": [ "hdframe_horizontal" ] },
       { "y": 0, "x": -1, "parts": [ "hdframe_cross", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ] },
       {
-        "y": -2,
-        "x": -3,
+        "y": 0,
+        "x": 3,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
-      { "y": -3, "x": 2, "parts": [ "hdframe_vertical" ] },
+      {
+        "y": 1,
+        "x": -2,
+        "parts": [
+          "hdframe_horizontal",
+          "wheel_mount_medium",
+          "wheel_wide",
+          { "fuel": "gasoline", "part": "afs_mounted_external_tank" }
+        ]
+      },
       { "y": -3, "x": -1, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
       { "y": 2, "x": -4, "parts": [ "hdframe_se" ] },
       {
@@ -259,11 +268,15 @@
         "parts": [ "hdframe_vertical_2", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
       {
-        "y": 0,
-        "x": -3,
+        "y": -2,
+        "x": 3,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
-      { "y": 2, "x": -2, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
+      {
+        "y": -2,
+        "x": 2,
+        "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
+      },
       { "y": -3, "x": 3, "parts": [ "hdframe_vertical" ] },
       { "y": 1, "x": 5, "parts": [ "hdframe_horizontal" ] },
       {
@@ -276,7 +289,7 @@
       { "y": 2, "x": 1, "parts": [ "hdframe_vertical" ] },
       {
         "y": 1,
-        "x": -2,
+        "x": -1,
         "parts": [
           "hdframe_horizontal",
           "wheel_mount_medium",
@@ -285,14 +298,14 @@
         ]
       },
       { "y": -3, "x": -3, "parts": [ "hdframe_vertical" ] },
-      { "y": 2, "x": -1, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
       {
         "y": -1,
         "x": 1,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
       {
-        "y": -1,
+        "y": -2,
         "x": -3,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
@@ -302,8 +315,8 @@
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
       {
-        "y": 0,
-        "x": 3,
+        "y": -1,
+        "x": -3,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
       { "y": 2, "x": -3, "parts": [ "hdframe_vertical" ] },
@@ -328,20 +341,10 @@
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
       { "y": 2, "x": 3, "parts": [ "hdframe_vertical" ] },
+      { "y": 2, "x": -1, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
+      { "y": -3, "x": -4, "parts": [ "hdframe_sw" ] },
       {
         "y": -2,
-        "x": 2,
-        "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
-      },
-      { "y": -3, "x": -4, "parts": [ "hdframe_sw" ] },
-      { "y": 2, "x": 2, "parts": [ "hdframe_vertical" ] },
-      {
-        "y": -1,
-        "x": 2,
-        "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
-      },
-      {
-        "y": 1,
         "x": -1,
         "parts": [
           "hdframe_horizontal",
@@ -352,10 +355,25 @@
       },
       {
         "y": -1,
-        "x": 3,
+        "x": 2,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
-      { "y": -1, "x": -2, "parts": [ "hdframe_cross", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ] },
+      { "y": -3, "x": 2, "parts": [ "hdframe_vertical" ] },
+      {
+        "y": 0,
+        "x": -3,
+        "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
+      },
+      {
+        "y": -2,
+        "x": -2,
+        "parts": [
+          "hdframe_horizontal",
+          "wheel_mount_medium",
+          "wheel_wide",
+          { "fuel": "gasoline", "part": "afs_mounted_external_tank" }
+        ]
+      },
       {
         "y": 1,
         "x": -3,
@@ -383,33 +401,15 @@
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
       { "y": -2, "x": -4, "parts": [ "hdframe_horizontal" ] },
-      {
-        "y": -2,
-        "x": -1,
-        "parts": [
-          "hdframe_horizontal",
-          "wheel_mount_medium",
-          "wheel_wide",
-          { "fuel": "gasoline", "part": "afs_mounted_external_tank" }
-        ]
-      },
+      { "y": 2, "x": 2, "parts": [ "hdframe_vertical" ] },
       {
         "y": 1,
         "x": 3,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
+      { "y": -1, "x": -2, "parts": [ "hdframe_cross", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ] },
       {
-        "y": -2,
-        "x": -2,
-        "parts": [
-          "hdframe_horizontal",
-          "wheel_mount_medium",
-          "wheel_wide",
-          { "fuel": "gasoline", "part": "afs_mounted_external_tank" }
-        ]
-      },
-      {
-        "y": -2,
+        "y": -1,
         "x": 3,
         "parts": [ "hdframe_horizontal", { "fuel": "gasoline", "part": "afs_mounted_external_tank" } ]
       },
@@ -436,17 +436,17 @@
       { "y": -3, "x": 4, "parts": [ "hdframe_vertical" ] },
       { "y": -1, "x": 5, "parts": [ "hdframe_horizontal" ] },
       { "y": 0, "x": -1, "parts": [ "hdframe_cross", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": 0, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       {
-        "y": -2,
-        "x": -3,
-        "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
+        "y": 1,
+        "x": -2,
+        "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
       },
-      { "y": -3, "x": 2, "parts": [ "hdframe_vertical" ] },
       { "y": -3, "x": -1, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
       { "y": 2, "x": -4, "parts": [ "hdframe_se" ] },
       { "y": 0, "x": 0, "parts": [ "hdframe_vertical_2", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
-      { "y": 0, "x": -3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
-      { "y": 2, "x": -2, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
+      { "y": -2, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": -2, "x": 2, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": -3, "x": 3, "parts": [ "hdframe_vertical" ] },
       { "y": 1, "x": 5, "parts": [ "hdframe_horizontal" ] },
       { "y": -2, "x": 1, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
@@ -455,19 +455,23 @@
       { "y": 2, "x": 1, "parts": [ "hdframe_vertical" ] },
       {
         "y": 1,
-        "x": -2,
+        "x": -1,
         "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
       },
       { "y": -3, "x": -3, "parts": [ "hdframe_vertical" ] },
-      { "y": 2, "x": -1, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
       { "y": -1, "x": 1, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      {
+        "y": -2,
+        "x": -3,
+        "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
+      },
+      { "y": -2, "x": 4, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       {
         "y": -1,
         "x": -3,
         "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
       },
-      { "y": -2, "x": 4, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
-      { "y": 0, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": 2, "x": -3, "parts": [ "hdframe_vertical" ] },
       { "y": 0, "x": 5, "parts": [ "hdframe_horizontal" ] },
       { "y": -1, "x": -1, "parts": [ "hdframe_cross", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
@@ -478,17 +482,21 @@
       { "y": -2, "x": 5, "parts": [ "hdframe_horizontal" ] },
       { "y": -2, "x": 0, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": 2, "x": 3, "parts": [ "hdframe_vertical" ] },
-      { "y": -2, "x": 2, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": 2, "x": -1, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
       { "y": -3, "x": -4, "parts": [ "hdframe_sw" ] },
-      { "y": 2, "x": 2, "parts": [ "hdframe_vertical" ] },
-      { "y": -1, "x": 2, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       {
-        "y": 1,
+        "y": -2,
         "x": -1,
         "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
       },
-      { "y": -1, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
-      { "y": -1, "x": -2, "parts": [ "hdframe_cross", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": -1, "x": 2, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": -3, "x": 2, "parts": [ "hdframe_vertical" ] },
+      { "y": 0, "x": -3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      {
+        "y": -2,
+        "x": -2,
+        "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
+      },
       { "y": 1, "x": -3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": 1, "x": 2, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": -3, "x": -2, "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide" ] },
@@ -500,18 +508,10 @@
       { "y": -1, "x": -4, "parts": [ "hdframe_horizontal" ] },
       { "y": 1, "x": 0, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": -2, "x": -4, "parts": [ "hdframe_horizontal" ] },
-      {
-        "y": -2,
-        "x": -1,
-        "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
-      },
+      { "y": 2, "x": 2, "parts": [ "hdframe_vertical" ] },
       { "y": 1, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
-      {
-        "y": -2,
-        "x": -2,
-        "parts": [ "hdframe_horizontal", "wheel_mount_medium", "wheel_wide", { "fuel": "water", "part": "afs_mounted_external_tank" } ]
-      },
-      { "y": -2, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": -1, "x": -2, "parts": [ "hdframe_cross", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
+      { "y": -1, "x": 3, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": 0, "x": 2, "parts": [ "hdframe_horizontal", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
       { "y": 1, "x": -4, "parts": [ "hdframe_horizontal" ] },
       { "y": -1, "x": 0, "parts": [ "hdframe_vertical_2", { "fuel": "water", "part": "afs_mounted_external_tank" } ] },
