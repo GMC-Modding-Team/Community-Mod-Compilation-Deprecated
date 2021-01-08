@@ -18,12 +18,11 @@
         "max_contains_weight": "20 kg",
         "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       }
-    ],
-    "magazine_well": 1
+    ]
   },
   {
     "type": "TOOL",
-    "id": "laptop_working_os",
+    "abstract": "laptop_working_os",
     "copy-from": "laptop_working",
     "name": { "str": "laptop computer with OS", "str_pl": "laptop computers with OS" },
     "flags": [ "WATCH", "ALARMCLOCK" ],
