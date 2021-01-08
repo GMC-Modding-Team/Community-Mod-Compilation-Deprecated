@@ -12,8 +12,7 @@
     "volume": "1 L",
     "//": "Density of one liter of copper, item is native metal.",
     "weight": "8960 g",
-    "bashing": 2,
-    "ammo_type": "components"
+    "bashing": 2
   },
   {
     "type": "GENERIC",
@@ -28,8 +27,7 @@
     "volume": "1 L",
     "//": "Density of one liter of silver, item is native metal.",
     "weight": "10490 g",
-    "bashing": 3,
-    "ammo_type": "components"
+    "bashing": 3
   },
   {
     "type": "GENERIC",
@@ -44,8 +42,7 @@
     "volume": "1 L",
     "//": "Density of one liter of gold, item is native metal.  Massivelly heavy.",
     "weight": "19320 g",
-    "bashing": 4,
-    "ammo_type": "components"
+    "bashing": 4
   },
   {
     "type": "GENERIC",
@@ -56,12 +53,11 @@
     "symbol": "*",
     "color": "white",
     "description": "A large chunk of native aluminum, which would have been priceless before other ways to obtain aluminum were invented.  It needs to be cast into an ingot.",
-    "material": [ "aluminum" ],
+    "material": "aluminum",
     "volume": "1 L",
     "//": "Density of one liter of aluminum, item is native metal.",
     "weight": "2700 g",
-    "bashing": 1,
-    "ammo_type": "components"
+    "bashing": 1
   },
   {
     "type": "GENERIC",
@@ -76,8 +72,7 @@
     "volume": "1 L",
     "//": "One liter, roughly 6.26 grams per cubic centimeter.",
     "weight": "6260 g",
-    "bashing": 2,
-    "ammo_type": "components"
+    "bashing": 2
   },
   {
     "type": "GENERIC",
@@ -92,8 +87,7 @@
     "volume": "1 L",
     "//": "One liter, roughly 7.6 grams per cubic centimeter.",
     "weight": "7600 g",
-    "bashing": 3,
-    "ammo_type": "components"
+    "bashing": 3
   },
   {
     "type": "GENERIC",
@@ -108,8 +102,7 @@
     "volume": "1 L",
     "//": "One liter, roughly 5.04 grams per cubic centimeter.",
     "weight": "5040 g",
-    "bashing": 2,
-    "ammo_type": "components"
+    "bashing": 2
   },
   {
     "id": "pickaxe_copper",
@@ -118,7 +111,7 @@
     "description": "This is a handmade copper pickaxe, suitable for breaking up hard things or (with enough skill) hard targets.  Strike the earth!",
     "sub": "pickaxe",
     "weight": "6350 g",
-    "volume": 12,
+    "volume": "3 L",
     "price": 1600,
     "to_hit": -3,
     "bashing": 12,
@@ -161,8 +154,7 @@
     "type": "AMMO",
     "id": "material_sand_black",
     "category": "spare_parts",
-    "price": 0,
-    "name": { "str": "black sand", "str_pl": "black sand" },
+    "name": { "str_sp": "black sand" },
     "symbol": "=",
     "color": "dark_gray",
     "description": "A handful of sand, rich with minerals eroded from a deposit somewhere upstream.  Not as useful in this state, but might be a source of magnetite.",
@@ -170,7 +162,6 @@
     "volume": "250 ml",
     "//": "Roughly half magnetite, which has a density of 7.874 grams per cubic liter, and each unit is 5 mL.",
     "weight": "23 g",
-    "bashing": 1,
     "ammo_type": "components",
     "count": 50
   }
