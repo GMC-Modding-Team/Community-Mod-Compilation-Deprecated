@@ -117,7 +117,7 @@
     "ammo": [ "battery" ],
     "pocket_data": [
       {
-        "magazine_well": "100 ml",
+        "magazine_well": "250 ml",
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "20 L",
@@ -156,7 +156,7 @@
     "ammo": [ "battery" ],
     "pocket_data": [
       {
-        "magazine_well": "100 ml",
+        "magazine_well": "250 ml",
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "20 L",
@@ -197,7 +197,6 @@
     "volume": "3 ml",
     "price": 0,
     "to_hit": -5,
-    "rigid": false,
     "material": [ "plastic" ],
     "symbol": ")",
     "color": "blue",
@@ -206,12 +205,11 @@
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
-        "rigid": true,
+        "rigid": false,
         "max_contains_volume": "3750 ml",
         "max_contains_weight": "7500 g"
       }
     ],
-    "watertight": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
   {
@@ -224,7 +222,6 @@
     "volume": "3 ml",
     "price": 0,
     "to_hit": -5,
-    "rigid": false,
     "material": [ "plastic" ],
     "symbol": ")",
     "color": "green",
@@ -233,12 +230,11 @@
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
-        "rigid": true,
+        "rigid": false,
         "max_contains_volume": "3750 ml",
         "max_contains_weight": "7500 g"
       }
     ],
-    "watertight": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
   {
@@ -251,7 +247,6 @@
     "volume": "3 ml",
     "price": 0,
     "to_hit": -5,
-    "rigid": false,
     "material": [ "plastic" ],
     "symbol": ")",
     "color": "red",
@@ -260,12 +255,11 @@
       {
         "pocket_type": "CONTAINER",
         "watertight": true,
-        "rigid": true,
+        "rigid": false,
         "max_contains_volume": "3750 ml",
         "max_contains_weight": "7500 g"
       }
     ],
-    "watertight": true,
     "properties": [ [ "burst_when_filled", "75" ] ]
   },
   {
@@ -291,7 +285,6 @@
         "max_contains_weight": "500 g"
       }
     ],
-    "watertight": true,
     "armor_data": { "covers": [ "leg_l", "leg_r" ], "coverage": 2, "material_thickness": 1 },
     "qualities": [ [ "BOIL", 1 ] ],
     "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY", "TARDIS" ]
