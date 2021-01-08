@@ -17,6 +17,7 @@
     "dispersion": 80,
     "durability": 9,
     "clip_size": 8,
+    "reload": 80,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -49,6 +50,7 @@
     "dispersion": 180,
     "durability": 9,
     "clip_size": 6,
+    "reload": 80,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -95,6 +97,7 @@
     "durability": 10,
     "clip_size": 2,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "500": 2 } } ],
+    "reload": 80,
     "valid_mod_locations": [ [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ] ],
     "techniques": [ "WBLOCK_2" ]
   },
@@ -121,6 +124,7 @@
     "durability": 10,
     "clip_size": 2,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "500": 2 } } ],
+    "reload": 80,
     "loudness": 50,
     "valid_mod_locations": [ [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ] ],
     "techniques": [ "WBLOCK_1" ],
@@ -148,6 +152,7 @@
     "durability": 4,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 1 } } ],
+    "reload": 200,
     "loudness": 200,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -174,7 +179,7 @@
     "to_hit": -1,
     "bashing": 10,
     "material": [ "steel", "plastic" ],
-    "ammo": [ "9mm" ],
+    "ammo": [ "9mm", "22", "45", "46", "57" ],
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": 130,
     "durability": 8,
@@ -200,7 +205,7 @@
     "price": 580000,
     "material": [ "steel", "plastic" ],
     "skill": "smg",
-    "ammo": [ "44" ],
+    "ammo": [ "9mm", "44", "45" ],
     "weight": "3400 g",
     "volume": "1250 ml",
     "bashing": 10,
@@ -257,6 +262,7 @@
     "range": 25,
     "dispersion": 100,
     "durability": 6,
+    "reload": 100,
     "loudness": 75,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -289,6 +295,7 @@
     "range": 15,
     "dispersion": 250,
     "durability": 7,
+    "reload": 140,
     "loudness": 100,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
@@ -306,7 +313,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "[",
     "color": "light_gray",
-    "ammo": [ "45" ],
+    "ammo": [ "9mm", "45" ],
     "dispersion": 255,
     "durability": 6,
     "valid_mod_locations": [
