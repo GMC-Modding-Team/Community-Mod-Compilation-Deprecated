@@ -50,6 +50,14 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "SecronomSSLab_b3_flesh",
+    "name": "underground secronom lab",
+    "sym": "L",
+    "color": "light_gray",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
     "id": "SecronomSSLab_Climax",
     "name": "underground secronom lab",
     "sym": "L",
@@ -193,7 +201,7 @@
     "name": "house",
     "sym": "^",
     "color": "green_red",
-    "see_cost": 2,
+    "see_cost": 10,
     "extras": "build",
     "mondensity": 3,
     "flags": [ "SIDEWALK", "GENERIC_LOOT" ]
@@ -205,87 +213,157 @@
     "sym": "O",
     "color": "dark_gray_red",
     "copy-from": "generic_city_building_no_sidewalk",
-    "flags": [ "KNOWN_UP", "NO_ROTATE", "GENERIC_LOOT" ]
+    "flags": [ "KNOWN_UP", "NO_ROTATE", "GENERIC_LOOT" ],
+    "see_cost": 10
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "flesh_cavern_entrance",
+    "name": "cave",
+    "sym": "C",
+    "color": "brown",
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome",
+    "flags": [ "NO_ROTATE", "SOURCE_SAFETY" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "flesh_cavern_bot",
+    "name": "flesh cave",
+    "sym": "C",
+    "color": "light_red",
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome",
+    "flags": [ "NO_ROTATE", "SOURCE_SAFETY" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "flesh_cavern_boss",
+    "name": "flesh cave",
+    "sym": "C",
+    "color": "red",
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome",
+    "flags": [ "NO_ROTATE", "SOURCE_SAFETY" ]
   },
   {
     "id": "flesh_forest_1",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_2",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_3",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_4",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_5",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
-    "see_cost": 10
+    "color": "light_red",
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_6",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_7",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_8",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_9",
     "type": "overmap_terrain",
     "name": "forest",
     "sym": "F",
-    "color": "green",
+    "color": "light_red",
     "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
+  },
+  {
+    "id": "flesh_island_vfaraway_straight",
+    "type": "overmap_terrain",
+    "name": "shore",
+    "sym": "#",
+    "color": "light_blue",
+    "spawns": { "group": "GROUP_FF_SHORE", "population": [ 1, 2 ], "chance": 100 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
+  },
+  {
+    "id": "flesh_island_vfaraway_vortex",
+    "type": "overmap_terrain",
+    "name": "shore",
+    "sym": "#",
+    "color": "light_blue",
+    "spawns": { "group": "GROUP_FF_SHORE", "population": [ 1, 2 ], "chance": 100 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
+  },
+  {
+    "id": "flesh_island_vfaraway_curve",
+    "type": "overmap_terrain",
+    "name": "shore",
+    "sym": "#",
+    "color": "light_blue",
+    "spawns": { "group": "GROUP_FF_SHORE", "population": [ 1, 2 ], "chance": 100 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_vfaraway",
@@ -293,8 +371,9 @@
     "name": "forest",
     "sym": "F",
     "color": "green",
-    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ], "chance": 10 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_vfar",
@@ -302,8 +381,9 @@
     "name": "forest",
     "sym": "F",
     "color": "green",
-    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ], "chance": 20 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_far",
@@ -311,8 +391,9 @@
     "name": "forest",
     "sym": "F",
     "color": "green",
-    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ], "chance": 30 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_mid",
@@ -320,8 +401,9 @@
     "name": "forest",
     "sym": "F",
     "color": "green",
-    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 3 ], "chance": 100 },
-    "see_cost": 10
+    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ], "chance": 40 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_near",
@@ -329,8 +411,9 @@
     "name": "forest",
     "sym": "F",
     "color": "green",
-    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ] },
-    "see_cost": 10
+    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ], "chance": 50 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_1",
@@ -339,7 +422,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_2",
@@ -348,7 +432,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_3",
@@ -357,7 +442,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_4",
@@ -366,7 +452,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_5",
@@ -375,7 +462,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "light_red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_6",
@@ -384,7 +472,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_7",
@@ -393,7 +482,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_8",
@@ -402,7 +492,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot1_9",
@@ -411,7 +502,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_1",
@@ -420,7 +512,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_2",
@@ -429,7 +522,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_3",
@@ -438,7 +532,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_4",
@@ -447,7 +542,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_5",
@@ -456,7 +552,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "light_red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_6",
@@ -465,7 +562,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_7",
@@ -474,7 +572,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_8",
@@ -483,7 +582,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot2_9",
@@ -492,7 +592,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_1",
@@ -501,7 +602,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_2",
@@ -510,7 +612,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_3",
@@ -519,7 +622,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_4",
@@ -528,7 +632,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_5",
@@ -537,7 +642,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "light_red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_6",
@@ -546,7 +652,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_7",
@@ -555,7 +662,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_8",
@@ -564,7 +672,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_bot3_9",
@@ -573,7 +682,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_1",
@@ -582,7 +692,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_2",
@@ -591,7 +702,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_3",
@@ -600,7 +712,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_4",
@@ -609,7 +722,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_5",
@@ -618,7 +732,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "light_red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_6",
@@ -627,7 +742,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_7",
@@ -636,7 +752,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_8",
@@ -645,7 +762,8 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "flesh_forest_boss_9",
@@ -654,7 +772,18 @@
     "sym": "#",
     "spawns": { "group": "GROUP_FF_INSIDE", "population": [ 1, 3 ], "chance": 20 },
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
+  },
+  {
+    "id": "flesh_biome_extra",
+    "type": "overmap_terrain",
+    "name": "forest",
+    "sym": "F",
+    "color": "green",
+    "spawns": { "group": "GROUP_FF_SURFACE", "population": [ 1, 2 ], "chance": 50 },
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -664,7 +793,8 @@
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 50, 100 ] },
     "sym": "┼",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -673,7 +803,8 @@
     "name": "flesh tower",
     "sym": "⨂",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -682,7 +813,8 @@
     "name": "flesh tower",
     "sym": "⨂",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -691,7 +823,8 @@
     "name": "flesh tower",
     "sym": "⨀",
     "color": "light_red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -700,7 +833,8 @@
     "name": "flesh tower",
     "sym": "⨀",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "id": "secro_flesh_city_edge",
@@ -710,21 +844,23 @@
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 5, 10 ] },
     "sym": ".",
     "color": "brown",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_connect_flesh",
+    "id": "secro_rd_connect_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "─",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
-    "note": "The buildings in Flesh City does not show their original symbols, rendering them unknown from the overmap (but at the center of the city is sure to be the commercial structures)",
+    "//": "The buildings in Flesh City does not show their original symbols, rendering them unknown from the overmap (but at the center of the city is sure to be the commercial structures)",
     "type": "overmap_terrain",
     "id": "s_house_flesh",
     "name": "fleshed structure",
@@ -732,6 +868,7 @@
     "sym": "⨳",
     "color": "red_red",
     "see_cost": 10,
+    "land_use_code": "secro_flesh_biome",
     "extras": "build",
     "mondensity": 2,
     "flags": [ "SIDEWALK", "GENERIC_LOOT" ]
@@ -744,6 +881,7 @@
     "sym": "⨳",
     "color": "red_red",
     "see_cost": 10,
+    "land_use_code": "secro_flesh_biome",
     "extras": "build",
     "mondensity": 3,
     "flags": [ "SIDEWALK", "GENERIC_LOOT" ]
@@ -756,172 +894,188 @@
     "sym": "⨳",
     "color": "red_red",
     "see_cost": 10,
+    "land_use_code": "secro_flesh_biome",
     "extras": "build",
     "mondensity": 3,
     "flags": [ "SIDEWALK", "GENERIC_LOOT" ]
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_updown_flesh",
+    "id": "secro_rd_updown_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "│",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_leftright_flesh",
+    "id": "secro_rd_leftright_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "─",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_4d_flesh",
+    "id": "secro_rd_4d_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┼",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_updown_sidewalk_flesh",
+    "id": "secro_rd_updown_sidewalk_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "│",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_leftright_sidewalk_flesh",
+    "id": "secro_rd_leftright_sidewalk_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "─",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_verti_end_flesh",
+    "id": "secro_rd_verti_end_flesh",
     "copy-from": "generic_transportation",
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "│",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_hori_end_flesh",
+    "id": "secro_rd_hori_end_flesh",
     "copy-from": "generic_transportation",
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "─",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_tee_lru_flesh",
+    "id": "secro_rd_tee_lru_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┴",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_tee_lrd_flesh",
+    "id": "secro_rd_tee_lrd_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┬",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_tee_lud_flesh",
+    "id": "secro_rd_tee_lud_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┤",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_tee_rud_flesh",
+    "id": "secro_rd_tee_rud_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "├",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_curve_ru_flesh",
+    "id": "secro_rd_curve_ru_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "└",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_curve_lu_flesh",
+    "id": "secro_rd_curve_lu_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┘",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_curve_rd_flesh",
+    "id": "secro_rd_curve_rd_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┌",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
-    "id": "secro_road_curve_ld_flesh",
+    "id": "secro_rd_curve_ld_flesh",
     "copy-from": "generic_transportation",
     "flags": [ "NO_ROTATE" ],
     "name": "fleshed road",
     "spawns": { "group": "GROUP_FLESH_CITY", "chance": 50, "population": [ 25, 50 ] },
     "sym": "┐",
     "color": "red",
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -991,27 +1145,27 @@
   {
     "id": "vector_forest_curve",
     "type": "overmap_terrain",
-    "name": "forest",
-    "sym": "F",
-    "color": "green",
+    "name": "field",
+    "sym": ".",
+    "color": "light_blue",
     "spawns": { "group": "GROUP_VECTOR_BIOME", "population": [ 1, 2 ] },
     "see_cost": 10
   },
   {
     "id": "vector_forest_edge",
     "type": "overmap_terrain",
-    "name": "forest",
-    "sym": "F",
-    "color": "green",
+    "name": "field",
+    "sym": ".",
+    "color": "light_blue",
     "spawns": { "group": "GROUP_VECTOR_BIOME", "population": [ 1, 2 ] },
     "see_cost": 10
   },
   {
     "id": "vector_forest_center",
     "type": "overmap_terrain",
-    "name": "forest",
-    "sym": "F",
-    "color": "green",
+    "name": "field",
+    "sym": ".",
+    "color": "light_blue",
     "spawns": { "group": "GROUP_VECTOR_BIOME", "population": [ 1, 2 ] },
     "see_cost": 10
   },
@@ -1065,7 +1219,8 @@
     "sym": "┌",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1074,7 +1229,8 @@
     "sym": "─",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1083,7 +1239,8 @@
     "sym": "┈",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1092,7 +1249,8 @@
     "sym": "─",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1101,7 +1259,8 @@
     "sym": "┐",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1110,7 +1269,8 @@
     "sym": "│",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1119,7 +1279,8 @@
     "sym": "┊",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1128,7 +1289,8 @@
     "sym": "│",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1137,7 +1299,8 @@
     "sym": "┘",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1146,7 +1309,8 @@
     "sym": "─",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1155,7 +1319,8 @@
     "sym": "┈",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1164,7 +1329,8 @@
     "sym": "─",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1173,7 +1339,8 @@
     "sym": "└",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1182,7 +1349,8 @@
     "sym": "│",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1191,7 +1359,8 @@
     "sym": "┊",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
   },
   {
     "type": "overmap_terrain",
@@ -1200,6 +1369,121 @@
     "sym": "│",
     "color": "red",
     "flags": [ "NO_ROTATE" ],
-    "see_cost": 10
+    "see_cost": 10,
+    "land_use_code": "secro_flesh_biome"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_saddler_reststop_1", "s_saddler_reststop_2" ],
+    "copy-from": "generic_city_building",
+    "name": "rest area",
+    "sym": "#",
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_saddler_reststop_1_roof", "s_saddler_reststop_2_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "rest area roof",
+    "sym": "#",
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_saddler_restparking_1", "s_saddler_restparking_2" ],
+    "copy-from": "generic_city_building",
+    "name": "rest area parking",
+    "sym": "+",
+    "color": "dark_gray"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "saddler_motel_twd_1", "saddler_motel_entrance" ],
+    "copy-from": "generic_city_building",
+    "name": "motel",
+    "sym": "h",
+    "color": "light_blue",
+    "extend": { "flags": [ "SOURCE_SAFETY" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "saddler_motel_twd_2", "saddler_motel_twd_second_floor" ],
+    "copy-from": "generic_city_building",
+    "name": "motel",
+    "sym": "h",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "saddler_motel_entrance_roof", "saddler_motel_1_roof", "saddler_motel_2_roof", "saddler_motel_3_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "motel roof",
+    "sym": "h",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "saddler_motel_1", "saddler_motel_2", "saddler_motel_3" ],
+    "copy-from": "generic_city_building",
+    "name": "motel",
+    "sym": "h",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_dsaddler_reststop_1", "s_dsaddler_reststop_2" ],
+    "copy-from": "generic_city_building",
+    "name": "rest area",
+    "sym": "#",
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_dsaddler_reststop_1_roof", "s_dsaddler_reststop_2_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "rest area roof",
+    "sym": "#",
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_dsaddler_restparking_1", "s_dsaddler_restparking_2" ],
+    "copy-from": "generic_city_building",
+    "name": "rest area parking",
+    "sym": "+",
+    "color": "dark_gray"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dsaddler_motel_twd_1", "dsaddler_motel_entrance" ],
+    "copy-from": "generic_city_building",
+    "name": "motel",
+    "sym": "h",
+    "color": "light_blue",
+    "extend": { "flags": [ "SOURCE_SAFETY" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dsaddler_motel_twd_2", "dsaddler_motel_twd_second_floor" ],
+    "copy-from": "generic_city_building",
+    "name": "motel",
+    "sym": "h",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dsaddler_motel_entrance_roof", "dsaddler_motel_1_roof", "dsaddler_motel_2_roof", "dsaddler_motel_3_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "motel roof",
+    "sym": "h",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dsaddler_motel_1", "dsaddler_motel_2", "dsaddler_motel_3" ],
+    "copy-from": "generic_city_building",
+    "name": "motel",
+    "sym": "h",
+    "color": "light_blue"
   }
 ]
