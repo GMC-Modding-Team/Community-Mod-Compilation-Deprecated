@@ -239,9 +239,10 @@
       {
         "id": "buff_smithytraining_onhit",
         "name": "Muscle Memory",
-        "description": "Every successful hit gives you a small semi-permanent improvement.",
+        "description": "Every successful hit gives you a small temporary improvement which stacks.",
         "skill_requirements": [ { "name": "fabrication", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -292,10 +293,11 @@
       {
         "id": "buff_smithyattacktraining_onattack",
         "name": "Muscle Building",
-        "description": "Every attack gives you a small semi-permanent improvement.",
+        "description": "Every attack gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "fabrication", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -312,8 +314,9 @@
       {
         "id": "buff_defending_onblock",
         "name": "Defending the Weak",
-        "description": "Every successful block increases your bashing damage for as long as the style is active.",
+        "description": "Every successful block increases your bashing damage temporarily for a short amount of time.",
         "max_stacks": 99999,
+        "buff_duration": 4,
         "mult_bonuses": [
           { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 1 },
           { "stat": "damage", "type": "bash", "scale": 2 }
@@ -363,10 +366,11 @@
       {
         "id": "buff_smithycrittraining_oncrit",
         "name": "Muscle Augmentation",
-        "description": "Every successful hit gives you a small semi-permanent improvement.",
+        "description": "Every successful hit gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "fabrication", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -399,10 +403,11 @@
       {
         "id": "buff_smithykilltraining_onkill",
         "name": "Muscle Stimulation",
-        "description": "Every successful hit gives you a small semi-permanent improvement.",
+        "description": "Every successful hit gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "fabrication", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
