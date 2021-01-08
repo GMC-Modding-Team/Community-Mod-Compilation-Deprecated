@@ -1,6 +1,6 @@
 [
   {
-    "note": "I don't know if this NPC will tell you about HIM. Actually, I'm unsure about it",
+    "//": "I don't know if this NPC will tell you about HIM. Actually, I'm unsure about it",
     "type": "npc_class",
     "id": "V_SEEKER",
     "name": { "str": "Vampire Arcane Seeker" },
@@ -169,7 +169,7 @@
     "responses": [ { "text": "Okay. Sorry...", "topic": "VAMP_ASEEKER_main", "effect": { "npc_add_trait": "introducedvaseeker" } } ]
   },
   {
-    "note": "Collaborate with the seeker for some rewards, BUT! Expect lesser missions from her. It's all up to your decision.",
+    "//": "Collaborate with the seeker for some rewards, BUT! Expect lesser missions from her. It's all up to your decision.",
     "id": "VAMP_ASEEKER_main_collaborate",
     "type": "talk_topic",
     "dynamic_line": "What will be the cost of your partnership with me?",
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "note": "Rewards are literally low.",
+    "//": "Rewards are literally low.",
     "id": "VAMP_ASEEKER_main_collaborateforitem",
     "type": "talk_topic",
     "dynamic_line": "I agree, but in form of tokens. Work hard, collect more and earn our exclusive items to fulfill your endeavors.",
