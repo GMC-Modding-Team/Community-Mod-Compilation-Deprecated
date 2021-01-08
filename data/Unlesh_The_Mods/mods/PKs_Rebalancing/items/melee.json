@@ -537,8 +537,8 @@
     "gunmod_data": {
       "location": "underbarrel",
       "mod_targets": [ "shotgun", "rifle" ],
-      "dispersion_modifier": 10,
       "install_time": "15 m",
+      "dispersion_modifier": 10,
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE" ] ] ],
       "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ]
     },
@@ -1039,7 +1039,7 @@
   {
     "type": "GENERIC",
     "id": "mjolnir",
-    "name": { "str": "Mjölnir" },
+    "name": "Mjölnir",
     "description": "A large hammer, forged from the heart of a dying star.  It bears the inscription:\n \nWhosoever holds this hammer,\nIf he be worthy,\nShall possess the power to...\nCRUSH!!'",
     "weight": "5443 g",
     "color": "light_gray",

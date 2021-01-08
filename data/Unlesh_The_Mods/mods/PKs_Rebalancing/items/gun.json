@@ -148,12 +148,13 @@
     "reload": 100,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE" ],
+    "magazine_well": 2,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "20 L",
-        "magazine_well": "500 ml",
+        "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
         "item_restriction": [ "brute_shot_mag" ]
       }
@@ -213,8 +214,8 @@
     "burst": 3,
     "pocket_data": [
       {
-        "magazine_well": "250 ml",
         "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
@@ -289,7 +290,7 @@
     "reload": 1,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ] ],
     "ammo_effects": [ "DRAW_AS_LINE", "BEANBAG", "WIDE", "BOUNCE", "LIGHTNING" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
+    "flags": [ "NEVER_JAMS", "FIRE_50", "NO_UNLOAD" ]
   },
   {
     "id": "410_lever",
