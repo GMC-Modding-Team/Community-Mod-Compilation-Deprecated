@@ -4,6 +4,7 @@
     "copy-from": "launcher_base",
     "type": "GUN",
     "name": { "str": "GL06 stand alone launcher" },
+	"looks_like": "m320",
     "description": "Brügger & Thomet GL06 grenade launcher is one of the most accurate launchers available.  It features vertical loading with a foldong buttstock and detachable forward grip.",
     "weight": "2050 g",
     "volume": "750 ml",
@@ -18,6 +19,7 @@
     "durability": 9,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40x46mm": 1 } } ],
+    "reload": 150,
     "built_in_mods": [ "folding_stock" ],
     "default_mods": [ "grip" ],
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 2 ] ]
@@ -27,6 +29,7 @@
     "copy-from": "launcher_base",
     "type": "GUN",
     "name": { "str": "RGM-40 Kastet" },
+	"looks_like": "m320",
     "description": "The RGM-40 Kastet light grenade launcher is intended to be used by law enforcement agencies for anti-riot control but can also be used to engage other targets.  It is muzzle-loaded, has a self-cocking trigger mechanism, an AK style pistol grip, and extendable buttstock.",
     "weight": "2500 g",
     "volume": "750 ml",
@@ -41,6 +44,7 @@
     "durability": 9,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40x46mm": 1 } } ],
+    "reload": 150,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   }
 ]
