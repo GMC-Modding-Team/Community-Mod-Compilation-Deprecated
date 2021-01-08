@@ -359,10 +359,11 @@
       {
         "id": "buff_heavytraining_onhit",
         "name": "Muscle Memory",
-        "description": "Every successful hit gives you a small semi-permanent improvement.",
+        "description": "Every successful hit gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -427,10 +428,11 @@
       {
         "id": "buff_heavyattacktraining_onattack",
         "name": "Muscle Building",
-        "description": "Every attack gives you a small semi-permanent improvement.",
+        "description": "Every attack gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -447,11 +449,12 @@
       {
         "id": "buff_toughen_ongethit",
         "name": "What doesn't kill you makes you stronger.",
-        "description": "Getting hit gives you a small semi-permanent improvement.",
+        "description": "Getting hit gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 3,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -471,10 +474,11 @@
       {
         "id": "buff_defending_onblock",
         "name": "Defending the Weak",
-        "description": "Every successful block increases your defense for as long as the style is active.",
+        "description": "Every successful block increases your defense temporarily for a short amount of time.",
         "unarmed_allowed": true,
         "melee_allowed": true,
         "max_stacks": 99999,
+        "buff_duration": 4,
         "mult_bonuses": [
           { "stat": "armor", "type": "cut", "scaling-stat": "str", "scale": 0.25 },
           { "stat": "armor", "type": "bash", "scaling-stat": "str", "scale": 0.25 },
@@ -544,10 +548,11 @@
       {
         "id": "buff_heavycrittraining_oncrit",
         "name": "Muscle Augmentation",
-        "description": "Every critical hit gives you a small semi-permanent improvement.",
+        "description": "Every critical hit gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 4,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
@@ -587,10 +592,11 @@
       {
         "id": "buff_heavykilltraining_onkill",
         "name": "Muscle Stimulation",
-        "description": "Every kill gives you a small semi-permanent improvement.",
+        "description": "Every kill gives you a small temporary improvement which stacks.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "cutting", "level": 3 } ],
         "max_stacks": 99999,
+        "buff_duration": 5,
         "flat_bonuses": [
           { "stat": "damage", "type": "bash", "scale": 0.01 },
           { "stat": "damage", "type": "cut", "scale": 0.01 },
