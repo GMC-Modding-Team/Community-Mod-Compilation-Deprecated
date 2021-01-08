@@ -13,7 +13,7 @@
         "name": "Attach Bayonets",
         "melee_allowed": true,
         "unarmed_allowed": false,
-        "min_melee": 0,
+        "skill_requirements": [ { "name": "melee", "level": 0, } ],
         "mult_bonuses": [
           { "stat": "damage", "type": "cut", "scale": 1.2 },
           { "stat": "damage", "type": "stab", "scale": 1.2 },
@@ -24,7 +24,7 @@
       {
         "id": "bayonet_enterench",
         "name": "Entrench",
-        "min_melee": 3,
+        "skill_requirements": [ { "name": "melee", "level": 3, } ],
         "description": "You are dug in, gain up to +6 armor",
         "//": "FWIW, this is twice the amount of armor provided by bionic plating.",
         "melee_allowed": true,
@@ -43,7 +43,7 @@
         "description": "Your bayonet sinks into the target",
         "melee_allowed": true,
         "unarmed_allowed": false,
-        "min_melee": 1,
+        "skill_requirements": [ { "name": "melee", "level": 1, } ],
         "buff_duration": 2,
         "max_stacks": 1,
         "mult_bonuses": [
@@ -60,7 +60,7 @@
         "description": "+5 damage and +0.5 acc per stack and attack faster, but your defences are decreased",
         "melee_allowed": true,
         "unarmed_allowed": false,
-        "min_melee": 3,
+        "skill_requirements": [ { "name": "melee", "level": 3, } ],
         "buff_duration": 5,
         "max_stacks": 5,
         "flat_bonuses": [
