@@ -46,8 +46,7 @@
     "type": "AMMO",
     "name": { "str": "66mm HEAT" },
     "dispersion": 40,
-    "recoil": 0,
-    "damage": { "damage_type": "stab" }
+    "recoil": 0
   },
   {
     "id": "sw_22",
@@ -89,6 +88,7 @@
     "copy-from": "deagle_44",
     "type": "GUN",
     "name": { "str": "Desert Eagle .44" },
+    "ammo": [ "44", "357mag", "45", "9mm" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -106,6 +106,7 @@
     "type": "GUN",
     "name": { "str": "Bushmaster ACR" },
     "default_mods": [ "folding_stock" ],
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -148,6 +149,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+    "ammo": [ "308", "22", "9mm", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -181,6 +183,7 @@
     "copy-from": "h&k416a5",
     "type": "GUN",
     "name": { "str": "H&K 416A5" },
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -224,6 +227,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -252,6 +256,7 @@
     "copy-from": "m249",
     "type": "GUN",
     "name": { "str": "M249" },
+    "ammo": [ "308", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -268,6 +273,7 @@
     "copy-from": "m27iar",
     "type": "GUN",
     "name": { "str": "M27 IAR" },
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -331,6 +337,7 @@
       [ "muzzle", 1 ],
       [ "sights", 1 ]
     ],
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -359,6 +366,7 @@
     "copy-from": "scar_l",
     "type": "GUN",
     "name": { "str": "FN SCAR-L" },
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -387,6 +395,7 @@
     "copy-from": "sig552",
     "type": "GUN",
     "name": { "str": "SIG 552" },
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -414,6 +423,7 @@
     "copy-from": "steyr_aug",
     "type": "GUN",
     "name": { "str": "Steyr AUG" },
+    "ammo": [ "308", "22", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -442,6 +452,7 @@
     "copy-from": "fn_fal",
     "type": "GUN",
     "name": { "str": "FN FAL" },
+    "ammo": [ "308", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -458,6 +469,7 @@
     "copy-from": "hk_g3",
     "type": "GUN",
     "name": { "str": "H&K G3" },
+    "ammo": [ "308", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -483,6 +495,7 @@
       [ "muzzle", 1 ],
       [ "sights", 1 ]
     ],
+    "ammo": [ "308", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -512,6 +525,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+    "ammo": [ "308", "223" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -555,6 +569,7 @@
     "copy-from": "ak47",
     "type": "GUN",
     "name": { "str": "AKM" },
+    "ammo": [ "762", "223", "308" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -581,6 +596,7 @@
     "copy-from": "arx160",
     "type": "GUN",
     "name": { "str": "Beretta ARX-160" },
+    "ammo": [ "762", "223", "545x39", "308" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -624,6 +640,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+    "ammo": [ "9mm", "22", "45", "46", "57" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -653,6 +670,7 @@
     "copy-from": "hk_mp5",
     "type": "GUN",
     "name": { "str": "H&K MP5" },
+    "ammo": [ "9mm", "22", "45", "46", "57" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -692,6 +710,7 @@
       [ "rail", 1 ],
       [ "sights", 1 ]
     ],
+    "ammo": [ "9mm", "22", "40", "45", "46", "57" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -726,6 +745,7 @@
     "copy-from": "uzi",
     "type": "GUN",
     "name": { "str": "Uzi 9mm" },
+    "ammo": [ "9mm", "22", "45", "46", "57" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
