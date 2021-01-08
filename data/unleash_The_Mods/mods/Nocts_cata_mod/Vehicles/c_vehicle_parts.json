@@ -8,7 +8,6 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "ups_rifle",
-    "difficulty": 6,
     "folded_volume": "2 L",
     "//": "Haven't figured out the breaks_into...",
     "breaks_into": [ { "item": "ups_rifle", "prob": 50 } ],
@@ -23,7 +22,6 @@
     "broken_symbol": "#",
     "broken_color": "dark_gray",
     "item": "sur_pnu_lmg",
-    "difficulty": 4,
     "folded_volume": "2 L",
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] }
@@ -56,7 +54,6 @@
     "damage_modifier": 80,
     "durability": 100,
     "item": "surv_station",
-    "difficulty": 6,
     "location": "center",
     "flags": [ "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
     "breaks_into": [
@@ -77,7 +74,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_223",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ]
   },
   {
@@ -89,7 +85,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_308",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ]
   },
   {
@@ -101,7 +96,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_762",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ]
   },
   {
@@ -113,7 +107,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_762R",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ]
   },
   {
@@ -125,7 +118,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_12",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ]
   },
   {
@@ -137,7 +129,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_308",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ]
   },
   {
@@ -149,7 +140,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_223",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ]
   },
   {
@@ -161,7 +151,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_762",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ]
   },
   {
@@ -174,7 +163,6 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_762R",
-    "difficulty": 4,
     "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ]
   },
   {
@@ -311,7 +299,6 @@
     "name": { "str": "tiny electric dynamo" },
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Its small size makes it rather inefficient compared to its normal efficiency as a motor.",
     "item": "motor_tiny",
-    "difficulty": 1,
     "durability": 80,
     "power": -750,
     "epower": 370,
@@ -332,7 +319,6 @@
     "name": { "str": "small electric dynamo" },
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Its small size has a negative impact on its efficiency.",
     "item": "motor_small",
-    "difficulty": 1,
     "durability": 120,
     "power": -7460,
     "epower": 5300,
@@ -355,7 +341,6 @@
     "name": { "str": "electric dynamo" },
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  While relatively energy-intensive, it makes about as efficient a dynamo as it does a motor.",
     "item": "motor",
-    "difficulty": 2,
     "durability": 200,
     "power": -37300,
     "epower": 33500,
@@ -377,7 +362,6 @@
     "name": { "str": "large electric generator" },
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It would need a fairly powerful engine to effectively generate power.",
     "item": "motor_large",
-    "difficulty": 3,
     "durability": 400,
     "power": -149200,
     "epower": 134100,
@@ -399,7 +383,6 @@
     "name": { "str": "enhanced electric dynamo" },
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  While it retains much of its efficiency, it still requires a rather powerful engine to operate.",
     "item": "motor_enhanced",
-    "difficulty": 4,
     "durability": 200,
     "power": -313300,
     "epower": 283200,
@@ -421,7 +404,6 @@
     "name": { "str": "super electric dynamo" },
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  You would need one hell of an engine to use this as a generator!",
     "item": "motor_super",
-    "difficulty": 5,
     "durability": 400,
     "power": -400000,
     "epower": 359500,
