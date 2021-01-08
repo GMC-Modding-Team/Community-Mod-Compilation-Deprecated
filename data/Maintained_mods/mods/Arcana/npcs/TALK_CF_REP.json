@@ -76,7 +76,7 @@
         }
       },
       {
-        "text": "Johnathan sent me to investigate an anomaly, I found this journal.  Can you interpret it?",
+        "text": "[MISSION] Johnathan sent me to investigate an anomaly, I found this journal.  Can you interpret it?",
         "topic": "TALK_CF_REP_PRELUDE_JOURNAL",
         "condition": {
           "and": [
@@ -92,7 +92,7 @@
         "effect": [ { "u_consume_item": "arcana_dream_journal" } ]
       },
       {
-        "text": "Johnathan sent me to investigate an anomaly, I found a strange gem there.  What do you make of it?",
+        "text": "[MISSION] Johnathan sent me to investigate an anomaly, I found a strange gem there.  What do you make of it?",
         "topic": "TALK_CF_REP_PRELUDE_GEM",
         "condition": {
           "and": [
@@ -108,7 +108,12 @@
         "effect": [ { "u_consume_item": "arcana_strange_crystal" } ]
       },
       {
-        "text": "Johnathan asked me about an anomaly he's investigating, and suggested I ask for information from other people.  Who should I ask?",
+        "text": "[MISSION] Johnathan asked me about an anomaly he's investigating and told me about a survivor campsite that might have a clue.  Any advice?",
+        "topic": "TALK_CF_REP_PRELUDE_CAMP",
+        "condition": { "u_has_mission": "MISSION_CF_GM_4_PRELUDE" }
+      },
+      {
+        "text": "[MISSION] Johnathan asked me about an anomaly he's investigating, and suggested I ask for information from other people.  Who should I ask?",
         "topic": "TALK_CF_REP_JOHNATHAN_PRELUDE",
         "condition": {
           "and": [
@@ -142,23 +147,42 @@
       },
       {
         "text": "Why didn't you attack me?",
-        "condition": { "and": [ { "not": { "u_has_effect": "sofia_motive_explained" } }, { "u_has_trait": "PROF_SANGUINE" } ] },
+        "condition": {
+          "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
+            { "not": { "u_has_effect": "sofia_motive_explained" } },
+            { "u_has_trait": "PROF_SANGUINE" }
+          ]
+        },
         "topic": "TALK_CF_REP_SANGUINE_ASK"
       },
       {
         "text": "I'm not here to fight you.",
-        "condition": { "and": [ { "not": { "u_has_effect": "sofia_motive_explained" } }, { "u_has_trait": "PROF_SANGUINE" } ] },
+        "condition": {
+          "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
+            { "not": { "u_has_effect": "sofia_motive_explained" } },
+            { "u_has_trait": "PROF_SANGUINE" }
+          ]
+        },
         "topic": "TALK_CF_REP_SANGUINE_MOTIVE_1"
       },
       {
         "text": "I have my own reasons for being here.",
-        "condition": { "and": [ { "not": { "u_has_effect": "sofia_motive_explained" } }, { "u_has_trait": "PROF_SANGUINE" } ] },
+        "condition": {
+          "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
+            { "not": { "u_has_effect": "sofia_motive_explained" } },
+            { "u_has_trait": "PROF_SANGUINE" }
+          ]
+        },
         "topic": "TALK_CF_REP_SANGUINE_MOTIVE_2"
       },
       {
         "text": "I have been chosen by them, though I am no Keeper.",
         "condition": {
           "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
             { "not": { "u_has_effect": "sofia_motive_explained" } },
             { "not": { "u_has_trait": "THRESH_VEIL" } },
             { "u_has_trait": "PROF_CHALICE" }
@@ -168,18 +192,31 @@
       },
       {
         "text": "I am not here for a fight.  He From Beyond The Veil has seen fit to ensure our meeting.",
-        "condition": { "and": [ { "not": { "u_has_effect": "sofia_motive_explained" } }, { "u_has_trait": "PROF_CHALICE" } ] },
+        "condition": {
+          "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
+            { "not": { "u_has_effect": "sofia_motive_explained" } },
+            { "u_has_trait": "PROF_CHALICE" }
+          ]
+        },
         "topic": "TALK_CF_REP_CHALICE_MOTIVE_1"
       },
       {
         "text": "We have been both allies and enemies in the past.  I am trusting that the cycle will not repeat.",
-        "condition": { "and": [ { "not": { "u_has_effect": "sofia_motive_explained" } }, { "u_has_trait": "PROF_CHALICE" } ] },
+        "condition": {
+          "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
+            { "not": { "u_has_effect": "sofia_motive_explained" } },
+            { "u_has_trait": "PROF_CHALICE" }
+          ]
+        },
         "topic": "TALK_CF_REP_CHALICE_MOTIVE_2"
       },
       {
         "text": "I was told about this place by the merchant at the refugee center, and decided to see if things are any better here.",
         "condition": {
           "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
             { "not": { "u_has_effect": "sofia_motive_explained" } },
             { "u_has_effect": "rural_church_aware" },
             { "u_has_any_trait": [ "PROF_CHALICE", "THRESH_VEIL", "PROF_SANGUINE" ] }
@@ -191,6 +228,7 @@
         "text": "I was sent by the deacon at the refugee center, to check up on you.",
         "condition": {
           "and": [
+            { "not": { "u_has_effect": "cf_mission_1" } },
             { "not": { "u_has_effect": "sofia_motive_explained" } },
             { "u_has_mission": "MISSION_CF_DEACON_1" },
             { "u_has_any_trait": [ "PROF_CHALICE", "THRESH_VEIL", "PROF_SANGUINE" ] }
@@ -293,7 +331,7 @@
     "dynamic_line": "Like any proper sanctum, there's a main room just beyond the entrance, and common rooms for the benefit of any people sheltered there.  Workspaces, archives, armories and the like will be downstairs, and they're likely to be infested by abominations given what what others have mentioned.  The main room there will be divided into hallways by the stone supports and walls, you might be able to use them to keep any monsters down there bunched up.  As for what's beyond that, I…",
     "responses": [
       { "text": "Yes?  What's wrong?", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_2_3" },
-      { "text": "Maybe it would be better to ask about something else.", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_1" },
+      { "text": "Maybe it would be better to ask about something else.", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_2" },
       { "text": "It's fine.  That's all for now.", "topic": "TALK_CF_REP" }
     ]
   },
@@ -302,7 +340,7 @@
     "id": "TALK_CF_REP_JOHNATHAN_ADVICE_2_3",
     "dynamic_line": "The floor below that used to be our ritual room, and a tomb for those that've fallen in battle.  What the others said, that part of the structured has been completely subverted by some unknown intrusion from Beyond.  It's bad enough that those who fell trying to hold those monsters back went unburied, but gods know what happened to those laid to rest there.  You'll need to take down a barrier sealing off the stairs, you'll see one of our swords.  You'll be able to remove it to dispel the barrier easily enough.  Whatever you do, please come back safely.",
     "responses": [
-      { "text": "I'd like to ask about something else, please.", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_1" },
+      { "text": "I'd like to ask about something else, please.", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_2" },
       { "text": "Thank you.  That's it for now.", "topic": "TALK_CF_REP" }
     ]
   },
@@ -311,7 +349,7 @@
     "id": "TALK_CF_REP_JOHNATHAN_ADVICE_2_2",
     "dynamic_line": "When all this started, many places suffered anomalies and hazards of various sorts.  The mere nature of our work down there, dismantling dangerous objects recovered on hunts, evidently allowed such things to happen even there, despite all our efforts to be cautious.  The hunters there held off what came crawling out from Beyond as best as they could, but they couldn't… I'm sorry.  It's unavoidable in our line of work, but we lost so many down there, that day.  Whatever fate the gods mandate for them, I hope they are at peace.",
     "responses": [
-      { "text": "Maybe it would be better to ask about something else.", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_1" },
+      { "text": "Maybe it would be better to ask about something else.", "topic": "TALK_CF_REP_JOHNATHAN_ADVICE_2" },
       { "text": "That's all for now.", "topic": "TALK_CF_REP" }
     ]
   },
@@ -401,6 +439,21 @@
       { "text": "Thank you.  One more thing before I go.", "topic": "TALK_CF_REP" },
       { "text": "Thank you.  Bye for now.", "topic": "TALK_DONE" }
     ]
+  },
+  {
+    "id": "TALK_CF_REP_PRELUDE_CAMP",
+    "type": "talk_topic",
+    "dynamic_line": "I heard about that incident.  Gods, if I recall they lost three people there.  They'd buried two who had succumbed to previous injuries, before something attacked them.  The third stayed behind to buy the others time to escape with their lives.",
+    "responses": [
+      { "text": "What should I look for?", "topic": "TALK_CF_REP_PRELUDE_CAMP_2" },
+      { "text": "That's all for now.", "topic": "TALK_CF_REP" }
+    ]
+  },
+  {
+    "id": "TALK_CF_REP_PRELUDE_CAMP_2",
+    "type": "talk_topic",
+    "dynamic_line": "Any anomalous artifacts you can find in the items they left behind, any books or other written intel might be useful too.  If you find something, return to Johnathan with it first, then if needed he'll ask you to show it to me.  I pray that you will return safe, and victorious over whatever caused this.",
+    "responses": [ { "text": "Alright.  Thank you.", "topic": "TALK_CF_REP" } ]
   },
   {
     "type": "talk_topic",

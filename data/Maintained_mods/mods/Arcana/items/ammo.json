@@ -9,14 +9,13 @@
     "volume": "10 ml",
     "price": 1500,
     "price_postapoc": 750,
-    "material": [ "essencemat" ],
+    "material": [ "arcana_fuel_essence" ],
     "symbol": "=",
     "color": "blue",
     "count": 1,
     "ammo_type": "essence_type",
     "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
-    "flags": [ "ZERO_WEIGHT" ],
-    "fuel": { "energy": 120 }
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "essence_blood",
@@ -27,14 +26,13 @@
     "volume": "5 ml",
     "price": 500,
     "price_postapoc": 250,
-    "material": [ "essencemat" ],
+    "material": [ "arcana_fuel_essence_blood" ],
     "symbol": "=",
     "color": "red",
     "count": 1,
     "ammo_type": "essence_blood_type",
     "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
-    "flags": [ "ZERO_WEIGHT" ],
-    "fuel": { "energy": 40 }
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "essence_dull",
@@ -45,14 +43,13 @@
     "volume": "1 ml",
     "price": 50,
     "price_postapoc": 25,
-    "material": [ "essencemat" ],
+    "material": [ "arcana_fuel_essence_dull" ],
     "symbol": "=",
     "color": "dark_gray",
     "count": 1,
     "ammo_type": "essence_dull_type",
     "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
-    "flags": [ "ZERO_WEIGHT" ],
-    "fuel": { "energy": 4 }
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "essence_pure",
@@ -64,14 +61,13 @@
     "volume": "15 ml",
     "price": 15000,
     "price_postapoc": 7500,
-    "material": [ "essencemat" ],
+    "material": [ "arcana_fuel_essence_pure" ],
     "symbol": "=",
     "color": "cyan",
     "count": 1,
     "ammo_type": "essence_pure_type",
     "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
-    "flags": [ "ZERO_WEIGHT" ],
-    "fuel": { "energy": 1200 }
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "type": "AMMO",
@@ -306,5 +302,49 @@
     "show_stats": true,
     "critical_multiplier": 7,
     "effects": [ "RECOVER_10", "BLINDS_EYES", "WIDE", "AMMO_ARCANA_AIR_EFFECT", "NO_EMBED" ]
+  },
+  {
+    "type": "AMMO",
+    "id": "primitive_magic_item_ammo",
+    "name": { "str_sp": "recharge" },
+    "symbol": "=",
+    "color": "white",
+    "description": "Residual energy flowing through a primitive magic item.",
+    "flags": [ "ZERO_WEIGHT" ],
+    "ammo_type": "primitive_magic_item_ammo_type"
+  },
+  {
+    "id": "reloaded_shot_00_arcana",
+    "copy-from": "reloaded_shot_00",
+    "type": "AMMO",
+    "name": { "str": "purifying 00 shot" },
+    "description": "A handloaded shotgun shell, loaded with silver pellets and blessed with salt.  The addition of consecrated essence enhances its impact and turns each pellet into a mote of white-hot light when fired.  Immolates targets on impact and bypasses mundane armor, while leaving behind a dazzling glow.",
+    "price": 0,
+    "price_postapoc": 900,
+    "damage": { "damage_type": "heat", "amount": 45 },
+    "extend": { "effects": [ "INCENDIARY", "ARCANA_DAZZLE_SHOT" ] }
+  },
+  {
+    "id": "flintlock_shot_arcana",
+    "copy-from": "flintlock_shot",
+    "type": "AMMO",
+    "name": { "str": "purifying paper shot cartridge" },
+    "description": "A black powder paper cartridge, loaded with silver pellets and blessed with salt.  The addition of consecrated essence enhances its impact and turns each pellet into a mote of white-hot light when fired.  Immolates targets on impact and bypasses mundane armor, while leaving behind a dazzling glow.",
+    "//": "Likely rare to non-existent before the cataclysm.",
+    "price": 0,
+    "price_postapoc": 1500,
+    "damage": { "damage_type": "heat", "amount": 45 },
+    "extend": { "effects": [ "INCENDIARY", "ARCANA_DAZZLE_SHOT" ] }
+  },
+  {
+    "id": "blun_shot_arcana",
+    "copy-from": "blun_shot",
+    "type": "AMMO",
+    "name": { "str": "purifying blunderbuss shot" },
+    "description": "A prepared blunderbuss shot, loaded with silver pellets and blessed with salt.  The addition of consecrated essence enhances its impact and turns each pellet into a mote of white-hot light when fired.  Immolates targets on impact and bypasses mundane armor, while leaving behind a dazzling glow.",
+    "price": 0,
+    "price_postapoc": 100,
+    "damage": { "damage_type": "heat", "amount": 60 },
+    "extend": { "effects": [ "INCENDIARY", "ARCANA_DAZZLE_SHOT" ] }
   }
 ]
