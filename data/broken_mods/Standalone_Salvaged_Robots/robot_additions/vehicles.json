@@ -62,7 +62,11 @@
         "x": 3,
         "parts": [ "hdframe_vertical", "wheel_mount_heavy_steerable", "wheel_armor", "hdboard_vertical", "omnicam", "plating_military" ]
       },
-      { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
+      {
+        "y": -2,
+        "x": 2,
+        "parts": [ "hdframe_vertical", "hddoor_opaque", "wheel_mount_heavy", "wheel_armor", "plating_military" ]
+      },
       { "y": 1, "x": 5, "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military" ] },
       {
         "y": -2,
@@ -81,8 +85,8 @@
         "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "hddoor_opaque", "plating_military" ]
       },
       { "y": 1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
+      { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
       { "y": -1, "x": 2, "parts": [ "hdframe_vertical_2", "robot_cargo", "hdroof" ] },
-      { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hddoor_opaque", "plating_military" ] },
       { "y": -1, "x": 1, "parts": [ "hdframe_vertical_2", "robot_cargo", "hdroof" ] },
       { "y": -2, "x": 4, "parts": [ "hdframe_nw", "hdboard_nw", "plating_military" ] },
       {
@@ -121,11 +125,7 @@
         "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "hddoor_opaque", "plating_military" ]
       },
       { "y": -1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
-      {
-        "y": -2,
-        "x": 2,
-        "parts": [ "hdframe_vertical", "hddoor_opaque", "wheel_mount_heavy", "wheel_armor", "plating_military" ]
-      },
+      { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hddoor_opaque", "plating_military" ] },
       { "y": 1, "x": -1, "parts": [ "hdframe_vertical_2", "robot_cargo", "hdroof" ] },
       { "y": -1, "x": -1, "parts": [ "hdframe_vertical_2", "robot_cargo", "hdroof" ] },
       { "y": -1, "x": 0, "parts": [ "hdframe_vertical_2", "robot_cargo", "hdroof" ] },
@@ -219,7 +219,7 @@
       { "y": -1, "x": 1, "parts": [ "hdframe_vertical", "reinforced_windshield" ] },
       { "y": 0, "x": -2, "parts": [ "hdframe_horizontal_2", "trunk", "hdroof" ] },
       { "y": 2, "x": 1, "parts": [ "hdframe_horizontal", "reinforced_windshield" ] },
-      { "y": 3, "x": -1, "parts": [ "hdframe_vertical", "hddoor" ] },
+      { "y": 3, "x": -2, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
       {
         "y": 1,
         "x": -1,
@@ -232,7 +232,7 @@
         "parts": [ "hdframe_sw", "hdboard_sw", "plating_military", "wheel_mount_heavy", "wheel_armor" ]
       },
       { "y": 2, "x": -3, "parts": [ "hdframe_horizontal", "hddoor_trunk", "plating_military" ] },
-      { "y": -1, "x": -1, "parts": [ "hdframe_vertical", "hddoor" ] },
+      { "y": -1, "x": -2, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
       { "y": 1, "x": 1, "parts": [ "hdframe_horizontal", "reinforced_windshield" ] },
       { "y": 2, "x": 3, "parts": [ "hdframe_horizontal_2", "plating_military" ] },
       {
@@ -240,11 +240,7 @@
         "x": 0,
         "parts": [ "hdframe_vertical_2", "controls", "dashboard", "vehicle_clock", "horn_big", "seat", "seatbelt", "hdroof", "tank" ]
       },
-      {
-        "y": 2,
-        "x": 2,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military", "headlight_reinforced" ]
-      },
+      { "y": -1, "x": -1, "parts": [ "hdframe_vertical", "hddoor" ] },
       {
         "y": -1,
         "x": 2,
@@ -259,9 +255,13 @@
       },
       { "y": 0, "x": 1, "parts": [ "hdframe_horizontal", "reinforced_windshield", "headlight_reinforced" ] },
       { "y": 1, "x": 0, "parts": [ "hdframe_vertical_2", "box", "recharge_station", "hdroof" ] },
-      { "y": 3, "x": -2, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
+      { "y": 3, "x": -1, "parts": [ "hdframe_vertical", "hddoor" ] },
       { "y": 1, "x": 3, "parts": [ "hdframe_horizontal_2", "plating_military" ] },
-      { "y": -1, "x": -2, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
+      {
+        "y": 2,
+        "x": 2,
+        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military", "headlight_reinforced" ]
+      },
       { "y": -1, "x": 3, "parts": [ "hdframe_horizontal", "plating_military" ] },
       {
         "y": 0,
