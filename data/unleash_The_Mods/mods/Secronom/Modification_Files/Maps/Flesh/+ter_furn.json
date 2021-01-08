@@ -6,11 +6,11 @@
     "description": "A flat, rooftop, covered in gorey flesh.",
     "symbol": ".",
     "color": "red",
-    "note": "Flesh version of terrains has +3 move cost.",
+    "//": "Flesh version of terrains has +3 move cost.",
     "move_cost": 5,
     "flags": [ "TRANSPARENT", "FLAT", "S_FLESH" ],
     "bash": {
-      "note": "Flesh terrains' str_min and _max has +5 bash resistance.",
+      "//": "Flesh terrains' str_min and _max has +5 bash resistance.",
       "str_min": 8,
       "str_max": 16,
       "sound": "splash!",
@@ -72,7 +72,7 @@
       "ter_set": "t_window_empty",
       "items": [ { "item": "glass_shard", "count": [ 6, 10 ] } ]
     },
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "SHARP", "NOITEM", "MOUNTABLE", "CONNECT_TO_WALL", "SMALL_PASSAGE", "S_FLESH" ]
+    "flags": [ "TRANSPARENT", "SHARP", "FLAMMABLE", "NOITEM", "MOUNTABLE", "CONNECT_TO_WALL", "SMALL_PASSAGE", "S_FLESH" ]
   },
   {
     "type": "terrain",
@@ -155,7 +155,7 @@
     "flags": [ "TRANSPARENT", "GOES_UP", "INDOORS", "PLACE_ITEM", "S_FLESH" ]
   },
   {
-    "note": "Since terrains are not capable to act as emitters, we use an invincible, but flammable furniture for the solution.",
+    "//": "Since terrains are not capable to act as emitters, we use an invincible, but flammable furniture for the solution.",
     "type": "furniture",
     "id": "f_secro_fleshknot_emitter",
     "name": "flesh wart",
@@ -165,10 +165,10 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_fleshknot_gas_terrains" ],
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "NOCOLLIDE", "S_FLESH", "EMITTER" ]
+    "flags": [ "TRANSPARENT", "FLAMMABLE", "NOCOLLIDE", "S_FLESH", "EMITTER" ]
   },
   {
-    "note": "Starting here are the furnitures and terrains seen in flesh forest.",
+    "//": "Starting here are the furnitures and terrains seen in flesh forest.",
     "type": "terrain",
     "id": "t_secro_dirt_flesh",
     "name": "fleshed dirt",
@@ -272,7 +272,7 @@
     "required_str": 10,
     "crafting_pseudo_item": "boulder_anvil",
     "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "S_FLESH", "UNSTABLE", "MOUNTABLE", "TINY" ],
-    "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat.", "ter_set": "f_boulder_small" }
+    "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat." }
   },
   {
     "type": "furniture",
@@ -286,7 +286,7 @@
     "required_str": 16,
     "crafting_pseudo_item": "boulder_anvil",
     "flags": [ "FLAMMABLE_HARD", "NOITEM", "TRANSPARENT", "S_FLESH", "UNSTABLE", "MOUNTABLE", "SHORT", "BASHABLE" ],
-    "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat.", "ter_set": "f_boulder_medium" }
+    "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat." }
   },
   {
     "type": "furniture",
@@ -299,10 +299,10 @@
     "coverage": 65,
     "required_str": 32,
     "flags": [ "FLAMMABLE_HARD", "NOITEM", "S_FLESH", "BASHABLE", "BLOCK_WIND" ],
-    "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat.", "ter_set": "f_boulder_large" }
+    "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat." }
   },
   {
-    "note": "Flesh forest's terrestrial body parts. Here we encounter LOTS of FF's abominations.",
+    "//": "Flesh forest's terrestrial body parts. Here we encounter LOTS of FF's abominations.",
     "type": "terrain",
     "id": "t_secro_flesh",
     "name": "flesh",
@@ -349,7 +349,7 @@
     "coverage": 95,
     "emissions": [ "emit_flesh_tree_grab" ],
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "REDUCE_SCENT", "S_FLESH", "EMITTER" ],
-    "bash": { "str_min": 16, "str_max": 24, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_tree" }
+    "bash": { "str_min": 16, "str_max": 24, "sound": "splash!", "sound_fail": "splat!" }
   },
   {
     "type": "terrain",
@@ -382,6 +382,28 @@
     "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "GOES_UP" ]
   },
   {
+    "type": "terrain",
+    "id": "t_secro_flesh_cave_entrance_open",
+    "looks_like": "t_secro_flesh_entrance_open",
+    "name": "veinhole",
+    "description": "An immature veinhole. It throbs calmly. Sure it is gross, but there's no other way...",
+    "symbol": "o",
+    "color": "red",
+    "move_cost": 5,
+    "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "GOES_DOWN" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_secro_flesh_cave_entrance_up",
+    "looks_like": "t_secro_flesh_entrance_up",
+    "name": "veinhole",
+    "description": "An immature veinhole's inner orifice that leads to the surface. Sure it is gross, but there's no other way...",
+    "symbol": "o",
+    "color": "red",
+    "move_cost": 5,
+    "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "GOES_UP" ]
+  },
+  {
     "type": "furniture",
     "id": "f_secro_sack_hatch",
     "name": "hatched flesh sack",
@@ -393,7 +415,7 @@
     "coverage": 20,
     "emissions": [ "emit_flesh_sack_hatch" ],
     "flags": [ "FLAMMABLE", "S_FLESH", "EMITTER" ],
-    "bash": { "str_min": 12, "str_max": 24, "sound": "splook!", "sound_fail": "splat!", "ter_set": "f_null" }
+    "bash": { "str_min": 12, "str_max": 24, "sound": "splook!", "sound_fail": "splat!" }
   },
   {
     "type": "furniture",
@@ -407,7 +429,7 @@
     "coverage": 5,
     "emissions": [ "emit_flesh_tentclus" ],
     "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "EMITTER" ],
-    "bash": { "str_min": 15, "str_max": 30, "sound": "splook!", "sound_fail": "splat!", "ter_set": "f_null" }
+    "bash": { "str_min": 15, "str_max": 30, "sound": "splook!", "sound_fail": "splat!" }
   },
   {
     "type": "terrain",
@@ -440,7 +462,7 @@
     "required_str": -1,
     "emissions": [ "emit_flesh_bones" ],
     "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "ROUGH", "EMITTER", "FF_BIOHAZARD" ],
-    "bash": { "str_min": 10, "str_max": 20, "sound": "splash!", "sound_fail": "splook!", "ter_set": "f_null" }
+    "bash": { "str_min": 10, "str_max": 20, "sound": "splash!", "sound_fail": "splook!" }
   },
   {
     "type": "furniture",
@@ -453,10 +475,10 @@
     "required_str": -1,
     "emissions": [ "emit_flesh_tendrils" ],
     "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "EMITTER", "FF_BIOHAZARD" ],
-    "bash": { "str_min": 7, "str_max": 14, "sound": "splook!", "sound_fail": "splat!", "ter_set": "t_secro_flesh" }
+    "bash": { "str_min": 7, "str_max": 14, "sound": "splook!", "sound_fail": "splat!" }
   },
   {
-    "note": "Another type of floor augmented with traps by the flesh.",
+    "//": "Another type of floor augmented with traps by the flesh.",
     "looks_like": "t_secro_flesh",
     "type": "furniture",
     "id": "f_secro_flesh",
@@ -527,7 +549,7 @@
     "move_cost_mod": 1,
     "required_str": -1,
     "emissions": [ "emit_flesh_biome" ],
-    "flags": [ "FLAMMABLE", "TRANSPARENT", "S_FLESH", "EMITTER" ]
+    "flags": [ "TRANSPARENT", "FLAMMABLE", "S_FLESH", "EMITTER" ]
   },
   {
     "type": "terrain",
@@ -553,7 +575,7 @@
     "flags": [ "FLAMMABLE_HARD", "TRANSPARENT", "FLAT", "S_FLESH", "FC_EXIT" ]
   },
   {
-    "note": "Destroy these to prevent them from spawning veinstalks.",
+    "//": "Destroy these to prevent them from spawning veinstalks.",
     "type": "furniture",
     "id": "f_secro_veinstalk",
     "name": "veinbush",
@@ -565,7 +587,38 @@
     "coverage": 10,
     "emissions": [ "emit_veinstalk_spawn" ],
     "flags": [ "FLAMMABLE", "S_FLESH", "EMITTER" ],
-    "bash": { "str_min": 12, "str_max": 22, "sound": "splook!", "sound_fail": "splat!", "ter_set": "f_null" }
+    "bash": { "str_min": 12, "str_max": 22, "sound": "splook!", "sound_fail": "splat!" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_secro_flesh_gas_emitter",
+    "name": "gangrenous tumor",
+    "description": "A large tumor sprouting from the flesh, reeking horrible stench that spreads through a wide area.",
+    "symbol": "i",
+    "color": "pink",
+    "move_cost_mod": 1,
+    "required_str": -1,
+    "bash": { "str_min": 11, "str_max": 21, "sound": "splook!", "sound_fail": "splat!" },
+    "emissions": [ "emit_sflesh_gas_spread_low", "emit_sflesh_gas_spread_med", "emit_sflesh_gas_spread_high" ],
+    "flags": [ "TRANSPARENT", "FLAMMABLE", "NOCOLLIDE", "S_FLESH", "EMITTER" ]
+  },
+  {
+    "type": "furniture",
+    "id": "f_secro_flesh_core",
+    "name": "flesh core",
+    "description": "A large slab of flesh that shines a faint, ominous crimson hue.",
+    "symbol": "o",
+    "color": "red",
+    "move_cost_mod": 1,
+    "required_str": -1,
+    "bash": {
+      "str_min": 13,
+      "str_max": 23,
+      "sound": "splook!",
+      "sound_fail": "splat!",
+      "items": [ { "item": "secro_flesh_core", "count": [ 1, 2 ] } ]
+    },
+    "flags": [ "NOITEM", "S_FLESH" ]
   },
   {
     "type": "terrain",
@@ -742,7 +795,7 @@
     "bash": { "sound": "splash!", "ter_set": "t_thconc_floor", "str_min": 8, "str_max": 16 }
   },
   {
-    "note": "These are used in flesh cities to keep players from climbing a building (rooftops are complicated)",
+    "//": "These are used in flesh cities to keep players from climbing a building (rooftops are complicated)",
     "type": "terrain",
     "id": "t_secro_ladder_broken_flesh",
     "name": "fleshed ladder",
@@ -1195,6 +1248,31 @@
       "sound_fail": "whack!",
       "ter_set": "t_card_reader_broken",
       "items": [ { "item": "plastic_chunk", "count": [ 0, 2 ] }, { "item": "scrap", "prob": 50 } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_secro_door_metal_secrofrr",
+    "name": "biohazard metal door",
+    "description": "A galvanized steel door, forged to withstand punishment and impede anyone or anything. Typically used in conjunction with automated electronic locking mechanisms that require an external source to unlock. It has a biohazard symbol and a card reader embedded to the door labeled \"Level 1 clearance\".",
+    "symbol": "+",
+    "looks_like": "t_secro_door_metal_secrofv",
+    "color": "cyan",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "t_flat_roof",
+    "flags": [ "NOITEM", "REDUCE_SCENT", "CONNECT_TO_WALL", "LOCKED", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 120,
+      "str_max": 350,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [
+        { "item": "scrap", "count": [ 15, 30 ] },
+        { "item": "steel_plate", "prob": 80 },
+        { "item": "hinge", "count": [ 1, 4 ] }
+      ]
     }
   },
   {
