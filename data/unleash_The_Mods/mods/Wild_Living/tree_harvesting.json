@@ -11,14 +11,14 @@
     "harvest_season": "AUTUMN",
     "transforms_into": "t_tree_apple_harvested",
     "examine_action": "harvest_ter_nectar",
-    "harvest_by_season": [ { "seasons": [ "autumn" ], "entries": [ { "drop": "apple", "base_num": [ 2, 5 ], "scaled_num": [ 0, 0.5 ] } ] } ],
+    "harvest_by_season": [ { "seasons": [ "autumn" ], "entries": [ { "drop": "apple", "base_num": [ 2, 5 ] } ] } ],
     "bash": {
       "str_min": 80,
       "str_max": 180,
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -149,7 +149,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -281,7 +281,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -413,7 +413,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -545,7 +545,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -677,7 +677,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -808,7 +808,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ { "item": "stick", "amount": 10, "minamount": 3 }, { "item": "splinter", "amount": 25, "minamount": 10 } ]
+      "items": [ { "item": "stick", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -942,7 +942,7 @@
   {
     "type": "recipe",
     "result": "clay_plant_pot",
-    "override": true,
+    "id_suffix": "WL_recipes",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
