@@ -1,106 +1,96 @@
 [
   {
-    "blueprint": [ "o" ],
-    "parts": [ { "y": 0, "x": 0, "parts": [ "mana_frame" ] } ],
-    "type": "vehicle",
     "id": "floating_disk",
-    "name": "Floating disk"
+    "type": "vehicle",
+    "name": "Floating disk",
+    "blueprint": [ "o" ],
+    "parts": [ { "x": 0, "y": 0, "parts": [ "mana_frame" ] } ]
   },
   {
+    "id": "mana_wheel",
     "category": "veh_parts",
-    "diameter": 20,
+    "type": "WHEEL",
+    "name": "mana wheel",
     "description": "A column of mana energy that enables a floating disk to move.",
     "weight": "500 g",
-    "to_hit": -4,
-    "color": "light_gray",
-    "price": 1,
-    "material": [ "steel" ],
-    "id": "mana_wheel",
     "volume": "500 ml",
+    "price": 1,
     "bashing": 8,
-    "width": 10,
-    "type": "WHEEL",
+    "to_hit": -4,
+    "material": [ "steel" ],
     "symbol": "]",
-    "name": "mana wheel"
+    "color": "light_gray",
+    "diameter": 20,
+    "width": 10
   },
   {
+    "id": "magic_motorcycle",
+    "type": "vehicle",
+    "name": "Mojocycle",
     "blueprint": [ "o#>o" ],
     "parts": [
-      { "y": 0, "x": 2, "parts": [ "frame_vertical", "wheel_mount_light_steerable", "wheel_motorbike" ] },
-      { "y": 0, "x": 1, "parts": [ "frame_handle", "headlight", "battery_motorbike" ] },
-      {
-        "y": 0,
-        "x": 0,
-        "parts": [
-          "frame_vertical_2",
-          "saddle_motor",
-          "motorcycle_kickstand",
-          "controls",
-          "controls_electronic",
-          "vehicle_alarm",
-          "horn_car",
-          "engine_vtwin_magic",
-          "alternator_motorbike"
-        ]
-      },
-      { "y": 0, "x": -1, "parts": [ "frame_vertical", "wheel_mount_light", "wheel_motorbike", "muffler", "box" ] }
-    ],
-    "type": "vehicle",
-    "id": "magic_motorcycle",
-    "name": "Mojocycle"
+      { "x": 0, "y": 0, "parts": [ "frame_vertical_2", "saddle_motor", "motorcycle_kickstand" ] },
+      { "x": 1, "y": 0, "parts": [ "frame_handle" ] },
+      { "x": -1, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light", "wheel_motorbike" ] },
+      { "x": 2, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light_steerable", "wheel_motorbike" ] },
+      { "x": 0, "y": 0, "parts": [ "controls", "controls_electronic", "vehicle_alarm" ] },
+      { "x": 0, "y": 0, "parts": [ "horn_car", "engine_vtwin_magic", "alternator_motorbike" ] },
+      { "x": 1, "y": 0, "parts": [ "headlight", "battery_motorbike" ] },
+      { "x": -1, "y": 0, "parts": [ "muffler", "box" ] }
+    ]
   },
   {
-    "durability": 20,
-    "color": "magenta",
+    "type": "vehicle_part",
     "id": "mana_frame",
-    "size": 150,
+    "name": "mana frame",
+    "symbol": "O",
+    "categories": [ "movement", "hull" ],
+    "color": "magenta",
+    "broken_symbol": "M",
+    "broken_color": "red",
+    "damage_modifier": 10,
     "noise_factor": 1,
     "fuel_type": "mana",
-    "location": "structure",
-    "type": "vehicle_part",
-    "m2c": 90,
-    "broken_symbol": "M",
-    "description": "A shape of pure mana that can float and carry items.",
-    "power": 200,
-    "broken_color": "red",
-    "symbol": "O",
-    "damage_modifier": 10,
-    "damage_reduction": { "all": 12 },
-    "requirements": {
-      "repair": { "skills": [ [ "mechanics", 20 ], [ "spellcraft", 1 ] ], "using": [ [ "welding_standard", 5 ] ], "time": "60 m" },
-      "install": { "skills": [ [ "mechanics", 20 ], [ "spellcraft", 1 ] ], "using": [ [ "welding_standard", 5 ] ], "time": "60 m" },
-      "removal": { "skills": [ [ "mechanics", 20 ], [ "spellcraft", 1 ] ], "using": [ [ "vehicle_weld_removal", 1 ] ], "time": "30 m" }
-    },
-    "contact_area": 20,
-    "categories": [ "movement", "hull" ],
-    "//": "This should not be interactable nor visible as a vehicle part, its part of a summoned magic 'vehicle'",
-    "wheel_type": "standard",
-    "name": "mana frame",
+    "durability": 20,
     "item": "mana_wheel",
+    "m2c": 90,
+    "rolling_resistance": 0.45,
+    "wheel_type": "standard",
+    "contact_area": 20,
+    "description": "A shape of pure mana that can float and carry items.",
+    "size": 150,
+    "power": 200,
+    "location": "structure",
+    "//": "This should not be interactable nor visible as a vehicle part, its part of a summoned magic 'vehicle'",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 20 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 20 ], [ "spellcraft", 1 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 20 ], [ "spellcraft", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
     "flags": [ "INITIAL_PART", "ENGINE", "STABLE", "E_STARTS_INSTANTLY", "STEERABLE", "WHEEL", "OBSTACLE", "CARGO", "MAGIC_FOLLOW" ],
-    "rolling_resistance": 0.45
+    "damage_reduction": { "all": 12 }
   },
   {
-    "default": "mana",
-    "type": "ammunition_type",
     "id": "mana",
-    "name": "mana energy"
+    "name": "mana energy",
+    "default": "mana",
+    "type": "ammunition_type"
   },
   {
+    "id": "mana",
+    "type": "AMMO",
     "category": "chems",
-    "count": 1,
+    "name": "mana core power",
     "description": "Seeing this is a bug.",
     "weight": "10 g",
-    "color": "magenta",
-    "symbol": "?",
-    "material": [ "mana" ],
-    "phase": "solid",
     "volume": "10 ml",
     "bashing": 1,
+    "phase": "solid",
+    "material": [ "mana" ],
     "flags": [ "PSEUDO", "PERPETUAL" ],
-    "ammo_type": "mana",
-    "type": "AMMO",
-    "id": "mana",
-    "name": "mana core power"
+    "symbol": "?",
+    "color": "magenta",
+    "count": 1,
+    "ammo_type": "mana"
   }
 ]
