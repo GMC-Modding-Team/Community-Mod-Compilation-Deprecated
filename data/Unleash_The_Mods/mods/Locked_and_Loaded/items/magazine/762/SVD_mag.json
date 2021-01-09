@@ -1,20 +1,18 @@
 [
   {
     "id": "SVD_mag",
-    "looks_like": "8x40_50_mag",
     "type": "MAGAZINE",
+    "looks_like": "8x40_50_mag",
     "name": { "str": "SVD magazine" },
     "description": "A magazine for an SVD, it can hold 10 rounds.",
     "weight": "168 g",
     "volume": "250 ml",
     "price": 8000,
-    "price_postapoc": 750,
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "762R" ],
     "capacity": 10,
-    "reload_time": 6,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762R": 10 } } ]
   }
