@@ -47,21 +47,22 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "Standard Service Rifle" },
-    "description": "The Standard Servoce Rifle, Model of 1913 was the first ever Cannalan bolt-action rifle, high power and realitivly light weight. Fairly accurite for its time, it was soon sold to big-game hunters the world over.",
-    "weight": "3856 g",
-    "volume": "2750 ml",
+    "description": "The Standard Service Rifle, Model of 1913 was the first ever Cannalan-designed bolt-action rifle, featuring high power and realitivly light weight. Fairly accurite for its time, it was soon sold to big-game hunters the world over, inpart because its ammunition(the Basic Rifle Cartrage) was signifigantly more powerful than initally intended.",
+    "weight": "4600 g",
+    "volume": "3 L",
     "price": 500000,
     "to_hit": 1,
     "bashing": 11,
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "symbol": "(",
-    "color": "dark_gray",
+    "color": "brown",
     "ammo": [ "BRC" ],
     "dispersion": 110,
     "durability": 10,
+    "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_volume": "660 ml",
+    "barrel_volume": "1000 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -78,16 +79,16 @@
     "flags": [ "RELOAD_ONE" ],
     "pocket_data": [
       {
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
+        "pocket_type": "MAGAZINE",
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "BRC_clip" ]
+        "ammo_restriction": { "BRC": 5 },
+        "allowed_speedloaders": [ "BRC_clip" ]
       }
     ]
   },
   {
-    "id": "SRC-Pipe",
+    "id": "pipe_SRC",
     "looks_like": "remington_870",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -121,7 +122,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "SRC": 1 } } ]
   },
   {
-    "id": "BRC-Pipe",
+    "id": "pipe_BRC",
     "looks_like": "remington_870",
     "type": "GUN",
     "reload_noise_volume": 10,
