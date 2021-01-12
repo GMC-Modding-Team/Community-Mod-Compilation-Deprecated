@@ -5,7 +5,7 @@
     "category": "spare_parts",
     "name": { "str": "Casing from ammunition cartridge" },
     "stackable": true,
-    "material": "brass",
+    "material": [ "brass" ],
     "symbol": "=",
     "color": "yellow",
     "damage_states": [ 0, 0 ]
@@ -18,7 +18,7 @@
     "description": "A casing from a spent 20x28mm grenade.",
     "weight": 15,
     "volume": "10ml",
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "=",
     "color": "gray"
   },
@@ -30,7 +30,7 @@
     "description": "A casing from a spent 7.92x33 kurtz cartridge",
     "weight": 3,
     "volume": "4ml",
-    "material": "brass",
+    "material": [ "brass" ],
     "symbol": "=",
     "color": "yellow"
   },
@@ -42,7 +42,7 @@
     "description": "A casing from a spent 300 blackout cartridge",
     "weight": 3,
     "volume": "4ml",
-    "material": "brass",
+    "material": [ "brass" ],
     "symbol": "=",
     "color": "yellow"
   }

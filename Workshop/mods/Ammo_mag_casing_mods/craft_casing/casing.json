@@ -5,7 +5,7 @@
     "category": "spare_parts",
     "name": { "str": "Casing from ammunition cartridge" },
     "stackable": true,
-    "material": "brass",
+    "material": [ "brass" ],
     "symbol": "=",
     "color": "yellow",
     "damage_states": [ 0, 0 ]
@@ -90,7 +90,7 @@
     "description": "A large canister from a spent 40mm grenade.",
     "weight": 50,
     "volume": "25ml",
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "=",
     "color": "dark_gray"
   },
@@ -138,7 +138,7 @@
     "description": "An empty plastic hull from a 5x50mm flechette round.",
     "weight": 1,
     "volume": "9ml",
-    "material": "plastic",
+    "material": [ "plastic" ],
     "color": "light_green"
   },
   {
@@ -240,7 +240,7 @@
     "weight": 8,
     "volume": "12ml",
     "stackable": true,
-    "material": "plastic",
+    "material": [ "plastic" ],
     "symbol": "=",
     "color": "red",
     "damage_states": [ 0, 0 ]
