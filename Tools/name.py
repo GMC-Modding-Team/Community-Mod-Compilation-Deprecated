@@ -19,6 +19,9 @@ def gen_new(path):
         except UnicodeDecodeError:
             print("UnicodeDecodeError in {0}".format(path))
             return None
+        except json.decoder.JSONDecodeError:
+            print("JSONDecodeError in {0}".format(path))
+            return None
         for jo in json_data:
             # We only want JsonObjects
             if type(jo) is str:
@@ -27,12 +30,12 @@ def gen_new(path):
                 continue
             if type(jo['name']) == dict:
                 continue
-            if jo['type'] not in ['GENERIC', 'AMMO', 'MAGAZINE', 'ARMOR', 'PET_ARMOR', 'BOOK',
-                                  'BIONIC_ITEM', 'COMESTIBLE', 'GUN', 'GUNMOD', 'BATTERY', 'TOOL',
-                                  'SPELL', 'ENGINE', 'WHEEL', 'vitamin', 'ITEM_CATEGORY', 'bionic',
-                                  'npc_class', 'mission_definition', 'TOOLMOD', 'mutation', 'fault',
-                                  'martial_art', 'MONSTER', 'proficiency', 'tool_quality',
-                                  'map_extra', 'skill', 'TOOL_ARMOR', 'item_action', 'vehicle_part']:
+            if jo['type'] not in [ 'AMMO', 'ARMOR', 'BATTERY', 'bionic', 'BIONIC_ITEM', 'BIONIC_ITEM', 'BOOK', 
+                                   'COMESTIBLE', 'ENGINE', 'fault', 'GENERIC', 'GUN', 'GUNMOD', 'item_action', 
+                                   'ITEM_CATEGORY', 'MAGAZINE', 'map_extra', 'martial_art', 'mission_definition', 
+                                   'MONSTER', 'mutation', 'npc_class', 'PET_ARMOR', 'proficiency', 'skill', 'TOOL', 
+                                   'TOOL_ARMOR', 'tool_quality', 'TOOLMOD', 'vehicle_part', 'vehicle_part_category', 
+                                   'vitamin', 'WHEEL','SPELL']:
                 continue
             if jo.get('name_plural'):
                 if jo['name'] == jo['name_plural']:
