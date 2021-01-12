@@ -2,7 +2,7 @@
   {
     "id": "nec_alloy_trunk",
     "type": "ARMOR",
-    "name": "Alloy Trunk",
+    "name": { "str": "Alloy Trunk" },
     "description": "It is a metal trunk. Not to mention storage, because it is sturdy it becomes a shield substitute. You can use it as a weapon that swings around by taking advantage of its weight.",
     "weight": 3000,
     "volume": 8,
@@ -23,7 +23,7 @@
   {
     "id": "nec_coffin",
     "type": "ARMOR",
-    "name": "Coffin",
+    "name": { "str": "Coffin" },
     "description": "It is a coffin with a long chain connected. It's heavy, but the amount of storage is large, and if you carry it you will prevent attack from the back.",
     "weight": 8000,
     "volume": 50,
@@ -44,8 +44,7 @@
   {
     "id": "nec_ribbon",
     "type": "ARMOR",
-    "name": "Ribbon",
-    "name_plural": "Ribbons",
+    "name": { "str": "Ribbon", "str_pl": "Ribbons" },
     "description": "It is a small cute ribbon made of cloth. There is no defensive power, but may heal you in this ruined world.",
     "weight": 50,
     "volume": 0,
@@ -58,8 +57,7 @@
   {
     "id": "nec_teddy",
     "type": "ARMOR",
-    "name": "Teddy",
-    "name_plural": "Teddies",
+    "name": { "str": "Teddy", "str_pl": "Teddies" },
     "description": "It is a cute stuffed toy. It does not protect the body, but may support a tired heart for the trip.",
     "weight": 50,
     "volume": 1,
@@ -75,7 +73,7 @@
   {
     "id": "nec_gothic_dress",
     "type": "ARMOR",
-    "name": "Gothic Dress",
+    "name": { "str": "Gothic Dress" },
     "description": "There are lots of lace and ruffles, on this black long dress treated with ribbons. Although it looks loud, it is not overly difficult to move.",
     "weight": 700,
     "volume": 20,
@@ -94,7 +92,7 @@
   {
     "id": "nec_gothic_headdress",
     "type": "ARMOR",
-    "name": "Gothic Headdress",
+    "name": { "str": "Gothic Headdress" },
     "description": "This is a black headdress of ruffles. It attracts attention.",
     "weight": 200,
     "volume": 4,
@@ -113,7 +111,7 @@
     "id": "nec_sgothic_dress",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Survivor Gothic Dress",
+    "name": { "str": "Survivor Gothic Dress" },
     "description": "This is a Gothic dress whose surface was ruffled or laced as it is, and the inner surface was greatly modified to modern survival specifications. In addition to being fitted with pockets here and there, it has high defense power by Kevlar reinforcement, and a large skirt has space to store medium size firearms. Speaking of shortcomings, yes, in some people the chest became cramped.",
     "weight": 5500,
     "volume": 34,
@@ -135,7 +133,7 @@
     "type": "ARMOR",
     "category": "clothing",
     "id": "nec_panier",
-    "name": "Pannier",
+    "name": { "str": "Pannier" },
     "weight": 200,
     "color": "white",
     "symbol": "[",

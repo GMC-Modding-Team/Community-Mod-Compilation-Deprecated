@@ -2,7 +2,7 @@
   {
     "id": "NC_BS_DRIVER",
     "type": "npc_class",
-    "name": "Driver",
+    "name": { "str": "Driver" },
     "job_description": "I found the first star!",
     "common": false,
     "bonus_str": { "rng": [ 1, 2 ] },
@@ -10,7 +10,6 @@
       { "skill": "driving", "level": { "sum": [ { "constant": 10 }, { "rng": [ 1, 5 ] } ] } },
       { "skill": "melee", "level": { "sum": [ { "constant": 5 }, { "rng": [ 1, 3 ] } ] } }
     ],
-    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
     "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!"
   },
   {
@@ -20,9 +19,8 @@
     "gender": "male",
     "class": "NC_BS_DRIVER",
     "attitude": 1,
-    "//": "NPCATT_TALK",
-    "mission": 7,
     "//": "NPC_MISSION_GUARD",
+    "mission": 7,
     "chat": "TALK_STRANGER_NEUTRAL",
     "mission_offered": "MISSION_RESCUE_DOG",
     "faction": "bs_lone_survivors"

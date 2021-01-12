@@ -3,7 +3,7 @@
     "//": "Add BELT_CLIP, SHEATH_KNIFE, MAG_COMPACT to hose.",
     "id": "hose",
     "type": "TOOL",
-    "name": "hose",
+    "name": { "str": "hose" },
     "copy-from": "hose",
     "flags": [ "WRAP", "BELT_CLIP", "SHEATH_KNIFE", "MAG_COMPACT" ]
   },
@@ -12,8 +12,7 @@
     "id": "chemical_thrower",
     "type": "GUN",
     "copy-from": "chemical_thrower",
-    "name": "chemical thrower",
-    "name_plural": "chemical throwers",
+    "name": { "str": "chemical thrower", "str_pl": "chemical throwers" },
     "reload": 1
   },
   {

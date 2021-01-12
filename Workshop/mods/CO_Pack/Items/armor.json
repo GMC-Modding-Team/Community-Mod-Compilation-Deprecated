@@ -2,7 +2,7 @@
   {
     "type": "ARMOR",
     "id": "shop_bag",
-    "name": "shopping bag",
+    "name": { "str": "shopping bag" },
     "weight": 3,
     "color": "brown",
     "covers": [ "HANDS" ],
@@ -25,7 +25,7 @@
   {
     "type": "ARMOR",
     "id": "gloves_bag",
-    "name": "bag gloves",
+    "name": { "str": "bag gloves" },
     "weight": 6,
     "color": "light_blue",
     "covers": [ "HANDS" ],
@@ -49,7 +49,7 @@
   {
     "type": "ARMOR",
     "id": "socks_bag",
-    "name": "bag socks",
+    "name": { "str": "bag socks" },
     "weight": 6,
     "color": "light_blue",
     "covers": [ "FEET" ],
@@ -73,7 +73,7 @@
   {
     "type": "ARMOR",
     "id": "armguard_paper",
-    "name": "paper arm guards",
+    "name": { "str": "paper arm guards" },
     "weight": 360,
     "color": "blue",
     "covers": [ "ARMS" ],
@@ -96,7 +96,7 @@
   {
     "type": "ARMOR",
     "id": "legguard_paper",
-    "name": "paper leg guards",
+    "name": { "str": "paper leg guards" },
     "weight": 370,
     "color": "blue",
     "covers": [ "LEGS" ],
@@ -119,7 +119,7 @@
   {
     "type": "ARMOR",
     "id": "gloves_light",
-    "name": "light gloves",
+    "name": { "str": "light gloves" },
     "weight": 118,
     "color": "light_blue",
     "covers": [ "HANDS" ],
@@ -143,7 +143,7 @@
   {
     "type": "ARMOR",
     "id": "headrags",
-    "name": "turban",
+    "name": { "str": "turban" },
     "weight": 110,
     "color": "white",
     "covers": [ "HEAD" ],
@@ -167,7 +167,7 @@
   {
     "type": "ARMOR",
     "id": "cowl_rag",
-    "name": "keffiyeh",
+    "name": { "str": "keffiyeh" },
     "weight": 152,
     "color": "white",
     "covers": [ "MOUTH" ],
@@ -191,7 +191,7 @@
   {
     "type": "ARMOR",
     "id": "mask_rioter",
-    "name": "rioter mask",
+    "name": { "str": "rioter mask" },
     "weight": 123,
     "color": "white",
     "covers": [ "MOUTH", "HEAD" ],
@@ -215,7 +215,7 @@
   {
     "type": "ARMOR",
     "id": "balclava",
-    "name": "balaclava",
+    "name": { "str": "balaclava" },
     "weight": 42,
     "color": "dark_gray",
     "covers": [ "HEAD", "MOUTH" ],
@@ -239,7 +239,7 @@
   {
     "type": "ARMOR",
     "id": "tunic_rag",
-    "name": "rag tunic",
+    "name": { "str": "rag tunic" },
     "weight": 683,
     "color": "light_red",
     "covers": [ "TORSO", "LEGS" ],
@@ -263,7 +263,7 @@
   {
     "type": "ARMOR",
     "id": "gloves_wraps",
-    "name": "handrags",
+    "name": { "str": "handrags" },
     "weight": 238,
     "color": "white",
     "covers": [ "HANDS" ],
@@ -287,7 +287,7 @@
   {
     "type": "ARMOR",
     "id": "footrags",
-    "name": "footrags",
+    "name": { "str": "footrags" },
     "weight": 260,
     "color": "white",
     "covers": [ "FEET" ],
@@ -311,7 +311,7 @@
   {
     "type": "ARMOR",
     "id": "duster",
-    "name": "duster",
+    "name": { "str": "duster" },
     "weight": 890,
     "color": "dark_gray",
     "covers": [ "TORSO", "ARMS", "LEGS" ],
@@ -335,7 +335,7 @@
   {
     "type": "ARMOR",
     "id": "shark_suit",
-    "name": "shark suit",
+    "name": { "str": "shark suit" },
     "weight": 3150,
     "color": "light_red",
     "covers": [ "TORSO", "HEAD", "ARMS", "HANDS", "LEGS", "FEET" ],
@@ -359,7 +359,7 @@
   {
     "type": "ARMOR",
     "id": "chainmail_suit",
-    "name": "chainmail armor",
+    "name": { "str": "chainmail armor" },
     "weight": 3215,
     "color": "light_red",
     "covers": [ "TORSO", "HEAD", "MOUTH", "ARMS", "HANDS", "LEGS", "FEET" ],
@@ -383,7 +383,7 @@
   {
     "type": "ARMOR",
     "id": "chainmail_hood",
-    "name": "chainmail coif",
+    "name": { "str": "chainmail coif" },
     "weight": 503,
     "color": "light_red",
     "covers": [ "HEAD", "MOUTH" ],
@@ -407,7 +407,7 @@
   {
     "type": "ARMOR",
     "id": "chainmail_shirt",
-    "name": "chainmail shirt",
+    "name": { "str": "chainmail shirt" },
     "weight": 953,
     "color": "light_red",
     "covers": [ "TORSO" ],
@@ -431,7 +431,7 @@
   {
     "type": "ARMOR",
     "id": "chainmail_arms",
-    "name": "chainmail arms",
+    "name": { "str": "chainmail arms" },
     "weight": 703,
     "color": "light_red",
     "covers": [ "ARMS", "HANDS" ],
@@ -455,7 +455,7 @@
   {
     "type": "ARMOR",
     "id": "chainmail_legs",
-    "name": "chainmail leggings",
+    "name": { "str": "chainmail leggings" },
     "weight": 1053,
     "color": "light_red",
     "covers": [ "LEGS", "FEET" ],
@@ -479,7 +479,7 @@
   {
     "type": "ARMOR",
     "id": "helmet_nomad",
-    "name": "nomad cowl",
+    "name": { "str": "nomad cowl" },
     "weight": 470,
     "color": "white",
     "covers": [ "HEAD", "EYES", "MOUTH" ],
@@ -503,7 +503,7 @@
   {
     "type": "ARMOR",
     "id": "armor_nomad",
-    "name": "nomad gear",
+    "name": { "str": "nomad gear" },
     "weight": 5830,
     "color": "light_red",
     "covers": [ "TORSO", "ARMS", "LEGS" ],

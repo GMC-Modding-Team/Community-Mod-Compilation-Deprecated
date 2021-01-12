@@ -2,11 +2,10 @@
   {
     "id": "NC_BS_NERD",
     "type": "npc_class",
-    "name": "Nerd",
+    "name": { "str": "Nerd" },
     "job_description": "He's the Angry Nintendo Nerd",
     "common": false,
     "skills": [ { "skill": "computer", "level": { "sum": [ { "constant": 9 }, { "rng": [ 1, 6 ] } ] } } ],
-    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
     "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!"
   },
   {
@@ -15,9 +14,8 @@
     "name+": ", NERD",
     "class": "NC_BS_NERD",
     "attitude": 1,
-    "//": "NPCATT_TALK",
-    "mission": 7,
     "//": "NPC_MISSION_GUARD",
+    "mission": 7,
     "chat": "TALK_STRANGER_NEUTRAL",
     "mission_offered": "MISSION_GET_SOFTWARE",
     "faction": "bs_lone_survivors"

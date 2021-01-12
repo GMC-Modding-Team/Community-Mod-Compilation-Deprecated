@@ -2,7 +2,7 @@
   {
     "id": "school_uniform_skirt",
     "type": "ARMOR",
-    "name": " school uniform skirt ",
+    "name": { "str": " school uniform skirt " },
     "description": " A school regulation length cotton skirt. Easy to move in, but only has a single small pocket.",
     "weight": 74,
     "volume": 1,
@@ -20,7 +20,7 @@
   {
     "id": "school_uniform_tie",
     "type": "ARMOR",
-    "name": " school uniform tie ",
+    "name": { "str": " school uniform tie " },
     "description": " A tie with the school uniform's colors.",
     "weight": 10,
     "volume": 0,
@@ -33,8 +33,7 @@
   {
     "id": "school_uniform_pants",
     "type": "ARMOR",
-    "name": "pants",
-    "name_plural": "pants",
+    "name": { "str_sp": "pants" },
     "description": "A pair of pants.",
     "weight": 560,
     "volume": 8,
@@ -54,8 +53,7 @@
   {
     "id": "school_uniform_shoes",
     "type": "ARMOR",
-    "name": "pair of school uniform shoes",
-    "name_plural": "pairs of dress shoes",
+    "name": { "str": "pair of school uniform shoes", "str_pl": "pairs of dress shoes" },
     "description": "A pair of school uniform shoes.",
     "weight": 870,
     "volume": 6,
@@ -75,8 +73,7 @@
   {
     "id": "knee_socks",
     "type": "ARMOR",
-    "name": "pair of knee socks",
-    "name_plural": "pairs of knee socks",
+    "name": { "str": "pair of knee socks", "str_pl": "pairs of knee socks" },
     "description": "Unremarkable classic knee socks.",
     "weight": 32,
     "volume": 1,
@@ -93,7 +90,7 @@
   {
     "id": "school_uniform_longshirt",
     "type": "ARMOR",
-    "name": "school uniform long-sleeved shirt",
+    "name": { "str": "school uniform long-sleeved shirt" },
     "description": "A long-sleeved cotton shirt.",
     "weight": 146,
     "volume": 3,
@@ -111,7 +108,7 @@
   {
     "id": "school_uniform_jacket",
     "type": "ARMOR",
-    "name": "school uniform jacket",
+    "name": { "str": "school uniform jacket" },
     "description": "A cotton jacket with the school's emblem knitted.",
     "weight": 220,
     "volume": 9,

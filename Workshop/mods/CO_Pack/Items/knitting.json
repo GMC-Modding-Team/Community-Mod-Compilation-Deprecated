@@ -4,7 +4,7 @@
     "id": "yarn",
     "category": "spare_parts",
     "price": 6000,
-    "name": "wool yarn",
+    "name": { "str": "wool yarn" },
     "symbol": "=",
     "color": "light_gray",
     "description": "A small quantity of wool yarn that could be used to knit warm clothes.",
@@ -35,7 +35,7 @@
     "id": "wool_bolt",
     "symbol": ",",
     "color": "white",
-    "name": "wool fabric",
+    "name": { "str": "wool fabric" },
     "description": "A bolt of knitted fabric used to make bigger woolen garments.",
     "price": 980,
     "material": [ "wool", "null" ],
@@ -49,7 +49,7 @@
   {
     "type": "ARMOR",
     "id": "cowl_wool",
-    "name": "knit cowl",
+    "name": { "str": "knit cowl" },
     "weight": 272,
     "color": "white",
     "covers": [ "MOUTH" ],
@@ -73,7 +73,7 @@
   {
     "type": "ARMOR",
     "id": "mask_ski",
-    "name": "ski mask",
+    "name": { "str": "ski mask" },
     "weight": 86,
     "color": "dark_gray",
     "covers": [ "HEAD", "MOUTH" ],
@@ -97,7 +97,7 @@
   {
     "type": "ARMOR",
     "id": "wool_hoodie",
-    "name": "wool hoodie",
+    "name": { "str": "wool hoodie" },
     "weight": 580,
     "color": "dark_gray",
     "covers": [ "TORSO", "ARMS" ],
@@ -121,7 +121,7 @@
   {
     "type": "ARMOR",
     "id": "wool_suit",
-    "name": "wool suit",
+    "name": { "str": "wool suit" },
     "weight": 883,
     "color": "light_red",
     "covers": [ "TORSO", "HEAD", "MOUTH", "ARMS", "HANDS", "LEGS", "FEET" ],

@@ -2,7 +2,7 @@
   {
     "id": "NC_BS_LOWYER",
     "type": "npc_class",
-    "name": "Lowyer",
+    "name": { "str": "Lowyer" },
     "job_description": "I'll innocence any your crimes!(1 million dollars per case.)",
     "common": false,
     "skills": [
@@ -16,7 +16,6 @@
       { "skill": "archery", "level": 0 },
       { "skill": "throw", "level": 0 }
     ],
-    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
     "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!",
     "traits": [ [ "ANIMALDISCORD", 100 ] ]
   },
@@ -26,9 +25,8 @@
     "name+": ", LOWYER",
     "class": "NC_BS_LOWYER",
     "attitude": 1,
-    "//": "NPCATT_TALK",
-    "mission": 7,
     "//": "NPC_MISSION_GUARD",
+    "mission": 7,
     "chat": "TALK_STRANGER_NEUTRAL",
     "mission_offered": "MISSION_GET_ANTIBIOTICS",
     "faction": "bs_lone_survivors"

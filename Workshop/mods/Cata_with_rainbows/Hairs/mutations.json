@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "EYE_BLUE",
-    "name": "Blue eyes",
+    "name": { "str": "Blue eyes" },
     "points": 0,
     "description": "Your natural eye color is (or was) blue.",
     "starting_trait": true,
@@ -14,7 +14,7 @@
   {
     "type": "mutation",
     "id": "EYE_BROWN",
-    "name": "Brown eyes",
+    "name": { "str": "Brown eyes" },
     "points": 0,
     "description": "Your natural eye color is (or was) brown.",
     "starting_trait": true,
@@ -26,7 +26,7 @@
   {
     "type": "mutation",
     "id": "EYE_GRAY",
-    "name": "Gray eyes",
+    "name": { "str": "Gray eyes" },
     "points": 0,
     "description": "Your natural eye color is (or was) gray.",
     "starting_trait": true,
@@ -38,7 +38,7 @@
   {
     "type": "mutation",
     "id": "EYE_RED",
-    "name": "Red eyes",
+    "name": { "str": "Red eyes" },
     "points": 0,
     "description": "Your natural eye color is (or was) red.",
     "starting_trait": true,
@@ -50,7 +50,7 @@
   {
     "type": "mutation",
     "id": "EYE_GREEN",
-    "name": "Green eyes",
+    "name": { "str": "Green eyes" },
     "points": 0,
     "description": "Your natural eye color is (or was) green.",
     "starting_trait": true,
@@ -62,7 +62,7 @@
   {
     "type": "mutation",
     "id": "EYE_YELLOW",
-    "name": "Yellow eyes",
+    "name": { "str": "Yellow eyes" },
     "points": 0,
     "description": "Your natural eye color is (or was) yellow.",
     "starting_trait": true,
@@ -74,7 +74,7 @@
   {
     "type": "mutation",
     "id": "HAIR_BLONDE",
-    "name": "Blonde hair",
+    "name": { "str": "Blonde hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) blonde.",
     "starting_trait": true,
@@ -86,7 +86,7 @@
   {
     "type": "mutation",
     "id": "HAIR_RED",
-    "name": "Red hair",
+    "name": { "str": "Red hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) red.",
     "starting_trait": true,
@@ -98,7 +98,7 @@
   {
     "type": "mutation",
     "id": "HAIR_BROWN",
-    "name": "Brown hair",
+    "name": { "str": "Brown hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) brown.",
     "starting_trait": true,
@@ -110,7 +110,7 @@
   {
     "type": "mutation",
     "id": "HAIR_BLACK",
-    "name": "Black hair",
+    "name": { "str": "Black hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) black.",
     "starting_trait": true,
@@ -122,7 +122,7 @@
   {
     "type": "mutation",
     "id": "HAIR_WHITE",
-    "name": "White hair",
+    "name": { "str": "White hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) white.",
     "starting_trait": true,
@@ -134,7 +134,7 @@
   {
     "type": "mutation",
     "id": "HAIR_PINK",
-    "name": "Pink hair",
+    "name": { "str": "Pink hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) pink.",
     "starting_trait": true,
@@ -146,7 +146,7 @@
   {
     "type": "mutation",
     "id": "HAIR_GRAY",
-    "name": "Gray hair",
+    "name": { "str": "Gray hair" },
     "points": 0,
     "description": "Your natural hair color is (or was) gray.",
     "starting_trait": true,
@@ -158,7 +158,7 @@
   {
     "type": "mutation",
     "id": "HAIR_BALD",
-    "name": "No head hair",
+    "name": { "str": "No head hair" },
     "points": 0,
     "description": "You dont have natural head hair.",
     "valid": false,
@@ -168,7 +168,7 @@
   {
     "type": "mutation",
     "id": "SKIN_PINK",
-    "name": "Pink skin",
+    "name": { "str": "Pink skin" },
     "points": 0,
     "description": "Your natural skin color is (or was) pink.",
     "starting_trait": true,
@@ -180,7 +180,7 @@
   {
     "type": "mutation",
     "id": "SKIN_LIGHT",
-    "name": "Light skin",
+    "name": { "str": "Light skin" },
     "points": 0,
     "description": "Your natural skin color is (or was) light.",
     "starting_trait": true,
@@ -192,7 +192,7 @@
   {
     "type": "mutation",
     "id": "SKIN_TAN",
-    "name": "Tan skin",
+    "name": { "str": "Tan skin" },
     "points": 0,
     "description": "Your natural skin color is (or was) tan.",
     "starting_trait": true,
@@ -204,7 +204,7 @@
   {
     "type": "mutation",
     "id": "SKIN_DARK",
-    "name": "Dark skin",
+    "name": { "str": "Dark skin" },
     "points": 0,
     "description": "Your natural skin color is (or was) dark.",
     "starting_trait": true,
@@ -216,7 +216,7 @@
   {
     "type": "mutation",
     "id": "SKIN_MEDIUM",
-    "name": "Medium skin",
+    "name": { "str": "Medium skin" },
     "points": 0,
     "description": "Your natural skin color is (or was) rather common.",
     "starting_trait": true,
@@ -228,7 +228,7 @@
   {
     "type": "mutation",
     "id": "PALE",
-    "name": "Pale skin",
+    "name": { "str": "Pale skin" },
     "points": 0,
     "description": "Your natural skin color is (or was) rather pale.",
     "starting_trait": true,
@@ -240,7 +240,7 @@
   {
     "type": "mutation",
     "id": "LIGHT_FRECKLES",
-    "name": "Light Freckles",
+    "name": { "str": "Light Freckles" },
     "points": 0,
     "description": "Your face has light freckles.",
     "starting_trait": true,
@@ -251,7 +251,7 @@
   {
     "type": "mutation",
     "id": "DENSE_FRECKLES",
-    "name": "Dense Freckles",
+    "name": { "str": "Dense Freckles" },
     "points": 0,
     "description": "Your face and body are covered with dense freckles.",
     "starting_trait": true,
@@ -262,7 +262,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_WHITE",
-    "name": "THRESH_BODYPARTS_HAIR_WHITE",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_WHITE" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_WHITE",
     "valid": false,
@@ -272,7 +272,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_BLACK",
-    "name": "THRESH_BODYPARTS_HAIR_BLACK",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_BLACK" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_BLACK",
     "valid": false,
@@ -282,7 +282,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_GRAY",
-    "name": "THRESH_BODYPARTS_HAIR_GRAY",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_GRAY" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_GRAY",
     "valid": false,
@@ -292,7 +292,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_RED",
-    "name": "THRESH_BODYPARTS_HAIR_RED",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_RED" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_RED",
     "valid": false,
@@ -302,7 +302,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_PINK",
-    "name": "THRESH_BODYPARTS_HAIR_PINK",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_PINK" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_PINK",
     "valid": false,
@@ -312,7 +312,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_BROWN",
-    "name": "THRESH_BODYPARTS_HAIR_BROWN",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_BROWN" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_BROWN",
     "valid": false,
@@ -322,7 +322,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_BLONDE",
-    "name": "THRESH_BODYPARTS_HAIR_BLONDE",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_BLONDE" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_BLONDE",
     "valid": false,
@@ -332,7 +332,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_HAIR_BALD",
-    "name": "THRESH_BODYPARTS_HAIR_BALD",
+    "name": { "str": "THRESH_BODYPARTS_HAIR_BALD" },
     "points": 0,
     "description": "THRESH_BODYPARTS_HAIR_BALD",
     "valid": false,
@@ -342,7 +342,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_SKIN_PINK",
-    "name": "THRESH_BODYPARTS_SKIN_PINK",
+    "name": { "str": "THRESH_BODYPARTS_SKIN_PINK" },
     "points": 0,
     "description": "THRESH_BODYPARTS_SKIN_PINK",
     "valid": false,
@@ -352,7 +352,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_SKIN_LIGHT",
-    "name": "THRESH_BODYPARTS_SKIN_LIGHT",
+    "name": { "str": "THRESH_BODYPARTS_SKIN_LIGHT" },
     "points": 0,
     "description": "THRESH_BODYPARTS_SKIN_LIGHT",
     "valid": false,
@@ -362,7 +362,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_SKIN_TAN",
-    "name": "THRESH_BODYPARTS_SKIN_TAN",
+    "name": { "str": "THRESH_BODYPARTS_SKIN_TAN" },
     "points": 0,
     "description": "THRESH_BODYPARTS_SKIN_TAN",
     "valid": false,
@@ -372,7 +372,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_SKIN_DARK",
-    "name": "THRESH_BODYPARTS_SKIN_DARK",
+    "name": { "str": "THRESH_BODYPARTS_SKIN_DARK" },
     "points": 0,
     "description": "THRESH_BODYPARTS_SKIN_DARK",
     "valid": false,
@@ -382,7 +382,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_SKIN_MEDIUM",
-    "name": "THRESH_BODYPARTS_SKIN_MEDIUM",
+    "name": { "str": "THRESH_BODYPARTS_SKIN_MEDIUM" },
     "points": 0,
     "description": "THRESH_BODYPARTS_SKIN_MEDIUM",
     "valid": false,
@@ -392,7 +392,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_SKIN_PALE",
-    "name": "THRESH_BODYPARTS_SKIN_PALE",
+    "name": { "str": "THRESH_BODYPARTS_SKIN_PALE" },
     "points": 0,
     "description": "THRESH_BODYPARTS_SKIN_PALE",
     "valid": false,
@@ -402,7 +402,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_EYE_BLUE",
-    "name": "THRESH_BODYPARTS_EYE_BLUE",
+    "name": { "str": "THRESH_BODYPARTS_EYE_BLUE" },
     "points": 0,
     "description": "THRESH_BODYPARTS_EYE_BLUE",
     "valid": false,
@@ -412,7 +412,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_EYE_BROWN",
-    "name": "THRESH_BODYPARTS_EYE_BROWN",
+    "name": { "str": "THRESH_BODYPARTS_EYE_BROWN" },
     "points": 0,
     "description": "THRESH_BODYPARTS_EYE_BROWN",
     "valid": false,
@@ -422,7 +422,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_EYE_GRAY",
-    "name": "THRESH_BODYPARTS_EYE_GRAY",
+    "name": { "str": "THRESH_BODYPARTS_EYE_GRAY" },
     "points": 0,
     "description": "THRESH_BODYPARTS_EYE_GRAY",
     "valid": false,
@@ -432,7 +432,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_EYE_RED",
-    "name": "THRESH_BODYPARTS_EYE_RED",
+    "name": { "str": "THRESH_BODYPARTS_EYE_RED" },
     "points": 0,
     "description": "THRESH_BODYPARTS_EYE_RED",
     "valid": false,
@@ -442,7 +442,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_EYE_GREEN",
-    "name": "THRESH_BODYPARTS_EYE_GREEN",
+    "name": { "str": "THRESH_BODYPARTS_EYE_GREEN" },
     "points": 0,
     "description": "THRESH_BODYPARTS_EYE_GREEN",
     "valid": false,
@@ -452,7 +452,7 @@
   {
     "type": "mutation",
     "id": "THRESH_BODYPARTS_EYE_YELLOW",
-    "name": "THRESH_BODYPARTS_EYE_YELLOW",
+    "name": { "str": "THRESH_BODYPARTS_EYE_YELLOW" },
     "points": 0,
     "description": "THRESH_BODYPARTS_EYE_YELLOW",
     "valid": false,

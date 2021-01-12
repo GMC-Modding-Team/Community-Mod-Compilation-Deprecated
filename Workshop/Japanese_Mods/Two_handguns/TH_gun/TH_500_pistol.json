@@ -3,14 +3,11 @@
     "id": "TH_sw_500",
     "copy-from": "sw_500",
     "type": "GUN",
-    "name": "Twin hand gun(.50 caliber/S&W 500)",
-    "name_plural": "Twin hand gun(.50 caliber/S&W 500)",
+    "name": { "str_sp": "Twin hand gun(.50 caliber/S&W 500)" },
     "description": "It is both hand held S & W 500.",
-    "//": "Fixed value number correction",
-    "relative": { "range": -2 },
-    "//": "Simultaneous firing count",
-    "modes": [ [ "DEFAULT", "revolver", 1 ], [ "DOUBLE", "double", 2 ] ],
     "//": "Change by magnification",
+    "relative": { "range": -2 },
+    "modes": [ [ "DEFAULT", "revolver", 1 ], [ "DOUBLE", "double", 2 ] ],
     "proportional": { "clip_size": 2, "weight": 2, "volume": 2, "price": 2, "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] }
   }

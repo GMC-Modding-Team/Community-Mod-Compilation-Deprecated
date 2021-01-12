@@ -2,7 +2,7 @@
   {
     "abstract": "7.92x33k",
     "type": "AMMO",
-    "name": "7.92x33 Kurtz",
+    "name": { "str": "7.92x33 Kurtz" },
     "weight": 30,
     "volume": 60,
     "price": 200,
@@ -23,7 +23,7 @@
     "id": "7.92x33k_fmj",
     "copy-from": "7.92x33k",
     "type": "AMMO",
-    "name": "7.92x33 kurtz FMJ",
+    "name": { "str": "7.92x33 kurtz FMJ" },
     "description": "7.92x33 kurtz rounds with a 125gr full metal jacket bullet. ",
     "extend": { "effects": [ "COOKOFF" ] },
     "relative": { "damage": { "damage_type": "bullet", "amount": 15 }, "pierce": 2, "dispersion": 30 }
@@ -32,7 +32,7 @@
     "id": "7.92x33k_fmjbt",
     "copy-from": "7.92x33k",
     "type": "AMMO",
-    "name": "7.92x33 kurtz FMJ-BT",
+    "name": { "str": "7.92x33 kurtz FMJ-BT" },
     "description": "7.92x33 kurtz rounds with 123gr full metal jacket boat tail bullet",
     "extend": { "effects": [ "COOKOFF" ] },
     "relative": { "pierce": 6 }

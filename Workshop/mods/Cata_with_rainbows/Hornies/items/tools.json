@@ -2,8 +2,7 @@
   {
     "id": "scissors",
     "type": "TOOL",
-    "name": "pair of scissors",
-    "name_plural": "pairs of scissors",
+    "name": { "str": "pair of scissors", "str_pl": "pairs of scissors" },
     "description": "These are a long pair of heavy duty scissors.  Use scissors to cut items made from cotton (like clothing) into rags.",
     "weight": "113 g",
     "volume": 1,
@@ -20,7 +19,7 @@
   {
     "id": "elec_hairtrimmer",
     "type": "TOOL",
-    "name": "electric hair trimmer",
+    "name": { "str": "electric hair trimmer" },
     "description": "This is a pocket-sized electric trimmer made for cutting hair.  You can use it to cut your hair if it's supplied with batteries.  It requires 10 batteries per use.",
     "weight": "138 g",
     "volume": 1,
@@ -39,8 +38,7 @@
   {
     "id": "toolbox",
     "type": "TOOL",
-    "name": "toolbox",
-    "name_plural": "toolboxes",
+    "name": { "str": "toolbox", "str_pl": "toolboxes" },
     "description": "This is a stout metal box containing a complete tool kit suitable for most household maintenance and construction activities.",
     "weight": "3522 g",
     "volume": 10,
@@ -68,7 +66,7 @@
   {
     "id": "hacksaw",
     "type": "TOOL",
-    "name": "hacksaw",
+    "name": { "str": "hacksaw" },
     "description": "This is a sturdy saw, useful for cutting through metal objects.",
     "weight": "952 g",
     "volume": 4,

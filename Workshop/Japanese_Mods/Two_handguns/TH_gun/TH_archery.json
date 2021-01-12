@@ -3,14 +3,11 @@
     "id": "TH_hand_crossbow",
     "copy-from": "hand_crossbow",
     "type": "GUN",
-    "name": "Pistol crossbow (both-handed)",
-    "name_plural": "Pistol crossbow (both-handed)",
+    "name": { "str_sp": "Pistol crossbow (both-handed)" },
     "description": "It is both hand-held pistol cross bow.",
-    "//": "Fixed value number correction",
-    "relative": { "range": -2 },
-    "//": "Simultaneous firing count",
-    "modes": [ [ "DEFAULT", "Manual", 1 ], [ "DOUBLE", "double", 2 ] ],
     "//": "Change by magnification",
+    "relative": { "range": -2 },
+    "modes": [ [ "DEFAULT", "Manual", 1 ], [ "DOUBLE", "double", 2 ] ],
     "proportional": { "reload": 1.2, "clip_size": 2, "weight": 2, "volume": 2, "price": 2, "dispersion": 1.2, "recoil": 1.2 },
     "extend": { "flags": [ "FIRE_TWOHAND" ] }
   }

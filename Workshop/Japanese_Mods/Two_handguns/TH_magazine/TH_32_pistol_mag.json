@@ -3,24 +3,20 @@
     "id": "TH_ppkmag",
     "copy-from": "ppkmag",
     "type": "MAGAZINE",
-    "name": "Dual mag(.32 caliber/Walser PPK)",
-    "name_plural": "Dual mag(.32 caliber/Walser PPK)",
+    "name": { "str_sp": "Dual mag(.32 caliber/Walser PPK)" },
     "description": "A standard 8-round steel box magazine for the Walther PPK.",
-    "//": "Fixed value number correction",
-    "relative": { "reliability": -1 },
     "//": "Change by magnification",
+    "relative": { "reliability": -1 },
     "proportional": { "reload_time": 1.5, "weight": 2, "volume": 2, "price": 2, "capacity": 2 }
   },
   {
     "id": "TH_sigp230mag",
     "copy-from": "sigp230mag",
     "type": "MAGAZINE",
-    "name": "Dual mag(.32 caliber/SIG P230)",
-    "name_plural": "Dual mag(.32 caliber/SIG P230)",
+    "name": { "str_sp": "Dual mag(.32 caliber/SIG P230)" },
     "description": "A factory specification 8-round magazine for the SIG Sauer P230.",
-    "//": "Fixed value number correction",
-    "relative": { "reliability": -1 },
     "//": "Change by magnification",
+    "relative": { "reliability": -1 },
     "proportional": { "reload_time": 1.5, "weight": 2, "volume": 2, "price": 2, "capacity": 2 }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "NC_NINJA_HIGH",
     "type": "npc_class",
-    "name": "High Ninja",
+    "name": { "str": "High Ninja" },
     "job_description": "I'm a master of martial arts.",
     "bonus_str": { "rng": [ 4, 5 ] },
     "bonus_dex": { "rng": [ 3, 5 ] },
@@ -17,7 +17,6 @@
       { "skill": "shotgun", "level": { "sum": [ { "constant": 4 }, { "rng": [ 1, 5 ] } ] } },
       { "skill": "smg", "level": { "sum": [ { "constant": 4 }, { "rng": [ 1, 5 ] } ] } }
     ],
-    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
     "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!",
     "traits": [ [ "NIGHTVISION", 100 ], [ "PARKOUR", 100 ], [ "PSYCHOPATH", 100 ] ]
   },

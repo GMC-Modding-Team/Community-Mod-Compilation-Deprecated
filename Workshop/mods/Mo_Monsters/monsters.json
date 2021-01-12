@@ -2,7 +2,7 @@
   {
     "id": "mon_zom_crow",
     "type": "MONSTER",
-    "name": "zombie crow",
+    "name": { "str": "zombie crow" },
     "description": "What used to be a elegant black bird is now a rotten husk of a bird, unforgiving in it's fight to find food.",
     "default_faction": "zombie",
     "categories": [ "WILDLIFE" ],
@@ -28,7 +28,7 @@
   {
     "id": "mon_zom_crow_burned",
     "type": "MONSTER",
-    "name": "zombie crow",
+    "name": { "str": "zombie crow" },
     "description": "A burned husk of a once beautiful crow, now without feathers forced to wander on the ground.",
     "default_faction": "zombie",
     "categories": [ "WILDLIFE" ],

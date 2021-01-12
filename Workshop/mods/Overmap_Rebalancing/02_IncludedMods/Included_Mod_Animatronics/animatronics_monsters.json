@@ -2,7 +2,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_fox_old",
-    "name": "old animatronic fox",
+    "name": { "str": "old animatronic fox" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "F",
@@ -34,7 +34,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_fox_new",
-    "name": "new animatronic fox",
+    "name": { "str": "new animatronic fox" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "F",
@@ -66,7 +66,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_fox_wreck",
-    "name": "wrecked animatronic fox",
+    "name": { "str": "wrecked animatronic fox" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "F",
@@ -98,7 +98,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_bunny_new",
-    "name": "new animatronic bunny",
+    "name": { "str": "new animatronic bunny" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "B",
@@ -130,7 +130,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_bunny_old",
-    "name": "old animatronic bunny",
+    "name": { "str": "old animatronic bunny" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "B",
@@ -162,7 +162,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_chicken_old",
-    "name": "old animatronic chicken",
+    "name": { "str": "old animatronic chicken" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "C",
@@ -194,7 +194,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_chicken_new",
-    "name": "new animatronic chicken",
+    "name": { "str": "new animatronic chicken" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "C",
@@ -226,7 +226,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_bear_old",
-    "name": "old animatronic bear",
+    "name": { "str": "old animatronic bear" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "B",
@@ -258,7 +258,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_bear_new",
-    "name": "new animatronic bear",
+    "name": { "str": "new animatronic bear" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "B",
@@ -290,7 +290,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_bat",
-    "name": "animatronic bat",
+    "name": { "str": "animatronic bat" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "B",
@@ -321,7 +321,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_beaver",
-    "name": "animatronic beaver",
+    "name": { "str": "animatronic beaver" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "b",
@@ -352,7 +352,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_cat",
-    "name": "animatronic cat",
+    "name": { "str": "animatronic cat" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "c",
@@ -383,7 +383,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_chipmunk",
-    "name": "animatronic chipmunk",
+    "name": { "str": "animatronic chipmunk" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "c",
@@ -414,7 +414,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_cow",
-    "name": "animatronic cow",
+    "name": { "str": "animatronic cow" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "C",
@@ -445,7 +445,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_coyote",
-    "name": "animatronic coyote",
+    "name": { "str": "animatronic coyote" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "C",
@@ -476,7 +476,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_deer",
-    "name": "animatronic deer",
+    "name": { "str": "animatronic deer" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "D",
@@ -507,7 +507,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_horse",
-    "name": "animatronic horse",
+    "name": { "str": "animatronic horse" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "H",
@@ -538,7 +538,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_pig",
-    "name": "animatronic pig",
+    "name": { "str": "animatronic pig" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "P",
@@ -569,8 +569,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_sheep",
-    "name": "animatronic sheep",
-    "name_plural": "animatronic sheep",
+    "name": { "str_sp": "animatronic sheep" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "S",
@@ -601,7 +600,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_squirrel",
-    "name": "animatronic squirrel",
+    "name": { "str": "animatronic squirrel" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "S",
@@ -632,7 +631,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_child",
-    "name": "animatronic child",
+    "name": { "str": "animatronic child" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "c",
@@ -664,7 +663,7 @@
   {
     "type": "MONSTER",
     "id": "mon_marionette",
-    "name": "marionette",
+    "name": { "str": "marionette" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "m",
@@ -696,7 +695,7 @@
   {
     "type": "MONSTER",
     "id": "mon_animatronic_wolf",
-    "name": "animatronic wolf",
+    "name": { "str": "animatronic wolf" },
     "species": [ "ROBOT" ],
     "default_faction": "animatronics",
     "symbol": "W",

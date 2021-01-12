@@ -2,7 +2,7 @@
   {
     "abstract": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm grenade",
+    "name": { "str": "40mm grenade" },
     "weight": 230,
     "volume": 1,
     "price": 40000,
@@ -23,7 +23,7 @@
     "id": "40mm_beanbag",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm beanbag",
+    "name": { "str": "40mm beanbag" },
     "description": "A 40mm beanbag that deals massive, but less-lethal, force.",
     "extend": { "effects": [ "LARGE_BEANBAG" ] }
   },
@@ -31,7 +31,7 @@
     "id": "40mm_concussive",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm concussive",
+    "name": { "str": "40mm concussive" },
     "description": "A 40mm grenade with a concussive explosion load.",
     "extend": { "effects": [ "EXPLOSIVE" ] }
   },
@@ -39,7 +39,7 @@
     "id": "40mm_flare",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm flare",
+    "name": { "str": "40mm flare" },
     "description": "A 40mm signal flare.  It will burn brightly for up to a minute, and will also leave a streak of smoke cover in its wake.",
     "drop": "handflare_lit",
     "extend": { "effects": [ "TRAIL", "NO_EMBED" ] }
@@ -48,7 +48,7 @@
     "id": "40mm_flashbang",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm flashbang",
+    "name": { "str": "40mm flashbang" },
     "description": "A 40mm grenade with a flashbang load.  It will detonate with a blast of light and sound, designed to blind, deafen, and disorient anyone nearby.",
     "extend": { "effects": [ "FLASHBANG" ] }
   },
@@ -56,7 +56,7 @@
     "id": "40mm_flechette",
     "copy-from": "40mm_shot",
     "type": "AMMO",
-    "name": "40mm flechette",
+    "name": { "str": "40mm flechette" },
     "description": "A 40mm grenade with an armor-piercing flechette load.",
     "relative": { "damage": -10, "pierce": 6 }
   },
@@ -64,7 +64,7 @@
     "id": "40mm_frag",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm frag",
+    "name": { "str": "40mm frag" },
     "description": "A 40mm grenade with a small explosive load and a high number of damaging fragments.",
     "extend": { "effects": [ "FRAG" ] }
   },
@@ -72,8 +72,7 @@
     "id": "40mm_incendiary",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm incendiary",
-    "name_plural": "40mm incendiaries",
+    "name": { "str": "40mm incendiary", "str_pl": "40mm incendiaries" },
     "description": "A 40mm grenade with a small napalm load, designed to create a burst of flame.",
     "extend": { "effects": [ "NAPALM" ] }
   },
@@ -81,7 +80,7 @@
     "id": "40mm_shot",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm buckshot",
+    "name": { "str": "40mm buckshot" },
     "description": "A 40mm grenade with a buckshot load.",
     "range": 12,
     "damage": 70,
@@ -93,7 +92,7 @@
     "id": "40mm_smoke",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm smoke cover",
+    "name": { "str": "40mm smoke cover" },
     "description": "A 40mm grenade designed to provide smoke cover.",
     "drop": "smokebomb_act",
     "extend": { "effects": [ "TRAIL", "NO_EMBED" ] }
@@ -102,8 +101,7 @@
     "id": "40mm_teargas",
     "copy-from": "40mm_grenade",
     "type": "AMMO",
-    "name": "40mm teargas",
-    "name_plural": "40mm teargas grenades",
+    "name": { "str": "40mm teargas", "str_pl": "40mm teargas grenades" },
     "description": "A 40mm grenade with a teargas load.  It will burst in a cloud of highly incapacitating gas.",
     "drop": "gasbomb_act",
     "extend": { "effects": [ "NO_EMBED" ] }

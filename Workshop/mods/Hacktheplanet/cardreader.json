@@ -4,7 +4,7 @@
     "id": "auth_bankchip",
     "symbol": ",",
     "color": "dark_gray",
-    "name": "bank authorization chip",
+    "name": { "str": "bank authorization chip" },
     "category": "spare_parts",
     "description": "The authorization control an ATM uses to connect to the bank network.  This chip could be used to make a portable cashcard reader.",
     "price": 13500,
@@ -18,7 +18,7 @@
     "type": "GENERIC",
     "id": "burnt_out_bankchip",
     "copy-from": "auth_bankchip",
-    "name": "burnt out authorization chip",
+    "name": { "str": "burnt out authorization chip" },
     "description": "The authorization control an ATM uses to connect to the bank network.  This object has been destroyed by excessive electric current and is now useless."
   },
   {
@@ -53,7 +53,7 @@
     "type": "TOOL",
     "symbol": ",",
     "color": "gray",
-    "name": "portable cashcard reader",
+    "name": { "str": "portable cashcard reader" },
     "description": "This device can read a cashcard and transfer the balance to another card.  Before the cataclysm, possession of this would have landed you straight in jail.  It is solar powered, and barely uses any charge.",
     "price": 100000,
     "material": [ "steel", "plastic" ],
@@ -66,7 +66,7 @@
   {
     "type": "item_action",
     "id": "iuse_cashcard_transfer",
-    "name": "load cards into reader"
+    "name": { "str": "load cards into reader" }
   },
   {
     "type": "item_group",

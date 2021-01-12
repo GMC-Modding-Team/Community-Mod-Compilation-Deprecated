@@ -4,11 +4,11 @@
     "range": 4,
     "type": "GUN",
     "id": "sw_619",
-    "name": "S&W 619"
+    "name": { "str": "S&W 619" }
   },
   {
     "//": "range deviation due to the Tarus Pro being a pretty accurate pistol. Dispersion reduced slightly as well.",
-    "name": "Taurus Pro .38",
+    "name": { "str": "Taurus Pro .38" },
     "dispersion": 440,
     "range": 5,
     "copy-from": "taurus_38",
@@ -20,13 +20,13 @@
     "range": 4,
     "type": "GUN",
     "id": "ruger_lcr_38",
-    "name": "Ruger LCR .38"
+    "name": { "str": "Ruger LCR .38" }
   },
   {
     "copy-from": "2_shot_special",
     "range": 3,
     "type": "GUN",
     "id": "2_shot_special",
-    "name": "2 Shot Special"
+    "name": { "str": "2 Shot Special" }
   }
 ]

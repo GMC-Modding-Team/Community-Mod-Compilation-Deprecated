@@ -2,7 +2,7 @@
   {
     "id": "NC_BS_POLICE_OFFICER",
     "type": "npc_class",
-    "name": "Police Officer",
+    "name": { "str": "Police Officer" },
     "job_description": "Welcome! to the blue oyster!",
     "common": false,
     "bonus_str": { "rng": [ 1, 2 ] },
@@ -12,7 +12,6 @@
       { "skill": "pistol", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 3 ] } ] } },
       { "skill": "shotgun", "level": { "sum": [ { "constant": 3 }, { "rng": [ 1, 3 ] } ] } }
     ],
-    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
     "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!"
   },
   {
@@ -21,9 +20,8 @@
     "name+": ", COP",
     "class": "NC_BS_POLICE_OFFICER",
     "attitude": 1,
-    "//": "NPCATT_TALK",
-    "mission": 7,
     "//": "NPC_MISSION_GUARD",
+    "mission": 7,
     "chat": "TALK_STRANGER_NEUTRAL",
     "mission_offered": "MISSION_GET_FLAG",
     "faction": "bs_lone_survivors"

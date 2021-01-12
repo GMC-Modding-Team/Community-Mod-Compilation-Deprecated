@@ -2,7 +2,7 @@
   {
     "id": "mon_ant_swarm",
     "type": "MONSTER",
-    "name": "ant swarm",
+    "name": { "str": "ant swarm" },
     "description": "A swarming pile of ants, dangerous in numbers",
     "default_faction": "ant",
     "species": [ "INSECT" ],
@@ -30,7 +30,7 @@
   {
     "id": "mon_bee_swarm",
     "type": "MONSTER",
-    "name": "bee swarm",
+    "name": { "str": "bee swarm" },
     "description": "A large group of bees, ready to swarm anyone who gets too close.",
     "default_faction": "bee",
     "species": [ "INSECT" ],

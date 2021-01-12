@@ -2,7 +2,7 @@
   {
     "id": "NC_BS_MECHANIC",
     "type": "npc_class",
-    "name": "Car Mechanic",
+    "name": { "str": "Car Mechanic" },
     "job_description": "He wore a yellow hat.",
     "common": false,
     "bonus_str": { "rng": [ 1, 2 ] },
@@ -16,7 +16,6 @@
       { "skill": "shotgun", "bonus": { "rng": [ 1, 2 ] } },
       { "skill": "pistol", "bonus": { "rng": [ 1, 2 ] } }
     ],
-    "//": "[carry_override]/[worn_override] these implementation is fucking yet.",
     "//": "[weapon_override] can't to be selected weapons that match the skill. fuck!"
   },
   {
@@ -25,9 +24,8 @@
     "name+": ", CAR MECHANIC",
     "class": "NC_BS_MECHANIC",
     "attitude": 1,
-    "//": "NPCATT_TALK",
-    "mission": 7,
     "//": "NPC_MISSION_GUARD",
+    "mission": 7,
     "chat": "TALK_STRANGER_NEUTRAL",
     "mission_offered": "MISSION_GET_FLAG",
     "faction": "bs_lone_survivors"

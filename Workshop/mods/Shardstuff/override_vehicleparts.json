@@ -2,7 +2,7 @@
   {
     "type": "vehicle_part",
     "id": "v_curtain",
-    "name": "curtain",
+    "name": { "str": "curtain" },
     "symbol": "\"",
     "color": "dark_gray",
     "broken_symbol": "0",
@@ -24,7 +24,7 @@
   {
     "type": "vehicle_part",
     "id": "aisle_curtain",
-    "name": "aisle curtain",
+    "name": { "str": "aisle curtain" },
     "symbol": "\"",
     "color": "dark_gray",
     "broken_symbol": "0",
@@ -51,7 +51,7 @@
   {
     "id": "crane_medium",
     "type": "vehicle_part",
-    "name": "boom crane",
+    "name": { "str": "boom crane" },
     "item": "cantilever_medium",
     "location": "structure",
     "symbol": "=",
