@@ -338,9 +338,7 @@
       [ "stripperclip_45", 30 ],
       [ "stripperclip_9", 50 ],
       [ "p08_9mag", 20 ],
-      [ "p08_45mag", 20 ],
-      [ "460mag", 35 ],
-      [ "460mag2", 25 ]
+      [ "p08_45mag", 20 ]
     ]
   },
   {
@@ -386,7 +384,10 @@
     "type": "item_group",
     "id": "ammo_pistol_rare",
     "//": "Less common pistol ammmo including that only used by police/paramilitary forces.",
-    "items": [ [ ".460", 25 ] ]
+	"items": [ 
+	[ "460_rowland", 10 ],
+	[ "460_fmj", 15 ]
+	]
   },
   {
     "type": "item_group",
