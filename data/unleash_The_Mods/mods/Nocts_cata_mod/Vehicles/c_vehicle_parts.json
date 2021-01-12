@@ -11,7 +11,11 @@
     "folded_volume": "2 L",
     "//": "Haven't figured out the breaks_into...",
     "breaks_into": [ { "item": "ups_rifle", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] }
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
   },
   {
     "type": "vehicle_part",
@@ -24,7 +28,8 @@
     "item": "sur_pnu_lmg",
     "folded_volume": "2 L",
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] }
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "GENERIC",
@@ -37,7 +42,7 @@
     "color": "light_red",
     "symbol": "&",
     "material": [ "steel" ],
-    "volume": "30 L",
+    "volume": 120,
     "category": "veh_parts",
     "price": 80000
   },
@@ -55,7 +60,24 @@
     "durability": 100,
     "item": "surv_station",
     "location": "center",
-    "flags": [ "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
+    "flags": [ "OBSTACLE" ],
+    "pseudo_tools": [
+      { "id": "vac_sealer" },
+      { "id": "dehydrator" },
+      { "id": "water_purifier", "hotkey": "p" },
+      { "id": "food_processor" },
+      { "id": "press" },
+      { "id": "puller" },
+      { "id": "chemistry_set" },
+      { "id": "electrolysis_kit" },
+      { "id": "water_faucet" },
+      { "id": "forge" },
+      { "id": "hotplate", "hotkey": "h" },
+      { "id": "pot" },
+      { "id": "pan" },
+      { "id": "welder", "hotkey": "w" },
+      { "id": "soldering_iron", "hotkey": "s" }
+    ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 30, 40 ] },
       { "item": "steel_chunk", "count": [ 30, 40 ] },
@@ -63,7 +85,12 @@
       { "item": "circuit", "count": [ 30, 40 ] },
       { "item": "e_scrap", "count": [ 30, 40 ] },
       { "item": "amplifier", "count": [ 30, 40 ] }
-    ]
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
   },
   {
     "type": "vehicle_part",
@@ -74,7 +101,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_223",
-    "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -85,7 +113,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_308",
-    "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -96,7 +125,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_762",
-    "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -107,7 +137,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_762R",
-    "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -118,7 +149,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_12",
-    "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "shotgun", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -129,7 +161,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_308",
-    "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -140,7 +173,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_223",
-    "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -151,7 +185,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_762",
-    "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -163,7 +198,8 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_762R",
-    "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ]
+    "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "type": "vehicle_part",
@@ -310,7 +346,12 @@
       { "item": "scrap", "count": [ 1, 2 ] },
       { "item": "cable", "charges": [ 1, 3 ] }
     ],
-    "extend": { "flags": [ "TOOL_SCREWDRIVER", "FOLDABLE" ] }
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "adhesive", 1 ] ] }
+    }
   },
   {
     "id": "generator_electric_small",
@@ -331,8 +372,13 @@
       { "item": "scrap", "count": [ 1, 2 ] },
       { "item": "cable", "charges": [ 3, 6 ] }
     ],
-    "extend": { "flags": [ "TOOL_SCREWDRIVER", "FOLDABLE" ] },
-    "damage_reduction": { "all": 6 }
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "damage_reduction": { "all": 6 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "adhesive", 1 ] ] }
+    }
   },
   {
     "id": "generator_electric",
@@ -352,8 +398,12 @@
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
-    "extend": { "flags": [ "TOOL_WRENCH" ] },
-    "damage_reduction": { "all": 32 }
+    "damage_reduction": { "all": 32 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
   },
   {
     "id": "generator_electric_large",
@@ -373,8 +423,12 @@
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
-    "extend": { "flags": [ "TOOL_WRENCH" ] },
-    "damage_reduction": { "all": 43 }
+    "damage_reduction": { "all": 43 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
   },
   {
     "id": "generator_electric_enhanced",
@@ -394,8 +448,12 @@
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
-    "extend": { "flags": [ "TOOL_WRENCH" ] },
-    "damage_reduction": { "all": 50 }
+    "damage_reduction": { "all": 50 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
   },
   {
     "id": "generator_electric_super",
@@ -415,7 +473,11 @@
       { "item": "scrap", "count": [ 6, 10 ] },
       { "item": "cable", "charges": [ 20, 30 ] }
     ],
-    "extend": { "flags": [ "TOOL_WRENCH" ] },
-    "damage_reduction": { "all": 60 }
+    "damage_reduction": { "all": 60 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
   }
 ]
