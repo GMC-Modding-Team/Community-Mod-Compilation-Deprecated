@@ -10,6 +10,7 @@
 import json
 import os
 
+
 def gen_new(path):
     change = False
     with open(path, "r") as json_file:

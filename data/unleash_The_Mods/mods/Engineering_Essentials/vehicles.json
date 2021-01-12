@@ -1,11 +1,16 @@
 [
   {
     "parts": [
-      { "y": -1, "x": -1, "parts": [ "xlframe_vertical" ] },
-      { "y": 1, "x": -1, "parts": [ "xlframe_vertical" ] },
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ] },
       {
+        "x": -1,
         "y": 0,
+        "parts": [ "xlframe_vertical_2", "engine_aero_light", "alternator_motorbike", "battery_motorbike" ]
+      },
+      { "x": -1, "y": 1, "parts": [ "xlframe_vertical" ] },
+      {
         "x": 0,
+        "y": 0,
         "parts": [
           "xlframe",
           "reclining_seat",
@@ -16,12 +21,7 @@
           "small_civilian_rotors"
         ]
       },
-      { "y": 0, "x": 1, "parts": [ "xlframe_vertical", "headlight" ] },
-      {
-        "y": 0,
-        "x": -1,
-        "parts": [ "xlframe_vertical_2", "engine_aero_light", "alternator_motorbike", "battery_motorbike" ]
-      }
+      { "x": 1, "y": 0, "parts": [ "xlframe_vertical", "headlight" ] }
     ],
     "type": "vehicle",
     "id": "gyrocopter",
