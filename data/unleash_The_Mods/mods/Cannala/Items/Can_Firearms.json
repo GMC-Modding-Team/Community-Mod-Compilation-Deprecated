@@ -2,7 +2,6 @@
   {
     "id": "SSRA",
     "type": "GUN",
-    "reload_noise_volume": 10,
     "name": { "str": "SSRA" },
     "description": "The model of 1933, Quick Fire Weapon, Mark 2, Standard Service Rifle Automatic(shortened, for obvious reasons, to SSRA), was developed in 1933 to replace both the SSR and the QFW in Cannalan inventory. Typically chambered for the M1926 SRC round, it also came chambered in a half-inch shotgun shell almost identical to .410 bore shotgun shells.",
     "weight": "3500 g",
@@ -17,6 +16,7 @@
     "ammo": [ "SRC" ],
     "dispersion": 150,
     "durability": 7,
+    "reload_noise_volume": 10,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -45,7 +45,6 @@
   {
     "id": "SSR",
     "type": "GUN",
-    "reload_noise_volume": 10,
     "name": { "str": "Standard Service Rifle" },
     "description": "The Standard Service Rifle, Model of 1913 was the first ever Cannalan-designed bolt-action rifle, featuring high power and realitivly light weight. Fairly accurite for its time, it was soon sold to big-game hunters the world over, inpart because its ammunition(the Basic Rifle Cartrage) was signifigantly more powerful than initally intended.",
     "weight": "4600 g",
@@ -63,6 +62,7 @@
     "blackpowder_tolerance": 60,
     "clip_size": 5,
     "barrel_volume": "1000 ml",
+    "reload_noise_volume": 10,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -91,7 +91,6 @@
     "id": "pipe_SRC",
     "looks_like": "remington_870",
     "type": "GUN",
-    "reload_noise_volume": 10,
     "name": { "str": "pipe rifle: SRC", "str_pl": "pipe rifle: SRC" },
     "description": "A homemade weapon chambering the Short Rifle Cartrage. Being made of pipes, it will degrade rather quickly.",
     "weight": "8267 g",
@@ -109,6 +108,7 @@
     "durability": 3,
     "loudness": 200,
     "clip_size": 1,
+    "reload_noise_volume": 10,
     "valid_mod_locations": [
       [ "sling", 1 ],
       [ "stock", 1 ],
@@ -125,7 +125,6 @@
     "id": "pipe_BRC",
     "looks_like": "remington_870",
     "type": "GUN",
-    "reload_noise_volume": 10,
     "name": { "str": "pipe rifle: BRC", "str_pl": "pipe rifles: BRC" },
     "description": "A homemade weapon chambering the Basic Rifle Cartrage. The massive power of its load means it will degrade rather quickly, despite the wire-wrapped barrel.",
     "weight": "8267 g",
@@ -143,6 +142,7 @@
     "durability": 3,
     "loudness": 200,
     "clip_size": 1,
+    "reload_noise_volume": 10,
     "valid_mod_locations": [
       [ "sling", 1 ],
       [ "stock", 1 ],
