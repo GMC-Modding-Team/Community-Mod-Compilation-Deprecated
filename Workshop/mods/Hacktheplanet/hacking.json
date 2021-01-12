@@ -314,7 +314,7 @@
     "weight": "180 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "HANDs" ],
     "price": 6000,
     "material": [ "plastic" ],
     "flags": [ "WATCH", "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_UNLOAD", "OVERSIZE" ],
@@ -344,7 +344,8 @@
         "no_charges_message": "The power glove is out of batteries.",
         "use_message": "Bzzzzzzzzzzt!"
       }
-    ]
+    ],
+    "sided": true
   },
   {
     "type": "TOOL_ARMOR",
@@ -380,7 +381,7 @@
     "weight": "200 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "HANDs" ],
     "price": 12000,
     "material": [ "plastic", "aluminum" ],
     "flags": [
@@ -423,7 +424,8 @@
         "no_charges_message": "The power glove is out of batteries.",
         "use_message": "Bzzzzzzzzzzt!"
       }
-    ]
+    ],
+    "sided": true
   },
   {
     "type": "TOOL_ARMOR",
@@ -503,7 +505,7 @@
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "EYES" ],
+    "covers": [ "eyes" ],
     "price": 3000,
     "material": [ "plastic" ],
     "flags": [ "WATCH", "WATER_FRIENDLY", "BELTED", "FRAGILE" ],

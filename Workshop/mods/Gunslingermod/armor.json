@@ -12,7 +12,7 @@
     "material": [ "cotton", "leather" ],
     "symbol": "[",
     "color": "brown",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 25,
     "encumbrance": 4,
     "storage": 25,
@@ -31,7 +31,7 @@
     "material": "leather",
     "symbol": "[",
     "color": "light_brown",
-    "covers": [ "LEG_EITHER" ],
+    "covers": [ "LEGs" ],
     "coverage": 10,
     "encumbrance": 3,
     "material_thickness": 1,
@@ -39,7 +39,8 @@
       { "type": "holster", "min_volume": 3, "max_volume": 4, "draw_cost": 10, "skills": [ "pistol" ] },
       { "type": "bandolier", "capacity": 5, "ammo": [ "gs_60" ] }
     ],
-    "flags": [ "BELTED", "WATER_FRIENDLY", "OVERSIZE", "STURDY" ]
+    "flags": [ "BELTED", "WATER_FRIENDLY", "OVERSIZE", "STURDY" ],
+    "sided": true
   },
   {
     "id": "boots_gunslinger",

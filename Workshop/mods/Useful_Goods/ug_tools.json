@@ -100,7 +100,7 @@
     "name": { "str_sp": "Panties (on)" },
     "description": "This is a policeman.",
     "copy-from": "panties",
-    "covers": [ "HEAD", "MOUTH" ],
+    "covers": [ "head", "mouth" ],
     "flags": [ "VARSIZE", "SKINTIGHT", "FANCY" ],
     "use_action": { "type": "transform", "msg": "Foooooooooooooooo!", "target": "panties_more_on" }
   },
@@ -110,7 +110,7 @@
     "name": { "str_sp": "Panties (more on)" },
     "description": "Cross out! Feeling ecstasy!",
     "copy-from": "panties_on",
-    "covers": [ "HEAD", "MOUTH" ],
+    "covers": [ "head", "mouth" ],
     "coverage": 15,
     "warmth": 5,
     "material_thickness": 1,
