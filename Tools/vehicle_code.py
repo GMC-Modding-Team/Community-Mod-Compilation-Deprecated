@@ -19,6 +19,9 @@ def gen_new(path):
         except UnicodeDecodeError:
             print("UnicodeDecodeError in {0}".format(path))
             return None
+        except json.decoder.JSONDecodeError:
+            print("JSONDecodeError in {0}".format(path))
+            return None
         for jo in json_data:
             locations = {}
             # We only want JsonObjects
@@ -27,7 +30,10 @@ def gen_new(path):
             # And only vehicles
             if jo.get("type") != "vehicle":
                 continue
+
             for part in jo["parts"]:
+                if part.get("fuel"):
+                    continue
                 x, y = part["x"], part["y"]
                 item = part.get("part")
                 if part.get("parts"):
@@ -35,11 +41,11 @@ def gen_new(path):
                         locations[(x, y)]["parts"].extend(part["parts"])
                     else:
                         locations[(x, y)] = {"x": x, "y": y, "parts": part["parts"]}
-                if (x, y) in locations:
+                    if (x, y) in locations:
                     locations[(x, y)]["parts"].append(item)
                 else:
                     locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-            jo["parts"] = [locations[key] for key in locations]
+            jo["parts"] = sorted(locations.values(), key=lambda loc: (loc["x"], loc["y"]))
             change = True
     return json_data if change else None
 
