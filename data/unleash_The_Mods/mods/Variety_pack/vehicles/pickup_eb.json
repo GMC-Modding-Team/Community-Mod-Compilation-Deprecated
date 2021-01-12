@@ -1,18 +1,8 @@
 [
   {
-    "items": [
-      { "y": 0, "x": 0, "chance": 15, "item_groups": [ "car_misc" ] },
-      { "y": 0, "x": 0, "chance": 10, "item_groups": [ "car_misc" ] },
-      { "y": 1, "x": 0, "chance": 10, "item_groups": [ "car_misc" ] },
-      { "y": 1, "x": 0, "chance": 5, "item_groups": [ "snacks" ] },
-      { "y": 0, "x": 0, "chance": 5, "item_groups": [ "fast_food" ] },
-      { "y": 0, "x": -2, "chance": 5, "item_groups": [ "farming_tools" ] },
-      { "y": 1, "x": -2, "chance": 12, "item_groups": [ "car_kit" ] },
-      { "y": 1, "x": -2, "chance": 12, "items": [ "jack", "wheel" ] },
-      { "y": 1, "x": -3, "chance": 10, "item_groups": [ "car_kit" ] },
-      { "y": 0, "x": -3, "chance": 8, "item_groups": [ "fuel_gasoline" ] },
-      { "y": 1, "x": -2, "chance": 3, "items": [ "ax" ] }
-    ],
+    "type": "vehicle",
+    "id": "pickup_eb",
+    "name": "Extended Bed Pickup",
     "parts": [
       { "x": -5, "y": -1, "parts": [ "frame_vertical", "halfboard_sw" ] },
       { "x": -5, "y": 0, "parts": [ "frame_horizontal", "trunk" ] },
@@ -35,36 +25,31 @@
       { "x": -1, "y": 1, "parts": [ "frame_vertical_2", "windshield", "roof" ] },
       { "x": -1, "y": 2, "parts": [ "frame_vertical", "halfboard_vertical" ] },
       { "x": 0, "y": -1, "parts": [ "frame_vertical", "door" ] },
-      {
-        "x": 0,
-        "y": 0,
-        "parts": [ "frame_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "stereo", "horn_car", "roof" ]
-      },
+      { "x": 0, "y": 0, "parts": [ "frame_vertical_2", "seat", "seatbelt", "controls", "dashboard", "vehicle_alarm", "stereo", "horn_car", "roof" ] },
       { "x": 0, "y": 1, "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof" ] },
       { "x": 0, "y": 2, "parts": [ "frame_vertical", "door" ] },
       { "x": 1, "y": -1, "parts": [ "frame_vertical", "windshield" ] },
       { "x": 1, "y": 0, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 1, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "frame_vertical", "windshield" ] },
-      {
-        "x": 2,
-        "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel", "headlight" ]
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "parts": [ "frame_horizontal", "halfboard_horizontal", "engine_v8", "alternator_truck", "battery_car" ]
-      },
+      { "x": 2, "y": -1, "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel", "headlight" ] },
+      { "x": 2, "y": 0, "parts": [ "frame_horizontal", "halfboard_horizontal", "engine_v8", "alternator_truck", "battery_car" ] },
       { "x": 2, "y": 1, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
-      {
-        "x": 2,
-        "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel", "headlight" ]
+      { "x": 2, "y": 2, "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel", "headlight" ]
       }
     ],
-    "type": "vehicle",
-    "id": "pickup_eb",
-    "name": "Extended Bed Pickup"
+    "items": [
+      { "y": 0, "x": 0, "chance": 15, "item_groups": [ "car_misc" ] },
+      { "y": 0, "x": 0, "chance": 10, "item_groups": [ "car_misc" ] },
+      { "y": 1, "x": 0, "chance": 10, "item_groups": [ "car_misc" ] },
+      { "y": 1, "x": 0, "chance": 5, "item_groups": [ "snacks" ] },
+      { "y": 0, "x": 0, "chance": 5, "item_groups": [ "fast_food" ] },
+      { "y": 0, "x": -2, "chance": 5, "item_groups": [ "farming_tools" ] },
+      { "y": 1, "x": -2, "chance": 12, "item_groups": [ "car_kit" ] },
+      { "y": 1, "x": -2, "chance": 12, "items": [ "jack", "wheel" ] },
+      { "y": 1, "x": -3, "chance": 10, "item_groups": [ "car_kit" ] },
+      { "y": 0, "x": -3, "chance": 8, "item_groups": [ "fuel_gasoline" ] },
+      { "y": 1, "x": -2, "chance": 3, "items": [ "ax" ] }
+    ],
   }
 ]
