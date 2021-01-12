@@ -19,7 +19,9 @@ def gen_new(path):
         except UnicodeDecodeError:
             print("UnicodeDecodeError in {0}".format(path))
             return None
-
+        except json.decoder.JSONDecodeError:
+            print("JSONDecodeError in {0}".format(path))
+            return None
         for jo in json_data:
             locations = {}
             # We only want JsonObjects
@@ -43,8 +45,6 @@ def gen_new(path):
                     locations[(x, y)]["parts"].append(item)
                 else:
                     locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-
-
             jo["parts"] = sorted(locations.values(), key=lambda loc: (loc["x"], loc["y"]))
             change = True
     return json_data if change else None
