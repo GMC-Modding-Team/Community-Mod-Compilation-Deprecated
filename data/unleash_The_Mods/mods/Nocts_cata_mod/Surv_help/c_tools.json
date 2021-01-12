@@ -1,6 +1,5 @@
 [
   {
-    "//": "The items in this file have been archived for later revival.  Right now they're obsolete as the properties that made them work are in flux for the immediate future, but will eventually be re-added.",
     "id": "solar_flashlight",
     "type": "TOOL",
     "category": "tools",
@@ -459,7 +458,7 @@
     "material": [ "iron" ],
     "//": "Get a further discount in weight because we're already getting crazy poundage here.",
     "weight": "9800 g",
-    "volume": "3500 ml",
+    "volume": 14,
     "to_hit": 3,
     "bashing": 16,
     "cutting": 1,
@@ -618,26 +617,18 @@
     "symbol": ";",
     "color": "green",
     "name": { "str": "scout's tool" },
-    "description": "This is a bulky electronic wrist mounted tool, designed to provide an accurate topographical map of your surroundings when used.  It also comes with digital clock and alarm features.  Requires a fairly powerful battery to sustain its suite of scanning equipment.",
+    "description": "This is a bulky electronic wrist mounted tool, designed to provide an accurate topographical map of your surroundings when used.  It also comes with digital clock and alarm features.  The battery is integral to the device, and requires sunlight or a recharging station to charge.",
     "price": 5000,
     "material": [ "steel" ],
     "weight": "230 g",
     "volume": "500 ml",
     "bashing": 1,
     "to_hit": -1,
-    "ammo": [ "battery" ],
+    "ammo": "battery",
     "charges_per_use": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "rigid": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
-      }
-    ],
+    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 250 } } ],
     "flags": [ "WATCH", "ALARMCLOCK", "RECHARGE" ],
     "encumbrance": 1,
     "coverage": 1,
@@ -650,7 +641,7 @@
     "symbol": ">",
     "color": "red",
     "name": { "str": "bioinjector" },
-    "description": "An odd, organic-looking auto-injector that slowly secretes some sort of red, blood-like substance.  From what you can understand from the label, it's an experimental stimulant that stabilizes minor wounds and increases performance at the cost of inflicting pain.  The label additionally warns against using it more than once an hour.",
+    "description": "An odd, organic-looking auto-injector that slowly secretes some sort of red, blood-like substance.  From what you can understand from the label, it's an experimental stimulant that stabilizes minor wounds and increases performance at the cost of inflicting pain.  The label additionally warns against using it more than once every two hours.",
     "price": 5000,
     "material": [ "plastic", "flesh" ],
     "weight": "150 g",
@@ -660,7 +651,7 @@
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
     "ammo": [ "c_bioampoule_type" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "30 m", "regenerate_ammo": true } },
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "c_biostim", "no_fail": true, "level": 0 }
   },
@@ -681,7 +672,7 @@
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
     "ammo": [ "c_bioampoule_type" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "30 m", "regenerate_ammo": true } },
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "c_infusion", "no_fail": true, "level": 0 }
   },
@@ -702,7 +693,7 @@
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
     "ammo": [ "c_bioampoule_type" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "30 m", "regenerate_ammo": true } },
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "c_defusion", "no_fail": true, "level": 0 }
   },
@@ -824,6 +815,7 @@
     "symbol": "[",
     "color": "dark_gray",
     "covers": [ "hand_l", "hand_r" ],
+    "sided": true,
     "coverage": 5,
     "use_action": [ "WEATHER_TOOL", "DISASSEMBLE" ],
     "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "THERMOMETER" ]
@@ -841,6 +833,7 @@
     "symbol": "[",
     "color": "dark_gray",
     "covers": [ "hand_l", "hand_r" ],
+    "sided": true,
     "coverage": 5,
     "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
     "use_action": "DISASSEMBLE"
