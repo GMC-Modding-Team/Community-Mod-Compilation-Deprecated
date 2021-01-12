@@ -5,7 +5,7 @@
     "name": { "str": "Hi-Point 380 Carbine" },
     "description": "The Hi-Point 380 carbine was designed to work in tandem with the Hi-Point 380 handgun. Both weapons use the same magazines.",
     "weight": 2837,
-    "volume": 8,
+    "volume": "2000 ml",
     "price": 3000,
     "to_hit": -1,
     "bashing": 10,
@@ -16,9 +16,9 @@
     "skill": "smg",
     "dispersion": 420,
     "durability": 4,
-    "barrel_length": 1,
     "Valid_mod_locations": [ [ "accessories", 4 ], [ "sights", 1 ], [ "Mechanism", 2 ], [ "rail", 1 ], [ "underbarrel", 1 ] ],
-    "magazines": [ [ "38", [ "hipoint38mag", "hipoint38carmag", "hipoint38extmag" ] ] ]
+    "magazines": [ [ "38", [ "hipoint38mag", "hipoint38carmag", "hipoint38extmag" ] ] ],
+    "barrel_volume": "250 ml"
   },
   {
     "id": "hipoint380",
@@ -26,7 +26,7 @@
     "name": { "str": "Hi-Point 380" },
     "description": "For a handgun that's under $200 it's exactly what you would expect. It's heavy and awkward to handle, but it works.",
     "weight": 822,
-    "volume": 2,
+    "volume": "500 ml",
     "price": 300,
     "to_hit": -1,
     "bashing": 5,

@@ -5,7 +5,7 @@
     "name": { "str": "XM-25" },
     "description": "The XM-25 is a semi-automatic grenade launcher chambered in a proprietary 20x28mm cartridge. It was created during the OICW increment 2 as a stand alone version of the launcher on the xm-29",
     "weight": 7800,
-    "volume": 12,
+    "volume": "3000 ml",
     "price": 100000,
     "to-hit": -1,
     "bashing": 15,
@@ -16,8 +16,8 @@
     "skill": "launcher",
     "dispersion": 130,
     "durability": 5,
-    "barrel_length": 1,
     "built_in_mods": [ "oicwscope" ],
-    "magazines": [ [ "20x28mm", [ "xm29_launchermag" ] ] ]
+    "magazines": [ [ "20x28mm", [ "xm29_launchermag" ] ] ],
+    "barrel_volume": "250 ml"
   }
 ]
