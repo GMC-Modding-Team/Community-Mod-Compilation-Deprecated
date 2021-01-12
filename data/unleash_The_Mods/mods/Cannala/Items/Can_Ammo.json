@@ -3,8 +3,7 @@
     "id": "SRC_Case",
     "copy-from": "casing",
     "type": "GENERIC",
-    "category": "spare_parts",
-    "name": [ "str": "M1926 SRC Casing" ],
+    "name": { "str": "M1926 SRC Casing" },
     "description": "An empty case for M1926 SRC rounds.",
     "weight": "6 g",
     "volume": "8 ml"
@@ -12,7 +11,7 @@
   {
     "id": "SRC26",
     "type": "AMMO",
-    "name": { "str": "M1926 SRC", "str_pl": "M1926 SRC" },,
+    "name": { "str": "M1926 SRC", "str_pl": "M1926 SRC" },
     "description": "Round(s) of M1926 Short Rifle Cartridge. Initially designed for the M1926 QFW, itself designed as a light support weapon, the round now sees service in the far superior SSRA.",
     "weight": "12 g",
     "volume": "250 ml",
@@ -44,7 +43,7 @@
     "id": "blackpowder_SRC26",
     "copy-from": "SRC26",
     "type": "AMMO",
-    "name": "M1926 SRC, Reloaded, Blackpowder",
+    "name": { "str": "M1926 SRC, Reloaded, Blackpowder" },
     "proportional": {
       "price": 0.7,
       "damage": { "damage_type": "bullet", "amount": 0.76 },
@@ -96,7 +95,7 @@
     "id": "BRC_Reloaded",
     "copy-from": "BRC_FMJ",
     "type": "AMMO",
-    "name": "Reloaded BRC round",
+    "name": { "str": "Reloaded BRC round" },
     "proportional": { "price": 0.7, "damage": { "damage_type": "bullet", "amount": 0.9 }, "dispersion": 1.1 },
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
