@@ -326,7 +326,8 @@
       [ "cz75magazine", 15 ],
       [ "jerichomagazine", 15 ],
       [ "cz83magazine", 15 ],
-      [ "fort12magazine", 15 ]
+      [ "fort12magazine", 15 ],
+	  [ "akdrum75", 5 ]
     ]
   },
   {
@@ -337,16 +338,18 @@
       [ "stripperclip_45", 30 ],
       [ "stripperclip_9", 50 ],
       [ "p08_9mag", 20 ],
-      [ "p08_45mag", 20 ],
-      [ "460mag", 35 ],
-      [ "460mag2", 25 ]
+      [ "p08_45mag", 20 ]
     ]
   },
   {
     "type": "item_group",
     "id": "mags_rifle_common",
     "//": "Factory specification rifle magazines commonly owned by citizens.",
-    "items": [ [ "stanarg30", 10 ] ]
+    "items": [ 
+	[ "stanarg30", 20 ],
+	[ "akmag10", 10 ],
+	[ "akmag20", 30 ]
+	]
   },
   {
     "type": "item_group",
@@ -381,7 +384,10 @@
     "type": "item_group",
     "id": "ammo_pistol_rare",
     "//": "Less common pistol ammmo including that only used by police/paramilitary forces.",
-    "items": [ [ ".460", 25 ] ]
+	"items": [ 
+	[ "460_rowland", 10 ],
+	[ "460_fmj", 15 ]
+	]
   },
   {
     "type": "item_group",
