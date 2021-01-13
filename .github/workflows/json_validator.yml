@@ -1,11 +1,11 @@
 name: JSON Validation
 
 on:
-  pull_request:
+  pull_request
     paths:
     - '**.json'
 
-  push:
+  push
     paths:
     - '**.json'
 
