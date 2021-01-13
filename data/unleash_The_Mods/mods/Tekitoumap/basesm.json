@@ -1,7 +1,61 @@
 [
   {
+    "type": "mapgen",
     "method": "json",
+    "weight": 250,
+    "om_terrain": [ "basement" ],
     "object": {
+      "rows": [
+        "||||||||||||||||||||||||",
+        "|----------------------|",
+        "|-.&-.&-.&-.&-.&-.&-.&-|",
+        "|-..-..-..-..-..-..-..-|",
+        "|-m.-m.-m.-m.-.m-.m-.m-|",
+        "|-d+-d+-d+-d+-+d-+d-+d-|",
+        "|-....................-|",
+        "|-...bbbbbbbbbbbbbb...-|",
+        "|-...##############...-|",
+        "|-...##############...-|",
+        "|-...##############...-|",
+        "|-...bbbbbbbbbbbbbb...-|",
+        "|-....................-|",
+        "|--D-------DD-------D--|",
+        "|cccccccc-@..@-________|",
+        "|BBcBBcBB-....-_s______|",
+        "|BBcBBcBB-@..@-________|",
+        "|BBcBBcBB-....-_s__R___|",
+        "|cccccccc-@..@-____H___|",
+        "|rrfrrrrr-....-_s__R___|",
+        "|S__aaaaa||ee||________|",
+        "|S__aaaaa|____|_s______|",
+        "|S__aaaaa|_<<_|________|",
+        "||||||||||||||||||||||||"
+      ],
+      "terrain": {
+        "#": "t_floor",
+        "&": "t_floor",
+        "+": "t_door_bar_locked",
+        "-": "t_wall",
+        ".": "t_floor",
+        "<": "t_stairs_up",
+        "@": "t_floor",
+        "B": "t_carpet_red",
+        "D": "t_door_locked_interior",
+        "H": "t_rock_floor",
+        "R": "t_rock_floor",
+        "S": "t_rock_floor",
+        "_": "t_rock_floor",
+        "a": "t_rock_floor",
+        "b": "t_floor",
+        "c": "t_carpet_red",
+        "d": "t_bars",
+        "e": "t_door_metal_pickable",
+        "f": "t_door_glass_c",
+        "m": "t_floor",
+        "r": "t_reinforced_glass",
+        "s": "t_rock_floor",
+        "|": "t_rock"
+      },
       "furniture": {
         "#": "f_table",
         "&": "f_sink",
@@ -108,9 +162,6 @@
         "s": "t_rock_floor",
         "|": "t_rock"
       }
-    },
-    "om_terrain": "basement",
-    "type": "mapgen",
-    "weight": 250
+    }
   }
 ]
