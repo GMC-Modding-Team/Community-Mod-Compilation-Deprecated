@@ -1,30 +1,14 @@
 [
   {
-    "parts": [
-      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ] },
-      {
-        "x": -1,
-        "y": 0,
-        "parts": [ "xlframe_vertical_2", "engine_aero_light", "alternator_motorbike", "battery_motorbike" ]
-      },
-      { "x": -1, "y": 1, "parts": [ "xlframe_vertical" ] },
-      {
-        "x": 0,
-        "y": 0,
-        "parts": [
-          "xlframe",
-          "reclining_seat",
-          "seatbelt",
-          "controls",
-          "controls_electronic",
-          { "fuel": "avgas", "part": "tank_medium" },
-          "small_civilian_rotors"
-        ]
-      },
-      { "x": 1, "y": 0, "parts": [ "xlframe_vertical", "headlight" ] }
-    ],
     "type": "vehicle",
     "id": "gyrocopter",
     "name": "Hobbyist's gyrocopter"
+    "parts": [
+      { "x": -1, "y": -1, "parts": [ "xlframe_vertical" ] },
+      { "x": -1, "y": 0, "parts": [ "xlframe_vertical_2", "engine_aero_light", "alternator_motorbike", "battery_motorbike" ] },
+      { "x": -1, "y": 1, "parts": [ "xlframe_vertical" ] },
+      { "x": 0, "y": 0, "parts": [ "xlframe", "reclining_seat", "seatbelt", "controls", "controls_electronic", { "fuel": "avgas", "part": "tank_medium" }, "small_civilian_rotors" ] },
+      { "x": 1, "y": 0, "parts": [ "xlframe_vertical", "headlight" ] }
+    ]
   }
 ]
