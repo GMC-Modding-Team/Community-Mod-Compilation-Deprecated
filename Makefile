@@ -157,6 +157,11 @@ SRC_DIR = src
 LOCALIZE = 1
 ASTYLE_BINARY = astyle
 
+# Enable debug by default
+ifndef RELEASE
+  RELEASE = 0
+endif
+
 # Enable astyle by default
 ifndef ASTYLE
   ASTYLE = 0
@@ -302,16 +307,10 @@ endif
 # enable optimizations. slow to build
 ifeq ($(RELEASE), 1)
   ifeq ($(NATIVE), osx)
-    ifdef OSXCROSS
-      OPTLEVEL = -O0
-    else ifeq ($(shell expr $(OSX_MIN) \<= 10.11), 1)
-      OPTLEVEL = -O0
+    ifeq ($(shell $(CXX) -E -Os - < /dev/null > /dev/null 2>&1 && echo fos),fos)
+      OPTLEVEL = -Os
     else
-      ifeq ($(shell $(CXX) -E -Os - < /dev/null > /dev/null 2>&1 && echo fos),fos)
-        OPTLEVEL = -Os
-      else
-        OPTLEVEL = -O3
-      endif
+      OPTLEVEL = -O3
     endif
   else
     # MXE ICE Workaround
@@ -366,9 +365,7 @@ ifeq ($(RELEASE), 1)
   ifeq ($(LINTJSON), 1)
     CHECKS += style-json
   endif
-endif
-
-ifndef RELEASE
+else
   ifeq ($(NOOPT), 1)
     # While gcc claims to include all information required for
     # debugging at -Og, at least with gcc 8.3, control flow
@@ -498,10 +495,16 @@ ifeq ($(NATIVE), osx)
       LDFLAGS += -L$(LIBSDIR)/gettext/lib
       CXXFLAGS += -I$(LIBSDIR)/gettext/include
     endif
+    # recent versions of brew will not allow you to link
     ifeq ($(BREWGETTEXT), 1)
-      # recent versions of brew will not allow you to link
-      LDFLAGS += -L/usr/local/opt/gettext/lib
-      CXXFLAGS += -I/usr/local/opt/gettext/include
+      # native ARM Homebrew is installed to /opt/homebrew
+      ifneq ("$(wildcard /opt/homebrew)", "")
+        LDFLAGS += -L/opt/homebrew/lib
+        CXXFLAGS += -I/opt/homebrew/include
+      else
+        LDFLAGS += -L/usr/local/opt/gettext/lib
+        CXXFLAGS += -I/usr/local/opt/gettext/include
+      endif
     endif
     ifeq ($(MACPORTS), 1)
       ifneq ($(TILES), 1)
@@ -648,9 +651,7 @@ ifeq ($(TILES), 1)
       endif
     endif
   else # not osx
-    CXXFLAGS += $(shell $(PKG_CONFIG) sdl2 --cflags)
-    CXXFLAGS += $(shell $(PKG_CONFIG) SDL2_image --cflags)
-    CXXFLAGS += $(shell $(PKG_CONFIG) SDL2_ttf --cflags)
+    CXXFLAGS += $(shell $(PKG_CONFIG) --cflags sdl2 SDL2_image SDL2_ttf)
 
     ifeq ($(STATIC), 1)
       LDFLAGS += $(shell $(PKG_CONFIG) sdl2 --static --libs)
@@ -672,8 +673,7 @@ ifeq ($(TILES), 1)
       # These differ depending on what SDL2 is configured to use.
       ifneq (,$(findstring mingw32,$(CROSS)))
         # We use pkg-config to find out which libs are needed with MXE
-        LDFLAGS += $(shell $(PKG_CONFIG) SDL2_image --libs)
-        LDFLAGS += $(shell $(PKG_CONFIG) SDL2_ttf --libs)
+        LDFLAGS += $(shell $(PKG_CONFIG) --libs SDL2_image SDL2_ttf)
       else
         ifeq ($(MSYS2),1)
           LDFLAGS += -Wl,--start-group -lharfbuzz -lfreetype -Wl,--end-group -lgraphite2 -lpng -lz -ltiff -lbz2 -lglib-2.0 -llzma -lws2_32 -lintl -liconv -lwebp -ljpeg -luuid
@@ -1170,6 +1170,12 @@ check: version $(BUILD_PREFIX)cataclysm.a
 
 clean-tests:
 	$(MAKE) -C tests clean
+
+object_creator: version $(BUILD_PREFIX)cataclysm.a
+	$(MAKE) -C object_creator
+
+clean-object_creator:
+	$(MAKE) -C object_creator clean
 
 validate-pr:
 ifneq ($(CYGWIN),1)
