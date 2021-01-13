@@ -1,8 +1,10 @@
 [
   {
+    "type": "mapgen",
     "method": "json",
+    "weight": 300,
+    "om_terrain": [ "road_four_way" ],
     "object": {
-      "furniture": { ".": "f_null", "1": "f_null", "G": "f_null", "_": "f_null", "g": "f_null" },
       "rows": [
         "___..................___",
         "___..................___",
@@ -29,10 +31,8 @@
         "___..................___",
         "___..................___"
       ],
-      "terrain": { ".": "t_pavement", "1": "t_tree_young", "|": "t_railing_v", "-": "t_railing_h", "_": "t_sidewalk", "g": "t_grass" }
-    },
-    "om_terrain": "road_four_way",
-    "type": "mapgen",
-    "weight": 300
+      "terrain": { ".": "t_pavement", "1": "t_tree_young", "|": "t_railing_v", "-": "t_railing_h", "_": "t_sidewalk", "g": "t_grass" },
+      "furniture": { ".": "f_null", "1": "f_null", "G": "f_null", "_": "f_null", "g": "f_null" }
+    }
   }
 ]

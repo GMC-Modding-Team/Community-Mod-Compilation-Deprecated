@@ -1,21 +1,10 @@
 [
   {
+    "type": "mapgen",
     "method": "json",
+    "weight": 1000,
+    "om_terrain": [ "pool" ],
     "object": {
-      "furniture": {
-        "#": "f_bench",
-        ".": "f_null",
-        "_": "f_null",
-        "p": "f_table",
-        "w": "f_null",
-        "$": "f_dive_block",
-        "{": "f_glass_fridge"
-      },
-      "place_items": [
-        { "chance": 80, "item": "bar_alcohol", "x": 16, "y": 18 },
-        { "chance": 80, "repeat": [ 2, 6 ], "item": "bar_alcohol", "x": [ 11, 12 ], "y": 19 },
-        { "chance": 80, "item": "bowling_food", "x": 7, "y": 18 }
-      ],
       "rows": [
         "........................",
         "........................",
@@ -42,7 +31,6 @@
         "........................",
         "........................"
       ],
-      "place_monsters": [ { "monster": "GROUP_MAPGEN_POOL", "chance": 1, "x": [ 3, 3 ], "y": [ 20, 20 ], "repeat": [ 1, 6 ] } ],
       "terrain": {
         "#": "t_concrete",
         "$": "t_concrete",
@@ -51,10 +39,22 @@
         "p": "t_concrete",
         "w": "t_water_dp",
         "{": "t_concrete"
-      }
-    },
-    "om_terrain": "pool",
-    "type": "mapgen",
-    "weight": 1000
+      },
+      "furniture": {
+        "#": "f_bench",
+        ".": "f_null",
+        "_": "f_null",
+        "p": "f_table",
+        "w": "f_null",
+        "$": "f_dive_block",
+        "{": "f_glass_fridge"
+      },
+      "place_items": [
+        { "chance": 80, "item": "bar_alcohol", "x": 16, "y": 18 },
+        { "chance": 80, "repeat": [ 2, 6 ], "item": "bar_alcohol", "x": [ 11, 12 ], "y": 19 },
+        { "chance": 80, "item": "bowling_food", "x": 7, "y": 18 }
+      ],
+      "place_monsters": [ { "monster": "GROUP_MAPGEN_POOL", "chance": 1, "x": [ 3, 3 ], "y": [ 20, 20 ], "repeat": [ 1, 6 ] } ]
+    }
   }
 ]
