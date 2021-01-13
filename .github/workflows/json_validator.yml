@@ -2,12 +2,8 @@ name: JSON Validation
 
 on:
   pull_request
-    paths:
-    - '**.json'
-
+  
   push
-    paths:
-    - '**.json'
 
 jobs:
   style-json:
