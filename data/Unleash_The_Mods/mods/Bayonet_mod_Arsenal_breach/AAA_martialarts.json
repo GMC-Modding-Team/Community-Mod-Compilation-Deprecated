@@ -1,0 +1,16 @@
+[
+  {
+    "type": "martial_art",
+    "id": "style_bayonet",
+    "name": { "str": "Bayonet Fighting" },
+    "copy-from": "style_bayonet",
+    "extend": {
+      "weapons": [
+        "ABlaser_pistol",
+        "ABlaser_carbine",
+        "ABlaser_sniper",
+        "ABlaser_shotgun"
+      ]
+    }
+  }
+]
