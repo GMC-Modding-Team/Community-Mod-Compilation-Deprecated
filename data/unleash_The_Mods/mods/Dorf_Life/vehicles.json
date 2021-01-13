@@ -1,5 +1,8 @@
 [
   {
+    "type": "vehicle",
+    "id": "embark_wagon",
+    "name": "Wagon",
     "blueprint": [
       [ "o---o " ],
       [ "====|-" ],
@@ -35,9 +38,6 @@
       { "x": 0, "y": 2, "parts": [ "frame_wood_horizontal_2", "woodboard_ne", "roof_cloth", "wheel_wood" ] },
       { "x": 1, "y": -1, "parts": [ "frame_wood_handle" ] },
       { "x": 1, "y": 1, "parts": [ "frame_wood_handle" ] }
-    ],
-    "type": "vehicle",
-    "id": "embark_wagon",
-    "name": "Wagon"
+    ]
   }
 ]
