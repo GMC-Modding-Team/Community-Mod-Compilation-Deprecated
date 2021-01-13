@@ -9,24 +9,6 @@
     ]
   },
   {
-    "type": "vehicle",
-    "id": "oa_work_light",
-    "name": "work light",
-    "blueprint": [ "^" ],
-    "parts": [
-      {
-        "x": 0,
-        "y": 0,
-        "parts": [ "xlframe_vertical_2", "wheel_caster", "small_storage_battery", "floodlight", "controls_electronic" ]
-      }
-    ]
-  },
-  {
-    "type": "vehicle_group",
-    "id": "os_work_vehicles",
-    "vehicles": [ [ "wheelbarrow", 60 ], [ "portable_generator", 40 ], [ "oa_work_light", 50 ] ]
-  },
-  {
     "type": "item_group",
     "id": "os_items",
     "items": [
@@ -54,10 +36,24 @@
     ]
   },
   {
+    "type": "vehicle_group",
+    "id": "os_work_vehicles",
+    "vehicles": [ [ "wheelbarrow", 60 ], [ "portable_generator", 40 ], [ "oa_work_light", 50 ] ]
+  },
+  {
+    "type": "vehicle",
+    "id": "oa_work_light",
+    "name": "work light",
+    "blueprint": [ "^" ],
+    "parts": [
+      { "y": 0, "x": 0, "parts": [ "xlframe_vertical_2", "wheel_caster", "small_storage_battery", "floodlight", "controls_electronic" ] }
+    ]
+  },
+  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "cs_open_sewer" ],
     "weight": 1000,
+    "om_terrain": [ "cs_open_sewer" ],
     "object": {
       "rows": [
         ",,.,,..,.,,.,,..,,.,..,.",
