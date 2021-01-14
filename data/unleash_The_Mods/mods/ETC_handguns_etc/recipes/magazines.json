@@ -6,10 +6,23 @@
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 2 ],
-    "time": 1000,
+    "time": "30 s",
     "reversible": true,
-    "book_learn": [ [ "recipe_bullets", 1 ], [ "mag_rifle", 2 ] ],
+    "book_learn": [ [ "recipe_bullets", 1 ], [ "mag_shotgun", 2 ], [ "manual_shotgun", 1 ] ],
     "using": [ [ "cordage", 1 ] ],
     "components": [ [ [ "saiga10mag", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "triarii_saiga410mag_30rd",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "skills_required": [ "gun", 2 ],
+    "time": "30 s",
+    "reversible": true,
+    "book_learn": [ [ "recipe_bullets", 1 ], [ "mag_shotgun", 2 ], [ "manual_shotgun", 1 ] ],
+    "using": [ [ "cordage", 1 ] ],
+    "components": [ [ [ "saiga410mag_10rd", 3 ] ] ]
   }
 ]
