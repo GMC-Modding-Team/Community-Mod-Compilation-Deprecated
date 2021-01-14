@@ -12,6 +12,7 @@
     "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "relative": { "dispersion": -90 },
     "durability": 8,
+    "ammo": [ "45" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -94,7 +95,7 @@
     "to_hit": -2,
     "bashing": 12,
     "material": [ "steel", "wood" ],
-    "ammo": [ "44", "357mag", "45", "38" ],
+    "ammo": [ "357mag", "44", "45" ],
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 200,
     "durability": 8,
@@ -105,7 +106,7 @@
         "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "deaglemag", "357_magazine", "m1911mag", "m1911bigmag" ]
+        "item_restriction": [ "357_magazine", "deaglemag", "m1911mag", "m1911bigmag" ]
       }
     ]
   },
@@ -179,6 +180,7 @@
     "price": 155000,
     "material": [ "steel", "wood" ],
     "relative": { "dispersion": -30 },
+    "ammo": [ "45" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -256,6 +258,7 @@
     "description": "The Heckler & Koch 45 Compact Tactical is a double-action pistol, short-recoil operated, using modified Browning-type locking system and tilting barrel.",
     "weight": "717 g",
     "volume": "250 ml",
+    "ammo": [ "45" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
@@ -301,7 +304,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "flags": "RELOAD_ONE"
+    "flags": [ "RELOAD_ONE" ]
   },
   {
     "id": "hs_semi",
@@ -340,6 +343,16 @@
     "description": "An OSS, US Special Operations Forces, and CIA pistol common between 1942-1951.  It is still found, today, in United States inventories.",
     "price": 100000,
     "ammo": [ "22" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "22mag", "sw22mag" ]
+      }
+    ],
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 60,
     "default_mods": [ "suppressor_compact" ]
