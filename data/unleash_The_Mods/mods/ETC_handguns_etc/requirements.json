@@ -36,6 +36,24 @@
     "components": [ [ [ "22_casing_new", 1 ] ], [ [ "scrap", 1 ] ], [ [ "chem_aluminium_powder", 1 ] ] ]
   },
   {
+    "id": "gp_options_pistol_and_shotgun",
+    "type": "requirement",
+    "//": "Smokeless gunpowder options for hand loading a pistol or shotgun round",
+    "components": [ [ [ "gunpowder", 1 ], [ "gunpowder_pistol", 1 ], [ "gunpowder_shotgun", 1 ] ] ]
+  },
+  {
+    "id": "gp_options_magnum_and_rifle",
+    "type": "requirement",
+    "//": "Smokeless gunpowder options for hand loading a magnum pistol round or an intermediate rifle round",
+    "components": [ [ [ "gunpowder", 1 ], [ "gunpowder_rifle", 1 ], [ "gunpowder_magnum_pistol", 1 ] ] ]
+  },
+  {
+    "id": "gp_options_large_rifle",
+    "type": "requirement",
+    "//": "Smokeless gunpowder options for hand loading a large rifle round",
+    "components": [ [ [ "gunpowder", 1 ], [ "gunpowder_magnum_pistol", 1 ], [ "gunpowder_rifle", 1 ], [ "gunpowder_large_rifle", 1 ] ] ]
+  },
+  {
     "id": "primer_crafting",
     "type": "requirement",
     "//": "Tools required to craft firearm primers",
@@ -47,7 +65,7 @@
     "type": "requirement",
     "//": "Components required for electrothermal-chemical plasma primers",
     "components": [
-      [ [ "can_drink", 2 ], [ "can_food", 2 ], [ "canister_empty", 2 ], [ "scrap", 4 ] ],
+      [ [ "can_drink_unsealed", 2 ], [ "can_food_unsealed", 2 ], [ "canister_empty", 2 ], [ "scrap", 4 ] ],
       [ [ "chem_aluminium_powder", 115 ] ]
     ]
   },

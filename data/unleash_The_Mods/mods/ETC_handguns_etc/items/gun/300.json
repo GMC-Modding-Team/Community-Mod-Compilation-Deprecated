@@ -3,29 +3,24 @@
     "id": "m2010",
     "copy-from": "m2010",
     "type": "GUN",
-    "name": { "str": "M2010 ESR", "str_pl": "M2010 ESR" },
-    "pocket_data": [
-      {
-        "magazine_well": "250 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "m2010mag", "smc300mag" ]
-      }
-    ]
+    "name": { "str_sp": "M2010 ESR" },
+    "magazines": [ [ "300", [ "m2010mag", "smc300mag" ] ] ]
   },
   {
     "id": "ocg_smc300",
     "copy-from": "ocg_smc308",
     "type": "GUN",
     "name": { "str": "OCG SMC300" },
-    "description": "Stockless Marksman Carbine, the first gun among OmniCorp products, is a selective-fire \"sidearm\" which shares magazines with sniper rifles. Includes critically needed gyroscopic stabilizer. This .300 WM version won three \"Overkill Awards\" from the Guns n Ammo magazine.",
+    "description": "The .300 WM Stockless Marksman Carbine is a selective-fire \"sidearm\" which shares magazines with the M2010 ESR and uses a very compact delayed blowback action. Includes critically needed folding wire stock despite being named a \"stockless\" carbine. It won three \"Overkill Awards\" from the Guns n Ammo magazine.",
     "weight": "2560 g",
-    "volume": "1 L",
+    "volume": "980 ml",
     "price": 175000,
-    "ammo": [ "300" ],
+    "price_postapoc": 4100,
+    "ammo": "300",
+    "clip_size": 0,
     "dispersion": 250,
-    "loudness": 50
+    "loudness": 50,
+    "magazines": [ [ "300", [ "m2010mag", "smc300mag" ] ] ],
+    "delete": { "flags": [ "RELOAD_ONE" ] }
   }
 ]
