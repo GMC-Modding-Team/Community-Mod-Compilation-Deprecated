@@ -9,7 +9,7 @@
     "price": 200000,
     "to_hit": -1,
     "bashing": 12,
-    "Material": [ "steel", "wood" ],
+    "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "brown",
     "ammo": [ "762" ],
@@ -33,7 +33,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "vz58mag", "vz58magplas" ]
+        "item_restriction": [ "vz58mag", "vz58magplas", "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ]
       }
     ]
   },
@@ -47,7 +47,7 @@
     "price": 200000,
     "to_hit": -1,
     "bashing": 12,
-    "Material": [ "steel", "wood" ],
+    "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "brown",
     "ammo": [ "762" ],
@@ -64,7 +64,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "vz58mag", "vz58magplas" ]
+        "item_restriction": [ "vz58mag", "vz58magplas", "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ]
       }
     ]
   },
@@ -78,7 +78,7 @@
     "price": 200000,
     "to_hit": -1,
     "bashing": 12,
-    "Material": [ "steel", "plastic" ],
+    "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
     "ammo": [ "762" ],
@@ -94,7 +94,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "vz58mag", "vz58magplas" ]
+        "item_restriction": [ "vz58mag", "vz58magplas", "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ]
       }
     ]
   },
@@ -108,7 +108,7 @@
     "price": 200000,
     "to_hit": -1,
     "bashing": 12,
-    "Material": [ "steel", "plastic" ],
+    "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
     "ammo": [ "762" ],
@@ -124,7 +124,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "vz58mag", "vz58magplas" ]
+        "item_restriction": [ "vz58mag", "vz58magplas", "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ]
       }
     ]
   },
@@ -135,7 +135,7 @@
     "description": "The M10X combines both the reliability of the AK and the customisability of the AR.",
     "weight": "3181 g",
     "volume": "2500 ml",
-    "Price": 450000,
+    "price": 450000,
     "to_hit": -1,
     "bashing": 12,
     "material": [ "steel", "plastic" ],
@@ -153,7 +153,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "akmag30", "akmag40" ]
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
       }
     ]
   },
@@ -163,7 +163,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (7.62x39)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 7.62x39 round.",
-    "ammo": [ "762" ]
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
+      }
+    ]
   },
   {
     "id": "HMG44_762_sbr",
@@ -171,7 +180,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (7.62x39 SBR)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 7.62x39 round. it's been converted into an SBR.",
-    "ammo": [ "762" ]
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
+      }
+    ]
   },
   {
     "id": "HMG44_762_smol",
@@ -179,7 +197,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (7.62x39 pistol)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 7.62x39 round. The stock has been cut off and barrel sawed down to make for a very compact firearm",
-    "ammo": [ "762" ]
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
+      }
+    ]
   },
   {
     "id": "HMG44_762_auto",
@@ -187,7 +214,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (7.62x39 full-auto)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 7.62x39 round. The lower receiver has been replaced with an original lower receiver",
-    "ammo": [ "762" ]
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
+      }
+    ]
   },
   {
     "id": "HMG44_762_sbr_auto",
@@ -195,7 +231,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (7.62x39 SBR full-auto)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 7.62x39 round. it's been converted into an SBR and the lower receiver has been replaced with an original lower receiver.",
-    "ammo": [ "762" ]
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
+      }
+    ]
   },
   {
     "id": "HMG44_762_smol_auto",
@@ -203,6 +248,15 @@
     "type": "GUN",
     "name": { "str": "STG-44 (7.62x39 pistol full-auto)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 7.62x39 round. The stock has been cut off and barrel sawed down to make for a very compact firearm. The lower receiver has been replaced with an original lower receiver",
-    "ammo": [ "762" ]
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75", "stgmag762" ]
+      }
+    ]
   }
 ]
