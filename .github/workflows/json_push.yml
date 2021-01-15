@@ -1,13 +1,16 @@
-name: JSON Validator
+name: JSON style check
+
 on:
-  push
+  push:
+    paths:
+    - '**.json'
 
 jobs:
   style-json:
     name: JSON style check
 
     runs-on: ubuntu-latest
-
+    
     steps:
       - uses: actions/checkout@v1
         with:
