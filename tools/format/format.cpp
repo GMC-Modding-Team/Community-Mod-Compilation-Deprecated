@@ -31,7 +31,7 @@ static void write_array( JsonIn &jsin, JsonOut &jsout, int depth, bool force_wra
     jsout.start_array( force_wrap );
     jsin.start_array();
     while( !jsin.end_array() ) {
-        formatter::format( jsin, jsout, depth );
+        format( jsin, jsout, depth );
     }
     jsout.end_array();
 }
