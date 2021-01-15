@@ -1,4 +1,4 @@
-![JSON Validation](https://github.com/TheGoatGod/Goats-Mod-Compilation/workflows/JSON%20Validation/badge.svg?branch=Experimental-Mod-Pack)
+![JSON Validator](https://github.com/TheGoatGod/Goats-Mod-Compilation/workflows/JSON%20Validator/badge.svg)
 
 - [Changelog](#changelog)
   + [0.09a](#0.09a)
