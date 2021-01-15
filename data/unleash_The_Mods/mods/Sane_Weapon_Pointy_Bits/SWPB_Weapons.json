@@ -5,7 +5,7 @@
     "type": "TOOL",
     "name": { "str": "RM42 fighting knife" },
     "gunmod_data": {
-      "location": "underbarrel",
+      "location": "muzzle",
       "install_time": "0 m",
       "mod_targets": [ "shotgun", "rifle" ],
       "dispersion_modifier": 10,
@@ -18,7 +18,7 @@
     "type": "TOOL",
     "name": { "str": "combat knife" },
     "gunmod_data": {
-      "location": "underbarrel",
+      "location": "muzzle",
       "install_time": "0 m",
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
       "dispersion_modifier": 10,
@@ -31,7 +31,7 @@
     "type": "TOOL",
     "name": { "str": "sword bayonet" },
     "gunmod_data": {
-      "location": "underbarrel",
+      "location": "muzzle",
       "install_time": "0 m",
       "mod_targets": [ "shotgun", "rifle", "crossbow", "launcher" ],
       "dispersion_modifier": 20,
@@ -44,7 +44,7 @@
     "type": "TOOL",
     "name": { "str": "combat knife" },
     "gunmod_data": {
-      "location": "underbarrel",
+      "location": "muzzle",
       "install_time": "0 m",
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow", "launcher" ],
       "dispersion_modifier": 10,
@@ -57,6 +57,7 @@
     "type": "TOOL",
     "name": { "str": "modified sword bayonet" },
     "description": "A sword bayonet is a large slashing weapon that can be attached to the front of a firearm or crossbow converting it into a pike.  This one was modified and customized to mount on pretty much any weapon other than pistols and SMGs, if you so want.",
-    "extend": { "flags": [ "PUMP_RAIL_COMPATIBLE" ] }
+    "extend": { "flags": [ "PUMP_RAIL_COMPATIBLE" ] },
+    "gunmod_data": { "location": "muzzle" }
   }
 ]
