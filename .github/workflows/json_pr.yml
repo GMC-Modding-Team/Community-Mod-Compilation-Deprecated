@@ -1,9 +1,6 @@
 name: JSON PR Validator
 on:
-  pull_request:
-    branches:
-    - Experimental-Mod-Pack
-    types: [opened, edited, synchronize]
+  pull_request
 jobs:
   style-json:
     name: JSON style check

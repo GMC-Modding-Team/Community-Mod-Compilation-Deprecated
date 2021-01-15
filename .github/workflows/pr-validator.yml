@@ -3,7 +3,6 @@ on:
   pull_request:
     branches:
     - Experimental-Mod-Pack
-    types: [opened, edited, synchronize]
 jobs:
   validate:
     name: Validate PR
