@@ -1,7 +1,9 @@
 name: JSON Validation
 
 on:
-  push
+  pull_request:
+    branches:
+    - Goats-Mod-Compilation
 
 jobs:
   style-json:
