@@ -30,7 +30,11 @@
     "blueprint": [ "o#>o" ],
     "parts": [
       { "x": -1, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light", "wheel_motorbike", "muffler", "box" ] },
-      { "x": 0, "y": 0, "parts": [ "frame_vertical_2", "saddle_motor", "motorcycle_kickstand", "controls", "controls_electronic" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "saddle_motor", "motorcycle_kickstand", "controls", "controls_electronic" ]
+      },
       { "x": 0, "y": 0, "parts": [ "vehicle_alarm", "horn_car", "engine_vtwin_magic", "alternator_motorbike" ] },
       { "x": 1, "y": 0, "parts": [ "frame_handle", "headlight", "battery_motorbike" ] },
       { "x": 2, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light_steerable", "wheel_motorbike" ] }
