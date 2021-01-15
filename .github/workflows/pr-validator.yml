@@ -2,7 +2,7 @@ name: PR Validator
 on:
   pull_request:
     branches:
-    - Goats-Mod-Compilation
+    - Experimental-Mod-Pack
     types: [opened, edited, synchronize]
 jobs:
   validate:
