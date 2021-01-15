@@ -106,53 +106,14 @@
           { "id": "afs_basin", "fg": 87, "rotates": true },
           { "id": "overlay_wielded_afs_basin", "fg": 88, "rotates": true },
           { "id": "afs_cooking_rig", "fg": 89, "rotates": false },
-          {
-            "id": "vp_afs_cooking_rig",
-            "fg": 90,
-            "bg": 1,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 91, "bg": 1 } ]
-          },
+          { "id": "vp_afs_cooking_rig", "fg": 90, "bg": 1, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 91, "bg": 1  } ] },
           { "id": "afs_freezer", "fg": 92, "rotates": false },
-          {
-            "id": "vp_afs_freezer",
-            "fg": 93,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 94, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ]
-          },
-          {
-            "id": "afs_fridge",
-            "fg": 95,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 96, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ]
-          },
-          {
-            "id": "vp_afs_fridge",
-            "fg": 97,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 98 } ]
-          },
+          { "id": "vp_afs_freezer", "fg": 93, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 94, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ] },
+          { "id": "afs_fridge", "fg": 95, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 96, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ] },
+          { "id": "vp_afs_fridge", "fg": 97, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 98 } ] },
           { "id": "afs_kitchen_rig", "fg": 99, "rotates": false },
-          {
-            "id": "afs_metal_rig",
-            "fg": 100,
-            "bg": 130,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 101, "bg": 130 } ]
-          },
-          {
-            "id": "vp_afs_metal_rig",
-            "fg": 102,
-            "bg": 130,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 103, "bg": 130 } ]
-          },
+          { "id": "afs_metal_rig", "fg": 100, "bg": 130, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 101, "bg": 130  } ] },
+          { "id": "vp_afs_metal_rig", "fg": 102, "bg": 130, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 103, "bg": 130  } ] },
           { "id": "afs_radiobeacon", "fg": 104, "bg": 8, "rotates": false },
           { "id": "afs_scrap_titanium", "fg": 105, "rotates": false },
           { "id": "afs_titanium_implant", "fg": 106, "rotates": false },
@@ -179,14 +140,7 @@
           { "id": "overlay_worn_afs_brigandine_crafted", "fg": 127, "rotates": true },
           { "id": "afs_dough", "fg": 128, "rotates": true },
           { "id": "afs_hauling_space", "fg": 129, "rotates": false },
-          {
-            "id": "vp_afs_hauling_space",
-            "fg": 130,
-            "bg": 7,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 131, "bg": 7 } ]
-          },
+          { "id": "vp_afs_hauling_space", "fg": 130, "bg": 7, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 131, "bg": 7  } ] },
           { "id": "afs_hev_helmet", "fg": 132, "rotates": true },
           { "id": "overlay_worn_afs_hev_helmet", "fg": 133, "rotates": true },
           { "id": "afs_hev_helmet_on", "fg": 134, "rotates": true },
@@ -251,70 +205,16 @@
           { "id": "overlay_wielded_laser_rifle_cheap", "fg": 193, "rotates": false },
           { "id": "TANK", "fg": 194, "rotates": false },
           { "id": "f_afs_escape_pod_seat", "fg": [ 197, 198, 196, 195 ], "rotates": true },
-          {
-            "id": "f_afs_freezer_vehicle",
-            "fg": 199,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 200, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ]
-          },
-          {
-            "id": "f_afs_fridge_vehicle",
-            "fg": 201,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 202, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ]
-          },
+          { "id": "f_afs_freezer_vehicle", "fg": 199, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 200, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ] },
+          { "id": "f_afs_fridge_vehicle", "fg": 201, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 202, "bg": [ 15, 11, 92, 10, 14, 201, 199, 93, 95 ] } ] },
           { "id": "f_shrub_moss", "fg": 203, "rotates": false },
-          {
-            "id": "t_ice",
-            "fg": 204,
-            "bg": 5,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [
-              { "id": "center", "fg": 205, "bg": 5 },
-              { "id": "corner", "fg": [ 206, 207, 208, 209 ], "bg": 5 },
-              { "id": "t_connection", "fg": [ 216, 217, 218, 219 ], "bg": 5 },
-              { "id": "edge", "fg": [ 210, 211 ], "bg": 5 },
-              { "id": "end_piece", "fg": [ 212, 213, 214, 215 ], "bg": 5 },
-              { "id": "unconnected", "fg": 220, "bg": 5 }
-            ]
-          },
-          {
-            "id": "t_lichen",
-            "fg": 221,
-            "bg": 204,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [
-              { "id": "center", "fg": 222, "bg": 204 },
-              { "id": "corner", "fg": [ 223, 224, 225, 226 ], "bg": 204 },
-              { "id": "t_connection", "fg": [ 233, 234, 235, 236 ], "bg": 204 },
-              { "id": "edge", "fg": [ 227, 228 ], "bg": 204 },
-              { "id": "end_piece", "fg": [ 229, 230, 231, 232 ], "bg": 204 },
-              { "id": "unconnected", "fg": 237, "bg": 204 }
-            ]
-          },
+          { "id": "t_ice", "fg": 204, "bg": 5, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "center", "fg": 205, "bg": 5 }, { "id": "corner", "fg": [ 206, 207, 208, 209 ], "bg": 5 }, { "id": "t_connection", "fg": [ 216, 217, 218, 219 ], "bg": 5 }, { "id": "edge", "fg": [ 210, 211 ], "bg": 5 }, { "id": "end_piece", "fg": [ 212, 213, 214, 215 ], "bg": 5 }, { "id": "unconnected", "fg": 220, "bg": 5 } ] },
+          { "id": "t_lichen", "fg": 221, "bg": 204, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "center", "fg": 222, "bg": 204 }, { "id": "corner", "fg": [ 223, 224, 225, 226 ], "bg": 204 }, { "id": "t_connection", "fg": [ 233, 234, 235, 236 ], "bg": 204 }, { "id": "edge", "fg": [ 227, 228 ], "bg": 204 }, { "id": "end_piece", "fg": [ 229, 230, 231, 232 ], "bg": 204 }, { "id": "unconnected", "fg": 237, "bg": 204 } ] },
           { "id": "t_lichendirt", "fg": 238, "rotates": false },
           { "id": "t_lichenyum", "fg": 239, "rotates": false },
           { "id": "t_afs_escapepod_g", "fg": 240 },
           { "id": "t_afs_space_ship_hatch_c", "fg": 241 },
-          {
-            "id": "t_afs_space_ship_hull_wall",
-            "fg": 242,
-            "bg": 4,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [
-              { "id": "center", "fg": 243, "bg": 4 },
-              { "id": "corner", "fg": [ 244, 245, 246, 247 ], "bg": 4 },
-              { "id": "t_connection", "fg": [ 254, 255, 256, 257 ], "bg": 4 },
-              { "id": "edge", "fg": [ 248, 249 ], "bg": 4 },
-              { "id": "end_piece", "fg": [ 250, 251, 252, 253 ], "bg": 4 },
-              { "id": "unconnected", "fg": 258, "bg": 4 }
-            ]
-          },
+          { "id": "t_afs_space_ship_hull_wall", "fg": 242, "bg": 4, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "center", "fg": 243, "bg": 4 }, { "id": "corner", "fg": [ 244, 245, 246, 247 ], "bg": 4 }, { "id": "t_connection", "fg": [ 254, 255, 256, 257 ], "bg": 4 }, { "id": "edge", "fg": [ 248, 249 ], "bg": 4 }, { "id": "end_piece", "fg": [ 250, 251, 252, 253 ], "bg": 4 }, { "id": "unconnected", "fg": 258, "bg": 4 } ] },
           { "id": "t_nuclear_reactor", "fg": 259, "bg": 13, "rotates": false },
           { "id": "afs_mon_cyber_mastiff", "fg": 260, "bg": 9, "rotates": false },
           { "id": "corpse_afs_mon_cyber_mastiff", "fg": 261, "rotates": false },
@@ -347,45 +247,13 @@
           { "id": "anesthetic", "fg": 288, "rotates": false },
           { "id": "f_autodoc", "fg": 289, "rotates": true },
           { "id": "afs_control_station", "fg": 290, "rotates": false },
-          {
-            "id": "vp_afs_control_station",
-            "fg": 291,
-            "bg": 1,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 292, "bg": 1 } ]
-          },
+          { "id": "vp_afs_control_station", "fg": 291, "bg": 1, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 292. "bg": 1  } ] },
           { "id": "afs_titanium_frame", "fg": 293, "rotates": true },
           { "id": "solar_panel_v3", "fg": 294, "bg": 8, "rotates": false },
-          {
-            "id": "vp_solar_panel_v3",
-            "fg": 295,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 296 } ]
-          },
-          {
-            "id": "vp_afs_cargo_trough",
-            "fg": 297,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 298 } ]
-          },
-          {
-            "id": "vp_afs_crude_plating",
-            "fg": 299,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 300 } ]
-          },
-          {
-            "id": "vp_afs_kitchen_rig",
-            "fg": 301,
-            "bg": 3,
-            "rotates": false,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 302, "bg": 3 } ]
-          },
+          { "id": "vp_solar_panel_v3", "fg": 295, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 296 } ] },
+          { "id": "vp_afs_cargo_trough", "fg": 297, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 298 } ] },
+          { "id": "vp_afs_crude_plating", "fg": 299, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 300 } ] },
+          { "id": "vp_afs_kitchen_rig", "fg": 301, "bg": 3, "rotates": false, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 302, "bg": 3  } ] },
           { "id": "vp_afs_lightweight_frame_cover", "fg": 303, "rotates": true },
           { "id": "vp_afs_lightweight_frame_cross", "fg": 304, "rotates": true },
           { "id": "vp_afs_lightweight_frame_horizontal", "fg": 305, "rotates": true },
@@ -396,20 +264,8 @@
           { "id": "vp_afs_lightweight_frame_sw", "fg": 310, "rotates": true },
           { "id": "vp_afs_lightweight_frame_vertical", "fg": 311, "rotates": true },
           { "id": "vp_afs_lightweight_frame_vertical_2", "fg": 312, "rotates": true },
-          {
-            "id": "vp_afs_mounted_external_tank",
-            "fg": 313,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 314 } ]
-          },
-          {
-            "id": "vp_robot_cargo",
-            "fg": 315,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 316 } ]
-          }
+          { "id": "vp_afs_mounted_external_tank", "fg": 313, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 314 } ] },
+          { "id": "vp_robot_cargo", "fg": 315, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 316 } ] }
         ],
         "//": "range 1 to 320",
         "sprite_width": 32,
