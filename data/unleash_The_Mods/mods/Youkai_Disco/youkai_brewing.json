@@ -31,7 +31,7 @@
     "weight": "33 g",
     "color": "white",
     "container": "bottle_glass",
-    "flags": "TRADER_AVOID",
+    "flags": [ "TRADER_AVOID" ],
     "symbol": "%",
     "price": 0,
     "volume": "250 ml",
@@ -54,7 +54,7 @@
     "color": "white",
     "container": "bag_plastic",
     "comestible_type": "FOOD",
-    "flags": "TRADER_AVOID",
+    "flags": [ "TRADER_AVOID" ],
     "symbol": "%",
     "quench": 1,
     "nutrition": 16,
@@ -72,7 +72,7 @@
     "weight": "46 g",
     "color": "white",
     "container": "bottle_glass",
-    "flags": "TRADER_AVOID",
+    "flags": [ "TRADER_AVOID" ],
     "symbol": "~",
     "nutrition": 2,
     "quench": 6,
@@ -106,7 +106,7 @@
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 7,
-    "flags": "EATEN_COLD",
+    "flags": [ "EATEN_COLD" ],
     "fun": 13
   },
   {
@@ -124,7 +124,7 @@
     "price": 150,
     "material": [ "powder" ],
     "volume": "250 ml",
-    "flags": "EDIBLE_FROZEN",
+    "flags": [ "EDIBLE_FROZEN" ],
     "charges": 5,
     "fun": -15
   }
