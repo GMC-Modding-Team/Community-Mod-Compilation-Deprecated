@@ -14,7 +14,19 @@
         "sprite_width": 32,
         "sprite_height": 32,
         "tiles": [
-          { "id": [ "vp_mounted_tank_manual", "vp_mounted_tank_auto", "vp_mounted_tank_manual_105mm", "vp_mounted_howitzer", "vp_tow_turret", "vp_mounted_25mm_autocannon", "vp_mounted_25mm_autocannon_sawn" ], "fg": 1, "rotates": true }
+          {
+            "id": [
+              "vp_mounted_tank_manual",
+              "vp_mounted_tank_auto",
+              "vp_mounted_tank_manual_105mm",
+              "vp_mounted_howitzer",
+              "vp_tow_turret",
+              "vp_mounted_25mm_autocannon",
+              "vp_mounted_25mm_autocannon_sawn"
+            ],
+            "fg": 1,
+            "rotates": true
+          }
         ]
       }
     ]
@@ -76,11 +88,29 @@
           { "id": "tank_gun_auto", "fg": 37, "rotates": false },
           { "id": "tank_gun_auto_monster", "fg": 38, "rotates": false },
           { "id": "tread1", "fg": 39, "rotates": false },
-          { "id": "vp_tread1", "fg": 40, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 41 } ] },
+          {
+            "id": "vp_tread1",
+            "fg": 40,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 41 } ]
+          },
           { "id": "tread2", "fg": 42, "rotates": false },
-          { "id": "vp_tread2", "fg": 43, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 44 } ] },
+          {
+            "id": "vp_tread2",
+            "fg": 43,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 44 } ]
+          },
           { "id": "tread3", "fg": 45, "rotates": false },
-          { "id": "vp_tread3", "fg": 46, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "broken", "fg": 47 } ]  }
+          {
+            "id": "vp_tread3",
+            "fg": 46,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 47 } ]
+          }
         ],
         "//": "range 1 to 48",
         "sprite_width": 32,
