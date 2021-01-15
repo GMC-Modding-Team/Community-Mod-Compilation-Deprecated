@@ -1,14 +1,16 @@
-name: JSON PR Validator
+name: JSON PR style check
 
 on:
-  pull_request
+  pull_request:
+    paths:
+    - '**.json'
 
 jobs:
   style-json:
     name: JSON style check
 
     runs-on: ubuntu-latest
-
+    
     steps:
       - uses: actions/checkout@v1
         with:
