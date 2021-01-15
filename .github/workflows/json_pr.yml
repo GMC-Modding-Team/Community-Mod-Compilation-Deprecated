@@ -1,9 +1,7 @@
 name: JSON PR style check
 
 on:
-  pull_request:
-    paths:
-    - '**.json'
+  pull_request
 
 jobs:
   style-json:

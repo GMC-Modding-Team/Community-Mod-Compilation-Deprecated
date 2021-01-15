@@ -1,9 +1,7 @@
 name: JSON style check
 
 on:
-  push:
-    paths:
-    - '**.json'
+  push
 
 jobs:
   style-json:
