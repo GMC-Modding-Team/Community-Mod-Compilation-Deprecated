@@ -1,8 +1,6 @@
 name: JSON Validator
 on:
-  pull_request:
-    branches:
-    - Experimental-Mod-Pack
+  push
 jobs:
   style-json:
     name: JSON style check
