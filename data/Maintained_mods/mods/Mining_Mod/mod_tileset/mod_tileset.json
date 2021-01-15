@@ -43,21 +43,7 @@
           { "id": "t_rock_hematite", "fg": 24, "rotates": false },
           { "id": "t_rock_niter", "fg": 25, "rotates": false },
           { "id": "t_rock_silver", "fg": 26, "rotates": false },
-          {
-            "id": "t_sand_black",
-            "fg": 27,
-            "bg": 1,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [
-              { "id": "center", "fg": 28, "bg": 1 },
-              { "id": "corner", "fg": [ 29, 30, 31, 32 ], "bg": 1 },
-              { "id": "t_connection", "fg": [ 39, 40, 41, 42 ], "bg": 1 },
-              { "id": "edge", "fg": [ 33, 34 ], "bg": 1 },
-              { "id": "end_piece", "fg": [ 35, 36, 37, 38 ], "bg": 1 },
-              { "id": "unconnected", "fg": 43, "bg": 1 }
-            ]
-          }
+          { "id": "t_sand_black", "fg": 27, "bg": 1, "rotates": true, "multitile": true, "additional_tiles": [ { "id": "center", "fg": 28, "bg": 1 }, { "id": "corner", "fg": [ 29, 30, 31, 32 ], "bg": 1 }, { "id": "t_connection", "fg": [ 39, 40, 41, 42 ], "bg": 1 }, { "id": "edge", "fg": [ 33, 34 ], "bg": 1 }, { "id": "end_piece", "fg": [ 35, 36, 37, 38 ], "bg": 1 }, { "id": "unconnected", "fg": 43, "bg": 1 } ] }
         ],
         "//": "range 1 to 48",
         "sprite_width": 32,
