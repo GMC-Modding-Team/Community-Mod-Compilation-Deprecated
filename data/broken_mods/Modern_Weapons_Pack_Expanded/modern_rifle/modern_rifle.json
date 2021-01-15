@@ -71,10 +71,10 @@
         "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "300r4mag", "223r5mag", "308r5mag" ]
+        "item_restriction": [ "223r5mag", "308r5mag", "300r4mag" ]
       }
     ],
-    "flags": "NEVER_JAMS"
+    "flags": [ "NEVER_JAMS" ]
   },
   {
     "id": "ameli",
@@ -250,7 +250,17 @@
     "name": { "str": "FX-05 Xiuhcoatl" },
     "description": "The Fire Serpent, a modern assault rifle of the Mexican Armed Forces, Fuerzas Armadas de Mexico.  Closely patterned after the German made HK G36.",
     "weight": "3890 g",
-    "default_mods": [ "fold_adjust_stock" ]
+    "default_mods": [ "fold_adjust_stock" ],
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "transmag", "stanag30", "stanag10", "stanag50", "223betacmag", "survivor223mag", "g36mag_30rd", "g36mag_100rd" ]
+      }
+    ]
   },
   {
     "id": "henry",
@@ -349,7 +359,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "flags": "RELOAD_ONE"
+    "flags": [ "RELOAD_ONE" ]
   },
   {
     "id": "marlin_1894c",
@@ -362,7 +372,9 @@
     "ammo": [ "357mag" ],
     "range": 4,
     "ranged_damage": { "damage_type": "stab", "amount": 6 },
-    "clip_size": 9
+    "clip_size": 9,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "357mag": 9 } } ],
+    "flags": [ "RELOAD_ONE" ]
   },
   {
     "id": "marlin_336",
@@ -373,7 +385,9 @@
     "description": "Combined with a pistol grip-type buttstock and a responsive trigger, the Marlin 336 is a very popular lever action rifle.",
     "weight": "3180 g",
     "price": 35000,
-    "relative": { "dispersion": 20 }
+    "relative": { "dispersion": 20 },
+    "ammo": [ "shot" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 7 } } ]
   },
   {
     "id": "464spx",
@@ -399,6 +413,8 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+    "ammo": [ "shot" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 7 } } ],
     "flags": [ "RELOAD_ONE", "NEVER_JAMS" ]
   },
   {
@@ -412,7 +428,17 @@
     "volume": "750 ml",
     "price": 95000,
     "default_mods": [ "folding_stock" ],
-    "built_in_mods": [ "inter_bayonet" ]
+    "built_in_mods": [ "inter_bayonet" ],
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ]
+      }
+    ]
   },
   {
     "id": "norinco56_2",
@@ -424,7 +450,17 @@
     "weight": "3600 g",
     "volume": "1250 ml",
     "price": 95000,
-    "default_mods": [ "folding_stock" ]
+    "default_mods": [ "folding_stock" ],
+    "ammo": [ "762" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ]
+      }
+    ]
   },
   {
     "id": "ruger_m77",
@@ -458,7 +494,7 @@
       [ "sights", 1 ],
       [ "stock", 1 ]
     ],
-    "flags": "RELOAD_ONE"
+    "flags": [ "RELOAD_ONE" ]
   },
   {
     "id": "saiga_mk3",
@@ -499,15 +535,15 @@
         "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
         "item_restriction": [
-          "223ak74mag30",
-          "223ak74mag10",
-          "survivor223mag",
-          "308ak74mag25",
           "akmag30",
           "akmag10",
           "akmag20",
           "akmag40",
-          "akdrum75"
+          "akdrum75",
+          "223ak74mag30",
+          "223ak74mag10",
+          "survivor223mag",
+          "308ak74mag25"
         ]
       }
     ]
@@ -584,7 +620,7 @@
         "item_restriction": [ "m107a1mag" ]
       }
     ],
-    "flags": "NEVER_JAMS"
+    "flags": [ "NEVER_JAMS" ]
   },
   {
     "id": "steyr_ssg69",
@@ -616,7 +652,7 @@
         "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "308steyrmag5", "308steyrmag10", "stanag10" ]
+        "item_restriction": [ "stanag10", "308steyrmag5", "308steyrmag10" ]
       }
     ]
   },
@@ -636,7 +672,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "brown",
-    "ammo": [ "223", "9mm", "762" ],
+    "ammo": [ "223", "762" ],
     "dispersion": 30,
     "durability": 9,
     "burst": 13,
@@ -660,19 +696,19 @@
         "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
         "item_restriction": [
-          "transmag",
-          "stanag30",
-          "stanag10",
-          "stanag50",
-          "223betacmag",
-          "survivor223mag",
-          "uzimag",
-          "9mmbetacmag",
           "akmag30",
           "akmag10",
           "akmag20",
           "akmag40",
-          "akdrum75"
+          "akdrum75",
+          "transmag",
+          "stanag30",
+          "stanag10",
+          "stanag50",
+          "223ak74mag30",
+          "223ak74mag10",
+          "223betacmag",
+          "survivor223mag"
         ]
       }
     ]
@@ -715,7 +751,7 @@
         "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "300r4mag", "308r5mag" ]
+        "item_restriction": [ "308r5mag", "300r4mag" ]
       }
     ]
   }

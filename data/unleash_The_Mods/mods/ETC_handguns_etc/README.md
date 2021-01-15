@@ -54,14 +54,14 @@ New Professions were added so you can try some of them from the very game start 
 
 * "Drone-Killer" rounds: slightly lower stopping power than 5.56 NATO due to overpenetration but longer range, accuracy and drastically better armor penetration.
 
-* Subsonic Armor Piercing rounds using depleted uranium to reduce muzzle energy loss from much lower round velocity and improve penetration. Can't be hand-loaded. Supplanted by conventional equivalent with identical performance and no UPS needed.
+* Subsonic Armor Piercing rounds using depleted uranium to reduce muzzle energy loss from much lower round velocity and improve penetration. Can't be hand-loaded.
 
 * Hand-loaded ammo is powerful enough to defeat the heaviest armored enemies in the game when fired from guns with anti-drone capacitors.
 
-* Includes one 4-shooter chambered for it. You can challenge Chicken Walkers like a Wild West gunslinger with it, if you're not afraid of risking Yet Another Stupid Death.
+* Includes one 4-shooter chambered for it. You can challenge Kevlar Hulks like a Wild West gunslinger with it, if you're not afraid of risking Yet Another Stupid Death.
 
 ###### 7.62x51mm
-* Each round is electrically charged with a very small plutonium cell and the action temporarily plugs it to the gun capacitors before firing. This is less efficient than an UPS.
+* Each round is electrically charged with a very small plutonium cell where the gun action activates it and discharges its energy to the gun capacitors before firing. This is less efficient than an UPS.
 
 * Very rare and powerful caliber, perhaps will be found in labs, the odd military bunker or base. Perhaps the holy grail of handguns awaits after hundreds of irradiated wanderers too, which is: 
 
@@ -72,30 +72,44 @@ New Professions were added so you can try some of them from the very game start 
 * Hand-loading without spare, factory-made microcells is !FUN! It requires Fabrication skill at 10 and a 'lab journal-Herrera', found only in labs. It is radioactive too, for it involves pouring plutonium slurry inside crafted microcells.
 
 ## Other guns
-* .308 and .300 Stockless Marksman Carbines, wrist-breaking 'sidearms' to the M24 and M2010 ESR sniper rifles using the same rounds and mags, small enough to fit in holsters. Burst capable for maximum overkill.
+* .308 and .300 Stockless Marksman Carbines, wrist-breaking 'sidearms' using the same rounds and/or mags of bigger guns, small enough to fit in XL holsters. Burst capable for maximum overkill.
 
 * 9mm Designated Marksman SMG plus its semi-auto and silenced variants, with very long barrels for 9mm guns, making them better for long range engagements and worse for close combat. Use rifles skill like the Cx4 Storm.
 
-* 9mm Baby Eel, like its ETC counterpart, it is small and lightweight enough to fit inside an ankle holster while loaded with either a compact suppressor or pistol scope attached.
+* 9mm Baby Eel, like its ETC counterpart, it is small and lightweight enough to fit inside an ankle holster while loaded with a compact suppressor attached.
 
 * QR555 .223 modular weapon system with integrated suppressors, created to operate with new, reduced power subsonic loads for 5.56 NATO. Interchangeable with the 5.56 ETC ER555, it shares most components with it through conversion kits.
 
 * Gauss guns. The GC166 is an endgame-tier coilgun which can shoot nails, flechettes or optimal rare magpins. The GG285 is even more powerful but its 1.06mm magnetic metal glass ammo is very rare.
 
-* 3 Shotguns. The OCG12 Excidia, an automatic double barrel shotgun based upon the Gilboa Snake like the Saiga-12 is based upon the AK-47, its OCG12-S Scuta semi-auto variant and the Modified L12 Defender, a starting gun for Leadworks Executives. 
+* 3 spawned 12 ga. Shotguns. The OCG12 Excidia, an automatic double barrel shotgun based upon the Gilboa Snake like the Saiga-12 is based upon the AK-47, its OCG12-S Scuta semi-auto variant and the 12C, kind of a double barrel Super-Shorty Mini-Shotgun. 
+
+* 1 non-spawned, profession-exclusive 12 ga. shotgun: The OCG12D Slam Dunk. A quite loony prototype "borrowed" from a Skunkworks by the corporate spymaster that can only slam fire - works like a bow in game, with loading and firing combined as a single move.
+
+* 3 .410 Shotguns even more unusual than the previous ones: a magazine-fed triple barreled one, an automatic "Smoothbore Machine Pistol" loaded like a MAC-10 or Uzi and one with an integral suppressor for "silent" door breaching.
+
+* 3 10mm Auto guns also compatible with .40 S&W: a rotary submachinegun, a 6-round backup pistol and a carbine PDW.
+
+* Some Leadworks guns that were scrapped in mainline and not completely redundant got reimagined, from the "Lookout" as a 9mm 4 barrel derringer that fires everything at once among others. See Changelog for more details.
 
 ## Other ammo
-* Subsonic loads for 5.56 NATO: .223 OCG Blackout and 5.56 OCG Blackout. They don't use a larger diameter like .300 Whisper/AAC Blackout but use tungsten and uranium respectively to pack more mass into the same volume and mitigate muzzle energy loss.
+* Subsonic loads for 5.56 NATO: .223 OCG Umbra and 5.56 OCG Noctis. They don't use a larger diameter like .300 Whisper/AAC Blackout but use tungsten and uranium respectively to pack more mass into the same volume and mitigate muzzle energy loss.
 
 * Some custom 12 gauge magnum handloads reusing tungsten or depleted uranium projectiles extracted from previously mentioned rounds for increased armor penetration.
 
-* More STANAG compatible magazines. Can be used with all 5.56 NATO guns featured in the base game (0.D) and naturally with the QR555 guns as well.
+* New flechette and door-breaching loads for .410 shot.
+
+* More STANAG compatible magazines. Can be used with all 5.56 NATO guns featured in vanilla (as of now) and naturally with the QR555 guns as well.
 
 ## Other stuff
 * New scenarios: Hostile Takeover, a start in the middle of an Office Tower with an upper floor Lab, surrounded by zombies. The Vault Newcomer challenge happens in a very special and dangerous location and is exclusive for the new professions.
 
-* New professions: Aerial Labs, Leadworks, OmniCorp and Rivtech Executives, who start with some gear from their respective companies and Corporate Spymaster, who starts with a mix of gear from all of them.
+* The Chainsword, which is a very expensive and glorified electric carver with diamond serrated edges, a genuine weapon using far more advanced technology than what was employed the last time serious research and development of swords was a thing.
+
+* New professions: Aerial Labs, Leadworks, OmniCorp and Rivtech Executives, who start with some gear from their respective companies(reimagined in the case of the Leadworks one) and Corporate Spymaster, who starts with a mix of gear from all of them.
+
+* Now also in: Gunslinger of the Future, another new profession that is all set to hand load ETC rounds as soon as a hand press among other tools are scavenged, armed with one 9mm ETC revolver and one .45 Colt and .410 shot backup one.
 
 * Increased shoggoth's HP pool to 1500 hit points and doubled its natural armor while giving it the same cut and bash resistance(60). Delete mountains_of_madness.json if you'd rather have easier shoggoths.
 
-* A locksmith set disguised as barrette plus another one disguised as tie clip.
+* A locksmith set disguised as barrette plus another one disguised as tie clip. And atomic Irish coffee plus recipe, which is just Irish coffee with the power of the atom.

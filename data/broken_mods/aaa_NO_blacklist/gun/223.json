@@ -51,7 +51,17 @@
     "price": 20000,
     "symbol": "(",
     "color": "green",
-    "dispersion": 200
+    "ammo": [ "223" ],
+    "dispersion": 200,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]
+      }
+    ]
   },
   {
     "id": "IA2_car",
@@ -66,7 +76,17 @@
     "bashing": 9,
     "symbol": "(",
     "color": "green",
-    "dispersion": 170
+    "ammo": [ "223" ],
+    "dispersion": 170,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]
+      }
+    ]
   },
   {
     "id": "rdb",
@@ -106,14 +126,14 @@
     "volume": "1250 ml",
     "price": 6000,
     "to_hit": -1,
-    "bash": 5,
+    "bashing": 5,
     "material": [ "steel", "plastic", "aluminum" ],
     "symbol": "(",
     "color": "light_gray",
     "ammo": [ "223" ],
     "skill": "rifle",
     "dispersion": 600,
-    "durablilty": 5,
+    "durability": 5,
     "modes": [ [ "DEFAULT", "full auto", 30 ] ],
     "barrel_volume": "250 ml",
     "valid_mod_locations": [ [ "barrel", 1 ], [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 2 ], [ "muzzle", 1 ] ],
@@ -135,8 +155,18 @@
     "description": "The xm231 port firing weapon is a heavily modified M16 pattern rifle. Unlike the m231 the xm231 has a wire collapsing stock and rudamentary sights, but it still has the threaded hand guard to screw into the firing ports on US military armored vehicles, and a ludicrously high rate of fire. It was never intened to leave the vehicle it was issued with.",
     "symbol": "(",
     "color": "light_gray",
+    "ammo": [ "223" ],
     "dispersion": 480,
-    "built_in_mods": [ "folding_stock" ]
+    "built_in_mods": [ "folding_stock" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag" ]
+      }
+    ]
   },
   {
     "id": "xm29",
@@ -182,7 +212,7 @@
     "material": [ "steel", "aluminum", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": [ "223" ],
+    "ammo": [ "223", "300blk" ],
     "skill": "rifle",
     "dispersion": 160,
     "durability": 4,
@@ -215,8 +245,18 @@
     "description": "The first generation of the M16. Introduced in vietnam as a replacement for the m14 this rifle suffered from many mechanical failures and was over all a very poor weapon. This rifle is a civilian reproduction.",
     "symbol": "(",
     "color": "light_gray",
+    "ammo": [ "223", "300blk" ],
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ]
   },
   {
     "id": "m16a1burst",
@@ -226,7 +266,17 @@
     "description": "The first generation of the M16. Introduced in vietnam as a replacement for the m14 this rifle suffered from many mechanical failures and was over all a very poor weapon. This rifle has an a2 lower receiver giving it burst fire capabilities instead of full-auto.",
     "symbol": "(",
     "color": "light_gray",
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "burst", 3 ] ]
+    "ammo": [ "223", "300blk" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "burst", 3 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ]
   },
   {
     "id": "m16a1/a3",
@@ -236,7 +286,17 @@
     "description": "The first generation of the M16. Introduced in vietnam as a replacement for the m14 this rifle suffered from many mechanical failures and was over all a very poor weapon. This rifle has an a3 lower receiver giving it burst fire and full-auto capabilities.",
     "symbol": "(",
     "color": "light_gray",
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "burst", 3 ], [ "AUTO", "full-auto", 10 ] ]
+    "ammo": [ "223", "300blk" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "burst", 3 ], [ "AUTO", "full-auto", 10 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ]
   },
   {
     "id": "m16a2",
@@ -251,7 +311,7 @@
     "material": [ "steel", "aluminum", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": [ "223" ],
+    "ammo": [ "223", "300blk" ],
     "skill": "rifle",
     "dispersion": 150,
     "durability": 4,
@@ -284,7 +344,17 @@
     "description": "The second generation of the M16. This rifle is a civilian variant, as such it only has semi-auto capabilities.",
     "symbol": "(",
     "color": "light_gray",
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
+    "ammo": [ "223", "300blk" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ]
   },
   {
     "id": "m16a2auto",
@@ -294,7 +364,17 @@
     "description": "The second generation of the M16. This rifle has an a1 lower reciver giving full-auto capabilities instead of 3 shot burst.",
     "symbol": "(",
     "color": "light_gray",
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 10 ] ]
+    "ammo": [ "223", "300blk" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 10 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ]
   },
   {
     "id": "m16a2/a3",
@@ -304,7 +384,17 @@
     "description": "The second generation of the M16. This rifle has an a3 lower reciver giving full-auto and 3 shot burst capabilities.",
     "symbol": "(",
     "color": "light_gray",
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "burst", 3 ], [ "AUTO", "full-auto", 10 ] ]
+    "ammo": [ "223", "300blk" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "burst", 3 ], [ "AUTO", "full-auto", 10 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ]
   },
   {
     "id": "m16a3",
@@ -319,7 +409,7 @@
     "material": [ "steel", "aluminum", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": [ "223" ],
+    "ammo": [ "223", "300blk" ],
     "skill": "rifle",
     "dispersion": 140,
     "durability": 4,
@@ -354,6 +444,16 @@
     "description": "the third generation of the M16 series of rifles. The a3 variants have an integrated quad-rail and a detachable carry handle for mounting optics. This rifle has an a1 lower receiver and as such only has semi-auto and full-auto capabilities.",
     "symbol": "(",
     "color": "light_gray",
+    "ammo": [ "223", "300blk" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 10 ] ]
   },
   {
@@ -365,6 +465,16 @@
     "material": [ "steel", "aluminum", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
+    "ammo": [ "223", "300blk" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
+      }
+    ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "full-auto", 10 ] ]
   },
   {
@@ -382,7 +492,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": [ "223" ],
+    "ammo": [ "223", "300blk" ],
     "dispersion": 150,
     "durability": 7,
     "pocket_data": [
@@ -391,20 +501,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [
-          "stanag30",
-          "stanag10",
-          "stanag50",
-          "survivor223mag",
-          "ruger1022bigmag",
-          "ruger1022mag",
-          "g3mag",
-          "g3bigmag",
-          "blk30",
-          "blk20",
-          "blk10",
-          "blk50"
-        ]
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "blk30", "blk20", "blk10", "blk50" ]
       }
     ]
   },
@@ -414,7 +511,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (5.56x45)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 5.56x45 round.",
-    "ammo": [ "223" ]
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "stgmag223" ]
+      }
+    ]
   },
   {
     "id": "HMG44_223_sbr",
@@ -422,7 +528,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (5.56x45 SBR)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 5.56x45 round. It has also been cut down and converted into an SBR",
-    "ammo": [ "223" ]
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "stgmag223" ]
+      }
+    ]
   },
   {
     "id": "HMG44_223_smol",
@@ -430,7 +545,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (5.56x45 pistol)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 5.56x45 round. The stock has been cut off and barrel sawed down to make for a very compact firearm.",
-    "ammo": [ "223" ]
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "stgmag223" ]
+      }
+    ]
   },
   {
     "id": "HMG44_223_auto",
@@ -438,7 +562,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (5.56x45 full-auto)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 5.56x45 round. The lower receiver has been replaced with an original lower receiver.",
-    "ammo": [ "223" ]
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "stgmag223" ]
+      }
+    ]
   },
   {
     "id": "HMG44_223_sbr_auto",
@@ -446,7 +579,16 @@
     "type": "GUN",
     "name": { "str": "STG-44 (5.56x45 SBR full-auto)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 5.56x45 round. The lower receiver has been replaced with an original lower receiver and it has also been cut down and converted into an SBR.",
-    "ammo": [ "223" ]
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "stgmag223" ]
+      }
+    ]
   },
   {
     "id": "HMG44_223_smol_auto",
@@ -454,6 +596,15 @@
     "type": "GUN",
     "name": { "str": "STG-44 (5.56x45 pistol full-auto)" },
     "description": "widely considered to be one of the first assault rifles, the STG-44 was produced in germany during the second world war and originally fired a proprietary 7.92x33 kurtz round. This however is a reproduction rifle chambered in a the more common 5.56x45 round. The stock has been cut off and barrel sawed down to make for a very compact firearm. The lower receiver has been replaced with an original lower receiver.",
-    "ammo": [ "223" ]
+    "ammo": [ "223" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "stanag30", "stanag10", "stanag50", "survivor223mag", "stgmag223" ]
+      }
+    ]
   }
 ]
