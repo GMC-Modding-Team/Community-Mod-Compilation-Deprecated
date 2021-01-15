@@ -14,7 +14,7 @@
     "material": [ "steel" ],
     "symbol": "R",
     "color": "green",
-	"bodytype": "human",
+    "bodytype": "human",
     "morale": 80,
     "aggression": 0,
     "anger_triggers": [ "HURT" ],
@@ -24,7 +24,7 @@
     "armor_acid": 6,
     "vision_day": 50,
     "death_function": [ "BROKEN" ],
-	"revert_to_itype": "bot_utilibot",
+    "revert_to_itype": "bot_utilibot",
     "flags": [ "SEES", "HEARS", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
   {
@@ -33,8 +33,8 @@
     "copy-from": "mon_utilibot",
     "name": "butler robot",
     "color": "dark_gray",
-	"symbol": "R",
-	"revert_to_itype": "bot_utilibot_butler",
+    "symbol": "R",
+    "revert_to_itype": "bot_utilibot_butler",
     "description": "A luxury model utility robot for domestic use."
   },
   {
@@ -44,13 +44,13 @@
     "name": "construction robot",
     "description": "One of the many models of construction robot formerly in use by government agencies and private corporations.  It is equipped with an integrated welder, flashlight, nailgun, and jackhammer.",
     "color": "yellow",
-	"symbol": "R",
+    "symbol": "R",
     "luminance": 10,
     "melee_skill": 2,
     "melee_dice": 4,
     "melee_dice_sides": 6,
     "melee_cut": 1,
-	"revert_to_itype": "bot_utilibot_const",
+    "revert_to_itype": "bot_utilibot_const",
     "starting_ammo": { "nail": 1000 },
     "special_attacks": [
       {
@@ -71,14 +71,14 @@
     "name": "firefighter robot",
     "description": "One of the many models of fire-fighting robot formerly in use by local fire departments and emergency services.  Designed for entering burning buildings and other situations deemed too dangerous for human firefighters.",
     "color": "red",
-	"symbol": "R",
+    "symbol": "R",
     "luminance": 100,
     "melee_skill": 3,
     "melee_dice": 4,
     "melee_dice_sides": 5,
     "melee_cut": 1,
     "starting_ammo": { "water": 1000 },
-	"revert_to_itype": "bot_utilibot_fire",
+    "revert_to_itype": "bot_utilibot_fire",
     "special_attacks": [
       {
         "type": "gun",
@@ -114,7 +114,7 @@
     "armor_acid": 0,
     "vision_day": 25,
     "death_function": [ "BROKEN" ],
-	"revert_to_itype": "bot_roomba",
+    "revert_to_itype": "bot_roomba",
     "flags": [ "SEES", "HEARS", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   }
 ]

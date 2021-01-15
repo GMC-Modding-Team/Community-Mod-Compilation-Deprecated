@@ -1,20 +1,18 @@
 [
-{
+  {
     "result": "sulfnade",
-    "type" : "recipe",
+    "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
     "skill_used": "fabrication",
     "time": 900,
     "reversible": false,
-	"autolearn" : [   
-    [ "survival", 1 ],
-    [ "fabrication", 2 ] ],
+    "autolearn": [ [ "survival", 1 ], [ "fabrication", 2 ] ],
     "components": [
       [ [ "sulfugland", 1 ] ],
       [ [ "chem_ethanol", 250 ], [ "denat_alcohol", 250 ] ],
       [ [ "string_6", 1 ] ],
-	  [ [ "thread", 40 ], [ "rag", 2 ], [ "duct_tape", 25 ] ]
+      [ [ "thread", 40 ], [ "rag", 2 ], [ "duct_tape", 25 ] ]
     ]
   }
- ]
+]
