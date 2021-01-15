@@ -3,21 +3,13 @@
 
 #include "getpost.h"
 
-#if defined(_MSC_VER)
-#include <io.h>
-#else
-#include <unistd.h>
-#endif
-#include <cstdlib>
-#include <fstream>
-#include <map>
-#include <sstream>
-#include <string>
-
-#if defined(_WIN32)
+#if defined(MSYS2) || defined(_MSC_VER)
 static void erase_char( std::string &s, const char &c )
 {
-    s.erase( std::remove( s.begin(), s.end(), c ), s.end() );
+    size_t pos = std::string::npos;
+    while( ( pos  = s.find( c ) ) != std::string::npos ) {
+        s.erase( pos, 1 );
+    }
 }
 #endif
 
@@ -76,7 +68,7 @@ int main( int argc, char *argv[] )
         std::cout << out.str();
     } else {
         std::string in_str = in.str();
-#if defined(_WIN32)
+#if defined(MSYS2) || defined(_MSC_VER)
         erase_char( in_str, '\r' );
 #endif
 
