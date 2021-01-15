@@ -44,33 +44,45 @@
     ]
   },
   {
-        "id": "mon_orus_bloodling",
-        "type": "MONSTER",
-        "name": "bloodling",
-        "description": "Bloated lump of blood, forming into something... frightening.",
-        "default_faction": "zombie",
-        "species": ["ZOMBIE"],
-        "volume": "62500 ml",
-        "weight": 81500,
-        "hp": 25,
-        "speed": 10,
-        "material": ["flesh"],
-        "attack_cost": 300,
-        "harvest": "exempt",
-        "symbol": "&",
-        "color": "light_red",
-        "aggression": 100,
-        "morale": 100,
-        "melee_skill": 4,
-        "melee_dice": 2,
-        "melee_dice_sides": 2,
-        "melee_cut": 0,
-        "armor_bash": 20,
-        "death_function": ["MELT"],
-		"regenerates": 5,
-        "flags": ["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "ACIDPROOF", "NO_BREATHE", "PLASTIC"]
-    },
-    {
+    "id": "mon_orus_bloodling",
+    "type": "MONSTER",
+    "name": "bloodling",
+    "description": "Bloated lump of blood, forming into something... frightening.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 25,
+    "speed": 10,
+    "material": [ "flesh" ],
+    "attack_cost": 300,
+    "harvest": "exempt",
+    "symbol": "&",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 0,
+    "armor_bash": 20,
+    "death_function": [ "MELT" ],
+    "regenerates": 5,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "ELECTRIC",
+      "ACIDPROOF",
+      "NO_BREATHE",
+      "PLASTIC"
+    ]
+  },
+  {
     "id": "mon_ether_shadow",
     "type": "MONSTER",
     "name": "etherean silhouette",
@@ -99,30 +111,18 @@
     "vision_day": 18,
     "vision_night": 18,
     "luminance": 5,
-    "path_settings": {
-            "max_dist": 5,
-            "max_length": 20
-        },
-    "special_attacks": [{
-            "type": "spell",
-            "spell_data": { "id": "mon_ether_shadow_spell_target"},
-            "cooldown": 14,
-            "monster_message": "%1$s stares at %3$s as it gesture its arms!"
-        }
+    "path_settings": { "max_dist": 5, "max_length": 20 },
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_ether_shadow_spell_target" },
+        "cooldown": 14,
+        "monster_message": "%1$s stares at %3$s as it gesture its arms!"
+      }
     ],
     "harvest": "exempt",
     "death_function": [ "MELT" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "GOODHEARING",
-      "SMELLS",
-      "HARDTOSHOOT",
-      "WEBWALK",
-      "FLIES",
-      "NO_BREATHE",
-      "NOGIB"
-    ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "HARDTOSHOOT", "WEBWALK", "FLIES", "NO_BREATHE", "NOGIB" ]
   },
   {
     "id": "mon_idol_vex",
@@ -152,30 +152,18 @@
     "vision_day": 30,
     "vision_night": 30,
     "luminance": 20,
-    "path_settings": {
-            "max_dist": 5,
-            "max_length": 20
-        },
-    "special_attacks": [{
-            "type": "spell",
-            "spell_data": { "id": "mon_idol_vex_spell_target"},
-            "cooldown": 11,
-            "monster_message": "%1$s shimmers as it glares at %3$s!"
-        }
+    "path_settings": { "max_dist": 5, "max_length": 20 },
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_idol_vex_spell_target" },
+        "cooldown": 11,
+        "monster_message": "%1$s shimmers as it glares at %3$s!"
+      }
     ],
     "harvest": "exempt",
     "death_function": [ "MELT" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "GOODHEARING",
-      "SMELLS",
-      "HARDTOSHOOT",
-      "WEBWALK",
-      "FLIES",
-      "NO_BREATHE",
-      "NOGIB"
-    ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "HARDTOSHOOT", "WEBWALK", "FLIES", "NO_BREATHE", "NOGIB" ]
   },
   {
     "id": "mon_idol_vex_etherhar",
@@ -204,29 +192,17 @@
     "vision_day": 10,
     "vision_night": 10,
     "luminance": 2,
-    "path_settings": {
-            "max_dist": 5,
-            "max_length": 20
-        },
-    "special_attacks": [{
-            "type": "spell",
-            "spell_data": { "id": "mon_idol_vex_etherhar_spell_target"},
-            "cooldown": 1,
-            "monster_message": "%1$s shines vigorously!"
-        }
+    "path_settings": { "max_dist": 5, "max_length": 20 },
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_idol_vex_etherhar_spell_target" },
+        "cooldown": 1,
+        "monster_message": "%1$s shines vigorously!"
+      }
     ],
     "harvest": "exempt",
     "death_function": [ "MELT" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "GOODHEARING",
-      "SMELLS",
-      "HARDTOSHOOT",
-      "WEBWALK",
-      "FLIES",
-      "NO_BREATHE",
-      "NOGIB"
-    ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "HARDTOSHOOT", "WEBWALK", "FLIES", "NO_BREATHE", "NOGIB" ]
   }
 ]

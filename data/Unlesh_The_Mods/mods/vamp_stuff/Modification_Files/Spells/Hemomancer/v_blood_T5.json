@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "t5_blood_vampiricoutrage",
     "type": "SPELL",
     "name": "Vampiric Outrage",
@@ -8,37 +8,17 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "extra_effects": [
-			{
-                "id": "t5_blood_outrage_bash"
-            },
-            {
-                "id": "t5_blood_outrage_bash"
-            },
-            {
-                "id": "t5_blood_outrage_bash"
-            },
-            {
-                "id": "t5_blood_outrage_cut"
-            },
-            {
-                "id": "t5_blood_outrage_cut"
-            },
-            {
-                "id": "t5_blood_outrage_cut"
-            },
-            {
-                "id": "t5_blood_outrage_stab"
-            },
-            {
-                "id": "t5_blood_outrage_stab"
-            },
-            {
-                "id": "t5_blood_outrage_stab"
-            },
-            {
-                "id": "t5_blood_outrage_drain"
-            }
-        ],
+      { "id": "t5_blood_outrage_bash" },
+      { "id": "t5_blood_outrage_bash" },
+      { "id": "t5_blood_outrage_bash" },
+      { "id": "t5_blood_outrage_cut" },
+      { "id": "t5_blood_outrage_cut" },
+      { "id": "t5_blood_outrage_cut" },
+      { "id": "t5_blood_outrage_stab" },
+      { "id": "t5_blood_outrage_stab" },
+      { "id": "t5_blood_outrage_stab" },
+      { "id": "t5_blood_outrage_drain" }
+    ],
     "base_energy_cost": 0,
     "energy_cost_increment": 3,
     "energy_source": "HP",
@@ -50,8 +30,8 @@
     "damage_increment": 3,
     "flags": [ "SOMATIC", "CONCENTRATE", "NO_LEGS", "WONDER" ],
     "base_casting_time": 500
-},
-{
+  },
+  {
     "id": "t5_blood_essencepull",
     "type": "SPELL",
     "name": "Essence Pull",
@@ -73,5 +53,5 @@
     "flags": [ "SOMATIC", "NO_LEGS" ],
     "base_casting_time": 125,
     "damage_type": "bio"
-}
+  }
 ]

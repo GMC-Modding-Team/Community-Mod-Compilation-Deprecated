@@ -1,6 +1,6 @@
 [
-{
-	"//": "Spells that activate from hitting, getting hit and intermittence.",
+  {
+    "//": "Spells that activate from hitting, getting hit and intermittence.",
     "type": "SPELL",
     "id": "v_spell_null",
     "name": "null",
@@ -9,8 +9,8 @@
     "flags": [ "SILENT" ],
     "message": "",
     "effect": "target_attack"
-},
-{
+  },
+  {
     "type": "SPELL",
     "id": "v_hemo_whip_spell_ss_maybe",
     "name": "Sweeping Strike?",
@@ -46,9 +46,7 @@
     "flags": [ "SILENT" ],
     "min_damage": 1,
     "max_damage": 1,
-    "extra_effects": [
-      { "id": "v_hemo_whip_spell_ss" }
-    ]
+    "extra_effects": [ { "id": "v_hemo_whip_spell_ss" } ]
   },
   {
     "id": "v_hemo_whip_spell_ss",
@@ -65,8 +63,8 @@
     "min_range": 1,
     "max_range": 1,
     "damage_type": "cut"
-},
-{
+  },
+  {
     "id": "v_hemo_whip_spell_d_maybe",
     "type": "SPELL",
     "name": "Drain?",
@@ -79,12 +77,12 @@
       { "id": "v_spell_null" },
       { "id": "v_spell_null" },
       { "id": "v_hemo_whip_spell_d_yes" }
-        ],
+    ],
     "min_damage": 1,
     "max_damage": 1,
     "flags": [ "SILENT", "WONDER" ]
-},
-{
+  },
+  {
     "type": "SPELL",
     "id": "v_hemo_whip_spell_d_yes",
     "name": "Drain!",
@@ -93,10 +91,7 @@
     "message": "The leech's whip absorbs the life force from a nearby creature!",
     "effect": "target_attack",
     "flags": [ "SILENT" ],
-    "extra_effects": [
-      { "id": "v_hemo_whip_spell_d_dmg" },
-      { "id": "v_hemo_whip_spell_d_heal", "hit_self": true }
-    ]
+    "extra_effects": [ { "id": "v_hemo_whip_spell_d_dmg" }, { "id": "v_hemo_whip_spell_d_heal", "hit_self": true } ]
   },
   {
     "id": "v_hemo_whip_spell_d_dmg",
@@ -111,8 +106,8 @@
     "max_range": 1,
     "flags": [ "SILENT" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "v_hemo_whip_spell_d_heal",
     "type": "SPELL",
     "name": "Drain Heal",
@@ -123,8 +118,8 @@
     "flags": [ "SILENT" ],
     "max_damage": -1,
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "v_hemo_crimsoncoat_coat_pr_maybe",
     "type": "SPELL",
     "name": "Piercing Retaliation?",
@@ -136,12 +131,12 @@
       { "id": "v_hemo_crimsoncoat_coat_pr_yes" },
       { "id": "v_hemo_crimsoncoat_coat_pr_yes" },
       { "id": "v_hemo_crimsoncoat_coat_pr_yes" }
-        ],
+    ],
     "min_damage": 1,
     "max_damage": 1,
     "flags": [ "SILENT", "WONDER" ]
-},
-{
+  },
+  {
     "type": "SPELL",
     "id": "v_hemo_crimsoncoat_coat_pr_yes",
     "name": "Piercing Retaliation!",
@@ -150,9 +145,7 @@
     "message": "The crimson coat retaliates to the attack!",
     "effect": "target_attack",
     "flags": [ "SILENT" ],
-    "extra_effects": [
-      { "id": "v_hemo_crimsoncoat_coat_pr" }
-    ]
+    "extra_effects": [ { "id": "v_hemo_crimsoncoat_coat_pr" } ]
   },
   {
     "id": "v_hemo_crimsoncoat_coat_pr",
@@ -170,8 +163,8 @@
     "min_duration": 100,
     "max_duration": 300,
     "damage_type": "stab"
-},
-{
+  },
+  {
     "id": "v_hemo_orusform_bloodling",
     "type": "SPELL",
     "name": "Orus: Rise! Bloodling!",
@@ -189,8 +182,8 @@
     "min_duration": 10000,
     "max_duration": 30000,
     "flags": [ "RANDOM_DURATION", "RANDOM_TARGET" ]
-},
-{
+  },
+  {
     "type": "SPELL",
     "id": "v_war_etherealenchant_ss_maybe",
     "name": "Summon Silhouette?",
@@ -235,9 +228,7 @@
     "flags": [ "SILENT" ],
     "min_damage": 1,
     "max_damage": 1,
-    "extra_effects": [
-      { "id": "v_war_etherealenchant_ss", "hit_self": true }
-    ]
+    "extra_effects": [ { "id": "v_war_etherealenchant_ss", "hit_self": true } ]
   },
   {
     "id": "v_war_etherealenchant_ss",
@@ -254,5 +245,5 @@
     "max_aoe": 2,
     "min_duration": 1500,
     "max_duration": 2500
-}
+  }
 ]

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "type": "material",
     "ident": "compactblood",
     "name": "Blood Compact",
@@ -13,11 +14,11 @@
     "chip_resist": 12,
     "repaired_with": "compactsheet",
     "salvaged_into": "compactsheet",
-    "dmg_adj": ["scratched", "cut", "shredded", "tattered"],
+    "dmg_adj": [ "scratched", "cut", "shredded", "tattered" ],
     "bash_dmg_verb": "ripped",
     "cut_dmg_verb": "sliced"
-},
-{
+  },
+  {
     "type": "material",
     "ident": "ethereal",
     "name": "Ethereal",
@@ -30,8 +31,8 @@
     "fire_resist": 0,
     "elec_resist": 0,
     "chip_resist": 100,
-    "dmg_adj": ["invincible", "invincible", "invincible", "invincible"],
+    "dmg_adj": [ "invincible", "invincible", "invincible", "invincible" ],
     "bash_dmg_verb": "invincible",
     "cut_dmg_verb": "invincible"
-}
+  }
 ]

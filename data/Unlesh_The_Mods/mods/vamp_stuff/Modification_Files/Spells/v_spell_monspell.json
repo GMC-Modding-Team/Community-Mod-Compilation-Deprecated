@@ -1,24 +1,21 @@
 [
-    {
-		"//": "Spells that are casted by monsters. Seperated from monster_magic.json, for as it is casted by allied minions.",
-        "type": "SPELL",
-        "id": "mon_ether_shadow_spell_target",
-        "name": "a spell",
-        "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
-        "extra_effects": [{
-                "id": "mon_ether_shadow_spell"
-            }
-        ],
-        "flags": ["SILENT"],
-        "valid_targets": ["ground", "hostile"],
-        "effect": "target_attack",
-        "effect_str": "v_magic_target",
-        "min_range": 10,
-        "max_range": 10,
-        "min_duration": 1,
-        "max_duration": 1
-    },
-{
+  {
+    "//": "Spells that are casted by monsters. Seperated from monster_magic.json, for as it is casted by allied minions.",
+    "type": "SPELL",
+    "id": "mon_ether_shadow_spell_target",
+    "name": "a spell",
+    "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
+    "extra_effects": [ { "id": "mon_ether_shadow_spell" } ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ground", "hostile" ],
+    "effect": "target_attack",
+    "effect_str": "v_magic_target",
+    "min_range": 10,
+    "max_range": 10,
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
     "id": "mon_ether_shadow_spell",
     "type": "SPELL",
     "name": "Warlock Spell",
@@ -26,58 +23,40 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "extra_effects": [
-			{
-                "id": "mon_ether_shadow_spell_bolt"
-            },
-            {
-                "id": "mon_ether_shadow_spell_bolt"
-            },
-            {
-                "id": "mon_ether_shadow_spell_bolt"
-            },
-            {
-                "id": "mon_ether_shadow_spell_beam"
-            },
-            {
-                "id": "mon_ether_shadow_spell_beam"
-            },
-            {
-                "id": "mon_ether_shadow_spell_blast"
-            }
-        ],
+      { "id": "mon_ether_shadow_spell_bolt" },
+      { "id": "mon_ether_shadow_spell_bolt" },
+      { "id": "mon_ether_shadow_spell_bolt" },
+      { "id": "mon_ether_shadow_spell_beam" },
+      { "id": "mon_ether_shadow_spell_beam" },
+      { "id": "mon_ether_shadow_spell_blast" }
+    ],
     "min_damage": 1,
     "max_damage": 1,
     "flags": [ "WONDER" ]
-},
-{
+  },
+  {
     "id": "mon_ether_shadow_spell_bolt",
     "type": "SPELL",
     "name": "Dark Bolt",
     "description": "A magical burst of profane mana strikes at your foe, dealing <color_gray>pure damage</color>.\n\nThis is a <color_gray>tier 1</color> spell.",
     "message": "The etherean silhouette casts Dark Bolt!",
     "valid_targets": [ "hostile" ],
-    "extra_effects": [{
-                "id": "v_sacrifice_spell", "hit_self": true
-            }
-        ],
+    "extra_effects": [ { "id": "v_sacrifice_spell", "hit_self": true } ],
     "effect": "projectile_attack",
     "min_damage": 10,
     "max_damage": 40,
     "max_range": 10,
     "flags": [ "RANDOM_DAMAGE" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_ether_shadow_spell_beam",
     "type": "SPELL",
     "name": "Dark Beam",
     "description": "A profane mana beam bursts violently, striking your foes within a line that deals <color_gray>pure damage</color>.\n\nThis is a <color_gray>tier 2</color> spell.",
     "message": "The etherean silhouette casts Dark Beam!",
     "valid_targets": [ "hostile", "ground" ],
-    "extra_effects": [{
-                "id": "v_sacrifice_spell", "hit_self": true
-            }
-        ],
+    "extra_effects": [ { "id": "v_sacrifice_spell", "hit_self": true } ],
     "effect": "line_attack",
     "min_damage": 10,
     "max_damage": 40,
@@ -87,8 +66,8 @@
     "max_aoe": 2,
     "flags": [ "RANDOM_DAMAGE" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_ether_shadow_spell_blast",
     "type": "SPELL",
     "name": "Dark Blast",
@@ -96,10 +75,7 @@
     "valid_targets": [ "hostile", "ground" ],
     "message": "The etherean silhouette casts Dark Blast!",
     "effect": "projectile_attack",
-    "extra_effects": [{
-                "id": "v_sacrifice_spell", "hit_self": true
-            }
-        ],
+    "extra_effects": [ { "id": "v_sacrifice_spell", "hit_self": true } ],
     "min_damage": 10,
     "max_damage": 40,
     "min_range": 10,
@@ -108,26 +84,23 @@
     "max_aoe": 4,
     "flags": [ "RANDOM_DAMAGE" ],
     "damage_type": "none"
-},
-{
-        "type": "SPELL",
-        "id": "mon_idol_vex_spell_target",
-        "name": "a spell",
-        "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
-        "extra_effects": [{
-                "id": "mon_idol_vex_spell"
-            }
-        ],
-        "flags": ["SILENT"],
-        "valid_targets": ["ground", "hostile"],
-        "effect": "target_attack",
-        "effect_str": "v_magic_target",
-        "min_range": 13,
-        "max_range": 13,
-        "min_duration": 1,
-        "max_duration": 1
-    },
-{
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_idol_vex_spell_target",
+    "name": "a spell",
+    "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
+    "extra_effects": [ { "id": "mon_idol_vex_spell" } ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ground", "hostile" ],
+    "effect": "target_attack",
+    "effect_str": "v_magic_target",
+    "min_range": 13,
+    "max_range": 13,
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
     "id": "mon_idol_vex_spell",
     "type": "SPELL",
     "name": "Vex Spell",
@@ -135,24 +108,16 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "extra_effects": [
-			{
-                "id": "mon_idol_vex_calamity_combo"
-            },
-            {
-                "id": "mon_idol_vex_impendingdoom_combo"
-            },
-            {
-                "id": "mon_idol_vex_etherealshockwave_combo"
-            },
-            {
-                "id": "mon_idol_vex_etherealharbringer_combo"
-            }
-        ],
+      { "id": "mon_idol_vex_calamity_combo" },
+      { "id": "mon_idol_vex_impendingdoom_combo" },
+      { "id": "mon_idol_vex_etherealshockwave_combo" },
+      { "id": "mon_idol_vex_etherealharbringer_combo" }
+    ],
     "min_damage": 1,
     "max_damage": 1,
     "flags": [ "WONDER" ]
-},
-{
+  },
+  {
     "id": "mon_idol_vex_calamity_combo",
     "type": "SPELL",
     "name": "Calamity Combo",
@@ -160,34 +125,24 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "message": "The Vex casts Calamity!\nExplosions of profane magic errupts from beneath the earth!",
-    "extra_effects": [
-            {
-                "id": "mon_idol_vex_calamity"
-            },
-            {
-                "id": "mon_idol_vex_spell_car", "hit_self": true
-            }
-      ]
-},
-{
+    "extra_effects": [ { "id": "mon_idol_vex_calamity" }, { "id": "mon_idol_vex_spell_car", "hit_self": true } ]
+  },
+  {
     "id": "mon_idol_vex_calamity",
     "type": "SPELL",
     "name": "Calamity",
     "description": "3-10 Explosions.",
     "valid_targets": [ "hostile", "ground" ],
     "effect": "projectile_attack",
-    "extra_effects": [{
-                "id": "mon_idol_vex_calamity_exp"
-            }
-        ],
+    "extra_effects": [ { "id": "mon_idol_vex_calamity_exp" } ],
     "min_damage": 3,
     "max_damage": 10,
     "min_range": 13,
     "max_range": 13,
     "flags": [ "RANDOM_DAMAGE", "WONDER" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_idol_vex_calamity_exp",
     "type": "SPELL",
     "name": "Explosions",
@@ -202,8 +157,8 @@
     "max_aoe": 4,
     "flags": [ "RANDOM_DAMAGE", "RANDOM_TARGET", "RANDOM_AOE" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_idol_vex_impendingdoom_combo",
     "type": "SPELL",
     "name": "Impending Doom Combo",
@@ -211,30 +166,23 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "message": "The Vex casts Impending Doom!",
-    "extra_effects": [
-            {
-                "id": "mon_idol_vex_impendingdoom", "hit_self": true
-            },
-            {
-                "id": "mon_idol_vex_spell_car", "hit_self": true
-            }
-      ]
-},
-{
-        "id": "mon_idol_vex_impendingdoom",
-        "type": "SPELL",
-        "name": "Impending Doom",
-        "description": "Marks all surrounding foes with impending doom. 1/101 chance for their mark to implode, dealing 60-125 damage over the duration.",
-        "flags": ["SILENT", "RANDOM_DURATION"],
-        "valid_targets": ["ground", "hostile"],
-        "effect": "projectile_attack",
-        "effect_str": "v_monspell_doom",
-        "min_aoe": 13,
-        "max_aoe": 13,
-        "min_duration": 800,
-        "max_duration": 2400
-    },
-    {
+    "extra_effects": [ { "id": "mon_idol_vex_impendingdoom", "hit_self": true }, { "id": "mon_idol_vex_spell_car", "hit_self": true } ]
+  },
+  {
+    "id": "mon_idol_vex_impendingdoom",
+    "type": "SPELL",
+    "name": "Impending Doom",
+    "description": "Marks all surrounding foes with impending doom. 1/101 chance for their mark to implode, dealing 60-125 damage over the duration.",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ground", "hostile" ],
+    "effect": "projectile_attack",
+    "effect_str": "v_monspell_doom",
+    "min_aoe": 13,
+    "max_aoe": 13,
+    "min_duration": 800,
+    "max_duration": 2400
+  },
+  {
     "id": "mon_idol_vex_etherealshockwave_combo",
     "type": "SPELL",
     "name": "Ethereal Shockwave Combo",
@@ -242,34 +190,24 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "message": "The Vex casts Ethereal Shockwave!",
-    "extra_effects": [
-            {
-                "id": "mon_idol_vex_etherealshockwave"
-            },
-            {
-                "id": "mon_idol_vex_spell_car", "hit_self": true
-            }
-      ]
-},
-    {
+    "extra_effects": [ { "id": "mon_idol_vex_etherealshockwave" }, { "id": "mon_idol_vex_spell_car", "hit_self": true } ]
+  },
+  {
     "id": "mon_idol_vex_etherealshockwave",
     "type": "SPELL",
     "name": "Ethereal Shockwave",
     "description": "1-4 Shockwaves.",
     "valid_targets": [ "hostile", "ground" ],
     "effect": "projectile_attack",
-    "extra_effects": [{
-                "id": "mon_idol_vex_etherealshockwave_wave"
-            }
-        ],
+    "extra_effects": [ { "id": "mon_idol_vex_etherealshockwave_wave" } ],
     "min_damage": 1,
     "max_damage": 4,
     "min_range": 13,
     "max_range": 13,
     "flags": [ "RANDOM_DAMAGE", "WONDER" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_idol_vex_etherealshockwave_wave",
     "type": "SPELL",
     "name": "Ethereal Shockwave Wave",
@@ -284,8 +222,8 @@
     "max_aoe": 60,
     "flags": [ "RANDOM_DAMAGE", "RANDOM_TARGET", "RANDOM_AOE" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_idol_vex_etherealharbringer_combo",
     "type": "SPELL",
     "name": "Ethereal Harbringer Combo",
@@ -293,83 +231,66 @@
     "valid_targets": [ "none" ],
     "effect": "target_attack",
     "message": "The Vex casts Ethereal Harbringer!",
-    "extra_effects": [
-            {
-                "id": "mon_idol_vex_etherealharbringer"
-            },
-            {
-                "id": "mon_idol_vex_spell_car", "hit_self": true
-            }
-      ]
-},
-{
-        "type": "SPELL",
-        "id": "mon_idol_vex_etherealharbringer",
-        "name": "Ethereal Harbinger",
-        "description": "Summons 2-5 ethereal harbringers.",
-        "flags": ["SILENT","RANDOM_DAMAGE", "RANDOM_TARGET"],
-        "valid_targets": ["hostile", "ground"],
-        "min_damage": 2,
-        "max_damage": 5,
-        "min_range": 13,
-        "max_range": 13,
-        "min_aoe": 5,
-        "max_aoe": 5,
-        "effect": "summon",
-        "effect_str": "mon_idol_vex_etherhar",
-        "min_duration": 2500,
-        "max_duration": 2500
-    },
-    {
-        "type": "SPELL",
-        "id": "mon_idol_vex_spell_car",
-        "name": "Cast-and-Run",
-        "description": "Imitates hit-and-run. Lasts for until their spell ceases from cooling down.",
-        "flags": ["SILENT"],
-        "valid_targets": ["self"],
-        "effect": "target_attack",
-        "effect_str": "run",
-        "min_duration": 1100,
-        "max_duration": 1100
-    },
-    {
-        "type": "SPELL",
-        "id": "mon_idol_vex_etherhar_spell_target",
-        "name": "a spell",
-        "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
-        "extra_effects": [{
-                "id": "mon_idol_vex_etherhar_spell"
-            }
-        ],
-        "flags": ["SILENT"],
-        "valid_targets": ["ground", "hostile"],
-        "effect": "target_attack",
-        "effect_str": "v_magic_target",
-        "min_range": 6,
-        "max_range": 6,
-        "min_duration": 1,
-        "max_duration": 1
-    },
-{
+    "extra_effects": [ { "id": "mon_idol_vex_etherealharbringer" }, { "id": "mon_idol_vex_spell_car", "hit_self": true } ]
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_idol_vex_etherealharbringer",
+    "name": "Ethereal Harbinger",
+    "description": "Summons 2-5 ethereal harbringers.",
+    "flags": [ "SILENT", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
+    "valid_targets": [ "hostile", "ground" ],
+    "min_damage": 2,
+    "max_damage": 5,
+    "min_range": 13,
+    "max_range": 13,
+    "min_aoe": 5,
+    "max_aoe": 5,
+    "effect": "summon",
+    "effect_str": "mon_idol_vex_etherhar",
+    "min_duration": 2500,
+    "max_duration": 2500
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_idol_vex_spell_car",
+    "name": "Cast-and-Run",
+    "description": "Imitates hit-and-run. Lasts for until their spell ceases from cooling down.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "effect_str": "run",
+    "min_duration": 1100,
+    "max_duration": 1100
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_idol_vex_etherhar_spell_target",
+    "name": "a spell",
+    "description": "Casted upon monster's LOS and within the predefined range. ALSO WHEN IT IS NOT ON COOLDOWN.",
+    "extra_effects": [ { "id": "mon_idol_vex_etherhar_spell" } ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ground", "hostile" ],
+    "effect": "target_attack",
+    "effect_str": "v_magic_target",
+    "min_range": 6,
+    "max_range": 6,
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
     "id": "mon_idol_vex_etherhar_spell",
     "type": "SPELL",
     "name": "Vex Spell",
     "description": "Picks a random spell. Everything got flat chances.",
     "valid_targets": [ "none" ],
     "effect": "target_attack",
-    "extra_effects": [
-			{
-                "id": "mon_idol_vex_etherhar_scatterbeam_combo"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_implosion_combo"
-            }
-        ],
+    "extra_effects": [ { "id": "mon_idol_vex_etherhar_scatterbeam_combo" }, { "id": "mon_idol_vex_etherhar_implosion_combo" } ],
     "min_damage": 1,
     "max_damage": 1,
     "flags": [ "WONDER" ]
-},
-{
+  },
+  {
     "id": "mon_idol_vex_etherhar_scatterbeam_combo",
     "type": "SPELL",
     "name": "Scatterbeam Combo",
@@ -378,42 +299,22 @@
     "effect": "target_attack",
     "message": "The ethereal harbringer bursts out ethereal beams!",
     "extra_effects": [
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "mon_idol_vex_etherhar_scatterbeam"
-            },
-            {
-                "id": "v_sacrifice_spell", "hit_self": true
-            }
-      ],
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "mon_idol_vex_etherhar_scatterbeam" },
+      { "id": "v_sacrifice_spell", "hit_self": true }
+    ],
     "min_damage": 5,
     "max_damage": 5,
     "flags": [ "WONDER" ]
-},
-{
+  },
+  {
     "id": "mon_idol_vex_etherhar_scatterbeam",
     "type": "SPELL",
     "name": "Scatterbeam",
@@ -428,8 +329,8 @@
     "max_aoe": 3,
     "flags": [ "RANDOM_DAMAGE", "RANDOM_TARGET", "RANDOM_AOE" ],
     "damage_type": "none"
-},
-{
+  },
+  {
     "id": "mon_idol_vex_etherhar_implosion_combo",
     "type": "SPELL",
     "name": "Implosion Combo",
@@ -438,30 +339,16 @@
     "effect": "target_attack",
     "message": "The ethereal harbringer implodes!",
     "extra_effects": [
-			{
-                "id": "mon_idol_vex_etherhar_implosion_pull","hit_self": true
-            },
-            {
-                "id": "mon_idol_vex_etherhar_implosion","hit_self": true
-            },
-            {
-                "id": "mon_idol_vex_etherhar_implosion_pull","hit_self": true
-            },
-            {
-                "id": "mon_idol_vex_etherhar_implosion","hit_self": true
-            },
-            {
-                "id": "mon_idol_vex_etherhar_implosion_pull","hit_self": true
-            },
-            {
-                "id": "mon_idol_vex_etherhar_implosion","hit_self": true
-            },
-            {
-                "id": "v_sacrifice_spell", "hit_self": true
-            }
-      ]
-},
-{
+      { "id": "mon_idol_vex_etherhar_implosion_pull", "hit_self": true },
+      { "id": "mon_idol_vex_etherhar_implosion", "hit_self": true },
+      { "id": "mon_idol_vex_etherhar_implosion_pull", "hit_self": true },
+      { "id": "mon_idol_vex_etherhar_implosion", "hit_self": true },
+      { "id": "mon_idol_vex_etherhar_implosion_pull", "hit_self": true },
+      { "id": "mon_idol_vex_etherhar_implosion", "hit_self": true },
+      { "id": "v_sacrifice_spell", "hit_self": true }
+    ]
+  },
+  {
     "id": "mon_idol_vex_etherhar_implosion",
     "type": "SPELL",
     "name": "Implosion",
@@ -474,17 +361,17 @@
     "max_aoe": 6,
     "flags": [ "RANDOM_DAMAGE", "RANDOM_AOE" ],
     "damage_type": "none"
-},
-{
-        "id": "mon_idol_vex_etherhar_implosion_pull",
-        "type": "SPELL",
-        "name": "Implosion Pull",
-        "description": "3 waves of pulling nearby foes.",
-        "effect": "area_pull",
-        "effect_filter": ["hostile"],
-        "flags": ["SILENT"],
-        "valid_targets": [ "self", "ally", "hostile", "ground" ],
-        "min_aoe": 6,
-        "max_aoe": 6
-    }
+  },
+  {
+    "id": "mon_idol_vex_etherhar_implosion_pull",
+    "type": "SPELL",
+    "name": "Implosion Pull",
+    "description": "3 waves of pulling nearby foes.",
+    "effect": "area_pull",
+    "effect_filter": [ "hostile" ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "self", "ally", "hostile", "ground" ],
+    "min_aoe": 6,
+    "max_aoe": 6
+  }
 ]
