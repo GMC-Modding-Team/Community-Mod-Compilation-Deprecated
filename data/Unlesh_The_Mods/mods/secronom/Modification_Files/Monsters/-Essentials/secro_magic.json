@@ -4175,9 +4175,7 @@
     "id": "mon_secro_electurret_target",
     "name": "a spell",
     "description": "Target spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster locks its line of sight onto the target, then casts the Spell(s).'",
-    "extra_effects": [
-      { "id": "mon_secro_electurret_elecshock", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_secro_electurret_elecshock", "hit_self": true } ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "target_attack",
@@ -4221,9 +4219,7 @@
     "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster shoots with its concentrated ray of heat, which pierces through the targets.'",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "ally", "ground" ],
-    "extra_effects": [
-      { "id": "mon_secro_turret_hpdown", "hit_self": true }
-    ],
+    "extra_effects": [ { "id": "mon_secro_turret_hpdown", "hit_self": true } ],
     "effect": "line_attack",
     "min_damage": 12,
     "max_damage": 16,

@@ -31,16 +31,16 @@
         }
       },
       {
-      "text": "Yeah, and I want to know more about your plans.",
-      "topic": "TALK_DONE",
-      "condition": {
-        "and": [
-          { "not": { "u_has_effect": "secro_researcher_mission1_help_done" } },
-          { "u_has_effect": "secro_scientist_partake_mission1" }
-        ]
+        "text": "Yeah, and I want to know more about your plans.",
+        "topic": "TALK_DONE",
+        "condition": {
+          "and": [
+            { "not": { "u_has_effect": "secro_researcher_mission1_help_done" } },
+            { "u_has_effect": "secro_scientist_partake_mission1" }
+          ]
+        },
+        "effect": [ { "duration": "PERMANENT", "u_add_effect": "secro_researcher_mission1_help_done" }, "stop_following" ]
       },
-      "effect": [ { "duration": "PERMANENT", "u_add_effect": "secro_researcher_mission1_help_done" }, "stop_following" ]
-    },
       {
         "truefalsetext": {
           "condition": { "u_has_effect": "secro_scientist_mission1_progress" },

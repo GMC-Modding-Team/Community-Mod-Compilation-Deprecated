@@ -15,18 +15,14 @@
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> Harmless Potatoes",
     "description": "Slay 5 lying bodies.\n",
-    "requirements": [
-      { "event_statistic": "num_avatar_secronom_zombie_WALKINGPOTATO_kills", "is": ">=", "target": 5 }
-    ]
+    "requirements": [ { "event_statistic": "num_avatar_secronom_zombie_WALKINGPOTATO_kills", "is": ">=", "target": 5 } ]
   },
   {
     "id": "achievement_secronom_monkill_swarm",
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> The Swarm",
     "description": "Slay 15 swarmers.\n",
-    "requirements": [
-      { "event_statistic": "num_avatar_secronom_zombie_swarmer_weak_kills", "is": ">=", "target": 15 }
-    ]
+    "requirements": [ { "event_statistic": "num_avatar_secronom_zombie_swarmer_weak_kills", "is": ">=", "target": 15 } ]
   },
   {
     "id": "achievement_secronom_monkill_zombie_blade",
@@ -222,11 +218,11 @@
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> Hidden Identity",
     "description": "Reveal then slay the fake zombies.\n",
-    "requirements": [ 
-	  { "event_statistic": "num_avatar_secronom_zombie_ichorus_kills", "is": ">=", "target": 2 },
-	  { "event_statistic": "num_avatar_secronom_zombie_psyrus_kills", "is": ">=", "target": 2 },
-	  { "event_statistic": "num_avatar_secronom_shifter_kills", "is": ">=", "target": 1 }
-	]
+    "requirements": [
+      { "event_statistic": "num_avatar_secronom_zombie_ichorus_kills", "is": ">=", "target": 2 },
+      { "event_statistic": "num_avatar_secronom_zombie_psyrus_kills", "is": ">=", "target": 2 },
+      { "event_statistic": "num_avatar_secronom_shifter_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_necromance",
@@ -240,34 +236,34 @@
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> Lonewolf",
     "description": "Slay an ascended stray zombie of each element.\n",
-    "requirements": [ 
-	  { "event_statistic": "num_avatar_secronom_zombie_stray_w_leaf_stro3_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_stray_w_acid_stro3_kills", "is": ">=", "target": 1 } 
-	]
+    "requirements": [
+      { "event_statistic": "num_avatar_secronom_zombie_stray_w_leaf_stro3_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_stray_w_acid_stro3_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_bioweps",
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> Bio Organic Weapons",
     "description": "Slay the BOWs of the lab.\n",
-    "requirements": [ 
-	  { "event_statistic": "num_avatar_secronom_zedbow_kaxix_kills", "is": ">=", "target": 8 },
-	  { "event_statistic": "num_avatar_secronom_zedbow_axxuros_kills", "is": ">=", "target": 4 },
-	  { "event_statistic": "num_avatar_secronom_zedbow_exios_kills", "is": ">=", "target": 4 },
-	  { "event_statistic": "num_avatar_secronom_zedbow_drexx_kills", "is": ">=", "target": 2 },
-	  { "event_statistic": "num_avatar_secronom_zedbow_epixo_kills", "is": ">=", "target": 1 }
-	]
+    "requirements": [
+      { "event_statistic": "num_avatar_secronom_zedbow_kaxix_kills", "is": ">=", "target": 8 },
+      { "event_statistic": "num_avatar_secronom_zedbow_axxuros_kills", "is": ">=", "target": 4 },
+      { "event_statistic": "num_avatar_secronom_zedbow_exios_kills", "is": ">=", "target": 4 },
+      { "event_statistic": "num_avatar_secronom_zedbow_drexx_kills", "is": ">=", "target": 2 },
+      { "event_statistic": "num_avatar_secronom_zedbow_epixo_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_wanderers",
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> Wasteland Wanderers",
     "description": "Slay each wandering specimens.\n",
-    "requirements": [ 
-	  { "event_statistic": "num_avatar_secronom_ayenel_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_maneater_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_shifter_kills", "is": ">=", "target": 1 }
-	]
+    "requirements": [
+      { "event_statistic": "num_avatar_secronom_ayenel_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_maneater_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_shifter_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_giantworms",
@@ -275,10 +271,10 @@
     "name": "<color_light_red>(Secronom)</color> Colossal Worms",
     "description": "Slay each of the mutant worms.\n",
     "requirements": [
-	  { "event_statistic": "num_avatar_secronom_zombieworm_gravedigger_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombieworm_wriggly_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombieworm_mawy_kills", "is": ">=", "target": 1 }
-	]
+      { "event_statistic": "num_avatar_secronom_zombieworm_gravedigger_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombieworm_wriggly_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombieworm_mawy_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_saddlers",
@@ -286,10 +282,10 @@
     "name": "<color_light_red>(Secronom)</color> Head Crabs",
     "description": "Slay a saddler and its \"riding\" counterparts.\n",
     "requirements": [
-	  { "event_statistic": "num_avatar_secronom_saddler_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_saddler_infected_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_saddler_infected_kills", "is": ">=", "target": 1 }
-	]
+      { "event_statistic": "num_avatar_secronom_saddler_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_saddler_infected_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_saddler_infected_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_fleshybosses",
@@ -297,9 +293,9 @@
     "name": "<color_light_red>(Secronom)</color> Crimson Hiveminds",
     "description": "Slay the flesh each of its different variations.\n",
     "requirements": [
-	  { "event_statistic": "num_avatar_secronom_sflesh_flesh_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_sflesh_flesh_city_kills", "is": ">=", "target": 1 }
-	]
+      { "event_statistic": "num_avatar_secronom_sflesh_flesh_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_sflesh_flesh_city_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_pandemonium",
@@ -307,14 +303,14 @@
     "name": "<color_light_red>(Secronom)</color> Pandemonium On The Streets",
     "description": "Slay a gorepit and an equinox along with their minions.\n",
     "requirements": [
-	  { "event_statistic": "num_avatar_secronom_zombie_gorepit_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_gorepit_tent_kills", "is": ">=", "target": 10 },
-	  { "event_statistic": "num_avatar_secronom_zombie_equinox_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_kills", "is": ">=", "target": 10 },
-	  { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_stab_kills", "is": ">=", "target": 5 },
-	  { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_cut_kills", "is": ">=", "target": 5 },
-	  { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_emit_kills", "is": ">=", "target": 2 }
-	]
+      { "event_statistic": "num_avatar_secronom_zombie_gorepit_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_gorepit_tent_kills", "is": ">=", "target": 10 },
+      { "event_statistic": "num_avatar_secronom_zombie_equinox_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_kills", "is": ">=", "target": 10 },
+      { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_stab_kills", "is": ">=", "target": 5 },
+      { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_cut_kills", "is": ">=", "target": 5 },
+      { "event_statistic": "num_avatar_secronom_zombie_equinox_necros_emit_kills", "is": ">=", "target": 2 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_citybigbois",
@@ -322,12 +318,12 @@
     "name": "<color_light_red>(Secronom)</color> Size Doesn't Matter",
     "description": "Just show those overgrown bastards that you're the best!\n",
     "requirements": [
-	  { "event_statistic": "num_avatar_secronom_zombie_fleshmonger_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_gorepit_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_cordev_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_fleshysnaky_kills", "is": ">=", "target": 1 },
-	  { "event_statistic": "num_avatar_secronom_zombie_equinox_kills", "is": ">=", "target": 1 }
-	]
+      { "event_statistic": "num_avatar_secronom_zombie_fleshmonger_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_gorepit_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_cordev_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_fleshysnaky_kills", "is": ">=", "target": 1 },
+      { "event_statistic": "num_avatar_secronom_zombie_equinox_kills", "is": ">=", "target": 1 }
+    ]
   },
   {
     "id": "achievement_secronom_monkill_cyberdrago",
@@ -461,18 +457,14 @@
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> Unexpected Grab!",
     "description": "Sometimes, they twitch too.\n",
-    "requirements": [
-      { "event_statistic": "num_avatar_secronom_efflost_secro_flesh_tree_grab", "is": ">=", "target": 1 }
-    ]
+    "requirements": [ { "event_statistic": "num_avatar_secronom_efflost_secro_flesh_tree_grab", "is": ">=", "target": 1 } ]
   },
   {
     "id": "achievement_secronom_special_meat_eat",
     "type": "achievement",
     "name": "<color_light_red>(Secronom)</color> \"The Flesh\"",
     "description": "Dare to eat what you've sworn to destroy.\n",
-    "requirements": [
-      { "event_statistic": "num_avatar_secronom_effget_secro_flesh_bio_limb", "is": ">=", "target": 1 }
-    ]
+    "requirements": [ { "event_statistic": "num_avatar_secronom_effget_secro_flesh_bio_limb", "is": ">=", "target": 1 } ]
   },
   {
     "id": "achievement_secronom_special_survive1",
