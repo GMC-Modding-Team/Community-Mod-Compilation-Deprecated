@@ -3,7 +3,7 @@
     "//": "This spell exists in json as a template for contributors to see the possible values of the spell",
     "id": "example_template",
     "type": "SPELL",
-    "name": "Template Spell",
+    "name": { "str": "Template Spell" },
     "description": "This is a template to show off all the available values",
     "message": "As you cast %s, your ears pops!",
     "//2": "The 'message' will replace 'You cast %s!' message when you cast this spell",
@@ -43,7 +43,7 @@
   {
     "type": "SPELL",
     "id": "debug_push_basic",
-    "name": "debug push no aoe",
+    "name": { "str": "debug push no aoe" },
     "description": "pushes all types of objects with an aoe of 0",
     "valid_targets": [ "ally", "self", "hostile", "field", "item", "ground" ],
     "effect": "directed_push",
@@ -58,7 +58,7 @@
   {
     "type": "SPELL",
     "id": "debug_push_blast",
-    "name": "debug push blast",
+    "name": { "str": "debug push blast" },
     "description": "pushes all types of objects with an aoe of 3 in a blast pattern",
     "valid_targets": [ "ally", "self", "hostile", "field", "item", "ground" ],
     "effect": "directed_push",
@@ -75,7 +75,7 @@
   {
     "id": "spawn_debug_monster",
     "type": "SPELL",
-    "name": "Spawn Debug Monsters",
+    "name": { "str": "Spawn Debug Monsters" },
     "description": "Set level to number of monsters spawned.",
     "message": "Debug spell %s cast.",
     "valid_targets": [ "ground" ],
@@ -98,7 +98,7 @@
   {
     "id": "debug_stamina",
     "type": "SPELL",
-    "name": "Debug Stamina Spell",
+    "name": { "str": "Debug Stamina Spell" },
     "description": "Uses a little stamina",
     "message": "Debug spell [ %s ] has no effect.  Debug warning is expected.",
     "valid_targets": [ "self" ],
@@ -113,7 +113,7 @@
   {
     "id": "debug_fatigue",
     "type": "SPELL",
-    "name": "Debug Fatigue Spell",
+    "name": { "str": "Debug Fatigue Spell" },
     "description": "Uses a little fatigue",
     "message": "Debug spell %s cast.",
     "valid_targets": [ "self" ],
@@ -128,7 +128,7 @@
   {
     "id": "debug_polymorph",
     "type": "SPELL",
-    "name": "Debug polymorph",
+    "name": { "str": "Debug polymorph" },
     "description": "Well you wanted to lose weight, right?",
     "valid_targets": [ "hostile", "ally" ],
     "flags": [ "NO_LEGS", "LOUD", "SOMATIC" ],
@@ -148,7 +148,7 @@
   {
     "id": "debug_hp",
     "type": "SPELL",
-    "name": "Debug HP Spell",
+    "name": { "str": "Debug HP Spell" },
     "description": "Uses a little HP",
     "message": "Debug spell %s cast.",
     "valid_targets": [ "self" ],
@@ -163,7 +163,7 @@
   {
     "id": "debug_bionic",
     "type": "SPELL",
-    "name": "Debug Bionic Spell",
+    "name": { "str": "Debug Bionic Spell" },
     "description": "Uses a little Bionic Power",
     "message": "Debug spell %s cast.",
     "valid_targets": [ "self" ],
@@ -178,7 +178,7 @@
   {
     "id": "debug_effect",
     "type": "SPELL",
-    "name": "Debug effect spell",
+    "name": { "str": "Debug effect spell" },
     "description": "Adds an effect to the target",
     "message": "Debug spell %s cast.",
     "valid_targets": [ "self", "hostile", "ally" ],
@@ -197,7 +197,7 @@
   {
     "id": "test_area_pull_all",
     "type": "SPELL",
-    "name": "Test Area Pull",
+    "name": { "str": "Test Area Pull" },
     "description": "Pulls all objects inside.",
     "message": "Debug spell %s cast.",
     "effect": "area_pull",
@@ -218,7 +218,7 @@
   {
     "id": "test_area_pull_field",
     "type": "SPELL",
-    "name": "Test Area Pull (Field)",
+    "name": { "str": "Test Area Pull (Field)" },
     "description": "Pulls field contents tiles inside.",
     "message": "Debug spell %s cast.",
     "effect": "area_pull",
@@ -239,7 +239,7 @@
   {
     "id": "test_area_push",
     "type": "SPELL",
-    "name": "Test Area Push",
+    "name": { "str": "Test Area Push" },
     "description": "Pushes all objects outside.",
     "message": "Debug spell %s cast.",
     "effect": "area_push",
@@ -260,7 +260,7 @@
   {
     "id": "debug_full_protection",
     "type": "SPELL",
-    "name": "Debug Full Protection",
+    "name": { "str": "Debug Full Protection" },
     "description": "You can not be harmed by anything.",
     "message": "You are invulnerable, nothing can harm you!",
     "valid_targets": [ "self" ],
@@ -278,7 +278,7 @@
   {
     "id": "debug_fall_protection",
     "type": "SPELL",
-    "name": "Debug Feather Falling",
+    "name": { "str": "Debug Feather Falling" },
     "description": "You  are light as a feather and fall like.",
     "message": "You eat a feather!",
     "valid_targets": [ "self" ],
