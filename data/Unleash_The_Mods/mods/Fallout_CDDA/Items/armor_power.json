@@ -1,5 +1,5 @@
-    [
-	  {
+[
+  {
     "id": "power_armor_t51",
     "type": "ARMOR",
     "category": "armor",
@@ -24,8 +24,7 @@
     "use_action": { "type": "ups_based_armor", "activate_msg": "Your power armor engages." },
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
   },
-  
-    {
+  {
     "id": "power_armor_helmet_t51",
     "type": "ARMOR",
     "category": "armor",
@@ -49,8 +48,7 @@
     "qualities": [ [ "GLARE", 2 ] ],
     "flags": [ "WATCH", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "THERMOMETER", "SUN_GLASSES" ]
   },
-  
-    {
+  {
     "id": "power_armor_t45",
     "type": "ARMOR",
     "category": "armor",
@@ -75,8 +73,7 @@
     "use_action": { "type": "ups_based_armor", "activate_msg": "Your power armor engages." },
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
   },
-  
-    {
+  {
     "id": "power_armor_helmet_t45",
     "type": "ARMOR",
     "category": "armor",
@@ -100,8 +97,7 @@
     "qualities": [ [ "GLARE", 2 ] ],
     "flags": [ "WATCH", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "THERMOMETER", "SUN_GLASSES" ]
   },
-  
-  	  {
+  {
     "id": "power_armor_x01",
     "type": "ARMOR",
     "category": "armor",
@@ -126,8 +122,7 @@
     "use_action": { "type": "ups_based_armor", "activate_msg": "Your power armor engages." },
     "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE" ]
   },
-  
-    {
+  {
     "id": "power_armor_helmet_x01",
     "type": "ARMOR",
     "category": "armor",
@@ -149,9 +144,9 @@
     "material_thickness": 15,
     "environmental_protection": 15,
     "qualities": [ [ "GLARE", 2 ] ],
-	"ammo": "battery", 
-	"charges_per_use": 1,
-	    "use_action": {
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "use_action": {
       "type": "transform",
       "msg": "You turn the helmet on.",
       "target": "power_armor_helmet_x01_on",
@@ -159,7 +154,7 @@
       "need_charges": 1,
       "need_charges_msg": "The helmet's batteries are dead."
     },
-	    "magazines": [
+    "magazines": [
       [
         "battery",
         [
@@ -176,8 +171,7 @@
     "magazine_well": 1,
     "flags": [ "WATCH", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "THERMOMETER", "SUN_GLASSES" ]
   },
-  
-	{
+  {
     "id": "power_armor_helmet_x01_on",
     "copy-from": "power_armor_helmet_x01",
     "repairs_like": "power_armor_helmet_x01",
@@ -185,7 +179,18 @@
     "name": "enclave x-01 power armor helmet (on)",
     "name_plural": "enclave x-01 power armor helmets (on)",
     "description": "An Enclave Power Helmet, with the eyes glowing menacingly.",
-    "flags": [ "LIGHT_450", "CHARGEDIM", "WATERPROOF", "TRADER_AVOID", "WATCH", "WATERPROOF", "STURDY", "PARTIAL_DEAF", "THERMOMETER", "SUN_GLASSES"  ],
+    "flags": [
+      "LIGHT_450",
+      "CHARGEDIM",
+      "WATERPROOF",
+      "TRADER_AVOID",
+      "WATCH",
+      "WATERPROOF",
+      "STURDY",
+      "PARTIAL_DEAF",
+      "THERMOMETER",
+      "SUN_GLASSES"
+    ],
     "power_draw": 15000,
     "revert_to": "power_armor_helmet_x01",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "The %s flicks off.", "target": "power_armor_helmet_x01" },
@@ -193,5 +198,4 @@
     "techniques": [ "WBLOCK_1" ],
     "magazine_well": 1
   }
-	
-	]
+]
