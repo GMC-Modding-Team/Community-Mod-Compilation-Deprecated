@@ -8,9 +8,9 @@
     "name": { "str": "improvised bandage" },
     "description": "Improvised cloth bandages, with skewers to pin them tight and staunch bleeding.",
     "price": 0,
-    "material": "cotton",
+    "material": [ "cotton" ],
     "weight": "80 g",
-    "volume": 1,
+    "volume": "250 ml",
     "flags": [ "NO_SALVAGE" ],
     "use_action": { "type": "heal", "limb_power": 0, "head_power": 0, "torso_power": 0, "bleed": 1, "move_cost": 400 }
   },
@@ -23,9 +23,9 @@
     "name": { "str": "wound irrigator" },
     "description": "An improvised wound irrigator, able to effectively clean out deep wounds.",
     "price": 0,
-    "material": "plastic",
+    "material": [ "plastic" ],
     "weight": "160 g",
-    "volume": 1,
+    "volume": "250 ml",
     "flags": [ "NO_SALVAGE" ],
     "use_action": {
       "type": "heal",
@@ -46,9 +46,9 @@
     "name": { "str": "empty wound irrigator" },
     "description": "An empty improvised wound irrigator, refillable with saline solution.",
     "price": 0,
-    "material": "plastic",
+    "material": [ "plastic" ],
     "weight": "80 g",
-    "volume": 1,
+    "volume": "250 ml",
     "flags": [ "NO_SALVAGE" ]
   }
 ]

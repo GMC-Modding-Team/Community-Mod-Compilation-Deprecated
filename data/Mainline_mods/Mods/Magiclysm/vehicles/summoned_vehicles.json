@@ -10,7 +10,7 @@
     "id": "mana_wheel",
     "category": "veh_parts",
     "type": "WHEEL",
-    "name": "mana wheel",
+    "name": { "str": "mana wheel" },
     "description": "A column of mana energy that enables a floating disk to move.",
     "weight": "500 g",
     "volume": "500 ml",
@@ -33,9 +33,18 @@
       {
         "x": 0,
         "y": 0,
-        "parts": [ "frame_vertical_2", "saddle_motor", "motorcycle_kickstand", "controls", "controls_electronic" ]
+        "parts": [
+          "frame_vertical_2",
+          "saddle_motor",
+          "motorcycle_kickstand",
+          "controls",
+          "controls_electronic",
+          "vehicle_alarm",
+          "horn_car",
+          "engine_vtwin_magic",
+          "alternator_motorbike"
+        ]
       },
-      { "x": 0, "y": 0, "parts": [ "vehicle_alarm", "horn_car", "engine_vtwin_magic", "alternator_motorbike" ] },
       { "x": 1, "y": 0, "parts": [ "frame_handle", "headlight", "battery_motorbike" ] },
       { "x": 2, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light_steerable", "wheel_motorbike" ] }
     ]
@@ -43,7 +52,7 @@
   {
     "type": "vehicle_part",
     "id": "mana_frame",
-    "name": "mana frame",
+    "name": { "str": "mana frame" },
     "symbol": "O",
     "categories": [ "movement", "hull" ],
     "color": "magenta",
@@ -81,7 +90,7 @@
     "id": "mana",
     "type": "AMMO",
     "category": "chems",
-    "name": "mana core power",
+    "name": { "str": "mana core power" },
     "description": "Seeing this is a bug.",
     "weight": "10 g",
     "volume": "10 ml",
