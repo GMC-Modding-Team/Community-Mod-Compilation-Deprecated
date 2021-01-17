@@ -7,6 +7,16 @@ milestones: 'Experimental Compilation 0.F Release'
 Reviewers: 'TheGoatGod'
 
 --->
+<!---
+**Tags**
+[Experimental]
+[E-3]
+[Soundpacks]
+[Tilesets]
+[Fonts]
+[Documentation]
+--->
+
 
 **Name the mod added to the compilation**
 Put the name of the mod(s) that you have added here.
