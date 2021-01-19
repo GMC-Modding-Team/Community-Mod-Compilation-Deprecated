@@ -1,5 +1,5 @@
 [
-    {
+  {
     "type": "COMESTIBLE",
     "id": "chili_canned",
     "name": "canned chili",
@@ -21,8 +21,7 @@
     "charges": 2,
     "vitamins": [ [ "vitA", 14 ], [ "vitC", 7 ], [ "calcium", 6 ], [ "iron", 27 ] ]
   },
-  
-      {
+  {
     "type": "COMESTIBLE",
     "id": "beans_refried",
     "name": "refried beans",
@@ -44,8 +43,7 @@
     "charges": 6,
     "vitamins": [ [ "vitA", 14 ], [ "vitC", 7 ], [ "calcium", 6 ], [ "iron", 27 ] ]
   },
-  
-        {
+  {
     "type": "COMESTIBLE",
     "id": "chili_canned_nobeans",
     "name": "beanless canned chili",
@@ -67,14 +65,17 @@
     "charges": 4,
     "vitamins": [ [ "vitA", 14 ], [ "vitC", 7 ], [ "calcium", 6 ], [ "iron", 27 ] ]
   },
-  
-    {
+  {
     "type": "COMESTIBLE",
     "id": "chiliburger",
     "name": "chili burger",
     "conditional_names": [
       { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str": "chump %s", "str_pl": "chump %s" } },
-      { "type": "COMPONENT_ID", "condition": "mutant", "name": { "str": "chilling burger", "str_pl": "chilling burgers" } }
+      {
+        "type": "COMPONENT_ID",
+        "condition": "mutant",
+        "name": { "str": "chilling burger", "str_pl": "chilling burgers" }
+      }
     ],
     "weight": "133 g",
     "color": "brown",
@@ -92,8 +93,7 @@
     "fun": 10,
     "vitamins": [ [ "calcium", 9 ], [ "iron", 14 ], [ "vitA", 14 ], [ "vitC", 7 ] ]
   },
-  
-    {
+  {
     "type": "COMESTIBLE",
     "id": "chilirice",
     "name": "chili and rice",
@@ -113,5 +113,4 @@
     "fun": 5,
     "vitamins": [ [ "vitC", 14 ], [ "calcium", 4 ], [ "iron", 16 ] ]
   }
-  
 ]

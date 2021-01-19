@@ -1,5 +1,4 @@
 [
-
   {
     "type": "mutation_category",
     "id": "KITSUNE",
@@ -9,9 +8,6 @@
     "iv_message": "As the mutagen hits you, your ears twitch and you stifle a yipe.",
     "memorial_message": "Got outfoxed."
   },
-
-
-
   {
     "type": "mutation",
     "id": "THRESH_KITSUNE",
@@ -22,10 +18,7 @@
     "purifiable": false,
     "threshold": true
   },
-  
-  
-  
-    {
+  {
     "type": "mutation",
     "id": "PRETTY",
     "name": "Pretty",
@@ -38,7 +31,6 @@
     "cancels": [ "UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3" ],
     "changes_to": [ "BEAUTIFUL" ]
   },
-  
   {
     "type": "mutation",
     "id": "FOXY",
@@ -46,14 +38,13 @@
     "points": 2,
     "visibility": 4,
     "ugliness": -8,
-	"category": [ "KITSUNE" ],
-	"threshreq": [ "THRESH_KITSUNE" ],
+    "category": [ "KITSUNE" ],
+    "threshreq": [ "THRESH_KITSUNE" ],
     "description": "You perfectly balance out sex appeal and cuteness. People will generally react to you better.",
     "cancels": [ "UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3" ],
     "prereqs": [ "PRETTY" ]
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "QUICK",
     "name": "Quick",
@@ -63,9 +54,7 @@
     "category": [ "FISH", "BIRD", "INSECT", "TROGLOBITE", "CHIMERA", "RAPTOR", "MOUSE", "KITSUNE" ],
     "speed_modifier": 1.1
   },
-  
-  
-    {
+  {
     "type": "mutation",
     "id": "FLEET",
     "name": "Fleet-Footed",
@@ -77,8 +66,7 @@
     "types": [ "RUNNING" ],
     "movecost_flatground_modifier": 0.85
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "LIGHTSTEP",
     "name": "Light Step",
@@ -89,8 +77,7 @@
     "cancels": [ "CLUMSY" ],
     "noise_modifier": 0.4
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "FLIMSY",
     "name": "Flimsy",
@@ -104,9 +91,7 @@
     "changes_to": [ "FLIMSY2" ],
     "hp_modifier": -0.25
   },
-  
-  
-    {
+  {
     "type": "mutation",
     "id": "SMELLY",
     "name": "Strong Scent",
@@ -118,9 +103,7 @@
     "scent_intensity": 800,
     "category": [ "FELINE", "LUPINE", "MOUSE", "KITSUNE" ]
   },
-  
-  
-    {
+  {
     "type": "mutation",
     "id": "SMELLY_FOXMUSK",
     "name": "Fox Musk",
@@ -129,12 +112,10 @@
     "starting_trait": false,
     "types": [ "SCENT" ],
     "scent_intensity": 3200,
-		"threshreq": [ "THRESH_KITSUNE" ],
+    "threshreq": [ "THRESH_KITSUNE" ],
     "category": [ "KITSUNE" ]
   },
-  
-  
-    {
+  {
     "type": "mutation",
     "id": "NIGHTVISION",
     "name": "Night Vision",
@@ -147,8 +128,7 @@
     "active": true,
     "starts_active": true
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "NIGHTVISION2",
     "name": "High Night Vision",
@@ -161,7 +141,6 @@
     "active": true,
     "starts_active": true
   },
-  
   {
     "type": "mutation",
     "id": "NIGHTVISION3",
@@ -175,8 +154,7 @@
     "active": true,
     "starts_active": true
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "MEATARIAN",
     "name": "Hates Vegetables",
@@ -188,9 +166,7 @@
     "cancels": [ "VEGETARIAN" ],
     "category": [ "KITSUNE" ]
   },
-  
-  
-    {
+  {
     "type": "mutation",
     "id": "SPIRITUAL",
     "name": "Spiritual",
@@ -201,8 +177,7 @@
     "valid": false,
     "category": [ "KITSUNE" ]
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "PYROMANIA",
     "name": "Pyromaniac",
@@ -211,8 +186,7 @@
     "description": "You have an unhealthy obsession with fire, and you get anxious if you don't light them every now and then or stand near them often.  However, you gain a mood bonus from doing so.",
     "category": [ "KITSUNE" ]
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "GOODCARDIO",
     "name": "Indefatigable",
@@ -225,8 +199,7 @@
     "category": [ "FISH", "LUPINE", "MOUSE", "INSECT", "KITSUNE" ],
     "max_stamina_modifier": 1.25
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "GOODCARDIO2",
     "name": "Hyperactive",
@@ -239,8 +212,7 @@
     "category": [ "MOUSE", "KITSUNE" ],
     "max_stamina_modifier": 1.4
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "PER_UP",
     "name": "Perceptive",
@@ -248,7 +220,7 @@
     "description": "Your senses are a little keener.  Perception + 1",
     "changes_to": [ "PER_UP_2" ],
     "leads_to": [ "BIRD_EYE" ],
-	"category": [ "KITSUNE" ],
+    "category": [ "KITSUNE" ],
     "passive_mods": { "per_mod": 1 }
   },
   {
@@ -262,8 +234,6 @@
     "category": [ "ALPHA", "CHIMERA", "KITSUNE" ],
     "passive_mods": { "per_mod": 2 }
   },
-
-
   {
     "type": "mutation",
     "id": "INT_UP",
@@ -282,12 +252,11 @@
     "description": "You can out-fox anyone on the block!  Intelligence + 8",
     "prereqs": [ "INT_UP" ],
     "changes_to": [ "INT_UP_3" ],
-	"threshreq": [ "THRESH_KITSUNE" ],
-	"category": [ "KITSUNE" ],
+    "threshreq": [ "THRESH_KITSUNE" ],
+    "category": [ "KITSUNE" ],
     "passive_mods": { "int_mod": 8 }
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "DEX_UP",
     "name": { "str": "Dextrous" },
@@ -308,19 +277,17 @@
     "category": [ "LIZARD", "SPIDER", "CHIMERA", "RAPTOR", "MOUSE", "KITSUNE" ],
     "passive_mods": { "dex_mod": 2 }
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "KITSUNE_WEAK",
     "name": "Minor atrophy",
     "points": 1,
     "description": "Your muscles are a little weaker from lack of use. But who needs strength, right?  Strength - 2",
-	"threshreq": [ "THRESH_KITSUNE" ],
-	"category": [ "KITSUNE" ],
+    "threshreq": [ "THRESH_KITSUNE" ],
+    "category": [ "KITSUNE" ],
     "passive_mods": { "str_mod": -2 }
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "TAIL_FLUFFY",
     "name": "Fluffy Tail",
@@ -329,15 +296,14 @@
     "description": "You have a long, fluffy-furred tail.  It greatly improves your balance, making your ability to dodge much higher.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_LONG" ],
-	    "changes_to": [ "TAIL_TWIN" ],
+    "changes_to": [ "TAIL_TWIN" ],
     "category": [ "BEAST", "LUPINE", "KITSUNE" ],
     "restricts_gear": [ "LEG_L", "LEG_R" ],
     "allow_soft_gear": true,
     "social_modifiers": { "lie": -20, "persuade": 10 },
     "dodge_modifier": 4
   },
-  
-      {
+  {
     "type": "mutation",
     "id": "TAIL_TWIN",
     "name": "Twin Tails",
@@ -346,15 +312,14 @@
     "description": "Your fluffy tail has split into two! You can dodge even better, and you feel something special about the world around you.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_FLUFFY" ],
-		    "changes_to": [ "TAIL_TRI" ],
+    "changes_to": [ "TAIL_TRI" ],
     "category": [ "KITSUNE" ],
     "restricts_gear": [ "LEG_L", "LEG_R" ],
     "allow_soft_gear": true,
-    "social_modifiers": {  "persuade": 10 },
+    "social_modifiers": { "persuade": 10 },
     "dodge_modifier": 8,
     "mana_modifier": 1000
   },
-  
   {
     "type": "mutation",
     "id": "TAIL_TRI",
@@ -364,17 +329,15 @@
     "description": "Your fluffy tail has split further into three!  Magical potential is further increased, but dodge hasnt increased any further.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_TWIN" ],
-	"changes_to": [ "TAIL_QUAD" ],
+    "changes_to": [ "TAIL_QUAD" ],
     "category": [ "KITSUNE" ],
     "restricts_gear": [ "LEG_L", "LEG_R" ],
     "allow_soft_gear": true,
-    "social_modifiers": {  "persuade": 10 },
+    "social_modifiers": { "persuade": 10 },
     "dodge_modifier": 8,
     "mana_modifier": 1000,
     "mana_regen_multiplier": 1.1
   },
-  
-  
   {
     "type": "mutation",
     "id": "TAIL_QUAD",
@@ -389,14 +352,13 @@
     "restricts_gear": [ "LEG_L", "LEG_R" ],
     "threshreq": [ "THRESH_KITSUNE" ],
     "allow_soft_gear": true,
-    "social_modifiers": {  "persuade": 10 },
+    "social_modifiers": { "persuade": 10 },
     "dodge_modifier": 4,
     "mana_modifier": 1000,
     "mana_regen_multiplier": 1.1,
     "mana_multiplier": 1.25
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "TAIL_PENT",
     "name": "Five Tails",
@@ -405,18 +367,17 @@
     "description": "Your tails have split once more into five! Your old dodge modifier is gone, but your magic is further powering up",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_QUAD" ],
-		"changes_to": [ "TAIL_SEX" ],
+    "changes_to": [ "TAIL_SEX" ],
     "category": [ "KITSUNE" ],
     "restricts_gear": [ "LEG_L", "LEG_R" ],
     "threshreq": [ "THRESH_KITSUNE" ],
     "allow_soft_gear": true,
-    "social_modifiers": {  "persuade": 10 },
+    "social_modifiers": { "persuade": 10 },
     "mana_modifier": 1500,
     "mana_regen_multiplier": 1.3,
     "mana_multiplier": 1.5
   },
-
-    {
+  {
     "type": "mutation",
     "id": "TAIL_SEX",
     "name": "Six Tails",
@@ -429,12 +390,11 @@
     "restricts_gear": [ "LEG_L", "LEG_R" ],
     "threshreq": [ "THRESH_KITSUNE" ],
     "allow_soft_gear": true,
-    "social_modifiers": {  "persuade": 10 },
+    "social_modifiers": { "persuade": 10 },
     "mana_modifier": 2000,
     "mana_regen_multiplier": 1.5,
     "mana_multiplier": 1.5
   },
-
   {
     "type": "mutation",
     "id": "PAWS",
@@ -453,7 +413,6 @@
     "changes_to": [ "PAWS_LARGE" ],
     "category": [ "LUPINE", "RAT", "FELINE", "KITSUNE" ]
   },
-  
   {
     "type": "mutation",
     "id": "SNOUT",
@@ -465,8 +424,7 @@
     "changes_to": [ "BEAK", "BEAK_HUM", "BEAK_PECK", "PROBOSCIS", "MINOTAUR", "MUZZLE", "MUZZLE_BEAR", "MUZZLE_LONG", "MUZZLE_RAT" ],
     "category": [ "FELINE", "KITSUNE" ]
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "VULPINE_EARS",
     "name": { "str": "Fluffy Ears" },
@@ -478,7 +436,6 @@
     "category": [ "KITSUNE" ],
     "hearing_modifier": 1.75
   },
-
   {
     "type": "mutation",
     "id": "PRED2",
@@ -499,14 +456,13 @@
       "THRESH_URSINE",
       "THRESH_LIZARD",
       "THRESH_SPIDER",
-	  "THRESH_KITSUNE"
+      "THRESH_KITSUNE"
     ],
     "cancels": [ "PACIFIST" ],
     "category": [ "BEAST", "RAPTOR", "CHIMERA", "LUPINE", "FELINE", "URSINE", "LIZARD", "SPIDER", "KITSUNE" ],
     "flags": [ "PRED2" ]
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "WAKEFUL2",
     "name": "Very Little Sleep",
@@ -520,7 +476,6 @@
     "category": [ "ALPHA", "ELFA", "THRESH_KITSUNE" ],
     "fatigue_modifier": -0.25
   },
-  
   {
     "type": "mutation",
     "id": "FOXSLEEP",
@@ -536,8 +491,6 @@
     "fatigue_modifier": -0.5,
     "fatigue_regen_modifier": 0.5
   },
-
-
   {
     "type": "mutation",
     "id": "FUR",
@@ -554,8 +507,7 @@
     "category": [ "BEAST", "CATTLE", "RAT", "KITSUNE" ],
     "armor": [ { "parts": "ALL", "bash": 1 } ]
   },
-  
-    {
+  {
     "type": "mutation",
     "id": "FUR_FOX",
     "name": { "str": "Furry" },

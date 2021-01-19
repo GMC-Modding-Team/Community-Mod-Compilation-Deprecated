@@ -21,11 +21,11 @@
     "melee_dice_sides": 6,
     "melee_cut": 0,
     "dodge": 3,
-	"armor_bash": 5,
+    "armor_bash": 5,
     "armor_cut": 5,
     "harvest": "mutant_human",
     "path_settings": { "max_dist": 10 },
-	"special_attacks": [
+    "special_attacks": [
       {
         "type": "bite",
         "cooldown": 20,
@@ -38,17 +38,12 @@
         "no_infection_chance": 2
       }
     ],
-	"anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE", "STALK", "SOUND" ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [ [ "subway", 40 ], [ "sewer", 20 ], [ "trash", 5 ], [ "ammo", 18 ] ]
-    },
+    "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE", "STALK", "SOUND" ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "subway", 40 ], [ "sewer", 20 ], [ "trash", 5 ], [ "ammo", 18 ] ] },
     "death_function": [ "NORMAL" ],
     "flags": [ "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "FILTHY" ]
   },
-  
-  
-    {
+  {
     "id": "mon_lithovore",
     "type": "MONSTER",
     "name": { "str": "lithovore" },
@@ -70,7 +65,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 0,
     "dodge": 3,
-	"armor_bash": 17,
+    "armor_bash": 17,
     "armor_cut": 22,
     "harvest": "mutant_human",
     "path_settings": { "max_dist": 10 },
@@ -82,6 +77,4 @@
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BORES", "CAN_DIG", "BASHES", "GROUP_BASH", "HUMAN", "FILTHY" ]
   }
-  
-  
 ]

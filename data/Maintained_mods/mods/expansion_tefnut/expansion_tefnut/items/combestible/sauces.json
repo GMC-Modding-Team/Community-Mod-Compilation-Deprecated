@@ -13,7 +13,7 @@
     "comestible_type": "DRINK",
     "container": "bottle_glass",
     "primary_material": "water",
-	"material": [ "junk" ],
+    "material": [ "junk" ],
     "quench": -20,
     "charges": 10,
     "healthy": -1,
@@ -21,29 +21,26 @@
     "freezing_point": -22,
     "phase": "liquid"
   },
-  
-    {
+  {
     "id": "meat_cooked_hotsauce",
-	    "symbol": "%",
+    "symbol": "%",
     "weight": "296 g",
     "volume": "250 ml",
     "spoils_in": "1 day",
     "type": "COMESTIBLE",
     "name": "spicy meat",
-	   "conditional_names": [
+    "conditional_names": [
       { "type": "FLAG", "condition": "CANNIBALISM", "name": "Spicy Scamp" },
       { "type": "COMPONENT_ID", "condition": "mutant", "name": { "str": "suspicious %s", "str_pl": "suspicious %s" } }
     ],
     "description": "Freshly cooked meat, doused in a bit of hot sauce to bring out the flavors.",
     "price": 750,
     "parasites": 0,
-	    "comestible_type": "FOOD",
-	"material": [ "flesh", "junk"],
+    "comestible_type": "FOOD",
+    "material": [ "flesh", "junk" ],
     "fun": 5,
     "calories": 402,
     "vitamins": [ [ "vitC", 16 ], [ "calcium", 2 ], [ "iron", 69 ], [ "vitB", 778 ] ],
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ]
   }
-  
-  
 ]

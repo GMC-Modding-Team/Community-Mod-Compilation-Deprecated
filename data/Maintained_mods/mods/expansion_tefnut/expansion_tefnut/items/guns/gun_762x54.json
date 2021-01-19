@@ -1,5 +1,4 @@
 [
-
   {
     "id": "dragunov",
     "copy-from": "rifle_semi",
@@ -22,7 +21,7 @@
     "durability": 8,
     "min_cycle_recoil": 2700,
     "barrel_length": "500 ml",
-	    "default_mods": [ "rifle_scope" ],
+    "default_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -39,8 +38,6 @@
     ],
     "magazines": [ [ "762R", [ "dragunovmag", "dragunovsmallmag", "dragunovbigmag" ] ] ]
   },
-  
-  
   {
     "id": "avs36",
     "copy-from": "rifle_auto",
@@ -64,7 +61,7 @@
     "min_cycle_recoil": 2700,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": "500 ml",
-	"valid_mod_locations": [
+    "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -77,16 +74,14 @@
     ],
     "magazines": [ [ "762R", [ "avs36mag", "avs36bigmag" ] ] ]
   },
-  
-  
-    {
+  {
     "id": "aek999",
     "copy-from": "rifle_auto",
     "looks_like": "m240",
     "type": "GUN",
     "name": { "str": "AEK-999 Barsuk" },
     "description": "The AEK-999 Barsuk is a general-purpose machine gun designed by the Russian military to replace the PKM in LMG and SAW roles. It beat out the Pecheneg machine gun in trials.",
-	"//": "In our world, the Pecheneg won out, and the AEK-999 stopped seeing production by '06, but this is alternate history, baby.",
+    "//": "In our world, the Pecheneg won out, and the AEK-999 stopped seeing production by '06, but this is alternate history, baby.",
     "weight": "12400 g",
     "volume": "3 L",
     "price": 1000000,
@@ -118,8 +113,6 @@
     ],
     "magazines": [ [ "762R", [ "belt762R" ] ] ]
   },
-  
-  
   {
     "id": "pkm",
     "copy-from": "rifle_auto",
@@ -159,9 +152,7 @@
     ],
     "magazines": [ [ "762R", [ "belt762R" ] ] ]
   },
-  
-  
-    {
+  {
     "id": "huaqing",
     "looks_like": "ar15",
     "type": "GUN",
@@ -191,5 +182,4 @@
     "magazines": [ [ "762R", [ "belt762R" ] ] ],
     "flags": [ "NEVER_JAMS" ]
   }
-  
 ]

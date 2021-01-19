@@ -11,14 +11,13 @@
     "batch_time_factors": [ 80, 20 ],
     "book_learn": [ [ "recipe_animal", 8 ] ],
     "using": [ [ "mutagen_production_standard", 25 ] ],
-    "components": [ [ [ "mutagen", 1 ] ],
-                  [ [ "tofu", 3 ],
-				    [ "dry_tofu", 1],
-                    [ "tofu_fried", 1]			  ],
-				  [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ] ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "tofu", 3 ], [ "dry_tofu", 1 ], [ "tofu_fried", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ],
     "flags": [ "SECRET" ]
   },
-  
   {
     "type": "recipe",
     "result": "iv_mutagen_kitsune",
