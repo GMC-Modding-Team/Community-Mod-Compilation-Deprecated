@@ -13,9 +13,6 @@
     "color": "red",
     "damage_states": [ 0, 0 ]
   },
-
-
-
   {
     "id": "8ga_00",
     "type": "AMMO",
@@ -39,8 +36,6 @@
     "loudness": 160,
     "effects": [ "COOKOFF", "SHOT" ]
   },
-
-
   {
     "id": "8ga_dragon",
     "copy-from": "8ga_00",
@@ -89,8 +84,7 @@
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
   },
-  
-    {
+  {
     "id": "8ga_slug",
     "copy-from": "8ga_00",
     "type": "AMMO",
@@ -104,5 +98,4 @@
     "proportional": { "recoil": 1.4 },
     "delete": { "effects": [ "SHOT" ] }
   }
-
 ]

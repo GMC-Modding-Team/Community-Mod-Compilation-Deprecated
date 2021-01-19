@@ -40,9 +40,7 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "8x22mm", [ "type100mag" ] ] ]
   },
-  
-  
-    {
+  {
     "id": "type30",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -79,8 +77,6 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-  
   {
     "id": "type30_carbine",
     "copy-from": "rifle_manual",
@@ -118,9 +114,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-  
-      {
+  {
     "id": "type38",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -157,9 +151,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-  
-        {
+  {
     "id": "type38_carbine",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -196,8 +188,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-        {
+  {
     "id": "type1_tera",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -218,7 +209,7 @@
     "blackpowder_tolerance": 60,
     "clip_size": 5,
     "barrel_length": "250 ml",
-	"built_in_mods": [ "folding_stock_wood" ],
+    "built_in_mods": [ "folding_stock_wood" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -235,8 +226,6 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-  
   {
     "id": "type97",
     "copy-from": "rifle_manual",
@@ -258,7 +247,7 @@
     "blackpowder_tolerance": 60,
     "clip_size": 5,
     "barrel_length": "500 ml",
-	    "built_in_mods": [ "rifle_scope" ],
+    "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -275,8 +264,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-    {
+  {
     "id": "type96",
     "looks_like": "ar15",
     "type": "GUN",
@@ -299,7 +287,7 @@
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": "1000 ml",
-		    "built_in_mods": [ "bipod" ],
+    "built_in_mods": [ "bipod" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -317,8 +305,7 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "6x50mm", [ "type96mag", "belt6x50mm" ] ] ]
   },
-  
-      {
+  {
     "id": "type3",
     "looks_like": "ar15",
     "type": "GUN",
@@ -358,9 +345,7 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "6x50mm", [ "belt6x50mm" ] ] ]
   },
-  
-  
-        {
+  {
     "id": "type99",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -397,9 +382,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-  
-          {
+  {
     "id": "type99_carbine",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -436,9 +419,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-  
-          {
+  {
     "id": "type99_sniper",
     "copy-from": "rifle_manual",
     "looks_like": "ar15",
@@ -459,7 +440,7 @@
     "blackpowder_tolerance": 60,
     "clip_size": 5,
     "barrel_length": "1000 ml",
-			    "built_in_mods": [ "rifle_scope" ],
+    "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -476,8 +457,7 @@
     ],
     "flags": [ "RELOAD_ONE" ]
   },
-  
-      {
+  {
     "id": "type99_lmg",
     "looks_like": "ar15",
     "type": "GUN",
@@ -500,7 +480,7 @@
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": "1000 ml",
-		    "built_in_mods": [ "bipod" ],
+    "built_in_mods": [ "bipod" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -518,8 +498,7 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "7x58mm", [ "type99mag", "belt7x58mm" ] ] ]
   },
-  
-      {
+  {
     "id": "type92",
     "looks_like": "ar15",
     "type": "GUN",
@@ -559,5 +538,4 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "7x58mm", [ "belt7x58mm" ] ] ]
   }
-  
 ]

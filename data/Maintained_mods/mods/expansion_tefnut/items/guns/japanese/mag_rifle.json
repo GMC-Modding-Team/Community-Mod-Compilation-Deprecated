@@ -18,8 +18,7 @@
     "reload_time": 120,
     "flags": [ "MAG_COMPACT" ]
   },
-  
-    {
+  {
     "id": "type96mag",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
@@ -38,31 +37,27 @@
     "reload_time": 120,
     "flags": [ "MAG_COMPACT" ]
   },
-  
-    {
+  {
     "id": "belt6x50mm",
     "copy-from": "magazine_belt",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
     "name": { "str": "6.5x50mm Arisaka ammo belt" },
-	    "description": "A 500 round 6.5x50mm Arisaka Ammo belt, made for use with the type 3 LMG, though it can also be used for the Type 96 LMG.",
+    "description": "A 500 round 6.5x50mm Arisaka Ammo belt, made for use with the type 3 LMG, though it can also be used for the Type 96 LMG.",
     "ammo_type": "6x50mm",
     "capacity": 500,
-	"reload_time": 120,
+    "reload_time": 120,
     "default_ammo": "6x50mm",
     "linkage": "ammolink6x50mm"
   },
-  
-    {
+  {
     "id": "ammolink6x50mm",
     "copy-from": "ammolink",
     "type": "GENERIC",
     "name": { "str": "6.5x50mm Arisaka ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt6x50mm" }
   },
-  
-  
-      {
+  {
     "id": "type99mag",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
@@ -81,27 +76,24 @@
     "reload_time": 120,
     "flags": [ "MAG_COMPACT" ]
   },
-  
-    {
+  {
     "id": "belt7x58mm",
     "copy-from": "magazine_belt",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
     "name": { "str": "7.7x56mm Arisaka ammo belt" },
-	    "description": "A 500 round 7.7x58mm Arisaka Ammo belt, made for use with the type 3 LMG, though it can also be used for the Type 96 LMG. It's reloadable, because the mod creator wanted these NOT to be an excercise in CBT to use.",
+    "description": "A 500 round 7.7x58mm Arisaka Ammo belt, made for use with the type 3 LMG, though it can also be used for the Type 96 LMG. It's reloadable, because the mod creator wanted these NOT to be an excercise in CBT to use.",
     "ammo_type": "7x58mm",
     "capacity": 500,
-	"reload_time": 120,
+    "reload_time": 120,
     "default_ammo": "7x58mm",
     "linkage": "ammolink7x58mm"
   },
-  
-    {
+  {
     "id": "ammolink7x58mm",
     "copy-from": "ammolink",
     "type": "GENERIC",
     "name": { "str": "7.7x56mm Arisaka ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt7x58mm" }
   }
-  
 ]

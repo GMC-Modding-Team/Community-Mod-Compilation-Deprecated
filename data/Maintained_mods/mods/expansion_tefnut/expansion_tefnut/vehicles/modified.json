@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "apc_hobo",
     "type": "vehicle",
     "name": "Hobo Armored Personnel Carrier",
@@ -57,20 +57,22 @@
       { "y": -2, "x": 0, "parts": [ "wheel_mount_heavy", "wheel_armor" ] },
       { "y": 2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
       { "y": 1, "x": -1, "parts": [ "hdframe_vertical_2", "kitchen_unit", "towel_hanger", "hdroof", "solar_panel" ] },
-	  { "y": 1, "x": -1, "part": "tank", "fuel": "water_clean" },
+      { "y": 1, "x": -1, "part": "tank", "fuel": "water_clean" },
       { "y": 0, "x": -1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof", "solar_panel" ] },
       { "y": -1, "x": -1, "parts": [ "hdframe_vertical_2", "seat", "hdroof", "solar_panel" ] },
       { "y": -2, "x": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ] },
       { "y": 2, "x": -2, "parts": [ "hdframe_se", "hdboard_se", "muffler", "plating_military" ] },
-      { "y": 1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military"] },
+      { "y": 1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
       { "y": 0, "x": -2, "parts": [ "hdframe_horizontal", "hddoor_opaque", "omnicam", "plating_military" ] },
       { "y": -1, "x": -2, "parts": [ "hdframe_horizontal", "hdboard_horizontal", "plating_military" ] },
       { "y": -2, "x": -2, "parts": [ "hdframe_sw", "hdboard_sw", "muffler", "plating_military" ] },
       { "y": 2, "x": -3, "parts": [ { "fuel": "jp8", "part": "external_tank" } ] },
       { "y": -2, "x": -3, "parts": [ { "fuel": "jp8", "part": "external_tank" } ] }
     ],
-    "items": [ { "y": -1, "x": 3, "chance": 100, "items": [ "55_boys_mk1" ] },
-               { "y": -1, "x": 3, "chance": 100, "items": [ "55_boys_mk2" ] },
-               { "y": -1, "x": 3, "chance": 100,"ammo": 50, "items": [ "boysmag" ] } ]
+    "items": [
+      { "y": -1, "x": 3, "chance": 100, "items": [ "55_boys_mk1" ] },
+      { "y": -1, "x": 3, "chance": 100, "items": [ "55_boys_mk2" ] },
+      { "y": -1, "x": 3, "chance": 100, "ammo": 50, "items": [ "boysmag" ] }
+    ]
   }
 ]
