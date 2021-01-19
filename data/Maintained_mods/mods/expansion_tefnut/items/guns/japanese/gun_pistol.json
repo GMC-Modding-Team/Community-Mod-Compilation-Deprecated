@@ -1,5 +1,4 @@
 [
-
   {
     "id": "type_26_revolver",
     "copy-from": "pistol_revolver",
@@ -21,7 +20,6 @@
     "blackpowder_tolerance": 56,
     "clip_size": 6
   },
-  
   {
     "id": "nambu_14",
     "copy-from": "pistol_base",
@@ -35,7 +33,7 @@
     "price_postapoc": 1750,
     "to_hit": -2,
     "bashing": 8,
-    "material": [ "wood", "steel"],
+    "material": [ "wood", "steel" ],
     "color": "dark_gray",
     "ammo": "8x22mm",
     "dispersion": 480,
@@ -43,7 +41,6 @@
     "magazine_well": 1,
     "magazines": [ [ "8x22mm", [ "nambumag" ] ] ]
   },
-
   {
     "id": "type2",
     "looks_like": "hk_mp5",
@@ -84,6 +81,4 @@
     "magazine_well": 1,
     "magazines": [ [ "8x22mm", [ "type2mag", "type2extmag" ] ] ]
   }
-
-
 ]

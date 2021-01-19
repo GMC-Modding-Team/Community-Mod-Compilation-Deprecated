@@ -20,15 +20,11 @@
     "dispersion": 680,
     "durability": 3,
     "min_cycle_recoil": 504,
-    "valid_mod_locations": [
-      [ "grip", 1 ],
-      [ "sights", 1 ]
-    ],
+    "valid_mod_locations": [ [ "grip", 1 ], [ "sights", 1 ] ],
     "faults": [ "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazine_well": 1,
     "magazines": [ [ "13mm_gyro", [ "13mm_gyro_mag" ] ] ]
   },
-  
   {
     "id": "gyro_pistol_enhanced",
     "looks_like": "glock_17",
@@ -64,9 +60,7 @@
     "magazine_well": 1,
     "magazines": [ [ "13mm_gyro", [ "13mm_gyro_mag" ] ] ]
   },
-  
-  
-    {
+  {
     "id": "51_gyro_rifle",
     "copy-from": "rifle_auto",
     "looks_like": "ar15",
@@ -90,15 +84,6 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": "250 ml",
     "built_in_mods": [ "folding_stock" ],
-    "magazines": [
-      [
-        "51_gyro",
-        [
-		  "51_gyro_mag_30",
-          "51_gyro_mag_10",
-          "belt_51_gyro"
-        ]
-      ]
-    ]
+    "magazines": [ [ "51_gyro", [ "51_gyro_mag_30", "51_gyro_mag_10", "belt_51_gyro" ] ] ]
   }
 ]

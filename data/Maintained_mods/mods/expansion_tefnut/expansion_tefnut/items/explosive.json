@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "cactus_grenade",
     "type": "TOOL",
     "category": "weapons",
@@ -16,12 +16,8 @@
     "color": "light_gray",
     "initial_charges": 3,
     "max_charges": 3,
-	"explode_in_fire": true,
-    "explosion": {
-      "damage": 40,
-      "radius": 2,
-	  "fire": true
-    },
+    "explode_in_fire": true,
+    "explosion": { "damage": 40, "radius": 2, "fire": true },
     "use_action": {
       "target": "cactus_grenade_lit",
       "msg": "You light the Molotov cocktail!",
@@ -34,8 +30,6 @@
     },
     "flags": [ "NPC_ACTIVATE", "NO_REPAIR" ]
   },
-  
-  
   {
     "id": "cactus_grenade_lit",
     "type": "TOOL",
@@ -55,23 +49,14 @@
     "max_charges": 3,
     "turns_per_charge": 1,
     "explode_in_fire": true,
-    "explosion": {
-      "damage": 40,
-      "radius": 2,
-	  "fire": true
-    },
+    "explosion": { "damage": 40, "radius": 2, "fire": true },
     "use_action": {
       "type": "explosion",
       "sound_volume": 0,
       "sound_msg": "ssss...",
       "no_deactivate_msg": "You've already lit the %s, try throwing it instead.",
-      "explosion": {
-        "damage": 40,
-        "radius": 2,
-		"fire": true
-      }
-	  },
-    "flags": [  "TRADER_AVOID", "BOMB", "DANGEROUS",	"NO_REPAIR", "WATER_EXTINGUISH" ]
+      "explosion": { "damage": 40, "radius": 2, "fire": true }
+    },
+    "flags": [ "TRADER_AVOID", "BOMB", "DANGEROUS", "NO_REPAIR", "WATER_EXTINGUISH" ]
   }
-  
 ]

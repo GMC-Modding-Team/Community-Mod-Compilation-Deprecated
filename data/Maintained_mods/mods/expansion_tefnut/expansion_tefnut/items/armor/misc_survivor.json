@@ -21,9 +21,7 @@
     "environmental_protection": 2,
     "flags": [ "OVERSIZE", "OUTER", "HOOD", "STURDY" ]
   },
-  
-  
-    {
+  {
     "id": "jedi_cloak_survivor",
     "repairs_like": "cloak",
     "type": "ARMOR",
@@ -46,8 +44,7 @@
     "environmental_protection": 5,
     "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "STURDY" ]
   },
-  
-    {
+  {
     "id": "cloak_survivor",
     "type": "ARMOR",
     "name": { "str": "survivor cloak" },
@@ -69,9 +66,7 @@
     "environmental_protection": 3,
     "flags": [ "OVERSIZE", "HOOD", "OUTER" ]
   },
-  
-  
-    {
+  {
     "id": "blanket_survivor",
     "type": "ARMOR",
     "name": { "str": "survivor blanket" },
@@ -93,7 +88,6 @@
     "environmental_protection": 1,
     "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "STURDY" ]
   },
-  
   {
     "id": "fur_blanket_survivor",
     "type": "ARMOR",
@@ -116,8 +110,7 @@
     "environmental_protection": 1,
     "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "STURDY" ]
   },
-  
-    {
+  {
     "id": "tophat_survivor",
     "repairs_like": "tophat",
     "type": "ARMOR",
@@ -138,7 +131,7 @@
     "warmth": 5,
     "material_thickness": 2,
     "environmental_protection": 1,
-	    "use_action": {
+    "use_action": {
       "type": "holster",
       "holster_prompt": "Sheath knife",
       "holster_msg": "You sheath your %s",
@@ -148,6 +141,4 @@
     },
     "flags": [ "VARSIZE", "SUPER_FANCY", "STURDY" ]
   }
-  
-  
 ]

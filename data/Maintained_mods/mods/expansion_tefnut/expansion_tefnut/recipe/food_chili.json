@@ -26,15 +26,10 @@
         [ "lettuce", 1 ],
         [ "irradiated_lettuce", 1 ]
       ],
-      [
-        [ "chili", 1 ],
-        [ "chili_canned", 1 ],
-        [ "chili_canned_nobeans", 1 ]
-      ]
+      [ [ "chili", 1 ], [ "chili_canned", 1 ], [ "chili_canned_nobeans", 1 ] ]
     ]
   },
-  
-    {
+  {
     "type": "recipe",
     "result": "chilirice",
     "category": "CC_FOOD",
@@ -52,8 +47,7 @@
       [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
   },
-  
-      {
+  {
     "type": "recipe",
     "result": "chilirice",
     "category": "CC_FOOD",
@@ -63,9 +57,6 @@
     "time": "6 m",
     "autolearn": true,
     "batch_time_factors": [ 82, 4 ],
-    "components": [
-      [ [ "chili", 1 ], [ "chili_canned", 1 ], [ "chili_canned_nobeans", 1 ] ],
-      [ [ "rice_cooked", 1 ] ]
-    ]
+    "components": [ [ [ "chili", 1 ], [ "chili_canned", 1 ], [ "chili_canned_nobeans", 1 ] ], [ [ "rice_cooked", 1 ] ] ]
   }
 ]

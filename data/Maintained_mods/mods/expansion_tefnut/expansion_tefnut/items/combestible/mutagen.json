@@ -1,15 +1,12 @@
 [
-
   {
     "id": "mutagen_kitsune",
     "copy-from": "mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "kitsune mutagen",
-	"description": "A special mutagen, red and sparkly.  Just watching it sparkle is oddly calming.",
+    "description": "A special mutagen, red and sparkly.  Just watching it sparkle is oddly calming.",
     "use_action": { "type": "mutagen", "mutation_category": "KITSUNE" }
   },
-  
-  
   {
     "id": "iv_mutagen_kitsune",
     "copy-from": "iv_mutagen_flavor",
@@ -19,7 +16,4 @@
     "color": "red",
     "use_action": { "type": "mutagen_iv", "mutation_category": "KITSUNE" }
   }
-
-
-
 ]

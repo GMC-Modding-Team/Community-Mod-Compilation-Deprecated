@@ -39,8 +39,6 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "3006", [ "m1941mag", "m1941bigmag", "belt3006" ] ] ]
   },
-
-
   {
     "id": "m1919",
     "looks_like": "ar15",
@@ -64,7 +62,6 @@
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "barrel_length": "1000 ml",
-
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -82,8 +79,7 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazines": [ [ "3006", [ "m1918mag", "m1918bigmag", "belt3006" ] ] ]
   },
-  
-    {
+  {
     "id": "makeshift_stinger",
     "looks_like": "ar15",
     "type": "GUN",
@@ -106,7 +102,7 @@
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "auto", 6 ] ],
     "barrel_length": "1000 ml",
-	"built_in_mods": [ "bipod" ],
+    "built_in_mods": [ "bipod" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],

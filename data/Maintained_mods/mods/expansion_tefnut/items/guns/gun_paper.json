@@ -19,7 +19,7 @@
     "skill": "rifle",
     "range": 9,
     "ranged_damage": { "damage_type": "stab", "amount": 15 },
-	"modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
     "dispersion": 120,
     "durability": 6,
     "blackpowder_tolerance": 96,
@@ -40,10 +40,6 @@
     ],
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
   },
-
-
-
-
   {
     "id": "rifle_flintlock_copper",
     "looks_like": "rifle_flintlock",
@@ -71,7 +67,7 @@
     "valid_mod_locations": [
       [ "accessories", 1 ],
       [ "sling", 1 ],
-	  [ "barrel", 1 ],
+      [ "barrel", 1 ],
       [ "underbarrel", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
@@ -80,8 +76,6 @@
     ],
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
   },
-  
-  
   {
     "id": "rifle_flintlock_silver",
     "looks_like": "rifle_flintlock",
@@ -109,7 +103,7 @@
     "valid_mod_locations": [
       [ "accessories", 1 ],
       [ "sling", 1 ],
-	  [ "barrel", 1 ],
+      [ "barrel", 1 ],
       [ "underbarrel", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
@@ -118,8 +112,7 @@
     ],
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
   },
-  
-    {
+  {
     "id": "rifle_flintlock_gold",
     "looks_like": "rifle_flintlock",
     "type": "GUN",
@@ -146,7 +139,7 @@
     "valid_mod_locations": [
       [ "accessories", 1 ],
       [ "sling", 1 ],
-	  [ "barrel", 1 ],
+      [ "barrel", 1 ],
       [ "underbarrel", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
@@ -155,7 +148,6 @@
     ],
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
   },
-  
   {
     "id": "rifle_flintlock_platinum",
     "looks_like": "rifle_flintlock",
@@ -183,7 +175,7 @@
     "valid_mod_locations": [
       [ "accessories", 1 ],
       [ "sling", 1 ],
-	  [ "barrel", 1 ],
+      [ "barrel", 1 ],
       [ "underbarrel", 1 ],
       [ "grip mount", 1 ],
       [ "rail mount", 1 ],
@@ -192,7 +184,6 @@
     ],
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
   },
-  
   {
     "id": "pistol_flintlock_copper",
     "looks_like": "pistol_flintlock",
@@ -227,7 +218,6 @@
     ],
     "flags": [ "NEVER_JAMS" ]
   },
-  
   {
     "id": "pistol_flintlock_silver",
     "looks_like": "pistol_flintlock",
@@ -262,8 +252,7 @@
     ],
     "flags": [ "NEVER_JAMS" ]
   },
-  
-    {
+  {
     "id": "pistol_flintlock_gold",
     "looks_like": "pistol_flintlock",
     "type": "GUN",
@@ -297,7 +286,6 @@
     ],
     "flags": [ "NEVER_JAMS" ]
   },
-  
   {
     "id": "pistol_flintlock_platinum",
     "looks_like": "pistol_flintlock",
