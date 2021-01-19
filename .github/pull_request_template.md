@@ -25,10 +25,5 @@ a. [what did you fix]
 b. [what did you fix]
 c. [what did you fix]
 
-2. [mod name]
-a. [what did you tweak]
-b. [what did you tweak]
-c. [what did you tweak]
-
 **for other updates.**
 cant think of anything else ATM
