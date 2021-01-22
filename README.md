@@ -12,7 +12,7 @@
   - [0.03](#003)
   - [1.0E](#10e)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ![JSON Validator](https://github.com/TheGoatGod/Goats-Mod-Compilation/workflows/JSON%20Validator/badge.svg)
 
@@ -25,6 +25,7 @@
   + [0.03](#0.03)
   + [1.0E](#1.0E)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 # TheGoatGod's Mod Compilation
 Welcome to TheGoatGod's Mod Compilation. Currently contains over 275 mods, 5 tile sets, 40 NO Mods, and several sound packs. It is currently, at 0.08, not entirely bug free, but it is undergoing constant improvements, and should soon be bug free. Many changes are planned for the future, consolidating mods to reduce the amount of excess, and cleaning up the code (even more!).
 
