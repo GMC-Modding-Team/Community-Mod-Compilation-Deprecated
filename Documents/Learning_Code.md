@@ -15,8 +15,6 @@ Use the `home` key to get to the top.
 ---
 
 # C++
-#### Head-Category - [links](#links)\
-#### Sub-Category - [C++](#c--)
 
 [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y&ab_channel=freeCodeCamp.org)\
 [C++ Programming All-in-One Tutorial Series](https://www.youtube.com/watch?v=_bYFu9mBnr4&ab_channel=CalebCurry)\
@@ -25,16 +23,12 @@ Use the `home` key to get to the top.
 ---
 
 # Python
-#### Head-Category - [links](#links)\
-#### Sub-Category - [Python](#python)
 
 [Learn Python - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org)
 
 ---
 
 # Java Script
-#### Head-Category - [links](#links)\
-#### Sub-Category - [Java Script](#java-script)
 
 [Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg)\
 [JavaScript Programming All-in-One Tutorial Series](https://www.youtube.com/watch?v=9M4XKi25I2M)
