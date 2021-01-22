@@ -1,17 +1,8 @@
-on:
-  push:
-    branches:
-    - master
-    paths:
-    - 'documents/Gun_Mods_install_times.md'
+on: push
 name: TOC Generator
 jobs:
   generateTOC:
     name: TOC Generator
     runs-on: ubuntu-latest
     steps:
-      - uses: technote-space/toc-generator@v2.6.1
-        with:
-          TARGET_PATHS: "Documents/Gun_Mods_install_times.md"
-          COMMIT_NAME: "TOC Generator"
-          COMMIT_EMAIL: "noreply@example.invalid"
+      - uses: technote-space/toc-generator@v3
