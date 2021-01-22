@@ -1,6 +1,10 @@
 # Installation Guide
 
+
 Use the `home` key to get to the top.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [How to Install](#how-to-install)
   * [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
@@ -8,6 +12,7 @@ Use the `home` key to get to the top.
   * [How to Install - The mods - Experimental](#how-to-install---experimental)
 - [Short FAQ](#short-faq)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
 
 # How to Install
