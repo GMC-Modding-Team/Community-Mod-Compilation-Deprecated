@@ -4,7 +4,7 @@ Use the `home` key to get to the top.
 
 - [Links](#links)
 - [C](#c)
-- [C++](#c--)
+- [C++](#c-)
 - [Python](#python)
 - [Java Script](#java-script)
 
