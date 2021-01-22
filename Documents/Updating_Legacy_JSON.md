@@ -1,6 +1,10 @@
 # Updating Legacy JSON
 
+
 Use the `home` key to get to the top.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [Introduction](#introduction)
   * [Tools Required](#tools-required)
@@ -35,6 +39,7 @@ Use the `home` key to get to the top.
   * [Group](#group)
 - [Activity level](#activity-level)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
 # Introduction
 Welcome to Updating Legacy JSON.md. This document aims to guide you through the process of replacing obsolete code with modern JSON.
