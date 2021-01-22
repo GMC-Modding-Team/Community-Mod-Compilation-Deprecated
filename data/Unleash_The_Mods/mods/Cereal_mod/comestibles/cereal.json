@@ -1,48 +1,44 @@
 [
   {
-    "type": "COMESTIBLE",
-    "abstract": "cereal_mod",
-    "name": { "str": "cereal in milk" },
-    "symbol": "%",
-    "phase": "liquid",
-    "material": [ "foodplace_foodstuff" ],
-    "volume": "250 ml",
-    "spoils_in": "90 days",
-    "comestible_type": "FOOD",
-    "phase": "liquid",
-    "description": "A generic box of cereal, you shouldn't see this.",
-    "vitamins": [ [ "vitA", 10 ], [ "vitC", 7 ], [ "calcium", 7 ], [ "iron", 32 ] ]
-  },
-  {
       "type": "COMESTIBLE",
-      "id": "prepared_cereal",
-      "name": { "str": "cereal in milk" },
-      "weight": "40 g",
+      "id": "wheat_a_bix_cereal",
+      "name": { "str_sp": "wheat-a-bix cereal" },
       "color": "yellow",
       "stim": 4,
-      "symbol": "%",
-      "quench": 10,
+      "quench": -3,
       "nutrition": 20,
-      "description": "Cereal in milk! It's grrrreat!",
+      "description": "A box of wheat-a-bix.",
       "price": 300,
       "charges": 2,
       "fun": 12,
-      "copy-from": "cereal_mod"
+      "copy-from": "cereal_tpl"
     },
     {
       "type": "COMESTIBLE",
-      "id": "cereal4",
-      "name": { "str": "chocolatey cereal" },
+      "id": "chocolate_cereal1",
+      "name": { "str_sp": "chocolatey cereal" },
       "color": "brown",
-      "weight": "40 g",
-      "container": "box_small",
       "stim": 4,
       "quench": -2,
       "nutrition": 5,
-      "description": "A box of chocolate puff ball cereal. They'll make you coocoo!",
+      "description": "A box of chocolate puff ball cereal.",
       "price": 400,
       "charges": 12,
       "fun": 10,
-      "copy-from": "cereal_mod"
+      "copy-from": "cereal_tpl"
+    },
+    {
+      "type": "COMESTIBLE",
+      "id": "nutty_cereal1",
+      "name": { "str_sp": "nutty cereal" },
+      "color": "brown",
+      "stim": 4,
+      "quench": -2,
+      "nutrition": 5,
+      "description": "A box of nutty cereal.  They'll make you coocoo!",
+      "price": 400,
+      "charges": 12,
+      "fun": 10,
+      "copy-from": "cereal_tpl"
     }
 ]
