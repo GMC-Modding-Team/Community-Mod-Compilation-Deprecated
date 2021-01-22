@@ -3,7 +3,7 @@ on:
     branches:
     - master
     paths:
-    - 'documents/'
+    - 'documents/Gun_Mods_install_times.md'
 name: TOC Generator
 jobs:
   generateTOC:
@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: technote-space/toc-generator@v2.6.1
         with:
-          TARGET_PATHS: "Documents/"
+          TARGET_PATHS: "Documents/Gun_Mods_install_times.md"
           COMMIT_NAME: "TOC Generator"
           COMMIT_EMAIL: "noreply@example.invalid"
