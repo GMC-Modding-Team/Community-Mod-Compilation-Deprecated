@@ -1,14 +1,18 @@
-![JSON Validator](https://github.com/TheGoatGod/Goats-Mod-Compilation/workflows/JSON%20Validator/badge.svg)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
+- [TheGoatGod's Mod Compilation](#thegoatgods-mod-compilation)
 - [Changelog](#changelog)
-  + [0.09a](#0.09a)
-  + [0.09](#0.09)
-  + [0.08](#0.08)
-  + [0.07](#0.07)
-  + [0.06](#0.06)
-  + [0.03](#0.03)
-  + [1.0E](#1.0E)
+  - [0.09a](#009a)
+  - [0.09](#009)
+  - [0.08](#008)
+  - [0.07](#007)
+  - [0.06](#006)
+  - [0.03](#003)
+  - [1.0E](#10e)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 # TheGoatGod's Mod Compilation
 Welcome to TheGoatGod's Mod Compilation. Currently contains over 275 mods, 5 tile sets, 40 NO Mods, and several sound packs. It is currently, at 0.08, not entirely bug free, but it is undergoing constant improvements, and should soon be bug free. Many changes are planned for the future, consolidating mods to reduce the amount of excess, and cleaning up the code (even more!).
 
