@@ -2,9 +2,9 @@
 
 Use the `home` key to get to the top.
 
-- [links](#links)
-  + [Description](#description)
-  + [Examples](#examples)
+- [Links](#links)
+  * [Description](#description)
+  * [Examples](#examples)
 
 
 ---
@@ -18,7 +18,7 @@ Use the `home` key to get to the top.
 [Examples](#examples)
 
 ---
-# Description #
+## Description #
 #### Head-Category  - [links](#links)
 #### Sub-Category - [Description](#description)
 
@@ -27,7 +27,7 @@ Use the `home` key to get to the top.
 > If you want to completely override a variable, you shouldn't use extend. If you want to add something to array, use extend. If you want to delete something from array (usually a flag), use delete (same syntax as extend).
 
 ---
-# Examples
+## Examples
 #### Head-Category - [links](#links)
 #### Sub-Category - [Examples](#examples)
 
