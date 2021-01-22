@@ -4,7 +4,7 @@ Use the `home` key to get to the top.
 
 - [Links](#links)
 - [C](#c)
-- [C++](#c-)
+- [C++](#c++)
 - [Python](#python)
 - [Java Script](#java-script)
 
@@ -31,7 +31,7 @@ Use the `home` key to get to the top.
 ---
 # C++
 #### Head-Category - [links](#links)\
-#### Sub-Category - [C++](#c--)
+#### Sub-Category - [C++](#c-1)
 
 [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y&ab_channel=freeCodeCamp.org)\
 [C++ Programming All-in-One Tutorial Series](https://www.youtube.com/watch?v=_bYFu9mBnr4&ab_channel=CalebCurry)\
