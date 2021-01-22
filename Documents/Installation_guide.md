@@ -6,31 +6,16 @@ Use the `home` key to get to the top.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [How to Install](#how-to-install)
-  * [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
-  * [How to Install - Stable Ellison-3](#how-to-install---the-mods---stable--0e-2-ellison-2-)
-  * [How to Install - The mods - Experimental](#how-to-install---experimental)
+- [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
+- [How to Install - Stable Ellison-3](#how-to-install---the-mods---stable--0e-2-ellison-2-)
+- [How to Install - The mods - Experimental](#how-to-install---experimental)
 - [Short FAQ](#short-faq)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
 
-# How to Install
-#### Head-Category - [How to Install](#how-to-install)
----
-
-*Sub-Category's:*\
-[How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)\
-[How to Install - 0.E2 Release of Goats Mod Compilation](#how-to-install---0e3-release-of-goats-mod-compilation)\
-[How to Install - Experimental Release of Goats Mod Compilation](#how-to-install---experimental-release-of-goats-mod-compilation)\
-[How to Install - The mods - Stable "0.E-2 Ellison-2"](#how-to-install---the-mods---stable--0e-2-ellison-2-)\
-[How to Install - The mods - Experimental](#how-to-install---the-mods---experimental)
-
----
-
 # How to Install - CDDA and the launcher
-#### Head-Category - [How to Install](#how-to-install)
-#### Sub-Category - [How to Install - CDDA and the launcher](#how-to-install---cdda-and-the-launcher)
+
 ---
 1. CDDA Launcher you can download mods, tile sets and sound sets as well as CDDA's official and experimental releases
 * A. [Download the launcher](https://github.com/remyroy/CDDA-Game-Launcher/releases)
@@ -39,8 +24,7 @@ Use the `home` key to get to the top.
 ---
 
 # How to Install - Stable Ellison-3
-#### Head-Category - [How to Install](#how-to-install)
-#### Sub-Category - [How to Install - Stable Ellison-3](#how-to-install---stable-ellison-3")
+
 ---
 the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods folder
 
@@ -50,8 +34,7 @@ the  `"mods"`  goes to  `cdda`  or  `cdda\"data"`  folder to go inside the mods 
 ---
 
 # How to Install - Experimental
-#### Head-Category - [How to Install](#how-to-install)
-#### Sub-Category - [How to Install - Experimental](#how-to-install---experimental)
+
 ---
 the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folder
 
@@ -64,7 +47,7 @@ the `"mods"` goes to `cdda` or `cdda\"data"` folder to go  inside the mods folde
 ---
 
 # Short FAQ
-#### Head-Category - [Short FAQ](#short-faq)
+
 ---
 **Q: I'm getting errors!**\
 **A:** `Report the error either on my discord or as an issue on github.`\
