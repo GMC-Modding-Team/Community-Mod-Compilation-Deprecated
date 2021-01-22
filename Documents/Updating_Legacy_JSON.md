@@ -30,7 +30,7 @@ Use the `home` key to get to the top.
 - [Pocket Data](#pocket-data)
   * [Gun Pocket data](#gun-Pocket-data)
   * [Magazine Pocket data](#magazine-Pocket-data)
-- [type: CONTAINER](#type-container)
+  * [CONTAINER](#container)
 - [Volume](#volume)
 - [Weight](#weight)
 - [Effect](#effect)
@@ -369,8 +369,9 @@ This is more complicated **needs updating**
 ```
 
 ---
-# type: CONTAINER
-`type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
+## CONTAINER
+The current JSON standards for the `type` `"CONTAINER"` look like this:
+``type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:`
 
 ```regex
 "type": "CONTAINER"
