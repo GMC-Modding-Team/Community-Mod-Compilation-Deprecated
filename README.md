@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [TheGoatGod's Mod Compilation](#thegoatgods-mod-compilation)
+- [Changelog](#changelog)
+  - [0.09a](#009a)
+  - [0.09](#009)
+  - [0.08](#008)
+  - [0.07](#007)
+  - [0.06](#006)
+  - [0.03](#003)
+  - [1.0E](#10e)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ![JSON Validator](https://github.com/TheGoatGod/Goats-Mod-Compilation/workflows/JSON%20Validator/badge.svg)
 
 - [Changelog](#changelog)
