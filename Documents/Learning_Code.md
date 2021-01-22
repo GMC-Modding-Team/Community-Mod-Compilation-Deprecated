@@ -6,34 +6,11 @@ Use the `home` key to get to the top.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-
-- [Links](#links)
-- [C](#c#)
 - [C++](#c)
 - [Python](#python)
 - [Java Script](#java-script)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
----
-
-# Links
-#### Head-Category - [links](#links)
-
-
-**Sub-Category's:**
-
-[C#](#c#)\
-[C++](#C++)\
-[Python](#Python)
-
----
-
-# C#
-#### Head-Category - [links](#links)\
-#### Sub-Category - [C#](#c)
-
-[C# Complete Tutorial From Beginner To Advance](https://www.youtube.com/watch?v=FPeGkedZykA&ab_channel=FLDevelopers)\
-[C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8&ab_channel=freeCodeCamp.org)
 
 ---
 
