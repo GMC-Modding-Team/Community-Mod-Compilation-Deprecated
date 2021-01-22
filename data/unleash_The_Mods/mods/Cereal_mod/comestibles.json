@@ -1,6 +1,19 @@
 [
   {
     "type": "COMESTIBLE",
+    "abstract": "cereal_mod",
+    "name": { "str": "cereal in milk" },
+    "symbol": "%",
+    "phase": "liquid",
+    "material": [ "junk", "milk" ],
+    "volume": "250 ml",
+    "spoils_in": "90 days",
+    "comestible_type": "FOOD",
+    "description": "A generic box of cereal, you shouldn't see this.",
+    "vitamins": [ [ "vitA", 10 ], [ "vitC", 7 ], [ "calcium", 7 ], [ "iron", 32 ] ]
+  },
+  {
+    "type": "COMESTIBLE",
     "id": "prepared_cereal",
     "name": { "str": "cereal in milk" },
     "weight": "40 g",
@@ -13,6 +26,7 @@
     "price": 300,
     "phase": "liquid",
     "material": [ "foodplace_foodstuff" ],
+    "flags": [ "EDIBLE_FROZEN", "USE_EAT_VERB" ],
     "charges": 2,
     "fun": 12
   },
