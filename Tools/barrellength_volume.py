@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.8
 
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
