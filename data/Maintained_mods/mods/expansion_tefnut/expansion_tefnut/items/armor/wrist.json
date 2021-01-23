@@ -9,7 +9,7 @@
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "HANDs" ],
     "price": 6000,
     "price_postapoc": 100,
     "material": [ "plastic_trans" ],
@@ -40,7 +40,8 @@
           "light_disposable_cell"
         ]
       ]
-    ]
+    ],
+    "sided": true
   },
   {
     "id": "wrist_comp_bad_flashlight",
@@ -75,7 +76,7 @@
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "HANDs" ],
     "initial_charges": 500,
     "max_charges": 600,
     "charges_per_use": 1,
@@ -113,7 +114,8 @@
     ],
     "coverage": 15,
     "symbol": "[",
-    "ammo": "battery"
+    "ammo": "battery",
+    "sided": true
   },
   {
     "id": "wrist_comp_budget_music",
