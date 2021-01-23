@@ -13,7 +13,7 @@ with open("arms.json", "r") as recipejson:
     dataList = json.load(recipejson)
 
 
-storageData = []
+storageData = [] 
 
 
 #moves the dicts that have SEW into a new list
