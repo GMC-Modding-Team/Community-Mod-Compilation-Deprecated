@@ -20,7 +20,6 @@
     "durability": 8,
     "clip_size": 1,
     "reload": 600,
-    "barrel_length": 4,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
@@ -34,7 +33,8 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ]
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
+    "barrel_volume": "1000 ml"
   },
   {
     "id": "shoggoth_gun_scom",
@@ -56,7 +56,6 @@
     "dispersion": 90,
     "durability": 10,
     "reload": 300,
-    "barrel_length": 4,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
@@ -73,6 +72,7 @@
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
     "magazine_well": 1,
     "magazines": [ [ "950jdj", [ "950mag" ] ] ],
-    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ]
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
+    "barrel_volume": "1000 ml"
   }
 ]

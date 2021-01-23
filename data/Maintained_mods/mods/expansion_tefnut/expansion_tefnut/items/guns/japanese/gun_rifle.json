@@ -22,7 +22,6 @@
     "durability": 7,
     "min_cycle_recoil": 540,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
-    "barrel_length": "500 ml",
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "barrel", 1 ],
@@ -38,7 +37,8 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "8x22mm", [ "type100mag" ] ] ]
+    "magazines": [ [ "8x22mm", [ "type100mag" ] ] ],
+    "barrel_volume": "500 ml"
   },
   {
     "id": "type30",
@@ -60,7 +60,6 @@
     "durability": 4,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "250 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -75,7 +74,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "250 ml"
   },
   {
     "id": "type30_carbine",
@@ -97,7 +97,6 @@
     "durability": 4,
     "blackpowder_tolerance": 20,
     "clip_size": 5,
-    "barrel_length": "125 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -112,7 +111,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "125 ml"
   },
   {
     "id": "type38",
@@ -134,7 +134,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "250 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -149,7 +148,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "250 ml"
   },
   {
     "id": "type38_carbine",
@@ -171,7 +171,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "125 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -186,7 +185,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "125 ml"
   },
   {
     "id": "type1_tera",
@@ -208,7 +208,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "250 ml",
     "built_in_mods": [ "folding_stock_wood" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -224,7 +223,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "250 ml"
   },
   {
     "id": "type97",
@@ -246,7 +246,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "500 ml",
     "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -262,7 +261,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "500 ml"
   },
   {
     "id": "type96",
@@ -286,7 +286,6 @@
     "durability": 6,
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "barrel_length": "1000 ml",
     "built_in_mods": [ "bipod" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -303,7 +302,8 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "6x50mm", [ "type96mag", "belt6x50mm" ] ] ]
+    "magazines": [ [ "6x50mm", [ "type96mag", "belt6x50mm" ] ] ],
+    "barrel_volume": "1000 ml"
   },
   {
     "id": "type3",
@@ -327,7 +327,6 @@
     "durability": 6,
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "auto", 4 ] ],
-    "barrel_length": "1500 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -343,7 +342,8 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "6x50mm", [ "belt6x50mm" ] ] ]
+    "magazines": [ [ "6x50mm", [ "belt6x50mm" ] ] ],
+    "barrel_volume": "1500 ml"
   },
   {
     "id": "type99",
@@ -365,7 +365,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "250 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -380,7 +379,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "250 ml"
   },
   {
     "id": "type99_carbine",
@@ -402,7 +402,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "125 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -417,7 +416,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "125 ml"
   },
   {
     "id": "type99_sniper",
@@ -439,7 +439,6 @@
     "durability": 8,
     "blackpowder_tolerance": 60,
     "clip_size": 5,
-    "barrel_length": "1000 ml",
     "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -455,7 +454,8 @@
       [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "flags": [ "RELOAD_ONE" ]
+    "flags": [ "RELOAD_ONE" ],
+    "barrel_volume": "1000 ml"
   },
   {
     "id": "type99_lmg",
@@ -479,7 +479,6 @@
     "durability": 8,
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "barrel_length": "1000 ml",
     "built_in_mods": [ "bipod" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -496,7 +495,8 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "7x58mm", [ "type99mag", "belt7x58mm" ] ] ]
+    "magazines": [ [ "7x58mm", [ "type99mag", "belt7x58mm" ] ] ],
+    "barrel_volume": "1000 ml"
   },
   {
     "id": "type92",
@@ -520,7 +520,6 @@
     "durability": 6,
     "min_cycle_recoil": 3420,
     "modes": [ [ "DEFAULT", "auto", 4 ] ],
-    "barrel_length": "1500 ml",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -536,6 +535,7 @@
       [ "underbarrel", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "magazines": [ [ "7x58mm", [ "belt7x58mm" ] ] ]
+    "magazines": [ [ "7x58mm", [ "belt7x58mm" ] ] ],
+    "barrel_volume": "1500 ml"
   }
 ]
