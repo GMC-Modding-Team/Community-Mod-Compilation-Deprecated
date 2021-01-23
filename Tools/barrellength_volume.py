@@ -40,7 +40,7 @@ def gen_new(path):
                     barrel_length = jo["barrel_length"]
                     barrel_length *= 250
                     jo["barrel_volume"] = str(barrel_length) + " ml"
-                elif type(jo["barrel_length"]) == str:
+                if type(jo["barrel_length"]) == str:
                     jo["barrel_volume"] = jo["barrel_length"]
                 del jo["barrel_length"]
                 change = True
