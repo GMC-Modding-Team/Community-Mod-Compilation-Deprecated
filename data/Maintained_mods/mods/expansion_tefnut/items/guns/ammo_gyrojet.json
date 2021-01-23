@@ -4,7 +4,7 @@
     "copy-from": "casing",
     "looks_like": "9mm_casing",
     "type": "GENERIC",
-    "name": "13mm Gyrojet casing",
+    "name": { "str": "13mm Gyrojet casing" },
     "description": "An empty casing from a 13mm Gyrojet rocket.",
     "weight": "3 g",
     "volume": "5ml"
@@ -12,7 +12,7 @@
   {
     "id": "13mm_gyro",
     "type": "AMMO",
-    "name": "13mm Gyrojet",
+    "name": { "str": "13mm Gyrojet" },
     "description": "A non-explosive 13mm gyrojet rocket. Not incredibly damaging, especially at close range, but super long range, and super accurate.",
     "weight": "9 g",
     "volume": "250 ml",
@@ -34,7 +34,7 @@
   {
     "id": "13mm_gyro_explosive",
     "type": "AMMO",
-    "name": "13mm Explosive Gyrojet",
+    "name": { "str": "13mm Explosive Gyrojet" },
     "description": "An explosive 13mm gyrojet rocket. Has an incredibly weak payload, but its still explosive.",
     "weight": "9 g",
     "volume": "250 ml",
@@ -59,7 +59,7 @@
     "copy-from": "casing",
     "looks_like": "9mm_casing",
     "type": "GENERIC",
-    "name": ".51 Gyrojet casing",
+    "name": { "str": ".51 Gyrojet casing" },
     "description": "An empty casing from a 13mm Gyrojet rocket.",
     "weight": "6 g",
     "volume": "10ml"
@@ -67,7 +67,7 @@
   {
     "id": "51_gyro",
     "type": "AMMO",
-    "name": ".51 Gyrojet",
+    "name": { "str": ".51 Gyrojet" },
     "description": "A non-explosive .51 gyrojet rocket. Accurate and damaging, but incredibly expensive.",
     "weight": "18 g",
     "volume": "500 ml",
@@ -89,7 +89,7 @@
   {
     "id": "51_gyro_explosive",
     "type": "AMMO",
-    "name": ".51 Gyrojet Explosive",
+    "name": { "str": ".51 Gyrojet Explosive" },
     "description": "A .41 gyrojet rocket with a weak explosive payload. Accurate and damaging, but incredibly expensive.",
     "weight": "18 g",
     "volume": "500 ml",
@@ -112,7 +112,7 @@
   {
     "id": "51_gyro_high",
     "type": "AMMO",
-    "name": ".51 Gyrojet HE",
+    "name": { "str": ".51 Gyrojet HE" },
     "description": "A .41 gyrojet rocket loaded with incredibly potent high explosives. Accurate and damaging, but incredibly expensive. Use with caution.",
     "weight": "18 g",
     "volume": "500 ml",
