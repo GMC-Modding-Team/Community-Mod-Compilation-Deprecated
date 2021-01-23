@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "egg_guinea_fowl",
-    "name": "guinea fowl egg",
+    "name": { "str": "guinea fowl egg" },
     "copy-from": "egg_bird",
     "rot_spawn": "GROUP_EGG_GUINEA_FOWL",
     "rot_spawn_chance": 70
@@ -10,7 +10,7 @@
   {
     "type": "COMESTIBLE",
     "id": "egg_goose",
-    "name": "goose egg",
+    "name": { "str": "goose egg" },
     "copy-from": "egg_guinea_fowl",
     "calories": 266,
     "volume": "125 ml",
@@ -21,7 +21,7 @@
   {
     "type": "COMESTIBLE",
     "id": "egg_goose_golden",
-    "name": "golden goose egg",
+    "name": { "str": "golden goose egg" },
     "copy-from": "egg_goose",
     "calories": 300,
     "volume": "125 ml",
@@ -32,14 +32,14 @@
   {
     "type": "COMESTIBLE",
     "id": "egg_quail",
-    "name": "quail egg",
+    "name": { "str": "quail egg" },
     "copy-from": "egg_guinea_fowl",
     "rot_spawn": "GROUP_EGG_QUAIL"
   },
   {
     "type": "COMESTIBLE",
     "id": "egg_rhea",
-    "name": "rhea egg",
+    "name": { "str": "rhea egg" },
     "copy-from": "egg_guinea_fowl",
     "volume": "600 ml",
     "weight": "600 g",

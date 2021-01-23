@@ -94,7 +94,7 @@
   {
     "id": "mon_tapir",
     "type": "MONSTER",
-    "name": "tapir",
+    "name": { "str": "tapir" },
     "description": "A medium to large herbivore distantly related to the Rhinoceros. its both a capable runner and swimmer in order to evade predators",
     "looks_like": "mon_pig",
     "default_faction": "tapir",
@@ -158,7 +158,7 @@
   {
     "id": "mon_peccari",
     "type": "MONSTER",
-    "name": "peccari",
+    "name": { "str": "peccari" },
     "description": "A small furred omnivore native to the american continent. despite looking like a boar its not directly related to them or their domestic brethren",
     "default_faction": "pig",
     "bodytype": "pig",
