@@ -1,7 +1,11 @@
 name: JSON style check
 
 on:
-  push
+  push:
+    branches:
+    - Experimental-Mod-Pack
+    paths:
+    - '**.json'
 
 jobs:
   style-json:
