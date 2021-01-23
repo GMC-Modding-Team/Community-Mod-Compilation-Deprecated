@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "pizza_junk",
-    "name": "fast-food pizza",
+    "name": { "str": "fast-food pizza" },
     "weight": "230 g",
     "color": "light_red",
     "container": "box_small",
@@ -22,7 +22,7 @@
   {
     "type": "COMESTIBLE",
     "id": "fastfood_burrito",
-    "name": "fast food burrito",
+    "name": { "str": "fast food burrito" },
     "weight": "142 g",
     "color": "brown",
     "container": "wrapper",
@@ -42,7 +42,7 @@
   {
     "type": "COMESTIBLE",
     "id": "fastfood_taco",
-    "name": "fast food taco",
+    "name": { "str": "fast food taco" },
     "weight": "142 g",
     "color": "brown",
     "container": "wrapper",
@@ -62,7 +62,7 @@
   {
     "type": "COMESTIBLE",
     "id": "fastfood_quesadilla",
-    "name": "fast food quesadilla",
+    "name": { "str": "fast food quesadilla" },
     "weight": "142 g",
     "color": "brown",
     "container": "wrapper",
@@ -103,7 +103,7 @@
   {
     "type": "COMESTIBLE",
     "id": "beefaroni",
-    "name": "beefaroni",
+    "name": { "str": "beefaroni" },
     "weight": "170 g",
     "color": "light_red",
     "spoils_in": "2 days",
@@ -123,7 +123,7 @@
   {
     "type": "COMESTIBLE",
     "id": "beefaroni_cheese",
-    "name": "beefaroni with cheese",
+    "name": { "str": "beefaroni with cheese" },
     "weight": "170 g",
     "color": "light_red",
     "spoils_in": "2 days",
@@ -296,7 +296,7 @@
   {
     "type": "COMESTIBLE",
     "id": "citrusrush",
-    "name": "citrus soda",
+    "name": { "str": "citrus soda" },
     "weight": "234 g",
     "color": "light_green",
     "addiction_type": "caffeine",
@@ -322,7 +322,7 @@
   {
     "type": "COMESTIBLE",
     "id": "jumpjuice",
-    "name": "Jump Juice",
+    "name": { "str": "Jump Juice" },
     "weight": "234 g",
     "color": "light_green",
     "addiction_type": "caffeine",
@@ -348,7 +348,7 @@
   {
     "type": "COMESTIBLE",
     "id": "cola_cocaine",
-    "name": "cocaine cola",
+    "name": { "str": "cocaine cola" },
     "category": "drugs",
     "weight": "61 g",
     "color": "brown",

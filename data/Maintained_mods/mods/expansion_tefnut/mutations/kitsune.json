@@ -11,7 +11,7 @@
   {
     "type": "mutation",
     "id": "THRESH_KITSUNE",
-    "name": "Trickster",
+    "name": { "str": "Trickster" },
     "points": 1,
     "description": "The world may be over, but you've still got mischief to make!",
     "valid": false,
@@ -21,7 +21,7 @@
   {
     "type": "mutation",
     "id": "PRETTY",
-    "name": "Pretty",
+    "name": { "str": "Pretty" },
     "points": 1,
     "visibility": 1,
     "ugliness": -2,
@@ -47,7 +47,7 @@
   {
     "type": "mutation",
     "id": "QUICK",
-    "name": "Quick",
+    "name": { "str": "Quick" },
     "points": 3,
     "description": "You're just generally quick!  You get a 10% bonus to action points.",
     "starting_trait": true,
@@ -57,7 +57,7 @@
   {
     "type": "mutation",
     "id": "FLEET",
-    "name": "Fleet-Footed",
+    "name": { "str": "Fleet-Footed" },
     "points": 2,
     "description": "You can move more quickly than most, resulting in a 15% speed bonus on sure footing.",
     "starting_trait": true,
@@ -69,7 +69,7 @@
   {
     "type": "mutation",
     "id": "LIGHTSTEP",
-    "name": "Light Step",
+    "name": { "str": "Light Step" },
     "points": 1,
     "description": "You make less noise while walking.  You're also less likely to set off traps.",
     "starting_trait": true,
@@ -80,7 +80,7 @@
   {
     "type": "mutation",
     "id": "FLIMSY",
-    "name": "Flimsy",
+    "name": { "str": "Flimsy" },
     "points": -4,
     "description": "Your body can't take much abuse.  Its maximum HP is 25% lower than usual and you heal slightly slower.  Stacks with Glass Jaw.",
     "starting_trait": true,
@@ -94,7 +94,7 @@
   {
     "type": "mutation",
     "id": "SMELLY",
-    "name": "Strong Scent",
+    "name": { "str": "Strong Scent" },
     "points": -1,
     "description": "Your scent is particularly strong.  It's not offensive to humans, but animals that track your scent will do so more easily.",
     "starting_trait": true,
@@ -106,7 +106,7 @@
   {
     "type": "mutation",
     "id": "SMELLY_FOXMUSK",
-    "name": "Fox Musk",
+    "name": { "str": "Fox Musk" },
     "points": -4,
     "description": "You have an exceptionally strong odor that makex you incredibly easy to track.",
     "starting_trait": false,
@@ -118,7 +118,7 @@
   {
     "type": "mutation",
     "id": "NIGHTVISION",
-    "name": "Night Vision",
+    "name": { "str": "Night Vision" },
     "points": 2,
     "description": "You possess natural night vision, and can see further in the dark than most.  Activate to toggle NV-visible areas on or off.",
     "starting_trait": true,
@@ -131,7 +131,7 @@
   {
     "type": "mutation",
     "id": "NIGHTVISION2",
-    "name": "High Night Vision",
+    "name": { "str": "High Night Vision" },
     "points": 4,
     "description": "You can see incredibly well in the dark!  Activate to toggle NV-visible areas on or off.",
     "prereqs": [ "NIGHTVISION" ],
@@ -144,7 +144,7 @@
   {
     "type": "mutation",
     "id": "NIGHTVISION3",
-    "name": "Full Night Vision",
+    "name": { "str": "Full Night Vision" },
     "points": 6,
     "description": "You can see in pitch blackness as if you were wearing night-vision goggles.  Activate to toggle NV-visible areas on or off.",
     "prereqs": [ "NIGHTVISION2" ],
@@ -157,7 +157,7 @@
   {
     "type": "mutation",
     "id": "MEATARIAN",
-    "name": "Hates Vegetables",
+    "name": { "str": "Hates Vegetables" },
     "points": -2,
     "description": "You have problems with eating vegetables.  It's possible for you to eat them, but you will suffer morale penalties and obtain less nutrition from them.",
     "starting_trait": true,
@@ -169,7 +169,7 @@
   {
     "type": "mutation",
     "id": "SPIRITUAL",
-    "name": "Spiritual",
+    "name": { "str": "Spiritual" },
     "points": 1,
     "description": "You've always felt that there is more to the world than we can see.  Whether driven by religious beliefs or philosophical interest, you find great inspiration in studying holy texts and experiencing mystical things.",
     "starting_trait": true,
@@ -180,7 +180,7 @@
   {
     "type": "mutation",
     "id": "PYROMANIA",
-    "name": "Pyromaniac",
+    "name": { "str": "Pyromaniac" },
     "starting_trait": true,
     "points": -2,
     "description": "You have an unhealthy obsession with fire, and you get anxious if you don't light them every now and then or stand near them often.  However, you gain a mood bonus from doing so.",
@@ -189,7 +189,7 @@
   {
     "type": "mutation",
     "id": "GOODCARDIO",
-    "name": "Indefatigable",
+    "name": { "str": "Indefatigable" },
     "points": 2,
     "description": "Whether due to exercise and good diet, or due to a natural propensity to physical endurance, you tire due to physical exertion much less readily than others.  Your maximum stamina is 25% higher than usual.",
     "starting_trait": true,
@@ -202,7 +202,7 @@
   {
     "type": "mutation",
     "id": "GOODCARDIO2",
-    "name": "Hyperactive",
+    "name": { "str": "Hyperactive" },
     "points": 4,
     "description": "Your body's efficiency is like that of a tiny furnace, increasing your maximum stamina by 40%.",
     "valid": false,
@@ -215,7 +215,7 @@
   {
     "type": "mutation",
     "id": "PER_UP",
-    "name": "Perceptive",
+    "name": { "str": "Perceptive" },
     "points": 1,
     "description": "Your senses are a little keener.  Perception + 1",
     "changes_to": [ "PER_UP_2" ],
@@ -226,7 +226,7 @@
   {
     "type": "mutation",
     "id": "PER_UP_2",
-    "name": "Very Perceptive",
+    "name": { "str": "Very Perceptive" },
     "points": 2,
     "description": "Your senses are keener.  Perception + 2",
     "prereqs": [ "PER_UP" ],
@@ -237,7 +237,7 @@
   {
     "type": "mutation",
     "id": "INT_UP",
-    "name": "Smart",
+    "name": { "str": "Smart" },
     "points": 1,
     "description": "You are a little smarter.  Intelligence + 1",
     "changes_to": [ "INT_UP_2", "INT_ALPHA", "INT_SLIME" ],
@@ -247,7 +247,7 @@
   {
     "type": "mutation",
     "id": "KITSUNE_SMARTS",
-    "name": "Prankster",
+    "name": { "str": "Prankster" },
     "points": 8,
     "description": "You can out-fox anyone on the block!  Intelligence + 8",
     "prereqs": [ "INT_UP" ],
@@ -269,7 +269,7 @@
   {
     "type": "mutation",
     "id": "DEX_UP_2",
-    "name": "Very Dextrous",
+    "name": { "str": "Very Dextrous" },
     "points": 2,
     "description": "You are nimbler.  Dexterity + 2",
     "prereqs": [ "DEX_UP" ],
@@ -280,7 +280,7 @@
   {
     "type": "mutation",
     "id": "KITSUNE_WEAK",
-    "name": "Minor atrophy",
+    "name": { "str": "Minor atrophy" },
     "points": 1,
     "description": "Your muscles are a little weaker from lack of use. But who needs strength, right?  Strength - 2",
     "threshreq": [ "THRESH_KITSUNE" ],
@@ -290,7 +290,7 @@
   {
     "type": "mutation",
     "id": "TAIL_FLUFFY",
-    "name": "Fluffy Tail",
+    "name": { "str": "Fluffy Tail" },
     "points": 1,
     "visibility": 7,
     "description": "You have a long, fluffy-furred tail.  It greatly improves your balance, making your ability to dodge much higher.  Prevents wearing non-fabric pants.",
@@ -306,7 +306,7 @@
   {
     "type": "mutation",
     "id": "TAIL_TWIN",
-    "name": "Twin Tails",
+    "name": { "str": "Twin Tails" },
     "points": 1,
     "visibility": 7,
     "description": "Your fluffy tail has split into two! You can dodge even better, and you feel something special about the world around you.",
@@ -323,7 +323,7 @@
   {
     "type": "mutation",
     "id": "TAIL_TRI",
-    "name": "Three Tails",
+    "name": { "str": "Three Tails" },
     "points": 1,
     "visibility": 7,
     "description": "Your fluffy tail has split further into three!  Magical potential is further increased, but dodge hasnt increased any further.",
@@ -341,7 +341,7 @@
   {
     "type": "mutation",
     "id": "TAIL_QUAD",
-    "name": "Four Tails",
+    "name": { "str": "Four Tails" },
     "points": 1,
     "visibility": 7,
     "description": "Your tails have split once more into four! Youre approaching enlightenment, you know it!",
@@ -361,7 +361,7 @@
   {
     "type": "mutation",
     "id": "TAIL_PENT",
-    "name": "Five Tails",
+    "name": { "str": "Five Tails" },
     "points": 1,
     "visibility": 7,
     "description": "Your tails have split once more into five! Your old dodge modifier is gone, but your magic is further powering up",
@@ -380,7 +380,7 @@
   {
     "type": "mutation",
     "id": "TAIL_SEX",
-    "name": "Six Tails",
+    "name": { "str": "Six Tails" },
     "points": 1,
     "visibility": 7,
     "description": "You have six silky, fluffy tails on your behind. Their ability as a focus for magic has further increased. Getting any further tails is bound to be a challenge, though.",
@@ -398,7 +398,7 @@
   {
     "type": "mutation",
     "id": "PAWS",
-    "name": "Paws",
+    "name": { "str": "Paws" },
     "points": -3,
     "visibility": 3,
     "ugliness": 2,
@@ -416,7 +416,7 @@
   {
     "type": "mutation",
     "id": "SNOUT",
-    "name": "Snout",
+    "name": { "str": "Snout" },
     "points": -1,
     "visibility": 4,
     "ugliness": 3,
@@ -439,7 +439,7 @@
   {
     "type": "mutation",
     "id": "PRED2",
-    "name": "Hunter",
+    "name": { "str": "Hunter" },
     "points": 3,
     "description": "Your brain has a lot more in common with a predatory animal than a human, making it easier to control misplaced reactions to the death of your prey.  Additionally, combat skills, which you use to hunt, are easier to learn and maintain.",
     "social_modifiers": { "intimidate": 3 },
@@ -465,7 +465,7 @@
   {
     "type": "mutation",
     "id": "WAKEFUL2",
-    "name": "Very Little Sleep",
+    "name": { "str": "Very Little Sleep" },
     "points": 3,
     "description": "You don't sleep often.  But when you do, you need very little of it.",
     "valid": false,
@@ -479,7 +479,7 @@
   {
     "type": "mutation",
     "id": "FOXSLEEP",
-    "name": "Kitsune energy",
+    "name": { "str": "Kitsune energy" },
     "points": 5,
     "description": "You require very little sleep. After all, if you sleep, you might miss something funny!",
     "valid": false,
