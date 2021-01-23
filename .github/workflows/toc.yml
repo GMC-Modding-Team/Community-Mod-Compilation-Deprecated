@@ -10,6 +10,6 @@ on:
 jobs:
   generateTOC:
     name: TOC Generator
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: technote-space/toc-generator@v3
