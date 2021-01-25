@@ -1,22 +1,20 @@
+# This script copies dictionary that contains "sewing_kit"
+# value in a nested list
+# appends it to a new list of dictionaries, changes said value.
+# its "time" value and adds "id_suffix" item.
+# Made for extracting and editing armors to use the sewing_machine item
+# takes care of pening and closing the file,
+# converting it to Python's data type and stores it in "data" opbject
 import json
 
-########################################
-# This script copies dictionary that contains "sewing_kit" value in a nested list
-# appends it to a new list of dictionaries, changes said value, its "time" value and adds "id_suffix" item.
-# Made for extracting and editing armors to use the sewing_machine item
-#######################################
-
-
-
-# takes care of pening and closing the file, converting it to Python's data type and stores it in "data" opbject
 with open("arms.json", "r") as recipejson:
     dataList = json.load(recipejson)
 
 
-storageData = [] 
+storageData = []
 
 
-#moves the dicts that have SEW into a new list
+# moves the dicts that have SEW into a new list
 def appender(lis):
     for dict in lis:
         for keyDict, valueList in dict.items():
