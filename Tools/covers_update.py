@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 # Make sure you have python3 installed.
-# Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
+# Ensure that the json_formatter is kept in Tools with this script.
+# They must be in the same folder!
 # For Windows:
 # Using command prompt type "python covers_update.py"
 # For Max OS X or Linux:
