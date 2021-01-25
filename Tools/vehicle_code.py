@@ -41,13 +41,13 @@ def gen_new(path):
                         locations[(x, y)]["parts"].extend(part["parts"])
                     else:
                         locations[(x, y)] = {"x": x, "y": y, "parts":
-                        part["parts"]}
+                                                                part["parts"]}
                 if (x, y) in locations:
                     locations[(x, y)]["parts"].append(item)
                 else:
                     locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
             jo["parts"] = sorted(locations.values(), key=lambda loc:
-            (loc["x"], loc["y"]))
+                                                        (loc["x"], loc["y"]))
             change = True
     return json_data if change else None
 
