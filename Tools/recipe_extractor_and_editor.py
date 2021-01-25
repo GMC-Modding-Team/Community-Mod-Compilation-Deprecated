@@ -29,7 +29,8 @@ def appender(lis):
                                     storageData.append(dict)
                                     print("dictionary moved")
                 else:
-                     print("key checked")
+                    print("key checked")
+
 
 def increaseSEW(dataList):
     # increases the SEW value
@@ -48,6 +49,7 @@ def increaseSEW(dataList):
                 else:
                     print("key checked")
 
+
 def decreaseTime(dataList):
     # increases the SEW value
     for dict in dataList:
@@ -59,6 +61,8 @@ def decreaseTime(dataList):
                     dict[key] -= int(value * 0.5)
                 else:
                     print("key checked")
+
+
 def changeSubcategory(dataList):
     # increases the SEW value
     for dict in dataList:
@@ -77,6 +81,7 @@ def addSufix(dataList):
         # adds "sm" sufix
         dict["id_suffix"] = "sm"
         print("sufix key/value added")
+
 
 appender(dataList)
 increaseSEW(storageData)
