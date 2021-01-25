@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.8
 
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
@@ -40,7 +40,7 @@ def gen_new(path):
                     barrel_length = jo["barrel_length"]
                     barrel_length *= 250
                     jo["barrel_volume"] = str(barrel_length) + " ml"
-                elif type(jo["barrel_length"]) == str:
+                if type(jo["barrel_length"]) == str:
                     jo["barrel_volume"] = jo["barrel_length"]
                 del jo["barrel_length"]
                 change = True

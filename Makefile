@@ -159,7 +159,7 @@ ASTYLE_BINARY = astyle
 
 # Enable astyle by default
 ifndef ASTYLE
-  ASTYLE = 0
+  ASTYLE = 1
 endif
 
 # Enable json format check by default
@@ -1161,6 +1161,9 @@ style-all-json: $(JSON_FORMATTER_BIN)
 $(JSON_FORMATTER_BIN): $(JSON_FORMATTER_SOURCES)
 	$(CXX) $(CXXFLAGS) $(TOOL_CXXFLAGS) -Itools/format -Isrc \
 	  $(JSON_FORMATTER_SOURCES) -o $(JSON_FORMATTER_BIN)
+
+python-check:
+	flake8
 
 tests: version $(BUILD_PREFIX)cataclysm.a
 	$(MAKE) -C tests
