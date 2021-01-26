@@ -34,23 +34,23 @@
 ## Cereal
 
 
+[x] - Weetabix Cereal 12 Pack
+[x] - Weetabix Cereal 24 Pack
+[x] - Weetabix Cereal 48 Pack
+[x] - Weetabix and Banana Cereal 24 Pack
+[x] - Weetabix and Banana Cereal 48 Pack
+[x] - Weetabix and berries Cereal 24 Pack
+[x] - Weetabix and berries Cereal 48 Pack
+[x] - Weetabix Oatibix Cereal 24 Pack
+[x] - Weetabix Oatibix Flakes Cereal 550G
+[x] - Weetabix Crispy Minis Fruit Nut Cereal 500G
+[x] - Weetabix Crispy Minis Chocolate Chip Cereal 600G https://www.weetabix.co.uk/our-cereals/
 [ ] - Nestle Cheerios Multigrain Cereal 600G https://www.nestle.com/
 [ ] - Nestle Cheerios Honey Cereal 375G
 [ ] - Nestle Shreddies Original Cereal 415G
 [ ] - Nestle Shreddies Original Cereal 675G
 [ ] - Nestle Shreddies Frosted Cereal 500G
 [ ] - Nestle Nesquik Cereal 375G
-[ ] - Weetabix Crispy Minis Chocolate Chip Cereal 600G https://www.weetabix.co.uk/our-cereals/
-[ ] - Weetabix and Banana Cereal 24 Pack
-[ ] - Weetabix and Banana Cereal 48 Pack
-[ ] - Weetabix and berries Cereal 24 Pack
-[ ] - Weetabix and berries Cereal 48 Pack
-[ ] - Weetabix Oatibix Flakes Cereal 550G
-[ ] - Weetabix Oatibix Cereal 24 Pack
-[ ] - Weetabix Crispy Minis Fruit Nut Cereal 500G
-[ ] - Weetabix Cereal 12 Pack
-[ ] - Weetabix Cereal 24 Pack
-[ ] - Weetabix Cereal 48 Pack
 [ ] - Kellogg's White Chocolate Coco Pops Cereal 480G
 [ ] - Kellogg's Rice Krispies Cereal 700G
 [ ] - Kellogg's Rice Krispies Cereal 510G
