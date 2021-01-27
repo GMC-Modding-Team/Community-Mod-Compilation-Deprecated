@@ -29,12 +29,12 @@
   [x] - create abstract for [Cereal bars](#cereal_bars)
   [/] - implement [Cereal bars](#cereal_bars)
   [ ] - create abstract for [Cereal Drinks](#drinks)
-  [ ] - implement [Cereal Drinks](#drinks)
+  [/] - implement [Cereal Drinks](#drinks)
   [x] - create abstract for [Granola](#granola)
   [ ] - implement [Granola](#granola)
   [x] - create abstract for [Porridge](#Porridge)
   [ ] - implement [Porridge](#Porridge)
-  [ ] - create abstract for [Porridge pots](#Porridge_pots)
+  [/] - create abstract for [Porridge pots](#Porridge_pots)
   [ ] - implement [Porridge pots](#Porridge_pots)
 
 
