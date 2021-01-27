@@ -57,10 +57,10 @@
 [x] - Nestle Fitness breakfast cereals 500G
 [x] - Nestle Lion cereals 375G
 [x] - Nestle Lion cereals 500G
-[ ] - Jordans Country Crisp Chocolate Cereal 500G
-[ ] - Jordans Country Crisp Flame Rais Cereal 500G
-[ ] - Jordans Country Crisp Honey Nut 500G
-[ ] - Jordans Country Crisp Strawberry Cereal 500G
+[x] - Jordans Country Crisp Chocolate Cereal 500G
+[x] - Jordans Country Crisp Flame Rais Cereal 500G
+[x] - Jordans Country Crisp Honey Nut 500G
+[x] - Jordans Country Crisp Strawberry Cereal 500G
 [ ] - Kellogg's White Chocolate Coco Pops Cereal 480G
 [ ] - Kellogg's Rice Krispies Cereal 700G
 [ ] - Kellogg's Rice Krispies Cereal 510G
