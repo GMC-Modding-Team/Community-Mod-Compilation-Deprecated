@@ -102,8 +102,8 @@
 [ ] - Tesco Swiss Style Muesli 1Kg
 [ ] - Tesco Raisin Wheats Cereal 500G
 [ ] - Tesco Multigrain Boulders 325G
-[ ] - Quaker Kids Oatie Mix Up Strawberry Cereal 400G
-[ ] - Quaker Kids Oatie Mix Up Chocolate Cereal 400G
+[x] - Quaker Kids Oatie Mix Up Strawberry Cereal 400G
+[x] - Quaker Kids Oatie Mix Up Chocolate Cereal 400G
 
 
 ## cereal bars
