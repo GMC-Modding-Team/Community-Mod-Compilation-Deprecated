@@ -82,26 +82,24 @@
 [x] - Kellogg's Wkk Kids Blueberry & Apple 350G
 [x] - Kellogg's Raisin Wheats 450G
 [x] - Kellogg's Crunchy Nut Clusters Peanut Butter Cereal 525G
-[ ] - Tesco Honey Nut Clusters Cereal 500G
-[ ] - Tesco 50% Fruit Muesli 750G
-[ ] - Tesco Special Flakes Red Berry Cereal 375G
-[ ] - Tesco Honey Nut Corn Flakes Cereal 500G
-[ ] - Tesco Fruit & Fibre Cereal 750G
-[ ] - Tesco Malt Wheats Cereal 750G
-[ ] - Tesco Pillows With Milk Chocolate Filling 375G
-[ ] - Tesco Bran Flakes 750G
-[ ] - Tesco Choco Hoops Cereal 375G
-[ ] - Tesco Low Fat Special Flakes Cereal 500G
-[ ] - Tesco Blueberry Wheats Cereal 500G
-[ ] - Tesco Wheat Biscuits Cereal 24 Pack
-[ ] - Tesco Wheat Biscuits Cereal 48 Pack
-[ ] - Tesco Pillows Choco Nut Cereal 375G
-[ ] - Tesco Multigrain Hoops Cereal 375G
-[ ] - Tesco Nut & Maple Crisp Cereal 500G
-[ ] - Tesco Strawberry Crisp Cereal 500G
-[ ] - Tesco Swiss Style Muesli 1Kg
-[ ] - Tesco Raisin Wheats Cereal 500G
-[ ] - Tesco Multigrain Boulders 325G
+[x] - Store brand honey nut clusters cereal 500g
+[x] - Store brand special flakes red berry cereal 375G
+[x] - Store brand Honey Nut Corn Flakes cereal 500G
+[x] - Store brand Fruit & Fibre cereal 750G
+[x] - Store brand Malt Wheats cereal 750G
+[x] - Store brand Pillows With Milk Chocolate Filling cereal 375G
+[x] - Store brand Bran Flakes cereal 750G
+[x] - Store brand Choco Hoops cereal 375G
+[x] - Store brand low fat special flakes cereal 500G
+[x] - Store brand blueberry wheats cereal 500G
+[x] - Store brand wheat biscuits cereal 24 Pack
+[x] - Store brand wheat biscuits cereal 48 Pack
+[x] - Store brand pillows choco nut cereal 375G
+[x] - Store brand multigrain hoops cereal 375G
+[x] - Store brand nut & maple crisp cereal 500G
+[x] - Store brand strawberry crisp cereal 500G
+[x] - Store brand raisin wheats cereal 500G
+[x] - Store brand multigrain boulders cereal 325G
 [x] - Quaker Kids Oatie Mix Up Strawberry Cereal 400G
 [x] - Quaker Kids Oatie Mix Up Chocolate Cereal 400G
 
