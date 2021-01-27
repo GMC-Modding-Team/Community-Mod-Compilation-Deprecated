@@ -38,8 +38,9 @@
       { "item": "taco", "prob": 40 },
       { "item": "insta_salad", "prob": 60 },
       { "item": "yoghurt", "prob": 50 },
-      { "item": "macaroni_cooked", "prob": 20 }
-    ]
+      { "item": "macaroni_cooked", "prob": 20 },
+      { "groups": "cereal_drinks", "prob": 50 },
+        ]
   },
   {
     "id": "groce_cereal",
@@ -52,6 +53,7 @@
       { "groups": "nestle_boxes", "prob": 50 },
       { "groups": "kelloggs_boxes", "prob": 50 },
       { "groups": "jordans_boxes", "prob": 50 },
+      { "groups": "cereal_drinks", "prob": 50 },
       { "item": "oatmeal", "prob": 50 },
       { "item": "cereal", "prob": 25 },
       { "item": "cereal2", "prob": 55 },
@@ -107,6 +109,7 @@
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
+      { "groups": "cereal_drinks", "prob": 50 },
       { "item": "lemonade", "prob": 30 },
       { "item": "sports_drink", "prob": 40 },
       { "item": "energy_drink", "prob": 40 },
