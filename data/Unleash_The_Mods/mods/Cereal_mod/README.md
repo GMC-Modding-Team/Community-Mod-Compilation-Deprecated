@@ -61,25 +61,27 @@
 [x] - Jordans Country Crisp Flame Rais Cereal 500G
 [x] - Jordans Country Crisp Honey Nut 500G
 [x] - Jordans Country Crisp Strawberry Cereal 500G
-[ ] - Kellogg's White Chocolate Coco Pops Cereal 480G
-[ ] - Kellogg's Rice Krispies Cereal 700G
-[ ] - Kellogg's Rice Krispies Cereal 510G
-[ ] - Kellogg's Coco Pops 480G
-[ ] - Kellogg's Coco Pops Cereal 720G
-[ ] - Kellogg's Crunchy Nut Corn Flakes Cereal 500G
-[ ] - Kellogg's Special K Original Cereal 500G
-[ ] - Kellogg's Corn Flakes Cereal 450G
-[ ] - Kellogg's Corn Flakes 720G
-[ ] - Kellogg's Krave Chocolate & Hazelnut Cereal 375G
-[ ] - Kellogg's Krave Chocolate & Hazelnut Cereal 850G
-[ ] - Kellogg's Krave Milk Chocolate Cereal 375G
-[ ] - Kellogg's Krave Milk Chocolate Cereal 850G
-[ ] - Kellogg's Krave Choco Roulette 375G
-[ ] - Kellogg's Fruit & Fibre Cereal 700G
-[ ] - Kellogg's Wkk Kids Strawbrry Apple & Carrot 350G
-[ ] - Kellogg's Wkk Kids Blueberry & Apple 350G
-[ ] - Kellogg's Raisin Wheats 450G
-[ ] - Kellogg's Crunchy Nut Clusters Peanut Butter Cereal 525G
+[x] - Kellogg's White Chocolate Coco Pops Cereal 480G
+[x] - Kellogg's Rice Krispies Cereal 700G
+[x] - Kellogg's Rice Krispies Cereal 510G
+[x] - Kellogg's Coco Pops 480G
+[x] - Kellogg's Coco Pops Cereal 720G
+[x] - Kellogg's Crunchy Nut Corn Flakes Cereal 500G
+[x] - Kellogg's Special K Original Cereal 500G
+[x] - Kellogg's Corn Flakes Cereal 450G
+[x] - Kellogg's Corn Flakes 720G
+[x] - Kellogg's Krave Chocolate & Hazelnut Cereal 375G
+[x] - Kellogg's Krave Chocolate & Hazelnut Cereal 850G
+[x] - Kellogg's Krave Milk Chocolate Cereal 375G
+[x] - Kellogg's Krave Milk Chocolate Cereal 850G
+[x] - Kellogg's Krave Choco Roulette 375G
+[x] - Kellogg's Krave Choco Roulette 700G
+[x] - Kellogg's Fruit & Fibre Cereal 375G
+[x] - Kellogg's Fruit & Fibre Cereal 700G
+[x] - Kellogg's Wkk Kids Strawbrry Apple & Carrot 350G
+[x] - Kellogg's Wkk Kids Blueberry & Apple 350G
+[x] - Kellogg's Raisin Wheats 450G
+[x] - Kellogg's Crunchy Nut Clusters Peanut Butter Cereal 525G
 [ ] - Tesco Honey Nut Clusters Cereal 500G
 [ ] - Tesco 50% Fruit Muesli 750G
 [ ] - Tesco Special Flakes Red Berry Cereal 375G
