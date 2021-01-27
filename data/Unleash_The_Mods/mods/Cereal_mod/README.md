@@ -16,7 +16,6 @@
 
 ## To-do
 
-[ ] - Implement cereal
 
   [x] - add more [Cereal](#cereal) from https://www.tesco.com/groceries/en-GB/shop/food-cupboard/cereals/all to md
   [x] - add more [Cereal bars](#cereal_bars) from https://www.tesco.com/groceries/en-GB/search?query=cereal%20bars to md
@@ -27,7 +26,7 @@
   [x] - create abstract for [Cereal](#cereal)
   [x] - implement [Cereal](#cereal)
   [x] - create abstract for [Cereal bars](#cereal_bars)
-  [/] - implement [Cereal bars](#cereal_bars)
+  [ ] - implement [Cereal bars](#cereal_bars)
   [ ] - create abstract for [Cereal Drinks](#drinks)
   [/] - implement [Cereal Drinks](#drinks)
   [x] - create abstract for [Granola](#granola)
@@ -128,18 +127,18 @@
 [ ] - Cadbury Brunch Chocolate Chip 6x32G
 [ ] - Cadbury Brunch Bars Raisin 6x32g
 [ ] - Graze Lemon & Blueberry Super Bites 4x30g
-[ ] - Graze Cocoa & Vanilla Bar 4x30G
-[ ] - Graze Honey And Oat Bar 4x 30G
+[ ] - Graze Cocoa & Vanilla Bar 5x30G
+[ ] - Graze Honey And Oat Bar 5x 30G
 [ ] - Alpen Strawberry With Yogurt Cereal Bar 5X29g
-[ ] - Store brand 6 Coconut & Chocolate Bars 5x180G
+[ ] - Store brand Coconut & Chocolate Bars 6x180G
 [ ] - Store brand Peanut Munch Bar 6x192G
-[ ] - Store brand 6 Apple Fruity Bakes 222G
-[ ] - Store brand Salted Caramel Munch Bars 5x192G
-[ ] - Store brand 6 Strawberry Fruity Bakes 5x222G
+[ ] - Store brand Apple Fruity Bakes 6x222G
+[ ] - Store brand Salted Caramel Munch Bars 6x192G
+[ ] - Store brand Strawberry Fruity Bakes 6x222G
 [ ] - Store brand Raisin Munch Bar 5x32G
 [ ] - Store brand Forest Fruits Yogurt Topped Slices 5x180G
-[ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5x19g
-[ ] - Store brand 5 Chocolate & Raspberry Bars 5x115G
+[ ] - Store brand Chocolate & Caramel Crispy Slice 5x19g
+[ ] - Store brand Chocolate & Raspberry Bars 5x115G
 [ ] - Store brand Standard Raisin Crispy Slices 5x218G
 [ ] - Store brand Pumpkin Seeds Almond & Dark Chocolate Bars 5x140G
 [ ] - Kellogg's Coco Pops Cereal Bar 6X20G
@@ -147,7 +146,7 @@
 [ ] - Kellogg's Rice Krispies Cereal Milk Bars 6X20g
 [ ] - Kellogg's Rice Krispie Squares Marshmallow 4X28G
 [ ] - Kellogg's Rice Krispie Squares Chocolate 4X36
-[ ] - Kellogg's Pop Tarts https://www.kelloggs.com/en_US/brands/pop[ ] -tarts[ ] -consumer[ ] -brand.html 8X48g
+[ ] - Kellogg's Pop Tarts https://www.kelloggs.com/en_US/brands/pop-tarts-consumer-brand.html 8X48g
 [ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5X19g
 [ ] - Store brand Summer Fruits Cereal Bars 5x19G
 [ ] - Store brand 5 Chocolate & Raspberry Bars 5x115G
@@ -160,25 +159,28 @@
 [ ] - Jordans Frusli Bar Raisin & Hazelnut 6x30g
 [ ] - Belvita Soft Filled Strawberry Biscuits 4x250G
 [ ] - Belvita Soft Filled Chocolate Biscuits 4x250G
+[ ] - Nature Valley Crunchy Granola Oats & Honey 5X42g
+
 
 ## Cereal Drinks
 
 
-[ ] - Weetabix Weetos Chocolate Cereal 500G
 [ ] - Weetabix On The Go Chocolate Drink 250Ml
 [ ] - Weetabix On The Go Vanilla Drink 250Ml
 [ ] - Weetabix On The Go Strawberry Drink 250Ml
 [ ] - Weetabix On The Go Banana Drink 250Ml
 [ ] - Up&Go Breakfast Drink Chocolate 330Ml
 [ ] - Up&Go Breakfast Drink Banana & Honey 330Ml
+[ ] - Up&Go Breakfast Chocolate Drink 250Ml
 [ ] - Fuel 10K Liquid Breakfast Strawberry Drink 330Ml
 [ ] - Fuel 10K Liquid Breakfast Vanilla Drink 330Ml
 [ ] - Fuel 10K Liquid Breakfast Chocolate Drink 330Ml
-[ ] - Up & Go Breakfast Chocolate Drink 3 X 250Ml
+
 
 
 ## Granola
 **can be expanded**
+
 
 [ ] - Kellogg's Crunchy Nut Oat Granola Nut & Chocolate 380G
 [ ] - Kellogg's Crunchy Nut Fruit & Nut Oat Granola 380G
@@ -190,7 +192,6 @@
 [ ] - Store brand High Protein Granola 500G
 [ ] - Lizis Low Sugar Granola 500G
 [ ] - Lizis High Protein Granola 350G
-[ ] - Nature Valley Crunchy Granola Oats & Honey 5X42g
 [ ] - Fuel 10K Chocolate Loaded Granola 400G
 [ ] - Jordans Super Nutty Granola 550G
 [ ] - Jordans Crunchy Oat Fruit & Nut Granola 750G
@@ -201,6 +202,7 @@
 
 ## Porridge
 **can be expanded**
+
 
 [ ] - Store brand Scottish Oats Porridge 1Kg
 [ ] - Store brand Organic Porridge 750G
