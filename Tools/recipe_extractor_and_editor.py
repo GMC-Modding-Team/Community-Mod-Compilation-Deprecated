@@ -1,14 +1,12 @@
+# This script copies dictionary that contains "sewing_kit"
+# value in a nested list
+# appends it to a new list of dictionaries, changes said value.
+# its "time" value and adds "id_suffix" item.
+# Made for extracting and editing armors to use the sewing_machine item
+# takes care of pening and closing the file,
+# converting it to Python's data type and stores it in "data" opbject
 import json
 
-########################################
-# This script copies dictionary that contains "sewing_kit" value in a nested list
-# appends it to a new list of dictionaries, changes said value, its "time" value and adds "id_suffix" item.
-# Made for extracting and editing armors to use the sewing_machine item
-#######################################
-
-
-
-# takes care of pening and closing the file, converting it to Python's data type and stores it in "data" opbject
 with open("arms.json", "r") as recipejson:
     dataList = json.load(recipejson)
 
@@ -16,7 +14,7 @@ with open("arms.json", "r") as recipejson:
 storageData = []
 
 
-#moves the dicts that have SEW into a new list
+# moves the dicts that have SEW into a new list
 def appender(lis):
     for dict in lis:
         for keyDict, valueList in dict.items():
@@ -31,7 +29,8 @@ def appender(lis):
                                     storageData.append(dict)
                                     print("dictionary moved")
                 else:
-                     print("key checked")
+                    print("key checked")
+
 
 def increaseSEW(dataList):
     # increases the SEW value
@@ -50,6 +49,7 @@ def increaseSEW(dataList):
                 else:
                     print("key checked")
 
+
 def decreaseTime(dataList):
     # increases the SEW value
     for dict in dataList:
@@ -61,6 +61,8 @@ def decreaseTime(dataList):
                     dict[key] -= int(value * 0.5)
                 else:
                     print("key checked")
+
+
 def changeSubcategory(dataList):
     # increases the SEW value
     for dict in dataList:
@@ -79,6 +81,7 @@ def addSufix(dataList):
         # adds "sm" sufix
         dict["id_suffix"] = "sm"
         print("sufix key/value added")
+
 
 appender(dataList)
 increaseSEW(storageData)

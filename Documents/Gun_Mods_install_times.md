@@ -1,14 +1,18 @@
 # Gun Mods - install times
 
+
 Use the `home` key to get to the top.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [Vanilla Locations](#vanilla-locations)
 - [Modded locations and new times](#Modded-locations-and-new-times)
-- [Others](#Install-times-worth-noting)
+- [Install times worth noting](#install-times-worth-noting)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
 # Vanilla locations
-#### Head-Category - [Vanilla Locations](#vanilla-locations)
 
 
 ```JSON
@@ -79,7 +83,6 @@ Use the `home` key to get to the top.
 
 ---
 # Modded locations and new times
-#### Head-Category - [Modded locations and new times](#Modded-locations-and-new-times)
 
 
 ```JSON
@@ -100,7 +103,6 @@ Use the `home` key to get to the top.
 
 ---
 # Install times worth noting
-#### Head-Category - [Others](#Install-times-worth-noting)
 
 
 ```JSON

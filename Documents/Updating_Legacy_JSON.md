@@ -1,16 +1,20 @@
 # Updating Legacy JSON
 
+
 Use the `home` key to get to the top.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [Introduction](#introduction)
-  + [Tools Required](#tools-required)
-  + [Regex](#regex)
-  + [What is JSON?](#what-is-json)
-  + [Terminology in this Document](#terminology-in-this-document)
+  * [Tools Required](#tools-required)
+  * [Regex](#regex)
+  * [What is JSON?](#what-is-json)
+  * [Terminology in this Document](#terminology-in-this-document)
 - [abstract, ident, and id](#abstract-ident-and-id)
 - [Ammo](#ammo)
-  + [Ammo Type](#ammo-type)
-  + [damage](#damage)
+  * [Ammo Type](#ammo-type)
+  * [damage](#damage)
 - [Artifacts](#artifacts)
 - [barrel_length](#barrel_length)
 - [Bleeding](#bleeding)
@@ -24,17 +28,18 @@ Use the `home` key to get to the top.
 - [Name](#name)
 - [picklock](#picklock)
 - [Pocket Data](#pocket-data)
-  + [Gun Pocket data](#gun-Pocket-data)
-  + [Magazine Pocket data](#magazine-Pocket-data)
-- [type: CONTAINER](#type-container)
+  * [Gun Pocket data](#gun-Pocket-data)
+  * [Magazine Pocket data](#magazine-Pocket-data)
+  * [CONTAINER](#container)
 - [Volume](#volume)
 - [Weight](#weight)
 - [Effect](#effect)
 - [Shape](#shape)
 - [Construction group](#construction-group)
-  + [Group](#group)
+  * [Group](#group)
 - [Activity level](#activity-level)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
 # Introduction
 Welcome to Updating Legacy JSON.md. This document aims to guide you through the process of replacing obsolete code with modern JSON.
@@ -364,8 +369,9 @@ This is more complicated **needs updating**
 ```
 
 ---
-# type: CONTAINER
-`type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
+## CONTAINER
+The current JSON standards for the `type` `"CONTAINER"` look like this:
+``type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:`
 
 ```regex
 "type": "CONTAINER"
