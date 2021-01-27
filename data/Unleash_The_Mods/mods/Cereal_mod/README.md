@@ -165,16 +165,16 @@
 ## Cereal Drinks
 
 
-[ ] - Weetabix On The Go Chocolate Drink 250Ml
-[ ] - Weetabix On The Go Vanilla Drink 250Ml
-[ ] - Weetabix On The Go Strawberry Drink 250Ml
-[ ] - Weetabix On The Go Banana Drink 250Ml
-[ ] - Up&Go Breakfast Drink Chocolate 330Ml
-[ ] - Up&Go Breakfast Drink Banana & Honey 330Ml
-[ ] - Up&Go Breakfast Chocolate Drink 250Ml
-[ ] - Fuel 10K Liquid Breakfast Strawberry Drink 330Ml
-[ ] - Fuel 10K Liquid Breakfast Vanilla Drink 330Ml
-[ ] - Fuel 10K Liquid Breakfast Chocolate Drink 330Ml
+[x] - Weetabix On The Go chocolate drink 250Ml
+[x] - Weetabix On The Go vanilla drink 250Ml
+[x] - Weetabix on the go strawberry drink 250Ml
+[x] - Weetabix on the go banana drink 250Ml
+[x] - Up&Go Breakfast Drink Chocolate 330Ml
+[x] - Up&Go Breakfast Drink Banana & Honey 330Ml
+[x] - Up&Go Breakfast Chocolate Drink 250Ml
+[x] - Fuel 10K Liquid Breakfast Strawberry Drink 330Ml
+[x] - Fuel 10K Liquid Breakfast Vanilla Drink 330Ml
+[x] - Fuel 10K Liquid Breakfast Chocolate Drink 330Ml
 
 
 
