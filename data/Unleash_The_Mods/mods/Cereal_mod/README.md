@@ -44,13 +44,19 @@
 [x] - Weetabix Oatibix Cereal 24 Pack
 [x] - Weetabix Oatibix Flakes Cereal 550G
 [x] - Weetabix Crispy Minis Fruit Nut Cereal 500G
-[x] - Weetabix Crispy Minis Chocolate Chip Cereal 600G https://www.weetabix.co.uk/our-cereals/
-[ ] - Nestle Cheerios Multigrain Cereal 600G https://www.nestle.com/
+[x] - Weetabix Crispy Minis Chocolate Chip Cereal 600G
+[ ] - Nestle Cheerios Multigrain Cereal 600G
 [ ] - Nestle Cheerios Honey Cereal 375G
 [ ] - Nestle Shreddies Original Cereal 415G
 [ ] - Nestle Shreddies Original Cereal 675G
 [ ] - Nestle Shreddies Frosted Cereal 500G
+[ ] - Nestle Shreddies Frosted Cereal 700G
 [ ] - Nestle Nesquik Cereal 375G
+[ ] - Nestle Nesquik Cereal 500G
+[ ] - Nestle Fitness breakfast cereals 415G
+[ ] - Nestle Fitness breakfast cereals 500G
+[ ] - Nestle Lion cereals 375G
+[ ] - Nestle Lion cereals 500G
 [ ] - Kellogg's White Chocolate Coco Pops Cereal 480G
 [ ] - Kellogg's Rice Krispies Cereal 700G
 [ ] - Kellogg's Rice Krispies Cereal 510G
