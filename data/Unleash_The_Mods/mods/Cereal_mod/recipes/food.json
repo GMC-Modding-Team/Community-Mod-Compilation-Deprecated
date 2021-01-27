@@ -11,20 +11,7 @@
     "autolearn": true,
     "batch_time_factors": [ 20, 2 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
-    "components": [
-      [ [ "milk", 1 ], [ "con_milk", 1 ], [ "nut_milk", 1 ] ],
-      [
-        [ "cereal", 1 ],
-        [ "cereal2", 1 ],
-        [ "cereal3", 1 ],
-        [ "weetabix_boxes", 1, "LIST" ],
-        [ "nestle_boxes", 1, "LIST" ],
-        [ "kelloggs_boxes", 1, "LIST" ],
-        [ "store_brand_boxes", 1, "LIST" ],
-        [ "jordans_boxes", 1, "LIST" ],
-        [ "quaker_boxes", 1, "LIST" ]
-      ]
-    ]
+    "components": [ [ [ "milk", 1 ], [ "con_milk", 1 ], [ "nut_milk", 1 ] ], [ [ "cereal_list", 1, "LIST" ] ] ]
   },
   {
     "result": "nut_milk",
