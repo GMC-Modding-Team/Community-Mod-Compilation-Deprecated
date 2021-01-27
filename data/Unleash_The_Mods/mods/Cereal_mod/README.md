@@ -23,8 +23,8 @@
 [x] - add more [Granola](#granola) from https://www.tesco.com/groceries/en-GB/search?query=Granola to md
 [x] - add more [Porridge](#Porridge) from https://www.tesco.com/groceries/en-GB/search?query=Porridge to md
 [x] - add more [Porridge pots](#Porridge_pots) from https://www.tesco.com/groceries/en-GB/search?query=Porridge%20pots to md
-[/] - implement [Cereal](#cereal)
-[ ] - implement [Cereal bars](#cereal_bars)
+[x] - implement [Cereal](#cereal)
+[/] - implement [Cereal bars](#cereal_bars)
 [ ] - implement [Cereal Drinks](#drinks)
 [ ] - implement [Granola](#granola)
 [ ] - implement [Porridge](#Porridge)
@@ -125,30 +125,30 @@
 [ ] - Graze Honey And Oat Bar 4 X 30G
 [ ] - Belvita Chocolate Chip Biscuits 225G
 [ ] - Alpen Strawberry With Yogurt Cereal Bar 5X29g
-[ ] - Tesco 6 Coconut & Chocolate Bars 180G
-[ ] - Tesco Peanut Munch Bar 6 Pack 192G
-[ ] - Tesco 6 Apple Fruity Bakes 222G
-[ ] - Tesco Salted Caramel Munch Bars 192G
-[ ] - Tesco 6 Strawberry Fruity Bakes 222G
-[ ] - Tesco Raisin Munch Bar 6 X 32G
-[ ] - Tesco Forest Fruits Yogurt Topped Slices 180G
-[ ] - Tesco 5 Chocolate & Caramel Crispy Slice 5X19g
-[ ] - Tesco 5 Chocolate & Raspberry Bars 115G
-[ ] - Tesco Standard Raisin Crispy Slices 5 Pack 218G
-[ ] - Tesco Pumpkin Seeds Almond & Dark Chocolate Bars 140G
+[ ] - Store brand 6 Coconut & Chocolate Bars 180G
+[ ] - Store brand Peanut Munch Bar 6 Pack 192G
+[ ] - Store brand 6 Apple Fruity Bakes 222G
+[ ] - Store brand Salted Caramel Munch Bars 192G
+[ ] - Store brand 6 Strawberry Fruity Bakes 222G
+[ ] - Store brand Raisin Munch Bar 6 X 32G
+[ ] - Store brand Forest Fruits Yogurt Topped Slices 180G
+[ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5X19g
+[ ] - Store brand 5 Chocolate & Raspberry Bars 115G
+[ ] - Store brand Standard Raisin Crispy Slices 5 Pack 218G
+[ ] - Store brand Pumpkin Seeds Almond & Dark Chocolate Bars 140G
 [ ] - Kellogg's Coco Pops Cereal Bar 6 X 20G
 [ ] - Kellogg's Frosties Cereal Bars 6 X 25G
 [ ] - Kellogg's Rice Krispies Cereal Milk Bars 6X20g
 [ ] - Kellogg's Rice Krispie Squares Marshmallow 4 X 28G
 [ ] - Kellogg's Rice Krispie Squares Chocolate 4X36
 [ ] - Kellogg's Pop Tarts https://www.kelloggs.com/en_US/brands/pop[ ] -tarts[ ] -consumer[ ] -brand.html 8X48g
-[ ] - Tesco 5 Chocolate & Caramel Crispy Slice 5X19g
-[ ] - Tesco Summer Fruits Cereal Bars 5 X 19G
-[ ] - Tesco 5 Chocolate & Raspberry Bars 115G
+[ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5X19g
+[ ] - Store brand Summer Fruits Cereal Bars 5 X 19G
+[ ] - Store brand 5 Chocolate & Raspberry Bars 115G
 [ ] - Ms Molly's Chocolate Chip Cereal Bars 126G
 [ ] - Ms Molly's 6 White Chocolate & Strawberry Cereal Bars 126G
 [ ] - Graze Cocoa & Vanilla Bar 4 X 30G
-[ ] - Tesco Salted Caramel Munch Bars 192Gs
+[ ] - Store brand Salted Caramel Munch Bars 192Gs
 [ ] - Jordans Frusli Blueberry Burst 6X30g
 [ ] - Jordans Frusli Wild Berry 6X30g
 [ ] - Jordans Frusli Bar Raisin & Hazelnut 6X30g
@@ -177,11 +177,11 @@
 [ ] - Kellogg's Crunchy Nut Oat Granola Nut & Chocolate 380G
 [ ] - Kellogg's Crunchy Nut Fruit & Nut Oat Granola 380G
 [ ] - Kellogg's Crunchy Nut Caramelised Granola 380G
-[ ] - Tesco Super Berry Granola 500G
-[ ] - Tesco Honey & Almond Granola 500G
-[ ] - Tesco Fruit & Nut Granola 1Kg
-[ ] - Tesco Tropical Fruits Granola 1Kg
-[ ] - Tesco High Protein Granola 500G
+[ ] - Store brand Super Berry Granola 500G
+[ ] - Store brand Honey & Almond Granola 500G
+[ ] - Store brand Fruit & Nut Granola 1Kg
+[ ] - Store brand Tropical Fruits Granola 1Kg
+[ ] - Store brand High Protein Granola 500G
 [ ] - Lizis Low Sugar Granola 500G
 [ ] - Lizis High Protein Granola 350G
 [ ] - Nature Valley Crunchy Granola Oats & Honey 5X42g
@@ -196,8 +196,8 @@
 ## Porridge
 **can be expanded**
 
-[ ] - Tesco Scottish Oats Porridge 1Kg
-[ ] - Tesco Organic Porridge 750G
+[ ] - Store brand Scottish Oats Porridge 1Kg
+[ ] - Store brand Organic Porridge 750G
 [ ] - Grower's Harvest Porridge Oats 1Kg
 [ ] - Quaker Oat So Simple Apple & Blueberry Porridge 10 X36g
 [ ] - Quaker Porridge To Go Golden Syrup 2X55g
@@ -210,28 +210,27 @@
 
 
 [ ] - Quaker Protein Golden Syrup Porridge pot 63G
-[ ] - Quaker Protein Golden Syrup Porridge 63G
 [ ] - Quaker Oat So Simple Original Porridge Pot 45G
 [ ] - Quaker Oat So Simple Sweet Cinnamon Porridge Pot 57G
-[ ] - Quaker Oat So Simple Golden Syrup Porridge 57G
+[ ] - Quaker Oat So Simple Golden Syrup Porridge Pot 57G
 [ ] - Quaker Oat So Simple Protein Original Porridge Pot 49G
-[ ] - Quaker Oat So Simple Apple & Blueberry Porridge 57G
+[ ] - Quaker Oat So Simple Apple & Blueberry Porridge Pot 57G
 [ ] - Fuel 10K Chocolate Porridge Pot 70G
 [ ] - Fuel 10k Double Chocolate Oat Muffin 60G
 [ ] - Fuel 10K Golden Syrup Porridge Pot 70G
 [ ] - Fuel 10k Salted Caramel Porridge Pot 70G
-[ ] - Fuel 10K Toffee Apple Oat Muffin 60G
-[ ] - Tesco Instant Oats Golden Syrup Porridge 55G
-[ ] - Tesco Instant Oats Original Porridge 55G
-[ ] - Tesco Instant Oats Berry Cherry Porridge 55G
-[ ] - Tesco Instant Oats Blueberry Apple Porridge 55G
-[ ] - Tesco Instant Oats Cinnamon Porridge 55G
-[ ] - Tesco Free From Original Porridge Pot 55G
-[ ] - Tesco Free From Gluten Syrup Porridge Pot 55G
-[ ] - Oomf Protein Oats & Biological Culture Salted Caramel Flavoured 65G
-[ ] - Oomf Protein Oats & Biological Culture Golden Syrup Flavour 65G
+[ ] - Fuel 10K Toffee Apple Oat Muffin Pot 60G
+[ ] - Store brand Instant Oats Golden Syrup Porridge 55G
+[ ] - Store brand Instant Oats Original Porridge 55G
+[ ] - Store brand Instant Oats Berry Cherry Porridge 55G
+[ ] - Store brand Instant Oats Blueberry Apple Porridge 55G
+[ ] - Store brand Instant Oats Cinnamon Porridge 55G
+[ ] - Store brand Free From Original Porridge Pot 55G
+[ ] - Store brand Free From Gluten Syrup Porridge Pot 55G
+[ ] - Oomf Protein Oats & Biological Culture Salted Caramel Flavoured Pot 65G
+[ ] - Oomf Protein Oats & Biological Culture Golden Syrup Flavour Pot 65G
 [ ] - Moma Coconut & Chia Porridge Pot 55G
 [ ] - Moma Porridge Cacao & Hazelnut Pot 65G
-[ ] - Pronto Cinnamon Pot Porridge Mix 60G
-[ ] - Moma Jumbo Oat Porridge Plain 65G
-[ ] - Wicked Kitchen Superseeded Porridge 70G
+[ ] - Pronto Cinnamon Pot Porridge Mix Pot 60G
+[ ] - Moma Jumbo Oat Porridge Plain Pot 65G
+[ ] - Wicked Kitchen Superseeded Porridge Pot 70G
