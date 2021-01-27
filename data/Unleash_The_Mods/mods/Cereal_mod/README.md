@@ -23,7 +23,7 @@
 [x] - add more [Granola](#granola) from https://www.tesco.com/groceries/en-GB/search?query=Granola to md
 [x] - add more [Porridge](#Porridge) from https://www.tesco.com/groceries/en-GB/search?query=Porridge to md
 [x] - add more [Porridge pots](#Porridge_pots) from https://www.tesco.com/groceries/en-GB/search?query=Porridge%20pots to md
-[ ] - implement [Cereal](#cereal)
+[/] - implement [Cereal](#cereal)
 [ ] - implement [Cereal bars](#cereal_bars)
 [ ] - implement [Cereal Drinks](#drinks)
 [ ] - implement [Granola](#granola)
