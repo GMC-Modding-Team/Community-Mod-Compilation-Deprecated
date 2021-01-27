@@ -16,19 +16,26 @@
 
 ## To-do
 
+[ ] - Implement cereal
 
-[x] - add more [Cereal](#cereal) from https://www.tesco.com/groceries/en-GB/shop/food-cupboard/cereals/all to md
-[x] - add more [Cereal bars](#cereal_bars) from https://www.tesco.com/groceries/en-GB/search?query=cereal%20bars to md
-[x] - add more [Cereal Drinks](#cereal_drinks) from https://www.tesco.com/groceries/en-GB/search?query=Cereal%20Drinks to md
-[x] - add more [Granola](#granola) from https://www.tesco.com/groceries/en-GB/search?query=Granola to md
-[x] - add more [Porridge](#Porridge) from https://www.tesco.com/groceries/en-GB/search?query=Porridge to md
-[x] - add more [Porridge pots](#Porridge_pots) from https://www.tesco.com/groceries/en-GB/search?query=Porridge%20pots to md
-[x] - implement [Cereal](#cereal)
-[/] - implement [Cereal bars](#cereal_bars)
-[ ] - implement [Cereal Drinks](#drinks)
-[ ] - implement [Granola](#granola)
-[ ] - implement [Porridge](#Porridge)
-[ ] - implement [Porridge pots](#Porridge_pots)
+  [x] - add more [Cereal](#cereal) from https://www.tesco.com/groceries/en-GB/shop/food-cupboard/cereals/all to md
+  [x] - add more [Cereal bars](#cereal_bars) from https://www.tesco.com/groceries/en-GB/search?query=cereal%20bars to md
+  [x] - add more [Cereal Drinks](#cereal_drinks) from https://www.tesco.com/groceries/en-GB/search?query=Cereal%20Drinks to md
+  [x] - add more [Granola](#granola) from https://www.tesco.com/groceries/en-GB/search?query=Granola to md
+  [x] - add more [Porridge](#Porridge) from https://www.tesco.com/groceries/en-GB/search?query=Porridge to md
+  [x] - add more [Porridge pots](#Porridge_pots) from https://www.tesco.com/groceries/en-GB/search?query=Porridge%20pots to md
+  [x] - create abstract for [Cereal](#cereal)
+  [x] - implement [Cereal](#cereal)
+  [x] - create abstract for [Cereal bars](#cereal_bars)
+  [/] - implement [Cereal bars](#cereal_bars)
+  [ ] - create abstract for [Cereal Drinks](#drinks)
+  [ ] - implement [Cereal Drinks](#drinks)
+  [x] - create abstract for [Granola](#granola)
+  [ ] - implement [Granola](#granola)
+  [x] - create abstract for [Porridge](#Porridge)
+  [ ] - implement [Porridge](#Porridge)
+  [ ] - create abstract for [Porridge pots](#Porridge_pots)
+  [ ] - implement [Porridge pots](#Porridge_pots)
 
 
 ## Cereal
@@ -107,53 +114,52 @@
 ## cereal bars
 
 
-[ ] - Go Ahead Strawberry Yogurt Breaks Cereal Bars 5 Pack 177G
-[ ] - Go Ahead Forest Fruit Yogurt Breaks Bars 5 Pack 177G
-[ ] - Mcvitie Go Ahead Forest Fruit Slices 5X43.5G
+[ ] - Go Ahead Strawberry Yogurt Breaks Cereal Bars 5x177G
+[ ] - Go Ahead Forest Fruit Yogurt Breaks Bars 5x177G
 [ ] - Go Ahead Apple Bakes 6X35g
+[ ] - Mcvitie Go Ahead Forest Fruit Slices 5X43.5G
 [ ] - Mcvitie Go Ahead Strawberry Bakes 6X35g
 [ ] - Nature Valley Protein Salted Caramel Nut Bars 4X40g
 [ ] - Nature Valley Crunchy Granola Variety Cereal Bars 5 X 42G
 [ ] - Nature Valley Crunchy Granola Oats & Honey 5X42g
 [ ] - Nature Valley Crunchy Granola Oats & Chocolate Bars 5X42g
 [ ] - Nature Valley Crunchy Granola Canadian Maple Syrup Bar 5X42g
-[ ] - Nature Valley Nut Butter Cups Peanut Chocolate 4 Pack 140G
-[ ] - Cadbury Brunch Chocolate Chip 6 X 32G
-[ ] - Cadbury Brunch Bars Raisin 6X32g
-[ ] - Graze Lemon & Blueberry Super Bites 4X30g
-[ ] - Graze Cocoa & Vanilla Bar 4 X 30G
-[ ] - Graze Honey And Oat Bar 4 X 30G
-[ ] - Belvita Chocolate Chip Biscuits 225G
+[ ] - Nature Valley Nut Butter Cups Peanut Chocolate 4x140G
+[ ] - Cadbury Brunch Chocolate Chip 6x32G
+[ ] - Cadbury Brunch Bars Raisin 6x32g
+[ ] - Graze Lemon & Blueberry Super Bites 4x30g
+[ ] - Graze Cocoa & Vanilla Bar 4x30G
+[ ] - Graze Honey And Oat Bar 4x 30G
 [ ] - Alpen Strawberry With Yogurt Cereal Bar 5X29g
-[ ] - Store brand 6 Coconut & Chocolate Bars 180G
-[ ] - Store brand Peanut Munch Bar 6 Pack 192G
+[ ] - Store brand 6 Coconut & Chocolate Bars 5x180G
+[ ] - Store brand Peanut Munch Bar 6x192G
 [ ] - Store brand 6 Apple Fruity Bakes 222G
-[ ] - Store brand Salted Caramel Munch Bars 192G
-[ ] - Store brand 6 Strawberry Fruity Bakes 222G
-[ ] - Store brand Raisin Munch Bar 6 X 32G
-[ ] - Store brand Forest Fruits Yogurt Topped Slices 180G
-[ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5X19g
-[ ] - Store brand 5 Chocolate & Raspberry Bars 115G
-[ ] - Store brand Standard Raisin Crispy Slices 5 Pack 218G
-[ ] - Store brand Pumpkin Seeds Almond & Dark Chocolate Bars 140G
-[ ] - Kellogg's Coco Pops Cereal Bar 6 X 20G
-[ ] - Kellogg's Frosties Cereal Bars 6 X 25G
+[ ] - Store brand Salted Caramel Munch Bars 5x192G
+[ ] - Store brand 6 Strawberry Fruity Bakes 5x222G
+[ ] - Store brand Raisin Munch Bar 5x32G
+[ ] - Store brand Forest Fruits Yogurt Topped Slices 5x180G
+[ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5x19g
+[ ] - Store brand 5 Chocolate & Raspberry Bars 5x115G
+[ ] - Store brand Standard Raisin Crispy Slices 5x218G
+[ ] - Store brand Pumpkin Seeds Almond & Dark Chocolate Bars 5x140G
+[ ] - Kellogg's Coco Pops Cereal Bar 6X20G
+[ ] - Kellogg's Frosties Cereal Bars 6X25G
 [ ] - Kellogg's Rice Krispies Cereal Milk Bars 6X20g
-[ ] - Kellogg's Rice Krispie Squares Marshmallow 4 X 28G
+[ ] - Kellogg's Rice Krispie Squares Marshmallow 4X28G
 [ ] - Kellogg's Rice Krispie Squares Chocolate 4X36
 [ ] - Kellogg's Pop Tarts https://www.kelloggs.com/en_US/brands/pop[ ] -tarts[ ] -consumer[ ] -brand.html 8X48g
 [ ] - Store brand 5 Chocolate & Caramel Crispy Slice 5X19g
-[ ] - Store brand Summer Fruits Cereal Bars 5 X 19G
-[ ] - Store brand 5 Chocolate & Raspberry Bars 115G
-[ ] - Ms Molly's Chocolate Chip Cereal Bars 126G
-[ ] - Ms Molly's 6 White Chocolate & Strawberry Cereal Bars 126G
-[ ] - Graze Cocoa & Vanilla Bar 4 X 30G
-[ ] - Store brand Salted Caramel Munch Bars 192Gs
-[ ] - Jordans Frusli Blueberry Burst 6X30g
-[ ] - Jordans Frusli Wild Berry 6X30g
-[ ] - Jordans Frusli Bar Raisin & Hazelnut 6X30g
-[ ] - Belvita Soft Filled Strawberry Biscuits 250G
-[ ] - Belvita Soft Filled Chocolate Biscuits 250G
+[ ] - Store brand Summer Fruits Cereal Bars 5x19G
+[ ] - Store brand 5 Chocolate & Raspberry Bars 5x115G
+[ ] - Ms Molly's Chocolate Chip Cereal Bars 5x126G
+[ ] - Ms Molly's 6 White Chocolate & Strawberry Cereal Bars 5x126G
+[ ] - Graze Cocoa & Vanilla Bar 4x30G
+[ ] - Store brand Salted Caramel Munch Bars 4x192Gs
+[ ] - Jordans Frusli Blueberry Burst 6x30g
+[ ] - Jordans Frusli Wild Berry 6x30g
+[ ] - Jordans Frusli Bar Raisin & Hazelnut 6x30g
+[ ] - Belvita Soft Filled Strawberry Biscuits 4x250G
+[ ] - Belvita Soft Filled Chocolate Biscuits 4x250G
 
 ## Cereal Drinks
 
