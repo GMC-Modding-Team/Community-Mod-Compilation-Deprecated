@@ -57,6 +57,10 @@
 [x] - Nestle Fitness breakfast cereals 500G
 [x] - Nestle Lion cereals 375G
 [x] - Nestle Lion cereals 500G
+[ ] - Jordans Country Crisp Chocolate Cereal 500G
+[ ] - Jordans Country Crisp Flame Rais Cereal 500G
+[ ] - Jordans Country Crisp Honey Nut 500G
+[ ] - Jordans Country Crisp Strawberry Cereal 500G
 [ ] - Kellogg's White Chocolate Coco Pops Cereal 480G
 [ ] - Kellogg's Rice Krispies Cereal 700G
 [ ] - Kellogg's Rice Krispies Cereal 510G
@@ -96,9 +100,6 @@
 [ ] - Tesco Swiss Style Muesli 1Kg
 [ ] - Tesco Raisin Wheats Cereal 500G
 [ ] - Tesco Multigrain Boulders 325G
-[ ] - Jordans Country Crisp Chocolate Cereal 500G
-[ ] - Jordans Country Crisp Flame Rais Cereal 500G
-[ ] - Jordans Natural Muesli 1Kg
 [ ] - Quaker Kids Oatie Mix Up Strawberry Cereal 400G
 [ ] - Quaker Kids Oatie Mix Up Chocolate Cereal 400G
 
@@ -147,10 +148,10 @@
 [ ] - Ms Molly's Chocolate Chip Cereal Bars 126G
 [ ] - Ms Molly's 6 White Chocolate & Strawberry Cereal Bars 126G
 [ ] - Graze Cocoa & Vanilla Bar 4 X 30G
-[ ] - Tesco Salted Caramel Munch Bars 192G
-[ ] - Jordans Frusli Bar Raisin & Hazelnut 6X30g
-[ ] - Jordans Frusli Wild Berry 6X30g
+[ ] - Tesco Salted Caramel Munch Bars 192Gs
 [ ] - Jordans Frusli Blueberry Burst 6X30g
+[ ] - Jordans Frusli Wild Berry 6X30g
+[ ] - Jordans Frusli Bar Raisin & Hazelnut 6X30g
 [ ] - Belvita Soft Filled Strawberry Biscuits 250G
 [ ] - Belvita Soft Filled Chocolate Biscuits 250G
 
@@ -182,12 +183,14 @@
 [ ] - Tesco Tropical Fruits Granola 1Kg
 [ ] - Tesco High Protein Granola 500G
 [ ] - Lizis Low Sugar Granola 500G
-[ ] - Lizi's High Protein Granola 350G
-[ ] - Jordans Simply Granola 750
+[ ] - Lizis High Protein Granola 350G
 [ ] - Nature Valley Crunchy Granola Oats & Honey 5X42g
 [ ] - Fuel 10K Chocolate Loaded Granola 400G
-[ ] - Jordans Crunchy Granola Raisin Almond 750G
+[ ] - Jordans Super Nutty Granola 550G
+[ ] - Jordans Crunchy Oat Fruit & Nut Granola 750G
 [ ] - Jordans Crunchy Oat Tropical Fruits Granola 750G
+[ ] - Jordans Crunchy Granola Raisin Almond 750G
+[ ] - Jordans Simply Granola 750G
 
 
 ## Porridge
