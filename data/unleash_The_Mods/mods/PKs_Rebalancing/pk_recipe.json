@@ -664,7 +664,7 @@
       [ [ "smpistol_primer", 4 ], [ "lgpistol_primer", 4 ] ],
       [ [ "gunpowder", 60 ] ],
       [ [ "bomblet_casing", 4 ] ],
-      [ [ "chem_sulphuric_acid", 6 ], [ "acidbomb", 1 ] ]
+      [ [ "acid", 6 ], [ "acidbomb", 1 ] ]
     ]
   },
   {
@@ -877,7 +877,7 @@
     "autolearn": true,
     "components": [
       [ [ "jar_glass_sealed", 1 ], [ "clay_canister", 2 ], [ "flask_glass", 2 ] ],
-      [ [ "chem_sulphuric_acid", 2 ], [ "chem_sulphuric_acid", 1 ] ],
+      [ [ "acid", 2 ], [ "chem_sulphuric_acid", 1 ] ],
       [ [ "string_6", 2 ] ],
       [ [ "rag", 1 ] ]
     ]
@@ -895,7 +895,7 @@
     "autolearn": true,
     "components": [
       [ [ "bottle_glass", 1 ], [ "clay_canister", 3 ], [ "flask_glass", 3 ] ],
-      [ [ "chem_sulphuric_acid", 3 ], [ "chem_sulphuric_acid", 2 ] ],
+      [ [ "acid", 3 ], [ "chem_sulphuric_acid", 2 ] ],
       [ [ "string_6", 2 ] ],
       [ [ "rag", 2 ] ]
     ]
@@ -1049,7 +1049,7 @@
     "components": [
       [ [ "triffid_sap", 2 ], [ "triffid_sap_thrown", 2 ] ],
       [ [ "plant_sac", 1 ], [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "chem_sulphuric_acid", 1 ], [ "chem_acetic_acid", 2 ] ],
+      [ [ "water_acid", 1 ], [ "water_acid_weak", 2 ] ],
       [ [ "clay_canister", 1 ], [ "flask_glass", 1 ], [ "bottle_glass", 1 ] ]
     ]
   },
@@ -1123,7 +1123,7 @@
     "components": [
       [ [ "fighter_sting_juice", 2 ] ],
       [ [ "royal_jelly_sap", 1 ], [ "royal_jelly", 1 ] ],
-      [ [ "chem_sulphuric_acid", 2 ], [ "chem_acetic_acid", 2 ] ]
+      [ [ "water_acid", 2 ], [ "water_acid_weak", 2 ] ]
     ]
   },
   {
@@ -1145,7 +1145,7 @@
       [ [ "fighter_sting_juice", 3 ] ],
       [ [ "royal_jelly_sap", 1 ], [ "royal_jelly", 1 ] ],
       [ [ "disinfectant", 3 ], [ "chem_hydrogen_peroxide_conc", 1 ], [ "chem_hydrogen_peroxide", 3 ] ],
-      [ [ "chem_sulphuric_acid", 2 ], [ "chem_acetic_acid", 2 ] ]
+      [ [ "water_acid", 2 ], [ "water_acid_weak", 2 ] ]
     ]
   },
   {
@@ -1256,7 +1256,7 @@
     "components": [
       [ [ "wasp_glue", 3 ] ],
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "chem_sulphuric_acid", 1 ], [ "chem_acetic_acid", 2 ] ],
+      [ [ "water_acid", 1 ], [ "water_acid_weak", 2 ] ],
       [
         [ "fertilizer_commercial", 50 ],
         [ "fertilizer_liquid", 50 ],
