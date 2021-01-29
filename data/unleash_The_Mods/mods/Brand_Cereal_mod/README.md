@@ -5,11 +5,11 @@
 
 * [To-do](#to-do)\
 * [Cereal](#cereal)\
-* [Cereal bars](#cereal_bars)\
-* [Drinks](#drinks)\
+* [Cereal Bars](#cereal_bars)\
+* [Cereal Drinks](#cereal_drinks)\
 * [Granola](#granola)\
-* [Porridge](#Porridge)\
-* [Porridge pots](#Porridge_pots)
+* [Porridge](#porridge)\
+* [Porridge pots](#porridge_pots)
 
 
 ---
@@ -24,17 +24,19 @@
   [x] - add more [Porridge](#Porridge) from https://www.tesco.com/groceries/en-GB/search?query=Porridge to md
   [x] - add more [Porridge pots](#Porridge_pots) from https://www.tesco.com/groceries/en-GB/search?query=Porridge%20pots to md
   [x] - create abstract for [Cereal](#cereal)
+  [x] - create cereal boxs [Cereal](#cereal)
   [x] - implement [Cereal](#cereal)
-  [x] - create abstract for [Cereal bars](#cereal_bars)
-  [ ] - implement [Cereal bars](#cereal_bars)
+  [x] - create abstract for [Cereal Bars](#cereal_bars)
+  [ ] - implement [Cereal Bars](#cereal_bars)
   [x] - create abstract for [Cereal Drinks](#drinks)
   [x] - implement [Cereal Drinks](#drinks)
   [x] - create abstract for [Granola](#granola)
   [ ] - implement [Granola](#granola)
-  [x] - create abstract for [Porridge](#Porridge)
-  [ ] - implement [Porridge](#Porridge)
-  [/] - create abstract for [Porridge pots](#Porridge_pots)
-  [ ] - implement [Porridge pots](#Porridge_pots)
+  [x] - create abstract for [Porridge](#porridge)
+  [ ] - implement [Porridge](#porridge)
+  [/] - create abstract for [Porridge pots](#porridge_pots)
+  [ ] - create porridge pots [Porridge pots](#porridge_pots)
+  [ ] - implement [Porridge pots](#porridge_pots)
 
 
 ## Cereal
