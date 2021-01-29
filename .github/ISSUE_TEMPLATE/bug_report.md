@@ -1,18 +1,14 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: bug
-assignees: ''
-
----
-
+<!---
 **Tags**
+`put one of these in the title`
 [Experimental] - normal tags
-[GMC_E] - only for E Stable
-[BN] - only for Bright nights
-[SP] - Sound Packs
-[TS] - Tile Set
+[E-3] - only for E Stable
+[BrightNights] - only for Bright nights
+[SoundPacks] - only for Sound Packs
+[TileSets] - only for Tile Set
+[Fonts] - only for Fonts
+[Documentation] - only for Documentation
+--->
 
 **Name the mod**
 Put the name(s) of affected mod(s) here.
