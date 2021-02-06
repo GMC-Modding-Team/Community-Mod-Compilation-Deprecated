@@ -30,7 +30,6 @@ def gen_new(path):
             # And only vehicles
             if jo.get("type") != "vehicle":
                 continue
-
             for part in jo["parts"]:
                 if part.get("fuel"):
                     continue
@@ -40,14 +39,12 @@ def gen_new(path):
                     if locations.get((x, y)):
                         locations[(x, y)]["parts"].extend(part["parts"])
                     else:
-                        locations[(x, y)] = {"x": x, "y": y, "parts":
-                                             part["parts"]}
+                        locations[(x, y)] = {"x": x, "y": y, "parts": part["parts"]}
                 elif (x, y) in locations:
                     locations[(x, y)]["parts"].append(item)
                 else:
                     locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-            jo["parts"] = sorted(locations.values(), key=lambda loc:
-                                 (loc["x"], loc["y"]))
+            jo["parts"] = [locations[key] for key in locations]
             change = True
     return json_data if change else None
 
