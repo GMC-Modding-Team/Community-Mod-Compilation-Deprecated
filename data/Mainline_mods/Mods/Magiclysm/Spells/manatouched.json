@@ -2,7 +2,7 @@
   {
     "id": "manatouched_crystal",
     "type": "SPELL",
-    "name": { "str": "Crystallize Mana" },
+    "name": "Crystallize Mana",
     "description": "Crystallizes mana into solid form.  Your physiological changes have made this spell much more efficient and easier to cast.",
     "valid_targets": [ "self" ],
     "spell_class": "MANA_CRYST_MANA",
@@ -25,7 +25,7 @@
   {
     "id": "manatouched_seeker_bolts",
     "type": "SPELL",
-    "name": { "str": "Seeker Bolts" },
+    "name": "Seeker Bolts",
     "effect": "attack",
     "shape": "blast",
     "description": "Fires bolts of mana from your fingertips that home in on randomly selected targets in range.",
@@ -42,6 +42,7 @@
     "base_energy_cost": 250,
     "base_casting_time": 85,
     "final_casting_time": 85,
+    "damage_type": "pure",
     "sound_description": "a zing",
     "flags": [ "RANDOM_TARGET", "SOMATIC", "NO_LEGS" ],
     "extra_effects": [ { "id": "magic_missile" }, { "id": "magic_missile" }, { "id": "magic_missile" }, { "id": "magic_missile" } ]
