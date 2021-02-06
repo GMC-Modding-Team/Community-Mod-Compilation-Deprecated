@@ -32,7 +32,7 @@ def gen_new(path):
             if type(jo['name']) == dict:
                 continue
             if jo.get['type'] not in ['AMMO', 'ARMOR', 'BATTERY', 'bionic',
-                                      'BIONIC_ITEM', 'BIONIC_ITEM', 'BOOK',
+                                      'BIONIC_ITEM', 'BOOK',
                                       'COMESTIBLE', 'ENGINE', 'fault',
                                       'GENERIC', 'GUN', 'GUNMOD',
                                       'item_action', 'ITEM_CATEGORY',
