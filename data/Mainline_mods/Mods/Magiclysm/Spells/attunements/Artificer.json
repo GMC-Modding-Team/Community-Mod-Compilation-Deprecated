@@ -7,7 +7,7 @@
   {
     "id": "spy_wasp",
     "type": "SPELL",
-    "name": { "str": "Spy Wasp" },
+    "name": "Spy Wasp",
     "description": "Sends out a partly magical, partly electronic spy drone shaped like a wasp that reveals terrain in a line in front of you.  The wasp can travel through walls.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "CONCENTRATE", "IGNORE_WALLS", "NO_LEGS", "SILENT" ],
@@ -87,7 +87,7 @@
   {
     "id": "artificer_toolkit",
     "type": "SPELL",
-    "name": { "str": "Artificer's Toolkit" },
+    "name": "Artificer's Toolkit",
     "description": "Artificers have a special pocket dimension with a magical tool that can cover a wide variety of tasks.  It is only a matter of temporarily summoning the item for use.",
     "valid_targets": [ "none" ],
     "flags": [ "CONCENTRATE", "NO_LEGS" ],

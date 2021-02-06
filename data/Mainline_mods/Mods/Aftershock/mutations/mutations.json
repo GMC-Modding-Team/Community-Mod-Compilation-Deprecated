@@ -48,7 +48,7 @@
   {
     "type": "mutation",
     "id": "MIGO_HEAT_RESIST",
-    "name": { "str": "Mi-go acclimatization" },
+    "name": "Mi-go acclimatization",
     "points": 4,
     "bodytemp_modifiers": [ -2500, -6500 ],
     "description": "Fleshy fronds grown from your scalp function like organic heat sinks.  They allow you to live comfortably within the mi-go atmosphere.",
@@ -63,7 +63,7 @@
   {
     "type": "mutation",
     "id": "FACIAL_TENTACLES",
-    "name": { "str": "Facial Tentacles" },
+    "name": "Facial Tentacles",
     "points": 1,
     "visibility": 8,
     "ugliness": 5,
@@ -76,7 +76,7 @@
   {
     "type": "mutation",
     "id": "MOUTH_TENDRILS",
-    "name": { "str": "Mouth Tendrils" },
+    "name": "Mouth Tendrils",
     "points": -1,
     "visibility": 7,
     "ugliness": 6,
@@ -87,7 +87,7 @@
   {
     "type": "mutation",
     "id": "WARM_NATURED",
-    "name": { "str": "Warm Natured" },
+    "name": "Warm Natured",
     "points": 2,
     "description": "Your body becomes much more efficient at distributing heat from itself.",
     "category": [ "MIGO" ],
@@ -97,7 +97,7 @@
   {
     "type": "mutation",
     "id": "NEURAL_IMPROVEMENT",
-    "name": { "str": "Neural Improvement" },
+    "name": "Neural Improvement",
     "points": 1,
     "description": "You see the world a little differently today.  Intelligence + 1",
     "changes_to": [ "EXPANDED_CONSCIOUSNESS" ],
@@ -107,7 +107,7 @@
   {
     "type": "mutation",
     "id": "EXPANDED_CONSCIOUSNESS",
-    "name": { "str": "Expanded Consciousness" },
+    "name": "Expanded Consciousness",
     "points": 2,
     "description": "You are beginning to see a way off this planet.  Intelligence + 2",
     "prereqs": [ "NEURAL_IMPROVEMENT" ],
@@ -118,7 +118,7 @@
   {
     "type": "mutation",
     "id": "UPLIFTED",
-    "name": { "str": "Extremely Smart" },
+    "name": "Extremely Smart",
     "points": 3,
     "visibility": 1,
     "ugliness": 1,
@@ -131,7 +131,7 @@
   {
     "type": "mutation",
     "id": "ALIEN_INT",
-    "name": { "str": "Alien Intelligence" },
+    "name": "Alien Intelligence",
     "points": 3,
     "visibility": 3,
     "ugliness": 6,
@@ -145,7 +145,7 @@
   {
     "type": "mutation",
     "id": "ENHANCED_REACTIONS",
-    "name": { "str": "Enhanced Reactions" },
+    "name": "Enhanced Reactions",
     "points": 1,
     "description": "Today is the day to start juggling.  Dexterity + 1",
     "changes_to": [ "QUICKENING" ],
@@ -155,7 +155,7 @@
   {
     "type": "mutation",
     "id": "QUICKENING",
-    "name": { "str": "Quickening" },
+    "name": "Quickening",
     "points": 2,
     "description": "You are starting to move like they do.  Dexterity + 2",
     "prereqs": [ "ENHANCED_REACTIONS" ],
@@ -166,7 +166,7 @@
   {
     "type": "mutation",
     "id": "OTHERWORLDLY_GRACE",
-    "name": { "str": "Otherworldly Grace" },
+    "name": "Otherworldly Grace",
     "points": 3,
     "description": "You no longer move like a human, others find it disconcerting.  Dexterity + 4",
     "prereqs": [ "ENHANCED_REACTIONS" ],
@@ -178,7 +178,7 @@
   {
     "type": "mutation",
     "id": "NEW_MUSCLES",
-    "name": { "str": "New Muscles" },
+    "name": "New Muscles",
     "points": 1,
     "description": "You see some new muscles that you aren't sure you've seen on humans before.  Strength + 1",
     "changes_to": [ "MUSCLE_FIBER" ],
@@ -189,7 +189,7 @@
   {
     "type": "mutation",
     "id": "MUSCLE_FIBER",
-    "name": { "str": "Muscle Fiber" },
+    "name": "Muscle Fiber",
     "points": 2,
     "description": "Fibrous tissue seems to be spreading through your body.  Strength + 2",
     "prereqs": [ "STR_UP" ],
@@ -201,7 +201,7 @@
   {
     "type": "mutation",
     "id": "MIGO_EARS",
-    "name": { "str": "Mi-go Ears" },
+    "name": "Mi-go Ears",
     "points": 1,
     "visibility": 4,
     "description": "Your ears have split into a series of tuberous projections.  They waggle towards far away sounds.",
@@ -213,7 +213,7 @@
   {
     "type": "mutation",
     "id": "DETACHMENT",
-    "name": { "str": "Detachment" },
+    "name": "Detachment",
     "points": 2,
     "flags": [ "PRED1" ],
     "description": "When were you ever like these creatures, helpless before the changes ravaging this world.",
@@ -227,7 +227,7 @@
   {
     "type": "mutation",
     "id": "ELDRITCH",
-    "name": { "str": "Eldritch" },
+    "name": "Eldritch",
     "points": 3,
     "description": "You have a sinister aspect to your demeanor, no longer part of this world.  You feel no sorrow at the deaths of humans and your brain now processes combat skills more efficiently as you mentally dissect your opponents.",
     "social_modifiers": { "intimidate": 3, "persuade": -10, "lie": -12 },
@@ -242,7 +242,7 @@
   {
     "type": "mutation",
     "id": "THRESH_YUGGOTH",
-    "name": { "str": "YUGGOTH" },
+    "name": "YUGGOTH",
     "points": 1,
     "description": "This death throes of this world are the birthing pangs of yours.",
     "valid": false,
@@ -252,7 +252,7 @@
   {
     "type": "mutation",
     "id": "MIGO_SCENT",
-    "name": { "str": "Fetid scent" },
+    "name": "Fetid scent",
     "points": 6,
     "description": "Your sweat now smells otherworldly, and not in a good way.  The mi-go still hate you but at least they aren't offended by your smell.",
     "valid": false,
@@ -267,7 +267,7 @@
   {
     "type": "mutation",
     "id": "EERIE",
-    "name": { "str": "Eerie" },
+    "name": "Eerie",
     "points": 1,
     "description": "You are offputting to others.  You're mannerisms have changed as if human interaction is becoming foreign.",
     "category": [ "MIGO" ],
@@ -277,7 +277,7 @@
   {
     "type": "mutation",
     "id": "WINGS_migo",
-    "name": { "str": "Mi-go Wings" },
+    "name": "Mi-go Wings",
     "points": 1,
     "visibility": 4,
     "ugliness": 8,
@@ -295,7 +295,7 @@
   {
     "type": "mutation",
     "id": "MIGO_BREATHE",
-    "name": { "str": "Mi-go breathe" },
+    "name": "Mi-go breathe",
     "points": 4,
     "description": "You can now breathe the gasses the mi-go thrive in.",
     "starting_trait": false,
@@ -310,7 +310,7 @@
   {
     "type": "mutation",
     "id": "UPLIFTED",
-    "name": { "str": "Uplifted" },
+    "name": "Uplifted",
     "points": 2,
     "description": "You come from uplifted animal stock.  This decreases morale penalties for being wet.",
     "valid": false,
@@ -342,7 +342,7 @@
   {
     "type": "mutation",
     "id": "HAULER",
-    "name": { "str": "Hauler" },
+    "name": "Hauler",
     "points": 2,
     "description": "You are capable of carrying far more than someone with similar strength could.  Your maximum weight carried is increased by 60%.",
     "category": [ "MASTODON" ],
@@ -382,7 +382,7 @@
   {
     "type": "mutation",
     "id": "PATCHFUR",
-    "name": { "str": "Patched Fur" },
+    "name": "Patched Fur",
     "points": 0,
     "visibility": 2,
     "ugliness": 1,
@@ -412,7 +412,7 @@
   {
     "type": "mutation",
     "id": "CRUSHINGFEET",
-    "name": { "str": "Crushing Feet" },
+    "name": "Crushing Feet",
     "points": -4,
     "visibility": 2,
     "ugliness": 2,
@@ -445,7 +445,7 @@
   {
     "type": "mutation",
     "id": "FACEBUMPS",
-    "name": { "str": "Face Bumps" },
+    "name": "Face Bumps",
     "points": 0,
     "visibility": 3,
     "ugliness": 3,
@@ -456,7 +456,7 @@
   {
     "type": "mutation",
     "id": "TUSKS",
-    "name": { "str": "Tusks" },
+    "name": "Tusks",
     "points": 1,
     "visibility": 3,
     "ugliness": 1,
@@ -475,7 +475,7 @@
   {
     "type": "mutation",
     "id": "TUSKS_POINTED",
-    "name": { "str": "Pointed Tusks" },
+    "name": "Pointed Tusks",
     "points": 1,
     "visibility": 8,
     "ugliness": 2,
@@ -592,7 +592,7 @@
   {
     "type": "mutation",
     "id": "TRIPAWS",
-    "name": { "str": "Three Fingered" },
+    "name": "Three Fingered",
     "points": -3,
     "visibility": 3,
     "ugliness": 2,
@@ -626,7 +626,7 @@
   {
     "type": "mutation",
     "id": "TRUMPET",
-    "name": { "str": "Trumpeting Voice" },
+    "name": "Trumpeting Voice",
     "points": -1,
     "mixed_effect": true,
     "description": "You have a trumpeting elephantine voice.  threatening NPCs will be easier, but lying will very hard.",
