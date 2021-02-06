@@ -4,13 +4,13 @@
     "type": "vehicle",
     "name": "Floating disk",
     "blueprint": [ "o" ],
-    "parts": [ { "x": 0, "y": 0, "part": "mana_frame" } ]
+    "parts": [ { "x": 0, "y": 0, "parts": [ "mana_frame" ] } ]
   },
   {
     "id": "mana_wheel",
     "category": "veh_parts",
     "type": "WHEEL",
-    "name": { "str": "mana wheel" },
+    "name": "mana wheel",
     "description": "A column of mana energy that enables a floating disk to move.",
     "weight": "500 g",
     "volume": "500 ml",
@@ -29,7 +29,6 @@
     "name": "Mojocycle",
     "blueprint": [ "o#>o" ],
     "parts": [
-      { "x": -1, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light", "wheel_motorbike", "muffler", "box" ] },
       {
         "x": 0,
         "y": 0,
@@ -46,13 +45,14 @@
         ]
       },
       { "x": 1, "y": 0, "parts": [ "frame_handle", "headlight", "battery_motorbike" ] },
+      { "x": -1, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light", "wheel_motorbike", "muffler", "box" ] },
       { "x": 2, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light_steerable", "wheel_motorbike" ] }
     ]
   },
   {
     "type": "vehicle_part",
     "id": "mana_frame",
-    "name": { "str": "mana frame" },
+    "name": "mana frame",
     "symbol": "O",
     "categories": [ "movement", "hull" ],
     "color": "magenta",
@@ -90,7 +90,7 @@
     "id": "mana",
     "type": "AMMO",
     "category": "chems",
-    "name": { "str": "mana core power" },
+    "name": "mana core power",
     "description": "Seeing this is a bug.",
     "weight": "10 g",
     "volume": "10 ml",
