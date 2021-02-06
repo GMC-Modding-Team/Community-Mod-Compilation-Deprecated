@@ -246,7 +246,7 @@
     "id": "bot_utilibot_beehive",
     "type": "TOOL",
     "copy-from": "bot_utilibot_base",
-    "name": { "str": "inactive bee-bot" },
+    "name": "inactive bee-bot",
     "description": "A salvaged utility robot converted into an ambulatory bee hive that periodically removes and delivers segments of fresh honey comb.  It protects the insect colony with a mechanical crossbow mounted to its chassis.  Activate this item, with wooden bolts in your inventory, to load and deploy the robot.",
     "color": "yellow",
     "use_action": {
@@ -261,7 +261,7 @@
     "abstract": "bot_medibot_base",
     "type": "TOOL",
     "looks_like": "mon_tripod",
-    "name": { "str": "inactive medibot" },
+    "name": "inactive medibot",
     "material": [ "steel", "plastic" ],
     "weight": "70 kg",
     "volume": "50 L",
@@ -283,7 +283,7 @@
   {
     "abstract": "bot_utilibot_base",
     "type": "TOOL",
-    "name": { "str": "inactive utilibot" },
+    "name": "inactive utilibot",
     "looks_like": "mon_cleanerbot",
     "price": 10000,
     "price_postapoc": 10000,
@@ -299,7 +299,7 @@
   {
     "abstract": "bot_hack_base",
     "type": "TOOL",
-    "name": { "str": "inactive hack" },
+    "name": "inactive hack",
     "description": "This is an inactive manhack.  Manhacks are fist-sized robots that fly through the air.  They are covered with whirring blades and attack by throwing themselves against their target.  Use this item to reprogram and activate the manhack.  Electronics and computer skill determines if the targeting matrix is reprogrammed successfully.",
     "weight": "5400 g",
     "volume": "750 ml",
@@ -316,7 +316,7 @@
     "id": "bot_light_hack",
     "type": "TOOL",
     "copy-from": "bot_hack_base",
-    "name": { "str": "inactive floating lantern" },
+    "name": "inactive floating lantern",
     "description": "An inactive floating lantern, a fist-sized robots that flies through the air and illuminates its surroundings with bright LEDs.  The lantern is non aggressive and has no means of attack.  Activate this item to deploy the salvaged robot.",
     "color": "yellow",
     "looks_like": "bot_manhack",
@@ -334,7 +334,7 @@
   {
     "abstract": "bot_milbot_base",
     "type": "TOOL",
-    "name": { "str": "inactive military robot" },
+    "name": "inactive military robot",
     "looks_like": "mon_secubot",
     "material": [ "steel", "kevlar" ],
     "weight": "140 kg",
@@ -351,7 +351,7 @@
     "id": "bot_milbot_308",
     "type": "TOOL",
     "copy-from": "bot_milbot_base",
-    "name": { "str": "inactive military robot" },
+    "name": "inactive military robot",
     "description": "An unpowered military robot fitted with an integrated 7.62 firearm and electric prod.  Activate this item, with ammo in your inventory, to load and deploy the robot.",
     "color": "green",
     "use_action": {
@@ -366,7 +366,7 @@
     "id": "bot_eyebot_heater",
     "type": "TOOL",
     "copy-from": "bot_eyebot_base",
-    "name": { "str": "inactive floating heater" },
+    "name": "inactive floating heater",
     "description": "A salvaged eyebot repurposed into a floating space heater.  It emits a constant jet of warm air to heat an enclosed space.  It is non-aggressive and has no weapons systems.  Activate this item to deploy the robot.",
     "color": "pink",
     "use_action": {
@@ -380,7 +380,7 @@
   {
     "abstract": "bot_defbot_base",
     "type": "TOOL",
-    "name": { "str": "inactive defense robot" },
+    "name": "inactive defense robot",
     "looks_like": "mon_riotbot",
     "material": [ "steel", "plastic" ],
     "weight": "140 kg",
@@ -396,7 +396,7 @@
   {
     "abstract": "bot_skitterbot_base",
     "type": "TOOL",
-    "name": { "str": "inactive skitterbot" },
+    "name": "inactive skitterbot",
     "looks_like": "broken_skitterbot",
     "material": [ "steel", "plastic" ],
     "weight": "62650 g",
@@ -413,7 +413,7 @@
     "id": "bot_skitterbot_rat",
     "type": "TOOL",
     "copy-from": "bot_skitterbot_base",
-    "name": { "str": "inactive rat snatcher" },
+    "name": "inactive rat snatcher",
     "description": "A salvaged skitterbot repurposed for hunting small game.  It attacks targets with pincers and an integrated tazer.  Activate this item to deploy the robot.",
     "color": "dark_gray",
     "use_action": {
@@ -428,7 +428,7 @@
     "id": "bot_skitterbot_grab",
     "type": "TOOL",
     "copy-from": "bot_skitterbot_base",
-    "name": { "str": "inactive grab-bot" },
+    "name": "inactive grab-bot",
     "description": "A salvaged skitterbot repurposed to grab onto and immobilize enemies.  Activate this item to deploy the robot.",
     "color": "green",
     "use_action": {
@@ -443,7 +443,7 @@
     "id": "bot_skitterbot_hunter",
     "type": "TOOL",
     "copy-from": "bot_skitterbot_base",
-    "name": { "str": "inactive pest hunter" },
+    "name": "inactive pest hunter",
     "description": "A salvaged skitterbot refitted with an 8mm integrated firearm.  Activate this item, with ammo in your inventory, to load and deploy the robot.",
     "color": "dark_gray",
     "use_action": {
@@ -457,7 +457,7 @@
   {
     "abstract": "bot_eyebot_base",
     "type": "TOOL",
-    "name": { "str": "inactive eyebot" },
+    "name": "inactive eyebot",
     "looks_like": "broken_eyebot",
     "price": 10000,
     "price_postapoc": 10000,
@@ -475,7 +475,7 @@
     "id": "bot_eyebot_heater",
     "type": "TOOL",
     "copy-from": "bot_eyebot_base",
-    "name": { "str": "inactive floating heater" },
+    "name": "inactive floating heater",
     "description": "A salvaged eyebot repurposed into a floating space heater.  It emits a constant jet of warm air to heat an enclosed space.  It is non-aggressive and has no weapons systems.  Activate this item to deploy the robot.",
     "color": "pink",
     "use_action": {
