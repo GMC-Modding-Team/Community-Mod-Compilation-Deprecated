@@ -14,9 +14,9 @@
     "name": "log canoe",
     "blueprint": [ "-#-" ],
     "parts": [
-      { "x": -1, "y": 0, "parts": [ "log_frame_part" ] },
       { "x": 0, "y": 0, "parts": [ "log_frame_part", "hand_paddles" ] },
-      { "x": 1, "y": 0, "parts": [ "log_frame_part" ] }
+      { "x": 1, "y": 0, "part": "log_frame_part" },
+      { "x": -1, "y": 0, "part": "log_frame_part" }
     ]
   }
 ]
