@@ -648,3 +648,24 @@ If the value of `min_unarmed` or `min_melee` is 0, just delete it.
 
 "//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
 ```
+
+---
+# item_group
+Item groups should use `prob` instead of `chance`
+```JSON
+"type": "item_group",
+"items": [ { "item": "suit", "chance": 500 }, { "item": "jumpsuit", "chance": 100 }, { "item": "clown_suit", "chance": 1 } ]
+
+"type": "item_group",
+"items": [ { "item": "suit", "prob": 500 }, { "item": "jumpsuit", "prob": 100 }, { "item": "clown_suit", "prob": 1 } ]
+```
+
+---
+# vehicle_part
+Vehicle Parts should not have the `key` `range`.
+```C++
+"type": "vehicle_part",
+...
+"range": 16 // Delete this.
+```
+
