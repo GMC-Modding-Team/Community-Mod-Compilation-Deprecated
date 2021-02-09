@@ -1,4 +1,4 @@
-# Gun Mods - install times
+# Installation Times for Gun Mods
 
 
 Use the `home` key to get to the top.
@@ -8,7 +8,7 @@ Use the `home` key to get to the top.
 
 - [Vanilla Locations](#vanilla-locations)
 - [Modded locations and new times](#Modded-locations-and-new-times)
-- [Install times worth noting](#install-times-worth-noting)
+- [Others](#Others)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
@@ -102,7 +102,7 @@ Use the `home` key to get to the top.
 ```
 
 ---
-# Install times worth noting
+# Others
 
 
 ```JSON
