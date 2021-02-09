@@ -33,6 +33,7 @@ Use the `home` key to get to the top.
   * [Magazine Pocket data](#magazine-Pocket-data)
   * [CONTAINER](#container)
 - [Volume](#volume)
+  * [folded_volume](#folded_volume)
 - [Weight](#weight)
 - [Effect](#effect)
 - [Shape](#shape)
@@ -40,6 +41,7 @@ Use the `home` key to get to the top.
   * [Group](#group)
 - [Activity level](#activity-level)
 - [Modinfo](#modinfo)
+- [Time](#time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
@@ -459,6 +461,25 @@ And repeat for every individual volume value.
 
 Note: I recommend using `barrellength_volume.py`, a python script found in the Tools folder of this modpack.
 
+## folded_volume
+`key` `vehicle_part`:
+```JSON
+"folded_volume": 5
+
+"folded_volume": "1250 ml"
+```
+
+Other: 
+`"type": "GUNMOD"`
+`integral_volume` and `integral_weight` are:
+```JSON
+"integral_volume": 5,
+"integral_weight": 500
+
+"integral_volume": "1250 ml",
+"integral_weight": "500 g"
+```
+
 ---
 # Weight
 The current JSON standards for `key` `"weight"` look like this:
@@ -575,3 +596,26 @@ Every mod requires that they have a `modinfo.json` file at the beginning. Severa
 
 "authors": [ "Author1" ],
 ```
+
+---
+# Time
+Outdated:
+```JSON
+"type": "construction",
+"time": 100
+...
+"type": "recipe",
+"time": 10000
+```
+
+Replacements:
+
+```JSON
+"type": "construction",
+"time": "100 m"
+...
+"type": "recipe",
+"time": "100 s"
+```
+
+---
