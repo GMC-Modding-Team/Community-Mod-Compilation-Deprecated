@@ -445,7 +445,8 @@ With obsolete JSON looking like this:
 "volume": 1
 ```
 The conversion from `number` to `string` is:
-```JSON
+```C++
+"volume": 0 = "volume": "1 ml" // This is intentional.
 "volume": 1  =  "volume": "250 ml"
 "volume": 20  =  "volume": "5000 ml"
 "volume": "10000 ml"  =  "volume: 10 L"
@@ -492,7 +493,7 @@ With obsolete JSON looking like this:
 "weight": 100
 ```
 The conversion from `number` to `string` is:
-```JSON
+```C++
 "weight": 1  =  "weight": "1 g"
 "weight": 20  =  "weight": "20 g"
 ```
