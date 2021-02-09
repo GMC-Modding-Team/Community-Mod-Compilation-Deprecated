@@ -620,3 +620,31 @@ Replacements:
 ```
 
 ---
+# Martial Arts
+```JSON
+"min_melee": 3
+
+"skill_requirements": [ { "name": "melee", "level": 3 }]
+```
+
+```JSON
+"min_unarmed": 4
+
+"skill_requirements": [ { "name": "unarmed", "level": 4 }]
+```
+```JSON
+"min_unarmed": 3,
+"min_melee": 3
+
+"skill_requirements": [ { "name": "unarmed", "level": 3 }, { "name": "melee", "level": 3 } ]
+```
+If the value of `min_unarmed` or `min_melee` is 0, just delete it.
+
+---
+# Note
+`key` `note` is deprecated and should be replaced with `//`.
+```JSON
+"//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
+
+"//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
+```
