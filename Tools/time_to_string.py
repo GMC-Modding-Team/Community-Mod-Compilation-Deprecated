@@ -4,7 +4,7 @@
 # Ensure that the json_formatter is kept in Tools with this script.
 # They must be in the same folder!
 # For Windows:
-# Using command prompt type "python barrellength_volume.py"
+# Using command prompt type "python time_to_string.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -27,23 +27,29 @@ def gen_new(path):
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            if type(jo.get("volume")) != str and jo.get("volume") \
-                    and jo.get("type") not in ["sound_effect", "speech"]:
-                volume = jo["volume"]
-                volume *= 250
-                if volume > 10000 and volume % 1000 == 0:
-                    jo["volume"] = str(volume // 1000) + " L"
-                else:
-                    jo["volume"] = str(volume) + " ml"
+
+            # These need no conversion.
+            if type(jo.get("time")) == str:
+                continue
+
+            # It has to have time.
+            if not jo.get("time"):
+                continue
+
+            if jo.get("type") == "construction":
+                # Convert time to minutes.
+                jo["time"] = str(jo["time"]) + " m"
                 change = True
-            if jo.get("barrel_length"):
-                if type(jo["barrel_length"]) == int:
-                    barrel_length = jo["barrel_length"]
-                    barrel_length *= 250
-                    jo["barrel_volume"] = str(barrel_length) + " ml"
-                elif type(jo["barrel_length"]) == str:
-                    jo["barrel_volume"] = jo["barrel_length"]
-                del jo["barrel_length"]
+
+            elif jo.get("type") == "recipe":
+                # Convert time from turns to seconds, then minutes. Loses the remainder.
+                turns = jo["time"]
+                turns //= 100
+                if turns % 60 == 0:
+                    turns //= 60
+                    jo["time"] = str(turns) + " m"
+                else:
+                    jo["time"] = str(turns) + " s"
                 change = True
 
     return json_data if change else None
