@@ -32,7 +32,7 @@ def gen_new(path):
                 volume = jo["volume"]
                 volume *= 250
                 if volume > 10000 and volume % 1000 == 0:
-                    jo["volume"] = str(int(volume / 1000)) + " L"
+                    jo["volume"] = str(volume // 1000) + " L"
                 else:
                     jo["volume"] = str(volume) + " ml"
                 change = True
