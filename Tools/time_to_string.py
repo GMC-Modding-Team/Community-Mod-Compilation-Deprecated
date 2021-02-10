@@ -42,7 +42,8 @@ def gen_new(path):
                 change = True
 
             elif jo.get("type") == "recipe":
-                # Convert time from turns to seconds, then minutes. Loses the remainder.
+                # Convert time from turns to seconds, then minutes.
+                # Loses the remainder.
                 turns = jo["time"]
                 turns //= 100
                 if turns % 60 == 0:
