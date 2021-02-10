@@ -2,6 +2,7 @@
 
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script.
+# They must be in the same folder!
 # For Windows:
 # Using command prompt type "python vehicle_code.py"
 # For Max OS X or Linux:
@@ -46,8 +47,7 @@ def gen_new(path):
                     locations[(x, y)]["parts"].append(item)
                 else:
                     locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
-            jo["parts"] = sorted(locations.values(), key=lambda loc:
-                                 (loc["x"], loc["y"]))
+            jo["parts"] = [locations[key] for key in locations]
             change = True
     return json_data if change else None
 
