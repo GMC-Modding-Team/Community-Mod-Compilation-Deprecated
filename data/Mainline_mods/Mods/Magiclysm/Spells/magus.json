@@ -2,7 +2,7 @@
   {
     "id": "magic_missile",
     "type": "SPELL",
-    "name": "Magic Missile",
+    "name": { "str": "Magic Missile" },
     "description": "I cast Magic Missile at the darkness!",
     "valid_targets": [ "hostile" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "SILENT", "NO_PROJECTILE" ],
@@ -25,7 +25,7 @@
   {
     "id": "phase_door",
     "type": "SPELL",
-    "name": "Phase Door",
+    "name": { "str": "Phase Door" },
     "description": "Teleports you in a random direction a short distance.",
     "effect": "teleport_random",
     "shape": "blast",
@@ -47,7 +47,7 @@
   {
     "id": "gravity_well",
     "type": "SPELL",
-    "name": "Gravity Well",
+    "name": { "str": "Gravity Well" },
     "description": "Summons a well of gravity with the epicenter at the location.  Deals bashing damage to all creatures in the affected area.",
     "effect": "attack",
     "shape": "blast",
@@ -73,7 +73,7 @@
   {
     "id": "magus_mana_blast",
     "type": "SPELL",
-    "name": "Mana Blast",
+    "name": { "str": "Mana Blast" },
     "description": "A blast of concentrated magical power that obliterates a large area.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS" ],
@@ -99,7 +99,7 @@
   {
     "id": "magus_mana_bolt",
     "type": "SPELL",
-    "name": "Mana Bolt",
+    "name": { "str": "Mana Bolt" },
     "description": "A bolt of magical power that only damages your foes.",
     "valid_targets": [ "hostile" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS" ],
@@ -122,7 +122,7 @@
   {
     "id": "magus_haste",
     "type": "SPELL",
-    "name": "Haste",
+    "name": { "str": "Haste" },
     "description": "This spell gives you an enormous boost of speed lasting a short period of time.",
     "valid_targets": [ "self" ],
     "flags": [ "LOUD", "VERBAL", "SOMATIC", "NO_PROJECTILE" ],
@@ -142,7 +142,7 @@
   {
     "id": "magus_baleful_polymorph",
     "type": "SPELL",
-    "name": "Baleful Polymorph",
+    "name": { "str": "Baleful Polymorph" },
     "description": "Transform your enemies into frogs.",
     "valid_targets": [ "hostile" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "NO_PROJECTILE" ],
@@ -166,7 +166,7 @@
   {
     "id": "magus_mana_beam",
     "type": "SPELL",
-    "name": "Mana Beam",
+    "name": { "str": "Mana Beam" },
     "description": "A beam of focused magical power that damages any foes in its path.",
     "valid_targets": [ "hostile", "ground" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "LOUD" ],
@@ -191,7 +191,7 @@
   {
     "id": "magus_escape",
     "type": "SPELL",
-    "name": "Escape",
+    "name": { "str": "Escape" },
     "description": "Teleports you in a random direction a medium distance, to help escape your foes in dangerous situations.",
     "effect": "teleport_random",
     "shape": "blast",
@@ -213,7 +213,7 @@
   {
     "id": "create_rune_magus",
     "type": "SPELL",
-    "name": "Magus Rune",
+    "name": { "str": "Magus Rune" },
     "description": "This ritual creates a small pebble attuned to Magi.  You can use the rune as a catalyst for recipes.",
     "valid_targets": [ "self" ],
     "min_damage": 1,
@@ -235,7 +235,7 @@
   {
     "id": "cats_grace",
     "type": "SPELL",
-    "name": "Cat's Grace",
+    "name": { "str": "Cat's Grace" },
     "description": "You become more graceful, agile, and coordinated.",
     "valid_targets": [ "self" ],
     "min_duration": 6000,
@@ -255,7 +255,7 @@
   {
     "id": "eagles_sight",
     "type": "SPELL",
-    "name": "Eagle's Sight",
+    "name": { "str": "Eagle's Sight" },
     "description": "You gain the perception of an eagle.",
     "valid_targets": [ "self" ],
     "min_duration": 6000,
@@ -275,7 +275,7 @@
   {
     "id": "ogres_strength",
     "type": "SPELL",
-    "name": "Ogre's Strength",
+    "name": { "str": "Ogre's Strength" },
     "description": "You gain the strength of an ogre.",
     "valid_targets": [ "self" ],
     "min_duration": 6000,
@@ -295,7 +295,7 @@
   {
     "id": "foxs_cunning",
     "type": "SPELL",
-    "name": "Fox's Cunning",
+    "name": { "str": "Fox's Cunning" },
     "description": "You become wily like a fox.",
     "valid_targets": [ "self" ],
     "min_duration": 6000,

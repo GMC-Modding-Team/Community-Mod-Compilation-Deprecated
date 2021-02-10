@@ -5,7 +5,7 @@
     "group": "close_cooler",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
-    "time": 1,
+    "time": "1 m",
     "pre_terrain": "f_cooler_open",
     "post_terrain": "f_cooler_closed"
   },
@@ -15,7 +15,7 @@
     "group": "open_cooler",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
-    "time": 1,
+    "time": "1 m",
     "pre_terrain": "f_cooler_closed",
     "post_terrain": "f_cooler_open"
   },
@@ -25,7 +25,7 @@
     "group": "place_cooler",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
-    "time": 1,
+    "time": "1 m",
     "components": [ [ [ "cool_cooler", 1 ] ] ],
     "pre_special": "check_empty",
     "post_terrain": "f_cooler_open"
