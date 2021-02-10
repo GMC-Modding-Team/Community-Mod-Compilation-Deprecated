@@ -502,16 +502,16 @@
       },
       { "x": 2, "y": 1, "parts": [ "frame_horizontal", "halfboard_vertical" ] },
       { "x": 2, "y": 2, "parts": [ "frame_horizontal", "tread2" ] },
-      { "x": 3, "y": -2, "parts": [ "frame_vertical" ] },
+      { "x": 3, "y": -2, "part": "frame_vertical" },
       { "x": 3, "y": -1, "parts": [ "frame_horizontal", "halfboard_nw" ] },
       { "x": 3, "y": 0, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
       { "x": 3, "y": 1, "parts": [ "frame_horizontal", "halfboard_ne" ] },
-      { "x": 3, "y": 2, "parts": [ "frame_vertical" ] },
-      { "x": 4, "y": -2, "parts": [ "ram_spiked" ] },
-      { "x": 4, "y": -1, "parts": [ "ram_spiked" ] },
-      { "x": 4, "y": 0, "parts": [ "ram_spiked" ] },
-      { "x": 4, "y": 1, "parts": [ "ram_spiked" ] },
-      { "x": 4, "y": 2, "parts": [ "ram_spiked" ] }
+      { "x": 3, "y": 2, "part": "frame_vertical" },
+      { "x": 4, "y": -2, "part": "ram_spiked" },
+      { "x": 4, "y": -1, "part": "ram_spiked" },
+      { "x": 4, "y": 0, "part": "ram_spiked" },
+      { "x": 4, "y": 1, "part": "ram_spiked" },
+      { "x": 4, "y": 2, "part": "ram_spiked" }
     ],
     "items": [ { "x": -1, "y": 0, "chance": 25, "item_groups": "fuel_gasoline" } ]
   },
@@ -527,11 +527,11 @@
       [ "&ooooo " ]
     ],
     "parts": [
-      { "x": -3, "y": -2, "parts": [ "seed_drill" ] },
-      { "x": -3, "y": -1, "parts": [ "frame_horizontal" ] },
-      { "x": -3, "y": 0, "parts": [ "seed_drill" ] },
-      { "x": -3, "y": 1, "parts": [ "frame_horizontal" ] },
-      { "x": -3, "y": 2, "parts": [ "seed_drill" ] },
+      { "x": -3, "y": -2, "part": "seed_drill" },
+      { "x": -3, "y": -1, "part": "frame_horizontal" },
+      { "x": -3, "y": 0, "part": "seed_drill" },
+      { "x": -3, "y": 1, "part": "frame_horizontal" },
+      { "x": -3, "y": 2, "part": "seed_drill" },
       { "x": -2, "y": -2, "parts": [ "frame_horizontal", "tread1" ] },
       { "x": -2, "y": -1, "parts": [ "frame_horizontal", "board_sw", "tank" ] },
       { "x": -2, "y": 0, "parts": [ "frame_horizontal", "windshield" ] },
@@ -552,7 +552,7 @@
       { "x": 1, "y": 0, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 1, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "frame_horizontal", "tread1" ] },
-      { "x": 2, "y": -2, "parts": [ "wing_mirror" ] },
+      { "x": 2, "y": -2, "part": "wing_mirror" },
       { "x": 2, "y": -1, "parts": [ "frame_horizontal", "halfboard_vertical" ] },
       {
         "x": 2,
@@ -560,7 +560,7 @@
         "parts": [ "frame_horizontal", "halfboard_cover", "diesel_engine_v6", "battery_car", "alternator_truck" ]
       },
       { "x": 2, "y": 1, "parts": [ "frame_horizontal", "halfboard_vertical", "muffler" ] },
-      { "x": 2, "y": 2, "parts": [ "wing_mirror" ] },
+      { "x": 2, "y": 2, "part": "wing_mirror" },
       { "x": 3, "y": -1, "parts": [ "frame_horizontal", "halfboard_nw" ] },
       { "x": 3, "y": 0, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
       { "x": 3, "y": 1, "parts": [ "frame_horizontal", "halfboard_ne" ] }
@@ -580,9 +580,9 @@
     ],
     "parts": [
       { "x": -3, "y": -2, "parts": [ "frame_horizontal", "plow" ] },
-      { "x": -3, "y": -1, "parts": [ "frame_horizontal" ] },
+      { "x": -3, "y": -1, "part": "frame_horizontal" },
       { "x": -3, "y": 0, "parts": [ "frame_horizontal", "plow" ] },
-      { "x": -3, "y": 1, "parts": [ "frame_horizontal" ] },
+      { "x": -3, "y": 1, "part": "frame_horizontal" },
       { "x": -3, "y": 2, "parts": [ "frame_horizontal", "plow" ] },
       { "x": -2, "y": -2, "parts": [ "frame_horizontal", "tread1" ] },
       { "x": -2, "y": -1, "parts": [ "frame_horizontal", "board_sw", "tank" ] },
@@ -604,7 +604,7 @@
       { "x": 1, "y": 0, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 1, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "frame_horizontal", "tread1" ] },
-      { "x": 2, "y": -2, "parts": [ "wing_mirror" ] },
+      { "x": 2, "y": -2, "part": "wing_mirror" },
       { "x": 2, "y": -1, "parts": [ "frame_horizontal", "halfboard_vertical" ] },
       {
         "x": 2,
@@ -612,7 +612,7 @@
         "parts": [ "frame_horizontal", "halfboard_cover", "diesel_engine_v6", "battery_car", "alternator_truck" ]
       },
       { "x": 2, "y": 1, "parts": [ "frame_horizontal", "halfboard_vertical", "muffler" ] },
-      { "x": 2, "y": 2, "parts": [ "wing_mirror" ] },
+      { "x": 2, "y": 2, "part": "wing_mirror" },
       { "x": 3, "y": -1, "parts": [ "frame_horizontal", "halfboard_nw" ] },
       { "x": 3, "y": 0, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
       { "x": 3, "y": 1, "parts": [ "frame_horizontal", "halfboard_ne" ] }
@@ -631,11 +631,11 @@
       [ "&ooooo " ]
     ],
     "parts": [
-      { "x": -3, "y": -2, "parts": [ "reaper" ] },
-      { "x": -3, "y": -1, "parts": [ "frame_horizontal" ] },
-      { "x": -3, "y": 0, "parts": [ "reaper" ] },
-      { "x": -3, "y": 1, "parts": [ "frame_horizontal" ] },
-      { "x": -3, "y": 2, "parts": [ "reaper" ] },
+      { "x": -3, "y": -2, "part": "reaper" },
+      { "x": -3, "y": -1, "part": "frame_horizontal" },
+      { "x": -3, "y": 0, "part": "reaper" },
+      { "x": -3, "y": 1, "part": "frame_horizontal" },
+      { "x": -3, "y": 2, "part": "reaper" },
       { "x": -2, "y": -2, "parts": [ "frame_horizontal", "tread1" ] },
       { "x": -2, "y": -1, "parts": [ "frame_horizontal", "board_sw", "tank" ] },
       { "x": -2, "y": 0, "parts": [ "frame_horizontal", "windshield" ] },
@@ -656,7 +656,7 @@
       { "x": 1, "y": 0, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 1, "parts": [ "frame_horizontal", "windshield" ] },
       { "x": 1, "y": 2, "parts": [ "frame_horizontal", "tread1" ] },
-      { "x": 2, "y": -2, "parts": [ "wing_mirror" ] },
+      { "x": 2, "y": -2, "part": "wing_mirror" },
       { "x": 2, "y": -1, "parts": [ "frame_horizontal", "halfboard_vertical" ] },
       {
         "x": 2,
@@ -664,7 +664,7 @@
         "parts": [ "frame_horizontal", "halfboard_cover", "diesel_engine_v6", "battery_car", "alternator_truck" ]
       },
       { "x": 2, "y": 1, "parts": [ "frame_horizontal", "halfboard_vertical", "muffler" ] },
-      { "x": 2, "y": 2, "parts": [ "wing_mirror" ] },
+      { "x": 2, "y": 2, "part": "wing_mirror" },
       { "x": 3, "y": -1, "parts": [ "frame_horizontal", "halfboard_nw" ] },
       { "x": 3, "y": 0, "parts": [ "frame_horizontal", "halfboard_horizontal" ] },
       { "x": 3, "y": 1, "parts": [ "frame_horizontal", "halfboard_ne" ] }
