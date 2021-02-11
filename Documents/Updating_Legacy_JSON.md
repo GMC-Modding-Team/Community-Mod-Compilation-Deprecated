@@ -11,6 +11,7 @@ Use the `home` key to get to the top.
   * [Regex](#regex)
   * [What is JSON?](#what-is-json)
   * [Terminology in this Document](#terminology-in-this-document)
+  * [Python](#python)
 - [abstract, ident, and id](#abstract-ident-and-id)
 - [Ammo](#ammo)
   * [Ammo Type](#ammo-type)
@@ -32,12 +33,15 @@ Use the `home` key to get to the top.
   * [Magazine Pocket data](#magazine-Pocket-data)
   * [CONTAINER](#container)
 - [Volume](#volume)
+  * [folded_volume](#folded_volume)
 - [Weight](#weight)
 - [Effect](#effect)
 - [Shape](#shape)
 - [Construction group](#construction-group)
   * [Group](#group)
 - [Activity level](#activity-level)
+- [Modinfo](#modinfo)
+- [Time](#time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
@@ -53,9 +57,11 @@ A lot of obsolete and legacy JSON requires the usage of find-and-replace to brin
 It can also be useful to have a file searcher on hand if you're editing large quantities of files, or modifying file names. [Grepwin](https://tools.stefankueng.com/grepWin.html) is what I use, and TheGoatGod recommends [Ultrasearch](https://www.jam-software.com/ultrasearch). Again, and I cannot emphasise this enough, use whatever works best for you.
 -Goats Comment- I use both tools now, im going to end up with grepwin being my defualt.
 
+You may also see reference to python scripts, in the form `script_name.py` being mentioned in certain entries. See [Python](#Python) for more information on that.
+
 ---
 ## Regex
-Regex, short for regular expressions, is a syntax language most commonly used in find-and-replace to find patterns and use complicated replaces. As you'll see later on, even simple regex can massively streamline the process of removing obsolete code. In each section below, I include the specific regex necessary for the task, and how to use it, so don't worry if you don't know what regex is. (For those of you interested in learning more, [Regex Quickstart Cheatsheet](https://www.rexegg.com/regex-quickstart.html) has the necessary information.).
+Regex, short for regular expressions, is a syntax language most commonly used in find-and-replace to find patterns and use complicated replaces. As you'll see later on, even simple regex can massively streamline the process of removing obsolete code. In each section below, I include the specific regex necessary for the task, and how to use it, so don't worry if you don't know what regex is. (For those of you interested in learning more, [Regex Quickstart Cheatsheet](https://www.rexegg.com/regex-quickstart.html) is a great place to start).
 
 ---
 ## What is JSON?
@@ -90,6 +96,28 @@ When I provide regex it will always be in the format find entry, empty line, rep
 ```
 
 ---
+## Python
+Python is a programming language. For the purposes of updating obsolete JSON, it is used to parse and modify text. Don't worry if this makes no sense to you - you don;t actually have to understand what python is to use it. First, install python from [here](https://www.python.org/). Make sure to click 'add python to PATH' in the installer options! 
+
+**Windows**
+Go to the Tools folder using Windows Explorer. 
+Type 'cmd' into the address bar. 
+In cmd, type 'python `<script name>`, replacing <> with the name of the script. Make sure to include '.py'
+Respond to the prompt.
+
+**Mac OS**
+I don't use filthy macs. You're on your own.
+
+<details>
+  <summary> </summary>
+
+  Jk, Access this link [here](https://en.wikibooks.org/wiki/Python_Programming/Creating_Python_Programs)
+</details>
+
+**Linux**
+If you're using linux, you're probably already familiar with the terminal. Use [this](https://en.wikibooks.org/wiki/Python_Programming/Creating_Python_Programs)
+
+---
 # abstract, ident, and id
 `abstract` and `id`, are a specific type of `key` that tells the game the unique identifier of the item. Almost every top-level JSON `object` contains an an identifier and a `type`. `type` is an incredibly important `key` that tells the game how to handle the specific `key: value` pairs in the `object`.
 
@@ -99,6 +127,8 @@ When I provide regex it will always be in the format find entry, empty line, rep
 `abstract` creates a pseudo-item that only exists to be copied from and is discarded after JSON loading is complete. If you see it used outside of these fields, replace with `ident` or `id` as appropriate. For debugging purposes, it is preferable to not use `abstract` on types other than `type: overmap_terrain`. It can cause cascading errors that are impossible to find due to lack of item id and presence in the game. See [JSON Inheritance](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_INHERITANCE.md) for more information on how to use abstract.
 
 `id` can (and perhaps should) be used anywhere `abstract` can be. It is used almost anywhere and doesn't need updating. Check out [JSON Info](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_INFO.md) for more information on where to use `id`.
+
+`ident` is a third type of `key` that used to be used for the same purpose. It is now deprecated, and should be replaced with `id` wherever possible.
 
 ---
 # Ammo
@@ -202,7 +232,8 @@ The conversion from `number` to `string` is simple - just multiply by 250 and ad
 "barrel_length": 1 = "barrel_length": "250 ml"
 "barrel_length": 5 = "barrel_length": "1250 ml"
 ```
-As the result is distinctly different, you will have to use manual find and replace for this part as specified in [volume](#volume).
+
+I recommend using `barrellength_volume.py` to convert these values.
 
 ---
 # Bleeding
@@ -214,7 +245,7 @@ It turns out that THE BLOB is not the same as the blobs you see around all the t
 
 ---
 # blueprint
-If you've been directed here from the linting section, it is because you have the parameter "blueprint": "", when it should be "blueprint": [ " " ], - A blueprint must always be enclosed in an array. Since this doesn't actually effect the game in any way (blueprint is exclusively used in the code), adding it exclusively for the purpose of linting should be enough.
+If you've been directed here from the linting section, it is because you have the parameter "blueprint": "", when it should be "blueprint": [ " " ], - A blueprint must always be enclosed in an array. Since this doesn't actually effect the game in any way (blueprint is exclusively used in the code), adding it just for the purpose of linting should be enough.
 
 ---
 # bullet_resist
@@ -226,7 +257,7 @@ If you've been directed here from the linting section, it is because you have th
 
 ---
 # Color
-Color has gone through updates and there are many variants of ...
+Color has gone through updates and there are many variants of it. The currently allowed colours can be found in [Cataclysm-DDA/doc/COLOR.md](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/COLOR.md). Colours other than those allowed should be replaced.
 
 ---
 # copy-from and looks_like
@@ -281,21 +312,8 @@ A good guide as to whether it should be the above code instead of the code below
 "name": "pair of socks",
 "name_pl": "pairs of socks"
 ```
-Otherwise, check out [JSON Info](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/JSON_INFO.md) for more details on which one is correct in any given scenario.
 
-If you are sure that the files you are replacing in need to be in the new format, you can use:
-```regex
-"name": "([ a -z ]+)",
-
-"name": { "str": "$1" },
-```
-Then,
-```regex
-"name_plural": "([ a-z]+)",
-
-"str_plural": "$1",
-```
-Afterwards, manually join the fields together. Trust me, it'll still save time.
+Due to the complexities of replacing the name with regex, I suggest that you use `name.py`, a python script in the Tools folder of this modpack. 
 
 ---
 # picklock
@@ -313,7 +331,56 @@ This has to be done manually due to the possible presence of other text in the `
 
 ---
 # Pocket Data
-In [JSON Tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), there is pocket_mags.py that should be able to handle some of the work.
+A very notable addition to the 0.E experimental is pocket data. Instead of the previously abstracted storage (of any form), we now have the `key` `pocket_data`. Most notably, `pocket_data` has replaced magazines and containers. These are listed below.  
+
+---
+## Container Pocket data
+In the past, storage used to be determined by a singlar `storage: number` pair. The volume that could be stored, like many things, was the `number` multiplied by `250 ml`. 
+```JSON
+"storage": 0, 
+"storage": 5
+```
+Now `pocket_data` looks like this:
+```JSON
+"pocket_data": [
+  {
+    "pocket_type": "CONTAINER",
+    "rigid": true,
+    "max_contains_volume": "4 L",
+    "max_contains_weight": "30 kg",
+    "moves": 200
+  }
+],
+```
+Updating `pocket_data` is fairly time consuming, as each item must be done by manually. The description of the item and similar items are good places to start. If the item has `"storage": 0`, then simply delete `storage`. Following is an example of replacing `storage` with `pocket_data`.
+
+Here's our obsolete JSON (with some fields omitted for brevity). 
+```JSON
+"type": "ARMOR",
+"description": "A suit of armor to be used by dirt bikers and motorcyclists.  It has a small pocket intended for you to put your keys and your wallet, if you had some.",
+"volume": "1000 ml",
+"storage": 2,
+...
+"flags": [ "VARSIZE" ]
+```
+From the description, we can see that there's supposed to be one small pocket. As `storage` is 2, the pocket should have a size of 500ml. The flag `VARSIZE` and the relatively small volume of the armor (`1000ml`) indicates that the pocket is non-rigid. Since the pocket is designed to holds keys and a wallet, 2kg is a reasonable max weight.
+
+```json
+"type": "ARMOR",
+"description": "A suit of armor to be used by dirt bikers and motorcyclists.  It has a small pocket intended for you to put your keys and your wallet, if you had some.",
+"volume": "1000 ml",
+...
+"flags": [ "VARSIZE" ],
+"pocket_data": [
+  {
+    "pocket_type": "CONTAINER",
+    "rigid": true,
+    "max_contains_volume": "500 ml",
+    "max_contains_weight": "2 kg"    
+  }        
+]
+```
+And we're done! Don't forget to delete the `storage` key! For more examples, check the JSON of the items in CDDA.
 
 ---
 ## Gun Pocket Data
@@ -341,6 +408,7 @@ new code for guns without magazines
 "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "Ammo_example": 100 } } ]
 ```
 
+---
 ## Magazine Pocket Data
 add these to "type": `Magazine` **needs updating**
 
@@ -353,25 +421,11 @@ or if you want to include ammo as well as magazines- maybe
 "magazine_well": 1
 ```
 
----
-## Container Pocket data
-This is more complicated **needs updating**
-```JSON
-"pocket_data": [
-  {
-    "pocket_type": "CONTAINER",
-    "rigid": true,
-    "max_contains_volume": "4 L",
-    "max_contains_weight": "30 kg",
-    "moves": 200
-  }
-],
-```
 
 ---
 ## CONTAINER
 The current JSON standards for the `type` `"CONTAINER"` look like this:
-``type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:`
+`type: CONTAINER` has been obsolete for a while now, and having it in JSON causes error messages. The following should easily remove any problems with `type: CONTAINER`:
 
 ```regex
 "type": "CONTAINER"
@@ -391,7 +445,8 @@ With obsolete JSON looking like this:
 "volume": 1
 ```
 The conversion from `number` to `string` is:
-```JSON
+```C++
+"volume": 0 = "volume": "1 ml" // This is intentional.
 "volume": 1  =  "volume": "250 ml"
 "volume": 20  =  "volume": "5000 ml"
 "volume": "10000 ml"  =  "volume: 10 L"
@@ -405,7 +460,26 @@ Unfortunately, updating volume is not as simple as replacing all volume values w
 ```
 And repeat for every individual volume value.
 
-Note: There is, in [JSON tools](https://github.com/CleverRaven/Cataclysm-DDA/tree/master/tools/json_tools), a specific file called CDDAUpdateJsonVolume.js that may be relevant to fixing this.
+Note: I recommend using `barrellength_volume.py`, a python script found in the Tools folder of this modpack.
+
+## folded_volume
+`key` `vehicle_part`:
+```JSON
+"folded_volume": 5
+
+"folded_volume": "1250 ml"
+```
+
+Other: 
+`"type": "GUNMOD"`
+`integral_volume` and `integral_weight` are:
+```JSON
+"integral_volume": 5,
+"integral_weight": 500
+
+"integral_volume": "1250 ml",
+"integral_weight": "500 g"
+```
 
 ---
 # Weight
@@ -419,7 +493,7 @@ With obsolete JSON looking like this:
 "weight": 100
 ```
 The conversion from `number` to `string` is:
-```JSON
+```C++
 "weight": 1  =  "weight": "1 g"
 "weight": 20  =  "weight": "20 g"
 ```
@@ -430,6 +504,8 @@ Unfortunately, updating weight is not as simple as replacing all weight values w
 
 "weight": "$1 g",
 ```
+
+Note: I once again reccommend using a python script, `weight_update.py` to do this. 
 
 ---
 # Effect
@@ -504,3 +580,92 @@ The current JSON standards for `key` `"activity_level"` look like this:
 ```
 
 ---
+# Modinfo
+Every mod requires that they have a `modinfo.json` file at the beginning. Several commonly seen issues and their replacements are:
+```json
+"mod-type": "SUPPLEMENTAL"
+
+"category": "SUPPLEMENTAL"
+```
+```json
+"ident": "mod_id",
+
+"id": "mod_id"
+```
+```json
+"author": "Author1"
+
+"authors": [ "Author1" ],
+```
+
+---
+# Time
+Outdated:
+```JSON
+"type": "construction",
+"time": 100
+...
+"type": "recipe",
+"time": 10000
+```
+
+Replacements:
+
+```JSON
+"type": "construction",
+"time": "100 m"
+...
+"type": "recipe",
+"time": "100 s"
+```
+
+---
+# Martial Arts
+```JSON
+"min_melee": 3
+
+"skill_requirements": [ { "name": "melee", "level": 3 }]
+```
+
+```JSON
+"min_unarmed": 4
+
+"skill_requirements": [ { "name": "unarmed", "level": 4 }]
+```
+```JSON
+"min_unarmed": 3,
+"min_melee": 3
+
+"skill_requirements": [ { "name": "unarmed", "level": 3 }, { "name": "melee", "level": 3 } ]
+```
+If the value of `min_unarmed` or `min_melee` is 0, just delete it.
+
+---
+# Note
+`key` `note` is deprecated and should be replaced with `//`.
+```JSON
+"//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
+
+"//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
+```
+
+---
+# item_group
+Item groups should use `prob` instead of `chance`
+```JSON
+"type": "item_group",
+"items": [ { "item": "suit", "chance": 500 }, { "item": "jumpsuit", "chance": 100 }, { "item": "clown_suit", "chance": 1 } ]
+
+"type": "item_group",
+"items": [ { "item": "suit", "prob": 500 }, { "item": "jumpsuit", "prob": 100 }, { "item": "clown_suit", "prob": 1 } ]
+```
+
+---
+# vehicle_part
+Vehicle Parts should not have the `key` `range`.
+```C++
+"type": "vehicle_part",
+...
+"range": 16 // Delete this.
+```
+
