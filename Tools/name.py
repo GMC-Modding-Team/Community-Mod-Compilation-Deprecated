@@ -2,8 +2,9 @@
 
 # Make sure you have python3 installed.
 # Ensure that the json_formatter is kept in Tools with this script.
+# They must be in the same folder!
 # For Windows:
-# Using command prompt type "python name.py"
+# Using command prompt type "python barrellength_volume.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -17,10 +18,10 @@ def gen_new(path):
         try:
             json_data = json.load(json_file)
         except UnicodeDecodeError:
-            print(f"UnicodeDecodeError in {path}")
+            print("UnicodeDecodeError in {0}".format(path))
             return None
         except json.decoder.JSONDecodeError:
-            print(f"JSONDecodeError in {path}")
+            print("JSONDecodeError in {0}".format(path))
             return None
         for jo in json_data:
             # We only want JsonObjects
@@ -30,8 +31,8 @@ def gen_new(path):
                 continue
             if type(jo['name']) == dict:
                 continue
-            if jo.get('type') not in ['AMMO', 'ARMOR', 'BATTERY', 'bionic',
-                                      'BIONIC_ITEM', 'BIONIC_ITEM', 'BOOK',
+            if jo.get['type'] not in ['AMMO', 'ARMOR', 'BATTERY', 'bionic',
+                                      'BIONIC_ITEM', 'BOOK',
                                       'COMESTIBLE', 'ENGINE', 'fault',
                                       'GENERIC', 'GUN', 'GUNMOD',
                                       'item_action', 'ITEM_CATEGORY',
@@ -60,7 +61,7 @@ def gen_new(path):
 
 
 def change_file(json_dir):
-    for root, directories, filenames in os.walk(f"..\\{json_dir}"):
+    for root, directories, filenames in os.walk("..\\{0}".format(json_dir)):
         for filename in filenames:
             path = os.path.join(root, filename)
             if path.endswith(".json"):
@@ -68,7 +69,7 @@ def change_file(json_dir):
                 if new is not None:
                     with open(path, "w") as jf:
                         json.dump(new, jf, ensure_ascii=False)
-                    os.system(f".\\json_formatter.exe {path}")
+                    os.system(".\\json_formatter.exe {0}".format(path))
 
 
 if __name__ == "__main__":

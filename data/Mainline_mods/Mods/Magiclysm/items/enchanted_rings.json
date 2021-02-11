@@ -2,7 +2,7 @@
   {
     "abstract": "mring_copper",
     "type": "TOOL_ARMOR",
-    "name": { "str": "copper magic ring" },
+    "name": "copper magic ring",
     "description": "A generic copper magic ring.",
     "weight": "4 g",
     "volume": "1 ml",
@@ -20,7 +20,7 @@
   {
     "abstract": "mring_silver",
     "type": "TOOL_ARMOR",
-    "name": { "str": "magic ring" },
+    "name": "magic ring",
     "description": "A generic silver magic ring.",
     "weight": "5 g",
     "volume": "1 ml",
@@ -38,7 +38,7 @@
   {
     "abstract": "mring_gold",
     "type": "TOOL_ARMOR",
-    "name": { "str": "magic ring" },
+    "name": "magic ring",
     "description": "A generic gold magic ring.",
     "weight": "9 g",
     "volume": "1 ml",
@@ -56,7 +56,7 @@
   {
     "abstract": "mring_platinum",
     "type": "TOOL_ARMOR",
-    "name": { "str": "magic ring" },
+    "name": "magic ring",
     "description": "A generic platinum magic ring.",
     "weight": "11 g",
     "volume": "1 ml",
@@ -124,7 +124,7 @@
     "copy-from": "mring_silver",
     "type": "TOOL_ARMOR",
     "id": "mring_dodge_bonus_1",
-    "name": { "str": "eel ring" },
+    "name": "eel ring",
     "price_postapoc": "1500 USD",
     "description": "A thin silver band ring, depicting an eel coiled on itself.  Allows you to dodge an extra attack per turn.",
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 1 } ] } ] }
