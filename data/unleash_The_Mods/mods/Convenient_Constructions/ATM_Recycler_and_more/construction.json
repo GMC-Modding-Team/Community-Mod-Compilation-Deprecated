@@ -5,7 +5,7 @@
     "group": "set_up_atm",
     "category": "FURN",
     "difficulty": 5,
-    "time": "150 m",
+    "time": 150,
     "tools": [ [ [ "oxy_torch", 100 ], [ "welder", 100 ], [ "welder_crude", 100 ], [ "toolset", 100 ] ] ],
     "qualities": [ [ { "id": "SCREW", "level": 1 } ], [ { "id": "WRENCH", "level": 1 } ] ],
     "components": [ [ [ "aaf_atm_module", 1 ] ] ],
@@ -17,7 +17,7 @@
     "group": "install_Recycling_Machine",
     "category": "FURN",
     "difficulty": 5,
-    "time": "150 m",
+    "time": 150,
     "tools": [ [ [ "oxy_torch", 100 ], [ "welder", 100 ], [ "welder_crude", 100 ], [ "toolset", 100 ] ] ],
     "qualities": [ [ { "id": "SCREW", "level": 1 } ], [ { "id": "WRENCH", "level": 1 } ] ],
     "components": [ [ [ "aaf_recycler", 1 ] ] ],
@@ -29,7 +29,7 @@
     "group": "make_an_oven",
     "category": "FURN",
     "difficulty": 3,
-    "time": "100 m",
+    "time": 100,
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
     "components": [
       [ [ "sheet_metal", 2 ] ],
@@ -46,7 +46,7 @@
     "group": "make_a_shutter_and_hoisting_machine",
     "category": "FURN",
     "difficulty": 7,
-    "time": "300 m",
+    "time": 300,
     "tools": [ [ [ "oxy_torch", 150 ], [ "welder", 150 ], [ "welder_crude", 150 ], [ "toolset", 150 ] ] ],
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ], [ { "id": "WRENCH", "level": 1 } ] ],
     "components": [
@@ -64,7 +64,7 @@
     "group": "bury_corpses",
     "category": "FURN",
     "difficulty": 2,
-    "time": "60 m",
+    "time": 60,
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "DIG", "level": 1 } ] ],
     "components": [ [ [ "rock", 5 ] ], [ [ "corpse", 1 ], [ "bone_human", 1 ], [ "bone_tainted", 1 ], [ "bone", 1 ] ] ],
     "post_terrain": "f_grave_head"
@@ -75,7 +75,7 @@
     "group": "erect_gravestone",
     "category": "FURN",
     "difficulty": 3,
-    "time": "100 m",
+    "time": 100,
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
     "components": [ [ [ "rock", 5 ] ] ],
     "post_terrain": "f_grave_stone"
