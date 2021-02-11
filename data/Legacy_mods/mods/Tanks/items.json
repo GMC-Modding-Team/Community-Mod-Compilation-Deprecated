@@ -55,7 +55,7 @@
     "count": 15,
     "effects": [ "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
-    "explosion": { "power": 24, "distance_factor": 0.6, "shrapnel": { "count": 40, "mass": 5, "recovery": 100, "drop": "shrapnel" } }
+    "explosion": { "power": 24, "distance_factor": 0.6, "shrapnel": { "casing_mass": 5, "recovery": 100, "drop": "shrapnel" } }
   },
   {
     "type": "AMMO",
@@ -231,7 +231,7 @@
     "count": 1,
     "effects": [ "CUSTOM_EXPLOSION", "TRAIL" ],
     "explode_in_fire": true,
-    "explosion": { "power": 40, "shrapnel": { "count": 60, "mass": 6, "recovery": 100, "drop": "shrapnel" } }
+    "explosion": { "power": 40, "shrapnel": { "casing_mass": 6, "recovery": 100, "drop": "shrapnel" } }
   },
   {
     "type": "AMMO",

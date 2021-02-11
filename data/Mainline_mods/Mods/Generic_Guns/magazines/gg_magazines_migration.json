@@ -12,9 +12,9 @@
       "ppkmag",
       "sigp230mag",
       "p226mag_12rd_357sig",
-      "p226mag_12rd_357sig",
+      "p226mag_15rd_357sig",
       "p320mag_13rd_357sig",
-      "p320mag_13rd_357sig",
+      "p320mag_14rd_357sig",
       "kp3atmag",
       "fn1910mag",
       "rugerlcpmag",
@@ -185,7 +185,7 @@
       "454_speedloader6",
       "460_speedloader6",
       "500_speedloader5",
-      "8x40_10_mag",
+      "8x40_speedloader5",
       "9mm_speedloader7",
       "marlin_tubeloader"
     ],
@@ -193,7 +193,20 @@
     "replace": "pistol_speedloader"
   },
   {
-    "id": [ "a180mag", "mosquitomag", "ruger1022bigmag", "ruger1022mag", "sw22mag", "j22mag", "wp22mag", "kp32mag" ],
+    "id": [
+      "a180mag",
+      "a180mag1",
+      "a180mag2",
+      "a180mag3",
+      "a180mag4",
+      "mosquitomag",
+      "ruger1022bigmag",
+      "ruger1022mag",
+      "sw22mag",
+      "j22mag",
+      "wp22mag",
+      "kp32mag"
+    ],
     "type": "MIGRATION",
     "replace": "pistol_tiny_mag"
   },
