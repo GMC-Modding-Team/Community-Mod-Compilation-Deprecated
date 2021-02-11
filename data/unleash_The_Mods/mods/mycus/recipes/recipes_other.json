@@ -7,7 +7,7 @@
     "skill_used": "survival",
     "skills_required": [ "cooking", 2 ],
     "difficulty": 3,
-    "time": 48000,
+    "time": "8 m",
     "batch_time_factors": [ 83, 3 ],
     "autolearn": true,
     "qualities": [
@@ -32,7 +32,7 @@
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
     "skills_required": [ "melee", 1 ],
-    "time": 1000,
+    "time": "10 s",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 2 ] ], [ [ "veggy_tainted", 6 ], [ "dry_veggy_tainted", 6 ] ] ]
   },
@@ -44,7 +44,7 @@
     "skill_used": "cooking",
     "difficulty": 2,
     "skills_required": [ "melee", 2 ],
-    "time": 20000,
+    "time": "200 s",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 18 ] ], [ [ "veggy_tainted", 25 ], [ "dry_veggy_tainted", 25 ] ] ]
   },
@@ -56,7 +56,7 @@
     "skill_used": "cooking",
     "difficulty": 4,
     "skills_required": [ [ "melee", 3 ], [ "bashing", 2 ], [ "stabbing", 3 ] ],
-    "time": 120000,
+    "time": "20 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 45 ] ], [ [ "veggy_tainted", 55 ], [ "dry_veggy_tainted", 55 ] ] ]
   },
@@ -68,7 +68,7 @@
     "skill_used": "fabrication",
     "difficulty": 6,
     "skills_required": [ [ "cooking", 4 ], [ "bashing", 2 ] ],
-    "time": 15000,
+    "time": "150 s",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 20 ] ], [ [ "veggy_tainted", 20 ], [ "dry_veggy_tainted", 20 ] ] ]
   },
@@ -80,7 +80,7 @@
     "skill_used": "cooking",
     "skills_required": [ "throw", 1 ],
     "difficulty": 1,
-    "time": 25000,
+    "time": "250 s",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "plant_sac", 18 ] ], [ [ "veggy_tainted", 25 ], [ "dry_veggy_tainted", 25 ] ] ]
@@ -93,7 +93,7 @@
     "skill_used": "cooking",
     "skills_required": [ "gun", 2 ],
     "difficulty": 4,
-    "time": 60000,
+    "time": "10 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 25 ] ], [ [ "veggy_tainted", 35 ], [ "dry_veggy_tainted", 35 ] ] ]
   },
@@ -105,7 +105,7 @@
     "skill_used": "cooking",
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
-    "time": 300000,
+    "time": "50 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 100 ] ], [ [ "veggy_tainted", 130 ], [ "dry_veggy_tainted", 130 ] ] ]
   },
@@ -117,7 +117,7 @@
     "skill_used": "cooking",
     "skills_required": [ "throw", 1 ],
     "difficulty": 1,
-    "time": 30000,
+    "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "plant_sac", 30 ] ], [ [ "veggy_tainted", 30 ], [ "dry_veggy_tainted", 30 ] ] ]
@@ -130,7 +130,7 @@
     "skill_used": "cooking",
     "skills_required": [ "gun", 3 ],
     "difficulty": 4,
-    "time": 30000,
+    "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "plant_sac", 60 ] ], [ [ "veggy_tainted", 60 ], [ "dry_veggy_tainted", 60 ] ] ]
@@ -142,7 +142,7 @@
     "subcategory": "CSC_OTHER_MEDICAL",
     "skill_used": "firstaid",
     "difficulty": 0,
-    "time": 500,
+    "time": "5 s",
     "using": [ [ "filament", 200 ] ],
     "autolearn": true,
     "components": [ [ [ "rag", 3 ], [ "medical_gauze", 1 ] ], [ [ "veggy_tainted", 20 ] ] ]
@@ -154,7 +154,7 @@
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "cooking",
     "difficulty": 1,
-    "time": 12000,
+    "time": "2 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 15 ] ], [ [ "veggy_tainted", 15 ] ] ]
   },
@@ -165,7 +165,7 @@
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "cooking",
     "difficulty": 5,
-    "time": 35000,
+    "time": "350 s",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 30 ] ], [ [ "veggy_tainted", 30 ] ] ]
   },
@@ -176,7 +176,7 @@
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
     "difficulty": 3,
-    "time": 12000,
+    "time": "2 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 15 ] ], [ [ "veggy_tainted", 15 ] ] ]
   },
@@ -187,7 +187,7 @@
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
     "difficulty": 4,
-    "time": 20000,
+    "time": "200 s",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 30 ] ], [ [ "veggy_tainted", 30 ] ] ]
   },
@@ -198,7 +198,7 @@
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
     "difficulty": 4,
-    "time": 18000,
+    "time": "3 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 30 ] ], [ [ "veggy_tainted", 30 ] ] ]
   },
@@ -209,7 +209,7 @@
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
     "difficulty": 4,
-    "time": 18000,
+    "time": "3 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 15 ] ], [ [ "veggy_tainted", 15 ] ] ]
   },
@@ -220,7 +220,7 @@
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
     "difficulty": 8,
-    "time": 120000,
+    "time": "20 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 30 ] ], [ [ "veggy_tainted", 30 ] ] ]
   },
@@ -231,7 +231,7 @@
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
     "difficulty": 2,
-    "time": 18000,
+    "time": "3 m",
     "autolearn": true,
     "components": [ [ [ "plant_sac", 30 ] ], [ [ "veggy_tainted", 30 ] ] ]
   }
