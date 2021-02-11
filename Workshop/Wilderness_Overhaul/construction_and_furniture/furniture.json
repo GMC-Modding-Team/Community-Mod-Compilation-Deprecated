@@ -52,24 +52,24 @@
       "items": [ { "item": "2x4", "amount": 6, "minamount": 2 } ]
     }
   },
-    {
-      "type": "furniture",
-      "id": "f_makeshift_gate",
-      "name": "makeshift gate",
-      "description": "This is a makeshift gate",
-      "symbol": "=",
-      "bgcolor": "brown",
-      "move_cost_mod": 2,
-      "coverage": 50,
-      "required_str": -1,
-      "flags": [ "TRANSPARENT", "NOITEM", "FLAMMABLE_ASH", "THIN_OBSTACLE", "EASY_DECONSTRUCT", "DOOR", "CONNECT_TO_WALL" ],
-      "deconstruct": { "items": [ { "item": "2x4", "amount": 8, "minamount": 8 } ] },
-      "bash": {
-        "str_min": 4,
-        "str_max": 20,
-        "sound": "crack.",
-        "sound_fail": "wham.",
-        "items": [ { "item": "2x4", "amount": 6, "minamount": 2 } ]
+  {
+    "type": "furniture",
+    "id": "f_makeshift_gate",
+    "name": "makeshift gate",
+    "description": "This is a makeshift gate",
+    "symbol": "=",
+    "bgcolor": "brown",
+    "move_cost_mod": 2,
+    "coverage": 50,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "NOITEM", "FLAMMABLE_ASH", "THIN_OBSTACLE", "EASY_DECONSTRUCT", "DOOR", "CONNECT_TO_WALL" ],
+    "deconstruct": { "items": [ { "item": "2x4", "amount": 8, "minamount": 8 } ] },
+    "bash": {
+      "str_min": 4,
+      "str_max": 20,
+      "sound": "crack.",
+      "sound_fail": "wham.",
+      "items": [ { "item": "2x4", "amount": 6, "minamount": 2 } ]
+    }
   }
-}
 ]
