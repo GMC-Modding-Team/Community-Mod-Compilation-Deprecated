@@ -361,7 +361,7 @@
     "responses": [ { "text": "Bye.", "topic": "TALK_DONE" } ]
   },
   {
-    "//": "Base for spellcasting chances. 5m above: extremely low, 5m-3m: very low, 3m-2m: low, 2m-1m: medium, 1m-30s: high, 30s-15s: very high, 15s below: extremely high.",
+    "note": "Base for spellcasting chances. 5m above: extremely low, 5m-3m: very low, 3m-2m: low, 2m-1m: medium, 1m-30s: high, 30s-15s: very high, 15s below: extremely high.",
     "id": "TALK_FRIEND_DMBB_MERC_MAGE_upgrade",
     "dynamic_line": "You want to change my class?\"\n\nThe orb will instantly change the class of this mercenary, and costs 5000 essences for the process. This mercenary turns into:\n\n* Battlemage\nCasts extremely powerful and often devastating Magus spells.\n\n* Necromancer\nCasts Animist spells, which involves reanimation and manipulation of the undead. Zombies will no longer target this mercenary.\n\n\"Be aware that I will no longer be able to cast my former spells after an upgrade.",
     "type": "talk_topic",

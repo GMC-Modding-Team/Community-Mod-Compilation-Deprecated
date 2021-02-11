@@ -4,7 +4,7 @@
 # Ensure that the json_formatter is kept in Tools with this script.
 # They must be in the same folder!
 # For Windows:
-# Using command prompt type "python time_to_string.py"
+# Using command prompt type "python vehicle_code.py"
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
@@ -24,35 +24,31 @@ def gen_new(path):
             print("JSONDecodeError in {0}".format(path))
             return None
         for jo in json_data:
+            locations = {}
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-
-            # These need no conversion.
-            if type(jo.get("time")) == str:
+            # And only vehicles
+            if jo.get("type") != "vehicle":
                 continue
 
-            # It has to have time.
-            if not jo.get("time"):
-                continue
-
-            if jo.get("type") == "construction":
-                # Convert time to minutes.
-                jo["time"] = str(jo["time"]) + " m"
-                change = True
-
-            elif jo.get("type") == "recipe":
-                # Convert time from turns to seconds, then minutes.
-                # Loses the remainder.
-                turns = jo["time"]
-                turns //= 100
-                if turns % 60 == 0:
-                    turns //= 60
-                    jo["time"] = str(turns) + " m"
+            for part in jo["parts"]:
+                if part.get("fuel"):
+                    continue
+                x, y = part["x"], part["y"]
+                item = part.get("part")
+                if part.get("parts"):
+                    if locations.get((x, y)):
+                        locations[(x, y)]["parts"].extend(part["parts"])
+                    else:
+                        locations[(x, y)] = {"x": x, "y": y, "parts":
+                                             part["parts"]}
+                elif (x, y) in locations:
+                    locations[(x, y)]["parts"].append(item)
                 else:
-                    jo["time"] = str(turns) + " s"
-                change = True
-
+                    locations[(x, y)] = {"x": x, "y": y, "parts": [item]}
+            jo["parts"] = [locations[key] for key in locations]
+            change = True
     return json_data if change else None
 
 

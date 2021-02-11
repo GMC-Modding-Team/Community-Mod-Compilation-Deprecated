@@ -33,7 +33,6 @@ Use the `home` key to get to the top.
   * [Magazine Pocket data](#magazine-Pocket-data)
   * [CONTAINER](#container)
 - [Volume](#volume)
-  * [folded_volume](#folded_volume)
 - [Weight](#weight)
 - [Effect](#effect)
 - [Shape](#shape)
@@ -41,7 +40,6 @@ Use the `home` key to get to the top.
   * [Group](#group)
 - [Activity level](#activity-level)
 - [Modinfo](#modinfo)
-- [Time](#time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
@@ -445,8 +443,7 @@ With obsolete JSON looking like this:
 "volume": 1
 ```
 The conversion from `number` to `string` is:
-```C++
-"volume": 0 = "volume": "1 ml" // This is intentional.
+```JSON
 "volume": 1  =  "volume": "250 ml"
 "volume": 20  =  "volume": "5000 ml"
 "volume": "10000 ml"  =  "volume: 10 L"
@@ -462,25 +459,6 @@ And repeat for every individual volume value.
 
 Note: I recommend using `barrellength_volume.py`, a python script found in the Tools folder of this modpack.
 
-## folded_volume
-`key` `vehicle_part`:
-```JSON
-"folded_volume": 5
-
-"folded_volume": "1250 ml"
-```
-
-Other: 
-`"type": "GUNMOD"`
-`integral_volume` and `integral_weight` are:
-```JSON
-"integral_volume": 5,
-"integral_weight": 500
-
-"integral_volume": "1250 ml",
-"integral_weight": "500 g"
-```
-
 ---
 # Weight
 The current JSON standards for `key` `"weight"` look like this:
@@ -493,7 +471,7 @@ With obsolete JSON looking like this:
 "weight": 100
 ```
 The conversion from `number` to `string` is:
-```C++
+```JSON
 "weight": 1  =  "weight": "1 g"
 "weight": 20  =  "weight": "20 g"
 ```
@@ -597,75 +575,3 @@ Every mod requires that they have a `modinfo.json` file at the beginning. Severa
 
 "authors": [ "Author1" ],
 ```
-
----
-# Time
-Outdated:
-```JSON
-"type": "construction",
-"time": 100
-...
-"type": "recipe",
-"time": 10000
-```
-
-Replacements:
-
-```JSON
-"type": "construction",
-"time": "100 m"
-...
-"type": "recipe",
-"time": "100 s"
-```
-
----
-# Martial Arts
-```JSON
-"min_melee": 3
-
-"skill_requirements": [ { "name": "melee", "level": 3 }]
-```
-
-```JSON
-"min_unarmed": 4
-
-"skill_requirements": [ { "name": "unarmed", "level": 4 }]
-```
-```JSON
-"min_unarmed": 3,
-"min_melee": 3
-
-"skill_requirements": [ { "name": "unarmed", "level": 3 }, { "name": "melee", "level": 3 } ]
-```
-If the value of `min_unarmed` or `min_melee` is 0, just delete it.
-
----
-# Note
-`key` `note` is deprecated and should be replaced with `//`.
-```JSON
-"//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
-
-"//": "some arbitrary and possibly humorous text that I want whoever reads this JSON to know."
-```
-
----
-# item_group
-Item groups should use `prob` instead of `chance`
-```JSON
-"type": "item_group",
-"items": [ { "item": "suit", "chance": 500 }, { "item": "jumpsuit", "chance": 100 }, { "item": "clown_suit", "chance": 1 } ]
-
-"type": "item_group",
-"items": [ { "item": "suit", "prob": 500 }, { "item": "jumpsuit", "prob": 100 }, { "item": "clown_suit", "prob": 1 } ]
-```
-
----
-# vehicle_part
-Vehicle Parts should not have the `key` `range`.
-```C++
-"type": "vehicle_part",
-...
-"range": 16 // Delete this.
-```
-
