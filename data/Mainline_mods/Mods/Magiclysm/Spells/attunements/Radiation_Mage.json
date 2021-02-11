@@ -2,7 +2,7 @@
   {
     "id": "shortwave",
     "type": "SPELL",
-    "name": "Shortwave",
+    "name": { "str": "Shortwave" },
     "description": "Cook nearby monsters (and yourself to an extent)",
     "valid_targets": [ "hostile", "ground", "self" ],
     "flags": [ "SOMATIC" ],
@@ -26,7 +26,7 @@
   {
     "id": "shortwave_2",
     "type": "SPELL",
-    "name": "Shortwave 2",
+    "name": { "str": "Shortwave 2" },
     "description": "Cook nearby monsters (and yourself to an extent)",
     "valid_targets": [ "hostile" ],
     "flags": [ "SOMATIC" ],
@@ -45,7 +45,7 @@
   {
     "id": "gamma_burst",
     "type": "SPELL",
-    "name": "Gamma Burst",
+    "name": { "str": "Gamma Burst" },
     "description": "Cause cell damage to everything in a wide area.  Fast to cast, but does damage slowly.",
     "valid_targets": [ "hostile", "ally" ],
     "flags": [ "NO_LEGS", "NO_HANDS" ],
