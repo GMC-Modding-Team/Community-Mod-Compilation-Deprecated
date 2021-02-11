@@ -1,12 +1,6 @@
 <!---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: bug
-assignees: ''
---->
-<!---
 **Tags**
+`put one of these in the title`
 [Experimental] - normal tags
 [E-3] - only for E Stable
 [BrightNights] - only for Bright nights

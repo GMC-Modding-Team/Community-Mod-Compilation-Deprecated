@@ -2,7 +2,7 @@
   {
     "type": "vehicle_part",
     "id": "v_curtain",
-    "name": "curtain",
+    "name": { "str": "curtain" },
     "symbol": "\"",
     "color": "dark_gray",
     "broken_symbol": "0",
@@ -24,7 +24,7 @@
   {
     "type": "vehicle_part",
     "id": "aisle_curtain",
-    "name": "aisle curtain",
+    "name": { "str": "aisle curtain" },
     "symbol": "\"",
     "color": "dark_gray",
     "broken_symbol": "0",
@@ -51,14 +51,13 @@
   {
     "id": "crane_medium",
     "type": "vehicle_part",
-    "name": "boom crane",
+    "name": { "str": "boom crane" },
     "item": "cantilever_medium",
     "location": "structure",
     "symbol": "=",
     "broken_symbol": "*",
     "color": "light_gray",
     "broken_color": "light_blue",
-    "difficulty": 5,
     "durability": 200,
     "folded_volume": "12500 ml",
     "description": "A rigid steel boom crane.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want jack up the other vehicle to change the its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
