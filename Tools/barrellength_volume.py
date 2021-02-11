@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 # Make sure you have python3 installed.
-# Ensure that the json_formatter is kept in Tools with this script. They must be in the same folder!
+# Ensure that the json_formatter is kept in Tools with this script.
+# They must be in the same folder!
 # For Windows:
 # Using command prompt type "python barrellength_volume.py"
 # For Max OS X or Linux:
@@ -31,7 +32,7 @@ def gen_new(path):
                 volume = jo["volume"]
                 volume *= 250
                 if volume > 10000 and volume % 1000 == 0:
-                    jo["volume"] = str(int(volume/1000)) + " L"
+                    jo["volume"] = str(volume // 1000) + " L"
                 else:
                     jo["volume"] = str(volume) + " ml"
                 change = True

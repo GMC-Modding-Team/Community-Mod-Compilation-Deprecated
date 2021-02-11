@@ -4,8 +4,7 @@
     "looks_like": "glock_17",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "MBA Gyrojet",
-    "name_plural": "MBA Gyrojet",
+    "name": { "str_sp": "MBA Gyrojet" },
     "description": "A product of cold war creativity, the MBA gyrojet was a commercial failure. Original models like this were a collector's item pre-cataclysm.",
     "weight": "820 g",
     "volume": "500 ml",
@@ -30,8 +29,7 @@
     "looks_like": "glock_17",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "TAC Gyrojet",
-    "name_plural": "TAC Gyrojet",
+    "name": { "str_sp": "TAC Gyrojet" },
     "description": "Reworked from an old design, this baby is like an old gyrojet, but it actually works reliably.",
     "weight": "820 g",
     "volume": "500 ml",
@@ -82,8 +80,8 @@
     "durability": 7,
     "min_cycle_recoil": 1350,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
-    "barrel_length": "250 ml",
     "built_in_mods": [ "folding_stock" ],
-    "magazines": [ [ "51_gyro", [ "51_gyro_mag_30", "51_gyro_mag_10", "belt_51_gyro" ] ] ]
+    "magazines": [ [ "51_gyro", [ "51_gyro_mag_30", "51_gyro_mag_10", "belt_51_gyro" ] ] ],
+    "barrel_volume": "250 ml"
   }
 ]
