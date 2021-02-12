@@ -31,7 +31,7 @@
     "name": "Ex-Con",
     "description": "A soldier, mercenary, convict, and now a survivor. Endured eveything life threw at you, the Cataclysm doesn't change a thing.",
     "points": 3,
-    "forced_traits": [ "NIGHTVISION3", "TROGLO2", "PRED3", "LIGHTSTEP" ],
+    "traits": [ "NIGHTVISION3", "TROGLO2", "PRED3", "LIGHTSTEP" ],
     "skills": [ { "level": 3, "name": "survival" }, { "level": 3, "name": "melee" }, { "level": 2, "name": "dodge" } ],
     "items": {
       "both": {
@@ -49,7 +49,7 @@
     "description": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
     "points": -1,
     "effects": [ { "id": "attention", "duration": 100 } ],
-    "forced_traits": [ "SPIRTUAL", "MASOCHIST", "attention" ],
+    "traits": [ "MASOCHIST" ],
     "items": { "both": [ "cloak", "knife_butcher" ] }
   },
   {
@@ -137,7 +137,7 @@
     "name": "Brave Mutant Ninja",
     "description": "Despite your mutations, you've always faced crime with a calm, bravado. Favoring swords & a tactical approach, you've never forgotten your ninjutsu training",
     "points": 2,
-    "forced_traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "NINJUTSU", "DEFT", "LIGHTSTEP" ],
+    "traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "DEFT", "LIGHTSTEP" ],
     "skills": [
       { "level": 3, "name": "melee" },
       { "level": 2, "name": "unarmed" },
@@ -161,7 +161,7 @@
     "name": "Smart Mutant Ninja",
     "description": "While never neglecting your ninjutsu training, you've always leaned more towards your inventive mind, although never one above busting faces in with staves.",
     "points": 2,
-    "forced_traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "NINJUTSU", "INT_UP_2", "LIGHTSTEP" ],
+    "traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "INT_UP_2", "LIGHTSTEP" ],
     "skills": [
       { "level": 1, "name": "melee" },
       { "level": 1, "name": "dodge" },
@@ -185,7 +185,7 @@
     "name": "Tough Mutant Ninja",
     "description": "Tactics & ninjutsu can be useful, however, bashing criminals faces in with brute force and a knife, is just as effective.",
     "points": 2,
-    "forced_traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "NINJUTSU", "TOUGH", "LIGHTSTEP" ],
+    "traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "TOUGH", "LIGHTSTEP" ],
     "skills": [
       { "level": 4, "name": "melee" },
       { "level": 2, "name": "dodge" },
@@ -207,7 +207,7 @@
     "name": "Carefree Mutant Ninja",
     "description": "Grapnel in one hand, pizza in the other, what else could you ask for in life?",
     "points": 2,
-    "forced_traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "NINJUTSU", "GOURMAND", "LIGHTSTEP" ],
+    "traits": [ "SHELL", "AMPHIBIAN", "DEFORMED", "GOURMAND", "LIGHTSTEP" ],
     "skills": [
       { "level": 3, "name": "melee" },
       { "level": 4, "name": "dodge" },
@@ -223,7 +223,7 @@
     "name": "Patient Zero",
     "description": "Surely you weren't the first, but as everything around you went to hell, you never turned...instead somehow adapting. Unfortantly, that hunger for flesh never left.",
     "points": 2,
-    "forced_traits": [
+    "traits": [
       "HUNGER",
       "PAINRESIST",
       "FORGETFUL",
@@ -247,7 +247,7 @@
     "description": "A deformed, plant mutant only the swamp accepts you for who you are. In return you vowed to be it's lone Guardian protecting it fiercely.",
     "points": 2,
     "skills": [ { "level": 3, "name": "survival" } ],
-    "forced_traits": [
+    "traits": [
       "HUNGER",
       "PAINRESIST",
       "FORGETFUL",
@@ -267,7 +267,7 @@
     "name": "Mole Person",
     "description": "Circumstances forced you to find shelter underground years ago, but you've adapted and lived.",
     "points": 2,
-    "forced_traits": [
+    "traits": [
       "HUNGER",
       "PAINRESIST",
       "FORGETFUL",
