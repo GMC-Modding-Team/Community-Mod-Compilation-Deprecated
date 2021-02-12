@@ -56,18 +56,18 @@
     "type": "scenario",
     "id": "missed",
     "copy-from": "missed",
-    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s", "sloc_bank", "pawn", "sloc_gun_store", "sloc_gas_station" ] }
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s", "sloc_bank", "sloc_pawn_shop",, "sloc_gun_store", "sloc_gas_station" ] }
   },
   {
     "type": "scenario",
     "id": "infected",
     "copy-from": "infected",
-    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s", "sloc_bank", "pawn", "sloc_gun_store", "sloc_gas_station" ] }
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s", "sloc_bank", "sloc_pawn_shop",, "sloc_gun_store", "sloc_gas_station" ] }
   },
   {
     "type": "scenario",
     "id": "fire",
     "copy-from": "fire",
-    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s", "sloc_bank", "pawn", "sloc_gun_store", "sloc_gas_station" ] }
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s", "sloc_bank", "sloc_pawn_shop",, "sloc_gun_store", "sloc_gas_station" ] }
   }
 ]
