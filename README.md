@@ -1,7 +1,7 @@
 <!-- https://shields.io/category/build // for updating badges -->
-![Build_Number](https://img.shields.io/badge/Build%3A-%2311458-blue)
-![Total_lines](https://img.shields.io/tokei/lines/github/TheGoatGod/Community-Mod-Compilation)
-![Repo_Size](https://img.shields.io/github/repo-size/TheGoatgod/Community-Mod-Compilation)
+[![Build_Number](https://img.shields.io/badge/Build%3A-%2311458-blue)](https://github.com/CleverRaven/Cataclysm-DDA)
+[![Total_lines](https://img.shields.io/tokei/lines/github/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/graphs/code-frequency)
+[![Repo_Size](https://img.shields.io/github/repo-size/TheGoatgod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/graphs/code-frequency)
 [![Total_Downloads](https://img.shields.io/github/downloads/TheGoatgod/Community-Mod-Compilation/total)](https://github.com/TheGoatGod/Community-Mod-Compilation/releases)
 [![Latest_Release_Downloads](https://img.shields.io/github/downloads-pre/TheGoatgod/Community-Mod-Compilation/v0.1.4/total)](https://github.com/TheGoatGod/Community-Mod-Compilation/releases)
 [![Discord](https://img.shields.io/discord/682148537752223765?label=Discord)](https://discord.gg/sk8HHF6sMY)\
@@ -9,10 +9,10 @@
 [![Closed_Issues](https://img.shields.io/github/issues-closed-raw/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/issues?q=is%3Aissue+is%3Aclosed)
 [![Open_PR](https://img.shields.io/github/issues-pr-raw/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/pulls)
 [![Closed_PR](https://img.shields.io/github/issues-pr-closed-raw/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/pulls?q=is%3Apr+is%3Aclosed)
-![Contributors_Status](https://img.shields.io/github/contributors-anon/TheGoatGod/Community-Mod-Compilation)\
-![JSON_Style_Check](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/JSON%20style%20check/badge.svg)
-![TOC_Generator](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/TOC%20Generator/badge.svg)
-![Flake8_Python_Linting](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/Flake8%20Python%20linting/badge.svg)
+[![Contributors_Status](https://img.shields.io/github/contributors-anon/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/graphs/contributors)\
+[![JSON_Style_Check](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/JSON%20style%20check/badge.svg)](https://github.com/TheGoatGod/Community-Mod-Compilation/actions?query=workflow%3A%22JSON+style+check%22)
+[![TOC_Generator](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/TOC%20Generator/badge.svg)](https://github.com/TheGoatGod/Community-Mod-Compilation/actions?query=workflow%3A%22TOC+Generator%22)
+[![Flake8_Python_Linting](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/Flake8%20Python%20linting/badge.svg)](https://github.com/TheGoatGod/Community-Mod-Compilation/actions?query=workflow%3A%22Flake8+Python+linting%22)
 
 ![Table_Of_Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheGoatGod&theme=tokyonight)
 
