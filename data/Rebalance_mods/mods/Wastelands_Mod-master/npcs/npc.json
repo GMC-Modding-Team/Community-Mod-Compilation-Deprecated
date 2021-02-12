@@ -17,14 +17,13 @@
     "mission": 7,
     "chat": "TALK_OLD_GUARD_REP",
     "faction": "old_guard",
-    
     "//10": "Mission_offered is based on the enum mission_id in mission.h.  0=MISSION_NULL"
   },
   {
     "type": "npc",
     "id": "gas_merchant",
     "//": "A merchant for the texan gasoline merchants.",
-    "name+": ", Gasoline Merchant",
+    "name_suffix": ", Gasoline Merchant",
     "class": 2,
     "attitude": 0,
     "mission": 3,
@@ -35,7 +34,7 @@
     "type": "npc",
     "id": "gas_guard",
     "//": "A generic guard for the texan gasoline merchants.",
-    "name+": ", Gasoline Caravan Guard",
+    "name_suffix": ", Gasoline Caravan Guard",
     "class": 7,
     "attitude": 0,
     "mission": 7,
