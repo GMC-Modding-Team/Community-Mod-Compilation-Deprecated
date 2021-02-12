@@ -3,7 +3,7 @@
     "type": "region_settings",
     "id": "outback",
     "default_oter": "field",
-    "default_groundcover": { "primary": "t_sand", "ratio": 5, "secondary": "t_searth_test" },
+    "default_groundcover": [ [ "t_region_groundcover", 1 ] ],
     "field_coverage": {
       "percent_coverage": 0.9333,
       "default_ter": "t_shrub",
@@ -69,7 +69,9 @@
     },
     "city": {
       "shop_radius": 60,
+      "shop_sigma": 50,
       "park_radius": 130,
+      "park_sigma": 80,
       "parks": { "park": 4, "pool": 1 },
       "shops": {
         "s_gas": 7,
