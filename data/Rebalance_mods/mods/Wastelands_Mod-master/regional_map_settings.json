@@ -3,15 +3,7 @@
     "type": "region_settings",
     "id": "wastes",
     "default_oter": "field",
-    "default_groundcover": {
-      "//4": "biome settings for generic 'grass_or_dirt' (which is reproduced below",
-      "primary": "t_sand",
-      "//5": "default ter_id on ground",
-      "ratio": 5,
-      "//6": "one_in(n) chance that it becomes...",
-      "secondary": "t_searth_test",
-      "//7": "...this instead"
-    },
+    "default_groundcover": [ [ "t_region_groundcover", 1 ] ],
     "field_coverage": {
       "//8": "biome settings for builtin field mapgen. The values below replicate results of hardcoded 'field' mapgen",
       "percent_coverage": 0.9333,
