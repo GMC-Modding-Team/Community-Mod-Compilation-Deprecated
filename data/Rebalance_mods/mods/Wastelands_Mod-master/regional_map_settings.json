@@ -2,11 +2,7 @@
   {
     "type": "region_settings",
     "id": "wastes",
-    "//1": "identifier, when region_map is in it will determine alternatives ('desert' etc)",
-    "house_basement_chance": 4,
-    "//2": "one_in(n) houses with basements",
     "default_oter": "field",
-    "//3": "default oter_id (anything that isn't a house/road/etc) some become forests",
     "default_groundcover": {
       "//4": "biome settings for generic 'grass_or_dirt' (which is reproduced below",
       "primary": "t_sand",
@@ -97,14 +93,7 @@
         "extras": { "//": "weighted list", "mx_military": 5, "mx_science": 12, "mx_collegekids": 15, "mx_fumarole": 20 }
       }
     },
-    "num_forests": 5,
-    "forest_size_min": 0,
-    "forest_size_max": 5,
-    "swamp_maxsize": 4,
-    "swamp_river_influence": 5,
-    "swamp_spread_chance": 8500,
     "city": {
-      "type": "town",
       "shop_radius": 60,
       "park_radius": 130,
       "parks": { "//": "weighted list for park overmap terrains", "park": 4, "pool": 1 },
