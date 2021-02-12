@@ -7,7 +7,6 @@
     "color": "dark_gray",
     "covers": [ "torso", "arm_l", "arm_r" ],
     "to_hit": 1,
-    "storage": 4,
     "symbol": "[",
     "description": "A tough leather jacket, equipped and armored to deal with the threats of the post-apocalytic world.",
     "price": 12500,
@@ -21,7 +20,12 @@
     "bashing": 0,
     "flags": [ "VARSIZE", "POCKETS", "OUTER" ],
     "coverage": 90,
-    "material_thickness": 4
+    "material_thickness": 4,
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "500 ml", "max_contains_weight": "2 kg", "moves": 80 }
+    ],
   },
   {
     "type": "ARMOR",
@@ -29,7 +33,6 @@
     "name": { "str": "MFP Officer badge" },
     "volume": "3 ml",
     "material_thickness": 0,
-    "storage": 0,
     "description": "A tarnished bronze shield gives an air of authority to the wearer.",
     "weight": "60 g",
     "to_hit": 0,
