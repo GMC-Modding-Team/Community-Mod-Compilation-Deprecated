@@ -1,6 +1,6 @@
-<!---
+---
 name: [Experimental] bugs need fixed
---->
+---
 <!---
 **Tags**
 `put one of these in the title`
@@ -11,6 +11,7 @@ name: [Experimental] bugs need fixed
 [TileSets] - only for Tile Set
 [Fonts] - only for Fonts
 --->
+
 
 **Describe the bug**
 A clear and concise description of what the bug is.
