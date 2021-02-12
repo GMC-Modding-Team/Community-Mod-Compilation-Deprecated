@@ -2,7 +2,6 @@
   {
     "type": "region_settings",
     "id": "outback",
-    "house_basement_chance": 4,
     "default_oter": "field",
     "default_groundcover": { "primary": "t_sand", "ratio": 5, "secondary": "t_searth_test" },
     "field_coverage": {
@@ -68,14 +67,7 @@
       },
       "subway": { "chance": 75, "extras": { "mx_military": 5, "mx_science": 12, "mx_collegekids": 15, "mx_fumarole": 20 } }
     },
-    "num_forests": 5,
-    "forest_size_min": 0,
-    "forest_size_max": 5,
-    "swamp_maxsize": 4,
-    "swamp_river_influence": 5,
-    "swamp_spread_chance": 8500,
     "city": {
-      "type": "town",
       "shop_radius": 60,
       "park_radius": 130,
       "parks": { "park": 4, "pool": 1 },
