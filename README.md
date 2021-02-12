@@ -5,6 +5,10 @@
 ![Repo_Size](https://img.shields.io/github/repo-size/TheGoatgod/Community-Mod-Compilation)
 ![Total_Downloads](https://img.shields.io/github/downloads/TheGoatgod/Community-Mod-Compilation/total)
 ![Latest_Release_Downloads](https://img.shields.io/github/downloads-pre/TheGoatgod/Community-Mod-Compilation/v0.1.4/total)\
+![Open_issues](https://img.shields.io/github/issues-raw/TheGoatGod/Community-Mod-Compilation)
+![Closed_issues](https://img.shields.io/github/issues-closed-raw/TheGoatGod/Community-Mod-Compilation)\
+![Open_PR](https://img.shields.io/github/issues-pr-raw/TheGoatGod/Community-Mod-Compilation)
+![Closed_PR](https://img.shields.io/github/issues-pr-closed-raw/TheGoatGod/Community-Mod-Compilation)\
 ![JSON style check](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/JSON%20style%20check/badge.svg)\
 ![TOC Generator](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/TOC%20Generator/badge.svg)\
 ![Flake8 Python linting](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/Flake8%20Python%20linting/badge.svg)
