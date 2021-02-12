@@ -3,7 +3,7 @@
 [![Total_lines](https://img.shields.io/tokei/lines/github/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/graphs/code-frequency)
 [![Repo_Size](https://img.shields.io/github/repo-size/TheGoatgod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/graphs/code-frequency)
 [![Total_Downloads](https://img.shields.io/github/downloads/TheGoatgod/Community-Mod-Compilation/total)](https://github.com/TheGoatGod/Community-Mod-Compilation/releases)
-[![Latest_Release_Downloads](https://img.shields.io/github/downloads-pre/TheGoatgod/Community-Mod-Compilation/v0.1.4/total)](https://github.com/TheGoatGod/Community-Mod-Compilation/releases)
+[![Latest_Release_Downloads](https://img.shields.io/github/downloads-pre/TheGoatgod/Community-Mod-Compilation/v0.1.4/total)](https://github.com/TheGoatGod/Community-Mod-Compilation/releases/tag/v0.1.4)
 [![Discord](https://img.shields.io/discord/682148537752223765?label=Discord)](https://discord.gg/sk8HHF6sMY)\
 [![Open_Issues](https://img.shields.io/github/issues-raw/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/issues)
 [![Closed_Issues](https://img.shields.io/github/issues-closed-raw/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/issues?q=is%3Aissue+is%3Aclosed)
