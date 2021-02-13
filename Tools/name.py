@@ -27,34 +27,57 @@ def gen_new(path):
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            if not jo.get('name'):
+            if not jo.get("name"):
                 continue
-            if type(jo['name']) == dict:
+            if type(jo["name"]) == dict:
                 continue
-            if jo.get['type'] not in ['AMMO', 'ARMOR', 'BATTERY', 'bionic',
-                                      'BIONIC_ITEM', 'BOOK',
-                                      'COMESTIBLE', 'ENGINE', 'fault',
-                                      'GENERIC', 'GUN', 'GUNMOD',
-                                      'item_action', 'ITEM_CATEGORY',
-                                      'MAGAZINE', 'map_extra', 'martial_art',
-                                      'mission_definition', 'MONSTER',
-                                      'mutation', 'npc_class', 'PET_ARMOR',
-                                      'proficiency', 'skill', 'TOOL',
-                                      'TOOL_ARMOR', 'tool_quality', 'TOOLMOD',
-                                      'vehicle_part', 'vehicle_part_category',
-                                      'vitamin', 'WHEEL', 'SPELL']:
+            if jo.get["type"] not in [
+                "AMMO",
+                "ARMOR",
+                "BATTERY",
+                "bionic",
+                "BIONIC_ITEM",
+                "BOOK",
+                "COMESTIBLE",
+                "ENGINE",
+                "fault",
+                "GENERIC",
+                "GUN",
+                "GUNMOD",
+                "item_action",
+                "ITEM_CATEGORY",
+                "MAGAZINE",
+                "map_extra",
+                "martial_art",
+                "mission_definition",
+                "MONSTER",
+                "mutation",
+                "npc_class",
+                "PET_ARMOR",
+                "proficiency",
+                "skill",
+                "TOOL",
+                "TOOL_ARMOR",
+                "tool_quality",
+                "TOOLMOD",
+                "vehicle_part",
+                "vehicle_part_category",
+                "vitamin",
+                "WHEEL",
+                "SPELL",
+            ]:
                 continue
-            if jo.get('name_plural'):
-                if jo['name'] == jo['name_plural']:
-                    name_obj = {'str_sp': jo['name']}
+            if jo.get("name_plural"):
+                if jo["name"] == jo["name_plural"]:
+                    name_obj = {"str_sp": jo["name"]}
                 else:
-                    name_obj = {'str': jo['name'], 'str_pl': jo['name_plural']}
-                jo['name'] = name_obj
-                del jo['name_plural']
+                    name_obj = {"str": jo["name"], "str_pl": jo["name_plural"]}
+                jo["name"] = name_obj
+                del jo["name_plural"]
                 change = True
             else:
-                name_obj = {'str': jo['name']}
-                jo['name'] = name_obj
+                name_obj = {"str": jo["name"]}
+                jo["name"] = name_obj
                 change = True
 
     return json_data if change else None

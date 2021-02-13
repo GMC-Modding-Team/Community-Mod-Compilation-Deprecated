@@ -41,8 +41,7 @@ def gen_new(path):
                     if locations.get((x, y)):
                         locations[(x, y)]["parts"].extend(part["parts"])
                     else:
-                        locations[(x, y)] = {"x": x, "y": y, "parts":
-                                             part["parts"]}
+                        locations[(x, y)] = {"x": x, "y": y, "parts": part["parts"]}
                 elif (x, y) in locations:
                     locations[(x, y)]["parts"].append(item)
                 else:

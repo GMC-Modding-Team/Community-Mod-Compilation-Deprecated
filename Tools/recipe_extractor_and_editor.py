@@ -18,12 +18,12 @@ storageData = []
 def appender(lis):
     for dict in lis:
         for keyDict, valueList in dict.items():
-            #checks if the value is iterable
-            if hasattr(keyDict, '__iter__'):
+            # checks if the value is iterable
+            if hasattr(keyDict, "__iter__"):
                 if keyDict == "qualities":
                     print("found qualities")
                     for subDict in valueList:
-                        if hasattr(subDict, '__iter__'):
+                        if hasattr(subDict, "__iter__"):
                             for key, value in subDict.items():
                                 if value == "SEW":
                                     storageData.append(dict)
@@ -37,11 +37,11 @@ def increaseSEW(dataList):
     for dict in dataList:
         for keyDict, valueList in dict.items():
             # checks if the value is iterable
-            if hasattr(keyDict, '__iter__'):
+            if hasattr(keyDict, "__iter__"):
                 if keyDict == "qualities":
                     print("found it!")
                     for subDict in valueList:
-                        if hasattr(subDict, '__iter__'):
+                        if hasattr(subDict, "__iter__"):
                             for key, value in enumerate(subDict):
                                 if value == "level":
                                     print("increased SEW level")
@@ -55,7 +55,7 @@ def decreaseTime(dataList):
     for dict in dataList:
         for key, value in dict.items():
             # checks if the value is iterable
-            if hasattr(key, '__iter__'):
+            if hasattr(key, "__iter__"):
                 if key == "time":
                     print("found it!")
                     dict[key] -= int(value * 0.5)
@@ -68,7 +68,7 @@ def changeSubcategory(dataList):
     for dict in dataList:
         for key, value in dict.items():
             # checks if the value is iterable
-            if hasattr(key, '__iter__'):
+            if hasattr(key, "__iter__"):
                 if key == "subcategory":
                     print("found it!")
                     dict[key] = "CSC_SEWING_MACHINE"

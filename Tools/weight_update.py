@@ -28,16 +28,15 @@ def gen_new(path):
             if type(jo) is str:
                 continue
             # And only if they have weight
-            if not jo.get('weight'):
+            if not jo.get("weight"):
                 continue
             # Mapgen uses the wrong type of weight, so we exclude it.
-            elif jo.get('type') in ['mapgen', 'overmap_terrain',
-                                    'mod_tileset']:
+            elif jo.get("type") in ["mapgen", "overmap_terrain", "mod_tileset"]:
                 continue
             # We're only looking for integers.
-            elif isinstance(jo.get('weight'), int):
-                weight = jo['weight']
-                jo['weight'] = str(weight) + ' g'
+            elif isinstance(jo.get("weight"), int):
+                weight = jo["weight"]
+                jo["weight"] = str(weight) + " g"
                 change = True
 
     return json_data if change else None
