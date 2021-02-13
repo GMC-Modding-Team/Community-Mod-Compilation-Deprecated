@@ -1058,7 +1058,7 @@
       "INSECT_BODY",
       "SPIDER_BODY"
     ],
-    "passive_mods": { "dex_mod": 2, "per_mod": 1, "stamina_min": 2 }
+    "passive_mods": { "dex_mod": 2, "per_mod": 1 }
   },
   {
     "type": "mutation",
@@ -1117,7 +1117,7 @@
       "RAT_BODY",
       "SPIDER_BODY"
     ],
-    "passive_mods": { "dex_mod": 1, "stamina_min": 2 },
+    "passive_mods": { "dex_mod": 1 },
     "armor": [ { "parts": "ALL", "bash": 2, "cut": 2 } ]
   },
   {
@@ -1681,7 +1681,7 @@
       { "part": "hand_r", "ignored": 2 },
       { "part": "torso", "ignored": 20 }
     ],
-    "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 1, "elec": 1 } ]
+    "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 1 } ]
   },
   {
     "type": "mutation",
@@ -4223,7 +4223,7 @@
       "FLOWER_HEAD"
     ],
     "prereqs": [ "SNOUT" ],
-    "lead_to": [ "TORT_BODY" ],
+    "changes_to": [ "TORT_BODY" ],
     "category": [ "MUTCAT_TORTOISE" ],
     "restricts_gear": [ "mouth" ],
     "allow_soft_gear": true,
