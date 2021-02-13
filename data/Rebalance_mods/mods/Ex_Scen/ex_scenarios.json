@@ -62,7 +62,6 @@
     "allowed_locs": [ "cathedral_b_NW", "cathedral_b_NE", "cathedral_b_SW", "cathedral_b_SE" ],
     "start_name": "Cathedral",
     "flags": [ "LONE_START" ],
-    "effects": [ { "id": "attention", "duration": 100 } ],
     "professions": [ "Cultist" ],
     "forced_traits": [ "SPIRITUAL", "MASOCHIST" ]
   },
@@ -83,8 +82,8 @@
     "description": "Running an shop during the end of world has its challenges, but its been in the family for generations, and you refuse to be outdone by the cataclysm. Although crazy has become normal, discovering new oddities to sell has never been easier! ",
     "id": "sphorror_scen",
     "points": -2,
-    "allowed_locs": [ "s_antique", "pawn", "s_thrift" ],
-    "start_name": "Antique, Pawn, Thrift Shop",
+    "allowed_locs": [ "s_antique", "sloc_pawn_shop", "s_thrift" ],
+    "start_name": "Antique, Pawn Shop, Thrift Shop",
     "professions": [ "shopkeep" ]
   },
   {

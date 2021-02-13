@@ -8,11 +8,20 @@
     "weight": "3157 g",
     "volume": "2000 ml",
     "covers": [ "torso" ],
-    "storage": 1000,
     "description": "A large blob of nanites with an AI, it actively branches out pseudopods to grasp items held near it and supports them as optimally as possible, including reaching down and forming 'legs' to support itself if needed.",
     "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE" ] },
     "extend": { "flags": [ "BELTED" ] },
-    "coverage": 30
+    "coverage": 30,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "4000 ml",
+        "max_item_volume": "32 ml",
+        "max_contains_weight": "250 kg"
+      }
+    ]
   },
   {
     "id": "nano_container",
