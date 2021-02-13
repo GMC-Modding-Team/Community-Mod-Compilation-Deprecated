@@ -13,6 +13,7 @@
 [![JSON_Style_Check](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/JSON%20style%20check/badge.svg)](https://github.com/TheGoatGod/Community-Mod-Compilation/actions?query=workflow%3A%22JSON+style+check%22)
 [![TOC_Generator](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/TOC%20Generator/badge.svg)](https://github.com/TheGoatGod/Community-Mod-Compilation/actions?query=workflow%3A%22TOC+Generator%22)
 [![Flake8_Python_Linting](https://github.com/TheGoatGod/Community-Mod-Compilation/workflows/Flake8%20Python%20linting/badge.svg)](https://github.com/TheGoatGod/Community-Mod-Compilation/actions?query=workflow%3A%22Flake8+Python+linting%22)
+<a href="https://gitlocalize.com/repo/5745/whole_project?utm_source=badge"> <img src="https://gitlocalize.com/repo/5745/whole_project/badge.svg" /> </a>
 
 ![Table_Of_Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheGoatGod&theme=tokyonight)
 
