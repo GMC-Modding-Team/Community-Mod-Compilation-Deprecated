@@ -10,6 +10,11 @@
 
 import json
 import os
+import logging
+from base_script import change_file
+
+logging.basicConfig(filename="time_to_string.log", level=logging.INFO)
+logging.info('Started logging.')
 
 
 def gen_new(path):
@@ -56,18 +61,6 @@ def gen_new(path):
     return json_data if change else None
 
 
-def change_file(json_dir):
-    for root, directories, filenames in os.walk("..\\{0}".format(json_dir)):
-        for filename in filenames:
-            path = os.path.join(root, filename)
-            if path.endswith(".json"):
-                new = gen_new(path)
-                if new is not None:
-                    with open(path, "w") as jf:
-                        json.dump(new, jf, ensure_ascii=False)
-                    os.system(".\\json_formatter.exe {0}".format(path))
-
-
 if __name__ == "__main__":
     json_dir = input("What directory are the json files in? ")
-    change_file(json_dir)
+    change_file(json_dir, gen_new)
