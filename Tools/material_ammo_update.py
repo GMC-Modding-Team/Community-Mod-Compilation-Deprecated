@@ -27,13 +27,13 @@ def gen_new(path):
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            if type(jo.get('material')) == str:
-                material = jo['material']
-                jo['material'] = [material]
+            if type(jo.get("material")) == str:
+                material = jo["material"]
+                jo["material"] = [material]
                 change = True
-            if type(jo.get('ammo')) == str and jo.get('type') == 'ammo':
-                ammo = jo['ammo']
-                jo['ammo'] = [ammo]
+            if type(jo.get("ammo")) == str and jo.get("type") == "ammo":
+                ammo = jo["ammo"]
+                jo["ammo"] = [ammo]
                 change = True
 
     return json_data if change else None

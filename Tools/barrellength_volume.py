@@ -12,7 +12,7 @@ import json
 import os
 import logging
 
-logging.basicConfig(filename='barrellength_volume.log', format='%(message)s')
+logging.basicConfig(filename="barrellength_volume.log")
 
 
 def gen_new(path):
@@ -20,18 +20,21 @@ def gen_new(path):
     with open(path, "r") as json_file:
         try:
             json_data = json.load(json_file)
-        except UnicodeDecodeError as e:
+        except UnicodeDecodeError:
             logging.exception("\nUnicodeDecodeError in {0}".format(path))
             return None
-        except json.decoder.JSONDecodeError as e:
+        except json.decoder.JSONDecodeError:
             logging.exception("\nJSONDecodeError in {0}".format(path))
             return None
         for jo in json_data:
             # We only want JsonObjects
             if type(jo) is str:
                 continue
-            if type(jo.get("volume")) != str and jo.get("volume") \
-                    and jo.get("type") not in ["sound_effect", "speech"]:
+            if (
+                type(jo.get("volume")) != str
+                and jo.get("volume")
+                and jo.get("type") not in ["sound_effect", "speech"]
+            ):
                 volume = jo["volume"]
                 volume *= 250
                 if volume > 10000 and volume % 1000 == 0:
