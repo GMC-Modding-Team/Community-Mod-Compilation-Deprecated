@@ -10,6 +10,9 @@
 
 import json
 import os
+import logging
+
+logging.basicConfig(filename='barrellength_volume.log', format='%(message)s')
 
 
 def gen_new(path):
@@ -17,11 +20,11 @@ def gen_new(path):
     with open(path, "r") as json_file:
         try:
             json_data = json.load(json_file)
-        except UnicodeDecodeError:
-            print("UnicodeDecodeError in {0}".format(path))
+        except UnicodeDecodeError as e:
+            logging.exception("\nUnicodeDecodeError in {0}".format(path))
             return None
-        except json.decoder.JSONDecodeError:
-            print("JSONDecodeError in {0}".format(path))
+        except json.decoder.JSONDecodeError as e:
+            logging.exception("\nJSONDecodeError in {0}".format(path))
             return None
         for jo in json_data:
             # We only want JsonObjects
