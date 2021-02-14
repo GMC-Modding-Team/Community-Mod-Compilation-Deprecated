@@ -42,6 +42,7 @@ Use the `home` key to get to the top.
 - [Activity level](#activity-level)
 - [Modinfo](#modinfo)
 - [Time](#time)
+- [Unicode Characters](#unicode-characters)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ---
@@ -669,3 +670,10 @@ Vehicle Parts should not have the `key` `range`.
 "range": 16 // Delete this.
 ```
 
+# Unicode Characters
+As a multinational, multilanguage, game, cdda has no issues with unicode characters. However, the python scripts have issues handling them.
+
+This regex will find all non-ascii (unicode) characters, excluding the ellipsis (…).
+```regex
+[^\x00-\x7F…]+
+```
