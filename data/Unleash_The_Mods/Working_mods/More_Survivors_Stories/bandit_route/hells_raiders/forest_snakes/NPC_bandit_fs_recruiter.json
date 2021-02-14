@@ -218,7 +218,7 @@
     "id": "MISSION_bandit_fs_recruiter_2",
     "type": "mission_definition",
     "name": { "str": "Lazy builders" },
-    "description": "Уговори 3 человек приступить к работе над ограждениями.",
+    "description": "Convince 3 people to start work on the fences.",
     "goal": "MGOAL_CONDITION",
     "goal_condition": { "u_has_var": "bandit_camp_helpers", "type": "count", "context": "help_count", "value": "3" },
     "difficulty": 0,
