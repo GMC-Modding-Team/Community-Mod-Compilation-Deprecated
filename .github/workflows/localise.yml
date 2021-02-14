@@ -1,0 +1,38 @@
+name: Localisation
+
+on: pull_requst
+
+jobs: 
+  update-localisation:
+    name: Update Localisation
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        # Comply with git-auto-commit
+        with:
+          ref: ${{ github.head_ref }}
+      
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade orjson
+
+      - name: run update_en_strings.py
+        run: |
+          python ../../locale/update_en_strings.py ../data
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatically update english strings.
+          # This shouldn't matter, but just in case.
+          file_pattern: *.json
+          # Don't give unnecessary credit.
+          commit_author: Author <actions@github.com>
+
