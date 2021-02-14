@@ -35,7 +35,7 @@ def modify_file(path, gen_new):
     new = gen_new(path)
     if new is not None:
         logging.info("Modified file %s", path)
-        with open(path, "w") as jf:
+        with open(path, "w", encoding='utf-8') as jf:
             json.dump(new, jf, ensure_ascii=False)
         subprocess.run(["./json_formatter.exe", path])
     else:
@@ -47,7 +47,7 @@ def load_json(path):
     """Handle errors in json loading.
 
     Use both print and log to make sure the user is informed."""
-    with open(path, "r") as json_file:
+    with open(path, "r", encoding='utf-8') as json_file:
         try:
             json_data = json.load(json_file)
         except UnicodeDecodeError:
