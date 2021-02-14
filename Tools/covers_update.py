@@ -11,62 +11,56 @@
 import json
 import os
 import logging
-from base_script import change_file
+from base_script import change_file, load_json
 
-logging.basicConfig(filename="covers_update.log", level=logging.INFO)
+logging.basicConfig(filename="covers_update.log", level=logging.DEBUG)
 logging.info('Started logging.')
 
 
 def gen_new(path):
     change = False
-    with open(path, "r") as json_file:
-        try:
-            json_data = json.load(json_file)
-        except UnicodeDecodeError:
-            print("UnicodeDecodeError in {0}".format(path))
-            return None
-        except json.decoder.JSONDecodeError:
-            print("JSONDecodeError in {0}".format(path))
-            return None
-        for jo in json_data:
-            # We only want JsonObjects
-            if type(jo) is str:
-                continue
-            # And only if they have coverage
-            if not jo.get("covers"):
-                continue
-            joc = []
-            for bodypart in jo["covers"]:
-                if bodypart.endswith("_EITHER"):
-                    bodypart = bodypart[:-7]
-                    jo["sided"] = True
-                    bodypart = bodypart + "s"
-                if bodypart == "ARMS":
-                    joc.append("arm_l")
-                    joc.append("arm_r")
-                elif bodypart == "EYES":
-                    joc.append("eyes")
-                elif bodypart in ["FEET", "FOOTS"]:
-                    joc.append("foot_l")
-                    joc.append("foot_r")
-                elif bodypart == "HANDS":
-                    joc.append("hand_l")
-                    joc.append("hand_r")
-                elif bodypart == "HEAD":
-                    joc.append("head")
-                elif bodypart == "LEGS":
-                    joc.append("leg_l")
-                    joc.append("leg_r")
-                elif bodypart == "MOUTH":
-                    joc.append("mouth")
-                elif bodypart == "TORSO":
-                    joc.append("torso")
-                else:
-                    joc.append(bodypart)
-            if jo["covers"] == joc:
-                continue
-            jo["covers"] = joc
-            change = True
+    json_data = load_json(path)
+    if json_data is None:
+        return None
+    for jo in json_data:
+        # We only want JsonObjects
+        if type(jo) is str:
+            continue
+        # And only if they have coverage
+        if not jo.get("covers"):
+            continue
+        joc = []
+        for bodypart in jo["covers"]:
+            if bodypart.endswith("_EITHER"):
+                bodypart = bodypart[:-7]
+                jo["sided"] = True
+                bodypart = bodypart + "s"
+            if bodypart == "ARMS":
+                joc.append("arm_l")
+                joc.append("arm_r")
+            elif bodypart == "EYES":
+                joc.append("eyes")
+            elif bodypart in ["FEET", "FOOTS"]:
+                joc.append("foot_l")
+                joc.append("foot_r")
+            elif bodypart == "HANDS":
+                joc.append("hand_l")
+                joc.append("hand_r")
+            elif bodypart == "HEAD":
+                joc.append("head")
+            elif bodypart == "LEGS":
+                joc.append("leg_l")
+                joc.append("leg_r")
+            elif bodypart == "MOUTH":
+                joc.append("mouth")
+            elif bodypart == "TORSO":
+                joc.append("torso")
+            else:
+                joc.append(bodypart)
+        if jo["covers"] == joc:
+            continue
+        jo["covers"] = joc
+        change = True
 
     return json_data if change else None
 
