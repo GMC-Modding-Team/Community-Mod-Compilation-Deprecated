@@ -7,6 +7,7 @@ from stat import S_IXOTH
 # TODO: Make a script that doesn't rely on recreating every file. git?
 PRETTY_PRINT = OPT_APPEND_NEWLINE | OPT_INDENT_2
 
+
 def generate_localisation_file(path: Path):
     # Assume Community-Mod-Compilation/data/.
     # The path is relative, so assume this script is in locale.
