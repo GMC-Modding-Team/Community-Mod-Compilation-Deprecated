@@ -1,4 +1,5 @@
 import os
+import json
 import subprocess
 import logging
 
@@ -40,3 +41,16 @@ def modify_file(path, gen_new):
     else:
         # The average user doesn't care about the files that don't change.
         logging.debug("No change to %s", path)
+
+
+def load_json(path):
+    with open(path, "r") as json_file:
+        try:
+            json_data = json.load(json_file)
+        except UnicodeDecodeError:
+            print("UnicodeDecodeError in {0}".format(path))
+            return None
+        except json.decoder.JSONDecodeError:
+            print("JSONDecodeError in {0}".format(path))
+            return None
+    return json_data
