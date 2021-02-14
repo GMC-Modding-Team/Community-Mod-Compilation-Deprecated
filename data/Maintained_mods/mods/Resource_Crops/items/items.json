@@ -47,7 +47,7 @@
     "count": 100
   },
   {
-		"//": "old name do not use",
+    "//": "old name do not use",
     "id": "rc_spawn_moneycorpse",
     "type": "TOOL",
     "name": "summon money fungus",
@@ -58,12 +58,7 @@
     "price_postapoc": 1000,
     "material": [ "veggy" ],
     "symbol": "$",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "rc_money_fungus",
-      "moves": 50,
-      "difficulty": 100
-    }
+    "use_action": { "type": "place_monster", "monster_id": "rc_money_fungus", "moves": 50, "difficulty": 100 }
   },
   {
     "id": "rc_spawn_moneyfungus",
@@ -76,11 +71,6 @@
     "price_postapoc": 1000,
     "material": [ "veggy" ],
     "symbol": "$",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "rc_money_fungus",
-      "moves": 50,
-      "difficulty": 100
-    }
+    "use_action": { "type": "place_monster", "monster_id": "rc_money_fungus", "moves": 50, "difficulty": 100 }
   }
 ]

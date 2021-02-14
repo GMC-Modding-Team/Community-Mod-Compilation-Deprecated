@@ -9,15 +9,8 @@
     "time": "5 m",
     "autolearn": true,
     "activity_level": "NO_EXERCISE",
-    "qualities": [
-      { "id": "CUT", "level": 1}
-    ],
-    "components": [
-      [
-        [ "dry_rice", 1],
-        [ "rc_rice", 1]
-      ]
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "dry_rice", 1 ], [ "rc_rice", 1 ] ] ],
     "flags": [ "ALLOW ROTTEN" ]
   },
   {
@@ -30,15 +23,9 @@
     "time": "2 m",
     "autolearn": true,
     "activity_level": "NO_EXERCISE",
-    "qualities": [
-      { "id": "HAMMER", "level": 1}
-    ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "components": [
-      [
-        [ "rc_rice", 10]
-      ]
-    ]
+    "components": [ [ [ "rc_rice", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -50,14 +37,8 @@
     "time": "5 m",
     "autolearn": true,
     "activity_level": "NO_EXERCISE",
-    "qualities": [
-      { "id": "CUT", "level": 1}
-    ],
-    "components": [
-      [
-        [ "poppy_bud", 1]
-      ]
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "poppy_bud", 1 ] ] ],
     "flags": [ "ALLOW ROTTEN" ]
   },
   {
@@ -70,9 +51,7 @@
     "difficulty": 2,
     "time": "5 m",
     "autolearn": true,
-    "qualities": [
-      { "id": "CUT", "level": 1 }
-    ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
       [
         [ "stick", 1 ],
