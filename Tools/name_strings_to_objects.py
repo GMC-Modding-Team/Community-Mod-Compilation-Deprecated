@@ -7,8 +7,6 @@
 # For Max OS X or Linux:
 # Swap any "\\" with "/", then run the script as in windows.
 
-import json
-import os
 import logging
 from base_script import change_file, load_json
 
