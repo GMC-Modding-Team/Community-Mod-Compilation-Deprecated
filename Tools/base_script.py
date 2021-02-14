@@ -44,13 +44,18 @@ def modify_file(path, gen_new):
 
 
 def load_json(path):
+    """Handle errors in json loading.
+
+    Use both print and log to make sure the user is informed."""
     with open(path, "r") as json_file:
         try:
             json_data = json.load(json_file)
         except UnicodeDecodeError:
-            print("UnicodeDecodeError in {0}".format(path))
+            print(f"UnicodeDecodeError in {path}")
+            logging.error("UnicodeDecodeError in %s", path)
             return None
         except json.decoder.JSONDecodeError:
             print("JSONDecodeError in {0}".format(path))
+            logging.error("JSONDecodeError in %s", path)
             return None
     return json_data
