@@ -15,12 +15,12 @@ jobs:
     name: "Tagged Release"
     runs-on: "ubuntu-latest"
 
-    steps:
-      name: "Create new release"
-      uses: "marvinpinto/action-automatic-releases@latest"
-      with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: true
-          files: |
-            *.json
-            *.md
+    name: "Create new release"
+
+    uses: "marvinpinto/action-automatic-releases@latest"
+
+    with:
+        prerelease: true
+        files: |
+          *.json
+          *.md
