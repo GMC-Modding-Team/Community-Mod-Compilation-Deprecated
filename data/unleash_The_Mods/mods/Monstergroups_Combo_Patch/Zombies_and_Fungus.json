@@ -2,7 +2,7 @@
   {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
-    "_comment": "Poracomp+Nechronica+Bandit+PK+Dinomod",
+    "//": "Poracomp+Nechronica+Bandit+PK+Dinomod",
     "auto_total": true,
     "default": "mon_null",
     "monsters": [
@@ -251,7 +251,7 @@
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE_MID",
     "//": "PKs Mid spawn list.  After the threshold for the formula in Group_Zom is reached, this list should start to take over.",
-    "_comment": "Porawep+Nechronica+Bandit+(Cata++)+PK+Dinomod",
+    "//": "Porawep+Nechronica+Bandit+(Cata++)+PK+Dinomod",
     "default": "mon_zombie_pk",
     "monsters": [
       { "monster": "mon_MutEx_zombie_brute", "freq": 15, "cost_multiplier": 20, "pack_size": [ 2, 5 ] },
@@ -474,7 +474,7 @@
   {
     "type": "monstergroup",
     "name": "GROUP_MAYBE_ZOMBIE",
-    "_comment": "Vampstuff+Bandit+PK+Dinomod",
+    "//": "Vampstuff+Bandit+PK+Dinomod",
     "auto_total": true,
     "default": "mon_null",
     "monsters": [
@@ -561,7 +561,7 @@
   {
     "type": "monstergroup",
     "name": "GROUP_FUNGI",
-    "_comment": "(Cata++)+PK",
+    "//": "(Cata++)+PK",
     "auto_total": true,
     "default": "mon_fungus_boil",
     "monsters": [
@@ -614,7 +614,7 @@
   {
     "type": "monstergroup",
     "name": "GROUP_FUNGI_TOWER",
-    "_comment": "(Cata++)+PK",
+    "//": "(Cata++)+PK",
     "auto_total": true,
     "default": "mon_fungal_tendril",
     "monsters": [
@@ -658,7 +658,7 @@
   {
     "type": "monstergroup",
     "name": "GROUP_FUNGI_FLOWERS",
-    "_comment": "(Cata++)+PK",
+    "//": "(Cata++)+PK",
     "auto_total": true,
     "default": "mon_fungal_blossom",
     "monsters": [
