@@ -4,21 +4,22 @@ on:
   push:
     tags:
       - "v*"
-
+build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+        git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
 jobs:
   tagged-release:
     name: "Tagged Release"
     runs-on: "ubuntu-latest"
 
     steps:
-      # ...
-      - name: "Build & test"
-        run: |
-          echo "done!"
-
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+      name: "Create new release"
+      uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: true
           files: |
             *.json
