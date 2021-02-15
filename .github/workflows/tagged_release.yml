@@ -15,10 +15,12 @@ jobs:
     name: "Tagged Release"
     runs-on: "ubuntu-latest"
     steps:
-    name: "Create new release"
-    uses: "marvinpinto/action-automatic-releases@latest"
-    with:
-      prerelease: true
-      files: |
-        *.json
-        *.md
+    - name: "Create a new release"
+        run: |
+          echo "done!"
+    - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          prerelease: true
+          files: |
+            *.json
+            *.md
