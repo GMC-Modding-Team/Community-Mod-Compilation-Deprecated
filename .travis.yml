@@ -3,6 +3,9 @@ node_js:
   - "4"
 env:
   - CXX=g++-4.8
+steps:
+  - name: install astyle
+    run: sudo apt-get install -y astyle
 addons:
   apt:
     sources:
