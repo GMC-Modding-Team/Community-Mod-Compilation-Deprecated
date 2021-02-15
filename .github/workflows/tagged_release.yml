@@ -22,14 +22,3 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
           prerelease: false
-      - name: Check if it's a tagged release
-        run: |
-          REF=${{ github.ref }}
-          URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/releases/tags/${REF##*/}"
-          StatusCode=$(curl -o -I -L -s -w "%{http_code}" -X GET -G $URL)
-          echo $StatusCode
-          if [["$StatusCode" == 200]]; then
-            echo "This is tagged release!"
-          else
-            echo "This is a tag not release!"
-          fi
