@@ -1,9 +1,11 @@
 name: Localisation
 
-on: pull_requst
+on: pull_request
 
 jobs: 
   update-localisation:
+    # Don't run if this is a draft.
+    if: github.event.pull_request.draft == true
     name: Update Localisation
     runs-on: ubuntu-latest
 
@@ -25,14 +27,15 @@ jobs:
           pip install --upgrade orjson
 
       - name: run update_en_strings.py
+        # TODO: Find a git command that will run on other branches.
         run: |
           python ../../locale/update_en_strings.py ../data
+          git --no-pager diff --name-status $GITHUB_BASE_REF...$GITHUB_SHA | python ../../locale/handle_file_operations.py
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Automatically update english strings.
           # This shouldn't matter, but just in case.
           file_pattern: *.json
-          # Don't give unnecessary credit.
+          # Give blame where it is due.
           commit_author: Author <actions@github.com>
-
