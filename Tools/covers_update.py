@@ -12,7 +12,7 @@ import logging
 from base_script import change_file, load_json
 
 logging.basicConfig(filename="covers_update.log", level=logging.DEBUG)
-logging.info('Started logging.')
+logging.info("Started logging.")
 
 
 def gen_new(path):
