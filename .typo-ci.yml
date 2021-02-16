@@ -2,6 +2,21 @@ dictionaries:
   - en
   - en_GB
 
+excluded_files:
+  - "build-scripts/**/*"
+  - "Src/**/*"
+  - "Tools/**/*"
+  - ".typo-ci.yml"
+  - ".astylerc"
+  - ".flake8"
+  - ".gitignore"
+  - "cmake_uninstall.cmake.in"
+  - "CMakeLists.txt"
+  - "json_blacklist"
+  - "LICENSE"
+  - "Makefile"
+  - "style-json.ps1"
+
 excluded_words:
   - cdda
   - dda
