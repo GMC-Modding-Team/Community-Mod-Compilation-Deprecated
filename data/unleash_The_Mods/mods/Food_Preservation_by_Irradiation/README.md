@@ -18,7 +18,7 @@ So after building the device to irradiate food the survivor would
  - When I've sorted out my other code additions, take a look at getting 'result_mult' to work for non-charged items.
 
 ## Suggested mods:
- - Rechargable Batteries (https://github.com/ProfoundDarkness/cdda-Rechargable-Batteries) which enables small and medium storage batteries to be recharged in the 'battery charger' vehicle part added by Bright Lights mod.
+ - Rechargable Batteries which enables small and medium storage batteries to be recharged in the 'battery charger' vehicle part added by Bright Lights mod.
 
 ## Feedback/thoughts
 The thread at http://smf.cataclysmdda.com/index.php?topic=14647 is a good place to post feedback about the mod.
