@@ -11,6 +11,7 @@ jobs:
       - uses: fabasoad/translation-action@v1.0.0
         id: translation
         with:
+          api_additional_parameter: canadacentral
           provider: microsoft
           lang: 'en-ru'
           source: 'This is awesome project! Thank you.'
