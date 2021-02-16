@@ -17,7 +17,7 @@ It may be wise, then, to suffix each copy of every item in the batch with the ty
 
 As a rule of thumb, it may be wise to prefix each item in your mod with a unique tag, in order to differentiate it from the items from the base game or from other mods.
 
-On top of that, given the somewhat-complex support network of items, it may also be wise to follow a name scheme for the items. the first mod to demostrate the idea, uses the following scheme:
+On top of that, given the somewhat-complex support network of items, it may also be wise to follow a name scheme for the items. the first mod to demonstrate the idea, uses the following scheme:
 
 * `<tag>_<id>` for the desired item
 * `<tag>_<state>_<id>_<platform>`, where:
