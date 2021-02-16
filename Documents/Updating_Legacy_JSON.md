@@ -670,6 +670,7 @@ Vehicle Parts should not have the `key` `range`.
 "range": 16 // Delete this.
 ```
 
+---
 # Unicode Characters
 As a multinational, multilanguage, game, cdda has no issues with unicode characters. However, the python scripts have issues handling them.
 
@@ -677,3 +678,16 @@ This regex will find all non-ascii (unicode) characters, excluding the ellipsis 
 ```regex
 [^\x00-\x7F…]+
 ```
+
+---
+# Price
+`key` `price` should have a `value` `string`
+```C++
+"price": 100,
+"price_postapoc": 1000
+
+"price": "100 cent"
+"price_postapoc": "10 USD" // Can be cent, USD, or kUSD
+```
+
+---
