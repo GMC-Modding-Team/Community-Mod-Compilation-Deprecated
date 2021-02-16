@@ -1,26 +1,29 @@
-<!---
+---
+name: Bug report
+about: Create a report to help us improve mods
+title: "[Experimental]"
+labels: Experimental F, bug
+assignees: TheGoatGod
+
+---
+
 **Tags**
-`put one of these in the title`
+put one of these in the title
 [Experimental] - normal tags
 [E-3] - only for E Stable
 [BrightNights] - only for Bright nights
 [SoundPacks] - only for Sound Packs
 [TileSets] - only for Tile Set
 [Fonts] - only for Fonts
-[Documentation] - only for Documentation
---->
-
-**Name the mod**
-Put the name(s) of affected mod(s) here.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**How to reproduce**
-Include the steps you took to get the bug here.
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-**Solution**
-How you think the bug should be resolved.
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.

@@ -29,7 +29,6 @@
     "color": "light_gray",
     "covers": [ "leg_l", "leg_r" ],
     "to_hit": 0,
-    "storage": 6,
     "symbol": "[",
     "description": "A pair of pants made up of a couple rags sewn together. Has a few pockets.",
     "price": 2000,
@@ -40,8 +39,18 @@
     "phase": "solid",
     "encumbrance": 15,
     "bashing": 0,
-    "flags": [ "VARSIZE", "POCKETS" ],
+    "flags": [ "TARDIS", "VARSIZE", "POCKETS" ],
     "coverage": 95,
-    "material_thickness": 1
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "4000 ml",
+        "max_item_volume": "32 ml",
+        "max_contains_weight": "3750 g"
+      }
+    ]
   }
 ]
