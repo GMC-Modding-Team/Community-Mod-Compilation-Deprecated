@@ -1,5 +1,4 @@
 # cdda-Wilderness_Overhaul
-Original mod can be found in the following link: http://smf.cataclysmdda.com/index.php?topic=9568.0
 
 Original mod by: MormonPartyboat
 
