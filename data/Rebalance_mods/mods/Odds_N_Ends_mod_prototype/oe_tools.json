@@ -32,10 +32,18 @@
     "material": [ "iron" ],
     "symbol": ")",
     "color": "dark_gray",
-    "container_data": { "contains": 400, "watertight": true },
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 3 ], [ "CONTAIN", 1 ] ],
     "use_action": "HEAT_FOOD",
-    "flags": [ "DURABLE_MELEE" ]
+    "flags": [ "DURABLE_MELEE" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "100 L",
+        "max_contains_weight": "250 kg"
+      }
+    ]
   },
   {
     "id": "cauldron_steel",
@@ -44,16 +52,24 @@
     "name": { "str": "steel cauldron (100L)" },
     "description": "A very large pot.  You can smell the crawfish boiling now.",
     "weight": "18590 g",
-    "volume": "100 L",
+    "volume": "125 L",
     "price": 45000,
     "to_hit": -4,
     "bashing": 20,
     "material": [ "steel" ],
     "symbol": ")",
     "color": "light_gray",
-    "container_data": { "contains": 400, "watertight": true },
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 3 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
-    "use_action": "HEAT_FOOD"
+    "use_action": "HEAT_FOOD",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "100 L",
+        "max_contains_weight": "250 kg"
+      }
+    ]
   },
   {
     "id": "mil_theatermap",
