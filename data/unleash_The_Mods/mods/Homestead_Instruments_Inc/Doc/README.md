@@ -4,8 +4,6 @@ Homestead Instruments Inc. (`homestead`) is a [*Cataclysm: Dark Days Ahead*](htt
 
 Homestead Instruments Inc. is used by the following mods:
 
-- [Project APEX](https://github.com/FirebrandCoding/ProjectAPEX)
-- [Private Defense](https://github.com/FirebrandCoding/PrivateDefense)
 
 # Why
 
