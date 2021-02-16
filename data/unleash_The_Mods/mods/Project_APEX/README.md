@@ -4,7 +4,7 @@ Project APEX (`apex`) is a [*Cataclysm: Dark Days Ahead*](http://github.com/clev
 
 It's inspired by the *Crysis* game series. Project APEX's development was prompted by lack of development in [Advanced Gear](https://github.com/Lorith/AdvancedGear-CDDA-Mod), which revolves around a similar idea.
 
-It depends on the base game (`dda`), Aftershock (`aftershock`), and [Homestead Instruments Inc.](https://github.com/FirebrandCoding/HomesteadInstrumentsInc) (`homestead`).
+It depends on the base game (`dda`), Aftershock (`aftershock`), and [Homestead Instruments Inc.] (`homestead`).
 
 # Why
 
@@ -90,7 +90,7 @@ early implementation of the mod's concepts
 
 # Installation
 
-Download the archive attached to the [latest stable release](https://github.com/FirebrandCoding/ProjectAPEX/releases/latest) or download the archive of the repository to get the latest, unstable version.
+Download the archive attached to the or download the archive of the repository to get the latest, unstable version.
 
 Extract the contents of the archive to a separate folder in the `<cataclysm_folder>/<graphics_version>/data/mods/` directory.
 
