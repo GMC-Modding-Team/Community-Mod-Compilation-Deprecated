@@ -86,7 +86,7 @@
 [x] - Kellogg's Krave Choco Roulette 700G
 [x] - Kellogg's Fruit & Fibre Cereal 375G
 [x] - Kellogg's Fruit & Fibre Cereal 700G
-[x] - Kellogg's Wkk Kids Strawbrry Apple & Carrot 350G
+[x] - Kellogg's Wkk Kids strawberry Apple & Carrot 350G
 [x] - Kellogg's Wkk Kids Blueberry & Apple 350G
 [x] - Kellogg's Raisin Wheats 450G
 [x] - Kellogg's Crunchy Nut Clusters Peanut Butter Cereal 525G
