@@ -21,7 +21,7 @@ So after building the device to irradiate food the survivor would
  - Rechargable Batteries which enables small and medium storage batteries to be recharged in the 'battery charger' vehicle part added by Bright Lights mod.
 
 ## Feedback/thoughts
-The thread at http://smf.cataclysmdda.com/index.php?topic=14647 is a good place to post feedback about the mod.
+The thread is a good place to post feedback about the mod.
 
 ### Further work consideration:
  - This last balance pass considered the weight of the goods to be irradiated and spread the cost over batteries and time...
