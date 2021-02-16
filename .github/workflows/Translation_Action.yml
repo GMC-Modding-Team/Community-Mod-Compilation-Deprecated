@@ -11,7 +11,7 @@ jobs:
       - uses: fabasoad/translation-action@v1.0.0
         id: translation
         with:
-          provider: linguatool
+          provider: microsoft
           lang: 'en-ru'
           source: 'This is awesome project! Thank you.'
       - name: Print translation result
