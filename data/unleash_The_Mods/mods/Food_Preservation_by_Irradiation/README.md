@@ -18,7 +18,7 @@ So after building the device to irradiate food the survivor would
  - When I've sorted out my other code additions, take a look at getting 'result_mult' to work for non-charged items.
 
 ## Suggested mods:
- - Rechargable Batteries which enables small and medium storage batteries to be recharged in the 'battery charger' vehicle part added by Bright Lights mod.
+ - Rechargeable Batteries which enables small and medium storage batteries to be recharged in the 'battery charger' vehicle part added by Bright Lights mod.
 
 ## Feedback/thoughts
 The thread is a good place to post feedback about the mod.
