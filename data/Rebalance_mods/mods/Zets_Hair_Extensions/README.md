@@ -2,7 +2,7 @@
 Hehe pun intended. Created to fix the Hairs+ mod for DeadPeopleTileset. Also, the terrible formatting was bugging me :man_shrugging:
 
 # Dependencies
-Requires [DeadPeopleTileset](https://github.com/SomeDeadGuy/Cata-MSX-DeadPeopleTileset). It's a great tileset! Try it out :satisfied:
+Requires [DeadPeopleTileset](https://github.com/SomeDeadGuy/UndeadPeopleTileset). It's a great tileset! Try it out :satisfied:
 
 # Usage Guide
 This mod can be enabled mid-game, however you will need to debug in features for yourself and any existing NPCs. New NPCs will have their own features!
