@@ -12,7 +12,7 @@ import logging
 from base_script import change_file, load_json
 
 logging.basicConfig(filename="barrellength_volume.log", level=logging.INFO)
-logging.info('Started logging.')
+logging.info("Started logging.")
 
 
 def gen_new(path):
