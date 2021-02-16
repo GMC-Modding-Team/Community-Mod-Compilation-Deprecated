@@ -1,4 +1,7 @@
-name: 'First interaction'
+name: First interaction
+
+on: push
+
 steps:
 - uses: actions/first-interaction@v1
   with:
