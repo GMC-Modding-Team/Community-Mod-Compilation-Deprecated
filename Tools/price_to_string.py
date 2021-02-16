@@ -39,7 +39,7 @@ def gen_new(path):
         if type(jo.get("price")) is int:
             jo = convert_price(jo, "price")
             change = True
-        
+
         if type(jo.get("price_postapoc")) is int:
             jo = convert_price(jo, "price_postapoc")
             change = True
