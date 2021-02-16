@@ -1,8 +1,8 @@
 # What
 
-Private Defense (`private_defense`) is a [*Cataclysm: Dark Days Ahead*](http://github.com/cleverRaven/Cataclysm-DDA) mod that adds 3D-printable plastic firearms into the game. 
+Private Defense (`private_defense`) is a [*Cataclysm: Dark Days Ahead*](http://github.com/cleverRaven/Cataclysm-DDA) mod that adds 3D-printable plastic firearms into the game.
 
-It depends on the base game (`dda`) and [Homestead Instruments Inc.](https://github.com/FirebrandCoding/HomesteadInstrumentsInc) (`homestead`).
+It depends on the base game (`dda`) and [Homestead Instruments Inc.] (`homestead`).
 
 # Why
 
