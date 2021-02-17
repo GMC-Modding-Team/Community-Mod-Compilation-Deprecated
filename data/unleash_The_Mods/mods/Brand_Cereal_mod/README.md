@@ -10,6 +10,7 @@
 * [Granola](#granola)\
 * [Porridge](#porridge)\
 * [Porridge pots](#porridge_pots)
+* [Pop tarts](#pop_tarts)
 
 
 ---
@@ -37,7 +38,9 @@
   [/] - create abstract for [Porridge pots](#porridge_pots)
   [ ] - create porridge pots [Porridge pots](#porridge_pots)
   [ ] - implement [Porridge pots](#porridge_pots)
-
+  [ ] - create abstract for [Pop tarts](#pop_tarts)
+  [ ] - create porridge pots [Pop tarts](#pop_tarts)
+  [ ] - implement [Pop tarts](#pop_tarts)
 
 ## Cereal
 
@@ -131,7 +134,6 @@
 [ ] - Jordans Frusli Wild Berry 6x30g
 [ ] - Kellogg's Coco Pops Cereal Bar 6X20G
 [ ] - Kellogg's Frosties Cereal Bars 6X25G
-[ ] - Kellogg's Pop Tarts https://www.kelloggs.com/en_US/brands/pop-tarts-consumer-brand.html 8X48g
 [ ] - Kellogg's Rice Krispie Squares Chocolate 4X36G
 [ ] - Kellogg's Rice Krispie Squares Marshmallow 4X28G
 [ ] - Kellogg's Rice Krispies Cereal Milk Bars 6X20g
@@ -240,3 +242,8 @@
 [ ] - Store brand Instant Oats Golden Syrup Porridge 55G
 [ ] - Store brand Instant Oats Original Porridge 55G
 [ ] - Wicked Kitchen Superseeded Porridge Pot 70G
+
+
+## Pop tarts
+
+[ ] - Kellogg's Pop Tarts https://www.kelloggs.com/en_US/brands/pop-tarts-consumer-brand.html 8X48g
