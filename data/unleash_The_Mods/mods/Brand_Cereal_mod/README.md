@@ -181,22 +181,22 @@
 **can be expanded**
 
 
-[ ] - Fuel 10K Chocolate Loaded Granola 400G
-[ ] - Jordans Crunchy Granola Raisin Almond 750G
-[ ] - Jordans Crunchy Oat Fruit And Nut Granola 750G
-[ ] - Jordans Crunchy Oat Tropical Fruits Granola 750G
-[ ] - Jordans Simply Granola 750G
-[ ] - Jordans Super Nutty Granola 550G
-[ ] - Kellogg's Crunchy Nut Caramelised Granola 380G
-[ ] - Kellogg's Crunchy Nut Fruit And Nut Oat Granola 380G
-[ ] - Kellogg's Crunchy Nut Oat Granola Nut And Chocolate 380G
-[ ] - Lizis High Protein Granola 350G
-[ ] - Lizis Low Sugar Granola 500G
-[ ] - Store brand Fruit And Nut Granola 1Kg
-[ ] - Store brand High Protein Granola 500G
-[ ] - Store brand Honey And Almond Granola 500G
-[ ] - Store brand Super Berry Granola 500G
-[ ] - Store brand Tropical Fruits Granola 1Kg
+[x] - Fuel 10K Chocolate Loaded Granola 400G
+[x] - Jordans Crunchy Granola Raisin Almond 750G
+[x] - Jordans Crunchy Oat Fruit And Nut Granola 750G
+[x] - Jordans Crunchy Oat Tropical Fruits Granola 750G
+[x] - Jordans Simply Granola 750G
+[x] - Jordans Super Nutty Granola 550G
+[x] - Kellogg's Crunchy Nut Caramelised Granola 380G
+[x] - Kellogg's Crunchy Nut Fruit And Nut Oat Granola 380G
+[x] - Kellogg's Crunchy Nut Oat Granola Nut And Chocolate 380G
+[x] - Lizis High Protein Granola 350G
+[x] - Lizis Low Sugar Granola 500G
+[x] - Store brand Fruit And Nut Granola 1Kg
+[x] - Store brand High Protein Granola 500G
+[x] - Store brand Honey And Almond Granola 500G
+[x] - Store brand Super Berry Granola 500G
+[x] - Store brand Tropical Fruits Granola 1Kg
 
 ## Porridge
 **can be expanded**
