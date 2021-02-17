@@ -202,14 +202,14 @@
 **can be expanded**
 
 
-[ ] - Grower's Harvest Porridge Oats 1Kg
-[ ] - Quaker Oat So Simple Apple And Blueberry Porridge 10 X36g
-[ ] - Quaker Oat So Simple Big Bowl Original Porridge 6 X 38.5G 231G
-[ ] - Quaker Oat So Simple Sultana Raisin Apple Porridge 10 X38.5G
-[ ] - Quaker Porridge To Go Golden Syrup 2X55g
-[ ] - Quaker Traditional Rolled Oats Porridge 1Kg
-[ ] - Store brand Organic Porridge 750G
-[ ] - Store brand Scottish Oats Porridge 1Kg
+[x] - Grower's Harvest Porridge Oats 1Kg
+[x] - Quaker Oat So Simple Apple And Blueberry Porridge 10 X36g
+[x] - Quaker Oat So Simple Big Bowl Original Porridge 6 X 38.5G 231G
+[x] - Quaker Oat So Simple Sultana Raisin Apple Porridge 10 X38.5G
+[x] - Quaker Porridge To Go Golden Syrup 2X55g
+[x] - Quaker Traditional Rolled Oats Porridge 1Kg
+[x] - Store brand Organic Porridge 750G
+[x] - Store brand Scottish Oats Porridge 1Kg
 
 
 ## Porridge pots
