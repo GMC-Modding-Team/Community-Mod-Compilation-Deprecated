@@ -84,24 +84,24 @@
 [x] - Nestle Shreddies Original Cereal 675G
 [x] - Quaker Kids Oatie Mix Up Chocolate Cereal 400G
 [x] - Quaker Kids Oatie Mix Up Strawberry Cereal 400G
-[x] - Store brand Bran Flakes cereal 750G
-[x] - Store brand Choco Hoops cereal 375G
-[x] - Store brand Fruit And Fibre cereal 750G
-[x] - Store brand Honey Nut Corn Flakes cereal 500G
-[x] - Store brand Malt Wheats cereal 750G
-[x] - Store brand Pillows With Milk Chocolate Filling cereal 375G
-[x] - Store brand blueberry wheats cereal 500G
-[x] - Store brand honey nut clusters cereal 500g
-[x] - Store brand low fat special flakes cereal 500G
-[x] - Store brand multigrain boulders cereal 325G
-[x] - Store brand multigrain hoops cereal 375G
-[x] - Store brand nut And maple crisp cereal 500G
-[x] - Store brand pillows choco nut cereal 375G
-[x] - Store brand raisin wheats cereal 500G
-[x] - Store brand special flakes red berry cereal 375G
-[x] - Store brand strawberry crisp cereal 500G
-[x] - Store brand wheat biscuits cereal 24 Pack
-[x] - Store brand wheat biscuits cereal 48 Pack
+[x] - Store-Brand Bran Flakes cereal 750G
+[x] - Store-Brand Choco Hoops cereal 375G
+[x] - Store-Brand Fruit And Fibre cereal 750G
+[x] - Store-Brand Honey Nut Corn Flakes cereal 500G
+[x] - Store-Brand Malt Wheats cereal 750G
+[x] - Store-Brand Pillows With Milk Chocolate Filling cereal 375G
+[x] - Store-Brand blueberry wheats cereal 500G
+[x] - Store-Brand honey nut clusters cereal 500g
+[x] - Store-Brand low fat special flakes cereal 500G
+[x] - Store-Brand multigrain boulders cereal 325G
+[x] - Store-Brand multigrain hoops cereal 375G
+[x] - Store-Brand nut And maple crisp cereal 500G
+[x] - Store-Brand pillows choco nut cereal 375G
+[x] - Store-Brand raisin wheats cereal 500G
+[x] - Store-Brand special flakes red berry cereal 375G
+[x] - Store-Brand strawberry crisp cereal 500G
+[x] - Store-Brand wheat biscuits cereal 24 Pack
+[x] - Store-Brand wheat biscuits cereal 48 Pack
 [x] - Weetabix Cereal 12 Pack
 [x] - Weetabix Cereal 24 Pack
 [x] - Weetabix Cereal 48 Pack
@@ -147,20 +147,18 @@
 [ ] - Nature Valley Crunchy Granola Variety Cereal Bars 5 X 42G
 [ ] - Nature Valley Nut Butter Cups Peanut Chocolate 4x140G
 [ ] - Nature Valley Protein Salted Caramel Nut Bars 4X40g
-[ ] - Store brand 5 Chocolate And Caramel Crispy Slice 5X19g
-[ ] - Store brand 5 Chocolate And Raspberry Bars 5x115G
-[ ] - Store brand Apple Fruity Bakes 6x222G
-[ ] - Store brand Chocolate And Caramel Crispy Slice 5x19g
-[ ] - Store brand Chocolate And Raspberry Bars 5x115G
-[ ] - Store brand Coconut And Chocolate Bars 6x180G
-[ ] - Store brand Forest Fruits Yogurt Topped Slices 5x180G
-[ ] - Store brand Peanut Munch Bar 6x192G
-[ ] - Store brand Pumpkin Seeds Almond And Dark Chocolate Bars 5x140G
-[ ] - Store brand Raisin Munch Bar 5x32G
-[ ] - Store brand Salted Caramel Munch Bars 4x192G
-[ ] - Store brand Standard Raisin Crispy Slices 5x218G
-[ ] - Store brand Strawberry Fruity Bakes 6x222G
-[ ] - Store brand Summer Fruits Cereal Bars 5x19G
+[x] - Store-Brand Chocolate And Caramel Crispy Slice 5X19g
+[x] - Store-Brand Chocolate And Raspberry Bars 5x115G
+[x] - Store-Brand Apple Fruity Bakes 6x222G
+[x] - Store-Brand Coconut And Chocolate Bars 6x180G
+[x] - Store-Brand Forest Fruits Yogurt Topped Slices 5x180G
+[x] - Store-Brand Peanut Munch Bar 6x192G
+[x] - Store-Brand Pumpkin Seeds Almond And Dark Chocolate Bars 5x140G
+[x] - Store-Brand Raisin Munch Bar 5x32G
+[x] - Store-Brand Salted Caramel Munch Bars 4x192G
+[x] - Store-Brand Standard Raisin Crispy Slices 5x218G
+[x] - Store-Brand Strawberry Fruity Bakes 6x222G
+[x] - Store-Brand Summer Fruits Cereal Bars 5x19G
 
 
 ## Cereal Drinks
@@ -194,11 +192,11 @@
 [x] - Kellogg's Crunchy Nut Oat Granola Nut And Chocolate 380G
 [x] - Lizis High Protein Granola 350G
 [x] - Lizis Low Sugar Granola 500G
-[x] - Store brand Fruit And Nut Granola 1Kg
-[x] - Store brand High Protein Granola 500G
-[x] - Store brand Honey And Almond Granola 500G
-[x] - Store brand Super Berry Granola 500G
-[x] - Store brand Tropical Fruits Granola 1Kg
+[x] - Store-Brand Fruit And Nut Granola 1Kg
+[x] - Store-Brand High Protein Granola 500G
+[x] - Store-Brand Honey And Almond Granola 500G
+[x] - Store-Brand Super Berry Granola 500G
+[x] - Store-Brand Tropical Fruits Granola 1Kg
 
 ## Porridge
 **can be expanded**
@@ -210,8 +208,8 @@
 [x] - Quaker Oat So Simple Sultana Raisin Apple Porridge 10 X38.5G
 [x] - Quaker Porridge To Go Golden Syrup 2X55g
 [x] - Quaker Traditional Rolled Oats Porridge 1Kg
-[x] - Store brand Organic Porridge 750G
-[x] - Store brand Scottish Oats Porridge 1Kg
+[x] - Store-Brand Organic Porridge 750G
+[x] - Store-Brand Scottish Oats Porridge 1Kg
 
 
 ## Porridge pots
@@ -234,13 +232,13 @@
 [ ] - Quaker Oat So Simple Protein Original Porridge Pot 49G
 [ ] - Quaker Oat So Simple Sweet Cinnamon Porridge Pot 57G
 [ ] - Quaker Protein Golden Syrup Porridge pot 63G
-[ ] - Store brand Free From Gluten Syrup Porridge Pot 55G
-[ ] - Store brand Free From Original Porridge Pot 55G
-[ ] - Store brand Instant Oats Berry Cherry Porridge 55G
-[ ] - Store brand Instant Oats Blueberry Apple Porridge 55G
-[ ] - Store brand Instant Oats Cinnamon Porridge 55G
-[ ] - Store brand Instant Oats Golden Syrup Porridge 55G
-[ ] - Store brand Instant Oats Original Porridge 55G
+[ ] - Store-Brand Free From Gluten Syrup Porridge Pot 55G
+[ ] - Store-Brand Free From Original Porridge Pot 55G
+[ ] - Store-Brand Instant Oats Berry Cherry Porridge 55G
+[ ] - Store-Brand Instant Oats Blueberry Apple Porridge 55G
+[ ] - Store-Brand Instant Oats Cinnamon Porridge 55G
+[ ] - Store-Brand Instant Oats Golden Syrup Porridge 55G
+[ ] - Store-Brand Instant Oats Original Porridge 55G
 [ ] - Wicked Kitchen Superseeded Porridge Pot 70G
 
 
