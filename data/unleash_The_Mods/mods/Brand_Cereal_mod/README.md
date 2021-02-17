@@ -118,35 +118,35 @@
 ## Cereal bars
 
 
-[ ] - Alpen Strawberry With Yogurt Cereal Bar 5X29g
-[ ] - Belvita Soft Filled Chocolate Biscuits 4x250G
-[ ] - Belvita Soft Filled Strawberry Biscuits 4x250G
-[ ] - Cadbury Brunch Bars Raisin 6x32g
-[ ] - Cadbury Brunch Chocolate Chip 6x32G
-[ ] - Go Ahead Apple Bakes 6X35g
-[ ] - Go Ahead Forest Fruit Yogurt Breaks Bars 5x177G
-[ ] - Go Ahead Strawberry Yogurt Breaks Cereal Bars 5x177G
-[ ] - Graze Cocoa And Vanilla Bar 4x30G
-[ ] - Graze Honey And Oat Bar 5x 30G
-[ ] - Graze Lemon And Blueberry Super Bites 4x30g
-[ ] - Jordans Frusli Bar Raisin And Hazelnut 6x30g
-[ ] - Jordans Frusli Blueberry Burst 6x30g
-[ ] - Jordans Frusli Wild Berry 6x30g
-[ ] - Kellogg's Coco Pops Cereal Bar 6X20G
-[ ] - Kellogg's Frosties Cereal Bars 6X25G
-[ ] - Kellogg's Rice Krispie Squares Chocolate 4X36G
-[ ] - Kellogg's Rice Krispie Squares Marshmallow 4X28G
-[ ] - Kellogg's Rice Krispies Cereal Milk Bars 6X20g
-[ ] - Mcvitie Go Ahead Forest Fruit Slices 5X43.5G
-[ ] - Mcvitie Go Ahead Strawberry Bakes 6X35g
-[ ] - Ms Molly's 6 White Chocolate And Strawberry Cereal Bars 5x126G
-[ ] - Ms Molly's Chocolate Chip Cereal Bars 5x126G
-[ ] - Nature Valley Crunchy Granola Canadian Maple Syrup Bar 5X42g
-[ ] - Nature Valley Crunchy Granola Oats And Chocolate Bars 5X42g
-[ ] - Nature Valley Crunchy Granola Oats And Honey 5X42g
-[ ] - Nature Valley Crunchy Granola Variety Cereal Bars 5 X 42G
-[ ] - Nature Valley Nut Butter Cups Peanut Chocolate 4x140G
-[ ] - Nature Valley Protein Salted Caramel Nut Bars 4X40g
+[x] - Alpen Strawberry With Yogurt Cereal Bar 5X29g
+[x] - Belvita Soft Filled Chocolate Biscuits 4x250G
+[x] - Belvita Soft Filled Strawberry Biscuits 4x250G
+[x] - Cadbury Brunch Bars Raisin 6x32g
+[x] - Cadbury Brunch Chocolate Chip 6x32G
+[x] - Go Ahead Apple Bakes 6X35g
+[x] - Go Ahead Forest Fruit Yogurt Breaks Bars 5x177G
+[x] - Go Ahead Strawberry Yogurt Breaks Cereal Bars 5x177G
+[x] - Graze Cocoa And Vanilla Bar 4x30G
+[x] - Graze Honey And Oat Bar 5x 30G
+[x] - Graze Lemon And Blueberry Super Bites 4x30g
+[x] - Jordans Frusli Bar Raisin And Hazelnut 6x30g
+[x] - Jordans Frusli Blueberry Burst 6x30g
+[x] - Jordans Frusli Wild Berry 6x30g
+[x] - Kellogg's Coco Pops Cereal Bar 6X20G
+[x] - Kellogg's Frosties Cereal Bars 6X25G
+[x] - Kellogg's Rice Krispie Squares Chocolate 4X36G
+[x] - Kellogg's Rice Krispie Squares Marshmallow 4X28G
+[x] - Kellogg's Rice Krispies Cereal Milk Bars 6X20g
+[x] - Mcvitie Go Ahead Forest Fruit Slices 5X43.5G
+[x] - Mcvitie Go Ahead Strawberry Bakes 6X35g
+[x] - Ms Molly's 6 White Chocolate And Strawberry Cereal Bars 5x126G
+[x] - Ms Molly's Chocolate Chip Cereal Bars 5x126G
+[x] - Nature Valley Crunchy Granola Canadian Maple Syrup Bar 5X42g
+[x] - Nature Valley Crunchy Granola Oats And Chocolate Bars 5X42g
+[x] - Nature Valley Crunchy Granola Oats And Honey 5X42g
+[x] - Nature Valley Crunchy Granola Variety Cereal Bars 5 X 42G
+[x] - Nature Valley Nut Butter Cups Peanut Chocolate 4x140G
+[x] - Nature Valley Protein Salted Caramel Nut Bars 4X40g
 [x] - Store-Brand Chocolate And Caramel Crispy Slice 5X19g
 [x] - Store-Brand Chocolate And Raspberry Bars 5x115G
 [x] - Store-Brand Apple Fruity Bakes 6x222G
