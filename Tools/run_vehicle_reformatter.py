@@ -2,7 +2,7 @@
 
 import os
 
-for root, directories, filenames in os.walk(r"..\data"):
+for root, directories, filenames in os.walk("..\\data"):
     for filename in filenames:
         path = os.path.join(root, filename)
         if path.endswith("vehicles.json"):

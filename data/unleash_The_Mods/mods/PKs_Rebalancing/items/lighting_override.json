@@ -9,16 +9,9 @@
     "color": "light_red",
     "weight": "128 g",
     "volume": "250 ml",
-    "price": 400,
+    "price": "4 USD",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "flare_nitrate": 300 }, "rigid": true } ],
-    "use_action": {
-      "menu_text": "Strike the striker",
-      "type": "transform",
-      "target": "handflare_act",
-      "active": true,
-      "msg": "You strike your flare and light it."
-    },
-    "flags": [ "NO_UNLOAD" ]
+    "use_action": { "type": "transform", "target": "handflare_act", "active": true, "target_charges": 6, "msg": "You strike your flare." }
   },
   {
     "id": "handflare_act",
