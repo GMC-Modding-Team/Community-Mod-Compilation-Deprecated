@@ -1,3 +1,13 @@
+# **TheGoatGod's Mod Compilation VERSION 0.1.5**
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Description](#Description)
+- [Road map](#road-map)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- https://shields.io/category/build // for updating badges -->
 [![Build_Number](https://img.shields.io/badge/Build%3A-%2311458-blue)](https://github.com/CleverRaven/Cataclysm-DDA)
 [![Total_lines](https://img.shields.io/tokei/lines/github/TheGoatGod/Community-Mod-Compilation)](https://github.com/TheGoatGod/Community-Mod-Compilation/graphs/code-frequency)
@@ -17,12 +27,15 @@
 
 ![Table_Of_Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheGoatGod&theme=tokyonight)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
 
-- [TheGoatGod's Mod Compilation](#thegoatgods-mod-compilation)
+# Description
+Welcome to TheGoatGod's Mod Compilation. Currently contains over 250 mods, 14 maintained mods, 50 rebalance mods, 22 legacy mods, 2 tile sets(legacy working but lacks alot of new items ect...), 49 NO Mods, and 8 sound packs. It is currently, at 0.1.5, not entirely bug free, but it is undergoing constant improvements, and should soon be bug free. Many changes are planned for the future, consolidating mods to reduce the amount of excess, and cleaning up the code (even more!). 
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-# TheGoatGod's Mod Compilation
-Welcome to TheGoatGod's Mod Compilation. Currently contains over 275 mods, 5 tile sets, 40 NO Mods, and several sound packs. It is currently, at 0.08, not entirely bug free, but it is undergoing constant improvements, and should soon be bug free. Many changes are planned for the future, consolidating mods to reduce the amount of excess, and cleaning up the code (even more!).
+# Road map
+
+- [ ] Fix all the mods
+- [ ] start merging mods together
+- [ ] Make a start on mega mod
+
+I hope to start the merging process soon with a bunch of prs. goal is to bring down the amount of mods. you will see name changes to inclue other mods to make it kinda like the bionic package but not one type of item. however food will be diffrent from other mods. it might get abit confueing to begin with. alot of mods will get striped into other mods entirly or by pieces. all unwanted content will go into a "bin" type mod where you can get the stuff that doesnt fit in or im not planning on adding into there big merge into my mega mod for cdda but this will take time and i plan on adding alot of content all round i need to know what im working with to have a direction to start, i have started some addional content mods that will be included i will add more so this will work. i will need testers and will have to make a new git repo for this.
+
