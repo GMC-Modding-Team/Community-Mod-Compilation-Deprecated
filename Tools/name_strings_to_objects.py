@@ -11,7 +11,7 @@ import logging
 from base_script import change_file, load_json
 
 logging.basicConfig(filename="name_strings_to_objects.log", level=logging.INFO)
-logging.info('Started logging.')
+logging.info("Started logging.")
 
 
 def gen_new(path):
