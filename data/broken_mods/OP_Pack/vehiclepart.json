@@ -83,7 +83,7 @@
     "description": "Armor Plating made by Omni Corp. Protects better than their personal armor!",
     "weight": "3 g",
     "volume": "1 ml",
-    "price": 750,
+    "price": "750 cent",
     "to_hit": -1,
     "bashing": 6,
     "breaks_into": [ { "item": "omni_alloy", "count": [ 6, 9 ] } ],
@@ -165,7 +165,7 @@
     "description": "An electrical generator made by Omni Corp. designed to be attached to an engine.",
     "weight": "3 g",
     "volume": "3 ml",
-    "price": 30000
+    "price": "300 USD"
   },
   {
     "id": "omni_frame",
@@ -200,7 +200,7 @@
     "volume": "1 ml",
     "bashing": 15,
     "category": "veh_parts",
-    "price": 4000
+    "price": "40 USD"
   },
   {
     "id": "omni_lamp",
@@ -230,7 +230,7 @@
     "description": "A powerful lamp created by Omni Corp.",
     "weight": "3 g",
     "volume": "3 ml",
-    "price": 175000,
+    "price": "1750 USD",
     "to_hit": -2,
     "bashing": 8,
     "breaks_into": [ { "item": "omni_alloy", "count": [ 6, 9 ] } ],
@@ -273,7 +273,7 @@
     "volume": "1 ml",
     "bashing": 1,
     "category": "veh_parts",
-    "price": 90000
+    "price": "900 USD"
   },
   {
     "type": "GENERIC",
@@ -289,7 +289,7 @@
     "volume": "3 ml",
     "bashing": 5,
     "category": "veh_parts",
-    "price": 90000
+    "price": "900 USD"
   },
   {
     "type": "vehicle_part",
@@ -355,7 +355,7 @@
     "description": "A simple bin with interdimensional space enhancements. Made by Omni Corp.",
     "weight": "1 g",
     "volume": "3 ml",
-    "price": 3500,
+    "price": "35 USD",
     "to_hit": -5,
     "color": "cyan",
     "symbol": "]",
@@ -423,7 +423,7 @@
     ],
     "bashing": 8,
     "category": "veh_parts",
-    "price": 60000,
+    "price": "600 USD",
     "flags": [ "CARGO", "TARDIS", "COVERED" ]
   },
   {
@@ -431,7 +431,7 @@
     "id": "omni_mini_freezer",
     "name": { "str": "Omni Corp. minifreezer" },
     "description": "Compact version of a chest freezer, designed by Omni Corp.",
-    "price": 0,
+    "price": "0 cent",
     "weight": "3 g",
     "volume": "1 ml",
     "symbol": "H",
