@@ -1,0 +1,41 @@
+name: Localisation
+
+on: pull_request
+
+jobs: 
+  update-localisation:
+    # Don't run if this is a draft.
+    if: github.event.pull_request.draft == true
+    name: Update Localisation
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Checkout Git repository
+        uses: actions/checkout@v2
+        # Comply with git-auto-commit
+        with:
+          ref: ${{ github.head_ref }}
+      
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade orjson
+
+      - name: run update_en_strings.py
+        # TODO: Find a git command that will run on other branches.
+        run: |
+          python ../../locale/update_en_strings.py ../data
+          git --no-pager diff --name-status $GITHUB_BASE_REF...$GITHUB_SHA | python ../../locale/handle_file_operations.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatically update english strings.
+          # This shouldn't matter, but just in case.
+          file_pattern: *.json
+          # Give blame where it is due.
+          commit_author: Author <actions@github.com>
